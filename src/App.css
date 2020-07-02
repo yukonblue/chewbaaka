@@ -82,14 +82,17 @@ nav.ui.container .ui.menu .item {
 
 .ui.content.container h1.header {
   font-size: 36px;
-  color: rgb(01, 01, 01);
+  color: #F8F8FF;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .ui.content.container p {
   font-size: 21px;
   line-height: 1.6;
   font-weight: 300;
+  color: #FFFFFF;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .ui.inverted.vertical.segment footer.ui.segment {
