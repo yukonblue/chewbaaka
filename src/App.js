@@ -11,12 +11,13 @@ import React from 'react';
 
 import "semantic-ui-css/semantic.min.css";
 
-// import {  Button, Container, Header, Segment } from 'semantic-ui-react'
+// import { Container, Segment } from 'semantic-ui-react'
 
 import './App.css';
 
 import TopNavBar from './TopNavBar.js'
 import LandingPageGateway from './LandingPageGateway.js'
+import ExploreGateway from './ExploreGateway.js'
 
 class App extends React.Component {
   render() {
@@ -24,6 +25,7 @@ class App extends React.Component {
       <div className="App">
         <TopNavBar/>
         <LandingPageGateway/>
+        <ExploreGateway/>
       </div>
     )
   }
