@@ -21,6 +21,10 @@
   nav.ui.container .ui.menu {
     float: right;
   }
+
+  html {
+		scroll-behavior: smooth;
+	}
 }
 
 .ui.vertical.center.aligned.segment {
