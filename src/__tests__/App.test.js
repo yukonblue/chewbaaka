@@ -11,8 +11,11 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import App from '../App';
 
-test('renders learn react link', () => {
+test('renders homepage', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const mainTitleElement = getByText(/Run cheetah run/i);
+  expect(mainTitleElement).toBeInTheDocument();
+
+  // const mainButtonElement = getByText(/Explore/i);
+  // expect(mainButtonElement).toBeInTheDocument();
 });
