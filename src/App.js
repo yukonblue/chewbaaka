@@ -21,17 +21,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Menu fixed="top">
+        <Menu fixed="top" className="topNavBarMenu">
           <Container>
-            <Menu.Item as="a" header>
+            <Menu.Item as="a" header href="https://cheetah.org">
               <Image
                 size="small"
                 src={logo}
                 style={{ marginRight: "1.5em" }}
               />
             </Menu.Item>
-            <Menu.Item as="a">IUCN Status</Menu.Item>
-            <Menu.Item as="a">CCF</Menu.Item>
+            <Menu.Item as="a" href="https://www.iucnredlist.org/species/219/50649567" target="_blank">IUCN Status</Menu.Item>
           </Container>
         </Menu>
         <Segment inverted vertical textAlign="center" className={this.centerSegmentStyleClassName()}>

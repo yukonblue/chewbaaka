@@ -14,7 +14,7 @@ body {
     margin-top: 12px;
   }
 
-  nav.ui.container .ui.inverted.compact.menu {
+  nav.ui.container .ui.menu {
     float: right;
   }
 }
@@ -23,15 +23,15 @@ body {
   padding-top: 36px;
 }
 
-nav.ui.container .ui.inverted.compact.menu {
-  background-color: rgb(51, 51, 51);
+.ui.menu.topNavBarMenu {
+  background-color: rgba(229, 239, 249, 0.65);
 }
 
-nav.ui.container .ui.inverted.compact.menu .item {
+nav.ui.container .ui.menu .item {
   padding-bottom: 0;
 }
 
-nav.ui.container .ui.inverted.compact.menu .item {
+nav.ui.container .ui.menu .item {
   font-size: 16px;
   padding-left: 0px;
   padding-right: 0px;
@@ -41,16 +41,17 @@ nav.ui.container .ui.inverted.compact.menu .item {
   border-radius: 0;
 }
 
-nav.ui.container .ui.inverted.compact.menu .active.item {
+/* nav.ui.container .ui.menu .active.item {
   background-color: inherit;
   border-bottom-color: rgb(51, 51, 51);
   border-bottom-style: solid;
   border-bottom-width: 2px;
-}
+} */
 
 .ui.inverted.vertical.segment {
   height: 100vh;
   background-size: cover !important;
+  background-position: center; /* Center the image */
 }
 
 .ui.inverted.vertical.segment.centerSegmentStyle1 {
