@@ -11,7 +11,7 @@ import React from 'react';
 
 import "semantic-ui-css/semantic.min.css";
 
-import { Container, Segment } from 'semantic-ui-react'
+// import { Container, Segment } from 'semantic-ui-react'
 
 import ExploreGatewayGrid from './ExploreGatewayGrid'
 
