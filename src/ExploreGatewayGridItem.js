@@ -17,7 +17,7 @@ import './ExploreGatewayGridItem.css';
 
 function ExploreGatewayGridItem(props) {
   return (
-    <Grid.Column>
+    <Grid.Column className="ExploreGatewayGridItemColumn">
       <div className="ExploreGatewayGridItemImageWrapper">
         <a href="cheetah.org" class="ExploreGatewayGridItemImageAnchor">
           <Image

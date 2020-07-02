@@ -7,6 +7,14 @@
  * Updated  : Jul 02, 2020
  */
 
+/* TODO: Refine the styling here
+ */
+
+div.column.ExploreGatewayGridItemColumn {
+  margin: auto -10px;
+  padding: 0px;
+}
+
 div.ExploreGatewayGridItemImageWrapper {
   margin: 20px auto;
 }
