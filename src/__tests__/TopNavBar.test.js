@@ -1,20 +1,20 @@
 /**
- * App.test.js
+ * TopNavBar.test.js
  * Chewbaaka
  *
  * Author   : Tomiko
- * Created  : Jun 30, 2020
- * Updated  : Jul 01, 2020
+ * Created  : Jul 02, 2020
+ * Updated  : Jul 02, 2020
  */
 
 import React from 'react';
 import { render } from '@testing-library/react';
-import App from '../App';
+import TopNavBar from '../TopNavBar';
 
-test('renders homepage', () => {
+test('renders top nav bar', () => {
   // TODO: Refine test case
-  const { getByText } = render(<App />);
-  const mainTitleElement = getByText(/Run cheetah run/i);
+  const { getByText } = render(<TopNavBar />);
+  const mainTitleElement = getByText(/IUCN status/i);
   expect(mainTitleElement).toBeInTheDocument();
 
   // const mainButtonElement = getByText(/Explore/i);
