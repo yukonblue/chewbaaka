@@ -44,7 +44,9 @@ class App extends React.Component {
   centerSegmentStyleClassName() {
     const centerSegmentStyleClassNames = [
       "centerSegmentStyle1",
-      "centerSegmentStyle2"
+      "centerSegmentStyle2",
+      "centerSegmentStyle3",
+      "centerSegmentStyle4",
     ]
 
     const idx = Math.floor(Math.random() * centerSegmentStyleClassNames.length);

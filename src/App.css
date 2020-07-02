@@ -62,6 +62,14 @@ nav.ui.container .ui.menu .item {
   background-image: url('cheetah-mother-and-cubs-on-termite-mound.jpg');
 }
 
+.ui.inverted.vertical.segment.centerSegmentStyle3 {
+  background-image: url('background_CCF_03.jpg');
+}
+
+.ui.inverted.vertical.segment.centerSegmentStyle4 {
+  background-image: url('background_CCF_04.jpg');
+}
+
 .ui.content.container {
   height: 300px;
   position: absolute;
