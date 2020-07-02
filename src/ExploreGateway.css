@@ -1,0 +1,17 @@
+/**
+ * ExploreGateway.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 02, 2020
+ * Updated  : Jul 02, 2020
+ */
+
+/* .ui.container { */
+.outerContainer {
+  /* height: 800px; */
+  /* margin: 20px 0px; */
+  padding: 100px auto;
+  background-color: rgba(239, 239, 239, 1.0);
+  /* background-color: black; */
+}

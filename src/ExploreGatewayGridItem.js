@@ -13,20 +13,20 @@ import "semantic-ui-css/semantic.min.css";
 
 import { Header, Grid, Image } from 'semantic-ui-react'
 
+import './ExploreGatewayGridItem.css';
+
 function ExploreGatewayGridItem(props) {
   return (
     <Grid.Column>
-      <Image
-        centered
-        size="medium"
-        src={props.imageUrl}
-      />
-      <Header as="h2" textAlign="left">{props.title}</Header>
-      {/* <p>
-        {props.content}
-        
-      </p> */}
-      {/* <Button basic>View details &raquo;</Button> */}
+      <div className="ExploreGatewayGridItemImageWrapper">
+        <Image
+          // as="a"
+          size="medium"
+          src={props.imageUrl}
+          className="ExploreGatewayGridItemImage"
+        />
+      </div>
+      <Header as="h2" textAlign="left" className="ExploreGatewayGridItemHeader">{props.title}</Header>
     </Grid.Column>
   )
 }
