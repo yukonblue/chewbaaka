@@ -13,6 +13,8 @@ import { Container, Image, Menu } from 'semantic-ui-react'
 
 import logo from './logo.svg'
 
+import './TopNavBar.css';
+
 class TopNavBar extends React.Component {
   render() {
     return (
