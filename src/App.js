@@ -7,32 +7,21 @@
  * Updated  : Jul 01, 2020
  */
 
-import React, { Component } from 'react';
+import React from 'react';
 
 import "semantic-ui-css/semantic.min.css";
 
-import {  Button, Container, Header, Image, Menu, Segment } from 'semantic-ui-react'
+import {  Button, Container, Header, Segment } from 'semantic-ui-react'
 
 import './App.css';
 
-import logo from './logo.svg'
+import TopNavBar from './TopNavBar.js'
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Menu fixed="top" className="topNavBarMenu">
-          <Container>
-            <Menu.Item as="a" header href="https://cheetah.org">
-              <Image
-                size="small"
-                src={logo}
-                style={{ marginRight: "1.5em" }}
-              />
-            </Menu.Item>
-            <Menu.Item as="a" href="https://www.iucnredlist.org/species/219/50649567" target="_blank">IUCN Status</Menu.Item>
-          </Container>
-        </Menu>
+        <TopNavBar/>
         <Segment inverted vertical textAlign="center" className={this.centerSegmentStyleClassName()}>
           <Container className="content">
             <Header inverted as="h1">
