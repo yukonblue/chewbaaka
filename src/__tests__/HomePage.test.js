@@ -1,19 +1,19 @@
 /**
- * App.test.js
+ * HomePage.test.js
  * Chewbaaka
  *
  * Author   : Tomiko
- * Created  : Jun 30, 2020
- * Updated  : Jul 01, 2020
+ * Created  : Jul 02, 2020
+ * Updated  : Jul 02, 2020
  */
 
 import React from 'react';
 import { render } from '@testing-library/react';
-import App from '../App';
+import HomePage from '../HomePage';
 
-test('renders app', () => {
+test('renders homepage', () => {
   // TODO: Refine test case
-  const { getByText } = render(<App />);
+  const { getByText } = render(<HomePage />);
   const mainTitleElement = getByText(/Run cheetah run/i);
   expect(mainTitleElement).toBeInTheDocument();
 

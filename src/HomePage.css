@@ -1,13 +1,13 @@
 /**
- * App.css
+ * HomePage.css
  * Chewbaaka
  *
  * Author   : Tomiko
- * Created  : Jun 30, 2020
+ * Created  : Jul 02, 2020
  * Updated  : Jul 02, 2020
  */
 
-/* body {
+body {
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: grayscale;
 }
@@ -26,4 +26,4 @@
   nav.ui.container .ui.menu {
     float: right;
   }
-} */
+}

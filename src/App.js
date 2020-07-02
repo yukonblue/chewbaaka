@@ -13,22 +13,14 @@ import "semantic-ui-css/semantic.min.css";
 
 // import { Container, Segment } from 'semantic-ui-react'
 
-import './App.css';
+// import './App.css';
 
-import TopNavBar from './TopNavBar.js'
-import LandingPageGateway from './LandingPageGateway.js'
-import ExploreGateway from './ExploreGateway.js'
-import Footer from './Footer.js'
+import HomePage from './HomePage.js'
 
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <TopNavBar/>
-        <LandingPageGateway/>
-        <ExploreGateway/>
-        <Footer/>
-      </div>
+      <HomePage/>
     )
   }
 }
