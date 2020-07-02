@@ -18,6 +18,7 @@ import './App.css';
 import TopNavBar from './TopNavBar.js'
 import LandingPageGateway from './LandingPageGateway.js'
 import ExploreGateway from './ExploreGateway.js'
+import Footer from './Footer.js'
 
 class App extends React.Component {
   render() {
@@ -26,6 +27,7 @@ class App extends React.Component {
         <TopNavBar/>
         <LandingPageGateway/>
         <ExploreGateway/>
+        <Footer/>
       </div>
     )
   }
