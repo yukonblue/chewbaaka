@@ -19,12 +19,13 @@ function ExploreGatewayGridItem(props) {
   return (
     <Grid.Column>
       <div className="ExploreGatewayGridItemImageWrapper">
-        <Image
-          // as="a"
-          size="medium"
-          src={props.imageUrl}
-          className="ExploreGatewayGridItemImage"
-        />
+        <a href="cheetah.org" class="ExploreGatewayGridItemImageAnchor">
+          <Image
+            size="medium"
+            src={props.imageUrl}
+            className="ExploreGatewayGridItemImage"
+          />
+        </a>
       </div>
       <Header as="h2" textAlign="left" className="ExploreGatewayGridItemHeader">{props.title}</Header>
     </Grid.Column>

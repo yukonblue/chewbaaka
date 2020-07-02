@@ -11,6 +11,10 @@ div.ExploreGatewayGridItemImageWrapper {
   margin: 20px auto;
 }
 
+a.ExploreGatewayGridItemImageAnchor:hover {
+  filter: opacity(60%)
+}
+
 img.ui.medium.image.ExploreGatewayGridItemImage {
   width: 232.5px;
   height: 379.067px;
