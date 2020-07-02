@@ -1,3 +1,12 @@
+/**
+ * App.js
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jun 30, 2020
+ * Updated  : Jul 01, 2020
+ */
+
 import React from 'react';
 import logo from './logo.svg';
 import { Button } from 'semantic-ui-react'
