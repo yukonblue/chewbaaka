@@ -11,25 +11,30 @@ import React, { Component } from 'react';
 
 import "semantic-ui-css/semantic.min.css";
 
-import { Button, Container, Header, Menu, Segment } from 'semantic-ui-react'
+import {  Button, Container, Header, Image, Menu, Segment } from 'semantic-ui-react'
 
 import './App.css';
+
+import logo from './logo.svg'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Segment inverted vertical textAlign="center" className={this.centerSegmentStyleClassName()}>
-          <Container as="nav">
-            <Header inverted as="h1">
-              Chewbaaka
-            </Header>
-            <Menu borderless compact inverted>
-              {/* <Menu.Item active>Home</Menu.Item> */}
-              <Menu.Item>IUCN status</Menu.Item>
-              <Menu.Item>CCF</Menu.Item>
-            </Menu>
+        <Menu fixed="top">
+          <Container>
+            <Menu.Item as="a" header>
+              <Image
+                size="small"
+                src={logo}
+                style={{ marginRight: "1.5em" }}
+              />
+            </Menu.Item>
+            <Menu.Item as="a">IUCN Status</Menu.Item>
+            <Menu.Item as="a">CCF</Menu.Item>
           </Container>
+        </Menu>
+        <Segment inverted vertical textAlign="center" className={this.centerSegmentStyleClassName()}>
           <Container className="content">
             <Header inverted as="h1">
               Run cheetah run
@@ -40,9 +45,9 @@ class App extends Component {
             </p>
             <Button size="huge">Explore</Button>
           </Container>
-          {/* <Segment inverted vertical as="footer">
-            by @Tomiko.
-          </Segment> */}
+            {/* <Segment inverted vertical as="footer">
+              by @Tomiko.
+            </Segment> */}
         </Segment>
       </div>
     )
