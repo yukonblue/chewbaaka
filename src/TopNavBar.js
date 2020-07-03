@@ -28,6 +28,7 @@ class TopNavBar extends React.Component {
             />
           </Menu.Item>
         <Menu.Item as="a" href="https://www.iucnredlist.org/species/219/50649567" target="_blank">IUCN Status</Menu.Item>
+        <Menu.Item as="a" href="https://wildnet.org/wildlife-programs/cheetah-namibia/" target="_blank">Wildlife Conservation Network</Menu.Item>
         </Container>
       </Menu>
     )
