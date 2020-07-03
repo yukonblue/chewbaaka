@@ -13,10 +13,10 @@ import "semantic-ui-css/semantic.min.css";
 
 import './HomePage.css';
 
-import TopNavBar from './TopNavBar.js'
+import TopNavBar from '../shared/TopNavBar.js'
 import LandingPageGateway from './LandingPageGateway.js'
 import ExploreGateway from './ExploreGateway.js'
-import Footer from './Footer.js'
+import Footer from '../shared/Footer.js'
 
 class HomePage extends React.Component {
   render() {

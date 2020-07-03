@@ -15,7 +15,7 @@ import "semantic-ui-css/semantic.min.css";
 
 // import './App.css';
 
-import HomePage from './HomePage.js'
+import HomePage from './components/homepage/HomePage'
 
 class App extends React.Component {
   render() {

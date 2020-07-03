@@ -11,7 +11,7 @@ import React from 'react';
 
 import { Container, Image, Menu } from 'semantic-ui-react'
 
-import logo from './logo.svg'
+import logo from '../../logo.svg'
 
 import './TopNavBar.css';
 

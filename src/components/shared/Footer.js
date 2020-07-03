@@ -13,7 +13,7 @@ import "semantic-ui-css/semantic.min.css";
 
 import { Container, Grid, Header, Image, List, Segment } from 'semantic-ui-react'
 
-import logo from './cheetah-conservation-fund-logo.jpg'
+import logo from '../../cheetah-conservation-fund-logo.jpg'
 
 function Footer() {
   return (
