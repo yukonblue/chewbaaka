@@ -11,8 +11,6 @@ import React from 'react';
 
 import "semantic-ui-css/semantic.min.css";
 
-// import { Header, Segment, Container } from 'semantic-ui-react'
-
 import ExploreGatewayIntro from './ExploreGatewayIntro'
 import ExploreGatewayGrid from './ExploreGatewayGrid'
 
@@ -23,6 +21,7 @@ function ExploreGateway() {
     <div id="ExploreGateway" className="outerContainer">
       <ExploreGatewayIntro/>
       <ExploreGatewayGrid/>
+      <br/>
     </div>
   )
 }

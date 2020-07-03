@@ -69,10 +69,10 @@
   text-shadow: 2px 2px 4px #000000;
 }
 
-.ui.content.container p {
+.ui.content.container p.subtitle {
   font-size: 21px;
   line-height: 1.6;
-  font-weight: 300;
+  font-weight: 400;
   color: #FFFFFF;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 2px 2px 4px #000000;

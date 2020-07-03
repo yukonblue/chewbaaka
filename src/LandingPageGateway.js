@@ -23,17 +23,14 @@ class LandingPageGateway extends React.Component {
           <Header inverted as="h1">
             Run cheetah run
           </Header>
-          <p>
+          <p className="subtitle">
             Visit and explore CCF's <b>Cheetah Museum</b> at the
             comfort of your home.
           </p>
           <a href="#ExploreGateway">
-            <Button size="huge">Explore</Button>
+            <Button basic inverted size="huge">Explore</Button>
           </a>
         </Container>
-          {/* <Segment inverted vertical as="footer">
-            by @Tomiko.
-          </Segment> */}
       </Segment>
     )
   }
