@@ -23,8 +23,8 @@
   }
 
   html {
-		scroll-behavior: smooth;
-	}
+    scroll-behavior: smooth;
+  }
 }
 
 .ui.vertical.center.aligned.segment {

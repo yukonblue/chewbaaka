@@ -4,15 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 02, 2020
+ * Updated  : Jul 03, 2020
  */
 
 div.ExploreGatewayIntro {
   background-color: rgba(239, 239, 239, 1.0);
 }
-
-/* h1.ui.left.aligned.header {
-} */
 
 p.JoinTheRace {
   font-size: 24px;
@@ -31,9 +28,6 @@ span.SafeTheCheetah:hover {
   font-weight: bold;
   color: rgb(255,149,0);
 }
-
-/* div.ui.container.two.column.grid {
-} */
 
 div.centerGridLeftColumnStyle {
   display: block;
