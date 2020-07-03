@@ -8,20 +8,15 @@
  */
 
 div.ExploreGatewayIntro {
-  /* height: 300px; */
-  /* margin: 20px 0px; */
-  /* padding: 100px auto; */
   background-color: rgba(239, 239, 239, 1.0);
 }
 
-h1.ui.left.aligned.header {
-  /* width: 800px; */
-}
+/* h1.ui.left.aligned.header {
+} */
 
 p.JoinTheRace {
   font-size: 24px;
   font-weight: bold;
-  
 }
 
 span.SafeTheCheetah {
@@ -36,11 +31,8 @@ span.SafeTheCheetah:hover {
   color: rgb(255,149,0);
 }
 
-div.ui.container.two.column.grid {
-/* div.centerGrid { */
-  /* width: 200px; */
-  /* background-color: gray; */
-}
+/* div.ui.container.two.column.grid {
+} */
 
 div.centerGridLeftColumnStyle {
   display: block;
