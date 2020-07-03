@@ -8,15 +8,38 @@
  */
 
 import React from 'react';
-import { render } from '@testing-library/react';
+
+import { render, screen } from '@testing-library/react';
+
 import TopNavBar from '../TopNavBar';
 
 test('renders top nav bar', () => {
-  // TODO: Refine test case
-  const { getByText } = render(<TopNavBar />);
-  const mainTitleElement = getByText(/IUCN status/i);
-  expect(mainTitleElement).toBeInTheDocument();
+  render(<TopNavBar />);
 
-  // const mainButtonElement = getByText(/Explore/i);
-  // expect(mainButtonElement).toBeInTheDocument();
+  // Tests first/main nav bar item.
+  {
+    const navBarItemMainItem = screen.getByTestId('mainNavBarItem');
+    expect(navBarItemMainItem).toBeInTheDocument();
+
+    // Expect main nav bar item to point to CCF site.
+    expect(navBarItemMainItem.href).toBe("https://cheetah.org/");
+  }
+
+  // Tests second nav bar item.
+  {
+    const navBarItemIUCNStatus = screen.getByText(/IUCN status/i);
+    expect(navBarItemIUCNStatus).toBeInTheDocument();
+
+    // Expect this nav bar item point to IUCN Red List page.
+    expect(navBarItemIUCNStatus.href).toBe("https://www.iucnredlist.org/species/219/50649567");
+  }
+
+  // Tests third nav bar item.
+  {
+    const navBarItemWCN = screen.getByText(/Wildlife Conservation Network/i);
+    expect(navBarItemWCN).toBeInTheDocument();
+
+    // Expect this nav bar item point to WCN site.
+    expect(navBarItemWCN.href).toBe("https://wildnet.org/wildlife-programs/cheetah-namibia/");
+  }
 });

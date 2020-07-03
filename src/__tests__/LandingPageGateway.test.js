@@ -8,15 +8,19 @@
  */
 
 import React from 'react';
-import { render } from '@testing-library/react';
+
+import { render, screen } from '@testing-library/react';
+
 import LandingPageGateway from '../LandingPageGateway';
 
 test('renders landing page gateway', () => {
-  // TODO: Refine test case
-  const { getByText } = render(<LandingPageGateway />);
-  const mainTitleElement = getByText(/Run cheetah run/i);
-  expect(mainTitleElement).toBeInTheDocument();
+  render(<LandingPageGateway />);
 
-  // const mainButtonElement = getByText(/Explore/i);
-  // expect(mainButtonElement).toBeInTheDocument();
+  // Tests main title element to be present.
+  const titleElement = screen.getByText("Run cheetah run");
+  expect(titleElement).toBeInTheDocument();
+
+  // Tests subtitle element to be present.
+  const subtitleElement = screen.getByTestId("subtitle");
+  expect(subtitleElement).toBeInTheDocument();
 });

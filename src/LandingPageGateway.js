@@ -23,7 +23,7 @@ class LandingPageGateway extends React.Component {
           <Header inverted as="h1">
             Run cheetah run
           </Header>
-          <p className="subtitle">
+          <p className="subtitle" data-testid="subtitle">
             Visit and explore CCF's <b>Cheetah Museum</b> at the
             comfort of your home.
           </p>

@@ -20,7 +20,7 @@ class TopNavBar extends React.Component {
     return (
       <Menu fixed="top" className="topNavBarMenu">
         <Container>
-          <Menu.Item as="a" header href="https://cheetah.org">
+          <Menu.Item as="a" header href="https://cheetah.org" data-testid="mainNavBarItem">
             <Image
               size="small"
               src={logo}

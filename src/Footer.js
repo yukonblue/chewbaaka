@@ -41,7 +41,7 @@ function Footer() {
               <Header as="h4" inverted>
                 Cheetah Conservation Fund
               </Header>
-              <p>
+              <p data-testid="footerSectionCCF">
                 <a href="https://cheetah.org/" target="_blank" rel=" noopener noreferrer">Cheetah Conservation Fund</a> is a 501(c)(3) nonprofit organization,
                 dedicated to saving the cheetah in the wild and changing
                 the world to be a better place.

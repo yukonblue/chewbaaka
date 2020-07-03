@@ -8,15 +8,28 @@
  */
 
 import React from 'react';
-import { render } from '@testing-library/react';
-import Footer from '../Footer.js';
+
+import { render, screen } from '@testing-library/react';
+
+import Footer from '../Footer';
 
 test('renders global footer', () => {
-  // TODO: Refine test case
-  const { getByText } = render(<Footer />);
-  const mainTitleElement = getByText(/Resources/i);
-  expect(mainTitleElement).toBeInTheDocument();
+  render(<Footer />);
 
-  // const mainButtonElement = getByText(/Explore/i);
-  // expect(mainButtonElement).toBeInTheDocument();
+  // Tests section title with 'Resources' is present.
+  const sectionTitleResources = screen.getByText(/Resources/i);
+  expect(sectionTitleResources).toBeInTheDocument();
+
+  // Tests section title with 'CCF' is present.
+  const sectionElementCCF = screen.getByTestId("footerSectionCCF");
+  expect(sectionElementCCF).toBeInTheDocument();
+
+  // Tests section text.
+  const sectionElementCCFTextContent = sectionElementCCF.textContent;
+  expect(sectionElementCCFTextContent.includes("Cheetah Conservation Fund")).toBeTruthy();
+  expect(sectionElementCCFTextContent.includes("501(c)(3)")).toBeTruthy();
+
+  // Tests disclaimer text to be present.
+  const disclaimerItem = screen.getByText(/This site is not an affiliation of Cheetah Conservation Fund/i);
+  expect(disclaimerItem).toBeInTheDocument();
 });
