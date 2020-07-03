@@ -27,7 +27,7 @@ class LandingPageGateway extends React.Component {
             Visit and explore CCF's <b>Cheetah Museum</b> at the
             comfort of your home.
           </p>
-          <a href="#ExploreGateway">
+          <a href="#Explore">
             <Button basic inverted size="huge">Explore</Button>
           </a>
         </Container>

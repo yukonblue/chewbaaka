@@ -16,7 +16,7 @@ import ExploreGatewayGrid from './ExploreGatewayGrid'
 
 function ExploreGateway() {
   return (
-    <div id="ExploreGateway" className="outerContainer" data-testid="ExploreGatewayComponentTestId">
+    <div id="Explore" data-testid="ExploreGatewayComponentTestId">
       <ExploreGatewayIntro/>
       <ExploreGatewayGrid/>
       <br/>
