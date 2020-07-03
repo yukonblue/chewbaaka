@@ -19,5 +19,19 @@ test('renders homepage', () => {
   const mainTitleElement = screen.getByText(/Run cheetah run/i);
   expect(mainTitleElement).toBeInTheDocument();
 
-  // TODO: make this test more comprehensive.
+  // Tests top nav bar component is present.
+  const topNavBarComponent = screen.getByTestId("TopNavBarComponentTestId");
+  expect(topNavBarComponent).toBeInTheDocument();
+
+  // Tests landing page gateway component is present.
+  const landingPageGatewayComponent = screen.getByTestId("LandingPageGateway");
+  expect(landingPageGatewayComponent).toBeInTheDocument();
+
+  // Tests explore gateway component is present.
+  const exploreGatewayCompoent = screen.getByTestId("ExploreGatewayComponentTestId");
+  expect(exploreGatewayCompoent).toBeInTheDocument();
+
+  // Tests footer component is present.
+  const footerComponent = screen.getByTestId("FooterComponentTestId");
+  expect(footerComponent).toBeInTheDocument();
 });

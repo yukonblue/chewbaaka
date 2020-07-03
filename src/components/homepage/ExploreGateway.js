@@ -18,7 +18,7 @@ import './ExploreGateway.css';
 
 function ExploreGateway() {
   return (
-    <div id="ExploreGateway" className="outerContainer">
+    <div id="ExploreGateway" className="outerContainer" data-testid="ExploreGatewayComponentTestId">
       <ExploreGatewayIntro/>
       <ExploreGatewayGrid/>
       <br/>

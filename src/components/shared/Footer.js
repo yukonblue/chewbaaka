@@ -18,7 +18,7 @@ import logo from '../../cheetah-conservation-fund-logo.jpg'
 function Footer() {
   return (
     // TODO: Refine content
-    <Segment inverted style={{ padding: "5em 0em" }}>
+    <Segment inverted style={{ padding: "5em 0em" }} data-testid="FooterComponentTestId">
       <Container>
         <Grid divided inverted stackable>
           <Grid.Row>

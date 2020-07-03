@@ -18,7 +18,7 @@ import './TopNavBar.css';
 class TopNavBar extends React.Component {
   render() {
     return (
-      <Menu fixed="top" className="topNavBarMenu">
+      <Menu fixed="top" className="topNavBarMenu" data-testid="TopNavBarComponentTestId">
         <Container>
           <Menu.Item as="a" header href="https://cheetah.org" data-testid="mainNavBarItem">
             <Image

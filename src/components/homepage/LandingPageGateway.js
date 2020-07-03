@@ -18,7 +18,7 @@ import './LandingPageGateway.css';
 class LandingPageGateway extends React.Component {
   render() {
     return (
-      <Segment vertical textAlign="center" className={this.centerSegmentStyleClassName()}>
+      <Segment vertical textAlign="center" className={this.centerSegmentStyleClassName()} data-testid="LandingPageGateway">
         <Container className="content">
           <Header inverted as="h1">
             Run cheetah run
