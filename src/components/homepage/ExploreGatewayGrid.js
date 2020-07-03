@@ -13,7 +13,7 @@ import "semantic-ui-css/semantic.min.css";
 
 import { Grid } from 'semantic-ui-react'
 
-import ExploreGatewayGridItem from './ExploreGatewayGridItem.js'
+import ExploreGatewayGridItem from './ExploreGatewayGridItem'
 
 function ExploreGatewayGrid(props) {
   return (
