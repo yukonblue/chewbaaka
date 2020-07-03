@@ -21,7 +21,7 @@ import Footer from '../shared/Footer'
 class HomePage extends React.Component {
   render() {
     return (
-      <div className="HomePage">
+      <div className="HomePage" data-testid="HomePageTestId">
         <TopNavBar/>
         <LandingPageGateway/>
         <ExploreGateway/>
