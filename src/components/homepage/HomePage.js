@@ -11,7 +11,7 @@ import React from 'react';
 
 import "semantic-ui-css/semantic.min.css";
 
-import './HomePage.css';
+import '../shared/GlobalPageStyles.css';
 
 import TopNavBar from '../shared/TopNavBar'
 import LandingPageGateway from './LandingPageGateway'

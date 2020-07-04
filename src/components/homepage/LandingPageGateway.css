@@ -7,26 +7,6 @@
  * Updated  : Jul 04, 2020
  */
 
- @media only screen and (min-width: 768px) {
-  .ui.container {
-    width: 700px;
-    max-width: 700px;
-  }
-
-  nav.ui.container .ui.header {
-    float: left;
-    margin-top: 12px;
-  }
-
-  nav.ui.container .ui.menu {
-    float: right;
-  }
-
-  html {
-    scroll-behavior: smooth;
-  }
-}
-
 .ui.vertical.center.aligned.segment {
   padding-top: 36px;
 }
