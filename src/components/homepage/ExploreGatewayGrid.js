@@ -18,7 +18,7 @@ import ExploreGatewayGridItem from './ExploreGatewayGridItem'
 function ExploreGatewayGrid(props) {
   return (
     // TODO: Update `dstUrl` attribute for grid items.
-    <Grid container stackable textAlign="center" columns={4}>
+    <Grid container stackable textAlign="center" columns={4} data-testid="ExploreGatewayGridTestId">
       <ExploreGatewayGridItem imageUrl="https://cheetah.org/wp-content/uploads/2019/05/iwt_ancientindiancheetahhunt_1000-600-scaled.jpg" title="History" dstUrl="#" />
       <ExploreGatewayGridItem imageUrl="https://cheetah.org/wp-content/uploads/2019/05/Learn_AboutCheetahs_9_1000-600.jpg" title="Biology" dstUrl="#" />
       <ExploreGatewayGridItem imageUrl="https://cheetah.org/wp-content/uploads/2019/03/cheetah-conservation-fund-conservancies.jpg" title="Ecology" dstUrl="#" />
