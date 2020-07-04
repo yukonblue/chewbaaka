@@ -22,7 +22,7 @@ function ExploreGatewayGridItem(props) {
         <a href={props.dstUrl} className="ExploreGatewayGridItemImageAnchor" data-testid="ExploreGatewayGridItemImageAnchorTestId">
           <Image
             size="medium"
-            src={props.imageUrl}
+            src={props.image}
             className="ExploreGatewayGridItemImage"
             data-testid="ExploreGatewayGridItemImageTestId"
           />
