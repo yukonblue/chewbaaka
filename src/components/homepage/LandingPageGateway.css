@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 02, 2020
+ * Updated  : Jul 04, 2020
  */
 
  @media only screen and (min-width: 768px) {
@@ -38,19 +38,19 @@
 }
 
 .ui.vertical.segment.centerSegmentStyle1 {
-  background-image: url('../../CCF_Field_and_Research_Centre.jpg');
+  background-image: url('./assets/CCF_Field_and_Research_Centre.jpg');
 }
 
 .ui.vertical.segment.centerSegmentStyle2 {
-  background-image: url('../../cheetah-mother-and-cubs-on-termite-mound.jpg');
+  background-image: url('./assets/cheetah-mother-and-cubs-on-termite-mound.jpg');
 }
 
 .ui.vertical.segment.centerSegmentStyle3 {
-  background-image: url('../../background_CCF_03.jpg');
+  background-image: url('./assets/background_CCF_03.jpg');
 }
 
 .ui.vertical.segment.centerSegmentStyle4 {
-  background-image: url('../../background_CCF_04.jpg');
+  background-image: url('./assets/background_CCF_04.jpg');
 }
 
 .ui.content.container {

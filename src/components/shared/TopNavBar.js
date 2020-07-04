@@ -4,14 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 02, 2020
+ * Updated  : Jul 04, 2020
  */
 
 import React from 'react';
 
 import { Container, Image, Menu } from 'semantic-ui-react'
 
-import logo from '../../logo.svg'
+import logo from './assets/cheetah-conservation-fund-30-logo.svg'
 
 import './TopNavBar.css';
 
