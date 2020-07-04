@@ -1,0 +1,34 @@
+/**
+ * ExploreGatewayGridItem.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 02, 2020
+ * Updated  : Jul 02, 2020
+ */
+
+/**
+ * TODO: Refine the styling here
+ */
+
+div.column.ExploreGatewayGridItemColumn {
+  margin: auto -10px;
+  padding: 0px;
+}
+
+div.ExploreGatewayGridItemImageWrapper {
+  margin: 20px auto;
+}
+
+a.ExploreGatewayGridItemImageAnchor:hover {
+  filter: opacity(60%)
+}
+
+img.ui.medium.image.ExploreGatewayGridItemImage {
+  width: 232.5px;
+  height: 379.067px;
+}
+
+h2.ui.left.aligned.header.ExploreGatewayGridItemHeader {
+  margin-top: -15px;
+}

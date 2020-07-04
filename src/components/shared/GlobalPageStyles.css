@@ -1,18 +1,13 @@
 /**
- * App.css
+ * GlobalPageStyles.css
  * Chewbaaka
  *
  * Author   : Tomiko
- * Created  : Jun 30, 2020
+ * Created  : Jul 04, 2020
  * Updated  : Jul 04, 2020
  */
 
-/**
- * TODO:
- * See if this is needed at all.
- */
-
-/* body {
+body {
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: grayscale;
 }
@@ -31,4 +26,8 @@
   nav.ui.container .ui.menu {
     float: right;
   }
-} */
+
+  html {
+    scroll-behavior: smooth;
+  }
+}

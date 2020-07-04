@@ -1,3 +1,12 @@
+/**
+ * index.js
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jun 30, 2020
+ * Updated  : Jul 01, 2020
+ */
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';

@@ -1,28 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Button } from 'semantic-ui-react'
-import './App.css';
+/**
+ * App.js
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jun 30, 2020
+ * Updated  : Jul 03, 2020
+ */
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <Button>Button using semantic-ui-react</Button>
-      </header>
-    </div>
-  );
+import React from 'react';
+
+import "semantic-ui-css/semantic.min.css";
+
+import HomePage from './components/homepage/HomePage'
+
+class App extends React.Component {
+  render() {
+    return (
+      <HomePage/>
+    )
+  }
 }
 
 export default App;
