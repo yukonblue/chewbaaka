@@ -17,7 +17,7 @@ import './ExploreGatewayIntro.css';
 
 function ExploreGatewayIntro() {
   return (
-    <div className="ExploreGatewayIntro">
+    <div className="ExploreGatewayIntro" data-testid="ExploreGatewayIntroTestId">
       <br/>
       <Container width={8}>
         <Header size="huge" textAlign="center">
