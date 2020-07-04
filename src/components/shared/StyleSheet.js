@@ -11,7 +11,7 @@ import React from 'react';
 
 function StyleSheet(props) {
   return (
-    <link rel="stylesheet" type="text/css" href={props.stylesheetPath} />
+    <link rel="stylesheet" type="text/css" href={props.styleSheetPath} />
   )
 };
 
