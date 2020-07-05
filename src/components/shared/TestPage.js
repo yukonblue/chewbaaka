@@ -38,14 +38,14 @@ class TestPage extends React.Component {
           coverColor="orange"
           title="Cheetah"
           contentImage={image01}
-          description="Acinonyx jubatus"
+          description="Fastest land animal. Up to 100km/hr"
         />
 
         <ImageRevealDetailedWithTextCover
           coverColor="red"
-          title="Leopard"
+          title="Pronghorn antelope"
           contentImage={image02}
-          description="spotted cat"
+          description="North American species, sprints up to 86km/hr"
         />
 
         <ImageSlideModal
