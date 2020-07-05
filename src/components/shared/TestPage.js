@@ -16,6 +16,7 @@ import "semantic-ui-css/semantic.min.css";
 import ImageSlideDiscrete from './ImageSlideDiscrete'
 import ImageSlide from './ImageSlide'
 import ImageSlideModal from './ImageSlideModal'
+import ImageReveal from './ImageReveal'
 import ImageRevealDetailedWithTextCover from './ImageRevealDetailedWithTextCover'
 
 import image01 from './assets/cheetah-conservation-fund-logo.jpg'
@@ -79,6 +80,11 @@ class TestPage extends React.Component {
           title="Cheetah evolution"
           decrementButtonLabel="backward"
           incrementButtonLabel="forward"
+        />
+
+        <ImageReveal
+          coverImage={image01}
+          contentImage={image02}
         />
       </div>
     )
