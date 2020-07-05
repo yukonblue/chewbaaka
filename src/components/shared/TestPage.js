@@ -37,7 +37,7 @@ class TestPage extends React.Component {
         title="Cheetah evolution"
         caption="Slide the timeline to see the migration of cheetahs."
         sliderBeginLabel="150 mya"
-        sliderEndLabel="Now"
+        sliderEndLabel="50 mya"
       />
 
       // <ImageSlideDiscrete
