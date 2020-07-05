@@ -1,0 +1,38 @@
+/**
+ * ImageRevealDetailedWithTextCover.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 05, 2020
+ * Updated  : Jul 05, 2020
+ */
+
+div.ImageRevealDetailedWithTextCoverComponentCoverDiv {
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.ImageRevealDetailedWithTextCoverComponentCoverDiv p {
+  font-size: 24px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 120px;
+  color: white;
+}
+
+div.ImageRevealDetailedWithTextCoverComponentContentDiv {
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.ImageRevealDetailedWithTextCoverComponentContentDiv img {
+  width: 90px;
+  height: 90px;
+  margin: auto;
+}
+
+/* p.ImageRevealDetailedWithTextCoverComponentDescriptionText {
+} */
