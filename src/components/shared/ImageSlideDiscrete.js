@@ -92,7 +92,7 @@ class ImageSlideDiscrete extends React.Component {
         <Container>
           <Image src={this.props.images[this.state.index]} fluid data-testid="ImageSlideComponentImgPartTestId" />
         </Container>
-        <Progress percent={this.state.percent} indicating data-testid="ImageSlideComponentProgressIndicatorPartTestId" >
+        <Progress size="tiny" percent={this.state.percent} indicating data-testid="ImageSlideComponentProgressIndicatorPartTestId" >
           {labels[this.state.index]}
         </Progress>
         <Container textAlign={controlButtonsAlignment}>
