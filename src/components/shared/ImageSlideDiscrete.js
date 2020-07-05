@@ -1,20 +1,20 @@
 /**
- * ImageSlide.js
+ * ImageSlideDiscrete.js
  * Chewbaaka
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 04, 2020
+ * Updated  : Jul 05, 2020
  */
 
 /**
- * ImageSlide
+ * ImageSlideDiscrete
  *
- * ImageSlide is a component that allows user to specify
- * a set of images to display along the progress indicated
- * on a progress bar. A good example application of this
- * component could be to use a set of images to illustrate
- * changes along a timeline.
+ * ImageSlideDiscrete is a component that allows user to
+ * specify a set of images to display along the progress
+ * indicated on a progress bar. A good example application
+ * of this component could be to use a set of images to
+ * illustrate changes along a timeline.
  *
  * Props:
  *  - `images`: An array of images to display within the component.
@@ -41,7 +41,7 @@ import "semantic-ui-css/semantic.min.css";
 
 import { Button, Container, Header, Icon, Image, Progress } from 'semantic-ui-react'
 
-class ImageSlide extends React.Component {
+class ImageSlideDiscrete extends React.Component {
 
   // TODO: Style this component.
 
@@ -110,4 +110,4 @@ class ImageSlide extends React.Component {
   }
 }
 
-export default ImageSlide;
+export default ImageSlideDiscrete;

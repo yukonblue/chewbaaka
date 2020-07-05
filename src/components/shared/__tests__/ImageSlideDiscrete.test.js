@@ -1,27 +1,27 @@
 /**
- * ImageSlide.test.js
+ * ImageSlideDiscrete.test.js
  * Chewbaaka
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 04, 2020
+ * Updated  : Jul 05, 2020
  */
 
 import React from 'react';
 
 import { render, screen } from '@testing-library/react';
 
-import ImageSlide from '../ImageSlide';
+import ImageSlideDiscrete from '../ImageSlideDiscrete';
 
 import image01 from '../assets/cheetah-conservation-fund-logo.jpg'
 import image02 from '../assets/cheetah-conservation-fund-30-logo.svg'
 
-test('renders ImageSlide compoent', () => {
+test('renders ImageSlideDiscrete compoent', () => {
 
   const title = "Cheetah evolution";
 
   render(
-          <ImageSlide images={[image01, image02]}
+          <ImageSlideDiscrete images={[image01, image02]}
           labels={["image01", "image02"]}
           percentages={[0, 20,100]} title={title}
           decrementButtonLabel="backward"

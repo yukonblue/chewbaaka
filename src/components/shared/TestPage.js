@@ -13,7 +13,7 @@ import { Redirect } from 'react-router-dom'
 
 import "semantic-ui-css/semantic.min.css";
 
-import ImageSlide from './ImageSlide'
+import ImageSlideDiscrete from './ImageSlideDiscrete'
 
 import image01 from './assets/cheetah-conservation-fund-logo.jpg'
 import image02 from './assets/cheetah-conservation-fund-30-logo.svg'
@@ -30,7 +30,7 @@ class TestPage extends React.Component {
       return <Redirect to="/" />  
     }
     return (
-      <ImageSlide images={[image01, image01, image02]} labels={["150 mya", "100 mya", "50 mya"]} percentages={[0, 20,100]} title="Cheetah evolution" decrementButtonLabel="backward" incrementButtonLabel="forward"/>
+      <ImageSlideDiscrete images={[image01, image01, image02]} labels={["150 mya", "100 mya", "50 mya"]} percentages={[0, 20,100]} title="Cheetah evolution" decrementButtonLabel="backward" incrementButtonLabel="forward"/>
     )
   }
 }
