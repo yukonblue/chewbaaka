@@ -33,4 +33,7 @@ test('renders ImageSlideModal component', () => {
       ]}
     />
   );
+
+  const componentCoverImageContainerDivPart = screen.getByTestId("ImageSlideModalComponentCoverImageContainerDivTestId");
+  expect(componentCoverImageContainerDivPart).toBeInTheDocument();
 });

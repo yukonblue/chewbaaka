@@ -17,10 +17,12 @@ import "./ImageSlideModal.css"
 
 class ImageSlideModal extends React.Component {
 
+  // TODO: Style this component.
+
   constructor(props) {
     super(props);
     this.state = {
-      modalOpen: false,
+      isModalOpen: false,
       activeIndex : 0
     }
     this.handleOpen = this.handleOpen.bind(this);
@@ -31,28 +33,28 @@ class ImageSlideModal extends React.Component {
 
   handleOpen() {
     this.setState((prevState) => ({
-      modalOpen: true,
+      isModalOpen: true,
       activeIndex : prevState.activeIndex
     }));
   }
 
   handleClose() {
     this.setState((prevState) => ({
-      modalOpen: false,
+      isModalOpen: false,
       activeIndex : 0 // reset to 0
     }));
   }
 
   handleOnPrevClick() {
     this.setState((prevState) => ({
-      modalOpen: prevState.modalOpen,
+      isModalOpen: prevState.isModalOpen,
       activeIndex : Math.max(prevState.activeIndex-1, 0)
     }));
   }
 
   handleOnNextClick() {
     this.setState((prevState) => ({
-      modalOpen: prevState.modalOpen,
+      isModalOpen: prevState.isModalOpen,
       activeIndex : Math.min(prevState.activeIndex+1, this.props.slides.length - 1)
     }));
   }
@@ -66,14 +68,17 @@ class ImageSlideModal extends React.Component {
       backgroundImage: `url(${coverImage})`,
     };
 
+    const leftPaginationButtonDisabled = ( this.state.activeIndex === 0 );
+    const rightPaginationButtonDisabled = ( this.state.activeIndex ===  this.props.slides.length - 1);
+
     return (
       <Modal
         trigger={
-          <div className="modalCoverImageContainerDiv" style={modalCoverImageContainerDivStyle} onClick={this.handleOpen}>
+          <div className="modalCoverImageContainerDiv" style={modalCoverImageContainerDivStyle} onClick={this.handleOpen} data-testid="ImageSlideModalComponentCoverImageContainerDivTestId">
             <div className="modalCoverImageIcon"><Icon name="caret square right outline" color="grey" size="huge" onClick={this.handleOpen} /></div>
           </div>
         }
-        open={this.state.modalOpen}
+        open={this.state.isModalOpen}
         onClose={this.handleClose}
         closeIcon
       >
@@ -86,13 +91,15 @@ class ImageSlideModal extends React.Component {
             <p>
               {this.props.slides[this.state.activeIndex].description}
             </p>
-            <Button icon size="small" onClick={this.handleOnPrevClick}>
-              <Icon name="angle left" size="large"  />
-            </Button>
-            <Button icon size="small" onClick={this.handleOnNextClick}>
-              <Icon name="angle right" size="large"  />
-            </Button>
-            <p>{this.state.activeIndex+1} / {this.props.slides.length}</p>
+            <div className="modalPaginationButtonContainerDiv">
+              <Button icon size="small" attached="left" disabled={leftPaginationButtonDisabled} onClick={this.handleOnPrevClick}>
+                <Icon name="angle left" size="large" />
+              </Button>
+              <Button icon size="small" attached="right" disabled={rightPaginationButtonDisabled} onClick={this.handleOnNextClick}>
+                <Icon name="angle right" size="large" />
+              </Button>
+            </div>
+            <p className="modalPageLabel">{this.state.activeIndex+1} / {this.props.slides.length}</p>
           </Modal.Description>
         </Modal.Content>
       </Modal>
