@@ -11,7 +11,7 @@ import React from 'react';
 
 import "semantic-ui-css/semantic.min.css";
 
-import { Container, Button, Header, Image, Icon, Label, Modal } from 'semantic-ui-react'
+import { Button, Header, Image, Icon, Modal } from 'semantic-ui-react'
 
 import "./ImageSlideModal.css"
 
@@ -60,7 +60,7 @@ class ImageSlideModal extends React.Component {
   render() {
     const coverImage = this.props.slides[0].image;
 
-    const divStyle = {
+    const modalCoverImageContainerDivStyle = {
       width: 480,
       height: 320,
       backgroundImage: `url(${coverImage})`,
@@ -69,8 +69,8 @@ class ImageSlideModal extends React.Component {
     return (
       <Modal
         trigger={
-          <div className="modalCoverImageContainerDiv" style={divStyle} onClick={this.handleOpen}>
-            <div className="modalCoverImageIcon"><Icon name="caret square right outline" color="gray" size="huge" onClick={this.handleOpen} /></div>
+          <div className="modalCoverImageContainerDiv" style={modalCoverImageContainerDivStyle} onClick={this.handleOpen}>
+            <div className="modalCoverImageIcon"><Icon name="caret square right outline" color="grey" size="huge" onClick={this.handleOpen} /></div>
           </div>
         }
         open={this.state.modalOpen}
