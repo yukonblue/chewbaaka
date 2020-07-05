@@ -1,0 +1,28 @@
+/**
+ * ImageSlideModal.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 05, 2020
+ * Updated  : Jul 05, 2020
+ */
+
+div.modalCoverImageContainerDiv {
+  position: relative;
+  float: left;
+  background-color: gray;
+  background-size: cover;
+  opacity: 0.6;
+  border-radius: 6px;
+  border: 1px solid gray;
+}
+
+div.modalCoverImageIcon {
+  position:absolute;
+  bottom:0;
+  right:0;
+}
+
+div.modalCoverImageContainerDiv:hover {
+  filter: opacity(60%)
+}
