@@ -87,20 +87,20 @@ class ImageSlideDiscrete extends React.Component {
     const labels = this.props.labels ? this.props.labels : [];
 
     return (
-      <div data-testid="ImageSlideComponentTestId">
-        <Header as='h1' data-testid="ImageSlideComponentTitlePartTestId">{this.props.title}</Header>
+      <div data-testid="ImageSlideDiscreteComponentTestId">
+        <Header as='h1' data-testid="ImageSlideDiscreteComponentTitlePartTestId">{this.props.title}</Header>
         <Container>
-          <Image src={this.props.images[this.state.index]} fluid data-testid="ImageSlideComponentImgPartTestId" />
+          <Image src={this.props.images[this.state.index]} fluid data-testid="ImageSlideDiscreteComponentImgPartTestId" />
         </Container>
-        <Progress size="tiny" percent={this.state.percent} data-testid="ImageSlideComponentProgressIndicatorPartTestId" >
+        <Progress size="tiny" percent={this.state.percent} data-testid="ImageSlideDiscreteComponentProgressIndicatorPartTestId" >
           {labels[this.state.index]}
         </Progress>
         <Container textAlign={controlButtonsAlignment}>
-          <Button icon labelPosition='left' onClick={this.handleDecrementButtonClick} data-testid="ImageSlideComponentDecrementButtonPartTestId" >
+          <Button icon labelPosition='left' onClick={this.handleDecrementButtonClick} data-testid="ImageSlideDiscreteComponentDecrementButtonPartTestId" >
             {this.props.decrementButtonLabel}
             <Icon name='left arrow' />
           </Button>
-          <Button icon labelPosition='right' onClick={this.handleIncrementButtonClick} data-testid="ImageSlideComponentIncrementButtonPartTestId">
+          <Button icon labelPosition='right' onClick={this.handleIncrementButtonClick} data-testid="ImageSlideDiscreteComponentIncrementButtonPartTestId">
             {this.props.incrementButtonLabel}
             <Icon name='right arrow' />
           </Button>
