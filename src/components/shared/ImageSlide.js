@@ -3,43 +3,44 @@
  * Chewbaaka
  *
  * Author   : Tomiko
- * Created  : Jul 04, 2020
- * Updated  : Jul 04, 2020
+ * Created  : Jul 05, 2020
+ * Updated  : Jul 05, 2020
  */
 
 /**
  * ImageSlide
  *
- * ImageSlide is a component that allows user to specify
- * a set of images to display along the progress indicated
- * on a progress bar. A good example application of this
- * component could be to use a set of images to illustrate
- * changes along a timeline.
+ * ImageSlide is a component that allows user to
+ * specify a set of images to display along with an
+ * input slider that can slide through the set of images.
+ *
+ * A good example application of this component could be
+ * to use a set of images to illustrate changes along a timeline.
  *
  * Props:
  *  - `images`: An array of images to display within the component.
  *
- *  - `labels` (optional): An array of label captions to display inside the progress indicator.
- *    If specified, this array must have the same length as the `images` prop specified.
- *
- *  - `percentages` (optional): An array of increment percentages for the progress indicator.
- *    If specified, this array must have the same length as the `images` prop specified.
+ *  - `labels` (optional): An array of labels to display along the current image.
+ *    If specified, this array must have the same length as the `images` prop
+ *    specified.
  *
  *  - `title` (optional): The title of the component.
  *
- *  - `decrementButtonLabel`: The label used for the button for decrementing the progress.
+ *  - `sliderBeginLabel`: The label used for illustrating the semantic meaning
+ *    of the beginning of the slider value.
  *
- *  - `incrementButtonLabel`: The label used for the button for incrementing the progress.
+ *  - `sliderEndLabel`: The label used for illustrating the semantic meaning
+ *    of the end of the slider value.
  *
- *  - `controlButtonsAlignment` (optional): Specify the alignment of the button controls
- *    w.r.t. the entire control.
+ *  - `title` (optional): Specify an optional caption text to demonstrate the
+ *    meaning of the slider, or to specify instructions on how to use the slider.
  */
 
 import React from 'react';
 
 import "semantic-ui-css/semantic.min.css";
 
-import { Button, Container, Header, Icon, Image, Progress } from 'semantic-ui-react'
+import { Container, Header, Image, Label } from 'semantic-ui-react'
 
 class ImageSlide extends React.Component {
 
@@ -48,37 +49,13 @@ class ImageSlide extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      percent: 0,
-      index: 0
+      activeIndex: 0
     }
-    this.handleDecrementButtonClick = this.handleDecrementButtonClick.bind(this);
-    this.handleIncrementButtonClick = this.handleIncrementButtonClick.bind(this);
+    this.handleSliderChange = this.handleSliderChange.bind(this);
   }
 
-  handleDecrementButtonClick() {
-    const increment = 100 / Math.max(this.props.images.length, 1);
-
-    this.setState(function setState(prevState) {
-      const index = Math.max(prevState.index - 1, 0);
-      const percent = this.props.percentages ? this.props.percentages[index] : Math.max(prevState.percent - increment, 0);
-      return {
-        percent: percent,
-        index: index,
-      }
-    });
-  }
-
-  handleIncrementButtonClick() {
-    const increment = 100 / Math.max(this.props.images.length, 1);
-
-    this.setState(function setState(prevState) {
-      const index = Math.min(prevState.index + 1, this.props.images.length-1);
-      const percent = this.props.percentages ? this.props.percentages[index] : Math.min(prevState.percent + increment, 100);
-      return {
-        percent: percent,
-        index: index,
-      }
-    });
+  handleSliderChange(e) {
+    this.setState({ activeIndex: Number(e.target.value) })
   }
 
   render() {
@@ -88,22 +65,25 @@ class ImageSlide extends React.Component {
 
     return (
       <div data-testid="ImageSlideComponentTestId">
-        <Header as='h1' data-testid="ImageSlideComponentTitlePartTestId">{this.props.title}</Header>
         <Container>
-          <Image src={this.props.images[this.state.index]} fluid data-testid="ImageSlideComponentImgPartTestId" />
-        </Container>
-        <Progress percent={this.state.percent} indicating data-testid="ImageSlideComponentProgressIndicatorPartTestId" >
-          {labels[this.state.index]}
-        </Progress>
-        <Container textAlign={controlButtonsAlignment}>
-          <Button icon labelPosition='left' onClick={this.handleDecrementButtonClick} data-testid="ImageSlideComponentDecrementButtonPartTestId" >
-            {this.props.decrementButtonLabel}
-            <Icon name='left arrow' />
-          </Button>
-          <Button icon labelPosition='right' onClick={this.handleIncrementButtonClick} data-testid="ImageSlideComponentIncrementButtonPartTestId">
-            {this.props.incrementButtonLabel}
-            <Icon name='right arrow' />
-          </Button>
+          <Header as='h1' data-testid="ImageSlideComponentTitlePartTestId">{this.props.title}</Header>
+          <Image src={this.props.images[this.state.activeIndex]} fluid data-testid="ImageSlideComponentImgPartTestId" />
+          <Container textAlign={controlButtonsAlignment}>
+            <div>
+              <Label color="black" data-testid="ImageSlideComponentLabelPartTestId">{labels[this.state.activeIndex]}</Label>
+            </div>
+            <Label circular color="yellow" data-testid="ImageSlideComponentSliderBeginLabelPartTestId">{this.props.sliderBeginLabel}</Label>
+            <input
+              type='range'
+              min={0}
+              max={Math.max(this.props.images.length - 1, 0)}
+              value={this.state.activeIndex}
+              onChange={this.handleSliderChange}
+              data-testid="ImageSlideComponentSliderPartTestId"
+            />
+            <Label circular color="orange" data-testid="ImageSlideComponentSliderEndLabelPartTestId">{this.props.sliderEndLabel}</Label>
+            <p data-testid="ImageSlideComponentCaptionPartTestId">{this.props.caption}</p>
+          </Container>
         </Container>
       </div>
     )
