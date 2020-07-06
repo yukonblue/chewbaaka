@@ -29,6 +29,8 @@ import "semantic-ui-css/semantic.min.css";
 
 import { Image, Reveal } from 'semantic-ui-react'
 
+import { getRevealComponentAnimation } from './RevealComponentAnimation'
+
 import './ImageRevealDetailedWithTextCover.css'
 
 class ImageRevealDetailedWithTextCover extends React.Component {
@@ -41,7 +43,7 @@ class ImageRevealDetailedWithTextCover extends React.Component {
     }
 
     return (
-      <Reveal animated={this.animation()} data-testid="ImageRevealDetailedWithTextCoverComponentTestId">
+      <Reveal animated={getRevealComponentAnimation(this.props.animation)} data-testid="ImageRevealDetailedWithTextCoverComponentTestId">
         <Reveal.Content visible data-testid="ImageRevealDetailedWithTextCoverComponentVisiblePartTestId">
           <div className="ImageRevealDetailedWithTextCoverComponentCoverDiv" style={componentCoverDivStyles}>
             <p>{this.props.title}</p>
@@ -60,28 +62,6 @@ class ImageRevealDetailedWithTextCover extends React.Component {
         </Reveal.Content>
       </Reveal>
     )
-  }
-
-  animation() {
-    const supportedAnimations = [
-      "fade",
-      "small fade",
-      "move",
-      "move right",
-      "move up",
-      "move down",
-      "rotate",
-      "rotate left"
-    ];
-
-    let idx = supportedAnimations.indexOf(this.props.animation);
-
-    if ( idx === -1 ) {
-      idx = Math.floor(Math.random() * supportedAnimations.length);
-    }
-
-    return supportedAnimations[idx];
-    // return "fade";
   }
 }
 
