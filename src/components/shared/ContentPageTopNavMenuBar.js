@@ -26,7 +26,7 @@ export default class ContentPageTopNavMenuBar extends React.Component {
 
     for (const [idx, val] of menuItemNames.entries()) {
       menuItems.push(
-        <Route render={({ history }) => (
+        <Route key={idx} render={({ history }) => (
           <Menu.Item key={idx} name={val} onClick={
             () => {
               history.push("/"+val.toLowerCase());
