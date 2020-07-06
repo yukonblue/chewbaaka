@@ -61,6 +61,16 @@ import image_caracal from './assets/felidae/caracal/felidae_caracal_Caracal_cara
 import image_serval from './assets/felidae/caracal/felidae_serval_Leptailurus_serval.jpg'
 import image_african_golden_cat from './assets/felidae/caracal/felidae_african_golden_cat_Caracal_aurata.jpg'
 
+/** Leopardus lineage */
+import image_ocelot from './assets/felidae/leopardus/felidae_ocelot_Leopardus_pardalis.jpg'
+import image_geoffroys_cat from './assets/felidae/leopardus/felidae_geoffroys_cat_Leopardus_geoffroyi.jpg'
+import image_andean_cat from './assets/felidae/leopardus/felidae_andean_cat_Leopardus_jacobita.jpg'
+import image_maygay from './assets/felidae/leopardus/felidae_margay_Leopardus_wiedii.jpg'
+import image_pampas_cat from './assets/felidae/leopardus/felidae_pampas_cat_Leopardus_colocola.jpg'
+import image_oncilla from './assets/felidae/leopardus/felidae_oncilla_Leopardus_tigrinus.jpg'
+import image_southern_tiger_cat from './assets/felidae/leopardus/felidae_southern_tiger_cat_Leopardus_guttulus.jpg'
+import image_guina from './assets/felidae/leopardus/felidae_guina_Leopardus_guigna.jpg'
+
 function FelidaeFamilyTree() {
   return (
     <div className="FelidaeFamilyTreeComponentOuterContainerDiv">
@@ -230,6 +240,47 @@ function FelidaeFamilyTree() {
         coverImage={image_african_golden_cat}
         description="African Golden Cat (Caracal aurata)"
         position={{top: 270, left: 790}}
+      />
+      { /* Leopardus lineage */ }
+      <TextReveal
+        coverImage={image_ocelot}
+        description="Ocelot (Leopardus pardalis)"
+        position={{top: 10, left: 920}}
+      />
+      <TextReveal
+        coverImage={image_geoffroys_cat}
+        description="Geoffroy's Cat (Leopardus geoffroyi)"
+        position={{top: 140, left: 920}}
+      />
+      <TextReveal
+        coverImage={image_andean_cat}
+        description="Andean Cat (Leopardus jacobita)"
+        position={{top: 270, left: 920}}
+      />
+      <TextReveal
+        coverImage={image_maygay}
+        description="Margay (Leopardus wiedii)"
+        position={{top: 400, left: 920}}
+      />
+      <TextReveal
+        coverImage={image_pampas_cat}
+        description="Pampas Cat (Leopardus colocola)"
+        position={{top: 530, left: 920}}
+      />
+      <TextReveal
+        coverImage={image_oncilla}
+        description="Oncilla - Northern Tiger Cat (Leopardus tigrinus)"
+        position={{top: 660, left: 920}}
+      />
+      <TextReveal
+        coverImage={image_southern_tiger_cat}
+        description="Southern Tiger Cat (Leopardus guttulus)"
+        position={{top: 790, left: 920}}
+      />
+      <TextReveal
+        coverImage={image_guina}
+        description="Guiña / Kodkod (Leopardus guigna)"
+        position={{top: 10, left: 1050}}
       />
     </div>
   )
