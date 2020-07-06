@@ -1,10 +1,10 @@
 /**
- * ImageReveal.test.js
+ * ImageRevealDetailedWithTextCover.test.js
  * Chewbaaka
  *
  * Author   : Tomiko
- * Created  : Jul 04, 2020
- * Updated  : Jul 04, 2020
+ * Created  : Jul 05, 2020
+ * Updated  : Jul 05, 2020
  */
 
 import React from 'react';

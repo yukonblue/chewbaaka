@@ -23,6 +23,7 @@ import TextReveal from './TextReveal'
 import image01 from './assets/cheetah-conservation-fund-logo.jpg'
 import image02 from './assets/cheetah-conservation-fund-30-logo.svg'
 import image03 from './assets/cheetah-conservation-fund-cheetah-fact-01.jpg'
+import image04 from './assets/cheetah-conservation-fund-cheetah-fact-02.jpg'
 
 const __DEV__ = ( process.env.NODE_ENV === "development" );
 
@@ -37,8 +38,13 @@ class TestPage extends React.Component {
     }
     return (
       <div>
+        <ImageReveal
+          coverImage={image04}
+          contentImage={image03}
+        />
+
         <TextReveal
-          coverImage={image03}
+          coverImage={image04}
           description="Fastest land animal. Up to 100km/hr"
         />
 
@@ -87,11 +93,6 @@ class TestPage extends React.Component {
           title="Cheetah evolution"
           decrementButtonLabel="backward"
           incrementButtonLabel="forward"
-        />
-
-        <ImageReveal
-          coverImage={image01}
-          contentImage={image02}
         />
       </div>
     )

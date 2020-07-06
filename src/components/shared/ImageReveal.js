@@ -13,6 +13,8 @@ import "semantic-ui-css/semantic.min.css";
 
 import { Image, Reveal } from 'semantic-ui-react'
 
+import './ImageReveal.css'
+
 class ImageReveal extends React.Component {
 
   render() {
@@ -21,10 +23,14 @@ class ImageReveal extends React.Component {
     return (
       <Reveal animated={this.animation()} data-testid="ImageRevealComponentTestId">
         <Reveal.Content visible data-testid="ImageRevealComponentVisiblePartTestId">
-          <Image src={this.props.coverImage} size={size} />
+          <div className="ImageRevealComponentContainerDiv">
+            <Image src={this.props.coverImage} />
+          </div>
         </Reveal.Content>
         <Reveal.Content hidden data-testid="ImageRevealComponentHiddenPartTestId">
-          <Image src={this.props.contentImage} size={size} />
+          <div className="ImageRevealComponentContentDiv">
+            <Image src={this.props.contentImage} size={size} />
+          </div>
         </Reveal.Content>
       </Reveal>
     )
