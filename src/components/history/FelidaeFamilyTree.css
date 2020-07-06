@@ -8,6 +8,7 @@
  */
 
 div.FelidaeFamilyTreeComponentOuterContainerDiv {
+  position: relative;
   width: 1200px;
   height: 900px;
   background-color: whitesmoke;
