@@ -22,7 +22,9 @@ import ContentPageBanner from './ContentPageBanner'
 function ContentPageHead(props) {
   return (
     <div className="ContentPageSkeletonContentContainerDimension ContentPageHeadOuterContainer">
-      <ContentPageTopNavMenuBar />
+      <div className="ContentPageHeadNavMenuBarOuterContainer">
+        <ContentPageTopNavMenuBar />
+      </div>
       <ContentPageBanner
         coverImage={props.pageHeadProps.coverImage}
         title={props.pageHeadProps.title}

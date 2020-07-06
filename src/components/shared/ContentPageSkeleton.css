@@ -15,3 +15,9 @@ div.ContentPageSkeletonContentContainer {
   
   background-color: skyblue;
 }
+
+div.ContentPageHeadNavMenuBarOuterContainer {
+  background-color: hotpink;
+  /* margin-bottom: 50px; */
+  height: 60px;
+}

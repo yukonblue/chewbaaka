@@ -21,9 +21,10 @@ function ContentPageBanner(props) {
 
   return (
     <div className="ContentPageSkeletonContentContainerDimension ContentPageBannerContainer" style={contentPageBannerContainerStyles}>
-      <div>
-        <h1>{props.title}</h1>
-        <h2>{props.subtitle}</h2>
+      <div className="ContentPageBannerTitleContainer">
+        <h1 className="ContentPageBannerTitle">{props.title}</h1>
+        <hr className="ContentPageBannerTitleLineBreak" />
+        <h2 className="ContentPageBannerSubtitle">{props.subtitle}</h2>
       </div>
     </div>
   );
