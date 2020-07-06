@@ -18,9 +18,11 @@ import ImageSlide from './ImageSlide'
 import ImageSlideModal from './ImageSlideModal'
 import ImageReveal from './ImageReveal'
 import ImageRevealDetailedWithTextCover from './ImageRevealDetailedWithTextCover'
+import TextReveal from './TextReveal'
 
 import image01 from './assets/cheetah-conservation-fund-logo.jpg'
 import image02 from './assets/cheetah-conservation-fund-30-logo.svg'
+import image03 from './assets/cheetah-conservation-fund-cheetah-fact-01.jpg'
 
 const __DEV__ = ( process.env.NODE_ENV === "development" );
 
@@ -35,6 +37,11 @@ class TestPage extends React.Component {
     }
     return (
       <div>
+        <TextReveal
+          coverImage={image03}
+          description="Fastest land animal. Up to 100km/hr"
+        />
+
         <ImageRevealDetailedWithTextCover
           coverColor="orange"
           title="Cheetah"
