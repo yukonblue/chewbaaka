@@ -42,7 +42,7 @@ export default class ContentPageSideNavMenu extends React.Component {
     }
 
     return (
-      <div>
+      <div data-testid="ContentPageSideNavMenuComponentTestId">
         <Menu text vertical>
           <Menu.Item header>History</Menu.Item>
           {menuItems}

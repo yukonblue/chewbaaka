@@ -61,7 +61,7 @@ class ContentPageSkeleton extends React.Component {
   renderBody() {
     return (
       <Ref innerRef={this.state.contextRef}>
-        <div>
+        <div data-testid="ContentPageSkeletonComponentTestId">
           <div className="ContentPageSkeletonContentContainerDimension ContentPageSkeletonContentContainer">
             {this.props.content}
           </div>
