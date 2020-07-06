@@ -67,7 +67,7 @@ class ContentPageSkeleton extends React.Component {
           </div>
           <Rail internal position='left'>
             <Sticky context={this.state.contextRef} offset={100}>
-              <Button circular icon="list ul" color="orange" onClick={this.handleMenuActiveToggle} />
+              <Button circular icon="list ul" color={this.state.isMenuActive ? "orange" : "black"} onClick={this.handleMenuActiveToggle} />
               <div hidden={!this.state.isMenuActive}>
                 <ContentPageSideNavMenu items={this.props.pageProps.pageMenuItems} />
               </div>
