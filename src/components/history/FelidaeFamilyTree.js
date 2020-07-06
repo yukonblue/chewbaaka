@@ -16,36 +16,36 @@ import TextReveal from '../shared/TextReveal'
 import './FelidaeFamilyTree.css'
 
 /** Puma lineage */
-import image_cheetah from './assets/felidae/puma/felidae_cheetah.jpg'
-import image_jaguarundi from './assets/felidae/puma/felidae_jaguarundi.jpg'
-import image_puma from './assets/felidae/puma/felidae_puma.jpg'
+import image_cheetah from './assets/felidae/puma/felidae_cheetah_Acinonyx_jubatus.jpg'
+import image_jaguarundi from './assets/felidae/puma/felidae_jaguarundi_Herpailurus_yagouaroundi.jpg'
+import image_puma from './assets/felidae/puma/felidae_puma_Puma_concolor.jpg'
 
 /** Lynx lineage */
-import image_eurasian_lynx from './assets/felidae/lynx/felidae_eurasian_lynx.jpg'
-import image_canadian_lynx from './assets/felidae/lynx/felidae_canadian_lynx.jpg'
-import image_iberian_lynx from './assets/felidae/lynx/felidae_iberian_lynx.jpg'
-import image_bobcat from './assets/felidae/lynx/felidae_bobcat.jpg'
+import image_eurasian_lynx from './assets/felidae/lynx/felidae_eurasian_lynx_Lynx_lynx.jpg'
+import image_canadian_lynx from './assets/felidae/lynx/felidae_canadian_lynx_Lynx_canadensis.jpg'
+import image_iberian_lynx from './assets/felidae/lynx/felidae_iberian_lynx_Lynx_pardinus.jpg'
+import image_bobcat from './assets/felidae/lynx/felidae_bobcat_Lynx_rufus.jpg'
 
 /** Panthera lineage */
-import image_tiger from './assets/felidae/panthera/felidae_tiger.jpg'
-import image_lion from './assets/felidae/panthera/felidae_lion.jpg'
-import image_jaguar from './assets/felidae/panthera/felidae_jaguar.jpg'
-import image_leopard from './assets/felidae/panthera/felidae_leopard.jpg'
-import image_snow_leopard from './assets/felidae/panthera/felidae_snow_leopard.jpg'
-import image_mainland_clouded_leopard from './assets/felidae/panthera/felidae_mainland_clouded_leopard.jpg'
-import image_sunda_clouded_leopard from './assets/felidae/panthera/felidae_sunda_clouded_leopard.jpg'
+import image_tiger from './assets/felidae/panthera/felidae_tiger_Panthera_tigris.jpg'
+import image_lion from './assets/felidae/panthera/felidae_lion_Panthera_leo.jpg'
+import image_jaguar from './assets/felidae/panthera/felidae_jaguar_Panthera_onca.jpg'
+import image_leopard from './assets/felidae/panthera/felidae_leopard_Panthera_pardus.jpg'
+import image_snow_leopard from './assets/felidae/panthera/felidae_snow_leopard_Panthera_uncia.jpg'
+import image_mainland_clouded_leopard from './assets/felidae/panthera/felidae_mainland_clouded_leopard_Neofelis_nebulosa.jpg'
+import image_sunda_clouded_leopard from './assets/felidae/panthera/felidae_sunda_clouded_leopard_Neofelis_diardi.jpg'
 
 /** Bay Cat lineage */
-import image_asiatic_golden_cat from './assets/felidae/baycat/felidae_asiatic_golden_cat.jpg'
-import image_borneo_bay_cat from './assets/felidae/baycat/felidae_borneo_bay_cat.jpg'
-import image_marbled_cat from './assets/felidae/baycat/felidae_marbled_cat.jpg'
+import image_asiatic_golden_cat from './assets/felidae/baycat/felidae_asiatic_golden_cat_Catopuma_temminckii.jpg'
+import image_borneo_bay_cat from './assets/felidae/baycat/felidae_borneo_bay_cat_Catopuma_badia.jpg'
+import image_marbled_cat from './assets/felidae/baycat/felidae_marbled_cat_Pardofelis_marmorata.jpg'
 
 /** Leopard Cat lineage */
-import image_fishing_cat from './assets/felidae/leopardcat/felidae_fishing_cat.jpg'
-import image_mainland_leopard_cat from './assets/felidae/leopardcat/felidae_mainland_leopard_cat_prionailurus_bengalensis.jpg'
-import image_sunda_leopard_cat from './assets/felidae/leopardcat/felidae_sunda_leopard_cat_prionailurus_javanensis.jpg'
-import image_flat_headed_cat from './assets/felidae/leopardcat/felidae_flat_headed_cat_prionailurus_planiceps.jpg'
-import image_rusty_spotted_cat from './assets/felidae/leopardcat/felidae_rusty_spotted_cat_prionailurus_rubiginosus.jpg'
+import image_fishing_cat from './assets/felidae/leopardcat/felidae_fishing_cat_Prionailurus_viverrinus.jpg'
+import image_mainland_leopard_cat from './assets/felidae/leopardcat/felidae_mainland_leopard_cat_Prionailurus_bengalensis.jpg'
+import image_sunda_leopard_cat from './assets/felidae/leopardcat/felidae_sunda_leopard_cat_Prionailurus_javanensis.jpg'
+import image_flat_headed_cat from './assets/felidae/leopardcat/felidae_flat_headed_cat_Prionailurus_planiceps.jpg'
+import image_rusty_spotted_cat from './assets/felidae/leopardcat/felidae_rusty_spotted_cat_Prionailurus_rubiginosus.jpg'
 import image_pallas_cat from './assets/felidae/leopardcat/felidae_pallas_cat_Otocolobus_manul.jpg'
 
 /** Felis lineage */
