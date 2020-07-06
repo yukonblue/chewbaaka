@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 04, 2020
+ * Updated  : Jul 06, 2020
  */
 
 import React from 'react';
@@ -17,8 +17,10 @@ import './TopNavBar.css';
 
 class TopNavBar extends React.Component {
   render() {
+    const menuFixedStatus = this.props.fixedOnTop ? "top": "";
+
     return (
-      <Menu fixed="top" className="topNavBarMenu" data-testid="TopNavBarComponentTestId">
+      <Menu fixed={menuFixedStatus} className="topNavBarMenu" data-testid="TopNavBarComponentTestId">
         <Container>
           <Menu.Item as="a" header href="https://cheetah.org" data-testid="mainNavBarItem">
             <Image
@@ -27,8 +29,8 @@ class TopNavBar extends React.Component {
               style={{ marginRight: "1.5em" }}
             />
           </Menu.Item>
-        <Menu.Item as="a" href="https://www.iucnredlist.org/species/219/50649567" target="_blank">IUCN Status</Menu.Item>
-        <Menu.Item as="a" href="https://wildnet.org/wildlife-programs/cheetah-namibia/" target="_blank">Wildlife Conservation Network</Menu.Item>
+          <Menu.Item as="a" href="https://www.iucnredlist.org/species/219/50649567" target="_blank">IUCN Status</Menu.Item>
+          <Menu.Item as="a" href="https://wildnet.org/wildlife-programs/cheetah-namibia/" target="_blank">Wildlife Conservation Network</Menu.Item>
         </Container>
       </Menu>
     )

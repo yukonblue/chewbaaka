@@ -23,7 +23,10 @@ import {
   // Container,
 } from 'semantic-ui-react'
 
+import './ContentPageSharedStyles.css'
 import './ContentPageSkeleton.css'
+
+import ContentPageHead from './ContentPageHead'
 
 import TopNavBar from './TopNavBar'
 import Footer from './Footer'
@@ -50,6 +53,7 @@ class ContentPageSkeleton extends React.Component {
     return (
       <div className="ContentPageSkeletonOuterContainer">
         <TopNavBar />
+        <ContentPageHead coverImage={this.props.coverImage}/>
         <div>
           {this.renderBody()}
         </div>
@@ -62,7 +66,7 @@ class ContentPageSkeleton extends React.Component {
     return (
       <Ref innerRef={this.state.contextRef}>
         <div>
-          <div className="ContentPageSkeletonContentContainer">
+          <div className="ContentPageSkeletonContentContainerDimension ContentPageSkeletonContentContainer">
             {this.props.content}
           </div>
           <Rail internal position='left'>

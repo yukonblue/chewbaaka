@@ -12,8 +12,6 @@ div.ContentPageSkeletonOuterContainer {
 }
 
 div.ContentPageSkeletonContentContainer {
-  /* position: absolute; */
-  margin: 0px auto;
-  width: 75%;
+  
   background-color: skyblue;
 }

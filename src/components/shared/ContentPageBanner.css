@@ -1,0 +1,14 @@
+/**
+ * ContentPageBanner.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 06, 2020
+ * Updated  : Jul 06, 2020
+ */
+
+div.ContentPageBannerContainer {
+  background-color: red;
+  height: 420px;
+  background-size: cover;
+}
