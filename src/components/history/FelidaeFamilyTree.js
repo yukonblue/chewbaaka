@@ -32,38 +32,38 @@ function FelidaeFamilyTree() {
       { /* Puma lineage */ }
       <TextReveal
         coverImage={image_cheetah}
-        description="Acinonyx jubatus"
+        description="Cheetah (Acinonyx jubatus)"
         position={{top: 10, left: 10}}
       />
       <TextReveal
         coverImage={image_puma}
-        description="Puma concolor"
+        description="Puma (Puma concolor)"
         position={{top: 140, left: 10}}
       />
       <TextReveal
         coverImage={image_jaguarundi}
-        description="Herpailurus yagouaroundi"
+        description="Jaguarundi (Herpailurus yagouaroundi)"
         position={{top: 270, left: 10}}
       />
       { /* Puma lineage */ }
       <TextReveal
         coverImage={image_eurasian_lynx}
-        description="Lynx lynx"
+        description="Eurasian Lynx (Lynx lynx)"
         position={{top: 10, left: 140}}
       />
       <TextReveal
         coverImage={image_canadian_lynx}
-        description="Lynx canadensis"
+        description="Canadian Lynx (Lynx canadensis)"
         position={{top: 140, left: 140}}
       />
       <TextReveal
         coverImage={image_iberian_lynx}
-        description="Lynx pardinus"
+        description="Iberian Lynx (Lynx pardinus)"
         position={{top: 270, left: 140}}
       />
       <TextReveal
         coverImage={image_bobcat}
-        description="Lynx rufus"
+        description="Bobcat (Lynx rufus)"
         position={{top: 400, left: 140}}
       />
     </div>
