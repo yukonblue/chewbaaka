@@ -49,7 +49,7 @@ class ContentPageSkeleton extends React.Component {
     return (
       <div className="ContentPageSkeletonOuterContainer">
         <TopNavBar />
-        <ContentPageHead pageHeadProps={this.props.pageHeadProps}/>
+        <ContentPageHead pageProps={this.props.pageProps}/>
         <div>
           {this.renderBody()}
         </div>
@@ -74,7 +74,7 @@ class ContentPageSkeleton extends React.Component {
                 toggle
               />
               <div hidden={!this.state.isMenuActive}>
-                <ContentPageSideNavMenu items={this.props.pageHeadProps.pageMenuItems} />
+                <ContentPageSideNavMenu items={this.props.pageProps.pageMenuItems} />
               </div>
             </Sticky>
           </Rail>

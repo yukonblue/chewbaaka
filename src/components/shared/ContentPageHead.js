@@ -24,9 +24,9 @@ function ContentPageHead(props) {
         <ContentPageTopNavMenuBar />
       </div>
       <ContentPageBanner
-        coverImage={props.pageHeadProps.coverImage}
-        title={props.pageHeadProps.title}
-        subtitle={props.pageHeadProps.subtitle}
+        coverImage={props.pageProps.coverImage}
+        title={props.pageProps.title}
+        subtitle={props.pageProps.subtitle}
       />
     </div>
   );
