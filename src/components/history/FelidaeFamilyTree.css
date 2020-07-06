@@ -1,0 +1,15 @@
+/**
+ * FelidaeFamilyTree.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 05, 2020
+ * Updated  : Jul 05, 2020
+ */
+
+div.FelidaeFamilyTreeComponentOuterContainerDiv {
+  position: relative;
+  width: 1200px;
+  height: 900px;
+  background-color: whitesmoke;
+}

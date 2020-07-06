@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 05, 2020
+ * Updated  : Jul 06, 2020
  */
 
 /**
@@ -41,19 +41,28 @@ class TextReveal extends React.Component {
       backgroundColor: (this.props.contentColor ?  this.props.contentColor : defaultColor)
     }
 
+    const componentDivStylesStub = {
+      position: "absolute",
+    }
+
+    const componentStyles = {...componentDivStylesStub, ...this.props.position}
+
     return (
-      <Reveal animated={getRevealComponentAnimation(this.props.animation)} data-testid="TextRevealComponentTestId">
-        <Reveal.Content visible data-testid="TextRevealComponentVisiblePartTestId">
-          <div className="TextRevealComponentCoverContainerDiv" >
-            <Image src={this.props.coverImage} />
-          </div>
-        </Reveal.Content>
-        <Reveal.Content hidden data-testid="TextRevealComponentHiddenPartTestId">
-          <div className="TextRevealComponentContentContainerDiv" style={componentContentDivStyles}>
-            <p className="TextRevealComponentDescriptionText" data-testid="TextRevealComponentDescriptionTextPartTestId">{this.props.description}</p>
-          </div>
-        </Reveal.Content>
-      </Reveal>
+      <div style={componentStyles}>
+        <Reveal animated={getRevealComponentAnimation(this.props.animation)} data-testid="TextRevealComponentTestId">
+          <Reveal.Content visible data-testid="TextRevealComponentVisiblePartTestId">
+            <div className="TextRevealComponentCoverContainerDiv" >
+              <Image src={this.props.coverImage} />
+            </div>
+          </Reveal.Content>
+          <Reveal.Content hidden data-testid="TextRevealComponentHiddenPartTestId">
+            <div className="TextRevealComponentContentContainerDiv" style={componentContentDivStyles}>
+              <p className="TextRevealComponentDescriptionText" data-testid="TextRevealComponentDescriptionTextPartTestId">{this.props.description}</p>
+              <p className="TextRevealComponentCaptionText" data-testid="TextRevealComponentCaptionTextPartTestId">{this.props.caption}</p>
+            </div>
+          </Reveal.Content>
+        </Reveal>
+      </div>
     )
   }
 }
