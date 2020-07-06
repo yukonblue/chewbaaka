@@ -56,6 +56,11 @@ import image_african_wildcat from './assets/felidae/felis/felidae_african_wildca
 import image_sand_cat from './assets/felidae/felis/felidae_sand_cat_Felis_margarita.jpg'
 import image_black_footed_cat from './assets/felidae/felis/felidae_black_footed_cat_Felis_nigripes.jpg'
 
+/** Caracal lineage */
+import image_caracal from './assets/felidae/caracal/felidae_caracal_Caracal_caracal.jpg'
+import image_serval from './assets/felidae/caracal/felidae_serval_Leptailurus_serval.jpg'
+import image_african_golden_cat from './assets/felidae/caracal/felidae_african_golden_cat_Caracal_aurata.jpg'
+
 function FelidaeFamilyTree() {
   return (
     <div className="FelidaeFamilyTreeComponentOuterContainerDiv">
@@ -209,6 +214,22 @@ function FelidaeFamilyTree() {
         coverImage={image_black_footed_cat}
         description="Black-footed Cat (Felis nigripes)"
         position={{top: 660, left: 660}}
+      />
+      { /* Caracal lineage */ }
+      <TextReveal
+        coverImage={image_caracal}
+        description="Caracal (Caracal caracal)"
+        position={{top: 10, left: 790}}
+      />
+      <TextReveal
+        coverImage={image_serval}
+        description="Serval (Leptailurus serval)"
+        position={{top: 140, left: 790}}
+      />
+      <TextReveal
+        coverImage={image_african_golden_cat}
+        description="African Golden Cat (Caracal aurata)"
+        position={{top: 270, left: 790}}
       />
     </div>
   )
