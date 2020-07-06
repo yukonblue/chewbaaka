@@ -13,20 +13,16 @@ import "semantic-ui-css/semantic.min.css";
 
 import {
   Checkbox,
-  // Grid,
-  // Header,
-  // Image,
   Rail,
   Ref,
-  // Segment,
   Sticky,
-  // Container,
 } from 'semantic-ui-react'
 
 import './ContentPageSharedStyles.css'
 import './ContentPageSkeleton.css'
 
 import ContentPageHead from './ContentPageHead'
+import ContentPageSideNavMenu from './ContentPageSideNavMenu'
 
 import TopNavBar from './TopNavBar'
 import Footer from './Footer'
@@ -70,15 +66,16 @@ class ContentPageSkeleton extends React.Component {
             {this.props.content}
           </div>
           <Rail internal position='left'>
-            <Sticky  context={this.state.contextRef} offset={100}>
+            <Sticky context={this.state.contextRef} offset={100}>
               <Checkbox
                 checked={this.state.isMenuActive}
                 label='Menu'
                 onChange={this.handleMenuActiveToggle}
                 toggle
-                />
-              <br/>
-              TODO: Menu goes here...
+              />
+              <div hidden={!this.state.isMenuActive}>
+                <ContentPageSideNavMenu items={this.props.pageHeadProps.pageMenuItems} />
+              </div>
             </Sticky>
           </Rail>
         </div>

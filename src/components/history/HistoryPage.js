@@ -21,7 +21,12 @@ class HistoryPage extends React.Component {
     const pageHeadProps = {
       coverImage: coverImage,
       title: "History",
-      subtitle: "History of the cheeatah"
+      subtitle: "History of the cheeatah",
+      pageMenuItems: [
+        "History",
+        "Range",
+        "Threats"
+      ]
     };
 
     return (
