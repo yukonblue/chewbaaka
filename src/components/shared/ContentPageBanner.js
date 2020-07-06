@@ -9,6 +9,8 @@
 
 import React from 'react';
 
+// import { Header } from 'semantic-ui-react'
+
 import './ContentPageSharedStyles.css'
 import './ContentPageBanner.css'
 
@@ -19,6 +21,10 @@ function ContentPageBanner(props) {
 
   return (
     <div className="ContentPageSkeletonContentContainerDimension ContentPageBannerContainer" style={contentPageBannerContainerStyles}>
+      <div>
+        <h1>{props.title}</h1>
+        <h2>{props.subtitle}</h2>
+      </div>
     </div>
   );
 }

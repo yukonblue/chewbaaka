@@ -18,8 +18,14 @@ import coverImage from './assets/cheetah-mother-and-cubs-on-termite-mound.jpg'
 class HistoryPage extends React.Component {
 
   render() {
+    const pageHeadProps = {
+      coverImage: coverImage,
+      title: "History",
+      subtitle: "History of the cheeatah"
+    };
+
     return (
-      <ContentPageSkeleton coverImage={coverImage} content={this.renderContent()}/>
+      <ContentPageSkeleton pageHeadProps={pageHeadProps} content={this.renderContent()}/>
     )
   }
 

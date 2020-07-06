@@ -23,7 +23,11 @@ function ContentPageHead(props) {
   return (
     <div className="ContentPageSkeletonContentContainerDimension ContentPageHeadOuterContainer">
       <ContentPageTopNavMenuBar />
-      <ContentPageBanner coverImage={props.coverImage}/>
+      <ContentPageBanner
+        coverImage={props.pageHeadProps.coverImage}
+        title={props.pageHeadProps.title}
+        subtitle={props.pageHeadProps.subtitle}
+      />
     </div>
   );
 }

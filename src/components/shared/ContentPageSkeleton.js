@@ -53,7 +53,7 @@ class ContentPageSkeleton extends React.Component {
     return (
       <div className="ContentPageSkeletonOuterContainer">
         <TopNavBar />
-        <ContentPageHead coverImage={this.props.coverImage}/>
+        <ContentPageHead pageHeadProps={this.props.pageHeadProps}/>
         <div>
           {this.renderBody()}
         </div>
