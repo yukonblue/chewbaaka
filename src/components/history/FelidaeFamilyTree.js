@@ -40,6 +40,14 @@ import image_asiatic_golden_cat from './assets/felidae/baycat/felidae_asiatic_go
 import image_borneo_bay_cat from './assets/felidae/baycat/felidae_borneo_bay_cat.jpg'
 import image_marbled_cat from './assets/felidae/baycat/felidae_marbled_cat.jpg'
 
+/** Leopard Cat lineage */
+import image_fishing_cat from './assets/felidae/leopardcat/felidae_fishing_cat.jpg'
+import image_mainland_leopard_cat from './assets/felidae/leopardcat/felidae_mainland_leopard_cat_prionailurus_bengalensis.jpg'
+import image_sunda_leopard_cat from './assets/felidae/leopardcat/felidae_sunda_leopard_cat_prionailurus_javanensis.jpg'
+import image_flat_headed_cat from './assets/felidae/leopardcat/felidae_flat_headed_cat_prionailurus_planiceps.jpg'
+import image_rusty_spotted_cat from './assets/felidae/leopardcat/felidae_rusty_spotted_cat_prionailurus_rubiginosus.jpg'
+import image_pallas_cat from './assets/felidae/leopardcat/felidae_pallas_cat_Otocolobus_manul.jpg'
+
 function FelidaeFamilyTree() {
   return (
     <div className="FelidaeFamilyTreeComponentOuterContainerDiv">
@@ -131,6 +139,37 @@ function FelidaeFamilyTree() {
         coverImage={image_marbled_cat}
         description="Marbled Cat (Pardofelis marmorata)"
         position={{top: 270, left: 400}}
+      />
+      { /* Leopard Cat lineage */ }
+      <TextReveal
+        coverImage={image_fishing_cat}
+        description="Fishing Cat (Prionailurus viverrinus)"
+        position={{top: 10, left: 530}}
+      />
+      <TextReveal
+        coverImage={image_mainland_leopard_cat}
+        description="Mainland Leopard Cat (Prionailurus bengalensis)"
+        position={{top: 140, left: 530}}
+      />
+      <TextReveal
+        coverImage={image_sunda_leopard_cat}
+        description="Sunda Leopard Cat (Prionailurus javanensis)"
+        position={{top: 270, left: 530}}
+      />
+      <TextReveal
+        coverImage={image_flat_headed_cat}
+        description="Flat-headed Cat (Prionailurus planiceps)"
+        position={{top: 400, left: 530}}
+      />
+      <TextReveal
+        coverImage={image_rusty_spotted_cat}
+        description="Rusty-spotted Cat (Prionailurus rubiginosus)"
+        position={{top: 530, left: 530}}
+      />
+      <TextReveal
+        coverImage={image_pallas_cat}
+        description="Pallas's Cat (Otocolobus manul)"
+        position={{top: 660, left: 530}}
       />
     </div>
   )
