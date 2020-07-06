@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 05, 2020
+ * Updated  : Jul 06, 2020
  */
 
 /**
@@ -58,6 +58,7 @@ class TextReveal extends React.Component {
           <Reveal.Content hidden data-testid="TextRevealComponentHiddenPartTestId">
             <div className="TextRevealComponentContentContainerDiv" style={componentContentDivStyles}>
               <p className="TextRevealComponentDescriptionText" data-testid="TextRevealComponentDescriptionTextPartTestId">{this.props.description}</p>
+              <p className="TextRevealComponentCaptionText" data-testid="TextRevealComponentCaptionTextPartTestId">{this.props.caption}</p>
             </div>
           </Reveal.Content>
         </Reveal>
