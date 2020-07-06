@@ -50,7 +50,12 @@ class ImageRevealDetailedWithTextCover extends React.Component {
         <Reveal.Content hidden data-testid="ImageRevealDetailedWithTextCoverComponentHiddenPartTestId">
           <div className="ImageRevealDetailedWithTextCoverComponentContentDiv">
             <Image src={this.props.contentImage} />
-            <p className="ImageRevealDetailedWithTextCoverComponentDescriptionText" data-testid="ImageRevealDetailedWithTextCoverComponentDescriptionTextPartTestId">{this.props.description}</p>
+            <p
+              className="ImageRevealDetailedWithTextCoverComponentDescriptionText"
+              data-testid="ImageRevealDetailedWithTextCoverComponentDescriptionTextPartTestId"
+            >
+                {this.props.description}
+            </p>
           </div>
         </Reveal.Content>
       </Reveal>
