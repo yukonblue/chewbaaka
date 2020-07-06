@@ -33,6 +33,11 @@ export default class ContentPageTopNavMenuBar extends React.Component {
         <div>
           <Menu secondary>
             <Menu.Item
+              name='Home'
+              active={activeItem === 'Home'}
+              onClick={this.handleItemClick}
+            />
+            <Menu.Item
               name='History'
               active={activeItem === 'History'}
               onClick={this.handleItemClick}
