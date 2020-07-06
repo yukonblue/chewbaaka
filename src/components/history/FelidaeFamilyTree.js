@@ -26,6 +26,15 @@ import image_canadian_lynx from './assets/felidae/lynx/felidae_canadian_lynx.jpg
 import image_iberian_lynx from './assets/felidae/lynx/felidae_iberian_lynx.jpg'
 import image_bobcat from './assets/felidae/lynx/felidae_bobcat.jpg'
 
+/** Panthera lineage */
+import image_tiger from './assets/felidae/panthera/felidae_tiger.jpg'
+import image_lion from './assets/felidae/panthera/felidae_lion.jpg'
+import image_jaguar from './assets/felidae/panthera/felidae_jaguar.jpg'
+import image_leopard from './assets/felidae/panthera/felidae_leopard.jpg'
+import image_snow_leopard from './assets/felidae/panthera/felidae_snow_leopard.jpg'
+import image_mainland_clouded_leopard from './assets/felidae/panthera/felidae_mainland_clouded_leopard.jpg'
+import image_sunda_clouded_leopard from './assets/felidae/panthera/felidae_sunda_clouded_leopard.jpg'
+
 function FelidaeFamilyTree() {
   return (
     <div className="FelidaeFamilyTreeComponentOuterContainerDiv">
@@ -65,6 +74,42 @@ function FelidaeFamilyTree() {
         coverImage={image_bobcat}
         description="Bobcat (Lynx rufus)"
         position={{top: 400, left: 140}}
+      />
+      { /* Panthera lineage */ }
+      <TextReveal
+        coverImage={image_tiger}
+        description="Tiger (Panthera tigris)"
+        position={{top: 10, left: 270}}
+      />
+      <TextReveal
+        coverImage={image_lion}
+        description="Lion (Panthera leo)"
+        position={{top: 140, left: 270}}
+      />
+      <TextReveal
+        coverImage={image_jaguar}
+        description="Jaguar (Panthera onca)"
+        position={{top: 270, left: 270}}
+      />
+      <TextReveal
+        coverImage={image_leopard}
+        description="Leopard (Panthera pardus)"
+        position={{top: 400, left: 270}}
+      />
+      <TextReveal
+        coverImage={image_snow_leopard}
+        description="Snow Leopard (Panthera uncia)"
+        position={{top: 530, left: 270}}
+      />
+      <TextReveal
+        coverImage={image_mainland_clouded_leopard}
+        description="Mainland Clouded Leopard (Neofelis nebulosa)"
+        position={{top: 660, left: 270}}
+      />
+      <TextReveal
+        coverImage={image_sunda_clouded_leopard}
+        description="Sunda Clouded Leopard (Neofelis diardi)"
+        position={{top: 790, left: 270}}
       />
     </div>
   )
