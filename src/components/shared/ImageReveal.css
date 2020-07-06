@@ -1,0 +1,18 @@
+/**
+ * ImageReveal.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Updated  : Jul 05, 2020
+ * Created  : Jul 05, 2020
+ */
+
+div.ImageRevealComponentContainerDiv {
+  width: 120px;
+  height: 120px;
+}
+
+div.ImageRevealComponentContentDiv {
+  width: 120px;
+  height: 120px;
+}

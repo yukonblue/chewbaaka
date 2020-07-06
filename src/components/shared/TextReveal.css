@@ -1,0 +1,28 @@
+/**
+ * TextReveal.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 05, 2020
+ * Updated  : Jul 05, 2020
+ */
+
+div.TextRevealComponentCoverContainerDiv {
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.TextRevealComponentContentContainerDiv {
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+p.TextRevealComponentDescriptionText {
+  padding-top: 20px;
+  font-size: 14px;
+  color: white;
+}
