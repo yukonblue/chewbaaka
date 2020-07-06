@@ -41,8 +41,14 @@ class TextReveal extends React.Component {
       backgroundColor: (this.props.contentColor ?  this.props.contentColor : defaultColor)
     }
 
+    const componentDivStylesStub = {
+      position: "relative",
+    }
+
+    const componentStyles = {...componentDivStylesStub, ...this.props.position}
+
     return (
-      <Reveal animated={getRevealComponentAnimation(this.props.animation)} data-testid="TextRevealComponentTestId">
+      <Reveal animated={getRevealComponentAnimation(this.props.animation)} data-testid="TextRevealComponentTestId" style={componentStyles}>
         <Reveal.Content visible data-testid="TextRevealComponentVisiblePartTestId">
           <div className="TextRevealComponentCoverContainerDiv" >
             <Image src={this.props.coverImage} />
