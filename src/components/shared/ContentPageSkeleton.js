@@ -12,7 +12,7 @@ import React from 'react';
 import "semantic-ui-css/semantic.min.css";
 
 import {
-  Checkbox,
+  Button,
   Rail,
   Ref,
   Sticky,
@@ -67,12 +67,7 @@ class ContentPageSkeleton extends React.Component {
           </div>
           <Rail internal position='left'>
             <Sticky context={this.state.contextRef} offset={100}>
-              <Checkbox
-                checked={this.state.isMenuActive}
-                label='Menu'
-                onChange={this.handleMenuActiveToggle}
-                toggle
-              />
+              <Button circular icon="list ul" color="orange" onClick={this.handleMenuActiveToggle} />
               <div hidden={!this.state.isMenuActive}>
                 <ContentPageSideNavMenu items={this.props.pageProps.pageMenuItems} />
               </div>
