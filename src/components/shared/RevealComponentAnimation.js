@@ -18,6 +18,15 @@ const supportedRevealComponentAnimations = [
   "rotate left"
 ];
 
+/**
+ * Utility function that returns the supported animation of the `Reveal`
+ * component from Semantic UI.
+ *
+ * @param {string} animation : Desired animation of the component.
+ * If the specified animation is not one of the supported animations,
+ * or if the argument is null, then returns one of the supported
+ * animations at random.
+ */
 export const getRevealComponentAnimation = function(animation) {
   let idx = supportedRevealComponentAnimations.indexOf(animation);
 

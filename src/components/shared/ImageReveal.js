@@ -12,8 +12,8 @@
  *
  * ImageReveal is a component that initially shows
  * a cover image specified by the user, and when
- * hovered, hides the cover image and shows another
- * image specified by the user.
+ * hovered, hides the cover image and shows the
+ * specified content image.
  *
  * Props:
  *
@@ -35,8 +35,6 @@ import './ImageReveal.css'
 class ImageReveal extends React.Component {
 
   render() {
-    const size = this.props.size ? this.props.size : "small";
-
     return (
       <Reveal animated={getRevealComponentAnimation(this.props.animation)} data-testid="ImageRevealComponentTestId">
         <Reveal.Content visible data-testid="ImageRevealComponentVisiblePartTestId">
@@ -46,7 +44,7 @@ class ImageReveal extends React.Component {
         </Reveal.Content>
         <Reveal.Content hidden data-testid="ImageRevealComponentHiddenPartTestId">
           <div className="ImageRevealComponentContentDiv">
-            <Image src={this.props.contentImage} size={size} />
+            <Image src={this.props.contentImage} />
           </div>
         </Reveal.Content>
       </Reveal>
