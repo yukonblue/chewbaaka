@@ -1,0 +1,36 @@
+/**
+ * TextBubble.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 06, 2020
+ * Updated  : Jul 06, 2020
+ */
+
+div.TextBubbleOuterContainer {
+  background-color: rgba(0, 185, 207);
+  border-radius: 50%;
+}
+
+div.TextBubbleInnerContainer {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%) translateX(13%);
+  vertical-align: middle;
+  /* Uncomment for debugging. */
+  /* background-color: wheat; */
+}
+
+div.TextBubbleInnerCore {
+  position: relative;
+  top: 15%;
+  text-align: left;
+  /* Uncomment for debugging. */
+  /* background-color: pink; */
+}
+
+div.TextBubbleInnerCore h1 {
+  color: white;
+}

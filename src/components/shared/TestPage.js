@@ -20,6 +20,7 @@ import ImageReveal from './ImageReveal'
 import ImageRevealDetailedWithTextCover from './ImageRevealDetailedWithTextCover'
 import TextReveal from './TextReveal'
 import FelidaeFamilyTree from '../history/FelidaeFamilyTree'
+import TextBubble from './TextBubble'
 
 import image01 from './assets/cheetah-conservation-fund-logo.jpg'
 import image02 from './assets/cheetah-conservation-fund-30-logo.svg'
@@ -40,6 +41,18 @@ class TestPage extends React.Component {
     return (
       <div>
         <h1>This is a test page</h1>
+
+        <h2>Text Bubble</h2>
+        <TextBubble diameter={600} backgroundColorRGB={[20,80,120]} contentColorRGB={[255,255,255]} title="This is a TextBubble" content="Compiled successfully!
+You can now view chewbaaka in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.0.14:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build." />
+
+        <TextBubble diameter={300} title="This is a smaller TextBubble" content="Explore the breadth and splendor of the Museum’s collection through some of our most significant and beautiful artifacts and specimens." />
 
         <h2>Felidae Family Tree</h2>
         <FelidaeFamilyTree />
