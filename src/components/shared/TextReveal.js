@@ -7,6 +7,21 @@
  * Updated  : Jul 05, 2020
  */
 
+/**
+ * TextReveal
+ *
+ * TextReveal is a component that initially shows
+ * a cover image specified by the user, and when
+ * hovered, hides the cover image and shows a
+ * specified block of text.
+ *
+ * Props:
+ *
+ *  - `coverImage`: The cover image.
+ *
+ *  - `description`: The text content to show upon hovered.
+ */
+
 import React from 'react';
 
 import "semantic-ui-css/semantic.min.css";

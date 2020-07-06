@@ -7,6 +7,22 @@
  * Updated  : Jul 05, 2020
  */
 
+/**
+ * ImageRevealDetailedWithTextCover
+ *
+ * ImageRevealDetailedWithTextCover is a component that
+ * initially shows a block of text specified by the user,
+ * and when hovered, hides the text and shows a user
+ * specified content image and a description text.
+ *
+ * Props:
+ *  - `title`: The title that is initially shown.
+ *
+ *  - `contentImage`: The content image to show upon hovered.
+ *
+ *  - `description`: The content text to show upon hovered.
+ */
+
 import React from 'react';
 
 import "semantic-ui-css/semantic.min.css";
