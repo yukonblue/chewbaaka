@@ -19,6 +19,7 @@ import ImageSlideModal from './ImageSlideModal'
 import ImageReveal from './ImageReveal'
 import ImageRevealDetailedWithTextCover from './ImageRevealDetailedWithTextCover'
 import TextReveal from './TextReveal'
+import FelidaeFamilyTree from '../history/FelidaeFamilyTree'
 
 import image01 from './assets/cheetah-conservation-fund-logo.jpg'
 import image02 from './assets/cheetah-conservation-fund-30-logo.svg'
@@ -38,6 +39,8 @@ class TestPage extends React.Component {
     }
     return (
       <div>
+        <FelidaeFamilyTree />
+        <hr/>
         <ImageReveal
           coverImage={image04}
           contentImage={image03}
