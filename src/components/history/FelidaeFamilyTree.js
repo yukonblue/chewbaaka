@@ -35,6 +35,11 @@ import image_snow_leopard from './assets/felidae/panthera/felidae_snow_leopard.j
 import image_mainland_clouded_leopard from './assets/felidae/panthera/felidae_mainland_clouded_leopard.jpg'
 import image_sunda_clouded_leopard from './assets/felidae/panthera/felidae_sunda_clouded_leopard.jpg'
 
+/** Bay Cat lineage */
+import image_asiatic_golden_cat from './assets/felidae/baycat/felidae_asiatic_golden_cat.jpg'
+import image_borneo_bay_cat from './assets/felidae/baycat/felidae_borneo_bay_cat.jpg'
+import image_marbled_cat from './assets/felidae/baycat/felidae_marbled_cat.jpg'
+
 function FelidaeFamilyTree() {
   return (
     <div className="FelidaeFamilyTreeComponentOuterContainerDiv">
@@ -110,6 +115,22 @@ function FelidaeFamilyTree() {
         coverImage={image_sunda_clouded_leopard}
         description="Sunda Clouded Leopard (Neofelis diardi)"
         position={{top: 790, left: 270}}
+      />
+      { /* Bay Cat lineage */ }
+      <TextReveal
+        coverImage={image_asiatic_golden_cat}
+        description="Asiatic Golden Cat (Catopuma temminckii)"
+        position={{top: 10, left: 400}}
+      />
+      <TextReveal
+        coverImage={image_borneo_bay_cat}
+        description="Borneo Bay Cat (Catopuma badia)"
+        position={{top: 140, left: 400}}
+      />
+      <TextReveal
+        coverImage={image_marbled_cat}
+        description="Marbled Cat (Pardofelis marmorata)"
+        position={{top: 270, left: 400}}
       />
     </div>
   )
