@@ -11,6 +11,8 @@ import React from 'react';
 
 import { Menu } from 'semantic-ui-react'
 
+import { Route } from "react-router-dom";
+
 import "semantic-ui-css/semantic.min.css";
 
 import './ContentPageSharedStyles.css'
@@ -18,45 +20,27 @@ import './ContentPageTopNavMenuBar.css'
 
 export default class ContentPageTopNavMenuBar extends React.Component {
 
-  constructor(props) {
-    super(props);
-    this.state = { activeItem: 'History' }
-  }
-
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
-
   render() {
-    const { activeItem } = this.state
+    const menuItems = [];
+    const menuItemNames = ["Home", "History", "Biology", "Ecology", "Future"]
+
+    for (const [idx, val] of menuItemNames.entries()) {
+      menuItems.push(
+        <Route render={({ history }) => (
+          <Menu.Item key={idx} name={val} onClick={
+            () => {
+              history.push("/"+val.toLowerCase());
+            }}
+          />
+        )} />
+      );
+    }
 
     return (
       <div className="ContentPageTopNavMenuBarContainer">
         <div>
           <Menu secondary>
-            <Menu.Item
-              name='Home'
-              active={activeItem === 'Home'}
-              onClick={this.handleItemClick}
-            />
-            <Menu.Item
-              name='History'
-              active={activeItem === 'History'}
-              onClick={this.handleItemClick}
-            />
-            <Menu.Item
-              name='Biology'
-              active={activeItem === 'Biology'}
-              onClick={this.handleItemClick}
-            />
-            <Menu.Item
-              name='Ecology'
-              active={activeItem === 'Ecology'}
-              onClick={this.handleItemClick}
-            />
-            <Menu.Item
-              name='Future'
-              active={activeItem === 'Future'}
-              onClick={this.handleItemClick}
-            />
+            {menuItems}
           </Menu>
         </div>
       </div>
