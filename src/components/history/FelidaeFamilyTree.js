@@ -48,6 +48,14 @@ import image_flat_headed_cat from './assets/felidae/leopardcat/felidae_flat_head
 import image_rusty_spotted_cat from './assets/felidae/leopardcat/felidae_rusty_spotted_cat_prionailurus_rubiginosus.jpg'
 import image_pallas_cat from './assets/felidae/leopardcat/felidae_pallas_cat_Otocolobus_manul.jpg'
 
+/** Felis lineage */
+import image_jungle_cat from './assets/felidae/felis/felidae_jungle_cat_Felis_chaus.jpg'
+import image_chinese_mountain_cat from './assets/felidae/felis/felidae_chinese_mountain_cat_Felis_bieti.jpg'
+import image_european_wildcat from './assets/felidae/felis/felidae_european_wildcat_Felis_silvestris.jpg'
+import image_african_wildcat from './assets/felidae/felis/felidae_african_wildcat_Felis_lybica.jpg'
+import image_sand_cat from './assets/felidae/felis/felidae_sand_cat_Felis_margarita.jpg'
+import image_black_footed_cat from './assets/felidae/felis/felidae_black_footed_cat_Felis_nigripes.jpg'
+
 function FelidaeFamilyTree() {
   return (
     <div className="FelidaeFamilyTreeComponentOuterContainerDiv">
@@ -170,6 +178,37 @@ function FelidaeFamilyTree() {
         coverImage={image_pallas_cat}
         description="Pallas's Cat (Otocolobus manul)"
         position={{top: 660, left: 530}}
+      />
+      { /* Felis lineage */ }
+      <TextReveal
+        coverImage={image_jungle_cat}
+        description="Jungle Cat (Felis chaus)"
+        position={{top: 10, left: 660}}
+      />
+      <TextReveal
+        coverImage={image_chinese_mountain_cat}
+        description="Chinese Mountain Cat (Felis bieti)"
+        position={{top: 140, left: 660}}
+      />
+      <TextReveal
+        coverImage={image_european_wildcat}
+        description="European Wildcat (Felis silvestris)"
+        position={{top: 270, left: 660}}
+      />
+      <TextReveal
+        coverImage={image_african_wildcat}
+        description="African-Asiatic Wildcat (Felis lybica)"
+        position={{top: 400, left: 660}}
+      />
+      <TextReveal
+        coverImage={image_sand_cat}
+        description="Sand Cat (Felis margarita)"
+        position={{top: 530, left: 660}}
+      />
+      <TextReveal
+        coverImage={image_black_footed_cat}
+        description="Black-footed Cat (Felis nigripes)"
+        position={{top: 660, left: 660}}
       />
     </div>
   )
