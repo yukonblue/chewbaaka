@@ -16,6 +16,8 @@
  * Props:
  *
  *  - `title`: Text of the introduction title.
+ *
+ *  - `content` (optional): Optional subtitle.
  */
 
 import React from 'react';
@@ -41,9 +43,9 @@ export default class ContentPageSectionHead extends React.Component {
           <div className="ContentPageSectionHeadTitleContainer">
             <h2 className="ContentPageSectionHeadTitle">{this.props.title}</h2>
           </div>
-          {/* <div className="ContentPageIntroParagraphContentContainer">
+          <div className="ContentPageIntroParagraphContentContainer">
             <p>{this.props.content}</p>
-          </div> */}
+          </div>
         </div>
       </div>
     );
