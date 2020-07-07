@@ -15,9 +15,13 @@ import logo from './assets/cheetah-conservation-fund-30-logo.svg'
 
 import './TopNavBar.css';
 
+const __TEST__ = ( process.env.NODE_ENV === "test" );
+
 class TopNavBar extends React.Component {
   render() {
-    const menuFixedStatus = this.props.fixedOnTop ? "top": "";
+    // Set `fixed` prop of `Menu` component to "top"
+    // in test mode to avoid warning about invalid prop.
+    const menuFixedStatus = ( this.props.fixedOnTop || __TEST__ ) ? "top": "";
 
     return (
       <Menu fixed={menuFixedStatus} className="topNavBarMenu" data-testid="TopNavBarComponentTestId">
