@@ -9,7 +9,7 @@
 
 import React from 'react';
 
-import { Redirect } from 'react-router-dom'
+import { BrowserRouter as Router, Redirect } from 'react-router-dom'
 
 import "semantic-ui-css/semantic.min.css";
 
@@ -30,7 +30,7 @@ import image02 from './assets/cheetah-conservation-fund-30-logo.svg'
 import image03 from './assets/cheetah-conservation-fund-cheetah-fact-01.jpg'
 import image04 from './assets/cheetah-conservation-fund-cheetah-fact-02.jpg'
 
-const __DEV__ = ( process.env.NODE_ENV === "development" );
+const __DEV__ = ( process.env.NODE_ENV === "development" || process.env.NODE_ENV === "test" );
 
 class TestPage extends React.Component {
   render() {
@@ -39,7 +39,11 @@ class TestPage extends React.Component {
      * otherwise renders whatever component we need to test here.
      */
     if ( !__DEV__ ) {
-      return <Redirect to="/" />  
+      return (
+        <Router>
+          <Redirect to="/" />
+        </Router>
+      );
     }
     return (
       <div>
