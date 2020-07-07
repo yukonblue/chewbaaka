@@ -16,6 +16,8 @@ import HistoryPageSectionTableOfContent from './HistoryPageSectionTableOfContent
 import ContentPageIntroParagraph from '../shared/ContentPageIntroParagraph'
 import ContentPageSectionHead from '../shared/ContentPageSectionHead'
 
+import HistoryPageFelidaeFamilyTreeSubsection from './HistoryPageFelidaeFamilyTreeSubsection'
+
 import coverImage from './assets/cheetah-mother-and-cubs-on-termite-mound.jpg'
 
 // TODO: Refactor these into static config file.
@@ -52,6 +54,8 @@ class HistoryPage extends React.Component {
         />
 
         <ContentPageSectionHead title="Evolution"/>
+  
+        <HistoryPageFelidaeFamilyTreeSubsection />
 
         <p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p>
         <p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p>
