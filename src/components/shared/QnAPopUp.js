@@ -7,6 +7,17 @@
  * Updated  : Jul 06, 2020
  */
 
+/**
+ * QnAPopUp
+ *
+ * `QnAPopUp` is a component that shows the answer/fact associaetd
+ * with a "Did you know?" question.
+ *
+ * Props:
+ *
+ *  - `content`: The content text of the illustrated answer/fact.
+ */
+
 import React from 'react';
 
 import "semantic-ui-css/semantic.min.css";

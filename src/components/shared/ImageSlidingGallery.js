@@ -7,6 +7,19 @@
  * Updated  : Jul 06, 2020
  */
 
+/**
+ * ImageSlidingGallery
+ *
+ * `ImageSlidingGallery` is a component that illustrates a set of
+ * user specified images one at a time, along with a piece of
+ * caption string annotating the image.
+ *
+ * Props:
+ *
+ *  - `slides`: An array of objects containing the image and caption
+ *    tuples.
+ */
+
 import React from 'react';
 
 import "semantic-ui-css/semantic.min.css";

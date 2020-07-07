@@ -7,6 +7,23 @@
  * Updated  : Jul 06, 2020
  */
 
+/**
+ * TextBubble
+ *
+ * `TextBubble` is a component that illustrates a title and a
+ * block of text in a circular container.
+ *
+ * Props:
+ *
+ *  - `backgroundColorRGB`: The RGB background color of the circle.
+ *
+ *  - `titleColorRGB`: The RGB color of the title text.
+ *
+ *  - `title`: The title text.
+ *
+ *  - `content`: The content paragraph text.
+ */
+
 import React from 'react';
 
 import "semantic-ui-css/semantic.min.css";
