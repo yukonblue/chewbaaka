@@ -1,0 +1,40 @@
+/**
+ * ContentPageIntroParagraph.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 07, 2020
+ * Updated  : Jul 07, 2020
+ */
+
+div.ContentPageIntroParagraphOuterContainer {
+  margin: 0 auto;
+}
+
+div.ContentPageIntroParagraphInnerContainer {
+  margin: 0 auto;
+  width: 85%;
+  /* Uncomment line below for debugging. */
+  background-color: yellowgreen;
+}
+
+div.ContentPageIntroParagraphTitleContainer {
+  padding: 20px 0px;
+  /* Uncomment line below for debugging. */
+  background-color: violet;
+}
+
+div.ContentPageIntroParagraphContentContainer {
+  /* Uncomment line below for debugging. */
+  background-color: tan;
+}
+
+h1.ContentPageIntroParagraphTitle {
+  font-size: 60px;
+  line-height: 1.6;
+  text-decoration: underline;
+}
+
+div.ContentPageIntroParagraphContentContainer p {
+  text-align: left;
+}
