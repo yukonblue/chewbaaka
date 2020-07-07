@@ -21,6 +21,8 @@ class TopNavBar extends React.Component {
   render() {
     // Set `fixed` prop of `Menu` component to "top"
     // in test mode to avoid warning about invalid prop.
+    //
+    // TODO: Figure out a better solution for this ...
     const menuFixedStatus = ( this.props.fixedOnTop || __TEST__ ) ? "top": "";
 
     return (
