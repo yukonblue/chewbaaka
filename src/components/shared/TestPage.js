@@ -52,7 +52,7 @@ class TestPage extends React.Component {
 
         This page is used to test our custom components, navigations, and other things.
 
-        <h2></h2>
+        <h2>HintSignpost</h2>
         <HintSignpost hintText="This is a hint signpost"/>
 
         <h2>QnAPopUp</h2>
