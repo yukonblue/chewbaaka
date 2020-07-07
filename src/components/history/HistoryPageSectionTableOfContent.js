@@ -19,6 +19,12 @@ import image_circle from '../shared/assets/cheetah-conservation-fund-cheetah-fac
 
 function HistoryPageSectionTableOfContent(props) {
   // TODO: Consolidate menu item images.
+
+  /**
+   * TODO:
+   * Find a way to consolidate the source of the section titles with the page sidebar menu.
+   * Avoiding re-hardcoding them here and out-of-sync.
+   */
   const items = [
     {
       image: image_circle,
