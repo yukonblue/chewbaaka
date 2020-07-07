@@ -57,7 +57,9 @@ class HistoryPage extends React.Component {
 
         {this.renderEvolutionSectionContent()}
 
-        {this.renderCheetahAndManContent()}
+        {this.renderCheetahAndManSectionContent()}
+
+        {this.renderRangeAndPopulationSectionContent()}
 
         <p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p>
         <p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p>
@@ -84,7 +86,7 @@ class HistoryPage extends React.Component {
     );
   }
 
-  renderCheetahAndManContent() {
+  renderCheetahAndManSectionContent() {
     return (
       <div>
         <ContentPageSectionHead
@@ -93,6 +95,17 @@ class HistoryPage extends React.Component {
         />
 
         <HistoryPageCheetahAndManImageSubsection />
+      </div>
+    );
+  }
+
+  renderRangeAndPopulationSectionContent() {
+    return (
+      <div>
+        <ContentPageSectionHead
+          title="Range and Population"
+          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        />
       </div>
     );
   }
