@@ -11,8 +11,6 @@ import React from 'react';
 
 import { Menu } from 'semantic-ui-react'
 
-import { Route } from "react-router-dom";
-
 import "semantic-ui-css/semantic.min.css";
 
 import './ContentPageSharedStyles.css'
@@ -26,13 +24,9 @@ export default class ContentPageTopNavMenuBar extends React.Component {
 
     for (const [idx, val] of menuItemNames.entries()) {
       menuItems.push(
-        <Route key={idx} render={({ history }) => (
-          <Menu.Item key={idx} name={val} onClick={
-            () => {
-              history.push("/"+val.toLowerCase());
-            }}
-          />
-        )} />
+        <a href={"/" + val}>
+          <Menu.Item key={idx} name={val} />
+        </a>
       );
     }
 
