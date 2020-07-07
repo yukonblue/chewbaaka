@@ -9,7 +9,7 @@
 
 div.QnAPopUpContainer {
   display: inline-block;
-  /* Uncomment for debugging. */
+  /* Uncomment line below for debugging. */
   /* background-color: gray; */
 }
 
@@ -23,7 +23,6 @@ div.QnAPopUpTextSecondaryBubbleContainer {
 }
 
 div.QnAPopUpButtonGroupContainer {
-  /* height: 40px; */
   display: inline-block;
   /* background-color: rgb(255, 166, 0); */
   /* background-color: rgb(255, 182, 31); */

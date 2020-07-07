@@ -9,7 +9,6 @@
 
 div.ContentPageTopNavMenuBarContainer {
   position: relative;
-  /* left: 100%; */
   float: right;
   margin-bottom: 10px;
 }
@@ -28,5 +27,4 @@ div.ContentPageTopNavMenuBarContainer {
   text-transform: uppercase;
   color: #FFFFFF;
   font-weight: bold;
-  /* text-decoration: underline; */  
 }

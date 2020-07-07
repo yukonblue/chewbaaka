@@ -19,7 +19,7 @@ div.TextBubbleInnerContainer {
   top: 50%;
   transform: translateY(-50%) translateX(13%);
   vertical-align: middle;
-  /* Uncomment for debugging. */
+  /* Uncomment line below for debugging. */
   /* background-color: wheat; */
 }
 
@@ -27,7 +27,7 @@ div.TextBubbleInnerCore {
   position: relative;
   top: 15%;
   text-align: left;
-  /* Uncomment for debugging. */
+  /* Uncomment line below for debugging. */
   /* background-color: pink; */
 }
 
