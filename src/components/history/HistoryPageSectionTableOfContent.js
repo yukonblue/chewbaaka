@@ -18,6 +18,7 @@ import ContentPageTableOfContentMenuTemplate from '../shared/ContentPageTableOfC
 import image_circle from '../shared/assets/cheetah-conservation-fund-cheetah-fact-01.jpg'
 
 function HistoryPageSectionTableOfContent(props) {
+  // TODO: Consolidate menu item images.
   const items = [
     {
       image: image_circle,

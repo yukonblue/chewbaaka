@@ -18,6 +18,8 @@ import './ContentPageTableOfContentMenuTemplate.css'
 import CircularImageButton from '../shared/CircularImageButton'
 
 function ContentPageTableOfContentMenuTemplate(props) {
+  // TODO: Handle multi-row menu.
+
   const gridColumns = [];
   for (const [idx, item] of props.items.entries()) {
     gridColumns.push(
