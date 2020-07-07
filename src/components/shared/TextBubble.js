@@ -31,7 +31,7 @@ function TextBubble(props) {
   };
 
   return (
-    <div className="TextBubbleOuterContainer" style={componentOuterContainerStyles}>
+    <div className="TextBubbleOuterContainer" style={componentOuterContainerStyles} hidden={props.hidden}>
       <div className="TextBubbleInnerContainer">
         <div className="TextBubbleInnerCore">
           <h1 style={componentTitleElementStyles}>{props.title}</h1>

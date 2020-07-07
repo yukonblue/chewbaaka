@@ -23,7 +23,7 @@ import FelidaeFamilyTree from '../history/FelidaeFamilyTree'
 import TextBubble from './TextBubble'
 import ImageSlidingGallery from './ImageSlidingGallery'
 import CircularImageButton from './CircularImageButton'
-
+import QnAPopUp from './QnAPopUp'
 
 import image01 from './assets/cheetah-conservation-fund-logo.jpg'
 import image02 from './assets/cheetah-conservation-fund-30-logo.svg'
@@ -46,6 +46,9 @@ class TestPage extends React.Component {
         <h1>This is a test page</h1>
 
         This page is used to test our custom components, navigations, and other things.
+
+        <h2>QnAPopUp</h2>
+        <QnAPopUp content="The cheetah is the fastest land animal!"/>
 
         <h2>CircularImageButton</h2>
         <CircularImageButton

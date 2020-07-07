@@ -1,0 +1,38 @@
+/**
+ * QnAPopUp.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 06, 2020
+ * Updated  : Jul 06, 2020
+ */
+
+div.QnAPopUpContainer {
+  display: inline-block;
+  /* Uncomment for debugging. */
+  /* background-color: gray; */
+}
+
+div.QnAPopUpMainTextBubbleContainer {
+  margin-left: 60px;
+}
+
+div.QnAPopUpTextSecondaryBubbleContainer {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+div.QnAPopUpButtonGroupContainer {
+  /* height: 40px; */
+  display: inline-block;
+  /* background-color: rgb(255, 166, 0); */
+  /* background-color: rgb(255, 182, 31); */
+}
+
+.QnAPopUpButtonGroupContainer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  /* color: rgb(255, 182, 31); */
+  color: #212529;
+}
