@@ -1,0 +1,30 @@
+/**
+ * ContentPageTopNavMenuBar.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 06, 2020
+ * Updated  : Jul 06, 2020
+ */
+
+div.ContentPageTopNavMenuBarContainer {
+  position: relative;
+  float: right;
+  margin-bottom: 10px;
+}
+
+.ui.secondary.menu .item {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.ui.secondary.menu .active.item {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: bold;
+}

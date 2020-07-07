@@ -1,0 +1,25 @@
+/**
+ * ContentPageSkeleton.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 06, 2020
+ * Updated  : Jul 06, 2020
+ */
+
+div.ContentPageSkeletonOuterContainer {
+  /* Uncomment line below for debugging. */
+  background-color: gainsboro;
+}
+
+div.ContentPageSkeletonContentContainer {
+  /* Uncomment line below for debugging. */
+  background-color: skyblue;
+}
+
+div.ContentPageHeadNavMenuBarOuterContainer {
+  /* margin-bottom: 50px; */
+  height: 60px;
+  /* Uncomment line below for debugging. */
+  background-color: hotpink;
+}

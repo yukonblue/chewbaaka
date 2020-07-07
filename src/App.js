@@ -15,6 +15,8 @@ import "semantic-ui-css/semantic.min.css";
 
 import HomePage from './components/homepage/HomePage'
 
+import HistoryPage from './components/history/HistoryPage'
+
 import TestPage from './components/shared/TestPage'
 
 class App extends React.Component {
@@ -25,6 +27,9 @@ class App extends React.Component {
           { /** Route for testing components in development mode. */ }
           <Route exact path="/test">
             <TestPage />
+          </Route>
+          <Route exact path='/history'>
+            <HistoryPage />
           </Route>
           <Route exact path="/" >
             <HomePage />

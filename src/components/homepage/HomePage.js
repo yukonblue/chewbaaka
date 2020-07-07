@@ -22,7 +22,7 @@ class HomePage extends React.Component {
   render() {
     return (
       <div className="HomePage" data-testid="HomePageTestId">
-        <TopNavBar/>
+        <TopNavBar fixedOnTop={true}/>
         <LandingPageGateway/>
         <ExploreGateway/>
         <Footer/>

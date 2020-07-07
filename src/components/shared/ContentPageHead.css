@@ -1,0 +1,13 @@
+/**
+ * ContentPageHead.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 06, 2020
+ * Updated  : Jul 06, 2020
+ */
+
+div.ContentPageHeadOuterContainer {
+  overflow: hidden;
+  background-color: gold;
+}
