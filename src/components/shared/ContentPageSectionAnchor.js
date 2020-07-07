@@ -33,7 +33,7 @@ function ContentPageSectionTitleToAnchorId(title) {
 
 function ContentPageSectionAnchor(props) {
   return (
-    <div id={ContentPageSectionTitleToAnchorId(props.title)} />
+    <div id={ContentPageSectionTitleToAnchorId(props.title)} data-testid="ContentPageSectionAnchorComponentTestId" />
   );
 }
 
