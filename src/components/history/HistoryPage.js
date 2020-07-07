@@ -12,6 +12,7 @@ import React from 'react';
 import "semantic-ui-css/semantic.min.css";
 
 import ContentPageSkeleton from '../shared/ContentPageSkeleton'
+import HistoryPageSectionTableOfContent from './HistoryPageSectionTableOfContent'
 
 import coverImage from './assets/cheetah-mother-and-cubs-on-termite-mound.jpg'
 
@@ -37,6 +38,7 @@ class HistoryPage extends React.Component {
   renderContent() {
     return (
       <div>
+        <HistoryPageSectionTableOfContent />
         <h1>History of the Cheetah</h1>
         <p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p>
         <p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p>
