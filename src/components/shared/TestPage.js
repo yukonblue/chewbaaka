@@ -24,6 +24,7 @@ import TextBubble from './TextBubble'
 import ImageSlidingGallery from './ImageSlidingGallery'
 import CircularImageButton from './CircularImageButton'
 import QnAPopUp from './QnAPopUp'
+import HintSignpost from './HintSignpost'
 
 import image01 from './assets/cheetah-conservation-fund-logo.jpg'
 import image02 from './assets/cheetah-conservation-fund-30-logo.svg'
@@ -50,6 +51,9 @@ class TestPage extends React.Component {
         <h1>This is a test page</h1>
 
         This page is used to test our custom components, navigations, and other things.
+
+        <h2></h2>
+        <HintSignpost hintText="This is a hint signpost"/>
 
         <h2>QnAPopUp</h2>
         <QnAPopUp content="The cheetah is the fastest land animal!"/>
