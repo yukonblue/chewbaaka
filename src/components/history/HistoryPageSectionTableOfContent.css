@@ -20,10 +20,3 @@ div.HistoryPageSectionTableOfContentOuterContainer {
   /* Uncomment line below for debugging. */
   /* background-color: greenyellow; */
 }
-
-div.HistoryPageSectionTableOfContentInnerContainer {
-  width: 800px;
-  margin: 0 auto;
-  /* Uncomment line below for debugging. */
-  /* background-color: yellow; */
-}
