@@ -21,6 +21,7 @@ import ImageRevealDetailedWithTextCover from './ImageRevealDetailedWithTextCover
 import TextReveal from './TextReveal'
 import FelidaeFamilyTree from '../history/FelidaeFamilyTree'
 import TextBubble from './TextBubble'
+import ImageSlidingGallery from './ImageSlidingGallery'
 
 import image01 from './assets/cheetah-conservation-fund-logo.jpg'
 import image02 from './assets/cheetah-conservation-fund-30-logo.svg'
@@ -42,6 +43,22 @@ class TestPage extends React.Component {
       <div>
         <h1>This is a test page</h1>
 
+        This page is used to test our custom components, navigations, and other things.
+
+        <h2>Image Sliding Gallery</h2>
+        <ImageSlidingGallery
+          slides={[
+            {
+              image: image01,
+              caption: "Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words"
+            },
+            {
+              image: image02,
+              caption: "Listen to a Tsimshian (Pacific Northwest Native) storyteller recount the family history painted on a 38-foot-long house front as specific parts of the design light up."
+            }
+          ]}
+        />
+
         <h2>Text Bubble</h2>
         <TextBubble diameter={600} backgroundColorRGB={[20,80,120]} contentColorRGB={[255,255,255]} title="This is a TextBubble" content="Compiled successfully!
 You can now view chewbaaka in the browser.
@@ -57,16 +74,20 @@ To create a production build, use npm run build." />
         <h2>Felidae Family Tree</h2>
         <FelidaeFamilyTree />
         <hr/>
+
+        <h2>ImageReveal</h2>
         <ImageReveal
           coverImage={image04}
           contentImage={image03}
         />
 
+        <h2>TextReveal</h2>
         <TextReveal
           coverImage={image04}
           description="Fastest land animal. Up to 100km/hr"
         />
 
+        <h2>ImageRevealDetailedWithTextCover</h2>
         <ImageRevealDetailedWithTextCover
           coverColor="orange"
           title="Cheetah"
@@ -81,6 +102,7 @@ To create a production build, use npm run build." />
           description="North American species, sprints up to 86km/hr"
         />
 
+        <h2>ImageSlideModal</h2>
         <ImageSlideModal
           slides={[
             {
@@ -96,6 +118,7 @@ To create a production build, use npm run build." />
           ]}
         />
 
+        <h2>ImageSlide</h2>
         <ImageSlide
           images={[image01, image01, image02]}
           labels={["150 mya", "100 mya", "50 mya"]}
@@ -105,6 +128,7 @@ To create a production build, use npm run build." />
           sliderEndLabel="50 mya"
         />
 
+        <h2>ImageSlideDiscrete</h2>
         <ImageSlideDiscrete
           images={[image01, image01, image02]}
           labels={["150 mya", "100 mya", "50 mya"]}
