@@ -37,7 +37,9 @@ export default class ContentPageSideNavMenu extends React.Component {
 
     for (const [idx, item] of this.state.items.entries()) {
       menuItems.push(
-        <Menu.Item name={item} key={idx} active={this.state.activeItem === item} onClick={this.handleItemClick} />
+        <a href={"#"+item} key={idx}>
+          <Menu.Item name={item} key={idx} active={this.state.activeItem === item} onClick={this.handleItemClick} />
+        </a>
       );
     }
 
