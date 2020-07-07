@@ -18,5 +18,5 @@ div.HistoryPageSectionTableOfContentOuterContainer {
    */
   transform: translateY(-40%);
   /* Uncomment line below for debugging. */
-  /* background-color: greenyellow; */
+  background-color: greenyellow;
 }
