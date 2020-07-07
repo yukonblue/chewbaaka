@@ -1,0 +1,25 @@
+/**
+ * HistoryPageCheetahAndManImageSubsection.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 07, 2020
+ * Updated  : Jul 07, 2020
+ */
+
+ div.HistoryPageCheetahAndManImageSubsectionOuterContainer {
+  margin: 0 auto;
+  /* Uncomment line below for debugging. */
+  background-color: turquoise;
+}
+
+div.HistoryPageCheetahAndManImageSubsectionInnerContainer {
+  width: 85%;
+  margin: 0 auto;
+  /* Uncomment line below for debugging. */
+  background-color: violet;
+}
+
+div.HistoryPageCheetahAndManImageSubsectionContentTextContainer {
+  text-align: right;
+}
