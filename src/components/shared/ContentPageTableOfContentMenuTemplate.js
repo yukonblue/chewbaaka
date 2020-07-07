@@ -15,6 +15,8 @@ import "semantic-ui-css/semantic.min.css";
 
 import './ContentPageTableOfContentMenuTemplate.css'
 
+import { ContentPageSectionTitleToAnchorId } from '../shared/ContentPageSectionAnchor'
+
 import CircularImageButton from '../shared/CircularImageButton'
 
 function ContentPageTableOfContentMenuTemplate(props) {
@@ -27,7 +29,7 @@ function ContentPageTableOfContentMenuTemplate(props) {
         <CircularImageButton
           image={item.image}
           title={item.title}
-          href={item.href}
+          href={"#"+ContentPageSectionTitleToAnchorId(item.title)}
         />
       </GridColumn>
     );

@@ -26,6 +26,8 @@ import './ContentPageSectionHead.css'
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
+import ContentPageSectionAnchor from '../shared/ContentPageSectionAnchor'
+
 export default class ContentPageSectionHead extends React.Component {
 
   render() {
@@ -39,6 +41,7 @@ export default class ContentPageSectionHead extends React.Component {
   renderContent() {
     return (
       <div className="ContentPageSectionHeadOuterContainer">
+        <ContentPageSectionAnchor title={this.props.title}/>
         <div className="ContentPageSectionHeadInnerContainer">
           <div className="ContentPageSectionHeadTitleContainer">
             <h2 className="ContentPageSectionHeadTitle">{this.props.title}</h2>

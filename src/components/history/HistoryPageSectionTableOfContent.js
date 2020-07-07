@@ -29,17 +29,14 @@ function HistoryPageSectionTableOfContent(props) {
     {
       image: image_circle,
       title: "Evolution",
-      href: "#Evolution"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/f/f6/War_trophies_Deir_el_Bahari_Wellcome_L0027402.jpg",
       title: "Cheetah and Man",
-      href: "#History"
     },
     {
       image:"https://upload.wikimedia.org/wikipedia/commons/e/e4/Acinonyx_jubatus_subspecies_range_IUCN_2015.png",
       title:"Range and Population",
-      href:"#Range"
     }
   ];
 
