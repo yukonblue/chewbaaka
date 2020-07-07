@@ -1,0 +1,39 @@
+/**
+ * CircularImageButton.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 06, 2020
+ * Updated  : Jul 06, 2020
+ */
+
+div.CircularImageButtonOuterContainer {
+  /* Uncomment for debugging. */
+  /* background-color: gray; */
+  display: inline-block;
+}
+
+div.CircularImageButtonCore {
+  width:212px;
+  height:212px;
+  border:6px solid orange;  
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;  
+}
+
+img.CircularImageButtonImg {
+  border-radius: 50%;
+  background-color: pink;
+}
+
+img.CircularImageButtonImg:hover {
+  filter: contrast(120%);
+}
+
+p.CircularImageButtonTitle {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 800;
+}

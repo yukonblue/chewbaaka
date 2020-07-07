@@ -22,6 +22,8 @@ import TextReveal from './TextReveal'
 import FelidaeFamilyTree from '../history/FelidaeFamilyTree'
 import TextBubble from './TextBubble'
 import ImageSlidingGallery from './ImageSlidingGallery'
+import CircularImageButton from './CircularImageButton'
+
 
 import image01 from './assets/cheetah-conservation-fund-logo.jpg'
 import image02 from './assets/cheetah-conservation-fund-30-logo.svg'
@@ -44,6 +46,13 @@ class TestPage extends React.Component {
         <h1>This is a test page</h1>
 
         This page is used to test our custom components, navigations, and other things.
+
+        <h2>CircularImageButton</h2>
+        <CircularImageButton
+          title="Cheetahology"
+          image="https://cheetah.org/wp-content/uploads/2019/01/cheetah-conservation-fund-cheetah-fact-01.jpg"
+          href="https://cheetah.org/"
+        />
 
         <h2>Image Sliding Gallery</h2>
         <ImageSlidingGallery
