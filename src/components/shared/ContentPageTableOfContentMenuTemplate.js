@@ -1,5 +1,5 @@
 /**
- * PageSectionTableOfContentTemplate.js
+ * ContentPageTableOfContentMenuTemplate.js
  * Chewbaaka
  *
  * Author   : Tomiko
@@ -13,11 +13,11 @@ import { Grid, GridColumn } from 'semantic-ui-react'
 
 import "semantic-ui-css/semantic.min.css";
 
-import './PageSectionTableOfContentTemplate.css'
+import './ContentPageTableOfContentMenuTemplate.css'
 
 import CircularImageButton from '../shared/CircularImageButton'
 
-function PageSectionTableOfContentTemplate(props) {
+function ContentPageTableOfContentMenuTemplate(props) {
   const gridColumns = [];
   for (const [idx, item] of props.items.entries()) {
     gridColumns.push(
@@ -32,7 +32,7 @@ function PageSectionTableOfContentTemplate(props) {
   }
 
   return (
-    <div className="PageSectionTableOfContentTemplateInnerContainer">
+    <div className="ContentPageTableOfContentMenuTemplateInnerContainer">
       <Grid columns={3}>
         <Grid.Row>
           {gridColumns}
@@ -42,4 +42,4 @@ function PageSectionTableOfContentTemplate(props) {
   );
 }
 
-export default PageSectionTableOfContentTemplate;
+export default ContentPageTableOfContentMenuTemplate;

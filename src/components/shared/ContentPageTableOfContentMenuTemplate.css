@@ -1,5 +1,5 @@
 /**
- * PageSectionTableOfContentTemplate.css
+ * ContentPageTableOfContentMenuTemplate.css
  * Chewbaaka
  *
  * Author   : Tomiko
@@ -7,7 +7,7 @@
  * Updated  : Jul 07, 2020
  */
 
- div.PageSectionTableOfContentTemplateInnerContainer {
+ div.ContentPageTableOfContentMenuTemplateInnerContainer {
   width: 800px;
   margin: 0 auto;
   /* Uncomment line below for debugging. */

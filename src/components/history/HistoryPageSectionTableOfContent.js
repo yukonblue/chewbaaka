@@ -13,7 +13,7 @@ import "semantic-ui-css/semantic.min.css";
 
 import './HistoryPageSectionTableOfContent.css'
 
-import PageSectionTableOfContentTemplate from '../shared/PageSectionTableOfContentTemplate'
+import ContentPageTableOfContentMenuTemplate from '../shared/ContentPageTableOfContentMenuTemplate'
 
 import image_circle from '../shared/assets/cheetah-conservation-fund-cheetah-fact-01.jpg'
 
@@ -38,7 +38,7 @@ function HistoryPageSectionTableOfContent(props) {
 
   return (
     <div className="HistoryPageSectionTableOfContentOuterContainer">
-      <PageSectionTableOfContentTemplate items={items}/>
+      <ContentPageTableOfContentMenuTemplate items={items}/>
     </div>
   );
 }
