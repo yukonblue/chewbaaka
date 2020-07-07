@@ -19,6 +19,10 @@
  * Props:
  *
  *  - `hintText`: Text of the hint message.
+ *
+ *  - `iconName` (optional): The name of the icon.
+ *    Must be one of the supported values in documented in
+ *    https://react.semantic-ui.com/elements/icon/
  */
 
 import React from 'react';
@@ -28,13 +32,15 @@ import { Icon, Label } from 'semantic-ui-react'
 import './HintSignpost.css'
 
 function HintSignpost(props) {
+  const iconName = props.iconName ? props.iconName : "lightbulb outline";
+
   return (
     <div className="HintSignpostOuterContainer">
       <div className="HintSignpostInnerContainer">
         <Label size="large" color="blue">
           {props.hintText}
           <div className="HintSignpostIconContainer">
-            <Icon name="arrow circle down" size="large"/>
+            <Icon name={iconName} size="large"/>
           </div>
         </Label>
       </div>

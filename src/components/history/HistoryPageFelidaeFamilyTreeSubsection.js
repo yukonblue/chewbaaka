@@ -34,7 +34,7 @@ export default class HistoryPageFelidaeFamilyTreeSubsection extends React.Compon
           <h3>Evolution Tree of Cats</h3>
         </div>
         <div className="HistoryPageFelidaeFamilyTreeSubsectionCore">
-          <HintSignpost hintText="Hover over images below to reveal the genres" />
+          <HintSignpost hintText="Hover over images below to reveal the genres" iconName="arrow circle down" />
           <FelidaeFamilyTree />
         </div>
       </div>
