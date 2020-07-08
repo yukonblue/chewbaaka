@@ -23,6 +23,7 @@ test('renders HistoryPage', () => {
 });
 
 test('HistoryPage component snapshot', () => {
+  console.log(process.env);
   const tree = renderer
     .create(<HistoryPage />)
     .toJSON();
