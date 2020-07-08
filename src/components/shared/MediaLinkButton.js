@@ -7,6 +7,22 @@
  * Updated  : Jul 07, 2020
  */
 
+/**
+ * MediaLinkButton
+ *
+ * `MediaLinkButton` is a component that shows
+ * button that links to an external media source,
+ * such as a video, a file, etc.
+ *
+ * Props
+ *
+ *  - `title`: Title of the button.
+ *
+ *  - `icon` (optional): Name of the icon.
+ *    Must be one of the supported names documented here:
+ *    https://react.semantic-ui.com/elements/icon/
+ */
+
 import React from 'react';
 
 import { Button, Icon } from 'semantic-ui-react'

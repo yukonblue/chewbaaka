@@ -7,6 +7,23 @@
  * Updated  : Jul 07, 2020
  */
 
+/**
+ * ImageView
+ *
+ * `ImageView` is a component that shows
+ * a single image and a caption text.
+ *
+ * Props
+ *
+ *  - `image`: The source of the image to show.
+ *
+ *  - `caption`: The caption text.
+ *
+ *  - `width` (optional): The width of the image to be shown.
+ *
+ *  - `height` (optional): The height of the image to be shown.
+ */
+
 import React from 'react';
 
 import { Icon } from "semantic-ui-react";
