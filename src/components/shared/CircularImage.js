@@ -7,6 +7,20 @@
  * Updated  : Jul 07, 2020
  */
 
+/**
+ * CircleImage
+ *
+ * `CircleImage` is a component that shows
+ * an image in a circular style, plus a piece of
+ * title text shown below the image.
+ *
+ * Props:
+ *
+ *  - `image`: The image to be shown.
+ *
+ *  - `title`: The title text.
+ */
+
 import React from 'react';
 
 import "semantic-ui-css/semantic.min.css";
