@@ -28,12 +28,6 @@ div.ContentPageIntroParagraphContentContainer {
   background-color: tan;
 }
 
-h1.ContentPageIntroParagraphTitle {
-  font-size: 60px;
-  line-height: 1.6;
-  text-decoration: underline;
-}
-
 p.ContentPageIntroParagraphContentText {
   text-align: left;
 }
