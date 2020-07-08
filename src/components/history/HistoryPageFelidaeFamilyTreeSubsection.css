@@ -14,7 +14,6 @@ div.HistoryPageFelidaeFamilyTreeSubsectionOuterContainer {
 }
 
 div.HistoryPageFelidaeFamilyTreeSubsectionInnerContainer {
-  width: 85%;
   margin: 0 auto;
   /* Uncomment line below for debugging. */
   background-color: violet;

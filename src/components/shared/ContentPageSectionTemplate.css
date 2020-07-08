@@ -16,6 +16,7 @@ div.ContentPageSectionTemplateOuterContainer {
 
 div.ContentPageSectionTemplateInnerContainer {
   margin: 0 auto;
+  width: 85%;
   /* Uncomment line below for debugging. */
   background-color: pink;
 }
