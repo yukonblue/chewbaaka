@@ -1,0 +1,22 @@
+/**
+ * HistoryPageSectionTableOfContent.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 07, 2020
+ * Updated  : Jul 07, 2020
+ */
+
+div.HistoryPageSectionTableOfContentOuterContainer {
+  margin: 0 auto;
+  display: inline-block;
+  width: 100%;
+  /**
+   * NOTE:
+   * This is to make the entire div bleed into the banner image above.
+   * Adjust for appropriate look and feel accordingly.
+   */
+  transform: translateY(-40%);
+  /* Uncomment line below for debugging. */
+  background-color: greenyellow;
+}

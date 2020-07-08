@@ -1,0 +1,40 @@
+/**
+ * CircularImage.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 07, 2020
+ * Updated  : Jul 07, 2020
+ */
+
+div.CircularImageOuterContainer {
+  /* Uncomment line below for debugging. */
+  /* background-color: gray; */
+  display: inline-block;
+}
+
+div.CircularImageCore {
+  width: 384px;
+  height: 384px;
+  border: 12px solid orange;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;  
+}
+
+img.CircularImageImg {
+  width: 361px;
+  height: 361px;
+  border-radius: 50%;
+  /* Uncomment line below for debugging. */
+  /* background-color: pink; */
+}
+
+div.CircularImageTitleContainer p {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 32px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  color: gold;
+}

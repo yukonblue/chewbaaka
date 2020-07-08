@@ -1,0 +1,15 @@
+/**
+ * ContentPageTableOfContentMenuTemplate.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 07, 2020
+ * Updated  : Jul 07, 2020
+ */
+
+ div.ContentPageTableOfContentMenuTemplateInnerContainer {
+  width: 800px;
+  margin: 0 auto;
+  /* Uncomment line below for debugging. */
+  background-color: yellow;
+}

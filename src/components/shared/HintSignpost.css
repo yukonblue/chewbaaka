@@ -1,0 +1,14 @@
+/**
+ * HintSignpost.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 07, 2020
+ * Updated  : Jul 07, 2020
+ */
+
+div.HintSignpostIconContainer {
+  float: right;
+  /** Icon is too close to label text on the left. Leave some room. */
+  margin-left: 5px;
+}

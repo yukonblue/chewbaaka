@@ -13,6 +13,8 @@ import { render, screen } from '@testing-library/react';
 
 import ContentPageSideNavMenu from '../ContentPageSideNavMenu';
 
+import { ContentPageSectionTitleToAnchorId } from '../ContentPageSectionAnchor'
+
 test('renders ContentPageSideNavMenu component', () => {
   const items = ["MenuItem1", "MenuItem2", "MenuItem3"];
 
@@ -24,6 +26,6 @@ test('renders ContentPageSideNavMenu component', () => {
   for (const [idx, item] of items.entries()) {
     const menuItemElement = screen.getByText(item);
     expect(menuItemElement).toBeInTheDocument();
-    expect(menuItemElement.href).toBe("http://localhost/#"+item);
+    expect(menuItemElement.href).toBe("http://localhost/#"+ContentPageSectionTitleToAnchorId(item));
   }
 });

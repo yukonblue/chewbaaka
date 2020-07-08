@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 06, 2020
+ * Updated  : Jul 07, 2020
  */
 
 div.TextRevealComponentCoverContainerDiv {
@@ -21,13 +21,13 @@ div.TextRevealComponentContentContainerDiv {
   vertical-align: middle;
 }
 
-p.TextRevealComponentDescriptionText {
+div.TextRevealComponentContentContainerDiv p.TextRevealComponentDescriptionText {
   padding-top: 20px;
   font-size: 14px;
   color: white;
 }
 
-p.TextRevealComponentCaptionText {
+div.TextRevealComponentContentContainerDiv p.TextRevealComponentCaptionText {
   font-style: italic;
   font-size: 14px;
   color: white;

@@ -1,0 +1,25 @@
+/**
+ * ContentPageSubsectionTwoColumnContentTemplate.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 07, 2020
+ * Updated  : Jul 07, 2020
+ */
+
+ div.ContentPageSubsectionTwoColumnContentTemplateOuterContainer {
+  margin: 0 auto;
+  /* Uncomment line below for debugging. */
+  background-color: green;
+}
+
+/* div.ContentPageSubsectionTwoColumnContentTemplateInnerContainer {
+  width: 85%;
+  margin: 0 auto;
+  background-color: violet;
+} */
+
+div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer {
+  /* display: inline-block; */
+  margin: 0 auto;
+}

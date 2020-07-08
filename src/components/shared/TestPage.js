@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 05, 2020
+ * Updated  : Jul 07, 2020
  */
 
 import React from 'react';
@@ -24,6 +24,10 @@ import TextBubble from './TextBubble'
 import ImageSlidingGallery from './ImageSlidingGallery'
 import CircularImageButton from './CircularImageButton'
 import QnAPopUp from './QnAPopUp'
+import HintSignpost from './HintSignpost'
+import CircularImage from './CircularImage'
+import ImageView from './ImageView'
+import MediaLinkButton from './MediaLinkButton'
 
 import image01 from './assets/cheetah-conservation-fund-logo.jpg'
 import image02 from './assets/cheetah-conservation-fund-30-logo.svg'
@@ -50,6 +54,26 @@ class TestPage extends React.Component {
         <h1>This is a test page</h1>
 
         This page is used to test our custom components, navigations, and other things.
+
+        <h2>MediaLinkButton</h2>
+        <MediaLinkButton
+          href="https://peerj.com/articles/1346/"
+          title="View this video on YouTube"
+        />
+
+        <h2>ImageView</h2>
+        <ImageView
+          width={640}
+          height={640}
+          image="https://dfzljdn9uc3pi.cloudfront.net/2015/1346/1/Suppl_Inf_5_cheetah_occurrence_and_suitable_PA.png"
+          caption="Cheetah ranges in Namibia (Cheetahs (Acinonyx jubatus) running the gauntlet: an evaluation of translocations into free-range environments in Namibia)"
+        />
+
+        <h2>CircularImage</h2>
+        <CircularImage image="https://sotinpc.files.wordpress.com/2013/04/day-of-rememberance.jpg" title="Chewbaaka" />
+
+        <h2>HintSignpost</h2>
+        <HintSignpost hintText="This is a hint signpost"/>
 
         <h2>QnAPopUp</h2>
         <QnAPopUp content="The cheetah is the fastest land animal!"/>
