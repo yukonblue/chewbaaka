@@ -8,9 +8,9 @@
  */
 
 /**
- * CircleImage
+ * CircularImage
  *
- * `CircleImage` is a component that shows
+ * `CircularImage` is a component that shows
  * an image in a circular style, plus a piece of
  * title text shown below the image.
  *
