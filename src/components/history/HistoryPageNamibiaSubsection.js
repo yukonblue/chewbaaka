@@ -13,6 +13,10 @@ import './HistoryPageNamibiaSubsection.css'
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
+import ImageView from '../shared/ImageView'
+
+import MediaLinkButton from '../shared/MediaLinkButton'
+
 export default class HistoryPageNamibiaSubsection extends React.Component {
 
   render() {
@@ -51,6 +55,19 @@ export default class HistoryPageNamibiaSubsection extends React.Component {
             90% of Namibia's cheetahs live on communal and commercial
             livestock and game farms.
           </p>
+
+          <ImageView
+            width={640}
+            height={640}
+            image="https://dfzljdn9uc3pi.cloudfront.net/2015/1346/1/Suppl_Inf_5_cheetah_occurrence_and_suitable_PA.png"
+            caption="Cheetah ranges in Namibia (Cheetahs (Acinonyx jubatus) running the gauntlet: an evaluation of translocations into free-range environments in Namibia)"
+          />
+
+          <MediaLinkButton
+            href="https://peerj.com/articles/1346/"
+            title='Cheetahs (Acinonyx jubatus) running the gauntlet: an evaluation of translocations into free-range environments in Namibia'
+            icon="file alternate outline"
+          />
         </div>
       </div>
     );

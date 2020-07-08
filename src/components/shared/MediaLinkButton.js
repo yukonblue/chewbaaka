@@ -17,7 +17,7 @@ function MediaLinkButton(props) {
       <a href={props.href}>
         <Button icon color="blue">
           {props.title}
-          <Icon name="file video" />
+          <Icon name={props.icon ? props.icon : "file video"} />
         </Button>
       </a>
     </div>
