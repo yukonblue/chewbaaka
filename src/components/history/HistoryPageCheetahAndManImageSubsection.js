@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 08, 2020
  */
 
 import React from 'react';
@@ -35,8 +35,8 @@ export default class HistoryPageCheetahAndManImageSubsection extends React.Compo
         </div>
         <div>
           <ContentPageSubsectionTwoColumnContentTemplate
-            lhsColumn={{width:8, content: this.renderLhsContent()}}
-            rhsColumn={{width:2, content: this.renderRhsContent()}}
+            lhsColumn={{content: this.renderLhsContent()}}
+            rhsColumn={{content: this.renderRhsContent()}}
           />
         </div>
       </div>
