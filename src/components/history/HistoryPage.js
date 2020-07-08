@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 08, 2020
  */
 
 import React from 'react';
@@ -12,10 +12,12 @@ import React from 'react';
 import "semantic-ui-css/semantic.min.css";
 
 import ContentPageSkeleton from '../shared/ContentPageSkeleton'
-import HistoryPageSectionTableOfContent from './HistoryPageSectionTableOfContent'
 import ContentPageIntroParagraph from '../shared/ContentPageIntroParagraph'
 import ContentPageSectionHead from '../shared/ContentPageSectionHead'
 
+import { config }  from './config'
+
+import HistoryPageSectionTableOfContent from './HistoryPageSectionTableOfContent'
 import HistoryPageFelidaeFamilyTreeSubsection from './HistoryPageFelidaeFamilyTreeSubsection'
 import HistoryPageCheetahAndManImageSubsection from './HistoryPageCheetahAndManImageSubsection'
 import HistoryPageCheetahsAtCCFSubsection from './HistoryPageCheetahsAtCCFSubsection'
@@ -23,24 +25,11 @@ import HistoryPageNamibiaSubsection from './HistoryPageNamibiaSubsection'
 
 import coverImage from './assets/cheetah-mother-and-cubs-on-termite-mound.jpg'
 
-// TODO: Refactor these into static config file.
-const COVERPAGE_TITLE       = "History";
-const COVERPAGE_SUBTITLE    = "Learn about the evolution and migration of the species, its relationship with man throughout history, and its population and ranges.";
-const COVERPAGE_MENU_ITEMS  = [
-                                "Evolution",
-                                "Cheetah and Man",
-                                "Range and Population"
-                              ];
-
 class HistoryPage extends React.Component {
 
   render() {
-    const pageProps = {
-      coverImage: coverImage,
-      title: COVERPAGE_TITLE,
-      subtitle: COVERPAGE_SUBTITLE,
-      pageMenuItems: COVERPAGE_MENU_ITEMS,
-    };
+    let pageProps = config.pageProps;
+    pageProps.coverImage = coverImage;
 
     return (
       <ContentPageSkeleton pageProps={pageProps} content={this.renderContent()}/>
