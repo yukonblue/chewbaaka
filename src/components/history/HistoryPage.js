@@ -19,6 +19,7 @@ import ContentPageSectionHead from '../shared/ContentPageSectionHead'
 import HistoryPageFelidaeFamilyTreeSubsection from './HistoryPageFelidaeFamilyTreeSubsection'
 import HistoryPageCheetahAndManImageSubsection from './HistoryPageCheetahAndManImageSubsection'
 import HistoryPageCheetahsAtCCFSubsection from './HistoryPageCheetahsAtCCFSubsection'
+import HistoryPageNamibiaSubsection from './HistoryPageNamibiaSubsection'
 
 import coverImage from './assets/cheetah-mother-and-cubs-on-termite-mound.jpg'
 
@@ -109,6 +110,8 @@ class HistoryPage extends React.Component {
           title="Range and Population"
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         />
+
+        <HistoryPageNamibiaSubsection />
       </div>
     );
   }
