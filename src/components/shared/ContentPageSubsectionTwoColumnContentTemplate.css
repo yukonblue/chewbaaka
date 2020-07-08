@@ -16,9 +16,10 @@
 div.ContentPageSubsectionTwoColumnContentTemplateInnerContainer {
   /**
    * NOTE:
-   * For fixing top padding issue with Semantic UI's Grid component.
+   * For fixing top and bottom padding issue with Semantic UI's Grid component.
    */
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer {
