@@ -2,7 +2,7 @@
 
 exports[`ImageRevealDetailedWithTextCover component snapshot 1`] = `
 <div
-  className="ui rotate left reveal"
+  className="ui fade reveal"
   data-testid="ImageRevealDetailedWithTextCoverComponentTestId"
 >
   <div

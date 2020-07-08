@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 02, 2020
+ * Updated  : Jul 08, 2020
  */
 
 import React from 'react';
@@ -14,6 +14,8 @@ import "semantic-ui-css/semantic.min.css";
 import {  Button, Container, Header, Segment } from 'semantic-ui-react'
 
 import './LandingPageGateway.css';
+
+const __TEST__ = ( process.env.NODE_ENV === "test" );
 
 class LandingPageGateway extends React.Component {
   render() {
@@ -43,7 +45,15 @@ class LandingPageGateway extends React.Component {
       "centerSegmentStyle4",
     ]
 
-    const idx = Math.floor(Math.random() * centerSegmentStyleClassNames.length);
+    let idx = 0;
+
+    if ( __TEST__ ) {
+      // We want determinate behavior in test mode
+      // because of snapshot testing.
+      idx = 0;
+    } else {
+      idx = Math.floor(Math.random() * centerSegmentStyleClassNames.length);
+    }
 
     return centerSegmentStyleClassNames[idx];
   }

@@ -2,7 +2,7 @@
 
 exports[`ImageReveal component snapshot 1`] = `
 <div
-  className="ui move down reveal"
+  className="ui fade reveal"
   data-testid="ImageRevealComponentTestId"
 >
   <div

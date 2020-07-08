@@ -47,7 +47,7 @@ exports[`App component snapshot 1`] = `
     </div>
   </div>
   <div
-    className="ui vertical center aligned segment centerSegmentStyle3"
+    className="ui vertical center aligned segment centerSegmentStyle1"
     data-testid="LandingPageGateway"
   >
     <div

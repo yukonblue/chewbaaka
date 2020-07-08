@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 05, 2020
+ * Updated  : Jul 08, 2020
  */
 
 const supportedRevealComponentAnimations = [
@@ -17,6 +17,8 @@ const supportedRevealComponentAnimations = [
   "rotate",
   "rotate left"
 ];
+
+const __TEST__ = ( process.env.NODE_ENV === "test" );
 
 /**
  * Utility function that returns the supported animation of the `Reveal`
@@ -33,7 +35,13 @@ export const getRevealComponentAnimation = function(animation) {
   // If cannot find the specified animation, then just
   // randomly pick one.
   if ( idx === -1 ) {
-    idx = Math.floor(Math.random() * supportedRevealComponentAnimations.length);
+    if ( __TEST__ ) {
+      // We want determinate behavior in test mode
+      // because of snapshot testing.
+      idx = 0;
+    } else {
+      idx = Math.floor(Math.random() * supportedRevealComponentAnimations.length);
+    }
   }
 
   return supportedRevealComponentAnimations[idx];
