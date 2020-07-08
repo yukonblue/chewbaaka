@@ -46,10 +46,21 @@ function ImageView(props) {
     <div className="ImageViewOuterContainer">
       <div className="ImageViewInnerContainer">
         <div className="ImageViewCore">
-          <img className="ImageViewImg" src={props.image} alt={props.caption} style={imagePartDimensionStyle} />
+          <img
+            className="ImageViewImg"
+            src={props.image}
+            alt={props.caption}
+            style={imagePartDimensionStyle}
+          />
           <div className="ImageViewCaptionContainer">
             <Icon name="image" />
-            <p className="ImageViewCaptionText" style={captionPartDimensionStyle} data-testid="ImageViewComponentCaptionPart">{props.caption}</p>
+            <p
+              className="ImageViewCaptionText"
+              style={captionPartDimensionStyle}
+              data-testid="ImageViewComponentCaptionPart"
+            >
+              {props.caption}
+            </p>
           </div>
         </div>
       </div>
