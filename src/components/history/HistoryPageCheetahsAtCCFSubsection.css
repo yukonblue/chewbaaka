@@ -6,3 +6,8 @@
  * Created  : Jul 07, 2020
  * Updated  : Jul 07, 2020
  */
+
+div.HistoryPageCheetahsAtCCFSubsectionImageContainer {
+  margin: 0 auto;
+  display: inline-block;
+}

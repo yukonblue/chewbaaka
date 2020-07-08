@@ -23,12 +23,12 @@ export default class ContentPageSubsectionTwoColumnContentTemplate extends React
             <Grid divided='vertically'>
               <Grid.Row columns={2}>
                 <Grid.Column width={this.props.lhsColumn.width}>
-                  <div className="ContentPageSubsectionTwoColumnContentTemplateLhsColumnInnerContainer">
+                  <div className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer">
                     {this.props.lhsColumn.content}
                   </div>
                 </Grid.Column>
                 <Grid.Column width={this.props.rhsColumn.width}>
-                  <div className="ContentPageSubsectionTwoColumnContentTemplateRhsColumnInnerContainer">
+                  <div className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer">
                     {this.props.rhsColumn.content}
                   </div>
                 </Grid.Column>

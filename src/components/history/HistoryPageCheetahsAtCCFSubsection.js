@@ -37,15 +37,15 @@ export default class HistoryPageCheetahsAtCCFSubsection extends React.Component 
         <div>
           <h4>Chewbaaka</h4>
           <ContentPageSubsectionTwoColumnContentTemplate
-            lhsColumn={{width:8, content: this.renderLhsContentChewbaaka()}}
-            rhsColumn={{width:2, content: this.renderRhsContentChewbaaka()}}
+            lhsColumn={{content: this.renderLhsContentChewbaaka()}}
+            rhsColumn={{content: this.renderRhsContentChewbaaka()}}
           />
         </div>
         <div>
           <h4>Mekondyo</h4>
           <ContentPageSubsectionTwoColumnContentTemplate
-            lhsColumn={{width:2, content: this.renderLhsContentMekondyo()}}
-            rhsColumn={{width:6, content: this.renderRhsContentMekondyo()}}
+            lhsColumn={{content: this.renderLhsContentMekondyo()}}
+            rhsColumn={{content: this.renderRhsContentMekondyo()}}
           />
         </div>
       </div>
@@ -71,7 +71,7 @@ export default class HistoryPageCheetahsAtCCFSubsection extends React.Component 
 
   renderRhsContentChewbaaka() {
     return (
-      <div>
+      <div className="HistoryPageCheetahsAtCCFSubsectionImageContainer">
         <CircularImage image="https://sotinpc.files.wordpress.com/2013/04/day-of-rememberance.jpg" title="Chewbaaka" />
       </div>
     );

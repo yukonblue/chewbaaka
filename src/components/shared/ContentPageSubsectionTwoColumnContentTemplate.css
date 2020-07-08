@@ -18,3 +18,8 @@
   margin: 0 auto;
   background-color: violet;
 } */
+
+div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer {
+  /* display: inline-block; */
+  margin: 0 auto;
+}
