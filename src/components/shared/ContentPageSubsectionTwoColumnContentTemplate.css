@@ -13,11 +13,13 @@
   background-color: green;
 }
 
-/* div.ContentPageSubsectionTwoColumnContentTemplateInnerContainer {
-  width: 85%;
-  margin: 0 auto;
-  background-color: violet;
-} */
+div.ContentPageSubsectionTwoColumnContentTemplateInnerContainer {
+  /**
+   * NOTE:
+   * For fixing top padding issue with Semantic UI's Grid component.
+   */
+  margin-top: 10px;
+}
 
 div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer {
   /* display: inline-block; */
