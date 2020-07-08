@@ -4,24 +4,38 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 06, 2020
+ * Updated  : Jul 08, 2020
  */
 
 import React from 'react';
 
 import { render, screen } from '@testing-library/react';
 
+import renderer from 'react-test-renderer';
+
 import ContentPageHead from '../ContentPageHead';
 
-test('renders ContentPageHead component', () => {
-  const pageProps = {
-    coverImage: '',
-    title: 'Page Title',
-    subtile: 'Page Subtitle'
-  };
+const coverImage="";
+const title="Page Title";
+const subtitle="Page Subtitle";
 
+const pageProps = {
+  coverImage: coverImage,
+  title: title,
+  subtile: subtitle
+};
+
+test('renders ContentPageHead component', () => {
   render(<ContentPageHead pageProps={pageProps} />);
 
   const component = screen.getByTestId("ContentPageHeadComponentTestId");
   expect(component).toBeInTheDocument();
+});
+
+test('ContentPageHead component snapshot', () => {
+  const tree = renderer
+    .create(
+      <ContentPageHead pageProps={pageProps} />)
+    .toJSON();
+  expect(tree).toMatchSnapshot();
 });

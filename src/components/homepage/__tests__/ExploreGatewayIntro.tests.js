@@ -4,12 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 02, 2020
+ * Updated  : Jul 08, 2020
  */
 
 import React from 'react';
 
 import { render, screen } from '@testing-library/react';
+
+import renderer from 'react-test-renderer';
 
 import ExploreGatewayIntro from '../ExploreGatewayIntro';
 
@@ -24,4 +26,11 @@ test('renders explore gateway intro', () => {
   const getInvolvedButton = screen.getByText("Get Involved");
   expect(getInvolvedButton).toBeInTheDocument();
   expect(getInvolvedButton.href).toBe("https://cheetah.org/get-involved/ways-to-give/");
+});
+
+test('ExploreGatewayIntro component snapshot', () => {
+  const tree = renderer
+    .create(<ExploreGatewayIntro />)
+    .toJSON();
+  expect(tree).toMatchSnapshot();
 });

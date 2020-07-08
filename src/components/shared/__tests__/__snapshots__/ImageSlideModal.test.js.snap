@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageSlideModal component snapshot 1`] = `
+<div
+  className="modalCoverImageContainerDiv"
+  data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "backgroundImage": "url(cheetah-conservation-fund-logo.jpg)",
+      "height": 320,
+      "width": 480,
+    }
+  }
+>
+  <div
+    className="modalCoverImageIcon"
+  >
+    <i
+      aria-hidden="true"
+      className="grey caret square right outline huge icon"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component snapshot 1`] = `
+<div
+  className="ui inverted segment"
+  data-testid="FooterComponentTestId"
+  style={
+    Object {
+      "padding": "5em 0em",
+    }
+  }
+>
+  <div
+    className="ui container"
+  >
+    <div
+      className="ui inverted stackable divided grid"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="three wide column"
+        >
+          <img
+            className="ui small image"
+            src="cheetah-conservation-fund-logo.jpg"
+          />
+        </div>
+        <div
+          className="six wide column"
+        >
+          <h4
+            className="ui inverted header"
+          >
+            Resources
+          </h4>
+          <div
+            className="ui inverted link list"
+            role="list"
+          >
+            <a
+              className="item"
+              href="https://cheetah.org/about/what-we-do/"
+              onClick={[Function]}
+              role="listitem"
+              target="_blank"
+            >
+              About CCF
+            </a>
+            <a
+              className="item"
+              href="https://animalfactguide.com/animal-facts/cheetah/"
+              onClick={[Function]}
+              role="listitem"
+              target="_blank"
+            >
+              Cheatah Fun Facts
+            </a>
+            <a
+              className="item"
+              href="https://wildnet.org/wildlife-programs/cheetah-namibia/"
+              onClick={[Function]}
+              role="listitem"
+              target="_blank"
+            >
+              Wildlife Conservation Network & CCF
+            </a>
+            <a
+              className="item"
+              href="https://www.iucnredlist.org/species/219/50649567"
+              onClick={[Function]}
+              role="listitem"
+              target="_blank"
+            >
+              IUCN Red List - Cheetah
+            </a>
+          </div>
+        </div>
+        <div
+          className="seven wide column"
+        >
+          <h4
+            className="ui inverted header"
+          >
+            Cheetah Conservation Fund
+          </h4>
+          <p
+            data-testid="footerSectionCCF"
+          >
+            <a
+              href="https://cheetah.org/"
+              rel=" noopener noreferrer"
+              target="_blank"
+            >
+              Cheetah Conservation Fund
+            </a>
+             is a 501(c)(3) nonprofit organization, dedicated to saving the cheetah in the wild and changing the world to be a better place.
+          </p>
+          <p>
+            This site is not an affiliation of Cheetah Conservation Fund.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

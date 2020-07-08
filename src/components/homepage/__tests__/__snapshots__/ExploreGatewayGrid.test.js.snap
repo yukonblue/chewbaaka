@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExploreGatewayGrid component snapshot 1`] = `
+<div
+  className="ui container stackable center aligned four column grid"
+  data-testid="ExploreGatewayGridTestId"
+>
+  <div
+    className="column ExploreGatewayGridItemColumn"
+  >
+    <div
+      className="ExploreGatewayGridItemImageWrapper"
+    >
+      <a
+        className="ExploreGatewayGridItemImageAnchor"
+        data-testid="ExploreGatewayGridItemImageAnchorTestId"
+        href="history"
+      >
+        <img
+          className="ui medium image ExploreGatewayGridItemImage"
+          data-testid="ExploreGatewayGridItemImageTestId"
+          src="explore_gateway_grid_item_img_01.jpg"
+        />
+      </a>
+    </div>
+    <h2
+      className="ui left aligned header ExploreGatewayGridItemHeader"
+    >
+      History
+    </h2>
+  </div>
+  <div
+    className="column ExploreGatewayGridItemColumn"
+  >
+    <div
+      className="ExploreGatewayGridItemImageWrapper"
+    >
+      <a
+        className="ExploreGatewayGridItemImageAnchor"
+        data-testid="ExploreGatewayGridItemImageAnchorTestId"
+        href="biology"
+      >
+        <img
+          className="ui medium image ExploreGatewayGridItemImage"
+          data-testid="ExploreGatewayGridItemImageTestId"
+          src="explore_gateway_grid_item_img_02.jpg"
+        />
+      </a>
+    </div>
+    <h2
+      className="ui left aligned header ExploreGatewayGridItemHeader"
+    >
+      Biology
+    </h2>
+  </div>
+  <div
+    className="column ExploreGatewayGridItemColumn"
+  >
+    <div
+      className="ExploreGatewayGridItemImageWrapper"
+    >
+      <a
+        className="ExploreGatewayGridItemImageAnchor"
+        data-testid="ExploreGatewayGridItemImageAnchorTestId"
+        href="ecology"
+      >
+        <img
+          className="ui medium image ExploreGatewayGridItemImage"
+          data-testid="ExploreGatewayGridItemImageTestId"
+          src="explore_gateway_grid_item_img_03.jpg"
+        />
+      </a>
+    </div>
+    <h2
+      className="ui left aligned header ExploreGatewayGridItemHeader"
+    >
+      Ecology
+    </h2>
+  </div>
+  <div
+    className="column ExploreGatewayGridItemColumn"
+  >
+    <div
+      className="ExploreGatewayGridItemImageWrapper"
+    >
+      <a
+        className="ExploreGatewayGridItemImageAnchor"
+        data-testid="ExploreGatewayGridItemImageAnchorTestId"
+        href="future"
+      >
+        <img
+          className="ui medium image ExploreGatewayGridItemImage"
+          data-testid="ExploreGatewayGridItemImageTestId"
+          src="explore_gateway_grid_item_img_04.jpg"
+        />
+      </a>
+    </div>
+    <h2
+      className="ui left aligned header ExploreGatewayGridItemHeader"
+    >
+      Future
+    </h2>
+  </div>
+</div>
+`;

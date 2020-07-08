@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentPageHead component snapshot 1`] = `
+<div
+  className="ContentPageSkeletonContentContainerDimension ContentPageHeadOuterContainer"
+  data-testid="ContentPageHeadComponentTestId"
+>
+  <div
+    className="ContentPageHeadNavMenuBarOuterContainer"
+  >
+    <div
+      className="ContentPageTopNavMenuBarContainer"
+    >
+      <div>
+        <div
+          className="ui secondary menu"
+        >
+          <a
+            href="/Home"
+          >
+            <div
+              className="item"
+              onClick={[Function]}
+            >
+              Home
+            </div>
+          </a>
+          <a
+            href="/History"
+          >
+            <div
+              className="item"
+              onClick={[Function]}
+            >
+              History
+            </div>
+          </a>
+          <a
+            href="/Biology"
+          >
+            <div
+              className="item"
+              onClick={[Function]}
+            >
+              Biology
+            </div>
+          </a>
+          <a
+            href="/Ecology"
+          >
+            <div
+              className="item"
+              onClick={[Function]}
+            >
+              Ecology
+            </div>
+          </a>
+          <a
+            href="/Future"
+          >
+            <div
+              className="item"
+              onClick={[Function]}
+            >
+              Future
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ContentPageSkeletonContentContainerDimension ContentPageBannerContainer"
+    data-testid="ContentPageBannerComponentTestId"
+    style={
+      Object {
+        "backgroundImage": "url()",
+      }
+    }
+  >
+    <div
+      className="ContentPageBannerTitleContainer"
+    >
+      <h1
+        className="ContentPageBannerTitle"
+      >
+        Page Title
+      </h1>
+      <hr
+        className="ContentPageBannerTitleLineBreak"
+      />
+      <h2
+        className="ContentPageBannerSubtitle"
+      />
+    </div>
+  </div>
+</div>
+`;

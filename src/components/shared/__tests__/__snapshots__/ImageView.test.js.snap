@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageView component snapshot 1`] = `
+<div
+  className="ImageViewOuterContainer"
+>
+  <div
+    className="ImageViewInnerContainer"
+  >
+    <div
+      className="ImageViewCore"
+    >
+      <img
+        alt="This is a caption"
+        className="ImageViewImg"
+        src="somesite.com/image.png"
+        style={
+          Object {
+            "height": 640,
+            "width": 640,
+          }
+        }
+      />
+      <div
+        className="ImageViewCaptionContainer"
+      >
+        <i
+          aria-hidden="true"
+          className="image icon"
+          onClick={[Function]}
+        />
+        <p
+          className="ImageViewCaptionText"
+          data-testid="ImageViewComponentCaptionPart"
+          style={
+            Object {
+              "width": 630,
+            }
+          }
+        >
+          This is a caption
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

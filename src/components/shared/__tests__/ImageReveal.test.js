@@ -4,12 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 04, 2020
+ * Updated  : Jul 08, 2020
  */
 
 import React from 'react';
 
 import { render, screen } from '@testing-library/react';
+
+import renderer from 'react-test-renderer';
 
 import ImageReveal from '../ImageReveal';
 
@@ -29,4 +31,16 @@ test('renders ImageReveal compoent', () => {
   expect(imageRevealComponentHiddenPart).toBeInTheDocument();
 
   // TODO: test component props.
+});
+
+test('ImageReveal component snapshot', () => {
+  const tree = renderer
+    .create(
+      <ImageReveal
+        coverImage={coverImage}
+        contentImage={contentImage}
+        size="small"
+      />)
+    .toJSON();
+  expect(tree).toMatchSnapshot();
 });

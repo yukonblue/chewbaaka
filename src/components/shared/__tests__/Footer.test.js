@@ -4,12 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 02, 2020
+ * Updated  : Jul 08, 2020
  */
 
 import React from 'react';
 
 import { render, screen } from '@testing-library/react';
+
+import renderer from 'react-test-renderer';
 
 import Footer from '../Footer';
 
@@ -32,4 +34,12 @@ test('renders global footer', () => {
   // Tests disclaimer text to be present.
   const disclaimerItem = screen.getByText(/This site is not an affiliation of Cheetah Conservation Fund/i);
   expect(disclaimerItem).toBeInTheDocument();
+});
+
+test('Footer component snapshot', () => {
+  const tree = renderer
+    .create(
+      <Footer />)
+    .toJSON();
+  expect(tree).toMatchSnapshot();
 });

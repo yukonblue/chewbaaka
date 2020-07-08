@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextReveal component snapshot 1`] = `
+<div
+  style={
+    Object {
+      "position": "absolute",
+    }
+  }
+>
+  <div
+    className="ui fade reveal"
+    data-testid="TextRevealComponentTestId"
+  >
+    <div
+      className="ui visible content"
+      data-testid="TextRevealComponentVisiblePartTestId"
+    >
+      <div
+        className="TextRevealComponentCoverContainerDiv"
+      >
+        <img
+          className="ui image"
+          src="cheetah-conservation-fund-cheetah-fact-01.jpg"
+        />
+      </div>
+    </div>
+    <div
+      className="ui hidden content"
+      data-testid="TextRevealComponentHiddenPartTestId"
+    >
+      <div
+        className="TextRevealComponentContentContainerDiv"
+        style={
+          Object {
+            "backgroundColor": "green",
+          }
+        }
+      >
+        <p
+          className="TextRevealComponentDescriptionText"
+          data-testid="TextRevealComponentDescriptionTextPartTestId"
+        >
+          Cheetah
+        </p>
+        <p
+          className="TextRevealComponentCaptionText"
+          data-testid="TextRevealComponentCaptionTextPartTestId"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

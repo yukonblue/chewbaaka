@@ -4,12 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 03, 2020
+ * Updated  : Jul 08, 2020
  */
 
 import React from 'react';
 
 import { render, screen } from '@testing-library/react';
+
+import renderer from 'react-test-renderer';
 
 import HomePage from '../HomePage';
 
@@ -34,4 +36,11 @@ test('renders homepage', () => {
   // Tests footer component is present.
   const footerComponent = screen.getByTestId("FooterComponentTestId");
   expect(footerComponent).toBeInTheDocument();
+});
+
+test('HomePage snapshot', () => {
+  const tree = renderer
+    .create(<HomePage />)
+    .toJSON();
+  expect(tree).toMatchSnapshot();
 });

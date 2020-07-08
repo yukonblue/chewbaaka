@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentPageSectionAnchor component snapshot 1`] = `
+<div
+  data-testid="ContentPageSectionAnchorComponentTestId"
+  id="cheetah-and-man"
+/>
+`;

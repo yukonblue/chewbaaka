@@ -4,12 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 02, 2020
+ * Updated  : Jul 08, 2020
  */
 
 import React from 'react';
 
 import { render, screen } from '@testing-library/react';
+
+import renderer from 'react-test-renderer';
 
 import TopNavBar from '../TopNavBar';
 
@@ -42,4 +44,12 @@ test('renders top nav bar', () => {
     // Expect this nav bar item point to WCN site.
     expect(navBarItemWCN.href).toBe("https://wildnet.org/wildlife-programs/cheetah-namibia/");
   }
+});
+
+test('TopNavBar component snapshot', () => {
+  const tree = renderer
+    .create(
+      <TopNavBar />)
+    .toJSON();
+  expect(tree).toMatchSnapshot();
 });

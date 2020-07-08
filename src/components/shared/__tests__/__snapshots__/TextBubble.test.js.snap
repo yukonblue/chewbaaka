@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextBubble component snapshot 1`] = `
+<div
+  className="TextBubbleOuterContainer"
+  style={
+    Object {
+      "backgroundColor": "rgb(20,80,120)",
+      "height": 600,
+      "width": 600,
+    }
+  }
+>
+  <div
+    className="TextBubbleInnerContainer"
+  >
+    <div
+      className="TextBubbleInnerCore"
+    >
+      <h1
+        style={
+          Object {
+            "color": "rgb(undefined)",
+            "fontSize": 48,
+          }
+        }
+      >
+        CCF Turns 30 in 2020
+      </h1>
+      <p
+        style={
+          Object {
+            "color": "rgb(255,255,255)",
+            "fontSize": 21,
+          }
+        }
+      >
+        Timeline of CCF - 30 Years of Frontline Conservation
+      </p>
+    </div>
+  </div>
+</div>
+`;

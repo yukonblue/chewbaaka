@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopNavBar component snapshot 1`] = `
+<div
+  className="ui top fixed topNavBarMenu menu"
+  data-testid="TopNavBarComponentTestId"
+>
+  <div
+    className="ui container"
+  >
+    <a
+      className="header item"
+      data-testid="mainNavBarItem"
+      href="https://cheetah.org"
+      onClick={[Function]}
+    >
+      <img
+        className="ui small image"
+        src="cheetah-conservation-fund-30-logo.svg"
+        style={
+          Object {
+            "marginRight": "1.5em",
+          }
+        }
+      />
+    </a>
+    <a
+      className="item"
+      href="https://www.iucnredlist.org/species/219/50649567"
+      onClick={[Function]}
+      target="_blank"
+    >
+      IUCN Status
+    </a>
+    <a
+      className="item"
+      href="https://wildnet.org/wildlife-programs/cheetah-namibia/"
+      onClick={[Function]}
+      target="_blank"
+    >
+      Wildlife Conservation Network
+    </a>
+  </div>
+</div>
+`;

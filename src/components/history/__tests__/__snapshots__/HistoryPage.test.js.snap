@@ -1,0 +1,3438 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HistoryPage component snapshot 1`] = `
+<div
+  className="ContentPageSkeletonOuterContainer"
+>
+  <div
+    className="ui top fixed topNavBarMenu menu"
+    data-testid="TopNavBarComponentTestId"
+  >
+    <div
+      className="ui container"
+    >
+      <a
+        className="header item"
+        data-testid="mainNavBarItem"
+        href="https://cheetah.org"
+        onClick={[Function]}
+      >
+        <img
+          className="ui small image"
+          src="cheetah-conservation-fund-30-logo.svg"
+          style={
+            Object {
+              "marginRight": "1.5em",
+            }
+          }
+        />
+      </a>
+      <a
+        className="item"
+        href="https://www.iucnredlist.org/species/219/50649567"
+        onClick={[Function]}
+        target="_blank"
+      >
+        IUCN Status
+      </a>
+      <a
+        className="item"
+        href="https://wildnet.org/wildlife-programs/cheetah-namibia/"
+        onClick={[Function]}
+        target="_blank"
+      >
+        Wildlife Conservation Network
+      </a>
+    </div>
+  </div>
+  <div
+    className="ContentPageSkeletonContentContainerDimension ContentPageHeadOuterContainer"
+    data-testid="ContentPageHeadComponentTestId"
+  >
+    <div
+      className="ContentPageHeadNavMenuBarOuterContainer"
+    >
+      <div
+        className="ContentPageTopNavMenuBarContainer"
+      >
+        <div>
+          <div
+            className="ui secondary menu"
+          >
+            <a
+              href="/Home"
+            >
+              <div
+                className="item"
+                onClick={[Function]}
+              >
+                Home
+              </div>
+            </a>
+            <a
+              href="/History"
+            >
+              <div
+                className="item"
+                onClick={[Function]}
+              >
+                History
+              </div>
+            </a>
+            <a
+              href="/Biology"
+            >
+              <div
+                className="item"
+                onClick={[Function]}
+              >
+                Biology
+              </div>
+            </a>
+            <a
+              href="/Ecology"
+            >
+              <div
+                className="item"
+                onClick={[Function]}
+              >
+                Ecology
+              </div>
+            </a>
+            <a
+              href="/Future"
+            >
+              <div
+                className="item"
+                onClick={[Function]}
+              >
+                Future
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ContentPageSkeletonContentContainerDimension ContentPageBannerContainer"
+      data-testid="ContentPageBannerComponentTestId"
+      style={
+        Object {
+          "backgroundImage": "url(cheetah-mother-and-cubs-on-termite-mound.jpg)",
+        }
+      }
+    >
+      <div
+        className="ContentPageBannerTitleContainer"
+      >
+        <h1
+          className="ContentPageBannerTitle"
+        >
+          History
+        </h1>
+        <hr
+          className="ContentPageBannerTitleLineBreak"
+        />
+        <h2
+          className="ContentPageBannerSubtitle"
+        >
+          Learn about the evolution and migration of the species, its relationship with man throughout history, and its population and ranges.
+        </h2>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div
+      data-testid="ContentPageSkeletonComponentTestId"
+    >
+      <div
+        className="ContentPageSkeletonContentContainerDimension ContentPageSkeletonContentContainer"
+      >
+        <div>
+          <div
+            className="HistoryPageSectionTableOfContentOuterContainer"
+          >
+            <div
+              className="ContentPageTableOfContentMenuTemplateInnerContainer"
+            >
+              <div
+                className="ui three column grid"
+              >
+                <div
+                  className="row"
+                >
+                  <div
+                    className="column"
+                  >
+                    <div
+                      className="CircularImageButtonOuterContainer"
+                    >
+                      <a
+                        href="#evolution"
+                      >
+                        <div
+                          className="CircularImageButtonCore"
+                        >
+                          <img
+                            alt="Evolution"
+                            className="CircularImageButtonImg"
+                            src="cheetah-conservation-fund-cheetah-fact-01.jpg"
+                          />
+                        </div>
+                        <div>
+                          <p
+                            className="CircularImageButtonTitle"
+                          >
+                            Evolution
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    className="column"
+                  >
+                    <div
+                      className="CircularImageButtonOuterContainer"
+                    >
+                      <a
+                        href="#cheetah-and-man"
+                      >
+                        <div
+                          className="CircularImageButtonCore"
+                        >
+                          <img
+                            alt="Cheetah and Man"
+                            className="CircularImageButtonImg"
+                            src="https://upload.wikimedia.org/wikipedia/commons/f/f6/War_trophies_Deir_el_Bahari_Wellcome_L0027402.jpg"
+                          />
+                        </div>
+                        <div>
+                          <p
+                            className="CircularImageButtonTitle"
+                          >
+                            Cheetah and Man
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    className="column"
+                  >
+                    <div
+                      className="CircularImageButtonOuterContainer"
+                    >
+                      <a
+                        href="#range-and-population"
+                      >
+                        <div
+                          className="CircularImageButtonCore"
+                        >
+                          <img
+                            alt="Range and Population"
+                            className="CircularImageButtonImg"
+                            src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Acinonyx_jubatus_subspecies_range_IUCN_2015.png"
+                          />
+                        </div>
+                        <div>
+                          <p
+                            className="CircularImageButtonTitle"
+                          >
+                            Range and Population
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              className="ContentPageSectionTemplateOuterContainer"
+            >
+              <div
+                className="ContentPageSectionTemplateInnerContainer"
+              >
+                <div
+                  className="ContentPageIntroParagraphOuterContainer"
+                >
+                  <div
+                    className="ContentPageIntroParagraphInnerContainer"
+                  >
+                    <div
+                      className="ContentPageIntroParagraphTitleContainer"
+                    >
+                      <h1
+                        className="ContentPageIntroParagraphTitle"
+                      >
+                        History of the Cheetah
+                      </h1>
+                    </div>
+                    <div
+                      className="ContentPageIntroParagraphContentContainer"
+                    >
+                      <p
+                        className="ContentPageSectionSubtitleText"
+                      >
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div
+                className="ContentPageSectionTemplateOuterContainer"
+              >
+                <div
+                  className="ContentPageSectionTemplateInnerContainer"
+                >
+                  <div
+                    className="ContentPageSectionHeadOuterContainer"
+                  >
+                    <div
+                      data-testid="ContentPageSectionAnchorComponentTestId"
+                      id="evolution"
+                    />
+                    <div
+                      className="ContentPageSectionHeadInnerContainer"
+                    >
+                      <div
+                        className="ContentPageSectionHeadTitleContainer"
+                      >
+                        <h2
+                          className="ContentPageSectionHeadTitle"
+                        >
+                          Evolution
+                        </h2>
+                      </div>
+                      <div
+                        className="ContentPageIntroParagraphContentContainer"
+                      >
+                        <p
+                          className="ContentPageSectionSubtitleText"
+                        >
+                          The oldest fossils place  cheetahs in North America in what is now Texas, Nevada and Wyoming. Cheetahs were common throughout Asia, Africa, Europe and North America until the end of the last Ice Age, about 10,000 years ago, when massive climatic changes caused large numbers of mammals to disappear.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="HistoryPageFelidaeFamilyTreeSubsectionOuterContainer"
+            >
+              <div
+                className="ContentPageSectionTemplateOuterContainer"
+              >
+                <div
+                  className="ContentPageSectionTemplateInnerContainer"
+                >
+                  <div
+                    className="HistoryPageFelidaeFamilyTreeSubsectionInnerContainer"
+                  >
+                    <div>
+                      <h3
+                        className="ContentPageSubsectionTitle"
+                      >
+                        Evolution Tree of Cats
+                      </h3>
+                    </div>
+                    <div
+                      className="HistoryPageFelidaeFamilyTreeSubsectionCore"
+                    >
+                      <div
+                        className="HintSignpostOuterContainer"
+                      >
+                        <div
+                          className="HintSignpostInnerContainer"
+                        >
+                          <div
+                            className="ui blue large label"
+                            onClick={[Function]}
+                          >
+                            Hover over images below to reveal the genres
+                            <div
+                              className="HintSignpostIconContainer"
+                            >
+                              <i
+                                aria-hidden="true"
+                                className="arrow circle down large icon"
+                                onClick={[Function]}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="FelidaeFamilyTreeComponentOuterContainerDiv"
+                      >
+                        <div
+                          style={
+                            Object {
+                              "left": 10,
+                              "position": "absolute",
+                              "top": 10,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui rotate reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_cheetah_Acinonyx_jubatus.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Cheetah
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Acinonyx jubatus
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 10,
+                              "position": "absolute",
+                              "top": 140,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui small fade reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_puma_Puma_concolor.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Puma
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Puma concolor
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 10,
+                              "position": "absolute",
+                              "top": 270,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui move right reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_jaguarundi_Herpailurus_yagouaroundi.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Jaguarundi
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Herpailurus yagouaroundi
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 140,
+                              "position": "absolute",
+                              "top": 10,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui rotate reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_eurasian_lynx_Lynx_lynx.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Eurasian Lynx
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Lynx lynx
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 140,
+                              "position": "absolute",
+                              "top": 140,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui fade reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_canadian_lynx_Lynx_canadensis.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Canadian Lynx
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Lynx canadensis
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 140,
+                              "position": "absolute",
+                              "top": 270,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui small fade reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_iberian_lynx_Lynx_pardinus.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Iberian Lynx
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Lynx pardinus
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 140,
+                              "position": "absolute",
+                              "top": 400,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui small fade reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_bobcat_Lynx_rufus.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Bobcat
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Lynx pardinus
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 270,
+                              "position": "absolute",
+                              "top": 10,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui move right reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_tiger_Panthera_tigris.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Tiger
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Panthera tigris
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 270,
+                              "position": "absolute",
+                              "top": 140,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui move up reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_lion_Panthera_leo.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Lion
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Panthera leo
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 270,
+                              "position": "absolute",
+                              "top": 270,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui move up reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_jaguar_Panthera_onca.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Jaguar
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Panthera onca
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 270,
+                              "position": "absolute",
+                              "top": 400,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui fade reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_leopard_Panthera_pardus.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Leopard
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Panthera pardus
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 270,
+                              "position": "absolute",
+                              "top": 530,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui rotate reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_snow_leopard_Panthera_uncia.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Snow Leopard
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Panthera uncia
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 270,
+                              "position": "absolute",
+                              "top": 660,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui fade reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_mainland_clouded_leopard_Neofelis_nebulosa.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Mainland Clouded Leopard
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Neofelis nebulosa
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 270,
+                              "position": "absolute",
+                              "top": 790,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui small fade reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_sunda_clouded_leopard_Neofelis_diardi.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Sunda Clouded Leopard
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Neofelis diardi
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 400,
+                              "position": "absolute",
+                              "top": 10,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui fade reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_asiatic_golden_cat_Catopuma_temminckii.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Asiatic Golden Cat
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Catopuma temminckii
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 400,
+                              "position": "absolute",
+                              "top": 140,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui fade reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_borneo_bay_cat_Catopuma_badia.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Borneo Bay Cat
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Catopuma badia
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 400,
+                              "position": "absolute",
+                              "top": 270,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui move down reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_marbled_cat_Pardofelis_marmorata.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Marbled Cat
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Pardofelis marmorata
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 530,
+                              "position": "absolute",
+                              "top": 10,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui move right reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_fishing_cat_Prionailurus_viverrinus.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Fishing Cat
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Prionailurus viverrinus
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 530,
+                              "position": "absolute",
+                              "top": 140,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui move up reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_mainland_leopard_cat_Prionailurus_bengalensis.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Mainland Leopard Cat
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Prionailurus bengalensis
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 530,
+                              "position": "absolute",
+                              "top": 270,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui rotate left reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_sunda_leopard_cat_Prionailurus_javanensis.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Sunda Leopard Cat
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Prionailurus javanensis
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 530,
+                              "position": "absolute",
+                              "top": 400,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui move reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_flat_headed_cat_Prionailurus_planiceps.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Flat-headed Cat
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Prionailurus planiceps
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 530,
+                              "position": "absolute",
+                              "top": 530,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui move down reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_rusty_spotted_cat_Prionailurus_rubiginosus.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Rusty-spotted Cat
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Prionailurus rubiginosus
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 530,
+                              "position": "absolute",
+                              "top": 660,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui move reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_pallas_cat_Otocolobus_manul.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Pallas's Cat
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Otocolobus manul
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 660,
+                              "position": "absolute",
+                              "top": 10,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui fade reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_jungle_cat_Felis_chaus.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Jungle Cat
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Felis chaus
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 660,
+                              "position": "absolute",
+                              "top": 140,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui fade reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_chinese_mountain_cat_Felis_bieti.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Chinese Mountain Cat
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Felis bieti
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 660,
+                              "position": "absolute",
+                              "top": 270,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui move right reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_european_wildcat_Felis_silvestris.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  European Wildcat
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Felis silvestris
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 660,
+                              "position": "absolute",
+                              "top": 400,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui move up reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_african_wildcat_Felis_lybica.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  African-Asiatic Wildcat
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Felis lybica
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 660,
+                              "position": "absolute",
+                              "top": 530,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui small fade reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_sand_cat_Felis_margarita.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Sand Cat
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Felis margarita
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 660,
+                              "position": "absolute",
+                              "top": 660,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui move down reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_black_footed_cat_Felis_nigripes.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Black-footed Cat
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Felis nigripes
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 790,
+                              "position": "absolute",
+                              "top": 10,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui move reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_caracal_Caracal_caracal.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Caracal
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Caracal caracal
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 790,
+                              "position": "absolute",
+                              "top": 140,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui rotate left reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_serval_Leptailurus_serval.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Serval
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Leptailurus serval
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 790,
+                              "position": "absolute",
+                              "top": 270,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui move up reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_african_golden_cat_Caracal_aurata.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  African Golden Cat
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Caracal aurata
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 920,
+                              "position": "absolute",
+                              "top": 10,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui move reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_ocelot_Leopardus_pardalis.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Ocelot
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Leopardus pardalis
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 920,
+                              "position": "absolute",
+                              "top": 140,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui move up reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_geoffroys_cat_Leopardus_geoffroyi.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Geoffroy's Cat
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Leopardus geoffroyi
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 920,
+                              "position": "absolute",
+                              "top": 270,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui rotate reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_andean_cat_Leopardus_jacobita.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Andean Cat
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Leopardus jacobita
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 920,
+                              "position": "absolute",
+                              "top": 400,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui rotate left reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_margay_Leopardus_wiedii.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Margay
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Leopardus wiedii
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 920,
+                              "position": "absolute",
+                              "top": 530,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui move right reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_pampas_cat_Leopardus_colocola.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Pampas Cat
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Leopardus colocola
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 920,
+                              "position": "absolute",
+                              "top": 660,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui rotate reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_oncilla_Leopardus_tigrinus.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Oncilla - Northern Tiger Cat
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Leopardus tigrinus
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 920,
+                              "position": "absolute",
+                              "top": 790,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui small fade reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_southern_tiger_cat_Leopardus_guttulus.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Southern Tiger Cat
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Leopardus guttulus
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "left": 1050,
+                              "position": "absolute",
+                              "top": 10,
+                            }
+                          }
+                        >
+                          <div
+                            className="ui move reveal"
+                            data-testid="TextRevealComponentTestId"
+                          >
+                            <div
+                              className="ui visible content"
+                              data-testid="TextRevealComponentVisiblePartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentCoverContainerDiv"
+                              >
+                                <img
+                                  className="ui image"
+                                  src="felidae_guina_Leopardus_guigna.jpg"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              className="ui hidden content"
+                              data-testid="TextRevealComponentHiddenPartTestId"
+                            >
+                              <div
+                                className="TextRevealComponentContentContainerDiv"
+                                style={
+                                  Object {
+                                    "backgroundColor": "green",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="TextRevealComponentDescriptionText"
+                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
+                                >
+                                  Guiña / Kodkod
+                                </p>
+                                <p
+                                  className="TextRevealComponentCaptionText"
+                                  data-testid="TextRevealComponentCaptionTextPartTestId"
+                                >
+                                  Leopardus guigna
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div
+                className="ContentPageSectionTemplateOuterContainer"
+              >
+                <div
+                  className="ContentPageSectionTemplateInnerContainer"
+                >
+                  <div
+                    className="ContentPageSectionHeadOuterContainer"
+                  >
+                    <div
+                      data-testid="ContentPageSectionAnchorComponentTestId"
+                      id="cheetah-and-man"
+                    />
+                    <div
+                      className="ContentPageSectionHeadInnerContainer"
+                    >
+                      <div
+                        className="ContentPageSectionHeadTitleContainer"
+                      >
+                        <h2
+                          className="ContentPageSectionHeadTitle"
+                        >
+                          Cheetah and Man
+                        </h2>
+                      </div>
+                      <div
+                        className="ContentPageIntroParagraphContentContainer"
+                      >
+                        <p
+                          className="ContentPageSectionSubtitleText"
+                        >
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="HistoryPageCheetahAndManImageSubsectionOuterContainer"
+            >
+              <div
+                className="ContentPageSectionTemplateOuterContainer"
+              >
+                <div
+                  className="ContentPageSectionTemplateInnerContainer"
+                >
+                  <div
+                    className="HistoryPageCheetahAndManImageSubsectionInnerContainer"
+                  >
+                    <div>
+                      <h3
+                        className="ContentPageSubsectionTitle"
+                      >
+                        Relationships with Man
+                      </h3>
+                    </div>
+                    <div>
+                      <div
+                        className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+                      >
+                        <div
+                          className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+                        >
+                          <div>
+                            <div
+                              className="ui vertically divided grid"
+                            >
+                              <div
+                                className="two column row"
+                              >
+                                <div
+                                  className="column"
+                                >
+                                  <div
+                                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
+                                  >
+                                    <div
+                                      className="HistoryPageCheetahAndManImageSubsectionContentTextContainer"
+                                    >
+                                      <p>
+                                        Try resizing the window: You'll see that each sentence is on one line when the window is wide enough. Only when the window is too narrow for the whole sentence will the sentence be broken over several lines. When you remove the 'margin-right: -50%' and resize the window again, you'll see that the sentences will be broken already when the window is still twice as wide as the text lines. 
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  className="column"
+                                >
+                                  <div
+                                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
+                                  >
+                                    <div>
+                                      <div
+                                        className="ImageSlidingGalleryOuterContainer"
+                                      >
+                                        <div
+                                          className="ImageSlidingGalleryCoreContainer"
+                                        >
+                                          <img
+                                            alt="Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words"
+                                            className="ImageSlidingGalleryImgPart"
+                                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/War_trophies_Deir_el_Bahari_Wellcome_L0027402.jpg/440px-War_trophies_Deir_el_Bahari_Wellcome_L0027402.jpg"
+                                          />
+                                          <i
+                                            aria-hidden="true"
+                                            className="image icon"
+                                            onClick={[Function]}
+                                          />
+                                          <p
+                                            data-testid="ImageSlidingGalleryCaptionPart"
+                                          >
+                                            Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words
+                                          </p>
+                                        </div>
+                                        <div
+                                          className="ImageSlidingGalleryButtonContainer"
+                                        >
+                                          <div
+                                            className="ui blue huge icon left attached button"
+                                            onClick={[Function]}
+                                            role="button"
+                                            tabIndex={0}
+                                          >
+                                            <i
+                                              aria-hidden="true"
+                                              className="arrow alternate circle left outline icon"
+                                              onClick={[Function]}
+                                            />
+                                          </div>
+                                          <div
+                                            className="ui blue huge icon right attached button"
+                                            onClick={[Function]}
+                                            role="button"
+                                            tabIndex={0}
+                                          >
+                                            <i
+                                              aria-hidden="true"
+                                              className="arrow alternate circle right outline icon"
+                                              onClick={[Function]}
+                                            />
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div
+                className="ContentPageSectionTemplateOuterContainer"
+              >
+                <div
+                  className="ContentPageSectionTemplateInnerContainer"
+                >
+                  <div
+                    className="ContentPageSectionHeadOuterContainer"
+                  >
+                    <div
+                      data-testid="ContentPageSectionAnchorComponentTestId"
+                      id="range-and-population"
+                    />
+                    <div
+                      className="ContentPageSectionHeadInnerContainer"
+                    >
+                      <div
+                        className="ContentPageSectionHeadTitleContainer"
+                      >
+                        <h2
+                          className="ContentPageSectionHeadTitle"
+                        >
+                          Range and Population
+                        </h2>
+                      </div>
+                      <div
+                        className="ContentPageIntroParagraphContentContainer"
+                      >
+                        <p
+                          className="ContentPageSectionSubtitleText"
+                        >
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="HistoryPageNamibiaSubsectionOuterContainer"
+            >
+              <div
+                className="ContentPageSectionTemplateOuterContainer"
+              >
+                <div
+                  className="ContentPageSectionTemplateInnerContainer"
+                >
+                  <div
+                    className="HistoryPageNamibiaSubsectionInnerContainer"
+                  >
+                    <div>
+                      <h3
+                        className="ContentPageSubsectionTitle"
+                      >
+                        Namibia - Cheetah Capital of the World
+                      </h3>
+                    </div>
+                    <div>
+                      <p>
+                        Namibia has the world's largest cheetah population. Approximately 3000 cheetahs share the land with humans, livestock, and wildlife. Today, the status of the Namibian cheetah is stabilizing. During the 1980s, the population of Namibina cheetahs declined by half. In the 10-year period, nearly 7,000 cheetahs were removed from the wild. In most countries where cheetahs live, their numbers have been reduced to critical levels. The cheetah's survival worldwide is in human hands.
+                      </p>
+                      <p>
+                        21% of the world's wild cheetahs live in Namibia.
+                      </p>
+                      <p>
+                        90% of Namibia's cheetahs live on communal and commercial livestock and game farms.
+                      </p>
+                      <div
+                        className="ImageViewOuterContainer"
+                      >
+                        <div
+                          className="ImageViewInnerContainer"
+                        >
+                          <div
+                            className="ImageViewCore"
+                          >
+                            <img
+                              alt="Cheetah ranges in Namibia (Cheetahs (Acinonyx jubatus) running the gauntlet: an evaluation of translocations into free-range environments in Namibia)"
+                              className="ImageViewImg"
+                              src="https://dfzljdn9uc3pi.cloudfront.net/2015/1346/1/Suppl_Inf_5_cheetah_occurrence_and_suitable_PA.png"
+                              style={
+                                Object {
+                                  "height": 640,
+                                  "width": 640,
+                                }
+                              }
+                            />
+                            <div
+                              className="ImageViewCaptionContainer"
+                            >
+                              <i
+                                aria-hidden="true"
+                                className="image icon"
+                                onClick={[Function]}
+                              />
+                              <p
+                                className="ImageViewCaptionText"
+                                data-testid="ImageViewComponentCaptionPart"
+                                style={
+                                  Object {
+                                    "width": 630,
+                                  }
+                                }
+                              >
+                                Cheetah ranges in Namibia (Cheetahs (Acinonyx jubatus) running the gauntlet: an evaluation of translocations into free-range environments in Namibia)
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div>
+                        <a
+                          href="https://peerj.com/articles/1346/"
+                        >
+                          <button
+                            className="ui blue icon button"
+                            onClick={[Function]}
+                          >
+                            Cheetahs (Acinonyx jubatus) running the gauntlet: an evaluation of translocations into free-range environments in Namibia
+                            <i
+                              aria-hidden="true"
+                              className="file alternate outline icon"
+                              onClick={[Function]}
+                            />
+                          </button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div
+                className="ContentPageSectionTemplateOuterContainer"
+              >
+                <div
+                  className="ContentPageSectionTemplateInnerContainer"
+                >
+                  <div
+                    className="ContentPageSectionHeadOuterContainer"
+                  >
+                    <div
+                      data-testid="ContentPageSectionAnchorComponentTestId"
+                      id="cheetah-ambassadaors"
+                    />
+                    <div
+                      className="ContentPageSectionHeadInnerContainer"
+                    >
+                      <div
+                        className="ContentPageSectionHeadTitleContainer"
+                      >
+                        <h2
+                          className="ContentPageSectionHeadTitle"
+                        >
+                          Cheetah Ambassadaors
+                        </h2>
+                      </div>
+                      <div
+                        className="ContentPageIntroParagraphContentContainer"
+                      >
+                        <p
+                          className="ContentPageSectionSubtitleText"
+                        >
+                          Many cheetah left a legacy that ...
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="HistoryPageCheetahsAtCCFSubsection"
+            >
+              <div
+                className="ContentPageSectionTemplateOuterContainer"
+              >
+                <div
+                  className="ContentPageSectionTemplateInnerContainer"
+                >
+                  <div
+                    className="HistoryPageCheetahsAtCCFSubsectionInnerContainer"
+                  >
+                    <div>
+                      <h3
+                        className="ContentPageSubsectionTitle"
+                      >
+                        Cheetahs at CCF
+                      </h3>
+                    </div>
+                    <div>
+                      <h4
+                        className="ContentPageSubsectionSubtitle"
+                      >
+                        Chewbaaka
+                      </h4>
+                      <div
+                        className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+                      >
+                        <div
+                          className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+                        >
+                          <div>
+                            <div
+                              className="ui vertically divided grid"
+                            >
+                              <div
+                                className="two column row"
+                              >
+                                <div
+                                  className="column"
+                                >
+                                  <div
+                                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
+                                  >
+                                    <div
+                                      className="HistoryPageCheetahAndManImageSubsectionContentTextContainer"
+                                    >
+                                      <p>
+                                        Hi there, my name is Chewbaaka. I was named after an animal in a movie. I have lived at CCF since I was 3 weeks old. I am there cheetah ambassador and I get to meet many people. The staff at CCF tell everyone about me and all the wild cheetah. I have a special place where I can run like the wind.
+                                      </p>
+                                      <div>
+                                        <div>
+                                          <a
+                                            href="https://www.youtube.com/watch?v=WYjeEG06cjc"
+                                          >
+                                            <button
+                                              className="ui blue icon button"
+                                              onClick={[Function]}
+                                            >
+                                              Watch "Walking with Chewbaaka" on YouTube
+                                              <i
+                                                aria-hidden="true"
+                                                className="file video icon"
+                                                onClick={[Function]}
+                                              />
+                                            </button>
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  className="column"
+                                >
+                                  <div
+                                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
+                                  >
+                                    <div
+                                      className="HistoryPageCheetahsAtCCFSubsectionImageContainer"
+                                    >
+                                      <div
+                                        className="CircularImageOuterContainer"
+                                      >
+                                        <div
+                                          className="CircularImageCore"
+                                        >
+                                          <img
+                                            alt="Chewbaaka"
+                                            className="CircularImageImg"
+                                            src="https://sotinpc.files.wordpress.com/2013/04/day-of-rememberance.jpg"
+                                          />
+                                        </div>
+                                        <div
+                                          className="CircularImageTitleContainer"
+                                        >
+                                          <p
+                                            className="CircularImageTitle"
+                                          >
+                                            Chewbaaka
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <h4
+                        className="ContentPageSubsectionSubtitle"
+                      >
+                        Mekondyo
+                      </h4>
+                      <div
+                        className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+                      >
+                        <div
+                          className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+                        >
+                          <div>
+                            <div
+                              className="ui vertically divided grid"
+                            >
+                              <div
+                                className="two column row"
+                              >
+                                <div
+                                  className="column"
+                                >
+                                  <div
+                                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
+                                  >
+                                    <div
+                                      className="HistoryPageCheetahsAtCCFSubsectionImageContainer"
+                                    >
+                                      <div
+                                        className="CircularImageOuterContainer"
+                                      >
+                                        <div
+                                          className="CircularImageCore"
+                                        >
+                                          <img
+                                            alt="Mekondyo"
+                                            className="CircularImageImg"
+                                            src="https://globalgaz.com/wp-content/uploads/2018/07/DSC03746.jpg"
+                                          />
+                                        </div>
+                                        <div
+                                          className="CircularImageTitleContainer"
+                                        >
+                                          <p
+                                            className="CircularImageTitle"
+                                          >
+                                            Mekondyo
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  className="column"
+                                >
+                                  <div
+                                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
+                                  >
+                                    <div
+                                      className="HistoryPageCheetahAndManImageSubsectionContentTextContainer"
+                                    >
+                                      <p>
+                                        Hello, my name is Mekondyo. Mekondyo means "struggle" in the Oshiwambo language. I was born on a farm northof Otjiwarango but I now live on farmland west of Otjiwarango. It is very beautiful. I can see the Waterberg Plateau far away. I am 5 years old now and I will tell you my story as you explore this museum.
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+          <p>
+            Hello
+          </p>
+        </div>
+      </div>
+      <div
+        className="ui left internal rail"
+      >
+        <div
+          className=""
+        >
+          <div
+            style={Object {}}
+          />
+          <div
+            className="ui sticky"
+          >
+            <button
+              className="ui orange circular icon button"
+              onClick={[Function]}
+            >
+              <i
+                aria-hidden="true"
+                className="list ul icon"
+                onClick={[Function]}
+              />
+            </button>
+            <div
+              hidden={false}
+            >
+              <div
+                data-testid="ContentPageSideNavMenuComponentTestId"
+              >
+                <div
+                  className="ui text vertical menu"
+                >
+                  <div
+                    className="header item"
+                    onClick={[Function]}
+                  >
+                    History
+                  </div>
+                  <a
+                    className="active item"
+                    href="#evolution"
+                    onClick={[Function]}
+                  >
+                    Evolution
+                  </a>
+                  <a
+                    className="item"
+                    href="#cheetah-and-man"
+                    onClick={[Function]}
+                  >
+                    Cheetah and Man
+                  </a>
+                  <a
+                    className="item"
+                    href="#range-and-population"
+                    onClick={[Function]}
+                  >
+                    Range and Population
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ui inverted segment"
+    data-testid="FooterComponentTestId"
+    style={
+      Object {
+        "padding": "5em 0em",
+      }
+    }
+  >
+    <div
+      className="ui container"
+    >
+      <div
+        className="ui inverted stackable divided grid"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="three wide column"
+          >
+            <img
+              className="ui small image"
+              src="cheetah-conservation-fund-logo.jpg"
+            />
+          </div>
+          <div
+            className="six wide column"
+          >
+            <h4
+              className="ui inverted header"
+            >
+              Resources
+            </h4>
+            <div
+              className="ui inverted link list"
+              role="list"
+            >
+              <a
+                className="item"
+                href="https://cheetah.org/about/what-we-do/"
+                onClick={[Function]}
+                role="listitem"
+                target="_blank"
+              >
+                About CCF
+              </a>
+              <a
+                className="item"
+                href="https://animalfactguide.com/animal-facts/cheetah/"
+                onClick={[Function]}
+                role="listitem"
+                target="_blank"
+              >
+                Cheatah Fun Facts
+              </a>
+              <a
+                className="item"
+                href="https://wildnet.org/wildlife-programs/cheetah-namibia/"
+                onClick={[Function]}
+                role="listitem"
+                target="_blank"
+              >
+                Wildlife Conservation Network & CCF
+              </a>
+              <a
+                className="item"
+                href="https://www.iucnredlist.org/species/219/50649567"
+                onClick={[Function]}
+                role="listitem"
+                target="_blank"
+              >
+                IUCN Red List - Cheetah
+              </a>
+            </div>
+          </div>
+          <div
+            className="seven wide column"
+          >
+            <h4
+              className="ui inverted header"
+            >
+              Cheetah Conservation Fund
+            </h4>
+            <p
+              data-testid="footerSectionCCF"
+            >
+              <a
+                href="https://cheetah.org/"
+                rel=" noopener noreferrer"
+                target="_blank"
+              >
+                Cheetah Conservation Fund
+              </a>
+               is a 501(c)(3) nonprofit organization, dedicated to saving the cheetah in the wild and changing the world to be a better place.
+            </p>
+            <p>
+              This site is not an affiliation of Cheetah Conservation Fund.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
