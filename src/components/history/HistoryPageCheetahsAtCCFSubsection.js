@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 08, 2020
  */
 
 import React from 'react';
@@ -80,7 +80,7 @@ export default class HistoryPageCheetahsAtCCFSubsection extends React.Component 
 
   renderLhsContentMekondyo() {
     return (
-      <div>
+      <div className="HistoryPageCheetahsAtCCFSubsectionImageContainer">
         <CircularImage image="https://globalgaz.com/wp-content/uploads/2018/07/DSC03746.jpg" title="Chewbaaka" />
       </div>
     );

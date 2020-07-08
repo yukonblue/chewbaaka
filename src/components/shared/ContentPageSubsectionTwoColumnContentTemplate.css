@@ -22,6 +22,7 @@ div.ContentPageSubsectionTwoColumnContentTemplateInnerContainer {
 }
 
 div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer {
-  /* display: inline-block; */
   margin: 0 auto;
+  /* Uncomment line below for debugging. */
+  background-color: lightyellow;
 }
