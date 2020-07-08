@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 05, 2020
+ * Updated  : Jul 07, 2020
  */
 
 import React from 'react';
@@ -25,6 +25,7 @@ import ImageSlidingGallery from './ImageSlidingGallery'
 import CircularImageButton from './CircularImageButton'
 import QnAPopUp from './QnAPopUp'
 import HintSignpost from './HintSignpost'
+import CircularImage from './CircularImage'
 
 import image01 from './assets/cheetah-conservation-fund-logo.jpg'
 import image02 from './assets/cheetah-conservation-fund-30-logo.svg'
@@ -51,6 +52,9 @@ class TestPage extends React.Component {
         <h1>This is a test page</h1>
 
         This page is used to test our custom components, navigations, and other things.
+
+        <h2>CircularImage</h2>
+        <CircularImage image="https://sotinpc.files.wordpress.com/2013/04/day-of-rememberance.jpg" title="Chewbaaka" />
 
         <h2>HintSignpost</h2>
         <HintSignpost hintText="This is a hint signpost"/>
