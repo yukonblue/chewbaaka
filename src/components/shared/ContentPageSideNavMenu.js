@@ -39,8 +39,12 @@ export default class ContentPageSideNavMenu extends React.Component {
 
     for (const [idx, item] of this.state.items.entries()) {
       menuItems.push(
-        // TODO: Add routing support for menu items.
-        <Menu.Item key={idx} active={this.state.activeItem === item} href={"#"+ContentPageSectionTitleToAnchorId(item)} onClick={this.handleItemClick} >
+        <Menu.Item
+          key={idx}
+          active={this.state.activeItem === item}
+          href={"#"+ContentPageSectionTitleToAnchorId(item)}
+          onClick={this.handleItemClick}
+        >
           {item}
         </Menu.Item>
       );
