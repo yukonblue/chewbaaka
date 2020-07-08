@@ -9,6 +9,7 @@
 
 import React from 'react';
 
+import '../shared/ContentPageSharedStyles.css'
 import './HistoryPageNamibiaSubsection.css'
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
@@ -31,7 +32,7 @@ export default class HistoryPageNamibiaSubsection extends React.Component {
     return (
       <div className="HistoryPageNamibiaSubsectionInnerContainer">
         <div>
-          <h3>Namibia - Cheetah Capital of the World</h3>
+          <h3 className="ContentPageSubsectionTitle">Namibia - Cheetah Capital of the World</h3>
         </div>
         <div>
           <p>

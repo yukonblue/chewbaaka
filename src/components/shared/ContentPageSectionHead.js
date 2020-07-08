@@ -22,6 +22,7 @@
 
 import React from 'react';
 
+import './ContentPageSharedStyles.css'
 import './ContentPageSectionHead.css'
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
@@ -47,7 +48,7 @@ export default class ContentPageSectionHead extends React.Component {
             <h2 className="ContentPageSectionHeadTitle">{this.props.title}</h2>
           </div>
           <div className="ContentPageIntroParagraphContentContainer">
-            <p>{this.props.content}</p>
+            <p className="ContentPageSectionSubtitleText">{this.props.content}</p>
           </div>
         </div>
       </div>

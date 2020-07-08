@@ -34,6 +34,6 @@ h1.ContentPageIntroParagraphTitle {
   text-decoration: underline;
 }
 
-div.ContentPageIntroParagraphContentContainer p {
+p.ContentPageIntroParagraphContentText {
   text-align: left;
 }

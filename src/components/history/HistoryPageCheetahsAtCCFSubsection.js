@@ -9,6 +9,7 @@
 
 import React from 'react';
 
+import '../shared/ContentPageSharedStyles.css'
 import './HistoryPageCheetahsAtCCFSubsection.css'
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
@@ -32,17 +33,17 @@ export default class HistoryPageCheetahsAtCCFSubsection extends React.Component 
     return (
       <div className="HistoryPageCheetahsAtCCFSubsectionInnerContainer">
         <div>
-          <h3>Cheetahs at CCF</h3>
+          <h3 className="ContentPageSubsectionTitle">Cheetahs at CCF</h3>
         </div>
         <div>
-          <h4>Chewbaaka</h4>
+          <h4 className="ContentPageSubsectionSubtitle">Chewbaaka</h4>
           <ContentPageSubsectionTwoColumnContentTemplate
             lhsColumn={{content: this.renderLhsContentChewbaaka()}}
             rhsColumn={{content: this.renderRhsContentChewbaaka()}}
           />
         </div>
         <div>
-          <h4>Mekondyo</h4>
+          <h4 className="ContentPageSubsectionSubtitle">Mekondyo</h4>
           <ContentPageSubsectionTwoColumnContentTemplate
             lhsColumn={{content: this.renderLhsContentMekondyo()}}
             rhsColumn={{content: this.renderRhsContentMekondyo()}}
