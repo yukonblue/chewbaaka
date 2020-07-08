@@ -9,6 +9,7 @@
 
 import React from 'react';
 
+import '../shared/ContentPageSharedStyles.css'
 import './HistoryPageCheetahAndManImageSubsection.css'
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
@@ -30,7 +31,7 @@ export default class HistoryPageCheetahAndManImageSubsection extends React.Compo
     return (
       <div className="HistoryPageCheetahAndManImageSubsectionInnerContainer">
         <div>
-          <h3>Relationships with Man</h3>
+          <h3 className="ContentPageSubsectionTitle">Relationships with Man</h3>
         </div>
         <div>
           <ContentPageSubsectionTwoColumnContentTemplate

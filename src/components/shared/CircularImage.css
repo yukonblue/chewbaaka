@@ -4,13 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 08, 2020
  */
 
 div.CircularImageOuterContainer {
+  /** NOTE: This need to be kept in sync with width below. */
+  width: 384px;
   /* Uncomment line below for debugging. */
   /* background-color: gray; */
-  display: inline-block;
 }
 
 div.CircularImageCore {
