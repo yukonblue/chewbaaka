@@ -81,7 +81,7 @@ export default class HistoryPageCheetahsAtCCFSubsection extends React.Component 
   renderLhsContentMekondyo() {
     return (
       <div className="HistoryPageCheetahsAtCCFSubsectionImageContainer">
-        <CircularImage image="https://globalgaz.com/wp-content/uploads/2018/07/DSC03746.jpg" title="Chewbaaka" />
+        <CircularImage image="https://globalgaz.com/wp-content/uploads/2018/07/DSC03746.jpg" title="Mekondyo" />
       </div>
     );
   }
