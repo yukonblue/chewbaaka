@@ -27,3 +27,8 @@ div.ContentPageSectionTemplateOuterContainer p {
   font-size: 20px;
   word-wrap: break-word;
 }
+
+div.ContentPageSectionTemplateInnerContainer h3 {
+  font-size: 22px;
+  margin: 15px auto;
+}
