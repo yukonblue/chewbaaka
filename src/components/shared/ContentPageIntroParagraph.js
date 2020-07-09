@@ -25,14 +25,14 @@ import React from 'react';
 import './ContentPageSharedStyles.css'
 import './ContentPageIntroParagraph.css'
 
-import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
+import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
 export default class ContentPageIntroParagraph extends React.Component {
 
   render() {
     return (
       <div>
-        <ContentPageSectionTemplate content={this.renderContent()} />
+        <ContentPageSubsectionTemplate content={this.renderContent()} />
       </div>
     )
   }

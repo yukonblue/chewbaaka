@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 08, 2020
  */
 
 import React from 'react';
@@ -12,7 +12,7 @@ import React from 'react';
 import '../shared/ContentPageSharedStyles.css'
 import './HistoryPageFelidaeFamilyTreeSubsection.css'
 
-import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
+import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
 import HintSignpost from '../shared/HintSignpost'
 
@@ -23,7 +23,7 @@ export default class HistoryPageFelidaeFamilyTreeSubsection extends React.Compon
   render() {
     return (
       <div className="HistoryPageFelidaeFamilyTreeSubsectionOuterContainer">
-        <ContentPageSectionTemplate content={this.renderContent()} />
+        <ContentPageSubsectionTemplate content={this.renderContent()} />
       </div>
     )
   }

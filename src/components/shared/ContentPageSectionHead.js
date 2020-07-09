@@ -25,7 +25,7 @@ import React from 'react';
 import './ContentPageSharedStyles.css'
 import './ContentPageSectionHead.css'
 
-import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
+import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
 import ContentPageSectionAnchor from '../shared/ContentPageSectionAnchor'
 
@@ -34,7 +34,7 @@ export default class ContentPageSectionHead extends React.Component {
   render() {
     return (
       <div>
-        <ContentPageSectionTemplate content={this.renderContent()} />
+        <ContentPageSubsectionTemplate content={this.renderContent()} />
       </div>
     )
   }

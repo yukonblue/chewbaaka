@@ -12,7 +12,7 @@ import React from 'react';
 import '../shared/ContentPageSharedStyles.css'
 import './HistoryPageNamibiaSubsection.css'
 
-import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
+import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
 import ImageView from '../shared/ImageView'
 
@@ -23,7 +23,7 @@ export default class HistoryPageNamibiaSubsection extends React.Component {
   render() {
     return (
       <div className="HistoryPageNamibiaSubsectionOuterContainer">
-        <ContentPageSectionTemplate content={this.renderContent()} />
+        <ContentPageSubsectionTemplate content={this.renderContent()} />
       </div>
     )
   }
