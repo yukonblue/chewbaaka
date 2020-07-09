@@ -1,5 +1,5 @@
 /**
- * HistoryPageFelidaeFamilyTreeSubsection.js
+ * HistoryPage_Subsection_FelidaeFamilyTree.js
  * Chewbaaka
  *
  * Author   : Tomiko
@@ -10,7 +10,7 @@
 import React from 'react';
 
 import '../shared/ContentPageSharedStyles.css'
-import './HistoryPageFelidaeFamilyTreeSubsection.css'
+import './HistoryPage_Subsection_FelidaeFamilyTree.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 

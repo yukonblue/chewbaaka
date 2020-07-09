@@ -1,5 +1,5 @@
 /**
- * HistoryPageCheetahsAtCCFSubsection.js
+ * HistoryPage_Subsection_CheetahsAtCCF.js
  * Chewbaaka
  *
  * Author   : Tomiko
@@ -10,7 +10,7 @@
 import React from 'react';
 
 import '../shared/ContentPageSharedStyles.css'
-import './HistoryPageCheetahsAtCCFSubsection.css'
+import './HistoryPage_Subsection_CheetahsAtCCF.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
