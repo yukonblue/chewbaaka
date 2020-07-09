@@ -13,14 +13,14 @@ import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate';
 
 import HistoryPageFelidaeFamilyTreeSubsection from './HistoryPage_Subsection_FelidaeFamilyTree'
 
-const _SECTION_NAME_ = "section_Evolution";
-
 export default class HistoryPageSectionEvolution extends React.Component {
+
+  static _SECTION_NAME_ = "section_Evolution";
 
   constructor(props) {
     super(props);
     this.state = {
-      sectionConfig: props.config.contentPageSections[_SECTION_NAME_]
+      sectionConfig: props.config.contentPageSections[HistoryPageSectionEvolution._SECTION_NAME_]
     };
   }
 

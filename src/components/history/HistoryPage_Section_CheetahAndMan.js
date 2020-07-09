@@ -13,14 +13,14 @@ import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate';
 
 import HistoryPageCheetahAndManImageSubsection from './HistoryPage_Subsection_CheetahAndManImage'
 
-const _SECTION_NAME_ = "section_CheetahAndMan";
-
 export default class HistoryPageSectionCheetahAndMan extends React.Component {
+
+  static _SECTION_NAME_ = "section_CheetahAndMan";
 
   constructor(props) {
     super(props);
     this.state = {
-      sectionConfig: props.config.contentPageSections[_SECTION_NAME_]
+      sectionConfig: props.config.contentPageSections[HistoryPageSectionCheetahAndMan._SECTION_NAME_]
     };
   }
 

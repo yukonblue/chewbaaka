@@ -13,14 +13,14 @@ import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate';
 
 import HistoryPageNamibiaSubsection from './HistoryPage_Subsection_Namibia'
 
-const _SECTION_NAME_ = "section_PopulationAndRange";
-
 export default class HistoryPageSectionRangeAndPopulation extends React.Component {
+
+  static _SECTION_NAME_ = "section_PopulationAndRange";
 
   constructor(props) {
     super(props);
     this.state = {
-      sectionConfig: props.config.contentPageSections[_SECTION_NAME_]
+      sectionConfig: props.config.contentPageSections[HistoryPageSectionRangeAndPopulation._SECTION_NAME_]
     };
   }
 
