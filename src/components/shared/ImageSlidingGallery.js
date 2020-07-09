@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 06, 2020
+ * Updated  : Jul 09, 2020
  */
 
 /**
@@ -24,9 +24,11 @@ import React from 'react';
 
 import "semantic-ui-css/semantic.min.css";
 
-import { Button, Icon } from "semantic-ui-react";
+import { Button } from "semantic-ui-react";
 
 import './ImageSlidingGallery.css'
+
+import Caption from './Caption'
 
 export default class ImageSlidingGallery extends React.Component {
 
@@ -56,8 +58,9 @@ export default class ImageSlidingGallery extends React.Component {
       <div className="ImageSlidingGalleryOuterContainer">
         <div className="ImageSlidingGalleryCoreContainer">
           <img className="ImageSlidingGalleryImgPart" src={this.props.slides[this.state.activeIndex].image} alt={this.props.slides[this.state.activeIndex].caption} />
-          <Icon name="image" />
-          <p data-testid="ImageSlidingGalleryCaptionPart">{this.props.slides[this.state.activeIndex].caption}</p>
+          <div className="ImageSlidingGalleryCaptionPart" data-testid="ImageSlidingGalleryCaptionPart">
+            <Caption caption={this.props.slides[this.state.activeIndex].caption} />
+          </div>
         </div>
         <div className="ImageSlidingGalleryButtonContainer">
           <Button icon="arrow alternate circle left outline" attached="left"   size="huge" color="blue" onClick={this.handleOnPrevClick} />
