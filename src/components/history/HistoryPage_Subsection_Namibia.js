@@ -1,5 +1,5 @@
 /**
- * HistoryPageNamibiaSubsection.js
+ * HistoryPage_Subsection_Namibia.js
  * Chewbaaka
  *
  * Author   : Tomiko
@@ -10,7 +10,7 @@
 import React from 'react';
 
 import '../shared/ContentPageSharedStyles.css'
-import './HistoryPageNamibiaSubsection.css'
+import './HistoryPage_Subsection_Namibia.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
