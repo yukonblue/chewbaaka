@@ -11,6 +11,8 @@ import React from 'react';
 
 import { Statistic, Segment } from 'semantic-ui-react'
 
+import "semantic-ui-css/semantic.min.css";
+
 import '../shared/ContentPageSharedStyles.css'
 import './HistoryPage_Subsection_Namibia.css'
 
@@ -57,14 +59,18 @@ export default class HistoryPageNamibiaSubsection extends React.Component {
         <Segment inverted>
           <Statistic inverted size="huge" color="orange">
             <Statistic.Value>21%</Statistic.Value>
-            <Statistic.Label>of the world's wild cheetahs live in Namibia.</Statistic.Label>
+            <Statistic.Label>
+              of the world's wild cheetahs live in Namibia.
+            </Statistic.Label>
           </Statistic>
         </Segment>
 
         <Segment inverted>
           <Statistic inverted size="huge" color="yellow">
             <Statistic.Value>90%</Statistic.Value>
-            <Statistic.Label>of Namibia's cheetahs live on communal and commercial livestock and game farms.</Statistic.Label>
+            <Statistic.Label>
+              of Namibia's cheetahs live on communal and commercial livestock and game farms.
+            </Statistic.Label>
           </Statistic>
         </Segment>
       </div>
