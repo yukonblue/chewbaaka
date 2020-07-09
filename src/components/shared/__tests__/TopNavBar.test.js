@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 09, 2020
  */
 
 import React from 'react';
@@ -43,6 +43,15 @@ test('renders top nav bar', () => {
 
     // Expect this nav bar item point to WCN site.
     expect(navBarItemWCN.href).toBe("https://wildnet.org/wildlife-programs/cheetah-namibia/");
+  }
+
+  // Tests fourth nav bar item.
+  {
+    const navBarItemConservation = screen.getByText("Conservation");
+    expect(navBarItemConservation).toBeInTheDocument();
+
+    // Expect this nav bar item point to CCF site.
+    expect(navBarItemConservation.href).toBe("https://cheetah.org/about/what-we-do/conservation/");
   }
 });
 

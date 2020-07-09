@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 06, 2020
+ * Updated  : Jul 09, 2020
  */
 
 import React from 'react';
@@ -37,6 +37,7 @@ class TopNavBar extends React.Component {
           </Menu.Item>
           <Menu.Item as="a" href="https://www.iucnredlist.org/species/219/50649567" target="_blank">IUCN Status</Menu.Item>
           <Menu.Item as="a" href="https://wildnet.org/wildlife-programs/cheetah-namibia/" target="_blank">Wildlife Conservation Network</Menu.Item>
+          <Menu.Item as="a" href="https://cheetah.org/about/what-we-do/conservation/" target="_blank">Conservation</Menu.Item>
         </Container>
       </Menu>
     )
