@@ -4,25 +4,35 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 08, 2020
  */
 
 import React from 'react';
 
 import { render, screen } from '@testing-library/react';
 
+import renderer from 'react-test-renderer';
+
 import CircularImage from '../CircularImage';
 
-test('renders CircularImage component', () => {
-  const title = "Chewbaaka";
+const title = "Chewbaaka";
+const image = "https://sotinpc.files.wordpress.com/2013/04/day-of-rememberance.jpg";
 
+test('renders CircularImage component', () => {
   render(
     <CircularImage
       title={title}
-      image="https://sotinpc.files.wordpress.com/2013/04/day-of-rememberance.jpg"
+      image={image}
     />
   );
 
   const titleElement = screen.getByText(title);
   expect(titleElement).toBeInTheDocument();
+});
+
+test('CircularImage component snapshot', () => {
+  const tree = renderer
+    .create(<CircularImage title={title} image={image} />)
+    .toJSON();
+  expect(tree).toMatchSnapshot();
 });

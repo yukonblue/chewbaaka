@@ -4,22 +4,23 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 05, 2020
+ * Updated  : Jul 08, 2020
  */
 
 import React from 'react';
 
 import { render, screen } from '@testing-library/react';
 
+import renderer from 'react-test-renderer';
+
 import ImageRevealDetailedWithTextCover from '../ImageRevealDetailedWithTextCover';
 
 import contentImage from '../assets/cheetah-conservation-fund-30-logo.svg'
 
-test('renders ImageRevealDetailedWithTextCover compoent', () => {
-  const title = "Acinonyx jubatus";
+const title       = "Acinonyx jubatus";
+const description = "Cheetah";
 
-  const description = "Cheetah";
-
+test('renders ImageRevealDetailedWithTextCover component', () => {
   render(
     <ImageRevealDetailedWithTextCover
       title={title}
@@ -45,4 +46,16 @@ test('renders ImageRevealDetailedWithTextCover compoent', () => {
   expect(imageRevealComponentTextDescriptionPart.textContent).toBe(description);
 
   // TODO: test component props.
+});
+
+test('ImageRevealDetailedWithTextCover component snapshot', () => {
+  const tree = renderer
+    .create(
+      <ImageRevealDetailedWithTextCover
+        title={title}
+        contentImage={contentImage}
+        description={description}
+      />)
+    .toJSON();
+  expect(tree).toMatchSnapshot();
 });

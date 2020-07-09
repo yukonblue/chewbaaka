@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CircularImageButton component snapshot 1`] = `
+<div
+  className="CircularImageButtonOuterContainer"
+>
+  <a
+    href="https://cheetah.org/wp-content/uploads/2019/01/cheetah-conservation-fund-cheetah-fact-01.jpg"
+  >
+    <div
+      className="CircularImageButtonCore"
+    >
+      <img
+        alt="Cheetahology"
+        className="CircularImageButtonImg"
+        src="https://cheetah.org/wp-content/uploads/2019/01/cheetah-conservation-fund-cheetah-fact-01.jpg"
+      />
+    </div>
+    <div>
+      <p
+        className="CircularImageButtonTitle"
+      >
+        Cheetahology
+      </p>
+    </div>
+  </a>
+</div>
+`;

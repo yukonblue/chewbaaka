@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageReveal component snapshot 1`] = `
+<div
+  className="ui fade reveal"
+  data-testid="ImageRevealComponentTestId"
+>
+  <div
+    className="ui visible content"
+    data-testid="ImageRevealComponentVisiblePartTestId"
+  >
+    <div
+      className="ImageRevealComponentContainerDiv"
+    >
+      <img
+        className="ui image"
+        src="cheetah-conservation-fund-logo.jpg"
+      />
+    </div>
+  </div>
+  <div
+    className="ui hidden content"
+    data-testid="ImageRevealComponentHiddenPartTestId"
+  >
+    <div
+      className="ImageRevealComponentContentDiv"
+    >
+      <img
+        className="ui image"
+        src="cheetah-conservation-fund-30-logo.svg"
+      />
+    </div>
+  </div>
+</div>
+`;

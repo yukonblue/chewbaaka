@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QnAPopUp component snapshot 1`] = `
+<div
+  className="QnAPopUpContainer"
+>
+  <div
+    className="QnAPopUpMainTextBubbleContainer"
+    style={
+      Object {
+        "height": 256,
+        "width": 256,
+      }
+    }
+  >
+    <div
+      className="TextBubbleOuterContainer"
+      hidden={true}
+      style={
+        Object {
+          "backgroundColor": "rgb(undefined)",
+          "height": 256,
+          "width": 256,
+        }
+      }
+    >
+      <div
+        className="TextBubbleInnerContainer"
+      >
+        <div
+          className="TextBubbleInnerCore"
+        >
+          <h1
+            style={
+              Object {
+                "color": "rgb(undefined)",
+                "fontSize": 20.48,
+              }
+            }
+          >
+            Did you know?
+          </h1>
+          <p
+            style={
+              Object {
+                "color": "rgb(undefined)",
+                "fontSize": 8.96,
+              }
+            }
+          >
+            The cheetah is the fastest land animal!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="QnAPopUpTextSecondaryBubbleContainer"
+    style={
+      Object {
+        "height": 45,
+        "width": 45,
+      }
+    }
+  >
+    <div
+      className="TextBubbleOuterContainer"
+      hidden={true}
+      style={
+        Object {
+          "backgroundColor": "rgb(undefined)",
+          "height": 45,
+          "width": 45,
+        }
+      }
+    >
+      <div
+        className="TextBubbleInnerContainer"
+      >
+        <div
+          className="TextBubbleInnerCore"
+        >
+          <h1
+            style={
+              Object {
+                "color": "rgb(undefined)",
+                "fontSize": 3.6,
+              }
+            }
+          >
+            
+          </h1>
+          <p
+            style={
+              Object {
+                "color": "rgb(undefined)",
+                "fontSize": 1.5750000000000002,
+              }
+            }
+          >
+            
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="QnAPopUpButtonGroupContainer"
+  >
+    <button
+      className="ui orange circular icon button QuestionButton"
+      onClick={[Function]}
+    >
+      <i
+        aria-hidden="true"
+        className="question icon"
+        onClick={[Function]}
+      />
+    </button>
+  </div>
+</div>
+`;

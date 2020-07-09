@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LandingPageGateway component snapshot 1`] = `
+<div
+  className="ui vertical center aligned segment centerSegmentStyle1"
+  data-testid="LandingPageGateway"
+>
+  <div
+    className="ui container content"
+  >
+    <h1
+      className="ui inverted header"
+    >
+      Run cheetah run
+    </h1>
+    <p
+      className="subtitle"
+      data-testid="subtitle"
+    >
+      Visit and explore CCF's 
+      <b>
+        Cheetah Museum
+      </b>
+       at the comfort of your home.
+    </p>
+    <a
+      href="#Explore"
+    >
+      <button
+        className="ui huge basic inverted button"
+        onClick={[Function]}
+      >
+        Explore
+      </button>
+    </a>
+  </div>
+</div>
+`;

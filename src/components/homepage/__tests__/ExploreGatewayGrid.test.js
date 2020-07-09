@@ -4,12 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 04, 2020
+ * Updated  : Jul 08, 2020
  */
 
 import React from 'react';
 
 import { render, screen } from '@testing-library/react';
+
+import renderer from 'react-test-renderer';
 
 import ExploreGatewayGrid from '../ExploreGatewayGrid';
 
@@ -34,4 +36,11 @@ test('renders explore gateway grid', () => {
     const gridItemComponentForTitle = screen.getByText(expectedGridItemTitle);
     expect(gridItemComponentForTitle).toBeInTheDocument();
   }
+});
+
+test('ExploreGatewayGrid component snapshot', () => {
+  const tree = renderer
+    .create(<ExploreGatewayGrid />)
+    .toJSON();
+  expect(tree).toMatchSnapshot();
 });

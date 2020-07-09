@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HintSignpost component snapshot 1`] = `
+<div
+  className="HintSignpostOuterContainer"
+>
+  <div
+    className="HintSignpostInnerContainer"
+  >
+    <div
+      className="ui blue large label"
+      onClick={[Function]}
+    >
+      Hover over images below to reveal the genres
+      <div
+        className="HintSignpostIconContainer"
+      >
+        <i
+          aria-hidden="true"
+          className="lightbulb outline large icon"
+          onClick={[Function]}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

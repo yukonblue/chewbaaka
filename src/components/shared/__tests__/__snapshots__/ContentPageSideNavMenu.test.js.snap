@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentPageSideNavMenu component snapshot 1`] = `
+<div
+  data-testid="ContentPageSideNavMenuComponentTestId"
+>
+  <div
+    className="ui text vertical menu"
+  >
+    <div
+      className="header item"
+      onClick={[Function]}
+    >
+      History
+    </div>
+    <a
+      className="active item"
+      href="#menuitem1"
+      onClick={[Function]}
+    >
+      MenuItem1
+    </a>
+    <a
+      className="item"
+      href="#menuitem2"
+      onClick={[Function]}
+    >
+      MenuItem2
+    </a>
+    <a
+      className="item"
+      href="#menuitem3"
+      onClick={[Function]}
+    >
+      MenuItem3
+    </a>
+  </div>
+</div>
+`;

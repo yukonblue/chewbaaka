@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentPageBanner component snapshot 1`] = `
+<div
+  className="ContentPageSkeletonContentContainerDimension ContentPageBannerContainer"
+  data-testid="ContentPageBannerComponentTestId"
+  style={
+    Object {
+      "backgroundImage": "url()",
+    }
+  }
+>
+  <div
+    className="ContentPageBannerTitleContainer"
+  >
+    <h1
+      className="ContentPageBannerTitle"
+    >
+      Title
+    </h1>
+    <hr
+      className="ContentPageBannerTitleLineBreak"
+    />
+    <h2
+      className="ContentPageBannerSubtitle"
+    >
+      This is a subtitle
+    </h2>
+  </div>
+</div>
+`;

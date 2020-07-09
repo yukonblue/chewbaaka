@@ -4,12 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 08, 2020
  */
 
 import React from 'react';
 
 import { render, screen } from '@testing-library/react';
+
+import renderer from 'react-test-renderer';
 
 import ContentPageSectionAnchor from '../ContentPageSectionAnchor';
 
@@ -30,4 +32,14 @@ test('tests ContentPageSectionTitleToAnchorId', () => {
   const result    = ContentPageSectionTitleToAnchorId(title);
 
   expect(result).toBe(expected);
+});
+
+test('ContentPageSectionAnchor component snapshot', () => {
+  const title = "Cheetah and Man";
+
+  const tree = renderer
+    .create(
+      <ContentPageSectionAnchor title={title} />)
+    .toJSON();
+  expect(tree).toMatchSnapshot();
 });
