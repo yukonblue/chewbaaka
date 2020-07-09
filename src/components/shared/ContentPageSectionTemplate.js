@@ -7,6 +7,15 @@
  * Updated  : Jul 08, 2020
  */
 
+/**
+ * ContentPageSectionTemplate
+ *
+ * `ContentPageSectionTemplate` is a template component
+ * that hosts the content of each content page section.
+ * Offers basic styling supports such as positioning and
+ * layout, as well as section head and title support.
+ */
+
 import React from 'react';
 
 import ContentPageSectionHead from './ContentPageSectionHead'
