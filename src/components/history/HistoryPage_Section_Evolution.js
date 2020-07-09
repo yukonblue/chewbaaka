@@ -27,7 +27,10 @@ export default class HistoryPageSectionEvolution extends React.Component {
   render() {
     return (
       <div>
-        <ContentPageSectionTemplate sectionConfig={this.state.sectionConfig} sectionContent={this.renderContent()} />
+        <ContentPageSectionTemplate
+          sectionConfig={this.state.sectionConfig}
+          sectionContent={this.renderContent()}
+        />
       </div>
     );
   }
