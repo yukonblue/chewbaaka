@@ -22,24 +22,27 @@ exports[`ImageView component snapshot 1`] = `
         }
       />
       <div
-        className="ImageViewCaptionContainer"
+        data-testid="ImageViewComponentCaptionPart"
       >
-        <i
-          aria-hidden="true"
-          className="image icon"
-          onClick={[Function]}
-        />
-        <p
-          className="ImageViewCaptionText"
-          data-testid="ImageViewComponentCaptionPart"
-          style={
-            Object {
-              "width": 630,
-            }
-          }
+        <div
+          className="CaptionContainer"
+          data-testid="CaptionComponentTestId"
         >
-          This is a caption
-        </p>
+          <div
+            className="IconContainer"
+          >
+            <i
+              aria-hidden="true"
+              className="image icon"
+              onClick={[Function]}
+            />
+          </div>
+          <p
+            className="CaptionText"
+          >
+            This is a caption
+          </p>
+        </div>
       </div>
     </div>
   </div>

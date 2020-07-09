@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 09, 2020
  */
 
 div.ImageViewOuterContainer {
@@ -17,16 +17,4 @@ img.ImageViewImg {
   width: 320px;
   height: 320px;
   filter: drop-shadow(1px 1px 1px #222);
-}
-
-div.ImageViewCaptionContainer {
-  display: block;
-}
-
-div.ImageViewOuterContainer p.ImageViewCaptionText {
-  float: right;
-  width: 300px;
-  text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
 }

@@ -12,16 +12,30 @@ exports[`ImageSlidingGallery component snapshot 1`] = `
       className="ImageSlidingGalleryImgPart"
       src=""
     />
-    <i
-      aria-hidden="true"
-      className="image icon"
-      onClick={[Function]}
-    />
-    <p
+    <div
+      className="ImageSlidingGalleryCaptionPart"
       data-testid="ImageSlidingGalleryCaptionPart"
     >
-      Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words
-    </p>
+      <div
+        className="CaptionContainer"
+        data-testid="CaptionComponentTestId"
+      >
+        <div
+          className="IconContainer"
+        >
+          <i
+            aria-hidden="true"
+            className="image icon"
+            onClick={[Function]}
+          />
+        </div>
+        <p
+          className="CaptionText"
+        >
+          Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words
+        </p>
+      </div>
+    </div>
   </div>
   <div
     className="ImageSlidingGalleryButtonContainer"

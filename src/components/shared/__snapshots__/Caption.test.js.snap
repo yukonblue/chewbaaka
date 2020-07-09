@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Caption component snapshot 1`] = `
+<div
+  className="CaptionContainer"
+  data-testid="CaptionComponentTestId"
+>
+  <div
+    className="IconContainer"
+  >
+    <i
+      aria-hidden="true"
+      className="image icon"
+      onClick={[Function]}
+    />
+  </div>
+  <p
+    className="CaptionText"
+  >
+    This is a caption
+  </p>
+</div>
+`;
