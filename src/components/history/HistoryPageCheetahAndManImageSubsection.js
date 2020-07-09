@@ -12,7 +12,7 @@ import React from 'react';
 import '../shared/ContentPageSharedStyles.css'
 import './HistoryPageCheetahAndManImageSubsection.css'
 
-import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
+import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 
 import ImageSlidingGallery from '../shared/ImageSlidingGallery'
@@ -22,7 +22,7 @@ export default class HistoryPageCheetahAndManImageSubsection extends React.Compo
   render() {
     return (
       <div className="HistoryPageCheetahAndManImageSubsectionOuterContainer">
-        <ContentPageSectionTemplate content={this.renderContent()} />
+        <ContentPageSubsectionTemplate content={this.renderContent()} />
       </div>
     )
   }

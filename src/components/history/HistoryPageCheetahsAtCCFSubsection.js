@@ -12,7 +12,7 @@ import React from 'react';
 import '../shared/ContentPageSharedStyles.css'
 import './HistoryPageCheetahsAtCCFSubsection.css'
 
-import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
+import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 
 import CircularImage from '../shared/CircularImage'
@@ -24,7 +24,7 @@ export default class HistoryPageCheetahsAtCCFSubsection extends React.Component 
   render() {
     return (
       <div className="HistoryPageCheetahsAtCCFSubsection">
-        <ContentPageSectionTemplate content={this.renderContent()} />
+        <ContentPageSubsectionTemplate content={this.renderContent()} />
       </div>
     )
   }

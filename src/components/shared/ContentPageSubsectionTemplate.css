@@ -1,20 +1,20 @@
 /**
- * ContentPageSectionTemplate.css
+ * ContentPageSubsectionTemplate.css
  * Chewbaaka
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 08, 2020
  */
 
-div.ContentPageSectionTemplateOuterContainer {
+div.ContentPageSubsectionTemplateOuterContainer {
   margin: 0 auto;
   padding: 50px 0px;
   /* Uncomment line below for debugging. */
   background-color: grey;
 }
 
-div.ContentPageSectionTemplateInnerContainer {
+div.ContentPageSubsectionTemplateInnerContainer {
   margin: 0 auto;
   width: 85%;
   /* Uncomment line below for debugging. */
