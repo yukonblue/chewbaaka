@@ -46,6 +46,24 @@ export const config = {
       intro: {
         title: "Range and Population",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      subsections: {
+        subsection_Namibia: {
+          contents: {
+            paragraph_01: "Namibia has the world's largest cheetah population. " +
+            "Approximately 3000 cheetahs share the land with humans, " +
+            "livestock, and wildlife. " +
+
+            "Today, the status of the Namibian cheetah is stabilizing. " +
+            "During the 1980s, the population of Namibina cheetahs " +
+            "declined by half. In the 10-year period, nearly " +
+            "7,000 cheetahs were removed from the wild. " +
+
+            "In most countries where cheetahs live, their numbers " +
+            "have been reduced to critical levels. The cheetah's " +
+            "survival worldwide is in human hands."
+          }
+        }
       }
     }
   }

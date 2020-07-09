@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 08, 2020
  */
 
 import React from 'react';
@@ -36,18 +36,7 @@ export default class HistoryPageNamibiaSubsection extends React.Component {
         </div>
         <div>
           <p>
-            Namibia has the world's largest cheetah population.
-            Approximately 3000 cheetahs share the land with humans,
-            livestock, and wildlife.
-
-            Today, the status of the Namibian cheetah is stabilizing.
-            During the 1980s, the population of Namibina cheetahs
-            declined by half. In the 10-year period, nearly
-            7,000 cheetahs were removed from the wild.
-
-            In most countries where cheetahs live, their numbers
-            have been reduced to critical levels. The cheetah's
-            survival worldwide is in human hands.
+            {this.props.subsectionConfig.contents["paragraph_01"]}
           </p>
           <p>
             21% of the world's wild cheetahs live in Namibia.

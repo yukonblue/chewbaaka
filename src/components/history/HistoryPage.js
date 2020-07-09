@@ -108,7 +108,7 @@ class HistoryPage extends React.Component {
           content={sectionConfig.intro.content}
         />
 
-        <HistoryPageNamibiaSubsection />
+        <HistoryPageNamibiaSubsection subsectionConfig={sectionConfig.subsections["subsection_Namibia"]} />
       </div>
     );
   }
