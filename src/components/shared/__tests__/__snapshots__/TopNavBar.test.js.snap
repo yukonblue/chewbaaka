@@ -40,6 +40,14 @@ exports[`TopNavBar component snapshot 1`] = `
     >
       Wildlife Conservation Network
     </a>
+    <a
+      className="item"
+      href="https://cheetah.org/about/what-we-do/conservation/"
+      onClick={[Function]}
+      target="_blank"
+    >
+      Conservation
+    </a>
   </div>
 </div>
 `;
