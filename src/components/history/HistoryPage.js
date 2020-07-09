@@ -67,11 +67,13 @@ class HistoryPage extends React.Component {
   }
 
   renderEvolutionSectionContent() {
+    const sectionConfig = config.contentPageSections["section_Evolution"];
+
     return (
       <div>
         <ContentPageSectionHead
-          title={config.contentPageSections["evolution"].intro.title}
-          content={config.contentPageSections["evolution"].intro.content}
+          title={sectionConfig.intro.title}
+          content={sectionConfig.intro.content}
         />
 
         <HistoryPageFelidaeFamilyTreeSubsection />
@@ -80,24 +82,30 @@ class HistoryPage extends React.Component {
   }
 
   renderCheetahAndManSectionContent() {
+    const sectionConfig = config.contentPageSections["section_CheetahAndMan"];
+
     return (
       <div>
         <ContentPageSectionHead
-          title={config.contentPageSections["cheetahAndMan"].intro.title}
-          content={config.contentPageSections["cheetahAndMan"].intro.content}
+          title={sectionConfig.intro.title}
+          content={sectionConfig.intro.content}
         />
 
-        <HistoryPageCheetahAndManImageSubsection />
+        <HistoryPageCheetahAndManImageSubsection
+          subsectionConfig={sectionConfig.subsections["subsection_RelationshipsWithMan"]}
+        />
       </div>
     );
   }
 
   renderRangeAndPopulationSectionContent() {
+    const sectionConfig = config.contentPageSections["section_PopulationAndRange"];
+
     return (
       <div>
         <ContentPageSectionHead
-          title={config.contentPageSections["populationAndRange"].intro.title}
-          content={config.contentPageSections["populationAndRange"].intro.content}
+          title={sectionConfig.intro.title}
+          content={sectionConfig.intro.content}
         />
 
         <HistoryPageNamibiaSubsection />
