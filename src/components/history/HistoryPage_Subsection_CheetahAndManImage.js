@@ -1,5 +1,5 @@
 /**
- * HistoryPageCheetahAndManImageSubsection.js
+ * HistoryPage_Subsection_CheetahAndManImage.js
  * Chewbaaka
  *
  * Author   : Tomiko
@@ -10,7 +10,7 @@
 import React from 'react';
 
 import '../shared/ContentPageSharedStyles.css'
-import './HistoryPageCheetahAndManImageSubsection.css'
+import './HistoryPage_Subsection_CheetahAndManImage.css'
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'

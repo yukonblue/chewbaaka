@@ -1,16 +1,16 @@
 /**
- * HistoryPageFelidaeFamilyTreeSubsection.js
+ * HistoryPage_Subsection_FelidaeFamilyTree.js
  * Chewbaaka
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 08, 2020
  */
 
 import React from 'react';
 
 import '../shared/ContentPageSharedStyles.css'
-import './HistoryPageFelidaeFamilyTreeSubsection.css'
+import './HistoryPage_Subsection_FelidaeFamilyTree.css'
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
