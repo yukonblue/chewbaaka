@@ -11,7 +11,7 @@ div.ContentPageSubsectionTemplateOuterContainer {
   margin: 0 auto;
   padding: 50px 0px;
   /* Uncomment line below for debugging. */
-  background-color: grey;
+  /* background-color: grey; */
 }
 
 div.ContentPageSubsectionTemplateInnerContainer {

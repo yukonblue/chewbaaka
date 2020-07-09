@@ -1,0 +1,18 @@
+/**
+ * ContentPageSectionTemplate.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 08, 2020
+ * Updated  : Jul 08, 2020
+ */
+
+div.ContentPageSectionTemplateOuterContainer {
+  /* Uncomment line below for debugging. */
+  background-color: greenyellow;
+}
+
+div.ContentPageSectionTemplateInnerContainer {
+  /* Uncomment line below for debugging. */
+  background-color: green;
+}
