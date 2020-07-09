@@ -18,10 +18,12 @@ import ContentPageSectionHead from '../shared/ContentPageSectionHead'
 import { config }  from './config'
 
 import HistoryPageSectionTableOfContent from './HistoryPageSectionTableOfContent'
-import HistoryPageFelidaeFamilyTreeSubsection from './HistoryPage_Subsection_FelidaeFamilyTree'
-import HistoryPageCheetahAndManImageSubsection from './HistoryPage_Subsection_CheetahAndManImage'
+
+import HistoryPageSectionEvolution from './HistoryPage_Section_Evolution'
+import HistoryPageSectionCheetahAndMan from './HistoryPage_Section_CheetahAndMan'
+import HistoryPageSectionRangeAndPopulation from './HistoryPage_Section_RangeAndPopulation'
+
 import HistoryPageCheetahsAtCCFSubsection from './HistoryPage_Subsection_CheetahsAtCCF'
-import HistoryPageNamibiaSubsection from './HistoryPage_Subsection_Namibia'
 
 import coverImage from './assets/cheetah-mother-and-cubs-on-termite-mound.jpg'
 
@@ -46,11 +48,11 @@ class HistoryPage extends React.Component {
           content={config.contentPageIntro.content}
         />
 
-        {this.renderEvolutionSectionContent()}
+        <HistoryPageSectionEvolution config={config} />
 
-        {this.renderCheetahAndManSectionContent()}
+        <HistoryPageSectionCheetahAndMan config={config} />
 
-        {this.renderRangeAndPopulationSectionContent()}
+        <HistoryPageSectionRangeAndPopulation config={config} />
 
         {this.renderCheetahAmbassadorsSectionContent()}
 
@@ -65,53 +67,6 @@ class HistoryPage extends React.Component {
         <p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p>
       </div>
     )
-  }
-
-  renderEvolutionSectionContent() {
-    const sectionConfig = config.contentPageSections["section_Evolution"];
-
-    return (
-      <div>
-        <ContentPageSectionHead
-          title={sectionConfig.intro.title}
-          content={sectionConfig.intro.content}
-        />
-
-        <HistoryPageFelidaeFamilyTreeSubsection />
-      </div>
-    );
-  }
-
-  renderCheetahAndManSectionContent() {
-    const sectionConfig = config.contentPageSections["section_CheetahAndMan"];
-
-    return (
-      <div>
-        <ContentPageSectionHead
-          title={sectionConfig.intro.title}
-          content={sectionConfig.intro.content}
-        />
-
-        <HistoryPageCheetahAndManImageSubsection
-          subsectionConfig={sectionConfig.subsections["subsection_RelationshipsWithMan"]}
-        />
-      </div>
-    );
-  }
-
-  renderRangeAndPopulationSectionContent() {
-    const sectionConfig = config.contentPageSections["section_PopulationAndRange"];
-
-    return (
-      <div>
-        <ContentPageSectionHead
-          title={sectionConfig.intro.title}
-          content={sectionConfig.intro.content}
-        />
-
-        <HistoryPageNamibiaSubsection subsectionConfig={sectionConfig.subsections["subsection_Namibia"]} />
-      </div>
-    );
   }
 
   /**
