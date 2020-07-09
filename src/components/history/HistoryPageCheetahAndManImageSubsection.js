@@ -46,7 +46,7 @@ export default class HistoryPageCheetahAndManImageSubsection extends React.Compo
   renderLhsContent() {
     return (
       <div className="HistoryPageCheetahAndManImageSubsectionContentTextContainer">
-        <p>Try resizing the window: You'll see that each sentence is on one line when the window is wide enough. Only when the window is too narrow for the whole sentence will the sentence be broken over several lines. When you remove the 'margin-right: -50%' and resize the window again, you'll see that the sentences will be broken already when the window is still twice as wide as the text lines. </p>
+        <p>{this.props.subsectionConfig.contents["paragraph_01"]}</p>
       </div>
     );
   }

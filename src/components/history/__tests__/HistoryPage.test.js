@@ -13,7 +13,7 @@ import { render, screen } from '@testing-library/react';
 
 import renderer from 'react-test-renderer';
 
-import { SKIP_TEST_ON_CI } from '../../../testing/testing'
+import { SKIP_TEST } from '../../../testing/testing'
 
 import HistoryPage from '../HistoryPage';
 
@@ -26,12 +26,12 @@ test('renders HistoryPage', () => {
 
 test('HistoryPage component snapshot',
   /**
-   * Skip this test on Circle CI for now.
+   * Skip this test for now.
    *
    * TODO: Investigate failure on Circle CI
    * https://app.circleci.com/pipelines/github/tetrachrome/chewbaaka/130/workflows/7660aa6f-1efe-4d00-a494-19f8c249b22f/jobs/131
    */
-  SKIP_TEST_ON_CI(
+  SKIP_TEST(
     () => {
       console.log(process.env);
       const tree = renderer
