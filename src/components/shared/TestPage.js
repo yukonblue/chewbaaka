@@ -57,6 +57,16 @@ class TestPage extends React.Component {
 
         This page is used to test our custom components, navigations, and other things.
 
+        <h2>ImageSlide</h2>
+        <ImageSlide
+          images={[image01, image01, image02]}
+          labels={["150 mya", "100 mya", "50 mya"]}
+          title="Cheetah evolution"
+          caption="Slide the timeline to see the migration of cheetahs."
+          sliderBeginLabel="150 mya"
+          sliderEndLabel="50 mya"
+        />
+
         <h2>Tests Material UI Slider</h2>
         <Slider
           defaultValue={20}
@@ -184,16 +194,6 @@ To create a production build, use npm run build." />
               description: "Fastest land animal on earth!"
             }
           ]}
-        />
-
-        <h2>ImageSlide</h2>
-        <ImageSlide
-          images={[image01, image01, image02]}
-          labels={["150 mya", "100 mya", "50 mya"]}
-          title="Cheetah evolution"
-          caption="Slide the timeline to see the migration of cheetahs."
-          sliderBeginLabel="150 mya"
-          sliderEndLabel="50 mya"
         />
 
         <h2>ImageSlideDiscrete</h2>
