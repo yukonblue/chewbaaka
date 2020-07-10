@@ -71,144 +71,165 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
               >
                 <div>
                   <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
+                    className="ContentPageSubsectionThreeColumnContentTemplateOuterContainer ContentPageSubsectionThreeColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
                   >
                     <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+                      className="ContentPageSubsectionThreeColumnContentTemplateInnerContainer ContentPageSubsectionThreeColumnContentTemplateInnerContainer_DebugColor DebugWireframe"
                     >
-                      <div>
+                      <div
+                        className="ContentPageSubsectionThreeColumnContentTemplateColumnContainer"
+                      >
                         <div
-                          className="ui vertically divided grid"
+                          className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateColumn_DebugColor DebugWireframe ContentPageSubsectionThreeColumnContentTemplateLeftColumnContainer ContentPageSubsectionThreeColumnContentTemplateLeftColumnContainer_DebugColor DebugWireframe"
                         >
-                          <div
-                            className="two column row"
+                          <h2
+                            className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
                           >
-                            <div
-                              className="column"
-                            >
+                            Namibia
+                          </h2>
+                          <h3
+                            className="ContentPageSubsectionColumnContentSubtitle ContentPageSubsectionColumnContentSubtitle_DebugColor DebugWireframe"
+                          >
+                            Cheetah Capital of the World
+                          </h3>
+                          <div>
+                            <div>
+                              <p>
+                                Namibia has the world's largest cheetah population. Approximately 3000 cheetahs share the land with humans, livestock, and wildlife. Today, the status of the Namibian cheetah is stabilizing. During the 1980s, the population of Namibina cheetahs declined by half. In the 10-year period, nearly 7,000 cheetahs were removed from the wild. In most countries where cheetahs live, their numbers have been reduced to critical levels. The cheetah's survival worldwide is in human hands.
+                              </p>
                               <div
-                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
+                                className="DisplayInlineBlock"
                               >
-                                <div>
-                                  <p>
-                                    Namibia has the world's largest cheetah population. Approximately 3000 cheetahs share the land with humans, livestock, and wildlife. Today, the status of the Namibian cheetah is stabilizing. During the 1980s, the population of Namibina cheetahs declined by half. In the 10-year period, nearly 7,000 cheetahs were removed from the wild. In most countries where cheetahs live, their numbers have been reduced to critical levels. The cheetah's survival worldwide is in human hands.
-                                  </p>
+                                <div
+                                  className="ui inverted segment"
+                                >
                                   <div
-                                    className="DisplayInlineBlock"
+                                    className="ui orange huge inverted statistic"
                                   >
                                     <div
-                                      className="ui inverted segment"
+                                      className="value"
                                     >
-                                      <div
-                                        className="ui orange huge inverted statistic"
-                                      >
-                                        <div
-                                          className="value"
-                                        >
-                                          21%
-                                        </div>
-                                        <div
-                                          className="label"
-                                        >
-                                          of the world's wild cheetahs live in Namibia.
-                                        </div>
-                                      </div>
+                                      21%
                                     </div>
-                                  </div>
-                                  <div
-                                    className="DisplayInlineBlock"
-                                  >
                                     <div
-                                      className="ui inverted segment"
+                                      className="label"
                                     >
-                                      <div
-                                        className="ui yellow huge inverted statistic"
-                                      >
-                                        <div
-                                          className="value"
-                                        >
-                                          90%
-                                        </div>
-                                        <div
-                                          className="label"
-                                        >
-                                          of Namibia's cheetahs live on communal and commercial livestock and game farms.
-                                        </div>
-                                      </div>
+                                      of the world's wild cheetahs live in Namibia.
                                     </div>
                                   </div>
                                 </div>
                               </div>
                             </div>
-                            <div
-                              className="column"
-                            >
+                          </div>
+                        </div>
+                        <div
+                          className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateColumn_DebugColor DebugWireframe ContentPageSubsectionThreeColumnContentTemplateMiddleColumnContainer ContentPageSubsectionThreeColumnContentTemplateMiddleColumnContainer_DebugColor DebugWireframe"
+                        >
+                          <div>
+                            <div>
                               <div
-                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
+                                className="ImageViewOuterContainer"
                               >
-                                <div>
+                                <div
+                                  className="ImageViewInnerContainer"
+                                >
                                   <div
-                                    className="ImageViewOuterContainer"
+                                    className="ImageViewCore"
                                   >
+                                    <img
+                                      alt="Cheetah ranges in Namibia (Cheetahs (Acinonyx jubatus) running the gauntlet: an evaluation of translocations into free-range environments in Namibia)"
+                                      className="ImageViewImg"
+                                      src="https://dfzljdn9uc3pi.cloudfront.net/2015/1346/1/Suppl_Inf_5_cheetah_occurrence_and_suitable_PA.png"
+                                      style={
+                                        Object {
+                                          "height": 640,
+                                          "width": 640,
+                                        }
+                                      }
+                                    />
                                     <div
-                                      className="ImageViewInnerContainer"
+                                      data-testid="ImageViewComponentCaptionPart"
                                     >
                                       <div
-                                        className="ImageViewCore"
+                                        className="CaptionContainer"
+                                        data-testid="CaptionComponentTestId"
                                       >
-                                        <img
-                                          alt="Cheetah ranges in Namibia (Cheetahs (Acinonyx jubatus) running the gauntlet: an evaluation of translocations into free-range environments in Namibia)"
-                                          className="ImageViewImg"
-                                          src="https://dfzljdn9uc3pi.cloudfront.net/2015/1346/1/Suppl_Inf_5_cheetah_occurrence_and_suitable_PA.png"
-                                          style={
-                                            Object {
-                                              "height": 640,
-                                              "width": 640,
-                                            }
-                                          }
-                                        />
                                         <div
-                                          data-testid="ImageViewComponentCaptionPart"
+                                          className="IconContainer"
                                         >
-                                          <div
-                                            className="CaptionContainer"
-                                            data-testid="CaptionComponentTestId"
-                                          >
-                                            <div
-                                              className="IconContainer"
-                                            >
-                                              <i
-                                                aria-hidden="true"
-                                                className="image icon"
-                                                onClick={[Function]}
-                                              />
-                                            </div>
-                                            <p
-                                              className="CaptionText"
-                                            >
-                                              Cheetah ranges in Namibia (Cheetahs (Acinonyx jubatus) running the gauntlet: an evaluation of translocations into free-range environments in Namibia)
-                                            </p>
-                                          </div>
+                                          <i
+                                            aria-hidden="true"
+                                            className="image icon"
+                                            onClick={[Function]}
+                                          />
                                         </div>
+                                        <p
+                                          className="CaptionText"
+                                        >
+                                          Cheetah ranges in Namibia (Cheetahs (Acinonyx jubatus) running the gauntlet: an evaluation of translocations into free-range environments in Namibia)
+                                        </p>
                                       </div>
                                     </div>
                                   </div>
-                                  <div>
-                                    <a
-                                      href="https://peerj.com/articles/1346/"
+                                </div>
+                              </div>
+                              <div>
+                                <a
+                                  href="https://peerj.com/articles/1346/"
+                                >
+                                  <button
+                                    className="ui blue icon button"
+                                    onClick={[Function]}
+                                  >
+                                    Cheetahs (Acinonyx jubatus) running the gauntlet: an evaluation of translocations into free-range environments in Namibia
+                                    <i
+                                      aria-hidden="true"
+                                      className="file alternate outline icon"
+                                      onClick={[Function]}
+                                    />
+                                  </button>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateColumn_DebugColor DebugWireframe ContentPageSubsectionThreeColumnContentTemplateRightColumnContainer ContentPageSubsectionThreeColumnContentTemplateRightColumnContainer_DebugColor DebugWireframe"
+                        >
+                          <h2
+                            className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                          >
+                            Namibia
+                          </h2>
+                          <h3
+                            className="ContentPageSubsectionColumnContentSubtitle ContentPageSubsectionColumnContentSubtitle_DebugColor DebugWireframe"
+                          >
+                            Hope for the Future
+                          </h3>
+                          <div>
+                            <div>
+                              <p>
+                                The greatest hope for the cheetah's survival lies in the pristine countryside of Namibia. Nearly 1000 Namibian farmers control the fate of the country's cheetahs and the land they live.
+                              </p>
+                              <div
+                                className="DisplayInlineBlock"
+                              >
+                                <div
+                                  className="ui inverted segment"
+                                >
+                                  <div
+                                    className="ui yellow huge inverted statistic"
+                                  >
+                                    <div
+                                      className="value"
                                     >
-                                      <button
-                                        className="ui blue icon button"
-                                        onClick={[Function]}
-                                      >
-                                        Cheetahs (Acinonyx jubatus) running the gauntlet: an evaluation of translocations into free-range environments in Namibia
-                                        <i
-                                          aria-hidden="true"
-                                          className="file alternate outline icon"
-                                          onClick={[Function]}
-                                        />
-                                      </button>
-                                    </a>
+                                      90%
+                                    </div>
+                                    <div
+                                      className="label"
+                                    >
+                                      of Namibia's cheetahs live on communal and commercial livestock and game farms.
+                                    </div>
                                   </div>
                                 </div>
                               </div>

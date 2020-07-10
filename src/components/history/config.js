@@ -123,7 +123,7 @@ export const config = {
         subsection_Namibia: {
           title: "Namibia - Cheetah Capital of the World",
           contents: {
-            paragraph_01:
+            paragraph_Cheetah_Capital_Of_The_World:
               "Namibia has the world's largest cheetah population. " +
               "Approximately 3000 cheetahs share the land with humans, " +
               "livestock, and wildlife. " +

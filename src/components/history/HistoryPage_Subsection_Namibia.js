@@ -17,7 +17,7 @@ import '../shared/ContentPageSharedStyles.css'
 import './HistoryPage_Subsection_Namibia.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
-import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
+import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPageSubsectionThreeColumnContentTemplate'
 
 import ImageView from '../shared/ImageView'
 
@@ -46,9 +46,18 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
     return (
       <div className="HistoryPageSubsectionNamibiaInnerContainer">
         <div>
-          <ContentPageSubsectionTwoColumnContentTemplate
-            lhsColumn={{content: this.renderLhsColumnContent()}}
-            rhsColumn={{content: this.renderRhsColumnContent()}}
+          <ContentPageSubsectionThreeColumnContentTemplate
+            lhsColumn={{
+              title: "Namibia",
+              subtitle: "Cheetah Capital of the World",
+              content: this.renderLhsColumnContent()
+            }}
+            middleColumn={{content: this.renderMiddleColumnContent()}}
+            rhsColumn={{
+              title: "Namibia",
+              subtitle: "Hope for the Future",
+              content: this.renderRhsColumnContent()
+            }}
           />
         </div>
       </div>
@@ -59,7 +68,7 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
     return (
       <div>
         <p>
-          {this.state.subsectionConfig.contents["paragraph_01"]}
+          {this.state.subsectionConfig.contents["paragraph_Cheetah_Capital_Of_The_World"]}
         </p>
 
         <div className="DisplayInlineBlock">
@@ -72,22 +81,11 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
             </Statistic>
           </Segment>
         </div>
-
-        <div className="DisplayInlineBlock">
-          <Segment inverted>
-            <Statistic inverted size="huge" color="yellow">
-              <Statistic.Value>90%</Statistic.Value>
-              <Statistic.Label>
-                of Namibia's cheetahs live on communal and commercial livestock and game farms.
-              </Statistic.Label>
-            </Statistic>
-          </Segment>
-        </div>
       </div>
     );
   }
 
-  renderRhsColumnContent() {
+  renderMiddleColumnContent() {
     return (
       <div>
         <ImageView
@@ -102,6 +100,27 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
           title='Cheetahs (Acinonyx jubatus) running the gauntlet: an evaluation of translocations into free-range environments in Namibia'
           icon="file alternate outline"
         />
+      </div>
+    );
+  }
+
+  renderRhsColumnContent() {
+    return (
+      <div>
+        <p>
+          {this.state.subsectionConfig.contents["paragraph_Namibia_Home_For_The_Future"]}
+        </p>
+
+        <div className="DisplayInlineBlock">
+          <Segment inverted>
+            <Statistic inverted size="huge" color="yellow">
+              <Statistic.Value>90%</Statistic.Value>
+              <Statistic.Label>
+                of Namibia's cheetahs live on communal and commercial livestock and game farms.
+              </Statistic.Label>
+            </Statistic>
+          </Segment>
+        </div>
       </div>
     );
   }
