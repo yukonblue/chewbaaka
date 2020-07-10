@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 10, 2020
  */
 
 /**
@@ -44,7 +44,7 @@ export default class ContentPageIntroParagraph extends React.Component {
       <div className="ContentPageIntroParagraphOuterContainer">
         <div className={getElementStyleClassName("ContentPageIntroParagraphInnerContainer")}>
           <div className={getElementStyleClassName("ContentPageIntroParagraphTitleContainer")}>
-            <h1 className="ContentPageIntroParagraphTitle">{this.props.title}</h1>
+            <h1 className={getElementStyleClassName("ContentPageIntroParagraphTitle")}>{this.props.title}</h1>
           </div>
           <div className={getElementStyleClassName("ContentPageIntroParagraphContentContainer")}>
             <p className="ContentPageSectionSubtitleText">{this.props.content}</p>

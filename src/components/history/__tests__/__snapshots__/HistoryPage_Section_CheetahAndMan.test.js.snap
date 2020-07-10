@@ -26,7 +26,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                 className="ContentPageSectionHeadTitleContainer ContentPageSectionHeadTitleContainer_DebugColor DebugWireframe"
               >
                 <h2
-                  className="ContentPageSectionHeadTitle"
+                  className="ContentPageSectionHeadTitle ContentPageSectionHeadTitle_DebugColor DebugWireframe"
                 >
                   Cheetah and Man
                 </h2>

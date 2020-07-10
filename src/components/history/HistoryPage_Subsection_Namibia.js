@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 10, 2020
  */
 
 import React from 'react';
@@ -18,6 +18,8 @@ import './HistoryPage_Subsection_Namibia.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
+
+import { getElementStyleClassName } from '../../styling/styling'
 
 import ImageView from '../shared/ImageView'
 
@@ -37,7 +39,7 @@ export default class HistoryPageNamibiaSubsection extends React.Component {
     return (
       <div className="HistoryPageNamibiaSubsectionInnerContainer">
         <div>
-          <h3 className="ContentPageSubsectionTitle">Namibia - Cheetah Capital of the World</h3>
+          <h3 className={getElementStyleClassName("ContentPageSubsectionTitle")}>Namibia - Cheetah Capital of the World</h3>
         </div>
         <div>
           <ContentPageSubsectionTwoColumnContentTemplate
