@@ -46,7 +46,6 @@ div.ImageSlideLabelOuterContainer_DebugColor {
 }
 
 div.ImageSlideSliderAndLabelInnerContainer {
-
 }
 
 div.ImageSlideSliderAndLabelInnerContainer_DebugColor {
@@ -62,7 +61,6 @@ div.ImageSlideComponentSliderBeginLabelContainer_DebugColor {
 }
 
 div.ImageSlideComponentSlideEndLabelContainer {
-  /* display: inline-block; */
   float: right;
 }
 

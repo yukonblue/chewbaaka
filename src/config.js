@@ -11,8 +11,8 @@ export const config = {
   styling: {
     mode: 'debug',
     debugStyles: {
-      // 'DebugColor': true,
-      // 'DebugWireframe': true,
+      'DebugColor': true,
+      'DebugWireframe': true,
     }
   }
 };
