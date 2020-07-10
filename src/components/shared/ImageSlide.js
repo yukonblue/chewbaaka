@@ -53,8 +53,15 @@ class ImageSlide extends React.Component {
     super(props);
     this.state = {
       activeMark: props.marks[0].value,
-      marksDict: 
-        Object.fromEntries( props.marks.map( mark => [mark.value, mark]) )
+      /** NOTE: Object.fromEntries() seems not supported on our CI
+       * running with Node 10.x
+       * https://github.com/tetrachrome/chewbaaka/pull/28/checks?check_run_id=856741151
+       */
+      // marksDict: Object.fromEntries( props.marks.map( mark => [mark.value, mark]) )
+      marksDict: props.marks.reduce((obj, mark) => {
+        obj[mark.value] = mark;
+        return obj;
+      }, {})
     }
     this.handleSliderChange = this.handleSliderChange.bind(this);
   }
