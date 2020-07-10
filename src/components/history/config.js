@@ -57,7 +57,11 @@ export const config = {
             paragraph_Cheetah_And_Man_04:
               'Kings wore cheetah skins for dignity. Trade in cheetah skin only started after European explorers began ' +
               'requesting them.',
-
+          }
+        },
+        subsection_CheetahsInSports: {
+          title: "Cheetahs In Sports",
+          contents: {
             paragraph_The_Hunting_Leopard_01:
               'In c1700 BC, the Egyptians were the first to tame cheetahs. They admired the cheetah for its speed, ' +
               'hunting ability and beauty. They honored cheetahs as symbols of royalty and prestige.',
