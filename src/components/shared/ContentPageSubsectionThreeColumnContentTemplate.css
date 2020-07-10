@@ -8,7 +8,7 @@
  */
 
 div.ContentPageSubsectionThreeColumnContentTemplateOuterContainer {
-  padding: 20px;
+  padding: 10px;
 }
 
 div.ContentPageSubsectionThreeColumnContentTemplateOuterContainer_DebugColor {
@@ -26,6 +26,7 @@ div.ContentPageSubsectionThreeColumnContentTemplateInnerContainer_DebugColor {
 div.ContentPageSubsectionThreeColumnContentTemplateColumn {
   float: left;
   text-align: center;
+  padding: 20px;
 }
 
 div.ContentPageSubsectionThreeColumnContentTemplateColumnContainer:after {
