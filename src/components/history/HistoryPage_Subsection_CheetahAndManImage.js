@@ -17,6 +17,7 @@ import { getElementStyleClassName } from '../../styling/styling'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 
+import FlexibleContainer from '../shared/FlexibleContainer'
 import ImageSlidingGallery from '../shared/ImageSlidingGallery'
 
 export default class HistoryPageSubsectionCheetahAndManImage extends React.Component {
@@ -54,7 +55,12 @@ export default class HistoryPageSubsectionCheetahAndManImage extends React.Compo
   renderLhsContent() {
     return (
       <div className="HistoryPageSubsectionCheetahAndManImageContentTextContainer">
-        <p>{this.state.subsectionConfig.contents["paragraph_01"]}</p>
+        <FlexibleContainer>
+          <p>{this.state.subsectionConfig.contents["paragraph_Cheetah_And_Man_01"]}</p>
+          <p>{this.state.subsectionConfig.contents["paragraph_Cheetah_And_Man_02"]}</p>
+          <p>{this.state.subsectionConfig.contents["paragraph_Cheetah_And_Man_03"]}</p>
+          <p>{this.state.subsectionConfig.contents["paragraph_Cheetah_And_Man_04"]}</p>
+        </FlexibleContainer>
       </div>
     );
   }

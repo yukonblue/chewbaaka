@@ -1,0 +1,16 @@
+/**
+ * FlexibleContainer.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 10, 2020
+ * Updated  : Jul 10, 2020
+ */
+
+div.FlexibleContainerOuterContainer_DebugColor {
+  background-color: darkslateblue;  
+}
+
+div.FlexibleContainerInnerContainer_DebugColor {
+  background-color: dodgerblue;
+}
