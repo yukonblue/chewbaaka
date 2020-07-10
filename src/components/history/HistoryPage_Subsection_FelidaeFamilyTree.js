@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 10, 2020
  */
 
 import React from 'react';
@@ -22,10 +22,19 @@ import FelidaeFamilyTree from './FelidaeFamilyTree'
 
 export default class HistoryPageFelidaeFamilyTreeSubsection extends React.Component {
 
+  static _SUBSECTION_NAME_ = "subsection_EvolutionOfCats";
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      subsectionConfig: props.sectionConfig.subsections[HistoryPageFelidaeFamilyTreeSubsection._SUBSECTION_NAME_]
+    };
+  }
+
   render() {
     return (
       <div className={getElementStyleClassName("HistoryPageFelidaeFamilyTreeSubsectionOuterContainer")}>
-        <ContentPageSubsectionTemplate content={this.renderContent()} />
+        <ContentPageSubsectionTemplate title={this.state.subsectionConfig.title} content={this.renderContent()} />
       </div>
     )
   }
@@ -33,9 +42,6 @@ export default class HistoryPageFelidaeFamilyTreeSubsection extends React.Compon
   renderContent() {
     return (
       <div className={getElementStyleClassName("HistoryPageFelidaeFamilyTreeSubsectionInnerContainer")}>
-        <div>
-          <h3 className="ContentPageSubsectionTitle">Evolution Tree of Cats</h3>
-        </div>
         <div className={getElementStyleClassName("HistoryPageFelidaeFamilyTreeSubsectionCore")}>
           <HintSignpost hintText="Hover over images below to reveal the genres" iconName="arrow circle down" />
           <FelidaeFamilyTree />

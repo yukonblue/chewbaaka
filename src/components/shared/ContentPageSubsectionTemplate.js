@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 10, 2020
  */
 
 /**
@@ -25,6 +25,7 @@ function ContentPageSubsectionTemplate(props) {
   return (
     <div className={getElementStyleClassName("ContentPageSubsectionTemplateOuterContainer")}>
       <div className={getElementStyleClassName("ContentPageSubsectionTemplateInnerContainer")}>
+        <h3 className={getElementStyleClassName("ContentPageSubsectionTitle")}>{props.title}</h3>
         {props.content}
       </div>
     </div>

@@ -12,6 +12,9 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
         <div
           className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe"
         >
+          <h3
+            className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+          />
           <div
             className="ContentPageSectionHeadOuterContainer"
           >
@@ -26,7 +29,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                 className="ContentPageSectionHeadTitleContainer ContentPageSectionHeadTitleContainer_DebugColor DebugWireframe"
               >
                 <h2
-                  className="ContentPageSectionHeadTitle"
+                  className="ContentPageSectionHeadTitle ContentPageSectionHeadTitle_DebugColor DebugWireframe"
                 >
                   Cheetah and Man
                 </h2>
@@ -58,16 +61,14 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
             <div
               className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe"
             >
+              <h3
+                className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+              >
+                Relationships with Man
+              </h3>
               <div
                 className="HistoryPageCheetahAndManImageSubsectionInnerContainer HistoryPageCheetahAndManImageSubsectionInnerContainer_DebugColor DebugWireframe"
               >
-                <div>
-                  <h3
-                    className="ContentPageSubsectionTitle"
-                  >
-                    Relationships with Man
-                  </h3>
-                </div>
                 <div>
                   <div
                     className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"

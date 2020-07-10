@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 10, 2020
  */
 
 import React from 'react';
@@ -21,10 +21,19 @@ import ImageSlidingGallery from '../shared/ImageSlidingGallery'
 
 export default class HistoryPageCheetahAndManImageSubsection extends React.Component {
 
+  static _SUBSECTION_NAME_ = "subsection_RelationshipsWithMan";
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      subsectionConfig: props.sectionConfig.subsections[HistoryPageCheetahAndManImageSubsection._SUBSECTION_NAME_]
+    };
+  }
+
   render() {
     return (
       <div className={getElementStyleClassName("HistoryPageCheetahAndManImageSubsectionOuterContainer")}>
-        <ContentPageSubsectionTemplate content={this.renderContent()} />
+        <ContentPageSubsectionTemplate title={this.state.subsectionConfig.title} content={this.renderContent()} />
       </div>
     )
   }
@@ -32,9 +41,6 @@ export default class HistoryPageCheetahAndManImageSubsection extends React.Compo
   renderContent() {
     return (
       <div className={getElementStyleClassName("HistoryPageCheetahAndManImageSubsectionInnerContainer")}>
-        <div>
-          <h3 className="ContentPageSubsectionTitle">Relationships with Man</h3>
-        </div>
         <div>
           <ContentPageSubsectionTwoColumnContentTemplate
             lhsColumn={{content: this.renderLhsContent()}}
@@ -48,7 +54,7 @@ export default class HistoryPageCheetahAndManImageSubsection extends React.Compo
   renderLhsContent() {
     return (
       <div className="HistoryPageCheetahAndManImageSubsectionContentTextContainer">
-        <p>{this.props.subsectionConfig.contents["paragraph_01"]}</p>
+        <p>{this.state.subsectionConfig.contents["paragraph_01"]}</p>
       </div>
     );
   }

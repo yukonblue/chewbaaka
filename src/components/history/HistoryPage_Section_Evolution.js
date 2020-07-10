@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 08, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 10, 2020
  */
 
 import React from 'react';
@@ -38,7 +38,9 @@ export default class HistoryPageSectionEvolution extends React.Component {
   renderContent() {
     return (
       <div>
-        <HistoryPageFelidaeFamilyTreeSubsection />
+        <HistoryPageFelidaeFamilyTreeSubsection
+          sectionConfig={this.state.sectionConfig}
+        />
       </div>
     );
   }

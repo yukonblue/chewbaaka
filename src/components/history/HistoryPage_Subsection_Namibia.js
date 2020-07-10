@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 10, 2020
  */
 
 import React from 'react';
@@ -25,10 +25,19 @@ import MediaLinkButton from '../shared/MediaLinkButton'
 
 export default class HistoryPageNamibiaSubsection extends React.Component {
 
+  static _SUBSECTION_NAME_ = "subsection_Namibia";
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      subsectionConfig: props.sectionConfig.subsections[HistoryPageNamibiaSubsection._SUBSECTION_NAME_]
+    };
+  }
+
   render() {
     return (
       <div className="HistoryPageNamibiaSubsectionOuterContainer">
-        <ContentPageSubsectionTemplate content={this.renderContent()} />
+        <ContentPageSubsectionTemplate title={this.state.subsectionConfig.title} content={this.renderContent()} />
       </div>
     )
   }
@@ -36,9 +45,6 @@ export default class HistoryPageNamibiaSubsection extends React.Component {
   renderContent() {
     return (
       <div className="HistoryPageNamibiaSubsectionInnerContainer">
-        <div>
-          <h3 className="ContentPageSubsectionTitle">Namibia - Cheetah Capital of the World</h3>
-        </div>
         <div>
           <ContentPageSubsectionTwoColumnContentTemplate
             lhsColumn={{content: this.renderLhsColumnContent()}}
@@ -53,26 +59,30 @@ export default class HistoryPageNamibiaSubsection extends React.Component {
     return (
       <div>
         <p>
-          {this.props.subsectionConfig.contents["paragraph_01"]}
+          {this.state.subsectionConfig.contents["paragraph_01"]}
         </p>
 
-        <Segment inverted>
-          <Statistic inverted size="huge" color="orange">
-            <Statistic.Value>21%</Statistic.Value>
-            <Statistic.Label>
-              of the world's wild cheetahs live in Namibia.
-            </Statistic.Label>
-          </Statistic>
-        </Segment>
+        <div className="DisplayInlineBlock">
+          <Segment inverted>
+            <Statistic inverted size="huge" color="orange">
+              <Statistic.Value>21%</Statistic.Value>
+              <Statistic.Label>
+                of the world's wild cheetahs live in Namibia.
+              </Statistic.Label>
+            </Statistic>
+          </Segment>
+        </div>
 
-        <Segment inverted>
-          <Statistic inverted size="huge" color="yellow">
-            <Statistic.Value>90%</Statistic.Value>
-            <Statistic.Label>
-              of Namibia's cheetahs live on communal and commercial livestock and game farms.
-            </Statistic.Label>
-          </Statistic>
-        </Segment>
+        <div className="DisplayInlineBlock">
+          <Segment inverted>
+            <Statistic inverted size="huge" color="yellow">
+              <Statistic.Value>90%</Statistic.Value>
+              <Statistic.Label>
+                of Namibia's cheetahs live on communal and commercial livestock and game farms.
+              </Statistic.Label>
+            </Statistic>
+          </Segment>
+        </div>
       </div>
     );
   }

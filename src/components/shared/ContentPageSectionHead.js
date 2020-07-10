@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 10, 2020
  */
 
 /**
@@ -47,7 +47,7 @@ export default class ContentPageSectionHead extends React.Component {
         <ContentPageSectionAnchor title={this.props.title}/>
         <div className={getElementStyleClassName("ContentPageSectionHeadInnerContainer")}>
           <div className={getElementStyleClassName("ContentPageSectionHeadTitleContainer")}>
-            <h2 className="ContentPageSectionHeadTitle">{this.props.title}</h2>
+            <h2 className={getElementStyleClassName("ContentPageSectionHeadTitle")}>{this.props.title}</h2>
           </div>
           <div className="ContentPageIntroParagraphContentContainer">
             <p className="ContentPageSectionSubtitleText">{this.props.content}</p>

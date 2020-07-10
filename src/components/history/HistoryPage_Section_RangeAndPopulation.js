@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 08, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 10, 2020
  */
 
 import React from 'react';
@@ -12,6 +12,7 @@ import React from 'react';
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate';
 
 import HistoryPageNamibiaSubsection from './HistoryPage_Subsection_Namibia'
+import HistoryPageSubsectionRoadToExtinction from './HistoryPage_Subsection_RoadToExtinction'
 
 export default class HistoryPageSectionRangeAndPopulation extends React.Component {
 
@@ -39,7 +40,11 @@ export default class HistoryPageSectionRangeAndPopulation extends React.Componen
     return (
       <div>
         <HistoryPageNamibiaSubsection
-          subsectionConfig={this.state.sectionConfig.subsections["subsection_Namibia"]}
+          sectionConfig={this.state.sectionConfig}
+        />
+
+        <HistoryPageSubsectionRoadToExtinction
+          sectionConfig={this.state.sectionConfig}
         />
       </div>
     );
