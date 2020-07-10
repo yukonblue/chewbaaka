@@ -66,7 +66,7 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
         <ContentPageSubsectionThreeColumnContentTemplate
           lhsColumn={{
             title: "The Road to Extinction?",
-            content: this.renderRhsColumnContent()
+            content: this.renderLhsColumnContent()
           }}
           middleColumn={{
             content: "middle"
@@ -81,11 +81,26 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
   }
 
   renderLhsColumnContent() {
-    return this.renderSideColumnContent(this.state.subsectionConfig.contents["paragraph_The_Road_To_Extinction"]);
+    return this.renderSideColumnContent(
+      <div>
+        <h3>1990</h3>
+        <p>{this.state.subsectionConfig.contents["paragraph_The_Road_To_Extinction_01"]}</p>
+        <p>{this.state.subsectionConfig.contents["paragraph_The_Road_To_Extinction_02"]}</p>
+        <p>{this.state.subsectionConfig.contents["paragraph_The_Road_To_Extinction_03"]}</p>
+        <p>{this.state.subsectionConfig.contents["paragraph_The_Road_To_Extinction_04"]}</p>
+      </div>
+    );
   }
 
   renderRhsColumnContent() {
-    return this.renderSideColumnContent(this.state.subsectionConfig.contents["paragraph_Where_Did_The_Cheetah_Go"]);
+    return this.renderSideColumnContent(
+      <div>
+        <h3>1975</h3>
+        <p>{this.state.subsectionConfig.contents["paragraph_Where_Did_The_Cheetah_Go_01"]}</p>
+        <p>{this.state.subsectionConfig.contents["paragraph_Where_Did_The_Cheetah_Go_02"]}</p>
+        <p>{this.state.subsectionConfig.contents["paragraph_Where_Did_The_Cheetah_Go_03"]}</p>
+      </div>
+    );
   }
 
   renderSideColumnContent(content) {

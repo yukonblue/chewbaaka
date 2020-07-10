@@ -146,34 +146,39 @@ export const config = {
         subsection_RoadToExtinction: {
           title: "The Road to Extinction ?",
           contents: {
-            paragraph_The_Road_To_Extinction:
-              "World development, industrialization, automobiles, and aeroplanes..." +
+            paragraph_The_Road_To_Extinction_01:
+              "World development, industrialization, automobiles, and aeroplanes...",
 
+            paragraph_The_Road_To_Extinction_02:
               "Through the 1900s, man's inventions seemed limitless, yet there is " +
-              "nothing man-made that rivals the speed and efficiency of the cheetah." +
+              "nothing man-made that rivals the speed and efficiency of the cheetah.",
 
+            paragraph_The_Road_To_Extinction_03:
               "Scientists classified the cheetah as Acinonyx jubatus, yet nobles still " +
               'referred to it as the "hunting leopard". By the end of the 1800s, cheetahs' +
               'were a rarity in Asia Minor and Arabia because of their use in the sport ' +
-              'of "coursing".' +
+              'of "coursing".',
 
+            paragraph_The_Road_To_Extinction_04:
               'Although it appeared that the cheeatahs had a large range, their numbers ' +
               'within that range existed in small pockets. Cheetahs, farmers and their livestock ' +
               'all preferred open grasslands for their habitat. Increasing agricultural development ' +
               'and new settlements played havoc with remaining cheetah populations.',
 
-            paragraph_Where_Did_The_Cheetah_Go:
+            paragraph_Where_Did_The_Cheetah_Go_01:
               'As human population grew, the amount of land devoted to livestock farming ' +
               'steadily increased. Livestock filled the open land where cheetahs roamed. ' +
               'Natural prey became scarce. Farmers kill other large predators. Although ' +
               'game reserves protected them, cheetahs could not compete against hyoenas ' +
-              'and lions. Farmlands offered cheetahs a safe haven, but they sometimes killed livestock.' +
+              'and lions. Farmlands offered cheetahs a safe haven, but they sometimes killed livestock.',
 
+            paragraph_Where_Did_The_Cheetah_Go_02:
               'Farmers saw cheetahs more frequently and thought their numbers had increased. ' +
               'Cheetahs took the blame for most predator-related livestock losses. ' +
               'Farmers killed cheetahs by the thousands as pests or to seell their skins ' +
-              'to the fur trade.' +
+              'to the fur trade.',
 
+            paragraph_Where_Did_The_Cheetah_Go_03:
               'By 1975, researches realized that the cheetah was in troubles. CITES ' +
               '(Convention on International Trade of Endangered Species) placed the cheetah ' +
               'on Appendix I, making international trade in live cheetah or cheetah products illegal. ' +
