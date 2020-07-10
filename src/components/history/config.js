@@ -123,24 +123,31 @@ export const config = {
         subsection_Namibia: {
           title: "Namibia - Cheetah Capital of the World",
           contents: {
-            paragraph_Cheetah_Capital_Of_The_World:
-              "Namibia has the world's largest cheetah population. " +
-              "Approximately 3000 cheetahs share the land with humans, " +
-              "livestock, and wildlife. " +
+            paragraph_Cheetah_Capital_Of_The_World: {
+              title: "Namibia",
+              subtitle: "Cheetah Capital of the World",
+              content:
+                "Namibia has the world's largest cheetah population. " +
+                "Approximately 3000 cheetahs share the land with humans, " +
+                "livestock, and wildlife. " +
 
-              "Today, the status of the Namibian cheetah is stabilizing. " +
-              "During the 1980s, the population of Namibian cheetahs " +
-              "declined by half. In the 10-year period, nearly " +
-              "7,000 cheetahs were removed from the wild. " +
+                "Today, the status of the Namibian cheetah is stabilizing. " +
+                "During the 1980s, the population of Namibian cheetahs " +
+                "declined by half. In the 10-year period, nearly " +
+                "7,000 cheetahs were removed from the wild. " +
 
-              "In most countries where cheetahs live, their numbers " +
-              "have been reduced to critical levels. The cheetah's " +
-              "survival worldwide is in human hands.",
-
-            paragraph_Namibia_Home_For_The_Future:
-              "The greatest hope for the cheetah's survival lies in the " +
-              'pristine countryside of Namibia. Nearly 1000 Namibian farmers ' +
-              "control the fate of the country's cheetahs and the land they live.",
+                "In most countries where cheetahs live, their numbers " +
+                "have been reduced to critical levels. The cheetah's " +
+                "survival worldwide is in human hands.",
+            },
+            paragraph_Namibia_Home_For_The_Future: {
+              title: "Namibia",
+              subtitle: "Hope for the Future",
+              content:
+                "The greatest hope for the cheetah's survival lies in the " +
+                'pristine countryside of Namibia. Nearly 1000 Namibian farmers ' +
+                "control the fate of the country's cheetahs and the land they live."
+            }
           }
         },
         subsection_RoadToExtinction: {

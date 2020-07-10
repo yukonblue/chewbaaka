@@ -48,14 +48,14 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
         <div>
           <ContentPageSubsectionThreeColumnContentTemplate
             lhsColumn={{
-              title: "Namibia",
-              subtitle: "Cheetah Capital of the World",
+              title: this.state.subsectionConfig.contents["paragraph_Cheetah_Capital_Of_The_World"].title,
+              subtitle: this.state.subsectionConfig.contents["paragraph_Cheetah_Capital_Of_The_World"].subtitle,
               content: this.renderLhsColumnContent()
             }}
             middleColumn={{content: this.renderMiddleColumnContent()}}
             rhsColumn={{
-              title: "Namibia",
-              subtitle: "Hope for the Future",
+              title: this.state.subsectionConfig.contents["paragraph_Namibia_Home_For_The_Future"].title,
+              subtitle: this.state.subsectionConfig.contents["paragraph_Namibia_Home_For_The_Future"].subtitle,
               content: this.renderRhsColumnContent()
             }}
           />
@@ -68,7 +68,7 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
     return (
       <div>
         <p>
-          {this.state.subsectionConfig.contents["paragraph_Cheetah_Capital_Of_The_World"]}
+          {this.state.subsectionConfig.contents["paragraph_Cheetah_Capital_Of_The_World"].content}
         </p>
 
         <div className="DisplayInlineBlock">
@@ -108,7 +108,7 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
     return (
       <div>
         <p>
-          {this.state.subsectionConfig.contents["paragraph_Namibia_Home_For_The_Future"]}
+          {this.state.subsectionConfig.contents["paragraph_Namibia_Home_For_The_Future"].content}
         </p>
 
         <div className="DisplayInlineBlock">
