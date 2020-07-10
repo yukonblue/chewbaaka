@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 09, 2020
  */
 
 /**
@@ -17,12 +17,14 @@
 
 import React from 'react';
 
+import { getElementStyleClassName } from '../../styling/styling'
+
 import './ContentPageSubsectionTemplate.css'
 
 function ContentPageSubsectionTemplate(props) {
   return (
-    <div className="ContentPageSubsectionTemplateOuterContainer">
-      <div className="ContentPageSubsectionTemplateInnerContainer">
+    <div className={getElementStyleClassName("ContentPageSubsectionTemplateOuterContainer")}>
+      <div className={getElementStyleClassName("ContentPageSubsectionTemplateInnerContainer")}>
         {props.content}
       </div>
     </div>

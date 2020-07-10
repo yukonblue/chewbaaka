@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 09, 2020
  */
 
 /**
@@ -25,6 +25,8 @@ import React from 'react';
 import './ContentPageSharedStyles.css'
 import './ContentPageSectionHead.css'
 
+import { getElementStyleClassName } from '../../styling/styling'
+
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
 import ContentPageSectionAnchor from '../shared/ContentPageSectionAnchor'
@@ -43,8 +45,8 @@ export default class ContentPageSectionHead extends React.Component {
     return (
       <div className="ContentPageSectionHeadOuterContainer">
         <ContentPageSectionAnchor title={this.props.title}/>
-        <div className="ContentPageSectionHeadInnerContainer">
-          <div className="ContentPageSectionHeadTitleContainer">
+        <div className={getElementStyleClassName("ContentPageSectionHeadInnerContainer")}>
+          <div className={getElementStyleClassName("ContentPageSectionHeadTitleContainer")}>
             <h2 className="ContentPageSectionHeadTitle">{this.props.title}</h2>
           </div>
           <div className="ContentPageIntroParagraphContentContainer">

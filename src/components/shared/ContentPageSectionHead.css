@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 09, 2020
  */
 
 div.ContentPageSectionHeadOuterContainer {
@@ -13,12 +13,16 @@ div.ContentPageSectionHeadOuterContainer {
 
 div.ContentPageSectionHeadInnerContainer {
   margin: 0 auto;
-  /* Uncomment line below for debugging. */
+}
+
+div.ContentPageSectionHeadInnerContainer_DebugColor {
   background-color: yellowgreen;
 }
 
 div.ContentPageSectionHeadTitleContainer {
-  padding: 20px 0px;
-  /* Uncomment line below for debugging. */
+  padding: 20px 0px; 
+}
+
+div.ContentPageSectionHeadTitleContainer_DebugColor {
   background-color: yellow;
 }

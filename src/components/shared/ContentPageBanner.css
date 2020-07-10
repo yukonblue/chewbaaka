@@ -4,13 +4,16 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 09, 2020
  */
 
 div.ContentPageBannerContainer {
-  background-color: red;
   height: 800px;
   background-size: cover;
+}
+
+div.ContentPageBannerContainer_DebugColor {
+  background-color: red;
 }
 
 div.ContentPageBannerTitleContainer {

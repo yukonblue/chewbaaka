@@ -4,18 +4,22 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 09, 2020
  */
 
 div.HistoryPageCheetahAndManImageSubsectionOuterContainer {
   /* margin: 0 auto; */
-  /* Uncomment line below for debugging. */
+}
+
+div.HistoryPageCheetahAndManImageSubsectionOuterContainer_DebugColor {
   background-color: turquoise;
 }
 
 div.HistoryPageCheetahAndManImageSubsectionInnerContainer {
   margin: 0 auto;
-  /* Uncomment line below for debugging. */
+}
+
+div.HistoryPageCheetahAndManImageSubsectionInnerContainer_DebugColor {
   background-color: rgb(171, 130, 238);
 }
 

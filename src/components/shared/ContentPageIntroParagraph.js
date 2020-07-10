@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 09, 2020
  */
 
 /**
@@ -21,6 +21,8 @@
  */
 
 import React from 'react';
+
+import { getElementStyleClassName } from '../../styling/styling'
 
 import './ContentPageSharedStyles.css'
 import './ContentPageIntroParagraph.css'
@@ -40,11 +42,11 @@ export default class ContentPageIntroParagraph extends React.Component {
   renderContent() {
     return (
       <div className="ContentPageIntroParagraphOuterContainer">
-        <div className="ContentPageIntroParagraphInnerContainer">
-          <div className="ContentPageIntroParagraphTitleContainer">
+        <div className={getElementStyleClassName("ContentPageIntroParagraphInnerContainer")}>
+          <div className={getElementStyleClassName("ContentPageIntroParagraphTitleContainer")}>
             <h1 className="ContentPageIntroParagraphTitle">{this.props.title}</h1>
           </div>
-          <div className="ContentPageIntroParagraphContentContainer">
+          <div className={getElementStyleClassName("ContentPageIntroParagraphContentContainer")}>
             <p className="ContentPageSectionSubtitleText">{this.props.content}</p>
           </div>
         </div>

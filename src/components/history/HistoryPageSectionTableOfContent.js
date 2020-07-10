@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 09, 2020
  */
 
 import React from 'react';
@@ -12,6 +12,8 @@ import React from 'react';
 import "semantic-ui-css/semantic.min.css";
 
 import './HistoryPageSectionTableOfContent.css'
+
+import { getElementStyleClassName } from '../../styling/styling'
 
 import ContentPageTableOfContentMenuTemplate from '../shared/ContentPageTableOfContentMenuTemplate'
 
@@ -41,7 +43,7 @@ function HistoryPageSectionTableOfContent(props) {
   ];
 
   return (
-    <div className="HistoryPageSectionTableOfContentOuterContainer">
+    <div className={getElementStyleClassName("HistoryPageSectionTableOfContentOuterContainer")}>
       <ContentPageTableOfContentMenuTemplate items={items}/>
     </div>
   );

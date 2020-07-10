@@ -4,10 +4,13 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 06, 2020
+ * Updated  : Jul 09, 2020
  */
 
 div.ContentPageHeadOuterContainer {
   overflow: hidden;
+}
+
+div.ContentPageHeadOuterContainer_DebugColor {
   background-color: gold;
 }
