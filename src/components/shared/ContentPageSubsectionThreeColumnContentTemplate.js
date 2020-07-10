@@ -13,6 +13,7 @@ import "semantic-ui-css/semantic.min.css"
 
 import { getElementStyleClassName, getElementStyleClassNames } from '../../styling/styling'
 
+import './ContentPageSharedStyles.css'
 import './ContentPageSubsectionThreeColumnContentTemplate.css'
 
 export default class ContentPageSubsectionThreeColumnContentTemplate extends React.Component {
@@ -23,7 +24,7 @@ export default class ContentPageSubsectionThreeColumnContentTemplate extends Rea
         <div className={getElementStyleClassName("ContentPageSubsectionThreeColumnContentTemplateInnerContainer")}>
           <div className="ContentPageSubsectionThreeColumnContentTemplateColumnContainer">
             <div className={getElementStyleClassNames(["ContentPageSubsectionThreeColumnContentTemplateColumn", "ContentPageSubsectionThreeColumnContentTemplateLeftColumnContainer"])}>
-              <h2>
+              <h2 className={getElementStyleClassName("ContentPageSubsectionColumnContentTitle")}>
                 {this.props.lhsColumn.title}
               </h2>
               <div>
@@ -36,7 +37,7 @@ export default class ContentPageSubsectionThreeColumnContentTemplate extends Rea
               </div>
             </div>
             <div className={getElementStyleClassNames(["ContentPageSubsectionThreeColumnContentTemplateColumn", "ContentPageSubsectionThreeColumnContentTemplateRightColumnContainer"])}>
-              <h2>
+              <h2 className={getElementStyleClassName("ContentPageSubsectionColumnContentTitle")}>
                 {this.props.rhsColumn.title}
               </h2>
               <div>

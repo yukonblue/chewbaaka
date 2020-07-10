@@ -16,6 +16,7 @@ import "semantic-ui-css/semantic.min.css";
 import '../shared/ContentPageSharedStyles.css'
 import './HistoryPage_Subsection_RoadToExtinction.css'
 
+import { getElementStyleClassName } from '../../styling/styling'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPageSubsectionThreeColumnContentTemplate'
 
@@ -69,7 +70,7 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
             content: this.renderLhsColumnContent()
           }}
           middleColumn={{
-            content: "middle"
+            content: "TODO: middle"
           }}
           rhsColumn={{
             title: "Where Did the Cheetah Go?",
@@ -83,7 +84,7 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
   renderLhsColumnContent() {
     return this.renderSideColumnContent(
       <div>
-        <h3>1990</h3>
+        <h3 className={getElementStyleClassName("ContentPageSubsectionColumnContentSubtitle")}>1990</h3>
         <p>{this.state.subsectionConfig.contents["paragraph_The_Road_To_Extinction_01"]}</p>
         <p>{this.state.subsectionConfig.contents["paragraph_The_Road_To_Extinction_02"]}</p>
         <p>{this.state.subsectionConfig.contents["paragraph_The_Road_To_Extinction_03"]}</p>
@@ -95,7 +96,7 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
   renderRhsColumnContent() {
     return this.renderSideColumnContent(
       <div>
-        <h3>1975</h3>
+        <h3 className={getElementStyleClassName("ContentPageSubsectionColumnContentSubtitle")}>1975</h3>
         <p>{this.state.subsectionConfig.contents["paragraph_Where_Did_The_Cheetah_Go_01"]}</p>
         <p>{this.state.subsectionConfig.contents["paragraph_Where_Did_The_Cheetah_Go_02"]}</p>
         <p>{this.state.subsectionConfig.contents["paragraph_Where_Did_The_Cheetah_Go_03"]}</p>

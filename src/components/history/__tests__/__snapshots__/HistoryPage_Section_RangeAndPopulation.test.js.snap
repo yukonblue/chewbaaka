@@ -296,14 +296,18 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
                       <div
                         className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateColumn_DebugColor DebugWireframe ContentPageSubsectionThreeColumnContentTemplateLeftColumnContainer ContentPageSubsectionThreeColumnContentTemplateLeftColumnContainer_DebugColor DebugWireframe"
                       >
-                        <h2>
+                        <h2
+                          className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                        >
                           The Road to Extinction?
                         </h2>
                         <div>
                           <div>
                             <div>
                               <div>
-                                <h3>
+                                <h3
+                                  className="ContentPageSubsectionColumnContentSubtitle ContentPageSubsectionColumnContentSubtitle_DebugColor DebugWireframe"
+                                >
                                   1990
                                 </h3>
                                 <p>
@@ -327,20 +331,24 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
                         className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateColumn_DebugColor DebugWireframe ContentPageSubsectionThreeColumnContentTemplateMiddleColumnContainer ContentPageSubsectionThreeColumnContentTemplateMiddleColumnContainer_DebugColor DebugWireframe"
                       >
                         <div>
-                          middle
+                          TODO: middle
                         </div>
                       </div>
                       <div
                         className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateColumn_DebugColor DebugWireframe ContentPageSubsectionThreeColumnContentTemplateRightColumnContainer ContentPageSubsectionThreeColumnContentTemplateRightColumnContainer_DebugColor DebugWireframe"
                       >
-                        <h2>
+                        <h2
+                          className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                        >
                           Where Did the Cheetah Go?
                         </h2>
                         <div>
                           <div>
                             <div>
                               <div>
-                                <h3>
+                                <h3
+                                  className="ContentPageSubsectionColumnContentSubtitle ContentPageSubsectionColumnContentSubtitle_DebugColor DebugWireframe"
+                                >
                                   1975
                                 </h3>
                                 <p>

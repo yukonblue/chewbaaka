@@ -64,3 +64,19 @@ h4.ContentPageSubsectionSubtitle_DebugColor {
 div.DisplayInlineBlock {
   display: inline-block;
 }
+
+h2.ContentPageSubsectionColumnContentTitle {
+  color: goldenrod;
+}
+
+h2.ContentPageSubsectionColumnContentTitle_DebugColor {
+  background-color: hotpink;
+}
+
+h3.ContentPageSubsectionColumnContentSubtitle {
+  color: yellow;
+}
+
+h3.ContentPageSubsectionColumnContentSubtitle_DebugColor {
+  background-color: indigo;
+}
