@@ -11,7 +11,7 @@ import React from 'react';
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate';
 
-import HistoryPageCheetahAndManImageSubsection from './HistoryPage_Subsection_CheetahAndManImage'
+import HistoryPageSubsectionCheetahAndManImage from './HistoryPage_Subsection_CheetahAndManImage'
 
 export default class HistoryPageSectionCheetahAndMan extends React.Component {
 
@@ -38,7 +38,7 @@ export default class HistoryPageSectionCheetahAndMan extends React.Component {
   renderContent() {
     return (
       <div>
-        <HistoryPageCheetahAndManImageSubsection
+        <HistoryPageSubsectionCheetahAndManImage
           sectionConfig={this.state.sectionConfig}
         />
       </div>

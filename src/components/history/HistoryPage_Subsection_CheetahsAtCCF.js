@@ -20,11 +20,11 @@ import CircularImage from '../shared/CircularImage'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
-export default class HistoryPageCheetahsAtCCFSubsection extends React.Component {
+export default class HistoryPageSubsectionCheetahsAtCCF extends React.Component {
 
   render() {
     return (
-      <div className="HistoryPageCheetahsAtCCFSubsection">
+      <div className="HistoryPageSubsectionCheetahsAtCCF">
         <ContentPageSubsectionTemplate title={this.props.subsectionConfig.title} content={this.renderContent()} />
       </div>
     )
@@ -32,7 +32,7 @@ export default class HistoryPageCheetahsAtCCFSubsection extends React.Component 
 
   renderContent() {
     return (
-      <div className="HistoryPageCheetahsAtCCFSubsectionInnerContainer">
+      <div className="HistoryPageSubsectionCheetahsAtCCFInnerContainer">
         <div>
           <h4 className="ContentPageSubsectionSubtitle">Chewbaaka</h4>
           <ContentPageSubsectionTwoColumnContentTemplate
@@ -70,7 +70,7 @@ export default class HistoryPageCheetahsAtCCFSubsection extends React.Component 
 
   renderRhsContentChewbaaka() {
     return (
-      <div className={getElementStyleClassName("HistoryPageCheetahsAtCCFSubsectionImageContainer")}>
+      <div className={getElementStyleClassName("HistoryPageSubsectionCheetahsAtCCFImageContainer")}>
         <CircularImage image="https://sotinpc.files.wordpress.com/2013/04/day-of-rememberance.jpg" title="Chewbaaka" />
       </div>
     );
@@ -78,7 +78,7 @@ export default class HistoryPageCheetahsAtCCFSubsection extends React.Component 
 
   renderLhsContentMekondyo() {
     return (
-      <div className={getElementStyleClassName("HistoryPageCheetahsAtCCFSubsectionImageContainer")}>
+      <div className={getElementStyleClassName("HistoryPageSubsectionCheetahsAtCCFImageContainer")}>
         <CircularImage image="https://globalgaz.com/wp-content/uploads/2018/07/DSC03746.jpg" title="Mekondyo" />
       </div>
     );

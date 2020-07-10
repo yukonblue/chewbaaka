@@ -23,20 +23,20 @@ import ImageView from '../shared/ImageView'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
-export default class HistoryPageNamibiaSubsection extends React.Component {
+export default class HistoryPageSubsectionNamibia extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_Namibia";
 
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[HistoryPageNamibiaSubsection._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[HistoryPageSubsectionNamibia._SUBSECTION_NAME_]
     };
   }
 
   render() {
     return (
-      <div className="HistoryPageNamibiaSubsectionOuterContainer">
+      <div className="HistoryPageSubsectionNamibiaOuterContainer">
         <ContentPageSubsectionTemplate title={this.state.subsectionConfig.title} content={this.renderContent()} />
       </div>
     )
@@ -44,7 +44,7 @@ export default class HistoryPageNamibiaSubsection extends React.Component {
 
   renderContent() {
     return (
-      <div className="HistoryPageNamibiaSubsectionInnerContainer">
+      <div className="HistoryPageSubsectionNamibiaInnerContainer">
         <div>
           <ContentPageSubsectionTwoColumnContentTemplate
             lhsColumn={{content: this.renderLhsColumnContent()}}

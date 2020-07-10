@@ -53,7 +53,7 @@ exports[`HistoryPageSectionEvolution component snapshot 1`] = `
     >
       <div>
         <div
-          className="HistoryPageFelidaeFamilyTreeSubsectionOuterContainer HistoryPageFelidaeFamilyTreeSubsectionOuterContainer_DebugColor DebugWireframe"
+          className="HistoryPageSubsectionFelidaeFamilyTreeOuterContainer HistoryPageSubsectionFelidaeFamilyTreeOuterContainer_DebugColor DebugWireframe"
         >
           <div
             className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
@@ -67,10 +67,10 @@ exports[`HistoryPageSectionEvolution component snapshot 1`] = `
                 Evolution of Cats
               </h3>
               <div
-                className="HistoryPageFelidaeFamilyTreeSubsectionInnerContainer HistoryPageFelidaeFamilyTreeSubsectionInnerContainer_DebugColor DebugWireframe"
+                className="HistoryPageSubsectionFelidaeFamilyTreeInnerContainer HistoryPageSubsectionFelidaeFamilyTreeInnerContainer_DebugColor DebugWireframe"
               >
                 <div
-                  className="HistoryPageFelidaeFamilyTreeSubsectionCore HistoryPageFelidaeFamilyTreeSubsectionCore_DebugColor DebugWireframe"
+                  className="HistoryPageSubsectionFelidaeFamilyTreeCore HistoryPageSubsectionFelidaeFamilyTreeCore_DebugColor DebugWireframe"
                 >
                   <div
                     className="HintSignpostOuterContainer"

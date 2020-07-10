@@ -4,30 +4,30 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 10, 2020
  */
 
-div.HistoryPageFelidaeFamilyTreeSubsectionOuterContainer {
+div.HistoryPageSubsectionFelidaeFamilyTreeOuterContainer {
   margin: 0 auto;
 }
 
-div.HistoryPageFelidaeFamilyTreeSubsectionOuterContainer_DebugColor {
+div.HistoryPageSubsectionFelidaeFamilyTreeOuterContainer_DebugColor {
   background-color: turquoise;
 }
 
-div.HistoryPageFelidaeFamilyTreeSubsectionInnerContainer {
+div.HistoryPageSubsectionFelidaeFamilyTreeInnerContainer {
   margin: 0 auto;
 }
 
-div.HistoryPageFelidaeFamilyTreeSubsectionInnerContainer_DebugColor {
+div.HistoryPageSubsectionFelidaeFamilyTreeInnerContainer_DebugColor {
   background-color: violet;
 }
 
-div.HistoryPageFelidaeFamilyTreeSubsectionCore {
+div.HistoryPageSubsectionFelidaeFamilyTreeCore {
   margin: 0 auto;
   width: 1200px;
 }
 
-div.HistoryPageFelidaeFamilyTreeSubsectionCore_DebugColor {
+div.HistoryPageSubsectionFelidaeFamilyTreeCore_DebugColor {
   background-color: tomato;
 }
