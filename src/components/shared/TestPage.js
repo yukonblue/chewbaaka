@@ -4,12 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 09, 2020
  */
 
 import React from 'react';
 
 import { BrowserRouter as Router, Redirect } from 'react-router-dom'
+
+import { Slider } from '@material-ui/core';
 
 import "semantic-ui-css/semantic.min.css";
 
@@ -54,6 +56,32 @@ class TestPage extends React.Component {
         <h1>This is a test page</h1>
 
         This page is used to test our custom components, navigations, and other things.
+
+        <h2>Tests Material UI Slider</h2>
+        <Slider
+          defaultValue={20}
+          aria-labelledby="discrete-slider-custom"
+          step={10}
+          valueLabelDisplay="auto"
+          marks={[
+            {
+              value: 0,
+              label: '0°C',
+            },
+            {
+              value: 20,
+              label: '20°C',
+            },
+            {
+              value: 37,
+              label: '37°C',
+            },
+            {
+              value: 100,
+              label: '100°C',
+            },
+          ]}
+        />
 
         <h2>MediaLinkButton</h2>
         <MediaLinkButton
