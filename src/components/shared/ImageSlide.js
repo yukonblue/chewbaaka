@@ -18,19 +18,20 @@
  * to use a set of images to illustrate changes along a timeline.
  *
  * Props:
- *  - `labels` (optional): An array of labels to display along the current image.
- *    If specified, this array must have the same length as the `images` prop
- *    specified.
  *
  *  - `title` (optional): The title of the component.
  *
- *  - `SliderNameLabel`: The label used for illustrating the semantic meaning
- *    of the beginning of the slider value.
+ *  - `marks`: An array of { value, label, image } objects specifying
+ *    the value and label of each slider tick mark, and the image
+ *    to be displayed that's associated with that tick mark.
  *
- *  - `SliderUnitLabel`: The label used for illustrating the semantic meaning
- *    of the end of the slider value.
+ *  - `sliderNameLabel`: The label used for illustrating the semantic meaning
+ *    of the slider name.
  *
- *  - `title` (optional): Specify an optional caption text to demonstrate the
+ *  - `sliderUnitLabel`: The label used for illustrating the semantic meaning
+ *    of the slider value unit.
+ *
+ *  - `caption` (optional): Specify an optional caption text to demonstrate the
  *    meaning of the slider, or to specify instructions on how to use the slider.
  */
 
