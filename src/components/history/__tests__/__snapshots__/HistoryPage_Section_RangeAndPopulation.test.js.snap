@@ -301,15 +301,15 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
                         >
                           The Road to Extinction?
                         </h2>
+                        <h3
+                          className="ContentPageSubsectionColumnContentSubtitle ContentPageSubsectionColumnContentSubtitle_DebugColor DebugWireframe"
+                        >
+                          1990
+                        </h3>
                         <div>
                           <div>
                             <div>
                               <div>
-                                <h3
-                                  className="ContentPageSubsectionColumnContentSubtitle ContentPageSubsectionColumnContentSubtitle_DebugColor DebugWireframe"
-                                >
-                                  1990
-                                </h3>
                                 <p>
                                   World development, industrialization, automobiles, and aeroplanes...
                                 </p>
@@ -342,15 +342,15 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
                         >
                           Where Did the Cheetah Go?
                         </h2>
+                        <h3
+                          className="ContentPageSubsectionColumnContentSubtitle ContentPageSubsectionColumnContentSubtitle_DebugColor DebugWireframe"
+                        >
+                          1975
+                        </h3>
                         <div>
                           <div>
                             <div>
                               <div>
-                                <h3
-                                  className="ContentPageSubsectionColumnContentSubtitle ContentPageSubsectionColumnContentSubtitle_DebugColor DebugWireframe"
-                                >
-                                  1975
-                                </h3>
                                 <p>
                                   As human population grew, the amount of land devoted to livestock farming steadily increased. Livestock filled the open land where cheetahs roamed. Natural prey became scarce. Farmers kill other large predators. Although game reserves protected them, cheetahs could not compete against hyoenas and lions. Farmlands offered cheetahs a safe haven, but they sometimes killed livestock.
                                 </p>

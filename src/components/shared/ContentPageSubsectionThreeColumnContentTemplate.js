@@ -27,6 +27,9 @@ export default class ContentPageSubsectionThreeColumnContentTemplate extends Rea
               <h2 className={getElementStyleClassName("ContentPageSubsectionColumnContentTitle")}>
                 {this.props.lhsColumn.title}
               </h2>
+              <h3 className={getElementStyleClassName("ContentPageSubsectionColumnContentSubtitle")}>
+                {this.props.lhsColumn.subtitle}
+              </h3>
               <div>
                 {this.props.lhsColumn.content}
               </div>
@@ -40,6 +43,9 @@ export default class ContentPageSubsectionThreeColumnContentTemplate extends Rea
               <h2 className={getElementStyleClassName("ContentPageSubsectionColumnContentTitle")}>
                 {this.props.rhsColumn.title}
               </h2>
+              <h3 className={getElementStyleClassName("ContentPageSubsectionColumnContentSubtitle")}>
+                {this.props.rhsColumn.subtitle}
+              </h3>
               <div>
                 {this.props.rhsColumn.content}
               </div>
