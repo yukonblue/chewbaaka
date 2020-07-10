@@ -1,0 +1,79 @@
+/**
+ * ImageSlide.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 09, 2020
+ * Updated  : Jul 09, 2020
+ */
+
+div.ImageSlideOuterContainer {
+  display: inline-block;
+  padding: 20px;
+}
+
+div.ImageSlideOuterContainer_DebugColor {
+  background-color: pink;
+}
+
+div.ImageSlideInnerContainer {
+  margin: 0 auto;
+}
+
+div.ImageSlideInnerContainer_DebugColor {
+  background-color: brown;
+}
+
+img.ImageSlideImgElement {
+  display: block;
+  margin: 0 auto;
+}
+
+div.ImageSlideSliderAndLabelOuterContainer {
+  text-align: center;
+}
+
+div.ImageSlideSliderAndLabelOuterContainer_DebugColor {
+  background-color: khaki;
+}
+
+div.ImageSlideLabelOuterContainer {
+  text-align: center;
+}
+
+div.ImageSlideLabelOuterContainer_DebugColor {
+  background-color: lightblue;
+}
+
+div.ImageSlideSliderAndLabelInnerContainer {
+}
+
+div.ImageSlideSliderAndLabelInnerContainer_DebugColor {
+  background-color: lavender;
+}
+
+div.ImageSlideComponentSliderNameLabelContainer {
+  float: left;
+}
+
+div.ImageSlideComponentSliderNameLabelContainer_DebugColor {
+  background-color: lightskyblue;
+}
+
+div.ImageSlideComponentSliderEndLabelContainer {
+  float: right;
+}
+
+div.ImageSlideComponentSliderEndLabelContainer_DebugColor {
+  background-color: peru;
+}
+
+div.ImageSlideSliderElementContainer {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+div.ImageSlideSliderElementContainer_DebugColor {
+  background-color: greenyellow;
+}

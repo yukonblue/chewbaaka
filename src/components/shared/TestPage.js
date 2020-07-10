@@ -4,12 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 09, 2020
  */
 
 import React from 'react';
 
 import { BrowserRouter as Router, Redirect } from 'react-router-dom'
+
+import { Slider } from '@material-ui/core';
 
 import "semantic-ui-css/semantic.min.css";
 
@@ -54,6 +56,59 @@ class TestPage extends React.Component {
         <h1>This is a test page</h1>
 
         This page is used to test our custom components, navigations, and other things.
+
+        <h2>ImageSlide</h2>
+        <ImageSlide
+          title="Cheetah evolution"
+          caption="Slide the timeline to see the migration of cheetahs."
+          sliderNameLabel="Timeline"
+          sliderUnitLabel="mya"
+          imageWidth={500}
+          imageHeight={500}
+          marks={[
+            {
+              value: 0,
+              label: '150',
+              image: image01
+            },
+            {
+              value: 25,
+              label: '100',
+              image: image02
+            },
+            {
+              value: 50,
+              label: '50',
+              image: image03
+            },
+          ]}
+        />
+
+        <h2>Tests Material UI Slider</h2>
+        <Slider
+          defaultValue={20}
+          aria-labelledby="discrete-slider-custom"
+          step={10}
+          valueLabelDisplay="auto"
+          marks={[
+            {
+              value: 0,
+              label: '0°C',
+            },
+            {
+              value: 20,
+              label: '20°C',
+            },
+            {
+              value: 37,
+              label: '37°C',
+            },
+            {
+              value: 100,
+              label: '100°C',
+            },
+          ]}
+        />
 
         <h2>MediaLinkButton</h2>
         <MediaLinkButton
@@ -156,16 +211,6 @@ To create a production build, use npm run build." />
               description: "Fastest land animal on earth!"
             }
           ]}
-        />
-
-        <h2>ImageSlide</h2>
-        <ImageSlide
-          images={[image01, image01, image02]}
-          labels={["150 mya", "100 mya", "50 mya"]}
-          title="Cheetah evolution"
-          caption="Slide the timeline to see the migration of cheetahs."
-          sliderBeginLabel="150 mya"
-          sliderEndLabel="50 mya"
         />
 
         <h2>ImageSlideDiscrete</h2>

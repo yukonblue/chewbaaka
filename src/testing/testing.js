@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 08, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 09, 2020
  */
 
 const CIRCLECI_KEY = 'CIRCLECI';
@@ -18,6 +18,8 @@ const PREDICATE_IS_ON_CI = () => ( ( CIRCLECI_KEY in process.env || CI_KEY in pr
 const PREDICATE_IS_LOCAL = () => ( ! ( PREDICATE_IS_ON_CI() ) );
 
 const PREDICATE_NO_OP = () => ( true );
+
+const PREDICATE_NEVER = () => ( false );
 
 const SKIP_TEST_ON_PREDICATE = (testBlock, pred) => {
   return () => {
@@ -44,6 +46,10 @@ const RUN_TEST_ONLY_LOCALLY = (callTest) => {
   RUN_TEST_ON_PREDICATE(PREDICATE_IS_LOCAL, callTest);
 };
 
+const RUN_TEST_NEVER = (callTest) => {
+  RUN_TEST_ON_PREDICATE(PREDICATE_NEVER, callTest);
+};
+
 export {
   SKIP_TEST_ON_PREDICATE,
   SKIP_TEST_ON_CIRCLE_CI,
@@ -52,5 +58,6 @@ export {
   SKIP_TEST,
   PREDICATE_NO_OP,
   RUN_TEST_ON_PREDICATE,
-  RUN_TEST_ONLY_LOCALLY
+  RUN_TEST_ONLY_LOCALLY,
+  RUN_TEST_NEVER
 };
