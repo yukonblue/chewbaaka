@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 10, 2020
  */
 
 export const config = {
@@ -50,18 +50,54 @@ export const config = {
       subsections: {
         subsection_Namibia: {
           contents: {
-            paragraph_01: "Namibia has the world's largest cheetah population. " +
-            "Approximately 3000 cheetahs share the land with humans, " +
-            "livestock, and wildlife. " +
+            paragraph_01:
+              "Namibia has the world's largest cheetah population. " +
+              "Approximately 3000 cheetahs share the land with humans, " +
+              "livestock, and wildlife. " +
 
-            "Today, the status of the Namibian cheetah is stabilizing. " +
-            "During the 1980s, the population of Namibina cheetahs " +
-            "declined by half. In the 10-year period, nearly " +
-            "7,000 cheetahs were removed from the wild. " +
+              "Today, the status of the Namibian cheetah is stabilizing. " +
+              "During the 1980s, the population of Namibina cheetahs " +
+              "declined by half. In the 10-year period, nearly " +
+              "7,000 cheetahs were removed from the wild. " +
 
-            "In most countries where cheetahs live, their numbers " +
-            "have been reduced to critical levels. The cheetah's " +
-            "survival worldwide is in human hands."
+              "In most countries where cheetahs live, their numbers " +
+              "have been reduced to critical levels. The cheetah's " +
+              "survival worldwide is in human hands.",
+
+            paragraph_The_Road_To_Extinction:
+              "World development, industrialization, automobiles, and aeroplanes..." +
+
+              "Through the 1900s, man's inventions seemed limitless, yet there is " +
+              "nothing man-made that rivals the speed and efficiency of the cheetah." +
+
+              "Scientists classified the cheetah as Acinonyx jubatus, yet nobles still " +
+              'referred to it as the "hunting leopard". By the end of the 1800s, cheetahs' +
+              'were a rarity in Asia Minor and Arabia because of their use in the sport ' +
+              'of "coursing".' +
+
+              'Although it appeared that the cheeatahs had a large range, their numbers ' +
+              'within that range existed in small pockets. Cheetahs, farmers and their livestock ' +
+              'all preferred open grasslands for their habitat. Increasing agricultural development ' +
+              'and new settlements played havoc with remaining cheetah populations.',
+
+            paragraph_Where_Did_The_Cheetah_Go:
+              'As human population grew, the amount of land devoted to livestock farming ' +
+              'steadily increased. Livestock filled the open land where cheetahs roamed. ' +
+              'Natural prey became scarce. Farmers kill other large predators. Although ' +
+              'game reserves protected them, cheetahs could not compete against hyoenas ' +
+              'and lions. Farmlands offered cheetahs a safe haven, but they sometimes killed livestock.' +
+
+              'Farmers saw cheetahs more frequently and thought their numbers had increased. ' +
+              'Cheetahs took the blame for most predator-related livestock losses. ' +
+              'Farmers killed cheetahs by the thousands as pests or to seell their skins ' +
+              'to the fur trade.' +
+
+              'By 1975, researches realized that the cheetah was in troubles. CITES ' +
+              '(Convention on International Trade of Endangered Species) placed the cheetah ' +
+              'on Appendix I, making international trade in live cheetah or cheetah products illegal. ' +
+              'Local laws supported CITES in many countries where cheetahs still lived. ' +
+              'Researchers began looking for ways to encourage the growth of cheetah populations ' +
+              'through land management practices.'
           }
         }
       }
