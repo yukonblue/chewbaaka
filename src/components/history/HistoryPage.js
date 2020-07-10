@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 10, 2020
  */
 
 import React from 'react';
@@ -13,7 +13,7 @@ import "semantic-ui-css/semantic.min.css";
 
 import ContentPageSkeleton from '../shared/ContentPageSkeleton'
 import ContentPageIntroParagraph from '../shared/ContentPageIntroParagraph'
-import ContentPageSectionHead from '../shared/ContentPageSectionHead'
+// import ContentPageSectionHead from '../shared/ContentPageSectionHead'
 
 import { config }  from './config'
 
@@ -23,7 +23,7 @@ import HistoryPageSectionEvolution from './HistoryPage_Section_Evolution'
 import HistoryPageSectionCheetahAndMan from './HistoryPage_Section_CheetahAndMan'
 import HistoryPageSectionRangeAndPopulation from './HistoryPage_Section_RangeAndPopulation'
 
-import HistoryPageCheetahsAtCCFSubsection from './HistoryPage_Subsection_CheetahsAtCCF'
+// import HistoryPageCheetahsAtCCFSubsection from './HistoryPage_Subsection_CheetahsAtCCF'
 
 import coverImage from './assets/cheetah-mother-and-cubs-on-termite-mound.jpg'
 
@@ -56,7 +56,7 @@ class HistoryPage extends React.Component {
 
         <HistoryPageSectionRangeAndPopulation config={config} />
 
-        {this.renderCheetahAmbassadorsSectionContent()}
+        {/* {this.renderCheetahAmbassadorsSectionContent()} */}
 
         <p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p>
         <p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p>
@@ -76,18 +76,18 @@ class HistoryPage extends React.Component {
    * Really consider moving this section into the
    * 'Future' page.
    */
-  renderCheetahAmbassadorsSectionContent() {
-    return (
-      <div>
-        <ContentPageSectionHead
-          title="Cheetah Ambassadaors"
-          content="Many cheetah left a legacy that ..."
-        />
+  // renderCheetahAmbassadorsSectionContent() {
+  //   return (
+  //     <div>
+  //       <ContentPageSectionHead
+  //         title="Cheetah Ambassadaors"
+  //         content="Many cheetah left a legacy that ..."
+  //       />
 
-        <HistoryPageCheetahsAtCCFSubsection />
-      </div>
-    );
-  }
+  //       <HistoryPageCheetahsAtCCFSubsection />
+  //     </div>
+  //   );
+  // }
 }
 
 export default HistoryPage;

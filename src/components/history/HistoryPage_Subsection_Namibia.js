@@ -19,8 +19,6 @@ import './HistoryPage_Subsection_Namibia.css'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 
-import { getElementStyleClassName } from '../../styling/styling'
-
 import ImageView from '../shared/ImageView'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
@@ -30,7 +28,7 @@ export default class HistoryPageNamibiaSubsection extends React.Component {
   render() {
     return (
       <div className="HistoryPageNamibiaSubsectionOuterContainer">
-        <ContentPageSubsectionTemplate content={this.renderContent()} />
+        <ContentPageSubsectionTemplate title={this.props.subsectionConfig.title} content={this.renderContent()} />
       </div>
     )
   }
@@ -38,9 +36,6 @@ export default class HistoryPageNamibiaSubsection extends React.Component {
   renderContent() {
     return (
       <div className="HistoryPageNamibiaSubsectionInnerContainer">
-        <div>
-          <h3 className={getElementStyleClassName("ContentPageSubsectionTitle")}>Namibia - Cheetah Capital of the World</h3>
-        </div>
         <div>
           <ContentPageSubsectionTwoColumnContentTemplate
             lhsColumn={{content: this.renderLhsColumnContent()}}

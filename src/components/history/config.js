@@ -27,6 +27,11 @@ export const config = {
       intro: {
         title: "Evolution",
         content: "The oldest fossils place  cheetahs in North America in what is now Texas, Nevada and Wyoming. Cheetahs were common throughout Asia, Africa, Europe and North America until the end of the last Ice Age, about 10,000 years ago, when massive climatic changes caused large numbers of mammals to disappear."
+      },
+      subsections: {
+        subsection_EvolutionOfCats: {
+          title: "Evolution of Cats"
+        }
       }
     },
     section_CheetahAndMan: {
@@ -36,6 +41,7 @@ export const config = {
       },
       subsections: {
         subsection_RelationshipsWithMan: {
+          title: "Relationships with Man",
           contents: {
             paragraph_01: "Try resizing the window: You'll see that each sentence is on one line when the window is wide enough. Only when the window is too narrow for the whole sentence will the sentence be broken over several lines. When you remove the 'margin-right: -50%' and resize the window again, you'll see that the sentences will be broken already when the window is still twice as wide as the text lines. "
           }
@@ -49,6 +55,7 @@ export const config = {
       },
       subsections: {
         subsection_Namibia: {
+          title: "Namibia - Cheetah Capital of the World",
           contents: {
             paragraph_01:
               "Namibia has the world's largest cheetah population. " +

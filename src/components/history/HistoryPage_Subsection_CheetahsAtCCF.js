@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 10, 2020
  */
 
 import React from 'react';
@@ -25,7 +25,7 @@ export default class HistoryPageCheetahsAtCCFSubsection extends React.Component 
   render() {
     return (
       <div className="HistoryPageCheetahsAtCCFSubsection">
-        <ContentPageSubsectionTemplate content={this.renderContent()} />
+        <ContentPageSubsectionTemplate title={this.props.subsectionConfig.title} content={this.renderContent()} />
       </div>
     )
   }
@@ -33,9 +33,6 @@ export default class HistoryPageCheetahsAtCCFSubsection extends React.Component 
   renderContent() {
     return (
       <div className="HistoryPageCheetahsAtCCFSubsectionInnerContainer">
-        <div>
-          <h3 className="ContentPageSubsectionTitle">Cheetahs at CCF</h3>
-        </div>
         <div>
           <h4 className="ContentPageSubsectionSubtitle">Chewbaaka</h4>
           <ContentPageSubsectionTwoColumnContentTemplate

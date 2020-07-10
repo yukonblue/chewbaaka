@@ -12,6 +12,9 @@ exports[`HistoryPageSectionEvolution component snapshot 1`] = `
         <div
           className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe"
         >
+          <h3
+            className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+          />
           <div
             className="ContentPageSectionHeadOuterContainer"
           >
@@ -58,16 +61,14 @@ exports[`HistoryPageSectionEvolution component snapshot 1`] = `
             <div
               className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe"
             >
+              <h3
+                className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+              >
+                Evolution of Cats
+              </h3>
               <div
                 className="HistoryPageFelidaeFamilyTreeSubsectionInnerContainer HistoryPageFelidaeFamilyTreeSubsectionInnerContainer_DebugColor DebugWireframe"
               >
-                <div>
-                  <h3
-                    className="ContentPageSubsectionTitle"
-                  >
-                    Evolution Tree of Cats
-                  </h3>
-                </div>
                 <div
                   className="HistoryPageFelidaeFamilyTreeSubsectionCore HistoryPageFelidaeFamilyTreeSubsectionCore_DebugColor DebugWireframe"
                 >

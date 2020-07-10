@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 10, 2020
  */
 
 import React from 'react';
@@ -24,7 +24,7 @@ export default class HistoryPageCheetahAndManImageSubsection extends React.Compo
   render() {
     return (
       <div className={getElementStyleClassName("HistoryPageCheetahAndManImageSubsectionOuterContainer")}>
-        <ContentPageSubsectionTemplate content={this.renderContent()} />
+        <ContentPageSubsectionTemplate title={this.props.subsectionConfig.title} content={this.renderContent()} />
       </div>
     )
   }
@@ -32,9 +32,6 @@ export default class HistoryPageCheetahAndManImageSubsection extends React.Compo
   renderContent() {
     return (
       <div className={getElementStyleClassName("HistoryPageCheetahAndManImageSubsectionInnerContainer")}>
-        <div>
-          <h3 className="ContentPageSubsectionTitle">Relationships with Man</h3>
-        </div>
         <div>
           <ContentPageSubsectionTwoColumnContentTemplate
             lhsColumn={{content: this.renderLhsContent()}}

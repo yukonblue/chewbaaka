@@ -12,6 +12,9 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
         <div
           className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe"
         >
+          <h3
+            className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+          />
           <div
             className="ContentPageSectionHeadOuterContainer"
           >
@@ -58,16 +61,14 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
             <div
               className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe"
             >
+              <h3
+                className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+              >
+                Namibia - Cheetah Capital of the World
+              </h3>
               <div
                 className="HistoryPageNamibiaSubsectionInnerContainer"
               >
-                <div>
-                  <h3
-                    className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
-                  >
-                    Namibia - Cheetah Capital of the World
-                  </h3>
-                </div>
                 <div>
                   <div
                     className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
