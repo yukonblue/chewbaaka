@@ -13,8 +13,12 @@ const getElementStyleClassName = (name) => {
   let res = [name];
 
   if ( config.styling.mode === "debug" ) {
-    res.push(name+"_DebugColor");
-    res.push(name+"_DebugWireframe");
+    if ( config.styling.debugStyles["DebugColor"] ) {
+      res.push(name+"_DebugColor");
+    }
+    if ( config.styling.debugStyles["DebugWireframe"] ) {
+      res.push("DebugWireframe")
+    }
   }
 
   return res.join(" ");

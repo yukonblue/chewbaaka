@@ -9,6 +9,10 @@
 
 export const config = {
   styling: {
-    mode: ''
+    mode: 'debug',
+    debugStyles: {
+      'DebugColor': true,
+      'DebugWireframe': true,
+    }
   }
 };

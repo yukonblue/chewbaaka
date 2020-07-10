@@ -27,6 +27,8 @@ import HistoryPageCheetahsAtCCFSubsection from './HistoryPage_Subsection_Cheetah
 
 import coverImage from './assets/cheetah-mother-and-cubs-on-termite-mound.jpg'
 
+import '../../styling/SharedStyles.css'
+
 class HistoryPage extends React.Component {
 
   render() {

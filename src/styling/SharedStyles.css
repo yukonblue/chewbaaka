@@ -1,0 +1,12 @@
+/**
+ * SharedStyles.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 09, 2020
+ * Updated  : Jul 09, 2020
+ */
+
+div.DebugWireframe {
+  border: 1px solid black;
+}
