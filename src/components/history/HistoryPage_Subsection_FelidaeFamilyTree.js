@@ -22,10 +22,19 @@ import FelidaeFamilyTree from './FelidaeFamilyTree'
 
 export default class HistoryPageFelidaeFamilyTreeSubsection extends React.Component {
 
+  static _SUBSECTION_NAME_ = "subsection_EvolutionOfCats";
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      subsectionConfig: props.sectionConfig.subsections[HistoryPageFelidaeFamilyTreeSubsection._SUBSECTION_NAME_]
+    };
+  }
+
   render() {
     return (
       <div className={getElementStyleClassName("HistoryPageFelidaeFamilyTreeSubsectionOuterContainer")}>
-        <ContentPageSubsectionTemplate title={this.props.subsectionConfig.title} content={this.renderContent()} />
+        <ContentPageSubsectionTemplate title={this.state.subsectionConfig.title} content={this.renderContent()} />
       </div>
     )
   }

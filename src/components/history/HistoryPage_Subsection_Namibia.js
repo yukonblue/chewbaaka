@@ -25,10 +25,19 @@ import MediaLinkButton from '../shared/MediaLinkButton'
 
 export default class HistoryPageNamibiaSubsection extends React.Component {
 
+  static _SUBSECTION_NAME_ = "subsection_Namibia";
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      subsectionConfig: props.sectionConfig.subsections[HistoryPageNamibiaSubsection._SUBSECTION_NAME_]
+    };
+  }
+
   render() {
     return (
       <div className="HistoryPageNamibiaSubsectionOuterContainer">
-        <ContentPageSubsectionTemplate title={this.props.subsectionConfig.title} content={this.renderContent()} />
+        <ContentPageSubsectionTemplate title={this.state.subsectionConfig.title} content={this.renderContent()} />
       </div>
     )
   }
@@ -50,7 +59,7 @@ export default class HistoryPageNamibiaSubsection extends React.Component {
     return (
       <div>
         <p>
-          {this.props.subsectionConfig.contents["paragraph_01"]}
+          {this.state.subsectionConfig.contents["paragraph_01"]}
         </p>
 
         <Segment inverted>

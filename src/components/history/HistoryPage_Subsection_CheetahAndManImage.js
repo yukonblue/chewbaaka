@@ -21,10 +21,19 @@ import ImageSlidingGallery from '../shared/ImageSlidingGallery'
 
 export default class HistoryPageCheetahAndManImageSubsection extends React.Component {
 
+  static _SUBSECTION_NAME_ = "subsection_RelationshipsWithMan";
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      subsectionConfig: props.sectionConfig.subsections[HistoryPageCheetahAndManImageSubsection._SUBSECTION_NAME_]
+    };
+  }
+
   render() {
     return (
       <div className={getElementStyleClassName("HistoryPageCheetahAndManImageSubsectionOuterContainer")}>
-        <ContentPageSubsectionTemplate title={this.props.subsectionConfig.title} content={this.renderContent()} />
+        <ContentPageSubsectionTemplate title={this.state.subsectionConfig.title} content={this.renderContent()} />
       </div>
     )
   }
@@ -45,7 +54,7 @@ export default class HistoryPageCheetahAndManImageSubsection extends React.Compo
   renderLhsContent() {
     return (
       <div className="HistoryPageCheetahAndManImageSubsectionContentTextContainer">
-        <p>{this.props.subsectionConfig.contents["paragraph_01"]}</p>
+        <p>{this.state.subsectionConfig.contents["paragraph_01"]}</p>
       </div>
     );
   }

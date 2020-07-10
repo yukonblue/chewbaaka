@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 08, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 10, 2020
  */
 
 import React from 'react';
@@ -39,7 +39,7 @@ export default class HistoryPageSectionCheetahAndMan extends React.Component {
     return (
       <div>
         <HistoryPageCheetahAndManImageSubsection
-          subsectionConfig={this.state.sectionConfig.subsections["subsection_RelationshipsWithMan"]}
+          sectionConfig={this.state.sectionConfig}
         />
       </div>
     );

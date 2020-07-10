@@ -38,7 +38,9 @@ export default class HistoryPageSectionEvolution extends React.Component {
   renderContent() {
     return (
       <div>
-        <HistoryPageFelidaeFamilyTreeSubsection subsectionConfig={this.state.sectionConfig.subsections["subsection_EvolutionOfCats"]} />
+        <HistoryPageFelidaeFamilyTreeSubsection
+          sectionConfig={this.state.sectionConfig}
+        />
       </div>
     );
   }

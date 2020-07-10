@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 08, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 10, 2020
  */
 
 import React from 'react';
@@ -39,7 +39,7 @@ export default class HistoryPageSectionRangeAndPopulation extends React.Componen
     return (
       <div>
         <HistoryPageNamibiaSubsection
-          subsectionConfig={this.state.sectionConfig.subsections["subsection_Namibia"]}
+          sectionConfig={this.state.sectionConfig}
         />
       </div>
     );
