@@ -83,28 +83,6 @@ export default class HistoryPageNamibiaSubsection extends React.Component {
             </Statistic>
           </Segment>
         </div>
-
-        <div className="DisplayInlineBlock">
-          <Segment inverted>
-            <Statistic inverted size="huge" color="orange">
-              <Statistic.Value>&lt;7,500</Statistic.Value>
-              <Statistic.Label>
-                Cheetahs were found in 31 populations in 23 African countries.
-              </Statistic.Label>
-            </Statistic>
-          </Segment>
-        </div>
-
-        <div className="DisplayInlineBlock">
-          <Segment inverted>
-            <Statistic inverted size="huge" color="red">
-              <Statistic.Value>&lt;50</Statistic.Value>
-              <Statistic.Label>
-                Asian cheetahs left in Iran.
-              </Statistic.Label>
-            </Statistic>
-          </Segment>
-        </div>
       </div>
     );
   }

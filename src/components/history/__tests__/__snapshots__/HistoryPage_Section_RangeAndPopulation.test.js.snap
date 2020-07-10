@@ -137,50 +137,6 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
                                       </div>
                                     </div>
                                   </div>
-                                  <div
-                                    className="DisplayInlineBlock"
-                                  >
-                                    <div
-                                      className="ui inverted segment"
-                                    >
-                                      <div
-                                        className="ui orange huge inverted statistic"
-                                      >
-                                        <div
-                                          className="value"
-                                        >
-                                          &lt;7,500
-                                        </div>
-                                        <div
-                                          className="label"
-                                        >
-                                          Cheetahs were found in 31 populations in 23 African countries.
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div
-                                    className="DisplayInlineBlock"
-                                  >
-                                    <div
-                                      className="ui inverted segment"
-                                    >
-                                      <div
-                                        className="ui red huge inverted statistic"
-                                      >
-                                        <div
-                                          className="value"
-                                        >
-                                          &lt;50
-                                        </div>
-                                        <div
-                                          className="label"
-                                        >
-                                          Asian cheetahs left in Iran.
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
                                 </div>
                               </div>
                             </div>
@@ -259,6 +215,71 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
                             </div>
                           </div>
                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="HistoryPageRoadSubsectionToExtinctionOuterContainer"
+        >
+          <div
+            className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+          >
+            <div
+              className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe"
+            >
+              <h3
+                className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+              >
+                The Road to Extinction ?
+              </h3>
+              <div
+                className="HistoryPageRoadSubsectionToExtinctionInnerContainer"
+              >
+                <div
+                  className="DisplayInlineBlock"
+                >
+                  <div
+                    className="ui inverted segment"
+                  >
+                    <div
+                      className="ui orange huge inverted statistic"
+                    >
+                      <div
+                        className="value"
+                      >
+                        &lt;7,500
+                      </div>
+                      <div
+                        className="label"
+                      >
+                        Cheetahs were found in 31 populations in 23 African countries.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="DisplayInlineBlock"
+                >
+                  <div
+                    className="ui inverted segment"
+                  >
+                    <div
+                      className="ui red huge inverted statistic"
+                    >
+                      <div
+                        className="value"
+                      >
+                        &lt;50
+                      </div>
+                      <div
+                        className="label"
+                      >
+                        Asian cheetahs left in Iran.
                       </div>
                     </div>
                   </div>

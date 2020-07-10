@@ -75,7 +75,11 @@ export const config = {
               "The greatest hope for the cheetah's survival lies in the " +
               'pristine countryside of Namibia. Nearly 1000 Namibian farmers ' +
               "control the fate of the country's cheetahs and the land they live.",
-
+          }
+        },
+        subsection_RoadToExtinction: {
+          title: "The Road to Extinction ?",
+          contents: {
             paragraph_The_Road_To_Extinction:
               "World development, industrialization, automobiles, and aeroplanes..." +
 
