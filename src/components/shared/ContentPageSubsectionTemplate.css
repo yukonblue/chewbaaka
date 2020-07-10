@@ -4,19 +4,23 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 09, 2020
  */
 
 div.ContentPageSubsectionTemplateOuterContainer {
   margin: 0 auto;
   padding: 50px 0px;
-  /* Uncomment line below for debugging. */
-  /* background-color: grey; */
+}
+
+div.ContentPageSubsectionTemplateOuterContainer_DebugColor {
+  background-color: grey;
 }
 
 div.ContentPageSubsectionTemplateInnerContainer {
   margin: 0 auto;
-  width: 85%;
-  /* Uncomment line below for debugging. */
+  width: 85%;  
+}
+
+div.ContentPageSubsectionTemplateInnerContainer_DebugColor {
   background-color: pink;
 }

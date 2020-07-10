@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 09, 2020
  */
 
 import React from 'react';
@@ -12,6 +12,7 @@ import React from 'react';
 import '../shared/ContentPageSharedStyles.css'
 import './HistoryPage_Subsection_CheetahsAtCCF.css'
 
+import { getElementStyleClassName } from '../../styling/styling'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 
@@ -72,7 +73,7 @@ export default class HistoryPageCheetahsAtCCFSubsection extends React.Component 
 
   renderRhsContentChewbaaka() {
     return (
-      <div className="HistoryPageCheetahsAtCCFSubsectionImageContainer">
+      <div className={getElementStyleClassName("HistoryPageCheetahsAtCCFSubsectionImageContainer")}>
         <CircularImage image="https://sotinpc.files.wordpress.com/2013/04/day-of-rememberance.jpg" title="Chewbaaka" />
       </div>
     );
@@ -80,7 +81,7 @@ export default class HistoryPageCheetahsAtCCFSubsection extends React.Component 
 
   renderLhsContentMekondyo() {
     return (
-      <div className="HistoryPageCheetahsAtCCFSubsectionImageContainer">
+      <div className={getElementStyleClassName("HistoryPageCheetahsAtCCFSubsectionImageContainer")}>
         <CircularImage image="https://globalgaz.com/wp-content/uploads/2018/07/DSC03746.jpg" title="Mekondyo" />
       </div>
     );

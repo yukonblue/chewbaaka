@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 06, 2020
+ * Updated  : Jul 09, 2020
  */
 
 import React from 'react';
@@ -20,6 +20,11 @@ import {
 
 import './ContentPageSharedStyles.css'
 import './ContentPageSkeleton.css'
+
+import {
+  getElementStyleClassName,
+  getElementStyleClassNames
+} from '../../styling/styling'
 
 import ContentPageHead from './ContentPageHead'
 import ContentPageSideNavMenu from './ContentPageSideNavMenu'
@@ -47,7 +52,7 @@ class ContentPageSkeleton extends React.Component {
 
   render() {
     return (
-      <div className="ContentPageSkeletonOuterContainer">
+      <div className={getElementStyleClassName("ContentPageSkeletonOuterContainer")}>
         <TopNavBar />
         <ContentPageHead pageProps={this.props.pageProps}/>
         <div>
@@ -62,7 +67,7 @@ class ContentPageSkeleton extends React.Component {
     return (
       <Ref innerRef={this.state.contextRef}>
         <div data-testid="ContentPageSkeletonComponentTestId">
-          <div className="ContentPageSkeletonContentContainerDimension ContentPageSkeletonContentContainer">
+          <div className={getElementStyleClassNames(["ContentPageSkeletonContentContainerDimension", "ContentPageSkeletonContentContainer"])}>
             {this.props.content}
           </div>
           <Rail internal position='left'>

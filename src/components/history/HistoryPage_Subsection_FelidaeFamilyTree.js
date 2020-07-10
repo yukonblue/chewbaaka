@@ -4,13 +4,15 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 09, 2020
  */
 
 import React from 'react';
 
 import '../shared/ContentPageSharedStyles.css'
 import './HistoryPage_Subsection_FelidaeFamilyTree.css'
+
+import { getElementStyleClassName } from '../../styling/styling'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
@@ -22,7 +24,7 @@ export default class HistoryPageFelidaeFamilyTreeSubsection extends React.Compon
 
   render() {
     return (
-      <div className="HistoryPageFelidaeFamilyTreeSubsectionOuterContainer">
+      <div className={getElementStyleClassName("HistoryPageFelidaeFamilyTreeSubsectionOuterContainer")}>
         <ContentPageSubsectionTemplate content={this.renderContent()} />
       </div>
     )
@@ -30,11 +32,11 @@ export default class HistoryPageFelidaeFamilyTreeSubsection extends React.Compon
 
   renderContent() {
     return (
-      <div className="HistoryPageFelidaeFamilyTreeSubsectionInnerContainer">
+      <div className={getElementStyleClassName("HistoryPageFelidaeFamilyTreeSubsectionInnerContainer")}>
         <div>
           <h3 className="ContentPageSubsectionTitle">Evolution Tree of Cats</h3>
         </div>
-        <div className="HistoryPageFelidaeFamilyTreeSubsectionCore">
+        <div className={getElementStyleClassName("HistoryPageFelidaeFamilyTreeSubsectionCore")}>
           <HintSignpost hintText="Hover over images below to reveal the genres" iconName="arrow circle down" />
           <FelidaeFamilyTree />
         </div>

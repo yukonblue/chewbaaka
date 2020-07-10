@@ -4,13 +4,15 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 09, 2020
  */
 
 import React from 'react';
 
 import '../shared/ContentPageSharedStyles.css'
 import './HistoryPage_Subsection_CheetahAndManImage.css'
+
+import { getElementStyleClassName } from '../../styling/styling'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
@@ -21,7 +23,7 @@ export default class HistoryPageCheetahAndManImageSubsection extends React.Compo
 
   render() {
     return (
-      <div className="HistoryPageCheetahAndManImageSubsectionOuterContainer">
+      <div className={getElementStyleClassName("HistoryPageCheetahAndManImageSubsectionOuterContainer")}>
         <ContentPageSubsectionTemplate content={this.renderContent()} />
       </div>
     )
@@ -29,7 +31,7 @@ export default class HistoryPageCheetahAndManImageSubsection extends React.Compo
 
   renderContent() {
     return (
-      <div className="HistoryPageCheetahAndManImageSubsectionInnerContainer">
+      <div className={getElementStyleClassName("HistoryPageCheetahAndManImageSubsectionInnerContainer")}>
         <div>
           <h3 className="ContentPageSubsectionTitle">Relationships with Man</h3>
         </div>

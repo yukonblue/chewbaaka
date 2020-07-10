@@ -2,7 +2,7 @@
 
 exports[`ContentPageBanner component snapshot 1`] = `
 <div
-  className="ContentPageSkeletonContentContainerDimension ContentPageBannerContainer"
+  className="ContentPageSkeletonContentContainerDimension ContentPageSkeletonContentContainerDimension_DebugColor DebugWireframe ContentPageBannerContainer ContentPageBannerContainer_DebugColor DebugWireframe"
   data-testid="ContentPageBannerComponentTestId"
   style={
     Object {

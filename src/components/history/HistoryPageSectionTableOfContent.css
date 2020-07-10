@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 09, 2020
  */
 
 div.HistoryPageSectionTableOfContentOuterContainer {
@@ -17,6 +17,8 @@ div.HistoryPageSectionTableOfContentOuterContainer {
    * Adjust for appropriate look and feel accordingly.
    */
   transform: translateY(-40%);
-  /* Uncomment line below for debugging. */
+}
+
+div.HistoryPageSectionTableOfContentOuterContainer_DebugColor {
   background-color: greenyellow;
 }

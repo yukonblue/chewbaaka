@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 09, 2020
  */
 
 import React from 'react';
@@ -14,6 +14,8 @@ import { Grid, GridColumn } from 'semantic-ui-react'
 import "semantic-ui-css/semantic.min.css";
 
 import './ContentPageTableOfContentMenuTemplate.css'
+
+import { getElementStyleClassName } from '../../styling/styling'
 
 import { ContentPageSectionTitleToAnchorId } from '../shared/ContentPageSectionAnchor'
 
@@ -36,7 +38,7 @@ function ContentPageTableOfContentMenuTemplate(props) {
   }
 
   return (
-    <div className="ContentPageTableOfContentMenuTemplateInnerContainer">
+    <div className={getElementStyleClassName("ContentPageTableOfContentMenuTemplateInnerContainer")}>
       <Grid columns={3}>
         <Grid.Row>
           {gridColumns}

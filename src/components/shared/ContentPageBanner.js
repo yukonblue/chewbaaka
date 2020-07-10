@@ -4,10 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 06, 2020
+ * Updated  : Jul 09, 2020
  */
 
 import React from 'react';
+
+import { getElementStyleClassNames } from '../../styling/styling'
 
 import './ContentPageSharedStyles.css'
 import './ContentPageBanner.css'
@@ -19,7 +21,7 @@ function ContentPageBanner(props) {
 
   return (
     <div
-      className="ContentPageSkeletonContentContainerDimension ContentPageBannerContainer"
+      className={getElementStyleClassNames(["ContentPageSkeletonContentContainerDimension", "ContentPageBannerContainer"])}
       style={contentPageBannerContainerStyles}
       data-testid="ContentPageBannerComponentTestId"
     >
