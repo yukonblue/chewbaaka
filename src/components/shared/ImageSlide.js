@@ -69,7 +69,7 @@ class ImageSlide extends React.Component {
   handleSliderChange(_, value) {
     this.setState((prevState) => ({
       activeMark: Number(value),
-      marksToImages: prevState.marksToImages
+      marksDict: prevState.marksDict
     }));
   }
 
