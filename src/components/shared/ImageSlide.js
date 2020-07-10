@@ -24,10 +24,10 @@
  *
  *  - `title` (optional): The title of the component.
  *
- *  - `sliderBeginLabel`: The label used for illustrating the semantic meaning
+ *  - `SliderNameLabel`: The label used for illustrating the semantic meaning
  *    of the beginning of the slider value.
  *
- *  - `sliderEndLabel`: The label used for illustrating the semantic meaning
+ *  - `SliderUnitLabel`: The label used for illustrating the semantic meaning
  *    of the end of the slider value.
  *
  *  - `title` (optional): Specify an optional caption text to demonstrate the
@@ -100,21 +100,21 @@ class ImageSlide extends React.Component {
 
             <div className={getElementStyleClassName("ImageSlideSliderAndLabelInnerContainer")}>
               <div className={getElementStyleClassName("ImageSlideSliderElementContainer")}>
-                <div className={getElementStyleClassName("ImageSlideComponentSliderBeginLabelContainer")}>
+                <div className={getElementStyleClassName("ImageSlideComponentSliderNameLabelContainer")}>
                   <Label
                     color="yellow"
-                    data-testid="ImageSlideComponentSliderBeginLabelPartTestId"
+                    data-testid="ImageSlideComponentSliderNameLabelPartTestId"
                   >
-                    {this.props.sliderBeginLabel}
+                    {this.props.sliderNameLabel}
                   </Label>
                 </div>
 
-                <div className={getElementStyleClassName("ImageSlideComponentSlideEndLabelContainer")}>
+                <div className={getElementStyleClassName("ImageSlideComponentSliderEndLabelContainer")}>
                   <Label
                     color="orange"
-                    data-testid="ImageSlideComponentSliderEndLabelPartTestId"
+                    data-testid="ImageSlideComponentSliderUnitLabelPartTestId"
                   >
-                    {this.props.sliderEndLabel}
+                    {this.props.sliderUnitLabel}
                   </Label>
                 </div>
 

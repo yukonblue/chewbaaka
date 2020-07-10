@@ -52,19 +52,19 @@ div.ImageSlideSliderAndLabelInnerContainer_DebugColor {
   background-color: lavender;
 }
 
-div.ImageSlideComponentSliderBeginLabelContainer {
+div.ImageSlideComponentSliderNameLabelContainer {
   float: left;
 }
 
-div.ImageSlideComponentSliderBeginLabelContainer_DebugColor {
+div.ImageSlideComponentSliderNameLabelContainer_DebugColor {
   background-color: lightskyblue;
 }
 
-div.ImageSlideComponentSlideEndLabelContainer {
+div.ImageSlideComponentSliderEndLabelContainer {
   float: right;
 }
 
-div.ImageSlideComponentSlideEndLabelContainer_DebugColor {
+div.ImageSlideComponentSliderEndLabelContainer_DebugColor {
   background-color: peru;
 }
 

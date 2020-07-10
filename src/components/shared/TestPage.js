@@ -61,8 +61,8 @@ class TestPage extends React.Component {
         <ImageSlide
           title="Cheetah evolution"
           caption="Slide the timeline to see the migration of cheetahs."
-          sliderBeginLabel="Timeline"
-          sliderEndLabel="mya"
+          sliderNameLabel="Timeline"
+          sliderUnitLabel="mya"
           imageWidth={500}
           imageHeight={500}
           marks={[
