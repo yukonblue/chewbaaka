@@ -53,7 +53,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
     >
       <div>
         <div
-          className="HistoryPageCheetahAndManImageSubsectionOuterContainer HistoryPageCheetahAndManImageSubsectionOuterContainer_DebugColor DebugWireframe"
+          className="HistoryPageSubsectionCheetahAndManImageOuterContainer HistoryPageSubsectionCheetahAndManImageOuterContainer_DebugColor DebugWireframe"
         >
           <div
             className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
@@ -67,7 +67,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                 Relationships with Man
               </h3>
               <div
-                className="HistoryPageCheetahAndManImageSubsectionInnerContainer HistoryPageCheetahAndManImageSubsectionInnerContainer_DebugColor DebugWireframe"
+                className="HistoryPageSubsectionCheetahAndManImageInnerContainer HistoryPageSubsectionCheetahAndManImageInnerContainer_DebugColor DebugWireframe"
               >
                 <div>
                   <div
@@ -90,7 +90,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                                 className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
                                 <div
-                                  className="HistoryPageCheetahAndManImageSubsectionContentTextContainer"
+                                  className="HistoryPageSubsectionCheetahAndManImageContentTextContainer"
                                 >
                                   <p>
                                     Try resizing the window: You'll see that each sentence is on one line when the window is wide enough. Only when the window is too narrow for the whole sentence will the sentence be broken over several lines. When you remove the 'margin-right: -50%' and resize the window again, you'll see that the sentences will be broken already when the window is still twice as wide as the text lines. 

@@ -11,7 +11,7 @@ import React from 'react';
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate';
 
-import HistoryPageFelidaeFamilyTreeSubsection from './HistoryPage_Subsection_FelidaeFamilyTree'
+import HistoryPageSubsectionFelidaeFamilyTree from './HistoryPage_Subsection_FelidaeFamilyTree'
 
 export default class HistoryPageSectionEvolution extends React.Component {
 
@@ -38,7 +38,7 @@ export default class HistoryPageSectionEvolution extends React.Component {
   renderContent() {
     return (
       <div>
-        <HistoryPageFelidaeFamilyTreeSubsection
+        <HistoryPageSubsectionFelidaeFamilyTree
           sectionConfig={this.state.sectionConfig}
         />
       </div>

@@ -19,20 +19,20 @@ import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPage
 
 import ImageSlidingGallery from '../shared/ImageSlidingGallery'
 
-export default class HistoryPageCheetahAndManImageSubsection extends React.Component {
+export default class HistoryPageSubsectionCheetahAndManImage extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_RelationshipsWithMan";
 
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[HistoryPageCheetahAndManImageSubsection._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[HistoryPageSubsectionCheetahAndManImage._SUBSECTION_NAME_]
     };
   }
 
   render() {
     return (
-      <div className={getElementStyleClassName("HistoryPageCheetahAndManImageSubsectionOuterContainer")}>
+      <div className={getElementStyleClassName("HistoryPageSubsectionCheetahAndManImageOuterContainer")}>
         <ContentPageSubsectionTemplate title={this.state.subsectionConfig.title} content={this.renderContent()} />
       </div>
     )
@@ -40,7 +40,7 @@ export default class HistoryPageCheetahAndManImageSubsection extends React.Compo
 
   renderContent() {
     return (
-      <div className={getElementStyleClassName("HistoryPageCheetahAndManImageSubsectionInnerContainer")}>
+      <div className={getElementStyleClassName("HistoryPageSubsectionCheetahAndManImageInnerContainer")}>
         <div>
           <ContentPageSubsectionTwoColumnContentTemplate
             lhsColumn={{content: this.renderLhsContent()}}
@@ -53,7 +53,7 @@ export default class HistoryPageCheetahAndManImageSubsection extends React.Compo
 
   renderLhsContent() {
     return (
-      <div className="HistoryPageCheetahAndManImageSubsectionContentTextContainer">
+      <div className="HistoryPageSubsectionCheetahAndManImageContentTextContainer">
         <p>{this.state.subsectionConfig.contents["paragraph_01"]}</p>
       </div>
     );

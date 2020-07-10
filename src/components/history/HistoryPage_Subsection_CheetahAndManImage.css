@@ -4,25 +4,25 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 10, 2020
  */
 
-div.HistoryPageCheetahAndManImageSubsectionOuterContainer {
+div.HistoryPageSubsectionCheetahAndManImageOuterContainer {
   /* margin: 0 auto; */
 }
 
-div.HistoryPageCheetahAndManImageSubsectionOuterContainer_DebugColor {
+div.HistoryPageSubsectionCheetahAndManImageOuterContainer_DebugColor {
   background-color: turquoise;
 }
 
-div.HistoryPageCheetahAndManImageSubsectionInnerContainer {
+div.HistoryPageSubsectionCheetahAndManImageInnerContainer {
   margin: 0 auto;
 }
 
-div.HistoryPageCheetahAndManImageSubsectionInnerContainer_DebugColor {
+div.HistoryPageSubsectionCheetahAndManImageInnerContainer_DebugColor {
   background-color: rgb(171, 130, 238);
 }
 
-div.HistoryPageCheetahAndManImageSubsectionContentTextContainer {
+div.HistoryPageSubsectionCheetahAndManImageContentTextContainer {
   text-align: right;
 }
