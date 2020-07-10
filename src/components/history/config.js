@@ -129,7 +129,7 @@ export const config = {
               "livestock, and wildlife. " +
 
               "Today, the status of the Namibian cheetah is stabilizing. " +
-              "During the 1980s, the population of Namibina cheetahs " +
+              "During the 1980s, the population of Namibian cheetahs " +
               "declined by half. In the 10-year period, nearly " +
               "7,000 cheetahs were removed from the wild. " +
 
