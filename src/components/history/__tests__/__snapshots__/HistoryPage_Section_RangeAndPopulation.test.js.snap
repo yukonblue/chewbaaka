@@ -224,7 +224,7 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
           </div>
         </div>
         <div
-          className="HistoryPageRoadSubsectionToExtinctionOuterContainer"
+          className="HistoryPageSubsectionRoadToExtinctionOuterContainer"
         >
           <div
             className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
@@ -238,7 +238,7 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
                 The Road to Extinction ?
               </h3>
               <div
-                className="HistoryPageRoadSubsectionToExtinctionInnerContainer"
+                className="HistoryPageSubsectionRoadToExtinctionInnerContainer"
               >
                 <div
                   className="DisplayInlineBlock"

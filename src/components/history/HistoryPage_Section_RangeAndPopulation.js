@@ -12,7 +12,7 @@ import React from 'react';
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate';
 
 import HistoryPageNamibiaSubsection from './HistoryPage_Subsection_Namibia'
-import HistoryPageRoadSubsectionToExtinction from './HistoryPage_Subsection_RoadToExtinction'
+import HistoryPageSubsectionRoadToExtinction from './HistoryPage_Subsection_RoadToExtinction'
 
 export default class HistoryPageSectionRangeAndPopulation extends React.Component {
 
@@ -43,7 +43,7 @@ export default class HistoryPageSectionRangeAndPopulation extends React.Componen
           sectionConfig={this.state.sectionConfig}
         />
 
-        <HistoryPageRoadSubsectionToExtinction
+        <HistoryPageSubsectionRoadToExtinction
           sectionConfig={this.state.sectionConfig}
         />
       </div>

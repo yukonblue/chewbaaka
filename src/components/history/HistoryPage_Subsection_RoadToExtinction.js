@@ -18,20 +18,20 @@ import './HistoryPage_Subsection_RoadToExtinction.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
-export default class HistoryPageRoadSubsectionToExtinction extends React.Component {
+export default class HistoryPageSubsectionRoadToExtinction extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_RoadToExtinction";
 
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[HistoryPageRoadSubsectionToExtinction._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[HistoryPageSubsectionRoadToExtinction._SUBSECTION_NAME_]
     };
   }
 
   render() {
     return (
-      <div className="HistoryPageRoadSubsectionToExtinctionOuterContainer">
+      <div className="HistoryPageSubsectionRoadToExtinctionOuterContainer">
         <ContentPageSubsectionTemplate title={this.state.subsectionConfig.title} content={this.renderContent()} />
       </div>
     )
@@ -39,7 +39,7 @@ export default class HistoryPageRoadSubsectionToExtinction extends React.Compone
 
   renderContent() {
     return (
-      <div className="HistoryPageRoadSubsectionToExtinctionInnerContainer">
+      <div className="HistoryPageSubsectionRoadToExtinctionInnerContainer">
         <div className="DisplayInlineBlock">
           <Segment inverted>
             <Statistic inverted size="huge" color="orange">
