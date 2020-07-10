@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
+<div>
+  <div
+    className="ContentPageSectionTemplateOuterContainer ContentPageSectionTemplateOuterContainer_DebugColor DebugWireframe"
+  >
+    <div>
+      <div
+        className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+      >
+        <div
+          className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe"
+        >
+          <div
+            className="ContentPageSectionHeadOuterContainer"
+          >
+            <div
+              data-testid="ContentPageSectionAnchorComponentTestId"
+              id="cheetah-and-man"
+            />
+            <div
+              className="ContentPageSectionHeadInnerContainer ContentPageSectionHeadInnerContainer_DebugColor DebugWireframe"
+            >
+              <div
+                className="ContentPageSectionHeadTitleContainer ContentPageSectionHeadTitleContainer_DebugColor DebugWireframe"
+              >
+                <h2
+                  className="ContentPageSectionHeadTitle"
+                >
+                  Cheetah and Man
+                </h2>
+              </div>
+              <div
+                className="ContentPageIntroParagraphContentContainer"
+              >
+                <p
+                  className="ContentPageSectionSubtitleText"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ContentPageSectionTemplateInnerContainer ContentPageSectionTemplateInnerContainer_DebugColor DebugWireframe"
+    >
+      <div>
+        <div
+          className="HistoryPageCheetahAndManImageSubsectionOuterContainer HistoryPageCheetahAndManImageSubsectionOuterContainer_DebugColor DebugWireframe"
+        >
+          <div
+            className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+          >
+            <div
+              className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe"
+            >
+              <div
+                className="HistoryPageCheetahAndManImageSubsectionInnerContainer HistoryPageCheetahAndManImageSubsectionInnerContainer_DebugColor DebugWireframe"
+              >
+                <div>
+                  <h3
+                    className="ContentPageSubsectionTitle"
+                  >
+                    Relationships with Man
+                  </h3>
+                </div>
+                <div>
+                  <div
+                    className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
+                  >
+                    <div
+                      className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+                    >
+                      <div>
+                        <div
+                          className="ui vertically divided grid"
+                        >
+                          <div
+                            className="two column row"
+                          >
+                            <div
+                              className="column"
+                            >
+                              <div
+                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
+                              >
+                                <div
+                                  className="HistoryPageCheetahAndManImageSubsectionContentTextContainer"
+                                >
+                                  <p>
+                                    Try resizing the window: You'll see that each sentence is on one line when the window is wide enough. Only when the window is too narrow for the whole sentence will the sentence be broken over several lines. When you remove the 'margin-right: -50%' and resize the window again, you'll see that the sentences will be broken already when the window is still twice as wide as the text lines. 
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              className="column"
+                            >
+                              <div
+                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
+                              >
+                                <div>
+                                  <div
+                                    className="ImageSlidingGalleryOuterContainer"
+                                  >
+                                    <div
+                                      className="ImageSlidingGalleryCoreContainer"
+                                    >
+                                      <img
+                                        alt="Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words"
+                                        className="ImageSlidingGalleryImgPart"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/War_trophies_Deir_el_Bahari_Wellcome_L0027402.jpg/440px-War_trophies_Deir_el_Bahari_Wellcome_L0027402.jpg"
+                                      />
+                                      <div
+                                        className="ImageSlidingGalleryCaptionPart"
+                                        data-testid="ImageSlidingGalleryCaptionPart"
+                                      >
+                                        <div
+                                          className="CaptionContainer"
+                                          data-testid="CaptionComponentTestId"
+                                        >
+                                          <div
+                                            className="IconContainer"
+                                          >
+                                            <i
+                                              aria-hidden="true"
+                                              className="image icon"
+                                              onClick={[Function]}
+                                            />
+                                          </div>
+                                          <p
+                                            className="CaptionText"
+                                          >
+                                            Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div
+                                      className="ImageSlidingGalleryButtonContainer"
+                                    >
+                                      <div
+                                        className="ui blue huge icon left attached button"
+                                        onClick={[Function]}
+                                        role="button"
+                                        tabIndex={0}
+                                      >
+                                        <i
+                                          aria-hidden="true"
+                                          className="arrow alternate circle left outline icon"
+                                          onClick={[Function]}
+                                        />
+                                      </div>
+                                      <div
+                                        className="ui blue huge icon right attached button"
+                                        onClick={[Function]}
+                                        role="button"
+                                        tabIndex={0}
+                                      >
+                                        <i
+                                          aria-hidden="true"
+                                          className="arrow alternate circle right outline icon"
+                                          onClick={[Function]}
+                                        />
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
