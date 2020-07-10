@@ -126,19 +126,23 @@ export const config = {
             paragraph_Cheetah_Capital_Of_The_World: {
               title: "Namibia",
               subtitle: "Cheetah Capital of the World",
-              content:
-                "Namibia has the world's largest cheetah population. " +
-                "Approximately 3000 cheetahs share the land with humans, " +
-                "livestock, and wildlife. " +
+              content: {
+                paragraph_Cheetah_Capital_Of_The_World_01:
+                  "Namibia has the world's largest cheetah population. " +
+                  "Approximately 3000 cheetahs share the land with humans, " +
+                  "livestock, and wildlife.",
 
-                "Today, the status of the Namibian cheetah is stabilizing. " +
-                "During the 1980s, the population of Namibian cheetahs " +
-                "declined by half. In the 10-year period, nearly " +
-                "7,000 cheetahs were removed from the wild. " +
+                paragraph_Cheetah_Capital_Of_The_World_02:
+                  "Today, the status of the Namibian cheetah is stabilizing. " +
+                  "During the 1980s, the population of Namibian cheetahs " +
+                  "declined by half. In the 10-year period, nearly " +
+                  "7,000 cheetahs were removed from the wild.",
 
-                "In most countries where cheetahs live, their numbers " +
-                "have been reduced to critical levels. The cheetah's " +
-                "survival worldwide is in human hands.",
+                paragraph_Cheetah_Capital_Of_The_World_03:
+                  "In most countries where cheetahs live, their numbers " +
+                  "have been reduced to critical levels. The cheetah's " +
+                  "survival worldwide is in human hands."
+              }
             },
             paragraph_Namibia_Home_For_The_Future: {
               title: "Namibia",

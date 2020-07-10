@@ -68,7 +68,13 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
     return (
       <div>
         <p>
-          {this.state.subsectionConfig.contents["paragraph_Cheetah_Capital_Of_The_World"].content}
+          {this.state.subsectionConfig.contents["paragraph_Cheetah_Capital_Of_The_World"].content.paragraph_Cheetah_Capital_Of_The_World_01}
+        </p>
+        <p>
+          {this.state.subsectionConfig.contents["paragraph_Cheetah_Capital_Of_The_World"].content.paragraph_Cheetah_Capital_Of_The_World_02}
+        </p>
+        <p>
+          {this.state.subsectionConfig.contents["paragraph_Cheetah_Capital_Of_The_World"].content.paragraph_Cheetah_Capital_Of_The_World_03}
         </p>
 
         <div className="DisplayInlineBlock">
