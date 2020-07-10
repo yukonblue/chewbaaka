@@ -56,7 +56,33 @@ export const config = {
               'The San of Southern Africa ate cheetah meat as a symbol for speed, but it was not a main food in their diet.',
             paragraph_Cheetah_And_Man_04:
               'Kings wore cheetah skins for dignity. Trade in cheetah skin only started after European explorers began ' +
-              'requesting them.'
+              'requesting them.',
+
+            paragraph_The_Hunting_Leopard_01:
+              'In c1700 BC, the Egyptians were the first to tame cheetahs. They admired the cheetah for its speed, ' +
+              'hunting ability and beauty. They honored cheetahs as symbols of royalty and prestige.',
+
+            paragraph_The_Hunting_Leopard_02:
+              'The swiftest animal on earth became a cherished hunting companion of Pharaohs and royalty ' +
+              'throughout Europe, Asia and India. Until the early 1900s, ownership of cheetahs was as important ' +
+              'to these nobles as their love for gold. Cheetahs hunt by sight so they excelled in the sport ' +
+              'known as "coursing". Hunts organized by royalty and nobles were for the challenge of sport, ' +
+              'not for food. Hunts represented power and prestige.',
+
+            paragraph_The_Hunting_Leopard_03:
+              'By the 1500s the popularity of the cheetah as a hunting companion rivalled that of the dog. ' +
+              'Cheetahs, the most easily tamed of the big cats, were caught, tamed and trained. Adults were ' +
+              'used because cubs had not learned how to hunt. Tamed cheetahs formed a strong bond with their keepers.',
+
+            paragraph_The_Hunting_Leopard_04:
+              'Each cheetah rode to the hunt by horseback or on a cart. Its eyes were coved with a hood and uncovered ' +
+              'when prey were sighted. The cat was released to chase down the prey then rewarded with meat fed from a ' +
+              'wooden spoon.',
+
+            paragraph_The_Hunting_Leopard_05:
+              'Althrough cherished, pampered cheetahs were loved to near extinction and taken from the wild in great numbers. ' +
+              'By the early 1900s, India and Iran were importing African cheetahs for the sport of "coursing", as their own ' +
+              'wild population became too small.'
           }
         }
       }
