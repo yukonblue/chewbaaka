@@ -17,6 +17,7 @@ import '../shared/ContentPageSharedStyles.css'
 import './HistoryPage_Subsection_RoadToExtinction.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPageSubsectionThreeColumnContentTemplate'
 
 export default class HistoryPageSubsectionRoadToExtinction extends React.Component {
 
@@ -61,7 +62,39 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
             </Statistic>
           </Segment>
         </div>
+
+        <ContentPageSubsectionThreeColumnContentTemplate
+          lhsColumn={{
+            title: "The Road to Extinction?",
+            content: this.renderRhsColumnContent()
+          }}
+          middleColumn={{
+            content: "middle"
+          }}
+          rhsColumn={{
+            title: "Where Did the Cheetah Go?",
+            content: this.renderRhsColumnContent()
+          }}
+        />
       </div>
     );
+  }
+
+  renderLhsColumnContent() {
+    return this.renderSideColumnContent(this.state.subsectionConfig.contents["paragraph_The_Road_To_Extinction"]);
+  }
+
+  renderRhsColumnContent() {
+    return this.renderSideColumnContent(this.state.subsectionConfig.contents["paragraph_Where_Did_The_Cheetah_Go"]);
+  }
+
+  renderSideColumnContent(content) {
+    return (
+      <div>
+        <div>
+          {content}
+        </div>
+      </div>
+    )
   }
 }
