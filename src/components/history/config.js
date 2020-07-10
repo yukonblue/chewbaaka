@@ -64,6 +64,11 @@ export const config = {
               "have been reduced to critical levels. The cheetah's " +
               "survival worldwide is in human hands.",
 
+            paragraph_Namibia_Home_For_The_Future:
+              "The greatest hope for the cheetah's survival lies in the " +
+              'pristine countryside of Namibia. Nearly 1000 Namibian farmers ' +
+              "control the fate of the country's cheetahs and the land they live.",
+
             paragraph_The_Road_To_Extinction:
               "World development, industrialization, automobiles, and aeroplanes..." +
 
