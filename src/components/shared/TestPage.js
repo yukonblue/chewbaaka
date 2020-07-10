@@ -59,12 +59,29 @@ class TestPage extends React.Component {
 
         <h2>ImageSlide</h2>
         <ImageSlide
-          images={[image01, image01, image02]}
-          labels={["150 mya", "100 mya", "50 mya"]}
           title="Cheetah evolution"
           caption="Slide the timeline to see the migration of cheetahs."
-          sliderBeginLabel="150 mya"
-          sliderEndLabel="50 mya"
+          sliderBeginLabel="Timeline"
+          sliderEndLabel="mya"
+          imageWidth={500}
+          imageHeight={500}
+          marks={[
+            {
+              value: 0,
+              label: '150',
+              image: image01
+            },
+            {
+              value: 25,
+              label: '100',
+              image: image02
+            },
+            {
+              value: 50,
+              label: '50',
+              image: image03
+            },
+          ]}
         />
 
         <h2>Tests Material UI Slider</h2>
