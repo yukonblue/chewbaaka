@@ -127,6 +127,7 @@ class ImageSlide extends React.Component {
                   valueLabelDisplay="auto"
                   marks={this.props.marks}
                   onChange={this.handleSliderChange}
+                  data-testid="ImageSlideComponentSliderPartTestId"
                 />
 
               </div>
