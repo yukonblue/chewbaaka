@@ -2,7 +2,7 @@
 
 exports[`ContentPageHead component snapshot 1`] = `
 <div
-  className="ContentPageSkeletonContentContainerDimension ContentPageHeadOuterContainer"
+  className="ContentPageSkeletonContentContainerDimension ContentPageSkeletonContentContainerDimension_DebugColor DebugWireframe ContentPageHeadOuterContainer ContentPageHeadOuterContainer_DebugColor DebugWireframe"
   data-testid="ContentPageHeadComponentTestId"
 >
   <div
@@ -70,7 +70,7 @@ exports[`ContentPageHead component snapshot 1`] = `
     </div>
   </div>
   <div
-    className="ContentPageSkeletonContentContainerDimension ContentPageBannerContainer"
+    className="ContentPageSkeletonContentContainerDimension ContentPageSkeletonContentContainerDimension_DebugColor DebugWireframe ContentPageBannerContainer ContentPageBannerContainer_DebugColor DebugWireframe"
     data-testid="ContentPageBannerComponentTestId"
     style={
       Object {
