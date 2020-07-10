@@ -160,7 +160,7 @@ export const config = {
               'of "coursing".',
 
             paragraph_The_Road_To_Extinction_04:
-              'Although it appeared that the cheeatahs had a large range, their numbers ' +
+              'Although it appeared that the cheetahs had a large range, their numbers ' +
               'within that range existed in small pockets. Cheetahs, farmers and their livestock ' +
               'all preferred open grasslands for their habitat. Increasing agricultural development ' +
               'and new settlements played havoc with remaining cheetah populations.',
@@ -169,13 +169,13 @@ export const config = {
               'As human population grew, the amount of land devoted to livestock farming ' +
               'steadily increased. Livestock filled the open land where cheetahs roamed. ' +
               'Natural prey became scarce. Farmers kill other large predators. Although ' +
-              'game reserves protected them, cheetahs could not compete against hyoenas ' +
+              'game reserves protected them, cheetahs could not compete against hyenas ' +
               'and lions. Farmlands offered cheetahs a safe haven, but they sometimes killed livestock.',
 
             paragraph_Where_Did_The_Cheetah_Go_02:
               'Farmers saw cheetahs more frequently and thought their numbers had increased. ' +
               'Cheetahs took the blame for most predator-related livestock losses. ' +
-              'Farmers killed cheetahs by the thousands as pests or to seell their skins ' +
+              'Farmers killed cheetahs by the thousands as pests or to sell their skins ' +
               'to the fur trade.',
 
             paragraph_Where_Did_The_Cheetah_Go_03:
