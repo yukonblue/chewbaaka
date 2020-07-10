@@ -88,6 +88,29 @@ export const config = {
               'By the early 1900s, India and Iran were importing African cheetahs for the sport of "coursing", as their own ' +
               'wild population became too small.'
           }
+        },
+        subsection_CheetahsInArt: {
+          title: "Cheetahs In Art",
+          contents: {
+            paragraph_Cheetah_In_Art_01:
+              'Sumerians (Iraqi ancestors) were the first to use cheetahs in art.',
+
+            paragraph_Cheetah_In_Art_02:
+              'The cheetah and leopard have often been mistaken for each other. ' +
+              'Cheetahs in early art were frequently called "panther" ' +
+              'or "hunting leopard". Early artists called the true leopard "pardus" ' +
+              'and described it as a cross between a cheetah (panther), and the lion (leo).',
+
+            paragraph_Cheetah_In_Art_03:
+              'Middle Age and Renaissance artists began drawing cheetahs and other ' +
+              'animals more life-like. During this time of scientific exploration, ' +
+              'detailed descriptions of animals provided incentive for reality in art. ' +
+              'Artists included cheetahs more often in their paintings as the trade in ' +
+              'live animals increased.',
+
+            paragraph_Cheetah_In_Art_04:
+              'Artists always pictured cheetahs as animals of speed and royalty.'
+          }
         }
       }
     },
