@@ -45,9 +45,9 @@ export const config = {
           contents: {
             paragraph_01: "Try resizing the window: You'll see that each sentence is on one line when the window is wide enough. Only when the window is too narrow for the whole sentence will the sentence be broken over several lines. When you remove the 'margin-right: -50%' and resize the window again, you'll see that the sentences will be broken already when the window is still twice as wide as the text lines. ",
             paragraph_Cheetah_And_Man_01:
-              'Traditional African healers and witchdoctors used cheetah foot bones in spiritualistic rituals to symbolize ? footnedness and speed. ' +
+              'Traditional African healers and witchdoctors used cheetah foot bones in spiritualistic rituals to symbolize fleet-footnedness and speed. ' +
               'They used bones from a wide variety of animals and techniques varied from tribe to tribe. Objects ' +
-              'represented a person, a thing or mood fron the past, present or future, and are known as ? sets.',
+              'represented a person, a thing or mood fron the past, present or future, and are known as Divinatory sets.',
             paragraph_Cheetah_And_Man_02:
               'During the time of the Egyptian pharaohs, the cheetah was considered a goddess named ' +
               '"Mafdet". Pharaohs kept cheetahs was close companions, ' +
