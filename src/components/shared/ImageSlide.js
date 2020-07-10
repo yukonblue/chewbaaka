@@ -38,7 +38,7 @@ import React from 'react';
 
 import "semantic-ui-css/semantic.min.css";
 
-import { Container, Header, Grid, Label, GridColumn } from 'semantic-ui-react'
+import { Header, Label } from 'semantic-ui-react'
 
 import { Slider } from '@material-ui/core';
 
@@ -47,8 +47,6 @@ import './ImageSlide.css'
 import { getElementStyleClassName } from '../../styling/styling'
 
 class ImageSlide extends React.Component {
-
-  // TODO: Style this component.
 
   constructor(props) {
     super(props);
@@ -60,7 +58,7 @@ class ImageSlide extends React.Component {
     this.handleSliderChange = this.handleSliderChange.bind(this);
   }
 
-  handleSliderChange(event, value) {
+  handleSliderChange(_, value) {
     this.setState((prevState) => ({
       activeMark: Number(value),
       marksToImages: prevState.marksToImages
@@ -68,8 +66,6 @@ class ImageSlide extends React.Component {
   }
 
   render() {
-    const controlButtonsAlignment = this.props.controlButtonsAlignment? this.props.controlButtonsAlignment : "center";
-
     const imageDimensionStyle = {
       width: this.props.imageWidth,
       height: this.props.imageHeight
@@ -77,32 +73,53 @@ class ImageSlide extends React.Component {
 
     return (
       <div className={getElementStyleClassName("ImageSlideOuterContainer")} data-testid="ImageSlideComponentTestId">
+
         <div className={getElementStyleClassName("ImageSlideInnerContainer")}>
-          <Header as='h1' textAlign="center" data-testid="ImageSlideComponentTitlePartTestId">{this.props.title}</Header>
+
+          <Header as='h1' textAlign="center" data-testid="ImageSlideComponentTitlePartTestId">
+            {this.props.title}
+          </Header>
+
           <img
             className={getElementStyleClassName("ImageSlideImgElement")} 
             src={this.state.marksDict[this.state.activeMark].image}
+            alt={this.state.marksDict[this.state.activeMark].label}
             style={imageDimensionStyle}
             data-testid="ImageSlideComponentImgPartTestId"
           />
+
           <div className={getElementStyleClassName("ImageSlideSliderAndLabelOuterContainer")}>
             <div className={getElementStyleClassName("ImageSlideLabelOuterContainer")}>
-              <Label circular color="black" data-testid="ImageSlideComponentLabelPartTestId">{this.state.marksDict[this.state.activeMark].label}</Label>
+              <Label
+                color="black"
+                data-testid="ImageSlideComponentLabelPartTestId"
+              >
+                {this.state.marksDict[this.state.activeMark].label}
+              </Label>
             </div>
 
             <div className={getElementStyleClassName("ImageSlideSliderAndLabelInnerContainer")}>
               <div className={getElementStyleClassName("ImageSlideSliderElementContainer")}>
                 <div className={getElementStyleClassName("ImageSlideComponentSliderBeginLabelContainer")}>
-                  <Label circular color="yellow" data-testid="ImageSlideComponentSliderBeginLabelPartTestId">{this.props.sliderBeginLabel}</Label>
+                  <Label
+                    color="yellow"
+                    data-testid="ImageSlideComponentSliderBeginLabelPartTestId"
+                  >
+                    {this.props.sliderBeginLabel}
+                  </Label>
                 </div>
 
                 <div className={getElementStyleClassName("ImageSlideComponentSlideEndLabelContainer")}>
-                  <Label circular color="orange" data-testid="ImageSlideComponentSliderEndLabelPartTestId">{this.props.sliderEndLabel}</Label>
+                  <Label
+                    color="orange"
+                    data-testid="ImageSlideComponentSliderEndLabelPartTestId"
+                  >
+                    {this.props.sliderEndLabel}
+                  </Label>
                 </div>
 
                 <Slider
                   defaultValue={this.props.marks[0].value}
-                  // getAriaValueText={(value, idx) => (this.state.marksDict[value].label)}
                   valueLabelFormat={(value) => ("")}
                   aria-labelledby="discrete-slider-restrict"
                   step={null}
@@ -110,7 +127,7 @@ class ImageSlide extends React.Component {
                   marks={this.props.marks}
                   onChange={this.handleSliderChange}
                 />
-                
+
               </div>
             </div>
 
@@ -118,7 +135,9 @@ class ImageSlide extends React.Component {
               {this.props.caption}
             </p>
           </div>
+
         </div>
+
       </div>
     )
   }
