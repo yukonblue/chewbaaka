@@ -94,38 +94,90 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
                                     Namibia has the world's largest cheetah population. Approximately 3000 cheetahs share the land with humans, livestock, and wildlife. Today, the status of the Namibian cheetah is stabilizing. During the 1980s, the population of Namibina cheetahs declined by half. In the 10-year period, nearly 7,000 cheetahs were removed from the wild. In most countries where cheetahs live, their numbers have been reduced to critical levels. The cheetah's survival worldwide is in human hands.
                                   </p>
                                   <div
-                                    className="ui inverted segment"
+                                    className="DisplayInlineBlock"
                                   >
                                     <div
-                                      className="ui orange huge inverted statistic"
+                                      className="ui inverted segment"
                                     >
                                       <div
-                                        className="value"
+                                        className="ui orange huge inverted statistic"
                                       >
-                                        21%
-                                      </div>
-                                      <div
-                                        className="label"
-                                      >
-                                        of the world's wild cheetahs live in Namibia.
+                                        <div
+                                          className="value"
+                                        >
+                                          21%
+                                        </div>
+                                        <div
+                                          className="label"
+                                        >
+                                          of the world's wild cheetahs live in Namibia.
+                                        </div>
                                       </div>
                                     </div>
                                   </div>
                                   <div
-                                    className="ui inverted segment"
+                                    className="DisplayInlineBlock"
                                   >
                                     <div
-                                      className="ui yellow huge inverted statistic"
+                                      className="ui inverted segment"
                                     >
                                       <div
-                                        className="value"
+                                        className="ui yellow huge inverted statistic"
                                       >
-                                        90%
+                                        <div
+                                          className="value"
+                                        >
+                                          90%
+                                        </div>
+                                        <div
+                                          className="label"
+                                        >
+                                          of Namibia's cheetahs live on communal and commercial livestock and game farms.
+                                        </div>
                                       </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    className="DisplayInlineBlock"
+                                  >
+                                    <div
+                                      className="ui inverted segment"
+                                    >
                                       <div
-                                        className="label"
+                                        className="ui orange huge inverted statistic"
                                       >
-                                        of Namibia's cheetahs live on communal and commercial livestock and game farms.
+                                        <div
+                                          className="value"
+                                        >
+                                          &lt;7,500
+                                        </div>
+                                        <div
+                                          className="label"
+                                        >
+                                          Cheetahs were found in 31 populations in 23 African countries.
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    className="DisplayInlineBlock"
+                                  >
+                                    <div
+                                      className="ui inverted segment"
+                                    >
+                                      <div
+                                        className="ui red huge inverted statistic"
+                                      >
+                                        <div
+                                          className="value"
+                                        >
+                                          &lt;50
+                                        </div>
+                                        <div
+                                          className="label"
+                                        >
+                                          Asian cheetahs left in Iran.
+                                        </div>
                                       </div>
                                     </div>
                                   </div>

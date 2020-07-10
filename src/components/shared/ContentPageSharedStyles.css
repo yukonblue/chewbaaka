@@ -60,3 +60,7 @@ h4.ContentPageSubsectionSubtitle {
 h4.ContentPageSubsectionSubtitle_DebugColor {
   background-color: goldenrod;
 }
+
+div.DisplayInlineBlock {
+  display: inline-block;
+}

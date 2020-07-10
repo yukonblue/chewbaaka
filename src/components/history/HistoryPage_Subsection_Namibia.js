@@ -62,23 +62,49 @@ export default class HistoryPageNamibiaSubsection extends React.Component {
           {this.state.subsectionConfig.contents["paragraph_01"]}
         </p>
 
-        <Segment inverted>
-          <Statistic inverted size="huge" color="orange">
-            <Statistic.Value>21%</Statistic.Value>
-            <Statistic.Label>
-              of the world's wild cheetahs live in Namibia.
-            </Statistic.Label>
-          </Statistic>
-        </Segment>
+        <div className="DisplayInlineBlock">
+          <Segment inverted>
+            <Statistic inverted size="huge" color="orange">
+              <Statistic.Value>21%</Statistic.Value>
+              <Statistic.Label>
+                of the world's wild cheetahs live in Namibia.
+              </Statistic.Label>
+            </Statistic>
+          </Segment>
+        </div>
 
-        <Segment inverted>
-          <Statistic inverted size="huge" color="yellow">
-            <Statistic.Value>90%</Statistic.Value>
-            <Statistic.Label>
-              of Namibia's cheetahs live on communal and commercial livestock and game farms.
-            </Statistic.Label>
-          </Statistic>
-        </Segment>
+        <div className="DisplayInlineBlock">
+          <Segment inverted>
+            <Statistic inverted size="huge" color="yellow">
+              <Statistic.Value>90%</Statistic.Value>
+              <Statistic.Label>
+                of Namibia's cheetahs live on communal and commercial livestock and game farms.
+              </Statistic.Label>
+            </Statistic>
+          </Segment>
+        </div>
+
+        <div className="DisplayInlineBlock">
+          <Segment inverted>
+            <Statistic inverted size="huge" color="orange">
+              <Statistic.Value>&lt;7,500</Statistic.Value>
+              <Statistic.Label>
+                Cheetahs were found in 31 populations in 23 African countries.
+              </Statistic.Label>
+            </Statistic>
+          </Segment>
+        </div>
+
+        <div className="DisplayInlineBlock">
+          <Segment inverted>
+            <Statistic inverted size="huge" color="red">
+              <Statistic.Value>&lt;50</Statistic.Value>
+              <Statistic.Label>
+                Asian cheetahs left in Iran.
+              </Statistic.Label>
+            </Statistic>
+          </Segment>
+        </div>
       </div>
     );
   }
