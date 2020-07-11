@@ -16,7 +16,8 @@ div.ImageCollageOuterContainer_DebugColor {
 }
 
 div.ImageCollageInnerContainer {
-  float: right;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 div.ImageCollageInnerContainer::after {
