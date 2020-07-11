@@ -25,38 +25,12 @@ import bodyImage_03 from './assets/Cheetah_Population_Color_Illustration/Cheetah
 
 export default class HistoryPageCheetahPopulationIllustration extends React.Component {
 
-  static _TITLE_ = "Cheetah Population from 1975 to 2000s"
-
-  static _DESCRIPTIONS_BY_MARKS_ = {
-    0: "Before the 20th century, there were over 20,000 cheetahs roaming in African and Asia.",
-    50: "Around 1975, the global population start to decline drastically. Less than 20,000 at this point",
-    75: "Starting in 1990, the population got to around 12,000.",
-    100: "2010 and onward, only less than 7,500 left."
-  }
-
-  constructor(props) {
-    super(props);
-    this.state = {
-      activeMark: 0,
-    }
-  }
-
-  handleSliderOnChange(value) {
-    this.setState({
-      activeMark: Number(value),
-    });
-  }
+  static _TITLE_ = "Cheetah Population from 1900 to Present"
 
   render() {
     return (
       <div className={getElementStyleClassName("HistoryPageCheetahPopulationIllustrationOuterContainer")}>
-        <div>
-          <h2>Title</h2>
-
-          <div className={getElementStyleClassName("HistoryPageCheetahPopulationIllustrationDescriptionContainer")}>
-            <p>{HistoryPageCheetahPopulationIllustration._DESCRIPTIONS_BY_MARKS_[this.state.activeMark]}</p>
-          </div>
-
+        <div className={getElementStyleClassName("HistoryPageCheetahPopulationIllustrationInnerContainer")}>
           <div className={getElementStyleClassName("HistoryPageCheetahPopulationIllustrationImageSlideContainer")}>
             <ImageSlide
               title={HistoryPageCheetahPopulationIllustration._TITLE_}
@@ -70,27 +44,28 @@ export default class HistoryPageCheetahPopulationIllustration extends React.Comp
                 {
                   value: 0,
                   label: 'Pre 1900',
-                  image: bodyImage_00
+                  image: bodyImage_00,
+                  description: "Before the 20th century, there were over 100,000 cheetahs roaming in African and Asia."
                 },
                 {
                   value: 50,
-                  label: '1975',
-                  image: bodyImage_01
+                  label: '1990',
+                  image: bodyImage_01,
+                  description:  "Around 1990, the global population started to decline drastically. Less than 100,000 at this point."
                 },
                 {
                   value: 75,
-                  label: '1990',
-                  image: bodyImage_02
+                  label: '2000',
+                  image: bodyImage_02,
+                  description: "At the beginning of the 21st century, the population dropped to around 12,000."
                 },
                 {
                   value: 100,
-                  label: '2000',
-                  image: bodyImage_03
+                  label: '2018',
+                  image: bodyImage_03,
+                  description: "By 2018, only less than 7,500 left."
                 },
               ]}
-              onChange={(mark) =>{
-                console.log(mark);
-              }}
             />
           </div>
         </div>

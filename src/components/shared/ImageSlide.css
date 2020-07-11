@@ -48,6 +48,7 @@ div.ImageSlideSliderAndLabelOuterContainer_DebugColor {
 
 div.ImageSlideLabelOuterContainer {
   text-align: center;
+  padding: 5px 20px;
 }
 
 div.ImageSlideLabelOuterContainer_DebugColor {
