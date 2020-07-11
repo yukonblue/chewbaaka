@@ -23,7 +23,9 @@ import { ContentPageSubsectionColumnDataBinderWithParagraphBinder } from '../sha
 
 export default class HistoryPageSubsectionRoadToExtinction extends React.Component {
 
-  static _SUBSECTION_NAME_ = "subsection_RoadToExtinction";
+  static _SUBSECTION_NAME_        =   "subsection_RoadToExtinction";
+  static _COLUMN_DATA_NAME_LHS_   =   "The_Road_To_Extinction";
+  static _COLUMN_DATA_NAME_RHS_   =   "Where_Did_The_Cheetah_Go";
 
   constructor(props) {
     super(props);
@@ -68,15 +70,17 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
         <ContentPageSubsectionThreeColumnContentTemplate
           lhsColumn={
             ContentPageSubsectionColumnDataBinderWithParagraphBinder(
-              this.state.subsectionConfig.contents["The_Road_To_Extinction"]
+              this.state.subsectionConfig.contents[HistoryPageSubsectionRoadToExtinction._COLUMN_DATA_NAME_LHS_]
             )
           }
+
           middleColumn={{
             content: "TODO: middle"
           }}
+
           rhsColumn={
             ContentPageSubsectionColumnDataBinderWithParagraphBinder(
-              this.state.subsectionConfig.contents["Where_Did_The_Cheetah_Go"]
+              this.state.subsectionConfig.contents[HistoryPageSubsectionRoadToExtinction._COLUMN_DATA_NAME_RHS_]
             )
           }
         />
