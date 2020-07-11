@@ -17,6 +17,7 @@ import { getElementStyleClassName } from '../../styling/styling'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 
+import FlexibleContainer from '../shared/FlexibleContainer'
 import ImageSlidingGallery from '../shared/ImageSlidingGallery'
 
 export default class HistoryPageSubsectionCheetahAndManImage extends React.Component {
@@ -54,7 +55,12 @@ export default class HistoryPageSubsectionCheetahAndManImage extends React.Compo
   renderLhsContent() {
     return (
       <div className="HistoryPageSubsectionCheetahAndManImageContentTextContainer">
-        <p>{this.state.subsectionConfig.contents["paragraph_01"]}</p>
+        <FlexibleContainer>
+          <p>{this.state.subsectionConfig.contents["paragraph_Cheetah_And_Man_01"]}</p>
+          <p>{this.state.subsectionConfig.contents["paragraph_Cheetah_And_Man_02"]}</p>
+          <p>{this.state.subsectionConfig.contents["paragraph_Cheetah_And_Man_03"]}</p>
+          <p>{this.state.subsectionConfig.contents["paragraph_Cheetah_And_Man_04"]}</p>
+        </FlexibleContainer>
       </div>
     );
   }
@@ -65,12 +71,16 @@ export default class HistoryPageSubsectionCheetahAndManImage extends React.Compo
         <ImageSlidingGallery
           slides={[
             {
+              image: "https://www.thevintagenews.com/wp-content/uploads/2018/12/anubis_attending_the_mummy_of_sennedjem.jpg",
+              caption: "Mafdet’s head on the bed where the mummy is placed."
+            },
+            {
               image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/War_trophies_Deir_el_Bahari_Wellcome_L0027402.jpg/440px-War_trophies_Deir_el_Bahari_Wellcome_L0027402.jpg",
               caption: "Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words"
             },
             {
-              image: "https://upload.wikimedia.org/wikipedia/commons/b/b1/Cheetahs_nawab_oudh1844.jpg",
-              caption: "Listen to a Tsimshian (Pacific Northwest Native) storyteller recount the family history painted on a 38-foot-long house front as specific parts of the design light up."
+              image: "https://www.thevintagenews.com/wp-content/uploads/2018/12/egyptian_chariot_colour-640x446.jpg",
+              caption: "Egyptian chariot, accompanied by a cheetah and slave."
             }
           ]}
         />

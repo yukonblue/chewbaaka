@@ -1,0 +1,61 @@
+/**
+ * ContentPageSubsectionThreeColumnContentTemplate.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 10, 2020
+ * Updated  : Jul 10, 2020
+ */
+
+div.ContentPageSubsectionThreeColumnContentTemplateOuterContainer {
+  padding: 10px;
+}
+
+div.ContentPageSubsectionThreeColumnContentTemplateOuterContainer_DebugColor {
+  background-color: firebrick;
+}
+
+div.ContentPageSubsectionThreeColumnContentTemplateInnerContainer {
+
+}
+
+div.ContentPageSubsectionThreeColumnContentTemplateInnerContainer_DebugColor {
+  background-color: floralwhite;
+}
+
+div.ContentPageSubsectionThreeColumnContentTemplateColumn {
+  float: left;
+  text-align: center;
+  padding: 20px;
+}
+
+div.ContentPageSubsectionThreeColumnContentTemplateColumnContainer:after {
+  /* Clear floats after the columns */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.ContentPageSubsectionThreeColumnContentTemplateLeftColumnContainer {
+  width: 25%;
+}
+
+div.ContentPageSubsectionThreeColumnContentTemplateLeftColumnContainer_DebugColor {
+  background-color: red;
+}
+
+div.ContentPageSubsectionThreeColumnContentTemplateMiddleColumnContainer {
+  width: 50%;
+}
+
+div.ContentPageSubsectionThreeColumnContentTemplateMiddleColumnContainer_DebugColor {
+  background-color: yellow;
+}
+
+div.ContentPageSubsectionThreeColumnContentTemplateRightColumnContainer {
+  width: 25%;
+}
+
+div.ContentPageSubsectionThreeColumnContentTemplateRightColumnContainer_DebugColor {
+  background-color: green;
+}

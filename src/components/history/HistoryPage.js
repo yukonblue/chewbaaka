@@ -25,7 +25,7 @@ import HistoryPageSectionRangeAndPopulation from './HistoryPage_Section_RangeAnd
 
 // import HistoryPageCheetahsAtCCFSubsection from './HistoryPage_Subsection_CheetahsAtCCF'
 
-import coverImage from './assets/cheetah-mother-and-cubs-on-termite-mound.jpg'
+import coverImage from './assets/Cal-Butler-Cheetah-and-the-tree.jpg'
 
 import '../../styling/SharedStyles.css'
 
@@ -57,16 +57,6 @@ class HistoryPage extends React.Component {
         <HistoryPageSectionRangeAndPopulation config={config} />
 
         {/* {this.renderCheetahAmbassadorsSectionContent()} */}
-
-        <p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p>
-        <p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p>
-        <p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p>
-        <p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p>
-        <p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p>
-        <p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p>
-        <p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p>
-        <p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p>
-        <p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p><p>Hello</p>
       </div>
     )
   }

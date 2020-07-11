@@ -17,7 +17,12 @@ import '../shared/ContentPageSharedStyles.css'
 import './HistoryPage_Subsection_Namibia.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
-import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
+import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPageSubsectionThreeColumnContentTemplate'
+
+import {
+  ContentPageSubsectionColumnDataBinder,
+  ContentPageSubsectionColumnParagraphsContentBinder
+} from '../shared/ContentPageSubsectionColumnDataBinder'
 
 import ImageView from '../shared/ImageView'
 
@@ -25,7 +30,9 @@ import MediaLinkButton from '../shared/MediaLinkButton'
 
 export default class HistoryPageSubsectionNamibia extends React.Component {
 
-  static _SUBSECTION_NAME_ = "subsection_Namibia";
+  static _SUBSECTION_NAME_        =   "subsection_Namibia";
+  static _COLUMN_DATA_NAME_LHS_   =   "Cheetah_Capital_Of_The_World";
+  static _COLUMN_DATA_NAME_RHS_   =   "Namibia_Home_For_The_Future";
 
   constructor(props) {
     super(props);
@@ -46,39 +53,41 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
     return (
       <div className="HistoryPageSubsectionNamibiaInnerContainer">
         <div>
-          <ContentPageSubsectionTwoColumnContentTemplate
-            lhsColumn={{content: this.renderLhsColumnContent()}}
-            rhsColumn={{content: this.renderRhsColumnContent()}}
+          <ContentPageSubsectionThreeColumnContentTemplate
+            lhsColumn={
+              ContentPageSubsectionColumnDataBinder(
+                this.state.subsectionConfig.contents[HistoryPageSubsectionNamibia._COLUMN_DATA_NAME_LHS_],
+                this.renderLhsColumnContentBinder
+              )
+            }
+
+            middleColumn={
+              {content: this.renderMiddleColumnContent()}
+            }
+
+            rhsColumn={
+              ContentPageSubsectionColumnDataBinder(
+                this.state.subsectionConfig.contents[HistoryPageSubsectionNamibia._COLUMN_DATA_NAME_RHS_],
+                this.renderRhsColumnContentBinder
+              )
+            }
           />
         </div>
       </div>
     );
   }
 
-  renderLhsColumnContent() {
+  renderLhsColumnContentBinder(content) {
     return (
       <div>
-        <p>
-          {this.state.subsectionConfig.contents["paragraph_01"]}
-        </p>
+        {ContentPageSubsectionColumnParagraphsContentBinder(content)}
 
         <div className="DisplayInlineBlock">
           <Segment inverted>
             <Statistic inverted size="huge" color="orange">
               <Statistic.Value>21%</Statistic.Value>
               <Statistic.Label>
-                of the world's wild cheetahs live in Namibia.
-              </Statistic.Label>
-            </Statistic>
-          </Segment>
-        </div>
-
-        <div className="DisplayInlineBlock">
-          <Segment inverted>
-            <Statistic inverted size="huge" color="yellow">
-              <Statistic.Value>90%</Statistic.Value>
-              <Statistic.Label>
-                of Namibia's cheetahs live on communal and commercial livestock and game farms.
+                of the world's wild cheetahs live in Namibia
               </Statistic.Label>
             </Statistic>
           </Segment>
@@ -87,7 +96,7 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
     );
   }
 
-  renderRhsColumnContent() {
+  renderMiddleColumnContent() {
     return (
       <div>
         <ImageView
@@ -98,10 +107,35 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
         />
 
         <MediaLinkButton
+          href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5729830/"
+          title='The distribution and numbers of cheetah (Acinonyx jubatus) in southern Africa'
+          icon="file alternate outline"
+        />
+
+        {/* <MediaLinkButton
           href="https://peerj.com/articles/1346/"
           title='Cheetahs (Acinonyx jubatus) running the gauntlet: an evaluation of translocations into free-range environments in Namibia'
           icon="file alternate outline"
-        />
+        /> */}
+      </div>
+    );
+  }
+
+  renderRhsColumnContentBinder(content) {
+    return (
+      <div>
+        {ContentPageSubsectionColumnParagraphsContentBinder(content)}
+
+        <div className="DisplayInlineBlock">
+          <Segment inverted>
+            <Statistic inverted size="huge" color="yellow">
+              <Statistic.Value>90%</Statistic.Value>
+              <Statistic.Label>
+                of Namibia's cheetahs live on communal and commercial livestock and game farms
+              </Statistic.Label>
+            </Statistic>
+          </Segment>
+        </div>
       </div>
     );
   }
