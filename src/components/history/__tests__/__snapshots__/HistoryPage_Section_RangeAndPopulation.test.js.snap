@@ -262,7 +262,7 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
               <h3
                 className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
               >
-                The Road to Extinction ?
+                The Road to Extinction
               </h3>
               <div
                 className="HistoryPageSubsectionRoadToExtinctionInnerContainer"

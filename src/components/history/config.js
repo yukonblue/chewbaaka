@@ -157,7 +157,7 @@ export const config = {
           }
         },
         subsection_RoadToExtinction: {
-          title: "The Road to Extinction ?",
+          title: "The Road to Extinction",
           contents: {
             The_Road_To_Extinction: {
               title: "The Road to Extinction?",
