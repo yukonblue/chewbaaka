@@ -21,7 +21,14 @@ import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPa
 
 import { ContentPageSubsectionColumnDataBinderWithParagraphBinder } from '../shared/ContentPageSubsectionColumnDataBinder'
 
+import { getElementStyleClassName } from '../../styling/styling'
+
+import ImageSlideModal from '../shared/ImageSlideModal'
+
 import MediaLinkButton from '../shared/MediaLinkButton'
+
+import cheetah_range_map_01 from './assets/cheetah-range-map-01.png'
+import cheetah_range_map_02 from './assets/cheetah-range-map-02.png'
 
 export default class HistoryPageSubsectionRoadToExtinction extends React.Component {
 
@@ -77,7 +84,7 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
           }
 
           middleColumn={{
-            content: "TODO: middle"
+            content: this.renderMiddleColumnContent()
           }}
 
           rhsColumn={
@@ -100,6 +107,27 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
         />
       </div>
     );
+  }
+
+  renderMiddleColumnContent() {
+    return (
+      <div className={getElementStyleClassName("HistoryPageSubsectionRoadToExtinctionMiddleColumnContentOuterContainer")}>
+        <ImageSlideModal
+          slides={[
+            {
+              image: cheetah_range_map_01,
+              title: "Cheetah Range by Subspecies",
+              description: "Ranges with highest populations are in southern and eastern Africa. The Asiatic cheetahs are left only in the Persian Gulf."
+            },
+            {
+              image: cheetah_range_map_02,
+              title: "Cheetah Range Population Breakdown",
+              description: "Some ranges left have very small population left."
+            }
+          ]}
+        />
+      </div>
+    )
   }
 
   renderSideColumnContent(content) {

@@ -6,3 +6,12 @@
  * Created  : Jul 10, 2020
  * Updated  : Jul 10, 2020
  */
+
+div.HistoryPageSubsectionRoadToExtinctionMiddleColumnContentOuterContainer {
+  display: inline-block;
+   margin: 0 auto;
+}
+
+div.HistoryPageSubsectionRoadToExtinctionMiddleColumnContentOuterContainer_DebugColor {
+  background-color: wheat;
+}

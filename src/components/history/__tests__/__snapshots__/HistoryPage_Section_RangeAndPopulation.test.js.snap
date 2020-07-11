@@ -352,7 +352,36 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
                         className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateColumn_DebugColor DebugWireframe ContentPageSubsectionThreeColumnContentTemplateMiddleColumnContainer ContentPageSubsectionThreeColumnContentTemplateMiddleColumnContainer_DebugColor DebugWireframe"
                       >
                         <div>
-                          TODO: middle
+                          <div
+                            className="HistoryPageSubsectionRoadToExtinctionMiddleColumnContentOuterContainer HistoryPageSubsectionRoadToExtinctionMiddleColumnContentOuterContainer_DebugColor DebugWireframe"
+                          >
+                            <div
+                              className="modalCoverImageContainerDiv"
+                              data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
+                              onBlur={[Function]}
+                              onClick={[Function]}
+                              onFocus={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              style={
+                                Object {
+                                  "backgroundImage": "url(cheetah-range-map-01.png)",
+                                  "height": 320,
+                                  "width": 480,
+                                }
+                              }
+                            >
+                              <div
+                                className="modalCoverImageIcon"
+                              >
+                                <i
+                                  aria-hidden="true"
+                                  className="grey caret square right outline huge icon"
+                                  onClick={[Function]}
+                                />
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                       <div
