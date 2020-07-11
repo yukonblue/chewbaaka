@@ -21,9 +21,9 @@
  *
  *  - `title` (optional): The title of the component.
  *
- *  - `marks`: An array of { value, label, image } objects specifying
- *    the value and label of each slider tick mark, and the image
- *    to be displayed that's associated with that tick mark.
+ *  - `marks`: An array of { value, label, image, description } objects
+ *    specifying the value and label of each slider tick mark, and the
+ *    image to be displayed that's associated with that tick mark.
  *
  *  - `sliderNameLabel`: The label used for illustrating the semantic meaning
  *    of the slider name.
@@ -89,12 +89,14 @@ class ImageSlide extends React.Component {
       height: this.props.imageHeight
     }
 
-    const imgElementContainerBackgroundStyle = {
+    const imgElementContainerStyle = {
+      width: this.props.imageWidth,
+      height: this.props.imageHeight,
       backgroundImage: `url(${this.props.backgroundImage})`,
       backgroundSize: `${this.props.imageWidth}px ${this.props.imageHeight}px`,
       backgroundRepeat: 'no-repeat'
     }
-
+  
     return (
       <div className={getElementStyleClassName("ImageSlideOuterContainer")} data-testid="ImageSlideComponentTestId">
 
@@ -104,7 +106,7 @@ class ImageSlide extends React.Component {
             {this.props.title}
           </Header>
 
-          <div className={getElementStyleClassName("ImageSlideImgElementContainer")} style={imgElementContainerBackgroundStyle}>
+          <div className={getElementStyleClassName("ImageSlideImgElementContainer")} style={imgElementContainerStyle}>
             <img
               className={getElementStyleClassName("ImageSlideImgElement")} 
               src={this.state.marksDict[this.state.activeMark].image}
@@ -122,6 +124,8 @@ class ImageSlide extends React.Component {
               >
                 {this.state.marksDict[this.state.activeMark].label}
               </Label>
+
+              <p>{this.state.marksDict[this.state.activeMark].description}</p>
             </div>
 
             <div className={getElementStyleClassName("ImageSlideSliderAndLabelInnerContainer")}>

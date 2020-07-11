@@ -4,12 +4,11 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 10, 2020
+ * Updated  : Jul 11, 2020
  */
 
 div.HistoryPageSubsectionRoadToExtinctionMiddleColumnContentOuterContainer {
-  display: inline-block;
-   margin: 0 auto;
+  width: 100%;
 }
 
 div.HistoryPageSubsectionRoadToExtinctionMiddleColumnContentOuterContainer_DebugColor {
@@ -21,4 +20,13 @@ div.HistoryPageSubsectionRoadToExtinctionStatsBox {
   display: block;
   background-color: rgba(0,0,0,.87);
   border-radius: 10px;
+}
+
+div.HistoryPageSubsectionRoadToExtinctionMiddleColumnContentImageSlideModalContainer {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+div.HistoryPageSubsectionRoadToExtinctionMiddleColumnContentCheetahPopulationIllustrationContainer{
+  margin: 20px auto;
 }
