@@ -9,6 +9,7 @@
 
 div.ImageCollageOuterContainer {
   display: inline-block;
+  filter: drop-shadow(1px 5px 5px #222);
 }
 
 div.ImageCollageOuterContainer_DebugColor {
