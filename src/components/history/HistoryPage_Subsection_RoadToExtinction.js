@@ -87,9 +87,15 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
           }
         />
 
-        <MediaLinkButton
+        {/* <MediaLinkButton
           href="https://www.thehindu.com/sci-tech/energy-and-environment/what-drove-the-charismatic-cheetah-to-extinction-in-india/article30295377.ece"
           title='What drove the charismatic cheetah to extinction in India?'
+          icon="file alternate outline"
+        /> */}
+
+        <MediaLinkButton
+          href="https://www.nationalgeographic.com/news/2016/12/cheetahs-extinction-endangered-africa-iucn-animals-science/"
+          title='Cheetahs Are Dangerously Close to Extinction | National Geographic'
           icon="file alternate outline"
         />
       </div>

@@ -385,13 +385,13 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
                 </div>
                 <div>
                   <a
-                    href="https://www.thehindu.com/sci-tech/energy-and-environment/what-drove-the-charismatic-cheetah-to-extinction-in-india/article30295377.ece"
+                    href="https://www.nationalgeographic.com/news/2016/12/cheetahs-extinction-endangered-africa-iucn-animals-science/"
                   >
                     <button
                       className="ui blue icon button"
                       onClick={[Function]}
                     >
-                      What drove the charismatic cheetah to extinction in India?
+                      Cheetahs Are Dangerously Close to Extinction | National Geographic
                       <i
                         aria-hidden="true"
                         className="file alternate outline icon"
