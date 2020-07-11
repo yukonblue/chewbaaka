@@ -350,7 +350,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
           </div>
         </div>
         <div
-          className="HistoryPageSubsectionCheetahsInArtOuterContainer HistoryPageSubsectionCheetahsInArtOuterContainer_DebugColor DebugWireframe"
+          className="HistoryPageSubsectionCheetahsInSportsOuterContainer HistoryPageSubsectionCheetahsInSportsOuterContainer_DebugColor DebugWireframe"
         >
           <div
             className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
@@ -363,25 +363,113 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
               >
                 Cheetahs In Art
               </h3>
-              <div>
-                <div
-                  className="FlexibleContainerOuterContainer FlexibleContainerOuterContainer_DebugColor DebugWireframe"
-                >
+              <div
+                className="HistoryPageSubsectionCheetahAndManImageInnerContainer HistoryPageSubsectionCheetahAndManImageInnerContainer_DebugColor DebugWireframe"
+              >
+                <div>
                   <div
-                    className="FlexibleContainerInnerContainer FlexibleContainerInnerContainer_DebugColor DebugWireframe"
+                    className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
                   >
-                    <p>
-                      Sumerians (Iraqi ancestors) were the first to use cheetahs in art.
-                    </p>
-                    <p>
-                      The cheetah and leopard have often been mistaken for each other. Cheetahs in early art were frequently called "panther" or "hunting leopard". Early artists called the true leopard "pardus" and described it as a cross between a cheetah (panther), and the lion (leo).
-                    </p>
-                    <p>
-                      Middle Age and Renaissance artists began drawing cheetahs and other animals more life-like. During this time of scientific exploration, detailed descriptions of animals provided incentive for reality in art. Artists included cheetahs more often in their paintings as the trade in live animals increased.
-                    </p>
-                    <p>
-                      Artists always pictured cheetahs as animals of speed and royalty.
-                    </p>
+                    <div
+                      className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+                    >
+                      <div>
+                        <div
+                          className="ui vertically divided grid"
+                        >
+                          <div
+                            className="two column row"
+                          >
+                            <div
+                              className="column"
+                            >
+                              <div
+                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
+                              >
+                                <div>
+                                  <div
+                                    className="FlexibleContainerOuterContainer FlexibleContainerOuterContainer_DebugColor DebugWireframe"
+                                  >
+                                    <div
+                                      className="FlexibleContainerInnerContainer FlexibleContainerInnerContainer_DebugColor DebugWireframe"
+                                    >
+                                      <p>
+                                        Sumerians (Iraqi ancestors) were the first to use cheetahs in art.
+                                      </p>
+                                      <p>
+                                        The cheetah and leopard have often been mistaken for each other. Cheetahs in early art were frequently called "panther" or "hunting leopard". Early artists called the true leopard "pardus" and described it as a cross between a cheetah (panther), and the lion (leo).
+                                      </p>
+                                      <p>
+                                        Middle Age and Renaissance artists began drawing cheetahs and other animals more life-like. During this time of scientific exploration, detailed descriptions of animals provided incentive for reality in art. Artists included cheetahs more often in their paintings as the trade in live animals increased.
+                                      </p>
+                                      <p>
+                                        Artists always pictured cheetahs as animals of speed and royalty.
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              className="column"
+                            >
+                              <div
+                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
+                              >
+                                <div>
+                                  <div
+                                    className="ImageViewOuterContainer"
+                                  >
+                                    <div
+                                      className="ImageViewInnerContainer"
+                                    >
+                                      <div
+                                        className="ImageViewCore"
+                                      >
+                                        <img
+                                          alt="Paintings of cheetahs were popular during the Renaissance."
+                                          className="ImageViewImg"
+                                          src="https://www.thevintagenews.com/wp-content/uploads/2017/03/the-special-relationship-between-ancient-people-and-cheetahs-3-451x640.jpg"
+                                          style={
+                                            Object {
+                                              "height": undefined,
+                                              "width": undefined,
+                                            }
+                                          }
+                                        />
+                                        <div
+                                          data-testid="ImageViewComponentCaptionPart"
+                                        >
+                                          <div
+                                            className="CaptionContainer"
+                                            data-testid="CaptionComponentTestId"
+                                          >
+                                            <div
+                                              className="IconContainer"
+                                            >
+                                              <i
+                                                aria-hidden="true"
+                                                className="image icon"
+                                                onClick={[Function]}
+                                              />
+                                            </div>
+                                            <p
+                                              className="CaptionText"
+                                            >
+                                              Paintings of cheetahs were popular during the Renaissance.
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
