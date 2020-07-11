@@ -17,7 +17,7 @@
  *
  *  - `data`: Two arrays of { images, collageCellContent } data.
  *
- *  - `min`: The minimum number of elements to create.
+ *  - `count`: The count number of elements to create.
  */
 
 import _ from 'lodash';
@@ -37,7 +37,7 @@ export default class ImageCollageDriver extends React.Component {
   initializeCells = () => {
     const images = this.props.data.images;
     const len = images.length;
-    const count = Math.min(len, (this.props.min ? this.props.min : 1));
+    const count = Math.min(len, (this.props.count ? this.props.count : 1));
 
     const cells = _.times(count, () => {
       const idx = Math.floor(Math.random() * len);

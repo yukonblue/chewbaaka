@@ -45,7 +45,7 @@ export default class ContentPageTail extends React.Component {
       <div className={getElementStyleClassName("ContentPageTailInnerContainer")}>
         <ImageCollageDriver
           data={config.imageCollage}
-          min={5}
+          count={4}
         />
       </div>
     );
