@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 11, 2020
  */
 
 import React from 'react';
@@ -27,6 +27,7 @@ import {
 } from '../../styling/styling'
 
 import ContentPageHead from './ContentPageHead'
+import ContentPageTail from './ContentPageTail'
 import ContentPageSideNavMenu from './ContentPageSideNavMenu'
 
 import TopNavBar from './TopNavBar'
@@ -58,6 +59,7 @@ class ContentPageSkeleton extends React.Component {
         <div>
           {this.renderBody()}
         </div>
+        <ContentPageTail />
         <Footer />
       </div>
     )

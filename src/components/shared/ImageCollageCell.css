@@ -41,3 +41,8 @@ p.ImageCollageCellSubtitleText {
   color: white;
   text-transform: uppercase;
 }
+
+.ImageCollageCellImgVisibleStyle {
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+}

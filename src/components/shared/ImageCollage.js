@@ -38,6 +38,8 @@ export default class ImageCollage extends React.Component {
         title={val.title}
         subtitle={val.subtitle}
         href={val.href}
+        width={val.width}
+        height={val.height}
       />
     ));
 
