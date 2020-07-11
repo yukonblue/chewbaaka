@@ -30,10 +30,4 @@ test('renders ImageCollage compoent', () => {
         ]}
     />
   );
-
-  const titleElement = screen.getByText(title);
-  expect(titleElement).toBeInTheDocument();
-
-  const subtitleElement = screen.getByText(subtitle);
-  expect(subtitleElement).toBeInTheDocument();
 });
