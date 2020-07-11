@@ -20,6 +20,8 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPageSubsectionThreeColumnContentTemplate'
 
+import HistoryPageCheetahPopulationIllustration from './HistoryPageCheetahPopulationIllustration'
+
 import { ContentPageSubsectionColumnDataBinderWithParagraphBinder } from '../shared/ContentPageSubsectionColumnDataBinder'
 
 import { getElementStyleClassName } from '../../styling/styling'
@@ -144,6 +146,9 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
           ]}
         />
         <p>Click on the map above to learn more.</p>
+
+        
+        <HistoryPageCheetahPopulationIllustration />
       </div>
     )
   }
