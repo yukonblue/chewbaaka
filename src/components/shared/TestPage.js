@@ -111,6 +111,7 @@ class TestPage extends React.Component {
           sliderUnitLabel="mya"
           imageWidth={500}
           imageHeight={500}
+          backgroundImage={image01}
           marks={[
             {
               value: 0,
