@@ -65,16 +65,16 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
 
         <ContentPageSubsectionThreeColumnContentTemplate
           lhsColumn={{
-            title: "The Road to Extinction?",
-            subtitle: "1990",
+            title: this.state.subsectionConfig.contents["The_Road_To_Extinction"].title,
+            subtitle: this.state.subsectionConfig.contents["The_Road_To_Extinction"].subtitle,
             content: this.renderLhsColumnContent()
           }}
           middleColumn={{
             content: "TODO: middle"
           }}
           rhsColumn={{
-            title: "Where Did the Cheetah Go?",
-            subtitle: "1975",
+            title: this.state.subsectionConfig.contents["Where_Did_The_Cheetah_Go"].title,
+            subtitle: this.state.subsectionConfig.contents["Where_Did_The_Cheetah_Go"].subtitle,
             content: this.renderRhsColumnContent()
           }}
         />
@@ -85,10 +85,10 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
   renderLhsColumnContent() {
     return this.renderSideColumnContent(
       <div>
-        <p>{this.state.subsectionConfig.contents["paragraph_The_Road_To_Extinction_01"]}</p>
-        <p>{this.state.subsectionConfig.contents["paragraph_The_Road_To_Extinction_02"]}</p>
-        <p>{this.state.subsectionConfig.contents["paragraph_The_Road_To_Extinction_03"]}</p>
-        <p>{this.state.subsectionConfig.contents["paragraph_The_Road_To_Extinction_04"]}</p>
+        <p>{this.state.subsectionConfig.contents["The_Road_To_Extinction"].content["paragraph_The_Road_To_Extinction_01"]}</p>
+        <p>{this.state.subsectionConfig.contents["The_Road_To_Extinction"].content["paragraph_The_Road_To_Extinction_02"]}</p>
+        <p>{this.state.subsectionConfig.contents["The_Road_To_Extinction"].content["paragraph_The_Road_To_Extinction_03"]}</p>
+        <p>{this.state.subsectionConfig.contents["The_Road_To_Extinction"].content["paragraph_The_Road_To_Extinction_04"]}</p>
       </div>
     );
   }
@@ -96,9 +96,9 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
   renderRhsColumnContent() {
     return this.renderSideColumnContent(
       <div>
-        <p>{this.state.subsectionConfig.contents["paragraph_Where_Did_The_Cheetah_Go_01"]}</p>
-        <p>{this.state.subsectionConfig.contents["paragraph_Where_Did_The_Cheetah_Go_02"]}</p>
-        <p>{this.state.subsectionConfig.contents["paragraph_Where_Did_The_Cheetah_Go_03"]}</p>
+        <p>{this.state.subsectionConfig.contents["Where_Did_The_Cheetah_Go"].content["paragraph_Where_Did_The_Cheetah_Go_01"]}</p>
+        <p>{this.state.subsectionConfig.contents["Where_Did_The_Cheetah_Go"].content["paragraph_Where_Did_The_Cheetah_Go_02"]}</p>
+        <p>{this.state.subsectionConfig.contents["Where_Did_The_Cheetah_Go"].content["paragraph_Where_Did_The_Cheetah_Go_03"]}</p>
       </div>
     );
   }
