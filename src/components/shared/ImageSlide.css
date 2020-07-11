@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 09, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 11, 2020
  */
 
 div.ImageSlideOuterContainer {
@@ -22,6 +22,15 @@ div.ImageSlideInnerContainer {
 
 div.ImageSlideInnerContainer_DebugColor {
   background-color: brown;
+}
+
+div.ImageSlideImgElementContainer {
+  display: block;
+  margin: 0 auto;
+}
+
+div.ImageSlideImgElementContainer_DebugColor {
+  background-color: greenyellow;
 }
 
 img.ImageSlideImgElement {

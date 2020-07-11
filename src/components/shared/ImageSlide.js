@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 11, 2020
  */
 
 /**
@@ -33,6 +33,13 @@
  *
  *  - `caption` (optional): Specify an optional caption text to demonstrate the
  *    meaning of the slider, or to specify instructions on how to use the slider.
+ *
+ *  - `backgroundImage` (optional): Specify an optional background image.
+ *    The background image will always be shown behind the slide images.
+ *
+ *  - `onChange` (optional): Specify an optional callback handler that
+ *    gets called when the slider changes.
+ *    Signature is (val) => {}.
  */
 
 import React from 'react';
@@ -71,12 +78,21 @@ class ImageSlide extends React.Component {
       activeMark: Number(value),
       marksDict: prevState.marksDict
     }));
+    if ( this.props.onChange ) {
+      this.props.onChange(value);
+    }
   }
 
   render() {
     const imageDimensionStyle = {
       width: this.props.imageWidth,
       height: this.props.imageHeight
+    }
+
+    const imgElementContainerBackgroundStyle = {
+      backgroundImage: `url(${this.props.backgroundImage})`,
+      backgroundSize: `${this.props.imageWidth}px ${this.props.imageHeight}px`,
+      backgroundRepeat: 'no-repeat'
     }
 
     return (
@@ -88,13 +104,15 @@ class ImageSlide extends React.Component {
             {this.props.title}
           </Header>
 
-          <img
-            className={getElementStyleClassName("ImageSlideImgElement")} 
-            src={this.state.marksDict[this.state.activeMark].image}
-            alt={this.state.marksDict[this.state.activeMark].label}
-            style={imageDimensionStyle}
-            data-testid="ImageSlideComponentImgPartTestId"
-          />
+          <div className={getElementStyleClassName("ImageSlideImgElementContainer")} style={imgElementContainerBackgroundStyle}>
+            <img
+              className={getElementStyleClassName("ImageSlideImgElement")} 
+              src={this.state.marksDict[this.state.activeMark].image}
+              alt={this.state.marksDict[this.state.activeMark].label}
+              style={imageDimensionStyle}
+              data-testid="ImageSlideComponentImgPartTestId"
+            />
+          </div>
 
           <div className={getElementStyleClassName("ImageSlideSliderAndLabelOuterContainer")}>
             <div className={getElementStyleClassName("ImageSlideLabelOuterContainer")}>
