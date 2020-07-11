@@ -65,6 +65,12 @@ div.DisplayInlineBlock {
   display: inline-block;
 }
 
+div.CenteredBlowoutBox {
+  margin: 0 aut0;
+  width: 100%;
+  text-align: center;
+}
+
 h2.ContentPageSubsectionColumnContentTitle {
   color: goldenrod;
 }

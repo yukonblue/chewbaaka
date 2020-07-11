@@ -17,6 +17,7 @@ import '../shared/ContentPageSharedStyles.css'
 import './HistoryPage_Subsection_RoadToExtinction.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPageSubsectionThreeColumnContentTemplate'
 
 import { ContentPageSubsectionColumnDataBinderWithParagraphBinder } from '../shared/ContentPageSubsectionColumnDataBinder'
@@ -55,25 +56,11 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
     return (
       <div className="HistoryPageSubsectionRoadToExtinctionInnerContainer">
         <div className="DisplayInlineBlock">
-          <Segment inverted>
-            <Statistic inverted size="huge" color="orange">
-              <Statistic.Value>&lt;7,500</Statistic.Value>
-              <Statistic.Label>
-                Cheetahs were found in 31 populations in 23 African countries
-              </Statistic.Label>
-            </Statistic>
-          </Segment>
+          
         </div>
 
         <div className="DisplayInlineBlock">
-          <Segment inverted>
-            <Statistic inverted size="huge" color="red">
-              <Statistic.Value>&lt;50</Statistic.Value>
-              <Statistic.Label>
-                Asian cheetahs left in Iran
-              </Statistic.Label>
-            </Statistic>
-          </Segment>
+          
         </div>
 
         <ContentPageSubsectionThreeColumnContentTemplate
@@ -100,11 +87,41 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
           icon="file alternate outline"
         /> */}
 
+        <ContentPageSubsectionTwoColumnContentTemplate
+          lhsColumn={{
+            content: this.renderStatsBoxHugeWithColor(
+                      "< 7,500",
+                      "Cheetahs were found in 31 populations in 23 African countries",
+                      "orange")
+          }}
+          rhsColumn={{
+            content: this.renderStatsBoxHugeWithColor(
+                      "< 50",
+                      "Asian cheetahs left in Iran",
+                      "red")
+          }}
+        />
+
         <MediaLinkButton
           href="https://www.nationalgeographic.com/news/2016/12/cheetahs-extinction-endangered-africa-iucn-animals-science/"
           title='Cheetahs Are Dangerously Close to Extinction | National Geographic'
           icon="file alternate outline"
         />
+      </div>
+    );
+  }
+
+  renderStatsBoxHugeWithColor(value, label, color) {
+    return (
+      <div className="CenteredBlowoutBox HistoryPageSubsectionRoadToExtinctionStatsBox">
+        <Segment inverted>
+          <Statistic inverted size="huge" color={color}>
+            <Statistic.Value>{value}</Statistic.Value>
+            <Statistic.Label>
+              {label}
+            </Statistic.Label>
+          </Statistic>
+        </Segment>
       </div>
     );
   }

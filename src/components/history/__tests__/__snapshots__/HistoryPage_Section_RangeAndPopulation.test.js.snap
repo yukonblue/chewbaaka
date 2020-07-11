@@ -269,48 +269,10 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
               >
                 <div
                   className="DisplayInlineBlock"
-                >
-                  <div
-                    className="ui inverted segment"
-                  >
-                    <div
-                      className="ui orange huge inverted statistic"
-                    >
-                      <div
-                        className="value"
-                      >
-                        &lt;7,500
-                      </div>
-                      <div
-                        className="label"
-                      >
-                        Cheetahs were found in 31 populations in 23 African countries
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                />
                 <div
                   className="DisplayInlineBlock"
-                >
-                  <div
-                    className="ui inverted segment"
-                  >
-                    <div
-                      className="ui red huge inverted statistic"
-                    >
-                      <div
-                        className="value"
-                      >
-                        &lt;50
-                      </div>
-                      <div
-                        className="label"
-                      >
-                        Asian cheetahs left in Iran
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                />
                 <div
                   className="ContentPageSubsectionThreeColumnContentTemplateOuterContainer ContentPageSubsectionThreeColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
                 >
@@ -407,6 +369,84 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
                           <p>
                             By 1975, researches realized that the cheetah was in troubles. CITES (Convention on International Trade of Endangered Species) placed the cheetah on Appendix I, making international trade in live cheetah or cheetah products illegal. Local laws supported CITES in many countries where cheetahs still lived. Researchers began looking for ways to encourage the growth of cheetah populations through land management practices.
                           </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
+                >
+                  <div
+                    className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+                  >
+                    <div>
+                      <div
+                        className="ui vertically divided grid"
+                      >
+                        <div
+                          className="two column row"
+                        >
+                          <div
+                            className="column"
+                          >
+                            <div
+                              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
+                            >
+                              <div
+                                className="CenteredBlowoutBox HistoryPageSubsectionRoadToExtinctionStatsBox"
+                              >
+                                <div
+                                  className="ui inverted segment"
+                                >
+                                  <div
+                                    className="ui orange huge inverted statistic"
+                                  >
+                                    <div
+                                      className="value"
+                                    >
+                                      &lt; 7,500
+                                    </div>
+                                    <div
+                                      className="label"
+                                    >
+                                      Cheetahs were found in 31 populations in 23 African countries
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            className="column"
+                          >
+                            <div
+                              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
+                            >
+                              <div
+                                className="CenteredBlowoutBox HistoryPageSubsectionRoadToExtinctionStatsBox"
+                              >
+                                <div
+                                  className="ui inverted segment"
+                                >
+                                  <div
+                                    className="ui red huge inverted statistic"
+                                  >
+                                    <div
+                                      className="value"
+                                    >
+                                      &lt; 50
+                                    </div>
+                                    <div
+                                      className="label"
+                                    >
+                                      Asian cheetahs left in Iran
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>

@@ -15,3 +15,10 @@ div.HistoryPageSubsectionRoadToExtinctionMiddleColumnContentOuterContainer {
 div.HistoryPageSubsectionRoadToExtinctionMiddleColumnContentOuterContainer_DebugColor {
   background-color: wheat;
 }
+
+div.HistoryPageSubsectionRoadToExtinctionStatsBox {
+  padding: 50px;
+  display: block;
+  background-color: rgba(0,0,0,.87);
+  border-radius: 10px;
+}
