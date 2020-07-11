@@ -31,8 +31,14 @@ import './ImageCollage.css'
 export default class ImageCollage extends React.Component {
 
   render() {
-    const cells = this.props.cells.map((val) => (
-      <ImageCollageCell image={val.image} title={val.title} subtitle={val.subtitle} href={val.href} />
+    const cells = this.props.cells.map((val, idx) => (
+      <ImageCollageCell
+        key={idx}
+        image={val.image}
+        title={val.title}
+        subtitle={val.subtitle}
+        href={val.href}
+      />
     ));
 
     return (
