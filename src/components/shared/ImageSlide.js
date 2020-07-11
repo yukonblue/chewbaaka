@@ -82,7 +82,7 @@ class ImageSlide extends React.Component {
       height: this.props.imageHeight
     }
 
-    const imgElementContainerStyle = {
+    const imgElementContainerBackgroundStyle = {
       backgroundImage: `url(${this.props.backgroundImage})`,
       backgroundSize: `${this.props.imageWidth}px ${this.props.imageHeight}px`,
       backgroundRepeat: 'no-repeat'
@@ -97,7 +97,7 @@ class ImageSlide extends React.Component {
             {this.props.title}
           </Header>
 
-          <div className={getElementStyleClassName("ImageSlideImgElementContainer")} style={imgElementContainerStyle}>
+          <div className={getElementStyleClassName("ImageSlideImgElementContainer")} style={imgElementContainerBackgroundStyle}>
             <img
               className={getElementStyleClassName("ImageSlideImgElement")} 
               src={this.state.marksDict[this.state.activeMark].image}
