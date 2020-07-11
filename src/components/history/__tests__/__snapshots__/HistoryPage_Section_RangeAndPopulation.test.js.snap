@@ -181,13 +181,13 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
                               </div>
                               <div>
                                 <a
-                                  href="https://peerj.com/articles/1346/"
+                                  href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5729830/"
                                 >
                                   <button
                                     className="ui blue icon button"
                                     onClick={[Function]}
                                   >
-                                    Cheetahs (Acinonyx jubatus) running the gauntlet: an evaluation of translocations into free-range environments in Namibia
+                                    The distribution and numbers of cheetah (Acinonyx jubatus) in southern Africa
                                     <i
                                       aria-hidden="true"
                                       className="file alternate outline icon"
@@ -385,13 +385,13 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
                 </div>
                 <div>
                   <a
-                    href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5729830/"
+                    href="https://www.thehindu.com/sci-tech/energy-and-environment/what-drove-the-charismatic-cheetah-to-extinction-in-india/article30295377.ece"
                   >
                     <button
                       className="ui blue icon button"
                       onClick={[Function]}
                     >
-                      The distribution and numbers of cheetah (Acinonyx jubatus) in southern Africa
+                      What drove the charismatic cheetah to extinction in India?
                       <i
                         aria-hidden="true"
                         className="file alternate outline icon"

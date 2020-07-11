@@ -88,8 +88,8 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
         />
 
         <MediaLinkButton
-          href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5729830/"
-          title='The distribution and numbers of cheetah (Acinonyx jubatus) in southern Africa'
+          href="https://www.thehindu.com/sci-tech/energy-and-environment/what-drove-the-charismatic-cheetah-to-extinction-in-india/article30295377.ece"
+          title='What drove the charismatic cheetah to extinction in India?'
           icon="file alternate outline"
         />
       </div>

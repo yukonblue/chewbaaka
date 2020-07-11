@@ -107,10 +107,16 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
         />
 
         <MediaLinkButton
+          href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5729830/"
+          title='The distribution and numbers of cheetah (Acinonyx jubatus) in southern Africa'
+          icon="file alternate outline"
+        />
+
+        {/* <MediaLinkButton
           href="https://peerj.com/articles/1346/"
           title='Cheetahs (Acinonyx jubatus) running the gauntlet: an evaluation of translocations into free-range environments in Namibia'
           icon="file alternate outline"
-        />
+        /> */}
       </div>
     );
   }
