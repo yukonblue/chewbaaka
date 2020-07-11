@@ -27,7 +27,11 @@ export default class ContentPageTail extends React.Component {
 
   render() {
     return (
-      <div className={getElementStyleClassNames(["ContentPageSkeletonContentContainerDimension", "ContentPageTailOuterContainer"])}>
+      <div
+        className={getElementStyleClassNames([
+                      "ContentPageSkeletonContentContainerDimension",
+                      "ContentPageTailOuterContainer"])}
+      >
         <ContentPageSectionTemplate
           sectionConfig={{
             intro: {
