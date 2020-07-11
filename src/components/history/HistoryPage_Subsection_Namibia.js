@@ -30,7 +30,9 @@ import MediaLinkButton from '../shared/MediaLinkButton'
 
 export default class HistoryPageSubsectionNamibia extends React.Component {
 
-  static _SUBSECTION_NAME_ = "subsection_Namibia";
+  static _SUBSECTION_NAME_        =   "subsection_Namibia";
+  static _COLUMN_DATA_NAME_LHS_   =   "Cheetah_Capital_Of_The_World";
+  static _COLUMN_DATA_NAME_RHS_   =   "Namibia_Home_For_The_Future";
 
   constructor(props) {
     super(props);
@@ -54,7 +56,7 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
           <ContentPageSubsectionThreeColumnContentTemplate
             lhsColumn={
               ContentPageSubsectionColumnDataBinder(
-                this.state.subsectionConfig.contents["paragraph_Cheetah_Capital_Of_The_World"],
+                this.state.subsectionConfig.contents[HistoryPageSubsectionNamibia._COLUMN_DATA_NAME_LHS_],
                 this.renderLhsColumnContentBinder
               )
             }
@@ -65,7 +67,7 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
 
             rhsColumn={
               ContentPageSubsectionColumnDataBinder(
-                this.state.subsectionConfig.contents["paragraph_Namibia_Home_For_The_Future"],
+                this.state.subsectionConfig.contents[HistoryPageSubsectionNamibia._COLUMN_DATA_NAME_RHS_],
                 this.renderRhsColumnContentBinder
               )
             }

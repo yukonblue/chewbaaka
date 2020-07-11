@@ -123,7 +123,7 @@ export const config = {
         subsection_Namibia: {
           title: "Namibia - Cheetah Capital of the World",
           contents: {
-            paragraph_Cheetah_Capital_Of_The_World: {
+            Cheetah_Capital_Of_The_World: {
               title: "Namibia",
               subtitle: "Cheetah Capital of the World",
               content: {
@@ -144,7 +144,7 @@ export const config = {
                   "survival worldwide is in human hands."
               }
             },
-            paragraph_Namibia_Home_For_The_Future: {
+            Namibia_Home_For_The_Future: {
               title: "Namibia",
               subtitle: "Hope for the Future",
               content: {
