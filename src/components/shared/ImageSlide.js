@@ -36,6 +36,10 @@
  *
  *  - `backgroundImage` (optional): Specify an optional background image.
  *    The background image will always be shown behind the slide images.
+ *
+ *  - `onChange` (optional): Specify an optional callback handler that
+ *    gets called when the slider changes.
+ *    Signature is (val) => {}.
  */
 
 import React from 'react';
@@ -74,6 +78,9 @@ class ImageSlide extends React.Component {
       activeMark: Number(value),
       marksDict: prevState.marksDict
     }));
+    if ( this.props.onChange ) {
+      this.props.onChange(value);
+    }
   }
 
   render() {

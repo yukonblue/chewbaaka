@@ -105,7 +105,7 @@ class TestPage extends React.Component {
 
         <h2>ImageSlide</h2>
         <ImageSlide
-          title="Cheetah evolution"
+          title="ImageSlide"
           caption="Slide the timeline to see the migration of cheetahs."
           sliderNameLabel="Timeline"
           sliderUnitLabel="mya"
@@ -129,6 +129,9 @@ class TestPage extends React.Component {
               image: image03
             },
           ]}
+          onChange={(mark) =>{
+            console.log(mark);
+          }}
         />
 
         <h2>Tests Material UI Slider</h2>
