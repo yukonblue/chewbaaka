@@ -61,6 +61,10 @@ export default class HistoryPageSubsectionCheetahsInSports extends React.Compone
               caption: "The painting A Cheetah with Two Indians gifted to the English King George III by the Tippoo Sultan in 1799."
             },
             {
+              image: "https://www.thevintagenews.com/wp-content/uploads/2017/03/the-special-relationship-between-ancient-people-and-cheetahs-1-640x446.jpg",
+              caption: "Cheetah Hunt",
+            },
+            {
               image: "https://www.thehindu.com/sci-tech/energy-and-environment/hb4cnq/article30295374.ece/alternates/FREE_960/15SM4AlwarCheetahjpg",
               caption: "This 1878 painting from Marianne North’s book shows cheetahs and lynxes chained to charpais by their keepers in Alwar."
             }
