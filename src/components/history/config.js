@@ -147,10 +147,12 @@ export const config = {
             paragraph_Namibia_Home_For_The_Future: {
               title: "Namibia",
               subtitle: "Hope for the Future",
-              content:
-                "The greatest hope for the cheetah's survival lies in the " +
-                'pristine countryside of Namibia. Nearly 1000 Namibian farmers ' +
-                "control the fate of the country's cheetahs and the land they live."
+              content: {
+                paragraph_01:
+                  "The greatest hope for the cheetah's survival lies in the " +
+                  'pristine countryside of Namibia. Nearly 1000 Namibian farmers ' +
+                  "control the fate of the country's cheetahs and the land they live."
+              }
             }
           }
         },

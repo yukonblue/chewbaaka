@@ -19,6 +19,11 @@ import './HistoryPage_Subsection_Namibia.css'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPageSubsectionThreeColumnContentTemplate'
 
+import {
+  ContentPageSubsectionColumnDataBinder,
+  ContentPageSubsectionColumnParagraphsContentBinder
+} from '../shared/ContentPageSubsectionColumnDataBinder'
+
 import ImageView from '../shared/ImageView'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
@@ -47,35 +52,33 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
       <div className="HistoryPageSubsectionNamibiaInnerContainer">
         <div>
           <ContentPageSubsectionThreeColumnContentTemplate
-            lhsColumn={{
-              title: this.state.subsectionConfig.contents["paragraph_Cheetah_Capital_Of_The_World"].title,
-              subtitle: this.state.subsectionConfig.contents["paragraph_Cheetah_Capital_Of_The_World"].subtitle,
-              content: this.renderLhsColumnContent()
-            }}
-            middleColumn={{content: this.renderMiddleColumnContent()}}
-            rhsColumn={{
-              title: this.state.subsectionConfig.contents["paragraph_Namibia_Home_For_The_Future"].title,
-              subtitle: this.state.subsectionConfig.contents["paragraph_Namibia_Home_For_The_Future"].subtitle,
-              content: this.renderRhsColumnContent()
-            }}
+            lhsColumn={
+              ContentPageSubsectionColumnDataBinder(
+                this.state.subsectionConfig.contents["paragraph_Cheetah_Capital_Of_The_World"],
+                this.renderLhsColumnContentBinder
+              )
+            }
+
+            middleColumn={
+              {content: this.renderMiddleColumnContent()}
+            }
+
+            rhsColumn={
+              ContentPageSubsectionColumnDataBinder(
+                this.state.subsectionConfig.contents["paragraph_Namibia_Home_For_The_Future"],
+                this.renderRhsColumnContentBinder
+              )
+            }
           />
         </div>
       </div>
     );
   }
 
-  renderLhsColumnContent() {
+  renderLhsColumnContentBinder(content) {
     return (
       <div>
-        <p>
-          {this.state.subsectionConfig.contents["paragraph_Cheetah_Capital_Of_The_World"].content.paragraph_Cheetah_Capital_Of_The_World_01}
-        </p>
-        <p>
-          {this.state.subsectionConfig.contents["paragraph_Cheetah_Capital_Of_The_World"].content.paragraph_Cheetah_Capital_Of_The_World_02}
-        </p>
-        <p>
-          {this.state.subsectionConfig.contents["paragraph_Cheetah_Capital_Of_The_World"].content.paragraph_Cheetah_Capital_Of_The_World_03}
-        </p>
+        {ContentPageSubsectionColumnParagraphsContentBinder(content)}
 
         <div className="DisplayInlineBlock">
           <Segment inverted>
@@ -110,12 +113,10 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
     );
   }
 
-  renderRhsColumnContent() {
+  renderRhsColumnContentBinder(content) {
     return (
       <div>
-        <p>
-          {this.state.subsectionConfig.contents["paragraph_Namibia_Home_For_The_Future"].content}
-        </p>
+        {ContentPageSubsectionColumnParagraphsContentBinder(content)}
 
         <div className="DisplayInlineBlock">
           <Segment inverted>
