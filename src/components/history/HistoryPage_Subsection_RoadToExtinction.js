@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 10, 2020
+ * Updated  : Jul 11, 2020
  */
 
 import React from 'react';
@@ -131,24 +131,27 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
   renderMiddleColumnContent() {
     return (
       <div className={getElementStyleClassName("HistoryPageSubsectionRoadToExtinctionMiddleColumnContentOuterContainer")}>
-        <ImageSlideModal
-          slides={[
-            {
-              image: cheetah_range_map_01,
-              title: "Cheetah Range by Subspecies",
-              description: "Ranges with highest populations are in southern and eastern Africa. The Asiatic cheetahs are left only in the Persian Gulf."
-            },
-            {
-              image: cheetah_range_map_02,
-              title: "Cheetah Range Population Breakdown",
-              description: "Some ranges left have very small population left."
-            }
-          ]}
-        />
-        <p>Click on the map above to learn more.</p>
+        <div className={getElementStyleClassName("HistoryPageSubsectionRoadToExtinctionMiddleColumnContentImageSlideModalContainer")}>
+          <ImageSlideModal
+            slides={[
+              {
+                image: cheetah_range_map_01,
+                title: "Cheetah Range by Subspecies",
+                description: "Ranges with highest populations are in southern and eastern Africa. The Asiatic cheetahs are left only in the Persian Gulf."
+              },
+              {
+                image: cheetah_range_map_02,
+                title: "Cheetah Range Population Breakdown",
+                description: "Some ranges left have very small population left."
+              }
+            ]}
+          />
+          <p>Click on the map above to learn more.</p>
+        </div>
 
-        
-        <HistoryPageCheetahPopulationIllustration />
+        <div className={getElementStyleClassName("HistoryPageSubsectionRoadToExtinctionMiddleColumnContentCheetahPopulationIllustrationContainer")}>
+          <HistoryPageCheetahPopulationIllustration />
+        </div>
       </div>
     )
   }
