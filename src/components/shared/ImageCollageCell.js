@@ -23,6 +23,10 @@
  *  - `subtitle`: The subtitle text.
  *
  *  - `href`: The href link.
+ *
+ *  - `width` (optional): Desired width of the cell.
+ *
+ *  - `height` (optional): Desired height of the cell.
  */
 
 import React from 'react';
@@ -44,7 +48,7 @@ export default class ImageCollageCell extends React.Component {
           <Reveal animated='move down'>
             <Reveal.Content hidden>
               <div className={getElementStyleClassName("ImageCollageCellCore")}>
-                <Image src={this.props.image} href={this.props.href} />
+                <Image src={this.props.image} width={this.props.width} height={this.props.height} href={this.props.href} />
                 <div className={getElementStyleClassName("ImageCollageCellTitleGroupOuterContainer")}>
                   <p className={getElementStyleClassName("ImageCollageCellSubtitleText")}>{this.props.subtitle}</p>
                   <h2 className={getElementStyleClassName("ImageCollageCellTitleText")}>{this.props.title}</h2>
@@ -53,7 +57,7 @@ export default class ImageCollageCell extends React.Component {
             </Reveal.Content>
             <Reveal.Content visible>
               <div className={getElementStyleClassName("ImageCollageCellCore")}>
-                <Image src={this.props.image} href={this.props.href} />
+                <Image src={this.props.image} width={this.props.width} height={this.props.height} href={this.props.href} />
               </div>
             </Reveal.Content>
           </Reveal>
