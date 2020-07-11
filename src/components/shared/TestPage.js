@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 11, 2020
  */
 
 import React from 'react';
@@ -30,6 +30,8 @@ import HintSignpost from './HintSignpost'
 import CircularImage from './CircularImage'
 import ImageView from './ImageView'
 import MediaLinkButton from './MediaLinkButton'
+import ImageCollageCell from './ImageCollageCell'
+import ImageCollage from './ImageCollage'
 
 import image01 from './assets/cheetah-conservation-fund-logo.jpg'
 import image02 from './assets/cheetah-conservation-fund-30-logo.svg'
@@ -56,6 +58,50 @@ class TestPage extends React.Component {
         <h1>This is a test page</h1>
 
         This page is used to test our custom components, navigations, and other things.
+
+        <h2>ImageCollageCell</h2>
+        <ImageCollageCell
+          image={image04}
+          title="Title"
+          subtitle="Subtitle"
+          href="https://cheetah.org"
+        />
+
+        <h2>ImageCollage</h2>
+        <ImageCollage cells={
+          [
+            {
+              image: image04,
+              title: "title",
+              subtitle: "subtitle",
+              href: "https://cheetah.org"
+            },
+            {
+              image: image03,
+              title: "title",
+              subtitle: "subtitle",
+              href: "https://cheetah.org"
+            },
+            {
+              image: image04,
+              title: "title",
+              subtitle: "subtitle",
+              href: "https://cheetah.org"
+            },
+            {
+              image: image03,
+              title: "title",
+              subtitle: "subtitle",
+              href: "https://cheetah.org"
+            },
+            {
+              image: "https://www.researchgate.net/publication/333398548/figure/fig1/AS:763184512262144@1558968775167/Historic-and-current-cheetah-range-map-28.png",
+              title: "title",
+              subtitle: "subtitle",
+              href: "https://cheetah.org"
+            },
+          ]}
+        />
 
         <h2>ImageSlide</h2>
         <ImageSlide

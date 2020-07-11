@@ -1,0 +1,25 @@
+/**
+ * ImageCollage.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 10, 2020
+ * Updated  : Jul 11, 2020
+ */
+
+div.ImageCollageOuterContainer {
+  display: inline-block;
+}
+
+div.ImageCollageOuterContainer_DebugColor {
+  background-color: teal;
+}
+
+div.ImageCollageInnerContainer {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+div.ImageCollageInnerContainer::after {
+  float: clear;
+}
