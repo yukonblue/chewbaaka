@@ -1,0 +1,16 @@
+/**
+ * ImageCollage.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 10, 2020
+ * Updated  : Jul 10, 2020
+ */
+
+div.ImageCollageOuterContainer {
+
+}
+
+div.ImageCollageOuterContainer_DebugColor {
+  background-color: blue;
+}

@@ -30,6 +30,8 @@ import HintSignpost from './HintSignpost'
 import CircularImage from './CircularImage'
 import ImageView from './ImageView'
 import MediaLinkButton from './MediaLinkButton'
+import ImageCollageCell from './ImageCollageCell'
+import ImageCollage from './ImageCollage'
 
 import image01 from './assets/cheetah-conservation-fund-logo.jpg'
 import image02 from './assets/cheetah-conservation-fund-30-logo.svg'
@@ -56,6 +58,39 @@ class TestPage extends React.Component {
         <h1>This is a test page</h1>
 
         This page is used to test our custom components, navigations, and other things.
+
+        <h2>ImageCollageCell</h2>
+        <ImageCollageCell
+          image={image04}
+          title="Title"
+          subtitle="Subtitle"
+        />
+
+        <h2>ImageCollage</h2>
+        <ImageCollage images={
+          [
+            {
+              image: image01,
+              title: "title",
+              subtitle: "subtitle"
+            },
+            {
+              image: image02,
+              title: "title",
+              subtitle: "subtitle"
+            },
+            {
+              image: image03,
+              title: "title",
+              subtitle: "subtitle"
+            },
+            {
+              image: image04,
+              title: "title",
+              subtitle: "subtitle"
+            }
+          ]}
+        />
 
         <h2>ImageSlide</h2>
         <ImageSlide

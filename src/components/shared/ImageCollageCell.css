@@ -1,0 +1,44 @@
+/**
+ * ImageCollageCell.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 10, 2020
+ * Updated  : Jul 10, 2020
+ */
+
+div.ImageCollageCellOuterContainer {
+  /* display: block; */
+  display: inline-block;
+  position: relative;
+}
+
+div.ImageCollageCellOuterContainer_DebugColor {
+  background-color: blueviolet;
+}
+
+div.ImageCollageCellTitleGroupOuterContainer {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  z-index: 2;
+}
+
+div.ImageCollageCellTitleGroupOuterContainer_DebugColor {
+  background-color: greenyellow;
+}
+
+h2.ImageCollageCellTitleText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  line-height: 0.8;
+  color: white;
+}
+
+p.ImageCollageCellSubtitleText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: white;
+  text-transform: uppercase;
+}
