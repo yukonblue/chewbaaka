@@ -87,7 +87,7 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
             <Statistic inverted size="huge" color="orange">
               <Statistic.Value>21%</Statistic.Value>
               <Statistic.Label>
-                of the world's wild cheetahs live in Namibia.
+                of the world's wild cheetahs live in Namibia
               </Statistic.Label>
             </Statistic>
           </Segment>
@@ -125,7 +125,7 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
             <Statistic inverted size="huge" color="yellow">
               <Statistic.Value>90%</Statistic.Value>
               <Statistic.Label>
-                of Namibia's cheetahs live on communal and commercial livestock and game farms.
+                of Namibia's cheetahs live on communal and commercial livestock and game farms
               </Statistic.Label>
             </Statistic>
           </Segment>

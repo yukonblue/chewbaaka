@@ -120,7 +120,7 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
                                     <div
                                       className="label"
                                     >
-                                      of the world's wild cheetahs live in Namibia.
+                                      of the world's wild cheetahs live in Namibia
                                     </div>
                                   </div>
                                 </div>
@@ -234,7 +234,7 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
                                     <div
                                       className="label"
                                     >
-                                      of Namibia's cheetahs live on communal and commercial livestock and game farms.
+                                      of Namibia's cheetahs live on communal and commercial livestock and game farms
                                     </div>
                                   </div>
                                 </div>
@@ -284,7 +284,7 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
                       <div
                         className="label"
                       >
-                        Cheetahs were found in 31 populations in 23 African countries.
+                        Cheetahs were found in 31 populations in 23 African countries
                       </div>
                     </div>
                   </div>
@@ -306,7 +306,7 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
                       <div
                         className="label"
                       >
-                        Asian cheetahs left in Iran.
+                        Asian cheetahs left in Iran
                       </div>
                     </div>
                   </div>

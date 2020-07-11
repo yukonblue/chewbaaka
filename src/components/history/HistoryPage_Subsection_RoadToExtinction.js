@@ -52,7 +52,7 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
             <Statistic inverted size="huge" color="orange">
               <Statistic.Value>&lt;7,500</Statistic.Value>
               <Statistic.Label>
-                Cheetahs were found in 31 populations in 23 African countries.
+                Cheetahs were found in 31 populations in 23 African countries
               </Statistic.Label>
             </Statistic>
           </Segment>
@@ -63,7 +63,7 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
             <Statistic inverted size="huge" color="red">
               <Statistic.Value>&lt;50</Statistic.Value>
               <Statistic.Label>
-                Asian cheetahs left in Iran.
+                Asian cheetahs left in Iran
               </Statistic.Label>
             </Statistic>
           </Segment>
