@@ -214,28 +214,135 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
               >
                 Cheetahs In Sports
               </h3>
-              <div>
-                <div
-                  className="FlexibleContainerOuterContainer FlexibleContainerOuterContainer_DebugColor DebugWireframe"
-                >
+              <div
+                className="HistoryPageSubsectionCheetahAndManImageInnerContainer HistoryPageSubsectionCheetahAndManImageInnerContainer_DebugColor DebugWireframe"
+              >
+                <div>
                   <div
-                    className="FlexibleContainerInnerContainer FlexibleContainerInnerContainer_DebugColor DebugWireframe"
+                    className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
                   >
-                    <p>
-                      In c1700 BC, the Egyptians were the first to tame cheetahs. They admired the cheetah for its speed, hunting ability and beauty. They honored cheetahs as symbols of royalty and prestige.
-                    </p>
-                    <p>
-                      The swiftest animal on earth became a cherished hunting companion of Pharaohs and royalty throughout Europe, Asia and India. Until the early 1900s, ownership of cheetahs was as important to these nobles as their love for gold. Cheetahs hunt by sight so they excelled in the sport known as "coursing". Hunts organized by royalty and nobles were for the challenge of sport, not for food. Hunts represented power and prestige.
-                    </p>
-                    <p>
-                      By the 1500s the popularity of the cheetah as a hunting companion rivalled that of the dog. Cheetahs, the most easily tamed of the big cats, were caught, tamed and trained. Adults were used because cubs had not learned how to hunt. Tamed cheetahs formed a strong bond with their keepers.
-                    </p>
-                    <p>
-                      Each cheetah rode to the hunt by horseback or on a cart. Its eyes were coved with a hood and uncovered when prey were sighted. The cat was released to chase down the prey then rewarded with meat fed from a wooden spoon.
-                    </p>
-                    <p>
-                      Althrough cherished, pampered cheetahs were loved to near extinction and taken from the wild in great numbers. By the early 1900s, India and Iran were importing African cheetahs for the sport of "coursing", as their own wild population became too small.
-                    </p>
+                    <div
+                      className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+                    >
+                      <div>
+                        <div
+                          className="ui vertically divided grid"
+                        >
+                          <div
+                            className="two column row"
+                          >
+                            <div
+                              className="column"
+                            >
+                              <div
+                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
+                              >
+                                <div>
+                                  <div
+                                    className="ImageSlidingGalleryOuterContainer"
+                                  >
+                                    <div
+                                      className="ImageSlidingGalleryCoreContainer"
+                                    >
+                                      <img
+                                        alt="The painting A Cheetah with Two Indians gifted to the English King George III by the Tippoo Sultan in 1799."
+                                        className="ImageSlidingGalleryImgPart"
+                                        src="https://uploads0.wikiart.org/images/george-stubbs/cheetah-with-two-indian-servants-and-a-deer.jpg"
+                                      />
+                                      <div
+                                        className="ImageSlidingGalleryCaptionPart"
+                                        data-testid="ImageSlidingGalleryCaptionPart"
+                                      >
+                                        <div
+                                          className="CaptionContainer"
+                                          data-testid="CaptionComponentTestId"
+                                        >
+                                          <div
+                                            className="IconContainer"
+                                          >
+                                            <i
+                                              aria-hidden="true"
+                                              className="image icon"
+                                              onClick={[Function]}
+                                            />
+                                          </div>
+                                          <p
+                                            className="CaptionText"
+                                          >
+                                            The painting A Cheetah with Two Indians gifted to the English King George III by the Tippoo Sultan in 1799.
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div
+                                      className="ImageSlidingGalleryButtonContainer"
+                                    >
+                                      <div
+                                        className="ui blue huge icon left attached button"
+                                        onClick={[Function]}
+                                        role="button"
+                                        tabIndex={0}
+                                      >
+                                        <i
+                                          aria-hidden="true"
+                                          className="arrow alternate circle left outline icon"
+                                          onClick={[Function]}
+                                        />
+                                      </div>
+                                      <div
+                                        className="ui blue huge icon right attached button"
+                                        onClick={[Function]}
+                                        role="button"
+                                        tabIndex={0}
+                                      >
+                                        <i
+                                          aria-hidden="true"
+                                          className="arrow alternate circle right outline icon"
+                                          onClick={[Function]}
+                                        />
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              className="column"
+                            >
+                              <div
+                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
+                              >
+                                <div>
+                                  <div
+                                    className="FlexibleContainerOuterContainer FlexibleContainerOuterContainer_DebugColor DebugWireframe"
+                                  >
+                                    <div
+                                      className="FlexibleContainerInnerContainer FlexibleContainerInnerContainer_DebugColor DebugWireframe"
+                                    >
+                                      <p>
+                                        In c1700 BC, the Egyptians were the first to tame cheetahs. They admired the cheetah for its speed, hunting ability and beauty. They honored cheetahs as symbols of royalty and prestige.
+                                      </p>
+                                      <p>
+                                        The swiftest animal on earth became a cherished hunting companion of Pharaohs and royalty throughout Europe, Asia and India. Until the early 1900s, ownership of cheetahs was as important to these nobles as their love for gold. Cheetahs hunt by sight so they excelled in the sport known as "coursing". Hunts organized by royalty and nobles were for the challenge of sport, not for food. Hunts represented power and prestige.
+                                      </p>
+                                      <p>
+                                        By the 1500s the popularity of the cheetah as a hunting companion rivalled that of the dog. Cheetahs, the most easily tamed of the big cats, were caught, tamed and trained. Adults were used because cubs had not learned how to hunt. Tamed cheetahs formed a strong bond with their keepers.
+                                      </p>
+                                      <p>
+                                        Each cheetah rode to the hunt by horseback or on a cart. Its eyes were coved with a hood and uncovered when prey were sighted. The cat was released to chase down the prey then rewarded with meat fed from a wooden spoon.
+                                      </p>
+                                      <p>
+                                        Althrough cherished, pampered cheetahs were loved to near extinction and taken from the wild in great numbers. By the early 1900s, India and Iran were importing African cheetahs for the sport of "coursing", as their own wild population became too small.
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

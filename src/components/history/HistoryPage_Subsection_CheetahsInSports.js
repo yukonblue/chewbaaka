@@ -14,7 +14,9 @@ import '../shared/ContentPageSharedStyles.css'
 import { getElementStyleClassName } from '../../styling/styling'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 
+import ImageSlidingGallery from '../shared/ImageSlidingGallery'
 import FlexibleContainer from '../shared/FlexibleContainer'
 
 export default class HistoryPageSubsectionCheetahsInSports extends React.Component {
@@ -37,6 +39,38 @@ export default class HistoryPageSubsectionCheetahsInSports extends React.Compone
   }
 
   renderContent() {
+    return (
+      <div className={getElementStyleClassName("HistoryPageSubsectionCheetahAndManImageInnerContainer")}>
+        <div>
+          <ContentPageSubsectionTwoColumnContentTemplate
+            lhsColumn={{content: this.renderLhsContent()}}
+            rhsColumn={{content: this.renderRhsContent()}}
+          />
+        </div>
+      </div>
+    );
+  }
+
+  renderLhsContent() {
+    return (
+      <div>
+        <ImageSlidingGallery
+          slides={[
+            {
+              image: "https://uploads0.wikiart.org/images/george-stubbs/cheetah-with-two-indian-servants-and-a-deer.jpg",
+              caption: "The painting A Cheetah with Two Indians gifted to the English King George III by the Tippoo Sultan in 1799."
+            },
+            {
+              image: "https://www.thehindu.com/sci-tech/energy-and-environment/hb4cnq/article30295374.ece/alternates/FREE_960/15SM4AlwarCheetahjpg",
+              caption: "This 1878 painting from Marianne North’s book shows cheetahs and lynxes chained to charpais by their keepers in Alwar."
+            }
+          ]}
+        />
+      </div>
+    );
+  }
+
+  renderRhsContent() {
     return (
       <div>
         <FlexibleContainer>
