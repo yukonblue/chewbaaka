@@ -343,6 +343,9 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
                                 />
                               </div>
                             </div>
+                            <p>
+                              Click on the map above to learn more.
+                            </p>
                           </div>
                         </div>
                       </div>

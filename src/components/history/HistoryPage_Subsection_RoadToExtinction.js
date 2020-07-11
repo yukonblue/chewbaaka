@@ -143,6 +143,7 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
             }
           ]}
         />
+        <p>Click on the map above to learn more.</p>
       </div>
     )
   }
