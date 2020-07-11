@@ -1,0 +1,36 @@
+/**
+ * ContentPageTail.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 11, 2020
+ * Updated  : Jul 11, 2020
+ */
+
+div.ContentPageTailOuterContainer {
+  margin: 0 auto;
+}
+
+div.ContentPageTailOuterContainer_DebugColor {
+  background-color: goldenrod;
+}
+
+div.ContentPageTailInnerContainer {
+  display: block;
+  margin: 0px auto;
+  /**
+   * TODO:
+   *
+   * This 85% is used to emulate the same layout behavior
+   * used in ContentPageSubsectionTemplate.css
+   * (see `div.ContentPageSubsectionTemplateInnerContainer`).
+   *
+   * We need to consolidate these rules into a common place
+   * at some point.
+   */
+  width: 85%;
+}
+
+div.ContentPageTailInnerContainer_DebugColor {
+  background-color: papayawhip;
+}
