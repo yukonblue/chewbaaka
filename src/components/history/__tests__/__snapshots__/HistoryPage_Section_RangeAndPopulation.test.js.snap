@@ -383,6 +383,23 @@ exports[`HistoryPageSectionRangeAndPopulation component snapshot 1`] = `
                     </div>
                   </div>
                 </div>
+                <div>
+                  <a
+                    href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5729830/"
+                  >
+                    <button
+                      className="ui blue icon button"
+                      onClick={[Function]}
+                    >
+                      The distribution and numbers of cheetah (Acinonyx jubatus) in southern Africa
+                      <i
+                        aria-hidden="true"
+                        className="file alternate outline icon"
+                        onClick={[Function]}
+                      />
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>

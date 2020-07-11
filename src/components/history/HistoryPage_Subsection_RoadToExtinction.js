@@ -21,6 +21,8 @@ import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPa
 
 import { ContentPageSubsectionColumnDataBinderWithParagraphBinder } from '../shared/ContentPageSubsectionColumnDataBinder'
 
+import MediaLinkButton from '../shared/MediaLinkButton'
+
 export default class HistoryPageSubsectionRoadToExtinction extends React.Component {
 
   static _SUBSECTION_NAME_        =   "subsection_RoadToExtinction";
@@ -83,6 +85,12 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
               this.state.subsectionConfig.contents[HistoryPageSubsectionRoadToExtinction._COLUMN_DATA_NAME_RHS_]
             )
           }
+        />
+
+        <MediaLinkButton
+          href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5729830/"
+          title='The distribution and numbers of cheetah (Acinonyx jubatus) in southern Africa'
+          icon="file alternate outline"
         />
       </div>
     );
