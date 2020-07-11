@@ -129,9 +129,9 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                                       className="ImageSlidingGalleryCoreContainer"
                                     >
                                       <img
-                                        alt="Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words"
+                                        alt="Mafdet’s head on the bed where the mummy is placed."
                                         className="ImageSlidingGalleryImgPart"
-                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/War_trophies_Deir_el_Bahari_Wellcome_L0027402.jpg/440px-War_trophies_Deir_el_Bahari_Wellcome_L0027402.jpg"
+                                        src="https://www.thevintagenews.com/wp-content/uploads/2018/12/anubis_attending_the_mummy_of_sennedjem.jpg"
                                       />
                                       <div
                                         className="ImageSlidingGalleryCaptionPart"
@@ -153,7 +153,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                                           <p
                                             className="CaptionText"
                                           >
-                                            Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words
+                                            Mafdet’s head on the bed where the mummy is placed.
                                           </p>
                                         </div>
                                       </div>
