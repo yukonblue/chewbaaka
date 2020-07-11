@@ -4,7 +4,25 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 10, 2020
+ * Updated  : Jul 11, 2020
+ */
+
+/**
+ * ImageCollageCell
+ *
+ * `ImageCollageCell` is a component that illustrates an image
+ * that is hoverable with a title and subtitle text shown
+ * over it, as well as an navigational href link.
+ *
+ * Props:
+ *
+ *  - `image`: The image to show.
+ *
+ *  - `title`: The title text.
+ *
+ *  - `subtitle`: The subtitle text.
+ *
+ *  - `href`: The href link.
  */
 
 import React from 'react';
@@ -26,7 +44,7 @@ export default class ImageCollageCell extends React.Component {
           <Reveal animated='move down'>
             <Reveal.Content hidden>
               <div className={getElementStyleClassName("ImageCollageCellCore")}>
-                <Image src={this.props.image} />
+                <Image src={this.props.image} href={this.props.href} />
                 <div className={getElementStyleClassName("ImageCollageCellTitleGroupOuterContainer")}>
                   <p className={getElementStyleClassName("ImageCollageCellSubtitleText")}>{this.props.subtitle}</p>
                   <h2 className={getElementStyleClassName("ImageCollageCellTitleText")}>{this.props.title}</h2>
@@ -35,7 +53,7 @@ export default class ImageCollageCell extends React.Component {
             </Reveal.Content>
             <Reveal.Content visible>
               <div className={getElementStyleClassName("ImageCollageCellCore")}>
-                <Image src={this.props.image} />
+                <Image src={this.props.image} href={this.props.href} />
               </div>
             </Reveal.Content>
           </Reveal>

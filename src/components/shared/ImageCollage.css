@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 10, 2020
+ * Updated  : Jul 11, 2020
  */
 
 div.ImageCollageOuterContainer {
@@ -12,7 +12,7 @@ div.ImageCollageOuterContainer {
 }
 
 div.ImageCollageOuterContainer_DebugColor {
-  background-color: blue;
+  background-color: teal;
 }
 
 div.ImageCollageInnerContainer {

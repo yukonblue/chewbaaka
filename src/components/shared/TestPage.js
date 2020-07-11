@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 11, 2020
  */
 
 import React from 'react';
@@ -64,45 +64,41 @@ class TestPage extends React.Component {
           image={image04}
           title="Title"
           subtitle="Subtitle"
+          href="https://cheetah.org"
         />
 
         <h2>ImageCollage</h2>
         <ImageCollage cells={
           [
             {
+              image: image04,
+              title: "title",
+              subtitle: "subtitle",
+              href: "https://cheetah.org"
+            },
+            {
+              image: image03,
+              title: "title",
+              subtitle: "subtitle",
+              href: "https://cheetah.org"
+            },
+            {
+              image: image04,
+              title: "title",
+              subtitle: "subtitle",
+              href: "https://cheetah.org"
+            },
+            {
+              image: image03,
+              title: "title",
+              subtitle: "subtitle",
+              href: "https://cheetah.org"
+            },
+            {
               image: "https://www.researchgate.net/publication/333398548/figure/fig1/AS:763184512262144@1558968775167/Historic-and-current-cheetah-range-map-28.png",
               title: "title",
-              subtitle: "subtitle"
-            },
-            {
-              image: image04,
-              title: "title",
-              subtitle: "subtitle"
-            },
-            {
-              image: image03,
-              title: "title",
-              subtitle: "subtitle"
-            },
-            {
-              image: image04,
-              title: "title",
-              subtitle: "subtitle"
-            },
-            {
-              image: image03,
-              title: "title",
-              subtitle: "subtitle"
-            },
-            {
-              image: image04,
-              title: "title",
-              subtitle: "subtitle"
-            },
-            {
-              image: image03,
-              title: "title",
-              subtitle: "subtitle"
+              subtitle: "subtitle",
+              href: "https://cheetah.org"
             },
           ]}
         />

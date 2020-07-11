@@ -4,11 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 10, 2020
+ * Updated  : Jul 11, 2020
  */
 
 div.ImageCollageCellOuterContainer {
-  /* display: block; */
   display: inline-block;
   position: relative;
 }
