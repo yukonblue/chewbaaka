@@ -8,9 +8,17 @@
  */
 
 div.ImageCollageOuterContainer {
-
+  display: inline-block;
 }
 
 div.ImageCollageOuterContainer_DebugColor {
   background-color: blue;
+}
+
+div.ImageCollageInnerContainer {
+  float: right;
+}
+
+div.ImageCollageInnerContainer::after {
+  float: clear;
 }

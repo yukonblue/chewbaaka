@@ -67,15 +67,15 @@ class TestPage extends React.Component {
         />
 
         <h2>ImageCollage</h2>
-        <ImageCollage images={
+        <ImageCollage cells={
           [
             {
-              image: image01,
+              image: "https://www.researchgate.net/publication/333398548/figure/fig1/AS:763184512262144@1558968775167/Historic-and-current-cheetah-range-map-28.png",
               title: "title",
               subtitle: "subtitle"
             },
             {
-              image: image02,
+              image: image04,
               title: "title",
               subtitle: "subtitle"
             },
@@ -84,11 +84,6 @@ class TestPage extends React.Component {
               title: "title",
               subtitle: "subtitle"
             },
-            {
-              image: image04,
-              title: "title",
-              subtitle: "subtitle"
-            }
           ]}
         />
 
