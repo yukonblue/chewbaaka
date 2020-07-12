@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 11, 2020
+ * Updated  : Jul 12, 2020
  */
 
 import React from 'react';
@@ -14,6 +14,8 @@ import { getElementStyleClassName } from '../../styling/styling'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
 import HistoryPageCheetahEvolutionMap from './HistoryPageCheetahEvolutionMap'
+
+import MediaLinkButton from '../shared/MediaLinkButton'
 
 import './HistoryPage_SubSection_Cheetah_Evolution.css'
 
@@ -42,6 +44,12 @@ export default class HistoryPageSubsectionCheetahEvolution extends React.Compone
         <div>
           Learn about the evolution and migration of the cheetah.
           <HistoryPageCheetahEvolutionMap />
+
+          <MediaLinkButton
+            href="https://www.sciencedaily.com/releases/2015/12/151208204222.htm"
+            title='Cheetahs migrated from North America | ScienceDaily'
+            icon="file alternate outline"
+          />
         </div>
       </div>
     );
