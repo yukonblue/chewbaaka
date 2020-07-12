@@ -4,19 +4,45 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 11, 2020
+ * Updated  : Jul 12, 2020
  */
+
+import collage_image_01 from './assets/collage/collage_01.jpg'
+import collage_image_02 from './assets/collage/collage_02.jpg'
+import collage_image_03 from './assets/collage/collage_03.jpg'
+import collage_image_04 from './assets/collage/collage_04.jpg'
+import collage_image_05 from './assets/collage/collage_05.jpg'
+import collage_image_06 from './assets/collage/collage_06.jpg'
+import collage_image_07 from './assets/collage/collage_07.jpg'
+import collage_image_08 from './assets/collage/collage_08.jpg'
+import collage_image_09 from './assets/collage/collage_09.jpg'
+import collage_image_10 from './assets/collage/collage_10.jpg'
+import collage_image_11 from './assets/collage/collage_11.jpg'
+import collage_image_12 from './assets/collage/collage_12.jpg'
+import collage_image_13 from './assets/collage/collage_13.jpg'
+import collage_image_14 from './assets/collage/collage_14.jpg'
+import collage_image_15 from './assets/collage/collage_15.jpg'
+import collage_image_16 from './assets/collage/collage_16.jpg'
 
 export const config = {
   imageCollage: {
     images:  [
-      "https://th.thgim.com/sci-tech/energy-and-environment/yrktd/article30295376.ece/ALTERNATES/FREE_960/15SMafrican-cubsjpgs",
-      "https://ichef.bbci.co.uk/news/320/cpsprodpb/27A3/production/_96974101_gettyimages-cheetah.jpg",
-      "https://idsb.tmgrup.com.tr/ly/uploads/images/2020/05/20/thumbs/800x531/36753.jpg",
-      "https://travelafricamag.com/wp-content/uploads/2018/01/HR_Mike-Dexter_20171107-IMG_5091.jpg",
-      "https://media.mehrnews.com/d/2019/09/01/4/3224140.jpg",
-      "https://images.theconversation.com/files/152362/original/image-20170111-6447-606129.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
-      "https://www.treehugger.com/thmb/ahEMfgEkro4OBW8hOdenpM3V2bw=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/cheetah-licking-cub-4af516e956004c01a97b4a51175fd8ff.jpg"
+      collage_image_01,
+      collage_image_02,
+      collage_image_03,
+      collage_image_04,
+      collage_image_05,
+      collage_image_06,
+      collage_image_07,
+      collage_image_08,
+      collage_image_09,
+      collage_image_10,
+      collage_image_11,
+      collage_image_12,
+      collage_image_13,
+      collage_image_14,
+      collage_image_15,
+      collage_image_16,
     ],
     collageCellContent: [
       {
@@ -54,6 +80,11 @@ export const config = {
         subtitle: "Watch the great documentary",
         href: "https://www.youtube.com/watch?v=zfyuzX_SAH4"
       },
+      {
+        title: "Cheetah at Smithsonian's National Zoo",
+        subtitle: "Learn more from the zoo",
+        href: "https://nationalzoo.si.edu/animals/cheetah"
+      }
     ]
   }  
 }

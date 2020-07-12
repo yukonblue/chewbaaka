@@ -50,6 +50,8 @@ export default class ContentPageTail extends React.Component {
         <ImageCollageDriver
           data={config.imageCollage}
           count={4}
+          imageWidth={480}
+          imageHeight={320}
         />
       </div>
     );
