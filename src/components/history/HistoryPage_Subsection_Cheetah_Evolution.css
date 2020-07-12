@@ -16,6 +16,13 @@ div.HistoryPageSubsectionCheetahEvolutionOuterContainer_DebugColor {
 }
 
 div.HistoryPageSubsectionCheetahEvolutionInnerContainer {
+}
+
+div.HistoryPageSubsectionCheetahEvolutionInnerContainer_DebugColor {
+  background-color: purple;
+}
+
+div.HistoryPageSubsectionCheetahEvolutionMapComponentContainer {
   /**
    * TODO:
    * This width is a hack to get the content to be centered.
@@ -23,8 +30,4 @@ div.HistoryPageSubsectionCheetahEvolutionInnerContainer {
    */
   width: 1250px;
   margin: 0 auto;
-}
-
-div.HistoryPageSubsectionCheetahEvolutionInnerContainer_DebugColor {
-  background-color: purple;
 }
