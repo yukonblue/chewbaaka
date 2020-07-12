@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 08, 2020
- * Updated  : Jul 12, 2020
+ * Updated  : Jul 11, 2020
  */
 
 import React from 'react';
@@ -12,7 +12,7 @@ import React from 'react';
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate';
 
 import HistoryPageSubsectionFelidaeFamilyTree from './HistoryPage_Subsection_FelidaeFamilyTree'
-import HistoryPageSubsectionCheetahEvolution from './HistoryPage_Subsection_Cheetah_Evolution'
+import HistoryPageSubsectionCheetahEvolution from './HistoryPage_SubSection_Cheetah_Evolution'
 
 export default class HistoryPageSectionEvolution extends React.Component {
 
