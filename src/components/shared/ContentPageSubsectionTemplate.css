@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 12, 2020
  */
 
 div.ContentPageSubsectionTemplateOuterContainer {
@@ -18,9 +18,9 @@ div.ContentPageSubsectionTemplateOuterContainer_DebugColor {
 
 div.ContentPageSubsectionTemplateInnerContainer {
   margin: 0 auto;
-  width: 85%;  
+  width: 85%;
 }
 
 div.ContentPageSubsectionTemplateInnerContainer_DebugColor {
-  background-color: pink;
+  background-color: plum;
 }
