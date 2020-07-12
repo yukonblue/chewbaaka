@@ -81,18 +81,21 @@ export default function FelidaeFamilyTree() {
         coverImage={image_cheetah}
         description="Cheetah"
         caption="Acinonyx jubatus"
+        contentColor="orange"
         position={{top: 10, left:35}}
       />
       <TextReveal
         coverImage={image_puma}
         description="Puma"
         caption="Puma concolor"
+        contentColor="orange"
         position={{top: 160, left: 15}}
       />
       <TextReveal
         coverImage={image_jaguarundi}
         description="Jaguarundi"
         caption="Herpailurus yagouaroundi"
+        contentColor="orange"
         position={{top: 310, left: 40}}
       />
       { /* Lynx lineage */ }
@@ -100,24 +103,28 @@ export default function FelidaeFamilyTree() {
         coverImage={image_eurasian_lynx}
         description="Eurasian Lynx"
         caption="Lynx lynx"
+        contentColor="silver"
         position={{top: 30, left: 180}}
       />
       <TextReveal
         coverImage={image_canadian_lynx}
         description="Canadian Lynx"
         caption="Lynx canadensis"
+        contentColor="silver"
         position={{top: 190, left: 190}}
       />
       <TextReveal
         coverImage={image_iberian_lynx}
         description="Iberian Lynx"
         caption="Lynx pardinus"
+        contentColor="silver"
         position={{top: 350, left: 200}}
       />
       <TextReveal
         coverImage={image_bobcat}
         description="Bobcat"
-        caption="Lynx pardinus"
+        caption="Lynx rufus"
+        contentColor="silver"
         position={{top: 500, left: 180}}
       />
       { /* Panthera lineage */ }
@@ -125,42 +132,49 @@ export default function FelidaeFamilyTree() {
         coverImage={image_tiger}
         description="Tiger"
         caption="Panthera tigris"
+        contentColor="red"
         position={{top: 20, left: 430}}
       />
       <TextReveal
         coverImage={image_lion}
         description="Lion"
         caption="Panthera leo"
+        contentColor="red"
         position={{top: 30, left: 580}}
       />
       <TextReveal
         coverImage={image_jaguar}
         description="Jaguar"
         caption="Panthera onca"
+        contentColor="red"
         position={{top: 180, left: 400}}
       />
       <TextReveal
         coverImage={image_leopard}
         description="Leopard"
         caption="Panthera pardus"
+        contentColor="red"
         position={{top: 180, left: 550}}
       />
       <TextReveal
         coverImage={image_snow_leopard}
         description="Snow Leopard"
         caption="Panthera uncia"
+        contentColor="red"
         position={{top: 330, left: 390}}
       />
       <TextReveal
         coverImage={image_mainland_clouded_leopard}
         description="Mainland Clouded Leopard"
         caption="Neofelis nebulosa"
+        contentColor="red"
         position={{top: 470, left: 330}}
       />
       <TextReveal
         coverImage={image_sunda_clouded_leopard}
         description="Sunda Clouded Leopard"
         caption="Neofelis diardi"
+        contentColor="red"
         position={{top: 620, left: 320}}
       />
       { /* Bay Cat lineage */ }
@@ -168,18 +182,21 @@ export default function FelidaeFamilyTree() {
         coverImage={image_asiatic_golden_cat}
         description="Asiatic Golden Cat"
         caption="Catopuma temminckii"
+        contentColor="blue"
         position={{top: 420, left: 1340}}
       />
       <TextReveal
         coverImage={image_borneo_bay_cat}
         description="Borneo Bay Cat"
         caption="Catopuma badia"
+        contentColor="blue"
         position={{top: 490, left: 1180}}
       />
       <TextReveal
         coverImage={image_marbled_cat}
         description="Marbled Cat"
         caption="Pardofelis marmorata"
+        contentColor="blue"
         position={{top: 540, left: 1020}}
       />
       { /* Leopardus lineage */ }
@@ -187,48 +204,56 @@ export default function FelidaeFamilyTree() {
         coverImage={image_ocelot}
         description="Ocelot"
         caption="Leopardus pardalis"
+        contentColor="black"
         position={{top: 640, left: 1400}}
       />
       <TextReveal
         coverImage={image_geoffroys_cat}
         description="Geoffroy's Cat"
         caption="Leopardus geoffroyi"
+        contentColor="black"
         position={{top: 780, left: 1370}}
       />
       <TextReveal
         coverImage={image_andean_cat}
         description="Andean Cat"
         caption="Leopardus jacobita"
+        contentColor="black"
         position={{top: 700, left: 1200}}
       />
       <TextReveal
         coverImage={image_maygay}
         description="Margay"
         caption="Leopardus wiedii"
+        contentColor="black"
         position={{top: 720, left: 1020}}
       />
       <TextReveal
         coverImage={image_pampas_cat}
         description="Pampas Cat"
         caption="Leopardus colocola"
+        contentColor="black"
         position={{top: 660, left: 880}}
       />
       <TextReveal
         coverImage={image_oncilla}
         description="Oncilla - Northern Tiger Cat"
         caption="Leopardus tigrinus"
+        contentColor="black"
         position={{top: 670, left: 730}}
       />
       <TextReveal
         coverImage={image_southern_tiger_cat}
         description="Southern Tiger Cat"
         caption="Leopardus guttulus"
+        contentColor="black"
         position={{top: 730, left: 580}}
       />
       <TextReveal
         coverImage={image_guina}
         description="Guiña / Kodkod"
         caption="Leopardus guigna"
+        contentColor="black"
         position={{top: 850, left: 450}}
       />
       { /* Leopard Cat lineage */ }
@@ -236,36 +261,42 @@ export default function FelidaeFamilyTree() {
         coverImage={image_fishing_cat}
         description="Fishing Cat"
         caption="Prionailurus viverrinus"
+        contentColor="teal"
         position={{top: 10, left: 790}}
       />
       <TextReveal
         coverImage={image_mainland_leopard_cat}
         description="Mainland Leopard Cat"
         caption="Prionailurus bengalensis"
+        contentColor="teal"
         position={{top: 150, left: 750}}
       />
       <TextReveal
         coverImage={image_sunda_leopard_cat}
         description="Sunda Leopard Cat"
         caption="Prionailurus javanensis"
+        contentColor="teal"
         position={{top: 300, left: 700}}
       />
       <TextReveal
         coverImage={image_flat_headed_cat}
         description="Flat-headed Cat"
         caption="Prionailurus planiceps"
+        contentColor="teal"
         position={{top: 400, left: 560}}
       />
       <TextReveal
         coverImage={image_rusty_spotted_cat}
         description="Rusty-spotted Cat"
         caption="Prionailurus rubiginosus"
+        contentColor="teal"
         position={{top: 450, left: 700}}
       />
       <TextReveal
         coverImage={image_pallas_cat}
         description="Pallas's Cat"
         caption="Otocolobus manul"
+        contentColor="teal"
         position={{top: 560, left: 530}}
       />
       { /* Caracal lineage */ }
@@ -273,18 +304,21 @@ export default function FelidaeFamilyTree() {
         coverImage={image_caracal}
         description="Caracal"
         caption="Caracal caracal"
+        contentColor="violet"
         position={{top: 10, left: 950}}
       />
       <TextReveal
         coverImage={image_serval}
         description="Serval"
         caption="Leptailurus serval"
+        contentColor="violet"
         position={{top: 160, left: 900}}
       />
       <TextReveal
         coverImage={image_african_golden_cat}
         description="African Golden Cat"
         caption="Caracal aurata"
+        contentColor="violet"
         position={{top: 300, left: 860}}
       />
       { /* Felis lineage */ }
