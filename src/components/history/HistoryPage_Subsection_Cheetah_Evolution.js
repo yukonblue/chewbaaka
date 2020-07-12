@@ -1,5 +1,5 @@
 /**
- * HistoryPage_SubSection_Cheetah_Evolution.js
+ * HistoryPage_Subsection_Cheetah_Evolution.js
  * Chewbaaka
  *
  * Author   : Tomiko
@@ -17,7 +17,7 @@ import HistoryPageCheetahEvolutionMap from './HistoryPageCheetahEvolutionMap'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
-import './HistoryPage_SubSection_Cheetah_Evolution.css'
+import './HistoryPage_Subsection_Cheetah_Evolution.css'
 
 export default class HistoryPageSubsectionCheetahEvolution extends React.Component {
 
