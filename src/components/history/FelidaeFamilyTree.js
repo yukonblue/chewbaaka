@@ -95,7 +95,7 @@ export default function FelidaeFamilyTree() {
         caption="Herpailurus yagouaroundi"
         position={{top: 270, left: 10}}
       />
-      { /* Puma lineage */ }
+      { /* Lynx lineage */ }
       <TextReveal
         coverImage={image_eurasian_lynx}
         description="Eurasian Lynx"
