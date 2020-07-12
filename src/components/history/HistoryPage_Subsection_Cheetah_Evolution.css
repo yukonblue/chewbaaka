@@ -16,7 +16,12 @@ div.HistoryPageSubsectionCheetahEvolutionOuterContainer_DebugColor {
 }
 
 div.HistoryPageSubsectionCheetahEvolutionInnerContainer {
-  display: inline-block;
+  /**
+   * TODO:
+   * This width is a hack to get the content to be centered.
+   * Need a better solution ..
+   */
+  width: 1250px;
   margin: 0 auto;
 }
 
