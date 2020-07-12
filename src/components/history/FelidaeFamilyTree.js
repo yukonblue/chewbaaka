@@ -81,248 +81,248 @@ export default function FelidaeFamilyTree() {
         coverImage={image_cheetah}
         description="Cheetah"
         caption="Acinonyx jubatus"
-        position={{top: 10, left: 10}}
+        position={{top: 10, left:35}}
       />
       <TextReveal
         coverImage={image_puma}
         description="Puma"
         caption="Puma concolor"
-        position={{top: 140, left: 10}}
+        position={{top: 160, left: 15}}
       />
       <TextReveal
         coverImage={image_jaguarundi}
         description="Jaguarundi"
         caption="Herpailurus yagouaroundi"
-        position={{top: 270, left: 10}}
+        position={{top: 310, left: 40}}
       />
       { /* Lynx lineage */ }
       <TextReveal
         coverImage={image_eurasian_lynx}
         description="Eurasian Lynx"
         caption="Lynx lynx"
-        position={{top: 10, left: 140}}
+        position={{top: 30, left: 180}}
       />
       <TextReveal
         coverImage={image_canadian_lynx}
         description="Canadian Lynx"
         caption="Lynx canadensis"
-        position={{top: 140, left: 140}}
+        position={{top: 190, left: 190}}
       />
       <TextReveal
         coverImage={image_iberian_lynx}
         description="Iberian Lynx"
         caption="Lynx pardinus"
-        position={{top: 270, left: 140}}
+        position={{top: 350, left: 200}}
       />
       <TextReveal
         coverImage={image_bobcat}
         description="Bobcat"
         caption="Lynx pardinus"
-        position={{top: 400, left: 140}}
+        position={{top: 500, left: 180}}
       />
       { /* Panthera lineage */ }
       <TextReveal
         coverImage={image_tiger}
         description="Tiger"
         caption="Panthera tigris"
-        position={{top: 10, left: 270}}
+        position={{top: 20, left: 430}}
       />
       <TextReveal
         coverImage={image_lion}
         description="Lion"
         caption="Panthera leo"
-        position={{top: 140, left: 270}}
+        position={{top: 30, left: 580}}
       />
       <TextReveal
         coverImage={image_jaguar}
         description="Jaguar"
         caption="Panthera onca"
-        position={{top: 270, left: 270}}
+        position={{top: 180, left: 400}}
       />
       <TextReveal
         coverImage={image_leopard}
         description="Leopard"
         caption="Panthera pardus"
-        position={{top: 400, left: 270}}
+        position={{top: 180, left: 550}}
       />
       <TextReveal
         coverImage={image_snow_leopard}
         description="Snow Leopard"
         caption="Panthera uncia"
-        position={{top: 530, left: 270}}
+        position={{top: 330, left: 390}}
       />
       <TextReveal
         coverImage={image_mainland_clouded_leopard}
         description="Mainland Clouded Leopard"
         caption="Neofelis nebulosa"
-        position={{top: 660, left: 270}}
+        position={{top: 470, left: 330}}
       />
       <TextReveal
         coverImage={image_sunda_clouded_leopard}
         description="Sunda Clouded Leopard"
         caption="Neofelis diardi"
-        position={{top: 790, left: 270}}
+        position={{top: 620, left: 320}}
       />
       { /* Bay Cat lineage */ }
       <TextReveal
         coverImage={image_asiatic_golden_cat}
         description="Asiatic Golden Cat"
         caption="Catopuma temminckii"
-        position={{top: 10, left: 400}}
+        position={{top: 420, left: 1340}}
       />
       <TextReveal
         coverImage={image_borneo_bay_cat}
         description="Borneo Bay Cat"
         caption="Catopuma badia"
-        position={{top: 140, left: 400}}
+        position={{top: 490, left: 1180}}
       />
       <TextReveal
         coverImage={image_marbled_cat}
         description="Marbled Cat"
         caption="Pardofelis marmorata"
-        position={{top: 270, left: 400}}
-      />
-      { /* Leopard Cat lineage */ }
-      <TextReveal
-        coverImage={image_fishing_cat}
-        description="Fishing Cat"
-        caption="Prionailurus viverrinus"
-        position={{top: 10, left: 530}}
-      />
-      <TextReveal
-        coverImage={image_mainland_leopard_cat}
-        description="Mainland Leopard Cat"
-        caption="Prionailurus bengalensis"
-        position={{top: 140, left: 530}}
-      />
-      <TextReveal
-        coverImage={image_sunda_leopard_cat}
-        description="Sunda Leopard Cat"
-        caption="Prionailurus javanensis"
-        position={{top: 270, left: 530}}
-      />
-      <TextReveal
-        coverImage={image_flat_headed_cat}
-        description="Flat-headed Cat"
-        caption="Prionailurus planiceps"
-        position={{top: 400, left: 530}}
-      />
-      <TextReveal
-        coverImage={image_rusty_spotted_cat}
-        description="Rusty-spotted Cat"
-        caption="Prionailurus rubiginosus"
-        position={{top: 530, left: 530}}
-      />
-      <TextReveal
-        coverImage={image_pallas_cat}
-        description="Pallas's Cat"
-        caption="Otocolobus manul"
-        position={{top: 660, left: 530}}
-      />
-      { /* Felis lineage */ }
-      <TextReveal
-        coverImage={image_jungle_cat}
-        description="Jungle Cat"
-        caption="Felis chaus"
-        position={{top: 10, left: 660}}
-      />
-      <TextReveal
-        coverImage={image_chinese_mountain_cat}
-        description="Chinese Mountain Cat"
-        caption="Felis bieti"
-        position={{top: 140, left: 660}}
-      />
-      <TextReveal
-        coverImage={image_european_wildcat}
-        description="European Wildcat"
-        caption="Felis silvestris"
-        position={{top: 270, left: 660}}
-      />
-      <TextReveal
-        coverImage={image_african_wildcat}
-        description="African-Asiatic Wildcat"
-        caption="Felis lybica"
-        position={{top: 400, left: 660}}
-      />
-      <TextReveal
-        coverImage={image_sand_cat}
-        description="Sand Cat"
-        caption="Felis margarita"
-        position={{top: 530, left: 660}}
-      />
-      <TextReveal
-        coverImage={image_black_footed_cat}
-        description="Black-footed Cat"
-        caption="Felis nigripes"
-        position={{top: 660, left: 660}}
-      />
-      { /* Caracal lineage */ }
-      <TextReveal
-        coverImage={image_caracal}
-        description="Caracal"
-        caption="Caracal caracal"
-        position={{top: 10, left: 790}}
-      />
-      <TextReveal
-        coverImage={image_serval}
-        description="Serval"
-        caption="Leptailurus serval"
-        position={{top: 140, left: 790}}
-      />
-      <TextReveal
-        coverImage={image_african_golden_cat}
-        description="African Golden Cat"
-        caption="Caracal aurata"
-        position={{top: 270, left: 790}}
+        position={{top: 540, left: 1020}}
       />
       { /* Leopardus lineage */ }
       <TextReveal
         coverImage={image_ocelot}
         description="Ocelot"
         caption="Leopardus pardalis"
-        position={{top: 10, left: 920}}
+        position={{top: 640, left: 1400}}
       />
       <TextReveal
         coverImage={image_geoffroys_cat}
         description="Geoffroy's Cat"
         caption="Leopardus geoffroyi"
-        position={{top: 140, left: 920}}
+        position={{top: 780, left: 1370}}
       />
       <TextReveal
         coverImage={image_andean_cat}
         description="Andean Cat"
         caption="Leopardus jacobita"
-        position={{top: 270, left: 920}}
+        position={{top: 700, left: 1200}}
       />
       <TextReveal
         coverImage={image_maygay}
         description="Margay"
         caption="Leopardus wiedii"
-        position={{top: 400, left: 920}}
+        position={{top: 720, left: 1020}}
       />
       <TextReveal
         coverImage={image_pampas_cat}
         description="Pampas Cat"
         caption="Leopardus colocola"
-        position={{top: 530, left: 920}}
+        position={{top: 660, left: 880}}
       />
       <TextReveal
         coverImage={image_oncilla}
         description="Oncilla - Northern Tiger Cat"
         caption="Leopardus tigrinus"
-        position={{top: 660, left: 920}}
+        position={{top: 670, left: 730}}
       />
       <TextReveal
         coverImage={image_southern_tiger_cat}
         description="Southern Tiger Cat"
         caption="Leopardus guttulus"
-        position={{top: 790, left: 920}}
+        position={{top: 730, left: 580}}
       />
       <TextReveal
         coverImage={image_guina}
         description="Guiña / Kodkod"
         caption="Leopardus guigna"
-        position={{top: 10, left: 1050}}
+        position={{top: 850, left: 450}}
+      />
+      { /* Leopard Cat lineage */ }
+      <TextReveal
+        coverImage={image_fishing_cat}
+        description="Fishing Cat"
+        caption="Prionailurus viverrinus"
+        position={{top: 10, left: 790}}
+      />
+      <TextReveal
+        coverImage={image_mainland_leopard_cat}
+        description="Mainland Leopard Cat"
+        caption="Prionailurus bengalensis"
+        position={{top: 150, left: 750}}
+      />
+      <TextReveal
+        coverImage={image_sunda_leopard_cat}
+        description="Sunda Leopard Cat"
+        caption="Prionailurus javanensis"
+        position={{top: 300, left: 700}}
+      />
+      <TextReveal
+        coverImage={image_flat_headed_cat}
+        description="Flat-headed Cat"
+        caption="Prionailurus planiceps"
+        position={{top: 400, left: 560}}
+      />
+      <TextReveal
+        coverImage={image_rusty_spotted_cat}
+        description="Rusty-spotted Cat"
+        caption="Prionailurus rubiginosus"
+        position={{top: 450, left: 700}}
+      />
+      <TextReveal
+        coverImage={image_pallas_cat}
+        description="Pallas's Cat"
+        caption="Otocolobus manul"
+        position={{top: 560, left: 530}}
+      />
+      { /* Caracal lineage */ }
+      <TextReveal
+        coverImage={image_caracal}
+        description="Caracal"
+        caption="Caracal caracal"
+        position={{top: 10, left: 950}}
+      />
+      <TextReveal
+        coverImage={image_serval}
+        description="Serval"
+        caption="Leptailurus serval"
+        position={{top: 160, left: 900}}
+      />
+      <TextReveal
+        coverImage={image_african_golden_cat}
+        description="African Golden Cat"
+        caption="Caracal aurata"
+        position={{top: 300, left: 860}}
+      />
+      { /* Felis lineage */ }
+      <TextReveal
+        coverImage={image_jungle_cat}
+        description="Jungle Cat"
+        caption="Felis chaus"
+        position={{top: 30, left: 1120}}
+      />
+      <TextReveal
+        coverImage={image_chinese_mountain_cat}
+        description="Chinese Mountain Cat"
+        caption="Felis bieti"
+        position={{top: 170, left: 1070}}
+      />
+      <TextReveal
+        coverImage={image_european_wildcat}
+        description="European Wildcat"
+        caption="Felis silvestris"
+        position={{top: 170, left: 1200}}
+      />
+      <TextReveal
+        coverImage={image_african_wildcat}
+        description="African-Asiatic Wildcat"
+        caption="Felis lybica"
+        position={{top: 230, left: 1330}}
+      />
+      <TextReveal
+        coverImage={image_sand_cat}
+        description="Sand Cat"
+        caption="Felis margarita"
+        position={{top: 300, left: 1200}}
+      />
+      <TextReveal
+        coverImage={image_black_footed_cat}
+        description="Black-footed Cat"
+        caption="Felis nigripes"
+        position={{top: 320, left: 1060}}
       />
     </div>
   )
