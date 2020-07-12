@@ -17,6 +17,8 @@ import HistoryPageCheetahEvolutionMap from './HistoryPageCheetahEvolutionMap'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
+import LineBreak from '../shared/LineBreak'
+
 import './HistoryPage_Subsection_Cheetah_Evolution.css'
 
 export default class HistoryPageSubsectionCheetahEvolution extends React.Component {
@@ -46,6 +48,8 @@ export default class HistoryPageSubsectionCheetahEvolution extends React.Compone
         <div className={getElementStyleClassName("HistoryPageSubsectionCheetahEvolutionMapComponentContainer")}>
           <HistoryPageCheetahEvolutionMap />
         </div>
+
+        <LineBreak lines={2} />
 
         <MediaLinkButton
           href="https://www.sciencedaily.com/releases/2015/12/151208204222.htm"
