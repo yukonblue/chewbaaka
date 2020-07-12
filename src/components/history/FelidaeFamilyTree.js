@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 06, 2020
+ * Updated  : Jul 12, 2020
  */
 
 import React from 'react';
@@ -12,6 +12,8 @@ import React from 'react';
 import "semantic-ui-css/semantic.min.css";
 
 import TextReveal from '../shared/TextReveal'
+
+import { getElementStyleClassName } from '../../styling/styling'
 
 import './FelidaeFamilyTree.css'
 
@@ -71,9 +73,9 @@ import image_oncilla from './assets/felidae/leopardus/felidae_oncilla_Leopardus_
 import image_southern_tiger_cat from './assets/felidae/leopardus/felidae_southern_tiger_cat_Leopardus_guttulus.jpg'
 import image_guina from './assets/felidae/leopardus/felidae_guina_Leopardus_guigna.jpg'
 
-function FelidaeFamilyTree() {
+export default function FelidaeFamilyTree() {
   return (
-    <div className="FelidaeFamilyTreeComponentOuterContainerDiv">
+    <div className={getElementStyleClassName("FelidaeFamilyTreeComponentOuterContainerDiv")}>
       { /* Puma lineage */ }
       <TextReveal
         coverImage={image_cheetah}
@@ -325,5 +327,3 @@ function FelidaeFamilyTree() {
     </div>
   )
 }
-
-export default FelidaeFamilyTree;

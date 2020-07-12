@@ -4,12 +4,22 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 12, 2020
  */
 
 div.FelidaeFamilyTreeComponentOuterContainerDiv {
   position: relative;
-  width: 1200px;
   height: 1000px;
+  /**
+   * NOTE:
+   * Here we expand the width from 1200 to 1600px
+   * to give more room.
+   * Hence the margin-left is needed below.
+   */
+  width: 1600px;
+  margin-left: -200px;
+}
+
+div.FelidaeFamilyTreeComponentOuterContainerDiv_DebugColor {
   background-color: whitesmoke;
 }
