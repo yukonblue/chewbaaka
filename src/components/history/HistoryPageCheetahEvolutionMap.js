@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 11, 2020
+ * Updated  : Jul 12, 2020
  */
 
 import React from 'react';
@@ -39,12 +39,12 @@ export default class HistoryPageCheetahEvolutionMap extends React.Component {
               title={HistoryPageCheetahEvolutionMap._TITLE_}
               caption="Slide to timeline to see how the cheetah evolved and migrated."
               sliderNameLabel="Timeline"
-              sliderUnitLabel="mya / years ago"
+              sliderUnitLabel="million years ago / years ago"
               backgroundImage={backgroundImage}
               marks={[
                 {
                   value: 5,
-                  label: '26mya',
+                  label: '26 mya',
                   image: bodyImage_01,
                 },
                 {
@@ -54,22 +54,22 @@ export default class HistoryPageCheetahEvolutionMap extends React.Component {
                 },
                 {
                   value: 30,
-                  label: '100,000',
+                  label: '100,000 ya',
                   image: bodyImage_03,
                 },
                 {
                   value: 40,
-                  label: '100,000',
+                  label: '100,000 ya',
                   image: bodyImage_04,
                 },
                 {
                   value: 60,
-                  label: '12,000',
+                  label: '12,000 ya',
                   image: bodyImage_05,
                 },
                 {
-                  value: 65,
-                  label: '10,000',
+                  value: 70,
+                  label: '10,000 ya',
                   image: bodyImage_06,
                 },
                 {
