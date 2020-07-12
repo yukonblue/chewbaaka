@@ -40,6 +40,7 @@ export default class HistoryPageSubsectionCheetahEvolution extends React.Compone
     return (
       <div className={getElementStyleClassName("HistoryPageSubsectionCheetahEvolutionInnerContainer")}>
         <div>
+          Learn about the evolution and migration of the cheetah.
           <HistoryPageCheetahEvolutionMap />
         </div>
       </div>

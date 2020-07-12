@@ -40,7 +40,7 @@ export default class HistoryPageCheetahEvolutionMap extends React.Component {
               caption="Slide to timeline to see how the cheetah evolved and migrated."
               sliderNameLabel="Timeline"
               sliderUnitLabel="mya / years ago"
-              imageWidth={1200}
+              // imageWidth={1200}
               backgroundImage={backgroundImage}
               marks={[
                 {

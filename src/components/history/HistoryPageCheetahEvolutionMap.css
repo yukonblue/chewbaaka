@@ -12,7 +12,7 @@ div.div.HistoryPageCheetahEvolutionMapOuterContainer {
 }
 
 div.HistoryPageCheetahEvolutionMapOuterContainer_DebugColor {
-  background-color: red;
+  background-color: yellow;
 }
 
 div.HistoryPageCheetahEvolutionMapInnerContainer {
@@ -21,4 +21,13 @@ div.HistoryPageCheetahEvolutionMapInnerContainer {
 
 div.HistoryPageCheetahEvolutionMapInnerContainer_DebugColor {
   background-color: tan;
+}
+
+div.HistoryPageCheetahEvolutionMapImageSlideContainer {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+div.HistoryPageCheetahEvolutionMapImageSlideContainer_DebugColor {
+  background-color: turquoise;
 }
