@@ -1,0 +1,33 @@
+/**
+ * HistoryPageCheetahEvolutionMap.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 11, 2020
+ * Updated  : Jul 11, 2020
+ */
+
+div.div.HistoryPageCheetahEvolutionMapOuterContainer {
+  margin: 0 auto;
+}
+
+div.HistoryPageCheetahEvolutionMapOuterContainer_DebugColor {
+  background-color: yellow;
+}
+
+div.HistoryPageCheetahEvolutionMapInnerContainer {
+  margin: 0 auto;
+}
+
+div.HistoryPageCheetahEvolutionMapInnerContainer_DebugColor {
+  background-color: tan;
+}
+
+div.HistoryPageCheetahEvolutionMapImageSlideContainer {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+div.HistoryPageCheetahEvolutionMapImageSlideContainer_DebugColor {
+  background-color: turquoise;
+}

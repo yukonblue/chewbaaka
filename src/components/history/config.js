@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 10, 2020
+ * Updated  : Jul 11, 2020
  */
 
 export const config = {
@@ -31,8 +31,11 @@ export const config = {
       subsections: {
         subsection_EvolutionOfCats: {
           title: "Evolution of Cats"
+        },
+        subsection_CheetahEvolution: {
+          title: "Cheetah Evolution"
         }
-      }
+      },
     },
     section_CheetahAndMan: {
       intro: {
