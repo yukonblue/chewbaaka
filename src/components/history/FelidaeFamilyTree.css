@@ -18,6 +18,7 @@ div.FelidaeFamilyTreeComponentOuterContainerDiv {
    */
   width: 1600px;
   margin-left: -200px;
+  background-image: url('./assets/felidae/background.png');
 }
 
 div.FelidaeFamilyTreeComponentOuterContainerDiv_DebugColor {
