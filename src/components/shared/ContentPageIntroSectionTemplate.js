@@ -1,16 +1,16 @@
 /**
- * ContentPageIntroParagraph.js
+ * ContentPageIntroSectionTemplate.js
  * Chewbaaka
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 10, 2020
+ * Updated  : Jul 12, 2020
  */
 
 /**
- * ContentPageIntroParagraph
+ * ContentPageIntroSectionTemplate
  *
- * `ContentPageIntroParagraph` is a component that hosts
+ * `ContentPageIntroSectionTemplate` is a component that hosts
  * the introduction title and paragraph of each content page.
  *
  * Props:
@@ -25,11 +25,11 @@ import React from 'react';
 import { getElementStyleClassName } from '../../styling/styling'
 
 import './ContentPageSharedStyles.css'
-import './ContentPageIntroParagraph.css'
+import './ContentPageIntroSectionTemplate.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
-export default class ContentPageIntroParagraph extends React.Component {
+export default class ContentPageIntroSectionTemplate extends React.Component {
 
   render() {
     return (
@@ -41,12 +41,12 @@ export default class ContentPageIntroParagraph extends React.Component {
 
   renderContent() {
     return (
-      <div className="ContentPageIntroParagraphOuterContainer">
-        <div className={getElementStyleClassName("ContentPageIntroParagraphInnerContainer")}>
-          <div className={getElementStyleClassName("ContentPageIntroParagraphTitleContainer")}>
-            <h1 className={getElementStyleClassName("ContentPageIntroParagraphTitle")}>{this.props.title}</h1>
+      <div className="ContentPageIntroSectionTemplateOuterContainer">
+        <div className={getElementStyleClassName("ContentPageIntroSectionTemplateInnerContainer")}>
+          <div className={getElementStyleClassName("ContentPageIntroSectionTemplateTitleContainer")}>
+            <h1 className={getElementStyleClassName("ContentPageIntroSectionTemplateTitle")}>{this.props.title}</h1>
           </div>
-          <div className={getElementStyleClassName("ContentPageIntroParagraphContentContainer")}>
+          <div className={getElementStyleClassName("ContentPageIntroSectionTemplateContentContainer")}>
             <p className="ContentPageSectionSubtitleText">{this.props.content}</p>
           </div>
         </div>

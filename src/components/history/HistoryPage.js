@@ -12,7 +12,7 @@ import React from 'react';
 import "semantic-ui-css/semantic.min.css";
 
 import ContentPageSkeleton from '../shared/ContentPageSkeleton'
-import ContentPageIntroParagraph from '../shared/ContentPageIntroParagraph'
+import ContentPageIntroSectionTemplate from '../shared/ContentPageIntroSectionTemplate'
 // import ContentPageSectionHead from '../shared/ContentPageSectionHead'
 
 import { config }  from './config'
@@ -45,7 +45,7 @@ class HistoryPage extends React.Component {
       <div>
         <HistoryPageSectionTableOfContent />
 
-        <ContentPageIntroParagraph
+        <ContentPageIntroSectionTemplate
           title={config.contentPageIntro.title}
           content={config.contentPageIntro.content}
         />
