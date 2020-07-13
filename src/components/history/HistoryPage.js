@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 10, 2020
+ * Updated  : Jul 12, 2020
  */
 
 import React from 'react';
@@ -26,6 +26,7 @@ import HistoryPageSectionRangeAndPopulation from './HistoryPage_Section_RangeAnd
 
 import coverImage from './assets/Cal-Butler-Cheetah-and-the-tree.jpg'
 
+import '../shared/GlobalPageStyles.css'
 import '../../styling/SharedStyles.css'
 
 class HistoryPage extends React.Component {

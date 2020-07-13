@@ -4,12 +4,21 @@
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 04, 2020
+ * Updated  : Jul 12, 2020
  */
 
 body {
   -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: grayscale;
+  -moz-font-smoothing: grayscale;  
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  /* font-size: 14px; */
+  font-size: 1.25rem;
+  line-height: 1.6em;
+  color: burlywood;
 }
 
 @media only screen and (min-width: 768px) {
