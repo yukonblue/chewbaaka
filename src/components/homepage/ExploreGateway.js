@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 02, 2020
+ * Updated  : Jul 12, 2020
  */
 
 import React from 'react';
@@ -14,7 +14,7 @@ import "semantic-ui-css/semantic.min.css";
 import ExploreGatewayIntro from './ExploreGatewayIntro'
 import ExploreGatewayGrid from './ExploreGatewayGrid'
 
-function ExploreGateway() {
+export default function ExploreGateway() {
   return (
     <div id="Explore" data-testid="ExploreGatewayComponentTestId">
       <ExploreGatewayIntro/>
@@ -23,5 +23,3 @@ function ExploreGateway() {
     </div>
   )
 }
-
-export default ExploreGateway;
