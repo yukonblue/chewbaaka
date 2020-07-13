@@ -1,0 +1,26 @@
+/**
+ * HistoryPageIntroSection.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 12, 2020
+ * Updated  : Jul 12, 2020
+ */
+
+div.HistoryPageIntroSectionInnerContainer {
+  display: block;
+}
+
+div.HistoryPageIntroSectionInnerContainer_DebugColor {
+  background-color: orange;
+}
+
+img.HistoryPageIntroSectionImg {
+  position: relative;
+  right: -200px;
+  float: right;
+}
+
+div.HistoryPageIntroSectionInnerContainer::after {
+  float: clear;
+}

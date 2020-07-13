@@ -12,13 +12,12 @@ import React from 'react';
 import "semantic-ui-css/semantic.min.css";
 
 import ContentPageSkeleton from '../shared/ContentPageSkeleton'
-import ContentPageIntroSectionTemplate from '../shared/ContentPageIntroSectionTemplate'
-// import ContentPageSectionHead from '../shared/ContentPageSectionHead'
 
 import { config }  from './config'
 
 import HistoryPageSectionTableOfContent from './HistoryPageSectionTableOfContent'
 
+import HistoryPageIntroSection from './HistoryPageIntroSection'
 import HistoryPageSectionEvolution from './HistoryPage_Section_Evolution'
 import HistoryPageSectionCheetahAndMan from './HistoryPage_Section_CheetahAndMan'
 import HistoryPageSectionRangeAndPopulation from './HistoryPage_Section_RangeAndPopulation'
@@ -45,9 +44,8 @@ class HistoryPage extends React.Component {
       <div>
         <HistoryPageSectionTableOfContent />
 
-        <ContentPageIntroSectionTemplate
-          title={config.contentPageIntro.title}
-          content={config.contentPageIntro.content}
+        <HistoryPageIntroSection
+          contentPageIntro={config.contentPageIntro}
         />
 
         <HistoryPageSectionEvolution config={config} />

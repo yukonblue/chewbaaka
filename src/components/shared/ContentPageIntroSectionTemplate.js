@@ -47,7 +47,7 @@ export default class ContentPageIntroSectionTemplate extends React.Component {
             <h1 className={getElementStyleClassName("ContentPageIntroSectionTemplateTitle")}>{this.props.title}</h1>
           </div>
           <div className={getElementStyleClassName("ContentPageIntroSectionTemplateContentContainer")}>
-            <p className="ContentPageSectionSubtitleText">{this.props.content}</p>
+            {this.props.content}
           </div>
         </div>
       </div>
