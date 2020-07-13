@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 11, 2020
+ * Updated  : Jul 12, 2020
  */
 
 import React from 'react';
@@ -27,6 +27,8 @@ import { ContentPageSubsectionColumnDataBinderWithParagraphBinder } from '../sha
 import { getElementStyleClassName } from '../../styling/styling'
 
 import ImageSlideModal from '../shared/ImageSlideModal'
+
+import LineBreak from '../shared/LineBreak'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
@@ -103,6 +105,8 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
                       "red")
           }}
         />
+
+        <LineBreak lines={2} />
 
         <MediaLinkButton
           href="https://www.nationalgeographic.com/news/2016/12/cheetahs-extinction-endangered-africa-iucn-animals-science/"

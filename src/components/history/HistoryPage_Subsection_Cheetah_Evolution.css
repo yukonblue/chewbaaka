@@ -1,0 +1,33 @@
+/**
+ * HistoryPage_Subsection_Cheetah_Evolution.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 11, 2020
+ * Updated  : Jul 12, 2020
+ */
+
+div.HistoryPageSubsectionCheetahEvolutionOuterContainer {
+  margin: 0 auto;
+}
+
+div.HistoryPageSubsectionCheetahEvolutionOuterContainer_DebugColor {
+  background-color: greenyellow;
+}
+
+div.HistoryPageSubsectionCheetahEvolutionInnerContainer {
+}
+
+div.HistoryPageSubsectionCheetahEvolutionInnerContainer_DebugColor {
+  background-color: purple;
+}
+
+div.HistoryPageSubsectionCheetahEvolutionMapComponentContainer {
+  /**
+   * TODO:
+   * This width is a hack to get the content to be centered.
+   * Need a better solution ..
+   */
+  width: 1250px;
+  margin: 0 auto;
+}

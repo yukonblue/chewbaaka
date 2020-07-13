@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 11, 2020
+ * Updated  : Jul 12, 2020
  */
 
 /**
@@ -18,9 +18,14 @@
  *  - `data`: Two arrays of { images, collageCellContent } data.
  *
  *  - `count`: The count number of elements to create.
+ *
+ *  - `imageWidth`: The desired width of each collage cell.
+ *
+ *  - `imageHeight`: The desired height of each collage cell.
  */
 
 import _ from 'lodash';
+
 import React from 'react';
 
 import ImageCollage from './ImageCollage'
@@ -35,21 +40,20 @@ export default class ImageCollageDriver extends React.Component {
   }
 
   initializeCells = () => {
+    const contents = this.props.data.collageCellContent;
     const images = this.props.data.images;
-    const len = images.length;
-    const count = Math.min(len, (this.props.count ? this.props.count : 1));
+    const count = Math.min(contents.length, (this.props.count ? this.props.count : 1));
+    const contentsToUse = contents.sort(() => Math.random() - 0.5).slice(0, 4);
 
-    const cells = _.times(count, () => {
-      const idx = Math.floor(Math.random() * len);
-      const content = this.props.data.collageCellContent[idx];
+    const cells = _.times(count, (idx) => {
+      const content = contentsToUse[idx];
       return {
-        image: images[idx],
+        image: images[Math.floor(Math.random() * images.length)],
         title: content.title,
         subtitle: content.subtitle,
         href: content.href,
-        // TODO: Get rid of this hardcoded dimension.
-        width: 480,
-        height: 320,
+        width: this.props.imageWidth,
+        height: this.props.imageHeight
       }
     });
 

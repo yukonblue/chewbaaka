@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 11, 2020
+ * Updated  : Jul 12, 2020
  */
 
 import React from 'react';
@@ -24,6 +24,10 @@ import './ContentPageTail.css'
 import './ContentPageSharedStyles.css'
 
 export default class ContentPageTail extends React.Component {
+
+  static _IMAGE_COLLAGE_CELL_COUNT_   = 4;
+  static _IMAGE_COLLAGE_IMAGE_WIDTH_  = 480;
+  static _IMAGE_COLLAGE_IMAGE_HEIGHT_ = 320;
 
   render() {
     return (
@@ -47,10 +51,14 @@ export default class ContentPageTail extends React.Component {
   renderContent() {
     return (
       <div className={getElementStyleClassName("ContentPageTailInnerContainer")}>
-        <ImageCollageDriver
-          data={config.imageCollage}
-          count={4}
-        />
+        <div className={getElementStyleClassName("ContentPageTailInnerImageCollageContainer")}>
+          <ImageCollageDriver
+            data={config.imageCollage}
+            count={ContentPageTail._IMAGE_COLLAGE_CELL_COUNT_}
+            imageWidth={ContentPageTail._IMAGE_COLLAGE_IMAGE_WIDTH_}
+            imageHeight={ContentPageTail._IMAGE_COLLAGE_IMAGE_HEIGHT_}
+          />
+        </div>
       </div>
     );
   }

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 10, 2020
+ * Updated  : Jul 12, 2020
  */
 
 import React from 'react';
@@ -25,6 +25,8 @@ import {
 } from '../shared/ContentPageSubsectionColumnDataBinder'
 
 import ImageView from '../shared/ImageView'
+
+import LineBreak from '../shared/LineBreak'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
@@ -73,6 +75,14 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
             }
           />
         </div>
+
+        <LineBreak lines={2} />
+
+        <MediaLinkButton
+          href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5729830/"
+          title='The distribution and numbers of cheetah (Acinonyx jubatus) in southern Africa'
+          icon="file alternate outline"
+        />
       </div>
     );
   }
@@ -105,18 +115,6 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
           image="https://dfzljdn9uc3pi.cloudfront.net/2015/1346/1/Suppl_Inf_5_cheetah_occurrence_and_suitable_PA.png"
           caption="Cheetah ranges in Namibia (Cheetahs (Acinonyx jubatus) running the gauntlet: an evaluation of translocations into free-range environments in Namibia)"
         />
-
-        <MediaLinkButton
-          href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5729830/"
-          title='The distribution and numbers of cheetah (Acinonyx jubatus) in southern Africa'
-          icon="file alternate outline"
-        />
-
-        {/* <MediaLinkButton
-          href="https://peerj.com/articles/1346/"
-          title='Cheetahs (Acinonyx jubatus) running the gauntlet: an evaluation of translocations into free-range environments in Namibia'
-          icon="file alternate outline"
-        /> */}
       </div>
     );
   }
