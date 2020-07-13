@@ -17,6 +17,10 @@ div.HistoryPageIntroSectionInnerContainer_DebugColor {
 
 img.HistoryPageIntroSectionImg {
   position: relative;
+  /**
+   * The negative position is to make the image
+   * bleed out of the content section container.
+   */
   right: -200px;
   float: right;
 }
