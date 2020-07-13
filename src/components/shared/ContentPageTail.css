@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 11, 2020
+ * Updated  : Jul 12, 2020
  */
 
 div.ContentPageTailOuterContainer {
@@ -33,4 +33,13 @@ div.ContentPageTailInnerContainer {
 
 div.ContentPageTailInnerContainer_DebugColor {
   background-color: papayawhip;
+}
+
+div.ContentPageTailInnerImageCollageContainer {
+  /**
+   * TODO
+   * This hardcoded width is not great...
+   */
+  width: 980px;
+  margin: 0 auto;
 }

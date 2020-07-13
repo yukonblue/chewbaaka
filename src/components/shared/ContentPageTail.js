@@ -51,12 +51,14 @@ export default class ContentPageTail extends React.Component {
   renderContent() {
     return (
       <div className={getElementStyleClassName("ContentPageTailInnerContainer")}>
-        <ImageCollageDriver
-          data={config.imageCollage}
-          count={ContentPageTail._IMAGE_COLLAGE_CELL_COUNT_}
-          imageWidth={ContentPageTail._IMAGE_COLLAGE_IMAGE_WIDTH_}
-          imageHeight={ContentPageTail._IMAGE_COLLAGE_IMAGE_HEIGHT_}
-        />
+        <div className={getElementStyleClassName("ContentPageTailInnerImageCollageContainer")}>
+          <ImageCollageDriver
+            data={config.imageCollage}
+            count={ContentPageTail._IMAGE_COLLAGE_CELL_COUNT_}
+            imageWidth={ContentPageTail._IMAGE_COLLAGE_IMAGE_WIDTH_}
+            imageHeight={ContentPageTail._IMAGE_COLLAGE_IMAGE_HEIGHT_}
+          />
+        </div>
       </div>
     );
   }
