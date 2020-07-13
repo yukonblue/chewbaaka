@@ -9,15 +9,19 @@
 
 div.CaptionContainer {
   margin: 0 auto;
-  /* Uncomment line below for debugging. */
-  /* background-color: cadetblue; */
+}
+
+div.CaptionContainer_DebugColor {
+  background-color: cadetblue;
 }
 
 div.IconContainer {
   float: left;
   margin-right: 4px;
-  /* Uncomment line below for debugging. */
-  /* background-color: coral; */
+}
+
+div.IconContainer_DebugColor {
+  background-color: coral;
 }
 
 p.CaptionText {
