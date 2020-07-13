@@ -138,11 +138,11 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                                         data-testid="ImageSlidingGalleryCaptionPart"
                                       >
                                         <div
-                                          className="CaptionContainer"
+                                          className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
                                           data-testid="CaptionComponentTestId"
                                         >
                                           <div
-                                            className="IconContainer"
+                                            className="IconContainer IconContainer_DebugColor DebugWireframe"
                                           >
                                             <i
                                               aria-hidden="true"
@@ -254,11 +254,11 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                                         data-testid="ImageSlidingGalleryCaptionPart"
                                       >
                                         <div
-                                          className="CaptionContainer"
+                                          className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
                                           data-testid="CaptionComponentTestId"
                                         >
                                           <div
-                                            className="IconContainer"
+                                            className="IconContainer IconContainer_DebugColor DebugWireframe"
                                           >
                                             <i
                                               aria-hidden="true"
@@ -441,11 +441,11 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                                           data-testid="ImageViewComponentCaptionPart"
                                         >
                                           <div
-                                            className="CaptionContainer"
+                                            className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
                                             data-testid="CaptionComponentTestId"
                                           >
                                             <div
-                                              className="IconContainer"
+                                              className="IconContainer IconContainer_DebugColor DebugWireframe"
                                             >
                                               <i
                                                 aria-hidden="true"
