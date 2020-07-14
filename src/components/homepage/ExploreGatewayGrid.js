@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 02, 2020
+ * Updated  : Jul 13, 2020
  */
 
 import React from 'react';
@@ -20,7 +20,7 @@ import explore_gateway_grid_item_img_02 from './assets/explore_gateway_grid_item
 import explore_gateway_grid_item_img_03 from './assets/explore_gateway_grid_item_img_03.jpg'
 import explore_gateway_grid_item_img_04 from './assets/explore_gateway_grid_item_img_04.jpg'
 
-function ExploreGatewayGrid(props) {
+export default function ExploreGatewayGrid(props) {
   return (
     // TODO: Update `dstUrl` attribute for grid items.
     <Grid container stackable textAlign="center" columns={4} data-testid="ExploreGatewayGridTestId">
@@ -31,5 +31,3 @@ function ExploreGatewayGrid(props) {
     </Grid>
   )
 }
-
-export default ExploreGatewayGrid;
