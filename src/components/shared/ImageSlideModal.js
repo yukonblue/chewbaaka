@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 05, 2020
+ * Updated  : Jul 12, 2020
  */
 
 import React from 'react';
@@ -13,11 +13,11 @@ import "semantic-ui-css/semantic.min.css";
 
 import { Button, Header, Image, Icon, Modal } from 'semantic-ui-react'
 
+import { getElementStyleClassName } from '../../styling/styling'
+
 import "./ImageSlideModal.css"
 
 class ImageSlideModal extends React.Component {
-
-  // TODO: Style this component.
 
   constructor(props) {
     super(props);
@@ -62,7 +62,7 @@ class ImageSlideModal extends React.Component {
   render() {
     const coverImage = this.props.slides[0].image;
 
-    const modalCoverImageContainerDivStyle = {
+    const modalCoverTriggerContainerStyle = {
       width: 480,
       height: 320,
       backgroundImage: `url(${coverImage})`,
@@ -74,33 +74,67 @@ class ImageSlideModal extends React.Component {
     return (
       <Modal
         trigger={
-          <div className="modalCoverImageContainerDiv" style={modalCoverImageContainerDivStyle} onClick={this.handleOpen} data-testid="ImageSlideModalComponentCoverImageContainerDivTestId">
-            <div className="modalCoverImageIcon"><Icon name="caret square right outline" color="grey" size="huge" onClick={this.handleOpen} /></div>
+          <div
+            className="ImageSliderModalCoverTriggerOuterContainer"
+            style={modalCoverTriggerContainerStyle}
+            onClick={this.handleOpen}
+            data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
+          >
+            <div className="ImageSliderModalCoverTriggerImageIconInnerContainer">
+                <Icon
+                  name="images outline"
+                  color="blue"
+                  size="huge"
+                  onClick={this.handleOpen}
+                />
+            </div>
           </div>
         }
         open={this.state.isModalOpen}
         onClose={this.handleClose}
         closeIcon
       >
-        <Modal.Content image>
-          <Image wrapped size='large' src={this.props.slides[this.state.activeIndex].image} />
-          <Modal.Description>
-            <Header>
-              {this.props.slides[this.state.activeIndex].title}
-            </Header>
-            <p>
-              {this.props.slides[this.state.activeIndex].description}
-            </p>
-            <div className="modalPaginationButtonContainerDiv">
-              <Button icon size="small" attached="left" disabled={leftPaginationButtonDisabled} onClick={this.handleOnPrevClick}>
-                <Icon name="angle left" size="large" />
-              </Button>
-              <Button icon size="small" attached="right" disabled={rightPaginationButtonDisabled} onClick={this.handleOnNextClick}>
-                <Icon name="angle right" size="large" />
-              </Button>
+        <Modal.Content>
+          <div className={getElementStyleClassName("ImageSlideModalComponentModalContentOuterContainer")}>
+            <div className={getElementStyleClassName("ImageSlideModalComponentModalContentImageContainer")}>
+              <Image
+                className="ImageSlideModalComponentModalContentImage"
+                size='huge'
+                src={this.props.slides[this.state.activeIndex].image}
+              />
             </div>
-            <p className="modalPageLabel">{this.state.activeIndex+1} / {this.props.slides.length}</p>
-          </Modal.Description>
+            <Modal.Description>
+              <div className="ImageSlideModalComponentModalDescriptionContainer">
+                <Header as="h3" className="ImageSlideModalComponentModalDescriptionHeader">
+                  {this.props.slides[this.state.activeIndex].title}
+                </Header>
+                <p>
+                  {this.props.slides[this.state.activeIndex].description}
+                </p>
+                <div className="ImageSlideModalComponentModalDescriptionPaginationButtonContainer">
+                  <Button
+                    icon="arrow alternate circle left outline"
+                    size="huge"
+                    color="blue"
+                    attached="left"
+                    disabled={leftPaginationButtonDisabled}
+                    onClick={this.handleOnPrevClick}
+                  />
+                  <Button
+                    icon="arrow alternate circle right outline"
+                    size="huge"
+                    color="blue"
+                    attached="right"
+                    disabled={rightPaginationButtonDisabled}
+                    onClick={this.handleOnNextClick}
+                  />
+                </div>
+              </div>
+              <p className="ImageSlideModalComponentModalDescriptionPaginationLabel">
+                {this.state.activeIndex+1} / {this.props.slides.length}
+              </p>
+            </Modal.Description>
+          </div>
         </Modal.Content>
       </Modal>
     )

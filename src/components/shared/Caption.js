@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 09, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 12, 2020
  */
 
 /**
@@ -24,12 +24,17 @@ import { Icon } from "semantic-ui-react";
 
 import "semantic-ui-css/semantic.min.css";
 
+import { getElementStyleClassName } from '../../styling/styling'
+
 import './Caption.css'
 
-function Caption(props) {
+export default function Caption(props) {
   return (
-    <div className="CaptionContainer" data-testid="CaptionComponentTestId">
-      <div className="IconContainer">
+    <div
+      className={getElementStyleClassName("CaptionContainer")}
+      data-testid="CaptionComponentTestId"
+    >
+      <div className={getElementStyleClassName("IconContainer")}>
         <Icon name="image" />
       </div>
       <p className="CaptionText">
@@ -38,5 +43,3 @@ function Caption(props) {
     </div>
   );
 }
-
-export default Caption;

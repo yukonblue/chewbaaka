@@ -2,7 +2,7 @@
 
 exports[`ImageSlideModal component snapshot 1`] = `
 <div
-  className="modalCoverImageContainerDiv"
+  className="ImageSliderModalCoverTriggerOuterContainer"
   data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
   onBlur={[Function]}
   onClick={[Function]}
@@ -18,11 +18,11 @@ exports[`ImageSlideModal component snapshot 1`] = `
   }
 >
   <div
-    className="modalCoverImageIcon"
+    className="ImageSliderModalCoverTriggerImageIconInnerContainer"
   >
     <i
       aria-hidden="true"
-      className="grey caret square right outline huge icon"
+      className="blue images outline huge icon"
       onClick={[Function]}
     />
   </div>

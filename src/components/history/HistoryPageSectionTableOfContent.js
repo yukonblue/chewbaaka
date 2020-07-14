@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 12, 2020
  */
 
 import React from 'react';
@@ -17,11 +17,11 @@ import { getElementStyleClassName } from '../../styling/styling'
 
 import ContentPageTableOfContentMenuTemplate from '../shared/ContentPageTableOfContentMenuTemplate'
 
-import image_circle from '../shared/assets/cheetah-conservation-fund-cheetah-fact-01.jpg'
+import toc_menu_image_01 from './assets/menu/history_page_toc_menu_img_01.jpg'
+import toc_menu_image_02 from './assets/menu/history_page_toc_menu_img_02.jpg'
+import toc_menu_image_03 from './assets/menu/history_page_toc_menu_img_03.jpg'
 
-function HistoryPageSectionTableOfContent(props) {
-  // TODO: Consolidate menu item images.
-
+export default function HistoryPageSectionTableOfContent(props) {
   /**
    * TODO:
    * Find a way to consolidate the source of the section titles with the page sidebar menu.
@@ -29,16 +29,16 @@ function HistoryPageSectionTableOfContent(props) {
    */
   const items = [
     {
-      image: image_circle,
+      image: toc_menu_image_01,
       title: "Evolution",
     },
     {
-      image: "https://upload.wikimedia.org/wikipedia/commons/f/f6/War_trophies_Deir_el_Bahari_Wellcome_L0027402.jpg",
+      image: toc_menu_image_02,
       title: "Cheetah and Man",
     },
     {
-      image:"https://upload.wikimedia.org/wikipedia/commons/e/e4/Acinonyx_jubatus_subspecies_range_IUCN_2015.png",
-      title:"Range and Population",
+      image: toc_menu_image_03,
+      title: "Range and Population",
     }
   ];
 
@@ -48,5 +48,3 @@ function HistoryPageSectionTableOfContent(props) {
     </div>
   );
 }
-
-export default HistoryPageSectionTableOfContent;

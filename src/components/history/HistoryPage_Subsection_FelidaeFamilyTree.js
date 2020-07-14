@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 10, 2020
+ * Updated  : Jul 12, 2020
  */
 
 import React from 'react';
@@ -34,7 +34,10 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
   render() {
     return (
       <div className={getElementStyleClassName("HistoryPageSubsectionFelidaeFamilyTreeOuterContainer")}>
-        <ContentPageSubsectionTemplate title={this.state.subsectionConfig.title} content={this.renderContent()} />
+        <ContentPageSubsectionTemplate
+          title={this.state.subsectionConfig.title}
+          content={this.renderContent()}
+        />
       </div>
     )
   }
@@ -42,8 +45,11 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
   renderContent() {
     return (
       <div className={getElementStyleClassName("HistoryPageSubsectionFelidaeFamilyTreeInnerContainer")}>
+        <HintSignpost
+          hintText="Hover over images below to reveal the genera in the Felidae family"
+          iconName="arrow circle down"
+        />
         <div className={getElementStyleClassName("HistoryPageSubsectionFelidaeFamilyTreeCore")}>
-          <HintSignpost hintText="Hover over images below to reveal the genres" iconName="arrow circle down" />
           <FelidaeFamilyTree />
         </div>
       </div>
