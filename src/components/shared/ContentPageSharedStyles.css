@@ -93,3 +93,7 @@ h3.ContentPageSubsectionColumnContentSubtitle_DebugColor {
   line-height: 1.6em;
   color: burlywood;
 } */
+
+span.TaxonomyBinomialName {
+  font-style: italic;
+}
