@@ -2,7 +2,7 @@
 
 exports[`ContentPageSideNavMenu component snapshot 1`] = `
 <div
-  className="ContentPageSideNavMenuOuterContainer"
+  className="ContentPageSideNavMenuOuterContainer ContentPageSideNavMenuOuterContainer_DebugColor DebugWireframe"
   data-testid="ContentPageSideNavMenuComponentTestId"
 >
   <div

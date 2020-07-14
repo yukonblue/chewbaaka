@@ -3,17 +3,17 @@
 exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
 <div>
   <div
-    className="ContentPageSectionTemplateOuterContainer"
+    className="ContentPageSectionTemplateOuterContainer ContentPageSectionTemplateOuterContainer_DebugColor DebugWireframe"
   >
     <div>
       <div
-        className="ContentPageSubsectionTemplateOuterContainer"
+        className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
       >
         <div
-          className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+          className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
         >
           <h3
-            className="ContentPageSubsectionTitle"
+            className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
           />
           <div
             className="ContentPageSectionHeadOuterContainer"
@@ -23,13 +23,13 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
               id="cheetah-and-man"
             />
             <div
-              className="ContentPageSectionHeadInnerContainer"
+              className="ContentPageSectionHeadInnerContainer ContentPageSectionHeadInnerContainer_DebugColor DebugWireframe"
             >
               <div
-                className="ContentPageSectionHeadTitleContainer"
+                className="ContentPageSectionHeadTitleContainer ContentPageSectionHeadTitleContainer_DebugColor DebugWireframe"
               >
                 <h2
-                  className="ContentPageSectionHeadTitle"
+                  className="ContentPageSectionHeadTitle ContentPageSectionHeadTitle_DebugColor DebugWireframe"
                 >
                   Cheetah and Man
                 </h2>
@@ -49,29 +49,29 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
       </div>
     </div>
     <div
-      className="ContentPageSectionTemplateInnerContainer"
+      className="ContentPageSectionTemplateInnerContainer ContentPageSectionTemplateInnerContainer_DebugColor DebugWireframe"
     >
       <div>
         <div
-          className="HistoryPageSubsectionCheetahAndManImageOuterContainer"
+          className="HistoryPageSubsectionCheetahAndManImageOuterContainer HistoryPageSubsectionCheetahAndManImageOuterContainer_DebugColor DebugWireframe"
         >
           <div
-            className="ContentPageSubsectionTemplateOuterContainer"
+            className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
           >
             <div
-              className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+              className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
             >
               <h3
-                className="ContentPageSubsectionTitle"
+                className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
               >
                 Relationships with Man
               </h3>
               <div
-                className="HistoryPageSubsectionCheetahAndManImageInnerContainer"
+                className="HistoryPageSubsectionCheetahAndManImageInnerContainer HistoryPageSubsectionCheetahAndManImageInnerContainer_DebugColor DebugWireframe"
               >
                 <div>
                   <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+                    className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
                   >
                     <div
                       className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
@@ -87,16 +87,16 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                               className="column"
                             >
                               <div
-                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
+                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
                                 <div
                                   className="HistoryPageSubsectionCheetahAndManImageContentTextContainer"
                                 >
                                   <div
-                                    className="FlexibleContainerOuterContainer"
+                                    className="FlexibleContainerOuterContainer FlexibleContainerOuterContainer_DebugColor DebugWireframe"
                                   >
                                     <div
-                                      className="FlexibleContainerInnerContainer"
+                                      className="FlexibleContainerInnerContainer FlexibleContainerInnerContainer_DebugColor DebugWireframe"
                                     >
                                       <p>
                                         Traditional African healers and witchdoctors used cheetah foot bones in spiritualistic rituals to symbolize fleet-footnedness and speed. They used bones from a wide variety of animals and techniques varied from tribe to tribe. Objects represented a person, a thing or mood from the past, present or future, and are known as Divinatory sets.
@@ -119,7 +119,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                               className="column"
                             >
                               <div
-                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
+                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
                                 <div>
                                   <div
@@ -138,11 +138,11 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                                         data-testid="ImageSlidingGalleryCaptionPart"
                                       >
                                         <div
-                                          className="CaptionContainer"
+                                          className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
                                           data-testid="CaptionComponentTestId"
                                         >
                                           <div
-                                            className="IconContainer"
+                                            className="IconContainer IconContainer_DebugColor DebugWireframe"
                                           >
                                             <i
                                               aria-hidden="true"
@@ -201,25 +201,25 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
           </div>
         </div>
         <div
-          className="HistoryPageSubsectionCheetahsInSportsOuterContainer"
+          className="HistoryPageSubsectionCheetahsInSportsOuterContainer HistoryPageSubsectionCheetahsInSportsOuterContainer_DebugColor DebugWireframe"
         >
           <div
-            className="ContentPageSubsectionTemplateOuterContainer"
+            className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
           >
             <div
-              className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+              className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
             >
               <h3
-                className="ContentPageSubsectionTitle"
+                className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
               >
                 Cheetahs In Sports
               </h3>
               <div
-                className="HistoryPageSubsectionCheetahAndManImageInnerContainer"
+                className="HistoryPageSubsectionCheetahAndManImageInnerContainer HistoryPageSubsectionCheetahAndManImageInnerContainer_DebugColor DebugWireframe"
               >
                 <div>
                   <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+                    className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
                   >
                     <div
                       className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
@@ -235,7 +235,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                               className="column"
                             >
                               <div
-                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
+                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
                                 <div>
                                   <div
@@ -254,11 +254,11 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                                         data-testid="ImageSlidingGalleryCaptionPart"
                                       >
                                         <div
-                                          className="CaptionContainer"
+                                          className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
                                           data-testid="CaptionComponentTestId"
                                         >
                                           <div
-                                            className="IconContainer"
+                                            className="IconContainer IconContainer_DebugColor DebugWireframe"
                                           >
                                             <i
                                               aria-hidden="true"
@@ -310,14 +310,14 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                               className="column"
                             >
                               <div
-                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
+                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
                                 <div>
                                   <div
-                                    className="FlexibleContainerOuterContainer"
+                                    className="FlexibleContainerOuterContainer FlexibleContainerOuterContainer_DebugColor DebugWireframe"
                                   >
                                     <div
-                                      className="FlexibleContainerInnerContainer"
+                                      className="FlexibleContainerInnerContainer FlexibleContainerInnerContainer_DebugColor DebugWireframe"
                                     >
                                       <p>
                                         In c1700 BC, the Egyptians were the first to tame cheetahs. They admired the cheetah for its speed, hunting ability and beauty. They honored cheetahs as symbols of royalty and prestige.
@@ -350,25 +350,25 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
           </div>
         </div>
         <div
-          className="HistoryPageSubsectionCheetahsInSportsOuterContainer"
+          className="HistoryPageSubsectionCheetahsInSportsOuterContainer HistoryPageSubsectionCheetahsInSportsOuterContainer_DebugColor DebugWireframe"
         >
           <div
-            className="ContentPageSubsectionTemplateOuterContainer"
+            className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
           >
             <div
-              className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+              className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
             >
               <h3
-                className="ContentPageSubsectionTitle"
+                className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
               >
                 Cheetahs In Art
               </h3>
               <div
-                className="HistoryPageSubsectionCheetahAndManImageInnerContainer"
+                className="HistoryPageSubsectionCheetahAndManImageInnerContainer HistoryPageSubsectionCheetahAndManImageInnerContainer_DebugColor DebugWireframe"
               >
                 <div>
                   <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+                    className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
                   >
                     <div
                       className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
@@ -384,14 +384,14 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                               className="column"
                             >
                               <div
-                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
+                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
                                 <div>
                                   <div
-                                    className="FlexibleContainerOuterContainer"
+                                    className="FlexibleContainerOuterContainer FlexibleContainerOuterContainer_DebugColor DebugWireframe"
                                   >
                                     <div
-                                      className="FlexibleContainerInnerContainer"
+                                      className="FlexibleContainerInnerContainer FlexibleContainerInnerContainer_DebugColor DebugWireframe"
                                     >
                                       <p>
                                         Sumerians (Iraqi ancestors) were the first to use cheetahs in art.
@@ -414,7 +414,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                               className="column"
                             >
                               <div
-                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
+                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
                                 <div>
                                   <div
@@ -441,11 +441,11 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                                           data-testid="ImageViewComponentCaptionPart"
                                         >
                                           <div
-                                            className="CaptionContainer"
+                                            className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
                                             data-testid="CaptionComponentTestId"
                                           >
                                             <div
-                                              className="IconContainer"
+                                              className="IconContainer IconContainer_DebugColor DebugWireframe"
                                             >
                                               <i
                                                 aria-hidden="true"
