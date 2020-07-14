@@ -77,18 +77,18 @@ div.CenteredBlowoutBox {
 }
 
 h2.ContentPageSubsectionColumnContentTitle {
-  color: goldenrod;
 }
 
 h2.ContentPageSubsectionColumnContentTitle_DebugColor {
+  color: goldenrod;
   background-color: hotpink;
 }
 
 h3.ContentPageSubsectionColumnContentSubtitle {
-  color: yellow;
 }
 
 h3.ContentPageSubsectionColumnContentSubtitle_DebugColor {
+  color: yellow;
   background-color: indigo;
 }
 
