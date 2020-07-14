@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 10, 2020
+ * Updated  : Jul 13, 2020
  */
 
 /**
@@ -17,19 +17,25 @@
 
 import React from 'react';
 
-import { getElementStyleClassName } from '../../styling/styling'
+import {
+  getElementStyleClassName,
+  getElementStyleClassNames
+} from '../../styling/styling'
 
+import './ContentPageSharedStyles.css'
 import './ContentPageSubsectionTemplate.css'
 
-function ContentPageSubsectionTemplate(props) {
+export default function ContentPageSubsectionTemplate(props) {
   return (
     <div className={getElementStyleClassName("ContentPageSubsectionTemplateOuterContainer")}>
-      <div className={getElementStyleClassName("ContentPageSubsectionTemplateInnerContainer")}>
-        <h3 className={getElementStyleClassName("ContentPageSubsectionTitle")}>{props.title}</h3>
+      <div className={getElementStyleClassNames(["ContentPageSubsectionTemplateInnerContainer",
+                                                 "ContentPageContentInnerContentDimension"])}
+      >
+        <h3 className={getElementStyleClassName("ContentPageSubsectionTitle")}>
+          {props.title}
+        </h3>
         {props.content}
       </div>
     </div>
   );
 }
-
-export default ContentPageSubsectionTemplate;

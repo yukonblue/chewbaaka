@@ -7,19 +7,19 @@
  * Updated  : Jul 13, 2020
  */
 
+/** ----------------------------- CONTAINER -------------------------------- **/
+
 div.ContentPageSkeletonContentContainerDimension {
   margin: 0px auto;
   min-width: 1200px;
   max-width: 1600px;
 }
 
-p.ContentPageSectionSubtitleText {
-  line-height: 1.7;
-  margin: 0 0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  word-wrap: break-word;
+div.ContentPageContentInnerContentDimension {
+  width: 85%;
 }
+
+/** ------------------------------- TEXT ----------------------------------- **/
 
 h1.ContentPageIntroSectionTemplateTitle {
   font-size: 64px;
@@ -93,6 +93,14 @@ h3.ContentPageSubsectionColumnContentSubtitle_DebugColor {
   line-height: 1.6em;
   color: burlywood;
 } */
+
+p.ContentPageSectionSubtitleText {
+  line-height: 1.7;
+  margin: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  word-wrap: break-word;
+}
 
 span.TaxonomyBinomialName {
   font-style: italic;

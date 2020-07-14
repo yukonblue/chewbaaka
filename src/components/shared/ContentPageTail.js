@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 12, 2020
+ * Updated  : Jul 13, 2020
  */
 
 import React from 'react';
@@ -50,7 +50,9 @@ export default class ContentPageTail extends React.Component {
 
   renderContent() {
     return (
-      <div className={getElementStyleClassName("ContentPageTailInnerContainer")}>
+      <div className={getElementStyleClassNames(["ContentPageTailInnerContainer",
+                                                 "ContentPageContentInnerContentDimension"])}
+      >
         <div className={getElementStyleClassName("ContentPageTailInnerImageCollageContainer")}>
           <ImageCollageDriver
             data={config.imageCollage}
