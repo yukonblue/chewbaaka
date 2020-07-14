@@ -4,10 +4,11 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 14, 2020
  */
 
 div.ContentPageSkeletonOuterContainer {
+  background-color: rgba(239, 239, 239, 1.0);
 }
 
 div.ContentPageSkeletonOuterContainer_DebugColor {

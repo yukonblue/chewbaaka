@@ -21,12 +21,12 @@ span.ContentPageSideNavMenuHeader {
 }
 
 span.ContentPageSideNavMenuItem {
-  color: black;
-  /* background-color: blueviolet; */
+  line-height: 1.4em;
+  color: gray;
   font-size: 20px;
-  /* text-transform: uppercase; */
 }
 
 span.ContentPageSideNavMenuItem:hover {
-  color: blue;
+  color: black;
+  font-weight: bold;
 }
