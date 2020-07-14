@@ -65,7 +65,7 @@ export const config = {
             paragraph_Cheetah_And_Man_01:
               'Traditional African healers and witchdoctors used cheetah foot bones in spiritualistic rituals to symbolize fleet-footnedness and speed. ' +
               'They used bones from a wide variety of animals and techniques varied from tribe to tribe. Objects ' +
-              'represented a person, a thing or mood fron the past, present or future, and are known as Divinatory sets.',
+              'represented a person, a thing or mood from the past, present or future, and are known as Divinatory sets.',
             paragraph_Cheetah_And_Man_02:
               'During the time of the Egyptian pharaohs, the cheetah was considered a goddess named ' +
               '"Mafdet". Pharaohs kept cheetahs was close companions, ' +
@@ -92,7 +92,7 @@ export const config = {
               'not for food. Hunts represented power and prestige.',
 
             paragraph_The_Hunting_Leopard_03:
-              'By the 1500s the popularity of the cheetah as a hunting companion rivalled that of the dog. ' +
+              'By the 1500s the popularity of the cheetah as a hunting companion rivaled that of the dog. ' +
               'Cheetahs, the most easily tamed of the big cats, were caught, tamed and trained. Adults were ' +
               'used because cubs had not learned how to hunt. Tamed cheetahs formed a strong bond with their keepers.',
 
@@ -102,7 +102,7 @@ export const config = {
               'wooden spoon.',
 
             paragraph_The_Hunting_Leopard_05:
-              'Althrough cherished, pampered cheetahs were loved to near extinction and taken from the wild in great numbers. ' +
+              'Although cherished, pampered cheetahs were loved to near extinction and taken from the wild in great numbers. ' +
               'By the early 1900s, India and Iran were importing African cheetahs for the sport of "coursing", as their own ' +
               'wild population became too small.'
           }
@@ -135,7 +135,12 @@ export const config = {
     section_PopulationAndRange: {
       intro: {
         title: "Range and Population",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        content: "A combination of factors such as game hunting, retaliatory killing, " +
+                "habitat encroachment have caused the sharp decline of the global cheetah " +
+                "population over the last century, and driven the species out of much of their " +
+                "historical range. One of the last strongholds of the species today remain in " +
+                "southern Africa, splitting between Namibia and Botswana, which together " +
+                "holds two thirds of the species' population."
       },
       subsections: {
         subsection_Namibia: {
@@ -182,7 +187,7 @@ export const config = {
               subtitle: "1990",
               content: {
                 paragraph_The_Road_To_Extinction_01:
-                  "World development, industrialization, automobiles, and aeroplanes...",
+                  "World development, industrialization, automobiles, and airplanes...",
 
                 paragraph_The_Road_To_Extinction_02:
                   "Through the 1900s, man's inventions seemed limitless, yet there is " +
@@ -190,7 +195,7 @@ export const config = {
 
                 paragraph_The_Road_To_Extinction_03:
                   "Scientists classified the cheetah as Acinonyx jubatus, yet nobles still " +
-                  'referred to it as the "hunting leopard". By the end of the 1800s, cheetahs' +
+                  'referred to it as the "hunting leopard". By the end of the 1800s, cheetahs ' +
                   'were a rarity in Asia Minor and Arabia because of their use in the sport ' +
                   'of "coursing".',
 

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 12, 2020
+ * Updated  : Jul 13, 2020
  */
 
 import React from 'react';
@@ -46,7 +46,10 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
   render() {
     return (
       <div className="HistoryPageSubsectionNamibiaOuterContainer">
-        <ContentPageSubsectionTemplate title={this.state.subsectionConfig.title} content={this.renderContent()} />
+        <ContentPageSubsectionTemplate
+          title={this.state.subsectionConfig.title}
+          content={this.renderContent()}
+        />
       </div>
     )
   }
@@ -113,7 +116,7 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
           width={640}
           height={640}
           image="https://dfzljdn9uc3pi.cloudfront.net/2015/1346/1/Suppl_Inf_5_cheetah_occurrence_and_suitable_PA.png"
-          caption="Cheetah ranges in Namibia (Cheetahs (Acinonyx jubatus) running the gauntlet: an evaluation of translocations into free-range environments in Namibia)"
+          caption="Cheetah distribution and population density in Namibia."
         />
       </div>
     );

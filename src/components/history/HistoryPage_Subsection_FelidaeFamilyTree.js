@@ -52,7 +52,9 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
     return (
       <div className={getElementStyleClassName("HistoryPageSubsectionFelidaeFamilyTreeInnerContainer")}>
         <div>
-          <h4 className="ContentPageSubsectionSubtitle">Which big cat is the most related to the cheetah?</h4>
+          <h4 className={getElementStyleClassName("ContentPageSubsectionSubtitle")}>
+            Which big cat is the most related to the cheetah?
+          </h4>
 
           <p>
             It is easy to think that the closest relative to the cheetah among the big cats is the leopard,

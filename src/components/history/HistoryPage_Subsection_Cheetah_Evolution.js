@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 12, 2020
+ * Updated  : Jul 13, 2020
  */
 
 import React from 'react';
@@ -20,6 +20,8 @@ import MediaLinkButton from '../shared/MediaLinkButton'
 import LineBreak from '../shared/LineBreak'
 
 import './HistoryPage_Subsection_Cheetah_Evolution.css'
+
+import '../shared/ContentPageSharedStyles.css'
 
 export default class HistoryPageSubsectionCheetahEvolution extends React.Component {
 
@@ -43,7 +45,9 @@ export default class HistoryPageSubsectionCheetahEvolution extends React.Compone
   renderContent() {
     return (
       <div className={getElementStyleClassName("HistoryPageSubsectionCheetahEvolutionInnerContainer")}>
-        Learn about the evolution and migration of the cheetah.
+        <h4 className={getElementStyleClassName("ContentPageSubsectionSubtitle")}>
+          Learn about the evolution and migration of the cheetah.
+        </h4>
 
         <div className={getElementStyleClassName("HistoryPageSubsectionCheetahEvolutionMapComponentContainer")}>
           <HistoryPageCheetahEvolutionMap />
