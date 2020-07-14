@@ -10,7 +10,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
         className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
       >
         <div
-          className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe"
+          className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
         >
           <h3
             className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
@@ -59,7 +59,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
             className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
           >
             <div
-              className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe"
+              className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
             >
               <h3
                 className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
@@ -207,7 +207,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
             className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
           >
             <div
-              className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe"
+              className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
             >
               <h3
                 className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
@@ -356,7 +356,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
             className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
           >
             <div
-              className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe"
+              className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
             >
               <h3
                 className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
