@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 10, 2020
+ * Updated  : Jul 13, 2020
  */
 
 import React from 'react';
@@ -76,7 +76,7 @@ export default class HistoryPageSubsectionCheetahAndManImage extends React.Compo
             },
             {
               image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/War_trophies_Deir_el_Bahari_Wellcome_L0027402.jpg/440px-War_trophies_Deir_el_Bahari_Wellcome_L0027402.jpg",
-              caption: "Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words"
+              caption: "Cheetahs in Egyptian art."
             },
             {
               image: "https://www.thevintagenews.com/wp-content/uploads/2018/12/egyptian_chariot_colour-640x446.jpg",

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 11, 2020
+ * Updated  : Jul 13, 2020
  */
 
 export const config = {
@@ -20,13 +20,24 @@ export const config = {
   },
   contentPageIntro: {
     title: "History of the Cheetah",
-    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    content: "The evolution and history of the cheetah are just as remarkable and " +
+          "interesting as the species itself. Its evolution goes back to nearly " +
+          "7 million years ago in time and spanned almost all the continents on the planet, " +
+          "and its history with human interactions goes as far back as to 32000 BCE. " +
+          "The cheetah have been a symbol of significant meaning in different civilizations and " +
+          "cultures across thousands of years of human history. Even up to this day, " +
+          "the cheetah continues to be considered as a spiritual animal that manifests " +
+          "as a symbol of a multitude of positive characteristics, such as adaptability, " +
+          "persistence, and focus."
   },
   contentPageSections: {
     section_Evolution: {
       intro: {
         title: "Evolution",
-        content: "The oldest fossils place  cheetahs in North America in what is now Texas, Nevada and Wyoming. Cheetahs were common throughout Asia, Africa, Europe and North America until the end of the last Ice Age, about 10,000 years ago, when massive climatic changes caused large numbers of mammals to disappear."
+        content: "Although many would think the cheetah had originated on the continent of Africa, " +
+        "the oldest fossils place  cheetahs in North America in what is now Texas, Nevada and Wyoming. " +
+        "Cheetahs were common throughout Asia, Africa, Europe and North America until the end of the last " +
+        "Ice Age, about 10,000 years ago, when massive climatic changes caused large numbers of mammals to disappear."
       },
       subsections: {
         subsection_EvolutionOfCats: {
@@ -40,7 +51,11 @@ export const config = {
     section_CheetahAndMan: {
       intro: {
         title: "Cheetah and Man",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        content: "The history of cheetah-human relationship goes back in millennia, " +
+        "and archeological artifacts uncovered throughout the world suggest that " +
+        "human interactions with the species goes hand in hand with its migration and evolution. " +
+        "The relationship between cheetahs and us have been both profound and complex, " +
+        "as the species have been revered, utilized, displayed, and exploited throughout human history."
       },
       subsections: {
         subsection_RelationshipsWithMan: {
