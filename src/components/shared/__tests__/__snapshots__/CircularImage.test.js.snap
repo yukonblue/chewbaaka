@@ -2,7 +2,7 @@
 
 exports[`CircularImage component snapshot 1`] = `
 <div
-  className="CircularImageOuterContainer CircularImageOuterContainer_DebugColor DebugWireframe"
+  className="CircularImageOuterContainer"
 >
   <div
     className="CircularImageCore"

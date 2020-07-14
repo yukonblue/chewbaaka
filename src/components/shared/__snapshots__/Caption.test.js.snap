@@ -2,11 +2,11 @@
 
 exports[`Caption component snapshot 1`] = `
 <div
-  className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+  className="CaptionContainer"
   data-testid="CaptionComponentTestId"
 >
   <div
-    className="IconContainer IconContainer_DebugColor DebugWireframe"
+    className="IconContainer"
   >
     <i
       aria-hidden="true"
