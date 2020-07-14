@@ -24,7 +24,7 @@ import HistoryPageSectionRangeAndPopulation from './HistoryPage_Section_RangeAnd
 
 // import HistoryPageCheetahsAtCCFSubsection from './HistoryPage_Subsection_CheetahsAtCCF'
 
-import coverImage from './assets/Cal-Butler-Cheetah-and-the-tree.jpg'
+import coverImage from './assets/History_Page_Banner_Image.jpg'
 
 import '../shared/GlobalPageStyles.css'
 import '../../styling/SharedStyles.css'
