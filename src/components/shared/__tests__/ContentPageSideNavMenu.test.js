@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 14, 2020
  */
 
 import React from 'react';
@@ -25,6 +25,11 @@ test('renders ContentPageSideNavMenu component', () => {
 
   const component = screen.getByTestId("ContentPageSideNavMenuComponentTestId");
   expect(component).toBeInTheDocument();
+
+  /**
+   * The text were moved inside <span></span>, and that doesn't
+   * work well with getByText() apparently.
+   */
 
   // for (const [idx, item] of items.entries()) {
   //   const menuItemElement = screen.getByText(item);
