@@ -64,7 +64,7 @@ export default class ContentPageSideNavMenu extends React.Component {
         <Menu text vertical>
           <Menu.Item header>
             <span className="ContentPageSideNavMenuHeader">
-              History
+              {this.props.title}
             </span>
           </Menu.Item>
           {menuItems}

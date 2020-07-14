@@ -17,10 +17,11 @@ import ContentPageSideNavMenu from '../ContentPageSideNavMenu';
 
 import { ContentPageSectionTitleToAnchorId } from '../ContentPageSectionAnchor'
 
+const title = "Menu Title";
 const items = ["MenuItem1", "MenuItem2", "MenuItem3"];
 
 test('renders ContentPageSideNavMenu component', () => {
-  render(<ContentPageSideNavMenu items={items} />);
+  render(<ContentPageSideNavMenu title={title} items={items} />);
 
   const component = screen.getByTestId("ContentPageSideNavMenuComponentTestId");
   expect(component).toBeInTheDocument();
@@ -35,7 +36,7 @@ test('renders ContentPageSideNavMenu component', () => {
 test('ContentPageSideNavMenu component snapshot', () => {
   const tree = renderer
     .create(
-      <ContentPageSideNavMenu items={items} />)
+      <ContentPageSideNavMenu title={title} items={items} />)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });

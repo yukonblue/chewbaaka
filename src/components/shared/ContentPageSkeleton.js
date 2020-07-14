@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 11, 2020
+ * Updated  : Jul 14, 2020
  */
 
 import React from 'react';
@@ -76,7 +76,10 @@ class ContentPageSkeleton extends React.Component {
             <Sticky context={this.state.contextRef} offset={100}>
               <Button circular icon="list ul" color={this.state.isMenuActive ? "orange" : "black"} onClick={this.handleMenuActiveToggle} />
               <div hidden={!this.state.isMenuActive}>
-                <ContentPageSideNavMenu items={this.props.pageProps.pageMenuItems} />
+                <ContentPageSideNavMenu
+                  title={this.props.pageProps.title}
+                  items={this.props.pageProps.pageMenuItems}
+                />
               </div>
             </Sticky>
           </Rail>

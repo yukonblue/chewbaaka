@@ -15,7 +15,7 @@ exports[`ContentPageSideNavMenu component snapshot 1`] = `
       <span
         className="ContentPageSideNavMenuHeader"
       >
-        History
+        Menu Title
       </span>
     </div>
     <a
