@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 12, 2020
+ * Updated  : Jul 13, 2020
  */
 
 import React from 'react';
@@ -43,7 +43,7 @@ class HistoryPage extends React.Component {
   renderContent() {
     return (
       <div>
-        <HistoryPageSectionTableOfContent />
+        <HistoryPageSectionTableOfContent config={config} />
 
         <HistoryPageIntroSection
           contentPageIntro={config.contentPageIntro}
