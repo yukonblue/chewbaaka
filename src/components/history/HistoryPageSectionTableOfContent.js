@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 12, 2020
+ * Updated  : Jul 13, 2020
  */
 
 import React from 'react';
@@ -22,23 +22,27 @@ import toc_menu_image_02 from './assets/menu/history_page_toc_menu_img_02.jpg'
 import toc_menu_image_03 from './assets/menu/history_page_toc_menu_img_03.jpg'
 
 export default function HistoryPageSectionTableOfContent(props) {
+
   /**
    * TODO:
-   * Find a way to consolidate the source of the section titles with the page sidebar menu.
-   * Avoiding re-hardcoding them here and out-of-sync.
+   * Find a way to do this entire thing data driven (mostly the images)
+   * so that we won't need this component.
    */
+
+  const pageMenuItems = props.config.pageProps.pageMenuItems;
+
   const items = [
     {
       image: toc_menu_image_01,
-      title: "Evolution",
+      title: pageMenuItems[0],
     },
     {
       image: toc_menu_image_02,
-      title: "Cheetah and Man",
+      title: pageMenuItems[1],
     },
     {
       image: toc_menu_image_03,
-      title: "Range and Population",
+      title: pageMenuItems[2],
     }
   ];
 

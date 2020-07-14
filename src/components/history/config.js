@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 11, 2020
+ * Updated  : Jul 13, 2020
  */
 
 export const config = {
@@ -20,13 +20,24 @@ export const config = {
   },
   contentPageIntro: {
     title: "History of the Cheetah",
-    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    content: "The evolution and history of the cheetah are just as remarkable and " +
+          "interesting as the species itself. Its evolution goes back to nearly " +
+          "7 million years ago in time and spanned almost all the continents on the planet, " +
+          "and its history with human interactions goes as far back as to 32000 BCE. " +
+          "The cheetah have been a symbol of significant meaning in different civilizations and " +
+          "cultures across thousands of years of human history. Even up to this day, " +
+          "the cheetah continues to be considered as a spiritual animal that manifests " +
+          "as a symbol of a multitude of positive characteristics, such as adaptability, " +
+          "persistence, and focus."
   },
   contentPageSections: {
     section_Evolution: {
       intro: {
         title: "Evolution",
-        content: "The oldest fossils place  cheetahs in North America in what is now Texas, Nevada and Wyoming. Cheetahs were common throughout Asia, Africa, Europe and North America until the end of the last Ice Age, about 10,000 years ago, when massive climatic changes caused large numbers of mammals to disappear."
+        content: "Although many would think the cheetah had originated on the continent of Africa, " +
+        "the oldest fossils place  cheetahs in North America in what is now Texas, Nevada and Wyoming. " +
+        "Cheetahs were common throughout Asia, Africa, Europe and North America until the end of the last " +
+        "Ice Age, about 10,000 years ago, when massive climatic changes caused large numbers of mammals to disappear."
       },
       subsections: {
         subsection_EvolutionOfCats: {
@@ -40,7 +51,11 @@ export const config = {
     section_CheetahAndMan: {
       intro: {
         title: "Cheetah and Man",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        content: "The history of cheetah-human relationship goes back in millennia, " +
+        "and archeological artifacts uncovered throughout the world suggest that " +
+        "human interactions with the species goes hand in hand with its migration and evolution. " +
+        "The relationship between cheetahs and us have been both profound and complex, " +
+        "as the species have been revered, utilized, displayed, and exploited throughout human history."
       },
       subsections: {
         subsection_RelationshipsWithMan: {
@@ -50,7 +65,7 @@ export const config = {
             paragraph_Cheetah_And_Man_01:
               'Traditional African healers and witchdoctors used cheetah foot bones in spiritualistic rituals to symbolize fleet-footnedness and speed. ' +
               'They used bones from a wide variety of animals and techniques varied from tribe to tribe. Objects ' +
-              'represented a person, a thing or mood fron the past, present or future, and are known as Divinatory sets.',
+              'represented a person, a thing or mood from the past, present or future, and are known as Divinatory sets.',
             paragraph_Cheetah_And_Man_02:
               'During the time of the Egyptian pharaohs, the cheetah was considered a goddess named ' +
               '"Mafdet". Pharaohs kept cheetahs was close companions, ' +
@@ -77,7 +92,7 @@ export const config = {
               'not for food. Hunts represented power and prestige.',
 
             paragraph_The_Hunting_Leopard_03:
-              'By the 1500s the popularity of the cheetah as a hunting companion rivalled that of the dog. ' +
+              'By the 1500s the popularity of the cheetah as a hunting companion rivaled that of the dog. ' +
               'Cheetahs, the most easily tamed of the big cats, were caught, tamed and trained. Adults were ' +
               'used because cubs had not learned how to hunt. Tamed cheetahs formed a strong bond with their keepers.',
 
@@ -87,7 +102,7 @@ export const config = {
               'wooden spoon.',
 
             paragraph_The_Hunting_Leopard_05:
-              'Althrough cherished, pampered cheetahs were loved to near extinction and taken from the wild in great numbers. ' +
+              'Although cherished, pampered cheetahs were loved to near extinction and taken from the wild in great numbers. ' +
               'By the early 1900s, India and Iran were importing African cheetahs for the sport of "coursing", as their own ' +
               'wild population became too small.'
           }
@@ -120,7 +135,12 @@ export const config = {
     section_PopulationAndRange: {
       intro: {
         title: "Range and Population",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        content: "A combination of factors such as game hunting, retaliatory killing, " +
+                "habitat encroachment have caused the sharp decline of the global cheetah " +
+                "population over the last century, and driven the species out of much of their " +
+                "historical range. One of the last strongholds of the species today remain in " +
+                "southern Africa, splitting between Namibia and Botswana, which together " +
+                "holds two thirds of the species' population."
       },
       subsections: {
         subsection_Namibia: {
@@ -167,7 +187,7 @@ export const config = {
               subtitle: "1990",
               content: {
                 paragraph_The_Road_To_Extinction_01:
-                  "World development, industrialization, automobiles, and aeroplanes...",
+                  "World development, industrialization, automobiles, and airplanes...",
 
                 paragraph_The_Road_To_Extinction_02:
                   "Through the 1900s, man's inventions seemed limitless, yet there is " +
@@ -175,7 +195,7 @@ export const config = {
 
                 paragraph_The_Road_To_Extinction_03:
                   "Scientists classified the cheetah as Acinonyx jubatus, yet nobles still " +
-                  'referred to it as the "hunting leopard". By the end of the 1800s, cheetahs' +
+                  'referred to it as the "hunting leopard". By the end of the 1800s, cheetahs ' +
                   'were a rarity in Asia Minor and Arabia because of their use in the sport ' +
                   'of "coursing".',
 

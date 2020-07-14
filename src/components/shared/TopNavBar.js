@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 13, 2020
  */
 
 import React from 'react';
@@ -17,12 +17,15 @@ import './TopNavBar.css';
 
 const __TEST__ = ( process.env.NODE_ENV === "test" );
 
-class TopNavBar extends React.Component {
+export default class TopNavBar extends React.Component {
+
   render() {
-    // Set `fixed` prop of `Menu` component to "top"
-    // in test mode to avoid warning about invalid prop.
-    //
-    // TODO: Figure out a better solution for this ...
+    /**
+     * Set `fixed` prop of `Menu` component to "top"
+     * in test mode to avoid warning about invalid prop.
+     *
+     * TODO: Figure out a better solution for this ...
+     */
     const menuFixedStatus = ( this.props.fixedOnTop || __TEST__ ) ? "top": "";
 
     return (
@@ -43,5 +46,3 @@ class TopNavBar extends React.Component {
     )
   }
 }
-
-export default TopNavBar;

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 04, 2020
+ * Updated  : Jul 13, 2020
  */
 
 import React from 'react';
@@ -15,9 +15,8 @@ import { Container, Grid, Header, Image, List, Segment } from 'semantic-ui-react
 
 import logo from './assets/cheetah-conservation-fund-logo.jpg'
 
-function Footer() {
+export default function Footer() {
   return (
-    // TODO: Refine content
     <Segment inverted style={{ padding: "5em 0em" }} data-testid="FooterComponentTestId">
       <Container>
         <Grid divided inverted stackable>
@@ -56,5 +55,3 @@ function Footer() {
     </Segment>
   );
 }
-
-export default Footer;
