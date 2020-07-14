@@ -48,7 +48,6 @@ export default class ContentPageSideNavMenu extends React.Component {
           active={this.state.activeItem === item}
           href={"#"+ContentPageSectionTitleToAnchorId(item)}
           onClick={this.handleItemClick}
-          className="Jaja"
         >
           <span className="ContentPageSideNavMenuItem">
             {item}
