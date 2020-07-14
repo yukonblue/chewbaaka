@@ -15,6 +15,11 @@ div.ContentPageSkeletonContentContainerDimension {
   max-width: 1600px;
 }
 
+/**
+ * NOTE:
+ * This specifies the common width style of content
+ * page section inner content.
+ */
 div.ContentPageContentInnerContentDimension {
   width: 85%;
 }
