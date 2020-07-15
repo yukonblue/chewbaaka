@@ -33,7 +33,7 @@ import ContentPageSideNavMenu from './ContentPageSideNavMenu'
 import TopNavBar from './TopNavBar'
 import Footer from './Footer'
 
-class ContentPageSkeleton extends React.Component {
+export default class ContentPageSkeleton extends React.Component {
 
   constructor(props) {
     super(props);
@@ -69,12 +69,18 @@ class ContentPageSkeleton extends React.Component {
     return (
       <Ref innerRef={this.state.contextRef}>
         <div data-testid="ContentPageSkeletonComponentTestId">
-          <div className={getElementStyleClassNames(["ContentPageSkeletonContentContainerDimension", "ContentPageSkeletonContentContainer"])}>
+          <div className={getElementStyleClassNames(["ContentPageSkeletonContentContainerDimension",
+                                                      "ContentPageSkeletonContentContainer"])}>
             {this.props.content}
           </div>
           <Rail internal position='left'>
             <Sticky context={this.state.contextRef} offset={100}>
-              <Button circular icon="list ul" color={this.state.isMenuActive ? "orange" : "black"} onClick={this.handleMenuActiveToggle} />
+              <Button
+                circular
+                icon="list ul"
+                color={this.state.isMenuActive ? "orange" : "black"}
+                onClick={this.handleMenuActiveToggle}
+              />
               <div hidden={!this.state.isMenuActive}>
                 <ContentPageSideNavMenu
                   title={this.props.pageProps.title}
@@ -88,5 +94,3 @@ class ContentPageSkeleton extends React.Component {
     )
   }
 }
-
-export default ContentPageSkeleton;
