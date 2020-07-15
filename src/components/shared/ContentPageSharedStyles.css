@@ -39,7 +39,9 @@ h1.ContentPageIntroSectionTemplateTitle_DebugColor {
 h2.ContentPageSectionHeadTitle {
   font-size: 48px;
   line-height: 1.6;
-  /* text-decoration: underline; */
+  background-image: url("./assets/section_header_banner_bg_01.png");
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 
 h2.ContentPageSectionHeadTitle_DebugColor {
