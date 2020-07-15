@@ -45,9 +45,7 @@ export default class BiologyPageSubsectionLifecycleStage3 extends React.Componen
   renderContent() {
     return (
       <div className="">
-        <ContentPageParagraph>
-          {ContentPageSubsectionColumnParagraphsContentBinder(this.state.subsectionConfig.contents)}
-        </ContentPageParagraph>
+        {ContentPageSubsectionColumnParagraphsContentBinder(this.state.subsectionConfig.contents)}
       </div>
     );
   }
