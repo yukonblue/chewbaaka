@@ -83,9 +83,9 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
           <LineBreak lines={2} />
 
           <ContentPageParagraph>
-            Below is an illustration of the Felidae family tree. Hover over
-            each image in the tree to reveal its genus. Cats in the same
-            lineage have the same background color.
+            Below is an illustration of the <i>Felidae</i> family tree. Hover over
+            each image in the tree to reveal its genus. (Cats in the same
+            lineage have the same background color).
           </ContentPageParagraph>
 
           <HintSignpost
