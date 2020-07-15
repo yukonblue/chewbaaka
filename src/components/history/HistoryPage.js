@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 13, 2020
+ * Updated  : Jul 14, 2020
  */
 
 import React from 'react';
@@ -22,21 +22,22 @@ import HistoryPageSectionEvolution from './HistoryPage_Section_Evolution'
 import HistoryPageSectionCheetahAndMan from './HistoryPage_Section_CheetahAndMan'
 import HistoryPageSectionRangeAndPopulation from './HistoryPage_Section_RangeAndPopulation'
 
-// import HistoryPageCheetahsAtCCFSubsection from './HistoryPage_Subsection_CheetahsAtCCF'
-
 import coverImage from './assets/History_Page_Banner_Image.jpg'
 
 import '../shared/GlobalPageStyles.css'
 import '../../styling/SharedStyles.css'
 
-class HistoryPage extends React.Component {
+export default class HistoryPage extends React.Component {
 
   render() {
     let pageProps = config.pageProps;
     pageProps.coverImage = coverImage;
 
     return (
-      <ContentPageSkeleton pageProps={pageProps} content={this.renderContent()}/>
+      <ContentPageSkeleton
+        pageProps={pageProps}
+        content={this.renderContent()}
+      />
     )
   }
 
@@ -54,29 +55,7 @@ class HistoryPage extends React.Component {
         <HistoryPageSectionCheetahAndMan config={config} />
 
         <HistoryPageSectionRangeAndPopulation config={config} />
-
-        {/* {this.renderCheetahAmbassadorsSectionContent()} */}
       </div>
     )
   }
-
-  /**
-   * TODO
-   * Really consider moving this section into the
-   * 'Future' page.
-   */
-  // renderCheetahAmbassadorsSectionContent() {
-  //   return (
-  //     <div>
-  //       <ContentPageSectionHead
-  //         title="Cheetah Ambassadaors"
-  //         content="Many cheetah left a legacy that ..."
-  //       />
-
-  //       <HistoryPageCheetahsAtCCFSubsection />
-  //     </div>
-  //   );
-  // }
 }
-
-export default HistoryPage;
