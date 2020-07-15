@@ -62,7 +62,7 @@ export const config = {
           title: "Relationships with Man",
           contents: {
             paragraph_Cheetah_And_Man_01:
-              'Traditional African healers and witchdoctors used cheetah foot bones in spiritualistic rituals to symbolize fleet-footnedness and speed. ' +
+              'Traditional African healers and witchdoctors used cheetah foot bones in spiritualistic rituals to symbolize fleet-footedness and speed. ' +
               'They used bones from a wide variety of animals and techniques varied from tribe to tribe. Objects ' +
               'represented a person, a thing or mood from the past, present or future, and are known as Divinatory sets.',
             paragraph_Cheetah_And_Man_02:
