@@ -11,7 +11,9 @@ import React from 'react';
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate';
 
-// import FuturePageSubsectionCheetahsAtCCF from './FuturePage_Subsection_CheetahsAtCCF'
+import BiologyPageSubsectionLifecycleStage1 from './BiologyPage_Subsection_Lifecycle_Stage_1'
+import BiologyPageSubsectionLifecycleStage2 from './BiologyPage_Subsection_Lifecycle_Stage_2'
+import BiologyPageSubsectionLifecycleStage3 from './BiologyPage_Subsection_Lifecycle_Stage_3'
 
 export default class BiologyPageSectionLifecyle extends React.Component {
 
@@ -38,6 +40,17 @@ export default class BiologyPageSectionLifecyle extends React.Component {
   renderContent() {
     return (
       <div>
+        <BiologyPageSubsectionLifecycleStage1
+          sectionConfig={this.state.sectionConfig}
+        />
+
+        <BiologyPageSubsectionLifecycleStage2
+          sectionConfig={this.state.sectionConfig}
+        />
+
+        <BiologyPageSubsectionLifecycleStage3
+          sectionConfig={this.state.sectionConfig}
+        />
       </div>
     );
   }

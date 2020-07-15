@@ -24,6 +24,24 @@ export const config = {
         content: "Content TBD ..."
       },
       subsections: {
+        subsection_Lifecycle_Stage_1: {
+          title: "Stage 1",
+          contents: {
+            paragraph_Lifecycle_Stage_1: "B;ah"
+          }
+        },
+        subsection_Lifecycle_Stage_2: {
+          title: "Stage 2",
+          contents: {
+            paragraph_Lifecycle_Stage_2: "B;ah"
+          }
+        },
+        subsection_Lifecycle_Stage_3: {
+          title: "Stage 3",
+          contents: {
+            paragraph_Lifecycle_Stage_3: "B;ah"
+          }
+        }
       },
     },
   }
