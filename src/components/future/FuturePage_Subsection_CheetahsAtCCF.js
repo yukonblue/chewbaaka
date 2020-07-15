@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 14, 2020
+ * Updated  : Jul 15, 2020
  */
 
 import React from 'react';
@@ -27,7 +27,6 @@ export default class FuturePageSubsectionCheetahsAtCCF extends React.Component {
   static _SUBSECTION_NAME_ = "subsection_CheetahsAtCCF";
 
   constructor(props) {
-    console.log(props.sectionConfig);
     super(props);
     this.state = {
       subsectionConfig: props.sectionConfig.subsections[FuturePageSubsectionCheetahsAtCCF._SUBSECTION_NAME_]

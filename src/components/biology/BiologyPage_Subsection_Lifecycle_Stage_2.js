@@ -18,14 +18,11 @@ import {
   ContentPageSubsectionColumnParagraphsContentBinder
 } from '../shared/ContentPageSubsectionColumnDataBinder'
 
-import ContentPageParagraph from '../shared/ContentPageParagraph'
-
 export default class BiologyPageSubsectionLifecycleStage2 extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_Lifecycle_Stage_2";
 
   constructor(props) {
-    console.log(props.sectionConfig);
     super(props);
     this.state = {
       subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionLifecycleStage2._SUBSECTION_NAME_]
@@ -46,9 +43,7 @@ export default class BiologyPageSubsectionLifecycleStage2 extends React.Componen
   renderContent() {
     return (
       <div className="">
-        <ContentPageParagraph>
-          {ContentPageSubsectionColumnParagraphsContentBinder(this.state.subsectionConfig.contents)}
-        </ContentPageParagraph>
+        {ContentPageSubsectionColumnParagraphsContentBinder(this.state.subsectionConfig.contents)}
       </div>
     );
   }
