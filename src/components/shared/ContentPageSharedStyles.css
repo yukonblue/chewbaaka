@@ -107,7 +107,7 @@ p.ContentPageSectionSubtitleText {
   word-wrap: break-word;
 }
 
-p.ContentPageContentText {
+p.ContentPageContentParagraphText {
   font-size: 16px;
   line-height: 1.8em;
 }

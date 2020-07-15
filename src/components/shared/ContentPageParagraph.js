@@ -13,7 +13,7 @@ import './ContentPageSharedStyles.css'
 
 export default function ContentPageParagraph({ children }) {
   return (
-    <p className="ContentPageContentText">
+    <p className="ContentPageContentParagraphText">
       {children}
     </p>
   );
