@@ -9,7 +9,7 @@
 
 export const config = {
   pageProps: {
-    coverImage: "../history/assets/cheetah-mother-and-cubs-on-termite-mound.jpg",
+    coverImage: "",
     title: "Future",
     subtitle: "Subtitle TBD ...",
     pageMenuItems: [
