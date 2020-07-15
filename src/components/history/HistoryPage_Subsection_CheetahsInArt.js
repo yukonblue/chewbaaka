@@ -15,7 +15,10 @@ import { getElementStyleClassName } from '../../styling/styling'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
-import ContentPageParagraph from '../shared/ContentPageParagraph'
+
+import {
+  ContentPageSubsectionColumnParagraphsContentBinder
+} from '../shared/ContentPageSubsectionColumnDataBinder'
 
 import FlexibleContainer from '../shared/FlexibleContainer'
 
@@ -56,19 +59,8 @@ export default class HistoryPageSubsectionCheetahsInArt extends React.Component 
   renderLhsContent() {
     return (
       <div>
-        <FlexibleContainer>
-          <ContentPageParagraph>
-            {this.state.subsectionConfig.contents["paragraph_Cheetah_In_Art_01"]}
-          </ContentPageParagraph>
-          <ContentPageParagraph>
-            {this.state.subsectionConfig.contents["paragraph_Cheetah_In_Art_02"]}
-          </ContentPageParagraph>
-          <ContentPageParagraph>
-            {this.state.subsectionConfig.contents["paragraph_Cheetah_In_Art_03"]}
-          </ContentPageParagraph>
-          <ContentPageParagraph>
-            {this.state.subsectionConfig.contents["paragraph_Cheetah_In_Art_04"]}
-          </ContentPageParagraph>
+        <FlexibleContainer> 
+          {ContentPageSubsectionColumnParagraphsContentBinder(this.state.subsectionConfig.contents)}
         </FlexibleContainer>
       </div>
     );
