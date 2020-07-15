@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentPageParagraph component snapshot 1`] = `
+<p
+  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+>
+  Hello, World. This is a ContentPageParagraph component
+</p>
+`;
