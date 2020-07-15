@@ -138,7 +138,7 @@ export const config = {
                 "habitat encroachment have caused the sharp decline of the global cheetah " +
                 "population over the last century, and driven the species out of much of their " +
                 "historical range. One of the last strongholds of the species today remain in " +
-                "southern Africa, splitting between Namibia and Botswana, which together " +
+                "southern Africa, spans over Namibia and Botswana, which together " +
                 "holds two thirds of the species' population."
       },
       subsections: {
