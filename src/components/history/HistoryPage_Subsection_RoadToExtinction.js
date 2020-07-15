@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 12, 2020
+ * Updated  : Jul 14, 2020
  */
 
 import React from 'react';
@@ -150,7 +150,9 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
               }
             ]}
           />
-          <p>Click on the map above to learn more.</p>
+          <p className={getElementStyleClassName("ContentPageCaptionTextSize")}>
+            Click on the map above to learn more.
+          </p>
         </div>
 
         <div className={getElementStyleClassName("HistoryPageSubsectionRoadToExtinctionMiddleColumnContentCheetahPopulationIllustrationContainer")}>

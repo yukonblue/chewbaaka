@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 09, 2020
- * Updated  : Jul 12, 2020
+ * Updated  : Jul 14, 2020
  */
 
 /**
@@ -24,7 +24,12 @@ import { Icon } from "semantic-ui-react";
 
 import "semantic-ui-css/semantic.min.css";
 
-import { getElementStyleClassName } from '../../styling/styling'
+import {
+  getElementStyleClassName,
+  getElementStyleClassNames
+} from '../../styling/styling'
+
+import './ContentPageSharedStyles.css'
 
 import './Caption.css'
 
@@ -37,7 +42,9 @@ export default function Caption(props) {
       <div className={getElementStyleClassName("IconContainer")}>
         <Icon name="image" />
       </div>
-      <p className="CaptionText">
+      <p className={getElementStyleClassNames(["ContentPageCaptionTextSize",
+                                              "CaptionText"])}
+      >
         {props.caption}
       </p>
     </div>

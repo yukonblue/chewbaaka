@@ -107,12 +107,23 @@ p.ContentPageSectionSubtitleText {
   word-wrap: break-word;
 }
 
+p.ContentPageRegularTextSize {
+  font-size: 16px;
+}
+
+p.ContentPageCaptionTextSize {
+  font-size: 15px;
+}
+
+p.ContentPageCaptionTextSize_DebugColor {
+  color: aqua;
+}
+
 p.ContentPageContentParagraphText_DebugColor {
   color: chocolate;
 }
 
 p.ContentPageContentParagraphText {
-  font-size: 16px;
   line-height: 1.8em;
 }
 

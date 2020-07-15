@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 11, 2020
+ * Updated  : Jul 14, 2020
  */
 
 /**
@@ -125,7 +125,9 @@ class ImageSlide extends React.Component {
                 {this.state.marksDict[this.state.activeMark].label}
               </Label>
 
-              <p>{this.state.marksDict[this.state.activeMark].description}</p>
+              <p className="ContentPageRegularTextSize">
+                {this.state.marksDict[this.state.activeMark].description}
+              </p>
             </div>
 
             <div className={getElementStyleClassName("ImageSlideSliderAndLabelInnerContainer")}>
@@ -162,7 +164,10 @@ class ImageSlide extends React.Component {
               </div>
             </div>
 
-            <p data-testid="ImageSlideComponentCaptionPartTestId">
+            <p
+              className={getElementStyleClassName("ContentPageCaptionTextSize")}
+              data-testid="ImageSlideComponentCaptionPartTestId"
+            >
               {this.props.caption}
             </p>
           </div>
