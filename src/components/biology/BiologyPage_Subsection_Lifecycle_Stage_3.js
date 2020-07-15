@@ -1,5 +1,5 @@
 /**
- * BiologyPage_Subsection_Lifecycle_Part3.js
+ * BiologyPage_Subsection_Lifecycle_Stage_3.js
  * Chewbaaka
  *
  * Author   : Tomiko

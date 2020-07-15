@@ -1,5 +1,5 @@
 /**
- * FuturePage.js
+ * BiologyPage.js
  * Chewbaaka
  *
  * Author   : Tomiko
