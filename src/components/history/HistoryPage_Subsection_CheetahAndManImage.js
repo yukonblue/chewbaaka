@@ -16,9 +16,13 @@ import { getElementStyleClassName } from '../../styling/styling'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
-import ContentPageParagraph from '../shared/ContentPageParagraph'
+
+import {
+  ContentPageSubsectionColumnParagraphsContentBinder
+} from '../shared/ContentPageSubsectionColumnDataBinder'
 
 import FlexibleContainer from '../shared/FlexibleContainer'
+
 import ImageSlidingGallery from '../shared/ImageSlidingGallery'
 
 export default class HistoryPageSubsectionCheetahAndManImage extends React.Component {
@@ -57,18 +61,7 @@ export default class HistoryPageSubsectionCheetahAndManImage extends React.Compo
     return (
       <div className="HistoryPageSubsectionCheetahAndManImageContentTextContainer">
         <FlexibleContainer>
-          <ContentPageParagraph>
-            {this.state.subsectionConfig.contents["paragraph_Cheetah_And_Man_01"]}
-          </ContentPageParagraph>
-          <ContentPageParagraph>
-            {this.state.subsectionConfig.contents["paragraph_Cheetah_And_Man_02"]}
-          </ContentPageParagraph>
-          <ContentPageParagraph>
-            {this.state.subsectionConfig.contents["paragraph_Cheetah_And_Man_03"]}
-          </ContentPageParagraph>
-          <ContentPageParagraph>
-            {this.state.subsectionConfig.contents["paragraph_Cheetah_And_Man_04"]}
-          </ContentPageParagraph>
+          {ContentPageSubsectionColumnParagraphsContentBinder(this.state.subsectionConfig.contents)}
         </FlexibleContainer>
       </div>
     );
