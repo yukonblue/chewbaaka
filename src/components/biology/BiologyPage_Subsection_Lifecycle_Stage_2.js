@@ -18,8 +18,6 @@ import {
   ContentPageSubsectionColumnParagraphsContentBinder
 } from '../shared/ContentPageSubsectionColumnDataBinder'
 
-import ContentPageParagraph from '../shared/ContentPageParagraph'
-
 export default class BiologyPageSubsectionLifecycleStage2 extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_Lifecycle_Stage_2";
