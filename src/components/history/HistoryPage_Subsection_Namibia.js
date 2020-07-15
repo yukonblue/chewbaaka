@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 13, 2020
+ * Updated  : Jul 15, 2020
  */
 
 import React from 'react';
@@ -21,8 +21,8 @@ import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPa
 
 import {
   ContentPageSubsectionColumnDataBinder,
-  ContentPageSubsectionColumnParagraphsContentBinder
-} from '../shared/ContentPageSubsectionColumnDataBinder'
+  ContentPageSubsectionParagraphsContentBinder
+} from '../shared/ContentPageSubsectionContentBinder'
 
 import ImageView from '../shared/ImageView'
 
@@ -93,7 +93,7 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
   renderLhsColumnContentBinder(content) {
     return (
       <div>
-        {ContentPageSubsectionColumnParagraphsContentBinder(content)}
+        {ContentPageSubsectionParagraphsContentBinder(content)}
 
         <div className="DisplayInlineBlock">
           <Segment inverted>
@@ -125,7 +125,7 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
   renderRhsColumnContentBinder(content) {
     return (
       <div>
-        {ContentPageSubsectionColumnParagraphsContentBinder(content)}
+        {ContentPageSubsectionParagraphsContentBinder(content)}
 
         <div className="DisplayInlineBlock">
           <Segment inverted>
