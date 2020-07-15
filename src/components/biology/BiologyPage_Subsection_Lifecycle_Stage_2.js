@@ -25,7 +25,6 @@ export default class BiologyPageSubsectionLifecycleStage2 extends React.Componen
   static _SUBSECTION_NAME_ = "subsection_Lifecycle_Stage_2";
 
   constructor(props) {
-    console.log(props.sectionConfig);
     super(props);
     this.state = {
       subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionLifecycleStage2._SUBSECTION_NAME_]
