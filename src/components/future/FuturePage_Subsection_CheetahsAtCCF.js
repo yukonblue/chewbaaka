@@ -16,6 +16,8 @@ import { getElementStyleClassName } from '../../styling/styling'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 
+import ContentPageParagraph from '../shared/ContentPageParagraph'
+
 import CircularImage from '../shared/CircularImage'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
@@ -67,13 +69,9 @@ export default class FuturePageSubsectionCheetahsAtCCF extends React.Component {
   renderLhsContentChewbaaka() {
     return (
       <div className="FuturePageCheetahAndManImageSubsectionContentTextContainer">
-        <p>
-          Hi there, my name is Chewbaaka. I was named after an animal
-          in a movie. I have lived at CCF since I was 3 weeks old.
-          I am there cheetah ambassador and I get to meet many people.
-          The staff at CCF tell everyone about me and all the wild
-          cheetah. I have a special place where I can run like the wind.
-        </p>
+        <ContentPageParagraph>
+          {this.state.subsectionConfig.contents["paragraph_Chewbaaka"]}
+        </ContentPageParagraph>
         <div>
           <MediaLinkButton href="https://www.youtube.com/watch?v=WYjeEG06cjc" title='Watch "Walking with Chewbaaka" on YouTube' />
         </div>
@@ -100,14 +98,9 @@ export default class FuturePageSubsectionCheetahsAtCCF extends React.Component {
   renderRhsContentMekondyo() {
     return (
       <div className="FuturePageCheetahAndManImageSubsectionContentTextContainer">
-        <p>
-          Hello, my name is Mekondyo. Mekondyo means "struggle" in the
-          Oshiwambo language. I was born on a farm northof Otjiwarango
-          but I now live on farmland west of Otjiwarango. It is very
-          beautiful. I can see the Waterberg Plateau far away.
-          I am 5 years old now and I will tell you my story as you
-          explore this museum.
-        </p>
+        <ContentPageParagraph>
+          {this.state.subsectionConfig.contents["paragraph_Mekondyo"]}
+        </ContentPageParagraph>
       </div>
     );
   }
