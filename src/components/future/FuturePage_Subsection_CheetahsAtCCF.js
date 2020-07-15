@@ -1,16 +1,16 @@
 /**
- * HistoryPage_Subsection_CheetahsAtCCF.js
+ * FuturePage_Subsection_CheetahsAtCCF.js
  * Chewbaaka
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 10, 2020
+ * Updated  : Jul 14, 2020
  */
 
 import React from 'react';
 
 import '../shared/ContentPageSharedStyles.css'
-import './HistoryPage_Subsection_CheetahsAtCCF.css'
+import './FuturePage_Subsection_CheetahsAtCCF.css'
 
 import { getElementStyleClassName } from '../../styling/styling'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
@@ -20,19 +20,32 @@ import CircularImage from '../shared/CircularImage'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
-export default class HistoryPageSubsectionCheetahsAtCCF extends React.Component {
+export default class FuturePageSubsectionCheetahsAtCCF extends React.Component {
+
+  static _SUBSECTION_NAME_ = "subsection_CheetahsAtCCF";
+
+  constructor(props) {
+    console.log(props.sectionConfig);
+    super(props);
+    this.state = {
+      subsectionConfig: props.sectionConfig.subsections[FuturePageSubsectionCheetahsAtCCF._SUBSECTION_NAME_]
+    };
+  }
 
   render() {
     return (
-      <div className="HistoryPageSubsectionCheetahsAtCCF">
-        <ContentPageSubsectionTemplate title={this.props.subsectionConfig.title} content={this.renderContent()} />
+      <div className="FuturePageSubsectionCheetahsAtCCF">
+        <ContentPageSubsectionTemplate
+          title={this.state.subsectionConfig.title}
+          content={this.renderContent()}
+        />
       </div>
     )
   }
 
   renderContent() {
     return (
-      <div className="HistoryPageSubsectionCheetahsAtCCFInnerContainer">
+      <div className="FuturePageSubsectionCheetahsAtCCFInnerContainer">
         <div>
           <h4 className="ContentPageSubsectionSubtitle">Chewbaaka</h4>
           <ContentPageSubsectionTwoColumnContentTemplate
@@ -53,7 +66,7 @@ export default class HistoryPageSubsectionCheetahsAtCCF extends React.Component 
 
   renderLhsContentChewbaaka() {
     return (
-      <div className="HistoryPageCheetahAndManImageSubsectionContentTextContainer">
+      <div className="FuturePageCheetahAndManImageSubsectionContentTextContainer">
         <p>
           Hi there, my name is Chewbaaka. I was named after an animal
           in a movie. I have lived at CCF since I was 3 weeks old.
@@ -70,7 +83,7 @@ export default class HistoryPageSubsectionCheetahsAtCCF extends React.Component 
 
   renderRhsContentChewbaaka() {
     return (
-      <div className={getElementStyleClassName("HistoryPageSubsectionCheetahsAtCCFImageContainer")}>
+      <div className={getElementStyleClassName("FuturePageSubsectionCheetahsAtCCFImageContainer")}>
         <CircularImage image="https://sotinpc.files.wordpress.com/2013/04/day-of-rememberance.jpg" title="Chewbaaka" />
       </div>
     );
@@ -78,7 +91,7 @@ export default class HistoryPageSubsectionCheetahsAtCCF extends React.Component 
 
   renderLhsContentMekondyo() {
     return (
-      <div className={getElementStyleClassName("HistoryPageSubsectionCheetahsAtCCFImageContainer")}>
+      <div className={getElementStyleClassName("FuturePageSubsectionCheetahsAtCCFImageContainer")}>
         <CircularImage image="https://globalgaz.com/wp-content/uploads/2018/07/DSC03746.jpg" title="Mekondyo" />
       </div>
     );
@@ -86,7 +99,7 @@ export default class HistoryPageSubsectionCheetahsAtCCF extends React.Component 
 
   renderRhsContentMekondyo() {
     return (
-      <div className="HistoryPageCheetahAndManImageSubsectionContentTextContainer">
+      <div className="FuturePageCheetahAndManImageSubsectionContentTextContainer">
         <p>
           Hello, my name is Mekondyo. Mekondyo means "struggle" in the
           Oshiwambo language. I was born on a farm northof Otjiwarango

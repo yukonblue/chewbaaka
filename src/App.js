@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jun 30, 2020
- * Updated  : Jul 05, 2020
+ * Updated  : Jul 14, 2020
  */
 
 import React from 'react';
@@ -16,10 +16,11 @@ import "semantic-ui-css/semantic.min.css";
 import HomePage from './components/homepage/HomePage'
 
 import HistoryPage from './components/history/HistoryPage'
+import FuturePage from './components/future/FuturePage'
 
 import TestPage from './components/shared/TestPage'
 
-class App extends React.Component {
+export default class App extends React.Component {
   render() {
     return (
       <Router>
@@ -31,6 +32,9 @@ class App extends React.Component {
           <Route exact path='/history'>
             <HistoryPage />
           </Route>
+          <Route exact path='/future'>
+            <FuturePage />
+          </Route>
           <Route exact path="/" >
             <HomePage />
           </Route>
@@ -40,5 +44,3 @@ class App extends React.Component {
     )
   }
 }
-
-export default App;
