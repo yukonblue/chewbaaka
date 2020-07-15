@@ -107,6 +107,10 @@ p.ContentPageSectionSubtitleText {
   word-wrap: break-word;
 }
 
+p.ContentPageContentParagraphText_DebugColor {
+  color: chocolate;
+}
+
 p.ContentPageContentParagraphText {
   font-size: 16px;
   line-height: 1.8em;

@@ -11,9 +11,11 @@ import React from 'react';
 
 import './ContentPageSharedStyles.css'
 
+import { getElementStyleClassName } from '../../styling/styling'
+
 export default function ContentPageParagraph({ children }) {
   return (
-    <p className="ContentPageContentParagraphText">
+    <p className={getElementStyleClassName("ContentPageContentParagraphText")}>
       {children}
     </p>
   );
