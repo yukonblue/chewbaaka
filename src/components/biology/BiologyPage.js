@@ -13,7 +13,7 @@ import "semantic-ui-css/semantic.min.css";
 
 import ContentPageSkeleton from '../shared/ContentPageSkeleton'
 
-// import FuturePageSectionCheetahAmbassadors from './FuturePage_Section_CheetahAmbassadors'
+import BiologyPageSectionLifecyle from './BiologyPage_Section_Lifecycle'
 
 import { config }  from './config'
 
@@ -33,7 +33,7 @@ export default class FuturePage extends React.Component {
   renderContent() {
     return (
       <div>
-        {/* <FuturePageSectionCheetahAmbassadors config={config} /> */}
+        <BiologyPageSectionLifecyle config={config} />
       </div>
     )
   }
