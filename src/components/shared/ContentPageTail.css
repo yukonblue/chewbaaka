@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 12, 2020
+ * Updated  : Jul 13, 2020
  */
 
 div.ContentPageTailOuterContainer {
@@ -19,16 +19,10 @@ div.ContentPageTailInnerContainer {
   display: block;
   margin: 0px auto;
   /**
-   * TODO:
-   *
-   * This 85% is used to emulate the same layout behavior
-   * used in ContentPageSubsectionTemplate.css
-   * (see `div.ContentPageSubsectionTemplateInnerContainer`).
-   *
-   * We need to consolidate these rules into a common place
-   * at some point.
+   * NOTE:
+   * width is specified `div.ContentPageContentInnerContentDimension`
+   * in ContentPageSharedStyles.css
    */
-  width: 85%;
 }
 
 div.ContentPageTailInnerContainer_DebugColor {

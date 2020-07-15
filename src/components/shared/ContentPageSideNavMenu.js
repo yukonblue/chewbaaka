@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 14, 2020
  */
 
 import React from 'react';
@@ -12,6 +12,10 @@ import React from 'react';
 import { Menu } from 'semantic-ui-react'
 
 import { ContentPageSectionTitleToAnchorId } from './ContentPageSectionAnchor'
+
+import { getElementStyleClassName } from '../../styling/styling'
+
+import './ContentPageSideNavMenu.css'
 
 import "semantic-ui-css/semantic.min.css";
 
@@ -45,15 +49,24 @@ export default class ContentPageSideNavMenu extends React.Component {
           href={"#"+ContentPageSectionTitleToAnchorId(item)}
           onClick={this.handleItemClick}
         >
-          {item}
+          <span className="ContentPageSideNavMenuItem">
+            {item}
+          </span>
         </Menu.Item>
       );
     }
 
     return (
-      <div data-testid="ContentPageSideNavMenuComponentTestId">
+      <div
+        className={getElementStyleClassName("ContentPageSideNavMenuOuterContainer")}
+        data-testid="ContentPageSideNavMenuComponentTestId"
+      >
         <Menu text vertical>
-          <Menu.Item header>History</Menu.Item>
+          <Menu.Item header>
+            <span className="ContentPageSideNavMenuHeader">
+              {this.props.title}
+            </span>
+          </Menu.Item>
           {menuItems}
         </Menu>
       </div>

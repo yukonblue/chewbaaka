@@ -1,0 +1,32 @@
+/**
+ * ContentPageSideNavMenu.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 14, 2020
+ * Updated  : Jul 14, 2020
+ */
+
+div.ContentPageSideNavMenuOuterContainer {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.ContentPageSideNavMenuOuterContainer_DebugColor {
+  background-color: beige;
+}
+
+span.ContentPageSideNavMenuHeader {
+  font-size: 26px;
+}
+
+span.ContentPageSideNavMenuItem {
+  line-height: 1.4em;
+  color: gray;
+  font-size: 20px;
+}
+
+span.ContentPageSideNavMenuItem:hover {
+  color: black;
+  font-weight: bold;
+}

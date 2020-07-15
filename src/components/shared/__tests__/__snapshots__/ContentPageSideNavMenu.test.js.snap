@@ -2,6 +2,7 @@
 
 exports[`ContentPageSideNavMenu component snapshot 1`] = `
 <div
+  className="ContentPageSideNavMenuOuterContainer ContentPageSideNavMenuOuterContainer_DebugColor DebugWireframe"
   data-testid="ContentPageSideNavMenuComponentTestId"
 >
   <div
@@ -11,28 +12,44 @@ exports[`ContentPageSideNavMenu component snapshot 1`] = `
       className="header item"
       onClick={[Function]}
     >
-      History
+      <span
+        className="ContentPageSideNavMenuHeader"
+      >
+        Menu Title
+      </span>
     </div>
     <a
       className="active item"
       href="#menuitem1"
       onClick={[Function]}
     >
-      MenuItem1
+      <span
+        className="ContentPageSideNavMenuItem"
+      >
+        MenuItem1
+      </span>
     </a>
     <a
       className="item"
       href="#menuitem2"
       onClick={[Function]}
     >
-      MenuItem2
+      <span
+        className="ContentPageSideNavMenuItem"
+      >
+        MenuItem2
+      </span>
     </a>
     <a
       className="item"
       href="#menuitem3"
       onClick={[Function]}
     >
-      MenuItem3
+      <span
+        className="ContentPageSideNavMenuItem"
+      >
+        MenuItem3
+      </span>
     </a>
   </div>
 </div>
