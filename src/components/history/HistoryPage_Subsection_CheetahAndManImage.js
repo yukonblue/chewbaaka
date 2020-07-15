@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 13, 2020
+ * Updated  : Jul 14, 2020
  */
 
 import React from 'react';
@@ -17,7 +17,12 @@ import { getElementStyleClassName } from '../../styling/styling'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 
+import {
+  ContentPageSubsectionColumnParagraphsContentBinder
+} from '../shared/ContentPageSubsectionColumnDataBinder'
+
 import FlexibleContainer from '../shared/FlexibleContainer'
+
 import ImageSlidingGallery from '../shared/ImageSlidingGallery'
 
 export default class HistoryPageSubsectionCheetahAndManImage extends React.Component {
@@ -56,10 +61,7 @@ export default class HistoryPageSubsectionCheetahAndManImage extends React.Compo
     return (
       <div className="HistoryPageSubsectionCheetahAndManImageContentTextContainer">
         <FlexibleContainer>
-          <p>{this.state.subsectionConfig.contents["paragraph_Cheetah_And_Man_01"]}</p>
-          <p>{this.state.subsectionConfig.contents["paragraph_Cheetah_And_Man_02"]}</p>
-          <p>{this.state.subsectionConfig.contents["paragraph_Cheetah_And_Man_03"]}</p>
-          <p>{this.state.subsectionConfig.contents["paragraph_Cheetah_And_Man_04"]}</p>
+          {ContentPageSubsectionColumnParagraphsContentBinder(this.state.subsectionConfig.contents)}
         </FlexibleContainer>
       </div>
     );

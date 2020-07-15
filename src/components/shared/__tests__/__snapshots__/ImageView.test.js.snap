@@ -38,7 +38,7 @@ exports[`ImageView component snapshot 1`] = `
             />
           </div>
           <p
-            className="CaptionText"
+            className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
           >
             This is a caption
           </p>

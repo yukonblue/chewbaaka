@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 10, 2020
+ * Updated  : Jul 14, 2020
  */
 
 import React from 'react';
@@ -15,6 +15,10 @@ import { getElementStyleClassName } from '../../styling/styling'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
+
+import {
+  ContentPageSubsectionColumnParagraphsContentBinder
+} from '../shared/ContentPageSubsectionColumnDataBinder'
 
 import ImageSlidingGallery from '../shared/ImageSlidingGallery'
 import FlexibleContainer from '../shared/FlexibleContainer'
@@ -78,11 +82,7 @@ export default class HistoryPageSubsectionCheetahsInSports extends React.Compone
     return (
       <div>
         <FlexibleContainer>
-          <p>{this.state.subsectionConfig.contents["paragraph_The_Hunting_Leopard_01"]}</p>
-          <p>{this.state.subsectionConfig.contents["paragraph_The_Hunting_Leopard_02"]}</p>
-          <p>{this.state.subsectionConfig.contents["paragraph_The_Hunting_Leopard_03"]}</p>
-          <p>{this.state.subsectionConfig.contents["paragraph_The_Hunting_Leopard_04"]}</p>
-          <p>{this.state.subsectionConfig.contents["paragraph_The_Hunting_Leopard_05"]}</p>
+          {ContentPageSubsectionColumnParagraphsContentBinder(this.state.subsectionConfig.contents)}
         </FlexibleContainer>
       </div>
     );
