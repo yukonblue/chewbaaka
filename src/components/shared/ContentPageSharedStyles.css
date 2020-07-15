@@ -107,6 +107,11 @@ p.ContentPageSectionSubtitleText {
   word-wrap: break-word;
 }
 
+p.ContentPageContentText {
+  font-size: 16px;
+  line-height: 1.8em;
+}
+
 span.TaxonomyBinomialName {
   font-style: italic;
 }

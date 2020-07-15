@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 10, 2020
+ * Updated  : Jul 14, 2020
  */
 
 import React from 'react';
@@ -15,6 +15,7 @@ import { getElementStyleClassName } from '../../styling/styling'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
+import ContentPageParagraph from '../shared/ContentPageParagraph'
 
 import FlexibleContainer from '../shared/FlexibleContainer'
 
@@ -56,10 +57,18 @@ export default class HistoryPageSubsectionCheetahsInArt extends React.Component 
     return (
       <div>
         <FlexibleContainer>
-          <p>{this.state.subsectionConfig.contents["paragraph_Cheetah_In_Art_01"]}</p>
-          <p>{this.state.subsectionConfig.contents["paragraph_Cheetah_In_Art_02"]}</p>
-          <p>{this.state.subsectionConfig.contents["paragraph_Cheetah_In_Art_03"]}</p>
-          <p>{this.state.subsectionConfig.contents["paragraph_Cheetah_In_Art_04"]}</p>
+          <ContentPageParagraph>
+            {this.state.subsectionConfig.contents["paragraph_Cheetah_In_Art_01"]}
+          </ContentPageParagraph>
+          <ContentPageParagraph>
+            {this.state.subsectionConfig.contents["paragraph_Cheetah_In_Art_02"]}
+          </ContentPageParagraph>
+          <ContentPageParagraph>
+            {this.state.subsectionConfig.contents["paragraph_Cheetah_In_Art_03"]}
+          </ContentPageParagraph>
+          <ContentPageParagraph>
+            {this.state.subsectionConfig.contents["paragraph_Cheetah_In_Art_04"]}
+          </ContentPageParagraph>
         </FlexibleContainer>
       </div>
     );
