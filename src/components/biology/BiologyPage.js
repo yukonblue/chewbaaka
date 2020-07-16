@@ -13,6 +13,8 @@ import "semantic-ui-css/semantic.min.css";
 
 import ContentPageSkeleton from '../shared/ContentPageSkeleton'
 
+import ContentPageTableOfContentMenuBootstrapper from '../shared/ContentPageTableOfContentMenuBootstrapper'
+
 import BiologyPageSectionLifecyle from './BiologyPage_Section_Lifecycle'
 
 import { config }  from './config'
@@ -33,6 +35,11 @@ export default class FuturePage extends React.Component {
   renderContent() {
     return (
       <div>
+        <ContentPageTableOfContentMenuBootstrapper
+          pageMenuItems={config.pageProps.pageMenuItems}
+          imagesContext = {() => (require.context("./assets/menu", true))}
+        />
+
         <BiologyPageSectionLifecyle config={config} />
       </div>
     )

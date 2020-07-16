@@ -15,11 +15,11 @@ export const config = {
     pageMenuItems: [
       {
         title: "Lifecycle",
-        tocImageFilename: ""
+        tocImageFilename: "biology_page_toc_menu_img_01.jpg"
       },
       {
         title: "Physiology",
-        tocImageFilename: ""
+        tocImageFilename: "biology_page_toc_menu_img_02.jpg"
       }
     ],
   },
