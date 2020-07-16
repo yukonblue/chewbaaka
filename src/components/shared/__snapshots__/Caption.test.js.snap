@@ -4,6 +4,11 @@ exports[`Caption component snapshot 1`] = `
 <div
   className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
   data-testid="CaptionComponentTestId"
+  style={
+    Object {
+      "width": undefined,
+    }
+  }
 >
   <div
     className="IconContainer IconContainer_DebugColor DebugWireframe"

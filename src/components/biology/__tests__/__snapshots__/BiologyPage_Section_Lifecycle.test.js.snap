@@ -67,8 +67,63 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                 Stage 1
               </h3>
               <div
-                className=""
+                className="OverflowHidden"
               >
+                <div
+                  className="FloatRight"
+                >
+                  <div
+                    className="ImageViewOuterContainer"
+                  >
+                    <div
+                      className="ImageViewInnerContainer"
+                    >
+                      <div
+                        className="ImageViewCore"
+                      >
+                        <img
+                          alt="Cheetah cubs are born blind, so they need their mother's care."
+                          className="ImageViewImg"
+                          src="cheetah_mom_carry_cub.jpg"
+                          style={
+                            Object {
+                              "height": 480,
+                              "width": 320,
+                            }
+                          }
+                        />
+                        <div
+                          data-testid="ImageViewComponentCaptionPart"
+                        >
+                          <div
+                            className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                            data-testid="CaptionComponentTestId"
+                            style={
+                              Object {
+                                "width": 320,
+                              }
+                            }
+                          >
+                            <div
+                              className="IconContainer IconContainer_DebugColor DebugWireframe"
+                            >
+                              <i
+                                aria-hidden="true"
+                                className="image icon"
+                                onClick={[Function]}
+                              />
+                            </div>
+                            <p
+                              className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                            >
+                              Cheetah cubs are born blind, so they need their mother's care.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <p
                   className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
                 >
@@ -130,6 +185,23 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                 >
                   They stop drinking their mother’s milk at 3 to 4 months of age. They start eating meat and learning to hunt. The games they play and the experiences they have during this stage will teach them skills needed to survive on their own.
                 </p>
+                <div>
+                  <a
+                    href="https://www.youtube.com/watch?v=Wjtb7XMZlgY"
+                  >
+                    <button
+                      className="ui blue icon button"
+                      onClick={[Function]}
+                    >
+                      Cheetah Mom Teaches Cubs to Hunt | YouTube
+                      <i
+                        aria-hidden="true"
+                        className="file video icon"
+                        onClick={[Function]}
+                      />
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -161,6 +233,112 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                 >
                   Cheetahs are diurnal, hunting mornings and early evenings. They rely on their sight to find prey. They spend most of the day resting under shady trees or on termite mounds. Night hunting is only done during a bright moon.
                 </p>
+                <div>
+                  <a
+                    href="https://www.nationalgeographic.co.uk/animals/2017/12/stunning-pictures-cheetahs-action"
+                  >
+                    <button
+                      className="ui blue icon button"
+                      onClick={[Function]}
+                    >
+                      Stunning Pictures of Cheetahs in Action | National Geographic
+                      <i
+                        aria-hidden="true"
+                        className="file image icon"
+                        onClick={[Function]}
+                      />
+                    </button>
+                  </a>
+                </div>
+                <div
+                  className="FactBannerDimension Centered"
+                >
+                  <img
+                    alt="What is diurnal?"
+                    src="What_is_Diurnal_640x320.png"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+        >
+          <div
+            className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+          >
+            <h3
+              className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+            >
+              Stage 4
+            </h3>
+            <div>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+              >
+                In Stage 4, cheetahs become sexually mature. Although they are mature at 16 to 18 months, most do not breed until they are three to five years old.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+              >
+                At 20 - 30 months of age, females leave their litter-mates to find suitable mates and start their own families. They raise their families on their own without the help of the male.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+              >
+                Males usually do not breed until they are 4 to 5 years of age, and dominant in a territory. They live alone or brothers farm permanent groups called "coalitions". These groups stay together for life, claim territories, hunt and find mates together.
+              </p>
+              <div
+                className="ImageViewOuterContainer"
+              >
+                <div
+                  className="ImageViewInnerContainer"
+                >
+                  <div
+                    className="ImageViewCore"
+                  >
+                    <img
+                      alt="A coalition of cheetahs on the lookout."
+                      className="ImageViewImg"
+                      src="cheetah_coalition.jpg"
+                      style={
+                        Object {
+                          "height": undefined,
+                          "width": 510,
+                        }
+                      }
+                    />
+                    <div
+                      data-testid="ImageViewComponentCaptionPart"
+                    >
+                      <div
+                        className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                        data-testid="CaptionComponentTestId"
+                        style={
+                          Object {
+                            "width": 510,
+                          }
+                        }
+                      >
+                        <div
+                          className="IconContainer IconContainer_DebugColor DebugWireframe"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
+                        </div>
+                        <p
+                          className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                        >
+                          A coalition of cheetahs on the lookout.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

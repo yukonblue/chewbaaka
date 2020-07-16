@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BiologyPageIntroSection component snapshot 1`] = `
+<div
+  className="BiologyPageIntroSectionOuterContainer BiologyPageIntroSectionOuterContainer_DebugColor DebugWireframe"
+>
+  <div>
+    <div
+      className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+    >
+      <div
+        className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+      >
+        <h3
+          className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+        />
+        <div
+          className="ContentPageIntroSectionTemplateOuterContainer"
+        >
+          <div
+            className="ContentPageIntroSectionTemplateInnerContainer ContentPageIntroSectionTemplateInnerContainer_DebugColor DebugWireframe"
+          >
+            <div
+              className="ContentPageIntroSectionTemplateTitleContainer ContentPageIntroSectionTemplateTitleContainer_DebugColor DebugWireframe"
+            >
+              <h1
+                className="ContentPageIntroSectionTemplateTitle ContentPageIntroSectionTemplateTitle_DebugColor DebugWireframe"
+              >
+                Cheetah Biology
+              </h1>
+            </div>
+            <div
+              className="ContentPageIntroSectionTemplateContentContainer ContentPageIntroSectionTemplateContentContainer_DebugColor DebugWireframe"
+            >
+              <div
+                className="BiologyPageIntroSectionInnerContainer BiologyPageIntroSectionInnerContainer_DebugColor DebugWireframe"
+              >
+                <img
+                  alt=""
+                  className="BiologyPageIntroSectionImg BiologyPageIntroSectionImg_DebugColor DebugWireframe"
+                  src="cheetah_animated.gif"
+                />
+                <p
+                  className="ContentPageSectionSubtitleText"
+                >
+                  The evolution and history of the cheetah are just as remarkable and interesting as the species itself. Its evolution goes back to nearly 7 million years ago in time and spanned almost all the continents on the planet, and its history with human interactions goes as far back as to 32000 BCE. The cheetah have been a symbol of significant meaning in different civilizations and cultures across thousands of years of human history. Even up to this day, the cheetah continues to be considered as a spiritual animal that manifests as a symbol of a multitude of positive characteristics, such as adaptability, persistence, and focus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

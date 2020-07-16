@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 16, 2020
  */
 
 export const config = {
@@ -15,13 +15,25 @@ export const config = {
     pageMenuItems: [
       {
         title: "Lifecycle",
-        tocImageFilename: ""
+        tocImageFilename: "biology_page_toc_menu_img_01.jpg"
       },
       {
-        title: "Anatomy",
-        tocImageFilename: ""
+        title: "Physiology",
+        tocImageFilename: "biology_page_toc_menu_img_02.jpg"
       }
     ],
+  },
+  contentPageIntro: {
+    title: "Cheetah Biology",
+    content: "The evolution and history of the cheetah are just as remarkable and " +
+          "interesting as the species itself. Its evolution goes back to nearly " +
+          "7 million years ago in time and spanned almost all the continents on the planet, " +
+          "and its history with human interactions goes as far back as to 32000 BCE. " +
+          "The cheetah have been a symbol of significant meaning in different civilizations and " +
+          "cultures across thousands of years of human history. Even up to this day, " +
+          "the cheetah continues to be considered as a spiritual animal that manifests " +
+          "as a symbol of a multitude of positive characteristics, such as adaptability, " +
+          "persistence, and focus."
   },
   contentPageSections: {
     section_Lifecycle: {
@@ -86,6 +98,21 @@ export const config = {
               "Cheetahs are diurnal, hunting mornings and early evenings. They rely on their " +
               "sight to find prey. They spend most of the day resting under shady trees or on " +
               "termite mounds. Night hunting is only done during a bright moon."
+          }
+        },
+        subsection_Lifecycle_Stage_4: {
+          title: "Stage 4",
+          contents: {
+            paragraph_Lifecycle_Stage_4_01:
+              "In Stage 4, cheetahs become sexually mature. Although they are mature at 16 to 18 months, " +
+              "most do not breed until they are three to five years old.",
+            paragraph_Lifecycle_Stage_4_02:
+              "At 20 - 30 months of age, females leave their litter-mates to find suitable mates " +
+              "and start their own families. They raise their families on their own without the help of the male.",
+            paragraph_Lifecycle_Stage_4_03:
+              "Males usually do not breed until they are 4 to 5 years of age, and dominant in a territory. "+
+              'They live alone or brothers farm permanent groups called "coalitions". '+
+              "These groups stay together for life, claim territories, hunt and find mates together."
           }
         }
       },

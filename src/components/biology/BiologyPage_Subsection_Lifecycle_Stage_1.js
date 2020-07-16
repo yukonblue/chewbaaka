@@ -4,15 +4,18 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 16, 2020
  */
 
 import React from 'react';
 
 import '../shared/ContentPageSharedStyles.css'
 
-// import { getElementStyleClassName } from '../../styling/styling'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+
+import ImageView from '../shared/ImageView'
+
+import image_cheetah_mom_carry_cub from './assets/cheetah_mom_carry_cub.jpg'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -42,7 +45,16 @@ export default class BiologyPageSubsectionLifecycleStage1 extends React.Componen
 
   renderContent() {
     return (
-      <div className="">
+      <div className="OverflowHidden">
+        <div className="FloatRight">
+          <ImageView
+            image={image_cheetah_mom_carry_cub}
+            caption="Cheetah cubs are born blind, so they need their mother's care."
+            width={320}
+            height={480}
+          />
+        </div>
+
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
       </div>
     );
