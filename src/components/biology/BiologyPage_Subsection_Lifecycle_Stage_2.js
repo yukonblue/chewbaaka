@@ -4,14 +4,13 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 16, 2020
  */
 
 import React from 'react';
 
 import '../shared/ContentPageSharedStyles.css'
 
-// import { getElementStyleClassName } from '../../styling/styling'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
 import {

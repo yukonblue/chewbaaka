@@ -19,10 +19,13 @@ import BiologyPageSectionLifecyle from './BiologyPage_Section_Lifecycle'
 
 import { config }  from './config'
 
+import coverImage from './assets/biology_page_cover_image.jpg'
+
 export default class FuturePage extends React.Component {
 
   render() {
     let pageProps = config.pageProps;
+    pageProps.coverImage = coverImage;
 
     return (
       <ContentPageSkeleton
