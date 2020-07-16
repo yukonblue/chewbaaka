@@ -22,8 +22,6 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
-import './BiologyPage_Subsection_Lifecycle_Stage_1.css'
-
 export default class BiologyPageSubsectionLifecycleStage1 extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_Lifecycle_Stage_1";
