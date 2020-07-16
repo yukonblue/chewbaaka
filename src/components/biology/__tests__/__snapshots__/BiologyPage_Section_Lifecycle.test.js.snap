@@ -288,42 +288,95 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                 >
                   Cheetahs are diurnal, hunting mornings and early evenings. They rely on their sight to find prey. They spend most of the day resting under shady trees or on termite mounds. Night hunting is only done during a bright moon.
                 </p>
+                <div
+                  className="FactBannerDimension Centered"
+                >
+                  <img
+                    alt=""
+                    src="What_is_Diurnal_640x320.png"
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div
-          className=""
+          className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
         >
           <div
-            className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+            className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
           >
-            <div
-              className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+            <h3
+              className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
             >
-              <h3
-                className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+              Stage 4
+            </h3>
+            <div>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
               >
-                Stage 4
-              </h3>
+                In Stage 4, cheetahs become sexually mature. Although they are mature at 16 to 18 months, most do not breed until they are three to five years old.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+              >
+                At 20 - 30 months of age, females leave their litter-mates to find suitable mates and start their own families. They raise their families on their own without the help of the male.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+              >
+                Males usually do not breed until they are 4 to 5 years of age, and dominant in a territory. They live alone or brothers farm permanent groups called "coalitions". These groups stay together for life, claim territories, hunt and find mates together.
+              </p>
               <div
-                className=""
+                className="ImageViewOuterContainer"
               >
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                <div
+                  className="ImageViewInnerContainer"
                 >
-                  In Stage 4, cheetahs become sexually mature. Although they are mature at 16 to 18 months, most do not breed until they are three to five years old.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                >
-                  At 20 - 30 months of age, females leave their litter-mates to find suitable mates and start their own families. They raise their families on their own without the help of the male.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                >
-                  Males usually do not breed until they are 4 to 5 years of age, and dominant in a territory. They live alone or brothers farm permanent groups called "coalitions". These groups stay together for life, claim territories, hunt and find mates together.
-                </p>
+                  <div
+                    className="ImageViewCore"
+                  >
+                    <img
+                      alt="A coalition of cheetahs on the lookout."
+                      className="ImageViewImg"
+                      src="cheetah_coalition.jpg"
+                      style={
+                        Object {
+                          "height": undefined,
+                          "width": 510,
+                        }
+                      }
+                    />
+                    <div
+                      data-testid="ImageViewComponentCaptionPart"
+                    >
+                      <div
+                        className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                        data-testid="CaptionComponentTestId"
+                        style={
+                          Object {
+                            "width": 510,
+                          }
+                        }
+                      >
+                        <div
+                          className="IconContainer IconContainer_DebugColor DebugWireframe"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
+                        </div>
+                        <p
+                          className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                        >
+                          A coalition of cheetahs on the lookout.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
