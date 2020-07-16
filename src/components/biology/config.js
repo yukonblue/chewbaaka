@@ -14,7 +14,7 @@ export const config = {
     subtitle: "Subtitle TBD ...",
     pageMenuItems: [
       "Lifecycle",
-      "Anatomy",
+      "Physiology",
     ],
   },
   contentPageSections: {
