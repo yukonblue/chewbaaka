@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 16, 2020
  */
 
 import React from 'react';
@@ -15,7 +15,6 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 
 import ImageView from '../shared/ImageView'
 
-import image_baby_cheetah from './assets/baby_cheetahs.jpg'
 import image_cheetah_mom_carry_cub from './assets/cheetah_mom_carry_cub.jpg'
 
 import {
@@ -50,18 +49,9 @@ export default class BiologyPageSubsectionLifecycleStage1 extends React.Componen
         <div className="FloatRight">
           <ImageView
             image={image_cheetah_mom_carry_cub}
-            caption="Cheetah mom carries her cub with her jaw."
-            width={320}
-            height={480}
-          />
-        </div>
-
-        <div className="FloatRight">
-          <ImageView
-            image={image_baby_cheetah}
             caption="Cheetah cubs are born blind, so they need their mother's care."
             width={320}
-            height={241}
+            height={480}
           />
         </div>
 
