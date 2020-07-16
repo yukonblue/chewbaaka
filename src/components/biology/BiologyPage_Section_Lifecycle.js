@@ -14,6 +14,7 @@ import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate';
 import BiologyPageSubsectionLifecycleStage1 from './BiologyPage_Subsection_Lifecycle_Stage_1'
 import BiologyPageSubsectionLifecycleStage2 from './BiologyPage_Subsection_Lifecycle_Stage_2'
 import BiologyPageSubsectionLifecycleStage3 from './BiologyPage_Subsection_Lifecycle_Stage_3'
+import BiologyPageSubsectionLifecycleStage4 from './BiologyPage_Subsection_Lifecycle_Stage_4'
 
 export default class BiologyPageSectionLifecyle extends React.Component {
 
@@ -49,6 +50,10 @@ export default class BiologyPageSectionLifecyle extends React.Component {
         />
 
         <BiologyPageSubsectionLifecycleStage3
+          sectionConfig={this.state.sectionConfig}
+        />
+
+        <BiologyPageSubsectionLifecycleStage4
           sectionConfig={this.state.sectionConfig}
         />
       </div>

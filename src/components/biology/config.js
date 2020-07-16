@@ -81,6 +81,21 @@ export const config = {
               "sight to find prey. They spend most of the day resting under shady trees or on " +
               "termite mounds. Night hunting is only done during a bright moon."
           }
+        },
+        subsection_Lifecycle_Stage_4: {
+          title: "Stage 4",
+          contents: {
+            paragraph_Lifecycle_Stage_4_01:
+              "In Stage 4, cheetahs become sexually mature. Although they are mature at 16 to 18 months, " +
+              "most do not breed until they are three to five years old.",
+            paragraph_Lifecycle_Stage_4_02:
+              "At 20 - 30 months of age, females leave their litter-mates to find suitable mates " +
+              "and start their own families. They raise their families on their own without the help of the male.",
+            paragraph_Lifecycle_Stage_4_03:
+              "Males usually do not breed until they are 4 to 5 years of age, and dominant in a territory. "+
+              'They live alone or brothers farm permanent groups called "coalitions". '+
+              "These groups stay together for life, claim territories, hunt and find mates together."
+          }
         }
       },
     },
