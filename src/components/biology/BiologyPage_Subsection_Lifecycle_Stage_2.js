@@ -18,6 +18,8 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
+import MediaLinkButton from '../shared/MediaLinkButton'
+
 export default class BiologyPageSubsectionLifecycleStage2 extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_Lifecycle_Stage_2";
@@ -44,6 +46,11 @@ export default class BiologyPageSubsectionLifecycleStage2 extends React.Componen
     return (
       <div className="">
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
+
+        <MediaLinkButton
+          href="https://www.youtube.com/watch?v=Wjtb7XMZlgY"
+          title="Cheetah Mom Teaches Cubs to Hunt | YouTube"
+        />
       </div>
     );
   }
