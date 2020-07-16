@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 16, 2020
  */
 
 export const config = {
@@ -22,6 +22,18 @@ export const config = {
         tocImageFilename: "biology_page_toc_menu_img_02.jpg"
       }
     ],
+  },
+  contentPageIntro: {
+    title: "Cheetah Biology",
+    content: "The evolution and history of the cheetah are just as remarkable and " +
+          "interesting as the species itself. Its evolution goes back to nearly " +
+          "7 million years ago in time and spanned almost all the continents on the planet, " +
+          "and its history with human interactions goes as far back as to 32000 BCE. " +
+          "The cheetah have been a symbol of significant meaning in different civilizations and " +
+          "cultures across thousands of years of human history. Even up to this day, " +
+          "the cheetah continues to be considered as a spiritual animal that manifests " +
+          "as a symbol of a multitude of positive characteristics, such as adaptability, " +
+          "persistence, and focus."
   },
   contentPageSections: {
     section_Lifecycle: {

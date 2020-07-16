@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 16, 2020
  */
 
 import React from 'react';
@@ -15,6 +15,7 @@ import ContentPageSkeleton from '../shared/ContentPageSkeleton'
 
 import ContentPageTableOfContentMenuBootstrapper from '../shared/ContentPageTableOfContentMenuBootstrapper'
 
+import BiologyPageIntroSection from './BiologyPageIntroSection'
 import BiologyPageSectionLifecyle from './BiologyPage_Section_Lifecycle'
 
 import { config }  from './config'
@@ -41,6 +42,10 @@ export default class FuturePage extends React.Component {
         <ContentPageTableOfContentMenuBootstrapper
           pageMenuItems={config.pageProps.pageMenuItems}
           imagesContext = {() => (require.context("./assets/menu", true))}
+        />
+
+        <BiologyPageIntroSection
+          contentPageIntro={config.contentPageIntro}
         />
 
         <BiologyPageSectionLifecyle config={config} />
