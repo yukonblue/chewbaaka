@@ -2,7 +2,7 @@
 
 exports[`BiologyPageLifecycleDiagram component snapshot 1`] = `
 <div
-  className="BiologyPageLifecycleDiagramOuterContainer"
+  className="BiologyPageLifecycleDiagramOuterContainer BiologyPageLifecycleDiagramOuterContainer_DebugColor DebugWireframe"
 >
   <h3
     className="ContentPageSubsectionTitle TextCentered"
