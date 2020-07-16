@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 14, 2020
+ * Updated  : Jul 15, 2020
  */
 
 import React from 'react';
@@ -84,7 +84,7 @@ export default class ContentPageSkeleton extends React.Component {
               <div hidden={!this.state.isMenuActive}>
                 <ContentPageSideNavMenu
                   title={this.props.pageProps.title}
-                  items={this.props.pageProps.pageMenuItems}
+                  items={this.props.pageProps.pageMenuItems.map(pageMenuItem => (pageMenuItem.title))}
                 />
               </div>
             </Sticky>

@@ -13,8 +13,14 @@ export const config = {
     title: "Biology",
     subtitle: "Subtitle TBD ...",
     pageMenuItems: [
-      "Lifecycle",
-      "Physiology",
+      {
+        title: "Lifecycle",
+        tocImageFilename: ""
+      },
+      {
+        title: "Physiology",
+        tocImageFilename: ""
+      }
     ],
   },
   contentPageSections: {

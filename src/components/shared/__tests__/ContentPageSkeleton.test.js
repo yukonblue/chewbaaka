@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 06, 2020
+ * Updated  : Jul 15, 2020
  */
 
 import React from 'react';
@@ -18,7 +18,14 @@ test('renders ContentPageSkeleton component', () => {
     coverImage: "",
     title: "Title",
     subtitle: "This is a subtitle",
-    pageMenuItems: ["Menu Item 1", "Menu Item 2"]
+    pageMenuItems: [
+      {
+        title: "Menu Item 1"
+      },
+      {
+        title: "Menu Item 2"
+      }
+    ]
   };
 
   render(<ContentPageSkeleton pageProps={pageProps}/>);
