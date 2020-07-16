@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Jul 14, 2020
+ * Updated  : Jul 15, 2020
  */
 
 export const config = {
@@ -13,8 +13,14 @@ export const config = {
     title: "Future",
     subtitle: "Subtitle TBD ...",
     pageMenuItems: [
-      "Cheetah Ambassadors",
-      "Conservation",
+      {
+        title: "Cheetah Ambassadors",
+        tocImageFilename: ""
+      },
+      {
+        title: "Conservation",
+        tocImageFilename: ""
+      }
     ],
   },
   contentPageSections: {

@@ -13,9 +13,18 @@ export const config = {
     title: "History",
     subtitle: "Learn about the evolution and migration of the species, its relationship with man throughout history, and its population and ranges.",
     pageMenuItems: [
-      "Evolution",
-      "Cheetah and Man",
-      "Range and Population"
+      {
+        title: "Evolution",
+        tocImageFilename: "history_page_toc_menu_img_01.jpg"
+      },
+      {
+        title: "Cheetah and Man",
+        tocImageFilename: "history_page_toc_menu_img_02.jpg"
+      },
+      {
+        title: "Range and Population",
+        tocImageFilename: "history_page_toc_menu_img_03.jpg"
+      }
     ],
   },
   contentPageIntro: {

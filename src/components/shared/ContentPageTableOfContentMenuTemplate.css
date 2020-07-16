@@ -4,10 +4,26 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 15, 2020
  */
 
- div.ContentPageTableOfContentMenuTemplateInnerContainer {
+div.ContentPageTableOfContentMenuTemplateOuterContainer {
+  margin: 0 auto;
+  display: inline-block;
+  width: 100%;
+  /**
+   * NOTE:
+   * This is to make the entire div bleed into the banner image above.
+   * Adjust for appropriate look and feel accordingly.
+   */
+  transform: translateY(-40%);
+}
+
+div.ContentPageTableOfContentMenuTemplateOuterContainer_DebugColor {
+  background-color: greenyellow;
+}
+
+div.ContentPageTableOfContentMenuTemplateInnerContainer {
   width: 800px;
   margin: 0 auto;  
 }
