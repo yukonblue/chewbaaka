@@ -11,6 +11,7 @@ import React from 'react';
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate';
 
+import BiologyPageLifecycleDiagram from './BiologyPageLifecycleDiagram'
 import BiologyPageSubsectionLifecycleStage1 from './BiologyPage_Subsection_Lifecycle_Stage_1'
 import BiologyPageSubsectionLifecycleStage2 from './BiologyPage_Subsection_Lifecycle_Stage_2'
 import BiologyPageSubsectionLifecycleStage3 from './BiologyPage_Subsection_Lifecycle_Stage_3'
@@ -41,6 +42,8 @@ export default class BiologyPageSectionLifecyle extends React.Component {
   renderContent() {
     return (
       <div>
+        <BiologyPageLifecycleDiagram />
+
         <BiologyPageSubsectionLifecycleStage1
           sectionConfig={this.state.sectionConfig}
         />

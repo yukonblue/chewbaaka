@@ -1,0 +1,25 @@
+/**
+ * BiologyPageLifecycleDiagram.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 16, 2020
+ * Updated  : Jul 16, 2020
+ */
+
+div.BiologyPageLifecycleDiagramOuterContainer {
+  margin: 0 auto;
+  width: 640px;
+}
+
+div.BiologyPageLifecycleDiagramOuterContainer_DebugColor {
+  background-color: peachpuff;
+}
+
+p.BiologyPageLifecycleDiagramSubtitle {
+  font-size: 24px;
+}
+
+p.BiologyPageLifecycleDiagramContentText {
+  font-size: 18px;
+}
