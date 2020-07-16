@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 15, 2020
  */
 
 import React from 'react';
@@ -38,12 +38,14 @@ function ContentPageTableOfContentMenuTemplate(props) {
   }
 
   return (
-    <div className={getElementStyleClassName("ContentPageTableOfContentMenuTemplateInnerContainer")}>
-      <Grid columns={3}>
-        <Grid.Row>
-          {gridColumns}
-        </Grid.Row>
-      </Grid>
+    <div className={getElementStyleClassName("ContentPageTableOfContentMenuTemplateOuterContainer")}>
+      <div className={getElementStyleClassName("ContentPageTableOfContentMenuTemplateInnerContainer")}>
+        <Grid columns={3}>
+          <Grid.Row>
+            {gridColumns}
+          </Grid.Row>
+        </Grid>
+      </div>
     </div>
   );
 }
