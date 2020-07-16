@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 16, 2020
  */
 
 import React from 'react';
@@ -17,6 +17,8 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import image_fact_banner_what_is_diurnal from '../shared/assets/Fact_Banners/What_is_Diurnal_640x320.png'
 
 export default class BiologyPageSubsectionLifecycleStage3 extends React.Component {
 
@@ -44,6 +46,10 @@ export default class BiologyPageSubsectionLifecycleStage3 extends React.Componen
     return (
       <div className="">
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
+
+        <div className="FactBannerDimension Centered">
+          <img src={image_fact_banner_what_is_diurnal} alt="" />
+        </div>
       </div>
     );
   }
