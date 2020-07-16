@@ -13,11 +13,13 @@ import '../shared/ContentPageSharedStyles.css'
 
 import './BiologyPageLifecycleDiagram.css'
 
+import { getElementStyleClassName } from '../../styling/styling'
+
 import image_lifecycle_diagram from './assets/Lifecycle_Diagram_640x675.png'
 
 export default function BiologyPageLifecycleDiagram() {
   return (
-    <div className="BiologyPageLifecycleDiagramOuterContainer">
+    <div className={getElementStyleClassName("BiologyPageLifecycleDiagramOuterContainer")}>
       <h3 className="ContentPageSubsectionTitle TextCentered">The Cycle of Life</h3>
       <p className="BiologyPageLifecycleDiagramSubtitle TextCentered">There are four stages in the lifecycle of the cheetah.</p>
       <p className="BiologyPageLifecycleDiagramContentText TextCentered">
