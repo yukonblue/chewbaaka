@@ -4,19 +4,22 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 16, 2020
  */
 
 import React from 'react';
 
 import '../shared/ContentPageSharedStyles.css'
 
-// import { getElementStyleClassName } from '../../styling/styling'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import ImageView from '../shared/ImageView'
+
+import image_cheetah_coalition from './assets/cheetah_coalition.jpg'
 
 export default class BiologyPageSubsectionLifecycleStage4 extends React.Component {
 
@@ -31,19 +34,23 @@ export default class BiologyPageSubsectionLifecycleStage4 extends React.Componen
 
   render() {
     return (
-      <div className="">
-        <ContentPageSubsectionTemplate
-          title={this.state.subsectionConfig.title}
-          content={this.renderContent()}
-        />
-      </div>
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
     )
   }
 
   renderContent() {
     return (
-      <div className="">
+      <div>
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
+
+        <ImageView
+          image={image_cheetah_coalition}
+          width={510}
+          caption="A coalition of cheetahs on the lookout."
+        />
       </div>
     );
   }
