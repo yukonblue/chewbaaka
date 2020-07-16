@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder snapshot 1`] = `
+<div>
+  <p
+    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+  >
+    Hello, World!
+  </p>
+  <p
+    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+  >
+    Cheetahs are such amazing animals!
+  </p>
+  <p
+    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+  >
+    We need to do our best to save them.
+  </p>
+</div>
+`;
+
+exports[`ContentPageSubsectionParagraphsContentBinder snapshot 1`] = `
+<div>
+  <p
+    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+  >
+    Hello, World!
+  </p>
+  <p
+    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+  >
+    Cheetahs are such amazing animals!
+  </p>
+  <p
+    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+  >
+    We need to do our best to save them.
+  </p>
+</div>
+`;

@@ -1,10 +1,10 @@
 /**
- * ContentPageSubsectionColumnDataBinder.js
+ * ContentPageSubsectionContentBinder.js
  * Chewbaaka
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 14, 2020
+ * Updated  : Jul 15, 2020
  */
 
 import React from 'react';
@@ -21,22 +21,22 @@ function ContentPageSubsectionColumnDataBinder(columnData, columnContentBinder) 
   };
 }
 
-const ContentPageSubsectionColumnParagraphsContentBinder = (columnDataContent) => (
-  Object.keys(columnDataContent).map(
+const ContentPageSubsectionParagraphsContentBinder = (paragraphContents) => (
+  Object.keys(paragraphContents).map(
     (key, idx) => (
       <ContentPageParagraph key={idx}>
-        {columnDataContent[key]}
+        {paragraphContents[key]}
       </ContentPageParagraph>
     )
   )
 );
 
-const ContentPageSubsectionColumnDataBinderWithParagraphBinder = (columnData) => (
-  ContentPageSubsectionColumnDataBinder(columnData, ContentPageSubsectionColumnParagraphsContentBinder)
+const ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder = (columnData) => (
+  ContentPageSubsectionColumnDataBinder(columnData, ContentPageSubsectionParagraphsContentBinder)
 );
 
 export {
   ContentPageSubsectionColumnDataBinder,
-  ContentPageSubsectionColumnParagraphsContentBinder,
-  ContentPageSubsectionColumnDataBinderWithParagraphBinder
+  ContentPageSubsectionParagraphsContentBinder,
+  ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder
 }

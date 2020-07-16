@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 14, 2020
+ * Updated  : Jul 15, 2020
  */
 
 import React from 'react';
@@ -17,8 +17,8 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 
 import {
-  ContentPageSubsectionColumnParagraphsContentBinder
-} from '../shared/ContentPageSubsectionColumnDataBinder'
+  ContentPageSubsectionParagraphsContentBinder
+} from '../shared/ContentPageSubsectionContentBinder'
 
 import ImageSlidingGallery from '../shared/ImageSlidingGallery'
 import FlexibleContainer from '../shared/FlexibleContainer'
@@ -82,7 +82,7 @@ export default class HistoryPageSubsectionCheetahsInSports extends React.Compone
     return (
       <div>
         <FlexibleContainer>
-          {ContentPageSubsectionColumnParagraphsContentBinder(this.state.subsectionConfig.contents)}
+          {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
         </FlexibleContainer>
       </div>
     );

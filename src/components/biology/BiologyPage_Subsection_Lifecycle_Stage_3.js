@@ -15,8 +15,8 @@ import '../shared/ContentPageSharedStyles.css'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
 import {
-  ContentPageSubsectionColumnParagraphsContentBinder
-} from '../shared/ContentPageSubsectionColumnDataBinder'
+  ContentPageSubsectionParagraphsContentBinder
+} from '../shared/ContentPageSubsectionContentBinder'
 
 export default class BiologyPageSubsectionLifecycleStage3 extends React.Component {
 
@@ -43,7 +43,7 @@ export default class BiologyPageSubsectionLifecycleStage3 extends React.Componen
   renderContent() {
     return (
       <div className="">
-        {ContentPageSubsectionColumnParagraphsContentBinder(this.state.subsectionConfig.contents)}
+        {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
       </div>
     );
   }

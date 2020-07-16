@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 14, 2020
+ * Updated  : Jul 15, 2020
  */
 
 import React from 'react';
@@ -22,7 +22,9 @@ import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPa
 
 import HistoryPageCheetahPopulationIllustration from './HistoryPageCheetahPopulationIllustration'
 
-import { ContentPageSubsectionColumnDataBinderWithParagraphBinder } from '../shared/ContentPageSubsectionColumnDataBinder'
+import {
+  ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder
+} from '../shared/ContentPageSubsectionContentBinder'
 
 import { getElementStyleClassName } from '../../styling/styling'
 
@@ -69,7 +71,7 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
 
         <ContentPageSubsectionThreeColumnContentTemplate
           lhsColumn={
-            ContentPageSubsectionColumnDataBinderWithParagraphBinder(
+            ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder(
               this.state.subsectionConfig.contents[HistoryPageSubsectionRoadToExtinction._COLUMN_DATA_NAME_LHS_]
             )
           }
@@ -79,7 +81,7 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
           }}
 
           rhsColumn={
-            ContentPageSubsectionColumnDataBinderWithParagraphBinder(
+            ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder(
               this.state.subsectionConfig.contents[HistoryPageSubsectionRoadToExtinction._COLUMN_DATA_NAME_RHS_]
             )
           }
