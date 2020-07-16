@@ -154,3 +154,7 @@ p.ContentPageContentParagraphText {
 span.TaxonomyBinomialName {
   font-style: italic;
 }
+
+.TextCentered {
+  text-align: center;
+}

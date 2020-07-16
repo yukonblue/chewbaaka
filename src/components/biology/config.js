@@ -39,7 +39,7 @@ export const config = {
     section_Lifecycle: {
       intro: {
         title: "Lifecycle",
-        content: "Content TBD ..."
+        content: "A cheetah goes through 4 stages of life in its life."
       },
       subsections: {
         subsection_Lifecycle_Stage_1: {
