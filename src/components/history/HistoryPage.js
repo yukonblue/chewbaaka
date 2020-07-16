@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 14, 2020
+ * Updated  : Jul 15, 2020
  */
 
 import React from 'react';
@@ -14,8 +14,6 @@ import "semantic-ui-css/semantic.min.css";
 import ContentPageSkeleton from '../shared/ContentPageSkeleton'
 
 import { config }  from './config'
-
-// import HistoryPageSectionTableOfContent from './HistoryPageSectionTableOfContent'
 
 import ContentPageTableOfContentMenuBootstrapper from '../shared/ContentPageTableOfContentMenuBootstrapper'
 
