@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 09, 2020
- * Updated  : Jul 14, 2020
+ * Updated  : Jul 15, 2020
  */
 
 /**
@@ -16,6 +16,8 @@
  * Props
  *
  *  - `caption`: The caption text.
+ *
+ *  - `width` (optional): Optional width of the caption text block in pixels.
  */
 
 import React from 'react';
@@ -34,8 +36,13 @@ import './ContentPageSharedStyles.css'
 import './Caption.css'
 
 export default function Caption(props) {
+  const containerDimensionStyle = {
+    width: props.width,
+  };
+
   return (
     <div
+      style={containerDimensionStyle}
       className={getElementStyleClassName("CaptionContainer")}
       data-testid="CaptionComponentTestId"
     >

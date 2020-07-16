@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 15, 2020
  */
 
 /**
@@ -47,7 +47,7 @@ function ImageView(props) {
             style={imagePartDimensionStyle}
           />
           <div data-testid="ImageViewComponentCaptionPart">
-            <Caption caption={props.caption} />
+            <Caption caption={props.caption} width={props.width} />
           </div>
         </div>
       </div>

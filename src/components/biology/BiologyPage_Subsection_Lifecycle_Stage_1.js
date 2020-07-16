@@ -11,12 +11,18 @@ import React from 'react';
 
 import '../shared/ContentPageSharedStyles.css'
 
-// import { getElementStyleClassName } from '../../styling/styling'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+
+import ImageView from '../shared/ImageView'
+
+import image_baby_cheetah from './assets/baby_cheetahs.jpg'
+import image_cheetah_mom_carry_cub from './assets/cheetah_mom_carry_cub.jpg'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import './BiologyPage_Subsection_Lifecycle_Stage_1.css'
 
 export default class BiologyPageSubsectionLifecycleStage1 extends React.Component {
 
@@ -42,7 +48,25 @@ export default class BiologyPageSubsectionLifecycleStage1 extends React.Componen
 
   renderContent() {
     return (
-      <div className="">
+      <div className="OverflowHidden">
+        <div className="FloatRight">
+          <ImageView
+            image={image_cheetah_mom_carry_cub}
+            caption="Cheetah mom carries her cub with her jaw."
+            width={320}
+            height={480}
+          />
+        </div>
+
+        <div className="FloatRight">
+          <ImageView
+            image={image_baby_cheetah}
+            caption="Cheetah cubs are born blind, so they need their mother's care."
+            width={320}
+            height={241}
+          />
+        </div>
+
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
       </div>
     );

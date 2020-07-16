@@ -67,8 +67,118 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                 Stage 1
               </h3>
               <div
-                className=""
+                className="OverflowHidden"
               >
+                <div
+                  className="FloatRight"
+                >
+                  <div
+                    className="ImageViewOuterContainer"
+                  >
+                    <div
+                      className="ImageViewInnerContainer"
+                    >
+                      <div
+                        className="ImageViewCore"
+                      >
+                        <img
+                          alt="Cheetah mom carries her cub with her jaw."
+                          className="ImageViewImg"
+                          src="cheetah_mom_carry_cub.jpg"
+                          style={
+                            Object {
+                              "height": 480,
+                              "width": 320,
+                            }
+                          }
+                        />
+                        <div
+                          data-testid="ImageViewComponentCaptionPart"
+                        >
+                          <div
+                            className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                            data-testid="CaptionComponentTestId"
+                            style={
+                              Object {
+                                "width": 320,
+                              }
+                            }
+                          >
+                            <div
+                              className="IconContainer IconContainer_DebugColor DebugWireframe"
+                            >
+                              <i
+                                aria-hidden="true"
+                                className="image icon"
+                                onClick={[Function]}
+                              />
+                            </div>
+                            <p
+                              className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                            >
+                              Cheetah mom carries her cub with her jaw.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="FloatRight"
+                >
+                  <div
+                    className="ImageViewOuterContainer"
+                  >
+                    <div
+                      className="ImageViewInnerContainer"
+                    >
+                      <div
+                        className="ImageViewCore"
+                      >
+                        <img
+                          alt="Cheetah cubs are born blind, so they need their mother's care."
+                          className="ImageViewImg"
+                          src="baby_cheetahs.jpg"
+                          style={
+                            Object {
+                              "height": 241,
+                              "width": 320,
+                            }
+                          }
+                        />
+                        <div
+                          data-testid="ImageViewComponentCaptionPart"
+                        >
+                          <div
+                            className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                            data-testid="CaptionComponentTestId"
+                            style={
+                              Object {
+                                "width": 320,
+                              }
+                            }
+                          >
+                            <div
+                              className="IconContainer IconContainer_DebugColor DebugWireframe"
+                            >
+                              <i
+                                aria-hidden="true"
+                                className="image icon"
+                                onClick={[Function]}
+                              />
+                            </div>
+                            <p
+                              className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                            >
+                              Cheetah cubs are born blind, so they need their mother's care.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <p
                   className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
                 >

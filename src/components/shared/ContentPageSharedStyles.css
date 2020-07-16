@@ -24,6 +24,20 @@ div.ContentPageContentInnerContentDimension {
   width: 85%;
 }
 
+/** ------------------------- CONTAINER AUXILLARY -------------------------- **/
+
+div.OverflowHidden {
+  overflow: hidden;
+}
+
+div.FloatLeft {
+  float: left;
+}
+
+div.FloatRight {
+  float: right;
+}
+
 /** ------------------------------- TEXT ----------------------------------- **/
 
 h1.ContentPageIntroSectionTemplateTitle {
