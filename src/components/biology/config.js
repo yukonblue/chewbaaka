@@ -114,6 +114,39 @@ export const config = {
               'They live alone or brothers farm permanent groups called "coalitions". '+
               "These groups stay together for life, claim territories, hunt and find mates together."
           }
+        },
+        subsection_LivingFastDyingYoung: {
+          title: "Living Fast - Dying Young",
+          contents: {
+            part1: {
+              title: "Male coalitions",
+              contents: {
+                paragraph_01:
+                  "A coalition consists of a male siblings of the same litter or young unrelated " +
+                  "males that have joined together. A hierarchy develops among the males within a coalition.",
+                paragraph_02:
+                  "Young males are usually chased away from their birth range by dominant breeding males. " +
+                  "They may establish home ranges more than 100 km away. A coalition is more successful in acquiring " +
+                  "and holding territories and in defending kills than single males. " +
+                  "This competition can result in mortality among males."
+              }
+            },
+            part2: {
+              title: "Mortality",
+              contents: {
+                paragraph_01:
+                  "The cheetah’s lifespan is poorly documented in the wild. A radio collared cheetah lived to be " +
+                  "almost 7 years of age in Tanzania’s Serengeti National Park and once of CCF’s radio collared " +
+                  "cheetahs in Namibia lived for over 10 years.",
+                paragraph_02:
+                  "Adult mortality is one of the most significant limiting factors for cheetah population growth and survival. " +
+                  "Poaching, competition with large predators and farmers, and loss of habitat and prey are factors " +
+                  "attributing to early death.",
+                paragraph_03:
+                  "Though cub deaths are high, cheetahs have evolved to reproduce rapidly in response to this mortality."
+              }
+            }
+          }
         }
       },
     },

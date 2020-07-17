@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 17, 2020
  */
 
 import React from 'react';
@@ -16,6 +16,7 @@ import BiologyPageSubsectionLifecycleStage1 from './BiologyPage_Subsection_Lifec
 import BiologyPageSubsectionLifecycleStage2 from './BiologyPage_Subsection_Lifecycle_Stage_2'
 import BiologyPageSubsectionLifecycleStage3 from './BiologyPage_Subsection_Lifecycle_Stage_3'
 import BiologyPageSubsectionLifecycleStage4 from './BiologyPage_Subsection_Lifecycle_Stage_4'
+import BiologyPageSubsectionLivingFastDyingYoung from './BiologyPage_Subsection_LivingFastDyingYoung'
 
 export default class BiologyPageSectionLifecyle extends React.Component {
 
@@ -57,6 +58,10 @@ export default class BiologyPageSectionLifecyle extends React.Component {
         />
 
         <BiologyPageSubsectionLifecycleStage4
+          sectionConfig={this.state.sectionConfig}
+        />
+
+        <BiologyPageSubsectionLivingFastDyingYoung
           sectionConfig={this.state.sectionConfig}
         />
       </div>
