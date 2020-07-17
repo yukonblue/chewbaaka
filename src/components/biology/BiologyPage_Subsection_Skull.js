@@ -13,6 +13,10 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
+import {
+  ContentPageSubsectionParagraphsContentBinder
+} from '../shared/ContentPageSubsectionContentBinder'
+
 import CheetahSkullDiagram from './CheetahSkullDiagram'
 
 export default class BiologyPageSubsectionSkull extends React.Component {
@@ -40,7 +44,7 @@ export default class BiologyPageSubsectionSkull extends React.Component {
   renderContent() {
     return (
       <div className="">
-        TBD something about skull ...
+        {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
 
         <CheetahSkullDiagram />
       </div>

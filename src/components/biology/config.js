@@ -130,7 +130,19 @@ export const config = {
           title: "Feet and Claws"
         },
         subsection_Skull: {
-          title: "Skull"
+          title: "Skull",
+          contents: {
+            paragraph_Skull_01:
+              "All predators have specialized features for catching and kill prey. " +
+              "Predators have large forward facing eye sockets, and large ear cavities " +
+              "that provides space for specialized senses. Although there are differences " +
+              "in skull proportions, carnivore skulls are quite similar.",
+            paragraph_Skull_02:
+              "The cat skulls are different from other carnivore species, as they have a " +
+              "flat nose and enlarge nasal cavity. There is a large area for the strong jaw muscles.",
+            paragraph_Skull_03:
+              "The cheetah has some features that are distinct when compared to the skulls of other cats."
+          }
         },
         subsection_HearAndLung: {
           title: "Heart and Lung"
