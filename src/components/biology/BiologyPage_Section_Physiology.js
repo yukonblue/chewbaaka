@@ -12,8 +12,9 @@ import React from 'react'
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
 import BiologyPageSubsectionAnatomy from './BiologyPage_Subsection_Anatomy'
-import BiologyPageSubsectionFeetAndClaws from './BiologyPage_Subsection_FeetAndClaws'
 import BiologyPageSubsectionSkull from './BiologyPage_Subsection_Skull'
+import BiologyPageSubsectionFeetAndClaws from './BiologyPage_Subsection_FeetAndClaws'
+import BiologyPageSubsectionHearAndLung from './BiologyPage_Subsection_HeartAndLung'
 
 export default class BiologyPageSectionPhysiology extends React.Component {
 
@@ -49,6 +50,10 @@ export default class BiologyPageSectionPhysiology extends React.Component {
         />
 
         <BiologyPageSubsectionFeetAndClaws
+          sectionConfig={this.state.sectionConfig}
+        />
+
+        <BiologyPageSubsectionHearAndLung
           sectionConfig={this.state.sectionConfig}
         />
       </div>
