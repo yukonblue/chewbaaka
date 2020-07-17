@@ -147,6 +147,32 @@ export const config = {
               }
             }
           }
+        },
+        subsection_FindingMate: {
+          title: "Finding a Mate",
+          contents: {
+            paragraph_FindingMate_01:
+              "The range of a female offspring may partially overlap that of her mother. " +
+              "Namibian cheetahs are more social than those reported in other countries. " +
+              "Females are often seen with multiple adults and cubs of varying ages.",
+            paragraph_FindingMate_02:
+              "Female cheetahs are polyoestrous, which means there is no regular breeding season. " +
+              "If not bred, females come into heat (estrus) several times a year. Estrus means they are ready to breed. " +
+              "If cubs are lost to predators females soon come into estrus again.",
+            paragraph_FindingMate_03:
+              "Smell, sound, and behavioral stimuli attract males to females. Female cheetahs leave a scent trail " +
+              "by releasing sex hormones in urine and feces. They mark trees and bushes. " +
+              "This behavior increases during courtship.",
+            paragraph_FindingMate_04:
+              "When courtship takes place, males will follow females closely and mock fighting may be observed.",
+            paragraph_FindingMate_05:
+              "When a female is ready to mate, she adopts a receptive posture. The male mounts the female, " +
+              "bites the back of her neck, and breeding takes place. When the male dismounts the female she " +
+              "rolls over on her back and swats at him.",
+            paragraph_FindingMate_06:
+              "Mating will take place for one to several days and ends when the make loses interest in the female and leaves. " +
+              "Males do not help raise the cubs."
+          }
         }
       },
     },
