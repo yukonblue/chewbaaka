@@ -134,6 +134,9 @@ export const config = {
         },
         subsection_HearAndLung: {
           title: "Heart and Lung"
+        },
+        subsection_BodyAndBone: {
+          title: "Body and Bone"
         }
       }
     },
