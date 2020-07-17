@@ -51,7 +51,7 @@ export default class CheetahSkeletalAnatomyDiagram extends React.Component {
       }
     },
     {
-      tite: "Legs",
+      title: "Legs",
       content: "Long slender bones increases stride yet can take high-speed impact. " +
               "The way muscles connect to bones at each joint lets the cat quickly kick into high gear.",
       position: {
