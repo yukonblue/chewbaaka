@@ -17,6 +17,10 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
+import image_open_wide from './assets/open_wide.jpg'
+import image_cheetah_grooming from './assets/cheetah_grooming.jpg'
+import image_cheetah_tongue from './assets/cheetah_tongue.jpg'
+
 export default class BiologyPageSubsectionOpenWide extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_OpenWide";
@@ -41,8 +45,27 @@ export default class BiologyPageSubsectionOpenWide extends React.Component {
 
   renderContent() {
     return (
-      <div className="">
-        {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
+      <div>
+        <div className="OverflowHidden">
+          <div className="FloatRight">
+            <img src={image_open_wide} alt="" width={320} height={320} />  
+          </div>
+          {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents.part1)}
+        </div>
+
+        <div className="OverflowHidden">
+          <div className="FloatLeft">
+            <img src={image_cheetah_tongue} alt="Papillae on cheetah's tongue" />  
+          </div>
+          {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents.part2)}
+        </div>
+
+        <div className="OverflowHidden">
+          <div className="FloatRight">
+            <img src={image_cheetah_grooming} alt="Cheetah grooming" />
+          </div>
+          {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents.part3)}
+        </div>
       </div>
     );
   }

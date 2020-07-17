@@ -153,22 +153,28 @@ export const config = {
         subsection_OpenWide: {
           title: "Open Wide",
           contents: {
-            paragraph_OpenWide_01:
-              "The cheetah takes smaller prey than other similar sized cats. Their strong jaws " +
-              "lock around the throat of the prey in what is called the “strangulation hold”, "+
-              "which can last up to 20 minutes.",
-            paragraph_OpenWide_02:
-              "Cheetahs’ jaws are not as powerful as that of lions or leopards. Cheetahs have " +
-              "comparatively shorted canine teeth. In all cats, powerful muscles move the jaw up " +
-              "and down and provide vice-like strength for gripping prey.",
-            paragraph_OpenWide_03:
-              "The tongue is adopted for licking and is covered with small hard spines called papillae." +
-              "The papillae act like a rasp, removing the meat from the bones of the prey." +
-              "Rough tongue feels similar to the texture of sandpaper.",
-            paragraph_OpenWide_04:
-              "Keeping the fur clean is an important part of a cheetah’s life. Family members spend " +
-              "many hours grooming each other with their tongues. This behavior aids in the social " +
-              "bonding of a cheetah group."
+            part1: {
+              paragraph_OpenWide_01:
+                "The cheetah takes smaller prey than other similar sized cats. Their strong jaws " +
+                "lock around the throat of the prey in what is called the “strangulation hold”, "+
+                "which can last up to 20 minutes.",
+              paragraph_OpenWide_02:
+                "Cheetahs’ jaws are not as powerful as that of lions or leopards. Cheetahs have " +
+                "comparatively shorted canine teeth. In all cats, powerful muscles move the jaw up " +
+                "and down and provide vice-like strength for gripping prey.",
+            },
+            part2: {
+              paragraph_OpenWide_03:
+                "The tongue is adopted for licking and is covered with small hard spines called papillae. " +
+                "The papillae act like a rasp, removing the meat from the bones of the prey." +
+                "Rough tongue feels similar to the texture of sandpaper.",
+            },
+            part3: {
+              paragraph_OpenWide_04:
+                "Keeping the fur clean is an important part of a cheetah’s life. Family members spend " +
+                "many hours grooming each other with their tongues. This behavior aids in the social " +
+                "bonding of a cheetah group."
+            }
           }
         }
       }
