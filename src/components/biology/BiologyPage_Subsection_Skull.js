@@ -13,6 +13,8 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
+import CheetahSkullDiagram from './CheetahSkullDiagram'
+
 export default class BiologyPageSubsectionSkull extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_Skull";
@@ -39,6 +41,8 @@ export default class BiologyPageSubsectionSkull extends React.Component {
     return (
       <div className="">
         TBD something about skull ...
+
+        <CheetahSkullDiagram />
       </div>
     );
   }
