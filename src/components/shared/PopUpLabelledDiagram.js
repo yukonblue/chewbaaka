@@ -17,6 +17,15 @@ import './PopUpLabelledDiagram.css'
 
 export default class PopUpLabelledDiagram extends React.Component {
 
+  static renderPopUpItemTriggerContent = (item) => ((
+    <div>
+      <h4 className={getElementStyleClassName("PopUpLabelledDiagramPopUpItemTitle")}>
+        {item.title}
+      </h4>
+      <p>{item.content}</p>
+    </div>
+  ));
+
   render() {
     const componentDimensionStyle = {
       width: this.props.width,
@@ -24,7 +33,7 @@ export default class PopUpLabelledDiagram extends React.Component {
       backgroundImage: `url(${this.props.image})`,
     };
 
-    const popups = this.props.items.map(this.renderPopUp);
+    const popups = this.props.items.map(this.renderPopUpItem);
 
     return (
       <div
@@ -38,15 +47,17 @@ export default class PopUpLabelledDiagram extends React.Component {
     );
   }
 
-  renderPopUp(item) {
-    const popUpContainerPositionStyle = item.position;
-
+  renderPopUpItem(item, idx) {
     return (
-      <div style={popUpContainerPositionStyle} className={getElementStyleClassName("PopUpLabelledDiagramPopUpItemComponent")}>
+      <div
+        key={idx}
+        style={item.position}
+        className={getElementStyleClassName("PopUpLabelledDiagramPopUpItemComponent")}
+      >
         <Popup
           size="large"
           trigger={<Button icon="plus" color="blue" circular size="mini" />}
-          content={item.content}
+          content={PopUpLabelledDiagram.renderPopUpItemTriggerContent(item)}
         />
       </div>
     );
