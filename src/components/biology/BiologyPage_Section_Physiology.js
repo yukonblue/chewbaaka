@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 16, 2020
+ * Updated  : Jul 17, 2020
  */
 
 import React from 'react'
@@ -17,6 +17,7 @@ import BiologyPageSubsectionFeetAndClaws from './BiologyPage_Subsection_FeetAndC
 import BiologyPageSubsectionHearAndLung from './BiologyPage_Subsection_HeartAndLung'
 import BiologyPageSubsectionBodyAndBone from './BiologyPage_Subsection_BodyAndBone'
 import BiologyPageSubsectionOpenWide from './BiologyPage_Subsection_OpenWide'
+import BiologyPageSubsectionRipAndTear from './BiologyPage_Subsection_RipAndTear'
 
 export default class BiologyPageSectionPhysiology extends React.Component {
 
@@ -64,6 +65,10 @@ export default class BiologyPageSectionPhysiology extends React.Component {
         />
 
         <BiologyPageSubsectionOpenWide
+          sectionConfig={this.state.sectionConfig}
+        />
+
+        <BiologyPageSubsectionRipAndTear
           sectionConfig={this.state.sectionConfig}
         />
       </div>

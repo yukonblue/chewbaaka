@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 16, 2020
+ * Updated  : Jul 17, 2020
  */
 
 export const config = {
@@ -176,7 +176,10 @@ export const config = {
                 "bonding of a cheetah group."
             }
           }
-        }
+        },
+        subsection_RipAndTear: {
+          title: "Rip and Tear"
+        },
       }
     },
   }
