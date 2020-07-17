@@ -117,5 +117,13 @@ export const config = {
         }
       },
     },
+    section_Physiology: {
+      intro: {
+        title: "Physiology",
+        content: "TBD ..."
+      },
+      subsections: {
+      }
+    }
   }
 };
