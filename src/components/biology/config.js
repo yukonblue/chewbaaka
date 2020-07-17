@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 16, 2020
+ * Updated  : Jul 17, 2020
  */
 
 export const config = {
@@ -114,6 +114,65 @@ export const config = {
               'They live alone or brothers farm permanent groups called "coalitions". '+
               "These groups stay together for life, claim territories, hunt and find mates together."
           }
+        },
+        subsection_LivingFastDyingYoung: {
+          title: "Living Fast - Dying Young",
+          contents: {
+            part1: {
+              title: "Male coalitions",
+              contents: {
+                paragraph_01:
+                  "A coalition consists of a male siblings of the same litter or young unrelated " +
+                  "males that have joined together. A hierarchy develops among the males within a coalition.",
+                paragraph_02:
+                  "Young males are usually chased away from their birth range by dominant breeding males. " +
+                  "They may establish home ranges more than 100 km away. A coalition is more successful in acquiring " +
+                  "and holding territories and in defending kills than single males. " +
+                  "This competition can result in mortality among males."
+              }
+            },
+            part2: {
+              title: "Mortality",
+              contents: {
+                paragraph_01:
+                  "The cheetah’s lifespan is poorly documented in the wild. A radio collared cheetah lived to be " +
+                  "almost 7 years of age in Tanzania’s Serengeti National Park and once of CCF’s radio collared " +
+                  "cheetahs in Namibia lived for over 10 years.",
+                paragraph_02:
+                  "Adult mortality is one of the most significant limiting factors for cheetah population growth and survival. " +
+                  "Poaching, competition with large predators and farmers, and loss of habitat and prey are factors " +
+                  "attributing to early death.",
+                paragraph_03:
+                  "Though cub deaths are high, cheetahs have evolved to reproduce rapidly in response to this mortality."
+              }
+            }
+          }
+        },
+        subsection_FindingMate: {
+          title: "Finding a Mate",
+          contents: {
+            paragraph_FindingMate_01:
+              "The range of a female offspring may partially overlap that of her mother. " +
+              "Namibian cheetahs are more social than those reported in other countries. " +
+              "Females are often seen with multiple adults and cubs of varying ages.",
+            paragraph_FindingMate_02:
+              "Female cheetahs are polyoestrous, which means there is no regular breeding season. " +
+              "If not bred, females come into heat (estrus) several times a year. Estrus means they are ready to breed. " +
+              "If cubs are lost to predators females soon come into estrus again.",
+            paragraph_FindingMate_03:
+              "Smell, sound, and behavioral stimuli attract males to females. Female cheetahs leave a scent trail " +
+              "by releasing sex hormones in urine and feces. They mark trees and bushes. " +
+              "This behavior increases during courtship.",
+            paragraph_FindingMate_04:
+              "When courtship takes place, males will follow females closely and mock fighting may be observed.",
+            paragraph_FindingMate_05:
+              "When a female is ready to mate, she adopts a receptive posture. The male mounts the female, " +
+              "bites the back of her neck, and breeding takes place. When the male dismounts the female she " +
+              "rolls over on her back and swats at him.",
+            paragraph_FindingMate_06:
+              "Mating will take place for one to several days and ends when the make loses interest in the female and leaves. " +
+              "Males do not help raise the cubs."
+          }
         }
       },
     },
@@ -130,13 +189,92 @@ export const config = {
           title: "Feet and Claws"
         },
         subsection_Skull: {
-          title: "Skull"
+          title: "Skull",
+          contents: {
+            paragraph_Skull_01:
+              "All predators have specialized features for catching and kill prey. " +
+              "Predators have large forward facing eye sockets, and large ear cavities " +
+              "that provides space for specialized senses. Although there are differences " +
+              "in skull proportions, carnivore skulls are quite similar.",
+            paragraph_Skull_02:
+              "The cat skulls are different from other carnivore species, as they have a " +
+              "flat nose and enlarge nasal cavity. There is a large area for the strong jaw muscles.",
+            paragraph_Skull_03:
+              "The cheetah has some features that are distinct when compared to the skulls of other cats."
+          }
+        },
+        subsection_SpotsAndStripes: {
+          title: "Spots and Stripes",
+          contents: {
+            paragraph_SpotsAndStripes_01:
+              "Adult cheetahs are easily distinguished from other cats by their coat patterns. " +
+              "The color and spots are a form of camouflage. This helps cheetahs hunt prey and " +
+              "hide from other predators.",
+            paragraph_SpotsAndStripes_02:
+              "Distinctive black tear stripes run from the eyes to the mouth. The stripes are thought " +
+              "to protect the eyes from the sun’s glare. It is believed they have the same function " +
+              "as a rifle scope, helping cheetahs focus on their prey.",
+            paragraph_SpotsAndStripes_03:
+              "Until three months of age, cheetah cubs have a thick-silvery grey mantle down their back. " +
+              "The mantle helps camouflage the cubs by blending them into the shadows and grass. " +
+              "It also provides protection from sun and rain.",
+            paragraph_SpotsAndStripes_04:
+              "With their mantle, cubs look like an aggressive animal called a honey badger. " +
+              "This may deter predators such as lions, hyenas, and eagles from attempting to kill them. " +
+              "This is known as “mimicry”."
+          }
         },
         subsection_HearAndLung: {
           title: "Heart and Lung"
         },
         subsection_BodyAndBone: {
           title: "Body and Bone"
+        },
+        subsection_OpenWide: {
+          title: "Open Wide",
+          contents: {
+            part1: {
+              paragraph_OpenWide_01:
+                "The cheetah takes smaller prey than other similar sized cats. Their strong jaws " +
+                "lock around the throat of the prey in what is called the “strangulation hold”, "+
+                "which can last up to 20 minutes.",
+              paragraph_OpenWide_02:
+                "Cheetahs’ jaws are not as powerful as that of lions or leopards. Cheetahs have " +
+                "comparatively shorted canine teeth. In all cats, powerful muscles move the jaw up " +
+                "and down and provide vice-like strength for gripping prey.",
+            },
+            part2: {
+              paragraph_OpenWide_03:
+                "The tongue is adopted for licking and is covered with small hard spines called papillae. " +
+                "The papillae act like a rasp, removing the meat from the bones of the prey." +
+                "Rough tongue feels similar to the texture of sandpaper.",
+            },
+            part3: {
+              paragraph_OpenWide_04:
+                "Keeping the fur clean is an important part of a cheetah’s life. Family members spend " +
+                "many hours grooming each other with their tongues. This behavior aids in the social " +
+                "bonding of a cheetah group."
+            }
+          }
+        },
+        subsection_RipAndTear: {
+          title: "Rip and Tear",
+          contents: {
+            paragraph_RipAndTear_01:
+              "The cheetah’s teeth are adapted to support their eating style. By eating fast, cheetahs avoid losing their prey to other predators.",
+            paragraph_RipAndTear_02:
+              "The canines, “eye teeth” or “fangs”, are used for gripping and hold while the prey is being suffocated. " +
+              "Cheetah’s canines are smaller and less developed than those of the lion or leopard.",
+            paragraph_RipAndTear_03:
+              "The incisors, “front teeth”, are used for plucking fur and skinning the carcasses. " +
+              "Straight and strong incisors are essential for quick access to the meat of the prey.",
+            paragraph_RipAndTear_04:
+              "The carnassial, “back teeth” or “pre molars”, work in scissor like fashion and enable the cheetah to " +
+              "shear large pieces of flesh which are quickly swallowed whole. When using these teeth during feeding, " +
+              "cheetahs hold their heads sideways at an angle to the carcass. These blade like teeth are similar to the " +
+              "lion’s and leopard’s. They do not have the same function as chewing meat as those of the jackal or crushing " +
+              "bones like those of the hyenas."
+          }
         }
       }
     },

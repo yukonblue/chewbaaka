@@ -389,6 +389,50 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className=""
+        >
+          <div
+            className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+          >
+            <div
+              className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+            >
+              <h3
+                className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+              >
+                Finding a Mate
+              </h3>
+              <div
+                className=""
+              >
+                TBD ...
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          <div
+            className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+          >
+            <div
+              className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+            >
+              <h3
+                className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+              >
+                Living Fast - Dying Young
+              </h3>
+              <div
+                className=""
+              >
+                TBD ...
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

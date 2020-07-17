@@ -1,0 +1,24 @@
+/**
+ * QuizBoard.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 17, 2020
+ * Updated  : Jul 17, 2020
+ */
+
+div.QuizBoardOuterContainer {
+}
+
+div.QuizBoardOuterContainer_DebugColor {
+  background-color: wheat;
+}
+
+div.QuizBoardInnerContainer {
+  position: absolute;
+}
+
+div.QuizBoardItemContainer {
+  position: absolute;
+  display: inline-block;
+}

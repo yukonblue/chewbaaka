@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 16, 2020
+ * Updated  : Jul 17, 2020
  */
 
 import React from 'react'
@@ -12,10 +12,13 @@ import React from 'react'
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
 import BiologyPageSubsectionAnatomy from './BiologyPage_Subsection_Anatomy'
+import BiologyPageSubsectionSpotsAndStripes from './BiologyPage_Subsection_SpotsAndStripes'
 import BiologyPageSubsectionSkull from './BiologyPage_Subsection_Skull'
 import BiologyPageSubsectionFeetAndClaws from './BiologyPage_Subsection_FeetAndClaws'
 import BiologyPageSubsectionHearAndLung from './BiologyPage_Subsection_HeartAndLung'
 import BiologyPageSubsectionBodyAndBone from './BiologyPage_Subsection_BodyAndBone'
+import BiologyPageSubsectionOpenWide from './BiologyPage_Subsection_OpenWide'
+import BiologyPageSubsectionRipAndTear from './BiologyPage_Subsection_RipAndTear'
 
 export default class BiologyPageSectionPhysiology extends React.Component {
 
@@ -46,6 +49,10 @@ export default class BiologyPageSectionPhysiology extends React.Component {
           sectionConfig={this.state.sectionConfig}
         />
 
+        <BiologyPageSubsectionSpotsAndStripes
+          sectionConfig={this.state.sectionConfig}
+        />
+
         <BiologyPageSubsectionSkull
           sectionConfig={this.state.sectionConfig}
         />
@@ -59,6 +66,14 @@ export default class BiologyPageSectionPhysiology extends React.Component {
         />
 
         <BiologyPageSubsectionBodyAndBone
+          sectionConfig={this.state.sectionConfig}
+        />
+
+        <BiologyPageSubsectionOpenWide
+          sectionConfig={this.state.sectionConfig}
+        />
+
+        <BiologyPageSubsectionRipAndTear
           sectionConfig={this.state.sectionConfig}
         />
       </div>

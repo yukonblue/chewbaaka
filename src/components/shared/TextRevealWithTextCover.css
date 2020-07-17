@@ -1,0 +1,28 @@
+/**
+ * TextRevealWithTextCover.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 17, 2020
+ * Updated  : Jul 17, 2020
+ */
+
+div.TextRevealWithTextCoverOuterContainer {
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+p.TextRevealWithTextCoverTitle {
+  padding-top: 60px;
+  font-size: 20px;
+}
+
+p.TextRevealWithTextCoverDescription {
+  padding-top: 60px;
+  font-size: 16px;
+  color: black;
+}

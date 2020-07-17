@@ -1,10 +1,10 @@
 /**
- * BiologyPage_Subsection_Skull.js
+ * BiologyPage_Subsection_RipAndTear.js
  * Chewbaaka
  *
  * Author   : Tomiko
- * Created  : Jul 16, 2020
- * Updated  : Jul 16, 2020
+ * Created  : Jul 17, 2020
+ * Updated  : Jul 17, 2020
  */
 
 import React from 'react';
@@ -17,16 +17,18 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
-import CheetahSkullDiagram from './CheetahSkullDiagram'
+import ImageView from '../shared/ImageView'
 
-export default class BiologyPageSubsectionSkull extends React.Component {
+import image_cheetah_teeth from './assets/cheetah_teeth.jpg'
 
-  static _SUBSECTION_NAME_ = "subsection_Skull";
+export default class BiologyPageSubsectionRipAndTear extends React.Component {
+
+  static _SUBSECTION_NAME_ = "subsection_RipAndTear";
 
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionSkull._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionRipAndTear._SUBSECTION_NAME_]
     };
   }
 
@@ -43,10 +45,16 @@ export default class BiologyPageSubsectionSkull extends React.Component {
 
   renderContent() {
     return (
-      <div className="">
+      <div className="OverflowHidden">
+        <div className="FloatRight">
+          <ImageView
+            image={image_cheetah_teeth}
+            caption="The three types of teeth of the cheetah: the incisors, canines, and carnassial."
+            width={640}
+            height={505}
+          />
+        </div>
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
-
-        <CheetahSkullDiagram />
       </div>
     );
   }

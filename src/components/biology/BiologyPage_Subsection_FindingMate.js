@@ -1,9 +1,9 @@
 /**
- * BiologyPage_Subsection_FeedAndClaws.js
+ * BiologyPage_Subsection_FindingMate.js
  * Chewbaaka
  *
  * Author   : Tomiko
- * Created  : Jul 16, 2020
+ * Created  : Jul 17, 2020
  * Updated  : Jul 17, 2020
  */
 
@@ -13,16 +13,14 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
-import CheetahOlympics from './CheetahOlympics'
+export default class BiologyPageSubsectionFindingMate extends React.Component {
 
-export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
-
-  static _SUBSECTION_NAME_ = "subsection_FeetAndClaws";
+  static _SUBSECTION_NAME_ = "subsection_FindingMate";
 
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionFeetAndClaws._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionFindingMate._SUBSECTION_NAME_]
     };
   }
 
@@ -40,9 +38,7 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
   renderContent() {
     return (
       <div className="">
-        TBD...
-
-        <CheetahOlympics />
+        TBD ...
       </div>
     );
   }
