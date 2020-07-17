@@ -128,6 +128,9 @@ export const config = {
         },
         subsection_FeetAndClaws: {
           title: "Feet and Claws"
+        },
+        subsection_Skull: {
+          title: "Skull"
         }
       }
     },
