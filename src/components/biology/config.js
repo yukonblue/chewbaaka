@@ -117,5 +117,28 @@ export const config = {
         }
       },
     },
+    section_Physiology: {
+      intro: {
+        title: "Physiology",
+        content: "TBD ..."
+      },
+      subsections: {
+        subsection_Anatomy: {
+          title: "Anatomy"
+        },
+        subsection_FeetAndClaws: {
+          title: "Feet and Claws"
+        },
+        subsection_Skull: {
+          title: "Skull"
+        },
+        subsection_HearAndLung: {
+          title: "Heart and Lung"
+        },
+        subsection_BodyAndBone: {
+          title: "Body and Bone"
+        }
+      }
+    },
   }
 };

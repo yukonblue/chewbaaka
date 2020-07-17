@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PopUpLabelledDiagram component snapshot 1`] = `
+<div
+  className="PopUpLabelledDiagramOuterComponent PopUpLabelledDiagramOuterComponent_DebugColor DebugWireframe"
+  style={
+    Object {
+      "backgroundImage": "url(cheetah-conservation-fund-logo.jpg)",
+      "height": 1043,
+      "width": 1814,
+    }
+  }
+>
+  <div
+    className="PopUpLabelledDiagramInnerComponent PopUpLabelledDiagramInnerComponent_DebugColor DebugWireframe"
+  >
+    <div
+      className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+      style={
+        Object {
+          "left": 30,
+          "top": 100,
+        }
+      }
+    >
+      <button
+        className="ui blue mini circular icon button"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="plus icon"
+          onClick={[Function]}
+        />
+      </button>
+    </div>
+    <div
+      className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+    >
+      <button
+        className="ui blue mini circular icon button"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="plus icon"
+          onClick={[Function]}
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

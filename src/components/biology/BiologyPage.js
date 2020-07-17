@@ -17,6 +17,7 @@ import ContentPageTableOfContentMenuBootstrapper from '../shared/ContentPageTabl
 
 import BiologyPageIntroSection from './BiologyPageIntroSection'
 import BiologyPageSectionLifecyle from './BiologyPage_Section_Lifecycle'
+import BiologyPageSectionPhysiology from './BiologyPage_Section_Physiology'
 
 import { config }  from './config'
 
@@ -49,6 +50,8 @@ export default class FuturePage extends React.Component {
         />
 
         <BiologyPageSectionLifecyle config={config} />
+
+        <BiologyPageSectionPhysiology config={config} />
       </div>
     )
   }
