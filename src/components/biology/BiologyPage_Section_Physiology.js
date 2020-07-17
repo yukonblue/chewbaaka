@@ -11,6 +11,8 @@ import React from 'react'
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
+import BiologyPageSubsectionAnatomy from './BiologyPage_Subsection_Anatomy'
+
 export default class BiologyPageSectionPhysiology extends React.Component {
 
   static _SECTION_NAME_ = "section_Physiology";
@@ -36,6 +38,9 @@ export default class BiologyPageSectionPhysiology extends React.Component {
   renderContent() {
     return (
       <div>
+        <BiologyPageSubsectionAnatomy
+          sectionConfig={this.state.sectionConfig}
+        />
       </div>
     );
   }
