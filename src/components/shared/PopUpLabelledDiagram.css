@@ -7,6 +7,10 @@
  * Updated  : Jul 16, 2020
  */
 
+div.PopUpLabelledDiagramOuterComponent {
+  background-size: cover;
+}
+
 div.PopUpLabelledDiagramOuterComponent_DebugColor {
   background-color: slateblue;
 }
