@@ -13,6 +13,14 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
+import {
+  ContentPageSubsectionParagraphsContentBinder
+} from '../shared/ContentPageSubsectionContentBinder'
+
+import ImageView from '../shared/ImageView'
+
+import image_cheetah_teeth from './assets/cheetah_teeth.jpg'
+
 export default class BiologyPageSubsectionRipAndTear extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_RipAndTear";
@@ -37,8 +45,16 @@ export default class BiologyPageSubsectionRipAndTear extends React.Component {
 
   renderContent() {
     return (
-      <div className="">
-        TBD something about rip and tear ...
+      <div className="OverflowHidden">
+        <div className="FloatRight">
+          <ImageView
+            image={image_cheetah_teeth}
+            caption="The three types of teeth of the cheetah: the incisors, canines, and carnassial."
+            width={640}
+            height={505}
+          />
+        </div>
+        {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
       </div>
     );
   }
