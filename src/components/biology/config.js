@@ -144,6 +144,27 @@ export const config = {
               "The cheetah has some features that are distinct when compared to the skulls of other cats."
           }
         },
+        subsection_SpotsAndStripes: {
+          title: "Spots and Stripes",
+          contents: {
+            paragraph_SpotsAndStripes_01:
+              "Adult cheetahs are easily distinguished from other cats by their coat patterns. " +
+              "The color and spots are a form of camouflage. This helps cheetahs hunt prey and " +
+              "hide from other predators.",
+            paragraph_SpotsAndStripes_02:
+              "Distinctive black tear stripes run from the eyes to the mouth. The stripes are thought " +
+              "to protect the eyes from the sun’s glare. It is believed they have the same function " +
+              "as a rifle scope, helping cheetahs focus on their prey.",
+            paragraph_SpotsAndStripes_03:
+              "Until three months of age, cheetah cubs have a thick-silvery grey mantle down their back. " +
+              "The mantle helps camouflage the cubs by blending them into the shadows and grass. " +
+              "It also provides protection from sun and rain.",
+            paragraph_SpotsAndStripes_04:
+              "With their mantle, cubs look like an aggressive animal called a honey badger. " +
+              "This may deter predators such as lions, hyenas, and eagles from attempting to kill them. " +
+              "This is known as “mimicry”."
+          }
+        },
         subsection_HearAndLung: {
           title: "Heart and Lung"
         },
@@ -195,7 +216,7 @@ export const config = {
               "lion’s and leopard’s. They do not have the same function as chewing meat as those of the jackal or crushing " +
               "bones like those of the hyenas."
           }
-        },
+        }
       }
     },
   }
