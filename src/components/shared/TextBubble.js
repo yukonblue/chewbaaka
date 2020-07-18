@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 17, 2020
+ * Updated  : Jul 18, 2020
  */
 
 /**
@@ -14,6 +14,8 @@
  * block of text in a circular container.
  *
  * Props:
+ *
+ *  - `diameter`: The diameter of the bubble in pixels.
  *
  *  - `backgroundColorRGB`: The RGB background color of the circle.
  *
