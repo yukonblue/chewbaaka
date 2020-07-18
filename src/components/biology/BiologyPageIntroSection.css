@@ -17,6 +17,7 @@ div.BiologyPageIntroSectionInnerContainer_DebugColor {
 
 img.BiologyPageIntroSectionImg {
   float: right;
+  margin-top: -50px;
 }
 
 div.BiologyPageIntroSectionInnerContainer::after {

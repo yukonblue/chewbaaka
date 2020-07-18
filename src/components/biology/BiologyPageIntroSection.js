@@ -7,7 +7,7 @@
  * Updated  : Jul 18, 2020
  */
 
-import React from 'react'
+import React from 'react';
 
 import { getElementStyleClassName } from '../../styling/styling'
 
@@ -17,7 +17,7 @@ import ContentPageIntroSectionTemplate from '../shared/ContentPageIntroSectionTe
 
 import './BiologyPageIntroSection.css'
 
-import image_cheetah_skeleton from './assets/Cheetah_Skeleton_Transparent_720x406.png'
+import image_cheetah_skeleton from './assets/Cheetah_Skeleton_Transparent_720x360.png'
 
 export default class BiologyPageIntroSection extends React.Component {
 
