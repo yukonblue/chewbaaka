@@ -335,57 +335,6 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
               >
                 Males usually do not breed until they are 4 to 5 years of age, and dominant in a territory. They live alone or brothers farm permanent groups called "coalitions". These groups stay together for life, claim territories, hunt and find mates together.
               </p>
-              <div
-                className="ImageViewOuterContainer"
-              >
-                <div
-                  className="ImageViewInnerContainer"
-                >
-                  <div
-                    className="ImageViewCore"
-                  >
-                    <img
-                      alt="A coalition of cheetahs on the lookout."
-                      className="ImageViewImg"
-                      src="cheetah_coalition.jpg"
-                      style={
-                        Object {
-                          "height": undefined,
-                          "width": 510,
-                        }
-                      }
-                    />
-                    <div
-                      data-testid="ImageViewComponentCaptionPart"
-                    >
-                      <div
-                        className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
-                        data-testid="CaptionComponentTestId"
-                        style={
-                          Object {
-                            "width": 510,
-                          }
-                        }
-                      >
-                        <div
-                          className="IconContainer IconContainer_DebugColor DebugWireframe"
-                        >
-                          <i
-                            aria-hidden="true"
-                            className="image icon"
-                            onClick={[Function]}
-                          />
-                        </div>
-                        <p
-                          className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
-                        >
-                          A coalition of cheetahs on the lookout.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -474,7 +423,59 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                                 <h2
                                   className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
                                 />
-                                <div />
+                                <div>
+                                  <div
+                                    className="ImageViewOuterContainer"
+                                  >
+                                    <div
+                                      className="ImageViewInnerContainer"
+                                    >
+                                      <div
+                                        className="ImageViewCore"
+                                      >
+                                        <img
+                                          alt="A coalition of cheetahs on the lookout."
+                                          className="ImageViewImg"
+                                          src="cheetah_coalition_02.jpg"
+                                          style={
+                                            Object {
+                                              "height": undefined,
+                                              "width": 510,
+                                            }
+                                          }
+                                        />
+                                        <div
+                                          data-testid="ImageViewComponentCaptionPart"
+                                        >
+                                          <div
+                                            className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                                            data-testid="CaptionComponentTestId"
+                                            style={
+                                              Object {
+                                                "width": 510,
+                                              }
+                                            }
+                                          >
+                                            <div
+                                              className="IconContainer IconContainer_DebugColor DebugWireframe"
+                                            >
+                                              <i
+                                                aria-hidden="true"
+                                                className="image icon"
+                                                onClick={[Function]}
+                                              />
+                                            </div>
+                                            <p
+                                              className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                                            >
+                                              A coalition of cheetahs on the lookout.
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -506,7 +507,59 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                                 <h2
                                   className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
                                 />
-                                <div />
+                                <div>
+                                  <div
+                                    className="ImageViewOuterContainer"
+                                  >
+                                    <div
+                                      className="ImageViewInnerContainer"
+                                    >
+                                      <div
+                                        className="ImageViewCore"
+                                      >
+                                        <img
+                                          alt="Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)"
+                                          className="ImageViewImg"
+                                          src="cheetah_face_hyena.jpg"
+                                          style={
+                                            Object {
+                                              "height": undefined,
+                                              "width": 640,
+                                            }
+                                          }
+                                        />
+                                        <div
+                                          data-testid="ImageViewComponentCaptionPart"
+                                        >
+                                          <div
+                                            className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                                            data-testid="CaptionComponentTestId"
+                                            style={
+                                              Object {
+                                                "width": 640,
+                                              }
+                                            }
+                                          >
+                                            <div
+                                              className="IconContainer IconContainer_DebugColor DebugWireframe"
+                                            >
+                                              <i
+                                                aria-hidden="true"
+                                                className="image icon"
+                                                onClick={[Function]}
+                                              />
+                                            </div>
+                                            <p
+                                              className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                                            >
+                                              Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                             <div

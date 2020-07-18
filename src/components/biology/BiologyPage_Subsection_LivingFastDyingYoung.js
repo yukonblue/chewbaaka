@@ -18,6 +18,11 @@ import {
   ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
+import ImageView from '../shared/ImageView'
+
+import image_cheetah_coalition from './assets/cheetah_coalition_02.jpg'
+import image_cheetah_face_hyena from './assets/cheetah_face_hyena.jpg'
+
 export default class BiologyPageSubsectionLivingFastDyingYoung extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_LivingFastDyingYoung";
@@ -70,7 +75,11 @@ export default class BiologyPageSubsectionLivingFastDyingYoung extends React.Com
   renderPart1RhsContent() {
     return (
       <div>
-
+        <ImageView
+          image={image_cheetah_coalition}
+          width={510}
+          caption="A coalition of cheetahs on the lookout."
+        />
       </div>
     );
   }
@@ -78,7 +87,11 @@ export default class BiologyPageSubsectionLivingFastDyingYoung extends React.Com
   renderPart2LhsContent() {
     return (
       <div>
-        
+        <ImageView
+          image={image_cheetah_face_hyena}
+          width={640}
+          caption="Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)"
+        />
       </div>
     )
   }
