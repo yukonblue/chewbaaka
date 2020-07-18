@@ -1,0 +1,18 @@
+/**
+ * BiologyPage_Subsection_HeartAndLung.js
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 17, 2020
+ * Updated  : Jul 17, 2020
+ */
+
+div.BiologyPageSubsectionHearAndLungInnerContainer {
+}
+
+div.HeartAndLungSubsectionQnAPopUpContainer {
+  position: relative;
+  top: -420px;
+  left: 100px;
+  display: inline-block;
+}

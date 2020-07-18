@@ -128,7 +128,7 @@ export default class CheetahOlympics extends React.Component {
         <p>Which is the fastest land animal in Africa?</p>
         <QuizBoard
           width={720}
-          height={1200}
+          height={1040}
           items={CheetahOlympics.__ITEMS__}
         />
       </div>

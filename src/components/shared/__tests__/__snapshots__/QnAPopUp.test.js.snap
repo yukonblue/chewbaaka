@@ -44,7 +44,7 @@ exports[`QnAPopUp component snapshot 1`] = `
             style={
               Object {
                 "color": "rgb(undefined)",
-                "fontSize": 8.96,
+                "fontSize": 12.8,
               }
             }
           >
@@ -94,7 +94,7 @@ exports[`QnAPopUp component snapshot 1`] = `
             style={
               Object {
                 "color": "rgb(undefined)",
-                "fontSize": 1.5750000000000002,
+                "fontSize": 2.25,
               }
             }
           >

@@ -240,27 +240,29 @@ export const config = {
         },
         subsection_HearAndLung: {
           title: "Heart and Lung",
-          part1: {
-            content: {
-              paragraph_01:
-                "The cheetah has a large strong heart that rapidly pumps large amounts of oxygenated " +
-                "blood from the lungs to the muscles to keep them supplied with energy while running.",
-              paragraph_02:
-                "Large lungs provide adequate oxygen for a cheetah’s increased energy needs while pursuing its prey. " +
-                "The cheetah’s respiratory rate climbs from 60 to 150 breathes per minute, nearly twice as fast as humans.",
-              paragraph_03:
-                "Cheetahs have enlarged nostrils and sinuses allowing an increase in air flow to the lungs.",
-              paragraph_04:
-                "High speeds can, however, only be maintained for 400 - 800 meters before exhaustion sets in " +
-                "and the body risks overheating."
-            }
-          },
-          par2: {
-            content: {
-              paragraph_01:
-                "A cheetah running the 249km from Otjiwarongo to Windhoek would need to stop to rest more than 311 times.",
-              paragraph_02:
-                "If it could run there without resting, it would take 2 hours and 26 minutes at 110km/hr."
+          contents: {
+            part1: {
+              content: {
+                paragraph_01:
+                  "The cheetah has a large strong heart that rapidly pumps large amounts of oxygenated " +
+                  "blood from the lungs to the muscles to keep them supplied with energy while running.",
+                paragraph_02:
+                  "Large lungs provide adequate oxygen for a cheetah’s increased energy needs while pursuing its prey. " +
+                  "The cheetah’s respiratory rate climbs from 60 to 150 breathes per minute, nearly twice as fast as humans.",
+                paragraph_03:
+                  "Cheetahs have enlarged nostrils and sinuses allowing an increase in air flow to the lungs.",
+                paragraph_04:
+                  "High speeds can, however, only be maintained for 400 - 800 meters before exhaustion sets in " +
+                  "and the body risks overheating."
+              }
+            },
+            part2: {
+              content: {
+                paragraph_01:
+                  "A cheetah running the 249km from Otjiwarongo to Windhoek would need to stop to rest more than 311 times.",
+                paragraph_02:
+                  "If it could run there without resting, it would take 2 hours and 26 minutes at 110km/hr."
+              }
             }
           }
         },

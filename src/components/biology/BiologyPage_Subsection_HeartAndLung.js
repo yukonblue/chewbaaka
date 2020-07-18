@@ -12,8 +12,17 @@ import React from 'react';
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
+
+import {
+  ContentPageSubsectionParagraphsContentBinder
+} from '../shared/ContentPageSubsectionContentBinder'
 
 import CheetahOlympics from './CheetahOlympics'
+
+import QnAPopUp from '../shared/QnAPopUp'
+
+import './BiologyPage_Subsection_HeartAndLung.css'
 
 export default class BiologyPageSubsectionHearAndLung extends React.Component {
 
@@ -39,10 +48,35 @@ export default class BiologyPageSubsectionHearAndLung extends React.Component {
 
   renderContent() {
     return (
-      <div className="">
-        TBD something about heart and lung ...
+      <div className="BiologyPageSubsectionHearAndLungInnerContainer">
+        <ContentPageSubsectionTwoColumnContentTemplate
+            lhsColumn={{content: this.renderLhsContent()}}
+            rhsColumn={{content: this.renderRhsContent()}}
+          />
 
         <CheetahOlympics />
+
+        <div className="HeartAndLungSubsectionQnAPopUpContainer">
+          <QnAPopUp
+            content="The pronghorn antelope is the fastest land animal in North America. When the first cheetahs ancestors roamed on the continent of North America, they used to prey on pronghorn antelopes."
+          />
+        </div>
+      </div>
+    );
+  }
+
+  renderLhsContent() {
+    return (
+      <div>
+        {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents.part1.content)}
+      </div>
+    );
+  }
+
+  renderRhsContent() {
+    return (
+      <div>
+        {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents.part2.content)}
       </div>
     );
   }
