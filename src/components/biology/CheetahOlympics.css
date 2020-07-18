@@ -11,9 +11,12 @@ div.CheetahOlympicsOuterContainer {
   margin: 0 auto;
   width: 720px;
   background-color: wheat;
-  text-align: center;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 16px;
+}
+
+div.CheetahOlympicsInnerContainer {
+  text-align: center;
 }
 
 h4.CheetahOlympicsTitle {
@@ -27,4 +30,12 @@ p.CheetahOlympicsSubtitle {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 900;
+}
+
+div.CheetahOlympicsQnAPopUpContainer {
+  /**
+   * TODO: This is such a hack. Explore a better solution.
+   */
+  margin-top: -200px;
+  margin-left: 160px;
 }

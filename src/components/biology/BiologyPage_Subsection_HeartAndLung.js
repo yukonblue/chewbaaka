@@ -20,10 +20,6 @@ import {
 
 import CheetahOlympics from './CheetahOlympics'
 
-import QnAPopUp from '../shared/QnAPopUp'
-
-import './BiologyPage_Subsection_HeartAndLung.css'
-
 export default class BiologyPageSubsectionHearAndLung extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_HearAndLung";
@@ -55,12 +51,6 @@ export default class BiologyPageSubsectionHearAndLung extends React.Component {
           />
 
         <CheetahOlympics />
-
-        <div className="HeartAndLungSubsectionQnAPopUpContainer">
-          <QnAPopUp
-            content="The pronghorn antelope is the fastest land animal in North America. When the first cheetahs ancestors roamed on the continent of North America, they used to prey on pronghorn antelopes."
-          />
-        </div>
       </div>
     );
   }
