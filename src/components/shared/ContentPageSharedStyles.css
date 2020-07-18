@@ -46,6 +46,10 @@ div.Centered {
   margin: 0 auto;
 }
 
+div.VerticalCushionPadding {
+  padding: 20px 0;
+}
+
 /** ------------------------------- TEXT ----------------------------------- **/
 
 h1.ContentPageIntroSectionTemplateTitle {
