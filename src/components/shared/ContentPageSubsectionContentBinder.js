@@ -7,7 +7,7 @@
  * Updated  : Jul 18, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import ContentPageParagraph from './ContentPageParagraph'
 
