@@ -46,7 +46,7 @@ export default class BigCatSpotsIllustration extends React.Component {
       caption: "Cheetah",
       coverImage: image_pelt_spot_cheetah,
       contentImage: image_cat_thumbnail_cheetah,
-      hint: "I can live anywhere but preferred the savannah."
+      hint: "I can live anywhere but prefer savannahs."
     },
     {
       caption: "Leopard",
