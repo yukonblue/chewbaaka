@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 16, 2020
+ * Updated  : Jul 18, 2020
  */
 
 div.BiologyPageIntroSectionInnerContainer {
@@ -16,7 +16,6 @@ div.BiologyPageIntroSectionInnerContainer_DebugColor {
 }
 
 img.BiologyPageIntroSectionImg {
-  position: relative;
   float: right;
 }
 

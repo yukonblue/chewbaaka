@@ -38,7 +38,7 @@ exports[`BiologyPageIntroSection component snapshot 1`] = `
                 <img
                   alt=""
                   className="BiologyPageIntroSectionImg BiologyPageIntroSectionImg_DebugColor DebugWireframe"
-                  src="cheetah_animated.gif"
+                  src="Cheetah_Skeleton_Transparent_720x406.png"
                 />
                 <p
                   className="ContentPageSectionSubtitleText"
