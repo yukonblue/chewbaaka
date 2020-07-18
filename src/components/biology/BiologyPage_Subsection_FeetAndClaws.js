@@ -4,14 +4,20 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 17, 2020
+ * Updated  : Jul 18, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+
+import ContentPageParagraph from '../shared/ContentPageParagraph'
+
+import ImageView from '../shared/ImageView'
+
+import image_cheetah_dewclaw from './assets/cheetah_dewclaw.jpg'
 
 export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
 
@@ -38,7 +44,21 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
   renderContent() {
     return (
       <div className="">
-        TBD...
+        
+        <div className="OverflowHidden">
+          <div className="FloatRight">
+            <ImageView
+              image={image_cheetah_dewclaw}
+              caption="Cheetah dewclaw."
+              width={611}
+              height={273}
+            />
+          </div>
+
+          <ContentPageParagraph>
+            {this.state.subsectionConfig.contents["paragraph_FeetAndClaws_04"]}
+          </ContentPageParagraph>
+        </div>
       </div>
     );
   }
