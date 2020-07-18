@@ -89,6 +89,9 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                               <div
                                 className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
+                                <h2
+                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                />
                                 <div
                                   className="HistoryPageSubsectionCheetahAndManImageContentTextContainer"
                                 >
@@ -129,6 +132,9 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                               <div
                                 className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
+                                <h2
+                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                />
                                 <div>
                                   <div
                                     className="ImageSlidingGalleryOuterContainer"
@@ -250,6 +256,9 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                               <div
                                 className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
+                                <h2
+                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                />
                                 <div>
                                   <div
                                     className="ImageSlidingGalleryOuterContainer"
@@ -330,6 +339,9 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                               <div
                                 className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
+                                <h2
+                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                />
                                 <div>
                                   <div
                                     className="FlexibleContainerOuterContainer FlexibleContainerOuterContainer_DebugColor DebugWireframe"
@@ -414,6 +426,9 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                               <div
                                 className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
+                                <h2
+                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                />
                                 <div>
                                   <div
                                     className="FlexibleContainerOuterContainer FlexibleContainerOuterContainer_DebugColor DebugWireframe"
@@ -452,6 +467,9 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                               <div
                                 className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
+                                <h2
+                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                />
                                 <div>
                                   <div
                                     className="ImageViewOuterContainer"

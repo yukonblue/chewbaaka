@@ -11,6 +11,8 @@ import React from 'react'
 
 import QuizBoard from '../shared/QuizBoard'
 
+import QnAPopUp from '../shared/QnAPopUp'
+
 import './CheetahOlympics.css'
 
 export default class CheetahOlympics extends React.Component {
@@ -118,19 +120,27 @@ export default class CheetahOlympics extends React.Component {
   render() {
     return (
       <div className="CheetahOlympicsOuterContainer">
-        <h4 className="CheetahOlympicsTitle">Cheetah Olympics</h4>
+        <div className="CheetahOlympicsInnerContainer">
+          <h4 className="CheetahOlympicsTitle">Cheetah Olympics</h4>
 
-        <p>Frankie Fredericks, Namibian Olympic silver medal sprinter, ran 200 meters in 19.92 seconds.</p>
+          <p>Frankie Fredericks, Namibian Olympic silver medal sprinter, ran 200 meters in 19.92 seconds.</p>
 
-        <p>The cheetah can run the same distance in 6.54 seconds.</p>
+          <p>The cheetah can run the same distance in 6.54 seconds.</p>
 
-        <p className="CheetahOlympicsSubtitle">Who will win the race?</p>
-        <p>Which is the fastest land animal in Africa?</p>
-        <QuizBoard
-          width={720}
-          height={1200}
-          items={CheetahOlympics.__ITEMS__}
-        />
+          <p className="CheetahOlympicsSubtitle">Who will win the race?</p>
+          <p>Which is the fastest land animal in Africa?</p>
+
+          <QuizBoard
+            width={720}
+            height={1040}
+            items={CheetahOlympics.__ITEMS__}
+          />
+        </div>
+        <div className="CheetahOlympicsQnAPopUpContainer">
+          <QnAPopUp
+            content="The pronghorn antelope is the fastest land animal in North America. When the first cheetahs ancestors roamed in North America, they used to prey on pronghorn antelopes."
+          />
+        </div>
       </div>
     );
   }

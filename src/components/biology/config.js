@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 17, 2020
+ * Updated  : Jul 18, 2020
  */
 
 export const config = {
@@ -120,7 +120,7 @@ export const config = {
           contents: {
             part1: {
               title: "Male coalitions",
-              contents: {
+              content: {
                 paragraph_01:
                   "A coalition consists of a male siblings of the same litter or young unrelated " +
                   "males that have joined together. A hierarchy develops among the males within a coalition.",
@@ -133,7 +133,7 @@ export const config = {
             },
             part2: {
               title: "Mortality",
-              contents: {
+              content: {
                 paragraph_01:
                   "The cheetah’s lifespan is poorly documented in the wild. A radio collared cheetah lived to be " +
                   "almost 7 years of age in Tanzania’s Serengeti National Park and once of CCF’s radio collared " +
@@ -186,7 +186,21 @@ export const config = {
           title: "Anatomy"
         },
         subsection_FeetAndClaws: {
-          title: "Feet and Claws"
+          title: "Feet and Claws",
+          contents: {
+            paragraph_FeetAndClaws_01:
+              "Cheetah’s foot pads are hard and less rounded than the other cats. " +
+              "The pad function like tire threads providing them with increased traction in fast, sharp turns.",
+            paragraph_FeetAndClaws_02:
+              "The short blunt claws work like the cleats on a track shoe. They grip the ground for " +
+              "traction when running and help increase speed.",
+            paragraph_FeetAndClaws_03:
+              "Cheetah’s claws are semi-retractable, meaning they do not completely retract like the claws " +
+              "of other cats. The foot structure of the cheetah is very dog-like.",
+            paragraph_FeetAndClaws_04:
+              "The dewclaws of the cheetah are located on the upper inside area of the front foot. " +
+              "These are sharp and frequently used to hook and hold prey."
+          }
         },
         subsection_Skull: {
           title: "Skull",
@@ -225,10 +239,74 @@ export const config = {
           }
         },
         subsection_HearAndLung: {
-          title: "Heart and Lung"
+          title: "Heart and Lung",
+          contents: {
+            part1: {
+              content: {
+                paragraph_01:
+                  "The cheetah has a large strong heart that rapidly pumps large amounts of oxygenated " +
+                  "blood from the lungs to the muscles to keep them supplied with energy while running.",
+                paragraph_02:
+                  "Large lungs provide adequate oxygen for a cheetah’s increased energy needs while pursuing its prey. " +
+                  "The cheetah’s respiratory rate climbs from 60 to 150 breathes per minute, nearly twice as fast as humans.",
+                paragraph_03:
+                  "Cheetahs have enlarged nostrils and sinuses allowing an increase in air flow to the lungs.",
+                paragraph_04:
+                  "High speeds can, however, only be maintained for 400 - 800 meters before exhaustion sets in " +
+                  "and the body risks overheating."
+              }
+            },
+            part2: {
+              content: {
+                paragraph_01:
+                  "A cheetah running the 249km from Otjiwarongo to Windhoek would need to stop to rest more than 311 times.",
+                paragraph_02:
+                  "If it could run there without resting, it would take 2 hours and 26 minutes at 110km/hr."
+              }
+            }
+          }
         },
         subsection_BodyAndBone: {
-          title: "Body and Bone"
+          title: "Body and Bone",
+          contents: {
+            part_Body: {
+              title: "Body",
+              contents: {
+                paragraph_01:
+                  "The cheetah’s body is narrow and lightweight with long, slender limbs. " +
+                  "Specialized muscles allow a greater swing to the limbs, increasing acceleration.",
+              }
+            },
+            part_Tail: {
+              title: "Tail",
+              contents: {
+                paragraph_01:
+                  "The cheetah’s long muscular tail works as a rudder, stabilizing and acting as a counter " +
+                  "balance to its body weight. This allows sudden sharp turns during high speed chases.",
+                paragraph_02:
+                  "The tail is thought to be a signaling device, helping young cheetahs follow their mother in tall grass. " +
+                  "The tip may be black or white in color."
+              }
+            },
+            part_Bone: {
+              title: "Bone",
+              contents: {
+                paragraph_01:
+                  "The extreme flexibility of the cheetah’s spine is unique. This allows more extension during running, " +
+                  "thus making both its stride length and speed possible.",
+                paragraph_02:
+                  "If the spine were stiff and the pectoral and pelvic girdles were firmly attached, the cheetah would not be " +
+                  "able to reach 100 km / hr.",
+                paragraph_03:
+                  "The hips (pelvic girdle) pivot to increase the cheetah’s stride length. This allows the front and " +
+                  "rear legs to stretch further apart when the body is fully extended. The hips and shoulders move " +
+                  "closer together when the feet come under its body.",
+                paragraph_04:
+                  "The shoulder bone (pectoral girdle) does not attach to the collarbone, thus allowing the shoulders to move freely. " +
+                  "This increases the length of the stride."
+              }
+            }
+          }
         },
         subsection_OpenWide: {
           title: "Open Wide",

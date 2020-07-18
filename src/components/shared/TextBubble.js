@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 06, 2020
+ * Updated  : Jul 17, 2020
  */
 
 /**
@@ -43,7 +43,7 @@ function TextBubble(props) {
   };
 
   const componentContentElementStyles = {
-    fontSize: Math.min(props.diameter * 0.035, 21),
+    fontSize: Math.min(props.diameter * 0.05, 21),
     color: `rgb(${props.contentColorRGB})`
   };
 

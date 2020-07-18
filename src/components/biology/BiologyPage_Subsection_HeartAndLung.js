@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 16, 2020
+ * Updated  : Jul 17, 2020
  */
 
 import React from 'react';
@@ -12,6 +12,13 @@ import React from 'react';
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
+
+import {
+  ContentPageSubsectionParagraphsContentBinder
+} from '../shared/ContentPageSubsectionContentBinder'
+
+import CheetahOlympics from './CheetahOlympics'
 
 export default class BiologyPageSubsectionHearAndLung extends React.Component {
 
@@ -37,8 +44,29 @@ export default class BiologyPageSubsectionHearAndLung extends React.Component {
 
   renderContent() {
     return (
-      <div className="">
-        TBD something about heart and lung ...
+      <div className="BiologyPageSubsectionHearAndLungInnerContainer">
+        <ContentPageSubsectionTwoColumnContentTemplate
+            lhsColumn={{content: this.renderLhsContent()}}
+            rhsColumn={{content: this.renderRhsContent()}}
+          />
+
+        <CheetahOlympics />
+      </div>
+    );
+  }
+
+  renderLhsContent() {
+    return (
+      <div>
+        {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents.part1.content)}
+      </div>
+    );
+  }
+
+  renderRhsContent() {
+    return (
+      <div>
+        {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents.part2.content)}
       </div>
     );
   }

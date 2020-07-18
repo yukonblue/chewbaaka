@@ -4,14 +4,22 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Jul 17, 2020
+ * Updated  : Jul 18, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+
+import {
+  ContentPageSubsectionParagraphsContentBinder
+} from '../shared/ContentPageSubsectionContentBinder'
+
+import ImageView from '../shared/ImageView'
+
+import image_cheetah_scent_marking from './assets/cheetah_scent_marking.jpg'
 
 export default class BiologyPageSubsectionFindingMate extends React.Component {
 
@@ -37,8 +45,17 @@ export default class BiologyPageSubsectionFindingMate extends React.Component {
 
   renderContent() {
     return (
-      <div className="">
-        TBD ...
+      <div className="OverflowHidden">
+        <div className="FloatRight">
+          <ImageView
+            image={image_cheetah_scent_marking}
+            caption="Cheetahs often mark their scent on tree trunks with their urine. This behavior is common among cats."
+            width={720}
+            height={480}
+          />
+        </div>
+
+        {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
       </div>
     );
   }

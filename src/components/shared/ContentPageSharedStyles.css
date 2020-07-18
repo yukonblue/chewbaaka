@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 16, 2020
+ * Updated  : Jul 18, 2020
  */
 
 /** ----------------------------- CONTAINER -------------------------------- **/
@@ -44,6 +44,10 @@ div.FloatRight {
 
 div.Centered {
   margin: 0 auto;
+}
+
+div.VerticalCushionPadding {
+  padding: 20px 0;
 }
 
 /** ------------------------------- TEXT ----------------------------------- **/
@@ -95,15 +99,21 @@ div.DisplayInlineBlock {
 }
 
 div.CenteredBlowoutBox {
-  margin: 0 aut0;
+  margin: 0 auto;
   width: 100%;
   text-align: center;
 }
 
 h2.ContentPageSubsectionColumnContentTitle {
+  /**
+   * This is to ensure the element has zero height
+   * if the title is not specified.
+   */
+  margin: 0 auto;
 }
 
 h2.ContentPageSubsectionColumnContentTitle_DebugColor {
+  text-align: center;
   color: goldenrod;
   background-color: hotpink;
 }

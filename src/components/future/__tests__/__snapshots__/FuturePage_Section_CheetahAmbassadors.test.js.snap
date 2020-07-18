@@ -94,6 +94,9 @@ exports[`FuturePageSectionCheetahAmbassadors component snapshot 1`] = `
                               <div
                                 className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
+                                <h2
+                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                />
                                 <div
                                   className="FuturePageCheetahAndManImageSubsectionContentTextContainer"
                                 >
@@ -130,6 +133,9 @@ exports[`FuturePageSectionCheetahAmbassadors component snapshot 1`] = `
                               <div
                                 className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
+                                <h2
+                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                />
                                 <div
                                   className="FuturePageSubsectionCheetahsAtCCFImageContainer FuturePageSubsectionCheetahsAtCCFImageContainer_DebugColor DebugWireframe"
                                 >
@@ -189,6 +195,9 @@ exports[`FuturePageSectionCheetahAmbassadors component snapshot 1`] = `
                               <div
                                 className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
+                                <h2
+                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                />
                                 <div
                                   className="FuturePageSubsectionCheetahsAtCCFImageContainer FuturePageSubsectionCheetahsAtCCFImageContainer_DebugColor DebugWireframe"
                                 >
@@ -223,6 +232,9 @@ exports[`FuturePageSectionCheetahAmbassadors component snapshot 1`] = `
                               <div
                                 className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
+                                <h2
+                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                />
                                 <div
                                   className="FuturePageCheetahAndManImageSubsectionContentTextContainer"
                                 >

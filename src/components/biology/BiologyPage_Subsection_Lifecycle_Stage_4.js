@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 16, 2020
+ * Updated  : Jul 18, 2020
  */
 
 import React from 'react';
@@ -16,10 +16,6 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
-
-import ImageView from '../shared/ImageView'
-
-import image_cheetah_coalition from './assets/cheetah_coalition.jpg'
 
 export default class BiologyPageSubsectionLifecycleStage4 extends React.Component {
 
@@ -45,12 +41,6 @@ export default class BiologyPageSubsectionLifecycleStage4 extends React.Componen
     return (
       <div>
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
-
-        <ImageView
-          image={image_cheetah_coalition}
-          width={510}
-          caption="A coalition of cheetahs on the lookout."
-        />
       </div>
     );
   }

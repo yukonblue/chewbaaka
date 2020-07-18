@@ -4,16 +4,18 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 16, 2020
+ * Updated  : Jul 17, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
 import CheetahSkeletalAnatomyDiagram from './CheetahSkeletalAnatomyDiagram'
+
+import './BiologyPage_Subsection_Anatomy.css'
 
 export default class BiologyPageSubsectionAnatomy extends React.Component {
 
@@ -39,7 +41,7 @@ export default class BiologyPageSubsectionAnatomy extends React.Component {
 
   renderContent() {
     return (
-      <div className="">
+      <div className="BiologyPageSubsectionAnatomyCheetahSkeletalAnatomyDiagramContainer">
         <CheetahSkeletalAnatomyDiagram />
       </div>
     );

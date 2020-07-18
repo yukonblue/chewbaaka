@@ -4,10 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 16, 2020
+ * Updated  : Jul 17, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import '../shared/ContentPageSharedStyles.css'
 
@@ -18,6 +18,8 @@ import {
 } from '../shared/ContentPageSubsectionContentBinder'
 
 import CheetahSkullDiagram from './CheetahSkullDiagram'
+
+import './BiologyPage_Subsection_Skull.css'
 
 export default class BiologyPageSubsectionSkull extends React.Component {
 
@@ -46,7 +48,9 @@ export default class BiologyPageSubsectionSkull extends React.Component {
       <div className="">
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
 
-        <CheetahSkullDiagram />
+        <div className="BiologyPageSubsectionSkullCheetahSkullDiagramContainer">
+          <CheetahSkullDiagram />
+        </div>
       </div>
     );
   }
