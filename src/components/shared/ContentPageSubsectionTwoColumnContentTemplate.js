@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 18, 2020
  */
 
 import React from 'react';
@@ -28,11 +28,17 @@ export default class ContentPageSubsectionTwoColumnContentTemplate extends React
               <Grid.Row columns={2}>
                 <Grid.Column width={this.props.lhsColumn.width}>
                   <div className={getElementStyleClassName("ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer")}>
+                    <h2 className={getElementStyleClassName("ContentPageSubsectionColumnContentTitle")}>
+                      {this.props.lhsColumn.title}
+                    </h2>
                     {this.props.lhsColumn.content}
                   </div>
                 </Grid.Column>
                 <Grid.Column width={this.props.rhsColumn.width}>
                   <div className={getElementStyleClassName("ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer")}>
+                    <h2 className={getElementStyleClassName("ContentPageSubsectionColumnContentTitle")}>
+                      {this.props.rhsColumn.title}
+                    </h2>
                     {this.props.rhsColumn.content}
                   </div>
                 </Grid.Column>

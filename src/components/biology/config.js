@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 17, 2020
+ * Updated  : Jul 18, 2020
  */
 
 export const config = {
@@ -120,7 +120,7 @@ export const config = {
           contents: {
             part1: {
               title: "Male coalitions",
-              contents: {
+              content: {
                 paragraph_01:
                   "A coalition consists of a male siblings of the same litter or young unrelated " +
                   "males that have joined together. A hierarchy develops among the males within a coalition.",
@@ -133,7 +133,7 @@ export const config = {
             },
             part2: {
               title: "Mortality",
-              contents: {
+              content: {
                 paragraph_01:
                   "The cheetah’s lifespan is poorly documented in the wild. A radio collared cheetah lived to be " +
                   "almost 7 years of age in Tanzania’s Serengeti National Park and once of CCF’s radio collared " +
