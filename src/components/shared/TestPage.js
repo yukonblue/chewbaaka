@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 16, 2020
+ * Updated  : Jul 17, 2020
  */
 
 import React from 'react';
@@ -33,6 +33,7 @@ import MediaLinkButton from './MediaLinkButton'
 import ImageCollageCell from './ImageCollageCell'
 import ImageCollage from './ImageCollage'
 import CheetahSkeletalAnatomyDiagram from '../biology/CheetahSkeletalAnatomyDiagram'
+import CheetahAccelerationIllustration from '../biology/CheetahAccelerationIllustration'
 
 import image01 from './assets/cheetah-conservation-fund-logo.jpg'
 import image02 from './assets/cheetah-conservation-fund-30-logo.svg'
@@ -59,6 +60,9 @@ class TestPage extends React.Component {
         <h1>This is a test page</h1>
 
         This page is used to test our custom components, navigations, and other things.
+
+        <h2>CheetahAccelerationIllustration</h2>
+        <CheetahAccelerationIllustration />
 
         <h2>CheetahSkeletalAnatomyDiagram</h2>
         <CheetahSkeletalAnatomyDiagram />
