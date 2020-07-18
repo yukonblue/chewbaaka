@@ -15,6 +15,8 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 
 import CheetahAccelerationIllustration from './CheetahAccelerationIllustration'
 
+import './BiologyPage_Subsection_BodyAndBone.css'
+
 export default class BiologyPageSubsectionBodyAndBone extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_BodyAndBone";
@@ -42,7 +44,9 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
       <div className="">
         TBD something about body and bone ...
 
-        <CheetahAccelerationIllustration />
+        <div className="BiologyPageSubsectionBodyAndBoneCheetahAccelerationIllustrationContainer Centered">
+          <CheetahAccelerationIllustration />
+        </div>
       </div>
     );
   }
