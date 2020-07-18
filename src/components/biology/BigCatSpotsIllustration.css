@@ -1,0 +1,47 @@
+/**
+ * BigCatSpotsIllustration.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 18, 2020
+ * Updated  : Jul 18, 2020
+ */
+
+div.BigCatSpotsIllustrationOuterContainer {
+  padding: 20px 20px;
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div.BigCatSpotsIllustrationOuterContainer_DebugColor {
+  background-color: cyan;
+}
+
+h4.BigCatSpotsIllustrationTitle {
+  font-size: 28px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h5.BigCatSpotsIllustrationSubtitle {
+  font-size: 20px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+div.BigCatSpotsIllustrationItemContainer {
+  width: 200px;
+}
+
+div.BigCatSpotsIllustrationTextRevealDetailedContainer {
+  width: 200px;
+  height: 200px;
+}
+
+p.BigCatSpotsIllustrationHintText {
+  margin-top: 10px;
+  padding: 0 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+}

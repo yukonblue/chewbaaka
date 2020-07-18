@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Jul 17, 2020
+ * Updated  : Jul 18, 2020
  */
 
 import React from 'react';
@@ -16,6 +16,8 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import BigCatSpotsIllustration from './BigCatSpotsIllustration'
 
 export default class BiologyPageSubsectionSpotsAndStripes extends React.Component {
 
@@ -43,6 +45,8 @@ export default class BiologyPageSubsectionSpotsAndStripes extends React.Componen
     return (
       <div className="">
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
+
+        <BigCatSpotsIllustration />
       </div>
     );
   }
