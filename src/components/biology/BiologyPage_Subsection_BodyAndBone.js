@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 16, 2020
+ * Updated  : Jul 17, 2020
  */
 
 import React from 'react';
@@ -12,6 +12,8 @@ import React from 'react';
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+
+import CheetahAccelerationIllustration from './CheetahAccelerationIllustration'
 
 export default class BiologyPageSubsectionBodyAndBone extends React.Component {
 
@@ -39,6 +41,8 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
     return (
       <div className="">
         TBD something about body and bone ...
+
+        <CheetahAccelerationIllustration />
       </div>
     );
   }
