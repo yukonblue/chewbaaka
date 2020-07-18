@@ -13,8 +13,6 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
-import CheetahOlympics from './CheetahOlympics'
-
 export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_FeetAndClaws";
@@ -41,8 +39,6 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
     return (
       <div className="">
         TBD...
-
-        <CheetahOlympics />
       </div>
     );
   }
