@@ -1,5 +1,5 @@
 /**
- * BiologyPage_Subsection_FeedAndClaws.js
+ * BiologyPage_Subsection_FeetAndClaws.js
  * Chewbaaka
  *
  * Author   : Tomiko
