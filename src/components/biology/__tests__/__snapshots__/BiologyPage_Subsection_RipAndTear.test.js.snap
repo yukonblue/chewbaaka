@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BiologyPage_Subsection_RipAndTear component snapshot 1`] = `
+<div
+  className=""
+>
+  <div
+    className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+  >
+    <div
+      className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+    >
+      <h3
+        className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+      >
+        Rip and Tear
+      </h3>
+      <div
+        className="OverflowHidden"
+      >
+        <div
+          className="FloatRight"
+        >
+          <div
+            className="ImageViewOuterContainer"
+          >
+            <div
+              className="ImageViewInnerContainer"
+            >
+              <div
+                className="ImageViewCore"
+              >
+                <img
+                  alt="The three types of teeth of the cheetah: the incisors, canines, and carnassial."
+                  className="ImageViewImg"
+                  src="cheetah_teeth.jpg"
+                  style={
+                    Object {
+                      "height": 505,
+                      "width": 640,
+                    }
+                  }
+                />
+                <div
+                  data-testid="ImageViewComponentCaptionPart"
+                >
+                  <div
+                    className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                    data-testid="CaptionComponentTestId"
+                    style={
+                      Object {
+                        "width": 640,
+                      }
+                    }
+                  >
+                    <div
+                      className="IconContainer IconContainer_DebugColor DebugWireframe"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
+                    </div>
+                    <p
+                      className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                    >
+                      The three types of teeth of the cheetah: the incisors, canines, and carnassial.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+        >
+          The cheetah’s teeth are adapted to support their eating style. By eating fast, cheetahs avoid losing their prey to other predators.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+        >
+          The canines, “eye teeth” or “fangs”, are used for gripping and hold while the prey is being suffocated. Cheetah’s canines are smaller and less developed than those of the lion or leopard.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+        >
+          The incisors, “front teeth”, are used for plucking fur and skinning the carcasses. Straight and strong incisors are essential for quick access to the meat of the prey.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+        >
+          The carnassial, “back teeth” or “pre molars”, work in scissor like fashion and enable the cheetah to shear large pieces of flesh which are quickly swallowed whole. When using these teeth during feeding, cheetahs hold their heads sideways at an angle to the carcass. These blade like teeth are similar to the lion’s and leopard’s. They do not have the same function as chewing meat as those of the jackal or crushing bones like those of the hyenas.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
