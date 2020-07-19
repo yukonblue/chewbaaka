@@ -11,7 +11,7 @@ export const config = {
   pageProps: {
     coverImage: "",
     title: "Biology",
-    subtitle: "Subtitle TBD ...",
+    subtitle: "Learn everything about what makes the cheetah so remarkable and unqiue.",
     pageMenuItems: [
       {
         title: "Lifecycle",
