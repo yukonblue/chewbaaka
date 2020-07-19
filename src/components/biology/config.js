@@ -20,6 +20,10 @@ export const config = {
       {
         title: "Physiology",
         tocImageFilename: "biology_page_toc_menu_img_02.jpg"
+      },
+      {
+        title: "Genetics",
+        tocImageFilename: "biology_page_toc_menu_img_03.jpg"
       }
     ],
   },
