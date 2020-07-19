@@ -4,9 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Jul 17, 2020
+ * Updated  : Jul 18, 2020
  */
 
 div.BiologyPageSubsectionBodyAndBoneCheetahAccelerationIllustrationContainer {
   width: 1126px;  
+}
+
+div.BiologyPageSubsectionBodyAndBoneAnimationImageContainer {
+  margin-top: 200px;
+  margin-right: 20px;
 }

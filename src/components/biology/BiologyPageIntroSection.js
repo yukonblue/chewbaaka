@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 16, 2020
+ * Updated  : Jul 18, 2020
  */
 
 import React from 'react';
@@ -17,7 +17,7 @@ import ContentPageIntroSectionTemplate from '../shared/ContentPageIntroSectionTe
 
 import './BiologyPageIntroSection.css'
 
-import image from './assets/cheetah_animated.gif'
+import image_cheetah_skeleton from './assets/Cheetah_Skeleton_Transparent_720x406.png'
 
 export default class BiologyPageIntroSection extends React.Component {
 
@@ -37,7 +37,7 @@ export default class BiologyPageIntroSection extends React.Component {
       <div className={getElementStyleClassName("BiologyPageIntroSectionInnerContainer")}>
         <img
           className={getElementStyleClassName("BiologyPageIntroSectionImg")}
-          src={image}
+          src={image_cheetah_skeleton}
           alt=""
         />
         <p className="ContentPageSectionSubtitleText">

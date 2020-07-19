@@ -4,10 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 18, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import ContentPageParagraph from './ContentPageParagraph'
 
@@ -35,8 +35,13 @@ const ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder = (column
   ContentPageSubsectionColumnDataBinder(columnData, ContentPageSubsectionParagraphsContentBinder)
 );
 
+const ContentPageSubsectionParagraphsJoin = (paragraphContents) => (
+  Object.values(paragraphContents).join(" ")
+);
+
 export {
   ContentPageSubsectionColumnDataBinder,
   ContentPageSubsectionParagraphsContentBinder,
-  ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder
+  ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder,
+  ContentPageSubsectionParagraphsJoin
 }

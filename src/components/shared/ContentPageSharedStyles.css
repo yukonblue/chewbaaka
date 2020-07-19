@@ -50,6 +50,18 @@ div.VerticalCushionPadding {
   padding: 20px 0;
 }
 
+div.HorizontalCusionPadding {
+  padding: 0 50px;
+}
+
+div.LeftMargin50px {
+  margin-left: 50px;
+}
+
+div.RightMargin50px {
+  margin-right: 50px;
+}
+
 /** ------------------------------- TEXT ----------------------------------- **/
 
 h1.ContentPageIntroSectionTemplateTitle {

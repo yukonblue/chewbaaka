@@ -25,21 +25,25 @@ export const config = {
   },
   contentPageIntro: {
     title: "Cheetah Biology",
-    content: "The evolution and history of the cheetah are just as remarkable and " +
-          "interesting as the species itself. Its evolution goes back to nearly " +
-          "7 million years ago in time and spanned almost all the continents on the planet, " +
-          "and its history with human interactions goes as far back as to 32000 BCE. " +
-          "The cheetah have been a symbol of significant meaning in different civilizations and " +
-          "cultures across thousands of years of human history. Even up to this day, " +
-          "the cheetah continues to be considered as a spiritual animal that manifests " +
-          "as a symbol of a multitude of positive characteristics, such as adaptability, " +
-          "persistence, and focus."
+    content: "The cheetah is a truly unique animal. Being the world's fastest land animal, it is built for speed. " +
+            "An acceleration from 0 to 84 km/hr in just 3 seconds, with a full speed of 110 km/hr, means that the " +
+            "cheetah can out-perform a sports car. Cheetahs are markedly different in both anatomy and behavior " +
+            "from the other 36 species of cats. They are the only species in their genus. " +
+            "They have evolved for speed versus power and aggression. Their bodies are lightweight in comparing with " +
+            "the build of other big cats. They rely on their speed and skills for survival. The genus name, Acinonyx, " +
+            "is interpreted as “non-moving claws”, referring to the semi-retractable claws. " +
+            "The species name, “jubatus”, means “maned”, referring to the mantle on a young cheetah’s back. " +
+            "The English word, “cheetah”, comes from the Hindu word “chita” meaning the “spotted one”."
   },
   contentPageSections: {
     section_Lifecycle: {
       intro: {
         title: "Lifecycle",
-        content: "A cheetah goes through 4 stages of life in its life."
+        content: "One of the most incredible things about the cheetahs is the remarkable processes and transitions " +
+                "in their lifecycle. From born at an average weight of no more than 350 grams and completely " +
+                "helpless and unable to see, to becoming one of the most skilled predators and the fastest " +
+                "land animal on the planet, nothing speaks more about the incredible adaptations that allow them " +
+                "to survive and thrive in the challenging environments where they live."
       },
       subsections: {
         subsection_Lifecycle_Stage_1: {
@@ -179,7 +183,12 @@ export const config = {
     section_Physiology: {
       intro: {
         title: "Physiology",
-        content: "TBD ..."
+        content: "The uniqueness of the cheetah is not made up of a single trait, but rather a set of traits in its " +
+                "physiology that can be observed from all parts of its body. The skull provides room for jaw muscle " +
+                "needed to tear up meat. The spine provides the flexibility it needs to reach its incredible speeds. " +
+                "The feet and claws facilitates in running, sharp turning, and hunting. The tail provides the balance " +
+                "it needs while pursuing a prey. Read on to discover all the fascinating points about the species' " +
+                "anatomy and physiology."
       },
       subsections: {
         subsection_Anatomy: {
@@ -188,18 +197,33 @@ export const config = {
         subsection_FeetAndClaws: {
           title: "Feet and Claws",
           contents: {
-            paragraph_FeetAndClaws_01:
-              "Cheetah’s foot pads are hard and less rounded than the other cats. " +
-              "The pad function like tire threads providing them with increased traction in fast, sharp turns.",
-            paragraph_FeetAndClaws_02:
-              "The short blunt claws work like the cleats on a track shoe. They grip the ground for " +
-              "traction when running and help increase speed.",
-            paragraph_FeetAndClaws_03:
-              "Cheetah’s claws are semi-retractable, meaning they do not completely retract like the claws " +
-              "of other cats. The foot structure of the cheetah is very dog-like.",
-            paragraph_FeetAndClaws_04:
-              "The dewclaws of the cheetah are located on the upper inside area of the front foot. " +
-              "These are sharp and frequently used to hook and hold prey."
+            part_Foot: {
+              title: "Foot",
+              content: {
+                paragraph_01:
+                  "Cheetah’s foot pads are hard and less rounded than the other cats. " +
+                  "The pad function like tire threads providing them with increased traction in fast, sharp turns.",
+              }
+            },
+            part_Claw: {
+              title: "Claw",
+              content: {
+                paragraph_01:
+                  "The short blunt claws work like the cleats on a track shoe. They grip the ground for " +
+                  "traction when running and help increase speed.",
+                paragraph_02:
+                  "Cheetah’s claws are semi-retractable, meaning they do not completely retract like the claws " +
+                  "of other cats. The foot structure of the cheetah is very dog-like.",
+              }
+            },
+            part_Dewclaw: {
+              title: "Dewclaw",
+              content: {
+                paragraph_FeetAndClaws_04:
+                  "The dewclaws of the cheetah are located on the upper inside area of the front foot. " +
+                  "These are sharp and frequently used to hook and hold prey."
+              }
+            }
           }
         },
         subsection_Skull: {
