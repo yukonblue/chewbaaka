@@ -1,0 +1,338 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AfricanWildlifeTracksIllustration component snapshot 1`] = `
+<div
+  className="AfricanWildlifeTracksIllustrationOuterContainer AfricanWildlifeTracksIllustrationOuterContainer_DebugColor DebugWireframe"
+>
+  <div>
+    <h4
+      className="AfricanWildlifeTracksIllustrationTitle"
+    >
+      Footprints (spoor)
+    </h4>
+    <h5
+      className="AfricanWildlifeTracksIllustrationSubtitle"
+    >
+      Identify the spoor of these animals
+    </h5>
+    <div
+      className="ui five column grid"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="column"
+        >
+          <div
+            className="AfricanWildlifeTracksIllustrationItemContainer"
+          >
+            <div
+              className="AfricanWildlifeTracksIllustrationTextRevealContainer"
+            >
+              <div
+                style={
+                  Object {
+                    "position": "absolute",
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="Spoor_Track_Cheetah.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "#feb628",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Cheetah
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="column"
+        >
+          <div
+            className="AfricanWildlifeTracksIllustrationItemContainer"
+          >
+            <div
+              className="AfricanWildlifeTracksIllustrationTextRevealContainer"
+            >
+              <div
+                style={
+                  Object {
+                    "position": "absolute",
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="Spoor_Track_Leopard.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "#feb628",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Leopard
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="column"
+        >
+          <div
+            className="AfricanWildlifeTracksIllustrationItemContainer"
+          >
+            <div
+              className="AfricanWildlifeTracksIllustrationTextRevealContainer"
+            >
+              <div
+                style={
+                  Object {
+                    "position": "absolute",
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="Spoor_Track_Lion.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "#feb628",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Lion
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="column"
+        >
+          <div
+            className="AfricanWildlifeTracksIllustrationItemContainer"
+          >
+            <div
+              className="AfricanWildlifeTracksIllustrationTextRevealContainer"
+            >
+              <div
+                style={
+                  Object {
+                    "position": "absolute",
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="Spoor_Track_Spotted_Hyena.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "#feb628",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Spotted hyena
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="column"
+        >
+          <div
+            className="AfricanWildlifeTracksIllustrationItemContainer"
+          >
+            <div
+              className="AfricanWildlifeTracksIllustrationTextRevealContainer"
+            >
+              <div
+                style={
+                  Object {
+                    "position": "absolute",
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="Spoor_Track_Wild_Dog.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "#feb628",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        African wild dog
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
