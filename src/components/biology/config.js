@@ -188,18 +188,33 @@ export const config = {
         subsection_FeetAndClaws: {
           title: "Feet and Claws",
           contents: {
-            paragraph_FeetAndClaws_01:
-              "Cheetah’s foot pads are hard and less rounded than the other cats. " +
-              "The pad function like tire threads providing them with increased traction in fast, sharp turns.",
-            paragraph_FeetAndClaws_02:
-              "The short blunt claws work like the cleats on a track shoe. They grip the ground for " +
-              "traction when running and help increase speed.",
-            paragraph_FeetAndClaws_03:
-              "Cheetah’s claws are semi-retractable, meaning they do not completely retract like the claws " +
-              "of other cats. The foot structure of the cheetah is very dog-like.",
-            paragraph_FeetAndClaws_04:
-              "The dewclaws of the cheetah are located on the upper inside area of the front foot. " +
-              "These are sharp and frequently used to hook and hold prey."
+            part_Foot: {
+              title: "Foot",
+              content: {
+                paragraph_01:
+                  "Cheetah’s foot pads are hard and less rounded than the other cats. " +
+                  "The pad function like tire threads providing them with increased traction in fast, sharp turns.",
+              }
+            },
+            part_Claw: {
+              title: "Claw",
+              content: {
+                paragraph_01:
+                  "The short blunt claws work like the cleats on a track shoe. They grip the ground for " +
+                  "traction when running and help increase speed.",
+                paragraph_02:
+                  "Cheetah’s claws are semi-retractable, meaning they do not completely retract like the claws " +
+                  "of other cats. The foot structure of the cheetah is very dog-like.",
+              }
+            },
+            part_Dewclaw: {
+              title: "Dewclaw",
+              content: {
+                paragraph_FeetAndClaws_04:
+                  "The dewclaws of the cheetah are located on the upper inside area of the front foot. " +
+                  "These are sharp and frequently used to hook and hold prey."
+              }
+            }
           }
         },
         subsection_Skull: {
