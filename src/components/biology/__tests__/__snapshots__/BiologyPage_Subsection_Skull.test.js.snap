@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BiologyPageSubsectionSkull component snapshot 1`] = `
+<div
+  className=""
+>
+  <div
+    className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+  >
+    <div
+      className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+    >
+      <h3
+        className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+      >
+        Skull
+      </h3>
+      <div
+        className=""
+      >
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+        >
+          All predators have specialized features for catching and kill prey. Predators have large forward facing eye sockets, and large ear cavities that provides space for specialized senses. Although there are differences in skull proportions, carnivore skulls are quite similar.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+        >
+          The cat skulls are different from other carnivore species, as they have a flat nose and enlarge nasal cavity. There is a large area for the strong jaw muscles.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+        >
+          The cheetah has some features that are distinct when compared to the skulls of other cats.
+        </p>
+        <div
+          className="BiologyPageSubsectionSkullCheetahSkullDiagramContainer"
+        >
+          <div>
+            <div
+              className="PopUpLabelledDiagramOuterComponent PopUpLabelledDiagramOuterComponent_DebugColor DebugWireframe"
+              style={
+                Object {
+                  "backgroundImage": "url(cheetah_skull.jpg)",
+                  "height": 573,
+                  "width": 900,
+                }
+              }
+            >
+              <div
+                className="PopUpLabelledDiagramInnerComponent PopUpLabelledDiagramInnerComponent_DebugColor DebugWireframe"
+              >
+                <div
+                  className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+                  style={
+                    Object {
+                      "left": 350,
+                      "top": 160,
+                    }
+                  }
+                >
+                  <button
+                    className="ui blue mini circular icon button"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="plus icon"
+                      onClick={[Function]}
+                    />
+                  </button>
+                </div>
+                <div
+                  className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+                  style={
+                    Object {
+                      "left": 750,
+                      "top": 180,
+                    }
+                  }
+                >
+                  <button
+                    className="ui blue mini circular icon button"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="plus icon"
+                      onClick={[Function]}
+                    />
+                  </button>
+                </div>
+                <div
+                  className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+                  style={
+                    Object {
+                      "left": 500,
+                      "top": 300,
+                    }
+                  }
+                >
+                  <button
+                    className="ui blue mini circular icon button"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="plus icon"
+                      onClick={[Function]}
+                    />
+                  </button>
+                </div>
+                <div
+                  className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+                  style={
+                    Object {
+                      "left": 120,
+                      "top": 220,
+                    }
+                  }
+                >
+                  <button
+                    className="ui blue mini circular icon button"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="plus icon"
+                      onClick={[Function]}
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
