@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BigCatSpotsIllustration component snapshot 1`] = `
+<div
+  className="BigCatSpotsIllustrationOuterContainer BigCatSpotsIllustrationOuterContainer_DebugColor DebugWireframe"
+>
+  <div>
+    <h4
+      className="BigCatSpotsIllustrationTitle"
+    >
+      What Cat am I?
+    </h4>
+    <h5
+      className="BigCatSpotsIllustrationSubtitle"
+    >
+      Identify the cat by looking at coat patterns and colors.
+    </h5>
+    <div
+      className="ui four column grid"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="column"
+        >
+          <div
+            className="BigCatSpotsIllustrationItemContainer"
+          >
+            <div
+              className="BigCatSpotsIllustrationTextRevealDetailedContainer"
+            >
+              <div
+                style={
+                  Object {
+                    "position": "absolute",
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                >
+                  <div
+                    className="ui visible content"
+                  >
+                    <div
+                      className="TextRevealDetailedCoverContainer"
+                    >
+                      <img
+                        className="ui image"
+                        src="pelt_spot_tiger.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                  >
+                    <div
+                      className="TextRevealDetailedContentContainer"
+                      style={
+                        Object {
+                          "backgroundColor": "green",
+                        }
+                      }
+                    >
+                      <img
+                        alt="Tiger"
+                        src="cat_thumbnail_tiger.jpg"
+                      />
+                      <p
+                        className="TextRevealDetailedCaptionText"
+                      >
+                        Tiger
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p
+              className="BigCatSpotsIllustrationHintText"
+            >
+              I live in well-watered grasslands, scrubs, woodlands, or reed beds.
+            </p>
+          </div>
+        </div>
+        <div
+          className="column"
+        >
+          <div
+            className="BigCatSpotsIllustrationItemContainer"
+          >
+            <div
+              className="BigCatSpotsIllustrationTextRevealDetailedContainer"
+            >
+              <div
+                style={
+                  Object {
+                    "position": "absolute",
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                >
+                  <div
+                    className="ui visible content"
+                  >
+                    <div
+                      className="TextRevealDetailedCoverContainer"
+                    >
+                      <img
+                        className="ui image"
+                        src="pelt_spot_jaguar.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                  >
+                    <div
+                      className="TextRevealDetailedContentContainer"
+                      style={
+                        Object {
+                          "backgroundColor": "green",
+                        }
+                      }
+                    >
+                      <img
+                        alt="Jaguar"
+                        src="cat_thumbnail_jaguar.jpg"
+                      />
+                      <p
+                        className="TextRevealDetailedCaptionText"
+                      >
+                        Jaguar
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p
+              className="BigCatSpotsIllustrationHintText"
+            >
+              I'm from South America and live in the jungle.
+            </p>
+          </div>
+        </div>
+        <div
+          className="column"
+        >
+          <div
+            className="BigCatSpotsIllustrationItemContainer"
+          >
+            <div
+              className="BigCatSpotsIllustrationTextRevealDetailedContainer"
+            >
+              <div
+                style={
+                  Object {
+                    "position": "absolute",
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                >
+                  <div
+                    className="ui visible content"
+                  >
+                    <div
+                      className="TextRevealDetailedCoverContainer"
+                    >
+                      <img
+                        className="ui image"
+                        src="pelt_spot_cheetah.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                  >
+                    <div
+                      className="TextRevealDetailedContentContainer"
+                      style={
+                        Object {
+                          "backgroundColor": "green",
+                        }
+                      }
+                    >
+                      <img
+                        alt="Cheetah"
+                        src="cat_thumbnail_cheetah.jpg"
+                      />
+                      <p
+                        className="TextRevealDetailedCaptionText"
+                      >
+                        Cheetah
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p
+              className="BigCatSpotsIllustrationHintText"
+            >
+              I can live anywhere but prefer savannahs.
+            </p>
+          </div>
+        </div>
+        <div
+          className="column"
+        >
+          <div
+            className="BigCatSpotsIllustrationItemContainer"
+          >
+            <div
+              className="BigCatSpotsIllustrationTextRevealDetailedContainer"
+            >
+              <div
+                style={
+                  Object {
+                    "position": "absolute",
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                >
+                  <div
+                    className="ui visible content"
+                  >
+                    <div
+                      className="TextRevealDetailedCoverContainer"
+                    >
+                      <img
+                        className="ui image"
+                        src="pelt_spot_leopard.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                  >
+                    <div
+                      className="TextRevealDetailedContentContainer"
+                      style={
+                        Object {
+                          "backgroundColor": "green",
+                        }
+                      }
+                    >
+                      <img
+                        alt="Leopard"
+                        src="cat_thumbnail_leopard.jpg"
+                      />
+                      <p
+                        className="TextRevealDetailedCaptionText"
+                      >
+                        Leopard
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p
+              className="BigCatSpotsIllustrationHintText"
+            >
+              I can live anywhere that is rich in prey and has thick bush for cover. I'm often seen resting on trees.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

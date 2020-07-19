@@ -1,10 +1,10 @@
 /**
- * BiologyPage_Subsection_FeedAndClaws.js
+ * BiologyPage_Subsection_FeetAndClaws.js
  * Chewbaaka
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 18, 2020
+ * Updated  : Jul 19, 2020
  */
 
 import React from 'react'
@@ -16,6 +16,8 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import {
   ContentPageSubsectionParagraphsJoin
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import AfricanWildlifeTracksIllustration from './AfricanWildlifeTracksIllustration'
 
 import TextBubble from '../shared/TextBubble'
 
@@ -53,6 +55,7 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
         {this.renderPartFootContent(this.state.subsectionConfig.contents["part_Foot"])}
         {this.renderPartClawContent(this.state.subsectionConfig.contents["part_Claw"])}
         {this.renderPartDewclawContent(this.state.subsectionConfig.contents["part_Dewclaw"])}
+        {this.renderSpoorIllustration()}
       </div>
     );
   }
@@ -120,6 +123,14 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
             content={ContentPageSubsectionParagraphsJoin(part.content)}
           />
         </div>
+      </div>
+    );
+  }
+
+  renderSpoorIllustration() {
+    return (
+      <div className="VerticalCushionPadding">
+        <AfricanWildlifeTracksIllustration />
       </div>
     );
   }
