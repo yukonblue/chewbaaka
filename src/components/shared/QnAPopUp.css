@@ -4,34 +4,54 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 06, 2020
+ * Updated  : Jul 19, 2020
  */
 
 div.QnAPopUpContainer {
-  display: inline-block;
-  /* Uncomment line below for debugging. */
-  /* background-color: gray; */
+  width: 180px;
+  height: 60px;
+  position: relative;
+}
+
+div.QnAPopUpContainer_DebugColor {
+  background-color: pink;
 }
 
 div.QnAPopUpMainTextBubbleContainer {
-  margin-left: 60px;
+  width: 256px;
+  height: 256px;
+  position: relative;
+  left: 190px;
+  top: -400px;
+  z-index: 11;
 }
 
 div.QnAPopUpTextSecondaryBubbleContainer {
-  margin-left: 30px;
-  margin-bottom: 10px;
+  width: 45px;
+  height: 45px;
+  position: relative;
+  left: 170px;
+  top: -110px;
+  z-index: 11;
 }
 
 div.QnAPopUpButtonGroupContainer {
   display: inline-block;
-  /* background-color: rgb(255, 166, 0); */
-  /* background-color: rgb(255, 182, 31); */
-}
-
-.QnAPopUpButtonGroupContainer {
+  z-index: 9;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 600;
-  /* color: rgb(255, 182, 31); */
   color: #212529;
+}
+
+div.QnAPopUpButtonGroupContainer_DebugColor {
+  background-color: powderblue;
+}
+
+button.ui.orange.circular.icon.button.QuestionButton {
+  margin-left: 10px;
+}
+
+button.ui.black.circular.icon.button.QuestionButton {
+  margin-left: 10px;
 }

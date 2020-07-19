@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Jul 17, 2020
+ * Updated  : Jul 19, 2020
  */
 
 div.CheetahOlympicsOuterContainer {
@@ -30,12 +30,4 @@ p.CheetahOlympicsSubtitle {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 900;
-}
-
-div.CheetahOlympicsQnAPopUpContainer {
-  /**
-   * TODO: This is such a hack. Explore a better solution.
-   */
-  margin-top: -200px;
-  margin-left: 160px;
 }

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Jul 17, 2020
+ * Updated  : Jul 19, 2020
  */
 
 import React from 'react'
@@ -117,6 +117,10 @@ export default class CheetahOlympics extends React.Component {
     },
   ]
 
+  static _DID_YOU_KNOW_ = "The pronghorn antelope is the fastest land animal in North America. " +
+                          "When the first cheetahs ancestors roamed on the continent, " +
+                          "they used to prey on pronghorn antelopes.";
+
   render() {
     return (
       <div className="CheetahOlympicsOuterContainer">
@@ -136,9 +140,9 @@ export default class CheetahOlympics extends React.Component {
             items={CheetahOlympics.__ITEMS__}
           />
         </div>
-        <div className="CheetahOlympicsQnAPopUpContainer">
+        <div>
           <QnAPopUp
-            content="The pronghorn antelope is the fastest land animal in North America. When the first cheetahs ancestors roamed in North America, they used to prey on pronghorn antelopes."
+            content={CheetahOlympics._DID_YOU_KNOW_}
           />
         </div>
       </div>

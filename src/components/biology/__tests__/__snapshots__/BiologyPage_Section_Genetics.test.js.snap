@@ -1,0 +1,355 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BiologyPageSectionGenetics component snapshot 1`] = `
+<div>
+  <div
+    className="ContentPageSectionTemplateOuterContainer ContentPageSectionTemplateOuterContainer_DebugColor DebugWireframe"
+  >
+    <div>
+      <div
+        className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+      >
+        <div
+          className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+        >
+          <h3
+            className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+          />
+          <div
+            className="ContentPageSectionHeadOuterContainer"
+          >
+            <div
+              data-testid="ContentPageSectionAnchorComponentTestId"
+              id="genetics"
+            />
+            <div
+              className="ContentPageSectionHeadInnerContainer ContentPageSectionHeadInnerContainer_DebugColor DebugWireframe"
+            >
+              <div
+                className="ContentPageSectionHeadTitleContainer ContentPageSectionHeadTitleContainer_DebugColor DebugWireframe"
+              >
+                <h2
+                  className="ContentPageSectionHeadTitle ContentPageSectionHeadTitle_DebugColor DebugWireframe"
+                >
+                  Genetics
+                </h2>
+              </div>
+              <div
+                className="ContentPageIntroParagraphContentContainer"
+              >
+                <p
+                  className="ContentPageSectionSubtitleText"
+                >
+                  Cheetahs exhibit a number of physiological abnormalities because of the genetic bottlenecks that the species have gone through in its history and evolution, with the most recently one being only about 10,000 years ago. Therefore, understanding the genetics of the species is crucial in both saving individuals as well as larger populations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ContentPageSectionTemplateInnerContainer ContentPageSectionTemplateInnerContainer_DebugColor DebugWireframe"
+    >
+      <div>
+        <div
+          className=""
+        >
+          <div
+            className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+          >
+            <div
+              className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+            >
+              <h3
+                className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+              >
+                Genetic Confusion
+              </h3>
+              <div>
+                <div
+                  className="OverflowHidden VerticalCushionPadding"
+                >
+                  <div
+                    className="FloatRight"
+                  >
+                    <div
+                      className="RightMargin50px"
+                    >
+                      <div
+                        className="TextBubbleOuterContainer"
+                        style={
+                          Object {
+                            "backgroundColor": "rgb(254,182,40)",
+                            "height": 520,
+                            "width": 520,
+                          }
+                        }
+                      >
+                        <div
+                          className="TextBubbleInnerContainer"
+                        >
+                          <div
+                            className="TextBubbleInnerCore"
+                          >
+                            <h1
+                              style={
+                                Object {
+                                  "color": "rgb(undefined)",
+                                  "fontSize": 41.6,
+                                }
+                              }
+                            >
+                              How does this relate to the cheetah?
+                            </h1>
+                            <p
+                              style={
+                                Object {
+                                  "color": "rgb(undefined)",
+                                  "fontSize": 21,
+                                }
+                              }
+                            >
+                              Cheetahs are very closely related and have a low genetic diversity. This is due to the drastic reduction in their numbers when the population bottleneck occurred. This inbreeding and low genetic diversity may cause abnormalities.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                    >
+                      Genes are the components of living cells that pass down inherited characteristics such as brown eyes or curly hair in humans.
+                    </p>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                    >
+                      Genetic diversity is the variety of genes in an organism or in a population. Diversity increases the likelihood that a given species can adapt and survive catastrophes such as sudden environmental changes or exposure to new diseases.
+                    </p>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                    >
+                      Diversity is reduced when inbreeding occurs. This means members of the same family or close relatives breed only among themselves.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          <div
+            className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+          >
+            <div
+              className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+            >
+              <h3
+                className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+              >
+                Abnormalities
+              </h3>
+              <div>
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                >
+                  CCF collects data to monitor cheetah genetics, physical qualities and reproduction. Body measurements, blood, and skin samples help evaluate overall health. CCF has recorded the following abnormalities in wild Namibian cheetahs.
+                </p>
+                <div
+                  className="VerticalCushionPadding"
+                >
+                  <div
+                    className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
+                  >
+                    <div
+                      className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+                    >
+                      <div>
+                        <div
+                          className="ui vertically divided grid"
+                        >
+                          <div
+                            className="two column row"
+                          >
+                            <div
+                              className="column"
+                            >
+                              <div
+                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
+                              >
+                                <h2
+                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                >
+                                  Crowded Lower Incisors
+                                </h2>
+                                <p
+                                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                                >
+                                  Cheetahs use their front teeth (incisors) to rapidly skin their prey. Some cheetahs have very crowded and crooked front teeth. This abnormality decreases the amount of meat the cheetah can quickly eat before another predator steals the kill.
+                                </p>
+                              </div>
+                            </div>
+                            <div
+                              className="column"
+                            >
+                              <div
+                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
+                              >
+                                <h2
+                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                >
+                                  Birth Defects
+                                </h2>
+                                <p
+                                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                                >
+                                  Congenital (Genetic) Birth Defects, such as five legged and two-headed cubs are often reported in cheetahs and cause high infant mortality. Defects are a result of low genetic diversity. This problem is also reported in other inbred species.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="VerticalCushionPadding"
+                >
+                  <div
+                    className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
+                  >
+                    <div
+                      className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+                    >
+                      <div>
+                        <div
+                          className="ui vertically divided grid"
+                        >
+                          <div
+                            className="two column row"
+                          >
+                            <div
+                              className="column"
+                            >
+                              <div
+                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
+                              >
+                                <h2
+                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                >
+                                  Focal Palatine Erosion
+                                </h2>
+                                <p
+                                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                                >
+                                  This abnormality occurs when the lower molar (back teeth) damage and break through the upper palate (roof of mouth). Dental impressions and skull X-rays allow CCF to relate problems with information on generics, health, diet, and geographic origin of affected cheetahs. Palatine erosion is reported in both captive and wild cheetahs and can lead to fatal infection.
+                                </p>
+                              </div>
+                            </div>
+                            <div
+                              className="column"
+                            >
+                              <div
+                                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
+                              >
+                                <h2
+                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                >
+                                  Abnormal Sperm
+                                </h2>
+                                <p
+                                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                                >
+                                  A high frequency of sperm abnormalities (71%) first alerted researchers to the genetic problems of cheetahs. Cheetahs have a very low sperm count - 10 times lower than a domestic cat. Sperm abnormalities usually indicate a high level of inbreeding in the population. Cheetahs breed normally despite this problem and long term monitoring will follow their success rate.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="OverflowHidden VerticalCushionPadding"
+                >
+                  <div
+                    className="FloatRight"
+                  >
+                    <div
+                      className="ImageViewOuterContainer"
+                    >
+                      <div
+                        className="ImageViewInnerContainer"
+                      >
+                        <div
+                          className="ImageViewCore"
+                        >
+                          <img
+                            alt="Kinked tail."
+                            className="ImageViewImg"
+                            src="cheetah_kinked_tail.jpg"
+                            style={
+                              Object {
+                                "height": 427,
+                                "width": 640,
+                              }
+                            }
+                          />
+                          <div
+                            data-testid="ImageViewComponentCaptionPart"
+                          >
+                            <div
+                              className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                              data-testid="CaptionComponentTestId"
+                              style={
+                                Object {
+                                  "width": 640,
+                                }
+                              }
+                            >
+                              <div
+                                className="IconContainer IconContainer_DebugColor DebugWireframe"
+                              >
+                                <i
+                                  aria-hidden="true"
+                                  className="image icon"
+                                  onClick={[Function]}
+                                />
+                              </div>
+                              <p
+                                className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                              >
+                                Kinked tail.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h2
+                    className="ContentPageSubsectionColumnContentTitle"
+                  >
+                    Kinked Tails
+                  </h2>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                  >
+                    Crooked tails have been recorded in 19% of the Namibian cheetahs evaluated since 1995. This is the first documentation of this abnormality in wild cheetahs and could be linked to a lack of genetic diversity.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

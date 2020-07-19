@@ -2,66 +2,30 @@
 
 exports[`QnAPopUp component snapshot 1`] = `
 <div
-  className="QnAPopUpContainer"
+  className="QnAPopUpContainer QnAPopUpContainer_DebugColor DebugWireframe"
 >
   <div
-    className="QnAPopUpMainTextBubbleContainer"
-    style={
-      Object {
-        "height": 256,
-        "width": 256,
-      }
-    }
+    className="QnAPopUpButtonGroupContainer QnAPopUpButtonGroupContainer_DebugColor DebugWireframe"
   >
     <div
-      className="TextBubbleOuterContainer"
-      hidden={true}
-      style={
-        Object {
-          "backgroundColor": "rgb(undefined)",
-          "height": 256,
-          "width": 256,
-        }
-      }
+      className="ui blue large label"
+      onClick={[Function]}
     >
-      <div
-        className="TextBubbleInnerContainer"
+      Did You Know
+      <button
+        className="ui orange circular icon button QuestionButton"
+        onClick={[Function]}
       >
-        <div
-          className="TextBubbleInnerCore"
-        >
-          <h1
-            style={
-              Object {
-                "color": "rgb(undefined)",
-                "fontSize": 20.48,
-              }
-            }
-          >
-            Did you know?
-          </h1>
-          <p
-            style={
-              Object {
-                "color": "rgb(undefined)",
-                "fontSize": 12.8,
-              }
-            }
-          >
-            The cheetah is the fastest land animal!
-          </p>
-        </div>
-      </div>
+        <i
+          aria-hidden="true"
+          className="question icon"
+          onClick={[Function]}
+        />
+      </button>
     </div>
   </div>
   <div
-    className="QnAPopUpTextSecondaryBubbleContainer"
-    style={
-      Object {
-        "height": 45,
-        "width": 45,
-      }
-    }
+    className="QnAPopUpTextSecondaryBubbleContainer QnAPopUpTextSecondaryBubbleContainer_DebugColor DebugWireframe"
   >
     <div
       className="TextBubbleOuterContainer"
@@ -105,18 +69,48 @@ exports[`QnAPopUp component snapshot 1`] = `
     </div>
   </div>
   <div
-    className="QnAPopUpButtonGroupContainer"
+    className="QnAPopUpMainTextBubbleContainer QnAPopUpMainTextBubbleContainer_DebugColor DebugWireframe"
   >
-    <button
-      className="ui orange circular icon button QuestionButton"
-      onClick={[Function]}
+    <div
+      className="TextBubbleOuterContainer"
+      hidden={true}
+      style={
+        Object {
+          "backgroundColor": "rgb(undefined)",
+          "height": 256,
+          "width": 256,
+        }
+      }
     >
-      <i
-        aria-hidden="true"
-        className="question icon"
-        onClick={[Function]}
-      />
-    </button>
+      <div
+        className="TextBubbleInnerContainer"
+      >
+        <div
+          className="TextBubbleInnerCore"
+        >
+          <h1
+            style={
+              Object {
+                "color": "rgb(undefined)",
+                "fontSize": 20.48,
+              }
+            }
+          >
+            Did you know?
+          </h1>
+          <p
+            style={
+              Object {
+                "color": "rgb(undefined)",
+                "fontSize": 12.8,
+              }
+            }
+          >
+            The cheetah is the fastest land animal!
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;
