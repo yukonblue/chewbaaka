@@ -264,6 +264,121 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
               <h3
                 className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
               >
+                Learning to Hunt
+              </h3>
+              <div
+                className="OverflowHidden VerticalCushionPadding"
+              >
+                <div
+                  className="FloatRight"
+                >
+                  <div
+                    className="ImageViewOuterContainer"
+                  >
+                    <div
+                      className="ImageViewInnerContainer"
+                    >
+                      <div
+                        className="ImageViewCore"
+                      >
+                        <img
+                          alt="Cheetah cubs learning how to hunt."
+                          className="ImageViewImg"
+                          src="cheetah_cubs_learning_hunting.jpg"
+                          style={
+                            Object {
+                              "height": 480,
+                              "width": 720,
+                            }
+                          }
+                        />
+                        <div
+                          data-testid="ImageViewComponentCaptionPart"
+                        >
+                          <div
+                            className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                            data-testid="CaptionComponentTestId"
+                            style={
+                              Object {
+                                "width": 720,
+                              }
+                            }
+                          >
+                            <div
+                              className="IconContainer IconContainer_DebugColor DebugWireframe"
+                            >
+                              <i
+                                aria-hidden="true"
+                                className="image icon"
+                                onClick={[Function]}
+                              />
+                            </div>
+                            <p
+                              className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                            >
+                              Cheetah cubs learning how to hunt.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="TextBubbleOuterContainer"
+                  style={
+                    Object {
+                      "backgroundColor": "rgb(undefined)",
+                      "height": 520,
+                      "width": 520,
+                    }
+                  }
+                >
+                  <div
+                    className="TextBubbleInnerContainer"
+                  >
+                    <div
+                      className="TextBubbleInnerCore"
+                    >
+                      <h1
+                        style={
+                          Object {
+                            "color": "rgb(undefined)",
+                            "fontSize": 41.6,
+                          }
+                        }
+                      >
+                        Learning to Hunt
+                      </h1>
+                      <p
+                        style={
+                          Object {
+                            "color": "rgb(undefined)",
+                            "fontSize": 21,
+                          }
+                        }
+                      >
+                        The mother brings live prey, such as a young gazelle, to the 9 to 12 month old cubs. She releases it in front of them and the cubs attempt to catch it. This allows the cubs to practice their hunting skills while still under her supervision. Accurate timing and coordination during a hunt are important for their future survival.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          <div
+            className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+          >
+            <div
+              className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+            >
+              <h3
+                className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+              >
                 Stage 3
               </h3>
               <div

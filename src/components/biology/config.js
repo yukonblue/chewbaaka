@@ -91,6 +91,17 @@ export const config = {
               "experiences they have during this stage will teach them skills needed to survive on their own."
           }
         },
+        subsection_LearningToHunt: {
+          title: "Learning to Hunt",
+          contents: {
+            paragraph_01:
+              "The mother brings live prey, such as a young gazelle, to the 9 to 12 month old cubs. " +
+              "She releases it in front of them and the cubs attempt to catch it.",
+            paragraph_02:
+              "This allows the cubs to practice their hunting skills while still under her supervision. " +
+              "Accurate timing and coordination during a hunt are important for their future survival."
+          }
+        },
         subsection_Lifecycle_Stage_3: {
           title: "Stage 3",
           contents: {
