@@ -17,7 +17,7 @@ import ContentPageIntroSectionTemplate from '../shared/ContentPageIntroSectionTe
 
 import './BiologyPageIntroSection.css'
 
-import image_cheetah_skeleton from './assets/Cheetah_Skeleton_Transparent_720x360.png'
+import image_cheetah_skeleton from './assets/Cheetah_Skeleton_Transparent_720x406.png'
 
 export default class BiologyPageIntroSection extends React.Component {
 

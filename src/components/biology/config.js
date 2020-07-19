@@ -25,15 +25,15 @@ export const config = {
   },
   contentPageIntro: {
     title: "Cheetah Biology",
-    content: "The evolution and history of the cheetah are just as remarkable and " +
-          "interesting as the species itself. Its evolution goes back to nearly " +
-          "7 million years ago in time and spanned almost all the continents on the planet, " +
-          "and its history with human interactions goes as far back as to 32000 BCE. " +
-          "The cheetah have been a symbol of significant meaning in different civilizations and " +
-          "cultures across thousands of years of human history. Even up to this day, " +
-          "the cheetah continues to be considered as a spiritual animal that manifests " +
-          "as a symbol of a multitude of positive characteristics, such as adaptability, " +
-          "persistence, and focus."
+    content: "The cheetah is a truly unique animal. Being the world's fastest land animal, it is built for speed. " +
+            "An acceleration from 0 to 84 km/hr in just 3 seconds, with a full speed of 110 km/hr, means that the " +
+            "cheetah can out-perform a sports car. Cheetahs are markedly different in both anatomy and behavior " +
+            "from the other 36 species of cats. They are the only species in their genus. " +
+            "They have evolved for speed versus power and aggression. Their bodies are lightweight in comparing with " +
+            "the build of other big cats. They rely on their speed and skills for survival. The genus name, Acinonyx, " +
+            "is interpreted as “non-moving claws”, referring to the semi-retractable claws. " +
+            "The species name, “jubatus”, means “maned”, referring to the mantle on a young cheetah’s back. " +
+            "The English word, “cheetah”, comes from the Hindu word “chita” meaning the “spotted one”."
   },
   contentPageSections: {
     section_Lifecycle: {
