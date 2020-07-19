@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 18, 2020
- * Updated  : Jul 18, 2020
+ * Updated  : Jul 19, 2020
  */
 
 import React from 'react'
@@ -57,11 +57,13 @@ export default class BiologyPageSubsectionLearningToHunt extends React.Component
           />
         </div>
 
-        <TextBubble
-          diameter={520}
-          title={this.state.subsectionConfig.title}
-          content={ContentPageSubsectionParagraphsJoin(this.state.subsectionConfig.contents)}
-        />
+        <div className="LeftMargin50px">
+          <TextBubble
+            diameter={520}
+            title={this.state.subsectionConfig.title}
+            content={ContentPageSubsectionParagraphsJoin(this.state.subsectionConfig.contents)}
+          />
+        </div>
       </div>
     );
   }
