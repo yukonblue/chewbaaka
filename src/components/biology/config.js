@@ -398,7 +398,10 @@ export const config = {
     section_Genetics: {
       intro: {
         title: "Genetics",
-        content: "TBD ..."
+        content: "Cheetahs exhibit a number of physiological abnormalities because " +
+                "of the genetic bottlenecks that the species have gone through in its history and evolution, " +
+                "with the most recently one being only about 10,000 years ago. Therefore, understanding the " +
+                "genetics of the species is crucial in both saving individuals as well as larger populations."
       },
       subsections: {
         subsection_Genetic_Confusion: {
