@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 06, 2020
+ * Updated  : Jul 19, 2020
  */
 
 /**
@@ -18,17 +18,19 @@
  *  - `content`: The content text of the illustrated answer/fact.
  */
 
-import React from 'react';
+import React from 'react'
 
-import "semantic-ui-css/semantic.min.css";
+import { Button, Label } from 'semantic-ui-react'
 
-import { Button } from 'semantic-ui-react'
+import "semantic-ui-css/semantic.min.css"
+
+import { getElementStyleClassName } from '../../styling/styling'
 
 import './QnAPopUp.css'
 
 import TextBubble from './TextBubble'
 
-class QnAPopUp extends React.Component {
+export default class QnAPopUp extends React.Component {
 
   constructor(props) {
     super(props);
@@ -46,20 +48,36 @@ class QnAPopUp extends React.Component {
 
   render() {
     return (
-      <div className="QnAPopUpContainer">
-        <div className="QnAPopUpMainTextBubbleContainer" style={{width: 256, height:256}}>
-          <TextBubble hidden={!this.state.isOpen} diameter={256} title="Did you know?" content={this.props.content}/>
+      <div className={getElementStyleClassName("QnAPopUpContainer")}>
+        <div className={getElementStyleClassName("QnAPopUpButtonGroupContainer")}>
+          <Label size="large" color="blue">
+            Did You Know 
+            <Button
+              className="QuestionButton"
+              circular
+              icon="question"
+              color={this.state.isOpen ? "black" : "orange"}
+              onClick={this.handleToggle}
+            />
+          </Label>
         </div>
-        <div className="QnAPopUpTextSecondaryBubbleContainer" style={{width: 45, height:45}}>
-          <TextBubble hidden={!this.state.isOpen} diameter={45} title="" content=""/>
+        <div className={getElementStyleClassName("QnAPopUpTextSecondaryBubbleContainer")}>
+          <TextBubble
+            hidden={!this.state.isOpen}
+            diameter={45}
+            title=""
+            content=""
+          />
         </div>
-        <div className="QnAPopUpButtonGroupContainer">
-          <Button className="QuestionButton" circular icon="question" color={this.state.isOpen ? "black" : "orange"} onClick={this.handleToggle} />
-          {/* <span>Did you know?</span> */}
+        <div className={getElementStyleClassName("QnAPopUpMainTextBubbleContainer")}>
+          <TextBubble
+            hidden={!this.state.isOpen}
+            diameter={256}
+            title="Did you know?"
+            content={this.props.content}
+          />
         </div>
       </div>
     );
   }
 }
-
-export default QnAPopUp;
