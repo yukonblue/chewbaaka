@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 18, 2020
- * Updated  : Jul 18, 2020
+ * Updated  : Jul 19, 2020
  */
 
 import React from 'react'
@@ -12,6 +12,12 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+
+import {
+  ContentPageSubsectionParagraphsContentBinder,
+} from '../shared/ContentPageSubsectionContentBinder'
+
+import TextBubble from '../shared/TextBubble'
 
 export default class BiologyPageSubsectionGeneticConfusion extends React.Component {
 
@@ -38,7 +44,34 @@ export default class BiologyPageSubsectionGeneticConfusion extends React.Compone
   renderContent() {
     return (
       <div>
-        TBD ... something about Genetic Confusion
+        {this.renderSection1Content()}
+      </div>
+    );
+  }
+
+  renderSection1Content() {
+    return (
+      <div className="OverflowHidden VerticalCushionPadding">
+        <div className="FloatRight">
+          {this.renderHighlightedSectionContent()}
+        </div>
+        <div>
+          {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents["part_Main_Content"].content)}
+        </div>
+      </div>
+    );
+  }
+
+  renderHighlightedSectionContent() {
+    const part = this.state.subsectionConfig.contents["part_How_This_Related_to_Cheetah"];
+    return (
+      <div className="RightMargin50px">
+        <TextBubble
+          diameter={520}
+          backgroundColorRGB={[254,182,40]}
+          title={part.title}
+          content={part.content}
+        />
       </div>
     );
   }

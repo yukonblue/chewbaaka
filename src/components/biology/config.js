@@ -404,6 +404,26 @@ export const config = {
         subsection_Genetic_Confusion: {
           title: "Genetic Confusion",
           contents: {
+            part_Main_Content: {
+              content: {
+                paragraph_01:
+                  "Genes are the components of living cells that pass down inherited " +
+                  "characteristics such as brown eyes or curly hair in humans.",
+                paragraph_02:
+                  "Genetic diversity is the variety of genes in an organism or in a population. " +
+                  "Diversity increases the likelihood that a given species can adapt and survive " +
+                  "catastrophes such as sudden environmental changes or exposure to new diseases.",
+                paragraph_03:
+                  "Diversity is reduced when inbreeding occurs. This means members of the same family " +
+                  "or close relatives breed only among themselves."
+              }
+            },
+            part_How_This_Related_to_Cheetah: {
+              title: "How does this relate to the cheetah?",
+              content: "Cheetahs are very closely related and have a low genetic diversity. " +
+                      "This is due to the drastic reduction in their numbers when the population bottleneck occurred. " +
+                      "This inbreeding and low genetic diversity may cause abnormalities."
+            }
           }
         },
         subsection_Abnormalities: {
