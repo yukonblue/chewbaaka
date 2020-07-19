@@ -16,6 +16,7 @@ import BiologyPageSubsectionLifecycleStage1 from './BiologyPage_Subsection_Lifec
 import BiologyPageSubsectionLifecycleStage2 from './BiologyPage_Subsection_Lifecycle_Stage_2'
 import BiologyPageSubsectionLifecycleStage3 from './BiologyPage_Subsection_Lifecycle_Stage_3'
 import BiologyPageSubsectionLifecycleStage4 from './BiologyPage_Subsection_Lifecycle_Stage_4'
+import BiologyPageSubsectionLearningToHunt from './BiologyPage_Subsection_LearningToHunt'
 import BiologyPageSubsectionFindingMate from './BiologyPage_Subsection_FindingMate'
 import BiologyPageSubsectionLivingFastDyingYoung from './BiologyPage_Subsection_LivingFastDyingYoung'
 
@@ -51,6 +52,10 @@ export default class BiologyPageSectionLifecyle extends React.Component {
         />
 
         <BiologyPageSubsectionLifecycleStage2
+          sectionConfig={this.state.sectionConfig}
+        />
+
+        <BiologyPageSubsectionLearningToHunt
           sectionConfig={this.state.sectionConfig}
         />
 

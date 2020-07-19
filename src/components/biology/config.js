@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 18, 2020
+ * Updated  : Jul 19, 2020
  */
 
 export const config = {
@@ -20,6 +20,10 @@ export const config = {
       {
         title: "Physiology",
         tocImageFilename: "biology_page_toc_menu_img_02.jpg"
+      },
+      {
+        title: "Genetics",
+        tocImageFilename: "biology_page_toc_menu_img_03.jpg"
       }
     ],
   },
@@ -89,6 +93,17 @@ export const config = {
               "They stop drinking their mother’s milk at 3 to 4 months of age. " +
               "They start eating meat and learning to hunt. The games they play and the " +
               "experiences they have during this stage will teach them skills needed to survive on their own."
+          }
+        },
+        subsection_LearningToHunt: {
+          title: "Learning to Hunt",
+          contents: {
+            paragraph_01:
+              "The mother brings live prey, such as a young gazelle, to the 9 to 12 month old cubs. " +
+              "She releases it in front of them and the cubs attempt to catch it.",
+            paragraph_02:
+              "This allows the cubs to practice their hunting skills while still under her supervision. " +
+              "Accurate timing and coordination during a hunt are important for their future survival."
           }
         },
         subsection_Lifecycle_Stage_3: {
@@ -380,5 +395,84 @@ export const config = {
         }
       }
     },
+    section_Genetics: {
+      intro: {
+        title: "Genetics",
+        content: "TBD ..."
+      },
+      subsections: {
+        subsection_Genetic_Confusion: {
+          title: "Genetic Confusion",
+          contents: {
+            part_Main_Content: {
+              content: {
+                paragraph_01:
+                  "Genes are the components of living cells that pass down inherited " +
+                  "characteristics such as brown eyes or curly hair in humans.",
+                paragraph_02:
+                  "Genetic diversity is the variety of genes in an organism or in a population. " +
+                  "Diversity increases the likelihood that a given species can adapt and survive " +
+                  "catastrophes such as sudden environmental changes or exposure to new diseases.",
+                paragraph_03:
+                  "Diversity is reduced when inbreeding occurs. This means members of the same family " +
+                  "or close relatives breed only among themselves."
+              }
+            },
+            part_How_This_Related_to_Cheetah: {
+              title: "How does this relate to the cheetah?",
+              content: "Cheetahs are very closely related and have a low genetic diversity. " +
+                      "This is due to the drastic reduction in their numbers when the population bottleneck occurred. " +
+                      "This inbreeding and low genetic diversity may cause abnormalities."
+            }
+          }
+        },
+        subsection_Abnormalities: {
+          title: "Abnormalities",
+          contents: {
+            part_Intro: {
+              content: "CCF collects data to monitor cheetah genetics, physical qualities and reproduction. " +
+                      "Body measurements, blood, and skin samples help evaluate overall health. " +
+                      "CCF has recorded the following abnormalities in wild Namibian cheetahs."
+            },
+            part_Crowded_Lower_Incisors: {
+              title: "Crowded Lower Incisors",
+              content: "Cheetahs use their front teeth (incisors) to rapidly skin their prey. " +
+                      "Some cheetahs have very crowded and crooked front teeth. " +
+                      "This abnormality decreases the amount of meat the cheetah can " +
+                      "quickly eat before another predator steals the kill."
+            },
+            part_Focal_Palatine_Erosion: {
+              title: "Focal Palatine Erosion",
+              content: "This abnormality occurs when the lower molar (back teeth) damage and break " +
+                      "through the upper palate (roof of mouth). Dental impressions and skull X-rays " +
+                      "allow CCF to relate problems with information on generics, health, diet, " +
+                      "and geographic origin of affected cheetahs. Palatine erosion is reported in " +
+                      "both captive and wild cheetahs and can lead to fatal infection."
+            },
+            part_Abnormal_Sperm: {
+              title: "Abnormal Sperm",
+              content: "A high frequency of sperm abnormalities (71%) first alerted researchers to the " +
+                      "genetic problems of cheetahs. Cheetahs have a very low sperm count - 10 times lower " +
+                      "than a domestic cat. Sperm abnormalities usually indicate a high level of inbreeding in " +
+                      "the population. Cheetahs breed normally despite this problem and long term monitoring will " +
+                      "follow their success rate."
+            },
+            part_Birth_Defects: {
+              title: "Birth Defects",
+              content: "Congenital (Genetic) Birth Defects, such as five legged and two-headed cubs are " +
+                      "often reported in cheetahs and cause high infant mortality. " +
+                      "Defects are a result of low genetic diversity. " +
+                      "This problem is also reported in other inbred species."
+            },
+            part_Kinked_Tails: {
+              title: "Kinked Tails",
+              content: "Crooked tails have been recorded in 19% of the Namibian cheetahs evaluated since 1995. " +
+                      "This is the first documentation of this abnormality in wild cheetahs and could be " +
+                      "linked to a lack of genetic diversity."
+            }
+          }
+        }
+      }
+    }
   }
 };

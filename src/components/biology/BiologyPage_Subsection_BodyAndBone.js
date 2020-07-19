@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 18, 2020
+ * Updated  : Jul 19, 2020
  */
 
 import React from 'react'
@@ -74,11 +74,13 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
           <img src={image_cheetah_body_measurements} alt="" />
         </div>
 
-        <TextBubble
-          diameter={520}
-          title={part.title}
-          content={part.contents["paragraph_01"]}
-        />
+        <div className="LeftMargin50px">
+          <TextBubble
+            diameter={520}
+            title={part.title}
+            content={part.contents["paragraph_01"]}
+          />
+        </div>
       </div>
     );
   }
@@ -86,7 +88,7 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
   renderPartTailContent(part) {
     return (
       <div className="OverflowHidden VerticalCushionPadding">
-        <div className="FloatRight">
+        <div className="FloatRight RightMargin50px">
           <TextBubble
             diameter={540}
             title={part.title}
