@@ -395,5 +395,23 @@ export const config = {
         }
       }
     },
+    section_Genetics: {
+      intro: {
+        title: "Genetics",
+        content: "TBD ..."
+      },
+      subsections: {
+        subsection_Genetic_Confusion: {
+          title: "Genetic Confusion",
+          contents: {
+          }
+        },
+        subsection_Abnormalities: {
+          title: "Abnormalities",
+          contents: {
+          }
+        }
+      }
+    }
   }
 };

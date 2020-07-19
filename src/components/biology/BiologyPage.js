@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 16, 2020
+ * Updated  : Jul 18, 2020
  */
 
 import React from 'react';
@@ -18,6 +18,7 @@ import ContentPageTableOfContentMenuBootstrapper from '../shared/ContentPageTabl
 import BiologyPageIntroSection from './BiologyPageIntroSection'
 import BiologyPageSectionLifecyle from './BiologyPage_Section_Lifecycle'
 import BiologyPageSectionPhysiology from './BiologyPage_Section_Physiology'
+import BiologyPageSectionGenetics from './BiologyPage_Section_Genetics'
 
 import { config }  from './config'
 
@@ -52,6 +53,8 @@ export default class FuturePage extends React.Component {
         <BiologyPageSectionLifecyle config={config} />
 
         <BiologyPageSectionPhysiology config={config} />
+
+        <BiologyPageSectionGenetics config={config} />
       </div>
     )
   }
