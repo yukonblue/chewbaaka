@@ -39,7 +39,11 @@ export const config = {
     section_Lifecycle: {
       intro: {
         title: "Lifecycle",
-        content: "A cheetah goes through 4 stages of life in its life."
+        content: "One of the most incredible things about the cheetahs is the remarkable processes and transitions " +
+                "in their lifecycle. From born at an average weight of no more than 350 grams and completely " +
+                "helpless and unable to see, to becoming one of the most skilled predators and the fastest " +
+                "land animal on the planet, nothing speaks more about the incredible adaptations that allow them " +
+                "to survive and thrive in the challenging environments where they live."
       },
       subsections: {
         subsection_Lifecycle_Stage_1: {
