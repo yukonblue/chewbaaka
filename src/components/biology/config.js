@@ -183,7 +183,12 @@ export const config = {
     section_Physiology: {
       intro: {
         title: "Physiology",
-        content: "TBD ..."
+        content: "The uniqueness of the cheetah is not made up of a single trait, but rather a set of traits in its " +
+                "physiology that can be observed from all parts of its body. The skull provides room for jaw muscle " +
+                "needed to tear up meat. The spine provides the flexibility it needs to reach its incredible speeds. " +
+                "The feet and claws facilitates in running, sharp turning, and hunting. The tail provides the balance " +
+                "it needs while pursuing a prey. Read on to discover all the fascinating points about the species' " +
+                "anatomy and physiology."
       },
       subsections: {
         subsection_Anatomy: {
