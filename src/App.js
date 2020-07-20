@@ -4,19 +4,18 @@
  *
  * Author   : Tomiko
  * Created  : Jun 30, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 19, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
-
-import "semantic-ui-css/semantic.min.css";
 
 import HomePage from './components/homepage/HomePage'
 
 import HistoryPage from './components/history/HistoryPage'
 import BiologyPage from './components/biology/BiologyPage'
+import EcologyPage from './components/ecology/EcologyPage'
 import FuturePage from './components/future/FuturePage'
 
 import TestPage from './components/shared/TestPage'
@@ -35,6 +34,9 @@ export default class App extends React.Component {
           </Route>
           <Route exact path='/biology'>
             <BiologyPage />
+          </Route>
+          <Route exact path='/ecology'>
+            <EcologyPage />
           </Route>
           <Route exact path='/future'>
             <FuturePage />
