@@ -207,7 +207,13 @@ export const config = {
       },
       subsections: {
         subsection_Anatomy: {
-          title: "Anatomy"
+          title: "Anatomy",
+          contents: {
+            paragraph_01:
+              "Every part of the cheetah's body work in unison during a high speed run, and the sum of each of their " +
+              "role together is greater than the individual parts. Explore the illustration below to learn about the " +
+              "role and function of each highlighted body part."
+          }
         },
         subsection_FeetAndClaws: {
           title: "Feet and Claws",
