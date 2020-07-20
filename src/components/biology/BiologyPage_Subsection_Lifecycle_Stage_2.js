@@ -7,7 +7,7 @@
  * Updated  : Jul 19, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import '../shared/ContentPageSharedStyles.css'
 

@@ -347,6 +347,25 @@ export const config = {
             }
           }
         },
+        subsection_RipAndTear: {
+          title: "Rip and Tear",
+          contents: {
+            paragraph_RipAndTear_01:
+              "The cheetah’s teeth are adapted to support their eating style. By eating fast, cheetahs avoid losing their prey to other predators.",
+            paragraph_RipAndTear_02:
+              "The canines, “eye teeth” or “fangs”, are used for gripping and hold while the prey is being suffocated. " +
+              "Cheetah’s canines are smaller and less developed than those of the lion or leopard.",
+            paragraph_RipAndTear_03:
+              "The incisors, “front teeth”, are used for plucking fur and skinning the carcasses. " +
+              "Straight and strong incisors are essential for quick access to the meat of the prey.",
+            paragraph_RipAndTear_04:
+              "The carnassial, “back teeth” or “pre molars”, work in scissor like fashion and enable the cheetah to " +
+              "shear large pieces of flesh which are quickly swallowed whole. When using these teeth during feeding, " +
+              "cheetahs hold their heads sideways at an angle to the carcass. These blade like teeth are similar to the " +
+              "lion’s and leopard’s. They do not have the same function as chewing meat as those of the jackal or crushing " +
+              "bones like those of the hyenas."
+          }
+        },
         subsection_OpenWide: {
           title: "Open Wide",
           contents: {
@@ -372,25 +391,49 @@ export const config = {
                 "many hours grooming each other with their tongues. This behavior aids in the social " +
                 "bonding of a cheetah group."
             }
-          }
+          },
         },
-        subsection_RipAndTear: {
-          title: "Rip and Tear",
+        subsection_Communication: {
+          title: "Communication",
           contents: {
-            paragraph_RipAndTear_01:
-              "The cheetah’s teeth are adapted to support their eating style. By eating fast, cheetahs avoid losing their prey to other predators.",
-            paragraph_RipAndTear_02:
-              "The canines, “eye teeth” or “fangs”, are used for gripping and hold while the prey is being suffocated. " +
-              "Cheetah’s canines are smaller and less developed than those of the lion or leopard.",
-            paragraph_RipAndTear_03:
-              "The incisors, “front teeth”, are used for plucking fur and skinning the carcasses. " +
-              "Straight and strong incisors are essential for quick access to the meat of the prey.",
-            paragraph_RipAndTear_04:
-              "The carnassial, “back teeth” or “pre molars”, work in scissor like fashion and enable the cheetah to " +
-              "shear large pieces of flesh which are quickly swallowed whole. When using these teeth during feeding, " +
-              "cheetahs hold their heads sideways at an angle to the carcass. These blade like teeth are similar to the " +
-              "lion’s and leopard’s. They do not have the same function as chewing meat as those of the jackal or crushing " +
-              "bones like those of the hyenas."
+            part_Intro: {
+              paragraph_Communication_01:
+                "Cheetahs communicate in many ways including sound, smell, touch, and sight. Communications may be either threatening or submissive."
+            },
+            part_Volcalizations: {
+              title: "Volcalizations",
+              subtitle: "Cheetahs have many unusual vocalizations. These are some of the most common calls made by cheetahs.",
+              content: {
+                vocalizations: [
+                  {
+                    name: "Purr",
+                    description: "as with domestic cats this sound indicates a friendly and contended mood."
+                  },
+                  {
+                    name: "Chirp",
+                    description: "A high pitched bird-like chirp is used by a mother calling her cubs, cheetahs greeting each other and during courtship. " +
+                                "These calls can be heard over a long distance. The intensity of the chirp increases with excitement."
+                  },
+                  {
+                    name: "Stutter call",
+                    description: "A male on the trail of a female in heat will use this call. It is also used by a mother asking her cubs to follow closely."
+                  },
+                  {
+                    name: "Growling, hissing",
+                    description: "These sounds are associated with defense and aggression. With these vocalizations, " +
+                                "they may lunge and slap the ground, alternatively crouching and growling."
+                  },
+                  {
+                    name: "Bleating",
+                    description: "This sound expresses distress and is similar to meowing."
+                  },
+                  {
+                    name: "Inn-inn",
+                    description: "This call is used by a mother to summon her young and alternates with chirping."
+                  }
+                ]
+              }
+            }
           }
         }
       }
