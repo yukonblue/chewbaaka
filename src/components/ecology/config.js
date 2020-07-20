@@ -39,6 +39,14 @@ export const config = {
       },
       subsections: {
       }
+    },
+    section_Ecomanagement: {
+      intro: {
+        title: "Eco-management",
+        content: "TBD ..."
+      },
+      subsections: {
+      }
     }
   }
 };

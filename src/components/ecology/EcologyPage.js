@@ -16,6 +16,7 @@ import ContentPageSkeleton from '../shared/ContentPageSkeleton'
 import { config }  from './config'
 
 import EcologyPageSectionEcosystemAndHabitat from './EcologyPage_Section_EcosystemAndHabitat'
+import EcologyPageSectionEcomanagement from './EcologyPage_Section_Ecomanagement'
 
 export default class EcologyPage extends React.Component {
 
@@ -34,6 +35,8 @@ export default class EcologyPage extends React.Component {
     return (
       <div>
         <EcologyPageSectionEcosystemAndHabitat config={config}/>
+
+        <EcologyPageSectionEcomanagement config={config} />
       </div>
     )
   }
