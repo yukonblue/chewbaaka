@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BiologyPageSubsectionCommunication component snapshot 1`] = `
+<div>
+  <div
+    className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+  >
+    <div
+      className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+    >
+      <h3
+        className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+      >
+        Communication
+      </h3>
+      <div>
+        <div>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+          >
+            Cheetahs communicate in many ways including sound, smell, touch, and sight. Communications may be either threatening or submissive.
+          </p>
+        </div>
+        <div
+          className="VerticalCushionPadding"
+        >
+          <h4
+            className="ContentPageSubsectionSubtitle"
+          >
+            Volcalizations
+          </h4>
+          <div
+            className="OverflowHidden"
+          >
+            <div
+              className="FloatRight"
+            >
+              <div
+                className="TextBubbleOuterContainer"
+                style={
+                  Object {
+                    "backgroundColor": "rgb(187,143,206)",
+                    "height": 320,
+                    "width": 320,
+                  }
+                }
+              >
+                <div
+                  className="TextBubbleInnerContainer"
+                >
+                  <div
+                    className="TextBubbleInnerCore"
+                  >
+                    <h1
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 25.6,
+                        }
+                      }
+                    >
+                      Volcalizations
+                    </h1>
+                    <p
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 16,
+                        }
+                      }
+                    >
+                      Cheetahs have many unusual vocalizations. These are some of the most common calls made by cheetahs.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className=""
+            >
+              <ul>
+                <li
+                  className="ContentPageBulletTextStyle"
+                >
+                  <b>
+                    Purr
+                  </b>
+                   - as with domestic cats this sound indicates a friendly and contended mood.
+                </li>
+                <li
+                  className="ContentPageBulletTextStyle"
+                >
+                  <b>
+                    Chirp
+                  </b>
+                   - A high pitched bird-like chirp is used by a mother calling her cubs, cheetahs greeting each other and during courtship. These calls can be heard over a long distance. The intensity of the chirp increases with excitement.
+                </li>
+                <li
+                  className="ContentPageBulletTextStyle"
+                >
+                  <b>
+                    Stutter call
+                  </b>
+                   - A male on the trail of a female in heat will use this call. It is also used by a mother asking her cubs to follow closely.
+                </li>
+                <li
+                  className="ContentPageBulletTextStyle"
+                >
+                  <b>
+                    Growling, hissing
+                  </b>
+                   - These sounds are associated with defense and aggression. With these vocalizations, they may lunge and slap the ground, alternatively crouching and growling.
+                </li>
+                <li
+                  className="ContentPageBulletTextStyle"
+                >
+                  <b>
+                    Bleating
+                  </b>
+                   - This sound expresses distress and is similar to meowing.
+                </li>
+                <li
+                  className="ContentPageBulletTextStyle"
+                >
+                  <b>
+                    Inn-inn
+                  </b>
+                   - This call is used by a mother to summon her young and alternates with chirping.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <a
+              href="https://www.youtube.com/watch?v=3kFl_TY3iUg"
+            >
+              <button
+                className="ui blue icon button"
+                onClick={[Function]}
+              >
+                Cheetah Awareness Day - Vocalizations | YouTube
+                <i
+                  aria-hidden="true"
+                  className="file video icon"
+                  onClick={[Function]}
+                />
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
