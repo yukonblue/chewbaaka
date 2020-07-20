@@ -14,11 +14,15 @@ export const config = {
     subtitle: "Subtitle TBD ...",
     pageMenuItems: [
       {
-        title: "TBD ...",
+        title: "Ecosystem and Habitat",
         tocImageFilename: ""
       },
       {
-        title: "TBD ...",
+        title: "Research",
+        tocImageFilename: ""
+      },
+      {
+        title: "Eco-management",
         tocImageFilename: ""
       }
     ],
