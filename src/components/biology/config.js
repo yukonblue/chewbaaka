@@ -397,8 +397,10 @@ export const config = {
           title: "Communication",
           contents: {
             part_Intro: {
-              paragraph_Communication_01:
-                "Cheetahs communicate in many ways including sound, smell, touch, and sight. Communications may be either threatening or submissive."
+              content: {
+                paragraph_Communication_01:
+                  "Cheetahs communicate in many ways including sound, smell, touch, and sight. Communications may be either threatening or submissive."
+              }
             },
             part_Volcalizations: {
               title: "Volcalizations",
