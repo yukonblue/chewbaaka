@@ -18,13 +18,13 @@ export const config = {
         tocImageFilename: ""
       },
       {
-        title: "Research",
+        title: "Eco-management",
         tocImageFilename: ""
       },
       {
-        title: "Eco-management",
+        title: "Research",
         tocImageFilename: ""
-      }
+      },
     ],
   },
   contentPageIntro: {
@@ -43,6 +43,14 @@ export const config = {
     section_Ecomanagement: {
       intro: {
         title: "Eco-management",
+        content: "TBD ..."
+      },
+      subsections: {
+      }
+    },
+    section_Research: {
+      intro: {
+        title: "Research",
         content: "TBD ..."
       },
       subsections: {

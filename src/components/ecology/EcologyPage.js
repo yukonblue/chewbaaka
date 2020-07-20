@@ -17,6 +17,7 @@ import { config }  from './config'
 
 import EcologyPageSectionEcosystemAndHabitat from './EcologyPage_Section_EcosystemAndHabitat'
 import EcologyPageSectionEcomanagement from './EcologyPage_Section_Ecomanagement'
+import EcologyPageSectionResearch from './EcologyPage_Section_Research'
 
 export default class EcologyPage extends React.Component {
 
@@ -37,6 +38,8 @@ export default class EcologyPage extends React.Component {
         <EcologyPageSectionEcosystemAndHabitat config={config}/>
 
         <EcologyPageSectionEcomanagement config={config} />
+
+        <EcologyPageSectionResearch config={config} />
       </div>
     )
   }
