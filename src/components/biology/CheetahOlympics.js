@@ -133,7 +133,7 @@ export default class CheetahOlympics extends React.Component {
 
           <p className="CheetahOlympicsSubtitle">Who will win the race?</p>
           <p>Which is the fastest land animal in Africa?</p>
-
+          <p>(hover over the squares below to find out)</p>
           <QuizBoard
             width={720}
             height={1040}

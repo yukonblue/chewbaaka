@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 17, 2020
+ * Updated  : Jul 19, 2020
  */
 
 import React from 'react'
@@ -12,6 +12,10 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+
+import {
+  ContentPageSubsectionParagraphsContentBinder
+} from '../shared/ContentPageSubsectionContentBinder'
 
 import CheetahSkeletalAnatomyDiagram from './CheetahSkeletalAnatomyDiagram'
 
@@ -42,6 +46,7 @@ export default class BiologyPageSubsectionAnatomy extends React.Component {
   renderContent() {
     return (
       <div className="BiologyPageSubsectionAnatomyCheetahSkeletalAnatomyDiagramContainer">
+        {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
         <CheetahSkeletalAnatomyDiagram />
       </div>
     );

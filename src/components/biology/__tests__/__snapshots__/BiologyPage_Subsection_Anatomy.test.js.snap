@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BiologyPageSubsectionAnatomy component snapshot 1`] = `
+<div
+  className=""
+>
+  <div
+    className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+  >
+    <div
+      className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+    >
+      <h3
+        className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+      >
+        Anatomy
+      </h3>
+      <div
+        className="BiologyPageSubsectionAnatomyCheetahSkeletalAnatomyDiagramContainer"
+      >
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+        >
+          Every part of the cheetah's body work in unison during a high speed run, and the sum of each of their role together is greater than the individual parts. Explore the illustration below to learn about the role and function of each highlighted body part.
+        </p>
+        <div>
+          <div
+            className="PopUpLabelledDiagramOuterComponent PopUpLabelledDiagramOuterComponent_DebugColor DebugWireframe"
+            style={
+              Object {
+                "backgroundImage": "url(cheetah_skeletal_anatomy_02.jpg)",
+                "height": 640,
+                "width": 960,
+              }
+            }
+          >
+            <div
+              className="PopUpLabelledDiagramInnerComponent PopUpLabelledDiagramInnerComponent_DebugColor DebugWireframe"
+            >
+              <div
+                className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+                style={
+                  Object {
+                    "left": 460,
+                    "top": 80,
+                  }
+                }
+              >
+                <button
+                  className="ui blue mini circular icon button"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                >
+                  <i
+                    aria-hidden="true"
+                    className="plus icon"
+                    onClick={[Function]}
+                  />
+                </button>
+              </div>
+              <div
+                className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+                style={
+                  Object {
+                    "left": 180,
+                    "top": 200,
+                  }
+                }
+              >
+                <button
+                  className="ui blue mini circular icon button"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                >
+                  <i
+                    aria-hidden="true"
+                    className="plus icon"
+                    onClick={[Function]}
+                  />
+                </button>
+              </div>
+              <div
+                className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+                style={
+                  Object {
+                    "left": 320,
+                    "top": 180,
+                  }
+                }
+              >
+                <button
+                  className="ui blue mini circular icon button"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                >
+                  <i
+                    aria-hidden="true"
+                    className="plus icon"
+                    onClick={[Function]}
+                  />
+                </button>
+              </div>
+              <div
+                className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+                style={
+                  Object {
+                    "left": 380,
+                    "top": 400,
+                  }
+                }
+              >
+                <button
+                  className="ui blue mini circular icon button"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                >
+                  <i
+                    aria-hidden="true"
+                    className="plus icon"
+                    onClick={[Function]}
+                  />
+                </button>
+              </div>
+              <div
+                className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+                style={
+                  Object {
+                    "left": 550,
+                    "top": 200,
+                  }
+                }
+              >
+                <button
+                  className="ui blue mini circular icon button"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                >
+                  <i
+                    aria-hidden="true"
+                    className="plus icon"
+                    onClick={[Function]}
+                  />
+                </button>
+              </div>
+              <div
+                className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+                style={
+                  Object {
+                    "left": 780,
+                    "top": 200,
+                  }
+                }
+              >
+                <button
+                  className="ui blue mini circular icon button"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                >
+                  <i
+                    aria-hidden="true"
+                    className="plus icon"
+                    onClick={[Function]}
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -26,6 +26,9 @@ exports[`CheetahOlympics component snapshot 1`] = `
     <p>
       Which is the fastest land animal in Africa?
     </p>
+    <p>
+      (hover over the squares below to find out)
+    </p>
     <div
       className="QuizBoardOuterContainer QuizBoardOuterContainer_DebugColor DebugWireframe"
       style={

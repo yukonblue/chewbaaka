@@ -4,10 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 16, 2020
+ * Updated  : Jul 19, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import '../shared/ContentPageSharedStyles.css'
 
@@ -17,11 +17,17 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
+import QnAPopUp from '../shared/QnAPopUp'
+
 import MediaLinkButton from '../shared/MediaLinkButton'
 
 export default class BiologyPageSubsectionLifecycleStage2 extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_Lifecycle_Stage_2";
+
+  static _DID_YOU_KNOW_ = "Young cheetahs rely on their mother on learning how to hunt. " +
+                          "Cubs rescued and rehabilitated are difficult to be re-wilded because " +
+                          "they mostly have not acquired sufficient hunting skills needed to survive.";
 
   constructor(props) {
     super(props);
@@ -43,13 +49,19 @@ export default class BiologyPageSubsectionLifecycleStage2 extends React.Componen
 
   renderContent() {
     return (
-      <div className="">
+      <div>
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
 
-        <MediaLinkButton
-          href="https://www.youtube.com/watch?v=Wjtb7XMZlgY"
-          title="Cheetah Mom Teaches Cubs to Hunt | YouTube"
+        <QnAPopUp
+          content={BiologyPageSubsectionLifecycleStage2._DID_YOU_KNOW_}
         />
+
+        <div className="FloatRight">
+          <MediaLinkButton
+            href="https://www.youtube.com/watch?v=Wjtb7XMZlgY"
+            title="Cheetah Mom Teaches Cubs to Hunt | YouTube"
+          />
+        </div>
       </div>
     );
   }
