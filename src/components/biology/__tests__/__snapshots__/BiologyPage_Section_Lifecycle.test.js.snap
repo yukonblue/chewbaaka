@@ -218,9 +218,7 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
               >
                 Stage 2
               </h3>
-              <div
-                className=""
-              >
+              <div>
                 <p
                   className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
                 >
@@ -231,22 +229,138 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                 >
                   They stop drinking their mother’s milk at 3 to 4 months of age. They start eating meat and learning to hunt. The games they play and the experiences they have during this stage will teach them skills needed to survive on their own.
                 </p>
-                <div>
-                  <a
-                    href="https://www.youtube.com/watch?v=Wjtb7XMZlgY"
+                <div
+                  className="QnAPopUpContainer QnAPopUpContainer_DebugColor DebugWireframe"
+                >
+                  <div
+                    className="QnAPopUpButtonGroupContainer QnAPopUpButtonGroupContainer_DebugColor DebugWireframe"
                   >
-                    <button
-                      className="ui blue icon button"
+                    <div
+                      className="ui blue large label"
                       onClick={[Function]}
                     >
-                      Cheetah Mom Teaches Cubs to Hunt | YouTube
-                      <i
-                        aria-hidden="true"
-                        className="file video icon"
+                      Did You Know
+                      <button
+                        className="ui orange circular icon button QuestionButton"
                         onClick={[Function]}
-                      />
-                    </button>
-                  </a>
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="question icon"
+                          onClick={[Function]}
+                        />
+                      </button>
+                    </div>
+                  </div>
+                  <div
+                    className="QnAPopUpTextSecondaryBubbleContainer QnAPopUpTextSecondaryBubbleContainer_DebugColor DebugWireframe"
+                  >
+                    <div
+                      className="TextBubbleOuterContainer"
+                      hidden={true}
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(undefined)",
+                          "height": 45,
+                          "width": 45,
+                        }
+                      }
+                    >
+                      <div
+                        className="TextBubbleInnerContainer"
+                      >
+                        <div
+                          className="TextBubbleInnerCore"
+                        >
+                          <h1
+                            style={
+                              Object {
+                                "color": "rgb(undefined)",
+                                "fontSize": 3.6,
+                              }
+                            }
+                          >
+                            
+                          </h1>
+                          <p
+                            style={
+                              Object {
+                                "color": "rgb(undefined)",
+                                "fontSize": 2.25,
+                              }
+                            }
+                          >
+                            
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="QnAPopUpMainTextBubbleContainer QnAPopUpMainTextBubbleContainer_DebugColor DebugWireframe"
+                  >
+                    <div
+                      className="TextBubbleOuterContainer"
+                      hidden={true}
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(undefined)",
+                          "height": 256,
+                          "width": 256,
+                        }
+                      }
+                    >
+                      <div
+                        className="TextBubbleInnerContainer"
+                      >
+                        <div
+                          className="TextBubbleInnerCore"
+                        >
+                          <h1
+                            style={
+                              Object {
+                                "color": "rgb(undefined)",
+                                "fontSize": 20.48,
+                              }
+                            }
+                          >
+                            Did you know?
+                          </h1>
+                          <p
+                            style={
+                              Object {
+                                "color": "rgb(undefined)",
+                                "fontSize": 12.8,
+                              }
+                            }
+                          >
+                            Young cheetahs rely on their mother on learning how to hunt. Cubs rescued and rehabilitated are difficult to be re-wilded because they mostly have not acquired sufficient hunting skills needed to survive.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="FloatRight"
+                >
+                  <div>
+                    <a
+                      href="https://www.youtube.com/watch?v=Wjtb7XMZlgY"
+                    >
+                      <button
+                        className="ui blue icon button"
+                        onClick={[Function]}
+                      >
+                        Cheetah Mom Teaches Cubs to Hunt | YouTube
+                        <i
+                          aria-hidden="true"
+                          className="file video icon"
+                          onClick={[Function]}
+                        />
+                      </button>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
