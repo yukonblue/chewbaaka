@@ -27,6 +27,18 @@ export const config = {
       }
     ],
   },
+  contentPageIntro: {
+    title: "Ecology",
+    content: "TBD ..."
+  },
   contentPageSections: {
+    section_EcosystemAndHabitat: {
+      intro: {
+        title: "Ecosystem and Habitat",
+        content: "TBD ..."
+      },
+      subsections: {
+      }
+    }
   }
 };
