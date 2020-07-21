@@ -12,6 +12,7 @@ import React from 'react'
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
 import EcologyPageSubsectionWhereCheetahsLive from './EcologyPage_Subsection_WhereCheetahsLive'
+import EcologyPageSubsectionTheCheetahsPrey from './EcologyPage_Subsection_TheCheetahsPrey'
 
 export default class EcologyPageSectionEcosystemAndHabitat extends React.Component {
 
@@ -39,6 +40,10 @@ export default class EcologyPageSectionEcosystemAndHabitat extends React.Compone
     return (
       <div>
         <EcologyPageSubsectionWhereCheetahsLive
+          sectionConfig={this.state.sectionConfig}
+        />
+
+        <EcologyPageSubsectionTheCheetahsPrey
           sectionConfig={this.state.sectionConfig}
         />
       </div>

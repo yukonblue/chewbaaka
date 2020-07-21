@@ -46,6 +46,11 @@ export const config = {
           title: "Where Cheetahs Live",
           contents: {
           }
+        },
+        subsection_TheCheetahsPrey: {
+          title: "The Cheetah's Prey",
+          contents: {
+          }
         }
       }
     },
