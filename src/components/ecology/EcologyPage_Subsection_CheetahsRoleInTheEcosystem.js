@@ -9,6 +9,8 @@
 
 import React from 'react'
 
+import { Grid } from 'semantic-ui-react'
+
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
@@ -20,6 +22,9 @@ import {
 import ImageView from '../shared/ImageView'
 
 import image_savanna_food_web from './assets/savanna_food_web.jpg'
+
+import image_cheetah_hyena_competition from './assets/cheetah_hyena_competition.jpg'
+import image_cheetah_lion_competition from './assets/cheetah_lion_competition.jpg'
 
 export default class EcologyPageSubsectionCheetahsRoleInTheEcosystem extends React.Component {
 
@@ -47,6 +52,7 @@ export default class EcologyPageSubsectionCheetahsRoleInTheEcosystem extends Rea
     return (
       <div>
         {this.renderCheetahsRoleSectionContent(this.state.subsectionConfig.contents["part_CheetahsRole"])}
+        {this.renderRelationshipsWithOtherSpeciesSectionContent(this.state.subsectionConfig.contents["part_RelationshipsWithOtherSpecies"])}
       </div>
     );
   }
@@ -66,6 +72,37 @@ export default class EcologyPageSubsectionCheetahsRoleInTheEcosystem extends Rea
         </div>
 
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
+      </div>
+    );
+  }
+
+  renderRelationshipsWithOtherSpeciesSectionContent(part) {
+    return (
+      <div>
+        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+
+        {ContentPageSubsectionParagraphsContentBinder(part.content)}
+
+        <div className="Centered">
+          <Grid columns={2}>
+            <Grid.Column width={8}>
+              <ImageView
+                image={image_cheetah_hyena_competition}
+                caption="Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains."
+                width={640}
+                height={360}
+              />
+            </Grid.Column>
+            <Grid.Column>
+              <ImageView
+                image={image_cheetah_lion_competition}
+                caption="Lions will often take over the cheetah's prey easily as they are superior in strength."
+                width={480}
+                height={360}
+              />
+            </Grid.Column>
+          </Grid>
+        </div>
       </div>
     );
   }

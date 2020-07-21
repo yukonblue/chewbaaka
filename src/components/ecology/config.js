@@ -121,6 +121,21 @@ export const config = {
                   "This helps to ensure that only the strongest of those species will survive, and also the populations " +
                   "of those species won't reach the limit the ecosystem could handle such that it will have negative consequences."
               }
+            },
+            part_RelationshipsWithOtherSpecies: {
+              title: "Relationships with other species",
+              content: {
+                paragraph_01:
+                  "Perhaps the cheetahs' closest interactions with other species of animals other than the ones preyed upon " +
+                  "are their competitors. While there are no species of animals that solely prey on the cheetahs as a food source, " +
+                  "many compete with the cheetahs for food, territory, and dominance. Lions, leopards, and hyenas are the " +
+                  "most formidable competitors that would come into the way of the cheetahs.",
+                paragraph_02:
+                  "Despite the fact that competitions inevitably lead to casualties, it is an important aspect of any healthy ecosystem. " +
+                  "Competitions ensure that no species of animal absolutely dominates all the resources in a territory, and resource " +
+                  "are partitioned accordingly among the competing species as much as possible to minimize conflict. This leads to a balanced " +
+                  "ecosystem with the most biodiversity, as each species is unique in its role within the ecosystem."
+              }
             }
           }
         }
