@@ -12,6 +12,7 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 
 // import ContentPageParagaph from '../shared/ContentPageParagraph'
 
@@ -28,6 +29,9 @@ import image_savannah from './assets/savannah.jpg'
 import image_banner_fact_What_is_Habitat from './assets/What_is_Habitat.png'
 
 import image_Namibia_Biomes_and_Cheetah_Ranges_Map from './assets/Namibia_Biomes_and_Cheetah_Ranges_Map.jpg'
+
+import image_banner_fact_What_is_Biome from './assets/What_is_Biome.png'
+import ContentPageParagraph from '../shared/ContentPageParagraph'
 
 export default class EcologyPageSubsectionWhereCheetahsLive extends React.Component {
 
@@ -90,7 +94,10 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
       <div className="VerticalCushionPadding">
         <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
 
-        <NamibianBiomes part={part} />
+        <ContentPageSubsectionTwoColumnContentTemplate
+          lhsColumn={{content: this.renderPartNamibianBiomesLhs(part)}}
+          rhsColumn={{content: this.renderPartNamibianBiomesRhs(part)}}
+        />
 
         <div className="Centered" style={{width: 1200}}>
           <ImageView
@@ -100,7 +107,26 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
             height={720}
           />
         </div>
+
+        <img
+          src={image_banner_fact_What_is_Biome}
+          alt="What is biome?"
+        />
       </div>
+    );
+  }
+
+  renderPartNamibianBiomesLhs(part) {
+    return (
+      <ContentPageParagraph>
+        {part.content["paragraph_biome_intro"]}
+      </ContentPageParagraph>
+    );
+  }
+
+  renderPartNamibianBiomesRhs(part) {
+    return (
+      <NamibianBiomes part={part} />
     );
   }
 }

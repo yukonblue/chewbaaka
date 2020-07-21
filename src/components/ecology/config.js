@@ -67,6 +67,9 @@ export const config = {
                   "Map of Namibian biomes and cheetah ranges in Namibia. " +
                   "It's clear to see that cheetahs prefer biomes that have more " +
                   "vegetation that support the animals they prey on.",
+                paragraph_biome_intro:
+                  "Namibia is a country with a rich biodiversity, as it spans over " +
+                  "five distinct types of biomes.",
                 paragraph_biome_savanna:
                   "",
                 paragraph_succulent_karro:
