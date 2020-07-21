@@ -13,6 +13,7 @@ import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
 import EcologyPageSubsectionHuntingAndPredatorControl from './EcologyPage_Subsection_HuntingAndPredatorControl'
 import EcologyPageSubsectionTheFarmingCommunity from './EcologyPage_Subsection_TheFarmingCommunity'
+import EcologyPageSubsectionBushEncroachmentAndSolutions from './EcologyPage_Subsection_BushEncroachmentAndSolutions'
 
 export default class EcologyPageSectionEcomanagement extends React.Component {
 
@@ -44,6 +45,10 @@ export default class EcologyPageSectionEcomanagement extends React.Component {
         />
 
         <EcologyPageSubsectionTheFarmingCommunity
+          sectionConfig={this.state.sectionConfig}
+        />
+
+        <EcologyPageSubsectionBushEncroachmentAndSolutions
           sectionConfig={this.state.sectionConfig}
         />
       </div>

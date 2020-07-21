@@ -74,6 +74,11 @@ export const config = {
           title: "The Farming Community",
           contents: {
           }
+        },
+        subsection_BushEncroachmentAndSolutions: {
+          title: "Bush Encroachment and Solutions",
+          contents: {
+          }
         }
       }
     },
