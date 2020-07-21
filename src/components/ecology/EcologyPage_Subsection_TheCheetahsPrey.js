@@ -1,5 +1,5 @@
 /**
- * EcologyPage_subsection_TheCheetahsPrey.js
+ * EcologyPage_Subsection_TheCheetahsPrey.js
  * Chewbaaka
  *
  * Author   : Tomiko

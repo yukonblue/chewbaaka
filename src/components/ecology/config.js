@@ -51,6 +51,11 @@ export const config = {
           title: "The Cheetah's Prey",
           contents: {
           }
+        },
+        subsection_CheetahsRoleInTheEcosystem: {
+          title: "Cheetah's Role in the Ecosystem",
+          contents: {
+          }
         }
       }
     },

@@ -1,5 +1,5 @@
 /**
- * EcologyPage_Subsection_WhereCheetahsLive.js
+ * EcologyPage_Subsection_CheetahsRoleInTheEcosystem.js
  * Chewbaaka
  *
  * Author   : Tomiko
@@ -13,14 +13,14 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
-export default class EcologyPageSubsectionWhereCheetahsLive extends React.Component {
+export default class EcologyPageSubsectionCheetahsRoleInTheEcosystem extends React.Component {
 
-  static _SUBSECTION_NAME_ = "subsection_WhereCheetahsLive";
+  static _SUBSECTION_NAME_ = "subsection_CheetahsRoleInTheEcosystem";
 
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionWhereCheetahsLive._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionCheetahsRoleInTheEcosystem._SUBSECTION_NAME_]
     };
   }
 
@@ -38,7 +38,7 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
   renderContent() {
     return (
       <div>
-        TBD something about where cheetahs live...
+        TBD something about where cheetah's role in the ecosystem ...
       </div>
     );
   }

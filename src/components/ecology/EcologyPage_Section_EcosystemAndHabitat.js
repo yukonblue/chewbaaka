@@ -13,6 +13,7 @@ import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
 import EcologyPageSubsectionWhereCheetahsLive from './EcologyPage_Subsection_WhereCheetahsLive'
 import EcologyPageSubsectionTheCheetahsPrey from './EcologyPage_Subsection_TheCheetahsPrey'
+import EcologyPageSubsectionCheetahsRoleInTheEcosystem from './EcologyPage_Subsection_CheetahsRoleInTheEcosystem'
 
 export default class EcologyPageSectionEcosystemAndHabitat extends React.Component {
 
@@ -44,6 +45,10 @@ export default class EcologyPageSectionEcosystemAndHabitat extends React.Compone
         />
 
         <EcologyPageSubsectionTheCheetahsPrey
+          sectionConfig={this.state.sectionConfig}
+        />
+
+        <EcologyPageSubsectionCheetahsRoleInTheEcosystem
           sectionConfig={this.state.sectionConfig}
         />
       </div>
