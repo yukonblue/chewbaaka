@@ -4,12 +4,16 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Jul 19, 2020
+ * Updated  : Jul 20, 2020
  */
 
 import React from 'react'
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
+
+import EcologyPageSubsectionWhereCheetahsLive from './EcologyPage_Subsection_WhereCheetahsLive'
+import EcologyPageSubsectionTheCheetahsPrey from './EcologyPage_Subsection_TheCheetahsPrey'
+import EcologyPageSubsectionCheetahsRoleInTheEcosystem from './EcologyPage_Subsection_CheetahsRoleInTheEcosystem'
 
 export default class EcologyPageSectionEcosystemAndHabitat extends React.Component {
 
@@ -36,6 +40,17 @@ export default class EcologyPageSectionEcosystemAndHabitat extends React.Compone
   renderContent() {
     return (
       <div>
+        <EcologyPageSubsectionWhereCheetahsLive
+          sectionConfig={this.state.sectionConfig}
+        />
+
+        <EcologyPageSubsectionTheCheetahsPrey
+          sectionConfig={this.state.sectionConfig}
+        />
+
+        <EcologyPageSubsectionCheetahsRoleInTheEcosystem
+          sectionConfig={this.state.sectionConfig}
+        />
       </div>
     );
   }
