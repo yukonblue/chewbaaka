@@ -69,6 +69,11 @@ export const config = {
           title: "Hunting and Predator Control",
           contents: {
           }
+        },
+        subsection_TheFarmingCommunity: {
+          title: "The Farming Community",
+          contents: {
+          }
         }
       }
     },

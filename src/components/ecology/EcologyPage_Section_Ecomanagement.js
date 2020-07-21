@@ -12,6 +12,7 @@ import React from 'react'
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
 import EcologyPageSubsectionHuntingAndPredatorControl from './EcologyPage_Subsection_HuntingAndPredatorControl'
+import EcologyPageSubsectionTheFarmingCommunity from './EcologyPage_Subsection_TheFarmingCommunity'
 
 export default class EcologyPageSectionEcomanagement extends React.Component {
 
@@ -39,6 +40,10 @@ export default class EcologyPageSectionEcomanagement extends React.Component {
     return (
       <div>
         <EcologyPageSubsectionHuntingAndPredatorControl
+          sectionConfig={this.state.sectionConfig}
+        />
+
+        <EcologyPageSubsectionTheFarmingCommunity
           sectionConfig={this.state.sectionConfig}
         />
       </div>
