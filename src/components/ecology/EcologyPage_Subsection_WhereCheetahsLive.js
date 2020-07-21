@@ -13,11 +13,17 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
-import ContentPageParagaph from '../shared/ContentPageParagraph'
+// import ContentPageParagaph from '../shared/ContentPageParagraph'
+
+import {
+  ContentPageSubsectionParagraphsContentBinder
+} from '../shared/ContentPageSubsectionContentBinder'
 
 import ImageView from '../shared/ImageView'
 
 import image_savannah from './assets/savannah.jpg'
+
+import image_banner_fact_What_is_Habitat from './assets/What_is_Habitat.png'
 
 export default class EcologyPageSubsectionWhereCheetahsLive extends React.Component {
 
@@ -44,14 +50,16 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
   renderContent() {
     return (
       <div>
-        {this.renderPart1Content(this.state.subsectionConfig.contents["part_WhereCheetahsLive"])}
+        {this.renderPartCheetahHabitatContent(this.state.subsectionConfig.contents["part_CheetahHabitat"])}
       </div>
     );
   }
 
-  renderPart1Content(part) {
+  renderPartCheetahHabitatContent(part) {
     return (
       <div className="OverflowHidden">
+        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+
         <div className="FloatRight">
           <ImageView
             image={image_savannah}
@@ -61,9 +69,13 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
           />
         </div>
 
-        <ContentPageParagaph>
-          {part.content["paragraph_01"]}
-        </ContentPageParagaph>
+        {ContentPageSubsectionParagraphsContentBinder(part.content)}
+
+        <img
+          src={image_banner_fact_What_is_Habitat}
+          alt="What is an ecosystem"
+          style={{width: 640}}
+        />
       </div>
     );
   }

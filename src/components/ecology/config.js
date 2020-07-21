@@ -45,14 +45,19 @@ export const config = {
         subsection_WhereCheetahsLive: {
           title: "Where Cheetahs Live",
           contents: {
-            part_WhereCheetahsLive: {
+            part_CheetahHabitat: {
+              title: "Cheetah Habitat",
               content: {
                 paragraph_01:
                   "Animals, includes cheetah, are adopted to live in specific habitats. " +
                   "Cheetahs live mainly in grassland savannah. They prefer habitat which includes " +
                   "some cover in the form of bushes, medium length grass, trees, and small hills. " +
                   "Cheetahs need abundant prey in their habitat to survive and reproduce. " +
-                  "In Namibia their habitat is densely bushed due to bush encroachment."
+                  "In Namibia their habitat is densely bushed due to bush encroachment.",
+                paragraph_02:
+                  "Cheetahs sometimes live in a wide variety of habitats. They occasionally use semi-desert, " +
+                  "dense woodland or mountainous terrain. Older animals unable to defend territories and young " +
+                  "cheetahs just starting to live on their own use these marginal habitats."
               }
             }
           }
