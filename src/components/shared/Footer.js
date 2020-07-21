@@ -4,12 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 13, 2020
+ * Updated  : Jul 20, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import "semantic-ui-css/semantic.min.css";
+import "semantic-ui-css/semantic.min.css"
 
 import { Container, Grid, Header, Image, List, Segment } from 'semantic-ui-react'
 
@@ -31,7 +31,7 @@ export default function Footer() {
               <Header inverted as="h4" content="Resources" />
               <List link inverted>
                 <List.Item as="a" target="_blank" href="https://cheetah.org/about/what-we-do/">About CCF</List.Item>
-                <List.Item as="a" target="_blank" href="https://animalfactguide.com/animal-facts/cheetah/">Cheatah Fun Facts</List.Item>
+                <List.Item as="a" target="_blank" href="https://animalfactguide.com/animal-facts/cheetah/">Cheetah Fun Facts</List.Item>
                 <List.Item as="a" target="_blank" href="https://wildnet.org/wildlife-programs/cheetah-namibia/">Wildlife Conservation Network & CCF</List.Item>
                 <List.Item as="a" target="_blank" href="https://www.iucnredlist.org/species/219/50649567">IUCN Red List - Cheetah</List.Item>
               </List>
