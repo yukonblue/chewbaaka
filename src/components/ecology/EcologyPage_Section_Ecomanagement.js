@@ -4,12 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Jul 19, 2020
+ * Updated  : Jul 20, 2020
  */
 
 import React from 'react'
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
+
+import EcologyPageSubsectionHuntingAndPredatorControl from './EcologyPage_Subsection_HuntingAndPredatorControl'
 
 export default class EcologyPageSectionEcomanagement extends React.Component {
 
@@ -36,6 +38,9 @@ export default class EcologyPageSectionEcomanagement extends React.Component {
   renderContent() {
     return (
       <div>
+        <EcologyPageSubsectionHuntingAndPredatorControl
+          sectionConfig={this.state.sectionConfig}
+        />
       </div>
     );
   }

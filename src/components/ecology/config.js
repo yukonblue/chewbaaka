@@ -65,6 +65,11 @@ export const config = {
         content: "TBD ..."
       },
       subsections: {
+        subsection_HuntingAndPredatorControl: {
+          title: "Hunting and Predator Control",
+          contents: {
+          }
+        }
       }
     },
     section_Research: {
