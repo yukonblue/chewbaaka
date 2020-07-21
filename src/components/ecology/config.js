@@ -87,6 +87,21 @@ export const config = {
         subsection_TheCheetahsPrey: {
           title: "The Cheetah's Prey",
           contents: {
+            paragraph_TheCheetahsPrey_01:
+              "Cheetahs hunt mostly small antelope, young of large antelope, warthog, hare and game birds. " +
+              "They may take livestock in exceptional or opportunistic cases.",
+            paragraph_TheCheetahsPrey_02:
+              "Cheetahs prefer game to livestock.",
+            paragraph_TheCheetahsPrey_03:
+              "The cheetah’s lightweight build limits the size of prey they catch. Male coalitions can, " +
+              "however, overcome larger prey. Coalitions also stand a better chance at defeating their prey " +
+              "against competitors than single cheetahs.",
+            paragraph_TheCheetahsPrey_04:
+              "Predators have to work very hard to catch their prey. Cheetahs need to carefully select the animal " +
+              "they are most likely to catch. For this reason cheetahs, like all other predators, " +
+              "target animals that are old, sick, very young, injured, or slow. " +
+              "This allows only the strongest to survive and pass on their genes, " +
+              "thus maintaining a healthier game population."
           }
         },
         subsection_CheetahsRoleInTheEcosystem: {
