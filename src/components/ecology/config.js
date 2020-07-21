@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Jul 20, 2020
+ * Updated  : Jul 21, 2020
  */
 
 export const config = {
@@ -107,6 +107,21 @@ export const config = {
         subsection_CheetahsRoleInTheEcosystem: {
           title: "Cheetah's Role in the Ecosystem",
           contents: {
+            part_CheetahsRole: {
+              title: "Cheetah's role",
+              content: {
+                paragraph_CheetahsRole_01:
+                  "Every animal species has its role (or niche) in the ecosystem that it lives in. " +
+                  "As a carnivorous predator, the cheetah's role in the ecosystem is important as it helps to " +
+                  "maintain a balanced and healthy food web.",
+                paragraph_CheetahsRole_02:
+                  "One of the cheetah's roles in the ecosystem is to help keep the population of grazing animals " +
+                  "a healthy state. Because of the fact that cheetahs do not have the strength to go after big games " +
+                  "such as wildebeest, elands, and kudus, they go after the ones that are young, weak, or sick. " +
+                  "This helps to ensure that only the strongest of those species will survive, and also the populations " +
+                  "of those species won't reach the limit the ecosystem could handle such that it will have negative consequences."
+              }
+            }
           }
         }
       }
