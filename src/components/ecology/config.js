@@ -88,6 +88,11 @@ export const config = {
         content: "TBD ..."
       },
       subsections: {
+        subsection_UnderstandingAnimalMovement: {
+          title: "Understanding Animal Movement",
+          contents: {
+          }
+        }
       }
     }
   }
