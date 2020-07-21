@@ -14,7 +14,7 @@ import '../shared/ContentPageSharedStyles.css'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 
-// import ContentPageParagaph from '../shared/ContentPageParagraph'
+import ContentPageParagraph from '../shared/ContentPageParagraph'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -31,7 +31,6 @@ import image_banner_fact_What_is_Habitat from './assets/What_is_Habitat.png'
 import image_Namibia_Biomes_and_Cheetah_Ranges_Map from './assets/Namibia_Biomes_and_Cheetah_Ranges_Map.jpg'
 
 import image_banner_fact_What_is_Biome from './assets/What_is_Biome.png'
-import ContentPageParagraph from '../shared/ContentPageParagraph'
 
 export default class EcologyPageSubsectionWhereCheetahsLive extends React.Component {
 
