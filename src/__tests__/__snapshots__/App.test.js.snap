@@ -323,7 +323,7 @@ exports[`App component snapshot 1`] = `
                 role="listitem"
                 target="_blank"
               >
-                Cheatah Fun Facts
+                Cheetah Fun Facts
               </a>
               <a
                 className="item"
