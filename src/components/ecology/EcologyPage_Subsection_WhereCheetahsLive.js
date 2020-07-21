@@ -13,6 +13,12 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
+import ContentPageParagaph from '../shared/ContentPageParagraph'
+
+import ImageView from '../shared/ImageView'
+
+import image_savannah from './assets/savannah.jpg'
+
 export default class EcologyPageSubsectionWhereCheetahsLive extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_WhereCheetahsLive";
@@ -38,7 +44,26 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
   renderContent() {
     return (
       <div>
-        TBD something about where cheetahs live...
+        {this.renderPart1Content(this.state.subsectionConfig.contents["part_WhereCheetahsLive"])}
+      </div>
+    );
+  }
+
+  renderPart1Content(part) {
+    return (
+      <div className="OverflowHidden">
+        <div className="FloatRight">
+          <ImageView
+            image={image_savannah}
+            caption="Savannah"
+            width={640}
+            height={480}
+          />
+        </div>
+
+        <ContentPageParagaph>
+          {part.content["paragraph_01"]}
+        </ContentPageParagaph>
       </div>
     );
   }

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Jul 19, 2020
+ * Updated  : Jul 20, 2020
  */
 
 import React from 'react'
@@ -19,10 +19,13 @@ import EcologyPageSectionEcosystemAndHabitat from './EcologyPage_Section_Ecosyst
 import EcologyPageSectionEcomanagement from './EcologyPage_Section_Ecomanagement'
 import EcologyPageSectionResearch from './EcologyPage_Section_Research'
 
+import coverImage from './assets/savannah.jpg'
+
 export default class EcologyPage extends React.Component {
 
   render() {
     let pageProps = config.pageProps;
+    pageProps.coverImage = coverImage;
 
     return (
       <ContentPageSkeleton
