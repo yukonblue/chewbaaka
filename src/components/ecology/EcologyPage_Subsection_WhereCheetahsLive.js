@@ -21,9 +21,13 @@ import {
 
 import ImageView from '../shared/ImageView'
 
+import NamibianBiomes from './NamibianBiomes'
+
 import image_savannah from './assets/savannah.jpg'
 
 import image_banner_fact_What_is_Habitat from './assets/What_is_Habitat.png'
+
+import image_Namibia_Biomes_and_Cheetah_Ranges_Map from './assets/Namibia_Biomes_and_Cheetah_Ranges_Map.jpg'
 
 export default class EcologyPageSubsectionWhereCheetahsLive extends React.Component {
 
@@ -51,13 +55,14 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
     return (
       <div>
         {this.renderPartCheetahHabitatContent(this.state.subsectionConfig.contents["part_CheetahHabitat"])}
+        {this.renderPartNamibianBiomesContent(this.state.subsectionConfig.contents["part_NamibianBiomes"])}
       </div>
     );
   }
 
   renderPartCheetahHabitatContent(part) {
     return (
-      <div className="OverflowHidden">
+      <div className="OverflowHidden VerticalCushionPadding">
         <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
 
         <div className="FloatRight">
@@ -76,6 +81,25 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
           alt="What is an ecosystem"
           style={{width: 640}}
         />
+      </div>
+    );
+  }
+
+  renderPartNamibianBiomesContent(part) {
+    return (
+      <div className="VerticalCushionPadding">
+        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+
+        <NamibianBiomes part={part} />
+
+        <div className="Centered" style={{width: 1200}}>
+          <ImageView
+            image={image_Namibia_Biomes_and_Cheetah_Ranges_Map}
+            caption={part.content["paragraph_biomes_map_caption"]}
+            width={1200}
+            height={720}
+          />
+        </div>
       </div>
     );
   }

@@ -59,6 +59,25 @@ export const config = {
                   "dense woodland or mountainous terrain. Older animals unable to defend territories and young " +
                   "cheetahs just starting to live on their own use these marginal habitats."
               }
+            },
+            part_NamibianBiomes: {
+              title: "Namibian Biomes",
+              content: {
+                paragraph_biomes_map_caption:
+                  "Map of Namibian biomes and cheetah ranges in Namibia. " +
+                  "It's clear to see that cheetahs prefer biomes that have more " +
+                  "vegetation that support the animals they prey on.",
+                paragraph_biome_savanna:
+                  "",
+                paragraph_succulent_karro:
+                  "",
+                paragraph_biome_karoo_nama:
+                  "",
+                paragraph_biome_namib_desert:
+                  "",
+                paragraph_biome_lakes_and_salt_pans:
+                  "",
+              }
             }
           }
         },
