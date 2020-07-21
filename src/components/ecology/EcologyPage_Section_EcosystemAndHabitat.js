@@ -11,6 +11,8 @@ import React from 'react'
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
+import EcologyPageSubsectionWhereCheetahsLive from './EcologyPage_Subsection_WhereCheetahsLive'
+
 export default class EcologyPageSectionEcosystemAndHabitat extends React.Component {
 
   static _SECTION_NAME_ = "section_EcosystemAndHabitat";
@@ -36,6 +38,9 @@ export default class EcologyPageSectionEcosystemAndHabitat extends React.Compone
   renderContent() {
     return (
       <div>
+        <EcologyPageSubsectionWhereCheetahsLive
+          sectionConfig={this.state.sectionConfig}
+        />
       </div>
     );
   }

@@ -42,6 +42,11 @@ export const config = {
                 "relationships with other species of animals”."
       },
       subsections: {
+        subsection_WhereCheetahsLive: {
+          title: "Where Cheetahs Live",
+          contents: {
+          }
+        }
       }
     },
     section_Ecomanagement: {
