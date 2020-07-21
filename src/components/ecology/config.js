@@ -15,15 +15,15 @@ export const config = {
     pageMenuItems: [
       {
         title: "Ecosystem and Habitat",
-        tocImageFilename: ""
+        tocImageFilename: "ecology_page_toc_menu_img_01.jpg"
       },
       {
         title: "Eco-management",
-        tocImageFilename: ""
+        tocImageFilename: "ecology_page_toc_menu_img_02.jpg"
       },
       {
         title: "Research",
-        tocImageFilename: ""
+        tocImageFilename: "ecology_page_toc_menu_img_03.jpg"
       },
     ],
   },

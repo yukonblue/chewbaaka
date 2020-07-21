@@ -13,6 +13,8 @@ import "semantic-ui-css/semantic.min.css"
 
 import ContentPageSkeleton from '../shared/ContentPageSkeleton'
 
+import ContentPageTableOfContentMenuBootstrapper from '../shared/ContentPageTableOfContentMenuBootstrapper'
+
 import { config }  from './config'
 
 import EcologyPageSectionEcosystemAndHabitat from './EcologyPage_Section_EcosystemAndHabitat'
@@ -38,6 +40,11 @@ export default class EcologyPage extends React.Component {
   renderContent() {
     return (
       <div>
+        <ContentPageTableOfContentMenuBootstrapper
+          pageMenuItems={config.pageProps.pageMenuItems}
+          imagesContext = {() => (require.context("./assets/menu", true))}
+        />
+
         <EcologyPageSectionEcosystemAndHabitat config={config}/>
 
         <EcologyPageSectionEcomanagement config={config} />
