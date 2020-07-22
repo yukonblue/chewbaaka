@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 19, 2020
+ * Updated  : Jul 21, 2020
  */
 
 /** ----------------------------- CONTAINER -------------------------------- **/
@@ -26,6 +26,10 @@ div.ContentPageContentInnerContentDimension {
 
 div.FactBannerDimension {
   width: 640px;
+}
+
+.FactBannerMediumDimension {
+  width: 720px;
 }
 
 /** ------------------------- CONTAINER AUXILLARY -------------------------- **/
