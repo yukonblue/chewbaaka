@@ -478,6 +478,20 @@ export const config = {
         subsection_UnderstandingAnimalMovement: {
           title: "Understanding Animal Movement",
           contents: {
+            part_Intro: {
+              content: {
+                paragraph_01:
+                  "To understand how cheetahs use their habitat you must be able to identify individual animals and record their position periodically. " +
+                  "Individual photos or distinctive collars would be useful is cheetahs were frequently sighted, but they are not. " +
+                  "Trackers may note the spoor (tracks) of a particular cheetah at various places and estimates when they were made. " +
+                  "This is difficult due to the large ranges they cover and the fact that individuals are hard to identify.",
+                paragraph_02:
+                  "The preferred method to study cheetah movement is to radio-track individuals. A lightweight collar carrying a battery pack and a small " +
+                  "transmitter is fitted around the cheetah’s neck. The scientist uses a receiver and a special directional antenna " +
+                  "(either in the ground or from a plane) to pick up the cheetah’s signal. The receive transmit the signal into beeps. " +
+                  "Each collar’s transmitter has a different radio frequency so that many cheetahs can be located during one “radio-tracking session”."
+              }
+            }
           }
         }
       }
