@@ -21,6 +21,7 @@ import ImageView from '../shared/ImageView'
 
 import image_Cheetah_Battle_Bush_Encroachment from './assets/Cheetah_Battle_Bush_Encroachment.jpg'
 import image_fsc_logo from './assets/fsc_logo.png'
+import image_CCF_Bushblok_Logo from './assets/CCF_Bushblok_Logo.jpg'
 
 export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends React.Component {
 
@@ -122,15 +123,23 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
       <div className="VerticalCushionPadding">
         <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
 
-        <ul>
-          {
-            part.content["objective_list_items"].map(
-              (item, idx) => (
-                <li key={idx} className="ContentPageBulletTextStyle">{item}</li>
+        <div className="OverflowHidden">
+          <div className="FloatRight HorizontalCusionPadding">
+            <img
+              src={image_CCF_Bushblok_Logo}
+              alt="CCF Bushblok"
+            />
+          </div>
+          <ul>
+            {
+              part.content["objective_list_items"].map(
+                (item, idx) => (
+                  <li key={idx} className="ContentPageBulletTextStyle">{item}</li>
+                )
               )
-            )
-          }
-        </ul>
+            }
+          </ul>
+        </div>
       </div>
     );
   }
