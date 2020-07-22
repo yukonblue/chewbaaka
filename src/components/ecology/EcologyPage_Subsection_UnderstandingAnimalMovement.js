@@ -17,6 +17,8 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
+import image_Spoor_Tracking_Data_Collection from './assets/Spoor_Tracking_Data_Collection.jpg'
+
 export default class EcologyPageSubsectionUnderstandingAnimalMovement extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_UnderstandingAnimalMovement";
@@ -66,6 +68,7 @@ export default class EcologyPageSubsectionUnderstandingAnimalMovement extends Re
             )
           )
         }
+        {this.renderImageGallery()}
       </div>
     );
   }
@@ -74,8 +77,19 @@ export default class EcologyPageSubsectionUnderstandingAnimalMovement extends Re
     return (
       <div key={key} className="VerticalCushionPadding">
         <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
-
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
+      </div>
+    );
+  }
+
+  renderImageGallery() {
+    return (
+      <div>
+        <img
+          src={image_Spoor_Tracking_Data_Collection}
+          alt=""
+          width={300}
+        />
       </div>
     );
   }
