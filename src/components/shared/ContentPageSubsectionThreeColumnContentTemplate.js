@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 10, 2020
+ * Updated  : Jul 21, 2020
  */
 
 import React from 'react';
@@ -34,7 +34,12 @@ export default class ContentPageSubsectionThreeColumnContentTemplate extends Rea
                 {this.props.lhsColumn.content}
               </div>
             </div>
-            <div className={getElementStyleClassNames(["ContentPageSubsectionThreeColumnContentTemplateColumn", "ContentPageSubsectionThreeColumnContentTemplateMiddleColumnContainer"])}>
+            <div
+              className={getElementStyleClassNames(["ContentPageSubsectionThreeColumnContentTemplateColumn",
+                                                    "ContentPageSubsectionThreeColumnContentTemplateMiddleColumnContainer"])}
+              style={this.getColumnStyle(this.props.middleColumn)}
+            >
+              {this.renderOptionalTitleForMiddleColumn()}
               <div>
                 {this.props.middleColumn.content}
               </div>
@@ -54,5 +59,24 @@ export default class ContentPageSubsectionThreeColumnContentTemplate extends Rea
         </div>
       </div>
     );
+  }
+
+  renderOptionalTitleForMiddleColumn() {
+    const pred = () => {
+      if (this.props.showTitleInMiddleColumn) {
+        return (
+          <h2 className={getElementStyleClassName("ContentPageSubsectionColumnContentTitle")}>
+            {this.props.middleColumn.title}
+          </h2>
+        );
+      }
+    };
+    return pred();
+  }
+
+  getColumnStyle(column) {
+    return {
+      backgroundColor: `rgb(${column.backgroundColorRGB})`
+    };
   }
 }

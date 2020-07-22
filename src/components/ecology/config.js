@@ -303,6 +303,7 @@ export const config = {
                   }
                 },
                 part_SharedPractices: {
+                  backgroundColorRGB: [247,220,111],
                   title: "Shared practices",
                   content: {
                     part_HerdManagement: {

@@ -65,6 +65,8 @@ export default class EcologyPageSubsectionCheetahFriendlyFarming extends React.C
         middleColumn={this.bodyPartColumnData(part.content["part_SharedPractices"])}
 
         rhsColumn={this.bodyPartColumnData(part.content["part_CattlePractices"])}
+
+        showTitleInMiddleColumn={true}
       />
     );
   }
@@ -72,7 +74,8 @@ export default class EcologyPageSubsectionCheetahFriendlyFarming extends React.C
   bodyPartColumnData(part) {
     return {
       title: part.title,
-      content: this.renderBodyPartColumnContent(part)
+      content: this.renderBodyPartColumnContent(part),
+      backgroundColorRGB: part.backgroundColorRGB
     };
   }
 
