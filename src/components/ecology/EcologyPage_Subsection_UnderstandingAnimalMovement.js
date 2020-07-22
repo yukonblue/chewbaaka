@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 20, 2020
+ * Updated  : Jul 22, 2020
  */
 
 import React from 'react'
@@ -12,6 +12,10 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+
+import {
+  ContentPageSubsectionParagraphsContentBinder
+} from '../shared/ContentPageSubsectionContentBinder'
 
 export default class EcologyPageSubsectionUnderstandingAnimalMovement extends React.Component {
 
@@ -38,7 +42,15 @@ export default class EcologyPageSubsectionUnderstandingAnimalMovement extends Re
   renderContent() {
     return (
       <div>
-        TBD something about understanding animal movement ...
+        {this.renderIntroPartContent(this.state.subsectionConfig.contents["part_Intro"])}
+      </div>
+    );
+  }
+
+  renderIntroPartContent(part) {
+    return (
+      <div>
+        {ContentPageSubsectionParagraphsContentBinder(part.content)}
       </div>
     );
   }
