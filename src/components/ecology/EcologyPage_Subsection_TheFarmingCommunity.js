@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 21, 2020
+ * Updated  : Jul 22, 2020
  */
 
 import React from 'react'
@@ -18,6 +18,10 @@ import ContentPageParagraph from '../shared/ContentPageParagraph'
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import ImageView from '../shared/ImageView'
+
+import image_CCF_GWL_map from './assets/CCF_GWL_map.jpg'
 
 export default class EcologyPageSubsectionTheFarmingCommunity extends React.Component {
 
@@ -60,9 +64,29 @@ export default class EcologyPageSubsectionTheFarmingCommunity extends React.Comp
   }
 
   renderPartContent(part, idx) {
+    if (part.is_part_Conservancies) {
+      return this.renderPartWithImageContent(part, idx);
+    }
     return (
       <div key={idx} className="VerticalCushionPadding">
         <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        {ContentPageSubsectionParagraphsContentBinder(part.content)}
+      </div>
+    );
+  }
+
+  renderPartWithImageContent(part, idx) {
+    return (
+      <div key={idx} className="VerticalCushionPadding">
+        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <div className="FloatRight">
+          <ImageView
+            image={image_CCF_GWL_map}
+            caption="Cheetah Conservation Fund works with communal farmers and people living around the Greater Waterberg Landscape Conservancy. (Image credit: Bruce)"
+            width={600}
+            height={471}
+          />
+        </div>
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
       </div>
     );

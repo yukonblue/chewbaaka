@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Jul 21, 2020
+ * Updated  : Jul 22, 2020
  */
 
 export const config = {
@@ -71,15 +71,31 @@ export const config = {
                   "Namibia is a country with a rich biodiversity, as it spans over " +
                   "five distinct types of biomes.",
                 paragraph_biome_savanna:
-                  "",
+                  "The savanna biome is consisted of rolling grasslands scattered with shrubs and isolated trees. " +
+                  "Annual rainfalls are not sufficient to support forests, but enough for an abundance of " +
+                  "grasslands and shrubs that can support a diversity of animal species. Savannas in Namibia " +
+                  "definitely support the richest biodiversity.",
                 paragraph_succulent_karro:
-                  "",
-                paragraph_biome_karoo_nama:
-                  "",
+                  "The Succulent Karoo biome is primarily determined by the presence of low winter rainfall and extreme summer aridity. " +
+                  "Because of the unique weather patterns in this biome driven mostly by cyclonic rains, summers have high temperatures and " +
+                  "fogs are common near the coast. As a result, the vegetation are dominated by dwarf, succulent shrubs.",
+                paragraph_biome_nama_karoo:
+                  "The Nama Karoo biome is primarily determined by high peak seasonal rainfaills between December to March, " +
+                  "with average annual rainfall ranges between 100 mm to 500 mm. Vegetations are mostly consisted of dwarf shrubs, " +
+                  "similar to that of the Succulent Karoo biome. Although the biodiversity of fauna in this biome is limited, " +
+                  "there are many species of birds and reptiles that are endemic to this biome",
                 paragraph_biome_namib_desert:
-                  "",
+                  "The desert biome of the Namib receives less than a centimetre of rain a year. " +
+                  "However, despite the low rainfall, being a coastal desert wind blows in from the cold " +
+                  "Atlantic forming dense fog banks. This fog provides moisture for a surprising number of " +
+                  "plants and animals and the desert is alive with desert-adapted plants the most famous being " +
+                  "the welwitschia, antelope like oryx and springbok, desert elephants, lions and a plethora of " +
+                  "beetles, bugs, geckos, lizards, snakes and rodents.",
                 paragraph_biome_lakes_and_salt_pans:
-                  "",
+                  "The Lakes and Salt Pans biome in Namibia is solely consisted of the Etosha pan that forms part of the Kalahari Basin. " +
+                  "It is mainly consisted of a 120-kilometre-long dry lakebed that deposits salt and mineral underground. The high saline condition " +
+                  "of the salt pans support mostly algae, which attracts migratory birds such as flamingos and pelicans as a breeding ground. " +
+                  "The surrounding area is dense mopane woodland which supports large populations of elephants."
               }
             }
           }
@@ -248,7 +264,8 @@ export const config = {
                   "Commercial conservancies consist of adjacent private farms joining together in common units. " +
                   "Communal conservancies operate on a local level and membership is made up entirely of community members who decide to " +
                   "work together for the sustainable management and use of wildlife and tourism."
-              }
+              },
+              is_part_Conservancies: true
             },
             part_Ecotourism: {
               title: "Eco-tourism",
@@ -477,6 +494,80 @@ export const config = {
         subsection_UnderstandingAnimalMovement: {
           title: "Understanding Animal Movement",
           contents: {
+            part_Intro: {
+              content: {
+                paragraph_01:
+                  "To understand how cheetahs use their habitat you must be able to identify individual animals and record their position periodically. " +
+                  "Individual photos or distinctive collars would be useful is cheetahs were frequently sighted, but they are not. " +
+                  "Trackers may note the spoor (tracks) of a particular cheetah at various places and estimates when they were made. " +
+                  "This is difficult due to the large ranges they cover and the fact that individuals are hard to identify.",
+                paragraph_02:
+                  "The preferred method to study cheetah movement is to radio-track individuals. A lightweight collar carrying a battery pack and a small " +
+                  "transmitter is fitted around the cheetah’s neck. The scientist uses a receiver and a special directional antenna " +
+                  "(either in the ground or from a plane) to pick up the cheetah’s signal. The receive transmit the signal into beeps. " +
+                  "Each collar’s transmitter has a different radio frequency so that many cheetahs can be located during one “radio-tracking session”."
+              }
+            },
+            part_PopulationCensusTechniques: {
+              title: "Population Census Techniques",
+              content: {
+                part_Intro: {
+                  content: {
+                    paragraph_01:
+                      "Estimating population size is crucial in species conservation.",
+                    paragraph_02:
+                      "Conducting a repeatable and consistent census methodology for cheetahs has been a " +
+                      "part of the Cheetah Conservation Fund’s (CCF’s) on-going research.",
+                    paragraph_03:
+                      "CCF’s researchers use spoor tracking, radio telemetry and camera trapping. " +
+                      "These techniques are tested and compared to determine whether one technique produces better census result."
+                  }
+                },
+                part_RadioTelemetry: {
+                  title: "Radio Telemetry",
+                  content: {
+                    paragraph_01:
+                      "CCF tracked cheetahs by airplane, as well as on the ground one to two times per week between 1992 and 2002. " +
+                      "Today CCF uses satellite collars for tracking cheetahs.",
+                    paragraph_02:
+                      "Radio telemetry analysis was utilized as a comparative method to assess the precision of spoor tracking results."
+                  }
+                },
+                part_SpoorTracking: {
+                  title: "Spoor Tracking",
+                  content: {
+                    paragraph_01:
+                      "Spoor tracking data is collected monthly by driving specific routes.",
+                    paragraph_02:
+                      "Spoor frequency is calculated by dividing the total distance between the numbers of samples of fresh spoor.",
+                    paragraph_03:
+                      "Spoor density is calculated by dividing the number of fresh spoor between the total distances. " +
+                      "Spoor tracking provided promising as a census technique as it displayed a positive relationship with the densities " +
+                      "reported in the radio telemetry study."
+                  }
+                },
+                part_CameraTrapping: {
+                  title: "Camera Trapping",
+                  content: {
+                    paragraph_01:
+                      "Three study areas, each at 200 km sqr are divided into grids. " +
+                      "These areas combined are equal to the size of a cheetah’s home range area.",
+                    paragraph_02:
+                      "A camera trap location is allocated to the study areas; this takes periods of ground trothing in order to " +
+                      "identify play trees and suitable farm roads where cameras can be placed.",
+                    paragraph_03:
+                      "Two heat sensor monitor cameras are used at each camera trap site in order for both sides of a " +
+                      "cheetah to be captured - this allows for more accurate identification.",
+                    paragraph_04:
+                      "Using camera traps, CCF researchers are able to determine the amount of male and female cheetahs by " +
+                      "individually identifying each of the cheetahs captured on camera. Analysis allows for an estimate of the " +
+                      "population size within the study area.",
+                    paragraph_05:
+                      "After collecting and processing photos on computers, identification can begin."
+                  }
+                }
+              }
+            }
           }
         }
       }

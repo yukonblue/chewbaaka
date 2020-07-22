@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 20, 2020
+ * Updated  : Jul 22, 2020
  */
 
 import React from 'react'
@@ -12,6 +12,12 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+
+import {
+  ContentPageSubsectionParagraphsContentBinder
+} from '../shared/ContentPageSubsectionContentBinder'
+
+import image_Spoor_Tracking_Data_Collection from './assets/Spoor_Tracking_Data_Collection.jpg'
 
 export default class EcologyPageSubsectionUnderstandingAnimalMovement extends React.Component {
 
@@ -38,7 +44,52 @@ export default class EcologyPageSubsectionUnderstandingAnimalMovement extends Re
   renderContent() {
     return (
       <div>
-        TBD something about understanding animal movement ...
+        {this.renderIntroPartContent(this.state.subsectionConfig.contents["part_Intro"])}
+        {this.renderPopulationCensusTechniquesPartContent(this.state.subsectionConfig.contents["part_PopulationCensusTechniques"])}
+      </div>
+    );
+  }
+
+  renderIntroPartContent(part) {
+    return (
+      <div>
+        {ContentPageSubsectionParagraphsContentBinder(part.content)}
+      </div>
+    );
+  }
+
+  renderPopulationCensusTechniquesPartContent(part) {
+    return (
+      <div>
+        {
+          Object.keys(part.content).map(
+            (key, idx) => (
+              this.renderPartContent(part.content[key], idx)
+            )
+          )
+        }
+        {this.renderImageGallery()}
+      </div>
+    );
+  }
+
+  renderPartContent(part, key) {
+    return (
+      <div key={key} className="VerticalCushionPadding">
+        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        {ContentPageSubsectionParagraphsContentBinder(part.content)}
+      </div>
+    );
+  }
+
+  renderImageGallery() {
+    return (
+      <div>
+        <img
+          src={image_Spoor_Tracking_Data_Collection}
+          alt=""
+          width={300}
+        />
       </div>
     );
   }
