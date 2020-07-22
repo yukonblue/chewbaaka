@@ -150,6 +150,64 @@ export const config = {
         subsection_HuntingAndPredatorControl: {
           title: "Hunting and Predator Control",
           contents: {
+            part_Traditional_Hunting_versus_Poaching: {
+              title: "Traditional Hunting versus Poaching?",
+              content: {
+                paragraph_01:
+                  "Subsistence hunting for food is carried out throughout the world where families live off the land. " +
+                  "Traditional methods of traps and snares are still popular but more and more people are turning toward guns."
+              }
+            },
+            part_Conservation_Through_Sustainable_Utilization: {
+              title: "Conservation Through Sustainable Utilization",
+              content: {
+                paragraph_01:
+                  "Sustainability refers to a process that can last forever. Utilizing a resource sustainably means that using " +
+                  "the natural resource will not destroy it. Hunting can be a form of sustainable use. " +
+                  "A sustainable outlook on hunting also sets aside a portion of the revenue collected form the " +
+                  "hunt to support conservation efforts for the species."
+              }
+            },
+            part_Hunting: {
+              title: "Hunting",
+              content: {
+                paragraph_01:
+                  "Hunting has changed through the ages from a necessity for survival, to a sport and a management activity. " +
+                  "Ethical hunters and trophy hunting operations operate with the best intentions for conservation and the " +
+                  "continued existence of the population being hunted.",
+                paragraph_02:
+                  "In Namibia, there are a number of laws that regulate hunting. Permits are required to hunt wildlife that " +
+                  "has been divided up into numerous categories, namely, hunt-able game. With each of these categories " +
+                  "there are differing requirements for permits."
+              }
+            },
+            part_Population_Control: {
+              title: "Population Control",
+              content: {
+                paragraph_01:
+                  "Game farmers have to manage their herds throughout the year and on occasion they cull animals to reduce their numbers, " +
+                  "through shooting or live sale. When animals are shot, the meat is sold for food. " +
+                  "Game capture units transport and sell live game. Permits are required for these operations."
+              }
+            },
+            part_Predator_Control: {
+              title: "Predator Control",
+              content: {
+                paragraph_01:
+                  "Predator control is an issue around the globe.",
+                paragraph_02:
+                  "An animal usually resorts to killing livestock due to a medical problem, human influence or a natural incident which " +
+                  "renders it unable to catch its wild prey. Only a cheetah that consistently hunts livestock should be considered a problem animal. " +
+                  "It is critical to identify the individual culprit causing losses rather than remove all cheetahs indiscriminately. " +
+                  "The opportunistic killing of inadequately protected livestock, such a new born calves in the bush, indicates poor livestock " +
+                  "management which does not warrant the removal of the predator. Some farmers trap, poison and shoot cheetahs. " +
+                  "This may not be due ti stock losses, but simply because the predator entered the farm and is perceived as a threat to livestock or family.",
+                paragraph_03:
+                  "Predator control most commonly involves setting live capture cage traps. Farmers also use gin traps and poisoned carcasses. " +
+                  "These methods only increase problems as they tend to lure and kill indiscriminately. Animals suffering as a result include ones " +
+                  "which benefit the farmland ecosystem, as such pangolin, aardwolf, honey badger and bat eared fox."
+              }
+            }
           }
         },
         subsection_TheFarmingCommunity: {
