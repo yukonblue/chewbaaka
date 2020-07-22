@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 20, 2020
+ * Updated  : Jul 22, 2020
  */
 
 import React from 'react'
@@ -25,6 +25,8 @@ import TextBubble from '../shared/TextBubble'
 
 import image_cheetah_coalition_hunting from './assets/cheetah_coalition_hunting.jpg'
 import image_cheetah_go_after_gazelle from './assets/cheetah_go_after_gazelle.jpg'
+
+import image_Cheetah_Lion_Hunting_Success_Rate_Comparsion from './assets/Cheetah_Lion_Hunting_Success_Rate_Comparsion.png'
 
 export default class EcologyPageSubsectionTheCheetahsPrey extends React.Component {
 
@@ -51,13 +53,14 @@ export default class EcologyPageSubsectionTheCheetahsPrey extends React.Componen
   renderContent() {
     return (
       <div>
-        {this.renderPart1Content()}
-        {this.renderPart2Content()}
+        {this.renderTextContent()}
+        {this.renderCheetahLionComparison()}
+        {this.renderImageGalleryContent()}
       </div>
     );
   }
 
-  renderPart1Content() {
+  renderTextContent() {
     return (
       <div className="OverflowHidden VerticalCushionPadding">
         <div className="FloatRight">
@@ -76,7 +79,18 @@ export default class EcologyPageSubsectionTheCheetahsPrey extends React.Componen
     );
   }
 
-  renderPart2Content() {
+  renderCheetahLionComparison() {
+    return (
+      <div className="Centered" style={{width: 960}}>
+        <img
+          src={image_Cheetah_Lion_Hunting_Success_Rate_Comparsion}
+          alt="Cheetah and lion have drastically different preys, hunting strategies, and success rates."
+        />
+      </div>
+    );
+  }
+
+  renderImageGalleryContent() {
     return (
       <div className="Centered">
         <Grid columns={2}>
