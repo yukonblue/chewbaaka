@@ -269,6 +269,17 @@ export const config = {
         subsection_CheetahFriendlyFarming: {
           title: "Cheetah Friendly Farming",
           contents: {
+            part_Intro: {
+              content: {
+                paragraph_01:
+                  "Namibian farmers practice diverse farming activities that form part of the ecosystem. " +
+                  "It is farmers, hunters, and game managers who will preserve Namibia’s precious ecosystem " +
+                  "for future generations to enjoy.",
+                paragraph_02:
+                  "There is no single solution to predator conflicts. Effective predator control and overall farm " +
+                  "management requires a variety of integrated management strategies."
+              }
+            }
           }
         },
         subsection_BushEncroachmentAndSolutions: {

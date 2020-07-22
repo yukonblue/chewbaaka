@@ -13,6 +13,10 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
+import {
+  ContentPageSubsectionParagraphsContentBinder
+} from '../shared/ContentPageSubsectionContentBinder'
+
 export default class EcologyPageSubsectionCheetahFriendlyFarming extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_CheetahFriendlyFarming";
@@ -38,7 +42,15 @@ export default class EcologyPageSubsectionCheetahFriendlyFarming extends React.C
   renderContent() {
     return (
       <div>
-        TBD something about cheetah friendly farming ...
+        {this.renderIntroPartContent(this.state.subsectionConfig.contents["part_Intro"])}
+      </div>
+    );
+  }
+
+  renderIntroPartContent(part) {
+    return (
+      <div>
+        {ContentPageSubsectionParagraphsContentBinder(part.content)}
       </div>
     );
   }
