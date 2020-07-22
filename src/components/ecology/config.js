@@ -283,6 +283,7 @@ export const config = {
             part_FarmPractices: {
               content: {
                 part_SmallstockPractices: {
+                  title: "Smallstock practices",
                   content: {
                     part_Kraals: {
                       title: "Kraals",
@@ -302,6 +303,7 @@ export const config = {
                   }
                 },
                 part_SharedPractices: {
+                  title: "Shared practices",
                   content: {
                     part_HerdManagement: {
                       title: "Herd Management",

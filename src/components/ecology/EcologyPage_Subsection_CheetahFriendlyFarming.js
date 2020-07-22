@@ -12,6 +12,7 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPageSubsectionThreeColumnContentTemplate'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -43,6 +44,7 @@ export default class EcologyPageSubsectionCheetahFriendlyFarming extends React.C
     return (
       <div>
         {this.renderIntroPartContent(this.state.subsectionConfig.contents["part_Intro"])}
+        {this.renderBodyPartContent(this.state.subsectionConfig.contents["part_FarmPractices"])}
       </div>
     );
   }
@@ -51,6 +53,50 @@ export default class EcologyPageSubsectionCheetahFriendlyFarming extends React.C
     return (
       <div>
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
+      </div>
+    );
+  }
+
+  renderBodyPartContent(part) {
+    return (
+      <ContentPageSubsectionThreeColumnContentTemplate
+        lhsColumn={this.bodyPartColumnData(part.content["part_SmallstockPractices"])}
+
+        middleColumn={this.bodyPartColumnData(part.content["part_SharedPractices"])}
+
+        rhsColumn={this.bodyPartColumnData(part.content["part_CattlePractices"])}
+      />
+    );
+  }
+
+  bodyPartColumnData(part) {
+    return {
+      title: part.title,
+      content: this.renderBodyPartColumnContent(part)
+    };
+  }
+
+  renderBodyPartColumnContent(part) {
+    return (
+      <div>
+        {
+          Object.keys(part.content).map(
+            (key, idx) => (
+              this.renderSubPartContent(part.content[key], idx)
+            )
+          )
+        }
+      </div>
+    );
+  }
+
+  renderSubPartContent(subpart, key) {
+    return (
+      <div key={key} className="VerticalCushionPadding">
+        <h3 className="ContentPageSubsectionColumnContentSubtitle">
+          {subpart.title}
+        </h3>
+        {ContentPageSubsectionParagraphsContentBinder(subpart.content)}
       </div>
     );
   }
