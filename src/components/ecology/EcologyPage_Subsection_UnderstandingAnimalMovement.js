@@ -43,6 +43,7 @@ export default class EcologyPageSubsectionUnderstandingAnimalMovement extends Re
     return (
       <div>
         {this.renderIntroPartContent(this.state.subsectionConfig.contents["part_Intro"])}
+        {this.renderPopulationCensusTechniquesPartContent(this.state.subsectionConfig.contents["part_PopulationCensusTechniques"])}
       </div>
     );
   }
@@ -50,6 +51,30 @@ export default class EcologyPageSubsectionUnderstandingAnimalMovement extends Re
   renderIntroPartContent(part) {
     return (
       <div>
+        {ContentPageSubsectionParagraphsContentBinder(part.content)}
+      </div>
+    );
+  }
+
+  renderPopulationCensusTechniquesPartContent(part) {
+    return (
+      <div>
+        {
+          Object.keys(part.content).map(
+            (key, idx) => (
+              this.renderPartContent(part.content[key], idx)
+            )
+          )
+        }
+      </div>
+    );
+  }
+
+  renderPartContent(part, key) {
+    return (
+      <div key={key} className="VerticalCushionPadding">
+        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
       </div>
     );

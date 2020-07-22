@@ -491,6 +491,66 @@ export const config = {
                   "(either in the ground or from a plane) to pick up the cheetah’s signal. The receive transmit the signal into beeps. " +
                   "Each collar’s transmitter has a different radio frequency so that many cheetahs can be located during one “radio-tracking session”."
               }
+            },
+            part_PopulationCensusTechniques: {
+              title: "Population Census Techniques",
+              content: {
+                part_Intro: {
+                  content: {
+                    paragraph_01:
+                      "Estimating population size is crucial in species conservation.",
+                    paragraph_02:
+                      "Conducting a repeatable and consistent census methodology for cheetahs has been a " +
+                      "part of the Cheetah Conservation Fund’s (CCF’s) on-going research.",
+                    paragraph_03:
+                      "CCF’s researchers use spoor tracking, radio telemetry and camera trapping. " +
+                      "These techniques are tested and compared to determine whether one technique produces better census result."
+                  }
+                },
+                part_RadioTelemetry: {
+                  title: "Radio Telemetry",
+                  content: {
+                    paragraph_01:
+                      "CCF tracked cheetahs by airplane, as well as on the ground one to two times per week between 1992 and 2002. " +
+                      "Today CCF uses satellite collars for tracking cheetahs.",
+                    paragraph_02:
+                      "Radio telemetry analysis was utilized as a comparative method to assess the precision of spoor tracking results."
+                  }
+                },
+                part_SpoorTracking: {
+                  title: "Spoor Tracking",
+                  content: {
+                    paragraph_01:
+                      "Spoor tracking data is collected monthly by driving specific routes.",
+                    paragraph_02:
+                      "Spoor frequency is calculated by dividing the total distance between the numbers of samples of fresh spoor.",
+                    paragraph_03:
+                      "Spoor density is calculated by dividing the number of fresh spoor between the total distances. " +
+                      "Spoor tracking provided promising as a census technique as it displayed a positive relationship with the densities " +
+                      "reported in the radio telemetry study."
+                  }
+                },
+                part_CameraTrapping: {
+                  title: "Camera Trapping",
+                  content: {
+                    paragraph_01:
+                      "Three study areas, each at 200 km sqr are divided into grids. " +
+                      "These areas combined are equal to the size of a cheetah’s home range area.",
+                    paragraph_02:
+                      "A camera trap location is allocated to the study areas; this takes periods of ground trothing in order to " +
+                      "identify play trees and suitable farm roads where cameras can be placed.",
+                    paragraph_03:
+                      "Two heat sensor monitor cameras are used at each camera trap site in order for both sides of a " +
+                      "cheetah to be captured - this allows for more accurate identification.",
+                    paragraph_04:
+                      "Using camera traps, CCF researchers are able to determine the amount of male and female cheetahs by " +
+                      "individually identifying each of the cheetahs captured on camera. Analysis allows for an estimate of the " +
+                      "population size within the study area.",
+                    paragraph_05:
+                      "After collecting and processing photos on computers, identification can begin."
+                  }
+                }
+              }
             }
           }
         }
