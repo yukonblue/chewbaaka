@@ -413,6 +413,57 @@ export const config = {
                   }
                 }
               }
+            },
+            part_BushEncroachmentThreatensCheetahSurvival: {
+              title: "Bush Encroachment Threatens Cheetah Survival",
+              content: {
+                part_Intro: {
+                  title: "Bush Encroachment Threatens Cheetah Survival",
+                  content: {
+                    paragraph_01:
+                      "Cheetahs hunt in open or semi-open savannah using bursts of speed. But Namibia’s livestock farmlands, " +
+                      "where 90% of the cheetahs live, are less desirable for the cheetahs and the farmers due to bush encroachment. " +
+                      "Bush encroachment, a form of desertification, is caused from overgrazing of livestock on the arid lands and " +
+                      "unpredictable and regular droughts.",
+                    paragraph_02:
+                      "The deep rooted thorn bushes reduce the water table and compete with the grasses and become a thicket, " +
+                      "taking the underground water and causing desertation. Bush encroachment causes changes in habitats and the " +
+                      "mix of prey species on the land.",
+                    paragraph_03:
+                      "The cheetah’s rangeland has been infested with undesirable thickened thorn bush species. Bush encroachment reduces " +
+                      "the amount of grasslands and poses a major livelihood threat to Namibians, as well as to the cheetah and other wildlife species."
+                  }
+                },
+                part_CCFBushProject: {
+                  title: "Cheetah Conservation Fund’s (CCF) Bush Project",
+                  content: {
+                    paragraph_01:
+                      "CCF Bush (PTY) LTD, began in 2000, with the support from the United States Agency for International Development (USAID), " +
+                      "to study and develop an ecologically and economically viable habitat restoration program. " +
+                      "The goal of CCF Bush is to stimulate the development of a Namibian Biomass industry, thereby protecting the bush ecosystem, " +
+                      "restoring wildlife habitat, improving farming productivity, creating employment opportunities and providing clean, renewable energy.",
+                    paragraph_02:
+                      "CCF harvests the thickened thorn bush, converting it into a clean-burning, biomass fuel log known asa Bushblok ™. " +
+                      "CCF has restored hundreds of hectares of savannah grasslands for livestock, wildlife and cheetahs to share. " +
+                      "In 2006, CCF obtained Forest Stewardship Council (FSC) certification, confirming that it manages forest resources " +
+                      "responsibly and sustainably."
+                  }
+                },
+                part_Objectives: {
+                  content: {
+                    paragraph:
+                      "The Bushblok project objectives are:",
+                    objective_list_items: [
+                      "To enhance the long-term survival of the cheetah and other species by restoring the grasslands.",
+                      "To provide an alternative to over-exploiting native Namibian trees for firewood and charcoal.",
+                      "To encourage industries to use intruder bush as a raw material.",
+                      "To provide standards for bush harvesting, chipping, processing and packaging.",
+                      "To employ, train and empower disadvantaged Namibians.",
+                      "To supply Namibians and international markets with compacted fuel log products."
+                    ]
+                  }
+                }
+              }
             }
           }
         }
