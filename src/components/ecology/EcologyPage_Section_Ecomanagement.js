@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Jul 20, 2020
+ * Updated  : Jul 21, 2020
  */
 
 import React from 'react'
@@ -13,6 +13,7 @@ import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
 import EcologyPageSubsectionHuntingAndPredatorControl from './EcologyPage_Subsection_HuntingAndPredatorControl'
 import EcologyPageSubsectionTheFarmingCommunity from './EcologyPage_Subsection_TheFarmingCommunity'
+import EcologyPageSubsectionCheetahFriendlyFarming from './EcologyPage_Subsection_CheetahFriendlyFarming'
 import EcologyPageSubsectionBushEncroachmentAndSolutions from './EcologyPage_Subsection_BushEncroachmentAndSolutions'
 
 export default class EcologyPageSectionEcomanagement extends React.Component {
@@ -45,6 +46,10 @@ export default class EcologyPageSectionEcomanagement extends React.Component {
         />
 
         <EcologyPageSubsectionTheFarmingCommunity
+          sectionConfig={this.state.sectionConfig}
+        />
+
+        <EcologyPageSubsectionCheetahFriendlyFarming
           sectionConfig={this.state.sectionConfig}
         />
 

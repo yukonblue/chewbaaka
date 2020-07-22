@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 20, 2020
+ * Updated  : Jul 21, 2020
  */
 
 import React from 'react'
@@ -12,6 +12,16 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+
+import {
+  ContentPageSubsectionParagraphsContentBinder
+} from '../shared/ContentPageSubsectionContentBinder'
+
+import TextBubble from '../shared/TextBubble'
+
+import image_What_is_a_Problem_Animal from './assets/What_is_a_Problem_Animal.png'
+
+import image_What_is_Sustainable_Utilization from './assets/What_is_Sustainable_Utilization.png'
 
 export default class EcologyPageSubsectionHuntingAndPredatorControl extends React.Component {
 
@@ -38,7 +48,70 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
   renderContent() {
     return (
       <div>
-        TBD something about the hunting and predator control ...
+        {this.renderPartHuntingContent(this.state.subsectionConfig.contents["part_Hunting"])}
+        {this.renderPartPredatorControlContent(this.state.subsectionConfig.contents["part_Predator_Control"])}
+      </div>
+    );
+  }
+
+  renderPartHuntingContent(part) {
+    return (
+      <div>
+        {
+          Object.keys(part.content).map(
+            (key, idx) => (
+              this.renderPartContent(part.content[key], idx)
+            )
+          )
+        }
+      </div>
+    );
+  }
+
+  renderPartContent(part, idx) {
+    const renderOptionalBannerImgOnPart = () => {
+      if (part.is_part_What_is_Sustainable_Utilization) {
+        return (
+          <div className="Centered FactBannerMediumDimension">
+            <img
+              className="FactBannerMediumDimension"
+              src={image_What_is_Sustainable_Utilization}
+              alt="What is sustainable utilization?"
+              width={720}
+            />
+          </div>
+        );
+      }
+    };
+    return (
+      <div key={idx} className="VerticalCushionPadding">
+        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        {ContentPageSubsectionParagraphsContentBinder(part.content)}
+        {renderOptionalBannerImgOnPart()}
+      </div>
+    );
+  }
+
+  renderPartPredatorControlContent(part) {
+    return (
+      <div className="OverflowHidden VerticalCushionPadding">
+        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <div className="FloatRight">
+          <TextBubble
+            diameter={560}
+            backgroundColorRGB={[255,155,0]}
+            title={part.textBubble.title}
+            content={part.textBubble.content}
+          />
+        </div>
+
+        {ContentPageSubsectionParagraphsContentBinder(part.content)}
+
+        <img
+          className="FactBannerMediumDimension"
+          src={image_What_is_a_Problem_Animal}
+          alt="What is a problem animal?"
+        />
       </div>
     );
   }
