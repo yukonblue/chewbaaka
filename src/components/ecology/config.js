@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Jul 21, 2020
+ * Updated  : Jul 22, 2020
  */
 
 export const config = {
@@ -248,7 +248,8 @@ export const config = {
                   "Commercial conservancies consist of adjacent private farms joining together in common units. " +
                   "Communal conservancies operate on a local level and membership is made up entirely of community members who decide to " +
                   "work together for the sustainable management and use of wildlife and tourism."
-              }
+              },
+              is_part_Conservancies: true
             },
             part_Ecotourism: {
               title: "Eco-tourism",
