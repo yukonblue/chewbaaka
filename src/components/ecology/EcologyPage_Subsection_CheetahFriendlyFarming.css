@@ -1,0 +1,24 @@
+/**
+ * EcologyPage_Subsection_CheetahFriendlyFarming.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 21, 2020
+ * Updated  : Jul 21, 2020
+ */
+
+img.FlexClipartSheep {
+  z-index: 100;
+  position: relative;
+  left: 320px;
+  top: 120px;
+  margin-top: -120px;
+}
+
+img.FlexClipartCattle {
+  z-index: 100;
+  position: relative;
+  left: 720px;
+  top: 110px;
+  margin-top: -110px;
+}

@@ -18,6 +18,11 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
+import image_goat_clipart from './assets/goat_clipart.png'
+import image_cattle_clipart from './assets/cattle_clipart.png'
+
+import './EcologyPage_Subsection_CheetahFriendlyFarming.css'
+
 export default class EcologyPageSubsectionCheetahFriendlyFarming extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_CheetahFriendlyFarming";
@@ -59,15 +64,19 @@ export default class EcologyPageSubsectionCheetahFriendlyFarming extends React.C
 
   renderBodyPartContent(part) {
     return (
-      <ContentPageSubsectionThreeColumnContentTemplate
-        lhsColumn={this.bodyPartColumnData(part.content["part_SmallstockPractices"])}
+      <div className="VerticalCushionPadding">
+        <img className="FlexClipartSheep" src={image_goat_clipart} alt="sheep" width={160} />
+        <img className="FlexClipartCattle" src={image_cattle_clipart} alt="cattle" width={160} />
+        <ContentPageSubsectionThreeColumnContentTemplate
+          lhsColumn={this.bodyPartColumnData(part.content["part_SmallstockPractices"])}
 
-        middleColumn={this.bodyPartColumnData(part.content["part_SharedPractices"])}
+          middleColumn={this.bodyPartColumnData(part.content["part_SharedPractices"])}
 
-        rhsColumn={this.bodyPartColumnData(part.content["part_CattlePractices"])}
+          rhsColumn={this.bodyPartColumnData(part.content["part_CattlePractices"])}
 
-        showTitleInMiddleColumn={true}
-      />
+          showTitleInMiddleColumn={true}
+        />
+      </div>
     );
   }
 
