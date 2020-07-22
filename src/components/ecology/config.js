@@ -373,6 +373,47 @@ export const config = {
         subsection_BushEncroachmentAndSolutions: {
           title: "Bush Encroachment and Solutions",
           contents: {
+            part_BushEncroachment: {
+              title: "Bush Encroachment",
+              content: {
+                part_Intro: {
+                  content: {
+                    paragraph_01:
+                      "One of the most serious environmental threats facing Namibia is bush encroachment. " +
+                      "Approximately 14 million hectares of land (12% of Namibia) is now so badly encroached " +
+                      "that neither man nor livestock can penetrate it.",
+                    paragraph_02:
+                      "Under natural conditions, the savannas are covered with grasslands, scattered trees and shrubs, " +
+                      "supporting a wide variety of wildlife. Herbivores usually feed intensely in localized areas for " +
+                      "short periods of time. Plants and tress experience brief and intense browsing and grazing pressure " +
+                      "separated by extended rest periods. This, combined with regular fires, maintains a balance between " +
+                      "trees and grasses. Larger animals like elephant and rhino aid in controlling the growth of bush."
+                  }
+                },
+                part_StockFarmingContributionToBushEncroachment: {
+                  title: "How does Stock Farming Contribute to Bush Encroachment",
+                  content: {
+                    paragraph_01:
+                      "Domestic livestock are primarily grazers. Farm fences prevent livestock from moving freely. " +
+                      "If not properly managed, this results in overgrazing. This occurs when animals continue to graze " +
+                      "and trampling the land on which they are kept, thus allowing little time for grass species to grow and seed. " +
+                      "This leads to the gradual decline of grass species and allows the bush to grow out of control. " +
+                      "The prevention of fires adds to bush encroachment."
+                  }
+                },
+                part_CheetahSurvivalInBushEncroachedAreas: {
+                  title: "Cheetah Survival in Bush Encroached Areas",
+                  content: {
+                    paragraph_01:
+                      "Bush encroachment reduces carrying capacity for both livestock and game species. " +
+                      "As bush encroachment increases, cheetahs must adopt their hunting techniques. " +
+                      "Ambush tactics may replace the characteristic high-speed chase. " +
+                      "Scientists are investigating a possible link between the increased occurrences of " +
+                      "cheetah eye injuries and their hunting in bush encroached areas."
+                  }
+                }
+              }
+            }
           }
         }
       }

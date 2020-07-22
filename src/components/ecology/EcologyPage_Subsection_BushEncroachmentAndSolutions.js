@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 20, 2020
+ * Updated  : Jul 21, 2020
  */
 
 import React from 'react'
@@ -12,6 +12,10 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+
+import {
+  ContentPageSubsectionParagraphsContentBinder
+} from '../shared/ContentPageSubsectionContentBinder'
 
 export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends React.Component {
 
@@ -38,7 +42,32 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
   renderContent() {
     return (
       <div>
-        TBD something about the bush encroachment and solutions ...
+        {this.renderPartBushEncroachmentContent(this.state.subsectionConfig.contents["part_BushEncroachment"])}
+      </div>
+    );
+  }
+
+  renderPartBushEncroachmentContent(part) {
+    return (
+      <div>
+        <div className="VerticalCushionPadding">
+          <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+          {ContentPageSubsectionParagraphsContentBinder(part.content["part_Intro"].content)}
+        </div>
+
+        {this.renderSubpartContent(part.content["part_StockFarmingContributionToBushEncroachment"])}
+
+        {this.renderSubpartContent(part.content["part_CheetahSurvivalInBushEncroachedAreas"])}
+      </div>
+    );
+  }
+
+  renderSubpartContent(subpart) {
+    return (
+      <div className="VerticalCushionPadding">
+        <h4 className="ContentPageSubsectionSubtitle">{subpart.title}</h4>
+
+        {ContentPageSubsectionParagraphsContentBinder(subpart.content)}
       </div>
     );
   }
