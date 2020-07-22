@@ -223,6 +223,50 @@ export const config = {
         subsection_TheFarmingCommunity: {
           title: "The Farming Community",
           contents: {
+            part_Intro: {
+              paragraph_01:
+                "New methods of livestock and wildlife management are incorporated into agricultural practices to ensure a healthy ecosystem."
+            },
+            part_Mixed_Farming_Wildlife_and_Livestock: {
+              title: "Mixed Farming - Wildlife and Livestock",
+              content: {
+                paragraph_01:
+                  "Combining game and livestock farming holds many advantages fo the farmer. " +
+                  "A variety of game species helps to maintain a healthy farmland ecosystem by using all levels and forms of vegetation. " +
+                  "When livestock prices are low, game animals can supplement the farmer’s income in the form of hunting, ecotourism or direct live sale. " +
+                  "Game animals tolerate drought conditions better than livestock. " +
+                  "They also act as a buffer reducing the occurrences of predation on livestock."
+              }
+            },
+            part_Conservancies: {
+              title: "Conservancies",
+              content: {
+                paragraph_01:
+                  "Conservancies are legally protected areas with shared common resources where conservation is actively practiced. " +
+                  "Its purpose is to achieve a collective policy for the ownership, management and use of resources. " +
+                  "Conservation is the management of human use of organisms or ecosystems to ensure that such use is sustainable. " +
+                  "Conservancy objectives include the protection, maintenance, rehabilitation, restoration, and enhancement of ecosystems.",
+                paragraph_02:
+                  "Conservancies retain all income from wildlife and tourism based enterprises within the conservancy and decides on how these fund are spent. " +
+                  "Commercial conservancies consist of adjacent private farms joining together in common units. " +
+                  "Communal conservancies operate on a local level and membership is made up entirely of community members who decide to " +
+                  "work together for the sustainable management and use of wildlife and tourism."
+              }
+            },
+            part_Ecotourism: {
+              title: "Eco-tourism",
+              content: {
+                paragraph_01:
+                  "Namibia has a reputation as the “Cheetah Capital of the World” and tourists come to see cheetah habitat and learn how " +
+                  "cheetahs survive on farmland. Ecotourism focuses in animals, habitats, and places of conservation interest. " +
+                  "Etosha National Park, the Namibia Desert and the Skeleton Coast are major attractions for foreign ecotourists. " +
+                  "Lodges, guest farms, and commercial villages are points on Namibian ecotours. Many of these destinations promote cheetah conservation.",
+                paragraph_02:
+                  "Sometime in the 2000s, the annual number of tourists visiting Namibia will exceed 500,000. " +
+                  "Tourists spend money on transport, lodging, food and souvenirs. This is an important part of the economy and a supplement to " +
+                  "agricultural income for many Namibians."
+              }
+            }
           }
         },
         subsection_BushEncroachmentAndSolutions: {
