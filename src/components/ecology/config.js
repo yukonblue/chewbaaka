@@ -266,6 +266,11 @@ export const config = {
             }
           }
         },
+        subsection_CheetahFriendlyFarming: {
+          title: "Cheetah Friendly Farming",
+          contents: {
+          }
+        },
         subsection_BushEncroachmentAndSolutions: {
           title: "Bush Encroachment and Solutions",
           contents: {
