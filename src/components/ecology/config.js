@@ -222,11 +222,8 @@ export const config = {
         },
         subsection_TheFarmingCommunity: {
           title: "The Farming Community",
+          subtitle: "New methods of livestock and wildlife management are incorporated into agricultural practices to ensure a healthy ecosystem.",
           contents: {
-            part_Intro: {
-              paragraph_01:
-                "New methods of livestock and wildlife management are incorporated into agricultural practices to ensure a healthy ecosystem."
-            },
             part_Mixed_Farming_Wildlife_and_Livestock: {
               title: "Mixed Farming - Wildlife and Livestock",
               content: {

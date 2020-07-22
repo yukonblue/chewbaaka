@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 20, 2020
+ * Updated  : Jul 21, 2020
  */
 
 import React from 'react'
@@ -12,6 +12,12 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+
+import ContentPageParagraph from '../shared/ContentPageParagraph'
+
+import {
+  ContentPageSubsectionParagraphsContentBinder
+} from '../shared/ContentPageSubsectionContentBinder'
 
 export default class EcologyPageSubsectionTheFarmingCommunity extends React.Component {
 
@@ -38,7 +44,26 @@ export default class EcologyPageSubsectionTheFarmingCommunity extends React.Comp
   renderContent() {
     return (
       <div>
-        TBD something about the farming community ...
+        <ContentPageParagraph>
+          {this.state.subsectionConfig.subtitle}
+        </ContentPageParagraph>
+
+        {
+          Object.keys(this.state.subsectionConfig.contents).map(
+            (key, idx) => (
+              this.renderPartContent(this.state.subsectionConfig.contents[key], idx)
+            )
+          )
+        }
+      </div>
+    );
+  }
+
+  renderPartContent(part, idx) {
+    return (
+      <div key={idx} className="VerticalCushionPadding">
+        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        {ContentPageSubsectionParagraphsContentBinder(part.content)}
       </div>
     );
   }
