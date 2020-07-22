@@ -71,15 +71,31 @@ export const config = {
                   "Namibia is a country with a rich biodiversity, as it spans over " +
                   "five distinct types of biomes.",
                 paragraph_biome_savanna:
-                  "",
+                  "The savanna biome is consisted of rolling grasslands scattered with shrubs and isolated trees. " +
+                  "Annual rainfalls are not sufficient to support forests, but enough for an abundance of " +
+                  "grasslands and shrubs that can support a diversity of animal species. Savannas in Namibia " +
+                  "definitely support the richest biodiversity.",
                 paragraph_succulent_karro:
-                  "",
-                paragraph_biome_karoo_nama:
-                  "",
+                  "The Succulent Karoo biome is primarily determined by the presence of low winter rainfall and extreme summer aridity. " +
+                  "Because of the unique weather patterns in this biome driven mostly by cyclonic rains, summers have high temperatures and " +
+                  "fogs are common near the coast. As a result, the vegetation are dominated by dwarf, succulent shrubs.",
+                paragraph_biome_nama_karoo:
+                  "The Nama Karoo biome is primarily determined by high peak seasonal rainfaills between December to March, " +
+                  "with average annual rainfall ranges between 100 mm to 500 mm. Vegetations are mostly consisted of dwarf shrubs, " +
+                  "similar to that of the Succulent Karoo biome. Although the biodiversity of fauna in this biome is limited, " +
+                  "there are many species of birds and reptiles that are endemic to this biome",
                 paragraph_biome_namib_desert:
-                  "",
+                  "The desert biome of the Namib receives less than a centimetre of rain a year. " +
+                  "However, despite the low rainfall, being a coastal desert wind blows in from the cold " +
+                  "Atlantic forming dense fog banks. This fog provides moisture for a surprising number of " +
+                  "plants and animals and the desert is alive with desert-adapted plants the most famous being " +
+                  "the welwitschia, antelope like oryx and springbok, desert elephants, lions and a plethora of " +
+                  "beetles, bugs, geckos, lizards, snakes and rodents.",
                 paragraph_biome_lakes_and_salt_pans:
-                  "",
+                  "The Lakes and Salt Pans biome in Namibia is solely consisted of the Etosha pan that forms part of the Kalahari Basin. " +
+                  "It is mainly consisted of a 120-kilometre-long dry lakebed that deposits salt and mineral underground. The high saline condition " +
+                  "of the salt pans support mostly algae, which attracts migratory birds such as flamingos and pelicans as a breeding ground. " +
+                  "The surrounding area is dense mopane woodland which supports large populations of elephants."
               }
             }
           }
