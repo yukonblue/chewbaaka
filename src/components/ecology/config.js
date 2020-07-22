@@ -450,9 +450,8 @@ export const config = {
                   }
                 },
                 part_Objectives: {
+                  title: "The Bushblok project objectives are:",
                   content: {
-                    paragraph:
-                      "The Bushblok project objectives are:",
                     objective_list_items: [
                       "To enhance the long-term survival of the cheetah and other species by restoring the grasslands.",
                       "To provide an alternative to over-exploiting native Namibian trees for firewood and charcoal.",

@@ -111,6 +111,26 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
             {ContentPageSubsectionParagraphsContentBinder(part.content["part_CCFBushProject"].content)}
           </div>
         </div>
+
+        {this.renderBushblockObjectivesSection(part.content["part_Objectives"])}
+      </div>
+    );
+  }
+
+  renderBushblockObjectivesSection(part) {
+    return (
+      <div className="VerticalCushionPadding">
+        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+
+        <ul>
+          {
+            part.content["objective_list_items"].map(
+              (item, idx) => (
+                <li key={idx} className="ContentPageBulletTextStyle">{item}</li>
+              )
+            )
+          }
+        </ul>
       </div>
     );
   }
