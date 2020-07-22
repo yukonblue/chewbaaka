@@ -279,6 +279,91 @@ export const config = {
                   "There is no single solution to predator conflicts. Effective predator control and overall farm " +
                   "management requires a variety of integrated management strategies."
               }
+            },
+            part_FarmPractices: {
+              content: {
+                part_SmallstockPractices: {
+                  content: {
+                    part_Kraals: {
+                      title: "Kraals",
+                      content: {
+                        paragraph_01:
+                          "Kraaling smallstock at night enables monitoring and protection. Sturdy fencing or thorn branches " +
+                          "must be tall enough to keep stock in and predators out."
+                      }
+                    },
+                    part_Herder: {
+                      title: "Herder",
+                      content: {
+                        paragraph_01:
+                          "Keeping a herder with smallstock during the day provides additional protection."
+                      }
+                    }
+                  }
+                },
+                part_SharedPractices: {
+                  content: {
+                    part_HerdManagement: {
+                      title: "Herd Management",
+                      content: {
+                        paragraph_01:
+                          "Predators such as cheetahs are opportunistic. Management strategies should aim to protect " +
+                          "livestock when they are most vulnerable, particularly at night and during birthing seasons. " +
+                          "Culling animals that fail to produce or consistently lose calves to predation increases herd production."
+                      }
+                    },
+                    part_SeasonalBirths: {
+                      title: "Seasonal births",
+                      content: {
+                        paragraph_01:
+                          "Seasonal birthing allows intensive monitoring of the calving/lambing herds.",
+                        paragraph_02:
+                          "Synchronizing livestock births with wildlife calving seasons ensures sufficient natural prey when livestock are most vulnerable."
+                      }
+                    },
+                    part_Fencing: {
+                      title: "Fencing",
+                      content: {
+                        paragraph_01:
+                          "Wildlife-friendly farmers use four to five strands of non-barbed galvanized wires for interior livestock fencing. " +
+                          "These low fences are not high and leave a large gap along the bottom to allow migration of wildlife through farmlands."
+                      }
+                    },
+                    part_GuardAnimals: {
+                      title: "Guard animals",
+                      content: {
+                        paragraph_01:
+                          "Losses are reduced by utilizing livestock guardians such as dogs for smallstock and donkeys for cattle. " +
+                          "Guard animals need to be healthy and properly trained in order to be effective."
+                      }
+                    }
+                  }
+                },
+                part_CattlePractices: {
+                  title: "Cattle practices",
+                  content: {
+                    part_CalvingCamps: {
+                      title: "Calving camps",
+                      content: {
+                        paragraph_01:
+                          "Close monitoring is made possible by locating calving camps near the homestead. " +
+                          "This reduces losses to predation, accidents or other complications in the first few weeks of a calf’s life. " +
+                          "Larger herd size also discourages predators.",
+                        paragraph_02:
+                          "Calves under three months of age and heifers (first-time mothers) are most vulnerable to predators. " +
+                          "Closer monitoring will reduce losses."
+                      }
+                    },
+                    part_Breeds: {
+                      title: "Breeds",
+                      content: {
+                        paragraph_01:
+                          "Choose breeds that are more aggressive and allowing horns to grow on cows reduces losses to predators."
+                      }
+                    }
+                  }
+                }
+              }
             }
           }
         },
