@@ -74,6 +74,11 @@ export const config = {
           title: "Future Farmers of Africa",
           contents: {
           }
+        },
+        subsection_LivestockGuardingDogs: {
+          title: "Livestock Guarding Dogs",
+          contents: {
+          }
         }
       }
     },

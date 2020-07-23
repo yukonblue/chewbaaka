@@ -13,6 +13,7 @@ import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
 import FuturePageSubsectionMissionPossible from './FuturePage_Subsection_MissionPossible'
 import FuturePageSubsectionFutureFarmersOfAfrica from './FuturePage_Subsection_FutureFarmersOfAfrica'
+import FuturePageSubsectionLivestockGuardingDogs from './FuturePage_Subsection_LivestockGuardingDogs'
 
 export default class FuturePageSectionSustainableDevelopment extends React.Component {
 
@@ -44,6 +45,10 @@ export default class FuturePageSectionSustainableDevelopment extends React.Compo
         />
 
         <FuturePageSubsectionFutureFarmersOfAfrica
+          sectionConfig={this.state.sectionConfig}
+        />
+
+        <FuturePageSubsectionLivestockGuardingDogs
           sectionConfig={this.state.sectionConfig}
         />
       </div>
