@@ -1,16 +1,15 @@
 /**
- * FuturePage_Subsection_CheetahsAtCCF.js
+ * FuturePage_Subsection_CheetahAmbassadors.js
  * Chewbaaka
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 22, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import '../shared/ContentPageSharedStyles.css'
-import './FuturePage_Subsection_CheetahsAtCCF.css'
 
 import { getElementStyleClassName } from '../../styling/styling'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
@@ -22,14 +21,16 @@ import CircularImage from '../shared/CircularImage'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
-export default class FuturePageSubsectionCheetahsAtCCF extends React.Component {
+import './FuturePage_Subsection_CheetahAmbassadors.css'
 
-  static _SUBSECTION_NAME_ = "subsection_CheetahsAtCCF";
+export default class FuturePageSubsectionCheetahAmbassadors extends React.Component {
+
+  static _SUBSECTION_NAME_ = "subsection_CheetahAmbassadors";
 
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[FuturePageSubsectionCheetahsAtCCF._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[FuturePageSubsectionCheetahAmbassadors._SUBSECTION_NAME_]
     };
   }
 
@@ -96,11 +97,9 @@ export default class FuturePageSubsectionCheetahsAtCCF extends React.Component {
 
   renderRhsContentMekondyo() {
     return (
-      <div className="FuturePageCheetahAndManImageSubsectionContentTextContainer">
-        <ContentPageParagraph>
-          {this.state.subsectionConfig.contents["paragraph_Mekondyo"]}
-        </ContentPageParagraph>
-      </div>
+      <ContentPageParagraph>
+        {this.state.subsectionConfig.contents["paragraph_Mekondyo"]}
+      </ContentPageParagraph>
     );
   }
 }

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 22, 2020
  */
 
 export const config = {
@@ -14,24 +14,20 @@ export const config = {
     subtitle: "Subtitle TBD ...",
     pageMenuItems: [
       {
-        title: "Cheetah Ambassadors",
-        tocImageFilename: ""
-      },
-      {
         title: "Conservation",
         tocImageFilename: ""
       }
     ],
   },
   contentPageSections: {
-    section_CheetahAmbassadors: {
+    section_Conservation: {
       intro: {
-        title: "Cheetah Ambassadors",
+        title: "Conservation",
         content: "Content TBD ..."
       },
       subsections: {
-        subsection_CheetahsAtCCF: {
-          title: "Cheetahs at CCF",
+        subsection_CheetahAmbassadors: {
+          title: "Cheetah Ambassadors",
           contents: {
             paragraph_Chewbaaka:
               "Hi there, my name is Chewbaaka. I was named after an animal " +
