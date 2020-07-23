@@ -16,6 +16,10 @@ export const config = {
       {
         title: "Conservation",
         tocImageFilename: ""
+      },
+      {
+        title: "Sustainable Development",
+        tocImageFilename: ""
       }
     ],
   },
