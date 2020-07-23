@@ -65,6 +65,11 @@ export const config = {
         content: "Content TBD ..."
       },
       subsections: {
+        subsection_MissionPossible: {
+          title: "Mission Possible",
+          contents: {
+          }
+        },
         subsection_FutureFarmersOfAfrica: {
           title: "Future Farmers of Africa",
           contents: {
