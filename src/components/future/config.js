@@ -102,6 +102,11 @@ export const config = {
           title: "The Role of Zoos",
           content: {
           }
+        },
+        subsection_SchoolsTeachersLearners: {
+          title: "Schools, Teachers, Learners",
+          content: {
+          }
         }
       }
     }
