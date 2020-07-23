@@ -4,16 +4,16 @@
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 17, 2020
+ * Updated  : Jul 23, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import { BrowserRouter as Router, Redirect } from 'react-router-dom'
 
-import { Slider } from '@material-ui/core';
+import { Slider } from '@material-ui/core'
 
-import "semantic-ui-css/semantic.min.css";
+import "semantic-ui-css/semantic.min.css"
 
 import ImageSlideDiscrete from './ImageSlideDiscrete'
 import ImageSlide from './ImageSlide'
@@ -34,6 +34,7 @@ import ImageCollageCell from './ImageCollageCell'
 import ImageCollage from './ImageCollage'
 import CheetahSkeletalAnatomyDiagram from '../biology/CheetahSkeletalAnatomyDiagram'
 import CheetahAccelerationIllustration from '../biology/CheetahAccelerationIllustration'
+import ImageSlidingGalleryDiscrete from '../shared/ImageSlidingGalleryDiscrete'
 
 import image01 from './assets/cheetah-conservation-fund-logo.jpg'
 import image02 from './assets/cheetah-conservation-fund-30-logo.svg'
@@ -42,7 +43,8 @@ import image04 from './assets/cheetah-conservation-fund-cheetah-fact-02.jpg'
 
 const __DEV__ = ( process.env.NODE_ENV === "development" || process.env.NODE_ENV === "test" );
 
-class TestPage extends React.Component {
+export default class TestPage extends React.Component {
+
   render() {
     /**
      * Redirect to homepage in production build,
@@ -60,6 +62,38 @@ class TestPage extends React.Component {
         <h1>This is a test page</h1>
 
         This page is used to test our custom components, navigations, and other things.
+
+        <h2>ImageSlidingGalleryDiscrete</h2>
+        <ImageSlidingGalleryDiscrete
+          width={720}
+          height={480}
+          slides={[
+            {
+              image: image01,
+              caption: "Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words"
+            },
+            {
+              image: image02,
+              caption: "Listen to a Tsimshian (Pacific Northwest Native) storyteller recount the family history painted on a 38-foot-long house front as specific parts of the design light up."
+            },
+            {
+              image: image01,
+              caption: "Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words"
+            },
+            {
+              image: image02,
+              caption: "Listen to a Tsimshian (Pacific Northwest Native) storyteller recount the family history painted on a 38-foot-long house front as specific parts of the design light up."
+            },
+            {
+              image: image01,
+              caption: "Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words"
+            },
+            {
+              image: image02,
+              caption: "Listen to a Tsimshian (Pacific Northwest Native) storyteller recount the family history painted on a 38-foot-long house front as specific parts of the design light up."
+            }
+          ]}
+        />
 
         <h2>CheetahAccelerationIllustration</h2>
         <CheetahAccelerationIllustration />
@@ -284,5 +318,3 @@ To create a production build, use npm run build." />
     )
   }
 }
-
-export default TestPage;
