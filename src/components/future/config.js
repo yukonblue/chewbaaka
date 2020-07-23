@@ -60,6 +60,11 @@ export const config = {
         content: "Content TBD ..."
       },
       subsections: {
+        subsection_FutureFarmersOfAfrica: {
+          title: "Future Farmers of Africa",
+          contents: {
+          }
+        }
       }
     },
     section_OutreachAndEducation: {

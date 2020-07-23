@@ -11,6 +11,8 @@ import React from 'react'
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
+import FuturePageSubsectionFutureFarmersOfAfrica from './FuturePage_Subsection_FutureFarmersOfAfrica'
+
 export default class FuturePageSectionSustainableDevelopment extends React.Component {
 
   static _SECTION_NAME_ = "section_SustainableDevelopment";
@@ -36,6 +38,9 @@ export default class FuturePageSectionSustainableDevelopment extends React.Compo
   renderContent() {
     return (
       <div>
+        <FuturePageSubsectionFutureFarmersOfAfrica
+          sectionConfig={this.state.sectionConfig}
+        />
       </div>
     );
   }
