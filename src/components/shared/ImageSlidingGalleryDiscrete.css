@@ -16,13 +16,14 @@ div.ImageSlidingGalleryDiscreteOuterContainer_DebugColor {
 }
 
 div.ImageSlidingGalleryDiscreteCoreContainer {
-  /* width: 480px; */
-  /* position: relative; */
 }
 
-img.ImageSlidingGalleryImgPart {
-  /* width: 480px; */
-  /* height: 320px; */
+div.ImageSlidingGalleryDiscreteButtonGroupContainer {
+  display: inline-block;
+  margin: 20px auto;
+}
+
+img.ImageSlidingGalleryDiscreteImgPart {
   filter: drop-shadow(1px 1px 1px #222);
 }
 

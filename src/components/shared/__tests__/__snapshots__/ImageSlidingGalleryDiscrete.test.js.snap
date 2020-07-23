@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
+<div
+  className="ImageSlidingGalleryDiscreteOuterContainer ImageSlidingGalleryDiscreteOuterContainer_DebugColor DebugWireframe"
+  style={
+    Object {
+      "height": NaN,
+      "width": undefined,
+    }
+  }
+>
+  <div
+    className="ImageSlidingGalleryDiscreteCoreContainer ImageSlidingGalleryDiscreteCoreContainer_DebugColor DebugWireframe"
+    style={
+      Object {
+        "height": NaN,
+        "width": undefined,
+      }
+    }
+  >
+    <img
+      alt="Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words"
+      className="ImageSlidingGalleryDiscreteImgPart"
+      src=""
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    />
+    <div
+      className="ImageSlidingGalleryDiscreteCaptionPart"
+      data-testid="ImageSlidingGalleryDiscreteCaptionPart"
+    >
+      <div
+        className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+        data-testid="CaptionComponentTestId"
+        style={
+          Object {
+            "width": undefined,
+          }
+        }
+      >
+        <div
+          className="IconContainer IconContainer_DebugColor DebugWireframe"
+        >
+          <i
+            aria-hidden="true"
+            className="image icon"
+            onClick={[Function]}
+          />
+        </div>
+        <p
+          className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+        >
+          Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words
+        </p>
+      </div>
+    </div>
+    <div
+      className="ImageSlidingGalleryDiscreteButtonGroupContainer ImageSlidingGalleryDiscreteButtonGroupContainer_DebugColor DebugWireframe"
+    >
+      <div
+        className="ui buttons"
+      >
+        <button
+          className="ui yellow huge button"
+          onClick={[Function]}
+        >
+          0
+        </button>
+        <button
+          className="ui blue huge button"
+          onClick={[Function]}
+        >
+          1
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonContainer_DebugColor DebugWireframe ImageSlidingGalleryDiscreteButtonLhsContainer ImageSlidingGalleryDiscreteButtonLhsContainer_DebugColor DebugWireframe"
+    style={
+      Object {
+        "top": NaN,
+      }
+    }
+  >
+    <button
+      className="ui blue large circular icon button"
+      onClick={[Function]}
+    >
+      <i
+        aria-hidden="true"
+        className="arrow alternate circle left outline icon"
+        onClick={[Function]}
+      />
+    </button>
+  </div>
+  <div
+    className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonContainer_DebugColor DebugWireframe ImageSlidingGalleryDiscreteButtonRhsContainer ImageSlidingGalleryDiscreteButtonRhsContainer_DebugColor DebugWireframe"
+    style={
+      Object {
+        "top": NaN,
+      }
+    }
+  >
+    <button
+      className="ui blue large circular icon button"
+      onClick={[Function]}
+    >
+      <i
+        aria-hidden="true"
+        className="arrow alternate circle right outline icon"
+        onClick={[Function]}
+      />
+    </button>
+  </div>
+</div>
+`;

@@ -75,6 +75,22 @@ export default class TestPage extends React.Component {
             {
               image: image02,
               caption: "Listen to a Tsimshian (Pacific Northwest Native) storyteller recount the family history painted on a 38-foot-long house front as specific parts of the design light up."
+            },
+            {
+              image: image01,
+              caption: "Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words"
+            },
+            {
+              image: image02,
+              caption: "Listen to a Tsimshian (Pacific Northwest Native) storyteller recount the family history painted on a 38-foot-long house front as specific parts of the design light up."
+            },
+            {
+              image: image01,
+              caption: "Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words"
+            },
+            {
+              image: image02,
+              caption: "Listen to a Tsimshian (Pacific Northwest Native) storyteller recount the family history painted on a 38-foot-long house front as specific parts of the design light up."
             }
           ]}
         />

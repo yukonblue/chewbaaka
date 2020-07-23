@@ -27,7 +27,7 @@ import React from 'react'
 
 import "semantic-ui-css/semantic.min.css"
 
-import { Button, Grid } from "semantic-ui-react"
+import { Button } from "semantic-ui-react"
 
 import './ImageSlidingGalleryDiscrete.css'
 
@@ -87,7 +87,7 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
       top: buttonCommonTopPos
     };
 
-    const gridItems = this.props.slides.map((_, idx) => (this.renderGridItem(idx)));
+    const buttonItems = this.props.slides.map((_, idx) => (this.renderButtonItem(idx)));
 
     return (
       <div
@@ -109,10 +109,10 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
           >
             <Caption caption={this.props.slides[this.state.activeIndex].caption} />
           </div>
-          <div>
-            <Grid>
-              {gridItems}
-            </Grid>
+          <div className={getElementStyleClassName("ImageSlidingGalleryDiscreteButtonGroupContainer")}>
+            <Button.Group>
+              {buttonItems}
+            </Button.Group>
           </div>
         </div>
         <div
@@ -121,8 +121,9 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
           style={buttonCommonPositionStyle}
         >
           <Button
+            circular
             icon="arrow alternate circle left outline"
-            size="huge"
+            size="large"
             color="blue"
             onClick={this.handleOnPrevClick}
           />
@@ -133,8 +134,9 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
           style={buttonCommonPositionStyle}
         >
           <Button
+            circular
             icon="arrow alternate circle right outline"
-            size="huge"
+            size="large"
             color="blue"
             onClick={this.handleOnNextClick}
           />
@@ -143,18 +145,17 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
     );
   }
 
-  renderGridItem(idx) {
+  renderButtonItem(idx) {
+    const color = (this.state.activeIndex === idx) ? "yellow" : "blue";
     return (
-      <Grid.Column key={idx}>
-        <Button
-          basic
-          color="blue"
-          size="large"
-          onClick={(e) => (this.handleGridButtonOnClick(idx))}
-        >
-          {idx}
-        </Button>
-      </Grid.Column>
+      <Button
+        key={idx}
+        color={color}
+        size="huge"
+        onClick={(e) => (this.handleGridButtonOnClick(idx))}
+      >
+        {idx}
+      </Button>
     );
   }
 }
