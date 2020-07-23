@@ -20,6 +20,10 @@ export const config = {
       {
         title: "Sustainable Development",
         tocImageFilename: ""
+      },
+      {
+        title: "Outreach and Education",
+        tocImageFilename: ""
       }
     ],
   },
@@ -57,6 +61,14 @@ export const config = {
       },
       subsections: {
       }
+    },
+    section_OutreachAndEducation: {
+      intro: {
+        title: "Outreach and Education",
+        content: "Content TBD ..."
+      },
+      subsections: {
+      }
     }
-  }
+  },
 };
