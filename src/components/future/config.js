@@ -39,6 +39,11 @@ export const config = {
           contents: {
           }
         },
+        subsection_StoppingIllegalWildlifeTrades: {
+          title: "Stopping Illegal Wildlife Trades",
+          contents: {
+          }
+        },
         subsection_CheetahAmbassadors: {
           title: "Cheetah Ambassadors",
           contents: {

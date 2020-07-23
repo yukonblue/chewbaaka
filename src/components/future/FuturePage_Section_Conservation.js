@@ -12,6 +12,7 @@ import React from 'react'
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
 import FuturePageSubsectionWhatIsConservation from './FuturePage_Subsection_WhatIsConservation'
+import FuturePageSubsectionStoppingIllegalWildlifeTrades from './FuturePage_Subsection_StoppingIllegalWildlifeTrades'
 import FuturePageSubsectionCheetahAmbassadors from './FuturePage_Subsection_CheetahAmbassadors'
 
 export default class FuturePageSectionConservation extends React.Component {
@@ -40,6 +41,10 @@ export default class FuturePageSectionConservation extends React.Component {
     return (
       <div>
         <FuturePageSubsectionWhatIsConservation
+          sectionConfig={this.state.sectionConfig}
+        />
+
+        <FuturePageSubsectionStoppingIllegalWildlifeTrades
           sectionConfig={this.state.sectionConfig}
         />
 
