@@ -15,15 +15,15 @@ export const config = {
     pageMenuItems: [
       {
         title: "Conservation",
-        tocImageFilename: ""
+        tocImageFilename: "future_page_toc_menu_img_01.jpg"
       },
       {
         title: "Sustainable Development",
-        tocImageFilename: ""
+        tocImageFilename: "future_page_toc_menu_img_02.jpg"
       },
       {
         title: "Outreach and Education",
-        tocImageFilename: ""
+        tocImageFilename: "future_page_toc_menu_img_03.jpg"
       }
     ],
   },

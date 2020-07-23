@@ -13,16 +13,21 @@ import "semantic-ui-css/semantic.min.css";
 
 import ContentPageSkeleton from '../shared/ContentPageSkeleton'
 
+import ContentPageTableOfContentMenuBootstrapper from '../shared/ContentPageTableOfContentMenuBootstrapper'
+
+import { config }  from './config'
+
 import FuturePageSectionConservation from './FuturePage_Section_Conservation'
 import FuturePageSectionSustainableDevelopment from './FuturePage_Section_SustainableDevelopment'
 import FuturePageSectionOutreachAndEducation from './FuturePage_Section_OutreachAndEducation'
 
-import { config }  from './config'
+import coverImage from './assets/future_page_cover_image.jpg'
 
 export default class FuturePage extends React.Component {
 
   render() {
     let pageProps = config.pageProps;
+    pageProps.coverImage = coverImage;
 
     return (
       <ContentPageSkeleton
@@ -35,6 +40,11 @@ export default class FuturePage extends React.Component {
   renderContent() {
     return (
       <div>
+        <ContentPageTableOfContentMenuBootstrapper
+          pageMenuItems={config.pageProps.pageMenuItems}
+          imagesContext = {() => (require.context("./assets/menu", true))}
+        />
+
         <FuturePageSectionConservation
           config={config}
         />
