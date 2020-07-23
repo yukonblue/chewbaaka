@@ -34,6 +34,11 @@ export const config = {
         content: "Content TBD ..."
       },
       subsections: {
+        subsection_WhatIsConservation: {
+          title: "What is Conservation?",
+          contents: {
+          }
+        },
         subsection_CheetahAmbassadors: {
           title: "Cheetah Ambassadors",
           contents: {

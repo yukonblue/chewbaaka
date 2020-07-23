@@ -11,6 +11,7 @@ import React from 'react'
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
+import FuturePageSubsectionWhatIsConservation from './FuturePage_Subsection_WhatIsConservation'
 import FuturePageSubsectionCheetahAmbassadors from './FuturePage_Subsection_CheetahAmbassadors'
 
 export default class FuturePageSectionConservation extends React.Component {
@@ -38,6 +39,10 @@ export default class FuturePageSectionConservation extends React.Component {
   renderContent() {
     return (
       <div>
+        <FuturePageSubsectionWhatIsConservation
+          sectionConfig={this.state.sectionConfig}
+        />
+
         <FuturePageSubsectionCheetahAmbassadors
           sectionConfig={this.state.sectionConfig}
         />
