@@ -14,6 +14,7 @@ import "semantic-ui-css/semantic.min.css";
 import ContentPageSkeleton from '../shared/ContentPageSkeleton'
 
 import FuturePageSectionConservation from './FuturePage_Section_Conservation'
+import FuturePageSectionSustainableDevelopment from './FuturePage_Section_SustainableDevelopment'
 
 import { config }  from './config'
 
@@ -34,6 +35,10 @@ export default class FuturePage extends React.Component {
     return (
       <div>
         <FuturePageSectionConservation
+          config={config}
+        />
+
+        <FuturePageSectionSustainableDevelopment
           config={config}
         />
       </div>

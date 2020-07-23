@@ -46,5 +46,13 @@ export const config = {
         },
       },
     },
+    section_SustainableDevelopment: {
+      intro: {
+        title: "Sustainable Development",
+        content: "Content TBD ..."
+      },
+      subsections: {
+      }
+    }
   }
 };
