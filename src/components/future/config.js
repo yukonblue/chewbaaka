@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 22, 2020
  */
 
 export const config = {
@@ -14,24 +14,38 @@ export const config = {
     subtitle: "Subtitle TBD ...",
     pageMenuItems: [
       {
-        title: "Cheetah Ambassadors",
+        title: "Conservation",
         tocImageFilename: ""
       },
       {
-        title: "Conservation",
+        title: "Sustainable Development",
+        tocImageFilename: ""
+      },
+      {
+        title: "Outreach and Education",
         tocImageFilename: ""
       }
     ],
   },
   contentPageSections: {
-    section_CheetahAmbassadors: {
+    section_Conservation: {
       intro: {
-        title: "Cheetah Ambassadors",
+        title: "Conservation",
         content: "Content TBD ..."
       },
       subsections: {
-        subsection_CheetahsAtCCF: {
-          title: "Cheetahs at CCF",
+        subsection_WhatIsConservation: {
+          title: "What is Conservation?",
+          contents: {
+          }
+        },
+        subsection_StoppingIllegalWildlifeTrades: {
+          title: "Stopping Illegal Wildlife Trades",
+          contents: {
+          }
+        },
+        subsection_CheetahAmbassadors: {
+          title: "Cheetah Ambassadors",
           contents: {
             paragraph_Chewbaaka:
               "Hi there, my name is Chewbaaka. I was named after an animal " +
@@ -41,7 +55,7 @@ export const config = {
               "cheetah. I have a special place where I can run like the wind.",
             paragraph_Mekondyo:
               'Hello, my name is Mekondyo. Mekondyo means "struggle" in the ' +
-              "Oshiwambo language. I was born on a farm northof Otjiwarango " +
+              "Oshiwambo language. I was born on a farm north of Otjiwarango " +
               "but I now live on farmland west of Otjiwarango. It is very " +
               "beautiful. I can see the Waterberg Plateau far away. " +
               "I am 5 years old now and I will tell you my story as you " +
@@ -50,5 +64,61 @@ export const config = {
         },
       },
     },
-  }
+    section_SustainableDevelopment: {
+      intro: {
+        title: "Sustainable Development",
+        content: "Content TBD ..."
+      },
+      subsections: {
+        subsection_MissionPossible: {
+          title: "Mission Possible",
+          contents: {
+          }
+        },
+        subsection_FutureFarmersOfAfrica: {
+          title: "Future Farmers of Africa",
+          contents: {
+          }
+        },
+        subsection_LivestockGuardingDogs: {
+          title: "Livestock Guarding Dogs",
+          contents: {
+          }
+        }
+      }
+    },
+    section_OutreachAndEducation: {
+      intro: {
+        title: "Outreach and Education",
+        content: "Content TBD ..."
+      },
+      subsections: {
+        subsection_FieldResearch: {
+          title: "Field Research",
+          content: {
+          }
+        },
+        subsection_InternshipsAndVolunteering: {
+          title: "Internships and Volunteering",
+          content: {
+          }
+        },
+        subsection_TheRoleOfZoos: {
+          title: "The Role of Zoos",
+          content: {
+          }
+        },
+        subsection_SchoolsTeachersLearners: {
+          title: "Schools, Teachers, Learners",
+          content: {
+          }
+        },
+        subsection_CommunityEvents: {
+          title: "Community Events",
+          content: {
+          }
+        }
+      }
+    }
+  },
 };
