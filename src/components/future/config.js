@@ -88,6 +88,11 @@ export const config = {
         content: "Content TBD ..."
       },
       subsections: {
+        subsection_FieldResearch: {
+          title: "Field Research",
+          content: {
+          }
+        },
         subsection_InternshipsAndVolunteering: {
           title: "Internships and Volunteering",
           content: {

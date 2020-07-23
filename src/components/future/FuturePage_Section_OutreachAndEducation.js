@@ -11,6 +11,7 @@ import React from 'react'
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
+import FuturePageSubsectionFieldResearch from './FuturePage_Subsection_FieldResearch'
 import FuturePageSubsectionInternshipsAndVolunteering from './FuturePage_Subsection_InternshipsAndVolunteering'
 
 export default class FuturePageSectionOutreachAndEducation extends React.Component {
@@ -38,6 +39,10 @@ export default class FuturePageSectionOutreachAndEducation extends React.Compone
   renderContent() {
     return (
       <div>
+        <FuturePageSubsectionFieldResearch
+          sectionConfig={this.state.sectionConfig}
+        />
+
         <FuturePageSubsectionInternshipsAndVolunteering
           sectionConfig={this.state.sectionConfig}
         />
