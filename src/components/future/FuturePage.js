@@ -21,10 +21,13 @@ import FuturePageSectionConservation from './FuturePage_Section_Conservation'
 import FuturePageSectionSustainableDevelopment from './FuturePage_Section_SustainableDevelopment'
 import FuturePageSectionOutreachAndEducation from './FuturePage_Section_OutreachAndEducation'
 
+import coverImage from './assets/future_page_cover_image.jpg'
+
 export default class FuturePage extends React.Component {
 
   render() {
     let pageProps = config.pageProps;
+    pageProps.coverImage = coverImage;
 
     return (
       <ContentPageSkeleton
