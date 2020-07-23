@@ -1,0 +1,40 @@
+/**
+ * ImageSlidingGalleryDiscrete.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 23, 2020
+ * Updated  : Jul 23, 2020
+ */
+
+div.ImageSlidingGalleryDiscreteOuterContainer {
+  position: relative;
+}
+
+div.ImageSlidingGalleryDiscreteOuterContainer_DebugColor {
+  background-color: gray;
+}
+
+div.ImageSlidingGalleryDiscreteCoreContainer {
+  /* width: 480px; */
+  /* position: relative; */
+}
+
+img.ImageSlidingGalleryImgPart {
+  /* width: 480px; */
+  /* height: 320px; */
+  filter: drop-shadow(1px 1px 1px #222);
+}
+
+div.ImageSlidingGalleryDiscreteButtonContainer {
+  position: absolute;
+  justify-content: center;
+}
+
+div.ImageSlidingGalleryDiscreteButtonLhsContainer {
+  left: 0px;
+}
+
+div.ImageSlidingGalleryDiscreteButtonRhsContainer {
+  right: 0px;
+}
