@@ -23,6 +23,9 @@ import MediaLinkButton from '../shared/MediaLinkButton'
 
 import './FuturePage_Subsection_CheetahAmbassadors.css'
 
+import image_Chewbaaka from './assets/Chewbaaka.jpg'
+import image_Mekondyo from './assets/Mekondyo.jpg'
+
 export default class FuturePageSubsectionCheetahAmbassadors extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_CheetahAmbassadors";
@@ -82,7 +85,7 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
   renderRhsContentChewbaaka() {
     return (
       <div className={getElementStyleClassName("FuturePageSubsectionCheetahsAtCCFImageContainer")}>
-        <CircularImage image="https://sotinpc.files.wordpress.com/2013/04/day-of-rememberance.jpg" title="Chewbaaka" />
+        <CircularImage image={image_Chewbaaka} title="Chewbaaka" />
       </div>
     );
   }
@@ -90,7 +93,7 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
   renderLhsContentMekondyo() {
     return (
       <div className={getElementStyleClassName("FuturePageSubsectionCheetahsAtCCFImageContainer")}>
-        <CircularImage image="https://globalgaz.com/wp-content/uploads/2018/07/DSC03746.jpg" title="Mekondyo" />
+        <CircularImage image={image_Mekondyo} title="Mekondyo" />
       </div>
     );
   }
