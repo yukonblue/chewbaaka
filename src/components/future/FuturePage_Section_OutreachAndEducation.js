@@ -13,6 +13,7 @@ import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
 import FuturePageSubsectionFieldResearch from './FuturePage_Subsection_FieldResearch'
 import FuturePageSubsectionInternshipsAndVolunteering from './FuturePage_Subsection_InternshipsAndVolunteering'
+import FuturePageSubsectionTheRoleOfZoos from './FuturePage_Subsection_TheRoleOfZoos'
 
 export default class FuturePageSectionOutreachAndEducation extends React.Component {
 
@@ -44,6 +45,10 @@ export default class FuturePageSectionOutreachAndEducation extends React.Compone
         />
 
         <FuturePageSubsectionInternshipsAndVolunteering
+          sectionConfig={this.state.sectionConfig}
+        />
+
+        <FuturePageSubsectionTheRoleOfZoos
           sectionConfig={this.state.sectionConfig}
         />
       </div>
