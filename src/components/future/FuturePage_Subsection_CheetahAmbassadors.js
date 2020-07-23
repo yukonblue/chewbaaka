@@ -76,7 +76,10 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
           {this.state.subsectionConfig.contents["paragraph_Chewbaaka"]}
         </ContentPageParagraph>
         <div>
-          <MediaLinkButton href="https://www.youtube.com/watch?v=WYjeEG06cjc" title='Watch "Walking with Chewbaaka" on YouTube' />
+          <MediaLinkButton
+            href="https://www.youtube.com/watch?v=WYjeEG06cjc"
+            title='Watch "Walking with Chewbaaka" on YouTube'
+          />
         </div>
       </div>
     );
@@ -85,7 +88,10 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
   renderRhsContentChewbaaka() {
     return (
       <div className={getElementStyleClassName("FuturePageSubsectionCheetahsAtCCFImageContainer")}>
-        <CircularImage image={image_Chewbaaka} title="Chewbaaka" />
+        <CircularImage
+          image={image_Chewbaaka}
+          title="Chewbaaka"
+        />
       </div>
     );
   }
@@ -93,7 +99,10 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
   renderLhsContentMekondyo() {
     return (
       <div className={getElementStyleClassName("FuturePageSubsectionCheetahsAtCCFImageContainer")}>
-        <CircularImage image={image_Mekondyo} title="Mekondyo" />
+        <CircularImage
+          image={image_Mekondyo}
+          title="Mekondyo"
+        />
       </div>
     );
   }
