@@ -11,6 +11,8 @@ import React from 'react'
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
+import FuturePageSubsectionInternshipsAndVolunteering from './FuturePage_Subsection_InternshipsAndVolunteering'
+
 export default class FuturePageSectionOutreachAndEducation extends React.Component {
 
   static _SECTION_NAME_ = "section_OutreachAndEducation";
@@ -36,6 +38,9 @@ export default class FuturePageSectionOutreachAndEducation extends React.Compone
   renderContent() {
     return (
       <div>
+        <FuturePageSubsectionInternshipsAndVolunteering
+          sectionConfig={this.state.sectionConfig}
+        />
       </div>
     );
   }
