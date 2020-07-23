@@ -107,6 +107,11 @@ export const config = {
           title: "Schools, Teachers, Learners",
           content: {
           }
+        },
+        subsection_CommunityEvents: {
+          title: "Community Events",
+          content: {
+          }
         }
       }
     }

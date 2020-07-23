@@ -15,6 +15,7 @@ import FuturePageSubsectionFieldResearch from './FuturePage_Subsection_FieldRese
 import FuturePageSubsectionInternshipsAndVolunteering from './FuturePage_Subsection_InternshipsAndVolunteering'
 import FuturePageSubsectionTheRoleOfZoos from './FuturePage_Subsection_TheRoleOfZoos'
 import FuturePageSubsectionSchoolsTeachersLearners from './FuturePage_Subsection_SchoolsTeachersLearners'
+import FuturePageSubsectionCommunityEvents from './FuturePage_Subsection_CommunityEvents'
 
 export default class FuturePageSectionOutreachAndEducation extends React.Component {
 
@@ -54,6 +55,10 @@ export default class FuturePageSectionOutreachAndEducation extends React.Compone
         />
 
         <FuturePageSubsectionSchoolsTeachersLearners
+          sectionConfig={this.state.sectionConfig}
+        />
+
+        <FuturePageSubsectionCommunityEvents
           sectionConfig={this.state.sectionConfig}
         />
       </div>
