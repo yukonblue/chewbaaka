@@ -27,6 +27,18 @@ export const config = {
       }
     ],
   },
+  contentPageIntro: {
+    title: "Future of the Cheetah",
+    content: "The cheetah is a truly unique animal. Being the world's fastest land animal, it is built for speed. " +
+            "An acceleration from 0 to 84 km/hr in just 3 seconds, with a full speed of 110 km/hr, means that the " +
+            "cheetah can out-perform a sports car. Cheetahs are markedly different in both anatomy and behavior " +
+            "from the other 36 species of cats. They are the only species in their genus. " +
+            "They have evolved for speed versus power and aggression. Their bodies are lightweight in comparing with " +
+            "the build of other big cats. They rely on their speed and skills for survival. The genus name, Acinonyx, " +
+            "is interpreted as “non-moving claws”, referring to the semi-retractable claws. " +
+            "The species name, “jubatus”, means “maned”, referring to the mantle on a young cheetah’s back. " +
+            "The English word, “cheetah”, comes from the Hindu word “chita” meaning the “spotted one”."
+  },
   contentPageSections: {
     section_Conservation: {
       intro: {

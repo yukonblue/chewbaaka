@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Jul 22, 2020
+ * Updated  : Jul 24, 2020
  */
 
 import React from 'react';
@@ -17,6 +17,7 @@ import ContentPageTableOfContentMenuBootstrapper from '../shared/ContentPageTabl
 
 import { config }  from './config'
 
+import FuturePageIntroSection from './FuturePageIntroSection'
 import FuturePageSectionConservation from './FuturePage_Section_Conservation'
 import FuturePageSectionSustainableDevelopment from './FuturePage_Section_SustainableDevelopment'
 import FuturePageSectionOutreachAndEducation from './FuturePage_Section_OutreachAndEducation'
@@ -43,6 +44,10 @@ export default class FuturePage extends React.Component {
         <ContentPageTableOfContentMenuBootstrapper
           pageMenuItems={config.pageProps.pageMenuItems}
           imagesContext = {() => (require.context("./assets/menu", true))}
+        />
+
+        <FuturePageIntroSection
+          contentPageIntro={config.contentPageIntro}
         />
 
         <FuturePageSectionConservation
