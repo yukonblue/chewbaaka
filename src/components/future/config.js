@@ -29,15 +29,14 @@ export const config = {
   },
   contentPageIntro: {
     title: "Future of the Cheetah",
-    content: "The cheetah is a truly unique animal. Being the world's fastest land animal, it is built for speed. " +
-            "An acceleration from 0 to 84 km/hr in just 3 seconds, with a full speed of 110 km/hr, means that the " +
-            "cheetah can out-perform a sports car. Cheetahs are markedly different in both anatomy and behavior " +
-            "from the other 36 species of cats. They are the only species in their genus. " +
-            "They have evolved for speed versus power and aggression. Their bodies are lightweight in comparing with " +
-            "the build of other big cats. They rely on their speed and skills for survival. The genus name, Acinonyx, " +
-            "is interpreted as “non-moving claws”, referring to the semi-retractable claws. " +
-            "The species name, “jubatus”, means “maned”, referring to the mantle on a young cheetah’s back. " +
-            "The English word, “cheetah”, comes from the Hindu word “chita” meaning the “spotted one”.",
+    content: "With only 7,500 individuals of cheetahs left in the wild, the species is facing unprecedented pressures " +
+            "that are pushing its fate to the brink of extinction. Needless to say, the cheetah’s future lies in our hands. " +
+            "Despite the grim facts, we hold a positive outlook on their future. Numbers of nation governments, " +
+            "non-profit organizations, as well as individuals have pulled themselves together to combine their " +
+            "ingenuity and resourcefulness to help the cheetahs fight for a brighter future. We believe that anyone " +
+            "who is passionate in the cause has something to contribute, and we can only come out triumphantly if we " +
+            "work together to protect the cheetahs, nurture their ecosystems, and make ourselves better custodians of " +
+            "this planet and all living things that share it with us.",
     image: "Earth_Mission_Possible.png"
   },
   contentPageSections: {
