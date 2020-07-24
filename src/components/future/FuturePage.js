@@ -14,10 +14,10 @@ import "semantic-ui-css/semantic.min.css";
 import ContentPageSkeleton from '../shared/ContentPageSkeleton'
 
 import ContentPageTableOfContentMenuBootstrapper from '../shared/ContentPageTableOfContentMenuBootstrapper'
+import ContentPageIntroSectionGeneric from '../shared/ContentPageIntroSectionGeneric'
 
 import { config }  from './config'
 
-import FuturePageIntroSection from './FuturePageIntroSection'
 import FuturePageSectionConservation from './FuturePage_Section_Conservation'
 import FuturePageSectionSustainableDevelopment from './FuturePage_Section_SustainableDevelopment'
 import FuturePageSectionOutreachAndEducation from './FuturePage_Section_OutreachAndEducation'
@@ -43,11 +43,12 @@ export default class FuturePage extends React.Component {
       <div>
         <ContentPageTableOfContentMenuBootstrapper
           pageMenuItems={config.pageProps.pageMenuItems}
-          imagesContext = {() => (require.context("./assets/menu", true))}
+          imagesContext = {() => (require.context("./assets/menu/", true))}
         />
 
-        <FuturePageIntroSection
+        <ContentPageIntroSectionGeneric
           contentPageIntro={config.contentPageIntro}
+          imagesContext = {() => (require.context("./assets/", true))}
         />
 
         <FuturePageSectionConservation

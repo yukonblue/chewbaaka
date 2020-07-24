@@ -23,7 +23,7 @@ export default class ContentPageIntroSectionGeneric extends React.Component {
     return (
       <div className={getElementStyleClassName("ContentPageIntroSectionGenericOuterContainer")}>
         <ContentPageIntroSectionTemplate
-          title={this.props.title}
+          title={this.props.contentPageIntro.title}
           content={this.renderContent()}
         />
       </div>
@@ -31,15 +31,16 @@ export default class ContentPageIntroSectionGeneric extends React.Component {
   }
 
   renderContent() {
+    const images = this.props.imagesContext();
     return (
       <div className={getElementStyleClassName("ContentPageIntroSectionGenericInnerContainer")}>
         <img
           className={getElementStyleClassName("ContentPageIntroSectionGenericImg")}
-          src={this.props.image}
-          alt={this.props.title}
+          src={images("./" + this.props.contentPageIntro.image)}
+          alt={this.props.contentPageIntro.title}
         />
         <p className="ContentPageSectionSubtitleText">
-          {this.props.content}
+          {this.props.contentPageIntro.content}
         </p>      
       </div>
     );
