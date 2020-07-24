@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 21, 2020
+ * Updated  : Jul 23, 2020
  */
 
 /** ----------------------------- CONTAINER -------------------------------- **/
@@ -51,6 +51,10 @@ div.Centered {
 }
 
 div.VerticalCushionPadding {
+  padding: 20px 0;
+}
+
+.VerticalCushionPadding {
   padding: 20px 0;
 }
 
@@ -108,6 +112,19 @@ h4.ContentPageSubsectionSubtitle {
 
 h4.ContentPageSubsectionSubtitle_DebugColor {
   background-color: goldenrod;
+}
+
+h4.ContentPageSubsectionAlarmBannerSubtitle {
+  margin: 20px auto;
+  width: 60%;
+  /* display: inline-block; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.1;
+  color: red;
+  border-bottom: 3px solid black;
 }
 
 div.DisplayInlineBlock {

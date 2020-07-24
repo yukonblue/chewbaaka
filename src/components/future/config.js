@@ -72,7 +72,33 @@ export const config = {
         },
         subsection_StoppingIllegalWildlifeTrades: {
           title: "Stopping Illegal Wildlife Trades",
+          subtitle: "The illegal trafficking of cheetahs into the pet trade has become one of the main threats to cheetah survival.",
           contents: {
+            part_CCFInvolvementPart1: {
+              content: {
+                paragraph_01:
+                  "Since 2005, CCF has been actively involved with issues involving the illegal trade of live cheetah cubs. " +
+                  "Staff monitor cheetah trafficking activities and organizes confiscations through proper authorities when possible.",
+                paragraph_02:
+                  "Cheetahs are listed as an Appendix I species under the Convention on International Trade in Endangered Species (CITES). " +
+                  "They are poaches from the wild for the pet trade and their body parts, which get sold on the markets. " +
+                  "Illegal wildlife trafficking is one of the top five transnational crimes, generating an estimated U.S. $50-150 million " +
+                  "in illegal revenues annually.",
+                paragraph_03:
+                  "CCF is taking a leadership role in addressing the illegal pet trade. CCF trains wildlife officers involved " +
+                  "in the front lines of trafficking in the Horn of Africa as well as in the Middle East, " +
+                  "teaching them proper care for confiscated animals.",
+                paragraph_04:
+                  "CCF has built the most extensive database on cheetah trafficking, recording hundreds of trafficking cases going through the Horn of Africa to the Middle East."
+              }
+            },
+            part_CITESCoP17: {
+              content: {
+                paragraph_01:
+                  "CCF participates in the CITES inter-sessional working group on the illegal trade in cheetah and was instrumental " +
+                  "in making recommendations adopted by CITES at CoP17 to stop the illegal cheetah pet trade."
+              }
+            }
           }
         },
         subsection_CheetahAmbassadors: {
