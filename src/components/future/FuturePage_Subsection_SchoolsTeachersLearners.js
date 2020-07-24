@@ -23,6 +23,7 @@ import ImageSlidingGallery from '../shared/ImageSlidingGallery'
 import image_CCF_Predator_Preyground from './assets/CCF_Predator_Preyground.jpg'
 import image_CCF_Cheetah_Museum from './assets/CCF_Cheetah_Museum.jpg'
 import image_CCF_Cheetah_Museum_02 from './assets/CCF_Cheetah_Museum_02.jpg'
+import image_CCF_Education_Outreach from './assets/CCF_Education_Outreach.jpg'
 
 export default class FuturePageSubsectionSchoolsTeachersLearners extends React.Component {
 
@@ -78,6 +79,10 @@ export default class FuturePageSubsectionSchoolsTeachersLearners extends React.C
           {
             image: image_CCF_Cheetah_Museum_02,
             caption: "School kids visit Cheetah Museum on field trip. (Image credit: Cheetah Conservation Fund)"
+          },
+          {
+            image: image_CCF_Education_Outreach,
+            caption: "Educational outreach at Namibian school. (Image credit: Cheetah Conservation Fund)"
           }
         ]}
       />
