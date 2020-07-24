@@ -22,6 +22,7 @@ import ImageView from '../shared/ImageView'
 import image_CCF_LGD from './assets/CCF_LGD.jpg'
 import image_CCF_anatolian_shepherd_puppies from './assets/CCF_anatolian_shepherd_puppies.jpg'
 import image_CCF_Year_of_the_LGD from './assets/CCF_Year_of_the_LGD.jpg'
+import image_Cheetah_and_LGD from './assets/Cheetah_and_LGD.jpg'
 
 export default class FuturePageSubsectionLivestockGuardingDogs extends React.Component {
 
@@ -51,6 +52,7 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
         {this.renderPartHistory(this.state.subsectionConfig.contents["part_LGD_History"])}
         {this.renderPartRaisingLGDs(this.state.subsectionConfig.contents["part_Raising_LGDs"])}
         {this.renderCCFYearOfTheLGDImage()}
+        {this.renderPartDogsSaveCheetahs(this.state.subsectionConfig.contents["part_Dogs_Save_Cheetahs"])}
       </div>
     );
   }
@@ -100,6 +102,23 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
           width={width}
           height={299}
         />
+      </div>
+    );
+  }
+
+  renderPartDogsSaveCheetahs(part) {
+    return (
+      <div className="OverflowHidden VerticalCushionPadding">
+        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <div className="FloatLeft HorizontalCusionPadding">
+          <img
+            src={image_Cheetah_and_LGD}
+            alt="Cheetah and LGD"
+            style={{width: 720}}
+          />
+        </div>
+
+        {ContentPageSubsectionParagraphsContentBinder(part.content)}
       </div>
     );
   }

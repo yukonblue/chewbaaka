@@ -254,6 +254,29 @@ export const config = {
                   "imprinting before 16 weeks of age. The dogs live with their livestock family instead of a human family, so the puppy bonds with the herd; " +
                   "it becomes the dog’s pack rather than the dog’s potential prey. At CCF puppies are born in a whelping pen attached to the main goat yard."
               }
+            },
+            part_Dogs_Save_Cheetahs: {
+              title: "Dogs Save Cheetahs",
+              content: {
+                paragraph_01:
+                  "Livestock Guarding Dogs have been used for thousands of years to protect cattle, sheep and goats from predator attacks. " +
+                  "There are over 20 breeds of guarding dogs. The Anatolian Shepherd, a Turkish breed, was selected as the best candidate for " +
+                  "use with smallstock in Namibia as they are able to work in vast open spaces without direct guidance. " +
+                  "These dogs look similar to the flock, with large rounded heads, floppy years and short fur. " +
+                  "They have a good sense of hearing and smelling, a calm temperament and a very loud bark.",
+                paragraph_02:
+                  "Anatolians do not herd livestock, they guard them. They are attentive, protective, trustworthy, and aggressive towards predator threats.",
+                paragraph_03:
+                  "Puppies are placed with the stock at eight weeks of age to form a strong bond with the herd. " +
+                  "It is important that bonding occurs with the herd and not with humans or other dogs.",
+                paragraph_04:
+                  "Dog owners take the responsibility for the health care of their dogs. This includes veterinary check-ups, vaccinations, " +
+                  "and observations for signs of illness or injuries.",
+                paragraph_05:
+                  "An appropriate diet is necessary for the Anatolian Shepherd. Enough food allows proper growth and a healthy dog. " +
+                  "They should never be given raw meat as this could produce a predatory response. " +
+                  "They need water during the day when they are out with the herd."
+              }
             }
           }
         }
