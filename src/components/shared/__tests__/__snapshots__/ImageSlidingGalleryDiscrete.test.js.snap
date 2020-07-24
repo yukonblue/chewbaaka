@@ -89,8 +89,10 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
     }
   >
     <button
-      className="ui blue large circular icon button"
+      className="ui blue large circular icon disabled button"
+      disabled={true}
       onClick={[Function]}
+      tabIndex={-1}
     >
       <i
         aria-hidden="true"

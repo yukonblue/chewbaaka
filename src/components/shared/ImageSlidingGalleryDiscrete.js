@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 23, 2020
- * Updated  : Jul 23, 2020
+ * Updated  : Jul 24, 2020
  */
 
 /**
@@ -125,6 +125,7 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
             icon="arrow alternate circle left outline"
             size="large"
             color="blue"
+            disabled={(this.state.activeIndex === 0)}
             onClick={this.handleOnPrevClick}
           />
         </div>
@@ -138,6 +139,7 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
             icon="arrow alternate circle right outline"
             size="large"
             color="blue"
+            disabled={(this.state.activeIndex === (this.props.slides.length - 1))}
             onClick={this.handleOnNextClick}
           />
         </div>
