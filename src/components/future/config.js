@@ -130,6 +130,56 @@ export const config = {
         subsection_MissionPossible: {
           title: "Mission Possible",
           contents: {
+            part_Intro: {
+              content: {
+                paragraph_01:
+                  "In Africa, property that is owned and managed by farmers can maintain viable populations of " +
+                  "animals and natural habitats. It is the careful management of these habitats that holds the key " +
+                  "to the future survival of plant and animal species such as the cheetah.",
+                paragraph_02:
+                  "In order to ensure a successful future we need to be responsible custodians of nature. " +
+                  "The way land and animals are managed determines the future of all ecosystems."
+              }
+            },
+            part_Body: {
+              content: {
+                part_LandManagement: {
+                  title: "Land Management",
+                  content: {
+                    paragraph_01:
+                      "The productivity of the land depends on water and soil. Preventing erosion increases the potential " +
+                      "for the land to produce food and allows water to penetrate the soil, thus carrying important nutrients " +
+                      "to the roots of the plants. We must learn to live within the limits of the scarcity of water in our dry country.",
+                    paragraph_02:
+                      "The use of alternative fuels or efficient wood burning stoves and ovens reduces deforestation. " +
+                      "Establishing timber plantations and using alternative building materials saves natural forests."
+                  }
+                },
+                part_LivestockManagement: {
+                  title: "Livestock Management",
+                  content: {
+                    paragraph_01:
+                      "Many farmers use rotational grazing where farmlands are divided into camps. Practicing rotational and " +
+                      "seasonal grazing allows used areas time to recover.",
+                    paragraph_02:
+                      "Recovery of damaged land occurs faster if it is protected from the impact of overgrazing. " +
+                      "Proper herd size is necessary to prevent overgrazing, trampling of the land and reducing predator problems. " +
+                      "A balance of grazing and browsing animals reduces the pressure on one vegetation type."
+                  }
+                },
+                part_WildlifeManagement: {
+                  title: "Wildlife Management",
+                  content: {
+                    paragraph_01:
+                      "Allowing wild animals to migrate naturally through farm areas promotes the balance of browsers and grazers, " +
+                      "and allows predators their food at wild game. This reduces the temptation to take domestic stock.",
+                    paragraph_02:
+                      "Ethical hunting removes older animals while predators prey on the young, diseased, and genetically weak. " +
+                      "Together they keep wild hers healthy and in check."
+                  }
+                }
+              }
+            }
           }
         },
         subsection_FutureFarmersOfAfrica: {

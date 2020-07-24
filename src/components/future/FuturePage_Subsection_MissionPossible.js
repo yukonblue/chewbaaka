@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 22, 2020
+ * Updated  : Jul 23, 2020
  */
 
 import React from 'react'
@@ -12,6 +12,12 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPageSubsectionThreeColumnContentTemplate'
+
+import {
+  ContentPageSubsectionParagraphsContentBinder,
+  ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder
+} from '../shared/ContentPageSubsectionContentBinder'
 
 export default class FuturePageSubsectionMissionPossible extends React.Component {
 
@@ -38,8 +44,41 @@ export default class FuturePageSubsectionMissionPossible extends React.Component
   renderContent() {
     return (
       <div>
-        TBD ...
+        {this.renderIntroPartContent(this.state.subsectionConfig.contents["part_Intro"])}
+        {this.renderBodyPartContent(this.state.subsectionConfig.contents["part_Body"])}
       </div>
+    );
+  }
+
+  renderIntroPartContent(part) {
+    return (
+      ContentPageSubsectionParagraphsContentBinder(part.content)
+    );
+  }
+
+  renderBodyPartContent(part) {
+    return (
+      <ContentPageSubsectionThreeColumnContentTemplate
+        lhsColumn={
+          ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder(
+            part.content["part_LandManagement"],
+          )
+        }
+
+        middleColumn={
+          ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder(
+            part.content["part_LivestockManagement"],
+          )
+        }
+
+        rhsColumn={
+          ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder(
+            part.content["part_WildlifeManagement"],
+          )
+        }
+
+        showTitleInMiddleColumn={true}
+      />
     );
   }
 }
