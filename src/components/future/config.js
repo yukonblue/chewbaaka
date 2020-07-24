@@ -185,6 +185,29 @@ export const config = {
         subsection_FutureFarmersOfAfrica: {
           title: "Future Farmers of Africa",
           contents: {
+            paragraph_FutureFarmersOfAfrica_01:
+              "In Namibia, 90% of the cheetah population lives on farmlands alongside 80% of the country’s wildlife species. " +
+              "Cheetahs often come into contact with the livestocks and game farming communities, leading to conflict. " +
+              "To mitigate this conflict, Cheetah Conservation Fund (CCF) developed an integrated livestock, wildlife, and " +
+              "rangeland training program called Future Farmers of Africa (FFA).",
+            paragraph_FutureFarmersOfAfrica_02:
+              "From 2006-2017 CCF has certified more than 10,000 Namibian men and women in FFA, which teaches conservation " +
+              "strategies for sustainable land use while accommodating the coexistence of predators alongside livestock and wildlife.",
+            paragraph_FutureFarmersOfAfrica_03:
+              "Topics covered in the FFA courses include livestock health and veterinary care, livestock husbandry, livestock valuation, " +
+              "predator spoor (track) identification, differentiating predator kill techniques, best practices to reduce livestock losses, " +
+              "and best methods for non-lethal predator control.",
+            paragraph_FutureFarmersOfAfrica_04:
+              "Through the training course, CCF supports farmers by teaching them practical skills in sustainable livestock farming, " +
+              "as well as how to develop supplemental income streams. Farmers then use their skills to generate higher economic productivity. " +
+              "These courses enhance the livelihood development of farmers while promoting predator-friendly farming practices.",
+            paragraph_FutureFarmersOfAfrica_05:
+              "CCF’s Integrated Livestock and Wildlife Model Farm houses cattle, goats, sheep and livestock guarding dogs, as well as Namibian wildlife. " +
+              "The Model Farm serves as a training facility for FFA, demonstrating how sustainable livestock farming practices allow for the " +
+              "management of their livestock and better livestock health without having to eliminate cheetahs and other predators.",
+            paragraph_FutureFarmersOfAfrica_06:
+              "CCF reaches out to local farming communities, visiting farms and joining annual farmer’s association meetings to give vital " +
+              "advice on improvements that farmers can make to their rangeland, livestock and wildlife management."
           }
         },
         subsection_LivestockGuardingDogs: {
