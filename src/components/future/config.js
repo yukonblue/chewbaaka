@@ -230,6 +230,31 @@ export const config = {
         subsection_LivestockGuardingDogs: {
           title: "Livestock Guarding Dogs",
           contents: {
+            part_LGD_History: {
+              title: "CCF’s Livestock Guarding Dog History",
+              content: {
+                paragraph_01:
+                  "In 1994, CCF created a solution to non-lethal predator control - Livestock Guarding Dogs (LGD). " +
+                  "After extensive research, CCF felt that the Anatolian Shepherd and Kangal dog best met the livestock managers’ needs in Namibia. " +
+                  "In cooperation with Dr. Ray Coppinger from the Livestock Guarding Dog Association in Hampshire College (Massachusetts, U.S.), " +
+                  "the first 10 dogs were donated to Namibia by Birinci Anatolians.",
+                paragraph_02:
+                  "Since then, hundreds of farmers have received Anatolian Shepherds and Kangal dogs to ward off predators, such as cheetahs, jackal and leopard. " +
+                  "These dogs do not herd the goats, but protect the flock by placing themselves between the herd and the predator and barking loudly.",
+                paragraph_03:
+                  "CCF’s success is due to the commitment of CCF staff members and the participating farmers. CCF staff regularly visit the farms, " +
+                  "educating and advising the farmers and herders for the dogs to be as effective as possible."
+              }
+            },
+            part_Raising_LGDs: {
+              title: "Raising LGD’s",
+              content: {
+                paragraph_01:
+                  "LGD’s are placed with their herds around none weeks of age, as social bonding between the stock and the dogs depends upon " +
+                  "imprinting before 16 weeks of age. The dogs live with their livestock family instead of a human family, so the puppy bonds with the herd; " +
+                  "it becomes the dog’s pack rather than the dog’s potential prey. At CCF puppies are born in a whelping pen attached to the main goat yard."
+              }
+            }
           }
         }
       }
