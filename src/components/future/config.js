@@ -294,6 +294,14 @@ export const config = {
         subsection_CommunityEvents: {
           title: "Community Events",
           content: {
+            paragraph_01:
+              "Participatory community events, such as competitions in art, poetry and writing, increase conservation awareness.",
+            paragraph_02:
+              "Public educational displays are maintained at strategic locations and community events. " +
+              "Display provide introductory information on the plight of the cheetah and the work conducted by CCF.",
+            paragraph_03:
+              "CCF staff participate in farmer meetings, local conservancy activities and other related events. " +
+              "Workshops and seminars are conducted to exchange information and develop conservation-based farming practices."
           }
         }
       }
