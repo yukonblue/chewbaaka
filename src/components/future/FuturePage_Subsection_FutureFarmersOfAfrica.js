@@ -15,9 +15,6 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
-import {
-  ContentPageSubsectionParagraphsContentBinder
-} from '../shared/ContentPageSubsectionContentBinder'
 import ContentPageParagraph from '../shared/ContentPageParagraph'
 
 import ImageView from '../shared/ImageView'
