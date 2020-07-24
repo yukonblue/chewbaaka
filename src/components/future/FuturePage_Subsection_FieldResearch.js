@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 22, 2020
+ * Updated  : Jul 23, 2020
  */
 
 import React from 'react'
@@ -12,6 +12,13 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
+
+import {
+  ContentPageSubsectionParagraphsContentBinder
+} from '../shared/ContentPageSubsectionContentBinder'
+
+import MediaLinkButton from '../shared/MediaLinkButton'
 
 export default class FuturePageSubsectionFieldResearch extends React.Component {
 
@@ -38,7 +45,25 @@ export default class FuturePageSubsectionFieldResearch extends React.Component {
   renderContent() {
     return (
       <div>
-        TBD ...
+        <ContentPageSubsectionTwoColumnContentTemplate
+          lhsColumn={{content: this.renderPartContent(this.state.subsectionConfig.content["part_VeterinaryClinic"])}}
+          rhsColumn={{content: this.renderPartContent(this.state.subsectionConfig.content["part_EcologicalStudies"])}}
+        />
+
+        <MediaLinkButton
+          title="Learn more about CCF's research work"
+          href="https://cheetah.org/about/what-we-do/research/"
+          icon="file alternate outline"
+        />
+      </div>
+    );
+  }
+
+  renderPartContent(part) {
+    return (
+      <div>
+        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        {ContentPageSubsectionParagraphsContentBinder(part.content)}
       </div>
     );
   }

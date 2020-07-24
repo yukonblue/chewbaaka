@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 23, 2020
  */
 
 /**
@@ -18,6 +18,8 @@
  *
  *  - `title`: Title of the button.
  *
+ *  - `href`: The href link to be associated with the button.
+ *
  *  - `icon` (optional): Name of the icon.
  *    Must be one of the supported names documented here:
  *    https://react.semantic-ui.com/elements/icon/
@@ -27,7 +29,7 @@ import React from 'react';
 
 import { Button, Icon } from 'semantic-ui-react'
 
-function MediaLinkButton(props) {
+export default function MediaLinkButton(props) {
   return (
     <div>
       <a href={props.href}>
@@ -39,5 +41,3 @@ function MediaLinkButton(props) {
     </div>
   );
 }
-
-export default MediaLinkButton;
