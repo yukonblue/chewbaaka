@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Jul 23, 2020
+ * Updated  : Jul 24, 2020
  */
 
 export const config = {
@@ -26,6 +26,23 @@ export const config = {
         tocImageFilename: "future_page_toc_menu_img_03.jpg"
       }
     ],
+  },
+  contentPageIntro: {
+    title: "Future of the Cheetah",
+    content: "With only 7,500 individuals of cheetahs left in the wild, the species is facing unprecedented pressures " +
+            "that are pushing its fate to the brink of extinction. Needless to say, the cheetah’s future lies in our hands. " +
+            "Despite the grim facts, we hold a positive outlook on their future. Numbers of nation governments, " +
+            "non-profit organizations, as well as individuals have pulled themselves together to combine their " +
+            "ingenuity and resourcefulness to help the cheetahs fight for a brighter future. We believe that anyone " +
+            "who is passionate in the cause has something to contribute, and we can only come out triumphantly if we " +
+            "work together to protect the cheetahs, nurture their ecosystems, and make ourselves better custodians of " +
+            "this planet and all living things that share it with us.",
+    image: {
+      filename: "Earth_Mission_Possible_640x640.png",
+      offset: {
+        top: -40
+      }
+    }
   },
   contentPageSections: {
     section_Conservation: {
@@ -213,6 +230,54 @@ export const config = {
         subsection_LivestockGuardingDogs: {
           title: "Livestock Guarding Dogs",
           contents: {
+            part_LGD_History: {
+              title: "CCF’s Livestock Guarding Dog History",
+              content: {
+                paragraph_01:
+                  "In 1994, CCF created a solution to non-lethal predator control - Livestock Guarding Dogs (LGD). " +
+                  "After extensive research, CCF felt that the Anatolian Shepherd and Kangal dog best met the livestock managers’ needs in Namibia. " +
+                  "In cooperation with Dr. Ray Coppinger from the Livestock Guarding Dog Association in Hampshire College (Massachusetts, U.S.), " +
+                  "the first 10 dogs were donated to Namibia by Birinci Anatolians.",
+                paragraph_02:
+                  "Since then, hundreds of farmers have received Anatolian Shepherds and Kangal dogs to ward off predators, such as cheetahs, jackal and leopard. " +
+                  "These dogs do not herd the goats, but protect the flock by placing themselves between the herd and the predator and barking loudly.",
+                paragraph_03:
+                  "CCF’s success is due to the commitment of CCF staff members and the participating farmers. CCF staff regularly visit the farms, " +
+                  "educating and advising the farmers and herders for the dogs to be as effective as possible."
+              }
+            },
+            part_Raising_LGDs: {
+              title: "Raising LGD’s",
+              content: {
+                paragraph_01:
+                  "LGD’s are placed with their herds around none weeks of age, as social bonding between the stock and the dogs depends upon " +
+                  "imprinting before 16 weeks of age. The dogs live with their livestock family instead of a human family, so the puppy bonds with the herd; " +
+                  "it becomes the dog’s pack rather than the dog’s potential prey. At CCF puppies are born in a whelping pen attached to the main goat yard."
+              }
+            },
+            part_Dogs_Save_Cheetahs: {
+              title: "Dogs Save Cheetahs",
+              content: {
+                paragraph_01:
+                  "Livestock Guarding Dogs have been used for thousands of years to protect cattle, sheep and goats from predator attacks. " +
+                  "There are over 20 breeds of guarding dogs. The Anatolian Shepherd, a Turkish breed, was selected as the best candidate for " +
+                  "use with smallstock in Namibia as they are able to work in vast open spaces without direct guidance. " +
+                  "These dogs look similar to the flock, with large rounded heads, floppy years and short fur. " +
+                  "They have a good sense of hearing and smelling, a calm temperament and a very loud bark.",
+                paragraph_02:
+                  "Anatolians do not herd livestock, they guard them. They are attentive, protective, trustworthy, and aggressive towards predator threats.",
+                paragraph_03:
+                  "Puppies are placed with the stock at eight weeks of age to form a strong bond with the herd. " +
+                  "It is important that bonding occurs with the herd and not with humans or other dogs.",
+                paragraph_04:
+                  "Dog owners take the responsibility for the health care of their dogs. This includes veterinary check-ups, vaccinations, " +
+                  "and observations for signs of illness or injuries.",
+                paragraph_05:
+                  "An appropriate diet is necessary for the Anatolian Shepherd. Enough food allows proper growth and a healthy dog. " +
+                  "They should never be given raw meat as this could produce a predatory response. " +
+                  "They need water during the day when they are out with the herd."
+              }
+            }
           }
         }
       }

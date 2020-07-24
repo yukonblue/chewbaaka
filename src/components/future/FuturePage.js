@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Jul 22, 2020
+ * Updated  : Jul 24, 2020
  */
 
 import React from 'react';
@@ -14,6 +14,7 @@ import "semantic-ui-css/semantic.min.css";
 import ContentPageSkeleton from '../shared/ContentPageSkeleton'
 
 import ContentPageTableOfContentMenuBootstrapper from '../shared/ContentPageTableOfContentMenuBootstrapper'
+import ContentPageIntroSectionGeneric from '../shared/ContentPageIntroSectionGeneric'
 
 import { config }  from './config'
 
@@ -42,7 +43,12 @@ export default class FuturePage extends React.Component {
       <div>
         <ContentPageTableOfContentMenuBootstrapper
           pageMenuItems={config.pageProps.pageMenuItems}
-          imagesContext = {() => (require.context("./assets/menu", true))}
+          imagesContext = {() => (require.context("./assets/menu/", true))}
+        />
+
+        <ContentPageIntroSectionGeneric
+          contentPageIntro={config.contentPageIntro}
+          imagesContext = {() => (require.context("./assets/", true))}
         />
 
         <FuturePageSectionConservation

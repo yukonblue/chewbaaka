@@ -1,0 +1,26 @@
+/**
+ * ContentPageIntroSectionGeneric.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 24, 2020
+ * Updated  : Jul 24, 2020
+ */
+
+ div.ContentPageIntroSectionGenericInnerContainer {
+  display: block;
+  overflow: hidden;
+}
+
+div.ContentPageIntroSectionGenericInnerContainer_DebugColor {
+  background-color: orange;
+}
+
+img.ContentPageIntroSectionGenericImg {
+  position: relative;
+  float: right;
+}
+
+div.ContentPageIntroSectionGenericInnerContainer::after {
+  float: clear;
+}

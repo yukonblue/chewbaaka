@@ -5,8 +5,8 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
   className="ImageSlidingGalleryDiscreteOuterContainer ImageSlidingGalleryDiscreteOuterContainer_DebugColor DebugWireframe"
   style={
     Object {
-      "height": NaN,
-      "width": undefined,
+      "height": 220,
+      "width": 100,
     }
   }
 >
@@ -14,8 +14,8 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
     className="ImageSlidingGalleryDiscreteCoreContainer ImageSlidingGalleryDiscreteCoreContainer_DebugColor DebugWireframe"
     style={
       Object {
-        "height": NaN,
-        "width": undefined,
+        "height": 220,
+        "width": 100,
       }
     }
   >
@@ -25,8 +25,8 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
       src=""
       style={
         Object {
-          "height": undefined,
-          "width": undefined,
+          "height": 100,
+          "width": 100,
         }
       }
     />
@@ -84,13 +84,15 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
     className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonContainer_DebugColor DebugWireframe ImageSlidingGalleryDiscreteButtonLhsContainer ImageSlidingGalleryDiscreteButtonLhsContainer_DebugColor DebugWireframe"
     style={
       Object {
-        "top": NaN,
+        "top": -10,
       }
     }
   >
     <button
-      className="ui blue large circular icon button"
+      className="ui blue large circular icon disabled button"
+      disabled={true}
       onClick={[Function]}
+      tabIndex={-1}
     >
       <i
         aria-hidden="true"
@@ -103,7 +105,7 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
     className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonContainer_DebugColor DebugWireframe ImageSlidingGalleryDiscreteButtonRhsContainer ImageSlidingGalleryDiscreteButtonRhsContainer_DebugColor DebugWireframe"
     style={
       Object {
-        "top": NaN,
+        "top": -10,
       }
     }
   >

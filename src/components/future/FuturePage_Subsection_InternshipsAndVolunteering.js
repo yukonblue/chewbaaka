@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 22, 2020
+ * Updated  : Jul 24, 2020
  */
 
 import React from 'react'
@@ -17,6 +17,8 @@ import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPage
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import MediaLinkButton from '../shared/MediaLinkButton'
 
 import image_CCF_GetInvolved_Volunteer from './assets/CCF_GetInvolved_Volunteer.jpg'
 
@@ -47,6 +49,7 @@ export default class FuturePageSubsectionInternshipsAndVolunteering extends Reac
       <div>
         {this.renderBannerImage()}
         {this.renderBodyContent()}
+        {this.renderTailContent()}
       </div>
     );
   }
@@ -97,6 +100,16 @@ export default class FuturePageSubsectionInternshipsAndVolunteering extends Reac
         <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
       </div>
+    );
+  }
+
+  renderTailContent() {
+    return (
+      <MediaLinkButton
+        title="Learn more about CCF's Volunteer Program"
+        href="https://cheetah.org/get-involved/volunteer/"
+        icon="file alternate outline"
+      />
     );
   }
 }

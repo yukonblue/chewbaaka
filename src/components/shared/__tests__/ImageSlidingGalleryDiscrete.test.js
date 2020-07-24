@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 23, 2020
- * Updated  : Jul 23, 2020
+ * Updated  : Jul 24, 2020
  */
 
 import React from 'react'
@@ -30,6 +30,8 @@ test('renders ImageSlidingGalleryDiscrete component', () => {
   render(
     <ImageSlidingGalleryDiscrete
       slides={slides}
+      width={100}
+      height={100}
     />
   );
 
@@ -43,6 +45,8 @@ test('ImageSlidingGalleryDiscrete component snapshot', () => {
     .create(
       <ImageSlidingGalleryDiscrete
         slides={slides}
+        width={100}
+        height={100}
       />
     ).toJSON();
   expect(tree).toMatchSnapshot();
