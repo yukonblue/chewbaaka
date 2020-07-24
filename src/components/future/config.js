@@ -235,7 +235,38 @@ export const config = {
         },
         subsection_TheRoleOfZoos: {
           title: "The Role of Zoos",
-          content: {
+          contents: {
+            part_Intro: {
+              content: {
+                paragraph_01:
+                  "Moderns zoos serve as conservation education centers and provide sanctuary for many endangered species. " +
+                  "Cooperative breeding, management and research have assisted in re-establishing some species in the wild.",
+                paragraph_02:
+                  "Historically, cheetahs have not bred well in captivity. In recent years, through cooperative research and management " +
+                  "in zoos worldwide, a global master plan is producing successful results. If future extinction were to occur with wild " +
+                  "cheetahs this research and maintained captive populations could allow the re-introduction of cheetahs."
+              }
+            },
+            part_Research: {
+              title: "Research",
+              content: {
+                paragraph_01:
+                  "Zoos, universities, private individuals, governmental and NGOs support cooperative efforts worldwide.",
+                paragraph_02:
+                  "Reproductive, medical and behavioral studies, and laboratory analysis are cooperative conservation efforts between captive and wild cheetah."
+              }
+            },
+            part_Ambassadors: {
+              title: "Ambassadors",
+              content: {
+                paragraph_01:
+                  "As representatives of the wild cheetah, zoo animals provide the opportunity for people around the world to see a cheetah close up.",
+                paragraph_02:
+                  "Through educational programs, zoos spark the interest of individuals who can support or join the projects that will save wild cheetahs.",
+                paragraph_03:
+                  "Zoos contribute to the conservation of wild cheetahs through education, research and support."
+              }
+            }
           }
         },
         subsection_SchoolsTeachersLearners: {
