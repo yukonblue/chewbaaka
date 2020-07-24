@@ -9,6 +9,7 @@
 
  div.ContentPageIntroSectionGenericInnerContainer {
   display: block;
+  overflow: hidden;
 }
 
 div.ContentPageIntroSectionGenericInnerContainer_DebugColor {
