@@ -17,6 +17,7 @@ div.ContentPageIntroSectionGenericInnerContainer_DebugColor {
 }
 
 img.ContentPageIntroSectionGenericImg {
+  position: relative;
   float: right;
 }
 

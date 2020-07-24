@@ -36,8 +36,9 @@ export default class ContentPageIntroSectionGeneric extends React.Component {
       <div className={getElementStyleClassName("ContentPageIntroSectionGenericInnerContainer")}>
         <img
           className={getElementStyleClassName("ContentPageIntroSectionGenericImg")}
-          src={images("./" + this.props.contentPageIntro.image)}
+          src={images("./" + this.props.contentPageIntro.image.filename)}
           alt={this.props.contentPageIntro.title}
+          style={this.props.contentPageIntro.image.offset}
         />
         <p className="ContentPageSectionSubtitleText">
           {this.props.contentPageIntro.content}

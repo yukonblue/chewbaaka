@@ -37,7 +37,12 @@ export const config = {
             "who is passionate in the cause has something to contribute, and we can only come out triumphantly if we " +
             "work together to protect the cheetahs, nurture their ecosystems, and make ourselves better custodians of " +
             "this planet and all living things that share it with us.",
-    image: "Earth_Mission_Possible_640x640.png"
+    image: {
+      filename: "Earth_Mission_Possible_640x640.png",
+      offset: {
+        top: -40
+      }
+    }
   },
   contentPageSections: {
     section_Conservation: {
