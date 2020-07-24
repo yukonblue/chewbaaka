@@ -268,6 +268,47 @@ export const config = {
         subsection_InternshipsAndVolunteering: {
           title: "Internships and Volunteering",
           content: {
+            part_Intro: {
+              content: {
+                paragraph_01:
+                  "Cheetah Conservation Fund’s commitment to scientific research has helped grow the next generation of conservation " +
+                  "scientists and environmentalists."
+              }
+            },
+            part_Internships: {
+              title: "Internships",
+              content: {
+                paragraph_01:
+                  "CCF welcomes a selected number of students each year with a wide variety of backgrounds and courses of study. " +
+                  "Graduate and undergraduate students are given a chance to learn about aspects of conservation biology, ecology, " +
+                  "veterinary medicine, genetics, animal science, agriculture, sociology, business, computing, graphic design, education and tourism.",
+                paragraph_02:
+                  "CCF is an official fourth year placement for students from Namibia’s two major universities, " +
+                  "University of Namibia (UNAM) and Namibia University of Science and Technology (NUST). " +
+                  "In addition, CCF welcomes interns from undergraduate and graduate university programs all over the world.",
+                paragraph_03:
+                  "Aspiring biologists, genetics, and ecologists pursuing Masters and Ph.D. degrees come to CCF to work on research and thesis projects all year."
+              },
+              internship_list_items: [
+                "cheetah feeding - collecting and dissecting cheetah feces",
+                "observing cheetah behavior - assisting in clinical work-ups",
+                "raise livestock guarding dog puppies - conducting field work",
+                "being involved with outreach and education programs"
+              ]
+            },
+            part_Volunteering: {
+              title: "Volunteering",
+              content: {
+                paragraph_01:
+                  "Volunteering at CCF in Namibia is a rewarding experience, and most of the people who participate in our volunteer " +
+                  "program will tell you that it is among the best experiences they have ever had. Volunteers do everything from data entry " +
+                  "and camera trap photo sorting to chopping up meat to collecting and cataloging scat samples.",
+                paragraph_02:
+                  "Like interns, volunteers can expect to work on a variety of tasks. CCF also seeks professionally skilled volunteers to " +
+                  "work as cheetah keepers, animal behavior specialists, ecologists, biologists, veterinarians, and vet-technicians, " +
+                  "as well as educators, trainers, and conservationists."
+              }
+            }
           }
         },
         subsection_TheRoleOfZoos: {
