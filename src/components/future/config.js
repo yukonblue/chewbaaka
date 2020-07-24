@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Jul 22, 2020
+ * Updated  : Jul 23, 2020
  */
 
 export const config = {
@@ -37,6 +37,37 @@ export const config = {
         subsection_WhatIsConservation: {
           title: "What is Conservation?",
           contents: {
+            part_Intro: {
+              content: {
+                paragraph_01:
+                  "Conservation is taking care of the environment in which we live. This means using everything wisely " +
+                  "so some of it is left for others to use or for our own future use. The things we use are called RESOURCES. " +
+                  "These can be almost anything: food, the air we breathe, firewood, petrol and zinc footing panels. " +
+                  "Conservationists understand that RESOURCES ARE LIMITED and often scarce and that we must use them wisely. " +
+                  "In Namibia, fresh water is one of our scarcest resources.",
+                paragraph_02:
+                  "Conservation also means protecting resources we may not use.",
+                paragraph_03:
+                  "Walking around, rather than stepping on a plant, is an act of conservation.",
+                paragraph_04:
+                  "Protecting a species like the cheetah from extinction is an act of conservation."
+              }
+            },
+            part_EnvironmentalEducation: {
+              title: "Environmental Education",
+              content: {
+                paragraph_01:
+                  "Environmental education encourages the wise use of natural resources including water and land use, waste management and recycling."
+              }
+            },
+            part_ConservationBiology: {
+              title: "Conservation Biology",
+              content: {
+                paragraph_01:
+                  "Conservation Biology is a field of study at universities. It combines several sciences, such as biology, " +
+                  "ecology and genetics, to examine why there are so many types of living things on Earth and what makes some of them scarce."
+              }
+            }
           }
         },
         subsection_StoppingIllegalWildlifeTrades: {
