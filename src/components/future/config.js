@@ -271,7 +271,24 @@ export const config = {
         },
         subsection_SchoolsTeachersLearners: {
           title: "Schools, Teachers, Learners",
-          content: {
+          contents: {
+            paragraph_01:
+              "CCF develops outreach school programs and educational packets are distributed to students are teachers. " +
+              "All schools are welcomed to CCF facilities.",
+            paragraph_02:
+              "Staff members conduct assembles throughout Namibia. Students are encouraged to become more involved in " +
+              "conservation in school and in their homes. Workshops assist teachers in initiating cheetah conservation and " +
+              "environmental education programs.",
+            paragraph_03:
+              "Educational facilities at CCF’s headquarters encourage participation in cheetah conservation. " +
+              "The Education Center, the Visitor Center and Predator-Preyground provide information in an interacting setting. " +
+              "CCF’s Wildlife Camp allows outdoor education and a wilderness experience. " +
+              "A Nature Trail highlights the farmland ecosystem and the valuable role of predators.",
+            paragraph_04:
+              "CCF takes a cross-curricular approach, integrating conservation issues into subjects that are required as " +
+              "part of the school syllabus and donates books to schools and libraries.",
+            paragraph_05:
+              "CCF works with government agencies to incorporate cheetah conservation in the school curriculum."
           }
         },
         subsection_CommunityEvents: {
