@@ -226,6 +226,43 @@ export const config = {
         subsection_FieldResearch: {
           title: "Field Research",
           content: {
+            part_VeterinaryClinic: {
+              title: "Veterinary Clinic",
+              content: {
+                paragraph_01:
+                  "The HASS Family Research Center houses CCF’s registered on-site veterinary clinic. " +
+                  "The clinic allows CCF to provide medical care for cheetahs within the sanctuary, " +
+                  "CCF Livestock Guarding Dogs and CCF’s livestock. In addition, all cheetahs that CCF studies " +
+                  "receive a full biomedical work-up and health assessment.",
+                paragraph_02:
+                  "Other clinical procedures include routine medical checks, dental care and when necessary, surgery. " +
+                  "While working with these animals, CCF research staff can collect biological samples that are used to do health evaluation, " +
+                  "reproduction studies and to determine the cheetah population’s genetic status and provide the basis of a disease surveillance " +
+                  "system for cheetahs, these biological samples also aid in future research.",
+                paragraph_03:
+                  "Wild cheetahs that come into the clinic are marked with a transponder ear tag and/or fitted with a radio or " +
+                  "satellite tracking collar before release back into the wild. CCF works with the Namibian Ministry of " +
+                  "Environment and Tourism and neighboring farmers to determine a suitable habitat for relocation if necessary, " +
+                  "or release on the farm where the cheetah was caught."
+              }
+            },
+            part_EcologicalStudies: {
+              title: "Ecological Studies",
+              content: {
+                paragraph_01:
+                  "Satellite tracking collars provide important data for CCF research teams. " +
+                  "Researchers can monitor the daily movement of the cheetah, track its hunting skills and " +
+                  "monitor its general well-being in the wild. If also allows researchers to evaluate the " +
+                  "cheetah’s habitat use and prey preference.",
+                paragraph_02:
+                  "Satellite and VHS monitoring collars, as well as camera traps help determine animal home ranges, " +
+                  "habitat preferences and seasonal use, territoriality and behaviors unique to individual cheetah populations.",
+                paragraph_03:
+                  "CCF conducts vegetation studies that include monitoring growth patterns of bush within targeted study areas on CCF land. " +
+                  "Information on vegetation is used to identify target areas for ecological management and help determine and monitor the " +
+                  "manner with which bush encroachment affects the biodiversity of the land."
+              }
+            }
           }
         },
         subsection_InternshipsAndVolunteering: {
