@@ -4,12 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 25, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import "semantic-ui-css/semantic.min.css";
+import "semantic-ui-css/semantic.min.css"
 
 import {
   Button,
@@ -55,7 +55,10 @@ export default class ContentPageSkeleton extends React.Component {
     return (
       <div className={getElementStyleClassName("ContentPageSkeletonOuterContainer")}>
         <TopNavBar />
-        <ContentPageHead pageProps={this.props.pageProps}/>
+        <ContentPageHead
+          pageProps={this.props.pageProps}
+          imagesContext={this.props.imagesContext}
+        />
         <div>
           {this.renderBody()}
         </div>

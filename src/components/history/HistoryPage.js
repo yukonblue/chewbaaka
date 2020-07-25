@@ -4,12 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 16, 2020
+ * Updated  : Jul 25, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import "semantic-ui-css/semantic.min.css";
+import "semantic-ui-css/semantic.min.css"
 
 import ContentPageSkeleton from '../shared/ContentPageSkeleton'
 
@@ -22,21 +22,24 @@ import HistoryPageSectionEvolution from './HistoryPage_Section_Evolution'
 import HistoryPageSectionCheetahAndMan from './HistoryPage_Section_CheetahAndMan'
 import HistoryPageSectionRangeAndPopulation from './HistoryPage_Section_RangeAndPopulation'
 
-import coverImage from './assets/History_Page_Banner_Image.jpg'
-
 import '../shared/GlobalPageStyles.css'
 import '../../styling/SharedStyles.css'
 
 export default class HistoryPage extends React.Component {
 
-  render() {
-    let pageProps = config.pageProps;
-    pageProps.coverImage = coverImage;
+  constructor(props) {
+    super(props);
+    this.state = {
+      imagesContext: () => (require.context("./assets/", true))
+    };
+  }
 
+  render() {
     return (
       <ContentPageSkeleton
-        pageProps={pageProps}
+        pageProps={config.pageProps}
         content={this.renderContent()}
+        imagesContext={this.state.imagesContext}
       />
     )
   }

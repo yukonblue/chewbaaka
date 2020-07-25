@@ -74,7 +74,7 @@ exports[`ContentPageHead component snapshot 1`] = `
     data-testid="ContentPageBannerComponentTestId"
     style={
       Object {
-        "backgroundImage": "url()",
+        "backgroundImage": "url(null)",
       }
     }
   >

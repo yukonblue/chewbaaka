@@ -4,12 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Jul 24, 2020
+ * Updated  : Jul 25, 2020
  */
 
 export const config = {
   pageProps: {
-    coverImage: "",
+    coverImage: "future_page_cover_image.jpg",
     title: "Future",
     subtitle: "Learn about CCF's holistic approach to conservation and sustainable development, and what you can do to help.",
     pageMenuItems: [
