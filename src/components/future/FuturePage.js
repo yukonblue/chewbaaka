@@ -46,7 +46,7 @@ export default class FuturePage extends React.Component {
       <div>
         <ContentPageTableOfContentMenuBootstrapper
           pageMenuItems={config.pageProps.pageMenuItems}
-          imagesContext = {() => (require.context("./assets/menu/", true))}
+          imagesContext = {this.state.imagesContext}
         />
 
         <ContentPageIntroSectionGeneric

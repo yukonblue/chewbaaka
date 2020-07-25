@@ -46,7 +46,7 @@ export default class BiologyPage extends React.Component {
       <div>
         <ContentPageTableOfContentMenuBootstrapper
           pageMenuItems={config.pageProps.pageMenuItems}
-          imagesContext = {() => (require.context("./assets/menu", true))}
+          imagesContext = {this.state.imagesContext}
         />
 
         <BiologyPageIntroSection
