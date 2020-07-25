@@ -71,7 +71,7 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
   }
 
   render() {
-    const componentDimensionHeightOffset = 100 + 20;
+    const componentDimensionHeightOffset = 100 + 40;
 
     const componentDimensionStyle = {
       width: this.props.width,
