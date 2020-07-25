@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 23, 2020
+ * Updated  : Jul 24, 2020
  */
 
 import React from 'react'
@@ -118,6 +118,7 @@ export default class FuturePageSubsectionFutureFarmersOfAfrica extends React.Com
         <MediaLinkButton
           title="Read on CCF's blog on Future Farmers of Africa"
           href="https://cheetah.org/canada/about-us/what-we-support/future-farmers-of-africa/"
+          icon="file alternate outline"
         />
       </div>
     );
