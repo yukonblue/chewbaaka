@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 23, 2020
+ * Updated  : Jul 24, 2020
  */
 
 import React from 'react'
@@ -91,8 +91,9 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
 
         <MediaLinkButton
-          title="Read on CCF's collaboration with the Somaliland government on intercepting trafficked cheetahs."
+          title="Read on CCF's collaboration with the Somaliland government on intercepting trafficked cheetahs"
           href="https://cheetah.org/press-releases/cheetah-conservation-fund-receives-emaciated-cubs-intercepted-from-wildlife-traffickers-by-somaliland-government-in-record-breaking-seizure/"
+          icon="file alternate outline"
         />
       </div>
     );

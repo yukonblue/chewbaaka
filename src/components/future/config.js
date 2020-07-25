@@ -11,7 +11,7 @@ export const config = {
   pageProps: {
     coverImage: "",
     title: "Future",
-    subtitle: "Subtitle TBD ...",
+    subtitle: "Learn about CCF's holistic approach to conservation and sustainable development, and what you can do to help.",
     pageMenuItems: [
       {
         title: "Conservation",
@@ -48,7 +48,11 @@ export const config = {
     section_Conservation: {
       intro: {
         title: "Conservation",
-        content: "Content TBD ..."
+        content: "Successful conservation approaches need to be holistic and address the diverse array of inter-related issues, " +
+                "in order to make sure that all parties involved benefit, including the species to be conserved, their ecosystem, " +
+                "and any sustainable utilizations of resources within the ecosystem. Cheetah Conservation Fund develops a set of " +
+                "conservation strategies to ensure that best practices of wildlife and farm management are employed to benefit the " +
+                "cheetahs and their habitats, as well as Namibians who share the same land and resources."
       },
       subsections: {
         subsection_WhatIsConservation: {
@@ -141,7 +145,11 @@ export const config = {
     section_SustainableDevelopment: {
       intro: {
         title: "Sustainable Development",
-        content: "Content TBD ..."
+        content: "Sustainable development is key to ensure long term utilizations of natural resources without compromising the integrity " +
+                "of the ecosystem and the sharing of resources by other species. Part of sustainable development involves taking part of " +
+                "the revenue generated from any human development and contribute that to the nurturing and protection of the entire ecosystem. " +
+                "Any human development can be turned to be sustainable by employing the best practices of land, livestock, and wildlife management " +
+                "techniques that have proven to be successful and effective."
       },
       subsections: {
         subsection_MissionPossible: {
@@ -285,7 +293,11 @@ export const config = {
     section_OutreachAndEducation: {
       intro: {
         title: "Outreach and Education",
-        content: "Content TBD ..."
+        content: "Public education is a vital component of any successful conservation strategies. " +
+                "Environmental and management education are critical in areas where people coexist intimately with the land and wildlife. " +
+                "Cheetah Conservation Fund believes public education and outreach will help ensure a future for the species in the wild. " +
+                "CCF educates farmers, teachers, students, and the public about methods to conserve biodiversity, " +
+                "as well as champion the idea that everybody can be a custodian of nature and has something to contribute."
       },
       subsections: {
         subsection_FieldResearch: {
