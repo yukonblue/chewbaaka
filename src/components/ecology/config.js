@@ -4,14 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Jul 22, 2020
+ * Updated  : Jul 24, 2020
  */
 
 export const config = {
   pageProps: {
     coverImage: "",
     title: "Ecology",
-    subtitle: "Subtitle TBD ...",
+    subtitle: "Learn about the habitats and ecosystems that cheetahs live in, and their relationships with other species in the ecosystem.",
     pageMenuItems: [
       {
         title: "Ecosystem and Habitat",
