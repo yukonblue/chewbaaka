@@ -4,14 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 25, 2020
  */
 
-import React from 'react';
-
-import { Statistic, Segment } from 'semantic-ui-react'
-
-import "semantic-ui-css/semantic.min.css";
+import React from 'react'
 
 import '../shared/ContentPageSharedStyles.css'
 import './HistoryPage_Subsection_Namibia.css'
@@ -29,6 +25,8 @@ import ImageView from '../shared/ImageView'
 import LineBreak from '../shared/LineBreak'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
+
+import StatsLabel from '../shared/StatsLabel'
 
 export default class HistoryPageSubsectionNamibia extends React.Component {
 
@@ -96,14 +94,11 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
         {ContentPageSubsectionParagraphsContentBinder(content)}
 
         <div className="DisplayInlineBlock">
-          <Segment inverted>
-            <Statistic inverted size="huge" color="orange">
-              <Statistic.Value>21%</Statistic.Value>
-              <Statistic.Label>
-                of the world's wild cheetahs live in Namibia
-              </Statistic.Label>
-            </Statistic>
-          </Segment>
+          <StatsLabel
+            value="21%"
+            label="of the world's wild cheetahs live in Namibia"
+            color="orange"
+          />
         </div>
       </div>
     );
@@ -128,14 +123,11 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
         {ContentPageSubsectionParagraphsContentBinder(content)}
 
         <div className="DisplayInlineBlock">
-          <Segment inverted>
-            <Statistic inverted size="huge" color="yellow">
-              <Statistic.Value>90%</Statistic.Value>
-              <Statistic.Label>
-                of Namibia's cheetahs live on communal and commercial livestock and game farms
-              </Statistic.Label>
-            </Statistic>
-          </Segment>
+          <StatsLabel
+            value="90%"
+            label="of Namibia's cheetahs live on communal and commercial livestock and game farms"
+            color="yellow"
+          />
         </div>
       </div>
     );
