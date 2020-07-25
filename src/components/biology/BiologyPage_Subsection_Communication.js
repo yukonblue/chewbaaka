@@ -17,7 +17,7 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
-import { getElementStyleClassName } from '../../styling/styling'
+import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
@@ -48,9 +48,9 @@ export default class BiologyPageSubsectionCommunication extends React.Component 
   renderVocalizationSectionContent(part) {
     return (
       <div className="VerticalCushionPadding">
-        <h4 className={getElementStyleClassName("ContentPageSubsectionSubtitle")}>
+        <ContentPageSubsectionSubtitle>
           {part.title}
-        </h4>
+        </ContentPageSubsectionSubtitle>
 
         <div className="OverflowHidden">
           <div className="FloatRight">
