@@ -19,7 +19,7 @@ import {
   ContentPageSubsectionColumnDataBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
-import { kImageCreditStringCCF } from '../shared/constants'
+import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
 import ImageView from '../shared/ImageView'
 
@@ -115,7 +115,7 @@ export default class BiologyPageSubsectionAbnormalities extends React.Component 
           <ImageView
             image={image_cheetah_kinked_tail}
             caption="Kinked tail."
-            credit={kImageCreditStringCCF}
+            credit={kStringConstantCheetahConservationFund}
             width={640}
             height={427}
           />

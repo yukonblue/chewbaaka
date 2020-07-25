@@ -20,7 +20,7 @@ import {
 
 import 'semantic-ui-css/semantic.min.css'
 
-import { kImageCreditStringCCF } from './constants'
+import { kStringConstantCheetahConservationFund } from './constants'
 
 import logo from './assets/cheetah-conservation-fund-logo.jpg'
 
@@ -47,15 +47,15 @@ export default function Footer() {
             </Grid.Column>
             <Grid.Column width={7}>
               <Header as="h4" inverted>
-                {kImageCreditStringCCF}
+                {kStringConstantCheetahConservationFund}
               </Header>
               <p data-testid="footerSectionCCF">
-                <a href="https://cheetah.org/" target="_blank" rel=" noopener noreferrer">{kImageCreditStringCCF}</a> is a 501(c)(3) nonprofit organization,
+                <a href="https://cheetah.org/" target="_blank" rel=" noopener noreferrer">{kStringConstantCheetahConservationFund}</a> is a 501(c)(3) nonprofit organization,
                 dedicated to saving the cheetah in the wild and changing
                 the world to be a better place.
               </p>
               <p>
-                {`This site is not an affiliation of ${kImageCreditStringCCF}.`}
+                {`This site is not an affiliation of ${kStringConstantCheetahConservationFund}.`}
               </p>
             </Grid.Column>
           </Grid.Row>

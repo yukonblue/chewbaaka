@@ -19,7 +19,7 @@ import {
 
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
-import { kImageCreditStringCCF } from '../shared/constants'
+import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
 import ImageView from '../shared/ImageView'
 
@@ -91,7 +91,7 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
           <ImageView
             image={image_CCF_anatolian_shepherd_puppies}
             caption="Anatolian Shepherd puppies live alongside with the herd."
-            credit={kImageCreditStringCCF}
+            credit={kStringConstantCheetahConservationFund}
             width={720}
             height={480}
           />
@@ -109,7 +109,7 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
         <ImageView
           image={image_CCF_Year_of_the_LGD}
           caption="Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program."
-          credit={kImageCreditStringCCF}
+          credit={kStringConstantCheetahConservationFund}
           width={width}
           height={299}
         />

@@ -18,7 +18,7 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
-import { kImageCreditStringCCF } from '../shared/constants'
+import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
@@ -131,7 +131,7 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
             {
               image: image_cheetah_rescue_02,
               caption: "Cheetah cubs trafficked often are in extremely poor physical health and conditions. Many perish within weeks even with the best care after confistication.",
-              credit: kImageCreditStringCCF
+              credit: kStringConstantCheetahConservationFund
             },
             {
               image: image_cheetah_rescue_03,
@@ -140,7 +140,7 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
             {
               image: image_cheetah_rescue_04,
               caption: "One of the cubs in Somaliland broke his back leg. Fortunately CCF's team in Somaliland was able to examine the cub and perform the necessary surgery.",
-              credit: kImageCreditStringCCF
+              credit: kStringConstantCheetahConservationFund
             }
           ]}
         />

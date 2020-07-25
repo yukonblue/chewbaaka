@@ -7,8 +7,8 @@
  * Updated  : Jul 25, 2020
  */
 
-const kImageCreditStringCCF = "Cheetah Conservation Fund";
+const kStringConstantCheetahConservationFund = "Cheetah Conservation Fund";
 
 export {
-  kImageCreditStringCCF
+  kStringConstantCheetahConservationFund
 }

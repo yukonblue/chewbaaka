@@ -21,7 +21,7 @@ import {
 
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
-import { kImageCreditStringCCF } from '../shared/constants'
+import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
 import ImageView from '../shared/ImageView'
 
@@ -184,7 +184,7 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
             <ImageView
               image={image_CCF_Bushblok_01}
               caption="Bushblok is produced at CCF from the waste product of habitat restoration."
-              credit={kImageCreditStringCCF}
+              credit={kStringConstantCheetahConservationFund}
               width={640}
               height={360}
             />
@@ -193,7 +193,7 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
             <ImageView
               image={image_CCF_Bushblok_02}
               caption="Bushblok packaging for different markets."
-              credit={kImageCreditStringCCF}
+              credit={kStringConstantCheetahConservationFund}
               width={640}
               height={360}
             />

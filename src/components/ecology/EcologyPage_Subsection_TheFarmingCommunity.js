@@ -21,7 +21,7 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
-import { kImageCreditStringCCF } from '../shared/constants'
+import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
 import ImageView from '../shared/ImageView'
 
@@ -91,7 +91,7 @@ export default class EcologyPageSubsectionTheFarmingCommunity extends React.Comp
           <ImageView
             image={image_CCF_GWL_map}
             caption="Cheetah Conservation Fund works with communal farmers and people living around the Greater Waterberg Landscape Conservancy."
-            credit={kImageCreditStringCCF}
+            credit={kStringConstantCheetahConservationFund}
             width={600}
             height={471}
           />

@@ -21,7 +21,7 @@ import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtit
 
 import ImageSlidingGalleryDiscrete from '../shared/ImageSlidingGalleryDiscrete'
 
-import { kImageCreditStringCCF } from '../shared/constants'
+import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
 import image_Spoor_Tracking_Data_Collection from './assets/Spoor_Tracking_Data_Collection.jpg'
 import image_cheetah_collaring from './assets/cheetah_collaring.jpg'
@@ -109,17 +109,17 @@ export default class EcologyPageSubsectionUnderstandingAnimalMovement extends Re
             {
               image: image_camera_trap_locations_in_Waterberg_Conservancy,
               caption: "Cheetah movement study with camera traps in the Greater Waterberg Conservancy.",
-              credit: kImageCreditStringCCF
+              credit: kStringConstantCheetahConservationFund
             },
             {
               image: image_cheetah_collaring,
               caption: "A cheetah is collared in preparation for release.",
-              credit: kImageCreditStringCCF
+              credit: kStringConstantCheetahConservationFund
             },
             {
               image: image_cheetah_satellite_tracking,
               caption: "Satellite tracking of a collared and released cheetah.",
-              credit: kImageCreditStringCCF
+              credit: kStringConstantCheetahConservationFund
             }
           ]}
         />

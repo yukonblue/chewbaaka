@@ -18,7 +18,7 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
-import { kImageCreditStringCCF } from '../shared/constants'
+import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
 import ImageSlidingGallery from '../shared/ImageSlidingGallery'
 
@@ -73,22 +73,22 @@ export default class FuturePageSubsectionSchoolsTeachersLearners extends React.C
           {
             image: image_CCF_Predator_Preyground,
             caption: "CCF's Predator Preyground.",
-            credit: kImageCreditStringCCF
+            credit: kStringConstantCheetahConservationFund
           },
           {
             image: image_CCF_Cheetah_Museum,
             caption: "CCF's Cheetah Museum.",
-            credit: kImageCreditStringCCF
+            credit: kStringConstantCheetahConservationFund
           },
           {
             image: image_CCF_Cheetah_Museum_02,
             caption: "School kids visit Cheetah Museum on field trip.",
-            credit: kImageCreditStringCCF
+            credit: kStringConstantCheetahConservationFund
           },
           {
             image: image_CCF_Education_Outreach,
             caption: "Educational outreach at Namibian school.",
-            credit: kImageCreditStringCCF
+            credit: kStringConstantCheetahConservationFund
           }
         ]}
       />

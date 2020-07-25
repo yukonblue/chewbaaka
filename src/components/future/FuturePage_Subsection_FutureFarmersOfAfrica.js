@@ -13,7 +13,7 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 
 import ContentPageParagraph from '../shared/ContentPageParagraph'
 
-import { kImageCreditStringCCF } from '../shared/constants'
+import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
 import ImageView from '../shared/ImageView'
 
@@ -83,7 +83,7 @@ export default class FuturePageSubsectionFutureFarmersOfAfrica extends React.Com
             <ImageView
               image={image_CCF_FFA_01}
               caption="Farmers participate in FFA training courses."
-              credit={kImageCreditStringCCF}
+              credit={kStringConstantCheetahConservationFund}
               width={742}
               height={370}
             />
