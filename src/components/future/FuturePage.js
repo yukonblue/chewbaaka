@@ -51,7 +51,7 @@ export default class FuturePage extends React.Component {
 
         <ContentPageIntroSectionGeneric
           contentPageIntro={config.contentPageIntro}
-          imagesContext = {() => (require.context("./assets/", true))}
+          imagesContext = {this.state.imagesContext}
         />
 
         <FuturePageSectionConservation
