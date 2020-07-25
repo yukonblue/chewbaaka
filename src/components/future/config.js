@@ -145,7 +145,11 @@ export const config = {
     section_SustainableDevelopment: {
       intro: {
         title: "Sustainable Development",
-        content: "Content TBD ..."
+        content: "Sustainable development is key to ensure long term utilizations of natural resources without compromising the integrity " +
+                "of the ecosystem and the sharing of resources by other species. Part of sustainable development involves taking part of " +
+                "the revenue generated from any human development and contribute that to the nurturing and protection of the entire ecosystem. " +
+                "Any human development can be turned to be sustainable by employing the best practices of land, livestock, and wildlife management " +
+                "techniques that have proven to be successful and effective."
       },
       subsections: {
         subsection_MissionPossible: {
