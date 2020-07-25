@@ -492,7 +492,10 @@ export const config = {
     section_Research: {
       intro: {
         title: "Research",
-        content: "TBD ..."
+        content: "Environmental and biological researches provide powerful insights to conservationists in understanding the elements in an ecosystem, " +
+                "as well as answers to questions on how a particular species behave within that system. CCF’s researches provide crucial understanding " +
+                "in cheetah movement, diet, and behavioral patterns in various part of Namibia. These researches help CCF and other conservationists " +
+                "draw crucial decisions on conservation efforts and sustainable developments that benefit both Namibians, livestocks, wildlife, and the land."
       },
       subsections: {
         subsection_UnderstandingAnimalMovement: {
