@@ -46,10 +46,10 @@ exports[`ImageSlidingGallery component snapshot 1`] = `
     className="ImageSlidingGalleryButtonContainer"
   >
     <div
-      className="ui blue huge icon left attached button"
+      className="ui blue huge icon left attached disabled button"
       onClick={[Function]}
       role="button"
-      tabIndex={0}
+      tabIndex={-1}
     >
       <i
         aria-hidden="true"
