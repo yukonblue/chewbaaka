@@ -33,6 +33,8 @@ import image_cheetah_trafficking_map from './assets/cheetah_trafficking_map.png'
 
 import image_CITES_CoP17 from './assets/CITES_CoP17.jpg'
 
+import image_What_is_CITES from './assets/What_is_CITES.png'
+
 export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_StoppingIllegalWildlifeTrades";
@@ -143,15 +145,25 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
 
   renderPartCITESCoP17Content(part) {
     return (
-      <div className="OverflowHidden VerticalCushionPadding">
-        <div className="FloatLeft HorizontalCusionPadding">
-          <img
-            src={image_CITES_CoP17}
-            alt="CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora) Conference of the Parties 17"
-          />
+      <div className="VerticalCushionPadding">
+        <div className="OverflowHidden VerticalCushionPadding">
+          <div className="FloatLeft HorizontalCusionPadding">
+            <img
+              src={image_CITES_CoP17}
+              alt="CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora) Conference of the Parties 17"
+            />
+          </div>
+
+          {ContentPageSubsectionParagraphsContentBinder(part.content)}
         </div>
 
-        {ContentPageSubsectionParagraphsContentBinder(part.content)}
+        <div className="VerticalCushionPadding Centered FactBannerMediumDimension">
+          <img
+            className="FactBannerMediumDimension"
+            src={image_What_is_CITES}
+            alt="What is CITES?"
+          />
+        </div>
       </div>
     );
   }
