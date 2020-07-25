@@ -17,6 +17,8 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
+import { kImageCreditStringCCF } from '../shared/constants'
+
 import ImageView from '../shared/ImageView'
 
 import image_CCF_Livelihood_Development from './assets/CCF_Livelihood_Development.jpg'
@@ -50,7 +52,7 @@ export default class FuturePageSubsectionCommunityEvents extends React.Component
           <ImageView
             image={image_CCF_Livelihood_Development}
             caption="CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program."
-            credit="Cheetah Conservation Fund"
+            credit={kImageCreditStringCCF}
             width={960}
             height={576}
           />
