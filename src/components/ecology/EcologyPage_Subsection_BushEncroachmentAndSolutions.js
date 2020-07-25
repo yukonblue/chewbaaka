@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 24, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -169,7 +169,8 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
           <Grid.Column width={8}>
             <ImageView
               image={image_CCF_Bushblok_01}
-              caption="Bushblok is produced at CCF from the waste product of habitat restoration. (Image credit: Cheetah Conservation Fund)"
+              caption="Bushblok is produced at CCF from the waste product of habitat restoration."
+              credit="Cheetah Conservation Fund"
               width={640}
               height={360}
             />
@@ -177,8 +178,8 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
           <Grid.Column>
             <ImageView
               image={image_CCF_Bushblok_02}
-              caption="
-              Bushblok packaging for different markets. (Image credit: Cheetah Conservation Fund)"
+              caption="Bushblok packaging for different markets."
+              credit="Cheetah Conservation Fund"
               width={640}
               height={360}
             />

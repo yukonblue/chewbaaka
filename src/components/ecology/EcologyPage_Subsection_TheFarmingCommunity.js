@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 22, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -82,7 +82,8 @@ export default class EcologyPageSubsectionTheFarmingCommunity extends React.Comp
         <div className="FloatRight">
           <ImageView
             image={image_CCF_GWL_map}
-            caption="Cheetah Conservation Fund works with communal farmers and people living around the Greater Waterberg Landscape Conservancy. (Image credit: Bruce)"
+            caption="Cheetah Conservation Fund works with communal farmers and people living around the Greater Waterberg Landscape Conservancy."
+            credit="Bruce"
             width={600}
             height={471}
           />

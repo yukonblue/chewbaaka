@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 24, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -82,7 +82,8 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
         <div className="FloatRight">
           <ImageView
             image={image_CCF_anatolian_shepherd_puppies}
-            caption="Anatolian Shepherd puppies live alongside with the herd. (Image credit: Cheetah Conservation Fund)"
+            caption="Anatolian Shepherd puppies live alongside with the herd."
+            credit="Cheetah Conservation Fund"
             width={720}
             height={480}
           />
@@ -99,7 +100,8 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
       <div className="Centered VerticalCushionPadding" style={{width: width}}>
         <ImageView
           image={image_CCF_Year_of_the_LGD}
-          caption="Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program. (Image credit: Cheetah Conservation Fund)"
+          caption="Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program."
+          credit="Cheetah Conservation Fund"
           width={width}
           height={299}
         />

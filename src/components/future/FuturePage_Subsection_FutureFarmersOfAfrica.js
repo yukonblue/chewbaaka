@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 24, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -85,7 +85,8 @@ export default class FuturePageSubsectionFutureFarmersOfAfrica extends React.Com
           <div className="HorizontalCusionPadding VerticalCushionPadding">
             <ImageView
               image={image_CCF_FFA_01}
-              caption="Farmers participate in FFA training courses. (Image credit: Cheetah Conservation Fund)"
+              caption="Farmers participate in FFA training courses."
+              credit="Cheetah Conservation Fund"
               width={742}
               height={370}
             />

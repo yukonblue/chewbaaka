@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 24, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -106,7 +106,8 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
       <div>
         <ImageView
           image={image_cheetah_trafficking_map}
-          caption="The heaviest trafficking of cheetahs have been observed from Central and Southern Africa into the Middle East. (Image credit: BBC)"
+          caption="The heaviest trafficking of cheetahs have been observed from Central and Southern Africa into the Middle East."
+          credit="BBC"
           width={640}
           height={360}
         />

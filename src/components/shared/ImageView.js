@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 25, 2020
  */
 
 /**
@@ -19,22 +19,28 @@
  *
  *  - `caption`: The caption text.
  *
+ *  - `credit` (optional): Optional string specifying the image credit.
+ *
  *  - `width` (optional): The width of the image to be shown.
  *
  *  - `height` (optional): The height of the image to be shown.
  */
 
-import React from 'react';
+import React from 'react'
 
 import './ImageView.css'
 
 import Caption from './Caption'
 
-function ImageView(props) {
+import { getFormattedImageCaptionStringWithCredit}  from './ImageCaptionUtils'
+
+export default function ImageView(props) {
   const imagePartDimensionStyle = {
     width: props.width,
     height: props.height
   };
+
+  const caption = getFormattedImageCaptionStringWithCredit(props.caption, props.credit);
 
   return (
     <div className="ImageViewOuterContainer">
@@ -43,16 +49,17 @@ function ImageView(props) {
           <img
             className="ImageViewImg"
             src={props.image}
-            alt={props.caption}
+            alt={caption}
             style={imagePartDimensionStyle}
           />
           <div data-testid="ImageViewComponentCaptionPart">
-            <Caption caption={props.caption} width={props.width} />
+            <Caption
+              caption={caption}
+              width={props.width}
+            />
           </div>
         </div>
       </div>
     </div>
   );
 }
-
-export default ImageView;

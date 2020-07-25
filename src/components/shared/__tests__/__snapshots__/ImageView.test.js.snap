@@ -53,3 +53,57 @@ exports[`ImageView component snapshot 1`] = `
   </div>
 </div>
 `;
+
+exports[`ImageView component with image credit string snapshot 1`] = `
+<div
+  className="ImageViewOuterContainer"
+>
+  <div
+    className="ImageViewInnerContainer"
+  >
+    <div
+      className="ImageViewCore"
+    >
+      <img
+        alt="This is a caption (Image credit: Image God)"
+        className="ImageViewImg"
+        src="somesite.com/image.png"
+        style={
+          Object {
+            "height": 640,
+            "width": 640,
+          }
+        }
+      />
+      <div
+        data-testid="ImageViewComponentCaptionPart"
+      >
+        <div
+          className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+          data-testid="CaptionComponentTestId"
+          style={
+            Object {
+              "width": 640,
+            }
+          }
+        >
+          <div
+            className="IconContainer IconContainer_DebugColor DebugWireframe"
+          >
+            <i
+              aria-hidden="true"
+              className="image icon"
+              onClick={[Function]}
+            />
+          </div>
+          <p
+            className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+          >
+            This is a caption (Image credit: Image God)
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
