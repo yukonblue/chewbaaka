@@ -4,14 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Jul 22, 2020
+ * Updated  : Jul 25, 2020
  */
 
 export const config = {
   pageProps: {
     coverImage: "",
     title: "Ecology",
-    subtitle: "Subtitle TBD ...",
+    subtitle: "Learn about the habitats and ecosystems that cheetahs live in, and their relationships with other species in the ecosystem.",
     pageMenuItems: [
       {
         title: "Ecosystem and Habitat",
@@ -29,7 +29,16 @@ export const config = {
   },
   contentPageIntro: {
     title: "Ecology",
-    content: "TBD ..."
+    content: "Ecological studies and researches are the first step in understanding the movement, diet, and behavioral patterns of any " +
+            "species of wildlife, as well as the biodiversity and well-being of the entire ecosystem. In Namibia, " +
+            "because 90% of the cheetah population lives on farmlands alongside 80% of the country’s wildlife species, " +
+            "it is crucial to invest in ecological research and conservation efforts in order to ensure that both wildlife, " +
+            "livestock, and farmers can all coexist together. Education and outreach efforts are also equally important " +
+            "in educating people to make more sustainable utilizations of the land and its resources, and preserve the richness " +
+            "in biodiversity and land fertility for future generations.",
+    image: {
+      filename: "What_is_Sustainable_Utilization.png"
+    }
   },
   contentPageSections: {
     section_EcosystemAndHabitat: {
@@ -160,7 +169,11 @@ export const config = {
     section_Ecomanagement: {
       intro: {
         title: "Eco-management",
-        content: "TBD ..."
+        content: "Effective management of land, livestock, and wildlife are essential ingredients that lead to sustainable " +
+                "utilizations of resources, more sustainable human developments, as well as better conservation of wildlife and " +
+                "the entire ecosystem. Effective farming practices can yield maximal profits and minimal degradations to the land and nature. " +
+                "Conservancies empower farmers with more well-managed ownership of lands, and can generate income through other " +
+                "revenues such as eco-tourism."
       },
       subsections: {
         subsection_HuntingAndPredatorControl: {
@@ -488,7 +501,10 @@ export const config = {
     section_Research: {
       intro: {
         title: "Research",
-        content: "TBD ..."
+        content: "Environmental and biological researches provide powerful insights to conservationists in understanding the elements in an ecosystem, " +
+                "as well as answers to questions on how a particular species behave within that system. CCF’s researches provide crucial understanding " +
+                "in cheetah movement, diet, and behavioral patterns in various part of Namibia. These researches help CCF and other conservationists " +
+                "draw crucial decisions on conservation efforts and sustainable developments that benefit both Namibians, livestocks, wildlife, and the land."
       },
       subsections: {
         subsection_UnderstandingAnimalMovement: {
