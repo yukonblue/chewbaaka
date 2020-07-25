@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 20, 2020
+ * Updated  : Jul 24, 2020
  */
 
 import React from 'react'
@@ -71,7 +71,7 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
         <div className="FloatRight">
           <ImageView
             image={image_savannah}
-            caption="Savannah"
+            caption="Savanna"
             width={640}
             height={480}
           />
