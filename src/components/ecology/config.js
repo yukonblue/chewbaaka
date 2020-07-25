@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Jul 24, 2020
+ * Updated  : Jul 25, 2020
  */
 
 export const config = {
@@ -29,7 +29,16 @@ export const config = {
   },
   contentPageIntro: {
     title: "Ecology",
-    content: "TBD ..."
+    content: "Ecological studies and researches are the first step in understanding the movement, diet, and behavioral patterns of any " +
+            "species of wildlife, as well as the biodiversity and well-being of the entire ecosystem. In Namibia, " +
+            "because 90% of the cheetah population lives on farmlands alongside 80% of the country’s wildlife species, " +
+            "it is crucial to invest in ecological research and conservation efforts in order to ensure that both wildlife, " +
+            "livestock, and farmers can all coexist together. Education and outreach efforts are also equally important " +
+            "in educating people to make more sustainable utilizations of the land and its resources, and preserve the richness " +
+            "in biodiversity and land fertility for future generations.",
+    image: {
+      filename: "What_is_Sustainable_Utilization.png"
+    }
   },
   contentPageSections: {
     section_EcosystemAndHabitat: {
