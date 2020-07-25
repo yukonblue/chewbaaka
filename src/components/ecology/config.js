@@ -160,7 +160,11 @@ export const config = {
     section_Ecomanagement: {
       intro: {
         title: "Eco-management",
-        content: "TBD ..."
+        content: "Effective management of land, livestock, and wildlife are essential ingredients that lead to sustainable " +
+                "utilizations of resources, more sustainable human developments, as well as better conservation of wildlife and " +
+                "the entire ecosystem. Effective farming practices can yield maximal profits and minimal degradations to the land and nature. " +
+                "Conservancies empower farmers with more well-managed ownership of lands, and can generate income through other " +
+                "revenues such as eco-tourism."
       },
       subsections: {
         subsection_HuntingAndPredatorControl: {
