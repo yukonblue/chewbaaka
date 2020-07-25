@@ -22,7 +22,7 @@ import EcologyPageSectionEcosystemAndHabitat from './EcologyPage_Section_Ecosyst
 import EcologyPageSectionEcomanagement from './EcologyPage_Section_Ecomanagement'
 import EcologyPageSectionResearch from './EcologyPage_Section_Research'
 
-import coverImage from './assets/savannah.jpg'
+import coverImage from './assets/savanna.jpg'
 
 export default class EcologyPage extends React.Component {
 
