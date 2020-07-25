@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 23, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -12,6 +12,8 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+
+import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -64,7 +66,9 @@ export default class FuturePageSubsectionTheRoleOfZoos extends React.Component {
   renderAmbassadorPartContent(part) {
     return (
       <div className="OverflowHidden VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
         <div className="FloatRight">
           <ImageView
             image={image_cincinnati_zoo_cheetah_sarah}
@@ -82,7 +86,9 @@ export default class FuturePageSubsectionTheRoleOfZoos extends React.Component {
   renderResearchPartContent(part) {
     return (
       <div className="VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
       </div>
     );

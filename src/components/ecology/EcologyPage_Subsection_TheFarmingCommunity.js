@@ -15,6 +15,8 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 
 import ContentPageParagraph from '../shared/ContentPageParagraph'
 
+import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
+
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
@@ -69,7 +71,9 @@ export default class EcologyPageSubsectionTheFarmingCommunity extends React.Comp
     }
     return (
       <div key={idx} className="VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
       </div>
     );
@@ -78,7 +82,9 @@ export default class EcologyPageSubsectionTheFarmingCommunity extends React.Comp
   renderPartWithImageContent(part, idx) {
     return (
       <div key={idx} className="VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
         <div className="FloatRight">
           <ImageView
             image={image_CCF_GWL_map}

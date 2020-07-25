@@ -17,6 +17,8 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
+import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
+
 import { kImageCreditStringCCF } from '../shared/constants'
 
 import ImageView from '../shared/ImageView'
@@ -63,7 +65,9 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
   renderPartHistory(part) {
     return (
       <div className="VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
 
         <div className="Centered" style={{width: 1200}}>
@@ -80,7 +84,9 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
   renderPartRaisingLGDs(part) {
     return (
       <div className="OverflowHidden VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
         <div className="FloatRight">
           <ImageView
             image={image_CCF_anatolian_shepherd_puppies}
@@ -114,7 +120,9 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
   renderPartDogsSaveCheetahs(part) {
     return (
       <div className="OverflowHidden VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
         <div className="FloatLeft HorizontalCusionPadding">
           <img
             src={image_Cheetah_and_LGD}

@@ -17,6 +17,8 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
+import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
+
 import TextBubble from '../shared/TextBubble'
 
 import image_What_is_a_Problem_Animal from './assets/What_is_a_Problem_Animal.png'
@@ -84,7 +86,9 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
     };
     return (
       <div key={idx} className="VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
         {renderOptionalBannerImgOnPart()}
       </div>
@@ -94,7 +98,9 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
   renderPartPredatorControlContent(part) {
     return (
       <div className="OverflowHidden VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
         <div className="FloatRight">
           <TextBubble
             diameter={560}

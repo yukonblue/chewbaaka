@@ -19,6 +19,8 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
+import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
+
 import { kImageCreditStringCCF } from '../shared/constants'
 
 import ImageView from '../shared/ImageView'
@@ -67,7 +69,9 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
     return (
       <div>
         <div className="VerticalCushionPadding">
-          <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+          <ContentPageSubsectionSubtitle>
+            {part.title}
+          </ContentPageSubsectionSubtitle>
 
           <div className="OverflowHidden">
             <div className="FloatRight">
@@ -92,7 +96,9 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
   renderSubpartContent(subpart) {
     return (
       <div className="VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{subpart.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {subpart.title}
+        </ContentPageSubsectionSubtitle>
 
         {ContentPageSubsectionParagraphsContentBinder(subpart.content)}
       </div>
@@ -103,7 +109,9 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
     return (
       <div>
         <div className="VerticalCushionPadding">
-          <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+          <ContentPageSubsectionSubtitle>
+            {part.title}
+          </ContentPageSubsectionSubtitle>
           <div className="OverflowHidden">
             <div className="FloatLeft HorizontalCusionPadding">
               <ImageView
@@ -119,7 +127,9 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
         </div>
 
         <div className="VerticalCushionPadding">
-          <h4 className="ContentPageSubsectionSubtitle">{part.content["part_CCFBushProject"].title}</h4>
+          <ContentPageSubsectionSubtitle>
+            {part.content["part_CCFBushProject"].title}
+          </ContentPageSubsectionSubtitle>
           <div className="OverflowHidden">
             <div className="FloatRight HorizontalCusionPadding">
               <img
@@ -141,7 +151,9 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
   renderBushblockObjectivesSection(part) {
     return (
       <div className="VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
 
         <div className="OverflowHidden">
           <div className="FloatRight HorizontalCusionPadding">

@@ -17,6 +17,8 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
+import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
+
 import ImageSlidingGalleryDiscrete from '../shared/ImageSlidingGalleryDiscrete'
 
 import { kImageCreditStringCCF } from '../shared/constants'
@@ -83,7 +85,9 @@ export default class EcologyPageSubsectionUnderstandingAnimalMovement extends Re
   renderPartContent(part, key) {
     return (
       <div key={key} className="VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
       </div>
     );

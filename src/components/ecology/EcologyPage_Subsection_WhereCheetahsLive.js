@@ -16,6 +16,8 @@ import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPage
 
 import ContentPageParagraph from '../shared/ContentPageParagraph'
 
+import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
+
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
@@ -66,7 +68,9 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
   renderPartCheetahHabitatContent(part) {
     return (
       <div className="OverflowHidden VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
 
         <div className="FloatRight">
           <ImageView
@@ -91,7 +95,9 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
   renderPartNamibianBiomesContent(part) {
     return (
       <div className="VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
 
         <ContentPageSubsectionTwoColumnContentTemplate
           lhsColumn={{content: this.renderPartNamibianBiomesLhs(part)}}
