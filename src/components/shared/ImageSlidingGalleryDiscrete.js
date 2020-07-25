@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 23, 2020
- * Updated  : Jul 24, 2020
+ * Updated  : Jul 25, 2020
  */
 
 /**
@@ -81,7 +81,13 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
       height: this.props.height
     };
 
-    const buttonCommonTopPos = (this.props.height - componentDimensionHeightOffset) / 2;
+    /**
+     * Vertically center the prev/next buttons in the center of the image.
+     * Need to minus half of the height of the button itself
+     * to make it appear really centered.
+     */
+    const buttonHeight = 43;
+    const buttonCommonTopPos = (this.props.height / 2) - (buttonHeight / 2);
 
     const buttonCommonPositionStyle = {
       top: buttonCommonTopPos
