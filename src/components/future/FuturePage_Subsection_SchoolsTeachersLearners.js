@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 23, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -70,19 +70,23 @@ export default class FuturePageSubsectionSchoolsTeachersLearners extends React.C
         slides={[
           {
             image: image_CCF_Predator_Preyground,
-            caption: "CCF's Predator Preyground. (Image credit: Cheetah Conservation Fund)"
+            caption: "CCF's Predator Preyground.",
+            credit: "Cheetah Conservation Fund"
           },
           {
             image: image_CCF_Cheetah_Museum,
-            caption: "CCF's Cheetah Museum. (Image credit: Cheetah Conservation Fund)"
+            caption: "CCF's Cheetah Museum.",
+            credit: "Cheetah Conservation Fund"
           },
           {
             image: image_CCF_Cheetah_Museum_02,
-            caption: "School kids visit Cheetah Museum on field trip. (Image credit: Cheetah Conservation Fund)"
+            caption: "School kids visit Cheetah Museum on field trip.",
+            credit: "Cheetah Conservation Fund"
           },
           {
             image: image_CCF_Education_Outreach,
-            caption: "Educational outreach at Namibian school. (Image credit: Cheetah Conservation Fund)"
+            caption: "Educational outreach at Namibian school.",
+            credit: "Cheetah Conservation Fund"
           }
         ]}
       />

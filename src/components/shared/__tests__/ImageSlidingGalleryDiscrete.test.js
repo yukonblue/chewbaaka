@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 23, 2020
- * Updated  : Jul 24, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -22,7 +22,8 @@ const slides=[
   },
   {
     image: '',
-    caption: "Listen to a Tsimshian (Pacific Northwest Native) storyteller recount the family history painted on a 38-foot-long house front as specific parts of the design light up."
+    caption: "Listen to a Tsimshian (Pacific Northwest Native) storyteller recount the family history painted on a 38-foot-long house front as specific parts of the design light up.",
+    credit: "Image God"
   }
 ];
 
