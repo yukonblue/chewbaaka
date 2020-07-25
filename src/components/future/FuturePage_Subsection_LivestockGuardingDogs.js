@@ -23,6 +23,7 @@ import image_CCF_LGD from './assets/CCF_LGD.jpg'
 import image_CCF_anatolian_shepherd_puppies from './assets/CCF_anatolian_shepherd_puppies.jpg'
 import image_CCF_Year_of_the_LGD from './assets/CCF_Year_of_the_LGD.jpg'
 import image_Cheetah_and_LGD from './assets/Cheetah_and_LGD.jpg'
+import image_LGD from './assets/LGD_960x960.png'
 
 export default class FuturePageSubsectionLivestockGuardingDogs extends React.Component {
 
@@ -119,6 +120,14 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
         </div>
 
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
+
+        <div style={{width: 960}} className="Centered">
+          <img
+            src={image_LGD}
+            alt="Livestock Guarding Dogs"
+            style={{width: 960}}
+          />
+        </div>
       </div>
     );
   }
