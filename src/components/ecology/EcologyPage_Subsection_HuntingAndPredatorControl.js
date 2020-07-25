@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 21, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -77,7 +77,6 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
               className="FactBannerMediumDimension"
               src={image_What_is_Sustainable_Utilization}
               alt="What is sustainable utilization?"
-              width={720}
             />
           </div>
         );
