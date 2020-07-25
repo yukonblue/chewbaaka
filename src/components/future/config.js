@@ -293,7 +293,11 @@ export const config = {
     section_OutreachAndEducation: {
       intro: {
         title: "Outreach and Education",
-        content: "Content TBD ..."
+        content: "Public education is a vital component of any successful conservation strategies. " +
+                "Environmental and management education are critical in areas where people coexist intimately with the land and wildlife. " +
+                "Cheetah Conservation Fund believes public education and outreach will help ensure a future for the species in the wild. " +
+                "CCF educates farmers, teachers, students, and the public about methods to conserve biodiversity, " +
+                "as well as champion the idea that everybody can be a custodian of nature and has something to contribute."
       },
       subsections: {
         subsection_FieldResearch: {
