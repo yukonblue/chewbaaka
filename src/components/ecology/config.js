@@ -37,7 +37,10 @@ export const config = {
             "in educating people to make more sustainable utilizations of the land and its resources, and preserve the richness " +
             "in biodiversity and land fertility for future generations.",
     image: {
-      filename: "Ecology_Page_Cover_Image.png"
+      filename: "Ecology_Page_Cover_Image.png",
+      offset: {
+        top: -45
+      }
     }
   },
   contentPageSections: {
