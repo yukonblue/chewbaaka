@@ -22,18 +22,21 @@ import EcologyPageSectionEcosystemAndHabitat from './EcologyPage_Section_Ecosyst
 import EcologyPageSectionEcomanagement from './EcologyPage_Section_Ecomanagement'
 import EcologyPageSectionResearch from './EcologyPage_Section_Research'
 
-import coverImage from './assets/savannah.jpg'
-
 export default class EcologyPage extends React.Component {
 
-  render() {
-    let pageProps = config.pageProps;
-    pageProps.coverImage = coverImage;
+  constructor(props) {
+    super(props);
+    this.state = {
+      imagesContext: () => (require.context("./assets/", true))
+    };
+  }
 
+  render() {
     return (
       <ContentPageSkeleton
-        pageProps={pageProps}
+        pageProps={config.pageProps}
         content={this.renderContent()}
+        imagesContext={this.state.imagesContext}
       />
     )
   }
@@ -43,12 +46,12 @@ export default class EcologyPage extends React.Component {
       <div>
         <ContentPageTableOfContentMenuBootstrapper
           pageMenuItems={config.pageProps.pageMenuItems}
-          imagesContext = {() => (require.context("./assets/menu", true))}
+          imagesContext = {this.state.imagesContext}
         />
 
         <ContentPageIntroSectionGeneric
           contentPageIntro={config.contentPageIntro}
-          imagesContext = {() => (require.context("./assets/", true))}
+          imagesContext = {this.state.imagesContext}
         />
 
         <EcologyPageSectionEcosystemAndHabitat config={config}/>

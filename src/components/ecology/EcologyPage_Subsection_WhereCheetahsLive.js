@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 24, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -24,7 +24,7 @@ import ImageView from '../shared/ImageView'
 
 import NamibianBiomes from './NamibianBiomes'
 
-import image_savannah from './assets/savannah.jpg'
+import image_savanna from './assets/savanna.jpg'
 
 import image_banner_fact_What_is_Habitat from './assets/What_is_Habitat.png'
 
@@ -70,7 +70,7 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
 
         <div className="FloatRight">
           <ImageView
-            image={image_savannah}
+            image={image_savanna}
             caption="Savanna"
             width={640}
             height={480}

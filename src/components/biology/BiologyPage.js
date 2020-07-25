@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 18, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react';
@@ -22,18 +22,21 @@ import BiologyPageSectionGenetics from './BiologyPage_Section_Genetics'
 
 import { config }  from './config'
 
-import coverImage from './assets/biology_page_cover_image.jpg'
+export default class BiologyPage extends React.Component {
 
-export default class FuturePage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      imagesContext: () => (require.context("./assets/", true))
+    };
+  }
 
   render() {
-    let pageProps = config.pageProps;
-    pageProps.coverImage = coverImage;
-
     return (
       <ContentPageSkeleton
-        pageProps={pageProps}
+        pageProps={config.pageProps}
         content={this.renderContent()}
+        imagesContext={this.state.imagesContext}
       />
     )
   }
@@ -43,7 +46,7 @@ export default class FuturePage extends React.Component {
       <div>
         <ContentPageTableOfContentMenuBootstrapper
           pageMenuItems={config.pageProps.pageMenuItems}
-          imagesContext = {() => (require.context("./assets/menu", true))}
+          imagesContext = {this.state.imagesContext}
         />
 
         <BiologyPageIntroSection
