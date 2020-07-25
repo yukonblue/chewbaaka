@@ -74,6 +74,10 @@ div.BottomMargin50px {
   margin-bottom: 50px;
 }
 
+.FullWidth {
+  width: 100%;
+}
+
 /** ------------------------------- TEXT ----------------------------------- **/
 
 h1.ContentPageIntroSectionTemplateTitle {

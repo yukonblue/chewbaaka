@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 23, 2020
+ * Updated  : Jul 24, 2020
  */
 
 import React from 'react'
@@ -15,9 +15,12 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPageSubsectionThreeColumnContentTemplate'
 
 import {
+  ContentPageSubsectionColumnDataBinder,
   ContentPageSubsectionParagraphsContentBinder,
   ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import image_Sustainable_Development from './assets/Sustainable_Development.png'
 
 export default class FuturePageSubsectionMissionPossible extends React.Component {
 
@@ -66,8 +69,9 @@ export default class FuturePageSubsectionMissionPossible extends React.Component
         }
 
         middleColumn={
-          ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder(
+          ContentPageSubsectionColumnDataBinder(
             part.content["part_LivestockManagement"],
+            this.renderMiddleColumnContent
           )
         }
 
@@ -79,6 +83,18 @@ export default class FuturePageSubsectionMissionPossible extends React.Component
 
         showTitleInMiddleColumn={true}
       />
+    );
+  }
+
+  renderMiddleColumnContent(content) {
+    return (
+      <div>
+        {ContentPageSubsectionParagraphsContentBinder(content)}
+        <img className="FullWidth"
+          src={image_Sustainable_Development}
+          alt="Sustainable development"
+        />
+      </div>
     );
   }
 }
