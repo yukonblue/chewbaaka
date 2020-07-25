@@ -153,7 +153,7 @@ exports[`BiologyPageSubsectionAbnormalities component snapshot 1`] = `
                   className="ImageViewCore"
                 >
                   <img
-                    alt="Kinked tail."
+                    alt="Kinked tail. (Image credit: Cheetah Conservation Fund)"
                     className="ImageViewImg"
                     src="cheetah_kinked_tail.jpg"
                     style={
@@ -187,7 +187,7 @@ exports[`BiologyPageSubsectionAbnormalities component snapshot 1`] = `
                       <p
                         className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
                       >
-                        Kinked tail.
+                        Kinked tail. (Image credit: Cheetah Conservation Fund)
                       </p>
                     </div>
                   </div>
