@@ -11,7 +11,7 @@ export const config = {
   pageProps: {
     coverImage: "",
     title: "Future",
-    subtitle: "Subtitle TBD ...",
+    subtitle: "Learn about CCF's holistic approach to conservation and sustainable development, and what you can do to help.",
     pageMenuItems: [
       {
         title: "Conservation",
