@@ -1,5 +1,5 @@
 /**
- * ImageSlidingGalleryDiscrete.js
+ * ImageCaptionUtils.js
  * Chewbaaka
  *
  * Author   : Tomiko
