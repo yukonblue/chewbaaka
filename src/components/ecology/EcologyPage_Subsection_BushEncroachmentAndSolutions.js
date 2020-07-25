@@ -4,10 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 21, 2020
+ * Updated  : Jul 24, 2020
  */
 
 import React from 'react'
+
+import { Grid } from 'semantic-ui-react'
 
 import '../shared/ContentPageSharedStyles.css'
 
@@ -23,6 +25,9 @@ import image_bush_encroachment from './assets/bush_encroachment.jpg'
 import image_Cheetah_Battle_Bush_Encroachment from './assets/Cheetah_Battle_Bush_Encroachment.jpg'
 import image_fsc_logo from './assets/fsc_logo.png'
 import image_CCF_Bushblok_Logo from './assets/CCF_Bushblok_Logo.jpg'
+
+import image_CCF_Bushblok_01 from './assets/CCF_Bushblok_01.jpg'
+import image_CCF_Bushblok_02 from './assets/CCF_Bushblok_02.jpg'
 
 export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends React.Component {
 
@@ -51,6 +56,7 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
       <div>
         {this.renderPartBushEncroachmentContent(this.state.subsectionConfig.contents["part_BushEncroachment"])}
         {this.renderPartBushEncroachmentThreatensCheetahSurvivalContent(this.state.subsectionConfig.contents["part_BushEncroachmentThreatensCheetahSurvival"])}
+        {this.renderImageGalleryContent()}
       </div>
     );
   }
@@ -152,6 +158,32 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
             }
           </ul>
         </div>
+      </div>
+    );
+  }
+
+  renderImageGalleryContent() {
+    return (
+      <div className="Centered VerticalCushionPadding">
+        <Grid columns={2}>
+          <Grid.Column width={8}>
+            <ImageView
+              image={image_CCF_Bushblok_01}
+              caption="Bushblok is produced at CCF from the waste product of habitat restoration. (Image credit: Cheetah Conservation Fund)"
+              width={640}
+              height={360}
+            />
+          </Grid.Column>
+          <Grid.Column>
+            <ImageView
+              image={image_CCF_Bushblok_02}
+              caption="
+              Bushblok packaging for different markets. (Image credit: Cheetah Conservation Fund)"
+              width={640}
+              height={360}
+            />
+          </Grid.Column>
+        </Grid>
       </div>
     );
   }
