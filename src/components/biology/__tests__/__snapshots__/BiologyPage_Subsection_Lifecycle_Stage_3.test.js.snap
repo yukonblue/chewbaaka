@@ -46,7 +46,7 @@ exports[`BiologyPageSubsectionLifecycleStage3 component snapshot 1`] = `
           </a>
         </div>
         <div
-          className="FactBannerDimension Centered"
+          className="FactBannerSmallDimension Centered"
         >
           <img
             alt="What is diurnal?"
