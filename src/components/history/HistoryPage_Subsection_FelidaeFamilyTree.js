@@ -4,10 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 14, 2020
+ * Updated  : Jul 25, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import '../shared/ContentPageSharedStyles.css'
 import './HistoryPage_Subsection_FelidaeFamilyTree.css'
@@ -16,6 +16,7 @@ import { getElementStyleClassName } from '../../styling/styling'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageParagraph from '../shared/ContentPageParagraph'
+import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
@@ -53,9 +54,9 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
     return (
       <div className={getElementStyleClassName("HistoryPageSubsectionFelidaeFamilyTreeInnerContainer")}>
         <div>
-          <h4 className={getElementStyleClassName("ContentPageSubsectionSubtitle")}>
+          <ContentPageSubsectionSubtitle>
             Which big cat is the most related to the cheetah?
-          </h4>
+          </ContentPageSubsectionSubtitle>
 
           <ContentPageParagraph>
             It is easy to think that the closest relative to the cheetah among the big cats is the leopard,
@@ -70,7 +71,9 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
         </div>
 
         <div>
-          <h4 className="ContentPageSubsectionSubtitle">Felidae Family Tree</h4>
+          <ContentPageSubsectionSubtitle>
+            Felidae Family Tree
+          </ContentPageSubsectionSubtitle>
 
           <ContentPageParagraph>
             The evolution of the <span className="TaxonomyBinomialName">Felidae</span> cat

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Jul 18, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -90,7 +90,8 @@ export default class BiologyPageSubsectionLivingFastDyingYoung extends React.Com
         <ImageView
           image={image_cheetah_face_hyena}
           width={640}
-          caption="Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)"
+          caption="Cheetahs often have to come to face hyenas in competition of food."
+          credit="Steve Volkwyn"
         />
       </div>
     )

@@ -25,7 +25,7 @@ exports[`BiologyPageSubsectionCommunication component snapshot 1`] = `
           className="VerticalCushionPadding"
         >
           <h4
-            className="ContentPageSubsectionSubtitle"
+            className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
           >
             Volcalizations
           </h4>

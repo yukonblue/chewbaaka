@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 23, 2020
- * Updated  : Jul 24, 2020
+ * Updated  : Jul 25, 2020
  */
 
 /**
@@ -20,7 +20,7 @@
  *
  *  - `height`: The desired height of the image view. 
  *
- *  - `slides`: An array of objects of { image, caption } tuples.
+ *  - `slides`: An array of objects of { image, caption, credit } tuples.
  */
 
 import React from 'react'
@@ -28,6 +28,8 @@ import React from 'react'
 import "semantic-ui-css/semantic.min.css"
 
 import { Button } from "semantic-ui-react"
+
+import { getFormattedImageCaptionStringWithCredit } from './ImageCaptionUtils'
 
 import './ImageSlidingGalleryDiscrete.css'
 
@@ -69,7 +71,7 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
   }
 
   render() {
-    const componentDimensionHeightOffset = 100 + 20;
+    const componentDimensionHeightOffset = 100 + 40;
 
     const componentDimensionStyle = {
       width: this.props.width,
@@ -81,13 +83,23 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
       height: this.props.height
     };
 
-    const buttonCommonTopPos = (this.props.height - componentDimensionHeightOffset) / 2;
+    /**
+     * Vertically center the prev/next buttons in the center of the image.
+     * Need to minus half of the height of the button itself
+     * to make it appear really centered.
+     */
+    const buttonHeight = 43;
+    const buttonCommonTopPos = (this.props.height / 2) - (buttonHeight / 2);
 
     const buttonCommonPositionStyle = {
       top: buttonCommonTopPos
     };
 
     const buttonItems = this.props.slides.map((_, idx) => (this.renderButtonItem(idx)));
+
+    const activeSlide = this.props.slides[this.state.activeIndex];
+
+    const caption = getFormattedImageCaptionStringWithCredit(activeSlide.caption, activeSlide.credit);
 
     return (
       <div
@@ -100,14 +112,14 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
         >
           <img className="ImageSlidingGalleryDiscreteImgPart"
             style={componentCoreDimensionStyle}
-            src={this.props.slides[this.state.activeIndex].image}
-            alt={this.props.slides[this.state.activeIndex].caption}
+            src={activeSlide.image}
+            alt={caption}
           />
           <div
             className="ImageSlidingGalleryDiscreteCaptionPart"
             data-testid="ImageSlidingGalleryDiscreteCaptionPart"
           >
-            <Caption caption={this.props.slides[this.state.activeIndex].caption} />
+            <Caption caption={caption} />
           </div>
           <div className={getElementStyleClassName("ImageSlidingGalleryDiscreteButtonGroupContainer")}>
             <Button.Group>

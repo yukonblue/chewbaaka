@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 21, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -14,6 +14,8 @@ import { Grid } from 'semantic-ui-react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+
+import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -60,7 +62,9 @@ export default class EcologyPageSubsectionCheetahsRoleInTheEcosystem extends Rea
   renderCheetahsRoleSectionContent(part) {
     return (
       <div className="OverflowHidden VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
 
         <div className="FloatRight">
           <ImageView
@@ -79,7 +83,9 @@ export default class EcologyPageSubsectionCheetahsRoleInTheEcosystem extends Rea
   renderRelationshipsWithOtherSpeciesSectionContent(part) {
     return (
       <div>
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
 
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
 

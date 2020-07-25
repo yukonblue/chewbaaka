@@ -4,10 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 16, 2020
+ * Updated  : Jul 25, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import '../shared/ContentPageSharedStyles.css'
 
@@ -54,7 +54,7 @@ export default class BiologyPageSubsectionLifecycleStage3 extends React.Componen
           icon="file image"
         />
 
-        <div className="FactBannerDimension Centered">
+        <div className="FactBannerSmallDimension Centered">
           <img src={image_fact_banner_what_is_diurnal} alt="What is diurnal?" />
         </div>
 

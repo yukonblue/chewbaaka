@@ -4,14 +4,23 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 20, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
 
-import "semantic-ui-css/semantic.min.css"
+import {
+  Container,
+  Grid,
+  Header,
+  Image,
+  List,
+  Segment
+} from 'semantic-ui-react'
 
-import { Container, Grid, Header, Image, List, Segment } from 'semantic-ui-react'
+import 'semantic-ui-css/semantic.min.css'
+
+import { kStringConstantCheetahConservationFund } from './constants'
 
 import logo from './assets/cheetah-conservation-fund-logo.jpg'
 
@@ -38,15 +47,15 @@ export default function Footer() {
             </Grid.Column>
             <Grid.Column width={7}>
               <Header as="h4" inverted>
-                Cheetah Conservation Fund
+                {kStringConstantCheetahConservationFund}
               </Header>
               <p data-testid="footerSectionCCF">
-                <a href="https://cheetah.org/" target="_blank" rel=" noopener noreferrer">Cheetah Conservation Fund</a> is a 501(c)(3) nonprofit organization,
+                <a href="https://cheetah.org/" target="_blank" rel=" noopener noreferrer">{kStringConstantCheetahConservationFund}</a> is a 501(c)(3) nonprofit organization,
                 dedicated to saving the cheetah in the wild and changing
                 the world to be a better place.
               </p>
               <p>
-                This site is not an affiliation of Cheetah Conservation Fund.
+                {`This site is not an affiliation of ${kStringConstantCheetahConservationFund}.`}
               </p>
             </Grid.Column>
           </Grid.Row>

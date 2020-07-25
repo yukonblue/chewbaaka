@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 23, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -13,6 +13,8 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
+
+import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -62,7 +64,9 @@ export default class FuturePageSubsectionFieldResearch extends React.Component {
   renderPartContent(part) {
     return (
       <div>
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
       </div>
     );

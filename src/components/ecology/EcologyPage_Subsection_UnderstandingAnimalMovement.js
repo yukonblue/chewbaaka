@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 23, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -17,7 +17,11 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
+import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
+
 import ImageSlidingGalleryDiscrete from '../shared/ImageSlidingGalleryDiscrete'
+
+import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
 import image_Spoor_Tracking_Data_Collection from './assets/Spoor_Tracking_Data_Collection.jpg'
 import image_cheetah_collaring from './assets/cheetah_collaring.jpg'
@@ -81,7 +85,9 @@ export default class EcologyPageSubsectionUnderstandingAnimalMovement extends Re
   renderPartContent(part, key) {
     return (
       <div key={key} className="VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
       </div>
     );
@@ -102,15 +108,18 @@ export default class EcologyPageSubsectionUnderstandingAnimalMovement extends Re
             },
             {
               image: image_camera_trap_locations_in_Waterberg_Conservancy,
-              caption: "Cheetah movement study with camera traps in the Greater Waterberg Conservancy. (Image credit: Cheetah Conservation Fund)"
+              caption: "Cheetah movement study with camera traps in the Greater Waterberg Conservancy.",
+              credit: kStringConstantCheetahConservationFund
             },
             {
               image: image_cheetah_collaring,
-              caption: "A cheetah is collared in preparation for release. (Image credit: Cheetah Conservation Fund)"
+              caption: "A cheetah is collared in preparation for release.",
+              credit: kStringConstantCheetahConservationFund
             },
             {
               image: image_cheetah_satellite_tracking,
-              caption: "Satellite tracking of a collared and released cheetah. (Image credit: Cheetah Conservation Fund)"
+              caption: "Satellite tracking of a collared and released cheetah.",
+              credit: kStringConstantCheetahConservationFund
             }
           ]}
         />

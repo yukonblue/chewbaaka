@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 22, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -16,6 +16,8 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 
 import ContentPageParagraph from '../shared/ContentPageParagraph'
+
+import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
 import CircularImage from '../shared/CircularImage'
 
@@ -52,14 +54,19 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
     return (
       <div className="FuturePageSubsectionCheetahsAtCCFInnerContainer">
         <div>
-          <h4 className="ContentPageSubsectionSubtitle">Chewbaaka</h4>
+          <ContentPageSubsectionSubtitle>
+            Chewbaaka
+          </ContentPageSubsectionSubtitle>
+
           <ContentPageSubsectionTwoColumnContentTemplate
             lhsColumn={{content: this.renderLhsContentChewbaaka()}}
             rhsColumn={{content: this.renderRhsContentChewbaaka()}}
           />
         </div>
         <div>
-          <h4 className="ContentPageSubsectionSubtitle">Mekondyo</h4>
+          <ContentPageSubsectionSubtitle>
+            Mekondyo
+          </ContentPageSubsectionSubtitle>
           <ContentPageSubsectionTwoColumnContentTemplate
             lhsColumn={{content: this.renderLhsContentMekondyo()}}
             rhsColumn={{content: this.renderRhsContentMekondyo()}}

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 24, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -18,6 +18,10 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
+
+import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
 import ImageView from '../shared/ImageView'
 
@@ -65,7 +69,9 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
     return (
       <div>
         <div className="VerticalCushionPadding">
-          <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+          <ContentPageSubsectionSubtitle>
+            {part.title}
+          </ContentPageSubsectionSubtitle>
 
           <div className="OverflowHidden">
             <div className="FloatRight">
@@ -90,7 +96,9 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
   renderSubpartContent(subpart) {
     return (
       <div className="VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{subpart.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {subpart.title}
+        </ContentPageSubsectionSubtitle>
 
         {ContentPageSubsectionParagraphsContentBinder(subpart.content)}
       </div>
@@ -101,7 +109,9 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
     return (
       <div>
         <div className="VerticalCushionPadding">
-          <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+          <ContentPageSubsectionSubtitle>
+            {part.title}
+          </ContentPageSubsectionSubtitle>
           <div className="OverflowHidden">
             <div className="FloatLeft HorizontalCusionPadding">
               <ImageView
@@ -117,7 +127,9 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
         </div>
 
         <div className="VerticalCushionPadding">
-          <h4 className="ContentPageSubsectionSubtitle">{part.content["part_CCFBushProject"].title}</h4>
+          <ContentPageSubsectionSubtitle>
+            {part.content["part_CCFBushProject"].title}
+          </ContentPageSubsectionSubtitle>
           <div className="OverflowHidden">
             <div className="FloatRight HorizontalCusionPadding">
               <img
@@ -139,7 +151,9 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
   renderBushblockObjectivesSection(part) {
     return (
       <div className="VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
 
         <div className="OverflowHidden">
           <div className="FloatRight HorizontalCusionPadding">
@@ -169,7 +183,8 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
           <Grid.Column width={8}>
             <ImageView
               image={image_CCF_Bushblok_01}
-              caption="Bushblok is produced at CCF from the waste product of habitat restoration. (Image credit: Cheetah Conservation Fund)"
+              caption="Bushblok is produced at CCF from the waste product of habitat restoration."
+              credit={kStringConstantCheetahConservationFund}
               width={640}
               height={360}
             />
@@ -177,8 +192,8 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
           <Grid.Column>
             <ImageView
               image={image_CCF_Bushblok_02}
-              caption="
-              Bushblok packaging for different markets. (Image credit: Cheetah Conservation Fund)"
+              caption="Bushblok packaging for different markets."
+              credit={kStringConstantCheetahConservationFund}
               width={640}
               height={360}
             />

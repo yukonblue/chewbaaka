@@ -4,14 +4,16 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 13, 2020
+ * Updated  : Jul 25, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import { getElementStyleClassName } from '../../styling/styling'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+
+import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
 import HistoryPageCheetahEvolutionMap from './HistoryPageCheetahEvolutionMap'
 
@@ -45,9 +47,9 @@ export default class HistoryPageSubsectionCheetahEvolution extends React.Compone
   renderContent() {
     return (
       <div className={getElementStyleClassName("HistoryPageSubsectionCheetahEvolutionInnerContainer")}>
-        <h4 className={getElementStyleClassName("ContentPageSubsectionSubtitle")}>
+        <ContentPageSubsectionSubtitle>
           Learn about the evolution and migration of the cheetah.
-        </h4>
+        </ContentPageSubsectionSubtitle>
 
         <div className={getElementStyleClassName("HistoryPageSubsectionCheetahEvolutionMapComponentContainer")}>
           <HistoryPageCheetahEvolutionMap />

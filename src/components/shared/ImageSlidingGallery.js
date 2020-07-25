@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 24, 2020
+ * Updated  : Jul 25, 2020
  */
 
 /**
@@ -30,6 +30,8 @@ import './ImageSlidingGallery.css'
 
 import Caption from './Caption'
 
+import { getFormattedImageCaptionStringWithCredit } from './ImageCaptionUtils'
+
 export default class ImageSlidingGallery extends React.Component {
 
   constructor(props) {
@@ -54,16 +56,20 @@ export default class ImageSlidingGallery extends React.Component {
   }
 
   render() {
+    const activeSlide = this.props.slides[this.state.activeIndex];
+
+    const caption = getFormattedImageCaptionStringWithCredit(activeSlide.caption, activeSlide.credit);
+
     return (
       <div className="ImageSlidingGalleryOuterContainer">
         <div className="ImageSlidingGalleryCoreContainer">
           <img
             className="ImageSlidingGalleryImgPart"
-            src={this.props.slides[this.state.activeIndex].image}
-            alt={this.props.slides[this.state.activeIndex].caption}
+            src={activeSlide.image}
+            alt={caption}
           />
           <div className="ImageSlidingGalleryCaptionPart" data-testid="ImageSlidingGalleryCaptionPart">
-            <Caption caption={this.props.slides[this.state.activeIndex].caption} />
+            <Caption caption={caption} />
           </div>
         </div>
         <div className="ImageSlidingGalleryButtonContainer">

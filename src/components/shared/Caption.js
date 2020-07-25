@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 09, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 25, 2020
  */
 
 /**
@@ -20,11 +20,11 @@
  *  - `width` (optional): Optional width of the caption text block in pixels.
  */
 
-import React from 'react';
+import React from 'react'
 
-import { Icon } from "semantic-ui-react";
+import { Icon } from "semantic-ui-react"
 
-import "semantic-ui-css/semantic.min.css";
+import "semantic-ui-css/semantic.min.css"
 
 import {
   getElementStyleClassName,

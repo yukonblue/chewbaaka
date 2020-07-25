@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 23, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -16,6 +16,8 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
 import ImageView from '../shared/ImageView'
 
@@ -49,7 +51,8 @@ export default class FuturePageSubsectionCommunityEvents extends React.Component
         <div className="FloatLeft HorizontalCusionPadding">
           <ImageView
             image={image_CCF_Livelihood_Development}
-            caption="CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program. (Image credit: Cheetah Conservation Fund)"
+            caption="CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program."
+            credit={kStringConstantCheetahConservationFund}
             width={960}
             height={576}
           />

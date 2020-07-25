@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 21, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -16,6 +16,8 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
 import TextBubble from '../shared/TextBubble'
 
@@ -77,7 +79,6 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
               className="FactBannerMediumDimension"
               src={image_What_is_Sustainable_Utilization}
               alt="What is sustainable utilization?"
-              width={720}
             />
           </div>
         );
@@ -85,7 +86,9 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
     };
     return (
       <div key={idx} className="VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
         {renderOptionalBannerImgOnPart()}
       </div>
@@ -95,7 +98,9 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
   renderPartPredatorControlContent(part) {
     return (
       <div className="OverflowHidden VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
         <div className="FloatRight">
           <TextBubble
             diameter={560}

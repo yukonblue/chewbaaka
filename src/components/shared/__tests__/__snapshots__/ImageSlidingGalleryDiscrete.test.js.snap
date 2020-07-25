@@ -5,7 +5,7 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
   className="ImageSlidingGalleryDiscreteOuterContainer ImageSlidingGalleryDiscreteOuterContainer_DebugColor DebugWireframe"
   style={
     Object {
-      "height": 220,
+      "height": 240,
       "width": 100,
     }
   }
@@ -14,7 +14,7 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
     className="ImageSlidingGalleryDiscreteCoreContainer ImageSlidingGalleryDiscreteCoreContainer_DebugColor DebugWireframe"
     style={
       Object {
-        "height": 220,
+        "height": 240,
         "width": 100,
       }
     }
@@ -84,7 +84,7 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
     className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonContainer_DebugColor DebugWireframe ImageSlidingGalleryDiscreteButtonLhsContainer ImageSlidingGalleryDiscreteButtonLhsContainer_DebugColor DebugWireframe"
     style={
       Object {
-        "top": -10,
+        "top": 28.5,
       }
     }
   >
@@ -105,7 +105,7 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
     className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonContainer_DebugColor DebugWireframe ImageSlidingGalleryDiscreteButtonRhsContainer ImageSlidingGalleryDiscreteButtonRhsContainer_DebugColor DebugWireframe"
     style={
       Object {
-        "top": -10,
+        "top": 28.5,
       }
     }
   >

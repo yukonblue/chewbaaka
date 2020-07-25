@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 24, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -16,6 +16,10 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
+
+import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
 import ImageView from '../shared/ImageView'
 
@@ -61,7 +65,9 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
   renderPartHistory(part) {
     return (
       <div className="VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
 
         <div className="Centered" style={{width: 1200}}>
@@ -78,11 +84,14 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
   renderPartRaisingLGDs(part) {
     return (
       <div className="OverflowHidden VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
         <div className="FloatRight">
           <ImageView
             image={image_CCF_anatolian_shepherd_puppies}
-            caption="Anatolian Shepherd puppies live alongside with the herd. (Image credit: Cheetah Conservation Fund)"
+            caption="Anatolian Shepherd puppies live alongside with the herd."
+            credit={kStringConstantCheetahConservationFund}
             width={720}
             height={480}
           />
@@ -99,7 +108,8 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
       <div className="Centered VerticalCushionPadding" style={{width: width}}>
         <ImageView
           image={image_CCF_Year_of_the_LGD}
-          caption="Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program. (Image credit: Cheetah Conservation Fund)"
+          caption="Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program."
+          credit={kStringConstantCheetahConservationFund}
           width={width}
           height={299}
         />
@@ -110,7 +120,9 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
   renderPartDogsSaveCheetahs(part) {
     return (
       <div className="OverflowHidden VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
         <div className="FloatLeft HorizontalCusionPadding">
           <img
             src={image_Cheetah_and_LGD}

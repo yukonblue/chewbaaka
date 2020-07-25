@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 18, 2020
- * Updated  : Jul 19, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -18,6 +18,8 @@ import ContentPageParagraph from '../shared/ContentPageParagraph';
 import {
   ContentPageSubsectionColumnDataBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
 import ImageView from '../shared/ImageView'
 
@@ -113,6 +115,7 @@ export default class BiologyPageSubsectionAbnormalities extends React.Component 
           <ImageView
             image={image_cheetah_kinked_tail}
             caption="Kinked tail."
+            credit={kStringConstantCheetahConservationFund}
             width={640}
             height={427}
           />

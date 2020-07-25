@@ -4,22 +4,22 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 24, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
-
-import { Statistic, Segment } from 'semantic-ui-react'
-
-import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
 import ContentPageParagraph from '../shared/ContentPageParagraph'
 
+import { kStringConstantCheetahConservationFund } from '../shared/constants'
+
 import ImageView from '../shared/ImageView'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
+
+import StatsLabel from '../shared/StatsLabel'
 
 import image_CCF_FFA_01 from './assets/CCF_FFA_01.jpg'
 
@@ -60,14 +60,11 @@ export default class FuturePageSubsectionFutureFarmersOfAfrica extends React.Com
       <div className="VerticalCushionPadding" style={{height: 280}}>
         <div className="FloatRight">
           <div className="HorizontalCusionPadding" style={{width:320}}>
-            <Segment inverted>
-              <Statistic inverted size="huge" color="orange">
-                <Statistic.Value>90%</Statistic.Value>
-                <Statistic.Label>
-                  of the cheetah population in Namibia lives on farmlands alongside 80% of the country’s wildlife species
-                </Statistic.Label>
-              </Statistic>
-            </Segment>
+            <StatsLabel
+              value="90%"
+              label="of the cheetah population in Namibia lives on farmlands alongside 80% of the country’s wildlife species"
+              color="orange"
+            />
           </div>
         </div>
 
@@ -85,7 +82,8 @@ export default class FuturePageSubsectionFutureFarmersOfAfrica extends React.Com
           <div className="HorizontalCusionPadding VerticalCushionPadding">
             <ImageView
               image={image_CCF_FFA_01}
-              caption="Farmers participate in FFA training courses. (Image credit: Cheetah Conservation Fund)"
+              caption="Farmers participate in FFA training courses."
+              credit={kStringConstantCheetahConservationFund}
               width={742}
               height={370}
             />

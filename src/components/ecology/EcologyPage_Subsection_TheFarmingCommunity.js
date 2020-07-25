@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 22, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -15,9 +15,13 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 
 import ContentPageParagraph from '../shared/ContentPageParagraph'
 
+import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
+
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
 import ImageView from '../shared/ImageView'
 
@@ -69,7 +73,9 @@ export default class EcologyPageSubsectionTheFarmingCommunity extends React.Comp
     }
     return (
       <div key={idx} className="VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
       </div>
     );
@@ -78,11 +84,14 @@ export default class EcologyPageSubsectionTheFarmingCommunity extends React.Comp
   renderPartWithImageContent(part, idx) {
     return (
       <div key={idx} className="VerticalCushionPadding">
-        <h4 className="ContentPageSubsectionSubtitle">{part.title}</h4>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
         <div className="FloatRight">
           <ImageView
             image={image_CCF_GWL_map}
-            caption="Cheetah Conservation Fund works with communal farmers and people living around the Greater Waterberg Landscape Conservancy. (Image credit: Bruce)"
+            caption="Cheetah Conservation Fund works with communal farmers and people living around the Greater Waterberg Landscape Conservancy."
+            credit={kStringConstantCheetahConservationFund}
             width={600}
             height={471}
           />
