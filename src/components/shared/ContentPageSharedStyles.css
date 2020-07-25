@@ -32,6 +32,10 @@ div.FactBannerDimension {
   width: 720px;
 }
 
+.FactBannerLargeDimension {
+  width: 960px;
+}
+
 /** ------------------------- CONTAINER AUXILLARY -------------------------- **/
 
 div.OverflowHidden {

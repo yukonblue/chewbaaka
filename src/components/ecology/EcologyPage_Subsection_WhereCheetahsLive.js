@@ -107,10 +107,12 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
           />
         </div>
 
-        <img
-          src={image_banner_fact_What_is_Biome}
-          alt="What is biome?"
-        />
+        <div className="Centered FactBannerLargeDimension">
+          <img
+            src={image_banner_fact_What_is_Biome}
+            alt="What is biome?"
+          />
+        </div>
       </div>
     );
   }
