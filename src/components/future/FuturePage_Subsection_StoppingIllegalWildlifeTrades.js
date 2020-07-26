@@ -13,6 +13,7 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
+import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -72,20 +73,22 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
 
   renderSubsectionSubtitle() {
     return (
-      <h4 className="TextCentered Centered ContentPageSubsectionAlarmBannerSubtitle VerticalCushionPadding">
-        {this.state.subsectionConfig.subtitle}
-      </h4>
+      <ContentPageSubsectionPart>
+        <h4 className="TextCentered Centered ContentPageSubsectionAlarmBannerSubtitle VerticalCushionPadding">
+          {this.state.subsectionConfig.subtitle}
+        </h4>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderCCFInvolvementPart1Content(part) {
     return (
-      <div>
+      <ContentPageSubsectionPart>
         <ContentPageSubsectionTwoColumnContentTemplate
           lhsColumn={{content: this.renderCCFInvolvementPart1LhsColumnContent(part)}}
           rhsColumn={{content: this.renderCCFInvolvementPart1RhsColumnContent(part)}}
         />
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 
@@ -119,39 +122,41 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
 
   renderImageGallery() {
     return (
-      <div className="Centered" style={{width: 960}}>
-        <ImageSlidingGalleryDiscrete
-          width={960}
-          height={640}
-          slides={[
-            {
-              image: image_cheetah_rescue_01,
-              caption: "Most cheetah cubs trafficked and sold end up as the buyer's pets. The cubs consequently suffer from shock, malnurishment, and unsuitable living conditions."
-            },
-            {
-              image: image_cheetah_rescue_02,
-              caption: "Cheetah cubs trafficked often are in extremely poor physical health and conditions. Many perish within weeks even with the best care after confistication.",
-              credit: kStringConstantCheetahConservationFund
-            },
-            {
-              image: image_cheetah_rescue_03,
-              caption: "CCF's cheetah sanctuary of rescue, rehab and care of confiscated cheetahs in Hargeisa, Somaliland."
-            },
-            {
-              image: image_cheetah_rescue_04,
-              caption: "One of the cubs in Somaliland broke his back leg. Fortunately CCF's team in Somaliland was able to examine the cub and perform the necessary surgery.",
-              credit: kStringConstantCheetahConservationFund
-            }
-          ]}
-        />
-      </div>
+      <ContentPageSubsectionPart>
+        <div className="Centered" style={{width: 960}}>
+          <ImageSlidingGalleryDiscrete
+            width={960}
+            height={640}
+            slides={[
+              {
+                image: image_cheetah_rescue_01,
+                caption: "Most cheetah cubs trafficked and sold end up as the buyer's pets. The cubs consequently suffer from shock, malnurishment, and unsuitable living conditions."
+              },
+              {
+                image: image_cheetah_rescue_02,
+                caption: "Cheetah cubs trafficked often are in extremely poor physical health and conditions. Many perish within weeks even with the best care after confistication.",
+                credit: kStringConstantCheetahConservationFund
+              },
+              {
+                image: image_cheetah_rescue_03,
+                caption: "CCF's cheetah sanctuary of rescue, rehab and care of confiscated cheetahs in Hargeisa, Somaliland."
+              },
+              {
+                image: image_cheetah_rescue_04,
+                caption: "One of the cubs in Somaliland broke his back leg. Fortunately CCF's team in Somaliland was able to examine the cub and perform the necessary surgery.",
+                credit: kStringConstantCheetahConservationFund
+              }
+            ]}
+          />
+        </div>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderPartCITESCoP17Content(part) {
     return (
-      <div className="VerticalCushionPadding">
-        <div className="OverflowHidden VerticalCushionPadding">
+      <ContentPageSubsectionPart>
+        <div className="OverflowHidden">
           <div className="FloatLeft HorizontalCusionPadding">
             <img
               src={image_CITES_CoP17}
@@ -169,7 +174,7 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
             alt="What is CITES?"
           />
         </div>
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 }

@@ -9,15 +9,15 @@
 
 import React from 'react'
 
+import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
+import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
+import ContentPageParagraph from '../shared/ContentPageParagraph'
+import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
+
 import '../shared/ContentPageSharedStyles.css'
 
 import { getElementStyleClassName } from '../../styling/styling'
-import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
-import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
-
-import ContentPageParagraph from '../shared/ContentPageParagraph'
-
-import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
 import CircularImage from '../shared/CircularImage'
 
@@ -53,26 +53,38 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
   renderContent() {
     return (
       <div className="FuturePageSubsectionCheetahsAtCCFInnerContainer">
-        <div>
-          <ContentPageSubsectionSubtitle>
-            Chewbaaka
-          </ContentPageSubsectionSubtitle>
-
-          <ContentPageSubsectionTwoColumnContentTemplate
-            lhsColumn={{content: this.renderLhsContentChewbaaka()}}
-            rhsColumn={{content: this.renderRhsContentChewbaaka()}}
-          />
-        </div>
-        <div>
-          <ContentPageSubsectionSubtitle>
-            Mekondyo
-          </ContentPageSubsectionSubtitle>
-          <ContentPageSubsectionTwoColumnContentTemplate
-            lhsColumn={{content: this.renderLhsContentMekondyo()}}
-            rhsColumn={{content: this.renderRhsContentMekondyo()}}
-          />
-        </div>
+        {this.renderPart1()}
+        {this.renderPart2()}
       </div>
+    );
+  }
+
+  renderPart1() {
+    return (
+      <ContentPageSubsectionPart>
+        <ContentPageSubsectionSubtitle>
+          Chewbaaka
+        </ContentPageSubsectionSubtitle>
+
+        <ContentPageSubsectionTwoColumnContentTemplate
+          lhsColumn={{content: this.renderLhsContentChewbaaka()}}
+          rhsColumn={{content: this.renderRhsContentChewbaaka()}}
+        />
+      </ContentPageSubsectionPart>
+    );
+  }
+
+  renderPart2() {
+    return (
+      <ContentPageSubsectionPart>
+        <ContentPageSubsectionSubtitle>
+          Mekondyo
+        </ContentPageSubsectionSubtitle>
+        <ContentPageSubsectionTwoColumnContentTemplate
+          lhsColumn={{content: this.renderLhsContentMekondyo()}}
+          rhsColumn={{content: this.renderRhsContentMekondyo()}}
+        />
+      </ContentPageSubsectionPart>
     );
   }
 
