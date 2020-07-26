@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 22, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -14,6 +14,7 @@ import { Grid } from 'semantic-ui-react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -62,56 +63,62 @@ export default class EcologyPageSubsectionTheCheetahsPrey extends React.Componen
 
   renderTextContent() {
     return (
-      <div className="OverflowHidden VerticalCushionPadding">
-        <div className="FloatRight">
-          <TextBubble
-            diameter={480}
-            backgroundColorRGB={[187,143,206]}
-            title="Cheetahs prefer game to livestock"
-            content={"Cheetahs are born to prey on wild game, and will instinctly go after them. " +
-                    "Cheetahs only go after livestock as a last resort when wild game is not available. " +
-                    "This makes maintaining healthy ecosystems very important."}
-          />
-        </div>
+      <ContentPageSubsectionPart>
+        <div className="OverflowHidden">
+          <div className="FloatRight">
+            <TextBubble
+              diameter={480}
+              backgroundColorRGB={[187,143,206]}
+              title="Cheetahs prefer game to livestock"
+              content={"Cheetahs are born to prey on wild game, and will instinctly go after them. " +
+                      "Cheetahs only go after livestock as a last resort when wild game is not available. " +
+                      "This makes maintaining healthy ecosystems very important."}
+            />
+          </div>
 
-        {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
-      </div>
+          {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
+        </div>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderCheetahLionComparison() {
     return (
-      <div className="Centered" style={{width: 960}}>
-        <img
-          src={image_Cheetah_Lion_Hunting_Success_Rate_Comparsion}
-          alt="Cheetah and lion have drastically different preys, hunting strategies, and success rates."
-        />
-      </div>
+      <ContentPageSubsectionPart>
+        <div className="Centered" style={{width: 960}}>
+          <img
+            src={image_Cheetah_Lion_Hunting_Success_Rate_Comparsion}
+            alt="Cheetah and lion have drastically different preys, hunting strategies, and success rates."
+          />
+        </div>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderImageGalleryContent() {
     return (
-      <div className="Centered">
-        <Grid columns={2}>
-          <Grid.Column width={8}>
-            <ImageView
-              image={image_cheetah_coalition_hunting}
-              caption="Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest."
-              width={640}
-              height={360}
-            />
-          </Grid.Column>
-          <Grid.Column>
-            <ImageView
-              image={image_cheetah_go_after_gazelle}
-              caption="One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch."
-              width={640}
-              height={360}
-            />
-          </Grid.Column>
-        </Grid>
-      </div>
+      <ContentPageSubsectionPart>
+        <div className="Centered">
+          <Grid columns={2}>
+            <Grid.Column width={8}>
+              <ImageView
+                image={image_cheetah_coalition_hunting}
+                caption="Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest."
+                width={640}
+                height={360}
+              />
+            </Grid.Column>
+            <Grid.Column>
+              <ImageView
+                image={image_cheetah_go_after_gazelle}
+                caption="One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch."
+                width={640}
+                height={360}
+              />
+            </Grid.Column>
+          </Grid>
+        </div>
+      </ContentPageSubsectionPart>
     );
   }
 }

@@ -12,9 +12,8 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
-
+import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageParagraph from '../shared/ContentPageParagraph'
-
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
 import {
@@ -72,18 +71,18 @@ export default class EcologyPageSubsectionTheFarmingCommunity extends React.Comp
       return this.renderPartWithImageContent(part, idx);
     }
     return (
-      <div key={idx} className="VerticalCushionPadding">
+      <ContentPageSubsectionPart key={idx}>
         <ContentPageSubsectionSubtitle>
           {part.title}
         </ContentPageSubsectionSubtitle>
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderPartWithImageContent(part, idx) {
     return (
-      <div key={idx} className="VerticalCushionPadding">
+      <ContentPageSubsectionPart key={idx}>
         <ContentPageSubsectionSubtitle>
           {part.title}
         </ContentPageSubsectionSubtitle>
@@ -97,7 +96,7 @@ export default class EcologyPageSubsectionTheFarmingCommunity extends React.Comp
           />
         </div>
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 }
