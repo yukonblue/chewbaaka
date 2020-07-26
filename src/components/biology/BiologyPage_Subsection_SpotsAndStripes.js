@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Jul 18, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -12,6 +12,7 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -48,10 +49,26 @@ export default class BiologyPageSubsectionSpotsAndStripes extends React.Componen
 
   renderContent() {
     return (
-      <div className="">
-        {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
+      <div>
+        {this.renderPart1()}
+        {this.renderPart2()}
+        {this.renderPart3()}
+      </div>
+    );
+  }
 
-        <div className="Centered VerticalCushionPadding" style={{width: 1080}}>
+  renderPart1() {
+    return (
+      <ContentPageSubsectionPart>
+        {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
+      </ContentPageSubsectionPart>
+    );
+  }
+
+  renderPart2() {
+    return (
+      <ContentPageSubsectionPart>
+        <div className="Centered" style={{width: 1080}}>
           <div className="FloatLeft">
             <ImageView
               image={image_cheetah_mantle}
@@ -67,9 +84,15 @@ export default class BiologyPageSubsectionSpotsAndStripes extends React.Componen
             height={360}
           />
         </div>
+      </ContentPageSubsectionPart>
+    );
+  }
 
+  renderPart3() {
+    return (
+      <ContentPageSubsectionPart>
         <BigCatSpotsIllustration />
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 }

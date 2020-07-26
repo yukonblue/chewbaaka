@@ -13,6 +13,7 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
+import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageParagraph from '../shared/ContentPageParagraph';
 
 import {
@@ -60,15 +61,17 @@ export default class BiologyPageSubsectionAbnormalities extends React.Component 
 
   renderIntroSectionContent() {
     return (
-      <ContentPageParagraph>
-        {this.state.subsectionConfig.contents["part_Intro"].content}
-      </ContentPageParagraph>
+      <ContentPageSubsectionPart>
+        <ContentPageParagraph>
+          {this.state.subsectionConfig.contents["part_Intro"].content}
+        </ContentPageParagraph>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderSection1Content() {
     return (
-      <div className="VerticalCushionPadding">
+      <ContentPageSubsectionPart>
         <ContentPageSubsectionTwoColumnContentTemplate
           lhsColumn={
             ContentPageSubsectionColumnDataBinder(
@@ -83,13 +86,13 @@ export default class BiologyPageSubsectionAbnormalities extends React.Component 
             )
           }
         />
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderSection2Content() {
     return (
-      <div className="VerticalCushionPadding">
+      <ContentPageSubsectionPart>
         <ContentPageSubsectionTwoColumnContentTemplate
           lhsColumn={
             ContentPageSubsectionColumnDataBinder(
@@ -104,30 +107,32 @@ export default class BiologyPageSubsectionAbnormalities extends React.Component 
             )
           }
         />
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderSection3Content() {
     return (
-      <div className="OverflowHidden VerticalCushionPadding">
-        <div className="FloatRight">
-          <ImageView
-            image={image_cheetah_kinked_tail}
-            caption="Kinked tail."
-            credit={kStringConstantCheetahConservationFund}
-            width={640}
-            height={427}
-          />
-        </div>
+      <ContentPageSubsectionPart>
+        <div className="OverflowHidden">
+          <div className="FloatRight">
+            <ImageView
+              image={image_cheetah_kinked_tail}
+              caption="Kinked tail."
+              credit={kStringConstantCheetahConservationFund}
+              width={640}
+              height={427}
+            />
+          </div>
 
-        <h2 className="ContentPageSubsectionColumnContentTitle">
-          {this.state.subsectionConfig.contents["part_Kinked_Tails"].title}
-        </h2>
-        <ContentPageParagraph>
-          {this.state.subsectionConfig.contents["part_Kinked_Tails"].content}
-        </ContentPageParagraph>
-      </div>
+          <h2 className="ContentPageSubsectionColumnContentTitle">
+            {this.state.subsectionConfig.contents["part_Kinked_Tails"].title}
+          </h2>
+          <ContentPageParagraph>
+            {this.state.subsectionConfig.contents["part_Kinked_Tails"].content}
+          </ContentPageParagraph>
+        </div>
+      </ContentPageSubsectionPart>
     );
   }
 

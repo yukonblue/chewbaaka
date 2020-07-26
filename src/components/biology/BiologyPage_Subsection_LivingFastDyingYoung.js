@@ -13,6 +13,7 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
+import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 
 import {
   ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder
@@ -47,53 +48,61 @@ export default class BiologyPageSubsectionLivingFastDyingYoung extends React.Com
 
   renderContent() {
     return (
-      <div className="">
-        <div>
-          <ContentPageSubsectionTwoColumnContentTemplate
-            lhsColumn={
-              ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder(
-                this.state.subsectionConfig.contents.part1
-              )
-            }
-            rhsColumn={{content: this.renderPart1RhsContent()}}
-          />
-        </div>
-        <div>
-          <ContentPageSubsectionTwoColumnContentTemplate
-            lhsColumn={{content: this.renderPart2LhsContent()}}
-            rhsColumn={
-              ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder(
-                this.state.subsectionConfig.contents.part2
-              )
-            }
-          />
-        </div>
+      <div>
+        {this.renderPart1()}
+        {this.renderPart2()}
       </div>
+    );
+  }
+
+  renderPart1() {
+    return (
+      <ContentPageSubsectionPart>
+        <ContentPageSubsectionTwoColumnContentTemplate
+          lhsColumn={
+            ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder(
+              this.state.subsectionConfig.contents.part1
+            )
+          }
+          rhsColumn={{content: this.renderPart1RhsContent()}}
+        />
+      </ContentPageSubsectionPart>
+    );
+  }
+
+  renderPart2() {
+    return (
+      <ContentPageSubsectionPart>
+        <ContentPageSubsectionTwoColumnContentTemplate
+          lhsColumn={{content: this.renderPart2LhsContent()}}
+          rhsColumn={
+            ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder(
+              this.state.subsectionConfig.contents.part2
+            )
+          }
+        />
+      </ContentPageSubsectionPart>
     );
   }
 
   renderPart1RhsContent() {
     return (
-      <div>
-        <ImageView
-          image={image_cheetah_coalition}
-          width={510}
-          caption="A coalition of cheetahs on the lookout."
-        />
-      </div>
+      <ImageView
+        image={image_cheetah_coalition}
+        width={510}
+        caption="A coalition of cheetahs on the lookout."
+      />
     );
   }
 
   renderPart2LhsContent() {
     return (
-      <div>
-        <ImageView
-          image={image_cheetah_face_hyena}
-          width={640}
-          caption="Cheetahs often have to come to face hyenas in competition of food."
-          credit="Steve Volkwyn"
-        />
-      </div>
+      <ImageView
+        image={image_cheetah_face_hyena}
+        width={640}
+        caption="Cheetahs often have to come to face hyenas in competition of food."
+        credit="Steve Volkwyn"
+      />
     )
   }
 }

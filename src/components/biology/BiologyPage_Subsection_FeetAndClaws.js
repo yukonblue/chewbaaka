@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 19, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -12,6 +12,7 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 
 import {
   ContentPageSubsectionParagraphsJoin
@@ -62,76 +63,82 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
 
   renderPartFootContent(part) {
     return (
-      <div className="OverflowHidden VerticalCushionPadding">
-        <div className="FloatRight HorizontalCusionPadding RightMargin50px">
-          <ImageView
-            image={image_cheetah_paw}
-            caption="The paws of the cheetah have a distinct shape compared to some of the other carnivores."
-            width={403}
-            height={480}
-          />
-        </div>
+      <ContentPageSubsectionPart>
+        <div className="OverflowHidden">
+          <div className="FloatRight HorizontalCusionPadding RightMargin50px">
+            <ImageView
+              image={image_cheetah_paw}
+              caption="The paws of the cheetah have a distinct shape compared to some of the other carnivores."
+              width={403}
+              height={480}
+            />
+          </div>
 
-        <div className="LeftMargin50px">
-          <TextBubble
-            diameter={520}
-            title={part.title}
-            content={ContentPageSubsectionParagraphsJoin(part.content)}
-          />
+          <div className="LeftMargin50px">
+            <TextBubble
+              diameter={520}
+              title={part.title}
+              content={ContentPageSubsectionParagraphsJoin(part.content)}
+            />
+          </div>
         </div>
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderPartClawContent(part) {
     return (
-      <div className="OverflowHidden VerticalCushionPadding">
-        <div className="FloatRight RightMargin50px">
-          <TextBubble
-            diameter={540}
-            title={part.title}
-            content={ContentPageSubsectionParagraphsJoin(part.content)}
-          />  
-        </div>
+      <ContentPageSubsectionPart>
+        <div className="OverflowHidden">
+          <div className="FloatRight RightMargin50px">
+            <TextBubble
+              diameter={540}
+              title={part.title}
+              content={ContentPageSubsectionParagraphsJoin(part.content)}
+            />  
+          </div>
 
-        <ImageView
-          image={image_claws_comparison}
-          caption="Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability."
-          width={720}
-          height={480}
-        />
-      </div>
+          <ImageView
+            image={image_claws_comparison}
+            caption="Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability."
+            width={720}
+            height={480}
+          />
+        </div>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderPartDewclawContent(part) {
     return (
-      <div className="OverflowHidden VerticalCushionPadding">
-        <div className="FloatRight RightMargin50px">
-          <ImageView
-            image={image_cheetah_dewclaw}
-            caption="Cheetah dewclaw."
-            width={611}
-            height={273}
-          />
-        </div>
+      <ContentPageSubsectionPart>
+        <div className="OverflowHidden">
+          <div className="FloatRight RightMargin50px">
+            <ImageView
+              image={image_cheetah_dewclaw}
+              caption="Cheetah dewclaw."
+              width={611}
+              height={273}
+            />
+          </div>
 
-        <div className="LeftMargin50px">
-          <TextBubble
-            diameter={520}
-            title={part.title}
-            content={ContentPageSubsectionParagraphsJoin(part.content)}
-          />
+          <div className="LeftMargin50px">
+            <TextBubble
+              diameter={520}
+              title={part.title}
+              content={ContentPageSubsectionParagraphsJoin(part.content)}
+            />
+          </div>
         </div>
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderSpoorIllustration() {
     return (
-      <div className="VerticalCushionPadding">
+      <ContentPageSubsectionPart>
         <AfricanWildlifeTracksIllustration />
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 }
