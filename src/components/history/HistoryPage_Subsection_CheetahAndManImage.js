@@ -4,10 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 26, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import '../shared/ContentPageSharedStyles.css'
 import './HistoryPage_Subsection_CheetahAndManImage.css'
@@ -21,7 +21,6 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
-import FlexibleContainer from '../shared/FlexibleContainer'
 
 import ImageSlidingGallery from '../shared/ImageSlidingGallery'
 
@@ -59,11 +58,7 @@ export default class HistoryPageSubsectionCheetahAndManImage extends React.Compo
 
   renderLhsContent() {
     return (
-      <div className="HistoryPageSubsectionCheetahAndManImageContentTextContainer">
-        <FlexibleContainer>
-          {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
-        </FlexibleContainer>
-      </div>
+      ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)
     );
   }
 
