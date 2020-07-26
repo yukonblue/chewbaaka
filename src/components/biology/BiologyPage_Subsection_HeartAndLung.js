@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
@@ -20,6 +20,8 @@ import {
 } from '../shared/ContentPageSubsectionContentBinder'
 
 import CheetahOlympics from './CheetahOlympics'
+
+import image_Cheetah_Travel from './assets/Cheetah_Travel_480x480.png'
 
 export default class BiologyPageSubsectionHearAndLung extends React.Component {
 
@@ -73,15 +75,20 @@ export default class BiologyPageSubsectionHearAndLung extends React.Component {
 
   renderLhsContent() {
     return (
-      <div>
-        {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents.part1.content)}
-      </div>
+      ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents.part1.content)
     );
   }
 
   renderRhsContent() {
     return (
       <div>
+        <div className="Centered" style={{width: 420}}>
+          <img
+            src={image_Cheetah_Travel}
+            alt="Cheetah run illustration"
+            width={420}
+          />
+        </div>
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents.part2.content)}
       </div>
     );
