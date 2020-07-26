@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 18, 2020
- * Updated  : Jul 19, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
@@ -12,6 +12,7 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFluidContainer'
 
 import {
   ContentPageSubsectionParagraphsContentBinder,
@@ -32,12 +33,10 @@ export default class BiologyPageSubsectionGeneticConfusion extends React.Compone
 
   render() {
     return (
-      <div className="">
-        <ContentPageSubsectionTemplate
-          title={this.state.subsectionConfig.title}
-          content={this.renderContent()}
-        />
-      </div>
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
     )
   }
 
@@ -51,28 +50,22 @@ export default class BiologyPageSubsectionGeneticConfusion extends React.Compone
 
   renderSection1Content() {
     return (
-      <div className="OverflowHidden VerticalCushionPadding">
-        <div className="FloatRight">
-          {this.renderHighlightedSectionContent()}
-        </div>
-        <div>
-          {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents["part_Main_Content"].content)}
-        </div>
-      </div>
+      <ContentPageSideFloatFluidContainer
+        floatPart={this.renderHighlightedSectionContent()}
+        fixedPart={ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents["part_Main_Content"].content)}
+      />
     );
   }
 
   renderHighlightedSectionContent() {
     const part = this.state.subsectionConfig.contents["part_How_This_Related_to_Cheetah"];
     return (
-      <div className="RightMargin50px">
-        <TextBubble
-          diameter={520}
-          backgroundColorRGB={[254,182,40]}
-          title={part.title}
-          content={part.content}
-        />
-      </div>
+      <TextBubble
+        diameter={520}
+        backgroundColorRGB={[254,182,40]}
+        title={part.title}
+        content={part.content}
+      />
     );
   }
 }

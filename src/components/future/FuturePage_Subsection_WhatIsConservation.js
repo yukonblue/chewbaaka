@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
@@ -14,6 +14,7 @@ import '../shared/ContentPageSharedStyles.css'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPageSubsectionThreeColumnContentTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
+import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFluidContainer'
 
 import {
   ContentPageSubsectionParagraphsContentBinder,
@@ -57,16 +58,15 @@ export default class FuturePageSubsectionWhatIsConservation extends React.Compon
   renderIntroPartContent(part) {
     return (
       <ContentPageSubsectionPart>
-        <div className="OverflowHidden">
-          <div className="FloatRight">
+        <ContentPageSideFloatFluidContainer
+          floatPart={
             <img
               src={image_earth_environment}
               alt="Conservation is taking care of the environment in which we live."
             />
-          </div>
-
-          {ContentPageSubsectionParagraphsContentBinder(part.content)}
-        </div>
+          }
+          fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
+        />
       </ContentPageSubsectionPart>
     );
   }

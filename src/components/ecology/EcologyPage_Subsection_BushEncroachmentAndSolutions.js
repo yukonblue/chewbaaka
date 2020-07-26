@@ -15,6 +15,7 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageRegularUnorderedList from '../shared/ContentPageRegularUnorderedList'
 import ContentPageTwoColumnImageGallary from '../shared/ContentPageTwoColumnImageGallary'
+import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFluidContainer'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -83,18 +84,23 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
           {part.title}
         </ContentPageSubsectionSubtitle>
 
-        <div className="OverflowHidden">
-          <div className="FloatRight">
-            <ImageView
-              image={image_bush_encroachment}
-              caption="Thickened thorn bush degrades entire habitat and poses problems for all species of animals in that habitat."
-              width={600}
-              height={450}
-            />
-          </div>
-          {ContentPageSubsectionParagraphsContentBinder(part.content["part_Intro"].content)}
-        </div>
+        <ContentPageSideFloatFluidContainer
+          floatPart={this.renderBushEncroachmentPartFloatPart()}
+          fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content["part_Intro"].content)}
+        />
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderBushEncroachmentPartFloatPart() {
+    return (
+      <ImageView
+        image={image_bush_encroachment}
+        caption="Thickened thorn bush degrades entire habitat and poses problems for all species of animals in that habitat."
+        credit={kStringConstantCheetahConservationFund}
+        width={600}
+        height={450}
+      />
     );
   }
 
@@ -128,19 +134,24 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
         <ContentPageSubsectionSubtitle>
           {part.title}
         </ContentPageSubsectionSubtitle>
-        <div className="OverflowHidden">
-          <div className="FloatLeft HorizontalCusionPadding">
-            <ImageView
-              image={image_Cheetah_Battle_Bush_Encroachment}
-              caption="Cheetahs faced even more hardship in bush encroached territories. They have to adapt in every aspect of their life, such as hunting."
-              width={640}
-              height={423}
-            />
-          </div>
 
-          {ContentPageSubsectionParagraphsContentBinder(part.content["part_Intro"].content)}
-        </div>
+        <ContentPageSideFloatFluidContainer
+          floatPart={this.renderPartBushEncroachmentThreatensCheetahSurvivalPartFloatPart()}
+          fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content["part_Intro"].content)}
+          RTL={true}
+        />
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderPartBushEncroachmentThreatensCheetahSurvivalPartFloatPart() {
+    return (
+      <ImageView
+        image={image_Cheetah_Battle_Bush_Encroachment}
+        caption="Cheetahs faced even more hardship in bush encroached territories. They have to adapt in every aspect of their life, such as hunting."
+        width={640}
+        height={423}
+      />
     );
   }
 
@@ -150,18 +161,21 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
         <ContentPageSubsectionSubtitle>
           {part.content["part_CCFBushProject"].title}
         </ContentPageSubsectionSubtitle>
-        <div className="OverflowHidden">
-          <div className="FloatRight HorizontalCusionPadding">
-            <img
-              src={image_fsc_logo}
-              alt="FSC logo"
-              width={180}
-            />
-          </div>
 
-          {ContentPageSubsectionParagraphsContentBinder(part.content["part_CCFBushProject"].content)}
-        </div>
+        <ContentPageSideFloatFluidContainer
+          floatPart={this.renderCCFBushProjectPartFloatPart()}
+          fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content["part_CCFBushProject"].content)}
+        />
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderCCFBushProjectPartFloatPart() {
+    return (
+      <img
+        src={image_fsc_logo}
+        alt="FSC logo"
+      />
     );
   }
 
@@ -172,19 +186,28 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
           {part.title}
         </ContentPageSubsectionSubtitle>
 
-        <div className="OverflowHidden">
-          <div className="FloatRight HorizontalCusionPadding">
-            <img
-              src={image_CCF_Bushblok_Logo}
-              alt="CCF Bushblok"
-            />
-          </div>
-
-          <ContentPageRegularUnorderedList
-            obj={part.content["objective_list_items"]}
-          />
-        </div>
+        <ContentPageSideFloatFluidContainer
+          floatPart={this.renderBushblockObjectivesSectionFloatPart()}
+          fixedPart={this.renderBushblockObjectivesSectionFixedPart(part)}
+        />
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderBushblockObjectivesSectionFloatPart() {
+    return (
+      <img
+        src={image_CCF_Bushblok_Logo}
+        alt="CCF Bushblok"
+      />
+    );
+  }
+
+  renderBushblockObjectivesSectionFixedPart(part) {
+    return (
+      <ContentPageRegularUnorderedList
+        obj={part.content["objective_list_items"]}
+      />
     );
   }
 

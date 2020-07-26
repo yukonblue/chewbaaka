@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 18, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
@@ -16,6 +16,7 @@ import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPage
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageParagraph from '../shared/ContentPageParagraph';
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
+import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFluidContainer'
 
 import {
   ContentPageSubsectionColumnDataBinder
@@ -40,12 +41,10 @@ export default class BiologyPageSubsectionAbnormalities extends React.Component 
 
   render() {
     return (
-      <div className="">
-        <ContentPageSubsectionTemplate
-          title={this.state.subsectionConfig.title}
-          content={this.renderContent()}
-        />
-      </div>
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
     )
   }
 
@@ -115,8 +114,12 @@ export default class BiologyPageSubsectionAbnormalities extends React.Component 
   renderSection3Content() {
     return (
       <ContentPageSubsectionPart>
-        <div className="OverflowHidden">
-          <div className="FloatRight">
+        <ContentPageSubsectionSubtitle>
+          {this.state.subsectionConfig.contents["part_Kinked_Tails"].title}
+        </ContentPageSubsectionSubtitle>
+
+        <ContentPageSideFloatFluidContainer
+          floatPart={
             <ImageView
               image={image_cheetah_kinked_tail}
               caption="Kinked tail."
@@ -124,15 +127,13 @@ export default class BiologyPageSubsectionAbnormalities extends React.Component 
               width={640}
               height={427}
             />
-          </div>
-
-          <ContentPageSubsectionSubtitle>
-            {this.state.subsectionConfig.contents["part_Kinked_Tails"].title}
-          </ContentPageSubsectionSubtitle>
-          <ContentPageParagraph>
-            {this.state.subsectionConfig.contents["part_Kinked_Tails"].content}
-          </ContentPageParagraph>
-        </div>
+          }
+          fixedPart={
+            <ContentPageParagraph>
+              {this.state.subsectionConfig.contents["part_Kinked_Tails"].content}
+            </ContentPageParagraph>
+          }
+        />
       </ContentPageSubsectionPart>
     );
   }

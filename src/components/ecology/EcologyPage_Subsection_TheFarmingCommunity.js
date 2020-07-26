@@ -15,6 +15,7 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageParagraph from '../shared/ContentPageParagraph'
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
+import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFluidContainer'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -86,20 +87,24 @@ export default class EcologyPageSubsectionTheFarmingCommunity extends React.Comp
         <ContentPageSubsectionSubtitle>
           {part.title}
         </ContentPageSubsectionSubtitle>
-        <div className="OverflowHidden">
-          <div className="FloatRight">
-            <ImageView
-              image={image_CCF_GWL_map}
-              caption="Cheetah Conservation Fund works with communal farmers and people living around the Greater Waterberg Landscape Conservancy."
-              credit={kStringConstantCheetahConservationFund}
-              width={600}
-              height={471}
-            />
-          </div>
 
-          {ContentPageSubsectionParagraphsContentBinder(part.content)}
-        </div>
+        <ContentPageSideFloatFluidContainer
+          floatPart={this.renderFloatPart()}
+          fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
+        />
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderFloatPart() {
+    return (
+      <ImageView
+        image={image_CCF_GWL_map}
+        caption="Cheetah Conservation Fund works with communal farmers and people living around the Greater Waterberg Landscape Conservancy."
+        credit={kStringConstantCheetahConservationFund}
+        width={600}
+        height={471}
+      />
     );
   }
 }

@@ -15,6 +15,7 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 import ContentPageTwoColumnImageGallary from '../shared/ContentPageTwoColumnImageGallary'
+import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFluidContainer'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -61,22 +62,21 @@ export default class EcologyPageSubsectionCheetahsRoleInTheEcosystem extends Rea
   renderCheetahsRoleSectionContent(part) {
     return (
       <ContentPageSubsectionPart>
-        <div className="OverflowHidden">
-          <ContentPageSubsectionSubtitle>
-            {part.title}
-          </ContentPageSubsectionSubtitle>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
 
-          <div className="FloatRight">
+        <ContentPageSideFloatFluidContainer
+          floatPart={
             <ImageView
               image={image_savanna_food_web}
               caption="A simplified illustration of the food web of a savanna ecosystem."
               width={640}
               height={552}
             />
-          </div>
-
-          {ContentPageSubsectionParagraphsContentBinder(part.content)}
-        </div>
+          }
+          fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
+        />
       </ContentPageSubsectionPart>
     );
   }

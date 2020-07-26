@@ -72,6 +72,14 @@ div.HorizontalCusionPadding {
   padding: 0 50px;
 }
 
+div.HorizontalCusionPaddingLeft {
+  padding-left: 40px;
+}
+
+div.HorizontalCusionPaddingRight {
+  padding-right: 40px;
+}
+
 div.LeftMargin50px {
   margin-left: 50px;
 }

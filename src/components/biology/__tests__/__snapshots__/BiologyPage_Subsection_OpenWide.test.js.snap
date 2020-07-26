@@ -2,89 +2,85 @@
 
 exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
 <div
-  className=""
+  className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
 >
   <div
-    className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+    className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
   >
-    <div
-      className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+    <h3
+      className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
     >
-      <h3
-        className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+      Open Wide
+    </h3>
+    <div>
+      <div
+        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
       >
-        Open Wide
-      </h3>
-      <div>
         <div
-          className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+          className="OverflowHidden"
         >
           <div
-            className="OverflowHidden"
+            className="FloatRight HorizontalCusionPaddingLeft"
           >
-            <div
-              className="FloatRight"
-            >
-              <img
-                alt=""
-                height={320}
-                src="open_wide.jpg"
-                width={320}
-              />
-            </div>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-            >
-              The cheetah takes smaller prey than other similar sized cats. Their strong jaws lock around the throat of the prey in what is called the “strangulation hold”, which can last up to 20 minutes.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-            >
-              Cheetahs’ jaws are not as powerful as that of lions or leopards. Cheetahs have comparatively shorted canine teeth. In all cats, powerful muscles move the jaw up and down and provide vice-like strength for gripping prey.
-            </p>
+            <img
+              alt="Open wide"
+              height={320}
+              src="open_wide.jpg"
+              width={320}
+            />
           </div>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+          >
+            The cheetah takes smaller prey than other similar sized cats. Their strong jaws lock around the throat of the prey in what is called the “strangulation hold”, which can last up to 20 minutes.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+          >
+            Cheetahs’ jaws are not as powerful as that of lions or leopards. Cheetahs have comparatively shorted canine teeth. In all cats, powerful muscles move the jaw up and down and provide vice-like strength for gripping prey.
+          </p>
         </div>
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+      >
         <div
-          className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+          className="OverflowHidden"
         >
           <div
-            className="OverflowHidden"
+            className="FloatLeft HorizontalCusionPaddingRight"
           >
-            <div
-              className="FloatLeft"
-            >
-              <img
-                alt="Papillae on cheetah's tongue"
-                src="cheetah_tongue.jpg"
-              />
-            </div>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-            >
-              The tongue is adopted for licking and is covered with small hard spines called papillae. The papillae act like a rasp, removing the meat from the bones of the prey.Rough tongue feels similar to the texture of sandpaper.
-            </p>
+            <img
+              alt="Papillae on cheetah's tongue"
+              src="cheetah_tongue.jpg"
+            />
           </div>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+          >
+            The tongue is adopted for licking and is covered with small hard spines called papillae. The papillae act like a rasp, removing the meat from the bones of the prey.Rough tongue feels similar to the texture of sandpaper.
+          </p>
         </div>
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+      >
         <div
-          className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+          className="OverflowHidden"
         >
           <div
-            className="OverflowHidden"
+            className="FloatRight HorizontalCusionPaddingLeft"
           >
-            <div
-              className="FloatRight"
-            >
-              <img
-                alt="Cheetah grooming"
-                src="cheetah_grooming.jpg"
-              />
-            </div>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-            >
-              Keeping the fur clean is an important part of a cheetah’s life. Family members spend many hours grooming each other with their tongues. This behavior aids in the social bonding of a cheetah group.
-            </p>
+            <img
+              alt="Cheetah grooming"
+              src="cheetah_grooming.jpg"
+            />
           </div>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+          >
+            Keeping the fur clean is an important part of a cheetah’s life. Family members spend many hours grooming each other with their tongues. This behavior aids in the social bonding of a cheetah group.
+          </p>
         </div>
       </div>
     </div>

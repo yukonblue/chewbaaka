@@ -2,108 +2,104 @@
 
 exports[`BiologyPageSubsectionFindingMate component snapshot 1`] = `
 <div
-  className=""
+  className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
 >
   <div
-    className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+    className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
   >
-    <div
-      className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+    <h3
+      className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
     >
-      <h3
-        className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
-      >
-        Finding a Mate
-      </h3>
+      Finding a Mate
+    </h3>
+    <div
+      className="OverflowHidden"
+    >
       <div
-        className="OverflowHidden"
+        className="FloatRight HorizontalCusionPaddingLeft"
       >
         <div
-          className="FloatRight"
+          className="ImageViewOuterContainer"
         >
           <div
-            className="ImageViewOuterContainer"
+            className="ImageViewInnerContainer"
           >
             <div
-              className="ImageViewInnerContainer"
+              className="ImageViewCore"
             >
+              <img
+                alt="Cheetahs often mark their scent on tree trunks with their urine. This behavior is common among cats."
+                className="ImageViewImg"
+                src="cheetah_scent_marking.jpg"
+                style={
+                  Object {
+                    "height": 480,
+                    "width": 720,
+                  }
+                }
+              />
               <div
-                className="ImageViewCore"
+                data-testid="ImageViewComponentCaptionPart"
               >
-                <img
-                  alt="Cheetahs often mark their scent on tree trunks with their urine. This behavior is common among cats."
-                  className="ImageViewImg"
-                  src="cheetah_scent_marking.jpg"
+                <div
+                  className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                  data-testid="CaptionComponentTestId"
                   style={
                     Object {
-                      "height": 480,
                       "width": 720,
                     }
                   }
-                />
-                <div
-                  data-testid="ImageViewComponentCaptionPart"
                 >
                   <div
-                    className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "width": 720,
-                      }
-                    }
+                    className="IconContainer IconContainer_DebugColor DebugWireframe"
                   >
-                    <div
-                      className="IconContainer IconContainer_DebugColor DebugWireframe"
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
-                    </div>
-                    <p
-                      className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
-                    >
-                      Cheetahs often mark their scent on tree trunks with their urine. This behavior is common among cats.
-                    </p>
+                    <i
+                      aria-hidden="true"
+                      className="image icon"
+                      onClick={[Function]}
+                    />
                   </div>
+                  <p
+                    className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                  >
+                    Cheetahs often mark their scent on tree trunks with their urine. This behavior is common among cats.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-        >
-          The range of a female offspring may partially overlap that of her mother. Namibian cheetahs are more social than those reported in other countries. Females are often seen with multiple adults and cubs of varying ages.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-        >
-          Female cheetahs are polyoestrous, which means there is no regular breeding season. If not bred, females come into heat (estrus) several times a year. Estrus means they are ready to breed. If cubs are lost to predators females soon come into estrus again.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-        >
-          Smell, sound, and behavioral stimuli attract males to females. Female cheetahs leave a scent trail by releasing sex hormones in urine and feces. They mark trees and bushes. This behavior increases during courtship.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-        >
-          When courtship takes place, males will follow females closely and mock fighting may be observed.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-        >
-          When a female is ready to mate, she adopts a receptive posture. The male mounts the female, bites the back of her neck, and breeding takes place. When the male dismounts the female she rolls over on her back and swats at him.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-        >
-          Mating will take place for one to several days and ends when the make loses interest in the female and leaves. Males do not help raise the cubs.
-        </p>
       </div>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+      >
+        The range of a female offspring may partially overlap that of her mother. Namibian cheetahs are more social than those reported in other countries. Females are often seen with multiple adults and cubs of varying ages.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+      >
+        Female cheetahs are polyoestrous, which means there is no regular breeding season. If not bred, females come into heat (estrus) several times a year. Estrus means they are ready to breed. If cubs are lost to predators females soon come into estrus again.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+      >
+        Smell, sound, and behavioral stimuli attract males to females. Female cheetahs leave a scent trail by releasing sex hormones in urine and feces. They mark trees and bushes. This behavior increases during courtship.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+      >
+        When courtship takes place, males will follow females closely and mock fighting may be observed.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+      >
+        When a female is ready to mate, she adopts a receptive posture. The male mounts the female, bites the back of her neck, and breeding takes place. When the male dismounts the female she rolls over on her back and swats at him.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+      >
+        Mating will take place for one to several days and ends when the make loses interest in the female and leaves. Males do not help raise the cubs.
+      </p>
     </div>
   </div>
 </div>

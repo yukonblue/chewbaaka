@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
@@ -13,6 +13,7 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
+import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFluidContainer'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -99,21 +100,16 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
   renderPartPredatorControlContent(part) {
     return (
       <ContentPageSubsectionPart>
-        <div className="OverflowHidden">
-          <ContentPageSubsectionSubtitle>
-            {part.title}
-          </ContentPageSubsectionSubtitle>
-          <div className="FloatRight">
-            <TextBubble
-              diameter={560}
-              backgroundColorRGB={[255,155,0]}
-              title={part.textBubble.title}
-              content={part.textBubble.content}
-            />
-          </div>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
 
-          {ContentPageSubsectionParagraphsContentBinder(part.content)}
+        <ContentPageSideFloatFluidContainer
+          floatPart={this.renderFloatPart(part)}
+          fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
+        />
 
+        <div className="Centered FactBannerMediumDimension">
           <img
             className="FactBannerMediumDimension"
             src={image_What_is_a_Problem_Animal}
@@ -121,6 +117,17 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
           />
         </div>
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderFloatPart(part) {
+    return (
+      <TextBubble
+        diameter={560}
+        backgroundColorRGB={[255,155,0]}
+        title={part.textBubble.title}
+        content={part.textBubble.content}
+      />
     );
   }
 }
