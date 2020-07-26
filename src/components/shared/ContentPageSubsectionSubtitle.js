@@ -9,7 +9,7 @@
 
 import React from 'react'
 
-import '../shared/ContentPageSharedStyles.css'
+import './ContentPageSubsectionSubtitle.css'
 
 import { getElementStyleClassName } from '../../styling/styling'
 
