@@ -20,6 +20,7 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPageSubsectionThreeColumnContentTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
+import ContentPageCaptionLabel from '../shared/ContentPageCaptionLabel'
 
 import HistoryPageCheetahPopulationIllustration from './HistoryPageCheetahPopulationIllustration'
 
@@ -86,9 +87,9 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
             }
           ]}
         />
-        <p className={getElementStyleClassName("ContentPageCaptionTextSize")}>
+        <ContentPageCaptionLabel>
           Click on the map above see the cheetah's range.
-        </p>
+        </ContentPageCaptionLabel>
       </div>
     );
   }
