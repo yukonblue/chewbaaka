@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 13, 2020
+ * Updated  : Jul 25, 2020
  */
 
 /**
@@ -15,7 +15,7 @@
  * Offers basic styling supports such as positioning and layout.
  */
 
-import React from 'react';
+import React from 'react'
 
 import {
   getElementStyleClassName,
