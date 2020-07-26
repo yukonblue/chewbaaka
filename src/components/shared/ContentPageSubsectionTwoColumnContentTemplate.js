@@ -4,14 +4,16 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 18, 2020
+ * Updated  : Jul 25, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import { Grid } from 'semantic-ui-react'
 
-import "semantic-ui-css/semantic.min.css";
+import "semantic-ui-css/semantic.min.css"
+
+import ContentPageSubsectionSubtitle from './ContentPageSubsectionSubtitle'
 
 import { getElementStyleClassName } from '../../styling/styling'
 
@@ -28,17 +30,17 @@ export default class ContentPageSubsectionTwoColumnContentTemplate extends React
               <Grid.Row columns={2}>
                 <Grid.Column width={this.props.lhsColumn.width}>
                   <div className={getElementStyleClassName("ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer")}>
-                    <h2 className={getElementStyleClassName("ContentPageSubsectionColumnContentTitle")}>
+                    <ContentPageSubsectionSubtitle>
                       {this.props.lhsColumn.title}
-                    </h2>
+                    </ContentPageSubsectionSubtitle>
                     {this.props.lhsColumn.content}
                   </div>
                 </Grid.Column>
                 <Grid.Column width={this.props.rhsColumn.width}>
                   <div className={getElementStyleClassName("ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer")}>
-                    <h2 className={getElementStyleClassName("ContentPageSubsectionColumnContentTitle")}>
+                    <ContentPageSubsectionSubtitle>
                       {this.props.rhsColumn.title}
-                    </h2>
+                    </ContentPageSubsectionSubtitle>
                     {this.props.rhsColumn.content}
                   </div>
                 </Grid.Column>

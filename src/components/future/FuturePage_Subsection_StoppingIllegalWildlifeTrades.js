@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
@@ -14,6 +14,7 @@ import '../shared/ContentPageSharedStyles.css'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
+import ContentPageAlarmBanner from '../shared/ContentPageAlarmBanner'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -74,9 +75,9 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
   renderSubsectionSubtitle() {
     return (
       <ContentPageSubsectionPart>
-        <h4 className="TextCentered Centered ContentPageSubsectionAlarmBannerSubtitle VerticalCushionPadding">
+        <ContentPageAlarmBanner>
           {this.state.subsectionConfig.subtitle}
-        </h4>
+        </ContentPageAlarmBanner>
       </ContentPageSubsectionPart>
     );
   }

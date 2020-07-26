@@ -37,7 +37,10 @@ export const config = {
             "the build of other big cats. They rely on their speed and skills for survival. The genus name, Acinonyx, " +
             "is interpreted as “non-moving claws”, referring to the semi-retractable claws. " +
             "The species name, “jubatus”, means “maned”, referring to the mantle on a young cheetah’s back. " +
-            "The English word, “cheetah”, comes from the Hindu word “chita” meaning the “spotted one”."
+            "The English word, “cheetah”, comes from the Hindu word “chita” meaning the “spotted one”.",
+    image: {
+      filename: "Cheetah_Skeleton_Transparent_720x406.png"
+    }
   },
   contentPageSections: {
     section_Lifecycle: {

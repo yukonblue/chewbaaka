@@ -4,14 +4,20 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 21, 2020
+ * Updated  : Jul 25, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import "semantic-ui-css/semantic.min.css"
 
-import { getElementStyleClassName, getElementStyleClassNames } from '../../styling/styling'
+import ContentPageSubsectionSubtitle from './ContentPageSubsectionSubtitle'
+import ContentPageSubsectionSubtitleSecondary from './ContentPageSubsectionSubtitleSecondary'
+
+import {
+  getElementStyleClassName,
+  getElementStyleClassNames
+} from '../../styling/styling'
 
 import './ContentPageSharedStyles.css'
 import './ContentPageSubsectionThreeColumnContentTemplate.css'
@@ -24,12 +30,12 @@ export default class ContentPageSubsectionThreeColumnContentTemplate extends Rea
         <div className={getElementStyleClassName("ContentPageSubsectionThreeColumnContentTemplateInnerContainer")}>
           <div className="ContentPageSubsectionThreeColumnContentTemplateColumnContainer">
             <div className={getElementStyleClassNames(["ContentPageSubsectionThreeColumnContentTemplateColumn", "ContentPageSubsectionThreeColumnContentTemplateLeftColumnContainer"])}>
-              <h2 className={getElementStyleClassName("ContentPageSubsectionColumnContentTitle")}>
+              <ContentPageSubsectionSubtitle>
                 {this.props.lhsColumn.title}
-              </h2>
-              <h3 className={getElementStyleClassName("ContentPageSubsectionColumnContentSubtitle")}>
+              </ContentPageSubsectionSubtitle>
+              <ContentPageSubsectionSubtitleSecondary>
                 {this.props.lhsColumn.subtitle}
-              </h3>
+              </ContentPageSubsectionSubtitleSecondary>
               <div>
                 {this.props.lhsColumn.content}
               </div>
@@ -45,12 +51,12 @@ export default class ContentPageSubsectionThreeColumnContentTemplate extends Rea
               </div>
             </div>
             <div className={getElementStyleClassNames(["ContentPageSubsectionThreeColumnContentTemplateColumn", "ContentPageSubsectionThreeColumnContentTemplateRightColumnContainer"])}>
-              <h2 className={getElementStyleClassName("ContentPageSubsectionColumnContentTitle")}>
+              <ContentPageSubsectionSubtitle>
                 {this.props.rhsColumn.title}
-              </h2>
-              <h3 className={getElementStyleClassName("ContentPageSubsectionColumnContentSubtitle")}>
+              </ContentPageSubsectionSubtitle>
+              <ContentPageSubsectionSubtitleSecondary>
                 {this.props.rhsColumn.subtitle}
-              </h3>
+              </ContentPageSubsectionSubtitleSecondary>
               <div>
                 {this.props.rhsColumn.content}
               </div>
@@ -65,9 +71,9 @@ export default class ContentPageSubsectionThreeColumnContentTemplate extends Rea
     const pred = () => {
       if (this.props.showTitleInMiddleColumn) {
         return (
-          <h2 className={getElementStyleClassName("ContentPageSubsectionColumnContentTitle")}>
+          <ContentPageSubsectionSubtitle>
             {this.props.middleColumn.title}
-          </h2>
+          </ContentPageSubsectionSubtitle>
         );
       }
     };

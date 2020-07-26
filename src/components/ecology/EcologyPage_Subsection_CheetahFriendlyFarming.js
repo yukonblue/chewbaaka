@@ -14,6 +14,7 @@ import '../shared/ContentPageSharedStyles.css'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPageSubsectionThreeColumnContentTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
+import ContentPageSubsectionSubtitleSecondary from '../shared/ContentPageSubsectionSubtitleSecondary'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -106,9 +107,9 @@ export default class EcologyPageSubsectionCheetahFriendlyFarming extends React.C
   renderSubPartContent(subpart, key) {
     return (
       <div key={key} className="VerticalCushionPadding">
-        <h3 className="ContentPageSubsectionColumnContentSubtitle">
+        <ContentPageSubsectionSubtitleSecondary>
           {subpart.title}
-        </h3>
+        </ContentPageSubsectionSubtitleSecondary>
         {ContentPageSubsectionParagraphsContentBinder(subpart.content)}
       </div>
     );

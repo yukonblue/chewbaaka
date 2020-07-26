@@ -37,7 +37,10 @@ export const config = {
           "cultures across thousands of years of human history. Even up to this day, " +
           "the cheetah continues to be considered as a spiritual animal that manifests " +
           "as a symbol of a multitude of positive characteristics, such as adaptability, " +
-          "persistence, and focus."
+          "persistence, and focus.",
+    image: {
+      filename: "intro-section-cheetah.png"
+    }
   },
   contentPageSections: {
     section_Evolution: {

@@ -16,8 +16,8 @@ import ContentPageSkeleton from '../shared/ContentPageSkeleton'
 import { config }  from './config'
 
 import ContentPageTableOfContentMenuBootstrapper from '../shared/ContentPageTableOfContentMenuBootstrapper'
+import ContentPageIntroSectionGeneric from '../shared/ContentPageIntroSectionGeneric'
 
-import HistoryPageIntroSection from './HistoryPageIntroSection'
 import HistoryPageSectionEvolution from './HistoryPage_Section_Evolution'
 import HistoryPageSectionCheetahAndMan from './HistoryPage_Section_CheetahAndMan'
 import HistoryPageSectionRangeAndPopulation from './HistoryPage_Section_RangeAndPopulation'
@@ -52,8 +52,9 @@ export default class HistoryPage extends React.Component {
           imagesContext = {this.state.imagesContext}
         />
 
-        <HistoryPageIntroSection
+        <ContentPageIntroSectionGeneric
           contentPageIntro={config.contentPageIntro}
+          imagesContext = {this.state.imagesContext}
         />
 
         <HistoryPageSectionEvolution config={config} />
