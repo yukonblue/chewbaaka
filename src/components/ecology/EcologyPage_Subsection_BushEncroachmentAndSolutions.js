@@ -9,13 +9,12 @@
 
 import React from 'react'
 
-import { Grid } from 'semantic-ui-react'
-
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageRegularUnorderedList from '../shared/ContentPageRegularUnorderedList'
+import ContentPageTwoColumnImageGallary from '../shared/ContentPageTwoColumnImageGallary'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -192,26 +191,24 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
   renderImageGalleryContent() {
     return (
       <ContentPageSubsectionPart>
-        <Grid columns={2}>
-          <Grid.Column width={8}>
-            <ImageView
-              image={image_CCF_Bushblok_01}
-              caption="Bushblok is produced at CCF from the waste product of habitat restoration."
-              credit={kStringConstantCheetahConservationFund}
-              width={640}
-              height={360}
-            />
-          </Grid.Column>
-          <Grid.Column>
-            <ImageView
-              image={image_CCF_Bushblok_02}
-              caption="Bushblok packaging for different markets."
-              credit={kStringConstantCheetahConservationFund}
-              width={640}
-              height={360}
-            />
-          </Grid.Column>
-        </Grid>
+        <ContentPageTwoColumnImageGallary
+          parts={[
+            {
+              image: image_CCF_Bushblok_01,
+              caption: "Bushblok is produced at CCF from the waste product of habitat restoration.",
+              credit: kStringConstantCheetahConservationFund,
+              width: 640,
+              height: 360
+            },
+            {
+              image: image_CCF_Bushblok_02,
+              caption: "Bushblok packaging for different markets.",
+              credit: kStringConstantCheetahConservationFund,
+              width: 640,
+              height: 360
+            }
+          ]}
+        />
       </ContentPageSubsectionPart>
     );
   }

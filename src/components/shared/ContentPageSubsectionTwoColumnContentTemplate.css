@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 18, 2020
+ * Updated  : Jul 26, 2020
  */
 
 div.ContentPageSubsectionTwoColumnContentTemplateOuterContainer {
@@ -30,4 +30,12 @@ div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer {
 
 div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor {
   background-color: lightyellow;
+}
+
+div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor {
+  background-color: yellow;
+}
+
+div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor {
+  background-color: orange;
 }

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
@@ -15,7 +15,10 @@ import "semantic-ui-css/semantic.min.css"
 
 import ContentPageSubsectionSubtitle from './ContentPageSubsectionSubtitle'
 
-import { getElementStyleClassName } from '../../styling/styling'
+import {
+  getElementStyleClassName,
+  getElementStyleClassNames
+} from '../../styling/styling'
 
 import './ContentPageSubsectionTwoColumnContentTemplate.css'
 
@@ -25,11 +28,13 @@ export default class ContentPageSubsectionTwoColumnContentTemplate extends React
     return (
       <div className={getElementStyleClassName("ContentPageSubsectionTwoColumnContentTemplateOuterContainer")}>
         <div className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer">
-          <div>
+          <div> 
             <Grid divided='vertically'>
               <Grid.Row columns={2}>
                 <Grid.Column width={this.props.lhsColumn.width}>
-                  <div className={getElementStyleClassName("ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer")}>
+                  <div className={getElementStyleClassNames(["ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer",
+                                                            "ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"])}
+                  >
                     <ContentPageSubsectionSubtitle>
                       {this.props.lhsColumn.title}
                     </ContentPageSubsectionSubtitle>
@@ -37,7 +42,9 @@ export default class ContentPageSubsectionTwoColumnContentTemplate extends React
                   </div>
                 </Grid.Column>
                 <Grid.Column width={this.props.rhsColumn.width}>
-                  <div className={getElementStyleClassName("ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer")}>
+                  <div className={getElementStyleClassNames(["ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer",
+                                                            "ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"])}
+                  >
                     <ContentPageSubsectionSubtitle>
                       {this.props.rhsColumn.title}
                     </ContentPageSubsectionSubtitle>
