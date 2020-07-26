@@ -42,21 +42,21 @@
  *    Signature is (val) => {}.
  */
 
-import React from 'react';
+import React from 'react'
 
-import "semantic-ui-css/semantic.min.css";
+import "semantic-ui-css/semantic.min.css"
 
 import { Header, Label } from 'semantic-ui-react'
 
-import { Slider } from '@material-ui/core';
-
-import './ImageSlide.css'
+import { Slider } from '@material-ui/core'
 
 import ContentPageCaptionLabel from './ContentPageCaptionLabel'
 
+import './ImageSlide.css'
+
 import { getElementStyleClassName } from '../../styling/styling'
 
-class ImageSlide extends React.Component {
+export default class ImageSlide extends React.Component {
 
   constructor(props) {
     super(props);
@@ -127,9 +127,9 @@ class ImageSlide extends React.Component {
                 {this.state.marksDict[this.state.activeMark].label}
               </Label>
 
-              <p className={getElementStyleClassName("ContentPageCaptionTextSize")}>
+              <ContentPageCaptionLabel>
                 {this.state.marksDict[this.state.activeMark].description}
-              </p>
+              </ContentPageCaptionLabel>
             </div>
 
             <div className={getElementStyleClassName("ImageSlideSliderAndLabelInnerContainer")}>
@@ -166,12 +166,9 @@ class ImageSlide extends React.Component {
               </div>
             </div>
 
-            <p
-              className={getElementStyleClassName("ContentPageCaptionTextSize")}
-              data-testid="ImageSlideComponentCaptionPartTestId"
-            >
+            <ContentPageCaptionLabel>
               {this.props.caption}
-            </p>
+            </ContentPageCaptionLabel>
           </div>
 
         </div>
@@ -180,5 +177,3 @@ class ImageSlide extends React.Component {
     )
   }
 }
-
-export default ImageSlide;

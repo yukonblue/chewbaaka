@@ -4,16 +4,16 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 26, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import { render, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react'
 
-import renderer from 'react-test-renderer';
+import renderer from 'react-test-renderer'
 
-import ImageSlide from '../ImageSlide';
+import ImageSlide from '../ImageSlide'
 
 import { RUN_TEST_NEVER } from '../../../testing/testing'
 
@@ -80,9 +80,8 @@ test('renders ImageSlide component', () => {
   expect(imageSlideComponentSliderUnitLabelPart.textContent).toBe(sliderUnitLabel);
 
   // Tests caption component part.
-  const imageSlideComponentCaptionPart = screen.getByTestId("ImageSlideComponentCaptionPartTestId");
+  const imageSlideComponentCaptionPart = screen.getByText(caption);
   expect(imageSlideComponentCaptionPart).toBeInTheDocument();
-  expect(imageSlideComponentCaptionPart.textContent).toBe(caption);
 });
 
 /**
