@@ -93,13 +93,11 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
       <div>
         {ContentPageSubsectionParagraphsContentBinder(content)}
 
-        <div className="DisplayInlineBlock">
-          <StatsLabel
-            value="21%"
-            label="of the world's wild cheetahs live in Namibia"
-            color="orange"
-          />
-        </div>
+        <StatsLabel
+          value="21%"
+          label="of the world's wild cheetahs live in Namibia"
+          color="orange"
+        />
       </div>
     );
   }
@@ -122,13 +120,11 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
       <div>
         {ContentPageSubsectionParagraphsContentBinder(content)}
 
-        <div className="DisplayInlineBlock">
-          <StatsLabel
-            value="90%"
-            label="of Namibia's cheetahs live on communal and commercial livestock and game farms"
-            color="yellow"
-          />
-        </div>
+        <StatsLabel
+          value="90%"
+          label="of Namibia's cheetahs live on communal and commercial livestock and game farms"
+          color="yellow"
+        />
       </div>
     );
   }
