@@ -7,15 +7,15 @@
  * Updated  : Jul 25, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import "semantic-ui-css/semantic.min.css";
+import "semantic-ui-css/semantic.min.css"
 
 import ContentPageSkeleton from '../shared/ContentPageSkeleton'
 
 import ContentPageTableOfContentMenuBootstrapper from '../shared/ContentPageTableOfContentMenuBootstrapper'
+import ContentPageIntroSectionGeneric from '../shared/ContentPageIntroSectionGeneric'
 
-import BiologyPageIntroSection from './BiologyPageIntroSection'
 import BiologyPageSectionLifecyle from './BiologyPage_Section_Lifecycle'
 import BiologyPageSectionPhysiology from './BiologyPage_Section_Physiology'
 import BiologyPageSectionGenetics from './BiologyPage_Section_Genetics'
@@ -49,8 +49,9 @@ export default class BiologyPage extends React.Component {
           imagesContext = {this.state.imagesContext}
         />
 
-        <BiologyPageIntroSection
+        <ContentPageIntroSectionGeneric
           contentPageIntro={config.contentPageIntro}
+          imagesContext = {this.state.imagesContext}
         />
 
         <BiologyPageSectionLifecyle config={config} />
