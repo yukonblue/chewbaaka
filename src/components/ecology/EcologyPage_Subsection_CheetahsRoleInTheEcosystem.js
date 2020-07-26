@@ -70,8 +70,8 @@ export default class EcologyPageSubsectionCheetahsRoleInTheEcosystem extends Rea
             <ImageView
               image={image_savanna_food_web}
               caption="A simplified illustration of the food web of a savanna ecosystem."
-              width={750}
-              height={646}
+              width={640}
+              height={552}
             />
           </div>
 

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
@@ -86,16 +86,19 @@ export default class EcologyPageSubsectionTheFarmingCommunity extends React.Comp
         <ContentPageSubsectionSubtitle>
           {part.title}
         </ContentPageSubsectionSubtitle>
-        <div className="FloatRight">
-          <ImageView
-            image={image_CCF_GWL_map}
-            caption="Cheetah Conservation Fund works with communal farmers and people living around the Greater Waterberg Landscape Conservancy."
-            credit={kStringConstantCheetahConservationFund}
-            width={600}
-            height={471}
-          />
+        <div className="OverflowHidden">
+          <div className="FloatRight">
+            <ImageView
+              image={image_CCF_GWL_map}
+              caption="Cheetah Conservation Fund works with communal farmers and people living around the Greater Waterberg Landscape Conservancy."
+              credit={kStringConstantCheetahConservationFund}
+              width={600}
+              height={471}
+            />
+          </div>
+
+          {ContentPageSubsectionParagraphsContentBinder(part.content)}
         </div>
-        {ContentPageSubsectionParagraphsContentBinder(part.content)}
       </ContentPageSubsectionPart>
     );
   }

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
@@ -72,7 +72,7 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
             {part.title}
           </ContentPageSubsectionSubtitle>
 
-          <div className="FloatRight">
+          <div className="FloatRight HorizontalCusionPadding">
             <ImageView
               image={image_savanna}
               caption="Savanna"
