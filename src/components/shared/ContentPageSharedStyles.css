@@ -91,7 +91,15 @@ div.BottomMargin50px {
 /** ------------------------------- TEXT ----------------------------------- **/
 
 .ContentPageRegularTextSize {
-  font-size: 16px;
+  font-size: 18px;
+}
+
+p.ContentPageContentParagraphText {
+  line-height: 1.8;
+}
+
+p.ContentPageContentParagraphText_DebugColor {
+  color: chocolate;
 }
 
 li.ContentPageBulletTextStyle {
@@ -99,19 +107,11 @@ li.ContentPageBulletTextStyle {
 }
 
 p.ContentPageCaptionTextSize {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 p.ContentPageCaptionTextSize_DebugColor {
   color: aqua;
-}
-
-p.ContentPageContentParagraphText_DebugColor {
-  color: chocolate;
-}
-
-p.ContentPageContentParagraphText {
-  line-height: 1.8em;
 }
 
 span.TaxonomyBinomialName {
