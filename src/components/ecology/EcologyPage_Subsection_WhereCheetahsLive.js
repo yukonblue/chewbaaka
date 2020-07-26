@@ -16,6 +16,7 @@ import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPage
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageParagraph from '../shared/ContentPageParagraph'
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
+import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFluidContainer'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -67,28 +68,27 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
   renderPartCheetahHabitatContent(part) {
     return (
       <ContentPageSubsectionPart>
-        <div className="OverflowHidden">
-          <ContentPageSubsectionSubtitle>
-            {part.title}
-          </ContentPageSubsectionSubtitle>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
 
-          <div className="FloatRight HorizontalCusionPadding">
+        <ContentPageSideFloatFluidContainer
+          floatPart={
             <ImageView
               image={image_savanna}
               caption="Savanna"
               width={640}
               height={480}
             />
-          </div>
+          }
+          fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
+        />
 
-          {ContentPageSubsectionParagraphsContentBinder(part.content)}
-
-          <img
-            src={image_banner_fact_What_is_Habitat}
-            alt="What is an ecosystem"
-            style={{width: 640}}
-          />
-        </div>
+        <img
+          src={image_banner_fact_What_is_Habitat}
+          alt="What is an ecosystem"
+          style={{width: 640}}
+        />
       </ContentPageSubsectionPart>
     );
   }
