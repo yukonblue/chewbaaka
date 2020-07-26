@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
@@ -23,7 +23,6 @@ import HistoryPageSectionCheetahAndMan from './HistoryPage_Section_CheetahAndMan
 import HistoryPageSectionRangeAndPopulation from './HistoryPage_Section_RangeAndPopulation'
 
 import '../shared/GlobalPageStyles.css'
-import '../../styling/SharedStyles.css'
 
 export default class HistoryPage extends React.Component {
 
