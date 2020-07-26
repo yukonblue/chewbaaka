@@ -38,6 +38,12 @@ div.ContentPageContentInnerContentDimension {
 
 /** ------------------------- CONTAINER AUXILLARY -------------------------- **/
 
+div.CenteredBlowoutBox {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
 div.OverflowHidden {
   overflow: hidden;
 }
@@ -129,7 +135,6 @@ h4.ContentPageSubsectionSubtitle_DebugColor {
 h4.ContentPageSubsectionAlarmBannerSubtitle {
   margin: 20px auto;
   width: 60%;
-  /* display: inline-block; */
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.8rem;
   font-weight: 300;
@@ -137,12 +142,6 @@ h4.ContentPageSubsectionAlarmBannerSubtitle {
   line-height: 1.1;
   color: red;
   border-bottom: 3px solid black;
-}
-
-div.CenteredBlowoutBox {
-  margin: 0 auto;
-  width: 100%;
-  text-align: center;
 }
 
 h2.ContentPageSubsectionColumnContentTitle {
@@ -166,13 +165,6 @@ h3.ContentPageSubsectionColumnContentSubtitle_DebugColor {
   color: yellow;
   background-color: indigo;
 }
-
-/* p.ContentPageParagraphText {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.25rem;
-  line-height: 1.6em;
-  color: burlywood;
-} */
 
 p.ContentPageSectionSubtitleText {
   line-height: 1.7;
