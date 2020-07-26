@@ -19,198 +19,104 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
         className=""
       >
         <div
-          className="OverflowHidden VerticalCushionPadding"
+          className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
         >
           <div
-            className="FloatRight HorizontalCusionPadding RightMargin50px"
+            className="OverflowHidden"
           >
             <div
-              className="ImageViewOuterContainer"
+              className="FloatRight HorizontalCusionPadding RightMargin50px"
             >
               <div
-                className="ImageViewInnerContainer"
+                className="ImageViewOuterContainer"
               >
                 <div
-                  className="ImageViewCore"
+                  className="ImageViewInnerContainer"
                 >
-                  <img
-                    alt="The paws of the cheetah have a distinct shape compared to some of the other carnivores."
-                    className="ImageViewImg"
-                    src="cheetah_paw.jpg"
-                    style={
-                      Object {
-                        "height": 480,
-                        "width": 403,
-                      }
-                    }
-                  />
                   <div
-                    data-testid="ImageViewComponentCaptionPart"
+                    className="ImageViewCore"
                   >
-                    <div
-                      className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
-                      data-testid="CaptionComponentTestId"
+                    <img
+                      alt="The paws of the cheetah have a distinct shape compared to some of the other carnivores."
+                      className="ImageViewImg"
+                      src="cheetah_paw.jpg"
                       style={
                         Object {
+                          "height": 480,
                           "width": 403,
                         }
                       }
+                    />
+                    <div
+                      data-testid="ImageViewComponentCaptionPart"
                     >
                       <div
-                        className="IconContainer IconContainer_DebugColor DebugWireframe"
+                        className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                        data-testid="CaptionComponentTestId"
+                        style={
+                          Object {
+                            "width": 403,
+                          }
+                        }
                       >
-                        <i
-                          aria-hidden="true"
-                          className="image icon"
-                          onClick={[Function]}
-                        />
+                        <div
+                          className="IconContainer IconContainer_DebugColor DebugWireframe"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
+                        </div>
+                        <p
+                          className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                        >
+                          The paws of the cheetah have a distinct shape compared to some of the other carnivores.
+                        </p>
                       </div>
-                      <p
-                        className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
-                      >
-                        The paws of the cheetah have a distinct shape compared to some of the other carnivores.
-                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div
-            className="LeftMargin50px"
-          >
             <div
-              className="TextBubbleOuterContainer"
-              style={
-                Object {
-                  "backgroundColor": "rgb(undefined)",
-                  "height": 520,
-                  "width": 520,
-                }
-              }
+              className="LeftMargin50px"
             >
               <div
-                className="TextBubbleInnerContainer"
-              >
-                <div
-                  className="TextBubbleInnerCore"
-                >
-                  <h1
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 41.6,
-                      }
-                    }
-                  >
-                    Foot
-                  </h1>
-                  <p
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 21,
-                      }
-                    }
-                  >
-                    Cheetah’s foot pads are hard and less rounded than the other cats. The pad function like tire threads providing them with increased traction in fast, sharp turns.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="OverflowHidden VerticalCushionPadding"
-        >
-          <div
-            className="FloatRight RightMargin50px"
-          >
-            <div
-              className="TextBubbleOuterContainer"
-              style={
-                Object {
-                  "backgroundColor": "rgb(undefined)",
-                  "height": 540,
-                  "width": 540,
-                }
-              }
-            >
-              <div
-                className="TextBubbleInnerContainer"
-              >
-                <div
-                  className="TextBubbleInnerCore"
-                >
-                  <h1
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 43.2,
-                      }
-                    }
-                  >
-                    Claw
-                  </h1>
-                  <p
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 21,
-                      }
-                    }
-                  >
-                    The short blunt claws work like the cleats on a track shoe. They grip the ground for traction when running and help increase speed. Cheetah’s claws are semi-retractable, meaning they do not completely retract like the claws of other cats. The foot structure of the cheetah is very dog-like.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="ImageViewOuterContainer"
-          >
-            <div
-              className="ImageViewInnerContainer"
-            >
-              <div
-                className="ImageViewCore"
-              >
-                <img
-                  alt="Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability."
-                  className="ImageViewImg"
-                  src="Cheetah_Cat_Dog_Claws_Comparison_Inverted.png"
-                  style={
-                    Object {
-                      "height": 480,
-                      "width": 720,
-                    }
+                className="TextBubbleOuterContainer"
+                style={
+                  Object {
+                    "backgroundColor": "rgb(undefined)",
+                    "height": 520,
+                    "width": 520,
                   }
-                />
+                }
+              >
                 <div
-                  data-testid="ImageViewComponentCaptionPart"
+                  className="TextBubbleInnerContainer"
                 >
                   <div
-                    className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "width": 720,
-                      }
-                    }
+                    className="TextBubbleInnerCore"
                   >
-                    <div
-                      className="IconContainer IconContainer_DebugColor DebugWireframe"
+                    <h1
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 41.6,
+                        }
+                      }
                     >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
-                    </div>
+                      Foot
+                    </h1>
                     <p
-                      className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 21,
+                        }
+                      }
                     >
-                      Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability.
+                      Cheetah’s foot pads are hard and less rounded than the other cats. The pad function like tire threads providing them with increased traction in fast, sharp turns.
                     </p>
                   </div>
                 </div>
@@ -219,11 +125,54 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
           </div>
         </div>
         <div
-          className="OverflowHidden VerticalCushionPadding"
+          className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
         >
           <div
-            className="FloatRight RightMargin50px"
+            className="OverflowHidden"
           >
+            <div
+              className="FloatRight RightMargin50px"
+            >
+              <div
+                className="TextBubbleOuterContainer"
+                style={
+                  Object {
+                    "backgroundColor": "rgb(undefined)",
+                    "height": 540,
+                    "width": 540,
+                  }
+                }
+              >
+                <div
+                  className="TextBubbleInnerContainer"
+                >
+                  <div
+                    className="TextBubbleInnerCore"
+                  >
+                    <h1
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 43.2,
+                        }
+                      }
+                    >
+                      Claw
+                    </h1>
+                    <p
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 21,
+                        }
+                      }
+                    >
+                      The short blunt claws work like the cleats on a track shoe. They grip the ground for traction when running and help increase speed. Cheetah’s claws are semi-retractable, meaning they do not completely retract like the claws of other cats. The foot structure of the cheetah is very dog-like.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div
               className="ImageViewOuterContainer"
             >
@@ -234,13 +183,13 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                   className="ImageViewCore"
                 >
                   <img
-                    alt="Cheetah dewclaw."
+                    alt="Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability."
                     className="ImageViewImg"
-                    src="cheetah_dewclaw.jpg"
+                    src="Cheetah_Cat_Dog_Claws_Comparison_Inverted.png"
                     style={
                       Object {
-                        "height": 273,
-                        "width": 611,
+                        "height": 480,
+                        "width": 720,
                       }
                     }
                   />
@@ -252,7 +201,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                       data-testid="CaptionComponentTestId"
                       style={
                         Object {
-                          "width": 611,
+                          "width": 720,
                         }
                       }
                     >
@@ -268,7 +217,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                       <p
                         className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
                       >
-                        Cheetah dewclaw.
+                        Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability.
                       </p>
                     </div>
                   </div>
@@ -276,52 +225,115 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
               </div>
             </div>
           </div>
+        </div>
+        <div
+          className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+        >
           <div
-            className="LeftMargin50px"
+            className="OverflowHidden"
           >
             <div
-              className="TextBubbleOuterContainer"
-              style={
-                Object {
-                  "backgroundColor": "rgb(undefined)",
-                  "height": 520,
-                  "width": 520,
-                }
-              }
+              className="FloatRight RightMargin50px"
             >
               <div
-                className="TextBubbleInnerContainer"
+                className="ImageViewOuterContainer"
               >
                 <div
-                  className="TextBubbleInnerCore"
+                  className="ImageViewInnerContainer"
                 >
-                  <h1
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 41.6,
-                      }
-                    }
+                  <div
+                    className="ImageViewCore"
                   >
-                    Dewclaw
-                  </h1>
-                  <p
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 21,
+                    <img
+                      alt="Cheetah dewclaw."
+                      className="ImageViewImg"
+                      src="cheetah_dewclaw.jpg"
+                      style={
+                        Object {
+                          "height": 273,
+                          "width": 611,
+                        }
                       }
-                    }
+                    />
+                    <div
+                      data-testid="ImageViewComponentCaptionPart"
+                    >
+                      <div
+                        className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                        data-testid="CaptionComponentTestId"
+                        style={
+                          Object {
+                            "width": 611,
+                          }
+                        }
+                      >
+                        <div
+                          className="IconContainer IconContainer_DebugColor DebugWireframe"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
+                        </div>
+                        <p
+                          className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                        >
+                          Cheetah dewclaw.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="LeftMargin50px"
+            >
+              <div
+                className="TextBubbleOuterContainer"
+                style={
+                  Object {
+                    "backgroundColor": "rgb(undefined)",
+                    "height": 520,
+                    "width": 520,
+                  }
+                }
+              >
+                <div
+                  className="TextBubbleInnerContainer"
+                >
+                  <div
+                    className="TextBubbleInnerCore"
                   >
-                    The dewclaws of the cheetah are located on the upper inside area of the front foot. These are sharp and frequently used to hook and hold prey.
-                  </p>
+                    <h1
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 41.6,
+                        }
+                      }
+                    >
+                      Dewclaw
+                    </h1>
+                    <p
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 21,
+                        }
+                      }
+                    >
+                      The dewclaws of the cheetah are located on the upper inside area of the front foot. These are sharp and frequently used to hook and hold prey.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div
-          className="VerticalCushionPadding"
+          className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
         >
           <div
             className="AfricanWildlifeTracksIllustrationOuterContainer AfricanWildlifeTracksIllustrationOuterContainer_DebugColor DebugWireframe"

@@ -15,10 +15,10 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
       >
         Living Fast - Dying Young
       </h3>
-      <div
-        className=""
-      >
-        <div>
+      <div>
+        <div
+          className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+        >
           <div
             className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
           >
@@ -64,54 +64,52 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                         <h2
                           className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
                         />
-                        <div>
+                        <div
+                          className="ImageViewOuterContainer"
+                        >
                           <div
-                            className="ImageViewOuterContainer"
+                            className="ImageViewInnerContainer"
                           >
                             <div
-                              className="ImageViewInnerContainer"
+                              className="ImageViewCore"
                             >
+                              <img
+                                alt="A coalition of cheetahs on the lookout."
+                                className="ImageViewImg"
+                                src="cheetah_coalition_02.jpg"
+                                style={
+                                  Object {
+                                    "height": undefined,
+                                    "width": 510,
+                                  }
+                                }
+                              />
                               <div
-                                className="ImageViewCore"
+                                data-testid="ImageViewComponentCaptionPart"
                               >
-                                <img
-                                  alt="A coalition of cheetahs on the lookout."
-                                  className="ImageViewImg"
-                                  src="cheetah_coalition_02.jpg"
+                                <div
+                                  className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                                  data-testid="CaptionComponentTestId"
                                   style={
                                     Object {
-                                      "height": undefined,
                                       "width": 510,
                                     }
                                   }
-                                />
-                                <div
-                                  data-testid="ImageViewComponentCaptionPart"
                                 >
                                   <div
-                                    className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
-                                    data-testid="CaptionComponentTestId"
-                                    style={
-                                      Object {
-                                        "width": 510,
-                                      }
-                                    }
+                                    className="IconContainer IconContainer_DebugColor DebugWireframe"
                                   >
-                                    <div
-                                      className="IconContainer IconContainer_DebugColor DebugWireframe"
-                                    >
-                                      <i
-                                        aria-hidden="true"
-                                        className="image icon"
-                                        onClick={[Function]}
-                                      />
-                                    </div>
-                                    <p
-                                      className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
-                                    >
-                                      A coalition of cheetahs on the lookout.
-                                    </p>
+                                    <i
+                                      aria-hidden="true"
+                                      className="image icon"
+                                      onClick={[Function]}
+                                    />
                                   </div>
+                                  <p
+                                    className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                                  >
+                                    A coalition of cheetahs on the lookout.
+                                  </p>
                                 </div>
                               </div>
                             </div>
@@ -125,7 +123,9 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
             </div>
           </div>
         </div>
-        <div>
+        <div
+          className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+        >
           <div
             className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
           >
@@ -148,54 +148,52 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                         <h2
                           className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
                         />
-                        <div>
+                        <div
+                          className="ImageViewOuterContainer"
+                        >
                           <div
-                            className="ImageViewOuterContainer"
+                            className="ImageViewInnerContainer"
                           >
                             <div
-                              className="ImageViewInnerContainer"
+                              className="ImageViewCore"
                             >
+                              <img
+                                alt="Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)"
+                                className="ImageViewImg"
+                                src="cheetah_face_hyena.jpg"
+                                style={
+                                  Object {
+                                    "height": undefined,
+                                    "width": 640,
+                                  }
+                                }
+                              />
                               <div
-                                className="ImageViewCore"
+                                data-testid="ImageViewComponentCaptionPart"
                               >
-                                <img
-                                  alt="Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)"
-                                  className="ImageViewImg"
-                                  src="cheetah_face_hyena.jpg"
+                                <div
+                                  className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                                  data-testid="CaptionComponentTestId"
                                   style={
                                     Object {
-                                      "height": undefined,
                                       "width": 640,
                                     }
                                   }
-                                />
-                                <div
-                                  data-testid="ImageViewComponentCaptionPart"
                                 >
                                   <div
-                                    className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
-                                    data-testid="CaptionComponentTestId"
-                                    style={
-                                      Object {
-                                        "width": 640,
-                                      }
-                                    }
+                                    className="IconContainer IconContainer_DebugColor DebugWireframe"
                                   >
-                                    <div
-                                      className="IconContainer IconContainer_DebugColor DebugWireframe"
-                                    >
-                                      <i
-                                        aria-hidden="true"
-                                        className="image icon"
-                                        onClick={[Function]}
-                                      />
-                                    </div>
-                                    <p
-                                      className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
-                                    >
-                                      Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)
-                                    </p>
+                                    <i
+                                      aria-hidden="true"
+                                      className="image icon"
+                                      onClick={[Function]}
+                                    />
                                   </div>
+                                  <p
+                                    className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                                  >
+                                    Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)
+                                  </p>
                                 </div>
                               </div>
                             </div>
