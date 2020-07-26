@@ -25,6 +25,7 @@ import FuturePage from './components/future/FuturePage'
 
 import TestPage from './components/shared/TestPage'
 
+import './components/shared/GlobalPageStyles.css'
 import './styling/DebugStyles.css'
 
 export default class App extends React.Component {

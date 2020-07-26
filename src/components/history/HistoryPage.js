@@ -22,8 +22,6 @@ import HistoryPageSectionEvolution from './HistoryPage_Section_Evolution'
 import HistoryPageSectionCheetahAndMan from './HistoryPage_Section_CheetahAndMan'
 import HistoryPageSectionRangeAndPopulation from './HistoryPage_Section_RangeAndPopulation'
 
-import '../shared/GlobalPageStyles.css'
-
 export default class HistoryPage extends React.Component {
 
   constructor(props) {
