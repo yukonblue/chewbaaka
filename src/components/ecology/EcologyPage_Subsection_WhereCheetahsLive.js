@@ -13,9 +13,8 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
-
+import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageParagraph from '../shared/ContentPageParagraph'
-
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
 import {
@@ -67,34 +66,36 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
 
   renderPartCheetahHabitatContent(part) {
     return (
-      <div className="OverflowHidden VerticalCushionPadding">
-        <ContentPageSubsectionSubtitle>
-          {part.title}
-        </ContentPageSubsectionSubtitle>
+      <ContentPageSubsectionPart>
+        <div className="OverflowHidden">
+          <ContentPageSubsectionSubtitle>
+            {part.title}
+          </ContentPageSubsectionSubtitle>
 
-        <div className="FloatRight">
-          <ImageView
-            image={image_savanna}
-            caption="Savanna"
-            width={640}
-            height={480}
+          <div className="FloatRight">
+            <ImageView
+              image={image_savanna}
+              caption="Savanna"
+              width={640}
+              height={480}
+            />
+          </div>
+
+          {ContentPageSubsectionParagraphsContentBinder(part.content)}
+
+          <img
+            src={image_banner_fact_What_is_Habitat}
+            alt="What is an ecosystem"
+            style={{width: 640}}
           />
         </div>
-
-        {ContentPageSubsectionParagraphsContentBinder(part.content)}
-
-        <img
-          src={image_banner_fact_What_is_Habitat}
-          alt="What is an ecosystem"
-          style={{width: 640}}
-        />
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderPartNamibianBiomesContent(part) {
     return (
-      <div className="VerticalCushionPadding">
+      <ContentPageSubsectionPart>
         <ContentPageSubsectionSubtitle>
           {part.title}
         </ContentPageSubsectionSubtitle>
@@ -120,7 +121,7 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
             alt="What is biome?"
           />
         </div>
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 

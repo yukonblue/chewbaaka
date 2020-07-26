@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 23, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -13,6 +13,7 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPageSubsectionThreeColumnContentTemplate'
+import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 
 import {
   ContentPageSubsectionParagraphsContentBinder,
@@ -55,38 +56,42 @@ export default class FuturePageSubsectionWhatIsConservation extends React.Compon
 
   renderIntroPartContent(part) {
     return (
-      <div className="OverflowHidden">
-        <div className="FloatRight">
-          <img
-            src={image_earth_environment}
-            alt="Conservation is taking care of the environment in which we live."
-          />
-        </div>
+      <ContentPageSubsectionPart>
+        <div className="OverflowHidden">
+          <div className="FloatRight">
+            <img
+              src={image_earth_environment}
+              alt="Conservation is taking care of the environment in which we live."
+            />
+          </div>
 
-        {ContentPageSubsectionParagraphsContentBinder(part.content)}
-      </div>
+          {ContentPageSubsectionParagraphsContentBinder(part.content)}
+        </div>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderSecondaryPartContent() {
     return (
-      <ContentPageSubsectionThreeColumnContentTemplate
-        lhsColumn={
-          ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder(
-            this.state.subsectionConfig.contents["part_EnvironmentalEducation"],
-          )
-        }
+      <ContentPageSubsectionPart>
+        <ContentPageSubsectionThreeColumnContentTemplate
+          lhsColumn={
+            ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder(
+              this.state.subsectionConfig.contents["part_EnvironmentalEducation"],
+            )
+          }
 
-        middleColumn={
-          {content: this.renderMiddleColumnContent()}
-        }
+          middleColumn={
+            {content: this.renderMiddleColumnContent()}
+          }
 
-        rhsColumn={
-          ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder(
-            this.state.subsectionConfig.contents["part_ConservationBiology"],
-          )
-        }
-      />
+          rhsColumn={
+            ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder(
+              this.state.subsectionConfig.contents["part_ConservationBiology"],
+            )
+          }
+        />
+      </ContentPageSubsectionPart>
     );
   }
 

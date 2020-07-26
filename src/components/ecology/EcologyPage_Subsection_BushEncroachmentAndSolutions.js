@@ -14,6 +14,7 @@ import { Grid } from 'semantic-ui-react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -68,89 +69,105 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
   renderPartBushEncroachmentContent(part) {
     return (
       <div>
-        <div className="VerticalCushionPadding">
-          <ContentPageSubsectionSubtitle>
-            {part.title}
-          </ContentPageSubsectionSubtitle>
-
-          <div className="OverflowHidden">
-            <div className="FloatRight">
-              <ImageView
-                image={image_bush_encroachment}
-                caption="Thickened thorn bush degrades entire habitat and poses problems for all species of animals in that habitat."
-                width={600}
-                height={450}
-              />
-            </div>
-            {ContentPageSubsectionParagraphsContentBinder(part.content["part_Intro"].content)}
-          </div>
-        </div>
-
+        {this.renderBushEncroachmentPart(part)}
         {this.renderSubpartContent(part.content["part_StockFarmingContributionToBushEncroachment"])}
-
         {this.renderSubpartContent(part.content["part_CheetahSurvivalInBushEncroachedAreas"])}
       </div>
     );
   }
 
+  renderBushEncroachmentPart(part) {
+    return (
+      <ContentPageSubsectionPart>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
+
+        <div className="OverflowHidden">
+          <div className="FloatRight">
+            <ImageView
+              image={image_bush_encroachment}
+              caption="Thickened thorn bush degrades entire habitat and poses problems for all species of animals in that habitat."
+              width={600}
+              height={450}
+            />
+          </div>
+          {ContentPageSubsectionParagraphsContentBinder(part.content["part_Intro"].content)}
+        </div>
+      </ContentPageSubsectionPart>
+    );
+  }
+
   renderSubpartContent(subpart) {
     return (
-      <div className="VerticalCushionPadding">
+      <ContentPageSubsectionPart>
         <ContentPageSubsectionSubtitle>
           {subpart.title}
         </ContentPageSubsectionSubtitle>
 
         {ContentPageSubsectionParagraphsContentBinder(subpart.content)}
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderPartBushEncroachmentThreatensCheetahSurvivalContent(part) {
     return (
       <div>
-        <div className="VerticalCushionPadding">
-          <ContentPageSubsectionSubtitle>
-            {part.title}
-          </ContentPageSubsectionSubtitle>
-          <div className="OverflowHidden">
-            <div className="FloatLeft HorizontalCusionPadding">
-              <ImageView
-                image={image_Cheetah_Battle_Bush_Encroachment}
-                caption="Cheetahs faced even more hardship in bush encroached territories. They have to adapt in every aspect of their life, such as hunting."
-                width={640}
-                height={423}
-              />
-            </div>
+        {this.renderPartBushEncroachmentThreatensCheetahSurvivalPart(part)}
 
-            {ContentPageSubsectionParagraphsContentBinder(part.content["part_Intro"].content)}
-          </div>
-        </div>
-
-        <div className="VerticalCushionPadding">
-          <ContentPageSubsectionSubtitle>
-            {part.content["part_CCFBushProject"].title}
-          </ContentPageSubsectionSubtitle>
-          <div className="OverflowHidden">
-            <div className="FloatRight HorizontalCusionPadding">
-              <img
-                src={image_fsc_logo}
-                alt="FSC logo"
-                width={180}
-              />
-            </div>
-
-            {ContentPageSubsectionParagraphsContentBinder(part.content["part_CCFBushProject"].content)}
-          </div>
-        </div>
+        {this.renderCCFBushProjectPart(part)}
 
         {this.renderBushblockObjectivesSection(part.content["part_Objectives"])}
       </div>
     );
   }
 
+  renderPartBushEncroachmentThreatensCheetahSurvivalPart(part) {
+    return (
+      <ContentPageSubsectionPart>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
+        <div className="OverflowHidden">
+          <div className="FloatLeft HorizontalCusionPadding">
+            <ImageView
+              image={image_Cheetah_Battle_Bush_Encroachment}
+              caption="Cheetahs faced even more hardship in bush encroached territories. They have to adapt in every aspect of their life, such as hunting."
+              width={640}
+              height={423}
+            />
+          </div>
+
+          {ContentPageSubsectionParagraphsContentBinder(part.content["part_Intro"].content)}
+        </div>
+      </ContentPageSubsectionPart>
+    );
+  }
+
+  renderCCFBushProjectPart(part) {
+    return (
+      <ContentPageSubsectionPart>
+        <ContentPageSubsectionSubtitle>
+          {part.content["part_CCFBushProject"].title}
+        </ContentPageSubsectionSubtitle>
+        <div className="OverflowHidden">
+          <div className="FloatRight HorizontalCusionPadding">
+            <img
+              src={image_fsc_logo}
+              alt="FSC logo"
+              width={180}
+            />
+          </div>
+
+          {ContentPageSubsectionParagraphsContentBinder(part.content["part_CCFBushProject"].content)}
+        </div>
+      </ContentPageSubsectionPart>
+    );
+  }
+
   renderBushblockObjectivesSection(part) {
     return (
-      <div className="VerticalCushionPadding">
+      <ContentPageSubsectionPart>
         <ContentPageSubsectionSubtitle>
           {part.title}
         </ContentPageSubsectionSubtitle>
@@ -172,13 +189,13 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
             }
           </ul>
         </div>
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderImageGalleryContent() {
     return (
-      <div className="Centered VerticalCushionPadding">
+      <ContentPageSubsectionPart>
         <Grid columns={2}>
           <Grid.Column width={8}>
             <ImageView
@@ -199,7 +216,7 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
             />
           </Grid.Column>
         </Grid>
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 }

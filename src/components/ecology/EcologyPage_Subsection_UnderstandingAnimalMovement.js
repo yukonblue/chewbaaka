@@ -12,12 +12,12 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
+import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
-
-import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
 import ImageSlidingGalleryDiscrete from '../shared/ImageSlidingGalleryDiscrete'
 
@@ -61,9 +61,9 @@ export default class EcologyPageSubsectionUnderstandingAnimalMovement extends Re
 
   renderIntroPartContent(part) {
     return (
-      <div>
+      <ContentPageSubsectionPart>
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 
@@ -84,12 +84,12 @@ export default class EcologyPageSubsectionUnderstandingAnimalMovement extends Re
 
   renderPartContent(part, key) {
     return (
-      <div key={key} className="VerticalCushionPadding">
+      <ContentPageSubsectionPart key={key}>
         <ContentPageSubsectionSubtitle>
           {part.title}
         </ContentPageSubsectionSubtitle>
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 
@@ -97,33 +97,35 @@ export default class EcologyPageSubsectionUnderstandingAnimalMovement extends Re
     const componentWidth = 720;
 
     return (
-      <div className="Centered" style={{width: componentWidth}}>
-        <ImageSlidingGalleryDiscrete
-          width={componentWidth}
-          height={480}
-          slides={[
-            {
-              image: image_Spoor_Tracking_Data_Collection,
-              caption: "Spoor tracking data collection."
-            },
-            {
-              image: image_camera_trap_locations_in_Waterberg_Conservancy,
-              caption: "Cheetah movement study with camera traps in the Greater Waterberg Conservancy.",
-              credit: kStringConstantCheetahConservationFund
-            },
-            {
-              image: image_cheetah_collaring,
-              caption: "A cheetah is collared in preparation for release.",
-              credit: kStringConstantCheetahConservationFund
-            },
-            {
-              image: image_cheetah_satellite_tracking,
-              caption: "Satellite tracking of a collared and released cheetah.",
-              credit: kStringConstantCheetahConservationFund
-            }
-          ]}
-        />
-      </div>
+      <ContentPageSubsectionPart>
+        <div className="Centered" style={{width: componentWidth}}>
+          <ImageSlidingGalleryDiscrete
+            width={componentWidth}
+            height={480}
+            slides={[
+              {
+                image: image_Spoor_Tracking_Data_Collection,
+                caption: "Spoor tracking data collection."
+              },
+              {
+                image: image_camera_trap_locations_in_Waterberg_Conservancy,
+                caption: "Cheetah movement study with camera traps in the Greater Waterberg Conservancy.",
+                credit: kStringConstantCheetahConservationFund
+              },
+              {
+                image: image_cheetah_collaring,
+                caption: "A cheetah is collared in preparation for release.",
+                credit: kStringConstantCheetahConservationFund
+              },
+              {
+                image: image_cheetah_satellite_tracking,
+                caption: "Satellite tracking of a collared and released cheetah.",
+                credit: kStringConstantCheetahConservationFund
+              }
+            ]}
+          />
+        </div>
+      </ContentPageSubsectionPart>
     );
   }
 }

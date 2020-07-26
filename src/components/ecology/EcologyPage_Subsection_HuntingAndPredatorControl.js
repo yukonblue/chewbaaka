@@ -12,6 +12,7 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -85,39 +86,41 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
       }
     };
     return (
-      <div key={idx} className="VerticalCushionPadding">
+      <ContentPageSubsectionPart key={idx}>
         <ContentPageSubsectionSubtitle>
           {part.title}
         </ContentPageSubsectionSubtitle>
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
         {renderOptionalBannerImgOnPart()}
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderPartPredatorControlContent(part) {
     return (
-      <div className="OverflowHidden VerticalCushionPadding">
-        <ContentPageSubsectionSubtitle>
-          {part.title}
-        </ContentPageSubsectionSubtitle>
-        <div className="FloatRight">
-          <TextBubble
-            diameter={560}
-            backgroundColorRGB={[255,155,0]}
-            title={part.textBubble.title}
-            content={part.textBubble.content}
+      <ContentPageSubsectionPart>
+        <div className="OverflowHidden">
+          <ContentPageSubsectionSubtitle>
+            {part.title}
+          </ContentPageSubsectionSubtitle>
+          <div className="FloatRight">
+            <TextBubble
+              diameter={560}
+              backgroundColorRGB={[255,155,0]}
+              title={part.textBubble.title}
+              content={part.textBubble.content}
+            />
+          </div>
+
+          {ContentPageSubsectionParagraphsContentBinder(part.content)}
+
+          <img
+            className="FactBannerMediumDimension"
+            src={image_What_is_a_Problem_Animal}
+            alt="What is a problem animal?"
           />
         </div>
-
-        {ContentPageSubsectionParagraphsContentBinder(part.content)}
-
-        <img
-          className="FactBannerMediumDimension"
-          src={image_What_is_a_Problem_Animal}
-          alt="What is a problem animal?"
-        />
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 }

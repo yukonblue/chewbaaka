@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 21, 2020
- * Updated  : Jul 21, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -13,6 +13,7 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPageSubsectionThreeColumnContentTemplate'
+import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -56,15 +57,15 @@ export default class EcologyPageSubsectionCheetahFriendlyFarming extends React.C
 
   renderIntroPartContent(part) {
     return (
-      <div>
+      <ContentPageSubsectionPart>
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderBodyPartContent(part) {
     return (
-      <div className="VerticalCushionPadding">
+      <ContentPageSubsectionPart>
         <img className="FlexClipartSheep" src={image_goat_clipart} alt="sheep" width={160} />
         <img className="FlexClipartCattle" src={image_cattle_clipart} alt="cattle" width={160} />
         <ContentPageSubsectionThreeColumnContentTemplate
@@ -76,7 +77,7 @@ export default class EcologyPageSubsectionCheetahFriendlyFarming extends React.C
 
           showTitleInMiddleColumn={true}
         />
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 

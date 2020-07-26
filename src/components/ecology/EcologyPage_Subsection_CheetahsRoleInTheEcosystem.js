@@ -14,7 +14,7 @@ import { Grid } from 'semantic-ui-react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
-
+import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
 import {
@@ -61,28 +61,30 @@ export default class EcologyPageSubsectionCheetahsRoleInTheEcosystem extends Rea
 
   renderCheetahsRoleSectionContent(part) {
     return (
-      <div className="OverflowHidden VerticalCushionPadding">
-        <ContentPageSubsectionSubtitle>
-          {part.title}
-        </ContentPageSubsectionSubtitle>
+      <ContentPageSubsectionPart>
+        <div className="OverflowHidden">
+          <ContentPageSubsectionSubtitle>
+            {part.title}
+          </ContentPageSubsectionSubtitle>
 
-        <div className="FloatRight">
-          <ImageView
-            image={image_savanna_food_web}
-            caption="A simplified illustration of the food web of a savanna ecosystem."
-            width={750}
-            height={646}
-          />
+          <div className="FloatRight">
+            <ImageView
+              image={image_savanna_food_web}
+              caption="A simplified illustration of the food web of a savanna ecosystem."
+              width={750}
+              height={646}
+            />
+          </div>
+
+          {ContentPageSubsectionParagraphsContentBinder(part.content)}
         </div>
-
-        {ContentPageSubsectionParagraphsContentBinder(part.content)}
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderRelationshipsWithOtherSpeciesSectionContent(part) {
     return (
-      <div>
+      <ContentPageSubsectionPart>
         <ContentPageSubsectionSubtitle>
           {part.title}
         </ContentPageSubsectionSubtitle>
@@ -109,7 +111,7 @@ export default class EcologyPageSubsectionCheetahsRoleInTheEcosystem extends Rea
             </Grid.Column>
           </Grid>
         </div>
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 }

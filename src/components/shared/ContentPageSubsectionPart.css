@@ -1,0 +1,16 @@
+/**
+ * ContentPageSubsectionPart.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 25, 2020
+ * Updated  : Jul 25, 2020
+ */
+
+div.ContentPageSubsectionPartContainer {
+  margin: 20px auto;  
+}
+
+div.ContentPageSubsectionPartContainer_DebugColor {
+  background-color: olive;
+}

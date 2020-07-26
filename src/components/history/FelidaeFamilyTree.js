@@ -4,12 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 12, 2020
+ * Updated  : Jul 25, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import "semantic-ui-css/semantic.min.css";
+import "semantic-ui-css/semantic.min.css"
 
 import TextReveal from '../shared/TextReveal'
 
@@ -73,6 +73,14 @@ import image_oncilla from './assets/felidae/leopardus/felidae_oncilla_Leopardus_
 import image_southern_tiger_cat from './assets/felidae/leopardus/felidae_southern_tiger_cat_Leopardus_guttulus_240x240.jpg'
 import image_guina from './assets/felidae/leopardus/felidae_guina_Leopardus_guigna_240x240.jpg'
 
+const contentColorLynx = [29,88,182];
+const contentColorPanthera = [248,180,14];
+const contentColorLeopardCat = [232,10,147];
+const contentColorCaracal = [12,231,168];
+const contentColorFelis = [154,77,13];
+const contentColorBayCat = [95,0,221];
+const contentColorLeopardus = [41,105,3];
+
 export default function FelidaeFamilyTree() {
   return (
     <div className={getElementStyleClassName("FelidaeFamilyTreeComponentOuterContainerDiv")}>
@@ -103,28 +111,28 @@ export default function FelidaeFamilyTree() {
         coverImage={image_eurasian_lynx}
         description="Eurasian Lynx"
         caption="Lynx lynx"
-        contentColor="silver"
+        contentColor={`rgb(${contentColorLynx}`}
         position={{top: 30, left: 180}}
       />
       <TextReveal
         coverImage={image_canadian_lynx}
         description="Canadian Lynx"
         caption="Lynx canadensis"
-        contentColor="silver"
+        contentColor={`rgb(${contentColorLynx}`}
         position={{top: 190, left: 190}}
       />
       <TextReveal
         coverImage={image_iberian_lynx}
         description="Iberian Lynx"
         caption="Lynx pardinus"
-        contentColor="silver"
+        contentColor={`rgb(${contentColorLynx}`}
         position={{top: 350, left: 200}}
       />
       <TextReveal
         coverImage={image_bobcat}
         description="Bobcat"
         caption="Lynx rufus"
-        contentColor="silver"
+        contentColor={`rgb(${contentColorLynx}`}
         position={{top: 500, left: 180}}
       />
       { /* Panthera lineage */ }
@@ -132,49 +140,49 @@ export default function FelidaeFamilyTree() {
         coverImage={image_tiger}
         description="Tiger"
         caption="Panthera tigris"
-        contentColor="red"
+        contentColor={`rgb(${contentColorPanthera})`}
         position={{top: 20, left: 430}}
       />
       <TextReveal
         coverImage={image_lion}
         description="Lion"
         caption="Panthera leo"
-        contentColor="red"
+        contentColor={`rgb(${contentColorPanthera})`}
         position={{top: 30, left: 580}}
       />
       <TextReveal
         coverImage={image_jaguar}
         description="Jaguar"
         caption="Panthera onca"
-        contentColor="red"
+        contentColor={`rgb(${contentColorPanthera})`}
         position={{top: 180, left: 400}}
       />
       <TextReveal
         coverImage={image_leopard}
         description="Leopard"
         caption="Panthera pardus"
-        contentColor="red"
+        contentColor={`rgb(${contentColorPanthera})`}
         position={{top: 180, left: 550}}
       />
       <TextReveal
         coverImage={image_snow_leopard}
         description="Snow Leopard"
         caption="Panthera uncia"
-        contentColor="red"
+        contentColor={`rgb(${contentColorPanthera})`}
         position={{top: 330, left: 390}}
       />
       <TextReveal
         coverImage={image_mainland_clouded_leopard}
         description="Mainland Clouded Leopard"
         caption="Neofelis nebulosa"
-        contentColor="red"
+        contentColor={`rgb(${contentColorPanthera})`}
         position={{top: 470, left: 330}}
       />
       <TextReveal
         coverImage={image_sunda_clouded_leopard}
         description="Sunda Clouded Leopard"
         caption="Neofelis diardi"
-        contentColor="red"
+        contentColor={`rgb(${contentColorPanthera})`}
         position={{top: 620, left: 320}}
       />
       { /* Bay Cat lineage */ }
@@ -182,21 +190,21 @@ export default function FelidaeFamilyTree() {
         coverImage={image_asiatic_golden_cat}
         description="Asiatic Golden Cat"
         caption="Catopuma temminckii"
-        contentColor="blue"
+        contentColor={`rgb(${contentColorBayCat})`}
         position={{top: 420, left: 1340}}
       />
       <TextReveal
         coverImage={image_borneo_bay_cat}
         description="Borneo Bay Cat"
         caption="Catopuma badia"
-        contentColor="blue"
+        contentColor={`rgb(${contentColorBayCat})`}
         position={{top: 490, left: 1180}}
       />
       <TextReveal
         coverImage={image_marbled_cat}
         description="Marbled Cat"
         caption="Pardofelis marmorata"
-        contentColor="blue"
+        contentColor={`rgb(${contentColorBayCat})`}
         position={{top: 540, left: 1020}}
       />
       { /* Leopardus lineage */ }
@@ -204,99 +212,99 @@ export default function FelidaeFamilyTree() {
         coverImage={image_ocelot}
         description="Ocelot"
         caption="Leopardus pardalis"
-        contentColor="black"
+        contentColor={`rgb(${contentColorLeopardus})`}
         position={{top: 640, left: 1400}}
       />
       <TextReveal
         coverImage={image_geoffroys_cat}
         description="Geoffroy's Cat"
         caption="Leopardus geoffroyi"
-        contentColor="black"
+        contentColor={`rgb(${contentColorLeopardus})`}
         position={{top: 780, left: 1370}}
       />
       <TextReveal
         coverImage={image_andean_cat}
         description="Andean Cat"
         caption="Leopardus jacobita"
-        contentColor="black"
+        contentColor={`rgb(${contentColorLeopardus})`}
         position={{top: 700, left: 1200}}
       />
       <TextReveal
         coverImage={image_maygay}
         description="Margay"
         caption="Leopardus wiedii"
-        contentColor="black"
+        contentColor={`rgb(${contentColorLeopardus})`}
         position={{top: 720, left: 1020}}
       />
       <TextReveal
         coverImage={image_pampas_cat}
         description="Pampas Cat"
         caption="Leopardus colocola"
-        contentColor="black"
+        contentColor={`rgb(${contentColorLeopardus})`}
         position={{top: 660, left: 880}}
       />
       <TextReveal
         coverImage={image_oncilla}
         description="Oncilla - Northern Tiger Cat"
         caption="Leopardus tigrinus"
-        contentColor="black"
+        contentColor={`rgb(${contentColorLeopardus})`}
         position={{top: 670, left: 730}}
       />
       <TextReveal
         coverImage={image_southern_tiger_cat}
         description="Southern Tiger Cat"
         caption="Leopardus guttulus"
-        contentColor="black"
+        contentColor={`rgb(${contentColorLeopardus})`}
         position={{top: 730, left: 580}}
       />
       <TextReveal
         coverImage={image_guina}
         description="Guiña / Kodkod"
         caption="Leopardus guigna"
-        contentColor="black"
-        position={{top: 850, left: 450}}
+        contentColor={`rgb(${contentColorLeopardus})`}
+        position={{top: 850, left: 1200}}
       />
       { /* Leopard Cat lineage */ }
       <TextReveal
         coverImage={image_fishing_cat}
         description="Fishing Cat"
         caption="Prionailurus viverrinus"
-        contentColor="teal"
+        contentColor={`rgb(${contentColorLeopardCat})`}
         position={{top: 10, left: 790}}
       />
       <TextReveal
         coverImage={image_mainland_leopard_cat}
         description="Mainland Leopard Cat"
         caption="Prionailurus bengalensis"
-        contentColor="teal"
+        contentColor={`rgb(${contentColorLeopardCat})`}
         position={{top: 150, left: 750}}
       />
       <TextReveal
         coverImage={image_sunda_leopard_cat}
         description="Sunda Leopard Cat"
         caption="Prionailurus javanensis"
-        contentColor="teal"
+        contentColor={`rgb(${contentColorLeopardCat})`}
         position={{top: 300, left: 700}}
       />
       <TextReveal
         coverImage={image_flat_headed_cat}
         description="Flat-headed Cat"
         caption="Prionailurus planiceps"
-        contentColor="teal"
+        contentColor={`rgb(${contentColorLeopardCat})`}
         position={{top: 400, left: 560}}
       />
       <TextReveal
         coverImage={image_rusty_spotted_cat}
         description="Rusty-spotted Cat"
         caption="Prionailurus rubiginosus"
-        contentColor="teal"
+        contentColor={`rgb(${contentColorLeopardCat})`}
         position={{top: 450, left: 700}}
       />
       <TextReveal
         coverImage={image_pallas_cat}
         description="Pallas's Cat"
         caption="Otocolobus manul"
-        contentColor="teal"
+        contentColor={`rgb(${contentColorLeopardCat})`}
         position={{top: 560, left: 530}}
       />
       { /* Caracal lineage */ }
@@ -304,21 +312,21 @@ export default function FelidaeFamilyTree() {
         coverImage={image_caracal}
         description="Caracal"
         caption="Caracal caracal"
-        contentColor="violet"
+        contentColor={`rgb(${contentColorCaracal})`}
         position={{top: 10, left: 950}}
       />
       <TextReveal
         coverImage={image_serval}
         description="Serval"
         caption="Leptailurus serval"
-        contentColor="violet"
+        contentColor={`rgb(${contentColorCaracal})`}
         position={{top: 160, left: 900}}
       />
       <TextReveal
         coverImage={image_african_golden_cat}
         description="African Golden Cat"
         caption="Caracal aurata"
-        contentColor="violet"
+        contentColor={`rgb(${contentColorCaracal})`}
         position={{top: 300, left: 860}}
       />
       { /* Felis lineage */ }
@@ -327,36 +335,42 @@ export default function FelidaeFamilyTree() {
         description="Jungle Cat"
         caption="Felis chaus"
         position={{top: 30, left: 1120}}
+        contentColor={`rgb(${contentColorFelis})`}
       />
       <TextReveal
         coverImage={image_chinese_mountain_cat}
         description="Chinese Mountain Cat"
         caption="Felis bieti"
         position={{top: 170, left: 1070}}
+        contentColor={`rgb(${contentColorFelis})`}
       />
       <TextReveal
         coverImage={image_european_wildcat}
         description="European Wildcat"
         caption="Felis silvestris"
         position={{top: 170, left: 1200}}
+        contentColor={`rgb(${contentColorFelis})`}
       />
       <TextReveal
         coverImage={image_african_wildcat}
         description="African-Asiatic Wildcat"
         caption="Felis lybica"
         position={{top: 230, left: 1330}}
+        contentColor={`rgb(${contentColorFelis})`}
       />
       <TextReveal
         coverImage={image_sand_cat}
         description="Sand Cat"
         caption="Felis margarita"
         position={{top: 300, left: 1200}}
+        contentColor={`rgb(${contentColorFelis})`}
       />
       <TextReveal
         coverImage={image_black_footed_cat}
         description="Black-footed Cat"
         caption="Felis nigripes"
         position={{top: 320, left: 1060}}
+        contentColor={`rgb(${contentColorFelis})`}
       />
     </div>
   )

@@ -13,7 +13,7 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
-
+import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
 import {
@@ -59,21 +59,25 @@ export default class FuturePageSubsectionInternshipsAndVolunteering extends Reac
   renderBannerImage() {
     const width = 1300;
     return (
-      <div className="Centered" style={{width: width}}>
-        <img
-          style={{width: width}}
-          src={image_CCF_GetInvolved_Volunteer} alt="CCF Volunteering"
-        />
-      </div>
+      <ContentPageSubsectionPart>
+        <div className="Centered" style={{width: width}}>
+          <img
+            style={{width: width}}
+            src={image_CCF_GetInvolved_Volunteer} alt="CCF Volunteering"
+          />
+        </div>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderBodyContent() {
     return (
-      <ContentPageSubsectionTwoColumnContentTemplate
-        lhsColumn={{content: this.renderPartInternshipsContent(this.state.subsectionConfig.content["part_Internships"])}}
-        rhsColumn={{content: this.renderPartVolunteeringContent(this.state.subsectionConfig.content["part_Volunteering"])}}
-      />
+      <ContentPageSubsectionPart>
+        <ContentPageSubsectionTwoColumnContentTemplate
+          lhsColumn={{content: this.renderPartInternshipsContent(this.state.subsectionConfig.content["part_Internships"])}}
+          rhsColumn={{content: this.renderPartVolunteeringContent(this.state.subsectionConfig.content["part_Volunteering"])}}
+        />
+      </ContentPageSubsectionPart>
     );
   }
 
@@ -111,11 +115,13 @@ export default class FuturePageSubsectionInternshipsAndVolunteering extends Reac
 
   renderTailContent() {
     return (
-      <MediaLinkButton
-        title="Learn more about CCF's Volunteer Program"
-        href="https://cheetah.org/get-involved/volunteer/"
-        icon="file alternate outline"
-      />
+      <ContentPageSubsectionPart>
+        <MediaLinkButton
+          title="Learn more about CCF's Volunteer Program"
+          href="https://cheetah.org/get-involved/volunteer/"
+          icon="file alternate outline"
+        />
+      </ContentPageSubsectionPart>
     );
   }
 }

@@ -17,6 +17,7 @@ import { getElementStyleClassName } from '../../styling/styling'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageParagraph from '../shared/ContentPageParagraph'
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
+import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
@@ -53,60 +54,71 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
   renderContent() {
     return (
       <div className={getElementStyleClassName("HistoryPageSubsectionFelidaeFamilyTreeInnerContainer")}>
-        <div>
-          <ContentPageSubsectionSubtitle>
-            Which big cat is the most related to the cheetah?
-          </ContentPageSubsectionSubtitle>
-
-          <ContentPageParagraph>
-            It is easy to think that the closest relative to the cheetah among the big cats is the leopard,
-            given the close resemblance to their appearances. However, the cheetah is actually most closely
-            related to the North American <b>cougar (puma)</b> (<span className="TaxonomyBinomialName">Puma concolor</span>)
-            and the <b>jaguarundi</b> (<span className="TaxonomyBinomialName">Herpailurus yagouaroundi</span>)
-            that roams through Central to South America. Together, these three species form the <b>Puma</b> lineage,
-            one of the eight lineages of the <span className="TaxonomyBinomialName">Felidae</span> family.
-          </ContentPageParagraph>
-
-          <img src={big_cats_image} alt="Big Cats" />
-        </div>
-
-        <div>
-          <ContentPageSubsectionSubtitle>
-            Felidae Family Tree
-          </ContentPageSubsectionSubtitle>
-
-          <ContentPageParagraph>
-            The evolution of the <span className="TaxonomyBinomialName">Felidae</span> cat
-            family began about 25 million years ago. Through time, the ancestors
-            of the cat family slowly evolved into eight main lineages, each lineage
-            representing a subset of the <span className="TaxonomyBinomialName">Felidae</span> cat
-            family that are the most related genetically.
-          </ContentPageParagraph>
-
-          <LineBreak lines={2} />
-
-          <ContentPageParagraph>
-            Below is an illustration of the <i>Felidae</i> family tree. Hover over
-            each image in the tree to reveal its genus. (Cats in the same
-            lineage have the same background color).
-          </ContentPageParagraph>
-
-          <HintSignpost
-            hintText="Hover over images below to reveal the genera in the Felidae family"
-            iconName="arrow circle down"
-          />
-
-          <div className={getElementStyleClassName("HistoryPageSubsectionFelidaeFamilyTreeCore")}>
-            <FelidaeFamilyTree />
-          </div>
-
-          <MediaLinkButton
-            href="https://www.wildcatfamily.com/felidae-evolution/"
-            title='Learn more about Felidae Evolution'
-            icon="file alternate outline"
-          />
-        </div>
+        {this.renderRelatedCatPart()}
+        {this.renderFelidaeFamilyTreePart()}
       </div>
+    );
+  }
+
+  renderRelatedCatPart() {
+    return (
+      <ContentPageSubsectionPart>
+        <ContentPageSubsectionSubtitle>
+          Which big cat is the most related to the cheetah?
+        </ContentPageSubsectionSubtitle>
+
+        <ContentPageParagraph>
+          It is easy to think that the closest relative to the cheetah among the big cats is the leopard,
+          given the close resemblance to their appearances. However, the cheetah is actually most closely
+          related to the North American <b>cougar (puma)</b> (<span className="TaxonomyBinomialName">Puma concolor</span>)
+          and the <b>jaguarundi</b> (<span className="TaxonomyBinomialName">Herpailurus yagouaroundi</span>)
+          that roams through Central to South America. Together, these three species form the <b>Puma</b> lineage,
+          one of the eight lineages of the <span className="TaxonomyBinomialName">Felidae</span> family.
+        </ContentPageParagraph>
+
+        <img src={big_cats_image} alt="Big Cats" />
+      </ContentPageSubsectionPart>
+    );
+  }
+
+  renderFelidaeFamilyTreePart() {
+    return (
+      <ContentPageSubsectionPart>
+        <ContentPageSubsectionSubtitle>
+          Felidae Family Tree
+        </ContentPageSubsectionSubtitle>
+
+        <ContentPageParagraph>
+          The evolution of the <span className="TaxonomyBinomialName">Felidae</span> cat
+          family began about 25 million years ago. Through time, the ancestors
+          of the cat family slowly evolved into eight main lineages, each lineage
+          representing a subset of the <span className="TaxonomyBinomialName">Felidae</span> cat
+          family that are the most related genetically.
+        </ContentPageParagraph>
+
+        <LineBreak lines={2} />
+
+        <ContentPageParagraph>
+          Below is an illustration of the <i>Felidae</i> family tree. Hover over
+          each image in the tree to reveal its genus. (Cats in the same
+          lineage have the same background color).
+        </ContentPageParagraph>
+
+        <HintSignpost
+          hintText="Hover over images below to reveal the genera in the Felidae family"
+          iconName="arrow circle down"
+        />
+
+        <div className={getElementStyleClassName("HistoryPageSubsectionFelidaeFamilyTreeCore")}>
+          <FelidaeFamilyTree />
+        </div>
+
+        <MediaLinkButton
+          href="https://www.wildcatfamily.com/felidae-evolution/"
+          title='Learn more about Felidae Evolution'
+          icon="file alternate outline"
+        />
+      </ContentPageSubsectionPart>
     );
   }
 }

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 24, 2020
+ * Updated  : Jul 25, 2020
  */
 
 import React from 'react'
@@ -13,6 +13,7 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPageSubsectionThreeColumnContentTemplate'
+import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 
 import {
   ContentPageSubsectionColumnDataBinder,
@@ -55,34 +56,38 @@ export default class FuturePageSubsectionMissionPossible extends React.Component
 
   renderIntroPartContent(part) {
     return (
-      ContentPageSubsectionParagraphsContentBinder(part.content)
+      <ContentPageSubsectionPart>
+        {ContentPageSubsectionParagraphsContentBinder(part.content)}
+      </ContentPageSubsectionPart>
     );
   }
 
   renderBodyPartContent(part) {
     return (
-      <ContentPageSubsectionThreeColumnContentTemplate
-        lhsColumn={
-          ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder(
-            part.content["part_LandManagement"],
-          )
-        }
+      <ContentPageSubsectionPart>
+        <ContentPageSubsectionThreeColumnContentTemplate
+          lhsColumn={
+            ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder(
+              part.content["part_LandManagement"],
+            )
+          }
 
-        middleColumn={
-          ContentPageSubsectionColumnDataBinder(
-            part.content["part_LivestockManagement"],
-            this.renderMiddleColumnContent
-          )
-        }
+          middleColumn={
+            ContentPageSubsectionColumnDataBinder(
+              part.content["part_LivestockManagement"],
+              this.renderMiddleColumnContent
+            )
+          }
 
-        rhsColumn={
-          ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder(
-            part.content["part_WildlifeManagement"],
-          )
-        }
+          rhsColumn={
+            ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder(
+              part.content["part_WildlifeManagement"],
+            )
+          }
 
-        showTitleInMiddleColumn={true}
-      />
+          showTitleInMiddleColumn={true}
+        />
+      </ContentPageSubsectionPart>
     );
   }
 

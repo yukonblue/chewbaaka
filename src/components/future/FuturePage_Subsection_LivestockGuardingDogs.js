@@ -12,6 +12,7 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -64,7 +65,7 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
 
   renderPartHistory(part) {
     return (
-      <div className="VerticalCushionPadding">
+      <ContentPageSubsectionPart>
         <ContentPageSubsectionSubtitle>
           {part.title}
         </ContentPageSubsectionSubtitle>
@@ -77,70 +78,76 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
             style={{width: 1200}}
           />
         </div>
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderPartRaisingLGDs(part) {
     return (
-      <div className="OverflowHidden VerticalCushionPadding">
-        <ContentPageSubsectionSubtitle>
-          {part.title}
-        </ContentPageSubsectionSubtitle>
-        <div className="FloatRight">
-          <ImageView
-            image={image_CCF_anatolian_shepherd_puppies}
-            caption="Anatolian Shepherd puppies live alongside with the herd."
-            credit={kStringConstantCheetahConservationFund}
-            width={720}
-            height={480}
-          />
-        </div>
+      <ContentPageSubsectionPart>
+        <div className="OverflowHidden">
+          <ContentPageSubsectionSubtitle>
+            {part.title}
+          </ContentPageSubsectionSubtitle>
+          <div className="FloatRight">
+            <ImageView
+              image={image_CCF_anatolian_shepherd_puppies}
+              caption="Anatolian Shepherd puppies live alongside with the herd."
+              credit={kStringConstantCheetahConservationFund}
+              width={720}
+              height={480}
+            />
+          </div>
 
-        {ContentPageSubsectionParagraphsContentBinder(part.content)}
-      </div>
+          {ContentPageSubsectionParagraphsContentBinder(part.content)}
+        </div>
+      </ContentPageSubsectionPart>
     )
   }
 
   renderCCFYearOfTheLGDImage() {
     const width = 1000;
     return (
-      <div className="Centered VerticalCushionPadding" style={{width: width}}>
-        <ImageView
-          image={image_CCF_Year_of_the_LGD}
-          caption="Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program."
-          credit={kStringConstantCheetahConservationFund}
-          width={width}
-          height={299}
-        />
-      </div>
+      <ContentPageSubsectionPart>
+        <div className="Centered" style={{width: width}}>
+          <ImageView
+            image={image_CCF_Year_of_the_LGD}
+            caption="Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program."
+            credit={kStringConstantCheetahConservationFund}
+            width={width}
+            height={299}
+          />
+        </div>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderPartDogsSaveCheetahs(part) {
     return (
-      <div className="OverflowHidden VerticalCushionPadding">
-        <ContentPageSubsectionSubtitle>
-          {part.title}
-        </ContentPageSubsectionSubtitle>
-        <div className="FloatLeft HorizontalCusionPadding">
-          <img
-            src={image_Cheetah_and_LGD}
-            alt="Cheetah and LGD"
-            style={{width: 720}}
-          />
-        </div>
+      <ContentPageSubsectionPart>
+        <div className="OverflowHidden">
+          <ContentPageSubsectionSubtitle>
+            {part.title}
+          </ContentPageSubsectionSubtitle>
+          <div className="FloatLeft HorizontalCusionPadding">
+            <img
+              src={image_Cheetah_and_LGD}
+              alt="Cheetah and LGD"
+              style={{width: 720}}
+            />
+          </div>
 
-        {ContentPageSubsectionParagraphsContentBinder(part.content)}
+          {ContentPageSubsectionParagraphsContentBinder(part.content)}
 
-        <div style={{width: 960}} className="Centered">
-          <img
-            src={image_LGD}
-            alt="Livestock Guarding Dogs"
-            style={{width: 960}}
-          />
+          <div style={{width: 960}} className="Centered">
+            <img
+              src={image_LGD}
+              alt="Livestock Guarding Dogs"
+              style={{width: 960}}
+            />
+          </div>
         </div>
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 }
