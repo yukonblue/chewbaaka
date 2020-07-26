@@ -4,10 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 26, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import '../shared/ContentPageSharedStyles.css'
 
@@ -21,7 +21,6 @@ import {
 } from '../shared/ContentPageSubsectionContentBinder'
 
 import ImageSlidingGallery from '../shared/ImageSlidingGallery'
-import FlexibleContainer from '../shared/FlexibleContainer'
 
 export default class HistoryPageSubsectionCheetahsInSports extends React.Component {
 
@@ -80,11 +79,7 @@ export default class HistoryPageSubsectionCheetahsInSports extends React.Compone
 
   renderRhsContent() {
     return (
-      <div>
-        <FlexibleContainer>
-          {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
-        </FlexibleContainer>
-      </div>
+      ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)
     );
   }
 }

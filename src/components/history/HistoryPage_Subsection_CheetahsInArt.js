@@ -4,10 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 26, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import '../shared/ContentPageSharedStyles.css'
 
@@ -20,9 +20,7 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
-import FlexibleContainer from '../shared/FlexibleContainer'
-
-import ImageView from '../shared//ImageView'
+import ImageView from '../shared/ImageView'
 
 export default class HistoryPageSubsectionCheetahsInArt extends React.Component {
 
@@ -58,22 +56,16 @@ export default class HistoryPageSubsectionCheetahsInArt extends React.Component 
 
   renderLhsContent() {
     return (
-      <div>
-        <FlexibleContainer> 
-          {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
-        </FlexibleContainer>
-      </div>
+      ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)
     );
   }
 
   renderRhsContent() {
     return (
-      <div>
-        <ImageView
-          image="https://www.thevintagenews.com/wp-content/uploads/2017/03/the-special-relationship-between-ancient-people-and-cheetahs-3-451x640.jpg"
-          caption="Paintings of cheetahs were popular during the Renaissance."
-        />
-      </div>
+      <ImageView
+        image="https://www.thevintagenews.com/wp-content/uploads/2017/03/the-special-relationship-between-ancient-people-and-cheetahs-3-451x640.jpg"
+        caption="Paintings of cheetahs were popular during the Renaissance."
+      />
     );
   }
 }

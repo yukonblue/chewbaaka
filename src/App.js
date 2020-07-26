@@ -4,12 +4,17 @@
  *
  * Author   : Tomiko
  * Created  : Jun 30, 2020
- * Updated  : Jul 19, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
 
-import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect
+} from 'react-router-dom'
 
 import HomePage from './components/homepage/HomePage'
 
@@ -19,6 +24,9 @@ import EcologyPage from './components/ecology/EcologyPage'
 import FuturePage from './components/future/FuturePage'
 
 import TestPage from './components/shared/TestPage'
+
+import './components/shared/GlobalPageStyles.css'
+import './styling/DebugStyles.css'
 
 export default class App extends React.Component {
   render() {

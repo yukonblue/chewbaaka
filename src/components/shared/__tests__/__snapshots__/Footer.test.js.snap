@@ -90,12 +90,10 @@ exports[`Footer component snapshot 1`] = `
           >
             <a
               href="https://cheetah.org/"
-              rel=" noopener noreferrer"
-              target="_blank"
             >
               Cheetah Conservation Fund
             </a>
-             is a 501(c)(3) nonprofit organization, dedicated to saving the cheetah in the wild and changing the world to be a better place.
+             is a 501(c)(3) nonprofit organization, dedicated to saving the cheetahs in the wild and changing the world to be a better place.
           </p>
           <p>
             This site is not an affiliation of Cheetah Conservation Fund.

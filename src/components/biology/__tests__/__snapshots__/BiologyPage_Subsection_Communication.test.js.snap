@@ -75,60 +75,68 @@ exports[`BiologyPageSubsectionCommunication component snapshot 1`] = `
                 </div>
               </div>
             </div>
-            <div
-              className=""
-            >
-              <ul>
-                <li
-                  className="ContentPageBulletTextStyle"
-                >
+            <ul>
+              <li
+                className="ContentPageRegularTextSize ContentPageBulletTextStyle"
+              >
+                <span>
                   <b>
                     Purr
                   </b>
                    - as with domestic cats this sound indicates a friendly and contended mood.
-                </li>
-                <li
-                  className="ContentPageBulletTextStyle"
-                >
+                </span>
+              </li>
+              <li
+                className="ContentPageRegularTextSize ContentPageBulletTextStyle"
+              >
+                <span>
                   <b>
                     Chirp
                   </b>
                    - A high pitched bird-like chirp is used by a mother calling her cubs, cheetahs greeting each other and during courtship. These calls can be heard over a long distance. The intensity of the chirp increases with excitement.
-                </li>
-                <li
-                  className="ContentPageBulletTextStyle"
-                >
+                </span>
+              </li>
+              <li
+                className="ContentPageRegularTextSize ContentPageBulletTextStyle"
+              >
+                <span>
                   <b>
                     Stutter call
                   </b>
                    - A male on the trail of a female in heat will use this call. It is also used by a mother asking her cubs to follow closely.
-                </li>
-                <li
-                  className="ContentPageBulletTextStyle"
-                >
+                </span>
+              </li>
+              <li
+                className="ContentPageRegularTextSize ContentPageBulletTextStyle"
+              >
+                <span>
                   <b>
                     Growling, hissing
                   </b>
                    - These sounds are associated with defense and aggression. With these vocalizations, they may lunge and slap the ground, alternatively crouching and growling.
-                </li>
-                <li
-                  className="ContentPageBulletTextStyle"
-                >
+                </span>
+              </li>
+              <li
+                className="ContentPageRegularTextSize ContentPageBulletTextStyle"
+              >
+                <span>
                   <b>
                     Bleating
                   </b>
                    - This sound expresses distress and is similar to meowing.
-                </li>
-                <li
-                  className="ContentPageBulletTextStyle"
-                >
+                </span>
+              </li>
+              <li
+                className="ContentPageRegularTextSize ContentPageBulletTextStyle"
+              >
+                <span>
                   <b>
                     Inn-inn
                   </b>
                    - This call is used by a mother to summon her young and alternates with chirping.
-                </li>
-              </ul>
-            </div>
+                </span>
+              </li>
+            </ul>
           </div>
           <div>
             <a

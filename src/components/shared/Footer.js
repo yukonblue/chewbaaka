@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
@@ -50,8 +50,8 @@ export default function Footer() {
                 {kStringConstantCheetahConservationFund}
               </Header>
               <p data-testid="footerSectionCCF">
-                <a href="https://cheetah.org/" target="_blank" rel=" noopener noreferrer">{kStringConstantCheetahConservationFund}</a> is a 501(c)(3) nonprofit organization,
-                dedicated to saving the cheetah in the wild and changing
+                <a href="https://cheetah.org/">{kStringConstantCheetahConservationFund}</a> is a 501(c)(3) nonprofit organization,
+                dedicated to saving the cheetahs in the wild and changing
                 the world to be a better place.
               </p>
               <p>

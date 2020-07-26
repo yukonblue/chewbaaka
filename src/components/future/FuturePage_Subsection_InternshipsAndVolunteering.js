@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
@@ -15,6 +15,7 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
+import ContentPageRegularUnorderedList from '../shared/ContentPageRegularUnorderedList'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -89,15 +90,9 @@ export default class FuturePageSubsectionInternshipsAndVolunteering extends Reac
         </ContentPageSubsectionSubtitle>
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
 
-        <ul>
-          {
-            part["internship_list_items"].map(
-              (item, idx) => (
-                <li key={idx} className="ContentPageBulletTextStyle">{item}</li>
-              )
-            )
-          }
-        </ul>
+        <ContentPageRegularUnorderedList
+          obj={part["internship_list_items"]}
+        />
       </div>
     );
   }

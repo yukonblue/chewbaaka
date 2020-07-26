@@ -4,12 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 export const config = {
   pageProps: {
-    coverImage: "History_Page_Banner_Image.jpg",
+    coverImage: "History_Page_Cover_Image.jpg",
     title: "History",
     subtitle: "Learn about the evolution and migration of the species, its relationship with man throughout history, and its population and ranges.",
     pageMenuItems: [

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 /** ----------------------------- CONTAINER -------------------------------- **/
@@ -90,12 +90,11 @@ div.BottomMargin50px {
 
 /** ------------------------------- TEXT ----------------------------------- **/
 
-p.ContentPageRegularTextSize {
+.ContentPageRegularTextSize {
   font-size: 16px;
 }
 
 li.ContentPageBulletTextStyle {
-  font-size: 16px;
   line-height: 2.0em;
 }
 
