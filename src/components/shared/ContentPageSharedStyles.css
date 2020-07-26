@@ -72,6 +72,14 @@ div.HorizontalCusionPadding {
   padding: 0 50px;
 }
 
+div.HorizontalCusionPaddingLeft {
+  padding-left: 40px;
+}
+
+div.HorizontalCusionPaddingRight {
+  padding-right: 40px;
+}
+
 div.LeftMargin50px {
   margin-left: 50px;
 }
@@ -91,7 +99,17 @@ div.BottomMargin50px {
 /** ------------------------------- TEXT ----------------------------------- **/
 
 .ContentPageRegularTextSize {
-  font-size: 16px;
+  font-size: 18px;
+}
+
+p.ContentPageContentParagraphText {
+  padding: 15px;
+  line-height: 1.8;
+}
+
+p.ContentPageContentParagraphText_DebugColor {
+  color: chocolate;
+  background-color: palegoldenrod;
 }
 
 li.ContentPageBulletTextStyle {
@@ -99,19 +117,11 @@ li.ContentPageBulletTextStyle {
 }
 
 p.ContentPageCaptionTextSize {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 p.ContentPageCaptionTextSize_DebugColor {
   color: aqua;
-}
-
-p.ContentPageContentParagraphText_DebugColor {
-  color: chocolate;
-}
-
-p.ContentPageContentParagraphText {
-  line-height: 1.8em;
 }
 
 span.TaxonomyBinomialName {

@@ -4,14 +4,15 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Jul 17, 2020
+ * Updated  : Jul 26, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFluidContainer'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -34,28 +35,26 @@ export default class BiologyPageSubsectionRipAndTear extends React.Component {
 
   render() {
     return (
-      <div className="">
-        <ContentPageSubsectionTemplate
-          title={this.state.subsectionConfig.title}
-          content={this.renderContent()}
-        />
-      </div>
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
     )
   }
 
   renderContent() {
     return (
-      <div className="OverflowHidden">
-        <div className="FloatRight">
+      <ContentPageSideFloatFluidContainer
+        floatPart={
           <ImageView
             image={image_cheetah_teeth}
             caption="The three types of teeth of the cheetah: the incisors, canines, and carnassial."
             width={640}
             height={505}
           />
-        </div>
-        {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
-      </div>
+        }
+        fixedPart={ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
+      />
     );
   }
 }

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 div.ContentPageSectionHeadOuterContainer {
@@ -40,7 +40,7 @@ h2.ContentPageSectionHeadTitle_DebugColor {
 }
 
 p.ContentPageSectionSubtitleText {
-  line-height: 1.7;
+  line-height: 1.8;
   margin: 0 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;

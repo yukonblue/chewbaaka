@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
@@ -15,6 +15,7 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageParagraph from '../shared/ContentPageParagraph'
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
+import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFluidContainer'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -86,17 +87,24 @@ export default class EcologyPageSubsectionTheFarmingCommunity extends React.Comp
         <ContentPageSubsectionSubtitle>
           {part.title}
         </ContentPageSubsectionSubtitle>
-        <div className="FloatRight">
-          <ImageView
-            image={image_CCF_GWL_map}
-            caption="Cheetah Conservation Fund works with communal farmers and people living around the Greater Waterberg Landscape Conservancy."
-            credit={kStringConstantCheetahConservationFund}
-            width={600}
-            height={471}
-          />
-        </div>
-        {ContentPageSubsectionParagraphsContentBinder(part.content)}
+
+        <ContentPageSideFloatFluidContainer
+          floatPart={this.renderFloatPart()}
+          fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
+        />
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderFloatPart() {
+    return (
+      <ImageView
+        image={image_CCF_GWL_map}
+        caption="Cheetah Conservation Fund works with communal farmers and people living around the Greater Waterberg Landscape Conservancy."
+        credit={kStringConstantCheetahConservationFund}
+        width={600}
+        height={471}
+      />
     );
   }
 }

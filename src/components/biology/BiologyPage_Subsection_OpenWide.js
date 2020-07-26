@@ -4,15 +4,16 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
+import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFluidContainer'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -35,12 +36,10 @@ export default class BiologyPageSubsectionOpenWide extends React.Component {
 
   render() {
     return (
-      <div className="">
-        <ContentPageSubsectionTemplate
-          title={this.state.subsectionConfig.title}
-          content={this.renderContent()}
-        />
-      </div>
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
     )
   }
 
@@ -57,12 +56,17 @@ export default class BiologyPageSubsectionOpenWide extends React.Component {
   renderPart1() {
     return (
       <ContentPageSubsectionPart>
-        <div className="OverflowHidden">
-          <div className="FloatRight">
-            <img src={image_open_wide} alt="" width={320} height={320} />  
-          </div>
-          {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents.part1)}
-        </div>
+        <ContentPageSideFloatFluidContainer
+          floatPart={
+            <img
+              src={image_open_wide}
+              alt="Open wide"
+              width={320}
+              height={320}
+            />
+          }
+          fixedPart={ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents.part1)}
+        />
       </ContentPageSubsectionPart>
     );
   }
@@ -70,12 +74,16 @@ export default class BiologyPageSubsectionOpenWide extends React.Component {
   renderPart2() {
     return (
       <ContentPageSubsectionPart>
-        <div className="OverflowHidden">
-          <div className="FloatLeft">
-            <img src={image_cheetah_tongue} alt="Papillae on cheetah's tongue" />  
-          </div>
-          {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents.part2)}
-        </div>
+        <ContentPageSideFloatFluidContainer
+          floatPart={
+            <img
+              src={image_cheetah_tongue}
+              alt="Papillae on cheetah's tongue"
+            />
+          }
+          fixedPart={ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents.part2)}
+          RTL={true}
+        />
       </ContentPageSubsectionPart>
     );
   }
@@ -83,12 +91,15 @@ export default class BiologyPageSubsectionOpenWide extends React.Component {
   renderPart3() {
     return (
       <ContentPageSubsectionPart>
-        <div className="OverflowHidden">
-          <div className="FloatRight">
-            <img src={image_cheetah_grooming} alt="Cheetah grooming" />
-          </div>
-          {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents.part3)}
-        </div>
+        <ContentPageSideFloatFluidContainer
+          floatPart={
+            <img
+              src={image_cheetah_grooming}
+              alt="Cheetah grooming"
+            />
+          }
+          fixedPart={ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents.part3)}
+        />
       </ContentPageSubsectionPart>
     );
   }

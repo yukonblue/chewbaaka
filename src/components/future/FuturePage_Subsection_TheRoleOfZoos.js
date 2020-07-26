@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
@@ -14,6 +14,7 @@ import '../shared/ContentPageSharedStyles.css'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
+import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFluidContainer'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -66,21 +67,21 @@ export default class FuturePageSubsectionTheRoleOfZoos extends React.Component {
   renderAmbassadorPartContent(part) {
     return (
       <ContentPageSubsectionPart>
-        <div className="OverflowHidden">
-          <ContentPageSubsectionSubtitle>
-            {part.title}
-          </ContentPageSubsectionSubtitle>
-          <div className="FloatRight">
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
+
+        <ContentPageSideFloatFluidContainer
+          floatPart={
             <ImageView
               image={image_cincinnati_zoo_cheetah_sarah}
               caption="In 2009, Cincinnati Zoo's cheetah Sarah set the record of the world's fastest cheetah, as she sprant 100m in just 6.13 seconds. The best record for 100m by humans was from Usain Bolt, finishing in 9.58 seconds."
               width={720}
               height={406}
             />
-          </div>
-
-          {ContentPageSubsectionParagraphsContentBinder(part.content)}
-        </div>
+          }
+          fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
+        />
       </ContentPageSubsectionPart>
     );
   }

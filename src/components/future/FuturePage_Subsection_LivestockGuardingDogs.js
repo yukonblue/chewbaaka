@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
@@ -13,6 +13,7 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
+import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFluidContainer'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -85,11 +86,12 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
   renderPartRaisingLGDs(part) {
     return (
       <ContentPageSubsectionPart>
-        <div className="OverflowHidden">
-          <ContentPageSubsectionSubtitle>
-            {part.title}
-          </ContentPageSubsectionSubtitle>
-          <div className="FloatRight">
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
+
+        <ContentPageSideFloatFluidContainer
+          floatPart={
             <ImageView
               image={image_CCF_anatolian_shepherd_puppies}
               caption="Anatolian Shepherd puppies live alongside with the herd."
@@ -97,10 +99,9 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
               width={720}
               height={480}
             />
-          </div>
-
-          {ContentPageSubsectionParagraphsContentBinder(part.content)}
-        </div>
+          }
+          fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
+        />          
       </ContentPageSubsectionPart>
     )
   }
@@ -125,27 +126,27 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
   renderPartDogsSaveCheetahs(part) {
     return (
       <ContentPageSubsectionPart>
-        <div className="OverflowHidden">
-          <ContentPageSubsectionSubtitle>
-            {part.title}
-          </ContentPageSubsectionSubtitle>
-          <div className="FloatLeft HorizontalCusionPadding">
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
+
+        <ContentPageSideFloatFluidContainer
+          floatPart={
             <img
               src={image_Cheetah_and_LGD}
               alt="Cheetah and LGD"
               style={{width: 720}}
             />
-          </div>
+          }
+          fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
+        />
 
-          {ContentPageSubsectionParagraphsContentBinder(part.content)}
-
-          <div style={{width: 960}} className="Centered">
-            <img
-              src={image_LGD}
-              alt="Livestock Guarding Dogs"
-              style={{width: 960}}
-            />
-          </div>
+        <div style={{width: 960}} className="Centered">
+          <img
+            src={image_LGD}
+            alt="Livestock Guarding Dogs"
+            style={{width: 960}}
+          />
         </div>
       </ContentPageSubsectionPart>
     );

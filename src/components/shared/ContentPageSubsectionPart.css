@@ -4,11 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 25, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 div.ContentPageSubsectionPartContainer {
-  margin: 20px auto;  
+  margin: 20px auto;
+  padding: 20px 0px;
 }
 
 div.ContentPageSubsectionPartContainer_DebugColor {

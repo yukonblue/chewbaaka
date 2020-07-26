@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
@@ -12,6 +12,7 @@ import React from 'react'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageParagraph from '../shared/ContentPageParagraph'
+import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFluidContainer'
 
 import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
@@ -58,21 +59,22 @@ export default class FuturePageSubsectionFutureFarmersOfAfrica extends React.Com
   renderPart1Content() {
     return (
       <ContentPageSubsectionPart>
-        <div style={{height: 280}}>
-          <div className="FloatRight">
-            <div className="HorizontalCusionPadding" style={{width:320}}>
+        <ContentPageSideFloatFluidContainer
+          floatPart={
+            <div style={{width:240}}>
               <StatsLabel
                 value="90%"
                 label="of the cheetah population in Namibia lives on farmlands alongside 80% of the country’s wildlife species"
                 color="orange"
               />
             </div>
-          </div>
-
-          <ContentPageParagraph>
-            {this.state.subsectionConfig.contents["paragraph_FutureFarmersOfAfrica_01"]}
-          </ContentPageParagraph>
-        </div>
+          }
+          fixedPart={
+            <ContentPageParagraph>
+              {this.state.subsectionConfig.contents["paragraph_FutureFarmersOfAfrica_01"]}
+            </ContentPageParagraph>
+          }
+        />
       </ContentPageSubsectionPart>
     );
   }
@@ -80,29 +82,32 @@ export default class FuturePageSubsectionFutureFarmersOfAfrica extends React.Com
   renderPart2Content() {
     return (
       <ContentPageSubsectionPart>
-        <div className="OverflowHidden BottomMargin50px">
-          <div className="FloatLeft">
-            <div className="HorizontalCusionPadding VerticalCushionPadding">
-              <ImageView
-                image={image_CCF_FFA_01}
-                caption="Farmers participate in FFA training courses."
-                credit={kStringConstantCheetahConservationFund}
-                width={742}
-                height={370}
-              />
-            </div>
-          </div>
 
-          <ContentPageParagraph>
-            {this.state.subsectionConfig.contents["paragraph_FutureFarmersOfAfrica_02"]}
-          </ContentPageParagraph>
-          <ContentPageParagraph>
-            {this.state.subsectionConfig.contents["paragraph_FutureFarmersOfAfrica_03"]}
-          </ContentPageParagraph>
-          <ContentPageParagraph>
-            {this.state.subsectionConfig.contents["paragraph_FutureFarmersOfAfrica_04"]}
-          </ContentPageParagraph>
-        </div>
+        <ContentPageSideFloatFluidContainer
+          floatPart={
+            <ImageView
+              image={image_CCF_FFA_01}
+              caption="Farmers participate in FFA training courses."
+              credit={kStringConstantCheetahConservationFund}
+              width={742}
+              height={370}
+            />
+          }
+          fixedPart={
+            <div>
+              <ContentPageParagraph>
+                {this.state.subsectionConfig.contents["paragraph_FutureFarmersOfAfrica_02"]}
+              </ContentPageParagraph>
+              <ContentPageParagraph>
+                {this.state.subsectionConfig.contents["paragraph_FutureFarmersOfAfrica_03"]}
+              </ContentPageParagraph>
+              <ContentPageParagraph>
+                {this.state.subsectionConfig.contents["paragraph_FutureFarmersOfAfrica_04"]}
+              </ContentPageParagraph>
+            </div>
+          }
+          RTL={true}
+        />
       </ContentPageSubsectionPart>
     );
   }

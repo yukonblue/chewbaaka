@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 18, 2020
- * Updated  : Jul 19, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
@@ -12,6 +12,7 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFluidContainer'
 
 import {
   ContentPageSubsectionParagraphsJoin
@@ -36,35 +37,32 @@ export default class BiologyPageSubsectionLearningToHunt extends React.Component
 
   render() {
     return (
-      <div className="">
-        <ContentPageSubsectionTemplate
-          title={this.state.subsectionConfig.title}
-          content={this.renderContent()}
-        />
-      </div>
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
     )
   }
 
   renderContent() {
     return (
-      <div className="OverflowHidden VerticalCushionPadding">
-        <div className="FloatRight">
+      <ContentPageSideFloatFluidContainer
+        floatPart={
           <ImageView
             image={image_cheetah_cubs_learning_hunting}
             caption="Cheetah cubs learning how to hunt."
             width={720}
             height={480}
           />
-        </div>
-
-        <div className="LeftMargin50px">
+        }
+        fixedPart={
           <TextBubble
             diameter={520}
             title={this.state.subsectionConfig.title}
             content={ContentPageSubsectionParagraphsJoin(this.state.subsectionConfig.contents)}
           />
-        </div>
-      </div>
+        }
+      />
     );
   }
 }

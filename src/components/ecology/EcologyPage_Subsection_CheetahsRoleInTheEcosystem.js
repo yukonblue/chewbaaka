@@ -4,18 +4,18 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
-
-import { Grid } from 'semantic-ui-react'
 
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
+import ContentPageTwoColumnImageGallary from '../shared/ContentPageTwoColumnImageGallary'
+import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFluidContainer'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -62,22 +62,21 @@ export default class EcologyPageSubsectionCheetahsRoleInTheEcosystem extends Rea
   renderCheetahsRoleSectionContent(part) {
     return (
       <ContentPageSubsectionPart>
-        <div className="OverflowHidden">
-          <ContentPageSubsectionSubtitle>
-            {part.title}
-          </ContentPageSubsectionSubtitle>
+        <ContentPageSubsectionSubtitle>
+          {part.title}
+        </ContentPageSubsectionSubtitle>
 
-          <div className="FloatRight">
+        <ContentPageSideFloatFluidContainer
+          floatPart={
             <ImageView
               image={image_savanna_food_web}
               caption="A simplified illustration of the food web of a savanna ecosystem."
-              width={750}
-              height={646}
+              width={640}
+              height={552}
             />
-          </div>
-
-          {ContentPageSubsectionParagraphsContentBinder(part.content)}
-        </div>
+          }
+          fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
+        />
       </ContentPageSubsectionPart>
     );
   }
@@ -91,26 +90,22 @@ export default class EcologyPageSubsectionCheetahsRoleInTheEcosystem extends Rea
 
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
 
-        <div className="Centered">
-          <Grid columns={2}>
-            <Grid.Column width={8}>
-              <ImageView
-                image={image_cheetah_hyena_competition}
-                caption="Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains."
-                width={640}
-                height={360}
-              />
-            </Grid.Column>
-            <Grid.Column>
-              <ImageView
-                image={image_cheetah_lion_competition}
-                caption="Lions will often take over the cheetah's prey easily as they are superior in strength."
-                width={480}
-                height={360}
-              />
-            </Grid.Column>
-          </Grid>
-        </div>
+        <ContentPageTwoColumnImageGallary
+          parts={[
+            {
+              image: image_cheetah_hyena_competition,
+              caption: "Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains.",
+              width: 640,
+              height: 360
+            },
+            {
+              image: image_cheetah_lion_competition,
+              caption: "Lions will often take over the cheetah's prey easily as they are superior in strength.",
+              width: 480,
+              height: 360
+            }
+          ]}
+        />
       </ContentPageSubsectionPart>
     );
   }

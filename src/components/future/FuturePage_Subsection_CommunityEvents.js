@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
@@ -12,6 +12,7 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFluidContainer'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -47,8 +48,8 @@ export default class FuturePageSubsectionCommunityEvents extends React.Component
 
   renderContent() {
     return (
-      <div className="OverflowHidden">
-        <div className="FloatLeft HorizontalCusionPadding">
+      <ContentPageSideFloatFluidContainer
+        floatPart={
           <ImageView
             image={image_CCF_Livelihood_Development}
             caption="CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program."
@@ -56,10 +57,10 @@ export default class FuturePageSubsectionCommunityEvents extends React.Component
             width={960}
             height={576}
           />
-        </div>
-
-        {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.content)}
-      </div>
+        }
+        fixedPart={ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.content)}
+        RTL={true}
+      />
     );
   }
 }

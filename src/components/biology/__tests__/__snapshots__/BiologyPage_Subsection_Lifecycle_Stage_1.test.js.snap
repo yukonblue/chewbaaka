@@ -2,108 +2,104 @@
 
 exports[`BiologyPageSubsectionLifecycleStage1 component snapshot 1`] = `
 <div
-  className=""
+  className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
 >
   <div
-    className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+    className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
   >
-    <div
-      className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+    <h3
+      className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
     >
-      <h3
-        className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
-      >
-        Stage 1
-      </h3>
+      Stage 1
+    </h3>
+    <div
+      className="OverflowHidden"
+    >
       <div
-        className="OverflowHidden"
+        className="FloatRight HorizontalCusionPaddingLeft"
       >
         <div
-          className="FloatRight"
+          className="ImageViewOuterContainer"
         >
           <div
-            className="ImageViewOuterContainer"
+            className="ImageViewInnerContainer"
           >
             <div
-              className="ImageViewInnerContainer"
+              className="ImageViewCore"
             >
+              <img
+                alt="Cheetah cubs are born blind, so they need their mother's care."
+                className="ImageViewImg"
+                src="cheetah_mom_carry_cub.jpg"
+                style={
+                  Object {
+                    "height": 480,
+                    "width": 320,
+                  }
+                }
+              />
               <div
-                className="ImageViewCore"
+                data-testid="ImageViewComponentCaptionPart"
               >
-                <img
-                  alt="Cheetah cubs are born blind, so they need their mother's care."
-                  className="ImageViewImg"
-                  src="cheetah_mom_carry_cub.jpg"
+                <div
+                  className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                  data-testid="CaptionComponentTestId"
                   style={
                     Object {
-                      "height": 480,
                       "width": 320,
                     }
                   }
-                />
-                <div
-                  data-testid="ImageViewComponentCaptionPart"
                 >
                   <div
-                    className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "width": 320,
-                      }
-                    }
+                    className="IconContainer IconContainer_DebugColor DebugWireframe"
                   >
-                    <div
-                      className="IconContainer IconContainer_DebugColor DebugWireframe"
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
-                    </div>
-                    <p
-                      className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
-                    >
-                      Cheetah cubs are born blind, so they need their mother's care.
-                    </p>
+                    <i
+                      aria-hidden="true"
+                      className="image icon"
+                      onClick={[Function]}
+                    />
                   </div>
+                  <p
+                    className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                  >
+                    Cheetah cubs are born blind, so they need their mother's care.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-        >
-          The female’s gestation period lasts 90 to 95 days. This means she is pregnant for about three months.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-        >
-          Shortly before she is ready to give birth, the mother makes a den in a quiet hidden spot. She chooses her location in the tall grass think underbrush or near a clump of rocks.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-        >
-          A cheetah gives birth to an average of five to six cubs. Each cub weights between 250 to 425 grams. Cubs are born completely helpless and with their eyes closed, but they developer rapidly. Scent and touch are used to find their mother’s nipples to suckle.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-        >
-          They start crawling around the nest area at four to ten days when their eyes begin to open. At three weeks their teeth break through the gums.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-        >
-          A mother cheetah will frequently move her litter. This prevents a build-up of scent of the den site, which may lead other predators to the cubs. She carries very young cubs in her jaws.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-        >
-          The cubs are very vulnerable to lions, hyenas and other predators when the female leaves them alone. When hunting she may be away for up to 48 hours. In Tanzania’s Serengeti National Park, 90% of all cubs do not reach the age of 3 months! Other causes of death are abandonment when prey is scarce, exposure due to low temperates or grass fires.
-        </p>
       </div>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+      >
+        The female’s gestation period lasts 90 to 95 days. This means she is pregnant for about three months.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+      >
+        Shortly before she is ready to give birth, the mother makes a den in a quiet hidden spot. She chooses her location in the tall grass think underbrush or near a clump of rocks.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+      >
+        A cheetah gives birth to an average of five to six cubs. Each cub weights between 250 to 425 grams. Cubs are born completely helpless and with their eyes closed, but they developer rapidly. Scent and touch are used to find their mother’s nipples to suckle.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+      >
+        They start crawling around the nest area at four to ten days when their eyes begin to open. At three weeks their teeth break through the gums.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+      >
+        A mother cheetah will frequently move her litter. This prevents a build-up of scent of the den site, which may lead other predators to the cubs. She carries very young cubs in her jaws.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+      >
+        The cubs are very vulnerable to lions, hyenas and other predators when the female leaves them alone. When hunting she may be away for up to 48 hours. In Tanzania’s Serengeti National Park, 90% of all cubs do not reach the age of 3 months! Other causes of death are abandonment when prey is scarce, exposure due to low temperates or grass fires.
+      </p>
     </div>
   </div>
 </div>
