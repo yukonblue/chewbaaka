@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
@@ -12,6 +12,7 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageRegularUnorderedList from '../shared/ContentPageRegularUnorderedList'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -74,20 +75,19 @@ export default class BiologyPageSubsectionCommunication extends React.Component 
 
   renderVocalizationList(vocalizations) {
     return (
-      <div className="">
-        <ul>
-          {vocalizations.map(this.renderVocalizationItem)}
-        </ul>
-      </div>
+      <ContentPageRegularUnorderedList
+        obj={vocalizations}
+        formatter={this.vocalizationListItemFormatter}
+      />
     );
   }
 
-  renderVocalizationItem(item, idx) {
+  vocalizationListItemFormatter(item) {
     return (
-      <li key={idx} className="ContentPageBulletTextStyle">
+      <span>
         <b>{item.name}</b>
-         {" - " + item.description}
-      </li>
+        {" - " + item.description}
+      </span>
     );
   }
 

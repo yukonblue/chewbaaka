@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
@@ -15,6 +15,7 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
+import ContentPageRegularUnorderedList from '../shared/ContentPageRegularUnorderedList'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -179,15 +180,10 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
               alt="CCF Bushblok"
             />
           </div>
-          <ul>
-            {
-              part.content["objective_list_items"].map(
-                (item, idx) => (
-                  <li key={idx} className="ContentPageBulletTextStyle">{item}</li>
-                )
-              )
-            }
-          </ul>
+
+          <ContentPageRegularUnorderedList
+            obj={part.content["objective_list_items"]}
+          />
         </div>
       </ContentPageSubsectionPart>
     );
