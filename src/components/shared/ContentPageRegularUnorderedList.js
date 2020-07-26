@@ -14,7 +14,7 @@ export default function ContentPageRegularUnorderedList({ obj, formatter }) {
     <ul>
       {
         obj.map((item, idx) => (
-          <li key={idx} className="ContentPageBulletTextStyle">
+          <li key={idx} className="ContentPageRegularTextSize ContentPageBulletTextStyle">
             {(formatter ? formatter(item) : item)}
           </li>
         ))
