@@ -4,14 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 25, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import { Statistic, Segment } from 'semantic-ui-react'
 
-import "semantic-ui-css/semantic.min.css";
+import "semantic-ui-css/semantic.min.css"
 
 import '../shared/ContentPageSharedStyles.css'
 import './HistoryPage_Subsection_RoadToExtinction.css'
@@ -19,6 +19,7 @@ import './HistoryPage_Subsection_RoadToExtinction.css'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPageSubsectionThreeColumnContentTemplate'
+import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 
 import HistoryPageCheetahPopulationIllustration from './HistoryPageCheetahPopulationIllustration'
 
@@ -61,60 +62,8 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
   renderContent() {
     return (
       <div className="HistoryPageSubsectionRoadToExtinctionInnerContainer">
-        <div className="DisplayInlineBlock">
-          
-        </div>
-
-        <div className="DisplayInlineBlock">
-          
-        </div>
-
-        <ContentPageSubsectionThreeColumnContentTemplate
-          lhsColumn={
-            ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder(
-              this.state.subsectionConfig.contents[HistoryPageSubsectionRoadToExtinction._COLUMN_DATA_NAME_LHS_]
-            )
-          }
-
-          middleColumn={{
-            content: this.renderMiddleColumnContent()
-          }}
-
-          rhsColumn={
-            ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder(
-              this.state.subsectionConfig.contents[HistoryPageSubsectionRoadToExtinction._COLUMN_DATA_NAME_RHS_]
-            )
-          }
-        />
-
-        {/* <MediaLinkButton
-          href="https://www.thehindu.com/sci-tech/energy-and-environment/what-drove-the-charismatic-cheetah-to-extinction-in-india/article30295377.ece"
-          title='What drove the charismatic cheetah to extinction in India?'
-          icon="file alternate outline"
-        /> */}
-
-        <ContentPageSubsectionTwoColumnContentTemplate
-          lhsColumn={{
-            content: this.renderStatsBoxHugeWithColor(
-                      "< 7,500",
-                      "Cheetahs were found in 31 populations in 23 African countries",
-                      "orange")
-          }}
-          rhsColumn={{
-            content: this.renderStatsBoxHugeWithColor(
-                      "< 50",
-                      "Asian cheetahs left in Iran",
-                      "red")
-          }}
-        />
-
-        <LineBreak lines={2} />
-
-        <MediaLinkButton
-          href="https://www.nationalgeographic.com/news/2016/12/cheetahs-extinction-endangered-africa-iucn-animals-science/"
-          title='Cheetahs Are Dangerously Close to Extinction | National Geographic'
-          icon="file alternate outline"
-        />
+        {this.renderThreeColumnPart()}
+        {this.renderStatisticsPart()}
       </div>
     );
   }
@@ -172,5 +121,58 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
         </div>
       </div>
     )
+  }
+
+  renderThreeColumnPart() {
+    return (
+      <ContentPageSubsectionPart>
+        <ContentPageSubsectionThreeColumnContentTemplate
+          lhsColumn={
+            ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder(
+              this.state.subsectionConfig.contents[HistoryPageSubsectionRoadToExtinction._COLUMN_DATA_NAME_LHS_]
+            )
+          }
+
+          middleColumn={{
+            content: this.renderMiddleColumnContent()
+          }}
+
+          rhsColumn={
+            ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder(
+              this.state.subsectionConfig.contents[HistoryPageSubsectionRoadToExtinction._COLUMN_DATA_NAME_RHS_]
+            )
+          }
+        />
+      </ContentPageSubsectionPart>
+    );
+  }
+
+  renderStatisticsPart() {
+    return (
+      <ContentPageSubsectionPart>
+        <ContentPageSubsectionTwoColumnContentTemplate
+          lhsColumn={{
+            content: this.renderStatsBoxHugeWithColor(
+                      "< 7,500",
+                      "Cheetahs were found in 31 populations in 23 African countries",
+                      "orange")
+          }}
+          rhsColumn={{
+            content: this.renderStatsBoxHugeWithColor(
+                      "< 50",
+                      "Asiatic cheetahs left in Iran",
+                      "red")
+          }}
+        />
+
+        <LineBreak lines={2} />
+
+        <MediaLinkButton
+          href="https://www.nationalgeographic.com/news/2016/12/cheetahs-extinction-endangered-africa-iucn-animals-science/"
+          title='Cheetahs Are Dangerously Close to Extinction | National Geographic'
+          icon="file alternate outline"
+        />
+      </ContentPageSubsectionPart>
+    );
   }
 }

@@ -12,7 +12,7 @@ import React from 'react'
 import { getElementStyleClassName } from '../../styling/styling'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
-
+import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
 import HistoryPageCheetahEvolutionMap from './HistoryPageCheetahEvolutionMap'
@@ -47,21 +47,23 @@ export default class HistoryPageSubsectionCheetahEvolution extends React.Compone
   renderContent() {
     return (
       <div className={getElementStyleClassName("HistoryPageSubsectionCheetahEvolutionInnerContainer")}>
-        <ContentPageSubsectionSubtitle>
-          Learn about the evolution and migration of the cheetah.
-        </ContentPageSubsectionSubtitle>
+        <ContentPageSubsectionPart>
+          <ContentPageSubsectionSubtitle>
+            Learn about the evolution and migration of the cheetah.
+          </ContentPageSubsectionSubtitle>
 
-        <div className={getElementStyleClassName("HistoryPageSubsectionCheetahEvolutionMapComponentContainer")}>
-          <HistoryPageCheetahEvolutionMap />
-        </div>
+          <div className={getElementStyleClassName("HistoryPageSubsectionCheetahEvolutionMapComponentContainer")}>
+            <HistoryPageCheetahEvolutionMap />
+          </div>
 
-        <LineBreak lines={2} />
+          <LineBreak lines={2} />
 
-        <MediaLinkButton
-          href="https://www.sciencedaily.com/releases/2015/12/151208204222.htm"
-          title='Cheetahs migrated from North America | ScienceDaily'
-          icon="file alternate outline"
-        />
+          <MediaLinkButton
+            href="https://www.sciencedaily.com/releases/2015/12/151208204222.htm"
+            title='Cheetahs migrated from North America | ScienceDaily'
+            icon="file alternate outline"
+          />
+        </ContentPageSubsectionPart>
       </div>
     );
   }
