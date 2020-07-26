@@ -89,8 +89,8 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                               <div
                                 className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
-                                <h2
-                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                <h4
+                                  className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
                                 />
                                 <div
                                   className="HistoryPageSubsectionCheetahAndManImageContentTextContainer"
@@ -132,8 +132,8 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                               <div
                                 className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
-                                <h2
-                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                <h4
+                                  className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
                                 />
                                 <div>
                                   <div
@@ -256,8 +256,8 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                               <div
                                 className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
-                                <h2
-                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                <h4
+                                  className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
                                 />
                                 <div>
                                   <div
@@ -339,8 +339,8 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                               <div
                                 className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
-                                <h2
-                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                <h4
+                                  className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
                                 />
                                 <div>
                                   <div
@@ -426,8 +426,8 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                               <div
                                 className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
-                                <h2
-                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                <h4
+                                  className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
                                 />
                                 <div>
                                   <div
@@ -467,8 +467,8 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                               <div
                                 className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
-                                <h2
-                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                <h4
+                                  className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
                                 />
                                 <div>
                                   <div

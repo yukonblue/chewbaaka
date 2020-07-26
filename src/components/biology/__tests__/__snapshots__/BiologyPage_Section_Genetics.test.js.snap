@@ -185,11 +185,11 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
                               <div
                                 className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
-                                <h2
-                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                <h4
+                                  className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
                                 >
                                   Crowded Lower Incisors
-                                </h2>
+                                </h4>
                                 <p
                                   className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
                                 >
@@ -203,11 +203,11 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
                               <div
                                 className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
-                                <h2
-                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                <h4
+                                  className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
                                 >
                                   Birth Defects
-                                </h2>
+                                </h4>
                                 <p
                                   className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
                                 >
@@ -243,11 +243,11 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
                               <div
                                 className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
-                                <h2
-                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                <h4
+                                  className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
                                 >
                                   Focal Palatine Erosion
-                                </h2>
+                                </h4>
                                 <p
                                   className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
                                 >
@@ -261,11 +261,11 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
                               <div
                                 className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                               >
-                                <h2
-                                  className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                                <h4
+                                  className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
                                 >
                                   Abnormal Sperm
-                                </h2>
+                                </h4>
                                 <p
                                   className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
                                 >
@@ -340,11 +340,11 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
                         </div>
                       </div>
                     </div>
-                    <h2
-                      className="ContentPageSubsectionColumnContentTitle"
+                    <h4
+                      className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
                     >
                       Kinked Tails
-                    </h2>
+                    </h4>
                     <p
                       className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
                     >

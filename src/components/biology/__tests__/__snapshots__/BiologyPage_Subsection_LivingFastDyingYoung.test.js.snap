@@ -38,11 +38,11 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                       <div
                         className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                       >
-                        <h2
-                          className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                        <h4
+                          className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
                         >
                           Male coalitions
-                        </h2>
+                        </h4>
                         <p
                           className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
                         >
@@ -61,8 +61,8 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                       <div
                         className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                       >
-                        <h2
-                          className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                        <h4
+                          className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
                         />
                         <div
                           className="ImageViewOuterContainer"
@@ -145,8 +145,8 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                       <div
                         className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                       >
-                        <h2
-                          className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                        <h4
+                          className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
                         />
                         <div
                           className="ImageViewOuterContainer"
@@ -207,11 +207,11 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                       <div
                         className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe"
                       >
-                        <h2
-                          className="ContentPageSubsectionColumnContentTitle ContentPageSubsectionColumnContentTitle_DebugColor DebugWireframe"
+                        <h4
+                          className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
                         >
                           Mortality
-                        </h2>
+                        </h4>
                         <p
                           className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
                         >
