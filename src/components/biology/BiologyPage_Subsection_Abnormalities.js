@@ -15,6 +15,7 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageParagraph from '../shared/ContentPageParagraph';
+import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
 import {
   ContentPageSubsectionColumnDataBinder
@@ -125,9 +126,9 @@ export default class BiologyPageSubsectionAbnormalities extends React.Component 
             />
           </div>
 
-          <h2 className="ContentPageSubsectionColumnContentTitle">
+          <ContentPageSubsectionSubtitle>
             {this.state.subsectionConfig.contents["part_Kinked_Tails"].title}
-          </h2>
+          </ContentPageSubsectionSubtitle>
           <ContentPageParagraph>
             {this.state.subsectionConfig.contents["part_Kinked_Tails"].content}
           </ContentPageParagraph>

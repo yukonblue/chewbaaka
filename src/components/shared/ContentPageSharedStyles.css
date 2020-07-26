@@ -144,25 +144,12 @@ h4.ContentPageSubsectionAlarmBannerSubtitle {
   border-bottom: 3px solid black;
 }
 
-h2.ContentPageSubsectionColumnContentTitle {
-  /**
-   * This is to ensure the element has zero height
-   * if the title is not specified.
-   */
-  margin: 0 auto;
+h5.ContentPageSubsectionSubtitleSecondary {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 
-h2.ContentPageSubsectionColumnContentTitle_DebugColor {
-  text-align: center;
-  color: goldenrod;
-  background-color: hotpink;
-}
-
-h3.ContentPageSubsectionColumnContentSubtitle {
-}
-
-h3.ContentPageSubsectionColumnContentSubtitle_DebugColor {
-  color: yellow;
+h5.ContentPageSubsectionSubtitleSecondary_DebugColor {
   background-color: indigo;
 }
 
