@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
@@ -61,9 +61,34 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
 
   renderContent() {
     return (
-      <div className="HistoryPageSubsectionRoadToExtinctionInnerContainer">
+      <div className="HistoryPageSubsectionRoadToExtinctionInnerContainer">        
         {this.renderThreeColumnPart()}
+        {this.renderCheetahRangeMapPart()}
         {this.renderStatisticsPart()}
+      </div>
+    );
+  }
+
+  renderCheetahRangeMapPart() {
+    return (
+      <div className={getElementStyleClassName("HistoryPageSubsectionRoadToExtinctionMiddleColumnContentImageSlideModalContainer")}>
+        <ImageSlideModal
+          slides={[
+            {
+              image: cheetah_range_map_01,
+              title: "Cheetah Range by Subspecies",
+              description: "Ranges with highest populations are in southern and eastern Africa. The Asiatic cheetahs are left only in the Persian Gulf."
+            },
+            {
+              image: cheetah_range_map_02,
+              title: "Cheetah Range Population Breakdown",
+              description: "Some ranges left have very small population left."
+            }
+          ]}
+        />
+        <p className={getElementStyleClassName("ContentPageCaptionTextSize")}>
+          Click on the map above see the cheetah's range.
+        </p>
       </div>
     );
   }
@@ -86,26 +111,6 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
   renderMiddleColumnContent() {
     return (
       <div className={getElementStyleClassName("HistoryPageSubsectionRoadToExtinctionMiddleColumnContentOuterContainer")}>
-        <div className={getElementStyleClassName("HistoryPageSubsectionRoadToExtinctionMiddleColumnContentImageSlideModalContainer")}>
-          <ImageSlideModal
-            slides={[
-              {
-                image: cheetah_range_map_01,
-                title: "Cheetah Range by Subspecies",
-                description: "Ranges with highest populations are in southern and eastern Africa. The Asiatic cheetahs are left only in the Persian Gulf."
-              },
-              {
-                image: cheetah_range_map_02,
-                title: "Cheetah Range Population Breakdown",
-                description: "Some ranges left have very small population left."
-              }
-            ]}
-          />
-          <p className={getElementStyleClassName("ContentPageCaptionTextSize")}>
-            Click on the map above to learn more.
-          </p>
-        </div>
-
         <div className={getElementStyleClassName("HistoryPageSubsectionRoadToExtinctionMiddleColumnContentCheetahPopulationIllustrationContainer")}>
           <HistoryPageCheetahPopulationIllustration />
         </div>
