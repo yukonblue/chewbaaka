@@ -4,11 +4,11 @@
  *
  * Author   : Tomiko
  * Created  : Jul 09, 2020
- * Updated  : Jul 11, 2020
+ * Updated  : Jul 26, 2020
  */
 
 div.ImageSlideOuterContainer {
-  display: inline-block;
+  display: block;
   padding: 20px;
 }
 

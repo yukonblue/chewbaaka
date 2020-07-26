@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 14, 2020
+ * Updated  : Jul 26, 2020
  */
 
 /**
@@ -51,6 +51,8 @@ import { Header, Label } from 'semantic-ui-react'
 import { Slider } from '@material-ui/core';
 
 import './ImageSlide.css'
+
+import ContentPageCaptionLabel from './ContentPageCaptionLabel'
 
 import { getElementStyleClassName } from '../../styling/styling'
 
@@ -125,7 +127,7 @@ class ImageSlide extends React.Component {
                 {this.state.marksDict[this.state.activeMark].label}
               </Label>
 
-              <p className="ContentPageRegularTextSize">
+              <p className={getElementStyleClassName("ContentPageCaptionTextSize")}>
                 {this.state.marksDict[this.state.activeMark].description}
               </p>
             </div>
