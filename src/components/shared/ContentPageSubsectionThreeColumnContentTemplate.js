@@ -12,6 +12,7 @@ import React from 'react'
 import "semantic-ui-css/semantic.min.css"
 
 import ContentPageSubsectionSubtitle from './ContentPageSubsectionSubtitle'
+import ContentPageSubsectionSubtitleSecondary from './ContentPageSubsectionSubtitleSecondary'
 
 import {
   getElementStyleClassName,
@@ -32,9 +33,9 @@ export default class ContentPageSubsectionThreeColumnContentTemplate extends Rea
               <ContentPageSubsectionSubtitle>
                 {this.props.lhsColumn.title}
               </ContentPageSubsectionSubtitle>
-              <h3 className={getElementStyleClassName("ContentPageSubsectionColumnContentSubtitle")}>
+              <ContentPageSubsectionSubtitleSecondary>
                 {this.props.lhsColumn.subtitle}
-              </h3>
+              </ContentPageSubsectionSubtitleSecondary>
               <div>
                 {this.props.lhsColumn.content}
               </div>
@@ -53,9 +54,9 @@ export default class ContentPageSubsectionThreeColumnContentTemplate extends Rea
               <ContentPageSubsectionSubtitle>
                 {this.props.rhsColumn.title}
               </ContentPageSubsectionSubtitle>
-              <h3 className={getElementStyleClassName("ContentPageSubsectionColumnContentSubtitle")}>
+              <ContentPageSubsectionSubtitleSecondary>
                 {this.props.rhsColumn.subtitle}
-              </h3>
+              </ContentPageSubsectionSubtitleSecondary>
               <div>
                 {this.props.rhsColumn.content}
               </div>
