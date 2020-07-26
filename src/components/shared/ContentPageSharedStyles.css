@@ -90,16 +90,6 @@ div.BottomMargin50px {
 
 /** ------------------------------- TEXT ----------------------------------- **/
 
-h1.ContentPageIntroSectionTemplateTitle {
-  font-size: 64px;
-  line-height: 1.6;
-  text-decoration: underline;
-}
-
-h1.ContentPageIntroSectionTemplateTitle_DebugColor {
-  background-color: powderblue;
-}
-
 h3.ContentPageSubsectionTitle {
   line-height: 1.4;
   font-family: Arial, Helvetica, sans-serif;

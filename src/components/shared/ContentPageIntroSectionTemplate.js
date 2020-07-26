@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 12, 2020
+ * Updated  : Jul 25, 2020
  */
 
 /**
@@ -20,7 +20,7 @@
  *  - `content`: Text of the introduction paragraph.
  */
 
-import React from 'react';
+import React from 'react'
 
 import { getElementStyleClassName } from '../../styling/styling'
 
@@ -34,7 +34,9 @@ export default class ContentPageIntroSectionTemplate extends React.Component {
   render() {
     return (
       <div>
-        <ContentPageSubsectionTemplate content={this.renderContent()} />
+        <ContentPageSubsectionTemplate
+          content={this.renderContent()}
+        />
       </div>
     )
   }
@@ -44,7 +46,9 @@ export default class ContentPageIntroSectionTemplate extends React.Component {
       <div className="ContentPageIntroSectionTemplateOuterContainer">
         <div className={getElementStyleClassName("ContentPageIntroSectionTemplateInnerContainer")}>
           <div className={getElementStyleClassName("ContentPageIntroSectionTemplateTitleContainer")}>
-            <h1 className={getElementStyleClassName("ContentPageIntroSectionTemplateTitle")}>{this.props.title}</h1>
+            <h1 className={getElementStyleClassName("ContentPageIntroSectionTemplateTitle")}>
+              {this.props.title}
+            </h1>
           </div>
           <div className={getElementStyleClassName("ContentPageIntroSectionTemplateContentContainer")}>
             {this.props.content}

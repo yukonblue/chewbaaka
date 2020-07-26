@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 25, 2020
  */
 
 div.ContentPageIntroSectionTemplateOuterContainer {
@@ -35,6 +35,12 @@ div.ContentPageIntroSectionTemplateContentContainer_DebugColor {
   background-color: tan;
 }
 
-p.ContentPageIntroSectionTemplateContentText {
-  text-align: left;
+h1.ContentPageIntroSectionTemplateTitle {
+  font-size: 64px;
+  line-height: 1.6;
+  text-decoration: underline;
+}
+
+h1.ContentPageIntroSectionTemplateTitle_DebugColor {
+  background-color: powderblue;
 }
