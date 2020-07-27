@@ -38,7 +38,7 @@ export const config = {
             "work together to protect the cheetahs, nurture their ecosystems, and make ourselves better custodians of " +
             "this planet and all living things that share it with us.",
     image: {
-      filename: "Earth_Mission_Possible_640x640.png",
+      filename: "Future_Page_Intro_Section_Background.png",
       offset: {
         top: -40
       }

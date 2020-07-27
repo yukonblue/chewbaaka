@@ -39,7 +39,7 @@ export const config = {
             "The species name, “jubatus”, means “maned”, referring to the mantle on a young cheetah’s back. " +
             "The English word, “cheetah”, comes from the Hindu word “chita” meaning the “spotted one”.",
     image: {
-      filename: "Cheetah_Skeleton_Transparent_720x406.png"
+      filename: "Biology_Page_Intro_Section_Background.png"
     }
   },
   contentPageSections: {
