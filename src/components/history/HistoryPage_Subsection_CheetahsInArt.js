@@ -22,6 +22,8 @@ import {
 
 import ImageView from '../shared/ImageView'
 
+import image_cheetah_painting_Renaissance from './assets/cheetah_painting_Renaissance.jpg'
+
 export default class HistoryPageSubsectionCheetahsInArt extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_CheetahsInArt";
@@ -63,8 +65,10 @@ export default class HistoryPageSubsectionCheetahsInArt extends React.Component 
   renderRhsContent() {
     return (
       <ImageView
-        image="https://www.thevintagenews.com/wp-content/uploads/2017/03/the-special-relationship-between-ancient-people-and-cheetahs-3-451x640.jpg"
+        image={image_cheetah_painting_Renaissance}
         caption="Paintings of cheetahs were popular during the Renaissance."
+        width={451}
+        height={600}
       />
     );
   }
