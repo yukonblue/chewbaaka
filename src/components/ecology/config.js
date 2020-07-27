@@ -62,7 +62,7 @@ export const config = {
               content: {
                 paragraph_01:
                   "Animals, includes cheetah, are adopted to live in specific habitats. " +
-                  "Cheetahs live mainly in grassland savannah. They prefer habitat which includes " +
+                  "Cheetahs live mainly in grassland savanna. They prefer habitat which includes " +
                   "some cover in the form of bushes, medium length grass, trees, and small hills. " +
                   "Cheetahs need abundant prey in their habitat to survive and reproduce. " +
                   "In Namibia their habitat is densely bushed due to bush encroachment.",
@@ -453,7 +453,7 @@ export const config = {
                   title: "Bush Encroachment Threatens Cheetah Survival",
                   content: {
                     paragraph_01:
-                      "Cheetahs hunt in open or semi-open savannah using bursts of speed. But Namibia’s livestock farmlands, " +
+                      "Cheetahs hunt in open or semi-open savanna using bursts of speed. But Namibia’s livestock farmlands, " +
                       "where 90% of the cheetahs live, are less desirable for the cheetahs and the farmers due to bush encroachment. " +
                       "Bush encroachment, a form of desertification, is caused from overgrazing of livestock on the arid lands and " +
                       "unpredictable and regular droughts.",
@@ -476,7 +476,7 @@ export const config = {
                       "restoring wildlife habitat, improving farming productivity, creating employment opportunities and providing clean, renewable energy.",
                     paragraph_02:
                       "CCF harvests the thickened thorn bush, converting it into a clean-burning, biomass fuel log known asa Bushblok ™. " +
-                      "CCF has restored hundreds of hectares of savannah grasslands for livestock, wildlife and cheetahs to share. " +
+                      "CCF has restored hundreds of hectares of savanna grasslands for livestock, wildlife and cheetahs to share. " +
                       "In 2006, CCF obtained Forest Stewardship Council (FSC) certification, confirming that it manages forest resources " +
                       "responsibly and sustainably."
                   }
