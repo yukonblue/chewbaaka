@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentPageSubsectionSubtitleSecondary component snapshot 1`] = `
+<h5
+  className="ContentPageSubsectionSubtitleSecondary ContentPageSubsectionSubtitleSecondary_DebugColor DebugWireframe"
+>
+  Hello, World
+</h5>
+`;

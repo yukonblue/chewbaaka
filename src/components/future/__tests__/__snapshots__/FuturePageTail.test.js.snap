@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FuturePageTail component snapshot 1`] = `
+<div
+  className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+>
+  <div
+    className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+  >
+    <h3
+      className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+    />
+    <div
+      className="FuturePageTailOuterContainer"
+    >
+      <div
+        className="FuturePageTailStatementBoxOuterContainer"
+      >
+        <div
+          className="FuturePageTailStatementBoxInnerContainer"
+        >
+          <h5
+            className="FuturePageTailTitle TextCentered"
+          >
+            Cheetah Conservation Fund Vision Statement
+          </h5>
+          <p
+            className="FuturePageTailVisionStatementText TextCentered"
+          >
+            We see a world in which cheetahs live and flourish in coexistence with people and the environment.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

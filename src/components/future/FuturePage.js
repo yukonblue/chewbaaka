@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 26, 2020
  */
 
 import React from 'react'
@@ -21,6 +21,7 @@ import { config }  from './config'
 import FuturePageSectionConservation from './FuturePage_Section_Conservation'
 import FuturePageSectionSustainableDevelopment from './FuturePage_Section_SustainableDevelopment'
 import FuturePageSectionOutreachAndEducation from './FuturePage_Section_OutreachAndEducation'
+import FuturePageTail from './FuturePageTail'
 
 export default class FuturePage extends React.Component {
 
@@ -65,6 +66,8 @@ export default class FuturePage extends React.Component {
         <FuturePageSectionOutreachAndEducation
           config={config}
         />
+
+        <FuturePageTail />
       </div>
     )
   }

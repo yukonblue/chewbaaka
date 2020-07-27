@@ -1,0 +1,42 @@
+/**
+ * FuturePageTail.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 26, 2020
+ * Updated  : Jul 26, 2020
+ */
+
+div.FuturePageTailOuterContainer {
+  margin: 0 auto;
+  width: 100%;
+}
+
+div.FuturePageTailStatementBoxOuterContainer {
+  border: 24px solid teal;  
+}
+
+div.FuturePageTailStatementBoxInnerContainer {
+  background-color: skyblue;
+}
+
+.FuturePageTailTitle {
+  position: relative;
+  top: 60px;
+  margin: 60px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+p.FuturePageTailVisionStatementText {
+  display: inline-block;
+  width: 100%;
+  padding: 0 300px;
+  margin: 60px auto;
+  text-align: center;
+  /* font-family: Times, Times New Roman, serif; */
+  /* font-style: italic; */
+  font-family: Apple Chancery, cursive;
+  font-size: 28px;
+}

@@ -22,6 +22,9 @@ import {
 
 import ImageSlidingGallery from '../shared/ImageSlidingGallery'
 
+import image_cheetah_with_two_indian_servants from './assets/cheetah_with_two_indian_servants.jpg'
+import image_cheetah_painting_02 from './assets/cheetah_painting_02.jpg'
+
 export default class HistoryPageSubsectionCheetahsInSports extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_CheetahsInSports";
@@ -60,15 +63,11 @@ export default class HistoryPageSubsectionCheetahsInSports extends React.Compone
         <ImageSlidingGallery
           slides={[
             {
-              image: "https://uploads0.wikiart.org/images/george-stubbs/cheetah-with-two-indian-servants-and-a-deer.jpg",
-              caption: "The painting A Cheetah with Two Indians gifted to the English King George III by the Tippoo Sultan in 1799."
+              image: image_cheetah_with_two_indian_servants,
+              caption: "A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799."
             },
             {
-              image: "https://www.thevintagenews.com/wp-content/uploads/2017/03/the-special-relationship-between-ancient-people-and-cheetahs-1-640x446.jpg",
-              caption: "Cheetah Hunt",
-            },
-            {
-              image: "https://www.thehindu.com/sci-tech/energy-and-environment/hb4cnq/article30295374.ece/alternates/FREE_960/15SM4AlwarCheetahjpg",
+              image: image_cheetah_painting_02,
               caption: "This 1878 painting from Marianne North’s book shows cheetahs and lynxes chained to charpais by their keepers in Alwar."
             }
           ]}

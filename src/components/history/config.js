@@ -39,7 +39,7 @@ export const config = {
           "as a symbol of a multitude of positive characteristics, such as adaptability, " +
           "persistence, and focus.",
     image: {
-      filename: "intro-section-cheetah.png"
+      filename: "History_Page_Intro_Section_Background.png"
     }
   },
   contentPageSections: {

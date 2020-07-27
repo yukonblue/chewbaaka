@@ -4,16 +4,16 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 26, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import { render, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react'
 
-import renderer from 'react-test-renderer';
+import renderer from 'react-test-renderer'
 
-import TopNavBar from '../TopNavBar';
+import TopNavBar from '../TopNavBar'
 
 test('renders top nav bar', () => {
   render(<TopNavBar />);
@@ -38,7 +38,7 @@ test('renders top nav bar', () => {
 
   // Tests third nav bar item.
   {
-    const navBarItemWCN = screen.getByText(/Wildlife Conservation Network/i);
+    const navBarItemWCN = screen.getByText(/Conservation/i);
     expect(navBarItemWCN).toBeInTheDocument();
 
     // Expect this nav bar item point to WCN site.
@@ -47,11 +47,11 @@ test('renders top nav bar', () => {
 
   // Tests fourth nav bar item.
   {
-    const navBarItemConservation = screen.getByText("Conservation");
+    const navBarItemConservation = screen.getByText("Get Involved");
     expect(navBarItemConservation).toBeInTheDocument();
 
     // Expect this nav bar item point to CCF site.
-    expect(navBarItemConservation.href).toBe("https://cheetah.org/about/what-we-do/conservation/");
+    expect(navBarItemConservation.href).toBe("https://cheetah.org/get-involved/ways-to-give/");
   }
 });
 
