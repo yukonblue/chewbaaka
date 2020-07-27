@@ -234,9 +234,9 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                                 className="ImageSlidingGalleryCoreContainer"
                               >
                                 <img
-                                  alt="The painting A Cheetah with Two Indians gifted to the English King George III by the Tippoo Sultan in 1799."
+                                  alt="A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799."
                                   className="ImageSlidingGalleryImgPart"
-                                  src="https://uploads0.wikiart.org/images/george-stubbs/cheetah-with-two-indian-servants-and-a-deer.jpg"
+                                  src="cheetah_with_two_indian_servants.jpg"
                                 />
                                 <div
                                   className="ImageSlidingGalleryCaptionPart"
@@ -263,7 +263,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                                     <p
                                       className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
                                     >
-                                      The painting A Cheetah with Two Indians gifted to the English King George III by the Tippoo Sultan in 1799.
+                                      A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799.
                                     </p>
                                   </div>
                                 </div>
