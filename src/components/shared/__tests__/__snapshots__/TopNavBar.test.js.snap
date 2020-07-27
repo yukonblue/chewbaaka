@@ -38,15 +38,15 @@ exports[`TopNavBar component snapshot 1`] = `
       onClick={[Function]}
       target="_blank"
     >
-      Wildlife Conservation Network
+      Conservation
     </a>
     <a
       className="item"
-      href="https://cheetah.org/about/what-we-do/conservation/"
+      href="https://cheetah.org/get-involved/ways-to-give/"
       onClick={[Function]}
       target="_blank"
     >
-      Conservation
+      Get Involved
     </a>
   </div>
 </div>
