@@ -76,9 +76,9 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
           floatPart={
             <ImageView
               image={image_savanna}
-              caption="Savanna"
-              width={640}
-              height={480}
+              caption="African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlifes."
+              width={598}
+              height={343}
             />
           }
           fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
