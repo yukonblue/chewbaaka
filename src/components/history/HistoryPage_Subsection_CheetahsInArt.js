@@ -66,7 +66,7 @@ export default class HistoryPageSubsectionCheetahsInArt extends React.Component 
     return (
       <ImageView
         image={image_cheetah_painting_Renaissance}
-        caption="Paintings of cheetahs were popular during the Renaissance."
+        caption="Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli."
         width={451}
         height={600}
       />

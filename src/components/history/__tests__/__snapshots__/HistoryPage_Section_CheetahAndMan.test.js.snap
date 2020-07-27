@@ -409,13 +409,13 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                                 className="ImageViewCore"
                               >
                                 <img
-                                  alt="Paintings of cheetahs were popular during the Renaissance."
+                                  alt="Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli."
                                   className="ImageViewImg"
-                                  src="https://www.thevintagenews.com/wp-content/uploads/2017/03/the-special-relationship-between-ancient-people-and-cheetahs-3-451x640.jpg"
+                                  src="cheetah_painting_Renaissance.jpg"
                                   style={
                                     Object {
-                                      "height": undefined,
-                                      "width": undefined,
+                                      "height": 600,
+                                      "width": 451,
                                     }
                                   }
                                 />
@@ -427,7 +427,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                                     data-testid="CaptionComponentTestId"
                                     style={
                                       Object {
-                                        "width": undefined,
+                                        "width": 451,
                                       }
                                     }
                                   >
@@ -443,7 +443,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                                     <p
                                       className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
                                     >
-                                      Paintings of cheetahs were popular during the Renaissance.
+                                      Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli.
                                     </p>
                                   </div>
                                 </div>
