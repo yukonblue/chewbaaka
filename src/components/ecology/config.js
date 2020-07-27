@@ -9,7 +9,7 @@
 
 export const config = {
   pageProps: {
-    coverImage: "savanna.jpg",
+    coverImage: "Ecology_Page_Cover_Image.jpg",
     title: "Ecology",
     subtitle: "Learn about the habitats and ecosystems that cheetahs live in, and their relationships with other species in the ecosystem.",
     pageMenuItems: [
