@@ -102,8 +102,8 @@ div.BottomMargin50px {
   font-size: 19px;
 }
 
-li.ContentPageBulletTextStyle {
-  line-height: 2.0em;
+.ContentPageRegularTextLineHeight {
+  line-height: 2.0;
 }
 
 p.ContentPageCaptionTextSize {

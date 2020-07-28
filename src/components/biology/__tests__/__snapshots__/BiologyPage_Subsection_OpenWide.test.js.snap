@@ -30,12 +30,12 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
             />
           </div>
           <p
-            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
           >
             The cheetah takes smaller prey than other similar sized cats. Their strong jaws lock around the throat of the prey in what is called the “strangulation hold”, which can last up to 20 minutes.
           </p>
           <p
-            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
           >
             Cheetahs’ jaws are not as powerful as that of lions or leopards. Cheetahs have comparatively shorter canine teeth. In all cats, powerful muscles move the jaw up and down and provide vice-like strength for gripping prey.
           </p>
@@ -56,7 +56,7 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
             />
           </div>
           <p
-            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
           >
             The tongue is adopted for licking and is covered with small hard spines called papillae. The papillae act like a rasp, removing the meat from the bones of the prey. Rough tongue feels similar to the texture of sandpaper.
           </p>
@@ -77,7 +77,7 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
             />
           </div>
           <p
-            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
           >
             Keeping the fur clean is an important part of a cheetah’s life. Family members spend many hours grooming each other with their tongues. This behavior aids in the social bonding of a cheetah group.
           </p>

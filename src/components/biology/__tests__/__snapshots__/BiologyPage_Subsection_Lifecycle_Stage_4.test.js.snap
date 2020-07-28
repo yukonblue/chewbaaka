@@ -14,17 +14,17 @@ exports[`BiologyPageSubsectionLifecycleStage4 component snapshot 1`] = `
     </h3>
     <div>
       <p
-        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
       >
         In Stage 4, cheetahs become sexually mature. Although they are mature at 16 to 18 months, most do not breed until they are three to five years old.
       </p>
       <p
-        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
       >
         At 20 - 30 months of age, females leave their litter-mates to find suitable mates and start their own families. They raise their families on their own without the help of the males.
       </p>
       <p
-        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
       >
         Males usually do not breed until they are 4 to 5 years of age, and dominant in a territory. They live alone or brothers form permanent groups called "coalitions". These groups stay together for life, claim territories, hunt and find mates together.
       </p>

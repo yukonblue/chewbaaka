@@ -17,6 +17,7 @@ import { getElementStyleClassNames } from '../../styling/styling'
 export default function ContentPageParagraph({ children }) {
   return (
     <p className={getElementStyleClassNames(["ContentPageRegularTextSize",
+                                            "ContentPageRegularTextLineHeight",
                                             "ContentPageContentParagraphText"])}
     >
       {children}
