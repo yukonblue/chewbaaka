@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 27, 2020
  */
 
 import React from 'react'
@@ -19,7 +19,7 @@ import {
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
-import image_fact_banner_what_is_diurnal from '../shared/assets/Fact_Banners/What_is_Diurnal_640x320.png'
+import image_fact_banner_what_is_diurnal from './assets/What_is_Diurnal.png'
 
 export default class BiologyPageSubsectionLifecycleStage3 extends React.Component {
 
@@ -34,18 +34,16 @@ export default class BiologyPageSubsectionLifecycleStage3 extends React.Componen
 
   render() {
     return (
-      <div className="">
-        <ContentPageSubsectionTemplate
-          title={this.state.subsectionConfig.title}
-          content={this.renderContent()}
-        />
-      </div>
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
     )
   }
 
   renderContent() {
     return (
-      <div className="">
+      <div>
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
 
         <MediaLinkButton
@@ -55,9 +53,12 @@ export default class BiologyPageSubsectionLifecycleStage3 extends React.Componen
         />
 
         <div className="FactBannerSmallDimension Centered">
-          <img src={image_fact_banner_what_is_diurnal} alt="What is diurnal?" />
+          <img
+            className="FactBannerSmallDimension"
+            src={image_fact_banner_what_is_diurnal}
+            alt="What is diurnal?"
+          />
         </div>
-
       </div>
     );
   }

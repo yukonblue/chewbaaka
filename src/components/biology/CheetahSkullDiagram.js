@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 16, 2020
+ * Updated  : Jul 27, 2020
  */
 
 import React from 'react'
@@ -21,7 +21,7 @@ export default class CheetahSkullDiagram extends React.Component {
   static __ITEMS__ = [
     {
       title: "Forward facing eyes",
-      content: "Like all predators, the cheetahs have forward-facing eyes, which provides them " +
+      content: "Like most land predators, the cheetahs have forward-facing eyes, which provides them " +
               "binocular vision that allows them to focus on their prey, while it's stalking the prey " +
               "or chasing it at high speed.",
       position: {
@@ -32,9 +32,9 @@ export default class CheetahSkullDiagram extends React.Component {
     {
       title: "Sagittal crest",
       content: "A sagittal crest is a ridge of bone running lengthwise along the midline " +
-              "of the top of the skull of many mammalian skulls. The extra room formed by " +
-              "the sagittal crest provide extra room for muscle that's connected to the jaw, " +
-              "which gives predators extraordinary jaw strength to shear and chew through meat.",
+              "of the top of the skull of many mammalian species. The extra room formed by " +
+              "the sagittal crest provide additional muscle mass that's connected to the jaw, " +
+              "which gives predators extraordinary jaw strength to crush bones and shear and chew through meat.",
       position: {
         top: 180,
         left: 750
@@ -53,8 +53,8 @@ export default class CheetahSkullDiagram extends React.Component {
     },
     {
       title: "Snout",
-      content: "Cats in general have flat snout (nose) and enlarged nasal cavity, which allows for " +
-              "higher volume of air flow when breadthing, critial for fueling the lungs at intense " +
+      content: "Cats in general have flatter snout (nose) and enlarged nasal cavity, which allows for " +
+              "higher volume of air flow when breathing, crucial for fueling the lungs at intense " +
               "activities such as pursuing a prey at very high speed.",
       position: {
         top: 220,

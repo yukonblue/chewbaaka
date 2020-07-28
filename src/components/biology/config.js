@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Jul 27, 2020
  */
 
 export const config = {
@@ -30,12 +30,12 @@ export const config = {
   contentPageIntro: {
     title: "Cheetah Biology",
     content: "The cheetah is a truly unique animal. Being the world's fastest land animal, it is built for speed. " +
-            "An acceleration from 0 to 84 km/hr in just 3 seconds, with a full speed of 110 km/hr, means that the " +
+            "At accelerating from 0 to 84 km/hr in just 3 seconds, and with top speed of 110 km/hr, means that the " +
             "cheetah can out-perform a sports car. Cheetahs are markedly different in both anatomy and behavior " +
             "from the other 36 species of cats. They are the only species in their genus. " +
-            "They have evolved for speed versus power and aggression. Their bodies are lightweight in comparing with " +
+            "They have evolved for speed versus power and aggression. Their bodies are lightweight in comparison with " +
             "the build of other big cats. They rely on their speed and skills for survival. The genus name, Acinonyx, " +
-            "is interpreted as “non-moving claws”, referring to the semi-retractable claws. " +
+            "is interpreted as “non-moving claws”, referring to their semi-retractable claws. " +
             "The species name, “jubatus”, means “maned”, referring to the mantle on a young cheetah’s back. " +
             "The English word, “cheetah”, comes from the Hindu word “chita” meaning the “spotted one”.",
     image: {
@@ -62,12 +62,12 @@ export const config = {
             paragraph_Lifecycle_Stage_1_02:
               "Shortly before she is ready to give birth, the mother " +
               "makes a den in a quiet hidden spot. She chooses her location " +
-              "in the tall grass think underbrush or near a clump of rocks.",
+              "in the tall grass and thick underbrush or near a clump of rocks.",
             paragraph_Lifecycle_Stage_1_03:
               "A cheetah gives birth to an average of five to six cubs. " +
               "Each cub weights between 250 to 425 grams. Cubs are born " +
               "completely helpless and with their eyes closed, but they " +
-              "developer rapidly. Scent and touch are used to find their " +
+              "develope rapidly. Scent and touch are used to find their " +
               "mother’s nipples to suckle.",
             paragraph_Lifecycle_Stage_1_04:
               "They start crawling around the nest area at four to ten days "+
@@ -82,7 +82,7 @@ export const config = {
               "the female leaves them alone. When hunting she may be away for up to 48 hours. " +
               "In Tanzania’s Serengeti National Park, 90% of all cubs do not reach the age " +
               "of 3 months! Other causes of death are abandonment when prey is scarce, " +
-              "exposure due to low temperates or grass fires."
+              "exposure due to low temperatures or grass fires."
           }
         },
         subsection_Lifecycle_Stage_2: {
@@ -130,10 +130,10 @@ export const config = {
               "most do not breed until they are three to five years old.",
             paragraph_Lifecycle_Stage_4_02:
               "At 20 - 30 months of age, females leave their litter-mates to find suitable mates " +
-              "and start their own families. They raise their families on their own without the help of the male.",
+              "and start their own families. They raise their families on their own without the help of the males.",
             paragraph_Lifecycle_Stage_4_03:
               "Males usually do not breed until they are 4 to 5 years of age, and dominant in a territory. "+
-              'They live alone or brothers farm permanent groups called "coalitions". '+
+              'They live alone or brothers form permanent groups called "coalitions". '+
               "These groups stay together for life, claim territories, hunt and find mates together."
           }
         },
@@ -144,7 +144,7 @@ export const config = {
               title: "Male coalitions",
               content: {
                 paragraph_01:
-                  "A coalition consists of a male siblings of the same litter or young unrelated " +
+                  "A coalition consists of a group of male siblings of the same litter or young unrelated " +
                   "males that have joined together. A hierarchy develops among the males within a coalition.",
                 paragraph_02:
                   "Young males are usually chased away from their birth range by dominant breeding males. " +
@@ -158,11 +158,11 @@ export const config = {
               content: {
                 paragraph_01:
                   "The cheetah’s lifespan is poorly documented in the wild. A radio collared cheetah lived to be " +
-                  "almost 7 years of age in Tanzania’s Serengeti National Park and once of CCF’s radio collared " +
+                  "almost 7 years of age in Tanzania’s Serengeti National Park, and one of CCF’s radio collared " +
                   "cheetahs in Namibia lived for over 10 years.",
                 paragraph_02:
                   "Adult mortality is one of the most significant limiting factors for cheetah population growth and survival. " +
-                  "Poaching, competition with large predators and farmers, and loss of habitat and prey are factors " +
+                  "Poaching, competition with large predators and farmers, and loss of habitats and prey are factors " +
                   "attributing to early death.",
                 paragraph_03:
                   "Though cub deaths are high, cheetahs have evolved to reproduce rapidly in response to this mortality."
@@ -192,7 +192,7 @@ export const config = {
               "bites the back of her neck, and breeding takes place. When the male dismounts the female she " +
               "rolls over on her back and swats at him.",
             paragraph_FindingMate_06:
-              "Mating will take place for one to several days and ends when the make loses interest in the female and leaves. " +
+              "Mating will take place for one to several days and ends when the male loses interest in the female and leaves. " +
               "Males do not help raise the cubs."
           }
         }
@@ -204,7 +204,7 @@ export const config = {
         content: "The uniqueness of the cheetah is not made up of a single trait, but rather a set of traits in its " +
                 "physiology that can be observed from all parts of its body. The skull provides room for jaw muscle " +
                 "needed to tear up meat. The spine provides the flexibility it needs to reach its incredible speeds. " +
-                "The feet and claws facilitates in running, sharp turning, and hunting. The tail provides the balance " +
+                "The feet and claws facilitate in running, sharp turning, and hunting. The tail provides the balance " +
                 "it needs while pursuing a prey. Read on to discover all the fascinating points about the species' " +
                 "anatomy and physiology."
       },
@@ -226,7 +226,7 @@ export const config = {
               content: {
                 paragraph_01:
                   "Cheetah’s foot pads are hard and less rounded than the other cats. " +
-                  "The pad function like tire threads providing them with increased traction in fast, sharp turns.",
+                  "The pads function like tire threads providing them with increased traction in fast, sharp turns.",
               }
             },
             part_Claw: {
@@ -254,13 +254,13 @@ export const config = {
           title: "Skull",
           contents: {
             paragraph_Skull_01:
-              "All predators have specialized features for catching and kill prey. " +
+              "All predators have specialized features for catching and killing prey. " +
               "Predators have large forward facing eye sockets, and large ear cavities " +
               "that provides space for specialized senses. Although there are differences " +
               "in skull proportions, carnivore skulls are quite similar.",
             paragraph_Skull_02:
               "The cat skulls are different from other carnivore species, as they have a " +
-              "flat nose and enlarge nasal cavity. There is a large area for the strong jaw muscles.",
+              "flatter nose and enlarged nasal cavity. There is a large area for the strong jaw muscles.",
             paragraph_Skull_03:
               "The cheetah has some features that are distinct when compared to the skulls of other cats."
           }
@@ -277,7 +277,7 @@ export const config = {
               "to protect the eyes from the sun’s glare. It is believed they have the same function " +
               "as a rifle scope, helping cheetahs focus on their prey.",
             paragraph_SpotsAndStripes_03:
-              "Until three months of age, cheetah cubs have a thick-silvery grey mantle down their back. " +
+              "Until three months of age, cheetah cubs have a thick-silvery grey mantle that runs down their back. " +
               "The mantle helps camouflage the cubs by blending them into the shadows and grass. " +
               "It also provides protection from sun and rain.",
             paragraph_SpotsAndStripes_04:
@@ -292,7 +292,7 @@ export const config = {
             part1: {
               content: {
                 paragraph_01:
-                  "The cheetah has a large strong heart that rapidly pumps large amounts of oxygenated " +
+                  "The cheetah has a strong heart that rapidly pumps large amounts of oxygenated " +
                   "blood from the lungs to the muscles to keep them supplied with energy while running.",
                 paragraph_02:
                   "Large lungs provide adequate oxygen for a cheetah’s increased energy needs while pursuing its prey. " +
@@ -332,7 +332,7 @@ export const config = {
                   "The cheetah’s long muscular tail works as a rudder, stabilizing and acting as a counter " +
                   "balance to its body weight. This allows sudden sharp turns during high speed chases.",
                 paragraph_02:
-                  "The tail is thought to be a signaling device, helping young cheetahs follow their mother in tall grass. " +
+                  "The tail is also thought to be a signaling device, helping young cheetahs follow their mother in tall grass. " +
                   "The tip may be black or white in color."
               }
             },
@@ -385,13 +385,13 @@ export const config = {
                 "which can last up to 20 minutes.",
               paragraph_OpenWide_02:
                 "Cheetahs’ jaws are not as powerful as that of lions or leopards. Cheetahs have " +
-                "comparatively shorted canine teeth. In all cats, powerful muscles move the jaw up " +
+                "comparatively shorter canine teeth. In all cats, powerful muscles move the jaw up " +
                 "and down and provide vice-like strength for gripping prey.",
             },
             part2: {
               paragraph_OpenWide_03:
                 "The tongue is adopted for licking and is covered with small hard spines called papillae. " +
-                "The papillae act like a rasp, removing the meat from the bones of the prey." +
+                "The papillae act like a rasp, removing the meat from the bones of the prey. " +
                 "Rough tongue feels similar to the texture of sandpaper.",
             },
             part3: {
@@ -454,7 +454,7 @@ export const config = {
         title: "Genetics",
         content: "Cheetahs exhibit a number of physiological abnormalities because " +
                 "of the genetic bottlenecks that the species have gone through in its history and evolution, " +
-                "with the most recently one being only about 10,000 years ago. Therefore, understanding the " +
+                "with the most recent one being only about 10,000 years ago. Therefore, understanding the " +
                 "genetics of the species is crucial in both saving individuals as well as larger populations."
       },
       subsections: {

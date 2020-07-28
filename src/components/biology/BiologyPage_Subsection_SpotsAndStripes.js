@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 27, 2020
  */
 
 import React from 'react'
@@ -24,6 +24,8 @@ import BigCatSpotsIllustration from './BigCatSpotsIllustration'
 
 import image_cheetah_mantle from './assets/Cheetah_Mantle.jpg'
 import image_cheetah_and_honey_badger from './assets/cheetah_and_honey_badger.jpg'
+
+import image_What_is_Camouflage from './assets/What_is_Camouflage.png'
 
 export default class BiologyPageSubsectionSpotsAndStripes extends React.Component {
 
@@ -61,6 +63,14 @@ export default class BiologyPageSubsectionSpotsAndStripes extends React.Componen
     return (
       <ContentPageSubsectionPart>
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
+
+        <div className="FactBannerMediumDimension Centered">
+          <img
+            className="FactBannerMediumDimension"
+            src={image_What_is_Camouflage}
+            alt="What is camouflage?"
+          />
+        </div>
       </ContentPageSubsectionPart>
     );
   }

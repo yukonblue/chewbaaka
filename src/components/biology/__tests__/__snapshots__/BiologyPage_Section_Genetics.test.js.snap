@@ -40,7 +40,7 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
                 <p
                   className="ContentPageSectionSubtitleText"
                 >
-                  Cheetahs exhibit a number of physiological abnormalities because of the genetic bottlenecks that the species have gone through in its history and evolution, with the most recently one being only about 10,000 years ago. Therefore, understanding the genetics of the species is crucial in both saving individuals as well as larger populations.
+                  Cheetahs exhibit a number of physiological abnormalities because of the genetic bottlenecks that the species have gone through in its history and evolution, with the most recent one being only about 10,000 years ago. Therefore, understanding the genetics of the species is crucial in both saving individuals as well as larger populations.
                 </p>
               </div>
             </div>

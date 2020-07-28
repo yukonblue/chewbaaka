@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 18, 2020
- * Updated  : Jul 18, 2020
+ * Updated  : Jul 27, 2020
  */
 
 import React from 'react'
@@ -46,7 +46,7 @@ export default class BigCatSpotsIllustration extends React.Component {
       caption: "Cheetah",
       coverImage: image_pelt_spot_cheetah,
       contentImage: image_cat_thumbnail_cheetah,
-      hint: "I can live anywhere but prefer savannahs."
+      hint: "I can live anywhere but prefer savannas."
     },
     {
       caption: "Leopard",
