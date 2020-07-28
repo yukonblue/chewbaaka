@@ -38,7 +38,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                 className="ContentPageIntroParagraphContentContainer"
               >
                 <p
-                  className="ContentPageSectionSubtitleText"
+                  className="ContentPageHeadAndSectionIntroText ContentPageHeadAndSectionIntroText_DebugColor DebugWireframe"
                 >
                   The history of cheetah-human relationship goes back in millennia, and archeological artifacts uncovered throughout the world suggest that human interactions with the species goes hand in hand with its migration and evolution. The relationship between cheetahs and us have been both profound and complex, as the species have been revered, utilized, displayed, and exploited throughout human history.
                 </p>

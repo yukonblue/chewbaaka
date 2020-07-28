@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 24, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 28, 2020
  */
 
  div.ContentPageIntroSectionGenericInnerContainer {
@@ -23,16 +23,4 @@ img.ContentPageIntroSectionGenericImg {
 
 div.ContentPageIntroSectionGenericInnerContainer::after {
   float: clear;
-}
-
-p.ContentPageIntroSectionParagraph {
-  line-height: 1.7;
-  margin: 0 0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  word-wrap: break-word;
-}
-
-p.ContentPageIntroSectionParagraph_DebugColor {
-  color: cornflowerblue;
 }

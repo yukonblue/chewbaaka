@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 28, 2020
  */
 
 /**
@@ -54,7 +54,7 @@ export default class ContentPageSectionHead extends React.Component {
             </h2>
           </div>
           <div className="ContentPageIntroParagraphContentContainer">
-            <p className="ContentPageSectionSubtitleText">
+            <p className={getElementStyleClassName("ContentPageHeadAndSectionIntroText")}>
               {this.props.content}
             </p>
           </div>
