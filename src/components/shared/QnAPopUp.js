@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 19, 2020
+ * Updated  : Jul 28, 2020
  */
 
 /**
@@ -72,7 +72,7 @@ export default class QnAPopUp extends React.Component {
         <div className={getElementStyleClassName("QnAPopUpMainTextBubbleContainer")}>
           <TextBubble
             hidden={!this.state.isOpen}
-            diameter={256}
+            diameter={320}
             title="Did you know?"
             content={this.props.content}
           />

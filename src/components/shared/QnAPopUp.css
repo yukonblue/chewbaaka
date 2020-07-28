@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 19, 2020
+ * Updated  : Jul 28, 2020
  */
 
 div.QnAPopUpContainer {
@@ -18,11 +18,11 @@ div.QnAPopUpContainer_DebugColor {
 }
 
 div.QnAPopUpMainTextBubbleContainer {
-  width: 256px;
-  height: 256px;
+  width: 320px;
+  height: 320px;
   position: relative;
-  left: 190px;
-  top: -400px;
+  left: 200px;
+  top: -420px;
   z-index: 11;
 }
 

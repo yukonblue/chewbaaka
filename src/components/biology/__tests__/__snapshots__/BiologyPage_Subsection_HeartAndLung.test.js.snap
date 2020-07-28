@@ -757,8 +757,8 @@ exports[`BiologyPageSubsectionHearAndLung component snapshot 1`] = `
                     style={
                       Object {
                         "backgroundColor": "rgb(undefined)",
-                        "height": 256,
-                        "width": 256,
+                        "height": 320,
+                        "width": 320,
                       }
                     }
                   >
@@ -772,7 +772,7 @@ exports[`BiologyPageSubsectionHearAndLung component snapshot 1`] = `
                           style={
                             Object {
                               "color": "rgb(undefined)",
-                              "fontSize": 20.48,
+                              "fontSize": 25.6,
                             }
                           }
                         >
@@ -782,7 +782,7 @@ exports[`BiologyPageSubsectionHearAndLung component snapshot 1`] = `
                           style={
                             Object {
                               "color": "rgb(undefined)",
-                              "fontSize": 12.8,
+                              "fontSize": 16,
                             }
                           }
                         >
