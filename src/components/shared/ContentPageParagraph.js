@@ -4,11 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Jul 14, 2020
+ * Updated  : Jul 28, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
+import './ContentPageParagraph.css'
 import './ContentPageSharedStyles.css'
 
 import { getElementStyleClassNames } from '../../styling/styling'

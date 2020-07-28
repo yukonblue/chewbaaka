@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 27, 2020
+ * Updated  : Jul 28, 2020
  */
 
 /** ----------------------------- CONTAINER -------------------------------- **/
@@ -100,16 +100,6 @@ div.BottomMargin50px {
 
 .ContentPageRegularTextSize {
   font-size: 18px;
-}
-
-p.ContentPageContentParagraphText {
-  padding: 15px;
-  line-height: 1.8;
-}
-
-p.ContentPageContentParagraphText_DebugColor {
-  color: chocolate;
-  background-color: palegoldenrod;
 }
 
 li.ContentPageBulletTextStyle {

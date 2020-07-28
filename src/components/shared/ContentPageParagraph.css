@@ -1,0 +1,18 @@
+/**
+ * ContentPageParagraph.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 28, 2020
+ * Updated  : Jul 28, 2020
+ */
+
+p.ContentPageContentParagraphText {
+  padding: 15px;
+  line-height: 1.8;
+}
+
+p.ContentPageContentParagraphText_DebugColor {
+  color: chocolate;
+  background-color: palegoldenrod;
+}
