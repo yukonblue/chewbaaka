@@ -4,18 +4,25 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 02, 2020
+ * Updated  : Jul 28, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import "semantic-ui-css/semantic.min.css";
+import {
+  Button,
+  Container,
+  Header,
+  Grid,
+  GridColumn,
+  Segment
+} from 'semantic-ui-react'
 
-import { Header, Container, Grid, GridColumn, Segment, Button } from 'semantic-ui-react'
+import "semantic-ui-css/semantic.min.css"
 
-import './ExploreGatewayIntro.css';
+import './ExploreGatewayIntro.css'
 
-function ExploreGatewayIntro() {
+export default function ExploreGatewayIntro() {
   return (
     <div className="ExploreGatewayIntro" data-testid="ExploreGatewayIntroTestId">
       <br/>
@@ -26,7 +33,7 @@ function ExploreGatewayIntro() {
       </Container>
       <br/>
       <br/>
-      <Grid container columns={2} width={8} className="centerGrid">
+      <Grid container columns={2} className="centerGrid">
         <Grid.Row>
           <GridColumn width={8}>
             <div className="centerGridLeftColumnStyle">
@@ -35,7 +42,9 @@ function ExploreGatewayIntro() {
           </GridColumn>
           <GridColumn width={7}>
             <Segment inverted>
-              <p className="JoinTheRace">Join the race to <a href="https://twitter.com/search?q=%23SaveTheCheetah" target="_blank" rel="noopener noreferrer"><span className="SafeTheCheetah">#SafeTheCheetah</span></a></p>
+              <p className="JoinTheRace">
+                Join the race to <a href="https://twitter.com/search?q=%23SaveTheCheetah" target="_blank" rel="noopener noreferrer"><span className="SafeTheCheetah">#SafeTheCheetah</span></a>
+              </p>
               <p>Cheetahs can't win without us.</p>
               <Button basic inverted href="https://cheetah.org/get-involved/ways-to-give/">
                 Get Involved
@@ -48,5 +57,3 @@ function ExploreGatewayIntro() {
     </div>
   )
 }
-
-export default ExploreGatewayIntro;

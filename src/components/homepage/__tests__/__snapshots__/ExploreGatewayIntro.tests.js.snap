@@ -20,7 +20,6 @@ exports[`ExploreGatewayIntro component snapshot 1`] = `
   <br />
   <div
     className="ui container two column grid centerGrid"
-    width={8}
   >
     <div
       className="row"
