@@ -4,22 +4,24 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 28, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import { render, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react'
 
-import renderer from 'react-test-renderer';
+import renderer from 'react-test-renderer'
 
-import ExploreGatewayIntro from '../ExploreGatewayIntro';
+import ExploreGatewayIntro from '../ExploreGatewayIntro'
 
 test('renders explore gateway intro', () => {
-  render(<ExploreGatewayIntro />);
+  render(
+    <ExploreGatewayIntro />
+  );
 
   // Tests component title is present.
-  const componentTitleElement = screen.getByText(/Explore CCF's Cheetah Museum/i);
+  const componentTitleElement = screen.getByText(/Explore CCF’s Cheetah Museum/i);
   expect(componentTitleElement).toBeInTheDocument();
 
   // Tests 'Get Involved' button is present and have the correct link.
@@ -30,7 +32,8 @@ test('renders explore gateway intro', () => {
 
 test('ExploreGatewayIntro component snapshot', () => {
   const tree = renderer
-    .create(<ExploreGatewayIntro />)
-    .toJSON();
+    .create(
+      <ExploreGatewayIntro />
+    ).toJSON();
   expect(tree).toMatchSnapshot();
 });
