@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Jul 27, 2020
  */
 
 export const config = {
@@ -31,7 +31,7 @@ export const config = {
     title: "Future of the Cheetah",
     content: "With only 7,500 individuals of cheetahs left in the wild, the species is facing unprecedented pressures " +
             "that are pushing its fate to the brink of extinction. Needless to say, the cheetah’s future lies in our hands. " +
-            "Despite the grim facts, we hold a positive outlook on their future. Numbers of nation governments, " +
+            "Despite the grim facts, we hold a positive outlook on their future. A number of nation governments, " +
             "non-profit organizations, as well as individuals have pulled themselves together to combine their " +
             "ingenuity and resourcefulness to help the cheetahs fight for a brighter future. We believe that anyone " +
             "who is passionate in the cause has something to contribute, and we can only come out triumphantly if we " +
@@ -102,7 +102,7 @@ export const config = {
                   "Staff monitor cheetah trafficking activities and organizes confiscations through proper authorities when possible.",
                 paragraph_02:
                   "Cheetahs are listed as an Appendix I species under the Convention on International Trade in Endangered Species (CITES). " +
-                  "They are poaches from the wild for the pet trade and their body parts, which get sold on the markets. " +
+                  "They are poached from the wild for the pet trade and their body parts, which get sold on the markets. " +
                   "Illegal wildlife trafficking is one of the top five transnational crimes, generating an estimated U.S. $50-150 million " +
                   "in illegal revenues annually.",
                 paragraph_03:
@@ -116,7 +116,7 @@ export const config = {
             part_CITESCoP17: {
               content: {
                 paragraph_01:
-                  "CCF participates in the CITES inter-sessional working group on the illegal trade in cheetah and was instrumental " +
+                  "CCF participates in the CITES inter-sessional working group on the illegal trade in cheetahs, and was instrumental " +
                   "in making recommendations adopted by CITES at CoP17 to stop the illegal cheetah pet trade."
               }
             }
@@ -128,9 +128,9 @@ export const config = {
             paragraph_Chewbaaka:
               "Hi there, my name is Chewbaaka. I was named after an animal " +
               "in a movie. I have lived at CCF since I was 3 weeks old. " +
-              "I am there cheetah ambassador and I get to meet many people. " +
+              "I am their cheetah ambassador and I get to meet many people. " +
               "The staff at CCF tell everyone about me and all the wild " +
-              "cheetah. I have a special place where I can run like the wind.",
+              "cheetahs. I have a special place where I can run like the wind.",
             paragraph_Mekondyo:
               'Hello, my name is Mekondyo. Mekondyo means "struggle" in the ' +
               "Oshiwambo language. I was born on a farm north of Otjiwarango " +
@@ -149,7 +149,7 @@ export const config = {
                 "of the ecosystem and the sharing of resources by other species. Part of sustainable development involves taking part of " +
                 "the revenue generated from any human development and contribute that to the nurturing and protection of the entire ecosystem. " +
                 "Any human development can be turned to be sustainable by employing the best practices of land, livestock, and wildlife management " +
-                "techniques that have proven to be successful and effective."
+                "techniques that have proven to be effective and successful."
       },
       subsections: {
         subsection_MissionPossible: {
@@ -200,7 +200,7 @@ export const config = {
                       "and allows predators their food at wild game. This reduces the temptation to take domestic stock.",
                     paragraph_02:
                       "Ethical hunting removes older animals while predators prey on the young, diseased, and genetically weak. " +
-                      "Together they keep wild hers healthy and in check."
+                      "Together they keep wild herds healthy and in check."
                   }
                 }
               }
@@ -216,7 +216,7 @@ export const config = {
               "To mitigate this conflict, Cheetah Conservation Fund (CCF) developed an integrated livestock, wildlife, and " +
               "rangeland training program called Future Farmers of Africa (FFA).",
             paragraph_FutureFarmersOfAfrica_02:
-              "From 2006-2017 CCF has certified more than 10,000 Namibian men and women in FFA, which teaches conservation " +
+              "From 2006-2017, CCF has certified more than 10,000 Namibian men and women in FFA, which teaches conservation " +
               "strategies for sustainable land use while accommodating the coexistence of predators alongside livestock and wildlife.",
             paragraph_FutureFarmersOfAfrica_03:
               "Topics covered in the FFA courses include livestock health and veterinary care, livestock husbandry, livestock valuation, " +
@@ -247,7 +247,7 @@ export const config = {
                   "In cooperation with Dr. Ray Coppinger from the Livestock Guarding Dog Association in Hampshire College (Massachusetts, U.S.), " +
                   "the first 10 dogs were donated to Namibia by Birinci Anatolians.",
                 paragraph_02:
-                  "Since then, hundreds of farmers have received Anatolian Shepherds and Kangal dogs to ward off predators, such as cheetahs, jackal and leopard. " +
+                  "Since then, hundreds of farmers have received Anatolian Shepherds and Kangal dogs to ward off predators, such as cheetahs, jackals and leopards. " +
                   "These dogs do not herd the goats, but protect the flock by placing themselves between the herd and the predator and barking loudly.",
                 paragraph_03:
                   "CCF’s success is due to the commitment of CCF staff members and the participating farmers. CCF staff regularly visit the farms, " +
@@ -258,8 +258,8 @@ export const config = {
               title: "Raising LGD’s",
               content: {
                 paragraph_01:
-                  "LGD’s are placed with their herds around none weeks of age, as social bonding between the stock and the dogs depends upon " +
-                  "imprinting before 16 weeks of age. The dogs live with their livestock family instead of a human family, so the puppy bonds with the herd; " +
+                  "LGD’s are placed with their herds around nine weeks of age, as social bonding between the stock and the dogs depends upon " +
+                  "imprinting before 16 weeks of age. The dogs live with their livestock family instead of a human family, so the puppies bond with the herd; " +
                   "it becomes the dog’s pack rather than the dog’s potential prey. At CCF puppies are born in a whelping pen attached to the main goat yard."
               }
             },
@@ -270,7 +270,7 @@ export const config = {
                   "Livestock Guarding Dogs have been used for thousands of years to protect cattle, sheep and goats from predator attacks. " +
                   "There are over 20 breeds of guarding dogs. The Anatolian Shepherd, a Turkish breed, was selected as the best candidate for " +
                   "use with smallstock in Namibia as they are able to work in vast open spaces without direct guidance. " +
-                  "These dogs look similar to the flock, with large rounded heads, floppy years and short fur. " +
+                  "These dogs look similar to the flock, with large rounded heads, floppy ears and short fur. " +
                   "They have a good sense of hearing and smelling, a calm temperament and a very loud bark.",
                 paragraph_02:
                   "Anatolians do not herd livestock, they guard them. They are attentive, protective, trustworthy, and aggressive towards predator threats.",
@@ -428,10 +428,10 @@ export const config = {
           title: "Schools, Teachers, Learners",
           contents: {
             paragraph_01:
-              "CCF develops outreach school programs and educational packets are distributed to students are teachers. " +
+              "CCF develops outreach school programs and educational packets are distributed to students and teachers. " +
               "All schools are welcomed to CCF facilities.",
             paragraph_02:
-              "Staff members conduct assembles throughout Namibia. Students are encouraged to become more involved in " +
+              "Staff members conduct assemblies throughout Namibia. Students are encouraged to become more involved in " +
               "conservation in school and in their homes. Workshops assist teachers in initiating cheetah conservation and " +
               "environmental education programs.",
             paragraph_03:
@@ -453,7 +453,7 @@ export const config = {
               "Participatory community events, such as competitions in art, poetry and writing, increase conservation awareness.",
             paragraph_02:
               "Public educational displays are maintained at strategic locations and community events. " +
-              "Display provide introductory information on the plight of the cheetah and the work conducted by CCF.",
+              "Displays provide introductory information on the plight of the cheetah and the work conducted by CCF.",
             paragraph_03:
               "CCF staff participate in farmer meetings, local conservancy activities and other related events. " +
               "Workshops and seminars are conducted to exchange information and develop conservation-based farming practices."

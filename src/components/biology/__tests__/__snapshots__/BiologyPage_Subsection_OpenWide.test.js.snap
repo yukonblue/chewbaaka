@@ -37,7 +37,7 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
           <p
             className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
           >
-            Cheetahs’ jaws are not as powerful as that of lions or leopards. Cheetahs have comparatively shorted canine teeth. In all cats, powerful muscles move the jaw up and down and provide vice-like strength for gripping prey.
+            Cheetahs’ jaws are not as powerful as that of lions or leopards. Cheetahs have comparatively shorter canine teeth. In all cats, powerful muscles move the jaw up and down and provide vice-like strength for gripping prey.
           </p>
         </div>
       </div>
@@ -58,7 +58,7 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
           <p
             className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
           >
-            The tongue is adopted for licking and is covered with small hard spines called papillae. The papillae act like a rasp, removing the meat from the bones of the prey.Rough tongue feels similar to the texture of sandpaper.
+            The tongue is adopted for licking and is covered with small hard spines called papillae. The papillae act like a rasp, removing the meat from the bones of the prey. Rough tongue feels similar to the texture of sandpaper.
           </p>
         </div>
       </div>

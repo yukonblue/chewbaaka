@@ -4,15 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 16, 2020
+ * Updated  : Jul 27, 2020
  */
 
 import React from 'react'
 
 import PopUpLabelledDiagram from '../shared/PopUpLabelledDiagram'
 
-// import image_cheetah_skeletal_anatomy from './assets/cheetah_skeletal_anatomy.jpg'
-import image_cheetah_skeletal_anatomy from './assets/cheetah_skeletal_anatomy_02.jpg'
+import image_cheetah_skeletal_anatomy from './assets/cheetah_skeletal_anatomy.jpg'
 
 export default class CheetahSkeletalAnatomyDiagram extends React.Component {
 
@@ -42,7 +41,7 @@ export default class CheetahSkeletalAnatomyDiagram extends React.Component {
     },
     {
       title: "Hips (Pelvic girdle)",
-      content: "The hips (pelvic girdle) pivot to increase the cheetah’s stride length. " +
+      content: "The hips (pelvic girdle) pivots to increase the cheetah’s stride length. " +
               "This allows the front and rear legs to stretch further apart when the body is fully extended. " +
               "The hips and shoulders move closer together when the feet come under its body.",
       position: {
@@ -70,8 +69,8 @@ export default class CheetahSkeletalAnatomyDiagram extends React.Component {
     },
     {
       title: "Skull",
-      content: "The cat skulls are different from other carnivore species, as they have a flat nose and " +
-              "enlarge nasal cavity. There is a large area for the strong jaw muscles, although overall " +
+      content: "Cat skulls are different from other carnivore species, as they have a flatter nose and " +
+              "enlarged nasal cavity. There is a large area for the strong jaw muscles, although overall " +
               "the cheetah's skull is smaller compared to that of the leopard and lion.",
       position: {
         top: 200,

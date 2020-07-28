@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 27, 2020
  */
 
 import React from 'react'
@@ -21,7 +21,7 @@ import {
 
 import ImageView from '../shared/ImageView'
 
-import image_cheetah_coalition from './assets/cheetah_coalition_02.jpg'
+import image_cheetah_coalition from './assets/cheetah_coalition.jpg'
 import image_cheetah_face_hyena from './assets/cheetah_face_hyena.jpg'
 
 export default class BiologyPageSubsectionLivingFastDyingYoung extends React.Component {

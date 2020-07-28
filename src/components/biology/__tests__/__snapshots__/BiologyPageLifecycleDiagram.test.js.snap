@@ -43,7 +43,12 @@ exports[`BiologyPageLifecycleDiagram component snapshot 1`] = `
   >
     <img
       alt="lifecycle diagram"
-      src="Lifecycle_Diagram_640x675.png"
+      src="Lifecycle_Diagram.png"
+      style={
+        Object {
+          "width": 640,
+        }
+      }
     />
   </div>
 </div>

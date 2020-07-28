@@ -39,7 +39,7 @@ exports[`BiologyPageSubsectionHearAndLung component snapshot 1`] = `
                   <p
                     className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
                   >
-                    The cheetah has a large strong heart that rapidly pumps large amounts of oxygenated blood from the lungs to the muscles to keep them supplied with energy while running.
+                    The cheetah has a strong heart that rapidly pumps large amounts of oxygenated blood from the lungs to the muscles to keep them supplied with energy while running.
                   </p>
                   <p
                     className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"

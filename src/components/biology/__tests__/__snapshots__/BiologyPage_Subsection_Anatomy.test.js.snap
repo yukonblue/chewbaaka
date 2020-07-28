@@ -28,7 +28,7 @@ exports[`BiologyPageSubsectionAnatomy component snapshot 1`] = `
             className="PopUpLabelledDiagramOuterComponent PopUpLabelledDiagramOuterComponent_DebugColor DebugWireframe"
             style={
               Object {
-                "backgroundImage": "url(cheetah_skeletal_anatomy_02.jpg)",
+                "backgroundImage": "url(cheetah_skeletal_anatomy.jpg)",
                 "height": 640,
                 "width": 960,
               }

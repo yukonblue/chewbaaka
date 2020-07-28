@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Jul 27, 2020
  */
 
 export const config = {
@@ -32,7 +32,7 @@ export const config = {
     content: "Ecological studies and researches are the first step in understanding the movement, diet, and behavioral patterns of any " +
             "species of wildlife, as well as the biodiversity and well-being of the entire ecosystem. In Namibia, " +
             "because 90% of the cheetah population lives on farmlands alongside 80% of the country’s wildlife species, " +
-            "it is crucial to invest in ecological research and conservation efforts in order to ensure that both wildlife, " +
+            "it is crucial to invest in ecological research and conservation efforts in order to ensure that wildlife, " +
             "livestock, and farmers can all coexist together. Education and outreach efforts are also equally important " +
             "in educating people to make more sustainable utilizations of the land and its resources, and preserve the richness " +
             "in biodiversity and land fertility for future generations.",
@@ -80,7 +80,7 @@ export const config = {
                   "Cheetahs prefer the savanna biome which " +
                   "supports the animals they prey on.",
                 paragraph_biome_intro:
-                  "Namibia is a country with a rich biodiversity, as it spans over " +
+                  "Namibia is a country with rich biodiversity, as its land spans over " +
                   "five distinct types of biomes.",
                 paragraph_biome_savanna:
                   "The savanna biome is consisted of rolling grasslands scattered with shrubs and isolated trees. " +
@@ -97,11 +97,11 @@ export const config = {
                   "similar to that of the Succulent Karoo biome. Although the biodiversity of fauna in this biome is limited, " +
                   "there are many species of birds and reptiles that are endemic to this biome.",
                 paragraph_biome_namib_desert:
-                  "The desert biome of the Namib receives less than a centimetre of rain a year. " +
+                  "The desert biome of Namibia receives less than a centimetre of rain a year. " +
                   "However, despite the low rainfall, wind blows in from the cold " +
-                  "Atlantic forming dense fog banks along the coastal deserts. This fog provides moisture for a surprising number of " +
-                  "plants and animals, and the desert is alive with well-adapted plants - the most famous being " +
-                  "the welwitschia, antelope like oryx and springbok, desert elephants, lions and a plethora of " +
+                  "Atlantic forming dense fog banks along the coastal deserts. This fog provides enough moisture that " +
+                  "the desert is alive with well-adapted plants and animals - the most famous being " +
+                  "the welwitschia, antelopes like oryx and springbok, desert elephants, lions and a plethora of " +
                   "beetles, bugs, geckos, lizards, snakes and rodents.",
                 paragraph_biome_lakes_and_salt_pans:
                   "The Lakes and Salt Pans biome in Namibia is solely consisted of the Etosha pan that forms part of the Kalahari Basin. " +
@@ -121,7 +121,7 @@ export const config = {
               "Cheetahs prefer game to livestock.",
             paragraph_TheCheetahsPrey_03:
               "The cheetah’s lightweight build limits the size of prey they catch. Male coalitions can, " +
-              "however, overcome larger prey. Coalitions also stand a better chance at defeating their prey " +
+              "however, overcome larger prey. Coalitions also stand a better chance at defending their prey " +
               "against competitors than single cheetahs.",
             paragraph_TheCheetahsPrey_04:
               "Predators have to work very hard to catch their prey. Cheetahs need to carefully select the animal " +
@@ -140,11 +140,11 @@ export const config = {
                 paragraph_CheetahsRole_01:
                   "Every animal species has its role (or niche) in the ecosystem that it lives in. " +
                   "As a carnivorous predator, the cheetah's role in the ecosystem is important as it helps to " +
-                  "maintain a balanced and healthy food web.",
+                  "maintain balanced and healthy food webs.",
                 paragraph_CheetahsRole_02:
                   "One of the cheetah's roles in the ecosystem is to help keep the population of grazing animals " +
-                  "a healthy state. Because of the fact that cheetahs do not have the strength to go after big games " +
-                  "such as wildebeest, elands, and kudus, they go after the ones that are young, weak, or sick. " +
+                  "at a healthy state. Because of the fact that cheetahs do not have the strength to go after big games " +
+                  "such as adult wildebeest, elands, and kudus, they go after the ones that are young, weak, or sick. " +
                   "This helps to ensure that only the strongest of those species will survive, and also the populations " +
                   "of those species won't reach the limit the ecosystem could handle such that it will have negative consequences."
               }
@@ -159,7 +159,7 @@ export const config = {
                   "most formidable competitors that would come into the way of the cheetahs.",
                 paragraph_02:
                   "Despite the fact that competitions inevitably lead to casualties, it is an important aspect of any healthy ecosystem. " +
-                  "Competitions ensure that no species of animal absolutely dominates all the resources in a territory, and resource " +
+                  "Competitions ensure that no species of animal absolutely dominates all the resources in a territory, and resources " +
                   "are partitioned accordingly among the competing species as much as possible to minimize conflict. This leads to a balanced " +
                   "ecosystem with the most biodiversity, as each species is unique in its role within the ecosystem."
               }
@@ -197,7 +197,7 @@ export const config = {
                     paragraph_01:
                       "Sustainability refers to a process that can last forever. Utilizing a resource sustainably means that using " +
                       "the natural resource will not destroy it. Hunting can be a form of sustainable use. " +
-                      "A sustainable outlook on hunting also sets aside a portion of the revenue collected form the " +
+                      "A sustainable outlook on hunting also sets aside a portion of the revenue collected from the " +
                       "hunt to support conservation efforts for the species."
                   },
                   is_part_What_is_Sustainable_Utilization: true
@@ -237,7 +237,7 @@ export const config = {
                   "It is critical to identify the individual culprit causing losses rather than remove all cheetahs indiscriminately. " +
                   "The opportunistic killing of inadequately protected livestock, such a new born calves in the bush, indicates poor livestock " +
                   "management which does not warrant the removal of the predator. Some farmers trap, poison and shoot cheetahs. " +
-                  "This may not be due ti stock losses, but simply because the predator entered the farm and is perceived as a threat to livestock or family.",
+                  "This may not be due to livestock losses, but simply because the predator entered the farm and is perceived as a threat to livestock or family.",
                 paragraph_03:
                   "Predator control most commonly involves setting live capture cage traps. Farmers also use gin traps and poisoned carcasses. " +
                   "These methods only increase problems as they tend to lure and kill indiscriminately. Animals suffering as a result include ones " +
@@ -259,7 +259,7 @@ export const config = {
               title: "Mixed Farming - Wildlife and Livestock",
               content: {
                 paragraph_01:
-                  "Combining game and livestock farming holds many advantages fo the farmer. " +
+                  "Combining game and livestock farming holds many advantages for the farmer. " +
                   "A variety of game species helps to maintain a healthy farmland ecosystem by using all levels and forms of vegetation. " +
                   "When livestock prices are low, game animals can supplement the farmer’s income in the form of hunting, ecotourism or direct live sale. " +
                   "Game animals tolerate drought conditions better than livestock. " +
@@ -291,7 +291,7 @@ export const config = {
                   "Etosha National Park, the Namibia Desert and the Skeleton Coast are major attractions for foreign ecotourists. " +
                   "Lodges, guest farms, and commercial villages are points on Namibian ecotours. Many of these destinations promote cheetah conservation.",
                 paragraph_02:
-                  "Sometime in the 2000s, the annual number of tourists visiting Namibia will exceed 500,000. " +
+                  "Sometime in the 2000s, the annual number of tourists visiting Namibia exceeded 500,000. " +
                   "Tourists spend money on transport, lodging, food and souvenirs. This is an important part of the economy and a supplement to " +
                   "agricultural income for many Namibians."
               }
@@ -475,7 +475,7 @@ export const config = {
                       "The goal of CCF Bush is to stimulate the development of a Namibian Biomass industry, thereby protecting the bush ecosystem, " +
                       "restoring wildlife habitat, improving farming productivity, creating employment opportunities and providing clean, renewable energy.",
                     paragraph_02:
-                      "CCF harvests the thickened thorn bush, converting it into a clean-burning, biomass fuel log known asa Bushblok ™. " +
+                      "CCF harvests the thickened thorn bush, converting it into a clean-burning, biomass fuel log known as Bushblok ™. " +
                       "CCF has restored hundreds of hectares of savanna grasslands for livestock, wildlife and cheetahs to share. " +
                       "In 2006, CCF obtained Forest Stewardship Council (FSC) certification, confirming that it manages forest resources " +
                       "responsibly and sustainably."
@@ -516,13 +516,13 @@ export const config = {
               content: {
                 paragraph_01:
                   "To understand how cheetahs use their habitat you must be able to identify individual animals and record their position periodically. " +
-                  "Individual photos or distinctive collars would be useful is cheetahs were frequently sighted, but they are not. " +
+                  "Individual photos or distinctive collars would be useful if cheetahs were frequently sighted, but they are not. " +
                   "Trackers may note the spoor (tracks) of a particular cheetah at various places and estimates when they were made. " +
                   "This is difficult due to the large ranges they cover and the fact that individuals are hard to identify.",
                 paragraph_02:
                   "The preferred method to study cheetah movement is to radio-track individuals. A lightweight collar carrying a battery pack and a small " +
                   "transmitter is fitted around the cheetah’s neck. The scientist uses a receiver and a special directional antenna " +
-                  "(either in the ground or from a plane) to pick up the cheetah’s signal. The receive transmit the signal into beeps. " +
+                  "(either in the ground or from a plane) to pick up the cheetah’s signal. The receiver transmits the signal into beeps. " +
                   "Each collar’s transmitter has a different radio frequency so that many cheetahs can be located during one “radio-tracking session”."
               }
             },
@@ -560,7 +560,7 @@ export const config = {
                       "Spoor frequency is calculated by dividing the total distance between the numbers of samples of fresh spoor.",
                     paragraph_03:
                       "Spoor density is calculated by dividing the number of fresh spoor between the total distances. " +
-                      "Spoor tracking provided promising as a census technique as it displayed a positive relationship with the densities " +
+                      "Spoor tracking proved promising as a census technique as it displayed a positive relationship with the densities " +
                       "reported in the radio telemetry study."
                   }
                 },

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Jul 27, 2020
  */
 
 import React from 'react'
@@ -131,11 +131,11 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
             slides={[
               {
                 image: image_cheetah_rescue_01,
-                caption: "Most cheetah cubs trafficked and sold end up as the buyer's pets. The cubs consequently suffer from shock, malnurishment, and unsuitable living conditions."
+                caption: "Most cheetah cubs trafficked and sold end up as buyers' pets. The cubs consequently suffer from shock, malnurishment, and unsuitable living conditions."
               },
               {
                 image: image_cheetah_rescue_02,
-                caption: "Cheetah cubs trafficked often are in extremely poor physical health and conditions. Many perish within weeks even with the best care after confistication.",
+                caption: "Cheetah cubs trafficked are often in extremely poor physical health and conditions. Many perish within weeks even with the best care after confistication.",
                 credit: kStringConstantCheetahConservationFund
               },
               {

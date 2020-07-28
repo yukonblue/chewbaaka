@@ -32,13 +32,22 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
           <p
             className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
           >
-            Until three months of age, cheetah cubs have a thick-silvery grey mantle down their back. The mantle helps camouflage the cubs by blending them into the shadows and grass. It also provides protection from sun and rain.
+            Until three months of age, cheetah cubs have a thick-silvery grey mantle that runs down their back. The mantle helps camouflage the cubs by blending them into the shadows and grass. It also provides protection from sun and rain.
           </p>
           <p
             className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
           >
             With their mantle, cubs look like an aggressive animal called a honey badger. This may deter predators such as lions, hyenas, and eagles from attempting to kill them. This is known as “mimicry”.
           </p>
+          <div
+            className="FactBannerMediumDimension Centered"
+          >
+            <img
+              alt="What is camouflage?"
+              className="FactBannerMediumDimension"
+              src="What_is_Camouflage.png"
+            />
+          </div>
         </div>
         <div
           className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
@@ -367,7 +376,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                       <p
                         className="BigCatSpotsIllustrationHintText"
                       >
-                        I can live anywhere but prefer savannahs.
+                        I can live anywhere but prefer savannas.
                       </p>
                     </div>
                   </div>

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Jul 27, 2020
  */
 
 import React from 'react'
@@ -83,7 +83,7 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
             {
               image: cheetah_range_map_02,
               title: "Cheetah Range Population Breakdown",
-              description: "Some ranges left have very small population left."
+              description: "Cheetahs were driven out of over 90% of its historic range, and a number of parts of its current range have very small populations left."
             }
           ]}
         />

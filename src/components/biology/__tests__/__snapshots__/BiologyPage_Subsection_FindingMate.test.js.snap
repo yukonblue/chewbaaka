@@ -98,7 +98,7 @@ exports[`BiologyPageSubsectionFindingMate component snapshot 1`] = `
       <p
         className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
       >
-        Mating will take place for one to several days and ends when the make loses interest in the female and leaves. Males do not help raise the cubs.
+        Mating will take place for one to several days and ends when the male loses interest in the female and leaves. Males do not help raise the cubs.
       </p>
     </div>
   </div>
