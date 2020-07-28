@@ -22,9 +22,19 @@ import "semantic-ui-css/semantic.min.css"
 
 import './ExploreGatewayIntro.css'
 
+import image_CCF_Cheetah_Museum from './assets/CCF_Cheetah_Museum.jpg'
+
 export default function ExploreGatewayIntro() {
   return (
     <div className="ExploreGatewayIntro" data-testid="ExploreGatewayIntroTestId">
+      <br/>
+      <br/>
+      <img
+        className="ExploreGatewayIntroCCFCheetahMuseumImage Centered"
+        src={image_CCF_Cheetah_Museum}
+        alt="CCF Cheetah Museum"
+      />
+      <br/>
       <br/>
       <Container width={8}>
         <Header size="huge" textAlign="center">
