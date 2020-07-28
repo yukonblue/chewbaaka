@@ -4,20 +4,20 @@
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 27, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import { render, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react'
 
-import renderer from 'react-test-renderer';
+import renderer from 'react-test-renderer'
 
-import TextReveal from '../TextReveal';
-
-import coverImage from '../assets/cheetah-conservation-fund-cheetah-fact-01.jpg'
+import TextReveal from '../TextReveal'
 
 const description = "Cheetah";
+
+const coverImage = "https://cheetah.org/wp-content/uploads/2019/01/cheetah-conservation-fund-cheetah-fact-01.jpg";
 
 test('renders TextReveal component', () => {
   render(

@@ -38,8 +38,8 @@ import ImageSlidingGalleryDiscrete from '../shared/ImageSlidingGalleryDiscrete'
 
 import image01 from './assets/cheetah-conservation-fund-logo.jpg'
 import image02 from './assets/cheetah-conservation-fund-30-logo.svg'
-import image03 from './assets/cheetah-conservation-fund-cheetah-fact-01.jpg'
-import image04 from './assets/cheetah-conservation-fund-cheetah-fact-02.jpg'
+import image03 from './assets/cheetah-conservation-fund-30-logo.svg'
+import image04 from './assets/cheetah-conservation-fund-30-logo.svg'
 
 const __DEV__ = ( process.env.NODE_ENV === "development" || process.env.NODE_ENV === "test" );
 
