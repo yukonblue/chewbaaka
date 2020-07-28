@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Jul 27, 2020
  */
 
 import React from 'react'
@@ -22,7 +22,7 @@ import {
 } from '../shared/ContentPageSubsectionContentBinder'
 
 import image_earth_environment from './assets/earth_environment.png'
-import image_earth_biodiversity from './assets/earth_biodiversity_640x590.png'
+import image_earth_biodiversity from './assets/earth_biodiversity.png'
 
 export default class FuturePageSubsectionWhatIsConservation extends React.Component {
 
@@ -97,7 +97,11 @@ export default class FuturePageSubsectionWhatIsConservation extends React.Compon
 
   renderMiddleColumnContent() {
     return (
-      <img src={image_earth_biodiversity} alt="" />
+      <img
+        className="FullWidth"
+        src={image_earth_biodiversity}
+        alt=""
+      />
     );
   }
 }

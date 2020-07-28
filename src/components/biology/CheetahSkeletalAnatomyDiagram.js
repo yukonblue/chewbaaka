@@ -11,8 +11,7 @@ import React from 'react'
 
 import PopUpLabelledDiagram from '../shared/PopUpLabelledDiagram'
 
-// import image_cheetah_skeletal_anatomy from './assets/cheetah_skeletal_anatomy.jpg'
-import image_cheetah_skeletal_anatomy from './assets/cheetah_skeletal_anatomy_02.jpg'
+import image_cheetah_skeletal_anatomy from './assets/cheetah_skeletal_anatomy.jpg'
 
 export default class CheetahSkeletalAnatomyDiagram extends React.Component {
 

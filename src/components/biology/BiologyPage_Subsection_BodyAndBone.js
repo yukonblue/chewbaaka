@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 27, 2020
  */
 
 import React from 'react'
@@ -26,7 +26,7 @@ import ImageView from '../shared/ImageView'
 
 import './BiologyPage_Subsection_BodyAndBone.css'
 
-import image_cheetah_body_measurements from './assets/Cheetah_Body_Measurements_720x480.jpg'
+import image_cheetah_body_measurements from './assets/Cheetah_Body_Measurements.jpg'
 import image_cheetah_tail from './assets/cheetah_tail.jpg'
 import image_cheetah_running_animated from './assets/cheetah_running_animated.gif'
 
@@ -71,7 +71,11 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
       <ContentPageSubsectionPart>
         <div className="OverflowHidden">
           <div className="FloatRight">
-            <img src={image_cheetah_body_measurements} alt="" />
+            <img
+              style={{width: 720}}
+              src={image_cheetah_body_measurements}
+              alt="Cheetah body measurements"
+            />
           </div>
 
           <div className="LeftMargin50px">
