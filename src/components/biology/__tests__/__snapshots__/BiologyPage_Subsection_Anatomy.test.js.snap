@@ -19,7 +19,7 @@ exports[`BiologyPageSubsectionAnatomy component snapshot 1`] = `
         className="BiologyPageSubsectionAnatomyCheetahSkeletalAnatomyDiagramContainer"
       >
         <p
-          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
         >
           Every part of the cheetah's body work in unison during a high speed run, and the sum of each of their role together is greater than the individual parts. Explore the illustration below to learn about the role and function of each highlighted body part.
         </p>

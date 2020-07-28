@@ -37,12 +37,12 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                     Male coalitions
                   </h4>
                   <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
                   >
                     A coalition consists of a group of male siblings of the same litter or young unrelated males that have joined together. A hierarchy develops among the males within a coalition.
                   </p>
                   <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
                   >
                     Young males are usually chased away from their birth range by dominant breeding males. They may establish home ranges more than 100 km away. A coalition is more successful in acquiring and holding territories and in defending kills than single males. This competition can result in mortality among males.
                   </p>
@@ -188,17 +188,17 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                     Mortality
                   </h4>
                   <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
                   >
                     The cheetah’s lifespan is poorly documented in the wild. A radio collared cheetah lived to be almost 7 years of age in Tanzania’s Serengeti National Park, and one of CCF’s radio collared cheetahs in Namibia lived for over 10 years.
                   </p>
                   <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
                   >
                     Adult mortality is one of the most significant limiting factors for cheetah population growth and survival. Poaching, competition with large predators and farmers, and loss of habitats and prey are factors attributing to early death.
                   </p>
                   <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
                   >
                     Though cub deaths are high, cheetahs have evolved to reproduce rapidly in response to this mortality.
                   </p>

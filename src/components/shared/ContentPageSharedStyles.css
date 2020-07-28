@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 27, 2020
+ * Updated  : Jul 28, 2020
  */
 
 /** ----------------------------- CONTAINER -------------------------------- **/
@@ -98,22 +98,23 @@ div.BottomMargin50px {
 
 /** ------------------------------- TEXT ----------------------------------- **/
 
+p.ContentPageHeadAndSectionIntroText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  line-height: 1.7;
+  word-wrap: break-word;
+}
+
+p.ContentPageHeadAndSectionIntroText_DebugColor {
+  color: cornflowerblue;
+}
+
 .ContentPageRegularTextSize {
-  font-size: 18px;
+  font-size: 19px;
 }
 
-p.ContentPageContentParagraphText {
-  padding: 15px;
-  line-height: 1.8;
-}
-
-p.ContentPageContentParagraphText_DebugColor {
-  color: chocolate;
-  background-color: palegoldenrod;
-}
-
-li.ContentPageBulletTextStyle {
-  line-height: 2.0em;
+.ContentPageRegularTextLineHeight {
+  line-height: 2.0;
 }
 
 p.ContentPageCaptionTextSize {

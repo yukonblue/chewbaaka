@@ -4,20 +4,22 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 12, 2020
+ * Updated  : Jul 28, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import "semantic-ui-css/semantic.min.css";
+import "semantic-ui-css/semantic.min.css"
 
 import { Button, Header, Image, Icon, Modal } from 'semantic-ui-react'
+
+import ContentPageCaptionLabel from './ContentPageCaptionLabel'
 
 import { getElementStyleClassName } from '../../styling/styling'
 
 import "./ImageSlideModal.css"
 
-class ImageSlideModal extends React.Component {
+export default class ImageSlideModal extends React.Component {
 
   constructor(props) {
     super(props);
@@ -81,12 +83,12 @@ class ImageSlideModal extends React.Component {
             data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
           >
             <div className="ImageSliderModalCoverTriggerImageIconInnerContainer">
-                <Icon
-                  name="images outline"
-                  color="blue"
-                  size="huge"
-                  onClick={this.handleOpen}
-                />
+              <Icon
+                name="images outline"
+                color="blue"
+                size="huge"
+                onClick={this.handleOpen}
+              />
             </div>
           </div>
         }
@@ -108,9 +110,9 @@ class ImageSlideModal extends React.Component {
                 <Header as="h3" className="ImageSlideModalComponentModalDescriptionHeader">
                   {this.props.slides[this.state.activeIndex].title}
                 </Header>
-                <p>
+                <ContentPageCaptionLabel>
                   {this.props.slides[this.state.activeIndex].description}
-                </p>
+                </ContentPageCaptionLabel>
                 <div className="ImageSlideModalComponentModalDescriptionPaginationButtonContainer">
                   <Button
                     icon="arrow alternate circle left outline"
@@ -140,5 +142,3 @@ class ImageSlideModal extends React.Component {
     )
   }
 }
-
-export default ImageSlideModal;

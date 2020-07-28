@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 24, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 28, 2020
  */
 
 import React from 'react'
@@ -40,7 +40,7 @@ export default class ContentPageIntroSectionGeneric extends React.Component {
           alt={this.props.contentPageIntro.title}
           style={this.props.contentPageIntro.image.offset}
         />
-        <p className={getElementStyleClassName("ContentPageIntroSectionParagraph")}>
+        <p className={getElementStyleClassName("ContentPageHeadAndSectionIntroText")}>
           {this.props.contentPageIntro.content}
         </p>      
       </div>
