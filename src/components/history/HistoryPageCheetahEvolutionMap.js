@@ -4,12 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 12, 2020
+ * Updated  : Jul 27, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import "semantic-ui-css/semantic.min.css";
+import "semantic-ui-css/semantic.min.css"
 
 import './HistoryPageCheetahEvolutionMap.css'
 
@@ -28,7 +28,7 @@ import bodyImage_07 from './assets/Cheetah_Evolution_Map/Cheetah_Evolution_Map_S
 
 export default class HistoryPageCheetahEvolutionMap extends React.Component {
 
-  static _TITLE_ = "Cheetah Evolution"
+  static _TITLE_ = "Map of Cheetah Evolution"
 
   render() {
     return (
@@ -37,7 +37,7 @@ export default class HistoryPageCheetahEvolutionMap extends React.Component {
           <div className={getElementStyleClassName("HistoryPageCheetahEvolutionMapImageSlideContainer")}>
             <ImageSlide
               title={HistoryPageCheetahEvolutionMap._TITLE_}
-              caption="Slide to timeline to see how the cheetah evolved and migrated."
+              caption="Slide the timeline to see how the cheetah evolved and migrated."
               sliderNameLabel="Timeline"
               sliderUnitLabel="million years ago / years ago"
               backgroundImage={backgroundImage}

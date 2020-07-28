@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 27, 2020
  */
 
 import React from 'react'
@@ -22,8 +22,6 @@ import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import MediaLinkButton from '../shared/MediaLinkButton'
 
 import HintSignpost from '../shared/HintSignpost'
-
-import LineBreak from '../shared/LineBreak'
 
 import FelidaeFamilyTree from './FelidaeFamilyTree'
 
@@ -72,7 +70,7 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
           given the close resemblance to their appearances. However, the cheetah is actually most closely
           related to the North American <b>cougar (puma)</b> (<span className="TaxonomyBinomialName">Puma concolor</span>)
           and the <b>jaguarundi</b> (<span className="TaxonomyBinomialName">Herpailurus yagouaroundi</span>)
-          that roams through Central to South America. Together, these three species form the <b>Puma</b> lineage,
+          that roams through Central to South America. Together, these three species form the <b><span className="TaxonomyBinomialName">Puma</span></b> lineage,
           one of the eight lineages of the <span className="TaxonomyBinomialName">Felidae</span> family.
         </ContentPageParagraph>
 
@@ -91,21 +89,13 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
         <ContentPageParagraph>
           The evolution of the <span className="TaxonomyBinomialName">Felidae</span> cat
           family began about 25 million years ago. Through time, the ancestors
-          of the cat family slowly evolved into eight main lineages, each lineage
+          of the cat family slowly evolved into eight main lineages, with each lineage
           representing a subset of the <span className="TaxonomyBinomialName">Felidae</span> cat
           family that are the most related genetically.
         </ContentPageParagraph>
 
-        <LineBreak lines={2} />
-
-        <ContentPageParagraph>
-          Below is an illustration of the <i>Felidae</i> family tree. Hover over
-          each image in the tree to reveal its genus. (Cats in the same
-          lineage have the same background color).
-        </ContentPageParagraph>
-
         <HintSignpost
-          hintText="Hover over images below to reveal the genera in the Felidae family"
+          hintText="Hover over images below to reveal the members in the Felidae family tree"
           iconName="arrow circle down"
         />
 

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Jul 27, 2020
  */
 
 import React from 'react'
@@ -34,7 +34,7 @@ export default class HistoryPageCheetahPopulationIllustration extends React.Comp
           <div className={getElementStyleClassName("HistoryPageCheetahPopulationIllustrationImageSlideContainer")}>
             <ImageSlide
               title={HistoryPageCheetahPopulationIllustration._TITLE_}
-              caption="Slide to timeline to see how the cheetah population changes."
+              caption="Slide the timeline to see how the cheetah population changes."
               sliderNameLabel="Timeline"
               sliderUnitLabel="Years"
               imageWidth={326}

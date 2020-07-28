@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Jul 27, 2020
  */
 
 export const config = {
@@ -31,9 +31,9 @@ export const config = {
     title: "History of the Cheetah",
     content: "The evolution and history of the cheetah are just as remarkable and " +
           "interesting as the species itself. Its evolution goes back to nearly " +
-          "7 million years ago in time and spanned almost all the continents on the planet, " +
-          "and its history with human interactions goes as far back as to 32000 BCE. " +
-          "The cheetah have been a symbol of significant meaning in different civilizations and " +
+          "7 million years ago in time, and spanned across almost all the continents on the planet. " +
+          "Its history with human interactions goes as far back as to 32000 BCE, and " +
+          "the cheetah has been a symbol of significant meaning in different civilizations and " +
           "cultures across thousands of years of human history. Even up to this day, " +
           "the cheetah continues to be considered as a spiritual animal that manifests " +
           "as a symbol of a multitude of positive characteristics, such as adaptability, " +
@@ -79,7 +79,7 @@ export const config = {
               'represented a person, a thing or mood from the past, present or future, and are known as Divinatory sets.',
             paragraph_Cheetah_And_Man_02:
               'During the time of the Egyptian pharaohs, the cheetah was considered a goddess named ' +
-              '"Mafdet". Pharaohs kept cheetahs was close companions, ' +
+              '"Mafdet". Pharaohs kept cheetahs as close companions, ' +
               "symbolic of Mafdet's protection of the royal throne.",
             paragraph_Cheetah_And_Man_03:
               'The San of Southern Africa ate cheetah meat as a symbol for speed, but it was not a main food in their diet.',
@@ -150,7 +150,7 @@ export const config = {
                 "habitat encroachment have caused the sharp decline of the global cheetah " +
                 "population over the last century, and driven the species out of much of their " +
                 "historical range. One of the last strongholds of the species today remain in " +
-                "southern Africa, spans over Namibia and Botswana, which together " +
+                "southern Africa, spanning over Namibia and Botswana, which together " +
                 "holds two thirds of the species' population."
       },
       subsections: {
@@ -235,7 +235,7 @@ export const config = {
                   'to the fur trade.',
 
                 paragraph_Where_Did_The_Cheetah_Go_03:
-                  'By 1975, researches realized that the cheetah was in troubles. CITES ' +
+                  'By 1975, researches realized that the cheetah was in trouble. CITES ' +
                   '(Convention on International Trade of Endangered Species) placed the cheetah ' +
                   'on Appendix I, making international trade in live cheetah or cheetah products illegal. ' +
                   'Local laws supported CITES in many countries where cheetahs still lived. ' +
