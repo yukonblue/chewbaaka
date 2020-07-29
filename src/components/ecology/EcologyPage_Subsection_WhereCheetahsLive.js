@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -29,6 +29,8 @@ import NamibianBiomes from './NamibianBiomes'
 import image_savanna from './assets/savanna.jpg'
 
 import image_banner_fact_What_is_Habitat from './assets/What_is_Habitat.png'
+
+import image_savana_bg_large from './assets/savana_bg_large.jpg'
 
 import image_Namibia_Biomes_and_Cheetah_Ranges_Map from './assets/Namibia_Biomes_and_Cheetah_Ranges_Map.jpg'
 
@@ -87,7 +89,13 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
         <img
           src={image_banner_fact_What_is_Habitat}
           alt="What is an ecosystem"
-          style={{width: 640}}
+          className="FactBannerSmallDimension VerticalCushionPadding"
+        />
+
+        <img
+          src={image_savana_bg_large}
+          alt="African savanna"
+          className="FullWidth VerticalCushionPadding"
         />
       </ContentPageSubsectionPart>
     );
