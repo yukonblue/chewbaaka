@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -12,8 +12,11 @@ import React from 'react'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
-import ContentPageParagraph from '../shared/ContentPageParagraph'
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
+
+import {
+  ContentPageSubsectionParagraphsContentBinder,
+} from '../shared/ContentPageSubsectionContentBinder'
 
 import '../shared/ContentPageSharedStyles.css'
 
@@ -53,13 +56,20 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
   renderContent() {
     return (
       <div className="FuturePageSubsectionCheetahsAtCCFInnerContainer">
-        {this.renderPart1()}
-        {this.renderPart2()}
+        {this.renderPartIntro(this.state.subsectionConfig.contents["part_Intro"])}
+        {this.renderPartChewbaaka(this.state.subsectionConfig.contents["part_Chewbaaka"])}
+        {this.renderPartMekondyo(this.state.subsectionConfig.contents["part_Mekondyo"])}
       </div>
     );
   }
 
-  renderPart1() {
+  renderPartIntro(part) {
+    return (
+      ContentPageSubsectionParagraphsContentBinder(part.content)
+    );
+  }
+
+  renderPartChewbaaka(part) {
     return (
       <ContentPageSubsectionPart>
         <ContentPageSubsectionSubtitle>
@@ -67,14 +77,14 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
         </ContentPageSubsectionSubtitle>
 
         <ContentPageSubsectionTwoColumnContentTemplate
-          lhsColumn={{content: this.renderLhsContentChewbaaka()}}
+          lhsColumn={{content: this.renderLhsContentChewbaaka(part)}}
           rhsColumn={{content: this.renderRhsContentChewbaaka()}}
         />
       </ContentPageSubsectionPart>
     );
   }
 
-  renderPart2() {
+  renderPartMekondyo(part) {
     return (
       <ContentPageSubsectionPart>
         <ContentPageSubsectionSubtitle>
@@ -82,18 +92,16 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
         </ContentPageSubsectionSubtitle>
         <ContentPageSubsectionTwoColumnContentTemplate
           lhsColumn={{content: this.renderLhsContentMekondyo()}}
-          rhsColumn={{content: this.renderRhsContentMekondyo()}}
+          rhsColumn={{content: this.renderRhsContentMekondyo(part)}}
         />
       </ContentPageSubsectionPart>
     );
   }
 
-  renderLhsContentChewbaaka() {
+  renderLhsContentChewbaaka(part) {
     return (
       <div className="FuturePageCheetahAndManImageSubsectionContentTextContainer">
-        <ContentPageParagraph>
-          {this.state.subsectionConfig.contents["paragraph_Chewbaaka"]}
-        </ContentPageParagraph>
+        {ContentPageSubsectionParagraphsContentBinder(part.content)}
         <div>
           <MediaLinkButton
             href="https://www.youtube.com/watch?v=WYjeEG06cjc"
@@ -126,11 +134,9 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
     );
   }
 
-  renderRhsContentMekondyo() {
+  renderRhsContentMekondyo(part) {
     return (
-      <ContentPageParagraph>
-        {this.state.subsectionConfig.contents["paragraph_Mekondyo"]}
-      </ContentPageParagraph>
+      ContentPageSubsectionParagraphsContentBinder(part.content)
     );
   }
 }
