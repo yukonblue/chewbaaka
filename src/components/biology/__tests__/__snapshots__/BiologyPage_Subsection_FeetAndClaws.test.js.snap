@@ -336,6 +336,9 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
           className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
         >
           <div
+            className="VerticalCushionPadding"
+          />
+          <div
             className="AfricanWildlifeTracksIllustrationOuterContainer AfricanWildlifeTracksIllustrationOuterContainer_DebugColor DebugWireframe"
           >
             <div>
