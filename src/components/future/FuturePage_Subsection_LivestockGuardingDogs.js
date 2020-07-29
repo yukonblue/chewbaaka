@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -141,7 +141,7 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
           fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
         />
 
-        <div style={{width: 960}} className="Centered">
+        <div style={{width: 960}} className="Centered VerticalCushionPaddingTopLarge">
           <img
             src={image_LGD}
             alt="Livestock Guarding Dogs"
