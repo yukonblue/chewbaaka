@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -137,6 +137,7 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
   renderSpoorIllustration() {
     return (
       <ContentPageSubsectionPart>
+        <div className="VerticalCushionPadding"></div>
         <AfricanWildlifeTracksIllustration />
       </ContentPageSubsectionPart>
     );
