@@ -4,33 +4,58 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 28, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import "semantic-ui-css/semantic.min.css";
+import {
+  Button,
+  Container,
+  Header,
+  Segment
+} from 'semantic-ui-react'
 
-import {  Button, Container, Header, Segment } from 'semantic-ui-react'
+import 'semantic-ui-css/semantic.min.css'
 
-import './LandingPageGateway.css';
+import './LandingPageGateway.css'
 
 const __TEST__ = ( process.env.NODE_ENV === "test" );
 
-class LandingPageGateway extends React.Component {
+export default class LandingPageGateway extends React.Component {
+
+  static _COMPONENT_NAME_ = "landingPageGateway";
+
+  static _TITLE_ = "landingPageGatewayTitle";
+
   render() {
+    const title = this.props.config.components[LandingPageGateway._COMPONENT_NAME_].constants[LandingPageGateway._TITLE_];
     return (
-      <Segment vertical textAlign="center" className={this.centerSegmentStyleClassName()} data-testid="LandingPageGateway">
-        <Container className="content">
+      <Segment
+        className={["LandingPageGatewayOuterContainer", this.centerSegmentStyleClassName()].join(" ")}
+        vertical
+        textAlign="center"
+        data-testid="LandingPageGatewayComponentTestId"
+      >
+        <Container className="LandingPageGatewayCoreContentContainer">
           <Header inverted as="h1">
-            Run cheetah run
+            {title}
           </Header>
-          <p className="subtitle" data-testid="subtitle">
+          <p
+            className="LandingPageGatewaySubtitle"
+            data-testid="LandingPageGatewayComponentSubtitlePartTestId"
+          >
             Visit and explore CCF's <b>Cheetah Museum</b> at the
             comfort of your home.
           </p>
           <a href="#Explore">
-            <Button basic inverted size="huge">Explore</Button>
+            <Button
+              basic
+              inverted
+              size="huge"
+            >
+              Explore
+            </Button>
           </a>
         </Container>
       </Segment>
@@ -38,12 +63,8 @@ class LandingPageGateway extends React.Component {
   }
 
   centerSegmentStyleClassName() {
-    const centerSegmentStyleClassNames = [
-      "centerSegmentStyle1",
-      "centerSegmentStyle2",
-      "centerSegmentStyle3",
-      "centerSegmentStyle4",
-    ]
+    const centerSegmentStyleClassNames =
+      this.props.config.components[LandingPageGateway._COMPONENT_NAME_].dynamicStyleGroups["centerSegmentStyleClassNames"];
 
     let idx = 0;
 
@@ -58,5 +79,3 @@ class LandingPageGateway extends React.Component {
     return centerSegmentStyleClassNames[idx];
   }
 }
-
-export default LandingPageGateway;

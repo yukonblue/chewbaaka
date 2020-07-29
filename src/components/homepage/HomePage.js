@@ -14,12 +14,16 @@ import LandingPageGateway from './LandingPageGateway'
 import ExploreGateway from './ExploreGateway'
 import Footer from '../shared/Footer'
 
+import { config } from './config'
+
 export default class HomePage extends React.Component {
   render() {
     return (
       <div className="HomePage" data-testid="HomePageTestId">
         <TopNavBar fixedOnTop={true}/>
-        <LandingPageGateway/>
+        <LandingPageGateway
+          config={config}
+        />
         <ExploreGateway/>
         <Footer/>
       </div>
