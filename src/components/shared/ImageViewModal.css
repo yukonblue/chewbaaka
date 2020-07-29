@@ -1,0 +1,44 @@
+/**
+ * ImageViewModal.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jul 29, 2020
+ * Updated  : Jul 29, 2020
+ */
+
+div.ImageViewModalCoverTriggerOuterContainer {
+  display: block;
+  position: relative;
+  /* float: left; */
+  background-color: gray;
+  background-size: cover;
+  /* border: 1px solid gray; */
+}
+
+div.ImageViewModalCoverTriggerImageIconInnerContainer {
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+}
+
+div.ImageViewModalComponentModalContentOuterContainer {
+  margin: 0 auto;
+}
+
+div.ImageViewModalComponentModalContentOuterContainer_DebugColor {
+  background-color: palegoldenrod;
+}
+
+div.ImageViewModalComponentModalContentImageContainer {
+  margin: 0 auto;
+}
+
+div.ImageViewModalComponentModalContentImageContainer_DebugColor {
+  background-color: orangered;
+}
+
+img.ui.huge.image.ImageViewModalComponentModalContentImage {
+  display: block;
+  margin: 0 auto;
+}

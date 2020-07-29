@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageViewModal component snapshot 1`] = `
+<div
+  className="ImageViewModalCoverTriggerOuterContainer"
+  data-testid="ImageViewModalComponentCoverImageContainerTestId"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "backgroundImage": "url(cheetah-conservation-fund-logo.jpg)",
+      "height": 480,
+      "width": 720,
+    }
+  }
+>
+  <div
+    className="ImageViewModalCoverTriggerImageIconInnerContainer"
+  >
+    <i
+      aria-hidden="true"
+      className="black file image huge icon"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;
