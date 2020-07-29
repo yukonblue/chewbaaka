@@ -4,19 +4,21 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 28, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import { render, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react'
 
-import renderer from 'react-test-renderer';
+import renderer from 'react-test-renderer'
 
-import HomePage from '../HomePage';
+import HomePage from '../HomePage'
 
-test('renders homepage', () => {
-  render(<HomePage />);
+test('renders HomePage component', () => {
+  render(
+    <HomePage />
+  );
 
   const mainTitleElement = screen.getByText(/Run cheetah run/i);
   expect(mainTitleElement).toBeInTheDocument();
@@ -26,7 +28,7 @@ test('renders homepage', () => {
   expect(topNavBarComponent).toBeInTheDocument();
 
   // Tests landing page gateway component is present.
-  const landingPageGatewayComponent = screen.getByTestId("LandingPageGateway");
+  const landingPageGatewayComponent = screen.getByTestId("LandingPageGatewayComponentTestId");
   expect(landingPageGatewayComponent).toBeInTheDocument();
 
   // Tests explore gateway component is present.
@@ -40,7 +42,8 @@ test('renders homepage', () => {
 
 test('HomePage snapshot', () => {
   const tree = renderer
-    .create(<HomePage />)
-    .toJSON();
+    .create(
+      <HomePage />
+    ).toJSON();
   expect(tree).toMatchSnapshot();
 });

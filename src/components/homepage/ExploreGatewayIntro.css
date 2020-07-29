@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 03, 2020
+ * Updated  : Jul 28, 2020
  */
 
 div.ExploreGatewayIntro {
@@ -29,21 +29,35 @@ span.SafeTheCheetah:hover {
   color: rgb(255,149,0);
 }
 
-div.centerGridLeftColumnStyle {
+div.ExploreGatewayIntroCenterGrid {
+  margin: 20px auto;
+}
+
+div.ExploreGatewayIntroCenterGridLeftColumnStyle {
   display: block;
   float: right;
   width: 500px;
 }
 
-div.centerGridLeftColumnStyle p {
-  text-align: right;
-  font-size: 21px;
+p.CCFMissionStatementQuote {
+  display: inline;
+  padding: 0.25rem 0;
+
   background-image: linear-gradient(45deg, rgba(255,193,7,0.75) 0%, rgba(255,193,7,0.75) 100%);
   background-repeat: no-repeat;
   background-size: 100% 0.25rem;
   background-position: 0 100%;
-  padding: 0.125rem 0;
-  display: inline;
+  
   font-family: 'Roboto', sans-serif;
+  font-size: 21px;
   font-style: italic;
+  font-weight: 500;
+  line-height: 1.6;
+  text-align: right;
+}
+
+img.ExploreGatewayIntroCCFCheetahMuseumImage {
+  display: block;
+  width: 1060px;
+  margin: 0 auto;
 }

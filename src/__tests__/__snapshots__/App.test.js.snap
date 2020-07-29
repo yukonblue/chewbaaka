@@ -6,7 +6,7 @@ exports[`App component snapshot 1`] = `
   data-testid="HomePageTestId"
 >
   <div
-    className="ui top fixed topNavBarMenu menu"
+    className="ui top fixed TopNavBarMenu menu"
     data-testid="TopNavBarComponentTestId"
   >
     <div
@@ -14,7 +14,7 @@ exports[`App component snapshot 1`] = `
     >
       <a
         className="header item"
-        data-testid="mainNavBarItem"
+        data-testid="TopNavBarComponentMainNavBarItemTestId"
         href="https://cheetah.org"
         onClick={[Function]}
       >
@@ -55,11 +55,11 @@ exports[`App component snapshot 1`] = `
     </div>
   </div>
   <div
-    className="ui vertical center aligned segment centerSegmentStyle1"
-    data-testid="LandingPageGateway"
+    className="ui vertical center aligned segment LandingPageGatewayOuterContainer LandingPageGatewayBackgroundStyle1"
+    data-testid="LandingPageGatewayComponentTestId"
   >
     <div
-      className="ui container content"
+      className="ui container LandingPageGatewayCoreContentContainer"
     >
       <h1
         className="ui inverted header"
@@ -67,8 +67,8 @@ exports[`App component snapshot 1`] = `
         Run cheetah run
       </h1>
       <p
-        className="subtitle"
-        data-testid="subtitle"
+        className="LandingPageGatewaySubtitle"
+        data-testid="LandingPageGatewayComponentSubtitlePartTestId"
       >
         Visit and explore CCF's 
         <b>
@@ -96,75 +96,89 @@ exports[`App component snapshot 1`] = `
       className="ExploreGatewayIntro"
       data-testid="ExploreGatewayIntroTestId"
     >
-      <br />
       <div
-        className="ui container"
-        width={8}
+        className="VerticalCushionPadding"
+      >
+        <img
+          alt="CCF Cheetah Museum"
+          className="ExploreGatewayIntroCCFCheetahMuseumImage"
+          src="CCF_Cheetah_Museum.jpg"
+        />
+      </div>
+      <div
+        className="VerticalCushionPadding"
       >
         <div
-          className="ui huge center aligned header"
+          className="ui container"
+          width={8}
         >
-          Explore CCF's Cheetah Museum in Namibia and learn everything you need to know about cheetahs, all at the comfort of your home.
+          <div
+            className="ui huge center aligned header"
+          >
+            Explore CCF’s Cheetah Museum in Namibia and learn about the cheetahs, all at the comfort of your home.
+          </div>
         </div>
       </div>
-      <br />
-      <br />
       <div
-        className="ui container two column grid centerGrid"
-        width={8}
+        className="ExploreGatewayIntroCenterGrid VerticalCushionPadding"
       >
         <div
-          className="row"
+          className="ui container two column grid"
         >
           <div
-            className="eight wide column"
+            className="row"
           >
             <div
-              className="centerGridLeftColumnStyle"
+              className="eight wide column"
             >
-              <p>
-                "CCF is Changing the World to Save the Cheetah" - Dr. Laurie Marker
-              </p>
-            </div>
-          </div>
-          <div
-            className="seven wide column"
-          >
-            <div
-              className="ui inverted segment"
-            >
-              <p
-                className="JoinTheRace"
+              <div
+                className="ExploreGatewayIntroCenterGridLeftColumnStyle"
               >
-                Join the race to 
-                <a
-                  href="https://twitter.com/search?q=%23SaveTheCheetah"
-                  rel="noopener noreferrer"
-                  target="_blank"
+                <p
+                  className="CCFMissionStatementQuote"
                 >
-                  <span
-                    className="SafeTheCheetah"
-                  >
-                    #SafeTheCheetah
-                  </span>
-                </a>
-              </p>
-              <p>
-                Cheetahs can't win without us.
-              </p>
-              <a
-                className="ui basic inverted button"
-                href="https://cheetah.org/get-involved/ways-to-give/"
-                onClick={[Function]}
-                role="button"
+                  “CCF is Changing the World to Save the Cheetah” - Dr. Laurie Marker
+                </p>
+              </div>
+            </div>
+            <div
+              className="seven wide column"
+            >
+              <div
+                className="ui inverted segment"
               >
-                Get Involved
-              </a>
+                <p
+                  className="JoinTheRace"
+                >
+                  Join the race to 
+                  <a
+                    href="https://twitter.com/search?q=%23SaveTheCheetah"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <span
+                      className="SafeTheCheetah"
+                    >
+                      #SafeTheCheetah
+                    </span>
+                  </a>
+                </p>
+                <p>
+                  Cheetahs can't win without us.
+                </p>
+                <a
+                  className="ui basic inverted button"
+                  href="https://cheetah.org/get-involved/ways-to-give/"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  Get Involved
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <br />
     </div>
     <div
       className="ui container stackable center aligned four column grid"

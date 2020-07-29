@@ -4,36 +4,32 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 04, 2020
+ * Updated  : Jul 28, 2020
  */
 
-.ui.vertical.center.aligned.segment {
-  padding-top: 36px;
-}
-
-.ui.vertical.segment {
+.ui.vertical.center.aligned.segment.LandingPageGatewayOuterContainer {
   height: 100vh;
   background-size: cover !important;
-  background-position: center; /* Center the image */
+  background-position: center;
 }
 
-.ui.vertical.segment.centerSegmentStyle1 {
-  background-image: url('./assets/CCF_Field_and_Research_Centre.jpg');
+.ui.vertical.segment.LandingPageGatewayBackgroundStyle1 {
+  background-image: url('./assets/background_CCF_01.jpg');
 }
 
-.ui.vertical.segment.centerSegmentStyle2 {
-  background-image: url('./assets/cheetah-mother-and-cubs-on-termite-mound.jpg');
+.ui.vertical.segment.LandingPageGatewayBackgroundStyle2 {
+  background-image: url('./assets/background_CCF_02.jpg');
 }
 
-.ui.vertical.segment.centerSegmentStyle3 {
+.ui.vertical.segment.LandingPageGatewayBackgroundStyle3 {
   background-image: url('./assets/background_CCF_03.jpg');
 }
 
-.ui.vertical.segment.centerSegmentStyle4 {
+.ui.vertical.segment.LandingPageGatewayBackgroundStyle4 {
   background-image: url('./assets/background_CCF_04.jpg');
 }
 
-.ui.content.container {
+.ui.container.LandingPageGatewayCoreContentContainer {
   height: 300px;
   position: absolute;
   top: 0;
@@ -43,29 +39,17 @@
   margin: auto;
 }
 
-.ui.content.container h1.header {
+.ui.container.LandingPageGatewayCoreContentContainer h1.header {
   font-size: 36px;
   color: #F8F8FF;
   text-shadow: 2px 2px 4px #000000;
 }
 
-.ui.content.container p.subtitle {
+.ui.container.LandingPageGatewayCoreContentContainer p.LandingPageGatewaySubtitle {
   font-size: 21px;
   line-height: 1.6;
   font-weight: 400;
   color: #FFFFFF;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 2px 2px 4px #000000;
-}
-
-.ui.vertical.segment footer.ui.segment {
-  height: 80px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  color: gray;
-}
-
-.ui.vertical.segment footer.ui.segment a {
-  color: white;
 }

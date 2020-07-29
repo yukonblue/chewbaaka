@@ -4,19 +4,21 @@
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 28, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import { render, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react'
 
-import renderer from 'react-test-renderer';
+import renderer from 'react-test-renderer'
 
-import ExploreGatewayGrid from '../ExploreGatewayGrid';
+import ExploreGatewayGrid from '../ExploreGatewayGrid'
 
-test('renders explore gateway grid', () => {
-  render(<ExploreGatewayGrid />);
+test('renders ExploreGatewayGrid component', () => {
+  render(
+    <ExploreGatewayGrid />
+  );
 
   const expectedNumGridComponentChildren = 4;
 
@@ -40,7 +42,8 @@ test('renders explore gateway grid', () => {
 
 test('ExploreGatewayGrid component snapshot', () => {
   const tree = renderer
-    .create(<ExploreGatewayGrid />)
-    .toJSON();
+    .create(
+      <ExploreGatewayGrid />
+    ).toJSON();
   expect(tree).toMatchSnapshot();
 });
