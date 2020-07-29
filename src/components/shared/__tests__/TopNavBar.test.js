@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Jul 28, 2020
  */
 
 import React from 'react'
@@ -15,12 +15,14 @@ import renderer from 'react-test-renderer'
 
 import TopNavBar from '../TopNavBar'
 
-test('renders top nav bar', () => {
-  render(<TopNavBar />);
+test('renders TopNavBar component', () => {
+  render(
+    <TopNavBar />
+  );
 
   // Tests first/main nav bar item.
   {
-    const navBarItemMainItem = screen.getByTestId('mainNavBarItem');
+    const navBarItemMainItem = screen.getByTestId('TopNavBarComponentMainNavBarItemTestId');
     expect(navBarItemMainItem).toBeInTheDocument();
 
     // Expect main nav bar item to point to CCF site.
@@ -58,7 +60,7 @@ test('renders top nav bar', () => {
 test('TopNavBar component snapshot', () => {
   const tree = renderer
     .create(
-      <TopNavBar />)
-    .toJSON();
+      <TopNavBar />
+    ).toJSON();
   expect(tree).toMatchSnapshot();
 });

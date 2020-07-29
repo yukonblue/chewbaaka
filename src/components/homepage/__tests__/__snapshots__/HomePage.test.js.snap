@@ -6,7 +6,7 @@ exports[`HomePage snapshot 1`] = `
   data-testid="HomePageTestId"
 >
   <div
-    className="ui top fixed topNavBarMenu menu"
+    className="ui top fixed TopNavBarMenu menu"
     data-testid="TopNavBarComponentTestId"
   >
     <div
@@ -14,7 +14,7 @@ exports[`HomePage snapshot 1`] = `
     >
       <a
         className="header item"
-        data-testid="mainNavBarItem"
+        data-testid="TopNavBarComponentMainNavBarItemTestId"
         href="https://cheetah.org"
         onClick={[Function]}
       >
