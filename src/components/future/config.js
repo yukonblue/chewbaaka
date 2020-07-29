@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Jul 27, 2020
+ * Updated  : Jul 29, 2020
  */
 
 export const config = {
@@ -125,19 +125,46 @@ export const config = {
         subsection_CheetahAmbassadors: {
           title: "Cheetah Ambassadors",
           contents: {
-            paragraph_Chewbaaka:
-              "Hi there, my name is Chewbaaka. I was named after an animal " +
-              "in a movie. I have lived at CCF since I was 3 weeks old. " +
-              "I am their cheetah ambassador and I get to meet many people. " +
-              "The staff at CCF tell everyone about me and all the wild " +
-              "cheetahs. I have a special place where I can run like the wind.",
-            paragraph_Mekondyo:
-              'Hello, my name is Mekondyo. Mekondyo means "struggle" in the ' +
-              "Oshiwambo language. I was born on a farm north of Otjiwarango " +
-              "but I now live on farmland west of Otjiwarango. It is very " +
-              "beautiful. I can see the Waterberg Plateau far away. " +
-              "I am 5 years old now and I will tell you my story as you " +
-              "explore this museum."
+            part_Intro: {
+              content: {
+                paragraph_01:
+                  "Cheetahs in captivity can serve as ambassadors that can help in spreading the message of " +
+                  "conservation and sustainable development in education and outreach programs. " +
+                  "Here at Cheetah Conservation Fund, many cheetahs that have had been cared by CCF have left a legacy for future generations."
+              }
+            },
+            part_Chewbaaka: {
+              content: {
+                paragraph_01:
+                  "Hi there, my name is Chewbaaka. I was named after an animal " +
+                  "in a movie. I have lived at CCF since I was 3 weeks old. " +
+                  "I am their cheetah ambassador and I get to meet many people. " +
+                  "The staff at CCF tell everyone about me and all the wild " +
+                  "cheetahs. I have a special place where I can run like the wind.",
+                paragraph_02:
+                  "Chewbaaka played a big part in CCF’s rewilding program by " +
+                  "helping farmers understand more about how special cheetahs " +
+                  "are and that their survival is in the farmers’ hands. He brought a " +
+                  "calming presence to the Namibian farmers he met when they " +
+                  "visited CCF. During Chewbaaka’s 16 years, he met thousands of " +
+                  "farmers and school learners.",
+                paragraph_03:
+                  "Without farmer support, CCF wouldn't be able to release " +
+                  "cheetahs back into the wild. By helping people live alongside " +
+                  "predators CCF is helping save the cheetah and its ecosystem."
+              }
+            },
+            part_Mekondyo: {
+              content: {
+                paragraph_01:
+                  'Hello, my name is Mekondyo. Mekondyo means "struggle" in the ' +
+                  "Oshiwambo language. I was born on a farm north of Otjiwarango " +
+                  "but I now live on farmland west of Otjiwarango. It is very " +
+                  "beautiful. I can see the Waterberg Plateau far away. " +
+                  "I am 5 years old now and I will tell you my story as you " +
+                  "explore this museum."
+              }
+            } 
           }
         },
       },

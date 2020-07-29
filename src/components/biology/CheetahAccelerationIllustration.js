@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Jul 27, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -46,16 +46,14 @@ export default class CheetahAccelerationIllustration extends React.Component {
 
   render() {
     return (
-      <div>
-        <ImageSlide
-          title={CheetahAccelerationIllustration._TITLE_}
-          caption="Slide the timeline to see how fast the cheetah runs compared to a regular car and a human athlete sprinter."
-          sliderNameLabel="Time"
-          sliderUnitLabel="seconds"
-          backgroundImage={image_backdrop}
-          marks={CheetahAccelerationIllustration._MARKS_}
-        />
-      </div>
+      <ImageSlide
+        title={CheetahAccelerationIllustration._TITLE_}
+        caption="Slide the timeline to see how fast the cheetah runs compared to a regular car and a human athlete sprinter."
+        sliderNameLabel="Time"
+        sliderUnitLabel="seconds"
+        backgroundImage={image_backdrop}
+        marks={CheetahAccelerationIllustration._MARKS_}
+      />
     );
   }
 }

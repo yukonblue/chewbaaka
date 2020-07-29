@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 19, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -27,7 +27,7 @@ export default class BiologyPageSubsectionLifecycleStage2 extends React.Componen
 
   static _DID_YOU_KNOW_ = "Young cheetahs rely on their mother on learning how to hunt. " +
                           "Cubs rescued and rehabilitated are difficult to be re-wilded because " +
-                          "they mostly have not acquired sufficient hunting skills needed to survive.";
+                          "most of them have not acquired sufficient hunting skills needed to survive.";
 
   constructor(props) {
     super(props);
@@ -38,18 +38,16 @@ export default class BiologyPageSubsectionLifecycleStage2 extends React.Componen
 
   render() {
     return (
-      <div className="">
-        <ContentPageSubsectionTemplate
-          title={this.state.subsectionConfig.title}
-          content={this.renderContent()}
-        />
-      </div>
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
     )
   }
 
   renderContent() {
     return (
-      <div>
+      <div className="OverflowHidden">
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
 
         <QnAPopUp

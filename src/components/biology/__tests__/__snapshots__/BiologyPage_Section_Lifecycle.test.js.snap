@@ -1,11 +1,107 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
-<div>
+<div
+  className="ContentPageSectionTemplateOuterContainer ContentPageSectionTemplateOuterContainer_DebugColor DebugWireframe"
+>
+  <div>
+    <div
+      className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+    >
+      <div
+        className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+      >
+        <h3
+          className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+        />
+        <div
+          className="ContentPageSectionHeadOuterContainer"
+        >
+          <div
+            data-testid="ContentPageSectionAnchorComponentTestId"
+            id="lifecycle"
+          />
+          <div
+            className="ContentPageSectionHeadInnerContainer ContentPageSectionHeadInnerContainer_DebugColor DebugWireframe"
+          >
+            <div
+              className="ContentPageSectionHeadTitleContainer ContentPageSectionHeadTitleContainer_DebugColor DebugWireframe"
+            >
+              <h2
+                className="ContentPageSectionHeadTitle ContentPageSectionHeadTitle_DebugColor DebugWireframe"
+              >
+                Lifecycle
+              </h2>
+            </div>
+            <div
+              className="ContentPageIntroParagraphContentContainer"
+            >
+              <p
+                className="ContentPageHeadAndSectionIntroText ContentPageHeadAndSectionIntroText_DebugColor DebugWireframe"
+              >
+                One of the most incredible things about the cheetahs is the remarkable processes and transitions in their lifecycle. From born at an average weight of no more than 350 grams and completely helpless and unable to see, to becoming one of the most skilled predators and the fastest land animal on the planet, nothing speaks more about the incredible adaptations that allow them to survive and thrive in the challenging environments where they live.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div
-    className="ContentPageSectionTemplateOuterContainer ContentPageSectionTemplateOuterContainer_DebugColor DebugWireframe"
+    className="ContentPageSectionTemplateInnerContainer ContentPageSectionTemplateInnerContainer_DebugColor DebugWireframe"
   >
     <div>
+      <div
+        className="BiologyPageLifecycleDiagramOuterContainer BiologyPageLifecycleDiagramOuterContainer_DebugColor DebugWireframe"
+      >
+        <h3
+          className="ContentPageSubsectionTitle TextCentered"
+        >
+          The Cycle of Life
+        </h3>
+        <p
+          className="BiologyPageLifecycleDiagramSubtitle TextCentered"
+        >
+          There are four stages in the lifecycle of the cheetah.
+        </p>
+        <p
+          className="BiologyPageLifecycleDiagramContentText TextCentered"
+        >
+          <b>
+            Stage 1
+          </b>
+          : 90 to 95 days pregnancy; 
+          <b>
+            Stage 2
+          </b>
+          : 6 weeks to 18 months;
+        </p>
+        <p
+          className="BiologyPageLifecycleDiagramContentText TextCentered"
+        >
+          <b>
+            Stage 3
+          </b>
+          : 18 to 22 months; 
+          <b>
+            Stage 4
+          </b>
+          : adult life.
+        </p>
+        <div
+          className="Centered"
+        >
+          <img
+            alt="lifecycle diagram"
+            src="Lifecycle_Diagram.png"
+            style={
+              Object {
+                "width": 640,
+              }
+            }
+          />
+        </div>
+      </div>
       <div
         className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
       >
@@ -14,856 +110,752 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
         >
           <h3
             className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
-          />
-          <div
-            className="ContentPageSectionHeadOuterContainer"
           >
-            <div
-              data-testid="ContentPageSectionAnchorComponentTestId"
-              id="lifecycle"
-            />
-            <div
-              className="ContentPageSectionHeadInnerContainer ContentPageSectionHeadInnerContainer_DebugColor DebugWireframe"
-            >
-              <div
-                className="ContentPageSectionHeadTitleContainer ContentPageSectionHeadTitleContainer_DebugColor DebugWireframe"
-              >
-                <h2
-                  className="ContentPageSectionHeadTitle ContentPageSectionHeadTitle_DebugColor DebugWireframe"
-                >
-                  Lifecycle
-                </h2>
-              </div>
-              <div
-                className="ContentPageIntroParagraphContentContainer"
-              >
-                <p
-                  className="ContentPageHeadAndSectionIntroText ContentPageHeadAndSectionIntroText_DebugColor DebugWireframe"
-                >
-                  One of the most incredible things about the cheetahs is the remarkable processes and transitions in their lifecycle. From born at an average weight of no more than 350 grams and completely helpless and unable to see, to becoming one of the most skilled predators and the fastest land animal on the planet, nothing speaks more about the incredible adaptations that allow them to survive and thrive in the challenging environments where they live.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      className="ContentPageSectionTemplateInnerContainer ContentPageSectionTemplateInnerContainer_DebugColor DebugWireframe"
-    >
-      <div>
-        <div
-          className="BiologyPageLifecycleDiagramOuterContainer BiologyPageLifecycleDiagramOuterContainer_DebugColor DebugWireframe"
-        >
-          <h3
-            className="ContentPageSubsectionTitle TextCentered"
-          >
-            The Cycle of Life
+            Stage 1
           </h3>
-          <p
-            className="BiologyPageLifecycleDiagramSubtitle TextCentered"
-          >
-            There are four stages in the lifecycle of the cheetah.
-          </p>
-          <p
-            className="BiologyPageLifecycleDiagramContentText TextCentered"
-          >
-            <b>
-              Stage 1
-            </b>
-            : 90 to 95 days pregnancy; 
-            <b>
-              Stage 2
-            </b>
-            : 6 weeks to 18 months;
-          </p>
-          <p
-            className="BiologyPageLifecycleDiagramContentText TextCentered"
-          >
-            <b>
-              Stage 3
-            </b>
-            : 18 to 22 months; 
-            <b>
-              Stage 4
-            </b>
-            : adult life.
-          </p>
           <div
-            className="Centered"
+            className="OverflowHidden"
           >
-            <img
-              alt="lifecycle diagram"
-              src="Lifecycle_Diagram.png"
-              style={
-                Object {
-                  "width": 640,
-                }
-              }
-            />
-          </div>
-        </div>
-        <div
-          className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
-        >
-          <div
-            className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
-          >
-            <h3
-              className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
-            >
-              Stage 1
-            </h3>
             <div
-              className="OverflowHidden"
+              className="FloatRight HorizontalCusionPaddingLeft"
             >
               <div
-                className="FloatRight HorizontalCusionPaddingLeft"
+                className="ImageViewOuterContainer"
               >
                 <div
-                  className="ImageViewOuterContainer"
+                  className="ImageViewInnerContainer"
                 >
                   <div
-                    className="ImageViewInnerContainer"
+                    className="ImageViewCore"
                   >
-                    <div
-                      className="ImageViewCore"
-                    >
-                      <img
-                        alt="Cheetah cubs are born blind, so they need their mother's care."
-                        className="ImageViewImg"
-                        src="cheetah_mom_carry_cub.jpg"
-                        style={
-                          Object {
-                            "height": 480,
-                            "width": 320,
-                          }
-                        }
-                      />
-                      <div
-                        data-testid="ImageViewComponentCaptionPart"
-                      >
-                        <div
-                          className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
-                          data-testid="CaptionComponentTestId"
-                          style={
-                            Object {
-                              "width": 320,
-                            }
-                          }
-                        >
-                          <div
-                            className="IconContainer IconContainer_DebugColor DebugWireframe"
-                          >
-                            <i
-                              aria-hidden="true"
-                              className="image icon"
-                              onClick={[Function]}
-                            />
-                          </div>
-                          <p
-                            className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
-                          >
-                            Cheetah cubs are born blind, so they need their mother's care.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-              >
-                The female’s gestation period lasts 90 to 95 days. This means she is pregnant for about three months.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-              >
-                Shortly before she is ready to give birth, the mother makes a den in a quiet hidden spot. She chooses her location in the tall grass and thick underbrush or near a clump of rocks.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-              >
-                A cheetah gives birth to an average of five to six cubs. Each cub weights between 250 to 425 grams. Cubs are born completely helpless and with their eyes closed, but they develope rapidly. Scent and touch are used to find their mother’s nipples to suckle.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-              >
-                They start crawling around the nest area at four to ten days when their eyes begin to open. At three weeks their teeth break through the gums.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-              >
-                A mother cheetah will frequently move her litter. This prevents a build-up of scent of the den site, which may lead other predators to the cubs. She carries very young cubs in her jaws.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-              >
-                The cubs are very vulnerable to lions, hyenas and other predators when the female leaves them alone. When hunting she may be away for up to 48 hours. In Tanzania’s Serengeti National Park, 90% of all cubs do not reach the age of 3 months! Other causes of death are abandonment when prey is scarce, exposure due to low temperatures or grass fires.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          className=""
-        >
-          <div
-            className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
-          >
-            <div
-              className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
-            >
-              <h3
-                className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
-              >
-                Stage 2
-              </h3>
-              <div>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                >
-                  At 1.5 to 2 months of age, the cubs leave the safety of the den to accompany their mother. They are very vulnerable as they are not able to defend themselves.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                >
-                  They stop drinking their mother’s milk at 3 to 4 months of age. They start eating meat and learning to hunt. The games they play and the experiences they have during this stage will teach them skills needed to survive on their own.
-                </p>
-                <div
-                  className="QnAPopUpContainer QnAPopUpContainer_DebugColor DebugWireframe"
-                >
-                  <div
-                    className="QnAPopUpButtonGroupContainer QnAPopUpButtonGroupContainer_DebugColor DebugWireframe"
-                  >
-                    <div
-                      className="ui blue large label"
-                      onClick={[Function]}
-                    >
-                      Did You Know
-                      <button
-                        className="ui orange circular icon button QuestionButton"
-                        onClick={[Function]}
-                      >
-                        <i
-                          aria-hidden="true"
-                          className="question icon"
-                          onClick={[Function]}
-                        />
-                      </button>
-                    </div>
-                  </div>
-                  <div
-                    className="QnAPopUpTextSecondaryBubbleContainer QnAPopUpTextSecondaryBubbleContainer_DebugColor DebugWireframe"
-                  >
-                    <div
-                      className="TextBubbleOuterContainer"
-                      hidden={true}
+                    <img
+                      alt="Cheetah cubs are born blind, so they need their mother's care."
+                      className="ImageViewImg"
+                      src="cheetah_mom_carry_cub.jpg"
                       style={
                         Object {
-                          "backgroundColor": "rgb(undefined)",
-                          "height": 45,
-                          "width": 45,
-                        }
-                      }
-                    >
-                      <div
-                        className="TextBubbleInnerContainer"
-                      >
-                        <div
-                          className="TextBubbleInnerCore"
-                        >
-                          <h1
-                            style={
-                              Object {
-                                "color": "rgb(undefined)",
-                                "fontSize": 3.6,
-                              }
-                            }
-                          >
-                            
-                          </h1>
-                          <p
-                            style={
-                              Object {
-                                "color": "rgb(undefined)",
-                                "fontSize": 2.25,
-                              }
-                            }
-                          >
-                            
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="QnAPopUpMainTextBubbleContainer QnAPopUpMainTextBubbleContainer_DebugColor DebugWireframe"
-                  >
-                    <div
-                      className="TextBubbleOuterContainer"
-                      hidden={true}
-                      style={
-                        Object {
-                          "backgroundColor": "rgb(undefined)",
-                          "height": 320,
+                          "height": 480,
                           "width": 320,
                         }
                       }
+                    />
+                    <div
+                      data-testid="ImageViewComponentCaptionPart"
                     >
                       <div
-                        className="TextBubbleInnerContainer"
-                      >
-                        <div
-                          className="TextBubbleInnerCore"
-                        >
-                          <h1
-                            style={
-                              Object {
-                                "color": "rgb(undefined)",
-                                "fontSize": 25.6,
-                              }
-                            }
-                          >
-                            Did you know?
-                          </h1>
-                          <p
-                            style={
-                              Object {
-                                "color": "rgb(undefined)",
-                                "fontSize": 16,
-                              }
-                            }
-                          >
-                            Young cheetahs rely on their mother on learning how to hunt. Cubs rescued and rehabilitated are difficult to be re-wilded because they mostly have not acquired sufficient hunting skills needed to survive.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="FloatRight"
-                >
-                  <div>
-                    <a
-                      href="https://www.youtube.com/watch?v=Wjtb7XMZlgY"
-                    >
-                      <button
-                        className="ui blue icon button"
-                        onClick={[Function]}
-                      >
-                        Cheetah Mom Teaches Cubs to Hunt | YouTube
-                        <i
-                          aria-hidden="true"
-                          className="file video icon"
-                          onClick={[Function]}
-                        />
-                      </button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
-        >
-          <div
-            className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
-          >
-            <h3
-              className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
-            >
-              Learning to Hunt
-            </h3>
-            <div
-              className="OverflowHidden"
-            >
-              <div
-                className="FloatRight HorizontalCusionPaddingLeft"
-              >
-                <div
-                  className="ImageViewOuterContainer"
-                >
-                  <div
-                    className="ImageViewInnerContainer"
-                  >
-                    <div
-                      className="ImageViewCore"
-                    >
-                      <img
-                        alt="Cheetah cubs learning how to hunt."
-                        className="ImageViewImg"
-                        src="cheetah_cubs_learning_hunting.jpg"
+                        className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                        data-testid="CaptionComponentTestId"
                         style={
                           Object {
-                            "height": 480,
-                            "width": 720,
+                            "width": 320,
                           }
                         }
-                      />
-                      <div
-                        data-testid="ImageViewComponentCaptionPart"
                       >
                         <div
-                          className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
-                          data-testid="CaptionComponentTestId"
-                          style={
-                            Object {
-                              "width": 720,
-                            }
-                          }
+                          className="IconContainer IconContainer_DebugColor DebugWireframe"
                         >
-                          <div
-                            className="IconContainer IconContainer_DebugColor DebugWireframe"
-                          >
-                            <i
-                              aria-hidden="true"
-                              className="image icon"
-                              onClick={[Function]}
-                            />
-                          </div>
-                          <p
-                            className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
-                          >
-                            Cheetah cubs learning how to hunt.
-                          </p>
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
                         </div>
+                        <p
+                          className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                        >
+                          Cheetah cubs are born blind, so they need their mother's care.
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            >
+              The female’s gestation period lasts 90 to 95 days. This means she is pregnant for about three months.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            >
+              Shortly before she is ready to give birth, the mother makes a den in a quiet hidden spot. She chooses her location in the tall grass and thick underbrush or near a clump of rocks.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            >
+              A cheetah gives birth to an average of five to six cubs. Each cub weights between 250 to 425 grams. Cubs are born completely helpless and with their eyes closed, but they develope rapidly. Scent and touch are used to find their mother’s nipples to suckle.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            >
+              They start crawling around the nest area at four to ten days when their eyes begin to open. At three weeks their teeth break through the gums.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            >
+              A mother cheetah will frequently move her litter. This prevents a build-up of scent of the den site, which may lead other predators to the cubs. She carries very young cubs in her jaws.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            >
+              The cubs are very vulnerable to lions, hyenas and other predators when the female leaves them alone. When hunting she may be away for up to 48 hours. In Tanzania’s Serengeti National Park, 90% of all cubs do not reach the age of 3 months! Other causes of death are abandonment when prey is scarce, exposure due to low temperatures or grass fires.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+      >
+        <div
+          className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+        >
+          <h3
+            className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+          >
+            Stage 2
+          </h3>
+          <div
+            className="OverflowHidden"
+          >
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            >
+              At 1.5 to 2 months of age, the cubs leave the safety of the den to accompany their mother. They are very vulnerable as they are not able to defend themselves.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            >
+              They stop drinking their mother’s milk at 3 to 4 months of age. They start eating meat and learning to hunt. The games they play and the experiences they have during this stage will teach them skills needed to survive on their own.
+            </p>
+            <div
+              className="QnAPopUpContainer QnAPopUpContainer_DebugColor DebugWireframe"
+            >
               <div
-                className="TextBubbleOuterContainer"
-                style={
-                  Object {
-                    "backgroundColor": "rgb(undefined)",
-                    "height": 520,
-                    "width": 520,
-                  }
-                }
+                className="QnAPopUpButtonGroupContainer QnAPopUpButtonGroupContainer_DebugColor DebugWireframe"
               >
                 <div
-                  className="TextBubbleInnerContainer"
+                  className="ui blue large label"
+                  onClick={[Function]}
+                >
+                  Did You Know
+                  <button
+                    className="ui orange circular icon button QuestionButton"
+                    onClick={[Function]}
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="question icon"
+                      onClick={[Function]}
+                    />
+                  </button>
+                </div>
+              </div>
+              <div
+                className="QnAPopUpTextSecondaryBubbleContainer QnAPopUpTextSecondaryBubbleContainer_DebugColor DebugWireframe"
+              >
+                <div
+                  className="TextBubbleOuterContainer"
+                  hidden={true}
+                  style={
+                    Object {
+                      "backgroundColor": "rgb(undefined)",
+                      "height": 45,
+                      "width": 45,
+                    }
+                  }
                 >
                   <div
-                    className="TextBubbleInnerCore"
+                    className="TextBubbleInnerContainer"
                   >
-                    <h1
-                      style={
-                        Object {
-                          "color": "rgb(undefined)",
-                          "fontSize": 41.6,
-                        }
-                      }
+                    <div
+                      className="TextBubbleInnerCore"
                     >
-                      Learning to Hunt
-                    </h1>
-                    <p
-                      style={
-                        Object {
-                          "color": "rgb(undefined)",
-                          "fontSize": 21,
+                      <h1
+                        style={
+                          Object {
+                            "color": "rgb(undefined)",
+                            "fontSize": 3.6,
+                          }
                         }
-                      }
+                      >
+                        
+                      </h1>
+                      <p
+                        style={
+                          Object {
+                            "color": "rgb(undefined)",
+                            "fontSize": 2.25,
+                          }
+                        }
+                      >
+                        
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="QnAPopUpMainTextBubbleContainer QnAPopUpMainTextBubbleContainer_DebugColor DebugWireframe"
+              >
+                <div
+                  className="TextBubbleOuterContainer"
+                  hidden={true}
+                  style={
+                    Object {
+                      "backgroundColor": "rgb(undefined)",
+                      "height": 320,
+                      "width": 320,
+                    }
+                  }
+                >
+                  <div
+                    className="TextBubbleInnerContainer"
+                  >
+                    <div
+                      className="TextBubbleInnerCore"
                     >
-                      The mother brings live prey, such as a young gazelle, to the 9 to 12 month old cubs. She releases it in front of them and the cubs attempt to catch it. This allows the cubs to practice their hunting skills while still under her supervision. Accurate timing and coordination during a hunt are important for their future survival.
-                    </p>
+                      <h1
+                        style={
+                          Object {
+                            "color": "rgb(undefined)",
+                            "fontSize": 25.6,
+                          }
+                        }
+                      >
+                        Did you know?
+                      </h1>
+                      <p
+                        style={
+                          Object {
+                            "color": "rgb(undefined)",
+                            "fontSize": 16,
+                          }
+                        }
+                      >
+                        Young cheetahs rely on their mother on learning how to hunt. Cubs rescued and rehabilitated are difficult to be re-wilded because most of them have not acquired sufficient hunting skills needed to survive.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div
-          className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
-        >
-          <div
-            className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
-          >
-            <h3
-              className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+            <div
+              className="FloatRight"
             >
-              Stage 3
-            </h3>
-            <div>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-              >
-                Stage three begins at the age 18 to 22 months when the cubs have grown to sub-adults and leave their mother. The sub-adults will remain together for up to six more months. At first, their success rate at capturing prey is poor.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-              >
-                Cheetahs are diurnal, hunting mornings and early evenings. They rely on their sight to find prey. They spend most of the day resting under shady trees or on termite mounds. Night hunting is only done during a bright moon.
-              </p>
               <div>
                 <a
-                  href="https://www.nationalgeographic.co.uk/animals/2017/12/stunning-pictures-cheetahs-action"
+                  href="https://www.youtube.com/watch?v=Wjtb7XMZlgY"
                 >
                   <button
                     className="ui blue icon button"
                     onClick={[Function]}
                   >
-                    Stunning Pictures of Cheetahs in Action | National Geographic
+                    Cheetah Mom Teaches Cubs to Hunt | YouTube
                     <i
                       aria-hidden="true"
-                      className="file image icon"
+                      className="file video icon"
                       onClick={[Function]}
                     />
                   </button>
                 </a>
               </div>
-              <div
-                className="FactBannerSmallDimension Centered"
-              >
-                <img
-                  alt="What is diurnal?"
-                  className="FactBannerSmallDimension"
-                  src="What_is_Diurnal.png"
-                />
-              </div>
             </div>
           </div>
         </div>
+      </div>
+      <div
+        className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+      >
         <div
-          className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+          className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
         >
-          <div
-            className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+          <h3
+            className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
           >
-            <h3
-              className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
-            >
-              Stage 4
-            </h3>
-            <div>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-              >
-                In Stage 4, cheetahs become sexually mature. Although they are mature at 16 to 18 months, most do not breed until they are three to five years old.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-              >
-                At 20 - 30 months of age, females leave their litter-mates to find suitable mates and start their own families. They raise their families on their own without the help of the males.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-              >
-                Males usually do not breed until they are 4 to 5 years of age, and dominant in a territory. They live alone or brothers form permanent groups called "coalitions". These groups stay together for life, claim territories, hunt and find mates together.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
-        >
+            Learning to Hunt
+          </h3>
           <div
-            className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+            className="OverflowHidden"
           >
-            <h3
-              className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
-            >
-              Finding a Mate
-            </h3>
             <div
-              className="OverflowHidden"
+              className="FloatRight HorizontalCusionPaddingLeft"
             >
               <div
-                className="FloatRight HorizontalCusionPaddingLeft"
+                className="ImageViewOuterContainer"
               >
                 <div
-                  className="ImageViewOuterContainer"
+                  className="ImageViewInnerContainer"
                 >
                   <div
-                    className="ImageViewInnerContainer"
+                    className="ImageViewCore"
                   >
+                    <img
+                      alt="Cheetah cubs learning how to hunt."
+                      className="ImageViewImg"
+                      src="cheetah_cubs_learning_hunting.jpg"
+                      style={
+                        Object {
+                          "height": 480,
+                          "width": 720,
+                        }
+                      }
+                    />
                     <div
-                      className="ImageViewCore"
+                      data-testid="ImageViewComponentCaptionPart"
                     >
-                      <img
-                        alt="Cheetahs often mark their scent on tree trunks with their urine. This behavior is common among cats."
-                        className="ImageViewImg"
-                        src="cheetah_scent_marking.jpg"
+                      <div
+                        className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                        data-testid="CaptionComponentTestId"
                         style={
                           Object {
-                            "height": 480,
                             "width": 720,
                           }
                         }
-                      />
-                      <div
-                        data-testid="ImageViewComponentCaptionPart"
                       >
                         <div
-                          className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
-                          data-testid="CaptionComponentTestId"
-                          style={
-                            Object {
-                              "width": 720,
-                            }
+                          className="IconContainer IconContainer_DebugColor DebugWireframe"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
+                        </div>
+                        <p
+                          className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                        >
+                          Cheetah cubs learning how to hunt.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="TextBubbleOuterContainer"
+              style={
+                Object {
+                  "backgroundColor": "rgb(undefined)",
+                  "height": 520,
+                  "width": 520,
+                }
+              }
+            >
+              <div
+                className="TextBubbleInnerContainer"
+              >
+                <div
+                  className="TextBubbleInnerCore"
+                >
+                  <h1
+                    style={
+                      Object {
+                        "color": "rgb(undefined)",
+                        "fontSize": 41.6,
+                      }
+                    }
+                  >
+                    Learning to Hunt
+                  </h1>
+                  <p
+                    style={
+                      Object {
+                        "color": "rgb(undefined)",
+                        "fontSize": 21,
+                      }
+                    }
+                  >
+                    The mother brings live prey, such as a young gazelle, to the 9 to 12 month old cubs. She releases it in front of them and the cubs attempt to catch it. This allows the cubs to practice their hunting skills while still under her supervision. Accurate timing and coordination during a hunt are important for their future survival.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+      >
+        <div
+          className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+        >
+          <h3
+            className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+          >
+            Stage 3
+          </h3>
+          <div>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            >
+              Stage three begins at the age 18 to 22 months when the cubs have grown to sub-adults and leave their mother. The sub-adults will remain together for up to six more months. At first, their success rate at capturing prey is poor.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            >
+              Cheetahs are diurnal, hunting mornings and early evenings. They rely on their sight to find prey. They spend most of the day resting under shady trees or on termite mounds. Night hunting is only done during a bright moon.
+            </p>
+            <div>
+              <a
+                href="https://www.nationalgeographic.co.uk/animals/2017/12/stunning-pictures-cheetahs-action"
+              >
+                <button
+                  className="ui blue icon button"
+                  onClick={[Function]}
+                >
+                  Stunning Pictures of Cheetahs in Action | National Geographic
+                  <i
+                    aria-hidden="true"
+                    className="file image icon"
+                    onClick={[Function]}
+                  />
+                </button>
+              </a>
+            </div>
+            <div
+              className="FactBannerSmallDimension Centered"
+            >
+              <img
+                alt="What is diurnal?"
+                className="FactBannerSmallDimension"
+                src="What_is_Diurnal.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+      >
+        <div
+          className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+        >
+          <h3
+            className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+          >
+            Stage 4
+          </h3>
+          <div>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            >
+              In Stage 4, cheetahs become sexually mature. Although they are mature at 16 to 18 months, most do not breed until they are three to five years old.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            >
+              At 20 - 30 months of age, females leave their litter-mates to find suitable mates and start their own families. They raise their families on their own without the help of the males.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            >
+              Males usually do not breed until they are 4 to 5 years of age, and dominant in a territory. They live alone or brothers form permanent groups called "coalitions". These groups stay together for life, claim territories, hunt and find mates together.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+      >
+        <div
+          className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+        >
+          <h3
+            className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+          >
+            Finding a Mate
+          </h3>
+          <div
+            className="OverflowHidden"
+          >
+            <div
+              className="FloatRight HorizontalCusionPaddingLeft"
+            >
+              <div
+                className="ImageViewOuterContainer"
+              >
+                <div
+                  className="ImageViewInnerContainer"
+                >
+                  <div
+                    className="ImageViewCore"
+                  >
+                    <img
+                      alt="Cheetahs often mark their scent on tree trunks with their urine. This behavior is common among cats."
+                      className="ImageViewImg"
+                      src="cheetah_scent_marking.jpg"
+                      style={
+                        Object {
+                          "height": 480,
+                          "width": 720,
+                        }
+                      }
+                    />
+                    <div
+                      data-testid="ImageViewComponentCaptionPart"
+                    >
+                      <div
+                        className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                        data-testid="CaptionComponentTestId"
+                        style={
+                          Object {
+                            "width": 720,
                           }
+                        }
+                      >
+                        <div
+                          className="IconContainer IconContainer_DebugColor DebugWireframe"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
+                        </div>
+                        <p
+                          className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                        >
+                          Cheetahs often mark their scent on tree trunks with their urine. This behavior is common among cats.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            >
+              The range of a female offspring may partially overlap that of her mother. Namibian cheetahs are more social than those reported in other countries. Females are often seen with multiple adults and cubs of varying ages.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            >
+              Female cheetahs are polyoestrous, which means there is no regular breeding season. If not bred, females come into heat (estrus) several times a year. Estrus means they are ready to breed. If cubs are lost to predators females soon come into estrus again.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            >
+              Smell, sound, and behavioral stimuli attract males to females. Female cheetahs leave a scent trail by releasing sex hormones in urine and feces. They mark trees and bushes. This behavior increases during courtship.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            >
+              When courtship takes place, males will follow females closely and mock fighting may be observed.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            >
+              When a female is ready to mate, she adopts a receptive posture. The male mounts the female, bites the back of her neck, and breeding takes place. When the male dismounts the female she rolls over on her back and swats at him.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+            >
+              Mating will take place for one to several days and ends when the male loses interest in the female and leaves. Males do not help raise the cubs.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+      >
+        <div
+          className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+        >
+          <h3
+            className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+          >
+            Living Fast - Dying Young
+          </h3>
+          <div>
+            <div
+              className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+            >
+              <div
+                className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
+              >
+                <div
+                  className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+                >
+                  <div
+                    className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+                  >
+                    <div
+                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor DebugWireframe"
+                    >
+                      <h4
+                        className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+                      >
+                        Male coalitions
+                      </h4>
+                      <p
+                        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                      >
+                        A coalition consists of a group of male siblings of the same litter or young unrelated males that have joined together. A hierarchy develops among the males within a coalition.
+                      </p>
+                      <p
+                        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                      >
+                        Young males are usually chased away from their birth range by dominant breeding males. They may establish home ranges more than 100 km away. A coalition is more successful in acquiring and holding territories and in defending kills than single males. This competition can result in mortality among males.
+                      </p>
+                    </div>
+                    <div
+                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor DebugWireframe"
+                    >
+                      <h4
+                        className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+                      />
+                      <div
+                        className="ImageViewOuterContainer"
+                      >
+                        <div
+                          className="ImageViewInnerContainer"
                         >
                           <div
-                            className="IconContainer IconContainer_DebugColor DebugWireframe"
+                            className="ImageViewCore"
                           >
-                            <i
-                              aria-hidden="true"
-                              className="image icon"
-                              onClick={[Function]}
+                            <img
+                              alt="A coalition of cheetahs on the lookout."
+                              className="ImageViewImg"
+                              src="cheetah_coalition.jpg"
+                              style={
+                                Object {
+                                  "height": undefined,
+                                  "width": 510,
+                                }
+                              }
                             />
+                            <div
+                              data-testid="ImageViewComponentCaptionPart"
+                            >
+                              <div
+                                className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                                data-testid="CaptionComponentTestId"
+                                style={
+                                  Object {
+                                    "width": 510,
+                                  }
+                                }
+                              >
+                                <div
+                                  className="IconContainer IconContainer_DebugColor DebugWireframe"
+                                >
+                                  <i
+                                    aria-hidden="true"
+                                    className="image icon"
+                                    onClick={[Function]}
+                                  />
+                                </div>
+                                <p
+                                  className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                                >
+                                  A coalition of cheetahs on the lookout.
+                                </p>
+                              </div>
+                            </div>
                           </div>
-                          <p
-                            className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
-                          >
-                            Cheetahs often mark their scent on tree trunks with their urine. This behavior is common among cats.
-                          </p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-              >
-                The range of a female offspring may partially overlap that of her mother. Namibian cheetahs are more social than those reported in other countries. Females are often seen with multiple adults and cubs of varying ages.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-              >
-                Female cheetahs are polyoestrous, which means there is no regular breeding season. If not bred, females come into heat (estrus) several times a year. Estrus means they are ready to breed. If cubs are lost to predators females soon come into estrus again.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-              >
-                Smell, sound, and behavioral stimuli attract males to females. Female cheetahs leave a scent trail by releasing sex hormones in urine and feces. They mark trees and bushes. This behavior increases during courtship.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-              >
-                When courtship takes place, males will follow females closely and mock fighting may be observed.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-              >
-                When a female is ready to mate, she adopts a receptive posture. The male mounts the female, bites the back of her neck, and breeding takes place. When the male dismounts the female she rolls over on her back and swats at him.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-              >
-                Mating will take place for one to several days and ends when the male loses interest in the female and leaves. Males do not help raise the cubs.
-              </p>
             </div>
-          </div>
-        </div>
-        <div
-          className=""
-        >
-          <div
-            className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
-          >
             <div
-              className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+              className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
             >
-              <h3
-                className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+              <div
+                className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
               >
-                Living Fast - Dying Young
-              </h3>
-              <div>
                 <div
-                  className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+                  className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
                 >
                   <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
+                    className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
                   >
                     <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor DebugWireframe"
                     >
+                      <h4
+                        className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+                      />
                       <div
-                        className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+                        className="ImageViewOuterContainer"
                       >
                         <div
-                          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor DebugWireframe"
+                          className="ImageViewInnerContainer"
                         >
-                          <h4
-                            className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
-                          >
-                            Male coalitions
-                          </h4>
-                          <p
-                            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                          >
-                            A coalition consists of a group of male siblings of the same litter or young unrelated males that have joined together. A hierarchy develops among the males within a coalition.
-                          </p>
-                          <p
-                            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                          >
-                            Young males are usually chased away from their birth range by dominant breeding males. They may establish home ranges more than 100 km away. A coalition is more successful in acquiring and holding territories and in defending kills than single males. This competition can result in mortality among males.
-                          </p>
-                        </div>
-                        <div
-                          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor DebugWireframe"
-                        >
-                          <h4
-                            className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
-                          />
                           <div
-                            className="ImageViewOuterContainer"
+                            className="ImageViewCore"
                           >
+                            <img
+                              alt="Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)"
+                              className="ImageViewImg"
+                              src="cheetah_face_hyena.jpg"
+                              style={
+                                Object {
+                                  "height": undefined,
+                                  "width": 640,
+                                }
+                              }
+                            />
                             <div
-                              className="ImageViewInnerContainer"
+                              data-testid="ImageViewComponentCaptionPart"
                             >
                               <div
-                                className="ImageViewCore"
-                              >
-                                <img
-                                  alt="A coalition of cheetahs on the lookout."
-                                  className="ImageViewImg"
-                                  src="cheetah_coalition.jpg"
-                                  style={
-                                    Object {
-                                      "height": undefined,
-                                      "width": 510,
-                                    }
+                                className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                                data-testid="CaptionComponentTestId"
+                                style={
+                                  Object {
+                                    "width": 640,
                                   }
-                                />
+                                }
+                              >
                                 <div
-                                  data-testid="ImageViewComponentCaptionPart"
+                                  className="IconContainer IconContainer_DebugColor DebugWireframe"
                                 >
-                                  <div
-                                    className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
-                                    data-testid="CaptionComponentTestId"
-                                    style={
-                                      Object {
-                                        "width": 510,
-                                      }
-                                    }
-                                  >
-                                    <div
-                                      className="IconContainer IconContainer_DebugColor DebugWireframe"
-                                    >
-                                      <i
-                                        aria-hidden="true"
-                                        className="image icon"
-                                        onClick={[Function]}
-                                      />
-                                    </div>
-                                    <p
-                                      className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
-                                    >
-                                      A coalition of cheetahs on the lookout.
-                                    </p>
-                                  </div>
+                                  <i
+                                    aria-hidden="true"
+                                    className="image icon"
+                                    onClick={[Function]}
+                                  />
                                 </div>
+                                <p
+                                  className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                                >
+                                  Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)
+                                </p>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-                <div
-                  className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
-                >
-                  <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
-                  >
                     <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor DebugWireframe"
                     >
-                      <div
-                        className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+                      <h4
+                        className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
                       >
-                        <div
-                          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor DebugWireframe"
-                        >
-                          <h4
-                            className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
-                          />
-                          <div
-                            className="ImageViewOuterContainer"
-                          >
-                            <div
-                              className="ImageViewInnerContainer"
-                            >
-                              <div
-                                className="ImageViewCore"
-                              >
-                                <img
-                                  alt="Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)"
-                                  className="ImageViewImg"
-                                  src="cheetah_face_hyena.jpg"
-                                  style={
-                                    Object {
-                                      "height": undefined,
-                                      "width": 640,
-                                    }
-                                  }
-                                />
-                                <div
-                                  data-testid="ImageViewComponentCaptionPart"
-                                >
-                                  <div
-                                    className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
-                                    data-testid="CaptionComponentTestId"
-                                    style={
-                                      Object {
-                                        "width": 640,
-                                      }
-                                    }
-                                  >
-                                    <div
-                                      className="IconContainer IconContainer_DebugColor DebugWireframe"
-                                    >
-                                      <i
-                                        aria-hidden="true"
-                                        className="image icon"
-                                        onClick={[Function]}
-                                      />
-                                    </div>
-                                    <p
-                                      className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
-                                    >
-                                      Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor DebugWireframe"
-                        >
-                          <h4
-                            className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
-                          >
-                            Mortality
-                          </h4>
-                          <p
-                            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                          >
-                            The cheetah’s lifespan is poorly documented in the wild. A radio collared cheetah lived to be almost 7 years of age in Tanzania’s Serengeti National Park, and one of CCF’s radio collared cheetahs in Namibia lived for over 10 years.
-                          </p>
-                          <p
-                            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                          >
-                            Adult mortality is one of the most significant limiting factors for cheetah population growth and survival. Poaching, competition with large predators and farmers, and loss of habitats and prey are factors attributing to early death.
-                          </p>
-                          <p
-                            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                          >
-                            Though cub deaths are high, cheetahs have evolved to reproduce rapidly in response to this mortality.
-                          </p>
-                        </div>
-                      </div>
+                        Mortality
+                      </h4>
+                      <p
+                        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                      >
+                        The cheetah’s lifespan is poorly documented in the wild. A radio collared cheetah lived to be almost 7 years of age in Tanzania’s Serengeti National Park, and one of CCF’s radio collared cheetahs in Namibia lived for over 10 years.
+                      </p>
+                      <p
+                        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                      >
+                        Adult mortality is one of the most significant limiting factors for cheetah population growth and survival. Poaching, competition with large predators and farmers, and loss of habitats and prey are factors attributing to early death.
+                      </p>
+                      <p
+                        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                      >
+                        Though cub deaths are high, cheetahs have evolved to reproduce rapidly in response to this mortality.
+                      </p>
                     </div>
                   </div>
                 </div>

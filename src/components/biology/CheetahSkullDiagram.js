@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 27, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -65,14 +65,12 @@ export default class CheetahSkullDiagram extends React.Component {
 
   render() {
     return (
-      <div>
-        <PopUpLabelledDiagram
-          image={image_cheetah_skull}
-          width={900}
-          height={573}
-          items={CheetahSkullDiagram.__ITEMS__}
-        />
-      </div>
+      <PopUpLabelledDiagram
+        image={image_cheetah_skull}
+        width={900}
+        height={573}
+        items={CheetahSkullDiagram.__ITEMS__}
+      />
     );
   }
 }

@@ -2,119 +2,64 @@
 
 exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
 <div
-  className=""
+  className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
 >
   <div
-    className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+    className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
   >
-    <div
-      className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+    <h3
+      className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
     >
-      <h3
-        className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+      Spots and Stripes
+    </h3>
+    <div>
+      <div
+        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
       >
-        Spots and Stripes
-      </h3>
-      <div>
-        <div
-          className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
         >
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-          >
-            Adult cheetahs are easily distinguished from other cats by their coat patterns. The color and spots are a form of camouflage. This helps cheetahs hunt prey and hide from other predators.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-          >
-            Distinctive black tear stripes run from the eyes to the mouth. The stripes are thought to protect the eyes from the sun’s glare. It is believed they have the same function as a rifle scope, helping cheetahs focus on their prey.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-          >
-            Until three months of age, cheetah cubs have a thick-silvery grey mantle that runs down their back. The mantle helps camouflage the cubs by blending them into the shadows and grass. It also provides protection from sun and rain.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-          >
-            With their mantle, cubs look like an aggressive animal called a honey badger. This may deter predators such as lions, hyenas, and eagles from attempting to kill them. This is known as “mimicry”.
-          </p>
-          <div
-            className="FactBannerMediumDimension Centered"
-          >
-            <img
-              alt="What is camouflage?"
-              className="FactBannerMediumDimension"
-              src="What_is_Camouflage.png"
-            />
-          </div>
+          Adult cheetahs are easily distinguished from other cats by their coat patterns. The color and spots are a form of camouflage. This helps cheetahs hunt prey and hide from other predators.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+        >
+          Distinctive black tear stripes run from the eyes to the mouth. The stripes are thought to protect the eyes from the sun’s glare. It is believed they have the same function as a rifle scope, helping cheetahs focus on their prey.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+        >
+          Until three months of age, cheetah cubs have a thick-silvery grey mantle that runs down their back. The mantle helps camouflage the cubs by blending them into the shadows and grass. It also provides protection from sun and rain.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+        >
+          With their mantle, cubs look like an aggressive animal called a honey badger. This may deter predators such as lions, hyenas, and eagles from attempting to kill them. This is known as “mimicry”.
+        </p>
+        <div
+          className="FactBannerMediumDimension Centered"
+        >
+          <img
+            alt="What is camouflage?"
+            className="FactBannerMediumDimension"
+            src="What_is_Camouflage.png"
+          />
         </div>
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+      >
         <div
-          className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+          className="Centered"
+          style={
+            Object {
+              "width": 1080,
+            }
+          }
         >
           <div
-            className="Centered"
-            style={
-              Object {
-                "width": 1080,
-              }
-            }
+            className="FloatLeft"
           >
-            <div
-              className="FloatLeft"
-            >
-              <div
-                className="ImageViewOuterContainer"
-              >
-                <div
-                  className="ImageViewInnerContainer"
-                >
-                  <div
-                    className="ImageViewCore"
-                  >
-                    <img
-                      alt="Mantle on cheetah cub's back provides a form of camouflage that's critical to its survival."
-                      className="ImageViewImg"
-                      src="Cheetah_Mantle.jpg"
-                      style={
-                        Object {
-                          "height": 360,
-                          "width": 360,
-                        }
-                      }
-                    />
-                    <div
-                      data-testid="ImageViewComponentCaptionPart"
-                    >
-                      <div
-                        className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
-                        data-testid="CaptionComponentTestId"
-                        style={
-                          Object {
-                            "width": 360,
-                          }
-                        }
-                      >
-                        <div
-                          className="IconContainer IconContainer_DebugColor DebugWireframe"
-                        >
-                          <i
-                            aria-hidden="true"
-                            className="image icon"
-                            onClick={[Function]}
-                          />
-                        </div>
-                        <p
-                          className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
-                        >
-                          Mantle on cheetah cub's back provides a form of camouflage that's critical to its survival.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div
               className="ImageViewOuterContainer"
             >
@@ -125,13 +70,13 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                   className="ImageViewCore"
                 >
                   <img
-                    alt="The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators."
+                    alt="Mantle on cheetah cub's back provides a form of camouflage that's critical to its survival."
                     className="ImageViewImg"
-                    src="cheetah_and_honey_badger.jpg"
+                    src="Cheetah_Mantle.jpg"
                     style={
                       Object {
                         "height": 360,
-                        "width": 720,
+                        "width": 360,
                       }
                     }
                   />
@@ -143,7 +88,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                       data-testid="CaptionComponentTestId"
                       style={
                         Object {
-                          "width": 720,
+                          "width": 360,
                         }
                       }
                     >
@@ -159,7 +104,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                       <p
                         className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
                       >
-                        The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators.
+                        Mantle on cheetah cub's back provides a form of camouflage that's critical to its survival.
                       </p>
                     </div>
                   </div>
@@ -167,281 +112,332 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
               </div>
             </div>
           </div>
-        </div>
-        <div
-          className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
-        >
           <div
-            className="BigCatSpotsIllustrationOuterContainer BigCatSpotsIllustrationOuterContainer_DebugColor DebugWireframe"
+            className="ImageViewOuterContainer"
           >
-            <div>
-              <h4
-                className="BigCatSpotsIllustrationTitle"
-              >
-                What Cat am I?
-              </h4>
-              <h5
-                className="BigCatSpotsIllustrationSubtitle"
-              >
-                Identify the cat by looking at coat patterns and colors.
-              </h5>
+            <div
+              className="ImageViewInnerContainer"
+            >
               <div
-                className="ui four column grid"
+                className="ImageViewCore"
               >
+                <img
+                  alt="The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators."
+                  className="ImageViewImg"
+                  src="cheetah_and_honey_badger.jpg"
+                  style={
+                    Object {
+                      "height": 360,
+                      "width": 720,
+                    }
+                  }
+                />
                 <div
-                  className="row"
+                  data-testid="ImageViewComponentCaptionPart"
                 >
                   <div
-                    className="column"
+                    className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                    data-testid="CaptionComponentTestId"
+                    style={
+                      Object {
+                        "width": 720,
+                      }
+                    }
                   >
                     <div
-                      className="BigCatSpotsIllustrationItemContainer"
+                      className="IconContainer IconContainer_DebugColor DebugWireframe"
                     >
-                      <div
-                        className="BigCatSpotsIllustrationTextRevealDetailedContainer"
-                      >
-                        <div
-                          style={
-                            Object {
-                              "position": "absolute",
-                            }
-                          }
-                        >
-                          <div
-                            className="ui fade reveal"
-                          >
-                            <div
-                              className="ui visible content"
-                            >
-                              <div
-                                className="TextRevealDetailedCoverContainer"
-                              >
-                                <img
-                                  className="ui image"
-                                  src="pelt_spot_tiger.jpg"
-                                />
-                              </div>
-                            </div>
-                            <div
-                              className="ui hidden content"
-                            >
-                              <div
-                                className="TextRevealDetailedContentContainer"
-                                style={
-                                  Object {
-                                    "backgroundColor": "green",
-                                  }
-                                }
-                              >
-                                <img
-                                  alt="Tiger"
-                                  src="cat_thumbnail_tiger.jpg"
-                                />
-                                <p
-                                  className="TextRevealDetailedCaptionText"
-                                >
-                                  Tiger
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <p
-                        className="BigCatSpotsIllustrationHintText"
-                      >
-                        I live in well-watered grasslands, scrubs, woodlands, or reed beds.
-                      </p>
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
                     </div>
+                    <p
+                      className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                    >
+                      The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators.
+                    </p>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+      >
+        <div
+          className="BigCatSpotsIllustrationOuterContainer BigCatSpotsIllustrationOuterContainer_DebugColor DebugWireframe"
+        >
+          <div>
+            <h4
+              className="BigCatSpotsIllustrationTitle"
+            >
+              What Cat am I?
+            </h4>
+            <h5
+              className="BigCatSpotsIllustrationSubtitle"
+            >
+              Identify the cat by looking at coat patterns and colors.
+            </h5>
+            <div
+              className="ui four column grid"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="column"
+                >
                   <div
-                    className="column"
+                    className="BigCatSpotsIllustrationItemContainer"
                   >
                     <div
-                      className="BigCatSpotsIllustrationItemContainer"
+                      className="BigCatSpotsIllustrationTextRevealDetailedContainer"
                     >
                       <div
-                        className="BigCatSpotsIllustrationTextRevealDetailedContainer"
+                        style={
+                          Object {
+                            "position": "absolute",
+                          }
+                        }
                       >
                         <div
-                          style={
-                            Object {
-                              "position": "absolute",
-                            }
-                          }
+                          className="ui fade reveal"
                         >
                           <div
-                            className="ui fade reveal"
+                            className="ui visible content"
                           >
                             <div
-                              className="ui visible content"
+                              className="TextRevealDetailedCoverContainer"
                             >
-                              <div
-                                className="TextRevealDetailedCoverContainer"
-                              >
-                                <img
-                                  className="ui image"
-                                  src="pelt_spot_jaguar.jpg"
-                                />
-                              </div>
+                              <img
+                                className="ui image"
+                                src="pelt_spot_tiger.jpg"
+                              />
                             </div>
+                          </div>
+                          <div
+                            className="ui hidden content"
+                          >
                             <div
-                              className="ui hidden content"
-                            >
-                              <div
-                                className="TextRevealDetailedContentContainer"
-                                style={
-                                  Object {
-                                    "backgroundColor": "green",
-                                  }
+                              className="TextRevealDetailedContentContainer"
+                              style={
+                                Object {
+                                  "backgroundColor": "green",
                                 }
+                              }
+                            >
+                              <img
+                                alt="Tiger"
+                                src="cat_thumbnail_tiger.jpg"
+                              />
+                              <p
+                                className="TextRevealDetailedCaptionText"
                               >
-                                <img
-                                  alt="Jaguar"
-                                  src="cat_thumbnail_jaguar.jpg"
-                                />
-                                <p
-                                  className="TextRevealDetailedCaptionText"
-                                >
-                                  Jaguar
-                                </p>
-                              </div>
+                                Tiger
+                              </p>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <p
-                        className="BigCatSpotsIllustrationHintText"
-                      >
-                        I'm from South America and live in the jungle.
-                      </p>
                     </div>
+                    <p
+                      className="BigCatSpotsIllustrationHintText"
+                    >
+                      I live in well-watered grasslands, scrubs, woodlands, or reed beds.
+                    </p>
                   </div>
+                </div>
+                <div
+                  className="column"
+                >
                   <div
-                    className="column"
+                    className="BigCatSpotsIllustrationItemContainer"
                   >
                     <div
-                      className="BigCatSpotsIllustrationItemContainer"
+                      className="BigCatSpotsIllustrationTextRevealDetailedContainer"
                     >
                       <div
-                        className="BigCatSpotsIllustrationTextRevealDetailedContainer"
+                        style={
+                          Object {
+                            "position": "absolute",
+                          }
+                        }
                       >
                         <div
-                          style={
-                            Object {
-                              "position": "absolute",
-                            }
-                          }
+                          className="ui fade reveal"
                         >
                           <div
-                            className="ui fade reveal"
+                            className="ui visible content"
                           >
                             <div
-                              className="ui visible content"
+                              className="TextRevealDetailedCoverContainer"
                             >
-                              <div
-                                className="TextRevealDetailedCoverContainer"
-                              >
-                                <img
-                                  className="ui image"
-                                  src="pelt_spot_cheetah.jpg"
-                                />
-                              </div>
+                              <img
+                                className="ui image"
+                                src="pelt_spot_jaguar.jpg"
+                              />
                             </div>
+                          </div>
+                          <div
+                            className="ui hidden content"
+                          >
                             <div
-                              className="ui hidden content"
-                            >
-                              <div
-                                className="TextRevealDetailedContentContainer"
-                                style={
-                                  Object {
-                                    "backgroundColor": "green",
-                                  }
+                              className="TextRevealDetailedContentContainer"
+                              style={
+                                Object {
+                                  "backgroundColor": "green",
                                 }
+                              }
+                            >
+                              <img
+                                alt="Jaguar"
+                                src="cat_thumbnail_jaguar.jpg"
+                              />
+                              <p
+                                className="TextRevealDetailedCaptionText"
                               >
-                                <img
-                                  alt="Cheetah"
-                                  src="cat_thumbnail_cheetah.jpg"
-                                />
-                                <p
-                                  className="TextRevealDetailedCaptionText"
-                                >
-                                  Cheetah
-                                </p>
-                              </div>
+                                Jaguar
+                              </p>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <p
-                        className="BigCatSpotsIllustrationHintText"
-                      >
-                        I can live anywhere but prefer savannas.
-                      </p>
                     </div>
+                    <p
+                      className="BigCatSpotsIllustrationHintText"
+                    >
+                      I'm from South America and live in the jungle.
+                    </p>
                   </div>
+                </div>
+                <div
+                  className="column"
+                >
                   <div
-                    className="column"
+                    className="BigCatSpotsIllustrationItemContainer"
                   >
                     <div
-                      className="BigCatSpotsIllustrationItemContainer"
+                      className="BigCatSpotsIllustrationTextRevealDetailedContainer"
                     >
                       <div
-                        className="BigCatSpotsIllustrationTextRevealDetailedContainer"
+                        style={
+                          Object {
+                            "position": "absolute",
+                          }
+                        }
                       >
                         <div
-                          style={
-                            Object {
-                              "position": "absolute",
-                            }
-                          }
+                          className="ui fade reveal"
                         >
                           <div
-                            className="ui fade reveal"
+                            className="ui visible content"
                           >
                             <div
-                              className="ui visible content"
+                              className="TextRevealDetailedCoverContainer"
                             >
-                              <div
-                                className="TextRevealDetailedCoverContainer"
-                              >
-                                <img
-                                  className="ui image"
-                                  src="pelt_spot_leopard.jpg"
-                                />
-                              </div>
+                              <img
+                                className="ui image"
+                                src="pelt_spot_cheetah.jpg"
+                              />
                             </div>
+                          </div>
+                          <div
+                            className="ui hidden content"
+                          >
                             <div
-                              className="ui hidden content"
-                            >
-                              <div
-                                className="TextRevealDetailedContentContainer"
-                                style={
-                                  Object {
-                                    "backgroundColor": "green",
-                                  }
+                              className="TextRevealDetailedContentContainer"
+                              style={
+                                Object {
+                                  "backgroundColor": "green",
                                 }
+                              }
+                            >
+                              <img
+                                alt="Cheetah"
+                                src="cat_thumbnail_cheetah.jpg"
+                              />
+                              <p
+                                className="TextRevealDetailedCaptionText"
                               >
-                                <img
-                                  alt="Leopard"
-                                  src="cat_thumbnail_leopard.jpg"
-                                />
-                                <p
-                                  className="TextRevealDetailedCaptionText"
-                                >
-                                  Leopard
-                                </p>
-                              </div>
+                                Cheetah
+                              </p>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <p
-                        className="BigCatSpotsIllustrationHintText"
-                      >
-                        I can live anywhere that is rich in prey and has thick bush for cover. I'm often seen resting on trees.
-                      </p>
                     </div>
+                    <p
+                      className="BigCatSpotsIllustrationHintText"
+                    >
+                      I can live anywhere but prefer savannas.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="column"
+                >
+                  <div
+                    className="BigCatSpotsIllustrationItemContainer"
+                  >
+                    <div
+                      className="BigCatSpotsIllustrationTextRevealDetailedContainer"
+                    >
+                      <div
+                        style={
+                          Object {
+                            "position": "absolute",
+                          }
+                        }
+                      >
+                        <div
+                          className="ui fade reveal"
+                        >
+                          <div
+                            className="ui visible content"
+                          >
+                            <div
+                              className="TextRevealDetailedCoverContainer"
+                            >
+                              <img
+                                className="ui image"
+                                src="pelt_spot_leopard.jpg"
+                              />
+                            </div>
+                          </div>
+                          <div
+                            className="ui hidden content"
+                          >
+                            <div
+                              className="TextRevealDetailedContentContainer"
+                              style={
+                                Object {
+                                  "backgroundColor": "green",
+                                }
+                              }
+                            >
+                              <img
+                                alt="Leopard"
+                                src="cat_thumbnail_leopard.jpg"
+                              />
+                              <p
+                                className="TextRevealDetailedCaptionText"
+                              >
+                                Leopard
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p
+                      className="BigCatSpotsIllustrationHintText"
+                    >
+                      I can live anywhere that is rich in prey and has thick bush for cover. I'm often seen resting on trees.
+                    </p>
                   </div>
                 </div>
               </div>

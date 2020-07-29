@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 18, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -42,9 +42,7 @@ export default class BiologyPageSubsectionGeneticConfusion extends React.Compone
 
   renderContent() {
     return (
-      <div>
-        {this.renderSection1Content()}
-      </div>
+      this.renderSection1Content()
     );
   }
 

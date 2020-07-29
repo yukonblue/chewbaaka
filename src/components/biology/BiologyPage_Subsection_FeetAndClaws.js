@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -41,18 +41,16 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
 
   render() {
     return (
-      <div className="">
-        <ContentPageSubsectionTemplate
-          title={this.state.subsectionConfig.title}
-          content={this.renderContent()}
-        />
-      </div>
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
     )
   }
 
   renderContent() {
     return (
-      <div className="">
+      <div>
         {this.renderPartFootContent(this.state.subsectionConfig.contents["part_Foot"])}
         {this.renderPartClawContent(this.state.subsectionConfig.contents["part_Claw"])}
         {this.renderPartDewclawContent(this.state.subsectionConfig.contents["part_Dewclaw"])}
@@ -137,6 +135,7 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
   renderSpoorIllustration() {
     return (
       <ContentPageSubsectionPart>
+        <div className="VerticalCushionPadding"></div>
         <AfricanWildlifeTracksIllustration />
       </ContentPageSubsectionPart>
     );

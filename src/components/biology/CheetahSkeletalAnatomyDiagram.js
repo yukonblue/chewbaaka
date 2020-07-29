@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 27, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -81,14 +81,12 @@ export default class CheetahSkeletalAnatomyDiagram extends React.Component {
 
   render() {
     return (
-      <div>
-        <PopUpLabelledDiagram
-          image={image_cheetah_skeletal_anatomy}
-          width={960}
-          height={640}
-          items={CheetahSkeletalAnatomyDiagram.__ITEMS__}
-        />
-      </div>
+      <PopUpLabelledDiagram
+        image={image_cheetah_skeletal_anatomy}
+        width={960}
+        height={640}
+        items={CheetahSkeletalAnatomyDiagram.__ITEMS__}
+      />
     );
   }
 }

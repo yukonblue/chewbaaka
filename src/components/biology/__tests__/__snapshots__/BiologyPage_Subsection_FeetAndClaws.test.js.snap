@@ -2,177 +2,26 @@
 
 exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
 <div
-  className=""
+  className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
 >
   <div
-    className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+    className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
   >
-    <div
-      className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+    <h3
+      className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
     >
-      <h3
-        className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
-      >
-        Feet and Claws
-      </h3>
+      Feet and Claws
+    </h3>
+    <div>
       <div
-        className=""
+        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
       >
         <div
-          className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+          className="OverflowHidden"
         >
           <div
-            className="OverflowHidden"
+            className="FloatRight HorizontalCusionPadding RightMargin50px"
           >
-            <div
-              className="FloatRight HorizontalCusionPadding RightMargin50px"
-            >
-              <div
-                className="ImageViewOuterContainer"
-              >
-                <div
-                  className="ImageViewInnerContainer"
-                >
-                  <div
-                    className="ImageViewCore"
-                  >
-                    <img
-                      alt="The paws of the cheetah have a distinct shape compared to some of the other carnivores."
-                      className="ImageViewImg"
-                      src="cheetah_paw.jpg"
-                      style={
-                        Object {
-                          "height": 480,
-                          "width": 403,
-                        }
-                      }
-                    />
-                    <div
-                      data-testid="ImageViewComponentCaptionPart"
-                    >
-                      <div
-                        className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
-                        data-testid="CaptionComponentTestId"
-                        style={
-                          Object {
-                            "width": 403,
-                          }
-                        }
-                      >
-                        <div
-                          className="IconContainer IconContainer_DebugColor DebugWireframe"
-                        >
-                          <i
-                            aria-hidden="true"
-                            className="image icon"
-                            onClick={[Function]}
-                          />
-                        </div>
-                        <p
-                          className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
-                        >
-                          The paws of the cheetah have a distinct shape compared to some of the other carnivores.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="LeftMargin50px"
-            >
-              <div
-                className="TextBubbleOuterContainer"
-                style={
-                  Object {
-                    "backgroundColor": "rgb(undefined)",
-                    "height": 520,
-                    "width": 520,
-                  }
-                }
-              >
-                <div
-                  className="TextBubbleInnerContainer"
-                >
-                  <div
-                    className="TextBubbleInnerCore"
-                  >
-                    <h1
-                      style={
-                        Object {
-                          "color": "rgb(undefined)",
-                          "fontSize": 41.6,
-                        }
-                      }
-                    >
-                      Foot
-                    </h1>
-                    <p
-                      style={
-                        Object {
-                          "color": "rgb(undefined)",
-                          "fontSize": 21,
-                        }
-                      }
-                    >
-                      Cheetah’s foot pads are hard and less rounded than the other cats. The pads function like tire threads providing them with increased traction in fast, sharp turns.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
-        >
-          <div
-            className="OverflowHidden"
-          >
-            <div
-              className="FloatRight RightMargin50px"
-            >
-              <div
-                className="TextBubbleOuterContainer"
-                style={
-                  Object {
-                    "backgroundColor": "rgb(undefined)",
-                    "height": 540,
-                    "width": 540,
-                  }
-                }
-              >
-                <div
-                  className="TextBubbleInnerContainer"
-                >
-                  <div
-                    className="TextBubbleInnerCore"
-                  >
-                    <h1
-                      style={
-                        Object {
-                          "color": "rgb(undefined)",
-                          "fontSize": 43.2,
-                        }
-                      }
-                    >
-                      Claw
-                    </h1>
-                    <p
-                      style={
-                        Object {
-                          "color": "rgb(undefined)",
-                          "fontSize": 21,
-                        }
-                      }
-                    >
-                      The short blunt claws work like the cleats on a track shoe. They grip the ground for traction when running and help increase speed. Cheetah’s claws are semi-retractable, meaning they do not completely retract like the claws of other cats. The foot structure of the cheetah is very dog-like.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div
               className="ImageViewOuterContainer"
             >
@@ -183,13 +32,13 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                   className="ImageViewCore"
                 >
                   <img
-                    alt="Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability."
+                    alt="The paws of the cheetah have a distinct shape compared to some of the other carnivores."
                     className="ImageViewImg"
-                    src="Cheetah_Cat_Dog_Claws_Comparison_Inverted.png"
+                    src="cheetah_paw.jpg"
                     style={
                       Object {
                         "height": 480,
-                        "width": 720,
+                        "width": 403,
                       }
                     }
                   />
@@ -201,7 +50,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                       data-testid="CaptionComponentTestId"
                       style={
                         Object {
-                          "width": 720,
+                          "width": 403,
                         }
                       }
                     >
@@ -217,7 +66,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                       <p
                         className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
                       >
-                        Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability.
+                        The paws of the cheetah have a distinct shape compared to some of the other carnivores.
                       </p>
                     </div>
                   </div>
@@ -225,106 +74,145 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
               </div>
             </div>
           </div>
-        </div>
-        <div
-          className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
-        >
           <div
-            className="OverflowHidden"
+            className="LeftMargin50px"
           >
             <div
-              className="FloatRight RightMargin50px"
+              className="TextBubbleOuterContainer"
+              style={
+                Object {
+                  "backgroundColor": "rgb(undefined)",
+                  "height": 520,
+                  "width": 520,
+                }
+              }
             >
               <div
-                className="ImageViewOuterContainer"
+                className="TextBubbleInnerContainer"
               >
                 <div
-                  className="ImageViewInnerContainer"
+                  className="TextBubbleInnerCore"
                 >
-                  <div
-                    className="ImageViewCore"
-                  >
-                    <img
-                      alt="Cheetah dewclaw."
-                      className="ImageViewImg"
-                      src="cheetah_dewclaw.jpg"
-                      style={
-                        Object {
-                          "height": 273,
-                          "width": 611,
-                        }
+                  <h1
+                    style={
+                      Object {
+                        "color": "rgb(undefined)",
+                        "fontSize": 41.6,
                       }
-                    />
-                    <div
-                      data-testid="ImageViewComponentCaptionPart"
-                    >
-                      <div
-                        className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
-                        data-testid="CaptionComponentTestId"
-                        style={
-                          Object {
-                            "width": 611,
-                          }
-                        }
-                      >
-                        <div
-                          className="IconContainer IconContainer_DebugColor DebugWireframe"
-                        >
-                          <i
-                            aria-hidden="true"
-                            className="image icon"
-                            onClick={[Function]}
-                          />
-                        </div>
-                        <p
-                          className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
-                        >
-                          Cheetah dewclaw.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                    }
+                  >
+                    Foot
+                  </h1>
+                  <p
+                    style={
+                      Object {
+                        "color": "rgb(undefined)",
+                        "fontSize": 21,
+                      }
+                    }
+                  >
+                    Cheetah’s foot pads are hard and less rounded than the other cats. The pads function like tire threads providing them with increased traction in fast, sharp turns.
+                  </p>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+      >
+        <div
+          className="OverflowHidden"
+        >
+          <div
+            className="FloatRight RightMargin50px"
+          >
             <div
-              className="LeftMargin50px"
+              className="TextBubbleOuterContainer"
+              style={
+                Object {
+                  "backgroundColor": "rgb(undefined)",
+                  "height": 540,
+                  "width": 540,
+                }
+              }
             >
               <div
-                className="TextBubbleOuterContainer"
-                style={
-                  Object {
-                    "backgroundColor": "rgb(undefined)",
-                    "height": 520,
-                    "width": 520,
-                  }
-                }
+                className="TextBubbleInnerContainer"
               >
                 <div
-                  className="TextBubbleInnerContainer"
+                  className="TextBubbleInnerCore"
+                >
+                  <h1
+                    style={
+                      Object {
+                        "color": "rgb(undefined)",
+                        "fontSize": 43.2,
+                      }
+                    }
+                  >
+                    Claw
+                  </h1>
+                  <p
+                    style={
+                      Object {
+                        "color": "rgb(undefined)",
+                        "fontSize": 21,
+                      }
+                    }
+                  >
+                    The short blunt claws work like the cleats on a track shoe. They grip the ground for traction when running and help increase speed. Cheetah’s claws are semi-retractable, meaning they do not completely retract like the claws of other cats. The foot structure of the cheetah is very dog-like.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="ImageViewOuterContainer"
+          >
+            <div
+              className="ImageViewInnerContainer"
+            >
+              <div
+                className="ImageViewCore"
+              >
+                <img
+                  alt="Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability."
+                  className="ImageViewImg"
+                  src="Cheetah_Cat_Dog_Claws_Comparison_Inverted.png"
+                  style={
+                    Object {
+                      "height": 480,
+                      "width": 720,
+                    }
+                  }
+                />
+                <div
+                  data-testid="ImageViewComponentCaptionPart"
                 >
                   <div
-                    className="TextBubbleInnerCore"
+                    className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                    data-testid="CaptionComponentTestId"
+                    style={
+                      Object {
+                        "width": 720,
+                      }
+                    }
                   >
-                    <h1
-                      style={
-                        Object {
-                          "color": "rgb(undefined)",
-                          "fontSize": 41.6,
-                        }
-                      }
+                    <div
+                      className="IconContainer IconContainer_DebugColor DebugWireframe"
                     >
-                      Dewclaw
-                    </h1>
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
+                    </div>
                     <p
-                      style={
-                        Object {
-                          "color": "rgb(undefined)",
-                          "fontSize": 21,
-                        }
-                      }
+                      className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
                     >
-                      The dewclaws of the cheetah are located on the upper inside area of the front foot. These are sharp and frequently used to hook and hold prey.
+                      Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability.
                     </p>
                   </div>
                 </div>
@@ -332,333 +220,442 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
             </div>
           </div>
         </div>
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+      >
         <div
-          className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+          className="OverflowHidden"
         >
           <div
-            className="AfricanWildlifeTracksIllustrationOuterContainer AfricanWildlifeTracksIllustrationOuterContainer_DebugColor DebugWireframe"
+            className="FloatRight RightMargin50px"
           >
-            <div>
-              <h4
-                className="AfricanWildlifeTracksIllustrationTitle"
-              >
-                Footprints (spoor)
-              </h4>
-              <h5
-                className="AfricanWildlifeTracksIllustrationSubtitle"
-              >
-                Identify the spoor of these animals
-              </h5>
+            <div
+              className="ImageViewOuterContainer"
+            >
               <div
-                className="ui five column grid"
+                className="ImageViewInnerContainer"
               >
                 <div
-                  className="row"
+                  className="ImageViewCore"
+                >
+                  <img
+                    alt="Cheetah dewclaw."
+                    className="ImageViewImg"
+                    src="cheetah_dewclaw.jpg"
+                    style={
+                      Object {
+                        "height": 273,
+                        "width": 611,
+                      }
+                    }
+                  />
+                  <div
+                    data-testid="ImageViewComponentCaptionPart"
+                  >
+                    <div
+                      className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "width": 611,
+                        }
+                      }
+                    >
+                      <div
+                        className="IconContainer IconContainer_DebugColor DebugWireframe"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
+                      </div>
+                      <p
+                        className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                      >
+                        Cheetah dewclaw.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="LeftMargin50px"
+          >
+            <div
+              className="TextBubbleOuterContainer"
+              style={
+                Object {
+                  "backgroundColor": "rgb(undefined)",
+                  "height": 520,
+                  "width": 520,
+                }
+              }
+            >
+              <div
+                className="TextBubbleInnerContainer"
+              >
+                <div
+                  className="TextBubbleInnerCore"
+                >
+                  <h1
+                    style={
+                      Object {
+                        "color": "rgb(undefined)",
+                        "fontSize": 41.6,
+                      }
+                    }
+                  >
+                    Dewclaw
+                  </h1>
+                  <p
+                    style={
+                      Object {
+                        "color": "rgb(undefined)",
+                        "fontSize": 21,
+                      }
+                    }
+                  >
+                    The dewclaws of the cheetah are located on the upper inside area of the front foot. These are sharp and frequently used to hook and hold prey.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+      >
+        <div
+          className="VerticalCushionPadding"
+        />
+        <div
+          className="AfricanWildlifeTracksIllustrationOuterContainer AfricanWildlifeTracksIllustrationOuterContainer_DebugColor DebugWireframe"
+        >
+          <div>
+            <h4
+              className="AfricanWildlifeTracksIllustrationTitle"
+            >
+              Footprints (spoor)
+            </h4>
+            <h5
+              className="AfricanWildlifeTracksIllustrationSubtitle"
+            >
+              Identify the spoor of these animals
+            </h5>
+            <div
+              className="ui five column grid"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="column"
                 >
                   <div
-                    className="column"
+                    className="AfricanWildlifeTracksIllustrationItemContainer"
                   >
                     <div
-                      className="AfricanWildlifeTracksIllustrationItemContainer"
+                      className="AfricanWildlifeTracksIllustrationTextRevealContainer"
                     >
                       <div
-                        className="AfricanWildlifeTracksIllustrationTextRevealContainer"
+                        style={
+                          Object {
+                            "position": "absolute",
+                          }
+                        }
                       >
                         <div
-                          style={
-                            Object {
-                              "position": "absolute",
-                            }
-                          }
+                          className="ui fade reveal"
+                          data-testid="TextRevealComponentTestId"
                         >
                           <div
-                            className="ui fade reveal"
-                            data-testid="TextRevealComponentTestId"
+                            className="ui visible content"
+                            data-testid="TextRevealComponentVisiblePartTestId"
                           >
                             <div
-                              className="ui visible content"
-                              data-testid="TextRevealComponentVisiblePartTestId"
+                              className="TextRevealComponentCoverContainerDiv"
                             >
-                              <div
-                                className="TextRevealComponentCoverContainerDiv"
-                              >
-                                <img
-                                  className="ui image"
-                                  src="Spoor_Track_Cheetah.jpg"
-                                />
-                              </div>
+                              <img
+                                className="ui image"
+                                src="Spoor_Track_Cheetah.jpg"
+                              />
                             </div>
+                          </div>
+                          <div
+                            className="ui hidden content"
+                            data-testid="TextRevealComponentHiddenPartTestId"
+                          >
                             <div
-                              className="ui hidden content"
-                              data-testid="TextRevealComponentHiddenPartTestId"
-                            >
-                              <div
-                                className="TextRevealComponentContentContainerDiv"
-                                style={
-                                  Object {
-                                    "backgroundColor": "#feb628",
-                                  }
+                              className="TextRevealComponentContentContainerDiv"
+                              style={
+                                Object {
+                                  "backgroundColor": "#feb628",
                                 }
+                              }
+                            >
+                              <p
+                                className="TextRevealComponentDescriptionText"
+                                data-testid="TextRevealComponentDescriptionTextPartTestId"
                               >
-                                <p
-                                  className="TextRevealComponentDescriptionText"
-                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
-                                >
-                                  Cheetah
-                                </p>
-                                <p
-                                  className="TextRevealComponentCaptionText"
-                                  data-testid="TextRevealComponentCaptionTextPartTestId"
-                                />
-                              </div>
+                                Cheetah
+                              </p>
+                              <p
+                                className="TextRevealComponentCaptionText"
+                                data-testid="TextRevealComponentCaptionTextPartTestId"
+                              />
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
+                </div>
+                <div
+                  className="column"
+                >
                   <div
-                    className="column"
+                    className="AfricanWildlifeTracksIllustrationItemContainer"
                   >
                     <div
-                      className="AfricanWildlifeTracksIllustrationItemContainer"
+                      className="AfricanWildlifeTracksIllustrationTextRevealContainer"
                     >
                       <div
-                        className="AfricanWildlifeTracksIllustrationTextRevealContainer"
+                        style={
+                          Object {
+                            "position": "absolute",
+                          }
+                        }
                       >
                         <div
-                          style={
-                            Object {
-                              "position": "absolute",
-                            }
-                          }
+                          className="ui fade reveal"
+                          data-testid="TextRevealComponentTestId"
                         >
                           <div
-                            className="ui fade reveal"
-                            data-testid="TextRevealComponentTestId"
+                            className="ui visible content"
+                            data-testid="TextRevealComponentVisiblePartTestId"
                           >
                             <div
-                              className="ui visible content"
-                              data-testid="TextRevealComponentVisiblePartTestId"
+                              className="TextRevealComponentCoverContainerDiv"
                             >
-                              <div
-                                className="TextRevealComponentCoverContainerDiv"
-                              >
-                                <img
-                                  className="ui image"
-                                  src="Spoor_Track_Leopard.jpg"
-                                />
-                              </div>
+                              <img
+                                className="ui image"
+                                src="Spoor_Track_Leopard.jpg"
+                              />
                             </div>
+                          </div>
+                          <div
+                            className="ui hidden content"
+                            data-testid="TextRevealComponentHiddenPartTestId"
+                          >
                             <div
-                              className="ui hidden content"
-                              data-testid="TextRevealComponentHiddenPartTestId"
-                            >
-                              <div
-                                className="TextRevealComponentContentContainerDiv"
-                                style={
-                                  Object {
-                                    "backgroundColor": "#feb628",
-                                  }
+                              className="TextRevealComponentContentContainerDiv"
+                              style={
+                                Object {
+                                  "backgroundColor": "#feb628",
                                 }
+                              }
+                            >
+                              <p
+                                className="TextRevealComponentDescriptionText"
+                                data-testid="TextRevealComponentDescriptionTextPartTestId"
                               >
-                                <p
-                                  className="TextRevealComponentDescriptionText"
-                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
-                                >
-                                  Leopard
-                                </p>
-                                <p
-                                  className="TextRevealComponentCaptionText"
-                                  data-testid="TextRevealComponentCaptionTextPartTestId"
-                                />
-                              </div>
+                                Leopard
+                              </p>
+                              <p
+                                className="TextRevealComponentCaptionText"
+                                data-testid="TextRevealComponentCaptionTextPartTestId"
+                              />
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
+                </div>
+                <div
+                  className="column"
+                >
                   <div
-                    className="column"
+                    className="AfricanWildlifeTracksIllustrationItemContainer"
                   >
                     <div
-                      className="AfricanWildlifeTracksIllustrationItemContainer"
+                      className="AfricanWildlifeTracksIllustrationTextRevealContainer"
                     >
                       <div
-                        className="AfricanWildlifeTracksIllustrationTextRevealContainer"
+                        style={
+                          Object {
+                            "position": "absolute",
+                          }
+                        }
                       >
                         <div
-                          style={
-                            Object {
-                              "position": "absolute",
-                            }
-                          }
+                          className="ui fade reveal"
+                          data-testid="TextRevealComponentTestId"
                         >
                           <div
-                            className="ui fade reveal"
-                            data-testid="TextRevealComponentTestId"
+                            className="ui visible content"
+                            data-testid="TextRevealComponentVisiblePartTestId"
                           >
                             <div
-                              className="ui visible content"
-                              data-testid="TextRevealComponentVisiblePartTestId"
+                              className="TextRevealComponentCoverContainerDiv"
                             >
-                              <div
-                                className="TextRevealComponentCoverContainerDiv"
-                              >
-                                <img
-                                  className="ui image"
-                                  src="Spoor_Track_Lion.jpg"
-                                />
-                              </div>
+                              <img
+                                className="ui image"
+                                src="Spoor_Track_Lion.jpg"
+                              />
                             </div>
+                          </div>
+                          <div
+                            className="ui hidden content"
+                            data-testid="TextRevealComponentHiddenPartTestId"
+                          >
                             <div
-                              className="ui hidden content"
-                              data-testid="TextRevealComponentHiddenPartTestId"
-                            >
-                              <div
-                                className="TextRevealComponentContentContainerDiv"
-                                style={
-                                  Object {
-                                    "backgroundColor": "#feb628",
-                                  }
+                              className="TextRevealComponentContentContainerDiv"
+                              style={
+                                Object {
+                                  "backgroundColor": "#feb628",
                                 }
+                              }
+                            >
+                              <p
+                                className="TextRevealComponentDescriptionText"
+                                data-testid="TextRevealComponentDescriptionTextPartTestId"
                               >
-                                <p
-                                  className="TextRevealComponentDescriptionText"
-                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
-                                >
-                                  Lion
-                                </p>
-                                <p
-                                  className="TextRevealComponentCaptionText"
-                                  data-testid="TextRevealComponentCaptionTextPartTestId"
-                                />
-                              </div>
+                                Lion
+                              </p>
+                              <p
+                                className="TextRevealComponentCaptionText"
+                                data-testid="TextRevealComponentCaptionTextPartTestId"
+                              />
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
+                </div>
+                <div
+                  className="column"
+                >
                   <div
-                    className="column"
+                    className="AfricanWildlifeTracksIllustrationItemContainer"
                   >
                     <div
-                      className="AfricanWildlifeTracksIllustrationItemContainer"
+                      className="AfricanWildlifeTracksIllustrationTextRevealContainer"
                     >
                       <div
-                        className="AfricanWildlifeTracksIllustrationTextRevealContainer"
+                        style={
+                          Object {
+                            "position": "absolute",
+                          }
+                        }
                       >
                         <div
-                          style={
-                            Object {
-                              "position": "absolute",
-                            }
-                          }
+                          className="ui fade reveal"
+                          data-testid="TextRevealComponentTestId"
                         >
                           <div
-                            className="ui fade reveal"
-                            data-testid="TextRevealComponentTestId"
+                            className="ui visible content"
+                            data-testid="TextRevealComponentVisiblePartTestId"
                           >
                             <div
-                              className="ui visible content"
-                              data-testid="TextRevealComponentVisiblePartTestId"
+                              className="TextRevealComponentCoverContainerDiv"
                             >
-                              <div
-                                className="TextRevealComponentCoverContainerDiv"
-                              >
-                                <img
-                                  className="ui image"
-                                  src="Spoor_Track_Spotted_Hyena.jpg"
-                                />
-                              </div>
+                              <img
+                                className="ui image"
+                                src="Spoor_Track_Spotted_Hyena.jpg"
+                              />
                             </div>
+                          </div>
+                          <div
+                            className="ui hidden content"
+                            data-testid="TextRevealComponentHiddenPartTestId"
+                          >
                             <div
-                              className="ui hidden content"
-                              data-testid="TextRevealComponentHiddenPartTestId"
-                            >
-                              <div
-                                className="TextRevealComponentContentContainerDiv"
-                                style={
-                                  Object {
-                                    "backgroundColor": "#feb628",
-                                  }
+                              className="TextRevealComponentContentContainerDiv"
+                              style={
+                                Object {
+                                  "backgroundColor": "#feb628",
                                 }
+                              }
+                            >
+                              <p
+                                className="TextRevealComponentDescriptionText"
+                                data-testid="TextRevealComponentDescriptionTextPartTestId"
                               >
-                                <p
-                                  className="TextRevealComponentDescriptionText"
-                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
-                                >
-                                  Spotted hyena
-                                </p>
-                                <p
-                                  className="TextRevealComponentCaptionText"
-                                  data-testid="TextRevealComponentCaptionTextPartTestId"
-                                />
-                              </div>
+                                Spotted hyena
+                              </p>
+                              <p
+                                className="TextRevealComponentCaptionText"
+                                data-testid="TextRevealComponentCaptionTextPartTestId"
+                              />
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
+                </div>
+                <div
+                  className="column"
+                >
                   <div
-                    className="column"
+                    className="AfricanWildlifeTracksIllustrationItemContainer"
                   >
                     <div
-                      className="AfricanWildlifeTracksIllustrationItemContainer"
+                      className="AfricanWildlifeTracksIllustrationTextRevealContainer"
                     >
                       <div
-                        className="AfricanWildlifeTracksIllustrationTextRevealContainer"
+                        style={
+                          Object {
+                            "position": "absolute",
+                          }
+                        }
                       >
                         <div
-                          style={
-                            Object {
-                              "position": "absolute",
-                            }
-                          }
+                          className="ui fade reveal"
+                          data-testid="TextRevealComponentTestId"
                         >
                           <div
-                            className="ui fade reveal"
-                            data-testid="TextRevealComponentTestId"
+                            className="ui visible content"
+                            data-testid="TextRevealComponentVisiblePartTestId"
                           >
                             <div
-                              className="ui visible content"
-                              data-testid="TextRevealComponentVisiblePartTestId"
+                              className="TextRevealComponentCoverContainerDiv"
                             >
-                              <div
-                                className="TextRevealComponentCoverContainerDiv"
-                              >
-                                <img
-                                  className="ui image"
-                                  src="Spoor_Track_Wild_Dog.jpg"
-                                />
-                              </div>
+                              <img
+                                className="ui image"
+                                src="Spoor_Track_Wild_Dog.jpg"
+                              />
                             </div>
+                          </div>
+                          <div
+                            className="ui hidden content"
+                            data-testid="TextRevealComponentHiddenPartTestId"
+                          >
                             <div
-                              className="ui hidden content"
-                              data-testid="TextRevealComponentHiddenPartTestId"
-                            >
-                              <div
-                                className="TextRevealComponentContentContainerDiv"
-                                style={
-                                  Object {
-                                    "backgroundColor": "#feb628",
-                                  }
+                              className="TextRevealComponentContentContainerDiv"
+                              style={
+                                Object {
+                                  "backgroundColor": "#feb628",
                                 }
+                              }
+                            >
+                              <p
+                                className="TextRevealComponentDescriptionText"
+                                data-testid="TextRevealComponentDescriptionTextPartTestId"
                               >
-                                <p
-                                  className="TextRevealComponentDescriptionText"
-                                  data-testid="TextRevealComponentDescriptionTextPartTestId"
-                                >
-                                  African wild dog
-                                </p>
-                                <p
-                                  className="TextRevealComponentCaptionText"
-                                  data-testid="TextRevealComponentCaptionTextPartTestId"
-                                />
-                              </div>
+                                African wild dog
+                              </p>
+                              <p
+                                className="TextRevealComponentCaptionText"
+                                data-testid="TextRevealComponentCaptionTextPartTestId"
+                              />
                             </div>
                           </div>
                         </div>

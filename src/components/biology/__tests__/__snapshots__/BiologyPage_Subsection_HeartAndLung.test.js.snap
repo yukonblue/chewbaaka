@@ -2,793 +2,789 @@
 
 exports[`BiologyPageSubsectionHearAndLung component snapshot 1`] = `
 <div
-  className=""
+  className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
 >
   <div
-    className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+    className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
   >
-    <div
-      className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+    <h3
+      className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
     >
-      <h3
-        className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
-      >
-        Heart and Lung
-      </h3>
+      Heart and Lung
+    </h3>
+    <div
+      className="BiologyPageSubsectionHearAndLungInnerContainer"
+    >
       <div
-        className="BiologyPageSubsectionHearAndLungInnerContainer"
+        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
       >
         <div
-          className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
         >
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
+            className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
           >
             <div
-              className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
             >
               <div
-                className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor DebugWireframe"
               >
-                <div
-                  className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor DebugWireframe"
+                <h4
+                  className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+                />
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
                 >
-                  <h4
-                    className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
-                  />
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                  >
-                    The cheetah has a strong heart that rapidly pumps large amounts of oxygenated blood from the lungs to the muscles to keep them supplied with energy while running.
-                  </p>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                  >
-                    Large lungs provide adequate oxygen for a cheetah’s increased energy needs while pursuing its prey. The cheetah’s respiratory rate climbs from 60 to 150 breathes per minute, nearly twice as fast as humans.
-                  </p>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                  >
-                    Cheetahs have enlarged nostrils and sinuses allowing an increase in air flow to the lungs.
-                  </p>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                  >
-                    High speeds can, however, only be maintained for 400 - 800 meters before exhaustion sets in and the body risks overheating.
-                  </p>
-                </div>
-                <div
-                  className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor DebugWireframe"
+                  The cheetah has a strong heart that rapidly pumps large amounts of oxygenated blood from the lungs to the muscles to keep them supplied with energy while running.
+                </p>
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
                 >
-                  <h4
-                    className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
-                  />
-                  <div>
-                    <div
-                      className="Centered"
-                      style={
-                        Object {
-                          "width": 420,
-                        }
+                  Large lungs provide adequate oxygen for a cheetah’s increased energy needs while pursuing its prey. The cheetah’s respiratory rate climbs from 60 to 150 breathes per minute, nearly twice as fast as humans.
+                </p>
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                >
+                  Cheetahs have enlarged nostrils and sinuses allowing an increase in air flow to the lungs.
+                </p>
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                >
+                  High speeds can, however, only be maintained for 400 - 800 meters before exhaustion sets in and the body risks overheating.
+                </p>
+              </div>
+              <div
+                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor DebugWireframe"
+              >
+                <h4
+                  className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+                />
+                <div>
+                  <div
+                    className="Centered"
+                    style={
+                      Object {
+                        "width": 420,
                       }
-                    >
-                      <img
-                        alt="Cheetah run illustration"
-                        src="Cheetah_Travel_480x480.png"
-                        width={420}
-                      />
-                    </div>
-                    <p
-                      className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                    >
-                      A cheetah running the 249km from Otjiwarongo to Windhoek would need to stop to rest more than 311 times.
-                    </p>
-                    <p
-                      className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                    >
-                      If it could run there without resting, it would take 2 hours and 26 minutes at 110km/hr.
-                    </p>
+                    }
+                  >
+                    <img
+                      alt="Cheetah run illustration"
+                      src="Cheetah_Travel_480x480.png"
+                      width={420}
+                    />
                   </div>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                  >
+                    A cheetah running the 249km from Otjiwarongo to Windhoek would need to stop to rest more than 311 times.
+                  </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                  >
+                    If it could run there without resting, it would take 2 hours and 26 minutes at 110km/hr.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+      >
         <div
-          className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+          className="CheetahOlympicsOuterContainer"
         >
           <div
-            className="CheetahOlympicsOuterContainer"
+            className="CheetahOlympicsInnerContainer"
           >
-            <div
-              className="CheetahOlympicsInnerContainer"
+            <h4
+              className="CheetahOlympicsTitle"
             >
-              <h4
-                className="CheetahOlympicsTitle"
-              >
-                Cheetah Olympics
-              </h4>
-              <p>
-                Frankie Fredericks, Namibian Olympic silver medal sprinter, ran 200 meters in 19.92 seconds.
-              </p>
-              <p>
-                The cheetah can run the same distance in 6.54 seconds.
-              </p>
-              <p
-                className="CheetahOlympicsSubtitle"
-              >
-                Who will win the race?
-              </p>
-              <p>
-                Which is the fastest land animal in Africa?
-              </p>
-              <p>
-                (hover over the squares below to find out)
-              </p>
-              <div
-                className="QuizBoardOuterContainer QuizBoardOuterContainer_DebugColor DebugWireframe"
-                style={
-                  Object {
-                    "height": 1040,
-                    "width": 720,
-                  }
+              Cheetah Olympics
+            </h4>
+            <p>
+              Frankie Fredericks, Namibian Olympic silver medal sprinter, ran 200 meters in 19.92 seconds.
+            </p>
+            <p>
+              The cheetah can run the same distance in 6.54 seconds.
+            </p>
+            <p
+              className="CheetahOlympicsSubtitle"
+            >
+              Who will win the race?
+            </p>
+            <p>
+              Which is the fastest land animal in Africa?
+            </p>
+            <p>
+              (hover over the squares below to find out)
+            </p>
+            <div
+              className="QuizBoardOuterContainer QuizBoardOuterContainer_DebugColor DebugWireframe"
+              style={
+                Object {
+                  "height": 1040,
+                  "width": 720,
                 }
+              }
+            >
+              <div
+                className="QuizBoardInnerContainer"
               >
                 <div
-                  className="QuizBoardInnerContainer"
+                  className="QuizBoardItemContainer"
+                  style={
+                    Object {
+                      "left": 40,
+                      "top": 40,
+                    }
+                  }
                 >
                   <div
-                    className="QuizBoardItemContainer"
-                    style={
-                      Object {
-                        "left": 40,
-                        "top": 40,
-                      }
-                    }
+                    className="ui fade reveal"
                   >
                     <div
-                      className="ui fade reveal"
+                      className="ui visible content"
                     >
                       <div
-                        className="ui visible content"
-                      >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
-                          style={
-                            Object {
-                              "backgroundColor": "#6e9ce9",
-                            }
+                        className="TextRevealWithTextCoverOuterContainer"
+                        style={
+                          Object {
+                            "backgroundColor": "#6e9ce9",
                           }
-                        >
-                          <p
-                            className="TextRevealWithTextCoverTitle"
-                          >
-                            Lion
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        className="ui hidden content"
+                        }
                       >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
+                        <p
+                          className="TextRevealWithTextCoverTitle"
                         >
-                          <p
-                            className="TextRevealWithTextCoverDescription"
-                          >
-                            80 km/hr (2nd place)
-                          </p>
-                        </div>
+                          Lion
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      className="ui hidden content"
+                    >
+                      <div
+                        className="TextRevealWithTextCoverOuterContainer"
+                      >
+                        <p
+                          className="TextRevealWithTextCoverDescription"
+                        >
+                          80 km/hr (2nd place)
+                        </p>
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="QuizBoardItemContainer"
-                    style={
-                      Object {
-                        "left": 280,
-                        "top": 40,
-                      }
+                </div>
+                <div
+                  className="QuizBoardItemContainer"
+                  style={
+                    Object {
+                      "left": 280,
+                      "top": 40,
                     }
+                  }
+                >
+                  <div
+                    className="ui fade reveal"
                   >
                     <div
-                      className="ui fade reveal"
+                      className="ui visible content"
                     >
                       <div
-                        className="ui visible content"
-                      >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
-                          style={
-                            Object {
-                              "backgroundColor": "#6e9ce9",
-                            }
+                        className="TextRevealWithTextCoverOuterContainer"
+                        style={
+                          Object {
+                            "backgroundColor": "#6e9ce9",
                           }
-                        >
-                          <p
-                            className="TextRevealWithTextCoverTitle"
-                          >
-                            Human
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        className="ui hidden content"
+                        }
                       >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
+                        <p
+                          className="TextRevealWithTextCoverTitle"
                         >
-                          <p
-                            className="TextRevealWithTextCoverDescription"
-                          >
-                            45 km/hr (7th place)
-                          </p>
-                        </div>
+                          Human
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      className="ui hidden content"
+                    >
+                      <div
+                        className="TextRevealWithTextCoverOuterContainer"
+                      >
+                        <p
+                          className="TextRevealWithTextCoverDescription"
+                        >
+                          45 km/hr (7th place)
+                        </p>
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="QuizBoardItemContainer"
-                    style={
-                      Object {
-                        "left": 520,
-                        "top": 40,
-                      }
+                </div>
+                <div
+                  className="QuizBoardItemContainer"
+                  style={
+                    Object {
+                      "left": 520,
+                      "top": 40,
                     }
+                  }
+                >
+                  <div
+                    className="ui fade reveal"
                   >
                     <div
-                      className="ui fade reveal"
+                      className="ui visible content"
                     >
                       <div
-                        className="ui visible content"
-                      >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
-                          style={
-                            Object {
-                              "backgroundColor": "#6e9ce9",
-                            }
+                        className="TextRevealWithTextCoverOuterContainer"
+                        style={
+                          Object {
+                            "backgroundColor": "#6e9ce9",
                           }
-                        >
-                          <p
-                            className="TextRevealWithTextCoverTitle"
-                          >
-                            Zebra
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        className="ui hidden content"
+                        }
                       >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
+                        <p
+                          className="TextRevealWithTextCoverTitle"
                         >
-                          <p
-                            className="TextRevealWithTextCoverDescription"
-                          >
-                            58 km/hr (6th place) 
-                          </p>
-                        </div>
+                          Zebra
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      className="ui hidden content"
+                    >
+                      <div
+                        className="TextRevealWithTextCoverOuterContainer"
+                      >
+                        <p
+                          className="TextRevealWithTextCoverDescription"
+                        >
+                          58 km/hr (6th place) 
+                        </p>
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="QuizBoardItemContainer"
-                    style={
-                      Object {
-                        "left": 40,
-                        "top": 240,
-                      }
+                </div>
+                <div
+                  className="QuizBoardItemContainer"
+                  style={
+                    Object {
+                      "left": 40,
+                      "top": 240,
                     }
+                  }
+                >
+                  <div
+                    className="ui fade reveal"
                   >
                     <div
-                      className="ui fade reveal"
+                      className="ui visible content"
                     >
                       <div
-                        className="ui visible content"
-                      >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
-                          style={
-                            Object {
-                              "backgroundColor": "#6e9ce9",
-                            }
+                        className="TextRevealWithTextCoverOuterContainer"
+                        style={
+                          Object {
+                            "backgroundColor": "#6e9ce9",
                           }
-                        >
-                          <p
-                            className="TextRevealWithTextCoverTitle"
-                          >
-                            Black Mamba
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        className="ui hidden content"
+                        }
                       >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
+                        <p
+                          className="TextRevealWithTextCoverTitle"
                         >
-                          <p
-                            className="TextRevealWithTextCoverDescription"
-                          >
-                            32 km/hr (9th place)
-                          </p>
-                        </div>
+                          Black Mamba
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      className="ui hidden content"
+                    >
+                      <div
+                        className="TextRevealWithTextCoverOuterContainer"
+                      >
+                        <p
+                          className="TextRevealWithTextCoverDescription"
+                        >
+                          32 km/hr (9th place)
+                        </p>
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="QuizBoardItemContainer"
-                    style={
-                      Object {
-                        "left": 280,
-                        "top": 240,
-                      }
+                </div>
+                <div
+                  className="QuizBoardItemContainer"
+                  style={
+                    Object {
+                      "left": 280,
+                      "top": 240,
                     }
+                  }
+                >
+                  <div
+                    className="ui fade reveal"
                   >
                     <div
-                      className="ui fade reveal"
+                      className="ui visible content"
                     >
                       <div
-                        className="ui visible content"
-                      >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
-                          style={
-                            Object {
-                              "backgroundColor": "#6e9ce9",
-                            }
+                        className="TextRevealWithTextCoverOuterContainer"
+                        style={
+                          Object {
+                            "backgroundColor": "#6e9ce9",
                           }
-                        >
-                          <p
-                            className="TextRevealWithTextCoverTitle"
-                          >
-                            Wildebeest
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        className="ui hidden content"
+                        }
                       >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
+                        <p
+                          className="TextRevealWithTextCoverTitle"
                         >
-                          <p
-                            className="TextRevealWithTextCoverDescription"
-                          >
-                            78 km/hr (3rd place)
-                          </p>
-                        </div>
+                          Wildebeest
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      className="ui hidden content"
+                    >
+                      <div
+                        className="TextRevealWithTextCoverOuterContainer"
+                      >
+                        <p
+                          className="TextRevealWithTextCoverDescription"
+                        >
+                          78 km/hr (3rd place)
+                        </p>
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="QuizBoardItemContainer"
-                    style={
-                      Object {
-                        "left": 520,
-                        "top": 240,
-                      }
+                </div>
+                <div
+                  className="QuizBoardItemContainer"
+                  style={
+                    Object {
+                      "left": 520,
+                      "top": 240,
                     }
+                  }
+                >
+                  <div
+                    className="ui fade reveal"
                   >
                     <div
-                      className="ui fade reveal"
+                      className="ui visible content"
                     >
                       <div
-                        className="ui visible content"
-                      >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
-                          style={
-                            Object {
-                              "backgroundColor": "#6e9ce9",
-                            }
+                        className="TextRevealWithTextCoverOuterContainer"
+                        style={
+                          Object {
+                            "backgroundColor": "#6e9ce9",
                           }
-                        >
-                          <p
-                            className="TextRevealWithTextCoverTitle"
-                          >
-                            Cheetah
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        className="ui hidden content"
+                        }
                       >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
+                        <p
+                          className="TextRevealWithTextCoverTitle"
                         >
-                          <p
-                            className="TextRevealWithTextCoverDescription"
-                          >
-                            110 km/hr (1st place 🏆)
-                          </p>
-                        </div>
+                          Cheetah
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      className="ui hidden content"
+                    >
+                      <div
+                        className="TextRevealWithTextCoverOuterContainer"
+                      >
+                        <p
+                          className="TextRevealWithTextCoverDescription"
+                        >
+                          110 km/hr (1st place 🏆)
+                        </p>
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="QuizBoardItemContainer"
-                    style={
-                      Object {
-                        "left": 40,
-                        "top": 440,
-                      }
+                </div>
+                <div
+                  className="QuizBoardItemContainer"
+                  style={
+                    Object {
+                      "left": 40,
+                      "top": 440,
                     }
+                  }
+                >
+                  <div
+                    className="ui fade reveal"
                   >
                     <div
-                      className="ui fade reveal"
+                      className="ui visible content"
                     >
                       <div
-                        className="ui visible content"
-                      >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
-                          style={
-                            Object {
-                              "backgroundColor": "#6e9ce9",
-                            }
+                        className="TextRevealWithTextCoverOuterContainer"
+                        style={
+                          Object {
+                            "backgroundColor": "#6e9ce9",
                           }
-                        >
-                          <p
-                            className="TextRevealWithTextCoverTitle"
-                          >
-                            Race Horse
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        className="ui hidden content"
+                        }
                       >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
+                        <p
+                          className="TextRevealWithTextCoverTitle"
                         >
-                          <p
-                            className="TextRevealWithTextCoverDescription"
-                          >
-                            60 km/h (5th place)
-                          </p>
-                        </div>
+                          Race Horse
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      className="ui hidden content"
+                    >
+                      <div
+                        className="TextRevealWithTextCoverOuterContainer"
+                      >
+                        <p
+                          className="TextRevealWithTextCoverDescription"
+                        >
+                          60 km/h (5th place)
+                        </p>
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="QuizBoardItemContainer"
-                    style={
-                      Object {
-                        "left": 280,
-                        "top": 440,
-                      }
+                </div>
+                <div
+                  className="QuizBoardItemContainer"
+                  style={
+                    Object {
+                      "left": 280,
+                      "top": 440,
                     }
+                  }
+                >
+                  <div
+                    className="ui fade reveal"
                   >
                     <div
-                      className="ui fade reveal"
+                      className="ui visible content"
                     >
                       <div
-                        className="ui visible content"
-                      >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
-                          style={
-                            Object {
-                              "backgroundColor": "#6e9ce9",
-                            }
+                        className="TextRevealWithTextCoverOuterContainer"
+                        style={
+                          Object {
+                            "backgroundColor": "#6e9ce9",
                           }
-                        >
-                          <p
-                            className="TextRevealWithTextCoverTitle"
-                          >
-                            Elephant
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        className="ui hidden content"
+                        }
                       >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
+                        <p
+                          className="TextRevealWithTextCoverTitle"
                         >
-                          <p
-                            className="TextRevealWithTextCoverDescription"
-                          >
-                            65 km/hr (4th place)
-                          </p>
-                        </div>
+                          Elephant
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      className="ui hidden content"
+                    >
+                      <div
+                        className="TextRevealWithTextCoverOuterContainer"
+                      >
+                        <p
+                          className="TextRevealWithTextCoverDescription"
+                        >
+                          65 km/hr (4th place)
+                        </p>
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="QuizBoardItemContainer"
-                    style={
-                      Object {
-                        "left": 520,
-                        "top": 440,
-                      }
+                </div>
+                <div
+                  className="QuizBoardItemContainer"
+                  style={
+                    Object {
+                      "left": 520,
+                      "top": 440,
                     }
+                  }
+                >
+                  <div
+                    className="ui fade reveal"
                   >
                     <div
-                      className="ui fade reveal"
+                      className="ui visible content"
                     >
                       <div
-                        className="ui visible content"
-                      >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
-                          style={
-                            Object {
-                              "backgroundColor": "#6e9ce9",
-                            }
+                        className="TextRevealWithTextCoverOuterContainer"
+                        style={
+                          Object {
+                            "backgroundColor": "#6e9ce9",
                           }
-                        >
-                          <p
-                            className="TextRevealWithTextCoverTitle"
-                          >
-                            Warthog
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        className="ui hidden content"
+                        }
                       >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
+                        <p
+                          className="TextRevealWithTextCoverTitle"
                         >
-                          <p
-                            className="TextRevealWithTextCoverDescription"
-                          >
-                            40 km/hr (8th place)
-                          </p>
-                        </div>
+                          Warthog
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      className="ui hidden content"
+                    >
+                      <div
+                        className="TextRevealWithTextCoverOuterContainer"
+                      >
+                        <p
+                          className="TextRevealWithTextCoverDescription"
+                        >
+                          40 km/hr (8th place)
+                        </p>
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="QuizBoardItemContainer"
-                    style={
-                      Object {
-                        "left": 280,
-                        "top": 640,
-                      }
+                </div>
+                <div
+                  className="QuizBoardItemContainer"
+                  style={
+                    Object {
+                      "left": 280,
+                      "top": 640,
                     }
+                  }
+                >
+                  <div
+                    className="ui fade reveal"
                   >
                     <div
-                      className="ui fade reveal"
+                      className="ui visible content"
                     >
                       <div
-                        className="ui visible content"
-                      >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
-                          style={
-                            Object {
-                              "backgroundColor": "#6e9ce9",
-                            }
+                        className="TextRevealWithTextCoverOuterContainer"
+                        style={
+                          Object {
+                            "backgroundColor": "#6e9ce9",
                           }
-                        >
-                          <p
-                            className="TextRevealWithTextCoverTitle"
-                          >
-                            Jackal
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        className="ui hidden content"
+                        }
                       >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
+                        <p
+                          className="TextRevealWithTextCoverTitle"
                         >
-                          <p
-                            className="TextRevealWithTextCoverDescription"
-                          >
-                            16 km/hr (10th place)
-                          </p>
-                        </div>
+                          Jackal
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      className="ui hidden content"
+                    >
+                      <div
+                        className="TextRevealWithTextCoverOuterContainer"
+                      >
+                        <p
+                          className="TextRevealWithTextCoverDescription"
+                        >
+                          16 km/hr (10th place)
+                        </p>
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="QuizBoardItemContainer"
-                    style={
-                      Object {
-                        "left": 40,
-                        "top": 840,
-                      }
+                </div>
+                <div
+                  className="QuizBoardItemContainer"
+                  style={
+                    Object {
+                      "left": 40,
+                      "top": 840,
                     }
+                  }
+                >
+                  <div
+                    className="ui fade reveal"
                   >
                     <div
-                      className="ui fade reveal"
+                      className="ui visible content"
                     >
                       <div
-                        className="ui visible content"
-                      >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
-                          style={
-                            Object {
-                              "backgroundColor": "#6e9ce9",
-                            }
+                        className="TextRevealWithTextCoverOuterContainer"
+                        style={
+                          Object {
+                            "backgroundColor": "#6e9ce9",
                           }
-                        >
-                          <p
-                            className="TextRevealWithTextCoverTitle"
-                          >
-                            Second fastest animal in the world
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        className="ui hidden content"
+                        }
                       >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
+                        <p
+                          className="TextRevealWithTextCoverTitle"
                         >
-                          <p
-                            className="TextRevealWithTextCoverDescription"
-                          >
-                            Pronghorn antelope, a North American species, sprints up to 86 km/hr.
-                          </p>
-                        </div>
+                          Second fastest animal in the world
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      className="ui hidden content"
+                    >
+                      <div
+                        className="TextRevealWithTextCoverOuterContainer"
+                      >
+                        <p
+                          className="TextRevealWithTextCoverDescription"
+                        >
+                          Pronghorn antelope, a North American species, sprints up to 86 km/hr.
+                        </p>
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="QuizBoardItemContainer"
-                    style={
-                      Object {
-                        "left": 520,
-                        "top": 840,
-                      }
+                </div>
+                <div
+                  className="QuizBoardItemContainer"
+                  style={
+                    Object {
+                      "left": 520,
+                      "top": 840,
                     }
+                  }
+                >
+                  <div
+                    className="ui fade reveal"
                   >
                     <div
-                      className="ui fade reveal"
+                      className="ui visible content"
                     >
                       <div
-                        className="ui visible content"
-                      >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
-                          style={
-                            Object {
-                              "backgroundColor": "#6e9ce9",
-                            }
+                        className="TextRevealWithTextCoverOuterContainer"
+                        style={
+                          Object {
+                            "backgroundColor": "#6e9ce9",
                           }
-                        >
-                          <p
-                            className="TextRevealWithTextCoverTitle"
-                          >
-                            Fastest animal in the world
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        className="ui hidden content"
+                        }
                       >
-                        <div
-                          className="TextRevealWithTextCoverOuterContainer"
+                        <p
+                          className="TextRevealWithTextCoverTitle"
                         >
-                          <p
-                            className="TextRevealWithTextCoverDescription"
-                          >
-                            Peregrine falcon, a bird species, dives at 360km/hr.
-                          </p>
-                        </div>
+                          Fastest animal in the world
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      className="ui hidden content"
+                    >
+                      <div
+                        className="TextRevealWithTextCoverOuterContainer"
+                      >
+                        <p
+                          className="TextRevealWithTextCoverDescription"
+                        >
+                          Peregrine falcon, a bird species, dives at 360km/hr.
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div>
+          </div>
+          <div>
+            <div
+              className="QnAPopUpContainer QnAPopUpContainer_DebugColor DebugWireframe"
+            >
               <div
-                className="QnAPopUpContainer QnAPopUpContainer_DebugColor DebugWireframe"
+                className="QnAPopUpButtonGroupContainer QnAPopUpButtonGroupContainer_DebugColor DebugWireframe"
               >
                 <div
-                  className="QnAPopUpButtonGroupContainer QnAPopUpButtonGroupContainer_DebugColor DebugWireframe"
+                  className="ui blue large label"
+                  onClick={[Function]}
                 >
-                  <div
-                    className="ui blue large label"
+                  Did You Know
+                  <button
+                    className="ui orange circular icon button QuestionButton"
                     onClick={[Function]}
                   >
-                    Did You Know
-                    <button
-                      className="ui orange circular icon button QuestionButton"
+                    <i
+                      aria-hidden="true"
+                      className="question icon"
                       onClick={[Function]}
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="question icon"
-                        onClick={[Function]}
-                      />
-                    </button>
-                  </div>
+                    />
+                  </button>
                 </div>
+              </div>
+              <div
+                className="QnAPopUpTextSecondaryBubbleContainer QnAPopUpTextSecondaryBubbleContainer_DebugColor DebugWireframe"
+              >
                 <div
-                  className="QnAPopUpTextSecondaryBubbleContainer QnAPopUpTextSecondaryBubbleContainer_DebugColor DebugWireframe"
+                  className="TextBubbleOuterContainer"
+                  hidden={true}
+                  style={
+                    Object {
+                      "backgroundColor": "rgb(undefined)",
+                      "height": 45,
+                      "width": 45,
+                    }
+                  }
                 >
                   <div
-                    className="TextBubbleOuterContainer"
-                    hidden={true}
-                    style={
-                      Object {
-                        "backgroundColor": "rgb(undefined)",
-                        "height": 45,
-                        "width": 45,
-                      }
-                    }
+                    className="TextBubbleInnerContainer"
                   >
                     <div
-                      className="TextBubbleInnerContainer"
+                      className="TextBubbleInnerCore"
                     >
-                      <div
-                        className="TextBubbleInnerCore"
+                      <h1
+                        style={
+                          Object {
+                            "color": "rgb(undefined)",
+                            "fontSize": 3.6,
+                          }
+                        }
                       >
-                        <h1
-                          style={
-                            Object {
-                              "color": "rgb(undefined)",
-                              "fontSize": 3.6,
-                            }
+                        
+                      </h1>
+                      <p
+                        style={
+                          Object {
+                            "color": "rgb(undefined)",
+                            "fontSize": 2.25,
                           }
-                        >
-                          
-                        </h1>
-                        <p
-                          style={
-                            Object {
-                              "color": "rgb(undefined)",
-                              "fontSize": 2.25,
-                            }
-                          }
-                        >
-                          
-                        </p>
-                      </div>
+                        }
+                      >
+                        
+                      </p>
                     </div>
                   </div>
                 </div>
+              </div>
+              <div
+                className="QnAPopUpMainTextBubbleContainer QnAPopUpMainTextBubbleContainer_DebugColor DebugWireframe"
+              >
                 <div
-                  className="QnAPopUpMainTextBubbleContainer QnAPopUpMainTextBubbleContainer_DebugColor DebugWireframe"
+                  className="TextBubbleOuterContainer"
+                  hidden={true}
+                  style={
+                    Object {
+                      "backgroundColor": "rgb(undefined)",
+                      "height": 320,
+                      "width": 320,
+                    }
+                  }
                 >
                   <div
-                    className="TextBubbleOuterContainer"
-                    hidden={true}
-                    style={
-                      Object {
-                        "backgroundColor": "rgb(undefined)",
-                        "height": 320,
-                        "width": 320,
-                      }
-                    }
+                    className="TextBubbleInnerContainer"
                   >
                     <div
-                      className="TextBubbleInnerContainer"
+                      className="TextBubbleInnerCore"
                     >
-                      <div
-                        className="TextBubbleInnerCore"
+                      <h1
+                        style={
+                          Object {
+                            "color": "rgb(undefined)",
+                            "fontSize": 25.6,
+                          }
+                        }
                       >
-                        <h1
-                          style={
-                            Object {
-                              "color": "rgb(undefined)",
-                              "fontSize": 25.6,
-                            }
+                        Did you know?
+                      </h1>
+                      <p
+                        style={
+                          Object {
+                            "color": "rgb(undefined)",
+                            "fontSize": 16,
                           }
-                        >
-                          Did you know?
-                        </h1>
-                        <p
-                          style={
-                            Object {
-                              "color": "rgb(undefined)",
-                              "fontSize": 16,
-                            }
-                          }
-                        >
-                          The pronghorn antelope is the fastest land animal in North America. When the first cheetahs ancestors roamed on the continent, they used to prey on pronghorn antelopes.
-                        </p>
-                      </div>
+                        }
+                      >
+                        The pronghorn antelope is the fastest land animal in North America. When the first cheetahs ancestors roamed on the continent, they used to prey on pronghorn antelopes.
+                      </p>
                     </div>
                   </div>
                 </div>

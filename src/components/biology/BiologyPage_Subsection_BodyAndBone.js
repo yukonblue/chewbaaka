@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 27, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -43,18 +43,16 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
 
   render() {
     return (
-      <div className="">
-        <ContentPageSubsectionTemplate
-          title={this.state.subsectionConfig.title}
-          content={this.renderContent()}
-        />
-      </div>
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
     )
   }
 
   renderContent() {
     return (
-      <div className="">
+      <div>
         {this.renderPartBodyContent(this.state.subsectionConfig.contents["part_Body"])}
 
         {this.renderPartTailContent(this.state.subsectionConfig.contents["part_Tail"])}

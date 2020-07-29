@@ -2,104 +2,100 @@
 
 exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
 <div
-  className=""
+  className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
 >
   <div
-    className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+    className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
   >
-    <div
-      className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+    <h3
+      className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
     >
-      <h3
-        className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+      Living Fast - Dying Young
+    </h3>
+    <div>
+      <div
+        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
       >
-        Living Fast - Dying Young
-      </h3>
-      <div>
         <div
-          className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
         >
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
+            className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
           >
             <div
-              className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
             >
               <div
-                className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor DebugWireframe"
               >
-                <div
-                  className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor DebugWireframe"
+                <h4
+                  className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
                 >
-                  <h4
-                    className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
-                  >
-                    Male coalitions
-                  </h4>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                  >
-                    A coalition consists of a group of male siblings of the same litter or young unrelated males that have joined together. A hierarchy develops among the males within a coalition.
-                  </p>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                  >
-                    Young males are usually chased away from their birth range by dominant breeding males. They may establish home ranges more than 100 km away. A coalition is more successful in acquiring and holding territories and in defending kills than single males. This competition can result in mortality among males.
-                  </p>
-                </div>
-                <div
-                  className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor DebugWireframe"
+                  Male coalitions
+                </h4>
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
                 >
-                  <h4
-                    className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
-                  />
+                  A coalition consists of a group of male siblings of the same litter or young unrelated males that have joined together. A hierarchy develops among the males within a coalition.
+                </p>
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                >
+                  Young males are usually chased away from their birth range by dominant breeding males. They may establish home ranges more than 100 km away. A coalition is more successful in acquiring and holding territories and in defending kills than single males. This competition can result in mortality among males.
+                </p>
+              </div>
+              <div
+                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor DebugWireframe"
+              >
+                <h4
+                  className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+                />
+                <div
+                  className="ImageViewOuterContainer"
+                >
                   <div
-                    className="ImageViewOuterContainer"
+                    className="ImageViewInnerContainer"
                   >
                     <div
-                      className="ImageViewInnerContainer"
+                      className="ImageViewCore"
                     >
+                      <img
+                        alt="A coalition of cheetahs on the lookout."
+                        className="ImageViewImg"
+                        src="cheetah_coalition.jpg"
+                        style={
+                          Object {
+                            "height": undefined,
+                            "width": 510,
+                          }
+                        }
+                      />
                       <div
-                        className="ImageViewCore"
+                        data-testid="ImageViewComponentCaptionPart"
                       >
-                        <img
-                          alt="A coalition of cheetahs on the lookout."
-                          className="ImageViewImg"
-                          src="cheetah_coalition.jpg"
+                        <div
+                          className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                          data-testid="CaptionComponentTestId"
                           style={
                             Object {
-                              "height": undefined,
                               "width": 510,
                             }
                           }
-                        />
-                        <div
-                          data-testid="ImageViewComponentCaptionPart"
                         >
                           <div
-                            className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
-                            data-testid="CaptionComponentTestId"
-                            style={
-                              Object {
-                                "width": 510,
-                              }
-                            }
+                            className="IconContainer IconContainer_DebugColor DebugWireframe"
                           >
-                            <div
-                              className="IconContainer IconContainer_DebugColor DebugWireframe"
-                            >
-                              <i
-                                aria-hidden="true"
-                                className="image icon"
-                                onClick={[Function]}
-                              />
-                            </div>
-                            <p
-                              className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
-                            >
-                              A coalition of cheetahs on the lookout.
-                            </p>
+                            <i
+                              aria-hidden="true"
+                              className="image icon"
+                              onClick={[Function]}
+                            />
                           </div>
+                          <p
+                            className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                          >
+                            A coalition of cheetahs on the lookout.
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -109,100 +105,100 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
             </div>
           </div>
         </div>
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+      >
         <div
-          className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
         >
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
+            className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
           >
             <div
-              className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
             >
               <div
-                className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor DebugWireframe"
               >
+                <h4
+                  className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+                />
                 <div
-                  className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor DebugWireframe"
+                  className="ImageViewOuterContainer"
                 >
-                  <h4
-                    className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
-                  />
                   <div
-                    className="ImageViewOuterContainer"
+                    className="ImageViewInnerContainer"
                   >
                     <div
-                      className="ImageViewInnerContainer"
+                      className="ImageViewCore"
                     >
+                      <img
+                        alt="Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)"
+                        className="ImageViewImg"
+                        src="cheetah_face_hyena.jpg"
+                        style={
+                          Object {
+                            "height": undefined,
+                            "width": 640,
+                          }
+                        }
+                      />
                       <div
-                        className="ImageViewCore"
+                        data-testid="ImageViewComponentCaptionPart"
                       >
-                        <img
-                          alt="Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)"
-                          className="ImageViewImg"
-                          src="cheetah_face_hyena.jpg"
+                        <div
+                          className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                          data-testid="CaptionComponentTestId"
                           style={
                             Object {
-                              "height": undefined,
                               "width": 640,
                             }
                           }
-                        />
-                        <div
-                          data-testid="ImageViewComponentCaptionPart"
                         >
                           <div
-                            className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
-                            data-testid="CaptionComponentTestId"
-                            style={
-                              Object {
-                                "width": 640,
-                              }
-                            }
+                            className="IconContainer IconContainer_DebugColor DebugWireframe"
                           >
-                            <div
-                              className="IconContainer IconContainer_DebugColor DebugWireframe"
-                            >
-                              <i
-                                aria-hidden="true"
-                                className="image icon"
-                                onClick={[Function]}
-                              />
-                            </div>
-                            <p
-                              className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
-                            >
-                              Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)
-                            </p>
+                            <i
+                              aria-hidden="true"
+                              className="image icon"
+                              onClick={[Function]}
+                            />
                           </div>
+                          <p
+                            className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                          >
+                            Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)
+                          </p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div
-                  className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor DebugWireframe"
+              </div>
+              <div
+                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor DebugWireframe"
+              >
+                <h4
+                  className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
                 >
-                  <h4
-                    className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
-                  >
-                    Mortality
-                  </h4>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                  >
-                    The cheetah’s lifespan is poorly documented in the wild. A radio collared cheetah lived to be almost 7 years of age in Tanzania’s Serengeti National Park, and one of CCF’s radio collared cheetahs in Namibia lived for over 10 years.
-                  </p>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                  >
-                    Adult mortality is one of the most significant limiting factors for cheetah population growth and survival. Poaching, competition with large predators and farmers, and loss of habitats and prey are factors attributing to early death.
-                  </p>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                  >
-                    Though cub deaths are high, cheetahs have evolved to reproduce rapidly in response to this mortality.
-                  </p>
-                </div>
+                  Mortality
+                </h4>
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                >
+                  The cheetah’s lifespan is poorly documented in the wild. A radio collared cheetah lived to be almost 7 years of age in Tanzania’s Serengeti National Park, and one of CCF’s radio collared cheetahs in Namibia lived for over 10 years.
+                </p>
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                >
+                  Adult mortality is one of the most significant limiting factors for cheetah population growth and survival. Poaching, competition with large predators and farmers, and loss of habitats and prey are factors attributing to early death.
+                </p>
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                >
+                  Though cub deaths are high, cheetahs have evolved to reproduce rapidly in response to this mortality.
+                </p>
               </div>
             </div>
           </div>

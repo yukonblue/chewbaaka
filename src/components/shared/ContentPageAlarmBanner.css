@@ -4,18 +4,18 @@
  *
  * Author   : Tomiko
  * Created  : Jul 26, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Jul 29, 2020
  */
 
 h4.ContentPageAlarmBannerText {
   margin: 20px auto;
   width: 60%;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.8rem;
+  font-size: 26px;
   font-weight: 300;
   font-style: italic;
   text-align: center;
-  line-height: 1.1;
+  line-height: 1.4;
   color: red;
   border-bottom: 3px solid black;
 }

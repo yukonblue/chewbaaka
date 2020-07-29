@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 27, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -52,12 +52,10 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
 
   render() {
     return (
-      <div>
-        <ContentPageSubsectionTemplate
-          title={this.state.subsectionConfig.title}
-          content={this.renderContent()}
-        />
-      </div>
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
     )
   }
 
@@ -89,35 +87,33 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
           lhsColumn={{content: this.renderCCFInvolvementPart1LhsColumnContent(part)}}
           rhsColumn={{content: this.renderCCFInvolvementPart1RhsColumnContent(part)}}
         />
+
+        <div className="VerticalCushionPadding">
+          <MediaLinkButton    
+            title="Read on CCF’s collaboration with the Somaliland government on intercepting cheetah trafficking"
+            href="https://cheetah.org/press-releases/cheetah-conservation-fund-receives-emaciated-cubs-intercepted-from-wildlife-traffickers-by-somaliland-government-in-record-breaking-seizure/"
+            icon="file alternate outline"
+          />
+        </div>
       </ContentPageSubsectionPart>
     );
   }
 
   renderCCFInvolvementPart1LhsColumnContent(part) {
     return (
-      <div>
-        {ContentPageSubsectionParagraphsContentBinder(part.content)}
-
-        <MediaLinkButton
-          title="Read on CCF's collaboration with the Somaliland government on intercepting trafficked cheetahs"
-          href="https://cheetah.org/press-releases/cheetah-conservation-fund-receives-emaciated-cubs-intercepted-from-wildlife-traffickers-by-somaliland-government-in-record-breaking-seizure/"
-          icon="file alternate outline"
-        />
-      </div>
+      ContentPageSubsectionParagraphsContentBinder(part.content)
     );
   }
 
   renderCCFInvolvementPart1RhsColumnContent(part) {
     return (
-      <div>
-        <ImageView
-          image={image_cheetah_trafficking_map}
-          caption="The heaviest trafficking of cheetahs have been observed from Central and Southern Africa into the Middle East."
-          credit="BBC"
-          width={640}
-          height={360}
-        />
-      </div>
+      <ImageView
+        image={image_cheetah_trafficking_map}
+        caption="The heaviest trafficking of cheetahs have been observed from Central and Southern Africa into the Middle East."
+        credit="BBC"
+        width={640}
+        height={360}
+      />
     );
   }
 
@@ -140,11 +136,11 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
               },
               {
                 image: image_cheetah_rescue_03,
-                caption: "CCF's cheetah sanctuary of rescue, rehab and care of confiscated cheetahs in Hargeisa, Somaliland."
+                caption: "CCF’s cheetah sanctuary of rescue, rehab and care of confiscated cheetahs in Hargeisa, Somaliland."
               },
               {
                 image: image_cheetah_rescue_04,
-                caption: "One of the cubs in Somaliland broke his back leg. Fortunately CCF's team in Somaliland was able to examine the cub and perform the necessary surgery.",
+                caption: "One of the cubs in Somaliland broke his back leg. Fortunately CCF’s team in Somaliland was able to examine the cub and perform the necessary surgery.",
                 credit: kStringConstantCheetahConservationFund
               }
             ]}

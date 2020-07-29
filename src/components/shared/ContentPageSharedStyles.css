@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 28, 2020
+ * Updated  : Jul 29, 2020
  */
 
 /** ----------------------------- CONTAINER -------------------------------- **/
@@ -66,6 +66,10 @@ div.VerticalCushionPadding {
 
 .VerticalCushionPadding {
   padding: 20px 0;
+}
+
+.VerticalCushionPaddingTopLarge {
+  padding-top: 50px;
 }
 
 div.HorizontalCusionPadding {

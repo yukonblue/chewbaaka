@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 23, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -35,6 +35,7 @@ import ImageCollage from './ImageCollage'
 import CheetahSkeletalAnatomyDiagram from '../biology/CheetahSkeletalAnatomyDiagram'
 import CheetahAccelerationIllustration from '../biology/CheetahAccelerationIllustration'
 import ImageSlidingGalleryDiscrete from '../shared/ImageSlidingGalleryDiscrete'
+import ImageViewModal from '../shared/ImageViewModal'
 
 import image01 from './assets/cheetah-conservation-fund-logo.jpg'
 import image02 from './assets/cheetah-conservation-fund-30-logo.svg'
@@ -62,6 +63,13 @@ export default class TestPage extends React.Component {
         <h1>This is a test page</h1>
 
         This page is used to test our custom components, navigations, and other things.
+
+        <h2>ImageViewModal</h2>
+        <ImageViewModal
+          width={720}
+          height={480}
+          image={image01}
+        />
 
         <h2>ImageSlidingGalleryDiscrete</h2>
         <ImageSlidingGalleryDiscrete

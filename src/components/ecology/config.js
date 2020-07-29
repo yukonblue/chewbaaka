@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Jul 27, 2020
+ * Updated  : Jul 29, 2020
  */
 
 export const config = {
@@ -112,7 +112,7 @@ export const config = {
           }
         },
         subsection_TheCheetahsPrey: {
-          title: "The Cheetah's Prey",
+          title: "The Cheetah’s Prey",
           contents: {
             paragraph_TheCheetahsPrey_01:
               "Cheetahs hunt mostly small antelope, young of large antelope, warthog, hare and game birds. " +
@@ -132,28 +132,28 @@ export const config = {
           }
         },
         subsection_CheetahsRoleInTheEcosystem: {
-          title: "Cheetah's Role in the Ecosystem",
+          title: "Cheetah’s Role in the Ecosystem",
           contents: {
             part_CheetahsRole: {
-              title: "Cheetah's role",
+              title: "Cheetah’s role",
               content: {
                 paragraph_CheetahsRole_01:
                   "Every animal species has its role (or niche) in the ecosystem that it lives in. " +
-                  "As a carnivorous predator, the cheetah's role in the ecosystem is important as it helps to " +
+                  "As a carnivorous predator, the cheetah’s role in the ecosystem is important as it helps to " +
                   "maintain balanced and healthy food webs.",
                 paragraph_CheetahsRole_02:
-                  "One of the cheetah's roles in the ecosystem is to help keep the population of grazing animals " +
+                  "One of the cheetah’s roles in the ecosystem is to help keep the population of grazing animals " +
                   "at a healthy state. Because of the fact that cheetahs do not have the strength to go after big games " +
                   "such as adult wildebeest, elands, and kudus, they go after the ones that are young, weak, or sick. " +
                   "This helps to ensure that only the strongest of those species will survive, and also the populations " +
-                  "of those species won't reach the limit the ecosystem could handle such that it will have negative consequences."
+                  "of those species won’t reach the limit the ecosystem could handle such that it will have negative consequences."
               }
             },
             part_RelationshipsWithOtherSpecies: {
               title: "Relationships with other species",
               content: {
                 paragraph_01:
-                  "Perhaps the cheetahs' closest interactions with other species of animals other than the ones preyed upon " +
+                  "Perhaps the cheetahs’ closest interactions with other species of animals other than the ones preyed upon " +
                   "are their competitors. While there are no species of animals that solely prey on the cheetahs as a food source, " +
                   "many compete with the cheetahs for food, territory, and dominance. Lions, leopards, and hyenas are the " +
                   "most formidable competitors that would come into the way of the cheetahs.",
@@ -246,7 +246,7 @@ export const config = {
               textBubble: {
                 title: "Predator control is an issue around the globe.",
                 content: "Proven farm and livestock management techniques can be employed to deter predations from problem animals. " +
-                        "One great example is CCF's Livestock Guarding Dog program."
+                        "One great example is CCF’s Livestock Guarding Dog program."
               }
             }
           }

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -38,12 +38,10 @@ export default class FuturePageSubsectionInternshipsAndVolunteering extends Reac
 
   render() {
     return (
-      <div>
-        <ContentPageSubsectionTemplate
-          title={this.state.subsectionConfig.title}
-          content={this.renderContent()}
-        />
-      </div>
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
     )
   }
 

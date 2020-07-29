@@ -1,164 +1,162 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`CheetahSkeletalAnatomyDiagram component snapshot 1`] = `
-<div>
-  <div
-    className="PopUpLabelledDiagramOuterComponent PopUpLabelledDiagramOuterComponent_DebugColor DebugWireframe"
-    style={
-      Object {
-        "backgroundImage": "url(cheetah_skeletal_anatomy.jpg)",
-        "height": 640,
-        "width": 960,
-      }
+<div
+  className="PopUpLabelledDiagramOuterComponent PopUpLabelledDiagramOuterComponent_DebugColor DebugWireframe"
+  style={
+    Object {
+      "backgroundImage": "url(cheetah_skeletal_anatomy.jpg)",
+      "height": 640,
+      "width": 960,
     }
+  }
+>
+  <div
+    className="PopUpLabelledDiagramInnerComponent PopUpLabelledDiagramInnerComponent_DebugColor DebugWireframe"
   >
     <div
-      className="PopUpLabelledDiagramInnerComponent PopUpLabelledDiagramInnerComponent_DebugColor DebugWireframe"
+      className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+      style={
+        Object {
+          "left": 460,
+          "top": 80,
+        }
+      }
     >
-      <div
-        className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
-        style={
-          Object {
-            "left": 460,
-            "top": 80,
-          }
-        }
+      <button
+        className="ui blue mini circular icon button"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
       >
-        <button
-          className="ui blue mini circular icon button"
-          onBlur={[Function]}
+        <i
+          aria-hidden="true"
+          className="plus icon"
           onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-        >
-          <i
-            aria-hidden="true"
-            className="plus icon"
-            onClick={[Function]}
-          />
-        </button>
-      </div>
-      <div
-        className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
-        style={
-          Object {
-            "left": 180,
-            "top": 200,
-          }
+        />
+      </button>
+    </div>
+    <div
+      className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+      style={
+        Object {
+          "left": 180,
+          "top": 200,
         }
+      }
+    >
+      <button
+        className="ui blue mini circular icon button"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
       >
-        <button
-          className="ui blue mini circular icon button"
-          onBlur={[Function]}
+        <i
+          aria-hidden="true"
+          className="plus icon"
           onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-        >
-          <i
-            aria-hidden="true"
-            className="plus icon"
-            onClick={[Function]}
-          />
-        </button>
-      </div>
-      <div
-        className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
-        style={
-          Object {
-            "left": 320,
-            "top": 180,
-          }
+        />
+      </button>
+    </div>
+    <div
+      className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+      style={
+        Object {
+          "left": 320,
+          "top": 180,
         }
+      }
+    >
+      <button
+        className="ui blue mini circular icon button"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
       >
-        <button
-          className="ui blue mini circular icon button"
-          onBlur={[Function]}
+        <i
+          aria-hidden="true"
+          className="plus icon"
           onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-        >
-          <i
-            aria-hidden="true"
-            className="plus icon"
-            onClick={[Function]}
-          />
-        </button>
-      </div>
-      <div
-        className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
-        style={
-          Object {
-            "left": 380,
-            "top": 400,
-          }
+        />
+      </button>
+    </div>
+    <div
+      className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+      style={
+        Object {
+          "left": 380,
+          "top": 400,
         }
+      }
+    >
+      <button
+        className="ui blue mini circular icon button"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
       >
-        <button
-          className="ui blue mini circular icon button"
-          onBlur={[Function]}
+        <i
+          aria-hidden="true"
+          className="plus icon"
           onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-        >
-          <i
-            aria-hidden="true"
-            className="plus icon"
-            onClick={[Function]}
-          />
-        </button>
-      </div>
-      <div
-        className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
-        style={
-          Object {
-            "left": 550,
-            "top": 200,
-          }
+        />
+      </button>
+    </div>
+    <div
+      className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+      style={
+        Object {
+          "left": 550,
+          "top": 200,
         }
+      }
+    >
+      <button
+        className="ui blue mini circular icon button"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
       >
-        <button
-          className="ui blue mini circular icon button"
-          onBlur={[Function]}
+        <i
+          aria-hidden="true"
+          className="plus icon"
           onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-        >
-          <i
-            aria-hidden="true"
-            className="plus icon"
-            onClick={[Function]}
-          />
-        </button>
-      </div>
-      <div
-        className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
-        style={
-          Object {
-            "left": 780,
-            "top": 200,
-          }
+        />
+      </button>
+    </div>
+    <div
+      className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+      style={
+        Object {
+          "left": 780,
+          "top": 200,
         }
+      }
+    >
+      <button
+        className="ui blue mini circular icon button"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
       >
-        <button
-          className="ui blue mini circular icon button"
-          onBlur={[Function]}
+        <i
+          aria-hidden="true"
+          className="plus icon"
           onClick={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-        >
-          <i
-            aria-hidden="true"
-            className="plus icon"
-            onClick={[Function]}
-          />
-        </button>
-      </div>
+        />
+      </button>
     </div>
   </div>
 </div>
