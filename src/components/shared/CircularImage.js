@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 29, 2020
  */
 
 /**
@@ -21,9 +21,7 @@
  *  - `title`: The title text.
  */
 
-import React from 'react';
-
-import "semantic-ui-css/semantic.min.css";
+import React from 'react'
 
 import { getElementStyleClassName } from '../../styling/styling'
 
@@ -35,7 +33,11 @@ export default class CircularImage extends React.Component {
     return (
       <div className={getElementStyleClassName("CircularImageOuterContainer")}>
         <div className="CircularImageCore">
-          <img className="CircularImageImg" src={this.props.image} alt={this.props.title} />
+          <img
+            className="CircularImageImg"
+            src={this.props.image}
+            alt={this.props.title}
+          />
         </div>
         <div className="CircularImageTitleContainer">
           <p className="CircularImageTitle">
