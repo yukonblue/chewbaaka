@@ -52,12 +52,10 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
 
   render() {
     return (
-      <div>
-        <ContentPageSubsectionTemplate
-          title={this.state.subsectionConfig.title}
-          content={this.renderContent()}
-        />
-      </div>
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
     )
   }
 

@@ -44,12 +44,10 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
 
   render() {
     return (
-      <div>
-        <ContentPageSubsectionTemplate
-          title={this.state.subsectionConfig.title}
-          content={this.renderContent()}
-        />
-      </div>
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
     )
   }
 

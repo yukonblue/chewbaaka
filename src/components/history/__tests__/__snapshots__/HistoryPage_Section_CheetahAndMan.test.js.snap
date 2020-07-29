@@ -1,451 +1,449 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
-<div>
-  <div
-    className="ContentPageSectionTemplateOuterContainer ContentPageSectionTemplateOuterContainer_DebugColor DebugWireframe"
-  >
-    <div>
+<div
+  className="ContentPageSectionTemplateOuterContainer ContentPageSectionTemplateOuterContainer_DebugColor DebugWireframe"
+>
+  <div>
+    <div
+      className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+    >
       <div
-        className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+        className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
       >
+        <h3
+          className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+        />
         <div
-          className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+          className="ContentPageSectionHeadOuterContainer"
         >
-          <h3
-            className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+          <div
+            data-testid="ContentPageSectionAnchorComponentTestId"
+            id="cheetah-and-man"
           />
           <div
-            className="ContentPageSectionHeadOuterContainer"
+            className="ContentPageSectionHeadInnerContainer ContentPageSectionHeadInnerContainer_DebugColor DebugWireframe"
           >
             <div
-              data-testid="ContentPageSectionAnchorComponentTestId"
-              id="cheetah-and-man"
-            />
-            <div
-              className="ContentPageSectionHeadInnerContainer ContentPageSectionHeadInnerContainer_DebugColor DebugWireframe"
+              className="ContentPageSectionHeadTitleContainer ContentPageSectionHeadTitleContainer_DebugColor DebugWireframe"
             >
-              <div
-                className="ContentPageSectionHeadTitleContainer ContentPageSectionHeadTitleContainer_DebugColor DebugWireframe"
+              <h2
+                className="ContentPageSectionHeadTitle ContentPageSectionHeadTitle_DebugColor DebugWireframe"
               >
-                <h2
-                  className="ContentPageSectionHeadTitle ContentPageSectionHeadTitle_DebugColor DebugWireframe"
-                >
-                  Cheetah and Man
-                </h2>
-              </div>
-              <div
-                className="ContentPageIntroParagraphContentContainer"
+                Cheetah and Man
+              </h2>
+            </div>
+            <div
+              className="ContentPageIntroParagraphContentContainer"
+            >
+              <p
+                className="ContentPageHeadAndSectionIntroText ContentPageHeadAndSectionIntroText_DebugColor DebugWireframe"
               >
-                <p
-                  className="ContentPageHeadAndSectionIntroText ContentPageHeadAndSectionIntroText_DebugColor DebugWireframe"
-                >
-                  The history of cheetah-human relationship goes back in millennia, and archeological artifacts uncovered throughout the world suggest that human interactions with the species goes hand in hand with its migration and evolution. The relationship between cheetahs and us have been both profound and complex, as the species have been revered, utilized, displayed, and exploited throughout human history.
-                </p>
-              </div>
+                The history of cheetah-human relationship goes back in millennia, and archeological artifacts uncovered throughout the world suggest that human interactions with the species goes hand in hand with its migration and evolution. The relationship between cheetahs and us have been both profound and complex, as the species have been revered, utilized, displayed, and exploited throughout human history.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div
-      className="ContentPageSectionTemplateInnerContainer ContentPageSectionTemplateInnerContainer_DebugColor DebugWireframe"
-    >
-      <div>
+  </div>
+  <div
+    className="ContentPageSectionTemplateInnerContainer ContentPageSectionTemplateInnerContainer_DebugColor DebugWireframe"
+  >
+    <div>
+      <div
+        className="HistoryPageSubsectionCheetahAndManImageOuterContainer HistoryPageSubsectionCheetahAndManImageOuterContainer_DebugColor DebugWireframe"
+      >
         <div
-          className="HistoryPageSubsectionCheetahAndManImageOuterContainer HistoryPageSubsectionCheetahAndManImageOuterContainer_DebugColor DebugWireframe"
+          className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
         >
           <div
-            className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+            className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
           >
-            <div
-              className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+            <h3
+              className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
             >
-              <h3
-                className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
-              >
-                Relationships with Man
-              </h3>
-              <div
-                className="HistoryPageSubsectionCheetahAndManImageInnerContainer HistoryPageSubsectionCheetahAndManImageInnerContainer_DebugColor DebugWireframe"
-              >
-                <div>
+              Relationships with Man
+            </h3>
+            <div
+              className="HistoryPageSubsectionCheetahAndManImageInnerContainer HistoryPageSubsectionCheetahAndManImageInnerContainer_DebugColor DebugWireframe"
+            >
+              <div>
+                <div
+                  className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
+                >
                   <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
+                    className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
                   >
                     <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+                      className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
                     >
                       <div
-                        className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+                        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor DebugWireframe"
                       >
-                        <div
-                          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor DebugWireframe"
+                        <h4
+                          className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+                        />
+                        <p
+                          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
                         >
-                          <h4
-                            className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
-                          />
-                          <p
-                            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                          >
-                            Traditional African healers and witchdoctors used cheetah foot bones in spiritualistic rituals to symbolize fleet-footedness and speed. They used bones from a wide variety of animals and techniques varied from tribe to tribe. Objects represented a person, a thing or mood from the past, present or future, and are known as Divinatory sets.
-                          </p>
-                          <p
-                            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                          >
-                            During the time of the Egyptian pharaohs, the cheetah was considered a goddess named "Mafdet". Pharaohs kept cheetahs as close companions, symbolic of Mafdet's protection of the royal throne.
-                          </p>
-                          <p
-                            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                          >
-                            The San of Southern Africa ate cheetah meat as a symbol for speed, but it was not a main food in their diet.
-                          </p>
-                          <p
-                            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                          >
-                            Kings wore cheetah skins for dignity. Trade in cheetah skin only started after European explorers began requesting them.
-                          </p>
-                        </div>
-                        <div
-                          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor DebugWireframe"
+                          Traditional African healers and witchdoctors used cheetah foot bones in spiritualistic rituals to symbolize fleet-footedness and speed. They used bones from a wide variety of animals and techniques varied from tribe to tribe. Objects represented a person, a thing or mood from the past, present or future, and are known as Divinatory sets.
+                        </p>
+                        <p
+                          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
                         >
-                          <h4
-                            className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
-                          />
-                          <div>
-                            <div
-                              className="ImageSlidingGalleryOuterContainer"
-                            >
-                              <div
-                                className="ImageSlidingGalleryCoreContainer"
-                              >
-                                <img
-                                  alt="Mafdet’s head on the bed where the mummy is placed."
-                                  className="ImageSlidingGalleryImgPart"
-                                  src="https://www.thevintagenews.com/wp-content/uploads/2018/12/anubis_attending_the_mummy_of_sennedjem.jpg"
-                                />
-                                <div
-                                  className="ImageSlidingGalleryCaptionPart"
-                                  data-testid="ImageSlidingGalleryCaptionPart"
-                                >
-                                  <div
-                                    className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
-                                    data-testid="CaptionComponentTestId"
-                                    style={
-                                      Object {
-                                        "width": undefined,
-                                      }
-                                    }
-                                  >
-                                    <div
-                                      className="IconContainer IconContainer_DebugColor DebugWireframe"
-                                    >
-                                      <i
-                                        aria-hidden="true"
-                                        className="image icon"
-                                        onClick={[Function]}
-                                      />
-                                    </div>
-                                    <p
-                                      className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
-                                    >
-                                      Mafdet’s head on the bed where the mummy is placed.
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div
-                                className="ImageSlidingGalleryButtonContainer"
-                              >
-                                <div
-                                  className="ui blue huge icon left attached disabled button"
-                                  onClick={[Function]}
-                                  role="button"
-                                  tabIndex={-1}
-                                >
-                                  <i
-                                    aria-hidden="true"
-                                    className="arrow alternate circle left outline icon"
-                                    onClick={[Function]}
-                                  />
-                                </div>
-                                <div
-                                  className="ui blue huge icon right attached button"
-                                  onClick={[Function]}
-                                  role="button"
-                                  tabIndex={0}
-                                >
-                                  <i
-                                    aria-hidden="true"
-                                    className="arrow alternate circle right outline icon"
-                                    onClick={[Function]}
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                          During the time of the Egyptian pharaohs, the cheetah was considered a goddess named "Mafdet". Pharaohs kept cheetahs as close companions, symbolic of Mafdet's protection of the royal throne.
+                        </p>
+                        <p
+                          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                        >
+                          The San of Southern Africa ate cheetah meat as a symbol for speed, but it was not a main food in their diet.
+                        </p>
+                        <p
+                          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                        >
+                          Kings wore cheetah skins for dignity. Trade in cheetah skin only started after European explorers began requesting them.
+                        </p>
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="HistoryPageSubsectionCheetahsInSportsOuterContainer HistoryPageSubsectionCheetahsInSportsOuterContainer_DebugColor DebugWireframe"
-        >
-          <div
-            className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
-          >
-            <div
-              className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
-            >
-              <h3
-                className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
-              >
-                Cheetahs In Sports
-              </h3>
-              <div
-                className="HistoryPageSubsectionCheetahAndManImageInnerContainer HistoryPageSubsectionCheetahAndManImageInnerContainer_DebugColor DebugWireframe"
-              >
-                <div>
-                  <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
-                  >
-                    <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
-                    >
                       <div
-                        className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+                        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor DebugWireframe"
                       >
-                        <div
-                          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor DebugWireframe"
-                        >
-                          <h4
-                            className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
-                          />
-                          <div>
-                            <div
-                              className="ImageSlidingGalleryOuterContainer"
-                            >
-                              <div
-                                className="ImageSlidingGalleryCoreContainer"
-                              >
-                                <img
-                                  alt="A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799."
-                                  className="ImageSlidingGalleryImgPart"
-                                  src="cheetah_with_two_indian_servants.jpg"
-                                />
-                                <div
-                                  className="ImageSlidingGalleryCaptionPart"
-                                  data-testid="ImageSlidingGalleryCaptionPart"
-                                >
-                                  <div
-                                    className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
-                                    data-testid="CaptionComponentTestId"
-                                    style={
-                                      Object {
-                                        "width": undefined,
-                                      }
-                                    }
-                                  >
-                                    <div
-                                      className="IconContainer IconContainer_DebugColor DebugWireframe"
-                                    >
-                                      <i
-                                        aria-hidden="true"
-                                        className="image icon"
-                                        onClick={[Function]}
-                                      />
-                                    </div>
-                                    <p
-                                      className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
-                                    >
-                                      A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799.
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div
-                                className="ImageSlidingGalleryButtonContainer"
-                              >
-                                <div
-                                  className="ui blue huge icon left attached disabled button"
-                                  onClick={[Function]}
-                                  role="button"
-                                  tabIndex={-1}
-                                >
-                                  <i
-                                    aria-hidden="true"
-                                    className="arrow alternate circle left outline icon"
-                                    onClick={[Function]}
-                                  />
-                                </div>
-                                <div
-                                  className="ui blue huge icon right attached button"
-                                  onClick={[Function]}
-                                  role="button"
-                                  tabIndex={0}
-                                >
-                                  <i
-                                    aria-hidden="true"
-                                    className="arrow alternate circle right outline icon"
-                                    onClick={[Function]}
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor DebugWireframe"
-                        >
-                          <h4
-                            className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
-                          />
-                          <p
-                            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                          >
-                            In c1700 BC, the Egyptians were the first to tame cheetahs. They admired the cheetah for its speed, hunting ability and beauty. They honored cheetahs as symbols of royalty and prestige.
-                          </p>
-                          <p
-                            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                          >
-                            The swiftest animal on earth became a cherished hunting companion of Pharaohs and royalty throughout Europe, Asia and India. Until the early 1900s, ownership of cheetahs was as important to these nobles as their love for gold. Cheetahs hunt by sight so they excelled in the sport known as "coursing". Hunts organized by royalty and nobles were for the challenge of sport, not for food. Hunts represented power and prestige.
-                          </p>
-                          <p
-                            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                          >
-                            By the 1500s the popularity of the cheetah as a hunting companion rivaled that of the dog. Cheetahs, the most easily tamed of the big cats, were caught, tamed and trained. Adults were used because cubs had not learned how to hunt. Tamed cheetahs formed a strong bond with their keepers.
-                          </p>
-                          <p
-                            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                          >
-                            Each cheetah rode to the hunt by horseback or on a cart. Its eyes were coved with a hood and uncovered when prey were sighted. The cat was released to chase down the prey then rewarded with meat fed from a wooden spoon.
-                          </p>
-                          <p
-                            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                          >
-                            Although cherished, pampered cheetahs were loved to near extinction and taken from the wild in great numbers. By the early 1900s, India and Iran were importing African cheetahs for the sport of "coursing", as their own wild population became too small.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="HistoryPageSubsectionCheetahsInSportsOuterContainer HistoryPageSubsectionCheetahsInSportsOuterContainer_DebugColor DebugWireframe"
-        >
-          <div
-            className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
-          >
-            <div
-              className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
-            >
-              <h3
-                className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
-              >
-                Cheetahs In Art
-              </h3>
-              <div
-                className="HistoryPageSubsectionCheetahAndManImageInnerContainer HistoryPageSubsectionCheetahAndManImageInnerContainer_DebugColor DebugWireframe"
-              >
-                <div>
-                  <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
-                  >
-                    <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
-                    >
-                      <div
-                        className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
-                      >
-                        <div
-                          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor DebugWireframe"
-                        >
-                          <h4
-                            className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
-                          />
-                          <p
-                            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                          >
-                            Sumerians (Iraqi ancestors) were the first to use cheetahs in art.
-                          </p>
-                          <p
-                            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                          >
-                            The cheetah and leopard have often been mistaken for each other. Cheetahs in early art were frequently called "panther" or "hunting leopard". Early artists called the true leopard "pardus" and described it as a cross between a cheetah (panther), and the lion (leo).
-                          </p>
-                          <p
-                            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                          >
-                            Middle Age and Renaissance artists began drawing cheetahs and other animals more life-like. During this time of scientific exploration, detailed descriptions of animals provided incentive for reality in art. Artists included cheetahs more often in their paintings as the trade in live animals increased.
-                          </p>
-                          <p
-                            className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-                          >
-                            Artists always pictured cheetahs as animals of speed and royalty.
-                          </p>
-                        </div>
-                        <div
-                          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor DebugWireframe"
-                        >
-                          <h4
-                            className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
-                          />
+                        <h4
+                          className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+                        />
+                        <div>
                           <div
-                            className="ImageViewOuterContainer"
+                            className="ImageSlidingGalleryOuterContainer"
                           >
                             <div
-                              className="ImageViewInnerContainer"
+                              className="ImageSlidingGalleryCoreContainer"
                             >
+                              <img
+                                alt="Mafdet’s head on the bed where the mummy is placed."
+                                className="ImageSlidingGalleryImgPart"
+                                src="https://www.thevintagenews.com/wp-content/uploads/2018/12/anubis_attending_the_mummy_of_sennedjem.jpg"
+                              />
                               <div
-                                className="ImageViewCore"
+                                className="ImageSlidingGalleryCaptionPart"
+                                data-testid="ImageSlidingGalleryCaptionPart"
                               >
-                                <img
-                                  alt="Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli."
-                                  className="ImageViewImg"
-                                  src="cheetah_painting_Renaissance.jpg"
+                                <div
+                                  className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                                  data-testid="CaptionComponentTestId"
                                   style={
                                     Object {
-                                      "height": 600,
+                                      "width": undefined,
+                                    }
+                                  }
+                                >
+                                  <div
+                                    className="IconContainer IconContainer_DebugColor DebugWireframe"
+                                  >
+                                    <i
+                                      aria-hidden="true"
+                                      className="image icon"
+                                      onClick={[Function]}
+                                    />
+                                  </div>
+                                  <p
+                                    className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                                  >
+                                    Mafdet’s head on the bed where the mummy is placed.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              className="ImageSlidingGalleryButtonContainer"
+                            >
+                              <div
+                                className="ui blue huge icon left attached disabled button"
+                                onClick={[Function]}
+                                role="button"
+                                tabIndex={-1}
+                              >
+                                <i
+                                  aria-hidden="true"
+                                  className="arrow alternate circle left outline icon"
+                                  onClick={[Function]}
+                                />
+                              </div>
+                              <div
+                                className="ui blue huge icon right attached button"
+                                onClick={[Function]}
+                                role="button"
+                                tabIndex={0}
+                              >
+                                <i
+                                  aria-hidden="true"
+                                  className="arrow alternate circle right outline icon"
+                                  onClick={[Function]}
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="HistoryPageSubsectionCheetahsInSportsOuterContainer HistoryPageSubsectionCheetahsInSportsOuterContainer_DebugColor DebugWireframe"
+      >
+        <div
+          className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+        >
+          <div
+            className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+          >
+            <h3
+              className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+            >
+              Cheetahs In Sports
+            </h3>
+            <div
+              className="HistoryPageSubsectionCheetahAndManImageInnerContainer HistoryPageSubsectionCheetahAndManImageInnerContainer_DebugColor DebugWireframe"
+            >
+              <div>
+                <div
+                  className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
+                >
+                  <div
+                    className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+                  >
+                    <div
+                      className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+                    >
+                      <div
+                        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor DebugWireframe"
+                      >
+                        <h4
+                          className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+                        />
+                        <div>
+                          <div
+                            className="ImageSlidingGalleryOuterContainer"
+                          >
+                            <div
+                              className="ImageSlidingGalleryCoreContainer"
+                            >
+                              <img
+                                alt="A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799."
+                                className="ImageSlidingGalleryImgPart"
+                                src="cheetah_with_two_indian_servants.jpg"
+                              />
+                              <div
+                                className="ImageSlidingGalleryCaptionPart"
+                                data-testid="ImageSlidingGalleryCaptionPart"
+                              >
+                                <div
+                                  className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                                  data-testid="CaptionComponentTestId"
+                                  style={
+                                    Object {
+                                      "width": undefined,
+                                    }
+                                  }
+                                >
+                                  <div
+                                    className="IconContainer IconContainer_DebugColor DebugWireframe"
+                                  >
+                                    <i
+                                      aria-hidden="true"
+                                      className="image icon"
+                                      onClick={[Function]}
+                                    />
+                                  </div>
+                                  <p
+                                    className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                                  >
+                                    A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              className="ImageSlidingGalleryButtonContainer"
+                            >
+                              <div
+                                className="ui blue huge icon left attached disabled button"
+                                onClick={[Function]}
+                                role="button"
+                                tabIndex={-1}
+                              >
+                                <i
+                                  aria-hidden="true"
+                                  className="arrow alternate circle left outline icon"
+                                  onClick={[Function]}
+                                />
+                              </div>
+                              <div
+                                className="ui blue huge icon right attached button"
+                                onClick={[Function]}
+                                role="button"
+                                tabIndex={0}
+                              >
+                                <i
+                                  aria-hidden="true"
+                                  className="arrow alternate circle right outline icon"
+                                  onClick={[Function]}
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor DebugWireframe"
+                      >
+                        <h4
+                          className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+                        />
+                        <p
+                          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                        >
+                          In c1700 BC, the Egyptians were the first to tame cheetahs. They admired the cheetah for its speed, hunting ability and beauty. They honored cheetahs as symbols of royalty and prestige.
+                        </p>
+                        <p
+                          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                        >
+                          The swiftest animal on earth became a cherished hunting companion of Pharaohs and royalty throughout Europe, Asia and India. Until the early 1900s, ownership of cheetahs was as important to these nobles as their love for gold. Cheetahs hunt by sight so they excelled in the sport known as "coursing". Hunts organized by royalty and nobles were for the challenge of sport, not for food. Hunts represented power and prestige.
+                        </p>
+                        <p
+                          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                        >
+                          By the 1500s the popularity of the cheetah as a hunting companion rivaled that of the dog. Cheetahs, the most easily tamed of the big cats, were caught, tamed and trained. Adults were used because cubs had not learned how to hunt. Tamed cheetahs formed a strong bond with their keepers.
+                        </p>
+                        <p
+                          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                        >
+                          Each cheetah rode to the hunt by horseback or on a cart. Its eyes were coved with a hood and uncovered when prey were sighted. The cat was released to chase down the prey then rewarded with meat fed from a wooden spoon.
+                        </p>
+                        <p
+                          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                        >
+                          Although cherished, pampered cheetahs were loved to near extinction and taken from the wild in great numbers. By the early 1900s, India and Iran were importing African cheetahs for the sport of "coursing", as their own wild population became too small.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="HistoryPageSubsectionCheetahsInSportsOuterContainer HistoryPageSubsectionCheetahsInSportsOuterContainer_DebugColor DebugWireframe"
+      >
+        <div
+          className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+        >
+          <div
+            className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+          >
+            <h3
+              className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+            >
+              Cheetahs In Art
+            </h3>
+            <div
+              className="HistoryPageSubsectionCheetahAndManImageInnerContainer HistoryPageSubsectionCheetahAndManImageInnerContainer_DebugColor DebugWireframe"
+            >
+              <div>
+                <div
+                  className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
+                >
+                  <div
+                    className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+                  >
+                    <div
+                      className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+                    >
+                      <div
+                        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor DebugWireframe"
+                      >
+                        <h4
+                          className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+                        />
+                        <p
+                          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                        >
+                          Sumerians (Iraqi ancestors) were the first to use cheetahs in art.
+                        </p>
+                        <p
+                          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                        >
+                          The cheetah and leopard have often been mistaken for each other. Cheetahs in early art were frequently called "panther" or "hunting leopard". Early artists called the true leopard "pardus" and described it as a cross between a cheetah (panther), and the lion (leo).
+                        </p>
+                        <p
+                          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                        >
+                          Middle Age and Renaissance artists began drawing cheetahs and other animals more life-like. During this time of scientific exploration, detailed descriptions of animals provided incentive for reality in art. Artists included cheetahs more often in their paintings as the trade in live animals increased.
+                        </p>
+                        <p
+                          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                        >
+                          Artists always pictured cheetahs as animals of speed and royalty.
+                        </p>
+                      </div>
+                      <div
+                        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor DebugWireframe"
+                      >
+                        <h4
+                          className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+                        />
+                        <div
+                          className="ImageViewOuterContainer"
+                        >
+                          <div
+                            className="ImageViewInnerContainer"
+                          >
+                            <div
+                              className="ImageViewCore"
+                            >
+                              <img
+                                alt="Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli."
+                                className="ImageViewImg"
+                                src="cheetah_painting_Renaissance.jpg"
+                                style={
+                                  Object {
+                                    "height": 600,
+                                    "width": 451,
+                                  }
+                                }
+                              />
+                              <div
+                                data-testid="ImageViewComponentCaptionPart"
+                              >
+                                <div
+                                  className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                                  data-testid="CaptionComponentTestId"
+                                  style={
+                                    Object {
                                       "width": 451,
                                     }
                                   }
-                                />
-                                <div
-                                  data-testid="ImageViewComponentCaptionPart"
                                 >
                                   <div
-                                    className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
-                                    data-testid="CaptionComponentTestId"
-                                    style={
-                                      Object {
-                                        "width": 451,
-                                      }
-                                    }
+                                    className="IconContainer IconContainer_DebugColor DebugWireframe"
                                   >
-                                    <div
-                                      className="IconContainer IconContainer_DebugColor DebugWireframe"
-                                    >
-                                      <i
-                                        aria-hidden="true"
-                                        className="image icon"
-                                        onClick={[Function]}
-                                      />
-                                    </div>
-                                    <p
-                                      className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
-                                    >
-                                      Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli.
-                                    </p>
+                                    <i
+                                      aria-hidden="true"
+                                      className="image icon"
+                                      onClick={[Function]}
+                                    />
                                   </div>
+                                  <p
+                                    className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                                  >
+                                    Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli.
+                                  </p>
                                 </div>
                               </div>
                             </div>

@@ -12,69 +12,67 @@ exports[`BiologyPageSubsectionGeneticConfusion component snapshot 1`] = `
     >
       Genetic Confusion
     </h3>
-    <div>
+    <div
+      className="OverflowHidden"
+    >
       <div
-        className="OverflowHidden"
+        className="FloatRight HorizontalCusionPaddingLeft"
       >
         <div
-          className="FloatRight HorizontalCusionPaddingLeft"
+          className="TextBubbleOuterContainer"
+          style={
+            Object {
+              "backgroundColor": "rgb(254,182,40)",
+              "height": 520,
+              "width": 520,
+            }
+          }
         >
           <div
-            className="TextBubbleOuterContainer"
-            style={
-              Object {
-                "backgroundColor": "rgb(254,182,40)",
-                "height": 520,
-                "width": 520,
-              }
-            }
+            className="TextBubbleInnerContainer"
           >
             <div
-              className="TextBubbleInnerContainer"
+              className="TextBubbleInnerCore"
             >
-              <div
-                className="TextBubbleInnerCore"
+              <h1
+                style={
+                  Object {
+                    "color": "rgb(undefined)",
+                    "fontSize": 41.6,
+                  }
+                }
               >
-                <h1
-                  style={
-                    Object {
-                      "color": "rgb(undefined)",
-                      "fontSize": 41.6,
-                    }
+                How does this relate to the cheetah?
+              </h1>
+              <p
+                style={
+                  Object {
+                    "color": "rgb(undefined)",
+                    "fontSize": 21,
                   }
-                >
-                  How does this relate to the cheetah?
-                </h1>
-                <p
-                  style={
-                    Object {
-                      "color": "rgb(undefined)",
-                      "fontSize": 21,
-                    }
-                  }
-                >
-                  Cheetahs are very closely related and have a low genetic diversity. This is due to the drastic reduction in their numbers when the population bottleneck occurred. This inbreeding and low genetic diversity may cause abnormalities.
-                </p>
-              </div>
+                }
+              >
+                Cheetahs are very closely related and have a low genetic diversity. This is due to the drastic reduction in their numbers when the population bottleneck occurred. This inbreeding and low genetic diversity may cause abnormalities.
+              </p>
             </div>
           </div>
         </div>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-        >
-          Genes are the components of living cells that pass down inherited characteristics such as brown eyes or curly hair in humans.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-        >
-          Genetic diversity is the variety of genes in an organism or in a population. Diversity increases the likelihood that a given species can adapt and survive catastrophes such as sudden environmental changes or exposure to new diseases.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
-        >
-          Diversity is reduced when inbreeding occurs. This means members of the same family or close relatives breed only among themselves.
-        </p>
       </div>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+      >
+        Genes are the components of living cells that pass down inherited characteristics such as brown eyes or curly hair in humans.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+      >
+        Genetic diversity is the variety of genes in an organism or in a population. Diversity increases the likelihood that a given species can adapt and survive catastrophes such as sudden environmental changes or exposure to new diseases.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+      >
+        Diversity is reduced when inbreeding occurs. This means members of the same family or close relatives breed only among themselves.
+      </p>
     </div>
   </div>
 </div>

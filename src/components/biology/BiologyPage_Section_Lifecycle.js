@@ -4,12 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 17, 2020
+ * Updated  : Jul 29, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate';
+import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
 import BiologyPageLifecycleDiagram from './BiologyPageLifecycleDiagram'
 import BiologyPageSubsectionLifecycleStage1 from './BiologyPage_Subsection_Lifecycle_Stage_1'
@@ -33,12 +33,10 @@ export default class BiologyPageSectionLifecyle extends React.Component {
 
   render() {
     return (
-      <div>
-        <ContentPageSectionTemplate
-          sectionConfig={this.state.sectionConfig}
-          sectionContent={this.renderContent()}
-        />
-      </div>
+      <ContentPageSectionTemplate
+        sectionConfig={this.state.sectionConfig}
+        sectionContent={this.renderContent()}
+      />
     );
   }
 

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 22, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -28,12 +28,10 @@ export default class FuturePageSectionSustainableDevelopment extends React.Compo
 
   render() {
     return (
-      <div>
-        <ContentPageSectionTemplate
-          sectionConfig={this.state.sectionConfig}
-          sectionContent={this.renderContent()}
-        />
-      </div>
+      <ContentPageSectionTemplate
+        sectionConfig={this.state.sectionConfig}
+        sectionContent={this.renderContent()}
+      />
     );
   }
 

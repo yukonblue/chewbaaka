@@ -4,12 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 08, 2020
- * Updated  : Jul 10, 2020
+ * Updated  : Jul 29, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate';
+import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
 import HistoryPageSubsectionCheetahAndManImage from './HistoryPage_Subsection_CheetahAndManImage'
 import HistoryPageSubsectionCheetahsInSports from './HistoryPage_Subsection_CheetahsInSports'
@@ -28,12 +28,10 @@ export default class HistoryPageSectionCheetahAndMan extends React.Component {
 
   render() {
     return (
-      <div>
-        <ContentPageSectionTemplate
-          sectionConfig={this.state.sectionConfig}
-          sectionContent={this.renderContent()}
-        />
-      </div>
+      <ContentPageSectionTemplate
+        sectionConfig={this.state.sectionConfig}
+        sectionContent={this.renderContent()}
+      />
     );
   }
 

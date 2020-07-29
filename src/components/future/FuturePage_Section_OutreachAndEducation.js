@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 22, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -30,12 +30,10 @@ export default class FuturePageSectionOutreachAndEducation extends React.Compone
 
   render() {
     return (
-      <div>
-        <ContentPageSectionTemplate
-          sectionConfig={this.state.sectionConfig}
-          sectionContent={this.renderContent()}
-        />
-      </div>
+      <ContentPageSectionTemplate
+        sectionConfig={this.state.sectionConfig}
+        sectionContent={this.renderContent()}
+      />
     );
   }
 

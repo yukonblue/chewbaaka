@@ -49,12 +49,10 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
 
   render() {
     return (
-      <div>
-        <ContentPageSubsectionTemplate
-          title={this.state.subsectionConfig.title}
-          content={this.renderContent()}
-        />
-      </div>
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
     )
   }
 

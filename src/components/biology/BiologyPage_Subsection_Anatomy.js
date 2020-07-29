@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 19, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -34,12 +34,10 @@ export default class BiologyPageSubsectionAnatomy extends React.Component {
 
   render() {
     return (
-      <div className="">
-        <ContentPageSubsectionTemplate
-          title={this.state.subsectionConfig.title}
-          content={this.renderContent()}
-        />
-      </div>
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
     )
   }
 

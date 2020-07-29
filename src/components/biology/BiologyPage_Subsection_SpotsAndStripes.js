@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Jul 27, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -40,12 +40,10 @@ export default class BiologyPageSubsectionSpotsAndStripes extends React.Componen
 
   render() {
     return (
-      <div className="">
-        <ContentPageSubsectionTemplate
-          title={this.state.subsectionConfig.title}
-          content={this.renderContent()}
-        />
-      </div>
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
     )
   }
 
