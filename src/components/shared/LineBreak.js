@@ -4,12 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 12, 2020
- * Updated  : Jul 12, 2020
+ * Updated  : Jul 29, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import _ from 'lodash';
+import _ from 'lodash'
 
 export default function LineBreak(props) {
   return (

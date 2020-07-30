@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 18, 2020
+ * Updated  : Jul 29, 2020
  */
 
 /**
@@ -26,13 +26,13 @@
  *  - `content`: The content paragraph text.
  */
 
-import React from 'react';
+import React from 'react'
 
-import "semantic-ui-css/semantic.min.css";
+import 'semantic-ui-css/semantic.min.css'
 
 import './TextBubble.css'
 
-function TextBubble(props) {
+export default function TextBubble(props) {
   const componentOuterContainerStyles = {
     width: props.diameter,
     height: props.diameter,
@@ -50,15 +50,21 @@ function TextBubble(props) {
   };
 
   return (
-    <div className="TextBubbleOuterContainer" style={componentOuterContainerStyles} hidden={props.hidden}>
+    <div
+      className="TextBubbleOuterContainer"
+      style={componentOuterContainerStyles}
+      hidden={props.hidden}
+    >
       <div className="TextBubbleInnerContainer">
         <div className="TextBubbleInnerCore">
-          <h1 style={componentTitleElementStyles}>{props.title}</h1>
-          <p style={componentContentElementStyles}>{props.content}</p>
+          <h1 style={componentTitleElementStyles}>
+            {props.title}
+          </h1>
+          <p style={componentContentElementStyles}>
+            {props.content}
+          </p>
         </div>
       </div>
     </div>
   );
 }
-
-export default TextBubble;

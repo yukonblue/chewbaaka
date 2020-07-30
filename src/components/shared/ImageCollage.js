@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 11, 2020
+ * Updated  : Jul 29, 2020
  */
 
 /**
@@ -18,9 +18,7 @@
  *  - `cells`: An array of `ImageCollageCell` components.
  */
 
-import React from 'react';
-
-import "semantic-ui-css/semantic.min.css";
+import React from 'react'
 
 import { getElementStyleClassName } from '../../styling/styling'
 

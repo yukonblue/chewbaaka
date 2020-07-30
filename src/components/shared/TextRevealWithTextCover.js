@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Jul 17, 2020
+ * Updated  : Jul 29, 2020
  */
 
 /**
@@ -26,9 +26,9 @@
 
 import React from 'react'
 
-import "semantic-ui-css/semantic.min.css"
-
 import { Reveal } from 'semantic-ui-react'
+
+import 'semantic-ui-css/semantic.min.css'
 
 import { getRevealComponentAnimation } from './RevealComponentAnimation'
 

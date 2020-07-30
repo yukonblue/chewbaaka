@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 06, 2020
+ * Updated  : Jul 29, 2020
  */
 
 /**
@@ -22,17 +22,17 @@
  *  - `description`: The text content to show upon hovered.
  */
 
-import React from 'react';
-
-import "semantic-ui-css/semantic.min.css";
+import React from 'react'
 
 import { Image, Reveal } from 'semantic-ui-react'
+
+import 'semantic-ui-css/semantic.min.css'
 
 import { getRevealComponentAnimation } from './RevealComponentAnimation'
 
 import './TextReveal.css'
 
-class TextReveal extends React.Component {
+export default class TextReveal extends React.Component {
 
   render() {
     const defaultColor = "green";
@@ -57,8 +57,12 @@ class TextReveal extends React.Component {
           </Reveal.Content>
           <Reveal.Content hidden data-testid="TextRevealComponentHiddenPartTestId">
             <div className="TextRevealComponentContentContainerDiv" style={componentContentDivStyles}>
-              <p className="TextRevealComponentDescriptionText" data-testid="TextRevealComponentDescriptionTextPartTestId">{this.props.description}</p>
-              <p className="TextRevealComponentCaptionText" data-testid="TextRevealComponentCaptionTextPartTestId">{this.props.caption}</p>
+              <p className="TextRevealComponentDescriptionText" data-testid="TextRevealComponentDescriptionTextPartTestId">
+                {this.props.description}
+              </p>
+              <p className="TextRevealComponentCaptionText" data-testid="TextRevealComponentCaptionTextPartTestId">
+                {this.props.caption}
+              </p>
             </div>
           </Reveal.Content>
         </Reveal>
@@ -66,5 +70,3 @@ class TextReveal extends React.Component {
     )
   }
 }
-
-export default TextReveal;
