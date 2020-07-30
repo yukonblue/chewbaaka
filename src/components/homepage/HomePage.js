@@ -38,7 +38,7 @@ export default class HomePage extends React.Component {
   renderVersionInDebug() {
     return (!__TEST__) ? (
       <HtmlComment
-        text={`Version: ${this.props.config.version}`}
+        text={`Version: ${this.props.appConfig.version}`}
       />
     ) : null;
   }

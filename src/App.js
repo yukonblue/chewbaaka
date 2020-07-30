@@ -28,7 +28,7 @@ import TestPage from './components/shared/TestPage'
 import './components/shared/GlobalPageStyles.css'
 import './styling/DebugStyles.css'
 
-import packageJson from '../package.json'
+import { config } from './config'
 
 export default class App extends React.Component {
   render() {
@@ -53,9 +53,7 @@ export default class App extends React.Component {
           </Route>
           <Route exact path="/" >
             <HomePage
-              config={{
-                version: packageJson.version
-              }}
+              appConfig={config}
             />
           </Route>
           <Redirect to="/" />
