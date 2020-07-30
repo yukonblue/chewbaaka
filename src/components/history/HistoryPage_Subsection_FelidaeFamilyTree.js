@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 27, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -22,6 +22,8 @@ import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import MediaLinkButton from '../shared/MediaLinkButton'
 
 import HintSignpost from '../shared/HintSignpost'
+
+import QnAPopUp from '../shared/QnAPopUp'
 
 import FelidaeFamilyTree from './FelidaeFamilyTree'
 
@@ -54,6 +56,7 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
       <div className={getElementStyleClassName("HistoryPageSubsectionFelidaeFamilyTreeInnerContainer")}>
         {this.renderRelatedCatPart()}
         {this.renderFelidaeFamilyTreePart()}
+        {this.renderQnAPart()}
       </div>
     );
   }
@@ -107,6 +110,16 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
           href="https://www.wildcatfamily.com/felidae-evolution/"
           title='Learn more about Felidae Evolution'
           icon="file alternate outline"
+        />
+      </ContentPageSubsectionPart>
+    );
+  }
+
+  renderQnAPart() {
+    return (
+      <ContentPageSubsectionPart>
+        <QnAPopUp
+          content="All the species of cats except for only the domestic cat are being threatened toward extinction due to man-made factors, such as climate change and habitat destructions."
         />
       </ContentPageSubsectionPart>
     );
