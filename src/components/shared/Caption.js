@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 09, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 30, 2020
  */
 
 /**
@@ -24,7 +24,7 @@ import React from 'react'
 
 import { Icon } from "semantic-ui-react"
 
-import "semantic-ui-css/semantic.min.css"
+import 'semantic-ui-css/semantic.min.css'
 
 import {
   getElementStyleClassName,
@@ -37,7 +37,7 @@ import './Caption.css'
 
 export default function Caption(props) {
   const containerDimensionStyle = {
-    width: props.width,
+    maxWidth: props.width,
   };
 
   return (

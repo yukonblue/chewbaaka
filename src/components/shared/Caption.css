@@ -4,11 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 09, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 30, 2020
  */
 
 div.CaptionContainer {
   margin: 0 auto;
+  max-width: 100%;
 }
 
 div.CaptionContainer_DebugColor {

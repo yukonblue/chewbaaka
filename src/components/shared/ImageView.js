@@ -39,11 +39,12 @@ import { getFormattedImageCaptionStringWithCredit}  from './ImageCaptionUtils'
 export default function ImageView(props) {
   const componentOuterContainerDimension = {
     maxWidth: props.width,
+    maxHeight: props.height
   };
 
   const imagePartDimensionStyle = {
     width: props.width,
-    height: props.height
+    // height: props.height
   };
 
   const caption = getFormattedImageCaptionStringWithCredit(props.caption, props.credit);
