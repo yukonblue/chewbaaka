@@ -22,7 +22,7 @@ exports[`ImageViewModal component snapshot 1`] = `
   >
     <i
       aria-hidden="true"
-      className="black file image huge icon"
+      className="black file image large icon"
       onClick={[Function]}
     />
   </div>
