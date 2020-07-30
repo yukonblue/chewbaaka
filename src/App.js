@@ -37,19 +37,27 @@ export default class App extends React.Component {
         <Switch>
           { /** Route for testing components in development mode. */ }
           <Route exact path="/test">
-            <TestPage />
+            <TestPage/>
           </Route>
           <Route exact path='/history'>
-            <HistoryPage />
+            <HistoryPage
+              appConfig={config}
+            />
           </Route>
           <Route exact path='/biology'>
-            <BiologyPage />
+            <BiologyPage
+              appConfig={config}
+            />
           </Route>
           <Route exact path='/ecology'>
-            <EcologyPage />
+            <EcologyPage
+              appConfig={config}
+            />
           </Route>
           <Route exact path='/future'>
-            <FuturePage />
+            <FuturePage
+              appConfig={config}
+            />
           </Route>
           <Route exact path="/" >
             <HomePage
