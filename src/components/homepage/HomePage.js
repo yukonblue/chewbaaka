@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Jul 30, 2020
  */
 
 import React from 'react'
@@ -29,7 +29,9 @@ export default class HomePage extends React.Component {
           config={config}
         />
         <ExploreGateway/>
-        <Footer/>
+        <Footer
+          appConfig={this.props.appConfig}
+        />
         {this.renderVersionInDebug()}
       </div>
     )

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Jul 30, 2020
  */
 
 import React from 'react'
@@ -24,7 +24,15 @@ import { kStringConstantCheetahConservationFund } from './constants'
 
 import logo from './assets/cheetah-conservation-fund-logo.jpg'
 
-export default function Footer() {
+export default function Footer(props) {
+  const renderOptionalAuthorName = () => (
+    props.appConfig && props.appConfig.author ? (
+      <p>
+        Made with <span role="img" aria-label="heart">&#10084;&#65039;</span> by {props.appConfig.author}
+      </p>
+    ) : null
+  );
+
   return (
     <Segment inverted style={{ padding: "5em 0em" }} data-testid="FooterComponentTestId">
       <Container>
@@ -57,6 +65,7 @@ export default function Footer() {
               <p>
                 {`This site is not an affiliation of ${kStringConstantCheetahConservationFund}.`}
               </p>
+              {renderOptionalAuthorName()}
             </Grid.Column>
           </Grid.Row>
         </Grid>

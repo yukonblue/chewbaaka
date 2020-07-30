@@ -4,19 +4,25 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Jul 30, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import { render, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react'
 
-import renderer from 'react-test-renderer';
+import renderer from 'react-test-renderer'
 
-import Footer from '../Footer';
+import Footer from '../Footer'
 
-test('renders global footer', () => {
-  render(<Footer />);
+import { config } from '../../../config'
+
+test('renders Footer component', () => {
+  render(
+    <Footer
+      appConfig={config}
+    />
+  );
 
   // Tests section title with 'Resources' is present.
   const sectionTitleResources = screen.getByText(/Resources/i);
@@ -39,7 +45,9 @@ test('renders global footer', () => {
 test('Footer component snapshot', () => {
   const tree = renderer
     .create(
-      <Footer />)
-    .toJSON();
+      <Footer
+        appConfig={config}
+      />
+    ).toJSON();
   expect(tree).toMatchSnapshot();
 });
