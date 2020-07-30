@@ -2,7 +2,7 @@
 
 exports[`CircularImageButton component snapshot 1`] = `
 <div
-  className="CircularImageButtonOuterContainer CircularImageButtonOuterContainer_DebugColor DebugWireframe"
+  className="CircularImageButtonOuterContainer"
 >
   <a
     href="https://cheetah.org/wp-content/uploads/2019/01/cheetah-conservation-fund-cheetah-fact-01.jpg"
@@ -12,13 +12,13 @@ exports[`CircularImageButton component snapshot 1`] = `
     >
       <img
         alt="Cheetahology"
-        className="CircularImageButtonImg CircularImageButtonImg_DebugColor DebugWireframe"
+        className="CircularImageButtonImg"
         src="https://cheetah.org/wp-content/uploads/2019/01/cheetah-conservation-fund-cheetah-fact-01.jpg"
       />
     </div>
     <div>
       <p
-        className="CircularImageButtonTitle CircularImageButtonTitle_DebugColor DebugWireframe"
+        className="CircularImageButtonTitle"
       >
         Cheetahology
       </p>

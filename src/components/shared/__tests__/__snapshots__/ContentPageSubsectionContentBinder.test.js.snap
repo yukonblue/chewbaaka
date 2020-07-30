@@ -3,17 +3,17 @@
 exports[`ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder snapshot 1`] = `
 <div>
   <p
-    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
   >
     Hello, World!
   </p>
   <p
-    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
   >
     Cheetahs are such amazing animals!
   </p>
   <p
-    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
   >
     We need to do our best to save them.
   </p>
@@ -23,17 +23,17 @@ exports[`ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder snapsh
 exports[`ContentPageSubsectionParagraphsContentBinder snapshot 1`] = `
 <div>
   <p
-    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
   >
     Hello, World!
   </p>
   <p
-    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
   >
     Cheetahs are such amazing animals!
   </p>
   <p
-    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
   >
     We need to do our best to save them.
   </p>

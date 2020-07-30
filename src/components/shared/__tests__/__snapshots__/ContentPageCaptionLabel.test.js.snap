@@ -2,7 +2,7 @@
 
 exports[`ContentPageCaptionLabel component snapshot 1`] = `
 <p
-  className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe"
+  className="ContentPageCaptionTextSize"
 >
   This is a caption label.
 </p>

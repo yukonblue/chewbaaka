@@ -12,7 +12,7 @@ import packageJson from '../package.json'
 export const config = {
   version: packageJson.version,
   styling: {
-    mode: 'debug',
+    mode: 'prod',
     debugStyles: {
       'DebugColor': true,
       'DebugWireframe': true,

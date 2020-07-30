@@ -2,7 +2,7 @@
 
 exports[`BigCatSpotsIllustration component snapshot 1`] = `
 <div
-  className="BigCatSpotsIllustrationOuterContainer BigCatSpotsIllustrationOuterContainer_DebugColor DebugWireframe"
+  className="BigCatSpotsIllustrationOuterContainer"
 >
   <div>
     <h4

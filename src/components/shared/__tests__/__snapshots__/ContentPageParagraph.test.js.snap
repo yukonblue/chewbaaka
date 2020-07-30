@@ -2,7 +2,7 @@
 
 exports[`ContentPageParagraph component snapshot 1`] = `
 <p
-  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
 >
   Hello, World. This is a ContentPageParagraph component
 </p>

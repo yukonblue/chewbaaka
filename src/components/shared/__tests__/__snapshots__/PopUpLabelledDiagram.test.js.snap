@@ -2,7 +2,7 @@
 
 exports[`PopUpLabelledDiagram component snapshot 1`] = `
 <div
-  className="PopUpLabelledDiagramOuterComponent PopUpLabelledDiagramOuterComponent_DebugColor DebugWireframe"
+  className="PopUpLabelledDiagramOuterComponent"
   style={
     Object {
       "backgroundImage": "url(cheetah-conservation-fund-logo.jpg)",
@@ -12,10 +12,10 @@ exports[`PopUpLabelledDiagram component snapshot 1`] = `
   }
 >
   <div
-    className="PopUpLabelledDiagramInnerComponent PopUpLabelledDiagramInnerComponent_DebugColor DebugWireframe"
+    className="PopUpLabelledDiagramInnerComponent"
   >
     <div
-      className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+      className="PopUpLabelledDiagramPopUpItemComponent"
       style={
         Object {
           "left": 30,
@@ -39,7 +39,7 @@ exports[`PopUpLabelledDiagram component snapshot 1`] = `
       </button>
     </div>
     <div
-      className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+      className="PopUpLabelledDiagramPopUpItemComponent"
     >
       <button
         className="ui blue mini circular icon button"

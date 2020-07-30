@@ -2,7 +2,7 @@
 
 exports[`ContentPageSubsectionSubtitleSecondary component snapshot 1`] = `
 <h5
-  className="ContentPageSubsectionSubtitleSecondary ContentPageSubsectionSubtitleSecondary_DebugColor DebugWireframe"
+  className="ContentPageSubsectionSubtitleSecondary"
 >
   Hello, World
 </h5>

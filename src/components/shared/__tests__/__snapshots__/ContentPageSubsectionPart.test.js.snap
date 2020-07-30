@@ -2,7 +2,7 @@
 
 exports[`ContentPageSubsectionPart component snapshot 1`] = `
 <div
-  className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+  className="ContentPageSubsectionPartContainer"
 >
   <div>
     <h1>

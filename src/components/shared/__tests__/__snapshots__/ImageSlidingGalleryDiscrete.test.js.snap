@@ -2,7 +2,7 @@
 
 exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
 <div
-  className="ImageSlidingGalleryDiscreteOuterContainer ImageSlidingGalleryDiscreteOuterContainer_DebugColor DebugWireframe"
+  className="ImageSlidingGalleryDiscreteOuterContainer"
   style={
     Object {
       "height": 240,
@@ -11,7 +11,7 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
   }
 >
   <div
-    className="ImageSlidingGalleryDiscreteCoreContainer ImageSlidingGalleryDiscreteCoreContainer_DebugColor DebugWireframe"
+    className="ImageSlidingGalleryDiscreteCoreContainer"
     style={
       Object {
         "height": 240,
@@ -35,7 +35,7 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
       data-testid="ImageSlidingGalleryDiscreteCaptionPart"
     >
       <div
-        className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+        className="CaptionContainer"
         data-testid="CaptionComponentTestId"
         style={
           Object {
@@ -44,7 +44,7 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
         }
       >
         <div
-          className="IconContainer IconContainer_DebugColor DebugWireframe"
+          className="IconContainer"
         >
           <i
             aria-hidden="true"
@@ -53,14 +53,14 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
           />
         </div>
         <p
-          className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+          className="ContentPageCaptionTextSize CaptionText"
         >
           Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words
         </p>
       </div>
     </div>
     <div
-      className="ImageSlidingGalleryDiscreteButtonGroupContainer ImageSlidingGalleryDiscreteButtonGroupContainer_DebugColor DebugWireframe"
+      className="ImageSlidingGalleryDiscreteButtonGroupContainer"
     >
       <div
         className="ui buttons"
@@ -81,7 +81,7 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
     </div>
   </div>
   <div
-    className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonContainer_DebugColor DebugWireframe ImageSlidingGalleryDiscreteButtonLhsContainer ImageSlidingGalleryDiscreteButtonLhsContainer_DebugColor DebugWireframe"
+    className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonLhsContainer"
     style={
       Object {
         "top": 28.5,
@@ -102,7 +102,7 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
     </button>
   </div>
   <div
-    className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonContainer_DebugColor DebugWireframe ImageSlidingGalleryDiscreteButtonRhsContainer ImageSlidingGalleryDiscreteButtonRhsContainer_DebugColor DebugWireframe"
+    className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonRhsContainer"
     style={
       Object {
         "top": 28.5,

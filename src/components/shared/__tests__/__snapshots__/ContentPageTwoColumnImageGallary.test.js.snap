@@ -2,7 +2,7 @@
 
 exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
 <div
-  className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
+  className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
 >
   <div
     className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
@@ -11,10 +11,10 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
       className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
     >
       <div
-        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor DebugWireframe"
+        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
       >
         <h4
-          className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+          className="ContentPageSubsectionSubtitle"
         />
         <div
           className="ImageViewOuterContainer"
@@ -40,7 +40,7 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
                 data-testid="ImageViewComponentCaptionPart"
               >
                 <div
-                  className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                  className="CaptionContainer"
                   data-testid="CaptionComponentTestId"
                   style={
                     Object {
@@ -49,7 +49,7 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
                   }
                 >
                   <div
-                    className="IconContainer IconContainer_DebugColor DebugWireframe"
+                    className="IconContainer"
                   >
                     <i
                       aria-hidden="true"
@@ -58,7 +58,7 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
                     />
                   </div>
                   <p
-                    className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                    className="ContentPageCaptionTextSize CaptionText"
                   >
                     This is image 1.
                   </p>
@@ -69,10 +69,10 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
         </div>
       </div>
       <div
-        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor DebugWireframe"
+        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
       >
         <h4
-          className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+          className="ContentPageSubsectionSubtitle"
         />
         <div
           className="ImageViewOuterContainer"
@@ -98,7 +98,7 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
                 data-testid="ImageViewComponentCaptionPart"
               >
                 <div
-                  className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                  className="CaptionContainer"
                   data-testid="CaptionComponentTestId"
                   style={
                     Object {
@@ -107,7 +107,7 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
                   }
                 >
                   <div
-                    className="IconContainer IconContainer_DebugColor DebugWireframe"
+                    className="IconContainer"
                   >
                     <i
                       aria-hidden="true"
@@ -116,7 +116,7 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
                     />
                   </div>
                   <p
-                    className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                    className="ContentPageCaptionTextSize CaptionText"
                   >
                     This is image 2. (Image credit: Image God)
                   </p>
