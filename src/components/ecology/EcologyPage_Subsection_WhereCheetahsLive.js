@@ -22,6 +22,8 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
+import CenteredFullWidthContainer from '../shared/CenteredFullWidthContainer'
+
 import ImageView from '../shared/ImageView'
 
 import FluidImageWrapper from '../shared/FluidImageWrapper'
@@ -120,14 +122,14 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
           rhsColumn={{content: this.renderPartNamibianBiomesRhs(part)}}
         />
 
-        <div className="Centered" style={{width: 1200}}>
+        <CenteredFullWidthContainer maxWidth={1200}>
           <ImageView
             image={image_Namibia_Biomes_and_Cheetah_Ranges_Map}
             caption={part.content["paragraph_biomes_map_caption"]}
             width={1200}
             height={720}
           />
-        </div>
+        </CenteredFullWidthContainer>
 
         <div className="Centered FactBannerMediumDimension">
           <img
