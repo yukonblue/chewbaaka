@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FuturePageSectionConservation component snapshot 1`] = `
+<div
+  className="ContentPageSectionTemplateOuterContainer"
+>
+  <div>
+    <div
+      className="ContentPageSubsectionTemplateOuterContainer"
+    >
+      <div
+        className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+      >
+        <h3
+          className="ContentPageSubsectionTitle"
+        />
+        <div
+          className="ContentPageSectionHeadOuterContainer"
+        >
+          <div
+            data-testid="ContentPageSectionAnchorComponentTestId"
+            id="conservation"
+          />
+          <div
+            className="ContentPageSectionHeadInnerContainer"
+          >
+            <div
+              className="ContentPageSectionHeadTitleContainer"
+            >
+              <h2
+                className="ContentPageSectionHeadTitle"
+              >
+                Conservation
+              </h2>
+            </div>
+            <div
+              className="ContentPageIntroParagraphContentContainer"
+            >
+              <p
+                className="ContentPageHeadAndSectionIntroText"
+              >
+                Successful conservation approaches need to be holistic and address the diverse array of inter-related issues, in order to make sure that all parties involved benefit, including the species to be conserved, their ecosystem, and any sustainable utilizations of resources within the ecosystem. Cheetah Conservation Fund develops a set of conservation strategies to ensure that best practices of wildlife and farm management are employed to benefit the cheetahs and their habitats, as well as Namibians who share the same land and resources.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ContentPageSectionTemplateInnerContainer"
+  >
+    <div>
+      <div
+        className="ContentPageSubsectionTemplateOuterContainer"
+      >
+        <div
+          className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+        >
+          <h3
+            className="ContentPageSubsectionTitle"
+          >
+            What is Conservation?
+          </h3>
+          <div>
+            <div
+              className="ContentPageSubsectionPartContainer"
+            >
+              <div
+                className="OverflowHidden"
+              >
+                <div
+                  className="FloatRight HorizontalCusionPaddingLeft"
+                >
+                  <img
+                    alt="Conservation is taking care of the environment in which we live."
+                    src="earth_environment.png"
+                  />
+                </div>
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                >
+                  Conservation is taking care of the environment in which we live. This means using everything wisely so some of it is left for others to use or for our own future use. The things we use are called RESOURCES. These can be almost anything: food, the air we breathe, firewood, petrol and zinc footing panels. Conservationists understand that RESOURCES ARE LIMITED and often scarce and that we must use them wisely. In Namibia, fresh water is one of our scarcest resources.
+                </p>
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                >
+                  Conservation also means protecting resources we may not use.
+                </p>
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                >
+                  Walking around, rather than stepping on a plant, is an act of conservation.
+                </p>
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                >
+                  Protecting a species like the cheetah from extinction is an act of conservation.
+                </p>
+              </div>
+            </div>
+            <div
+              className="ContentPageSubsectionPartContainer"
+            >
+              <div
+                className="ContentPageSubsectionThreeColumnContentTemplateOuterContainer"
+              >
+                <div
+                  className="ContentPageSubsectionThreeColumnContentTemplateInnerContainer"
+                >
+                  <div
+                    className="ContentPageSubsectionThreeColumnContentTemplateColumnContainer"
+                  >
+                    <div
+                      className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateLeftColumnContainer"
+                    >
+                      <h4
+                        className="ContentPageSubsectionSubtitle"
+                      >
+                        Environmental Education
+                      </h4>
+                      <h5
+                        className="ContentPageSubsectionSubtitleSecondary"
+                      />
+                      <div>
+                        <p
+                          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                        >
+                          Environmental education encourages the wise use of natural resources including water and land use, waste management and recycling.
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateMiddleColumnContainer"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(undefined)",
+                        }
+                      }
+                    >
+                      <div>
+                        <img
+                          alt=""
+                          className="FullWidth"
+                          src="earth_biodiversity.png"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateRightColumnContainer"
+                    >
+                      <h4
+                        className="ContentPageSubsectionSubtitle"
+                      >
+                        Conservation Biology
+                      </h4>
+                      <h5
+                        className="ContentPageSubsectionSubtitleSecondary"
+                      />
+                      <div>
+                        <p
+                          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                        >
+                          Conservation Biology is a field of study at universities. It combines several sciences, such as biology, ecology and genetics, to examine why there are so many types of living things on Earth and what makes some of them scarce.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ContentPageSubsectionTemplateOuterContainer"
+      >
+        <div
+          className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+        >
+          <h3
+            className="ContentPageSubsectionTitle"
+          >
+            Stopping Illegal Wildlife Trades
+          </h3>
+          <div>
+            <div
+              className="ContentPageSubsectionPartContainer"
+            >
+              <h4
+                className="ContentPageAlarmBannerText"
+              >
+                The illegal trafficking of cheetahs into the pet trade has become one of the main threats to cheetah survival.
+              </h4>
+            </div>
+            <div
+              className="ContentPageSubsectionPartContainer"
+            >
+              <div
+                className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+              >
+                <div
+                  className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+                >
+                  <div
+                    className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+                  >
+                    <div
+                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+                    >
+                      <h4
+                        className="ContentPageSubsectionSubtitle"
+                      />
+                      <p
+                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                      >
+                        Since 2005, CCF has been actively involved with issues involving the illegal trade of live cheetah cubs. Staff monitor cheetah trafficking activities and organizes confiscations through proper authorities when possible.
+                      </p>
+                      <p
+                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                      >
+                        Cheetahs are listed as an Appendix I species under the Convention on International Trade in Endangered Species (CITES). They are poached from the wild for the pet trade and their body parts, which get sold on the markets. Illegal wildlife trafficking is one of the top five transnational crimes, generating an estimated U.S. $50-150 million in illegal revenues annually.
+                      </p>
+                      <p
+                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                      >
+                        CCF is taking a leadership role in addressing the illegal pet trade. CCF trains wildlife officers involved in the front lines of trafficking in the Horn of Africa as well as in the Middle East, teaching them proper care for confiscated animals.
+                      </p>
+                      <p
+                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                      >
+                        CCF has built the most extensive database on cheetah trafficking, recording hundreds of trafficking cases going through the Horn of Africa to the Middle East.
+                      </p>
+                    </div>
+                    <div
+                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+                    >
+                      <h4
+                        className="ContentPageSubsectionSubtitle"
+                      />
+                      <div
+                        className="ImageViewOuterContainer"
+                      >
+                        <div
+                          className="ImageViewInnerContainer"
+                        >
+                          <div
+                            className="ImageViewCore"
+                          >
+                            <img
+                              alt="The heaviest trafficking of cheetahs have been observed from Central and Southern Africa into the Middle East. (Image credit: BBC)"
+                              className="ImageViewImg"
+                              src="cheetah_trafficking_map.png"
+                              style={
+                                Object {
+                                  "height": 360,
+                                  "width": 640,
+                                }
+                              }
+                            />
+                            <div
+                              data-testid="ImageViewComponentCaptionPart"
+                            >
+                              <div
+                                className="CaptionContainer"
+                                data-testid="CaptionComponentTestId"
+                                style={
+                                  Object {
+                                    "width": 640,
+                                  }
+                                }
+                              >
+                                <div
+                                  className="IconContainer"
+                                >
+                                  <i
+                                    aria-hidden="true"
+                                    className="image icon"
+                                    onClick={[Function]}
+                                  />
+                                </div>
+                                <p
+                                  className="ContentPageCaptionTextSize CaptionText"
+                                >
+                                  The heaviest trafficking of cheetahs have been observed from Central and Southern Africa into the Middle East. (Image credit: BBC)
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="VerticalCushionPadding"
+              >
+                <div>
+                  <a
+                    href="https://cheetah.org/press-releases/cheetah-conservation-fund-receives-emaciated-cubs-intercepted-from-wildlife-traffickers-by-somaliland-government-in-record-breaking-seizure/"
+                  >
+                    <button
+                      className="ui blue icon button"
+                      onClick={[Function]}
+                    >
+                      Read on CCF’s collaboration with the Somaliland government on intercepting cheetah trafficking
+                      <i
+                        aria-hidden="true"
+                        className="file alternate outline icon"
+                        onClick={[Function]}
+                      />
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              className="ContentPageSubsectionPartContainer"
+            >
+              <div
+                className="Centered"
+                style={
+                  Object {
+                    "width": 960,
+                  }
+                }
+              >
+                <div
+                  className="ImageSlidingGalleryDiscreteOuterContainer"
+                  style={
+                    Object {
+                      "height": 780,
+                      "width": 960,
+                    }
+                  }
+                >
+                  <div
+                    className="ImageSlidingGalleryDiscreteCoreContainer"
+                    style={
+                      Object {
+                        "height": 780,
+                        "width": 960,
+                      }
+                    }
+                  >
+                    <img
+                      alt="Most cheetah cubs trafficked and sold end up as buyers' pets. The cubs consequently suffer from shock, malnurishment, and unsuitable living conditions."
+                      className="ImageSlidingGalleryDiscreteImgPart"
+                      src="cheetah_rescue_01.jpg"
+                      style={
+                        Object {
+                          "height": 640,
+                          "width": 960,
+                        }
+                      }
+                    />
+                    <div
+                      className="ImageSlidingGalleryDiscreteCaptionPart"
+                      data-testid="ImageSlidingGalleryDiscreteCaptionPart"
+                    >
+                      <div
+                        className="CaptionContainer"
+                        data-testid="CaptionComponentTestId"
+                        style={
+                          Object {
+                            "width": undefined,
+                          }
+                        }
+                      >
+                        <div
+                          className="IconContainer"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
+                        </div>
+                        <p
+                          className="ContentPageCaptionTextSize CaptionText"
+                        >
+                          Most cheetah cubs trafficked and sold end up as buyers' pets. The cubs consequently suffer from shock, malnurishment, and unsuitable living conditions.
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      className="ImageSlidingGalleryDiscreteButtonGroupContainer"
+                    >
+                      <div
+                        className="ui buttons"
+                      >
+                        <button
+                          className="ui yellow huge button"
+                          onClick={[Function]}
+                        >
+                          0
+                        </button>
+                        <button
+                          className="ui blue huge button"
+                          onClick={[Function]}
+                        >
+                          1
+                        </button>
+                        <button
+                          className="ui blue huge button"
+                          onClick={[Function]}
+                        >
+                          2
+                        </button>
+                        <button
+                          className="ui blue huge button"
+                          onClick={[Function]}
+                        >
+                          3
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonLhsContainer"
+                    style={
+                      Object {
+                        "top": 298.5,
+                      }
+                    }
+                  >
+                    <button
+                      className="ui blue large circular icon disabled button"
+                      disabled={true}
+                      onClick={[Function]}
+                      tabIndex={-1}
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="arrow alternate circle left outline icon"
+                        onClick={[Function]}
+                      />
+                    </button>
+                  </div>
+                  <div
+                    className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonRhsContainer"
+                    style={
+                      Object {
+                        "top": 298.5,
+                      }
+                    }
+                  >
+                    <button
+                      className="ui blue large circular icon button"
+                      onClick={[Function]}
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="arrow alternate circle right outline icon"
+                        onClick={[Function]}
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="ContentPageSubsectionPartContainer"
+            >
+              <div
+                className="OverflowHidden"
+              >
+                <div
+                  className="FloatLeft HorizontalCusionPadding"
+                >
+                  <img
+                    alt="CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora) Conference of the Parties 17"
+                    src="CITES_CoP17.jpg"
+                  />
+                </div>
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                >
+                  CCF participates in the CITES inter-sessional working group on the illegal trade in cheetahs, and was instrumental in making recommendations adopted by CITES at CoP17 to stop the illegal cheetah pet trade.
+                </p>
+              </div>
+              <div
+                className="VerticalCushionPadding Centered FactBannerMediumDimension"
+              >
+                <img
+                  alt="What is CITES?"
+                  className="FactBannerMediumDimension"
+                  src="What_is_CITES.png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="FuturePageSubsectionCheetahsAtCCF"
+      >
+        <div
+          className="ContentPageSubsectionTemplateOuterContainer"
+        >
+          <div
+            className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+          >
+            <h3
+              className="ContentPageSubsectionTitle"
+            >
+              Cheetah Ambassadors
+            </h3>
+            <div
+              className="FuturePageSubsectionCheetahsAtCCFInnerContainer"
+            >
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                Cheetahs in captivity can serve as ambassadors that can help in spreading the message of conservation and sustainable development in education and outreach programs. Here at Cheetah Conservation Fund, many cheetahs that have had been cared by CCF have left a legacy for future generations.
+              </p>
+              <div
+                className="ContentPageSubsectionPartContainer"
+              >
+                <h4
+                  className="ContentPageSubsectionSubtitle"
+                >
+                  Chewbaaka
+                </h4>
+                <div
+                  className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+                >
+                  <div
+                    className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+                  >
+                    <div
+                      className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+                    >
+                      <div
+                        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+                      >
+                        <h4
+                          className="ContentPageSubsectionSubtitle"
+                        />
+                        <div
+                          className="FuturePageCheetahAndManImageSubsectionContentTextContainer"
+                        >
+                          <p
+                            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                          >
+                            Hi there, my name is Chewbaaka. I was named after an animal in a movie. I have lived at CCF since I was 3 weeks old. I am their cheetah ambassador and I get to meet many people. The staff at CCF tell everyone about me and all the wild cheetahs. I have a special place where I can run like the wind.
+                          </p>
+                          <p
+                            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                          >
+                            Chewbaaka played a big part in CCF’s rewilding program by helping farmers understand more about how special cheetahs are and that their survival is in the farmers’ hands. He brought a calming presence to the Namibian farmers he met when they visited CCF. During Chewbaaka’s 16 years, he met thousands of farmers and school learners.
+                          </p>
+                          <p
+                            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                          >
+                            Without farmer support, CCF wouldn't be able to release cheetahs back into the wild. By helping people live alongside predators CCF is helping save the cheetah and its ecosystem.
+                          </p>
+                          <div>
+                            <div>
+                              <a
+                                href="https://www.youtube.com/watch?v=WYjeEG06cjc"
+                              >
+                                <button
+                                  className="ui blue icon button"
+                                  onClick={[Function]}
+                                >
+                                  Watch "Walking with Chewbaaka" on YouTube
+                                  <i
+                                    aria-hidden="true"
+                                    className="file video icon"
+                                    onClick={[Function]}
+                                  />
+                                </button>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+                      >
+                        <h4
+                          className="ContentPageSubsectionSubtitle"
+                        />
+                        <div
+                          className="FuturePageSubsectionCheetahsAtCCFImageContainer"
+                        >
+                          <div
+                            className="CircularImageOuterContainer"
+                          >
+                            <div
+                              className="CircularImageCore"
+                            >
+                              <img
+                                alt="Chewbaaka"
+                                className="CircularImageImg"
+                                src="Chewbaaka.jpg"
+                              />
+                            </div>
+                            <div
+                              className="CircularImageTitleContainer"
+                            >
+                              <p
+                                className="CircularImageTitle"
+                              >
+                                Chewbaaka
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="ContentPageSubsectionPartContainer"
+              >
+                <h4
+                  className="ContentPageSubsectionSubtitle"
+                >
+                  Mekondyo
+                </h4>
+                <div
+                  className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+                >
+                  <div
+                    className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+                  >
+                    <div
+                      className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+                    >
+                      <div
+                        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+                      >
+                        <h4
+                          className="ContentPageSubsectionSubtitle"
+                        />
+                        <div
+                          className="FuturePageSubsectionCheetahsAtCCFImageContainer"
+                        >
+                          <div
+                            className="CircularImageOuterContainer"
+                          >
+                            <div
+                              className="CircularImageCore"
+                            >
+                              <img
+                                alt="Mekondyo"
+                                className="CircularImageImg"
+                                src="Mekondyo.jpg"
+                              />
+                            </div>
+                            <div
+                              className="CircularImageTitleContainer"
+                            >
+                              <p
+                                className="CircularImageTitle"
+                              >
+                                Mekondyo
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+                      >
+                        <h4
+                          className="ContentPageSubsectionSubtitle"
+                        />
+                        <p
+                          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                        >
+                          Hello, my name is Mekondyo. Mekondyo means "struggle" in the Oshiwambo language. I was born on a farm north of Otjiwarango but I now live on farmland west of Otjiwarango. It is very beautiful. I can see the Waterberg Plateau far away. I am 5 years old now and I will tell you my story as you explore this museum.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

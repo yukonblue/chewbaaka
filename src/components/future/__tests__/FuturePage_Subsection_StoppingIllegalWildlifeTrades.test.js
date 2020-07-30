@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 22, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -14,8 +14,6 @@ import { render } from '@testing-library/react'
 import { config } from '../config'
 
 import renderer from 'react-test-renderer'
-
-import { RUN_TEST_NEVER } from '../../../testing/testing'
 
 import FuturePageSubsectionStoppingIllegalWildlifeTrades from '../FuturePage_Subsection_StoppingIllegalWildlifeTrades'
 
@@ -29,17 +27,12 @@ test('renders FuturePageSubsectionStoppingIllegalWildlifeTrades component', () =
   );
 });
 
-/**
- * TODO: Enable this later.
- */
-RUN_TEST_NEVER(() => {
-  test('FuturePageSubsectionStoppingIllegalWildlifeTrades component snapshot', () => {
-    const tree = renderer
-      .create(
-        <FuturePageSubsectionStoppingIllegalWildlifeTrades
-          sectionConfig={sectionConfig}
-        />
-      ).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
+test('FuturePageSubsectionStoppingIllegalWildlifeTrades component snapshot', () => {
+  const tree = renderer
+    .create(
+      <FuturePageSubsectionStoppingIllegalWildlifeTrades
+        sectionConfig={sectionConfig}
+      />
+    ).toJSON();
+  expect(tree).toMatchSnapshot();
 });
