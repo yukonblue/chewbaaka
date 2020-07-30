@@ -15,9 +15,13 @@ import renderer from 'react-test-renderer'
 
 import HomePage from '../HomePage'
 
+import { config } from '../../../config'
+
 test('renders HomePage component', () => {
   render(
-    <HomePage />
+    <HomePage
+      appConfig={config}
+    />
   );
 
   const mainTitleElement = screen.getByText(/Run cheetah run/i);
@@ -43,7 +47,9 @@ test('renders HomePage component', () => {
 test('HomePage snapshot', () => {
   const tree = renderer
     .create(
-      <HomePage />
+      <HomePage
+        appConfig={config}
+      />
     ).toJSON();
   expect(tree).toMatchSnapshot();
 });

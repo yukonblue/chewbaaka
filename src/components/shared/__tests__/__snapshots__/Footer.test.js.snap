@@ -98,6 +98,17 @@ exports[`Footer component snapshot 1`] = `
           <p>
             This site is not an affiliation of Cheetah Conservation Fund.
           </p>
+          <p>
+            Made with 
+            <span
+              aria-label="heart"
+              role="img"
+            >
+              ❤️
+            </span>
+             by 
+            Will
+          </p>
         </div>
       </div>
     </div>
