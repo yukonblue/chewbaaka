@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Jul 30, 2020
  */
 
 import React from 'react'
@@ -23,6 +23,8 @@ import {
 } from '../shared/ContentPageSubsectionContentBinder'
 
 import ImageView from '../shared/ImageView'
+
+import FluidImageWrapper from '../shared/FluidImageWrapper'
 
 import ImageViewModal from '../shared/ImageViewModal'
 
@@ -97,7 +99,7 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
           className="FactBannerSmallDimension VerticalCushionPadding"
         />
 
-        <img
+        <FluidImageWrapper
           src={image_savana_bg_large}
           alt="African savanna"
           className="FullWidth VerticalCushionPadding"
