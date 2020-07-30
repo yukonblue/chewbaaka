@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 30, 2020
  */
 
 import React from 'react'
@@ -34,6 +34,7 @@ export default class EcologyPage extends React.Component {
   render() {
     return (
       <ContentPageSkeleton
+        appConfig={this.props.appConfig}
         pageProps={config.pageProps}
         content={this.renderContent()}
         imagesContext={this.state.imagesContext}

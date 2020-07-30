@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Jul 30, 2020
  */
 
 import React from 'react'
@@ -12,6 +12,7 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -47,20 +48,35 @@ export default class BiologyPageSubsectionLifecycleStage2 extends React.Componen
 
   renderContent() {
     return (
+      <div>
+        {this.renderPart1()}
+        {this.renderPart2()}
+      </div>
+    );
+  }
+
+  renderPart1() {
+    return (
       <div className="OverflowHidden">
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
-
-        <QnAPopUp
-          content={BiologyPageSubsectionLifecycleStage2._DID_YOU_KNOW_}
-        />
-
-        <div className="FloatRight">
+        <div className="FloatRight VerticalCushionPaddingTopLarge">
           <MediaLinkButton
             href="https://www.youtube.com/watch?v=Wjtb7XMZlgY"
             title="Cheetah Mom Teaches Cubs to Hunt | YouTube"
           />
         </div>
       </div>
+    );
+  }
+
+  renderPart2() {
+    return (
+      <ContentPageSubsectionPart>
+        <QnAPopUp
+          className="VerticalCushionPaddingTopLarge"
+          content={BiologyPageSubsectionLifecycleStage2._DID_YOU_KNOW_}
+        />
+      </ContentPageSubsectionPart>
     );
   }
 }
