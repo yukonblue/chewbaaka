@@ -2,13 +2,13 @@
 
 exports[`BiologyPageSubsectionLearningToHunt component snapshot 1`] = `
 <div
-  className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+  className="ContentPageSubsectionTemplateOuterContainer"
 >
   <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
   >
     <h3
-      className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+      className="ContentPageSubsectionTitle"
     >
       Learning to Hunt
     </h3>
@@ -42,7 +42,7 @@ exports[`BiologyPageSubsectionLearningToHunt component snapshot 1`] = `
                 data-testid="ImageViewComponentCaptionPart"
               >
                 <div
-                  className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                  className="CaptionContainer"
                   data-testid="CaptionComponentTestId"
                   style={
                     Object {
@@ -51,7 +51,7 @@ exports[`BiologyPageSubsectionLearningToHunt component snapshot 1`] = `
                   }
                 >
                   <div
-                    className="IconContainer IconContainer_DebugColor DebugWireframe"
+                    className="IconContainer"
                   >
                     <i
                       aria-hidden="true"
@@ -60,7 +60,7 @@ exports[`BiologyPageSubsectionLearningToHunt component snapshot 1`] = `
                     />
                   </div>
                   <p
-                    className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                    className="ContentPageCaptionTextSize CaptionText"
                   >
                     Cheetah cubs learning how to hunt.
                   </p>

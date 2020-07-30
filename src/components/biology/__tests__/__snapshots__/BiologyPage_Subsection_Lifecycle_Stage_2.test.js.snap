@@ -2,13 +2,13 @@
 
 exports[`BiologyPageSubsectionLifecycleStage2 component snapshot 1`] = `
 <div
-  className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+  className="ContentPageSubsectionTemplateOuterContainer"
 >
   <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
   >
     <h3
-      className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+      className="ContentPageSubsectionTitle"
     >
       Stage 2
     </h3>
@@ -16,20 +16,20 @@ exports[`BiologyPageSubsectionLifecycleStage2 component snapshot 1`] = `
       className="OverflowHidden"
     >
       <p
-        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
       >
         At 1.5 to 2 months of age, the cubs leave the safety of the den to accompany their mother. They are very vulnerable as they are not able to defend themselves.
       </p>
       <p
-        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
       >
         They stop drinking their mother’s milk at 3 to 4 months of age. They start eating meat and learning to hunt. The games they play and the experiences they have during this stage will teach them skills needed to survive on their own.
       </p>
       <div
-        className="QnAPopUpContainer QnAPopUpContainer_DebugColor DebugWireframe"
+        className="QnAPopUpContainer"
       >
         <div
-          className="QnAPopUpButtonGroupContainer QnAPopUpButtonGroupContainer_DebugColor DebugWireframe"
+          className="QnAPopUpButtonGroupContainer"
         >
           <div
             className="ui blue large label"
@@ -49,7 +49,7 @@ exports[`BiologyPageSubsectionLifecycleStage2 component snapshot 1`] = `
           </div>
         </div>
         <div
-          className="QnAPopUpTextSecondaryBubbleContainer QnAPopUpTextSecondaryBubbleContainer_DebugColor DebugWireframe"
+          className="QnAPopUpTextSecondaryBubbleContainer"
         >
           <div
             className="TextBubbleOuterContainer"
@@ -93,7 +93,7 @@ exports[`BiologyPageSubsectionLifecycleStage2 component snapshot 1`] = `
           </div>
         </div>
         <div
-          className="QnAPopUpMainTextBubbleContainer QnAPopUpMainTextBubbleContainer_DebugColor DebugWireframe"
+          className="QnAPopUpMainTextBubbleContainer"
         >
           <div
             className="TextBubbleOuterContainer"

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jun 30, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -28,6 +28,8 @@ import TestPage from './components/shared/TestPage'
 import './components/shared/GlobalPageStyles.css'
 import './styling/DebugStyles.css'
 
+import { config } from './config'
+
 export default class App extends React.Component {
   render() {
     return (
@@ -50,7 +52,9 @@ export default class App extends React.Component {
             <FuturePage />
           </Route>
           <Route exact path="/" >
-            <HomePage />
+            <HomePage
+              appConfig={config}
+            />
           </Route>
           <Redirect to="/" />
         </Switch>

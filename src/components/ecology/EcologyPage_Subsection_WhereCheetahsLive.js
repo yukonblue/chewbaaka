@@ -24,6 +24,8 @@ import {
 
 import ImageView from '../shared/ImageView'
 
+import ImageViewModal from '../shared/ImageViewModal'
+
 import NamibianBiomes from './NamibianBiomes'
 
 import image_savanna from './assets/savanna.jpg'
@@ -35,6 +37,11 @@ import image_savana_bg_large from './assets/savana_bg_large.jpg'
 import image_Namibia_Biomes_and_Cheetah_Ranges_Map from './assets/Namibia_Biomes_and_Cheetah_Ranges_Map.jpg'
 
 import image_banner_fact_What_is_Biome from './assets/What_is_Biome.png'
+
+import image_namibia_landscape_01 from './assets/namibia_landscape_01.jpg'
+import image_namibia_landscape_02 from './assets/namibia_landscape_02.jpg'
+import image_namibia_landscape_03 from './assets/namibia_landscape_03.jpg'
+import image_namibia_landscape_04 from './assets/namibia_landscape_04.jpg'
 
 export default class EcologyPageSubsectionWhereCheetahsLive extends React.Component {
 
@@ -127,6 +134,8 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
             alt="What is biome?"
           />
         </div>
+
+        {this.renderImageViewModals()}
       </ContentPageSubsectionPart>
     );
   }
@@ -142,6 +151,43 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
   renderPartNamibianBiomesRhs(part) {
     return (
       <NamibianBiomes part={part} />
+    );
+  }
+
+  renderImageViewModals() {
+    const renderImageViewModal = (image) => (
+      <ImageViewModal
+        image={image}
+        width={480}
+        height={320}
+      />
+    );
+
+    /**
+     * TODO:
+     * Use more suitable/tailored container for these image views.
+     */
+
+    return (
+      <div>
+        <ContentPageSubsectionTwoColumnContentTemplate
+          lhsColumn={{
+            content: renderImageViewModal(image_namibia_landscape_01)
+          }}
+          rhsColumn={{
+            content: renderImageViewModal(image_namibia_landscape_02)
+          }}
+        />
+
+        <ContentPageSubsectionTwoColumnContentTemplate
+          lhsColumn={{
+            content: renderImageViewModal(image_namibia_landscape_03)
+          }}
+          rhsColumn={{
+            content: renderImageViewModal(image_namibia_landscape_04)
+          }}
+        />
+      </div>
     );
   }
 }

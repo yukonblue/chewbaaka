@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 27, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -36,6 +36,8 @@ import LineBreak from '../shared/LineBreak'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
+import image_Cheetah_Evolution_and_Extinction_Scale from './assets/Cheetah_Evolution_and_Extinction_Scale.png'
+
 import cheetah_range_map_01 from './assets/cheetah-range-map-01.png'
 import cheetah_range_map_02 from './assets/cheetah-range-map-02.png'
 
@@ -62,10 +64,22 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
 
   renderContent() {
     return (
-      <div className="HistoryPageSubsectionRoadToExtinctionInnerContainer">        
+      <div className="HistoryPageSubsectionRoadToExtinctionInnerContainer">
+        {this.renderCheetahEvolutionAndExtinctionScaleImage()}
         {this.renderThreeColumnPart()}
         {this.renderCheetahRangeMapPart()}
         {this.renderStatisticsPart()}
+      </div>
+    );
+  }
+
+  renderCheetahEvolutionAndExtinctionScaleImage() {
+    return (
+      <div className="Centered" style={{width: 1200}}>
+        <img
+          src={image_Cheetah_Evolution_and_Extinction_Scale}
+          alt=""
+        />
       </div>
     );
   }

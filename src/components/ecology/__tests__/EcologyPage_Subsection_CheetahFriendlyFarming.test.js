@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 21, 2020
- * Updated  : Jul 21, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -14,8 +14,6 @@ import { render } from '@testing-library/react'
 import { config } from '../config'
 
 import renderer from 'react-test-renderer'
-
-import { RUN_TEST_NEVER } from '../../../testing/testing'
 
 import EcologyPageSubsectionCheetahFriendlyFarming from '../EcologyPage_Subsection_TheFarmingCommunity'
 
@@ -29,17 +27,12 @@ test('renders EcologyPageSubsectionCheetahFriendlyFarming component', () => {
   );
 });
 
-/**
- * TODO: Enable this later.
- */
-RUN_TEST_NEVER(() => {
-  test('EcologyPageSubsectionCheetahFriendlyFarming component snapshot', () => {
-    const tree = renderer
-      .create(
-        <EcologyPageSubsectionCheetahFriendlyFarming
-          sectionConfig={sectionConfig}
-        />
-      ).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
+test('EcologyPageSubsectionCheetahFriendlyFarming component snapshot', () => {
+  const tree = renderer
+    .create(
+      <EcologyPageSubsectionCheetahFriendlyFarming
+        sectionConfig={sectionConfig}
+      />
+    ).toJSON();
+  expect(tree).toMatchSnapshot();
 });

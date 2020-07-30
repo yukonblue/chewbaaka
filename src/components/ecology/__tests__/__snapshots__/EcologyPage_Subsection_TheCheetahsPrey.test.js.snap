@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
+<div
+  className="ContentPageSubsectionTemplateOuterContainer"
+>
+  <div
+    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  >
+    <h3
+      className="ContentPageSubsectionTitle"
+    >
+      The Cheetah’s Prey
+    </h3>
+    <div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <div
+          className="OverflowHidden"
+        >
+          <div
+            className="FloatRight"
+          >
+            <div
+              className="TextBubbleOuterContainer"
+              style={
+                Object {
+                  "backgroundColor": "rgb(187,143,206)",
+                  "height": 480,
+                  "width": 480,
+                }
+              }
+            >
+              <div
+                className="TextBubbleInnerContainer"
+              >
+                <div
+                  className="TextBubbleInnerCore"
+                >
+                  <h1
+                    style={
+                      Object {
+                        "color": "rgb(undefined)",
+                        "fontSize": 38.4,
+                      }
+                    }
+                  >
+                    Cheetahs prefer game to livestock
+                  </h1>
+                  <p
+                    style={
+                      Object {
+                        "color": "rgb(undefined)",
+                        "fontSize": 21,
+                      }
+                    }
+                  >
+                    Cheetahs are born to prey on wild game, and will instinctly go after them. Cheetahs only go after livestock as a last resort when wild game is not available. This makes maintaining healthy ecosystems very important.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Cheetahs hunt mostly small antelope, young of large antelope, warthog, hare and game birds. They may take livestock in exceptional or opportunistic cases.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Cheetahs prefer game to livestock.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            The cheetah’s lightweight build limits the size of prey they catch. Male coalitions can, however, overcome larger prey. Coalitions also stand a better chance at defending their prey against competitors than single cheetahs.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Predators have to work very hard to catch their prey. Cheetahs need to carefully select the animal they are most likely to catch. For this reason cheetahs, like all other predators, target animals that are old, sick, very young, injured, or slow. This allows only the strongest to survive and pass on their genes, thus maintaining a healthier game population.
+          </p>
+        </div>
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <div
+          className="Centered"
+          style={
+            Object {
+              "width": 960,
+            }
+          }
+        >
+          <img
+            alt="Cheetah and lion have drastically different preys, hunting strategies, and success rates."
+            src="Cheetah_Lion_Hunting_Success_Rate_Comparsion.png"
+          />
+        </div>
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <div
+          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+        >
+          <div
+            className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+          >
+            <div
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+            >
+              <div
+                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+              >
+                <h4
+                  className="ContentPageSubsectionSubtitle"
+                />
+                <div
+                  className="ImageViewOuterContainer"
+                >
+                  <div
+                    className="ImageViewInnerContainer"
+                  >
+                    <div
+                      className="ImageViewCore"
+                    >
+                      <img
+                        alt="Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest."
+                        className="ImageViewImg"
+                        src="cheetah_coalition_hunting.jpg"
+                        style={
+                          Object {
+                            "height": 360,
+                            "width": 640,
+                          }
+                        }
+                      />
+                      <div
+                        data-testid="ImageViewComponentCaptionPart"
+                      >
+                        <div
+                          className="CaptionContainer"
+                          data-testid="CaptionComponentTestId"
+                          style={
+                            Object {
+                              "width": 640,
+                            }
+                          }
+                        >
+                          <div
+                            className="IconContainer"
+                          >
+                            <i
+                              aria-hidden="true"
+                              className="image icon"
+                              onClick={[Function]}
+                            />
+                          </div>
+                          <p
+                            className="ContentPageCaptionTextSize CaptionText"
+                          >
+                            Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+              >
+                <h4
+                  className="ContentPageSubsectionSubtitle"
+                />
+                <div
+                  className="ImageViewOuterContainer"
+                >
+                  <div
+                    className="ImageViewInnerContainer"
+                  >
+                    <div
+                      className="ImageViewCore"
+                    >
+                      <img
+                        alt="One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch."
+                        className="ImageViewImg"
+                        src="cheetah_go_after_gazelle.jpg"
+                        style={
+                          Object {
+                            "height": 360,
+                            "width": 640,
+                          }
+                        }
+                      />
+                      <div
+                        data-testid="ImageViewComponentCaptionPart"
+                      >
+                        <div
+                          className="CaptionContainer"
+                          data-testid="CaptionComponentTestId"
+                          style={
+                            Object {
+                              "width": 640,
+                            }
+                          }
+                        >
+                          <div
+                            className="IconContainer"
+                          >
+                            <i
+                              aria-hidden="true"
+                              className="image icon"
+                              onClick={[Function]}
+                            />
+                          </div>
+                          <p
+                            className="ContentPageCaptionTextSize CaptionText"
+                          >
+                            One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

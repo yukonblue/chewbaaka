@@ -2,29 +2,29 @@
 
 exports[`BiologyPageSubsectionSkull component snapshot 1`] = `
 <div
-  className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+  className="ContentPageSubsectionTemplateOuterContainer"
 >
   <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
   >
     <h3
-      className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+      className="ContentPageSubsectionTitle"
     >
       Skull
     </h3>
     <div>
       <p
-        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
       >
         All predators have specialized features for catching and killing prey. Predators have large forward facing eye sockets, and large ear cavities that provides space for specialized senses. Although there are differences in skull proportions, carnivore skulls are quite similar.
       </p>
       <p
-        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
       >
         The cat skulls are different from other carnivore species, as they have a flatter nose and enlarged nasal cavity. There is a large area for the strong jaw muscles.
       </p>
       <p
-        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
       >
         The cheetah has some features that are distinct when compared to the skulls of other cats.
       </p>
@@ -32,7 +32,7 @@ exports[`BiologyPageSubsectionSkull component snapshot 1`] = `
         className="BiologyPageSubsectionSkullCheetahSkullDiagramContainer"
       >
         <div
-          className="PopUpLabelledDiagramOuterComponent PopUpLabelledDiagramOuterComponent_DebugColor DebugWireframe"
+          className="PopUpLabelledDiagramOuterComponent"
           style={
             Object {
               "backgroundImage": "url(cheetah_skull.jpg)",
@@ -42,10 +42,10 @@ exports[`BiologyPageSubsectionSkull component snapshot 1`] = `
           }
         >
           <div
-            className="PopUpLabelledDiagramInnerComponent PopUpLabelledDiagramInnerComponent_DebugColor DebugWireframe"
+            className="PopUpLabelledDiagramInnerComponent"
           >
             <div
-              className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+              className="PopUpLabelledDiagramPopUpItemComponent"
               style={
                 Object {
                   "left": 350,
@@ -69,7 +69,7 @@ exports[`BiologyPageSubsectionSkull component snapshot 1`] = `
               </button>
             </div>
             <div
-              className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+              className="PopUpLabelledDiagramPopUpItemComponent"
               style={
                 Object {
                   "left": 750,
@@ -93,7 +93,7 @@ exports[`BiologyPageSubsectionSkull component snapshot 1`] = `
               </button>
             </div>
             <div
-              className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+              className="PopUpLabelledDiagramPopUpItemComponent"
               style={
                 Object {
                   "left": 500,
@@ -117,7 +117,7 @@ exports[`BiologyPageSubsectionSkull component snapshot 1`] = `
               </button>
             </div>
             <div
-              className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+              className="PopUpLabelledDiagramPopUpItemComponent"
               style={
                 Object {
                   "left": 120,

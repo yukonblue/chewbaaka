@@ -2,13 +2,13 @@
 
 exports[`BiologyPageSubsectionHearAndLung component snapshot 1`] = `
 <div
-  className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+  className="ContentPageSubsectionTemplateOuterContainer"
 >
   <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
   >
     <h3
-      className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+      className="ContentPageSubsectionTitle"
     >
       Heart and Lung
     </h3>
@@ -16,10 +16,10 @@ exports[`BiologyPageSubsectionHearAndLung component snapshot 1`] = `
       className="BiologyPageSubsectionHearAndLungInnerContainer"
     >
       <div
-        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+        className="ContentPageSubsectionPartContainer"
       >
         <div
-          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
+          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
         >
           <div
             className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
@@ -28,37 +28,37 @@ exports[`BiologyPageSubsectionHearAndLung component snapshot 1`] = `
               className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
             >
               <div
-                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor DebugWireframe"
+                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
               >
                 <h4
-                  className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+                  className="ContentPageSubsectionSubtitle"
                 />
                 <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                 >
                   The cheetah has a strong heart that rapidly pumps large amounts of oxygenated blood from the lungs to the muscles to keep them supplied with energy while running.
                 </p>
                 <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                 >
                   Large lungs provide adequate oxygen for a cheetah’s increased energy needs while pursuing its prey. The cheetah’s respiratory rate climbs from 60 to 150 breathes per minute, nearly twice as fast as humans.
                 </p>
                 <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                 >
                   Cheetahs have enlarged nostrils and sinuses allowing an increase in air flow to the lungs.
                 </p>
                 <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                 >
                   High speeds can, however, only be maintained for 400 - 800 meters before exhaustion sets in and the body risks overheating.
                 </p>
               </div>
               <div
-                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor DebugWireframe"
+                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
               >
                 <h4
-                  className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+                  className="ContentPageSubsectionSubtitle"
                 />
                 <div>
                   <div
@@ -76,12 +76,12 @@ exports[`BiologyPageSubsectionHearAndLung component snapshot 1`] = `
                     />
                   </div>
                   <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                   >
                     A cheetah running the 249km from Otjiwarongo to Windhoek would need to stop to rest more than 311 times.
                   </p>
                   <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                   >
                     If it could run there without resting, it would take 2 hours and 26 minutes at 110km/hr.
                   </p>
@@ -92,7 +92,7 @@ exports[`BiologyPageSubsectionHearAndLung component snapshot 1`] = `
         </div>
       </div>
       <div
-        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+        className="ContentPageSubsectionPartContainer"
       >
         <div
           className="CheetahOlympicsOuterContainer"
@@ -123,7 +123,7 @@ exports[`BiologyPageSubsectionHearAndLung component snapshot 1`] = `
               (hover over the squares below to find out)
             </p>
             <div
-              className="QuizBoardOuterContainer QuizBoardOuterContainer_DebugColor DebugWireframe"
+              className="QuizBoardOuterContainer"
               style={
                 Object {
                   "height": 1040,
@@ -679,10 +679,10 @@ exports[`BiologyPageSubsectionHearAndLung component snapshot 1`] = `
           </div>
           <div>
             <div
-              className="QnAPopUpContainer QnAPopUpContainer_DebugColor DebugWireframe"
+              className="QnAPopUpContainer"
             >
               <div
-                className="QnAPopUpButtonGroupContainer QnAPopUpButtonGroupContainer_DebugColor DebugWireframe"
+                className="QnAPopUpButtonGroupContainer"
               >
                 <div
                   className="ui blue large label"
@@ -702,7 +702,7 @@ exports[`BiologyPageSubsectionHearAndLung component snapshot 1`] = `
                 </div>
               </div>
               <div
-                className="QnAPopUpTextSecondaryBubbleContainer QnAPopUpTextSecondaryBubbleContainer_DebugColor DebugWireframe"
+                className="QnAPopUpTextSecondaryBubbleContainer"
               >
                 <div
                   className="TextBubbleOuterContainer"
@@ -746,7 +746,7 @@ exports[`BiologyPageSubsectionHearAndLung component snapshot 1`] = `
                 </div>
               </div>
               <div
-                className="QnAPopUpMainTextBubbleContainer QnAPopUpMainTextBubbleContainer_DebugColor DebugWireframe"
+                className="QnAPopUpMainTextBubbleContainer"
               >
                 <div
                   className="TextBubbleOuterContainer"

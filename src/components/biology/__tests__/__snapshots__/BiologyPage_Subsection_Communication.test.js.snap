@@ -2,20 +2,20 @@
 
 exports[`BiologyPageSubsectionCommunication component snapshot 1`] = `
 <div
-  className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+  className="ContentPageSubsectionTemplateOuterContainer"
 >
   <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
   >
     <h3
-      className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+      className="ContentPageSubsectionTitle"
     >
       Communication
     </h3>
     <div>
       <div>
         <p
-          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
         >
           Cheetahs communicate in many ways including sound, smell, touch, and sight. Communications may be either threatening or submissive.
         </p>
@@ -24,7 +24,7 @@ exports[`BiologyPageSubsectionCommunication component snapshot 1`] = `
         className="VerticalCushionPadding"
       >
         <h4
-          className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+          className="ContentPageSubsectionSubtitle"
         >
           Volcalizations
         </h4>

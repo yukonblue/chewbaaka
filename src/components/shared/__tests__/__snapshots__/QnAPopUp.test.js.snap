@@ -2,10 +2,10 @@
 
 exports[`QnAPopUp component snapshot 1`] = `
 <div
-  className="QnAPopUpContainer QnAPopUpContainer_DebugColor DebugWireframe"
+  className="QnAPopUpContainer"
 >
   <div
-    className="QnAPopUpButtonGroupContainer QnAPopUpButtonGroupContainer_DebugColor DebugWireframe"
+    className="QnAPopUpButtonGroupContainer"
   >
     <div
       className="ui blue large label"
@@ -25,7 +25,7 @@ exports[`QnAPopUp component snapshot 1`] = `
     </div>
   </div>
   <div
-    className="QnAPopUpTextSecondaryBubbleContainer QnAPopUpTextSecondaryBubbleContainer_DebugColor DebugWireframe"
+    className="QnAPopUpTextSecondaryBubbleContainer"
   >
     <div
       className="TextBubbleOuterContainer"
@@ -69,7 +69,7 @@ exports[`QnAPopUp component snapshot 1`] = `
     </div>
   </div>
   <div
-    className="QnAPopUpMainTextBubbleContainer QnAPopUpMainTextBubbleContainer_DebugColor DebugWireframe"
+    className="QnAPopUpMainTextBubbleContainer"
   >
     <div
       className="TextBubbleOuterContainer"

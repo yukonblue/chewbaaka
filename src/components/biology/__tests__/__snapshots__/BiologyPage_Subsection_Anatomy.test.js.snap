@@ -2,13 +2,13 @@
 
 exports[`BiologyPageSubsectionAnatomy component snapshot 1`] = `
 <div
-  className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+  className="ContentPageSubsectionTemplateOuterContainer"
 >
   <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
   >
     <h3
-      className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+      className="ContentPageSubsectionTitle"
     >
       Anatomy
     </h3>
@@ -16,12 +16,12 @@ exports[`BiologyPageSubsectionAnatomy component snapshot 1`] = `
       className="BiologyPageSubsectionAnatomyCheetahSkeletalAnatomyDiagramContainer"
     >
       <p
-        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
       >
         Every part of the cheetah's body work in unison during a high speed run, and the sum of each of their role together is greater than the individual parts. Explore the illustration below to learn about the role and function of each highlighted body part.
       </p>
       <div
-        className="PopUpLabelledDiagramOuterComponent PopUpLabelledDiagramOuterComponent_DebugColor DebugWireframe"
+        className="PopUpLabelledDiagramOuterComponent"
         style={
           Object {
             "backgroundImage": "url(cheetah_skeletal_anatomy.jpg)",
@@ -31,10 +31,10 @@ exports[`BiologyPageSubsectionAnatomy component snapshot 1`] = `
         }
       >
         <div
-          className="PopUpLabelledDiagramInnerComponent PopUpLabelledDiagramInnerComponent_DebugColor DebugWireframe"
+          className="PopUpLabelledDiagramInnerComponent"
         >
           <div
-            className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+            className="PopUpLabelledDiagramPopUpItemComponent"
             style={
               Object {
                 "left": 460,
@@ -58,7 +58,7 @@ exports[`BiologyPageSubsectionAnatomy component snapshot 1`] = `
             </button>
           </div>
           <div
-            className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+            className="PopUpLabelledDiagramPopUpItemComponent"
             style={
               Object {
                 "left": 180,
@@ -82,7 +82,7 @@ exports[`BiologyPageSubsectionAnatomy component snapshot 1`] = `
             </button>
           </div>
           <div
-            className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+            className="PopUpLabelledDiagramPopUpItemComponent"
             style={
               Object {
                 "left": 320,
@@ -106,7 +106,7 @@ exports[`BiologyPageSubsectionAnatomy component snapshot 1`] = `
             </button>
           </div>
           <div
-            className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+            className="PopUpLabelledDiagramPopUpItemComponent"
             style={
               Object {
                 "left": 380,
@@ -130,7 +130,7 @@ exports[`BiologyPageSubsectionAnatomy component snapshot 1`] = `
             </button>
           </div>
           <div
-            className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+            className="PopUpLabelledDiagramPopUpItemComponent"
             style={
               Object {
                 "left": 550,
@@ -154,7 +154,7 @@ exports[`BiologyPageSubsectionAnatomy component snapshot 1`] = `
             </button>
           </div>
           <div
-            className="PopUpLabelledDiagramPopUpItemComponent PopUpLabelledDiagramPopUpItemComponent_DebugColor DebugWireframe"
+            className="PopUpLabelledDiagramPopUpItemComponent"
             style={
               Object {
                 "left": 780,

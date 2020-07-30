@@ -2,37 +2,37 @@
 
 exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
 <div
-  className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+  className="ContentPageSubsectionTemplateOuterContainer"
 >
   <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
   >
     <h3
-      className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+      className="ContentPageSubsectionTitle"
     >
       Spots and Stripes
     </h3>
     <div>
       <div
-        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+        className="ContentPageSubsectionPartContainer"
       >
         <p
-          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
         >
           Adult cheetahs are easily distinguished from other cats by their coat patterns. The color and spots are a form of camouflage. This helps cheetahs hunt prey and hide from other predators.
         </p>
         <p
-          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
         >
           Distinctive black tear stripes run from the eyes to the mouth. The stripes are thought to protect the eyes from the sun’s glare. It is believed they have the same function as a rifle scope, helping cheetahs focus on their prey.
         </p>
         <p
-          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
         >
           Until three months of age, cheetah cubs have a thick-silvery grey mantle that runs down their back. The mantle helps camouflage the cubs by blending them into the shadows and grass. It also provides protection from sun and rain.
         </p>
         <p
-          className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
         >
           With their mantle, cubs look like an aggressive animal called a honey badger. This may deter predators such as lions, hyenas, and eagles from attempting to kill them. This is known as “mimicry”.
         </p>
@@ -47,7 +47,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
         </div>
       </div>
       <div
-        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+        className="ContentPageSubsectionPartContainer"
       >
         <div
           className="Centered"
@@ -84,7 +84,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                     data-testid="ImageViewComponentCaptionPart"
                   >
                     <div
-                      className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                      className="CaptionContainer"
                       data-testid="CaptionComponentTestId"
                       style={
                         Object {
@@ -93,7 +93,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                       }
                     >
                       <div
-                        className="IconContainer IconContainer_DebugColor DebugWireframe"
+                        className="IconContainer"
                       >
                         <i
                           aria-hidden="true"
@@ -102,7 +102,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                         />
                       </div>
                       <p
-                        className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                        className="ContentPageCaptionTextSize CaptionText"
                       >
                         Mantle on cheetah cub's back provides a form of camouflage that's critical to its survival.
                       </p>
@@ -136,7 +136,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                   data-testid="ImageViewComponentCaptionPart"
                 >
                   <div
-                    className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                    className="CaptionContainer"
                     data-testid="CaptionComponentTestId"
                     style={
                       Object {
@@ -145,7 +145,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                     }
                   >
                     <div
-                      className="IconContainer IconContainer_DebugColor DebugWireframe"
+                      className="IconContainer"
                     >
                       <i
                         aria-hidden="true"
@@ -154,7 +154,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                       />
                     </div>
                     <p
-                      className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                      className="ContentPageCaptionTextSize CaptionText"
                     >
                       The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators.
                     </p>
@@ -166,10 +166,10 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
         </div>
       </div>
       <div
-        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+        className="ContentPageSubsectionPartContainer"
       >
         <div
-          className="BigCatSpotsIllustrationOuterContainer BigCatSpotsIllustrationOuterContainer_DebugColor DebugWireframe"
+          className="BigCatSpotsIllustrationOuterContainer"
         >
           <div>
             <h4

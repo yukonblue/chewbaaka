@@ -4,24 +4,25 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 29, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import { getElementStyleClassNames } from '../../styling/styling'
 
 import './ContentPageSharedStyles.css'
 import './ContentPageBanner.css'
 
-function ContentPageBanner(props) {
+export default function ContentPageBanner(props) {
   const contentPageBannerContainerStyles = {
     backgroundImage: `url(${props.coverImage})`,
   };
 
   return (
     <div
-      className={getElementStyleClassNames(["ContentPageSkeletonContentContainerDimension", "ContentPageBannerContainer"])}
+      className={getElementStyleClassNames(["ContentPageSkeletonContentContainerDimension",
+                                            "ContentPageBannerContainer"])}
       style={contentPageBannerContainerStyles}
       data-testid="ContentPageBannerComponentTestId"
     >
@@ -33,5 +34,3 @@ function ContentPageBanner(props) {
     </div>
   );
 }
-
-export default ContentPageBanner;

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 29, 2020
  */
 
  /**
@@ -25,13 +25,13 @@
  *    https://react.semantic-ui.com/elements/icon/
  */
 
-import React from 'react';
+import React from 'react'
 
 import { Icon, Label } from 'semantic-ui-react'
 
 import './HintSignpost.css'
 
-function HintSignpost(props) {
+export default function HintSignpost(props) {
   const iconName = props.iconName ? props.iconName : "lightbulb outline";
 
   return (
@@ -47,5 +47,3 @@ function HintSignpost(props) {
     </div>
   );
 }
-
-export default HintSignpost;

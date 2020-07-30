@@ -2,17 +2,17 @@
 
 exports[`BiologyPageSectionGenetics component snapshot 1`] = `
 <div
-  className="ContentPageSectionTemplateOuterContainer ContentPageSectionTemplateOuterContainer_DebugColor DebugWireframe"
+  className="ContentPageSectionTemplateOuterContainer"
 >
   <div>
     <div
-      className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+      className="ContentPageSubsectionTemplateOuterContainer"
     >
       <div
-        className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+        className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
       >
         <h3
-          className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+          className="ContentPageSubsectionTitle"
         />
         <div
           className="ContentPageSectionHeadOuterContainer"
@@ -22,13 +22,13 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
             id="genetics"
           />
           <div
-            className="ContentPageSectionHeadInnerContainer ContentPageSectionHeadInnerContainer_DebugColor DebugWireframe"
+            className="ContentPageSectionHeadInnerContainer"
           >
             <div
-              className="ContentPageSectionHeadTitleContainer ContentPageSectionHeadTitleContainer_DebugColor DebugWireframe"
+              className="ContentPageSectionHeadTitleContainer"
             >
               <h2
-                className="ContentPageSectionHeadTitle ContentPageSectionHeadTitle_DebugColor DebugWireframe"
+                className="ContentPageSectionHeadTitle"
               >
                 Genetics
               </h2>
@@ -37,7 +37,7 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
               className="ContentPageIntroParagraphContentContainer"
             >
               <p
-                className="ContentPageHeadAndSectionIntroText ContentPageHeadAndSectionIntroText_DebugColor DebugWireframe"
+                className="ContentPageHeadAndSectionIntroText"
               >
                 Cheetahs exhibit a number of physiological abnormalities because of the genetic bottlenecks that the species have gone through in its history and evolution, with the most recent one being only about 10,000 years ago. Therefore, understanding the genetics of the species is crucial in both saving individuals as well as larger populations.
               </p>
@@ -48,17 +48,17 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
     </div>
   </div>
   <div
-    className="ContentPageSectionTemplateInnerContainer ContentPageSectionTemplateInnerContainer_DebugColor DebugWireframe"
+    className="ContentPageSectionTemplateInnerContainer"
   >
     <div>
       <div
-        className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+        className="ContentPageSubsectionTemplateOuterContainer"
       >
         <div
-          className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+          className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
         >
           <h3
-            className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+            className="ContentPageSubsectionTitle"
           >
             Genetic Confusion
           </h3>
@@ -109,17 +109,17 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
               </div>
             </div>
             <p
-              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
             >
               Genes are the components of living cells that pass down inherited characteristics such as brown eyes or curly hair in humans.
             </p>
             <p
-              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
             >
               Genetic diversity is the variety of genes in an organism or in a population. Diversity increases the likelihood that a given species can adapt and survive catastrophes such as sudden environmental changes or exposure to new diseases.
             </p>
             <p
-              className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
             >
               Diversity is reduced when inbreeding occurs. This means members of the same family or close relatives breed only among themselves.
             </p>
@@ -127,31 +127,31 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
         </div>
       </div>
       <div
-        className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+        className="ContentPageSubsectionTemplateOuterContainer"
       >
         <div
-          className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+          className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
         >
           <h3
-            className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+            className="ContentPageSubsectionTitle"
           >
             Abnormalities
           </h3>
           <div>
             <div
-              className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+              className="ContentPageSubsectionPartContainer"
             >
               <p
-                className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
               >
                 CCF collects data to monitor cheetah genetics, physical qualities and reproduction. Body measurements, blood, and skin samples help evaluate overall health. CCF has recorded the following abnormalities in wild Namibian cheetahs.
               </p>
             </div>
             <div
-              className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+              className="ContentPageSubsectionPartContainer"
             >
               <div
-                className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
+                className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
               >
                 <div
                   className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
@@ -160,29 +160,29 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
                     className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
                   >
                     <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor DebugWireframe"
+                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
                     >
                       <h4
-                        className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+                        className="ContentPageSubsectionSubtitle"
                       >
                         Crowded Lower Incisors
                       </h4>
                       <p
-                        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                       >
                         Cheetahs use their front teeth (incisors) to rapidly skin their prey. Some cheetahs have very crowded and crooked front teeth. This abnormality decreases the amount of meat the cheetah can quickly eat before another predator steals the kill.
                       </p>
                     </div>
                     <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor DebugWireframe"
+                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
                     >
                       <h4
-                        className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+                        className="ContentPageSubsectionSubtitle"
                       >
                         Birth Defects
                       </h4>
                       <p
-                        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                       >
                         Congenital (Genetic) Birth Defects, such as five legged and two-headed cubs are often reported in cheetahs and cause high infant mortality. Defects are a result of low genetic diversity. This problem is also reported in other inbred species.
                       </p>
@@ -192,10 +192,10 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
               </div>
             </div>
             <div
-              className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+              className="ContentPageSubsectionPartContainer"
             >
               <div
-                className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor DebugWireframe"
+                className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
               >
                 <div
                   className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
@@ -204,29 +204,29 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
                     className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
                   >
                     <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor DebugWireframe"
+                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
                     >
                       <h4
-                        className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+                        className="ContentPageSubsectionSubtitle"
                       >
                         Focal Palatine Erosion
                       </h4>
                       <p
-                        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                       >
                         This abnormality occurs when the lower molar (back teeth) damage and break through the upper palate (roof of mouth). Dental impressions and skull X-rays allow CCF to relate problems with information on generics, health, diet, and geographic origin of affected cheetahs. Palatine erosion is reported in both captive and wild cheetahs and can lead to fatal infection.
                       </p>
                     </div>
                     <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor DebugWireframe ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor DebugWireframe"
+                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
                     >
                       <h4
-                        className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+                        className="ContentPageSubsectionSubtitle"
                       >
                         Abnormal Sperm
                       </h4>
                       <p
-                        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                       >
                         A high frequency of sperm abnormalities (71%) first alerted researchers to the genetic problems of cheetahs. Cheetahs have a very low sperm count - 10 times lower than a domestic cat. Sperm abnormalities usually indicate a high level of inbreeding in the population. Cheetahs breed normally despite this problem and long term monitoring will follow their success rate.
                       </p>
@@ -236,10 +236,10 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
               </div>
             </div>
             <div
-              className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+              className="ContentPageSubsectionPartContainer"
             >
               <h4
-                className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+                className="ContentPageSubsectionSubtitle"
               >
                 Kinked Tails
               </h4>
@@ -273,7 +273,7 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
                           data-testid="ImageViewComponentCaptionPart"
                         >
                           <div
-                            className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                            className="CaptionContainer"
                             data-testid="CaptionComponentTestId"
                             style={
                               Object {
@@ -282,7 +282,7 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
                             }
                           >
                             <div
-                              className="IconContainer IconContainer_DebugColor DebugWireframe"
+                              className="IconContainer"
                             >
                               <i
                                 aria-hidden="true"
@@ -291,7 +291,7 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
                               />
                             </div>
                             <p
-                              className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                              className="ContentPageCaptionTextSize CaptionText"
                             >
                               Kinked tail. (Image credit: Cheetah Conservation Fund)
                             </p>
@@ -302,7 +302,7 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
                   </div>
                 </div>
                 <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                 >
                   Crooked tails have been recorded in 19% of the Namibian cheetahs evaluated since 1995. This is the first documentation of this abnormality in wild cheetahs and could be linked to a lack of genetic diversity.
                 </p>

@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FuturePageSubsectionMissionPossible component snapshot 1`] = `
+<div
+  className="ContentPageSubsectionTemplateOuterContainer"
+>
+  <div
+    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  >
+    <h3
+      className="ContentPageSubsectionTitle"
+    >
+      Mission Possible
+    </h3>
+    <div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          In Africa, property that is owned and managed by farmers can maintain viable populations of animals and natural habitats. It is the careful management of these habitats that holds the key to the future survival of plant and animal species such as the cheetah.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          In order to ensure a successful future we need to be responsible custodians of nature. The way land and animals are managed determines the future of all ecosystems.
+        </p>
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <div
+          className="ContentPageSubsectionThreeColumnContentTemplateOuterContainer"
+        >
+          <div
+            className="ContentPageSubsectionThreeColumnContentTemplateInnerContainer"
+          >
+            <div
+              className="ContentPageSubsectionThreeColumnContentTemplateColumnContainer"
+            >
+              <div
+                className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateLeftColumnContainer"
+              >
+                <h4
+                  className="ContentPageSubsectionSubtitle"
+                >
+                  Land Management
+                </h4>
+                <h5
+                  className="ContentPageSubsectionSubtitleSecondary"
+                />
+                <div>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    The productivity of the land depends on water and soil. Preventing erosion increases the potential for the land to produce food and allows water to penetrate the soil, thus carrying important nutrients to the roots of the plants. We must learn to live within the limits of the scarcity of water in our dry country.
+                  </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    The use of alternative fuels or efficient wood burning stoves and ovens reduces deforestation. Establishing timber plantations and using alternative building materials saves natural forests.
+                  </p>
+                </div>
+              </div>
+              <div
+                className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateMiddleColumnContainer"
+                style={
+                  Object {
+                    "backgroundColor": "rgb(undefined)",
+                  }
+                }
+              >
+                <h4
+                  className="ContentPageSubsectionSubtitle"
+                >
+                  Livestock Management
+                </h4>
+                <div>
+                  <div>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      Many farmers use rotational grazing where farmlands are divided into camps. Practicing rotational and seasonal grazing allows used areas time to recover.
+                    </p>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      Recovery of damaged land occurs faster if it is protected from the impact of overgrazing. Proper herd size is necessary to prevent overgrazing, trampling of the land and reducing predator problems. A balance of grazing and browsing animals reduces the pressure on one vegetation type.
+                    </p>
+                    <img
+                      alt="Sustainable development"
+                      className="FullWidth"
+                      src="Sustainable_Development.png"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateRightColumnContainer"
+              >
+                <h4
+                  className="ContentPageSubsectionSubtitle"
+                >
+                  Wildlife Management
+                </h4>
+                <h5
+                  className="ContentPageSubsectionSubtitleSecondary"
+                />
+                <div>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    Allowing wild animals to migrate naturally through farm areas promotes the balance of browsers and grazers, and allows predators their food at wild game. This reduces the temptation to take domestic stock.
+                  </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    Ethical hunting removes older animals while predators prey on the young, diseased, and genetically weak. Together they keep wild herds healthy and in check.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

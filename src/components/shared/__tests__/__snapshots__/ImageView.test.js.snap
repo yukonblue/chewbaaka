@@ -25,7 +25,7 @@ exports[`ImageView component snapshot 1`] = `
         data-testid="ImageViewComponentCaptionPart"
       >
         <div
-          className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+          className="CaptionContainer"
           data-testid="CaptionComponentTestId"
           style={
             Object {
@@ -34,7 +34,7 @@ exports[`ImageView component snapshot 1`] = `
           }
         >
           <div
-            className="IconContainer IconContainer_DebugColor DebugWireframe"
+            className="IconContainer"
           >
             <i
               aria-hidden="true"
@@ -43,7 +43,7 @@ exports[`ImageView component snapshot 1`] = `
             />
           </div>
           <p
-            className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+            className="ContentPageCaptionTextSize CaptionText"
           >
             This is a caption
           </p>
@@ -79,7 +79,7 @@ exports[`ImageView component with image credit string snapshot 1`] = `
         data-testid="ImageViewComponentCaptionPart"
       >
         <div
-          className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+          className="CaptionContainer"
           data-testid="CaptionComponentTestId"
           style={
             Object {
@@ -88,7 +88,7 @@ exports[`ImageView component with image credit string snapshot 1`] = `
           }
         >
           <div
-            className="IconContainer IconContainer_DebugColor DebugWireframe"
+            className="IconContainer"
           >
             <i
               aria-hidden="true"
@@ -97,7 +97,7 @@ exports[`ImageView component with image credit string snapshot 1`] = `
             />
           </div>
           <p
-            className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+            className="ContentPageCaptionTextSize CaptionText"
           >
             This is a caption (Image credit: Image God)
           </p>

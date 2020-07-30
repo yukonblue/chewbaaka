@@ -17,7 +17,7 @@ exports[`ImageSlidingGallery component snapshot 1`] = `
       data-testid="ImageSlidingGalleryCaptionPart"
     >
       <div
-        className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+        className="CaptionContainer"
         data-testid="CaptionComponentTestId"
         style={
           Object {
@@ -26,7 +26,7 @@ exports[`ImageSlidingGallery component snapshot 1`] = `
         }
       >
         <div
-          className="IconContainer IconContainer_DebugColor DebugWireframe"
+          className="IconContainer"
         >
           <i
             aria-hidden="true"
@@ -35,7 +35,7 @@ exports[`ImageSlidingGallery component snapshot 1`] = `
           />
         </div>
         <p
-          className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+          className="ContentPageCaptionTextSize CaptionText"
         >
           Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words
         </p>

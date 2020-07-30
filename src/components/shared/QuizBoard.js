@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Jul 17, 2020
+ * Updated  : Jul 29, 2020
  */
 
 import React from 'react'
@@ -26,7 +26,10 @@ export default class QuizBoard extends React.Component {
     const items = this.props.items.map(this.renderItem);
 
     return (
-      <div style={componentDimensionStyle} className={getElementStyleClassName("QuizBoardOuterContainer")}>
+      <div
+        style={componentDimensionStyle}
+        className={getElementStyleClassName("QuizBoardOuterContainer")}
+      >
         <div className="QuizBoardInnerContainer">
           {items}
         </div>

@@ -2,19 +2,19 @@
 
 exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
 <div
-  className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+  className="ContentPageSubsectionTemplateOuterContainer"
 >
   <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
   >
     <h3
-      className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+      className="ContentPageSubsectionTitle"
     >
       Feet and Claws
     </h3>
     <div>
       <div
-        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+        className="ContentPageSubsectionPartContainer"
       >
         <div
           className="OverflowHidden"
@@ -46,7 +46,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                     data-testid="ImageViewComponentCaptionPart"
                   >
                     <div
-                      className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                      className="CaptionContainer"
                       data-testid="CaptionComponentTestId"
                       style={
                         Object {
@@ -55,7 +55,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                       }
                     >
                       <div
-                        className="IconContainer IconContainer_DebugColor DebugWireframe"
+                        className="IconContainer"
                       >
                         <i
                           aria-hidden="true"
@@ -64,7 +64,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                         />
                       </div>
                       <p
-                        className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                        className="ContentPageCaptionTextSize CaptionText"
                       >
                         The paws of the cheetah have a distinct shape compared to some of the other carnivores.
                       </p>
@@ -120,7 +120,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
         </div>
       </div>
       <div
-        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+        className="ContentPageSubsectionPartContainer"
       >
         <div
           className="OverflowHidden"
@@ -192,7 +192,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                   data-testid="ImageViewComponentCaptionPart"
                 >
                   <div
-                    className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                    className="CaptionContainer"
                     data-testid="CaptionComponentTestId"
                     style={
                       Object {
@@ -201,7 +201,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                     }
                   >
                     <div
-                      className="IconContainer IconContainer_DebugColor DebugWireframe"
+                      className="IconContainer"
                     >
                       <i
                         aria-hidden="true"
@@ -210,7 +210,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                       />
                     </div>
                     <p
-                      className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                      className="ContentPageCaptionTextSize CaptionText"
                     >
                       Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability.
                     </p>
@@ -222,7 +222,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
         </div>
       </div>
       <div
-        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+        className="ContentPageSubsectionPartContainer"
       >
         <div
           className="OverflowHidden"
@@ -254,7 +254,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                     data-testid="ImageViewComponentCaptionPart"
                   >
                     <div
-                      className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+                      className="CaptionContainer"
                       data-testid="CaptionComponentTestId"
                       style={
                         Object {
@@ -263,7 +263,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                       }
                     >
                       <div
-                        className="IconContainer IconContainer_DebugColor DebugWireframe"
+                        className="IconContainer"
                       >
                         <i
                           aria-hidden="true"
@@ -272,7 +272,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                         />
                       </div>
                       <p
-                        className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+                        className="ContentPageCaptionTextSize CaptionText"
                       >
                         Cheetah dewclaw.
                       </p>
@@ -328,13 +328,13 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
         </div>
       </div>
       <div
-        className="ContentPageSubsectionPartContainer ContentPageSubsectionPartContainer_DebugColor DebugWireframe"
+        className="ContentPageSubsectionPartContainer"
       >
         <div
           className="VerticalCushionPadding"
         />
         <div
-          className="AfricanWildlifeTracksIllustrationOuterContainer AfricanWildlifeTracksIllustrationOuterContainer_DebugColor DebugWireframe"
+          className="AfricanWildlifeTracksIllustrationOuterContainer"
         >
           <div>
             <h4

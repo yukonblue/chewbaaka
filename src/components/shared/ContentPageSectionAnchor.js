@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 07, 2020
+ * Updated  : Jul 29, 2020
  */
 
 /**
@@ -25,20 +25,21 @@
  *    Used to generate the anchor point id.
  */
 
-import React from 'react';
+import React from 'react'
 
 function ContentPageSectionTitleToAnchorId(title) {
   return title.toLowerCase().replace(/\s/g , "-");
 };
 
-function ContentPageSectionAnchor(props) {
+export default function ContentPageSectionAnchor(props) {
   return (
-    <div id={ContentPageSectionTitleToAnchorId(props.title)} data-testid="ContentPageSectionAnchorComponentTestId" />
+    <div
+      id={ContentPageSectionTitleToAnchorId(props.title)}
+      data-testid="ContentPageSectionAnchorComponentTestId"
+    />
   );
 }
 
 export {
   ContentPageSectionTitleToAnchorId
 }
-
-export default ContentPageSectionAnchor;

@@ -60,7 +60,7 @@ export default class ImageViewModal extends React.Component {
               <Icon
                 name="file image"
                 color="black"
-                size="huge"
+                size="large"
                 onClick={this.handleOpen}
               />
             </div>

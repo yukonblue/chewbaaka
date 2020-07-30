@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 05, 2020
+ * Updated  : Jul 29, 2020
  */
 
 /**
@@ -35,13 +35,20 @@
  *    w.r.t. the entire control.
  */
 
-import React from 'react';
+import React from 'react'
 
-import "semantic-ui-css/semantic.min.css";
+import {
+  Button,
+  Container,
+  Header,
+  Icon,
+  Image,
+  Progress
+} from 'semantic-ui-react'
 
-import { Button, Container, Header, Icon, Image, Progress } from 'semantic-ui-react'
+import 'semantic-ui-css/semantic.min.css'
 
-class ImageSlideDiscrete extends React.Component {
+export default class ImageSlideDiscrete extends React.Component {
 
   // TODO: Style this component.
 
@@ -88,19 +95,42 @@ class ImageSlideDiscrete extends React.Component {
 
     return (
       <div data-testid="ImageSlideDiscreteComponentTestId">
-        <Header as='h1' data-testid="ImageSlideDiscreteComponentTitlePartTestId">{this.props.title}</Header>
+        <Header
+          as='h1'
+          data-testid="ImageSlideDiscreteComponentTitlePartTestId"
+        >
+          {this.props.title}
+        </Header>
         <Container>
-          <Image src={this.props.images[this.state.index]} fluid data-testid="ImageSlideDiscreteComponentImgPartTestId" />
+          <Image
+            src={this.props.images[this.state.index]}
+            fluid
+            data-testid="ImageSlideDiscreteComponentImgPartTestId"
+          />
         </Container>
-        <Progress size="tiny" percent={this.state.percent} data-testid="ImageSlideDiscreteComponentProgressIndicatorPartTestId" >
+        <Progress
+          size="tiny"
+          percent={this.state.percent}
+          data-testid="ImageSlideDiscreteComponentProgressIndicatorPartTestId"
+        >
           {labels[this.state.index]}
         </Progress>
         <Container textAlign={controlButtonsAlignment}>
-          <Button icon labelPosition='left' onClick={this.handleDecrementButtonClick} data-testid="ImageSlideDiscreteComponentDecrementButtonPartTestId" >
+          <Button
+            icon
+            labelPosition='left'
+            onClick={this.handleDecrementButtonClick}
+            data-testid="ImageSlideDiscreteComponentDecrementButtonPartTestId"
+          >
             {this.props.decrementButtonLabel}
             <Icon name='left arrow' />
           </Button>
-          <Button icon labelPosition='right' onClick={this.handleIncrementButtonClick} data-testid="ImageSlideDiscreteComponentIncrementButtonPartTestId">
+          <Button
+            icon
+            labelPosition='right'
+            onClick={this.handleIncrementButtonClick}
+            data-testid="ImageSlideDiscreteComponentIncrementButtonPartTestId"
+          >
             {this.props.incrementButtonLabel}
             <Icon name='right arrow' />
           </Button>
@@ -109,5 +139,3 @@ class ImageSlideDiscrete extends React.Component {
     )
   }
 }
-
-export default ImageSlideDiscrete;

@@ -4,14 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Jul 29, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import { Grid, GridColumn } from 'semantic-ui-react'
 
-import "semantic-ui-css/semantic.min.css";
+import 'semantic-ui-css/semantic.min.css'
 
 import './ContentPageTableOfContentMenuTemplate.css'
 
@@ -21,7 +21,7 @@ import { ContentPageSectionTitleToAnchorId } from '../shared/ContentPageSectionA
 
 import CircularImageButton from '../shared/CircularImageButton'
 
-function ContentPageTableOfContentMenuTemplate(props) {
+export default function ContentPageTableOfContentMenuTemplate(props) {
   // TODO: Handle multi-row menu.
 
   const gridColumns = [];
@@ -49,5 +49,3 @@ function ContentPageTableOfContentMenuTemplate(props) {
     </div>
   );
 }
-
-export default ContentPageTableOfContentMenuTemplate;

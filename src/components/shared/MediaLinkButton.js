@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 23, 2020
+ * Updated  : Jul 29, 2020
  */
 
 /**
@@ -25,7 +25,7 @@
  *    https://react.semantic-ui.com/elements/icon/
  */
 
-import React from 'react';
+import React from 'react'
 
 import { Button, Icon } from 'semantic-ui-react'
 

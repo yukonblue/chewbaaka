@@ -2,7 +2,7 @@
 
 exports[`ContentPageSubsectionSubtitle component snapshot 1`] = `
 <h4
-  className="ContentPageSubsectionSubtitle ContentPageSubsectionSubtitle_DebugColor DebugWireframe"
+  className="ContentPageSubsectionSubtitle"
 >
   Hello, World
 </h4>

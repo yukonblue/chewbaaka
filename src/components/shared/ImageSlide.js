@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Jul 29, 2020
  */
 
 /**
@@ -44,11 +44,11 @@
 
 import React from 'react'
 
-import "semantic-ui-css/semantic.min.css"
-
 import { Header, Label } from 'semantic-ui-react'
 
 import { Slider } from '@material-ui/core'
+
+import 'semantic-ui-css/semantic.min.css'
 
 import ContentPageCaptionLabel from './ContentPageCaptionLabel'
 

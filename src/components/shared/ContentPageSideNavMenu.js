@@ -4,10 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 14, 2020
+ * Updated  : Jul 29, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import { Menu } from 'semantic-ui-react'
 
@@ -15,9 +15,9 @@ import { ContentPageSectionTitleToAnchorId } from './ContentPageSectionAnchor'
 
 import { getElementStyleClassName } from '../../styling/styling'
 
-import './ContentPageSideNavMenu.css'
+import 'semantic-ui-css/semantic.min.css'
 
-import "semantic-ui-css/semantic.min.css";
+import './ContentPageSideNavMenu.css'
 
 export default class ContentPageSideNavMenu extends React.Component {
 

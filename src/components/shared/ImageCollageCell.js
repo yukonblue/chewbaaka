@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 11, 2020
+ * Updated  : Jul 29, 2020
  */
 
 /**
@@ -29,11 +29,11 @@
  *  - `height` (optional): Desired height of the cell.
  */
 
-import React from 'react';
-
-import "semantic-ui-css/semantic.min.css";
+import React from 'react'
 
 import { Image, Reveal } from 'semantic-ui-react'
+
+import 'semantic-ui-css/semantic.min.css'
 
 import { getElementStyleClassName } from '../../styling/styling'
 
@@ -48,19 +48,36 @@ export default class ImageCollageCell extends React.Component {
           <Reveal animated='move down'>
             <Reveal.Content hidden>
               <div className={getElementStyleClassName("ImageCollageCellCore")}>
-                <Image className="" src={this.props.image} width={this.props.width} height={this.props.height} href={this.props.href} />
+                <Image
+                  src={this.props.image}
+                  width={this.props.width}
+                  height={this.props.height}
+                  href={this.props.href}
+                />
                 <div className={getElementStyleClassName("ImageCollageCellTitleGroupOuterContainer")}>
-                  <p className={getElementStyleClassName("ImageCollageCellSubtitleText")}>{this.props.subtitle}</p>
-                  <h2 className={getElementStyleClassName("ImageCollageCellTitleText")}>{this.props.title}</h2>
+                  <p className={getElementStyleClassName("ImageCollageCellSubtitleText")}>
+                    {this.props.subtitle}
+                  </p>
+                  <h2 className={getElementStyleClassName("ImageCollageCellTitleText")}>
+                    {this.props.title}
+                  </h2>
                 </div>
               </div>
             </Reveal.Content>
             <Reveal.Content visible>
               <div className={getElementStyleClassName("ImageCollageCellCore")}>
-                <Image className="ImageCollageCellImgVisibleStyle"  src={this.props.image} width={this.props.width} height={this.props.height} href={this.props.href} />
+                <Image
+                  className="ImageCollageCellImgVisibleStyle"
+                  src={this.props.image}
+                  width={this.props.width}
+                  height={this.props.height}
+                  href={this.props.href}
+                />
                 <div className={getElementStyleClassName("ImageCollageCellTitleGroupOuterContainer")}>
                   {/* <p className={getElementStyleClassName("ImageCollageCellSubtitleText")}>{this.props.subtitle}</p> */}
-                  <h2 className={getElementStyleClassName("ImageCollageCellTitleText")}>{this.props.title}</h2>
+                  <h2 className={getElementStyleClassName("ImageCollageCellTitleText")}>
+                    {this.props.title}
+                  </h2>
                 </div>
               </div>
             </Reveal.Content>

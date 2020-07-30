@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 05, 2020
+ * Updated  : Jul 29, 2020
  */
 
 /**
@@ -22,17 +22,17 @@
  *  - `contentImage`: The content image to show upon hovered.
  */
 
-import React from 'react';
-
-import "semantic-ui-css/semantic.min.css";
+import React from 'react'
 
 import { Image, Reveal } from 'semantic-ui-react'
+
+import 'semantic-ui-css/semantic.min.css'
 
 import { getRevealComponentAnimation } from './RevealComponentAnimation'
 
 import './ImageReveal.css'
 
-class ImageReveal extends React.Component {
+export default class ImageReveal extends React.Component {
 
   render() {
     return (
@@ -51,5 +51,3 @@ class ImageReveal extends React.Component {
     )
   }
 }
-
-export default ImageReveal;

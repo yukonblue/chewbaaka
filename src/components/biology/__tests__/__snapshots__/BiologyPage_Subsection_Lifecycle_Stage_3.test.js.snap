@@ -2,24 +2,24 @@
 
 exports[`BiologyPageSubsectionLifecycleStage3 component snapshot 1`] = `
 <div
-  className="ContentPageSubsectionTemplateOuterContainer ContentPageSubsectionTemplateOuterContainer_DebugColor DebugWireframe"
+  className="ContentPageSubsectionTemplateOuterContainer"
 >
   <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageSubsectionTemplateInnerContainer_DebugColor DebugWireframe ContentPageContentInnerContentDimension ContentPageContentInnerContentDimension_DebugColor DebugWireframe"
+    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
   >
     <h3
-      className="ContentPageSubsectionTitle ContentPageSubsectionTitle_DebugColor DebugWireframe"
+      className="ContentPageSubsectionTitle"
     >
       Stage 3
     </h3>
     <div>
       <p
-        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
       >
         Stage three begins at the age 18 to 22 months when the cubs have grown to sub-adults and leave their mother. The sub-adults will remain together for up to six more months. At first, their success rate at capturing prey is poor.
       </p>
       <p
-        className="ContentPageRegularTextSize ContentPageRegularTextSize_DebugColor DebugWireframe ContentPageRegularTextLineHeight ContentPageRegularTextLineHeight_DebugColor DebugWireframe ContentPageContentParagraphText ContentPageContentParagraphText_DebugColor DebugWireframe"
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
       >
         Cheetahs are diurnal, hunting mornings and early evenings. They rely on their sight to find prey. They spend most of the day resting under shady trees or on termite mounds. Night hunting is only done during a bright moon.
       </p>

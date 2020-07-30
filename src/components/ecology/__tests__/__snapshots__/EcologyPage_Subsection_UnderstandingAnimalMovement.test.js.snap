@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EcologyPageSubsectionUnderstandingAnimalMovement component snapshot 1`] = `
+<div
+  className="ContentPageSubsectionTemplateOuterContainer"
+>
+  <div
+    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  >
+    <h3
+      className="ContentPageSubsectionTitle"
+    >
+      Understanding Animal Movement
+    </h3>
+    <div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          To understand how cheetahs use their habitat you must be able to identify individual animals and record their position periodically. Individual photos or distinctive collars would be useful if cheetahs were frequently sighted, but they are not. Trackers may note the spoor (tracks) of a particular cheetah at various places and estimates when they were made. This is difficult due to the large ranges they cover and the fact that individuals are hard to identify.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          The preferred method to study cheetah movement is to radio-track individuals. A lightweight collar carrying a battery pack and a small transmitter is fitted around the cheetah’s neck. The scientist uses a receiver and a special directional antenna (either in the ground or from a plane) to pick up the cheetah’s signal. The receiver transmits the signal into beeps. Each collar’s transmitter has a different radio frequency so that many cheetahs can be located during one “radio-tracking session”.
+        </p>
+      </div>
+      <div>
+        <div
+          className="ContentPageSubsectionPartContainer"
+        >
+          <h4
+            className="ContentPageSubsectionSubtitle"
+          />
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Estimating population size is crucial in species conservation.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Conducting a repeatable and consistent census methodology for cheetahs has been a part of the Cheetah Conservation Fund’s (CCF’s) on-going research.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            CCF’s researchers use spoor tracking, radio telemetry and camera trapping. These techniques are tested and compared to determine whether one technique produces better census result.
+          </p>
+        </div>
+        <div
+          className="ContentPageSubsectionPartContainer"
+        >
+          <h4
+            className="ContentPageSubsectionSubtitle"
+          >
+            Radio Telemetry
+          </h4>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            CCF tracked cheetahs by airplane, as well as on the ground one to two times per week between 1992 and 2002. Today CCF uses satellite collars for tracking cheetahs.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Radio telemetry analysis was utilized as a comparative method to assess the precision of spoor tracking results.
+          </p>
+        </div>
+        <div
+          className="ContentPageSubsectionPartContainer"
+        >
+          <h4
+            className="ContentPageSubsectionSubtitle"
+          >
+            Spoor Tracking
+          </h4>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Spoor tracking data is collected monthly by driving specific routes.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Spoor frequency is calculated by dividing the total distance between the numbers of samples of fresh spoor.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Spoor density is calculated by dividing the number of fresh spoor between the total distances. Spoor tracking proved promising as a census technique as it displayed a positive relationship with the densities reported in the radio telemetry study.
+          </p>
+        </div>
+        <div
+          className="ContentPageSubsectionPartContainer"
+        >
+          <h4
+            className="ContentPageSubsectionSubtitle"
+          >
+            Camera Trapping
+          </h4>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Three study areas, each at 200 km sqr are divided into grids. These areas combined are equal to the size of a cheetah’s home range area.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            A camera trap location is allocated to the study areas; this takes periods of ground trothing in order to identify play trees and suitable farm roads where cameras can be placed.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Two heat sensor monitor cameras are used at each camera trap site in order for both sides of a cheetah to be captured - this allows for more accurate identification.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Using camera traps, CCF researchers are able to determine the amount of male and female cheetahs by individually identifying each of the cheetahs captured on camera. Analysis allows for an estimate of the population size within the study area.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            After collecting and processing photos on computers, identification can begin.
+          </p>
+        </div>
+        <div
+          className="ContentPageSubsectionPartContainer"
+        >
+          <div
+            className="Centered"
+            style={
+              Object {
+                "width": 720,
+              }
+            }
+          >
+            <div
+              className="ImageSlidingGalleryDiscreteOuterContainer"
+              style={
+                Object {
+                  "height": 620,
+                  "width": 720,
+                }
+              }
+            >
+              <div
+                className="ImageSlidingGalleryDiscreteCoreContainer"
+                style={
+                  Object {
+                    "height": 620,
+                    "width": 720,
+                  }
+                }
+              >
+                <img
+                  alt="Spoor tracking data collection."
+                  className="ImageSlidingGalleryDiscreteImgPart"
+                  src="Spoor_Tracking_Data_Collection.jpg"
+                  style={
+                    Object {
+                      "height": 480,
+                      "width": 720,
+                    }
+                  }
+                />
+                <div
+                  className="ImageSlidingGalleryDiscreteCaptionPart"
+                  data-testid="ImageSlidingGalleryDiscreteCaptionPart"
+                >
+                  <div
+                    className="CaptionContainer"
+                    data-testid="CaptionComponentTestId"
+                    style={
+                      Object {
+                        "width": undefined,
+                      }
+                    }
+                  >
+                    <div
+                      className="IconContainer"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
+                    </div>
+                    <p
+                      className="ContentPageCaptionTextSize CaptionText"
+                    >
+                      Spoor tracking data collection.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="ImageSlidingGalleryDiscreteButtonGroupContainer"
+                >
+                  <div
+                    className="ui buttons"
+                  >
+                    <button
+                      className="ui yellow huge button"
+                      onClick={[Function]}
+                    >
+                      0
+                    </button>
+                    <button
+                      className="ui blue huge button"
+                      onClick={[Function]}
+                    >
+                      1
+                    </button>
+                    <button
+                      className="ui blue huge button"
+                      onClick={[Function]}
+                    >
+                      2
+                    </button>
+                    <button
+                      className="ui blue huge button"
+                      onClick={[Function]}
+                    >
+                      3
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonLhsContainer"
+                style={
+                  Object {
+                    "top": 218.5,
+                  }
+                }
+              >
+                <button
+                  className="ui blue large circular icon disabled button"
+                  disabled={true}
+                  onClick={[Function]}
+                  tabIndex={-1}
+                >
+                  <i
+                    aria-hidden="true"
+                    className="arrow alternate circle left outline icon"
+                    onClick={[Function]}
+                  />
+                </button>
+              </div>
+              <div
+                className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonRhsContainer"
+                style={
+                  Object {
+                    "top": 218.5,
+                  }
+                }
+              >
+                <button
+                  className="ui blue large circular icon button"
+                  onClick={[Function]}
+                >
+                  <i
+                    aria-hidden="true"
+                    className="arrow alternate circle right outline icon"
+                    onClick={[Function]}
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

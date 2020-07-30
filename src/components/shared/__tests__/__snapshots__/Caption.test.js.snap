@@ -2,7 +2,7 @@
 
 exports[`Caption component snapshot 1`] = `
 <div
-  className="CaptionContainer CaptionContainer_DebugColor DebugWireframe"
+  className="CaptionContainer"
   data-testid="CaptionComponentTestId"
   style={
     Object {
@@ -11,7 +11,7 @@ exports[`Caption component snapshot 1`] = `
   }
 >
   <div
-    className="IconContainer IconContainer_DebugColor DebugWireframe"
+    className="IconContainer"
   >
     <i
       aria-hidden="true"
@@ -20,7 +20,7 @@ exports[`Caption component snapshot 1`] = `
     />
   </div>
   <p
-    className="ContentPageCaptionTextSize ContentPageCaptionTextSize_DebugColor DebugWireframe CaptionText CaptionText_DebugColor DebugWireframe"
+    className="ContentPageCaptionTextSize CaptionText"
   >
     This is a caption
   </p>

@@ -30,7 +30,7 @@ exports[`CheetahOlympics component snapshot 1`] = `
       (hover over the squares below to find out)
     </p>
     <div
-      className="QuizBoardOuterContainer QuizBoardOuterContainer_DebugColor DebugWireframe"
+      className="QuizBoardOuterContainer"
       style={
         Object {
           "height": 1040,
@@ -586,10 +586,10 @@ exports[`CheetahOlympics component snapshot 1`] = `
   </div>
   <div>
     <div
-      className="QnAPopUpContainer QnAPopUpContainer_DebugColor DebugWireframe"
+      className="QnAPopUpContainer"
     >
       <div
-        className="QnAPopUpButtonGroupContainer QnAPopUpButtonGroupContainer_DebugColor DebugWireframe"
+        className="QnAPopUpButtonGroupContainer"
       >
         <div
           className="ui blue large label"
@@ -609,7 +609,7 @@ exports[`CheetahOlympics component snapshot 1`] = `
         </div>
       </div>
       <div
-        className="QnAPopUpTextSecondaryBubbleContainer QnAPopUpTextSecondaryBubbleContainer_DebugColor DebugWireframe"
+        className="QnAPopUpTextSecondaryBubbleContainer"
       >
         <div
           className="TextBubbleOuterContainer"
@@ -653,7 +653,7 @@ exports[`CheetahOlympics component snapshot 1`] = `
         </div>
       </div>
       <div
-        className="QnAPopUpMainTextBubbleContainer QnAPopUpMainTextBubbleContainer_DebugColor DebugWireframe"
+        className="QnAPopUpMainTextBubbleContainer"
       >
         <div
           className="TextBubbleOuterContainer"

@@ -23,17 +23,17 @@
  *  - `description`: The content text to show upon hovered.
  */
 
-import React from 'react';
-
-import "semantic-ui-css/semantic.min.css";
+import React from 'react'
 
 import { Image, Reveal } from 'semantic-ui-react'
+
+import 'semantic-ui-css/semantic.min.css'
 
 import { getRevealComponentAnimation } from './RevealComponentAnimation'
 
 import './ImageRevealDetailedWithTextCover.css'
 
-class ImageRevealDetailedWithTextCover extends React.Component {
+export default class ImageRevealDetailedWithTextCover extends React.Component {
 
   render() {
     const defaultColor = "green";
@@ -43,9 +43,15 @@ class ImageRevealDetailedWithTextCover extends React.Component {
     }
 
     return (
-      <Reveal animated={getRevealComponentAnimation(this.props.animation)} data-testid="ImageRevealDetailedWithTextCoverComponentTestId">
+      <Reveal
+        animated={getRevealComponentAnimation(this.props.animation)}
+        data-testid="ImageRevealDetailedWithTextCoverComponentTestId"
+      >
         <Reveal.Content visible data-testid="ImageRevealDetailedWithTextCoverComponentVisiblePartTestId">
-          <div className="ImageRevealDetailedWithTextCoverComponentCoverDiv" style={componentCoverDivStyles}>
+          <div
+            className="ImageRevealDetailedWithTextCoverComponentCoverDiv"
+            style={componentCoverDivStyles}
+          >
             <p>{this.props.title}</p>
           </div>
         </Reveal.Content>
@@ -56,7 +62,7 @@ class ImageRevealDetailedWithTextCover extends React.Component {
               className="ImageRevealDetailedWithTextCoverComponentDescriptionText"
               data-testid="ImageRevealDetailedWithTextCoverComponentDescriptionTextPartTestId"
             >
-                {this.props.description}
+              {this.props.description}
             </p>
           </div>
         </Reveal.Content>
@@ -64,5 +70,3 @@ class ImageRevealDetailedWithTextCover extends React.Component {
     )
   }
 }
-
-export default ImageRevealDetailedWithTextCover;

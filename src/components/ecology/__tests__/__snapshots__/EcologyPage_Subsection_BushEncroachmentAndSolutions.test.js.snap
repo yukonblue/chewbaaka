@@ -1,0 +1,428 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`] = `
+<div
+  className="ContentPageSubsectionTemplateOuterContainer"
+>
+  <div
+    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  >
+    <h3
+      className="ContentPageSubsectionTitle"
+    >
+      Bush Encroachment and Solutions
+    </h3>
+    <div>
+      <div>
+        <div
+          className="ContentPageSubsectionPartContainer"
+        >
+          <h4
+            className="ContentPageSubsectionSubtitle"
+          >
+            Bush Encroachment
+          </h4>
+          <div
+            className="OverflowHidden"
+          >
+            <div
+              className="FloatRight HorizontalCusionPaddingLeft"
+            >
+              <div
+                className="ImageViewOuterContainer"
+              >
+                <div
+                  className="ImageViewInnerContainer"
+                >
+                  <div
+                    className="ImageViewCore"
+                  >
+                    <img
+                      alt="Thickened thorn bush degrades entire habitat and poses problems for all species of animals in that habitat. (Image credit: Cheetah Conservation Fund)"
+                      className="ImageViewImg"
+                      src="bush_encroachment.jpg"
+                      style={
+                        Object {
+                          "height": 450,
+                          "width": 600,
+                        }
+                      }
+                    />
+                    <div
+                      data-testid="ImageViewComponentCaptionPart"
+                    >
+                      <div
+                        className="CaptionContainer"
+                        data-testid="CaptionComponentTestId"
+                        style={
+                          Object {
+                            "width": 600,
+                          }
+                        }
+                      >
+                        <div
+                          className="IconContainer"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
+                        </div>
+                        <p
+                          className="ContentPageCaptionTextSize CaptionText"
+                        >
+                          Thickened thorn bush degrades entire habitat and poses problems for all species of animals in that habitat. (Image credit: Cheetah Conservation Fund)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              One of the most serious environmental threats facing Namibia is bush encroachment. Approximately 14 million hectares of land (12% of Namibia) is now so badly encroached that neither man nor livestock can penetrate it.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Under natural conditions, the savannas are covered with grasslands, scattered trees and shrubs, supporting a wide variety of wildlife. Herbivores usually feed intensely in localized areas for short periods of time. Plants and tress experience brief and intense browsing and grazing pressure separated by extended rest periods. This, combined with regular fires, maintains a balance between trees and grasses. Larger animals like elephant and rhino aid in controlling the growth of bush.
+            </p>
+          </div>
+        </div>
+        <div
+          className="ContentPageSubsectionPartContainer"
+        >
+          <h4
+            className="ContentPageSubsectionSubtitle"
+          >
+            How does Stock Farming Contribute to Bush Encroachment
+          </h4>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Domestic livestock are primarily grazers. Farm fences prevent livestock from moving freely. If not properly managed, this results in overgrazing. This occurs when animals continue to graze and trampling the land on which they are kept, thus allowing little time for grass species to grow and seed. This leads to the gradual decline of grass species and allows the bush to grow out of control. The prevention of fires adds to bush encroachment.
+          </p>
+        </div>
+        <div
+          className="ContentPageSubsectionPartContainer"
+        >
+          <h4
+            className="ContentPageSubsectionSubtitle"
+          >
+            Cheetah Survival in Bush Encroached Areas
+          </h4>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Bush encroachment reduces carrying capacity for both livestock and game species. As bush encroachment increases, cheetahs must adopt their hunting techniques. Ambush tactics may replace the characteristic high-speed chase. Scientists are investigating a possible link between the increased occurrences of cheetah eye injuries and their hunting in bush encroached areas.
+          </p>
+        </div>
+      </div>
+      <div>
+        <div
+          className="ContentPageSubsectionPartContainer"
+        >
+          <h4
+            className="ContentPageSubsectionSubtitle"
+          >
+            Bush Encroachment Threatens Cheetah Survival
+          </h4>
+          <div
+            className="OverflowHidden"
+          >
+            <div
+              className="FloatLeft HorizontalCusionPaddingRight"
+            >
+              <div
+                className="ImageViewOuterContainer"
+              >
+                <div
+                  className="ImageViewInnerContainer"
+                >
+                  <div
+                    className="ImageViewCore"
+                  >
+                    <img
+                      alt="Cheetahs faced even more hardship in bush encroached territories. They have to adapt in every aspect of their life, such as hunting."
+                      className="ImageViewImg"
+                      src="Cheetah_Battle_Bush_Encroachment.jpg"
+                      style={
+                        Object {
+                          "height": 423,
+                          "width": 640,
+                        }
+                      }
+                    />
+                    <div
+                      data-testid="ImageViewComponentCaptionPart"
+                    >
+                      <div
+                        className="CaptionContainer"
+                        data-testid="CaptionComponentTestId"
+                        style={
+                          Object {
+                            "width": 640,
+                          }
+                        }
+                      >
+                        <div
+                          className="IconContainer"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
+                        </div>
+                        <p
+                          className="ContentPageCaptionTextSize CaptionText"
+                        >
+                          Cheetahs faced even more hardship in bush encroached territories. They have to adapt in every aspect of their life, such as hunting.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Cheetahs hunt in open or semi-open savanna using bursts of speed. But Namibia’s livestock farmlands, where 90% of the cheetahs live, are less desirable for the cheetahs and the farmers due to bush encroachment. Bush encroachment, a form of desertification, is caused from overgrazing of livestock on the arid lands and unpredictable and regular droughts.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              The deep rooted thorn bushes reduce the water table and compete with the grasses and become a thicket, taking the underground water and causing desertation. Bush encroachment causes changes in habitats and the mix of prey species on the land.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              The cheetah’s rangeland has been infested with undesirable thickened thorn bush species. Bush encroachment reduces the amount of grasslands and poses a major livelihood threat to Namibians, as well as to the cheetah and other wildlife species.
+            </p>
+          </div>
+        </div>
+        <div
+          className="ContentPageSubsectionPartContainer"
+        >
+          <h4
+            className="ContentPageSubsectionSubtitle"
+          >
+            Cheetah Conservation Fund’s (CCF) Bush Project
+          </h4>
+          <div
+            className="OverflowHidden"
+          >
+            <div
+              className="FloatRight HorizontalCusionPaddingLeft"
+            >
+              <img
+                alt="FSC logo"
+                src="fsc_logo.png"
+              />
+            </div>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              CCF Bush (PTY) LTD, began in 2000, with the support from the United States Agency for International Development (USAID), to study and develop an ecologically and economically viable habitat restoration program. The goal of CCF Bush is to stimulate the development of a Namibian Biomass industry, thereby protecting the bush ecosystem, restoring wildlife habitat, improving farming productivity, creating employment opportunities and providing clean, renewable energy.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              CCF harvests the thickened thorn bush, converting it into a clean-burning, biomass fuel log known as Bushblok ™. CCF has restored hundreds of hectares of savanna grasslands for livestock, wildlife and cheetahs to share. In 2006, CCF obtained Forest Stewardship Council (FSC) certification, confirming that it manages forest resources responsibly and sustainably.
+            </p>
+          </div>
+        </div>
+        <div
+          className="ContentPageSubsectionPartContainer"
+        >
+          <h4
+            className="ContentPageSubsectionSubtitle"
+          >
+            The Bushblok project objectives are:
+          </h4>
+          <div
+            className="OverflowHidden"
+          >
+            <div
+              className="FloatRight HorizontalCusionPaddingLeft"
+            >
+              <img
+                alt="CCF Bushblok"
+                src="CCF_Bushblok_Logo.jpg"
+              />
+            </div>
+            <ul>
+              <li
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
+              >
+                To enhance the long-term survival of the cheetah and other species by restoring the grasslands.
+              </li>
+              <li
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
+              >
+                To provide an alternative to over-exploiting native Namibian trees for firewood and charcoal.
+              </li>
+              <li
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
+              >
+                To encourage industries to use intruder bush as a raw material.
+              </li>
+              <li
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
+              >
+                To provide standards for bush harvesting, chipping, processing and packaging.
+              </li>
+              <li
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
+              >
+                To employ, train and empower disadvantaged Namibians.
+              </li>
+              <li
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
+              >
+                To supply Namibians and international markets with compacted fuel log products.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <div
+          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+        >
+          <div
+            className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+          >
+            <div
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+            >
+              <div
+                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+              >
+                <h4
+                  className="ContentPageSubsectionSubtitle"
+                />
+                <div
+                  className="ImageViewOuterContainer"
+                >
+                  <div
+                    className="ImageViewInnerContainer"
+                  >
+                    <div
+                      className="ImageViewCore"
+                    >
+                      <img
+                        alt="Bushblok is produced at CCF from the waste product of habitat restoration. (Image credit: Cheetah Conservation Fund)"
+                        className="ImageViewImg"
+                        src="CCF_Bushblok_01.jpg"
+                        style={
+                          Object {
+                            "height": 360,
+                            "width": 640,
+                          }
+                        }
+                      />
+                      <div
+                        data-testid="ImageViewComponentCaptionPart"
+                      >
+                        <div
+                          className="CaptionContainer"
+                          data-testid="CaptionComponentTestId"
+                          style={
+                            Object {
+                              "width": 640,
+                            }
+                          }
+                        >
+                          <div
+                            className="IconContainer"
+                          >
+                            <i
+                              aria-hidden="true"
+                              className="image icon"
+                              onClick={[Function]}
+                            />
+                          </div>
+                          <p
+                            className="ContentPageCaptionTextSize CaptionText"
+                          >
+                            Bushblok is produced at CCF from the waste product of habitat restoration. (Image credit: Cheetah Conservation Fund)
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+              >
+                <h4
+                  className="ContentPageSubsectionSubtitle"
+                />
+                <div
+                  className="ImageViewOuterContainer"
+                >
+                  <div
+                    className="ImageViewInnerContainer"
+                  >
+                    <div
+                      className="ImageViewCore"
+                    >
+                      <img
+                        alt="Bushblok packaging for different markets. (Image credit: Cheetah Conservation Fund)"
+                        className="ImageViewImg"
+                        src="CCF_Bushblok_02.jpg"
+                        style={
+                          Object {
+                            "height": 360,
+                            "width": 640,
+                          }
+                        }
+                      />
+                      <div
+                        data-testid="ImageViewComponentCaptionPart"
+                      >
+                        <div
+                          className="CaptionContainer"
+                          data-testid="CaptionComponentTestId"
+                          style={
+                            Object {
+                              "width": 640,
+                            }
+                          }
+                        >
+                          <div
+                            className="IconContainer"
+                          >
+                            <i
+                              aria-hidden="true"
+                              className="image icon"
+                              onClick={[Function]}
+                            />
+                          </div>
+                          <p
+                            className="ContentPageCaptionTextSize CaptionText"
+                          >
+                            Bushblok packaging for different markets. (Image credit: Cheetah Conservation Fund)
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
