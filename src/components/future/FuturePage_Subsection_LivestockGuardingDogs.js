@@ -142,13 +142,12 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
           fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
         />
 
-        <div style={{width: 960}} className="Centered VerticalCushionPaddingTopLarge">
-          <img
+        <CenteredFullWidthContainer maxWidth={960} className="VerticalCushionPaddingTopLarge">
+          <FluidImageWrapper
             src={image_LGD}
             alt="Livestock Guarding Dogs"
-            style={{width: 960}}
           />
-        </div>
+        </CenteredFullWidthContainer>
       </ContentPageSubsectionPart>
     );
   }
