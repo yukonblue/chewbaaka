@@ -11,61 +11,59 @@ exports[`ContentPageHead component snapshot 1`] = `
     <div
       className="ContentPageTopNavMenuBarContainer"
     >
-      <div>
-        <div
-          className="ui secondary menu"
+      <div
+        className="ui secondary menu"
+      >
+        <a
+          href="/home"
         >
-          <a
-            href="/Home"
+          <div
+            className="item"
+            onClick={[Function]}
           >
-            <div
-              className="item"
-              onClick={[Function]}
-            >
-              Home
-            </div>
-          </a>
-          <a
-            href="/History"
+            Home
+          </div>
+        </a>
+        <a
+          href="/history"
+        >
+          <div
+            className="item"
+            onClick={[Function]}
           >
-            <div
-              className="item"
-              onClick={[Function]}
-            >
-              History
-            </div>
-          </a>
-          <a
-            href="/Biology"
+            History
+          </div>
+        </a>
+        <a
+          href="/biology"
+        >
+          <div
+            className="item"
+            onClick={[Function]}
           >
-            <div
-              className="item"
-              onClick={[Function]}
-            >
-              Biology
-            </div>
-          </a>
-          <a
-            href="/Ecology"
+            Biology
+          </div>
+        </a>
+        <a
+          href="/ecology"
+        >
+          <div
+            className="item"
+            onClick={[Function]}
           >
-            <div
-              className="item"
-              onClick={[Function]}
-            >
-              Ecology
-            </div>
-          </a>
-          <a
-            href="/Future"
+            Ecology
+          </div>
+        </a>
+        <a
+          href="/future"
+        >
+          <div
+            className="item"
+            onClick={[Function]}
           >
-            <div
-              className="item"
-              onClick={[Function]}
-            >
-              Future
-            </div>
-          </a>
-        </div>
+            Future
+          </div>
+        </a>
       </div>
     </div>
   </div>
