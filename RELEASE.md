@@ -1,5 +1,11 @@
 # Release Note
 
+## Version 0.1.3
+
+* Date: July 31, 2020
+* Notes:
+  * [Style][Fix] Fix issue in `ImageSlide` component where background and foreground images.
+
 ## Version 0.1.2
 
 * Date: July 31, 2020
