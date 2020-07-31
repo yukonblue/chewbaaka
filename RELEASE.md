@@ -3,6 +3,9 @@
 ## Version 0.1.3
 
 * Date: July 31, 2020
+* Commit: `5b0d163`
+* Tag: `v0.1.3`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.1.3)
 * Notes:
   * [Style][Fix] Fix issue in `ImageSlide` component where background and foreground images.
 
