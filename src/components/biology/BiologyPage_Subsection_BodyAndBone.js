@@ -84,6 +84,7 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
               content={part.contents["paragraph_01"]}
             />
           }
+          floatFixedSide={true}
         />
       </ContentPageSubsectionPart>
     );
@@ -106,6 +107,7 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
               alt="The cheetah's tail is responsible for controlling balance during a high speed run."
             />
           }
+          floatFixedSide={true}
         />
       </ContentPageSubsectionPart>
     );
@@ -114,23 +116,20 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
   renderPartBoneContent(part) {
     return (
       <ContentPageSubsectionPart>
-        <ContentPageSideFloatFluidContainer
-          floatPart={
-            <ImageView
-              image={image_cheetah_running_animated}
-              caption="The cheetah's flexible spine is a major contributing factor to its body dexterity, long strides, and speed."
-              width={500}
-              height={282}
-            />
-          }
-          fixedPart={
-            <TextBubble
-              diameter={760}
-              title={part.title}
-              content={ContentPageSubsectionParagraphsJoin(part.contents)}
-            />
-          }
+        <TextBubble
+          diameter={760}
+          title={part.title}
+          content={ContentPageSubsectionParagraphsJoin(part.contents)}
         />
+
+        <div className="Centered VerticalCushionPaddingTopLarge" style={{width: 500}}>
+          <ImageView
+            image={image_cheetah_running_animated}
+            caption="The cheetah's flexible spine is a major contributing factor to its body dexterity, long strides, and speed."
+            width={500}
+            height={282}
+          />
+        </div>
       </ContentPageSubsectionPart>
     );
   }

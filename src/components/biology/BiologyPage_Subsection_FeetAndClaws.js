@@ -79,6 +79,7 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
               content={ContentPageSubsectionParagraphsJoin(part.content)}
             />
           }
+          floatFixedSide={true}
         />
       </ContentPageSubsectionPart>
     );
@@ -103,6 +104,7 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
               height={480}
             />
           }
+          floatFixedSide={true}
         />
       </ContentPageSubsectionPart>
     );
