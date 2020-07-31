@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Jul 31, 2020
  */
 
 div.CircularImageButtonOuterContainer {
@@ -43,7 +43,7 @@ p.CircularImageButtonTitle {
   margin-top: 5px;
   text-align: center;
   font-size: 22px;
-  /* font-weight: 800; */
+  font-weight: bold;
 }
 
 p.CircularImageButtonTitle_DebugColor {
