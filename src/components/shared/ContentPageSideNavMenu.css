@@ -20,12 +20,21 @@ span.ContentPageSideNavMenuHeader {
 
 span.ContentPageSideNavMenuItem {
   line-height: 1.4em;
-  color: #626567;
+  color: #757575;
   font-size: 20px;
   font-weight: bold;
 }
 
 span.ContentPageSideNavMenuItem:hover {
   color: black;
-  /* font-weight: bold; */
+}
+
+.ui.text.vertical.menu.ContentPageSideNavMenuInnerMenu a.item {
+  padding-right: 25px;
+}
+
+.ui.text.vertical.menu.ContentPageSideNavMenuInnerMenu a.item:hover {
+  background-image: url("./assets/content_page_side_nav_menu_item_background.png");
+  background-repeat: no-repeat;
+  background-position: right center;
 }

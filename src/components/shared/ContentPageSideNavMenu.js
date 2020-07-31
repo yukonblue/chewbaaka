@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Jul 31, 2020
  */
 
 import React from 'react'
@@ -61,7 +61,7 @@ export default class ContentPageSideNavMenu extends React.Component {
         className={getElementStyleClassName("ContentPageSideNavMenuOuterContainer")}
         data-testid="ContentPageSideNavMenuComponentTestId"
       >
-        <Menu text vertical>
+        <Menu text vertical className="ContentPageSideNavMenuInnerMenu">
           <Menu.Item header>
             <span className="ContentPageSideNavMenuHeader">
               {this.props.title}
