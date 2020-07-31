@@ -285,7 +285,7 @@ export const config = {
               title: "Raising LGD’s",
               content: {
                 paragraph_01:
-                  "LGD’s are placed with their herds around nine weeks of age, as social bonding between the stock and the dogs depends upon " +
+                  "LGD’s are placed with their herds around nine weeks of age, as social bonding between the stock and the dogs deepens upon " +
                   "imprinting before 16 weeks of age. The dogs live with their livestock family instead of a human family, so the puppies bond with the herd; " +
                   "it becomes the dog’s pack rather than the dog’s potential prey. At CCF puppies are born in a whelping pen attached to the main goat yard."
               }
