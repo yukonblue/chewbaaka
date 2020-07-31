@@ -5,3 +5,8 @@
 [![Actions Status](https://github.com/tetrachrome/chewbaaka/workflows/Node.js%20CI/badge.svg)](https://github.com/tetrachrome/chewbaaka/actions)
 
 ![logo](./Resources/Chewbaaka_Logo_256x256.png)
+
+
+## Versions and Releases
+
+Release note can be found [here](./RELEASE.md).
