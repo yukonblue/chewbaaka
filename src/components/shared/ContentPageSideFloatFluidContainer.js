@@ -18,11 +18,20 @@ export default class ContentPageSideFloatFluidContainer extends React.Component 
 
     const floatClassName = this.props.RTL ? "FloatLeft" : "FloatRight";
 
-    const classNames = [floatClassName, halfWidthClassName];
+    let classNames = [floatClassName];
+
+    if (this.props.floatFixedSide) {
+      classNames.push(halfWidthClassName);
+    }
 
     const oppositeFloatClassName = this.props.floatFixedSide ? (this.props.RTL ? "FloatRight" : "FloatLeft") : "";
 
-    const oppositeClassNames = [oppositeFloatClassName, (this.props.floatFixedSide ? halfWidthClassName : "")];
+    let oppositeClassNames = [];
+
+    if (this.props.floatFixedSide) {
+      oppositeClassNames.push(oppositeFloatClassName);
+      oppositeClassNames.push(halfWidthClassName);
+    }
 
     return (
       <div className="OverflowHidden">
