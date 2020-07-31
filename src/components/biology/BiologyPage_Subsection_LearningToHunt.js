@@ -62,6 +62,7 @@ export default class BiologyPageSubsectionLearningToHunt extends React.Component
             content={ContentPageSubsectionParagraphsJoin(this.state.subsectionConfig.contents)}
           />
         }
+        floatFixedSide={true}
       />
     );
   }
