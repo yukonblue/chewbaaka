@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 09, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Jul 31, 2020
  */
 
 div.CaptionContainer {
@@ -29,7 +29,8 @@ p.CaptionText {
   /** Specify a height to make sure variable content
    * does not cause layout size change (i.e., page jump).
    */
-  max-height: 75px;
+  height: 70px;
+  max-height: 70px;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   margin-right: 5px;

@@ -6,7 +6,7 @@ exports[`ContentPageSideNavMenu component snapshot 1`] = `
   data-testid="ContentPageSideNavMenuComponentTestId"
 >
   <div
-    className="ui text vertical menu"
+    className="ui text vertical ContentPageSideNavMenuInnerMenu menu"
   >
     <div
       className="header item"
