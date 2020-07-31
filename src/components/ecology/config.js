@@ -92,7 +92,7 @@ export const config = {
                   "Because the unique weather patterns in this biome are driven mostly by cyclonic rains, summers have high temperatures and " +
                   "fogs are common near the coast. As a result, the vegetation are dominated by dwarf, succulent shrubs.",
                 paragraph_biome_nama_karoo:
-                  "The Nama Karoo biome is primarily determined by high peak seasonal rainfaills between December to March, " +
+                  "The Nama Karoo biome is primarily determined by high peak seasonal rainfalls between December to March, " +
                   "with average annual rainfall ranges between 100 mm to 500 mm. Vegetations are mostly consisted of dwarf shrubs, " +
                   "similar to that of the Succulent Karoo biome. Although the biodiversity of fauna in this biome is limited, " +
                   "there are many species of birds and reptiles that are endemic to this biome.",
