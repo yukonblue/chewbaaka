@@ -308,9 +308,9 @@ export const config = {
             part2: {
               content: {
                 paragraph_01:
-                  "A cheetah running the 249km from Otjiwarongo to Windhoek would need to stop to rest more than 311 times.",
+                  "A cheetah running the 249 km from Otjiwarongo to Windhoek would need to stop to rest more than 311 times.",
                 paragraph_02:
-                  "If it could run there without resting, it would take 2 hours and 26 minutes at 110km/hr."
+                  "If it could run there without resting, it would take 2 hours and 26 minutes at 110 km/hr."
               }
             }
           }
