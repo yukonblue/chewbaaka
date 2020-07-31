@@ -18,8 +18,6 @@ export default class ContentPageSideFloatFluidContainer extends React.Component 
 
     const floatClassName = this.props.RTL ? "FloatLeft" : "FloatRight";
 
-    // const paddingClassName = this.props.RTL ? "HorizontalCusionPaddingRight" : "HorizontalCusionPaddingLeft";
-
     const classNames = [floatClassName, halfWidthClassName];
 
     const oppositeFloatClassName = this.props.RTL ? "FloatRight" : "FloatLeft";
