@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Jul 31, 2020
  */
 
 import React from 'react'
@@ -91,7 +91,7 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
         <ContentPageSideFloatFluidContainer
           floatPart={
             <TextBubble
-              diameter={540}
+              diameter={490}
               title={part.title}
               content={ContentPageSubsectionParagraphsJoin(part.content)}
             />
