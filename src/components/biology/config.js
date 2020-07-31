@@ -133,7 +133,7 @@ export const config = {
               "and start their own families. They raise their families on their own without the help of the males.",
             paragraph_Lifecycle_Stage_4_03:
               "Males usually do not breed until they are 4 to 5 years of age, and dominant in a territory. "+
-              'They live alone or brothers form permanent groups called "coalitions". '+
+              'They live alone, or brothers form permanent groups called "coalitions". '+
               "These groups stay together for life, claim territories, hunt and find mates together."
           }
         },
