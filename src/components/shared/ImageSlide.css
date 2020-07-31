@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 09, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Jul 31, 2020
  */
 
 div.ImageSlideOuterContainer {
@@ -28,7 +28,15 @@ div.ImageSlideImgElementContainer {
   display: block;
   margin: 0 auto;
   max-width: 100%;
-  background-size: cover;
+  /**
+   * NOTE
+   *
+   * Here we want to make sure the background image is resized to make sure the image is fully visible.
+   * So we need to specify the background size to be 'contain'.
+   *
+   * https://www.w3schools.com/cssref/css3_pr_background-size.asp
+   */
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -37,8 +45,20 @@ div.ImageSlideImgElementContainer_DebugColor {
 }
 
 img.ImageSlideImgElement {
-  display: inline-block;
+  /**
+   * NOTE:
+   *
+   * Here we want the image to stretch to fit within the boundary of the container,
+   * and prevent potentially bleeding over the container's boundary
+   * (i.e. if the container dimension is LESS than the specified imageWidth).
+   *
+   * Specifying both the max-width and max-height to 100% does the trick:
+   * https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container
+   *
+   * Hell this is all magic isn't it ...
+   */
   max-width: 100%;
+  max-height: 100%;
 }
 
 div.ImageSlideSliderAndLabelOuterContainer {

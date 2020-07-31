@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Jul 31, 2020
  */
 
 /**
@@ -90,8 +90,18 @@ export default class ImageSlide extends React.Component {
       maxWidth: this.props.imageWidth
     };
 
+    /**
+     * NOTE
+     *
+     * No longer need to specify the image dimension since we
+     * now specify both max-width and max-height to be 100%
+     * in the .css file
+     *
+     * Following the advice from
+     * https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container
+     */
     const imageDimensionStyle = {
-      maxWidth: this.props.imageWidth,
+      // maxWidth: this.props.imageWidth,
     }
 
     const imgElementContainerStyle = {
