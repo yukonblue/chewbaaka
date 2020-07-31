@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 30, 2020
  */
 
 /**
@@ -22,15 +22,17 @@
 
 import React from 'react'
 
-import "semantic-ui-css/semantic.min.css"
-
 import { Button } from "semantic-ui-react"
 
-import './ImageSlidingGallery.css'
+import 'semantic-ui-css/semantic.min.css'
+
+import { getElementStyleClassName } from '../../styling/styling'
 
 import Caption from './Caption'
 
 import { getFormattedImageCaptionStringWithCredit } from './ImageCaptionUtils'
+
+import './ImageSlidingGallery.css'
 
 export default class ImageSlidingGallery extends React.Component {
 
@@ -56,20 +58,32 @@ export default class ImageSlidingGallery extends React.Component {
   }
 
   render() {
+    const componentOuterContainerDimension = {
+      maxWidth: this.props.width
+    };
+
     const activeSlide = this.props.slides[this.state.activeIndex];
 
     const caption = getFormattedImageCaptionStringWithCredit(activeSlide.caption, activeSlide.credit);
 
     return (
-      <div className="ImageSlidingGalleryOuterContainer">
-        <div className="ImageSlidingGalleryCoreContainer">
+      <div
+        className={getElementStyleClassName("ImageSlidingGalleryOuterContainer")}
+        style={componentOuterContainerDimension}
+      >
+        <div className={getElementStyleClassName("ImageSlidingGalleryCoreContainer")}>
           <img
             className="ImageSlidingGalleryImgPart"
             src={activeSlide.image}
             alt={caption}
           />
-          <div className="ImageSlidingGalleryCaptionPart" data-testid="ImageSlidingGalleryCaptionPart">
-            <Caption caption={caption} />
+          <div
+            className="ImageSlidingGalleryCaptionPart"
+            data-testid="ImageSlidingGalleryCaptionPart"
+          >
+            <Caption
+              caption={caption}
+            />
           </div>
         </div>
         <div className="ImageSlidingGalleryButtonContainer">
