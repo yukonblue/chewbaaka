@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Jul 30, 2020
  */
 
 import React from 'react'
@@ -20,6 +20,8 @@ import image_03 from './assets/cheetah_acceleration_illustration/Cheetah_Acceler
 export default class CheetahAccelerationIllustration extends React.Component {
 
   static _TITLE_ = "How Fast Can a Cheetah Run"
+
+  static _DEFAULT_IMAGE_WIDTH_ = 1080;
 
   static _MARKS_ = [
     {
@@ -53,6 +55,7 @@ export default class CheetahAccelerationIllustration extends React.Component {
         sliderUnitLabel="seconds"
         backgroundImage={image_backdrop}
         marks={CheetahAccelerationIllustration._MARKS_}
+        imageWidth={CheetahAccelerationIllustration._DEFAULT_IMAGE_WIDTH_}
       />
     );
   }

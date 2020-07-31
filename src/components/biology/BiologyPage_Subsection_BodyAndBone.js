@@ -27,8 +27,6 @@ import TextBubble from '../shared/TextBubble'
 
 import ImageView from '../shared/ImageView'
 
-import './BiologyPage_Subsection_BodyAndBone.css'
-
 import image_cheetah_body_measurements from './assets/Cheetah_Body_Measurements.jpg'
 import image_cheetah_tail from './assets/cheetah_tail.jpg'
 import image_cheetah_running_animated from './assets/cheetah_running_animated.gif'
@@ -137,9 +135,7 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
   renderCheetahAccelerationIllustrationPart() {
     return (
       <ContentPageSubsectionPart>
-        <div className="BiologyPageSubsectionBodyAndBoneCheetahAccelerationIllustrationContainer Centered">
-          <CheetahAccelerationIllustration />
-        </div>
+        <CheetahAccelerationIllustration />
       </ContentPageSubsectionPart>
     );
   }
