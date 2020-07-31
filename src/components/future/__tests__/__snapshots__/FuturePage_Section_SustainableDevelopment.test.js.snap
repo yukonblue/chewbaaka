@@ -196,7 +196,7 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                 className="OverflowHidden"
               >
                 <div
-                  className="FloatRight HorizontalCusionPaddingLeft"
+                  className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
                 >
                   <div
                     style={
@@ -243,7 +243,7 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                 className="OverflowHidden"
               >
                 <div
-                  className="FloatLeft HorizontalCusionPaddingRight"
+                  className="FloatLeft HorizontalCusionPaddingRight BottomMargin20px"
                 >
                   <div
                     className="ImageViewOuterContainer"
@@ -337,22 +337,26 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
               >
                 CCF reaches out to local farming communities, visiting farms and joining annual farmer’s association meetings to give vital advice on improvements that farmers can make to their rangeland, livestock and wildlife management.
               </p>
-              <div>
-                <a
-                  href="https://cheetah.org/canada/about-us/what-we-support/future-farmers-of-africa/"
-                >
-                  <button
-                    className="ui blue icon button"
-                    onClick={[Function]}
+              <div
+                className="VerticalCushionPadding"
+              >
+                <div>
+                  <a
+                    href="https://cheetah.org/canada/about-us/what-we-support/future-farmers-of-africa/"
                   >
-                    Read on CCF's blog on Future Farmers of Africa
-                    <i
-                      aria-hidden="true"
-                      className="file alternate outline icon"
+                    <button
+                      className="ui blue icon button"
                       onClick={[Function]}
-                    />
-                  </button>
-                </a>
+                    >
+                      Read on CCF's blog on Future Farmers of Africa
+                      <i
+                        aria-hidden="true"
+                        className="file alternate outline icon"
+                        onClick={[Function]}
+                      />
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -394,18 +398,22 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                 CCF’s success is due to the commitment of CCF staff members and the participating farmers. CCF staff regularly visit the farms, educating and advising the farmers and herders for the dogs to be as effective as possible.
               </p>
               <div
-                className="Centered FullWidth"
-                style={
-                  Object {
-                    "maxWidth": 1200,
-                  }
-                }
+                className="VerticalCushionPadding"
               >
-                <img
-                  alt="Livestock Guarding Dog"
-                  className="FullWidth"
-                  src="CCF_LGD.jpg"
-                />
+                <div
+                  className="Centered FullWidth"
+                  style={
+                    Object {
+                      "maxWidth": 1200,
+                    }
+                  }
+                >
+                  <img
+                    alt="Livestock Guarding Dog"
+                    className="FullWidth"
+                    src="CCF_LGD.jpg"
+                  />
+                </div>
               </div>
             </div>
             <div
@@ -420,7 +428,7 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                 className="OverflowHidden"
               >
                 <div
-                  className="FloatRight HorizontalCusionPaddingLeft"
+                  className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
                 >
                   <div
                     className="ImageViewOuterContainer"
@@ -569,7 +577,7 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                 className="OverflowHidden"
               >
                 <div
-                  className="FloatRight HorizontalCusionPaddingLeft"
+                  className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
                 >
                   <img
                     alt="Cheetah and LGD"
@@ -612,18 +620,22 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                 </div>
               </div>
               <div
-                className="Centered FullWidth"
-                style={
-                  Object {
-                    "maxWidth": 960,
-                  }
-                }
+                className="VerticalCushionPaddingTopLarge"
               >
-                <img
-                  alt="Livestock Guarding Dogs"
-                  className="FullWidth"
-                  src="LGD_960x960.png"
-                />
+                <div
+                  className="Centered FullWidth"
+                  style={
+                    Object {
+                      "maxWidth": 960,
+                    }
+                  }
+                >
+                  <img
+                    alt="Livestock Guarding Dogs"
+                    className="FullWidth"
+                    src="LGD_960x960.png"
+                  />
+                </div>
               </div>
             </div>
           </div>

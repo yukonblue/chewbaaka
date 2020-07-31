@@ -17,7 +17,7 @@ exports[`FuturePageSubsectionCommunityEvents component snapshot 1`] = `
         className="OverflowHidden"
       >
         <div
-          className="FloatLeft HorizontalCusionPaddingRight"
+          className="FloatLeft HorizontalCusionPaddingRight BottomMargin20px"
         >
           <div
             className="ImageViewOuterContainer"

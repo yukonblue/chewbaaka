@@ -97,7 +97,7 @@ exports[`EcologyPageSubsectionHuntingAndPredatorControl component snapshot 1`] =
           className="OverflowHidden"
         >
           <div
-            className="FloatRight HorizontalCusionPaddingLeft"
+            className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
           >
             <div
               className="TextBubbleOuterContainer"
@@ -160,7 +160,7 @@ exports[`EcologyPageSubsectionHuntingAndPredatorControl component snapshot 1`] =
           </div>
         </div>
         <div
-          className="Centered FactBannerMediumDimension"
+          className="Centered FactBannerMediumDimension VerticalCushionPaddingTopLarge"
         >
           <img
             alt="What is a problem animal?"

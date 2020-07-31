@@ -16,7 +16,7 @@ exports[`BiologyPage_Subsection_RipAndTear component snapshot 1`] = `
       className="OverflowHidden"
     >
       <div
-        className="FloatRight HorizontalCusionPaddingLeft"
+        className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
       >
         <div
           className="ImageViewOuterContainer"

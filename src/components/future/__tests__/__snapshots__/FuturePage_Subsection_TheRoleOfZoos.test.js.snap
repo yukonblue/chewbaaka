@@ -39,7 +39,7 @@ exports[`FuturePageSubsectionTheRoleOfZoos component snapshot 1`] = `
           className="OverflowHidden"
         >
           <div
-            className="FloatRight HorizontalCusionPaddingLeft"
+            className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
           >
             <div
               className="ImageViewOuterContainer"

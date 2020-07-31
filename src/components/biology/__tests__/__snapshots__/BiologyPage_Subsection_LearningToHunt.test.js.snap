@@ -16,7 +16,7 @@ exports[`BiologyPageSubsectionLearningToHunt component snapshot 1`] = `
       className="OverflowHidden"
     >
       <div
-        className="FloatRight HorizontalCusionPaddingLeft HalfWidth"
+        className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px HalfWidth"
       >
         <div
           className="ImageViewOuterContainer"

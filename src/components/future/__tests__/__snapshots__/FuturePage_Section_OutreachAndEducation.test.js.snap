@@ -133,22 +133,26 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                 </div>
               </div>
             </div>
-            <div>
-              <a
-                href="https://cheetah.org/about/what-we-do/research/"
-              >
-                <button
-                  className="ui blue icon button"
-                  onClick={[Function]}
+            <div
+              className="VerticalCushionPadding"
+            >
+              <div>
+                <a
+                  href="https://cheetah.org/about/what-we-do/research/"
                 >
-                  Learn more about CCF's research work
-                  <i
-                    aria-hidden="true"
-                    className="file alternate outline icon"
+                  <button
+                    className="ui blue icon button"
                     onClick={[Function]}
-                  />
-                </button>
-              </a>
+                  >
+                    Learn more about CCF's research work
+                    <i
+                      aria-hidden="true"
+                      className="file alternate outline icon"
+                      onClick={[Function]}
+                    />
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -336,7 +340,7 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                 className="OverflowHidden"
               >
                 <div
-                  className="FloatRight HorizontalCusionPaddingLeft"
+                  className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
                 >
                   <div
                     className="ImageViewOuterContainer"
@@ -594,7 +598,7 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
               className="OverflowHidden"
             >
               <div
-                className="FloatLeft HorizontalCusionPaddingRight"
+                className="FloatLeft HorizontalCusionPaddingRight BottomMargin20px"
               >
                 <div
                   className="ImageViewOuterContainer"
