@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Jul 30, 2020
  */
 
 export const config = {
@@ -130,7 +130,7 @@ export const config = {
                 paragraph_01:
                   "Cheetahs in captivity can serve as ambassadors that can help in spreading the message of " +
                   "conservation and sustainable development in education and outreach programs. " +
-                  "Here at Cheetah Conservation Fund, many cheetahs that have had been cared by CCF have left a legacy for future generations."
+                  "Here at Cheetah Conservation Fund, many cheetahs that had been cared by CCF have left a legacy for future generations."
               }
             },
             part_Chewbaaka: {
