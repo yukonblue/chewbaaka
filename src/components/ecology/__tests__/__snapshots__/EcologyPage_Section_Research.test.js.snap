@@ -226,7 +226,7 @@ exports[`EcologyPageSectionResearch component snapshot 1`] = `
                           data-testid="CaptionComponentTestId"
                           style={
                             Object {
-                              "width": undefined,
+                              "maxWidth": undefined,
                             }
                           }
                         >

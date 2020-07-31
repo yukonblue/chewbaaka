@@ -189,21 +189,25 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                     </div>
                   </div>
                 </div>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                <div
+                  className=""
                 >
-                  Predator control is an issue around the globe.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  An animal usually resorts to killing livestock due to a medical problem, human influence or a natural incident which renders it unable to catch its wild prey. Only a cheetah that consistently hunts livestock should be considered a problem animal. It is critical to identify the individual culprit causing losses rather than remove all cheetahs indiscriminately. The opportunistic killing of inadequately protected livestock, such a new born calves in the bush, indicates poor livestock management which does not warrant the removal of the predator. Some farmers trap, poison and shoot cheetahs. This may not be due to livestock losses, but simply because the predator entered the farm and is perceived as a threat to livestock or family.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  Predator control most commonly involves setting live capture cage traps. Farmers also use gin traps and poisoned carcasses. These methods only increase problems as they tend to lure and kill indiscriminately. Animals suffering as a result include ones which benefit the farmland ecosystem, as such pangolin, aardwolf, honey badger and bat eared fox.
-                </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    Predator control is an issue around the globe.
+                  </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    An animal usually resorts to killing livestock due to a medical problem, human influence or a natural incident which renders it unable to catch its wild prey. Only a cheetah that consistently hunts livestock should be considered a problem animal. It is critical to identify the individual culprit causing losses rather than remove all cheetahs indiscriminately. The opportunistic killing of inadequately protected livestock, such a new born calves in the bush, indicates poor livestock management which does not warrant the removal of the predator. Some farmers trap, poison and shoot cheetahs. This may not be due to livestock losses, but simply because the predator entered the farm and is perceived as a threat to livestock or family.
+                  </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    Predator control most commonly involves setting live capture cage traps. Farmers also use gin traps and poisoned carcasses. These methods only increase problems as they tend to lure and kill indiscriminately. Animals suffering as a result include ones which benefit the farmland ecosystem, as such pangolin, aardwolf, honey badger and bat eared fox.
+                  </p>
+                </div>
               </div>
               <div
                 className="Centered FactBannerMediumDimension"
@@ -265,6 +269,11 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                 >
                   <div
                     className="ImageViewOuterContainer"
+                    style={
+                      Object {
+                        "maxWidth": 600,
+                      }
+                    }
                   >
                     <div
                       className="ImageViewInnerContainer"
@@ -278,7 +287,6 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                           src="CCF_GWL_map.jpg"
                           style={
                             Object {
-                              "height": 471,
                               "width": 600,
                             }
                           }
@@ -291,7 +299,7 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                             data-testid="CaptionComponentTestId"
                             style={
                               Object {
-                                "width": 600,
+                                "maxWidth": 600,
                               }
                             }
                           >
@@ -315,16 +323,20 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                     </div>
                   </div>
                 </div>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                <div
+                  className=""
                 >
-                  Conservancies are legally protected areas with shared common resources where conservation is actively practiced. Its purpose is to achieve a collective policy for the ownership, management and use of resources. Conservation is the management of human use of organisms or ecosystems to ensure that such use is sustainable. Conservancy objectives include the protection, maintenance, rehabilitation, restoration, and enhancement of ecosystems.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  Conservancies retain all income from wildlife and tourism based enterprises within the conservancy and decides on how these fund are spent. Commercial conservancies consist of adjacent private farms joining together in common units. Communal conservancies operate on a local level and membership is made up entirely of community members who decide to work together for the sustainable management and use of wildlife and tourism.
-                </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    Conservancies are legally protected areas with shared common resources where conservation is actively practiced. Its purpose is to achieve a collective policy for the ownership, management and use of resources. Conservation is the management of human use of organisms or ecosystems to ensure that such use is sustainable. Conservancy objectives include the protection, maintenance, rehabilitation, restoration, and enhancement of ecosystems.
+                  </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    Conservancies retain all income from wildlife and tourism based enterprises within the conservancy and decides on how these fund are spent. Commercial conservancies consist of adjacent private farms joining together in common units. Communal conservancies operate on a local level and membership is made up entirely of community members who decide to work together for the sustainable management and use of wildlife and tourism.
+                  </p>
+                </div>
               </div>
             </div>
             <div
@@ -378,18 +390,6 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
             <div
               className="ContentPageSubsectionPartContainer"
             >
-              <img
-                alt="sheep"
-                className="FlexClipartSheep"
-                src="goat_clipart.png"
-                width={160}
-              />
-              <img
-                alt="cattle"
-                className="FlexClipartCattle"
-                src="cattle_clipart.png"
-                width={160}
-              />
               <div
                 className="ContentPageSubsectionThreeColumnContentTemplateOuterContainer"
               >
@@ -458,66 +458,80 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                       </h4>
                       <div>
                         <div>
-                          <div
-                            className="VerticalCushionPadding"
-                          >
-                            <h5
-                              className="ContentPageSubsectionSubtitleSecondary"
+                          <img
+                            alt="sheep"
+                            className="FlexClipartSheep"
+                            src="goat_clipart.png"
+                            width={160}
+                          />
+                          <img
+                            alt="cattle"
+                            className="FlexClipartCattle"
+                            src="cattle_clipart.png"
+                            width={160}
+                          />
+                          <div>
+                            <div
+                              className="VerticalCushionPadding"
                             >
-                              Herd Management
-                            </h5>
-                            <p
-                              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                              <h5
+                                className="ContentPageSubsectionSubtitleSecondary"
+                              >
+                                Herd Management
+                              </h5>
+                              <p
+                                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                              >
+                                Predators such as cheetahs are opportunistic. Management strategies should aim to protect livestock when they are most vulnerable, particularly at night and during birthing seasons. Culling animals that fail to produce or consistently lose calves to predation increases herd production.
+                              </p>
+                            </div>
+                            <div
+                              className="VerticalCushionPadding"
                             >
-                              Predators such as cheetahs are opportunistic. Management strategies should aim to protect livestock when they are most vulnerable, particularly at night and during birthing seasons. Culling animals that fail to produce or consistently lose calves to predation increases herd production.
-                            </p>
-                          </div>
-                          <div
-                            className="VerticalCushionPadding"
-                          >
-                            <h5
-                              className="ContentPageSubsectionSubtitleSecondary"
+                              <h5
+                                className="ContentPageSubsectionSubtitleSecondary"
+                              >
+                                Seasonal births
+                              </h5>
+                              <p
+                                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                              >
+                                Seasonal birthing allows intensive monitoring of the calving/lambing herds.
+                              </p>
+                              <p
+                                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                              >
+                                Synchronizing livestock births with wildlife calving seasons ensures sufficient natural prey when livestock are most vulnerable.
+                              </p>
+                            </div>
+                            <div
+                              className="VerticalCushionPadding"
                             >
-                              Seasonal births
-                            </h5>
-                            <p
-                              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                              <h5
+                                className="ContentPageSubsectionSubtitleSecondary"
+                              >
+                                Fencing
+                              </h5>
+                              <p
+                                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                              >
+                                Wildlife-friendly farmers use four to five strands of non-barbed galvanized wires for interior livestock fencing. These low fences are not high and leave a large gap along the bottom to allow migration of wildlife through farmlands.
+                              </p>
+                            </div>
+                            <div
+                              className="VerticalCushionPadding"
                             >
-                              Seasonal birthing allows intensive monitoring of the calving/lambing herds.
-                            </p>
-                            <p
-                              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                            >
-                              Synchronizing livestock births with wildlife calving seasons ensures sufficient natural prey when livestock are most vulnerable.
-                            </p>
-                          </div>
-                          <div
-                            className="VerticalCushionPadding"
-                          >
-                            <h5
-                              className="ContentPageSubsectionSubtitleSecondary"
-                            >
-                              Fencing
-                            </h5>
-                            <p
-                              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                            >
-                              Wildlife-friendly farmers use four to five strands of non-barbed galvanized wires for interior livestock fencing. These low fences are not high and leave a large gap along the bottom to allow migration of wildlife through farmlands.
-                            </p>
-                          </div>
-                          <div
-                            className="VerticalCushionPadding"
-                          >
-                            <h5
-                              className="ContentPageSubsectionSubtitleSecondary"
-                            >
-                              Guard animals
-                            </h5>
-                            <p
-                              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                            >
-                              Losses are reduced by utilizing livestock guardians such as dogs for smallstock and donkeys for cattle. Guard animals need to be healthy and properly trained in order to be effective.
-                            </p>
+                              <h5
+                                className="ContentPageSubsectionSubtitleSecondary"
+                              >
+                                Guard animals
+                              </h5>
+                              <p
+                                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                              >
+                                Losses are reduced by utilizing livestock guardians such as dogs for smallstock and donkeys for cattle. Guard animals need to be healthy and properly trained in order to be effective.
+                              </p>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -607,6 +621,11 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                   >
                     <div
                       className="ImageViewOuterContainer"
+                      style={
+                        Object {
+                          "maxWidth": 600,
+                        }
+                      }
                     >
                       <div
                         className="ImageViewInnerContainer"
@@ -620,7 +639,6 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                             src="bush_encroachment.jpg"
                             style={
                               Object {
-                                "height": 450,
                                 "width": 600,
                               }
                             }
@@ -633,7 +651,7 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                               data-testid="CaptionComponentTestId"
                               style={
                                 Object {
-                                  "width": 600,
+                                  "maxWidth": 600,
                                 }
                               }
                             >
@@ -657,16 +675,20 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                       </div>
                     </div>
                   </div>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  <div
+                    className=""
                   >
-                    One of the most serious environmental threats facing Namibia is bush encroachment. Approximately 14 million hectares of land (12% of Namibia) is now so badly encroached that neither man nor livestock can penetrate it.
-                  </p>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                  >
-                    Under natural conditions, the savannas are covered with grasslands, scattered trees and shrubs, supporting a wide variety of wildlife. Herbivores usually feed intensely in localized areas for short periods of time. Plants and tress experience brief and intense browsing and grazing pressure separated by extended rest periods. This, combined with regular fires, maintains a balance between trees and grasses. Larger animals like elephant and rhino aid in controlling the growth of bush.
-                  </p>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      One of the most serious environmental threats facing Namibia is bush encroachment. Approximately 14 million hectares of land (12% of Namibia) is now so badly encroached that neither man nor livestock can penetrate it.
+                    </p>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      Under natural conditions, the savannas are covered with grasslands, scattered trees and shrubs, supporting a wide variety of wildlife. Herbivores usually feed intensely in localized areas for short periods of time. Plants and tress experience brief and intense browsing and grazing pressure separated by extended rest periods. This, combined with regular fires, maintains a balance between trees and grasses. Larger animals like elephant and rhino aid in controlling the growth of bush.
+                    </p>
+                  </div>
                 </div>
               </div>
               <div
@@ -715,6 +737,11 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                   >
                     <div
                       className="ImageViewOuterContainer"
+                      style={
+                        Object {
+                          "maxWidth": 640,
+                        }
+                      }
                     >
                       <div
                         className="ImageViewInnerContainer"
@@ -728,7 +755,6 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                             src="Cheetah_Battle_Bush_Encroachment.jpg"
                             style={
                               Object {
-                                "height": 423,
                                 "width": 640,
                               }
                             }
@@ -741,7 +767,7 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                               data-testid="CaptionComponentTestId"
                               style={
                                 Object {
-                                  "width": 640,
+                                  "maxWidth": 640,
                                 }
                               }
                             >
@@ -765,21 +791,25 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                       </div>
                     </div>
                   </div>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  <div
+                    className=""
                   >
-                    Cheetahs hunt in open or semi-open savanna using bursts of speed. But Namibia’s livestock farmlands, where 90% of the cheetahs live, are less desirable for the cheetahs and the farmers due to bush encroachment. Bush encroachment, a form of desertification, is caused from overgrazing of livestock on the arid lands and unpredictable and regular droughts.
-                  </p>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                  >
-                    The deep rooted thorn bushes reduce the water table and compete with the grasses and become a thicket, taking the underground water and causing desertation. Bush encroachment causes changes in habitats and the mix of prey species on the land.
-                  </p>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                  >
-                    The cheetah’s rangeland has been infested with undesirable thickened thorn bush species. Bush encroachment reduces the amount of grasslands and poses a major livelihood threat to Namibians, as well as to the cheetah and other wildlife species.
-                  </p>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      Cheetahs hunt in open or semi-open savanna using bursts of speed. But Namibia’s livestock farmlands, where 90% of the cheetahs live, are less desirable for the cheetahs and the farmers due to bush encroachment. Bush encroachment, a form of desertification, is caused from overgrazing of livestock on the arid lands and unpredictable and regular droughts.
+                    </p>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      The deep rooted thorn bushes reduce the water table and compete with the grasses and become a thicket, taking the underground water and causing desertation. Bush encroachment causes changes in habitats and the mix of prey species on the land.
+                    </p>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      The cheetah’s rangeland has been infested with undesirable thickened thorn bush species. Bush encroachment reduces the amount of grasslands and poses a major livelihood threat to Namibians, as well as to the cheetah and other wildlife species.
+                    </p>
+                  </div>
                 </div>
               </div>
               <div
@@ -801,16 +831,20 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                       src="fsc_logo.png"
                     />
                   </div>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  <div
+                    className=""
                   >
-                    CCF Bush (PTY) LTD, began in 2000, with the support from the United States Agency for International Development (USAID), to study and develop an ecologically and economically viable habitat restoration program. The goal of CCF Bush is to stimulate the development of a Namibian Biomass industry, thereby protecting the bush ecosystem, restoring wildlife habitat, improving farming productivity, creating employment opportunities and providing clean, renewable energy.
-                  </p>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                  >
-                    CCF harvests the thickened thorn bush, converting it into a clean-burning, biomass fuel log known as Bushblok ™. CCF has restored hundreds of hectares of savanna grasslands for livestock, wildlife and cheetahs to share. In 2006, CCF obtained Forest Stewardship Council (FSC) certification, confirming that it manages forest resources responsibly and sustainably.
-                  </p>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      CCF Bush (PTY) LTD, began in 2000, with the support from the United States Agency for International Development (USAID), to study and develop an ecologically and economically viable habitat restoration program. The goal of CCF Bush is to stimulate the development of a Namibian Biomass industry, thereby protecting the bush ecosystem, restoring wildlife habitat, improving farming productivity, creating employment opportunities and providing clean, renewable energy.
+                    </p>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      CCF harvests the thickened thorn bush, converting it into a clean-burning, biomass fuel log known as Bushblok ™. CCF has restored hundreds of hectares of savanna grasslands for livestock, wildlife and cheetahs to share. In 2006, CCF obtained Forest Stewardship Council (FSC) certification, confirming that it manages forest resources responsibly and sustainably.
+                    </p>
+                  </div>
                 </div>
               </div>
               <div
@@ -832,38 +866,42 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                       src="CCF_Bushblok_Logo.jpg"
                     />
                   </div>
-                  <ul>
-                    <li
-                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
-                    >
-                      To enhance the long-term survival of the cheetah and other species by restoring the grasslands.
-                    </li>
-                    <li
-                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
-                    >
-                      To provide an alternative to over-exploiting native Namibian trees for firewood and charcoal.
-                    </li>
-                    <li
-                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
-                    >
-                      To encourage industries to use intruder bush as a raw material.
-                    </li>
-                    <li
-                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
-                    >
-                      To provide standards for bush harvesting, chipping, processing and packaging.
-                    </li>
-                    <li
-                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
-                    >
-                      To employ, train and empower disadvantaged Namibians.
-                    </li>
-                    <li
-                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
-                    >
-                      To supply Namibians and international markets with compacted fuel log products.
-                    </li>
-                  </ul>
+                  <div
+                    className=""
+                  >
+                    <ul>
+                      <li
+                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
+                      >
+                        To enhance the long-term survival of the cheetah and other species by restoring the grasslands.
+                      </li>
+                      <li
+                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
+                      >
+                        To provide an alternative to over-exploiting native Namibian trees for firewood and charcoal.
+                      </li>
+                      <li
+                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
+                      >
+                        To encourage industries to use intruder bush as a raw material.
+                      </li>
+                      <li
+                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
+                      >
+                        To provide standards for bush harvesting, chipping, processing and packaging.
+                      </li>
+                      <li
+                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
+                      >
+                        To employ, train and empower disadvantaged Namibians.
+                      </li>
+                      <li
+                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
+                      >
+                        To supply Namibians and international markets with compacted fuel log products.
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
@@ -887,6 +925,11 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                       />
                       <div
                         className="ImageViewOuterContainer"
+                        style={
+                          Object {
+                            "maxWidth": 640,
+                          }
+                        }
                       >
                         <div
                           className="ImageViewInnerContainer"
@@ -900,7 +943,6 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                               src="CCF_Bushblok_01.jpg"
                               style={
                                 Object {
-                                  "height": 360,
                                   "width": 640,
                                 }
                               }
@@ -913,7 +955,7 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                                 data-testid="CaptionComponentTestId"
                                 style={
                                   Object {
-                                    "width": 640,
+                                    "maxWidth": 640,
                                   }
                                 }
                               >
@@ -945,6 +987,11 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                       />
                       <div
                         className="ImageViewOuterContainer"
+                        style={
+                          Object {
+                            "maxWidth": 640,
+                          }
+                        }
                       >
                         <div
                           className="ImageViewInnerContainer"
@@ -958,7 +1005,6 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                               src="CCF_Bushblok_02.jpg"
                               style={
                                 Object {
-                                  "height": 360,
                                   "width": 640,
                                 }
                               }
@@ -971,7 +1017,7 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                                 data-testid="CaptionComponentTestId"
                                 style={
                                   Object {
-                                    "width": 640,
+                                    "maxWidth": 640,
                                   }
                                 }
                               >

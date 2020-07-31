@@ -79,6 +79,11 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                 >
                   <div
                     className="ImageViewOuterContainer"
+                    style={
+                      Object {
+                        "maxWidth": 598,
+                      }
+                    }
                   >
                     <div
                       className="ImageViewInnerContainer"
@@ -92,7 +97,6 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                           src="savanna.jpg"
                           style={
                             Object {
-                              "height": 343,
                               "width": 598,
                             }
                           }
@@ -105,7 +109,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                             data-testid="CaptionComponentTestId"
                             style={
                               Object {
-                                "width": 598,
+                                "maxWidth": 598,
                               }
                             }
                           >
@@ -129,16 +133,20 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                     </div>
                   </div>
                 </div>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                <div
+                  className=""
                 >
-                  Animals, includes cheetah, are adopted to live in specific habitats. Cheetahs live mainly in grassland savanna. They prefer habitat which includes some cover in the form of bushes, medium length grass, trees, and small hills. Cheetahs need abundant prey in their habitat to survive and reproduce. In Namibia their habitat is densely bushed due to bush encroachment.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  Cheetahs sometimes live in a wide variety of habitats. They occasionally use semi-desert, dense woodland or mountainous terrain. Older animals unable to defend territories and young cheetahs just starting to live on their own use these marginal habitats.
-                </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    Animals, includes cheetah, are adopted to live in specific habitats. Cheetahs live mainly in grassland savanna. They prefer habitat which includes some cover in the form of bushes, medium length grass, trees, and small hills. Cheetahs need abundant prey in their habitat to survive and reproduce. In Namibia their habitat is densely bushed due to bush encroachment.
+                  </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    Cheetahs sometimes live in a wide variety of habitats. They occasionally use semi-desert, dense woodland or mountainous terrain. Older animals unable to defend territories and young cheetahs just starting to live on their own use these marginal habitats.
+                  </p>
+                </div>
               </div>
               <img
                 alt="What is an ecosystem"
@@ -147,7 +155,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
               />
               <img
                 alt="African savanna"
-                className="FullWidth VerticalCushionPadding"
+                className="FullWidth"
                 src="savana_bg_large.jpg"
               />
             </div>
@@ -230,15 +238,20 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                 </div>
               </div>
               <div
-                className="Centered"
+                className="Centered FullWidth"
                 style={
                   Object {
-                    "width": 1200,
+                    "maxWidth": 1200,
                   }
                 }
               >
                 <div
                   className="ImageViewOuterContainer"
+                  style={
+                    Object {
+                      "maxWidth": 1200,
+                    }
+                  }
                 >
                   <div
                     className="ImageViewInnerContainer"
@@ -252,7 +265,6 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                         src="Namibia_Biomes_and_Cheetah_Ranges_Map.jpg"
                         style={
                           Object {
-                            "height": 720,
                             "width": 1200,
                           }
                         }
@@ -265,7 +277,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                           data-testid="CaptionComponentTestId"
                           style={
                             Object {
-                              "width": 1200,
+                              "maxWidth": 1200,
                             }
                           }
                         >
@@ -580,6 +592,11 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                       />
                       <div
                         className="ImageViewOuterContainer"
+                        style={
+                          Object {
+                            "maxWidth": 640,
+                          }
+                        }
                       >
                         <div
                           className="ImageViewInnerContainer"
@@ -593,7 +610,6 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                               src="cheetah_coalition_hunting.jpg"
                               style={
                                 Object {
-                                  "height": 360,
                                   "width": 640,
                                 }
                               }
@@ -606,7 +622,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                                 data-testid="CaptionComponentTestId"
                                 style={
                                   Object {
-                                    "width": 640,
+                                    "maxWidth": 640,
                                   }
                                 }
                               >
@@ -638,6 +654,11 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                       />
                       <div
                         className="ImageViewOuterContainer"
+                        style={
+                          Object {
+                            "maxWidth": 640,
+                          }
+                        }
                       >
                         <div
                           className="ImageViewInnerContainer"
@@ -651,7 +672,6 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                               src="cheetah_go_after_gazelle.jpg"
                               style={
                                 Object {
-                                  "height": 360,
                                   "width": 640,
                                 }
                               }
@@ -664,7 +684,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                                 data-testid="CaptionComponentTestId"
                                 style={
                                   Object {
-                                    "width": 640,
+                                    "maxWidth": 640,
                                   }
                                 }
                               >
@@ -723,6 +743,11 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                 >
                   <div
                     className="ImageViewOuterContainer"
+                    style={
+                      Object {
+                        "maxWidth": 640,
+                      }
+                    }
                   >
                     <div
                       className="ImageViewInnerContainer"
@@ -736,7 +761,6 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                           src="savanna_food_web.jpg"
                           style={
                             Object {
-                              "height": 552,
                               "width": 640,
                             }
                           }
@@ -749,7 +773,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                             data-testid="CaptionComponentTestId"
                             style={
                               Object {
-                                "width": 640,
+                                "maxWidth": 640,
                               }
                             }
                           >
@@ -773,16 +797,20 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                     </div>
                   </div>
                 </div>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                <div
+                  className=""
                 >
-                  Every animal species has its role (or niche) in the ecosystem that it lives in. As a carnivorous predator, the cheetah’s role in the ecosystem is important as it helps to maintain balanced and healthy food webs.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  One of the cheetah’s roles in the ecosystem is to help keep the population of grazing animals at a healthy state. Because of the fact that cheetahs do not have the strength to go after big games such as adult wildebeest, elands, and kudus, they go after the ones that are young, weak, or sick. This helps to ensure that only the strongest of those species will survive, and also the populations of those species won’t reach the limit the ecosystem could handle such that it will have negative consequences.
-                </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    Every animal species has its role (or niche) in the ecosystem that it lives in. As a carnivorous predator, the cheetah’s role in the ecosystem is important as it helps to maintain balanced and healthy food webs.
+                  </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    One of the cheetah’s roles in the ecosystem is to help keep the population of grazing animals at a healthy state. Because of the fact that cheetahs do not have the strength to go after big games such as adult wildebeest, elands, and kudus, they go after the ones that are young, weak, or sick. This helps to ensure that only the strongest of those species will survive, and also the populations of those species won’t reach the limit the ecosystem could handle such that it will have negative consequences.
+                  </p>
+                </div>
               </div>
             </div>
             <div
@@ -820,6 +848,11 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                       />
                       <div
                         className="ImageViewOuterContainer"
+                        style={
+                          Object {
+                            "maxWidth": 640,
+                          }
+                        }
                       >
                         <div
                           className="ImageViewInnerContainer"
@@ -833,7 +866,6 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                               src="cheetah_hyena_competition.jpg"
                               style={
                                 Object {
-                                  "height": 360,
                                   "width": 640,
                                 }
                               }
@@ -846,7 +878,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                                 data-testid="CaptionComponentTestId"
                                 style={
                                   Object {
-                                    "width": 640,
+                                    "maxWidth": 640,
                                   }
                                 }
                               >
@@ -878,6 +910,11 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                       />
                       <div
                         className="ImageViewOuterContainer"
+                        style={
+                          Object {
+                            "maxWidth": 480,
+                          }
+                        }
                       >
                         <div
                           className="ImageViewInnerContainer"
@@ -891,7 +928,6 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                               src="cheetah_lion_competition.jpg"
                               style={
                                 Object {
-                                  "height": 360,
                                   "width": 480,
                                 }
                               }
@@ -904,7 +940,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                                 data-testid="CaptionComponentTestId"
                                 style={
                                   Object {
-                                    "width": 480,
+                                    "maxWidth": 480,
                                   }
                                 }
                               >

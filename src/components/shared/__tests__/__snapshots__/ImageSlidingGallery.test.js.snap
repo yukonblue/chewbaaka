@@ -3,6 +3,11 @@
 exports[`ImageSlidingGallery component snapshot 1`] = `
 <div
   className="ImageSlidingGalleryOuterContainer"
+  style={
+    Object {
+      "maxWidth": undefined,
+    }
+  }
 >
   <div
     className="ImageSlidingGalleryCoreContainer"
@@ -21,7 +26,7 @@ exports[`ImageSlidingGallery component snapshot 1`] = `
         data-testid="CaptionComponentTestId"
         style={
           Object {
-            "width": undefined,
+            "maxWidth": undefined,
           }
         }
       >

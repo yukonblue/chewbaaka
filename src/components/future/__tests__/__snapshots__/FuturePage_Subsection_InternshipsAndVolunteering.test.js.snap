@@ -17,21 +17,17 @@ exports[`FuturePageSubsectionInternshipsAndVolunteering component snapshot 1`] =
         className="ContentPageSubsectionPartContainer"
       >
         <div
-          className="Centered"
+          className="Centered FullWidth"
           style={
             Object {
-              "width": 1300,
+              "maxWidth": 1300,
             }
           }
         >
           <img
             alt="CCF Volunteering"
+            className="FullWidth"
             src="CCF_GetInvolved_Volunteer.jpg"
-            style={
-              Object {
-                "width": 1300,
-              }
-            }
           />
         </div>
       </div>

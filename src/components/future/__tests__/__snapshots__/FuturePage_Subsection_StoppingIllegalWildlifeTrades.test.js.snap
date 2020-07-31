@@ -69,6 +69,11 @@ exports[`FuturePageSubsectionStoppingIllegalWildlifeTrades component snapshot 1`
                 />
                 <div
                   className="ImageViewOuterContainer"
+                  style={
+                    Object {
+                      "maxWidth": 640,
+                    }
+                  }
                 >
                   <div
                     className="ImageViewInnerContainer"
@@ -82,7 +87,6 @@ exports[`FuturePageSubsectionStoppingIllegalWildlifeTrades component snapshot 1`
                         src="cheetah_trafficking_map.png"
                         style={
                           Object {
-                            "height": 360,
                             "width": 640,
                           }
                         }
@@ -95,7 +99,7 @@ exports[`FuturePageSubsectionStoppingIllegalWildlifeTrades component snapshot 1`
                           data-testid="CaptionComponentTestId"
                           style={
                             Object {
-                              "width": 640,
+                              "maxWidth": 640,
                             }
                           }
                         >
@@ -193,7 +197,7 @@ exports[`FuturePageSubsectionStoppingIllegalWildlifeTrades component snapshot 1`
                   data-testid="CaptionComponentTestId"
                   style={
                     Object {
-                      "width": undefined,
+                      "maxWidth": undefined,
                     }
                   }
                 >

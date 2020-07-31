@@ -43,6 +43,11 @@ exports[`FuturePageSubsectionTheRoleOfZoos component snapshot 1`] = `
           >
             <div
               className="ImageViewOuterContainer"
+              style={
+                Object {
+                  "maxWidth": 720,
+                }
+              }
             >
               <div
                 className="ImageViewInnerContainer"
@@ -56,7 +61,6 @@ exports[`FuturePageSubsectionTheRoleOfZoos component snapshot 1`] = `
                     src="cincinnati_zoo_cheetah_sarah.jpg"
                     style={
                       Object {
-                        "height": 406,
                         "width": 720,
                       }
                     }
@@ -69,7 +73,7 @@ exports[`FuturePageSubsectionTheRoleOfZoos component snapshot 1`] = `
                       data-testid="CaptionComponentTestId"
                       style={
                         Object {
-                          "width": 720,
+                          "maxWidth": 720,
                         }
                       }
                     >
@@ -93,21 +97,25 @@ exports[`FuturePageSubsectionTheRoleOfZoos component snapshot 1`] = `
               </div>
             </div>
           </div>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          <div
+            className=""
           >
-            As representatives of the wild cheetah, zoo animals provide the opportunity for people around the world to see a cheetah close up.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            Through educational programs, zoos spark the interest of individuals who can support or join the projects that will save wild cheetahs.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            Zoos contribute to the conservation of wild cheetahs through education, research and support.
-          </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              As representatives of the wild cheetah, zoo animals provide the opportunity for people around the world to see a cheetah close up.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Through educational programs, zoos spark the interest of individuals who can support or join the projects that will save wild cheetahs.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Zoos contribute to the conservation of wild cheetahs through education, research and support.
+            </p>
+          </div>
         </div>
       </div>
       <div

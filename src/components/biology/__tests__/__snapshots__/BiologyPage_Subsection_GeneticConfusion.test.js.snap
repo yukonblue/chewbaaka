@@ -58,21 +58,25 @@ exports[`BiologyPageSubsectionGeneticConfusion component snapshot 1`] = `
           </div>
         </div>
       </div>
-      <p
-        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+      <div
+        className=""
       >
-        Genes are the components of living cells that pass down inherited characteristics such as brown eyes or curly hair in humans.
-      </p>
-      <p
-        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-      >
-        Genetic diversity is the variety of genes in an organism or in a population. Diversity increases the likelihood that a given species can adapt and survive catastrophes such as sudden environmental changes or exposure to new diseases.
-      </p>
-      <p
-        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-      >
-        Diversity is reduced when inbreeding occurs. This means members of the same family or close relatives breed only among themselves.
-      </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          Genes are the components of living cells that pass down inherited characteristics such as brown eyes or curly hair in humans.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          Genetic diversity is the variety of genes in an organism or in a population. Diversity increases the likelihood that a given species can adapt and survive catastrophes such as sudden environmental changes or exposure to new diseases.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          Diversity is reduced when inbreeding occurs. This means members of the same family or close relatives breed only among themselves.
+        </p>
+      </div>
     </div>
   </div>
 </div>

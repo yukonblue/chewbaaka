@@ -18,6 +18,11 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
         />
         <div
           className="ImageViewOuterContainer"
+          style={
+            Object {
+              "maxWidth": 720,
+            }
+          }
         >
           <div
             className="ImageViewInnerContainer"
@@ -31,7 +36,6 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
                 src="some image 1"
                 style={
                   Object {
-                    "height": 480,
                     "width": 720,
                   }
                 }
@@ -44,7 +48,7 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
                   data-testid="CaptionComponentTestId"
                   style={
                     Object {
-                      "width": 720,
+                      "maxWidth": 720,
                     }
                   }
                 >
@@ -76,6 +80,11 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
         />
         <div
           className="ImageViewOuterContainer"
+          style={
+            Object {
+              "maxWidth": 1080,
+            }
+          }
         >
           <div
             className="ImageViewInnerContainer"
@@ -89,7 +98,6 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
                 src="some image 2"
                 style={
                   Object {
-                    "height": 720,
                     "width": 1080,
                   }
                 }
@@ -102,7 +110,7 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
                   data-testid="CaptionComponentTestId"
                   style={
                     Object {
-                      "width": 1080,
+                      "maxWidth": 1080,
                     }
                   }
                 >

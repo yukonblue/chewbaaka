@@ -169,21 +169,17 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
               className="ContentPageSubsectionPartContainer"
             >
               <div
-                className="Centered"
+                className="Centered FullWidth"
                 style={
                   Object {
-                    "width": 1300,
+                    "maxWidth": 1300,
                   }
                 }
               >
                 <img
                   alt="CCF Volunteering"
+                  className="FullWidth"
                   src="CCF_GetInvolved_Volunteer.jpg"
-                  style={
-                    Object {
-                      "width": 1300,
-                    }
-                  }
                 />
               </div>
             </div>
@@ -344,6 +340,11 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                 >
                   <div
                     className="ImageViewOuterContainer"
+                    style={
+                      Object {
+                        "maxWidth": 720,
+                      }
+                    }
                   >
                     <div
                       className="ImageViewInnerContainer"
@@ -357,7 +358,6 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                           src="cincinnati_zoo_cheetah_sarah.jpg"
                           style={
                             Object {
-                              "height": 406,
                               "width": 720,
                             }
                           }
@@ -370,7 +370,7 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                             data-testid="CaptionComponentTestId"
                             style={
                               Object {
-                                "width": 720,
+                                "maxWidth": 720,
                               }
                             }
                           >
@@ -394,21 +394,25 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                     </div>
                   </div>
                 </div>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                <div
+                  className=""
                 >
-                  As representatives of the wild cheetah, zoo animals provide the opportunity for people around the world to see a cheetah close up.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  Through educational programs, zoos spark the interest of individuals who can support or join the projects that will save wild cheetahs.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  Zoos contribute to the conservation of wild cheetahs through education, research and support.
-                </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    As representatives of the wild cheetah, zoo animals provide the opportunity for people around the world to see a cheetah close up.
+                  </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    Through educational programs, zoos spark the interest of individuals who can support or join the projects that will save wild cheetahs.
+                  </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    Zoos contribute to the conservation of wild cheetahs through education, research and support.
+                  </p>
+                </div>
               </div>
             </div>
             <div
@@ -494,6 +498,11 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                     />
                     <div
                       className="ImageSlidingGalleryOuterContainer"
+                      style={
+                        Object {
+                          "maxWidth": undefined,
+                        }
+                      }
                     >
                       <div
                         className="ImageSlidingGalleryCoreContainer"
@@ -512,7 +521,7 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                             data-testid="CaptionComponentTestId"
                             style={
                               Object {
-                                "width": undefined,
+                                "maxWidth": undefined,
                               }
                             }
                           >
@@ -589,6 +598,11 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
               >
                 <div
                   className="ImageViewOuterContainer"
+                  style={
+                    Object {
+                      "maxWidth": 960,
+                    }
+                  }
                 >
                   <div
                     className="ImageViewInnerContainer"
@@ -602,7 +616,6 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                         src="CCF_Livelihood_Development.jpg"
                         style={
                           Object {
-                            "height": 576,
                             "width": 960,
                           }
                         }
@@ -615,7 +628,7 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                           data-testid="CaptionComponentTestId"
                           style={
                             Object {
-                              "width": 960,
+                              "maxWidth": 960,
                             }
                           }
                         >
@@ -639,21 +652,25 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                   </div>
                 </div>
               </div>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              <div
+                className=""
               >
-                Participatory community events, such as competitions in art, poetry and writing, increase conservation awareness.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                Public educational displays are maintained at strategic locations and community events. Displays provide introductory information on the plight of the cheetah and the work conducted by CCF.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                CCF staff participate in farmer meetings, local conservancy activities and other related events. Workshops and seminars are conducted to exchange information and develop conservation-based farming practices.
-              </p>
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                >
+                  Participatory community events, such as competitions in art, poetry and writing, increase conservation awareness.
+                </p>
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                >
+                  Public educational displays are maintained at strategic locations and community events. Displays provide introductory information on the plight of the cheetah and the work conducted by CCF.
+                </p>
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                >
+                  CCF staff participate in farmer meetings, local conservancy activities and other related events. Workshops and seminars are conducted to exchange information and develop conservation-based farming practices.
+                </p>
+              </div>
             </div>
           </div>
         </div>

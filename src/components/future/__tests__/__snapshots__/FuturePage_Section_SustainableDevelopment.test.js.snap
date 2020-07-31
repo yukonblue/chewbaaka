@@ -225,11 +225,15 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                     </div>
                   </div>
                 </div>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                <div
+                  className=""
                 >
-                  In Namibia, 90% of the cheetah population lives on farmlands alongside 80% of the country’s wildlife species. Cheetahs often come into contact with the livestocks and game farming communities, leading to conflict. To mitigate this conflict, Cheetah Conservation Fund (CCF) developed an integrated livestock, wildlife, and rangeland training program called Future Farmers of Africa (FFA).
-                </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    In Namibia, 90% of the cheetah population lives on farmlands alongside 80% of the country’s wildlife species. Cheetahs often come into contact with the livestocks and game farming communities, leading to conflict. To mitigate this conflict, Cheetah Conservation Fund (CCF) developed an integrated livestock, wildlife, and rangeland training program called Future Farmers of Africa (FFA).
+                  </p>
+                </div>
               </div>
             </div>
             <div
@@ -243,6 +247,11 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                 >
                   <div
                     className="ImageViewOuterContainer"
+                    style={
+                      Object {
+                        "maxWidth": 742,
+                      }
+                    }
                   >
                     <div
                       className="ImageViewInnerContainer"
@@ -256,7 +265,6 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                           src="CCF_FFA_01.jpg"
                           style={
                             Object {
-                              "height": 370,
                               "width": 742,
                             }
                           }
@@ -269,7 +277,7 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                             data-testid="CaptionComponentTestId"
                             style={
                               Object {
-                                "width": 742,
+                                "maxWidth": 742,
                               }
                             }
                           >
@@ -293,22 +301,26 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                     </div>
                   </div>
                 </div>
-                <div>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                  >
-                    From 2006-2017, CCF has certified more than 10,000 Namibian men and women in FFA, which teaches conservation strategies for sustainable land use while accommodating the coexistence of predators alongside livestock and wildlife.
-                  </p>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                  >
-                    Topics covered in the FFA courses include livestock health and veterinary care, livestock husbandry, livestock valuation, predator spoor (track) identification, differentiating predator kill techniques, best practices to reduce livestock losses, and best methods for non-lethal predator control.
-                  </p>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                  >
-                    Through the training course, CCF supports farmers by teaching them practical skills in sustainable livestock farming, as well as how to develop supplemental income streams. Farmers then use their skills to generate higher economic productivity. These courses enhance the livelihood development of farmers while promoting predator-friendly farming practices.
-                  </p>
+                <div
+                  className=""
+                >
+                  <div>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      From 2006-2017, CCF has certified more than 10,000 Namibian men and women in FFA, which teaches conservation strategies for sustainable land use while accommodating the coexistence of predators alongside livestock and wildlife.
+                    </p>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      Topics covered in the FFA courses include livestock health and veterinary care, livestock husbandry, livestock valuation, predator spoor (track) identification, differentiating predator kill techniques, best practices to reduce livestock losses, and best methods for non-lethal predator control.
+                    </p>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      Through the training course, CCF supports farmers by teaching them practical skills in sustainable livestock farming, as well as how to develop supplemental income streams. Farmers then use their skills to generate higher economic productivity. These courses enhance the livelihood development of farmers while promoting predator-friendly farming practices.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -382,21 +394,17 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                 CCF’s success is due to the commitment of CCF staff members and the participating farmers. CCF staff regularly visit the farms, educating and advising the farmers and herders for the dogs to be as effective as possible.
               </p>
               <div
-                className="Centered"
+                className="Centered FullWidth"
                 style={
                   Object {
-                    "width": 1200,
+                    "maxWidth": 1200,
                   }
                 }
               >
                 <img
-                  alt=""
+                  alt="Livestock Guarding Dog"
+                  className="FullWidth"
                   src="CCF_LGD.jpg"
-                  style={
-                    Object {
-                      "width": 1200,
-                    }
-                  }
                 />
               </div>
             </div>
@@ -416,6 +424,11 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                 >
                   <div
                     className="ImageViewOuterContainer"
+                    style={
+                      Object {
+                        "maxWidth": 720,
+                      }
+                    }
                   >
                     <div
                       className="ImageViewInnerContainer"
@@ -429,7 +442,6 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                           src="CCF_anatolian_shepherd_puppies.jpg"
                           style={
                             Object {
-                              "height": 480,
                               "width": 720,
                             }
                           }
@@ -442,7 +454,7 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                             data-testid="CaptionComponentTestId"
                             style={
                               Object {
-                                "width": 720,
+                                "maxWidth": 720,
                               }
                             }
                           >
@@ -466,11 +478,15 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                     </div>
                   </div>
                 </div>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                <div
+                  className=""
                 >
-                  LGD’s are placed with their herds around nine weeks of age, as social bonding between the stock and the dogs depends upon imprinting before 16 weeks of age. The dogs live with their livestock family instead of a human family, so the puppies bond with the herd; it becomes the dog’s pack rather than the dog’s potential prey. At CCF puppies are born in a whelping pen attached to the main goat yard.
-                </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    LGD’s are placed with their herds around nine weeks of age, as social bonding between the stock and the dogs depends upon imprinting before 16 weeks of age. The dogs live with their livestock family instead of a human family, so the puppies bond with the herd; it becomes the dog’s pack rather than the dog’s potential prey. At CCF puppies are born in a whelping pen attached to the main goat yard.
+                  </p>
+                </div>
               </div>
             </div>
             <div
@@ -486,6 +502,11 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
               >
                 <div
                   className="ImageViewOuterContainer"
+                  style={
+                    Object {
+                      "maxWidth": 1000,
+                    }
+                  }
                 >
                   <div
                     className="ImageViewInnerContainer"
@@ -499,7 +520,6 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                         src="CCF_Year_of_the_LGD.jpg"
                         style={
                           Object {
-                            "height": 299,
                             "width": 1000,
                           }
                         }
@@ -512,7 +532,7 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                           data-testid="CaptionComponentTestId"
                           style={
                             Object {
-                              "width": 1000,
+                              "maxWidth": 1000,
                             }
                           }
                         >
@@ -561,48 +581,48 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                     }
                   />
                 </div>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                <div
+                  className=""
                 >
-                  Livestock Guarding Dogs have been used for thousands of years to protect cattle, sheep and goats from predator attacks. There are over 20 breeds of guarding dogs. The Anatolian Shepherd, a Turkish breed, was selected as the best candidate for use with smallstock in Namibia as they are able to work in vast open spaces without direct guidance. These dogs look similar to the flock, with large rounded heads, floppy ears and short fur. They have a good sense of hearing and smelling, a calm temperament and a very loud bark.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  Anatolians do not herd livestock, they guard them. They are attentive, protective, trustworthy, and aggressive towards predator threats.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  Puppies are placed with the stock at eight weeks of age to form a strong bond with the herd. It is important that bonding occurs with the herd and not with humans or other dogs.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  Dog owners take the responsibility for the health care of their dogs. This includes veterinary check-ups, vaccinations, and observations for signs of illness or injuries.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  An appropriate diet is necessary for the Anatolian Shepherd. Enough food allows proper growth and a healthy dog. They should never be given raw meat as this could produce a predatory response. They need water during the day when they are out with the herd.
-                </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    Livestock Guarding Dogs have been used for thousands of years to protect cattle, sheep and goats from predator attacks. There are over 20 breeds of guarding dogs. The Anatolian Shepherd, a Turkish breed, was selected as the best candidate for use with smallstock in Namibia as they are able to work in vast open spaces without direct guidance. These dogs look similar to the flock, with large rounded heads, floppy ears and short fur. They have a good sense of hearing and smelling, a calm temperament and a very loud bark.
+                  </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    Anatolians do not herd livestock, they guard them. They are attentive, protective, trustworthy, and aggressive towards predator threats.
+                  </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    Puppies are placed with the stock at eight weeks of age to form a strong bond with the herd. It is important that bonding occurs with the herd and not with humans or other dogs.
+                  </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    Dog owners take the responsibility for the health care of their dogs. This includes veterinary check-ups, vaccinations, and observations for signs of illness or injuries.
+                  </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    An appropriate diet is necessary for the Anatolian Shepherd. Enough food allows proper growth and a healthy dog. They should never be given raw meat as this could produce a predatory response. They need water during the day when they are out with the herd.
+                  </p>
+                </div>
               </div>
               <div
-                className="Centered VerticalCushionPaddingTopLarge"
+                className="Centered FullWidth"
                 style={
                   Object {
-                    "width": 960,
+                    "maxWidth": 960,
                   }
                 }
               >
                 <img
                   alt="Livestock Guarding Dogs"
+                  className="FullWidth"
                   src="LGD_960x960.png"
-                  style={
-                    Object {
-                      "width": 960,
-                    }
-                  }
                 />
               </div>
             </div>

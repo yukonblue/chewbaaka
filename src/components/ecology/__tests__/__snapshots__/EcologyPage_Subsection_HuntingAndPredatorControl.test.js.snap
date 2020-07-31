@@ -139,21 +139,25 @@ exports[`EcologyPageSubsectionHuntingAndPredatorControl component snapshot 1`] =
               </div>
             </div>
           </div>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          <div
+            className=""
           >
-            Predator control is an issue around the globe.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            An animal usually resorts to killing livestock due to a medical problem, human influence or a natural incident which renders it unable to catch its wild prey. Only a cheetah that consistently hunts livestock should be considered a problem animal. It is critical to identify the individual culprit causing losses rather than remove all cheetahs indiscriminately. The opportunistic killing of inadequately protected livestock, such a new born calves in the bush, indicates poor livestock management which does not warrant the removal of the predator. Some farmers trap, poison and shoot cheetahs. This may not be due to livestock losses, but simply because the predator entered the farm and is perceived as a threat to livestock or family.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            Predator control most commonly involves setting live capture cage traps. Farmers also use gin traps and poisoned carcasses. These methods only increase problems as they tend to lure and kill indiscriminately. Animals suffering as a result include ones which benefit the farmland ecosystem, as such pangolin, aardwolf, honey badger and bat eared fox.
-          </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Predator control is an issue around the globe.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              An animal usually resorts to killing livestock due to a medical problem, human influence or a natural incident which renders it unable to catch its wild prey. Only a cheetah that consistently hunts livestock should be considered a problem animal. It is critical to identify the individual culprit causing losses rather than remove all cheetahs indiscriminately. The opportunistic killing of inadequately protected livestock, such a new born calves in the bush, indicates poor livestock management which does not warrant the removal of the predator. Some farmers trap, poison and shoot cheetahs. This may not be due to livestock losses, but simply because the predator entered the farm and is perceived as a threat to livestock or family.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Predator control most commonly involves setting live capture cage traps. Farmers also use gin traps and poisoned carcasses. These methods only increase problems as they tend to lure and kill indiscriminately. Animals suffering as a result include ones which benefit the farmland ecosystem, as such pangolin, aardwolf, honey badger and bat eared fox.
+            </p>
+          </div>
         </div>
         <div
           className="Centered FactBannerMediumDimension"

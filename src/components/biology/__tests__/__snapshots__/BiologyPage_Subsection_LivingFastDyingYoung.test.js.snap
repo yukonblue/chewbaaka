@@ -52,6 +52,11 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                 />
                 <div
                   className="ImageViewOuterContainer"
+                  style={
+                    Object {
+                      "maxWidth": 510,
+                    }
+                  }
                 >
                   <div
                     className="ImageViewInnerContainer"
@@ -65,7 +70,6 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                         src="cheetah_coalition.jpg"
                         style={
                           Object {
-                            "height": undefined,
                             "width": 510,
                           }
                         }
@@ -78,7 +82,7 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                           data-testid="CaptionComponentTestId"
                           style={
                             Object {
-                              "width": 510,
+                              "maxWidth": 510,
                             }
                           }
                         >
@@ -126,6 +130,11 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                 />
                 <div
                   className="ImageViewOuterContainer"
+                  style={
+                    Object {
+                      "maxWidth": 640,
+                    }
+                  }
                 >
                   <div
                     className="ImageViewInnerContainer"
@@ -139,7 +148,6 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                         src="cheetah_face_hyena.jpg"
                         style={
                           Object {
-                            "height": undefined,
                             "width": 640,
                           }
                         }
@@ -152,7 +160,7 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                           data-testid="CaptionComponentTestId"
                           style={
                             Object {
-                              "width": 640,
+                              "maxWidth": 640,
                             }
                           }
                         >

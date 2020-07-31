@@ -77,26 +77,30 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
                     src="earth_environment.png"
                   />
                 </div>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                <div
+                  className=""
                 >
-                  Conservation is taking care of the environment in which we live. This means using everything wisely so some of it is left for others to use or for our own future use. The things we use are called RESOURCES. These can be almost anything: food, the air we breathe, firewood, petrol and zinc footing panels. Conservationists understand that RESOURCES ARE LIMITED and often scarce and that we must use them wisely. In Namibia, fresh water is one of our scarcest resources.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  Conservation also means protecting resources we may not use.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  Walking around, rather than stepping on a plant, is an act of conservation.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  Protecting a species like the cheetah from extinction is an act of conservation.
-                </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    Conservation is taking care of the environment in which we live. This means using everything wisely so some of it is left for others to use or for our own future use. The things we use are called RESOURCES. These can be almost anything: food, the air we breathe, firewood, petrol and zinc footing panels. Conservationists understand that RESOURCES ARE LIMITED and often scarce and that we must use them wisely. In Namibia, fresh water is one of our scarcest resources.
+                  </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    Conservation also means protecting resources we may not use.
+                  </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    Walking around, rather than stepping on a plant, is an act of conservation.
+                  </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    Protecting a species like the cheetah from extinction is an act of conservation.
+                  </p>
+                </div>
               </div>
             </div>
             <div
@@ -240,6 +244,11 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
                       />
                       <div
                         className="ImageViewOuterContainer"
+                        style={
+                          Object {
+                            "maxWidth": 640,
+                          }
+                        }
                       >
                         <div
                           className="ImageViewInnerContainer"
@@ -253,7 +262,6 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
                               src="cheetah_trafficking_map.png"
                               style={
                                 Object {
-                                  "height": 360,
                                   "width": 640,
                                 }
                               }
@@ -266,7 +274,7 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
                                 data-testid="CaptionComponentTestId"
                                 style={
                                   Object {
-                                    "width": 640,
+                                    "maxWidth": 640,
                                   }
                                 }
                               >
@@ -364,7 +372,7 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
                         data-testid="CaptionComponentTestId"
                         style={
                           Object {
-                            "width": undefined,
+                            "maxWidth": undefined,
                           }
                         }
                       >

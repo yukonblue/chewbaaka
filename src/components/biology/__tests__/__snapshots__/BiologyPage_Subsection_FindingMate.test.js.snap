@@ -20,6 +20,11 @@ exports[`BiologyPageSubsectionFindingMate component snapshot 1`] = `
       >
         <div
           className="ImageViewOuterContainer"
+          style={
+            Object {
+              "maxWidth": 720,
+            }
+          }
         >
           <div
             className="ImageViewInnerContainer"
@@ -33,7 +38,6 @@ exports[`BiologyPageSubsectionFindingMate component snapshot 1`] = `
                 src="cheetah_scent_marking.jpg"
                 style={
                   Object {
-                    "height": 480,
                     "width": 720,
                   }
                 }
@@ -46,7 +50,7 @@ exports[`BiologyPageSubsectionFindingMate component snapshot 1`] = `
                   data-testid="CaptionComponentTestId"
                   style={
                     Object {
-                      "width": 720,
+                      "maxWidth": 720,
                     }
                   }
                 >
@@ -70,36 +74,40 @@ exports[`BiologyPageSubsectionFindingMate component snapshot 1`] = `
           </div>
         </div>
       </div>
-      <p
-        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+      <div
+        className=""
       >
-        The range of a female offspring may partially overlap that of her mother. Namibian cheetahs are more social than those reported in other countries. Females are often seen with multiple adults and cubs of varying ages.
-      </p>
-      <p
-        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-      >
-        Female cheetahs are polyoestrous, which means there is no regular breeding season. If not bred, females come into heat (estrus) several times a year. Estrus means they are ready to breed. If cubs are lost to predators females soon come into estrus again.
-      </p>
-      <p
-        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-      >
-        Smell, sound, and behavioral stimuli attract males to females. Female cheetahs leave a scent trail by releasing sex hormones in urine and feces. They mark trees and bushes. This behavior increases during courtship.
-      </p>
-      <p
-        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-      >
-        When courtship takes place, males will follow females closely and mock fighting may be observed.
-      </p>
-      <p
-        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-      >
-        When a female is ready to mate, she adopts a receptive posture. The male mounts the female, bites the back of her neck, and breeding takes place. When the male dismounts the female she rolls over on her back and swats at him.
-      </p>
-      <p
-        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-      >
-        Mating will take place for one to several days and ends when the male loses interest in the female and leaves. Males do not help raise the cubs.
-      </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          The range of a female offspring may partially overlap that of her mother. Namibian cheetahs are more social than those reported in other countries. Females are often seen with multiple adults and cubs of varying ages.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          Female cheetahs are polyoestrous, which means there is no regular breeding season. If not bred, females come into heat (estrus) several times a year. Estrus means they are ready to breed. If cubs are lost to predators females soon come into estrus again.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          Smell, sound, and behavioral stimuli attract males to females. Female cheetahs leave a scent trail by releasing sex hormones in urine and feces. They mark trees and bushes. This behavior increases during courtship.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          When courtship takes place, males will follow females closely and mock fighting may be observed.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          When a female is ready to mate, she adopts a receptive posture. The male mounts the female, bites the back of her neck, and breeding takes place. When the male dismounts the female she rolls over on her back and swats at him.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          Mating will take place for one to several days and ends when the male loses interest in the female and leaves. Males do not help raise the cubs.
+        </p>
+      </div>
     </div>
   </div>
 </div>
