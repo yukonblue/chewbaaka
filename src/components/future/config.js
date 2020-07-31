@@ -426,7 +426,7 @@ export const config = {
                 paragraph_02:
                   "Historically, cheetahs have not bred well in captivity. In recent years, through cooperative research and management " +
                   "in zoos worldwide, a global master plan is producing successful results. If future extinction were to occur with wild " +
-                  "cheetahs this research and maintained captive populations could allow the re-introduction of cheetahs."
+                  "cheetahs, this research and maintained captive populations could allow the re-introduction of cheetahs."
               }
             },
             part_Research: {
