@@ -22,14 +22,12 @@ export default class ContentPageSideFloatFluidContainer extends React.Component 
 
     const oppositeFloatClassName = this.props.RTL ? "FloatRight" : "FloatLeft";
 
-    const oppositeFloatClassNames = [oppositeFloatClassName, halfWidthClassName];
-
     return (
       <div className="OverflowHidden">
         <div className={classNames.join(" ")}>
           {this.props.floatPart}
         </div>
-        <div className={oppositeFloatClassNames.join(" ")}>
+        <div className={oppositeFloatClassName}>
           {this.props.fixedPart}
         </div>
       </div>
