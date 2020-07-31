@@ -12,6 +12,7 @@
   * [Style][Refine] Added vertical paddings across content pages where needed.
   * [Style][Fix] Update height specification of text in `Caption` component again to prevent page jump.
   * Updated author name in project global config.
+  * Incorporate release notes in project.
 
 ## Version 0.1.1
 
