@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Jul 31, 2020
  */
 
 import React from 'react'
@@ -50,11 +50,13 @@ export default class FuturePageSubsectionFieldResearch extends React.Component {
           rhsColumn={{content: this.renderPartContent(this.state.subsectionConfig.content["part_EcologicalStudies"])}}
         />
 
-        <MediaLinkButton
-          title="Learn more about CCF's research work"
-          href="https://cheetah.org/about/what-we-do/research/"
-          icon="file alternate outline"
-        />
+        <div className="VerticalCushionPadding">
+          <MediaLinkButton
+            title="Learn more about CCF's research work"
+            href="https://cheetah.org/about/what-we-do/research/"
+            icon="file alternate outline"
+          />
+        </div>
       </div>
     );
   }
