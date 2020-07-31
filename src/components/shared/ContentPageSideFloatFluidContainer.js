@@ -14,18 +14,24 @@ import './ContentPageSharedStyles.css'
 export default class ContentPageSideFloatFluidContainer extends React.Component {
 
   render() {
+    const halfWidthClassName = "HalfWidth";
+
     const floatClassName = this.props.RTL ? "FloatLeft" : "FloatRight";
 
-    const paddingClassName = this.props.RTL ? "HorizontalCusionPaddingRight" : "HorizontalCusionPaddingLeft";
+    // const paddingClassName = this.props.RTL ? "HorizontalCusionPaddingRight" : "HorizontalCusionPaddingLeft";
 
-    const classNames = [floatClassName, paddingClassName];
+    const classNames = [floatClassName, halfWidthClassName];
+
+    const oppositeFloatClassName = this.props.RTL ? "FloatRight" : "FloatLeft";
+
+    const oppositeFloatClassNames = [oppositeFloatClassName, halfWidthClassName];
 
     return (
       <div className="OverflowHidden">
         <div className={classNames.join(" ")}>
           {this.props.floatPart}
         </div>
-        <div className="ClearFloat">
+        <div className={oppositeFloatClassNames.join(" ")}>
           {this.props.fixedPart}
         </div>
       </div>

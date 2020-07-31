@@ -44,6 +44,10 @@ div.CenteredBlowoutBox {
   text-align: center;
 }
 
+div.InlineBlock {
+  display: inline-block;
+}
+
 div.OverflowHidden {
   overflow: hidden;
 }
@@ -57,7 +61,7 @@ div.FloatRight {
 }
 
 div.ClearFloat {
-  clear: both;
+  clear: left;
 }
 
 div.Centered {
@@ -98,6 +102,10 @@ div.RightMargin50px {
 
 div.BottomMargin50px {
   margin-bottom: 50px;
+}
+
+.HalfWidth {
+  width: 50%;
 }
 
 .FullWidth {
