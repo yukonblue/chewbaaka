@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 26, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Jul 30, 2020
  */
 
 import React from 'react'
@@ -25,7 +25,9 @@ export default class ContentPageSideFloatFluidContainer extends React.Component 
         <div className={classNames.join(" ")}>
           {this.props.floatPart}
         </div>
-        {this.props.fixedPart}
+        <div className="ClearFloat">
+          {this.props.fixedPart}
+        </div>
       </div>
     );
   }
