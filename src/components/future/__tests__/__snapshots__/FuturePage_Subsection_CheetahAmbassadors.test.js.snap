@@ -21,7 +21,7 @@ exports[`FuturePageSubsectionCheetahAmbassadors component snapshot 1`] = `
         <p
           className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
         >
-          Cheetahs in captivity can serve as ambassadors that can help in spreading the message of conservation and sustainable development in education and outreach programs. Here at Cheetah Conservation Fund, many cheetahs that have had been cared by CCF have left a legacy for future generations.
+          Cheetahs in captivity can serve as ambassadors that can help in spreading the message of conservation and sustainable development in education and outreach programs. Here at Cheetah Conservation Fund, many cheetahs that had been cared by CCF have left a legacy for future generations.
         </p>
         <div
           className="ContentPageSubsectionPartContainer"
@@ -181,7 +181,7 @@ exports[`FuturePageSubsectionCheetahAmbassadors component snapshot 1`] = `
                   <p
                     className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                   >
-                    Hello, my name is Mekondyo. Mekondyo means "struggle" in the Oshiwambo language. I was born on a farm north of Otjiwarango but I now live on farmland west of Otjiwarango. It is very beautiful. I can see the Waterberg Plateau far away. I am 5 years old now and I will tell you my story as you explore this museum.
+                    Hello, my name is Mekondyo. Mekondyo means "struggle" in the Oshiwambo language. I was born on a farm north of Otjiwarongo but I now live on farmland west of Otjiwarongo. It is very beautiful. I can see the Waterberg Plateau far away. I am 5 years old now and I will tell you my story as you explore this museum.
                   </p>
                 </div>
               </div>
