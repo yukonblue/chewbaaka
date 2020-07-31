@@ -21,12 +21,12 @@ exports[`BiologyPageSubsectionSkull component snapshot 1`] = `
       <p
         className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
       >
-        The cat skulls are different from other carnivore species, as they have a flatter nose and enlarged nasal cavity. There is a large area for the strong jaw muscles.
+        The cat skulls are different from other carnivore species, as they have a flatter nose and enlarged nasal cavity. In addition, there is significant room at the back for holding the strong jaw muscles.
       </p>
       <p
         className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
       >
-        The cheetah has some features that are distinct when compared to the skulls of other cats.
+        The cheetah's skull has some features that are distinct when compared to the skulls of other cats.
       </p>
       <div
         className="BiologyPageSubsectionSkullCheetahSkullDiagramContainer"
