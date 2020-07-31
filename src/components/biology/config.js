@@ -260,9 +260,10 @@ export const config = {
               "in skull proportions, carnivore skulls are quite similar.",
             paragraph_Skull_02:
               "The cat skulls are different from other carnivore species, as they have a " +
-              "flatter nose and enlarged nasal cavity. There is a large area for the strong jaw muscles.",
+              "flatter nose and enlarged nasal cavity. In addition, there is significant room at the back " +
+              "for holding the strong jaw muscles.",
             paragraph_Skull_03:
-              "The cheetah has some features that are distinct when compared to the skulls of other cats."
+              "The cheetah's skull has some features that are distinct when compared to the skulls of other cats."
           }
         },
         subsection_SpotsAndStripes: {
