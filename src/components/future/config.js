@@ -270,7 +270,7 @@ export const config = {
               content: {
                 paragraph_01:
                   "In 1994, CCF created a solution to non-lethal predator control - Livestock Guarding Dogs (LGD). " +
-                  "After extensive research, CCF felt that the Anatolian Shepherd and Kangal dog best met the livestock managers’ needs in Namibia. " +
+                  "After extensive research, CCF felt that the Anatolian Shepherd and Kangal dogs best met the livestock managers’ needs in Namibia. " +
                   "In cooperation with Dr. Ray Coppinger from the Livestock Guarding Dog Association in Hampshire College (Massachusetts, U.S.), " +
                   "the first 10 dogs were donated to Namibia by Birinci Anatolians.",
                 paragraph_02:
