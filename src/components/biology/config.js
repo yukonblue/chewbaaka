@@ -503,7 +503,7 @@ export const config = {
               title: "Focal Palatine Erosion",
               content: "This abnormality occurs when the lower molar (back teeth) damage and break " +
                       "through the upper palate (roof of mouth). Dental impressions and skull X-rays " +
-                      "allow CCF to relate problems with information on generics, health, diet, " +
+                      "allow CCF to relate problems with information on genetics, health, diet, " +
                       "and geographic origin of affected cheetahs. Palatine erosion is reported in " +
                       "both captive and wild cheetahs and can lead to fatal infection."
             },
