@@ -3,6 +3,9 @@
 ## Version 0.1.2
 
 * Date: July 31, 2020
+* Commit: `fa5168d`
+* Tag: `v0.1.2`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.1.2)
 * Notes:
   * [Style][Refine] Refine all necessary components to make site adapt better at smaller displays.
   * [Fix][Content] Fixed spelling and grammar issues across all content pages.
