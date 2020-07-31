@@ -13,13 +13,11 @@ exports[`BiologyPageSubsectionCommunication component snapshot 1`] = `
       Communication
     </h3>
     <div>
-      <div>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          Cheetahs communicate in many ways including sound, smell, touch, and sight. Communications may be either threatening or submissive.
-        </p>
-      </div>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+      >
+        Cheetahs communicate in many ways including sound, smell, touch, and sight. Communications may be either threatening or submissive.
+      </p>
       <div
         className="VerticalCushionPadding"
       >
@@ -137,22 +135,26 @@ exports[`BiologyPageSubsectionCommunication component snapshot 1`] = `
             </li>
           </ul>
         </div>
-        <div>
-          <a
-            href="https://www.youtube.com/watch?v=3kFl_TY3iUg"
-          >
-            <button
-              className="ui blue icon button"
-              onClick={[Function]}
+        <div
+          className="VerticalCushionPadding"
+        >
+          <div>
+            <a
+              href="https://www.youtube.com/watch?v=3kFl_TY3iUg"
             >
-              Cheetah Awareness Day - Vocalizations | YouTube
-              <i
-                aria-hidden="true"
-                className="file video icon"
+              <button
+                className="ui blue icon button"
                 onClick={[Function]}
-              />
-            </button>
-          </a>
+              >
+                Cheetah Awareness Day - Vocalizations | YouTube
+                <i
+                  aria-hidden="true"
+                  className="file video icon"
+                  onClick={[Function]}
+                />
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>

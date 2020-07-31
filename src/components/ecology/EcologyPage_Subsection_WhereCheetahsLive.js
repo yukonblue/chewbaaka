@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Jul 31, 2020
  */
 
 import React from 'react'
@@ -122,16 +122,18 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
           rhsColumn={{content: this.renderPartNamibianBiomesRhs(part)}}
         />
 
-        <CenteredFullWidthContainer maxWidth={1200}>
-          <ImageView
-            image={image_Namibia_Biomes_and_Cheetah_Ranges_Map}
-            caption={part.content["paragraph_biomes_map_caption"]}
-            width={1200}
-            height={720}
-          />
-        </CenteredFullWidthContainer>
+        <div className="VerticalCushionPaddingTopLarge">
+          <CenteredFullWidthContainer maxWidth={1200}>
+            <ImageView
+              image={image_Namibia_Biomes_and_Cheetah_Ranges_Map}
+              caption={part.content["paragraph_biomes_map_caption"]}
+              width={1200}
+              height={720}
+            />
+          </CenteredFullWidthContainer>
+        </div>
 
-        <div className="Centered FactBannerMediumDimension">
+        <div className="Centered FactBannerMediumDimension VerticalCushionPadding">
           <img
             className="FactBannerMediumDimension"
             src={image_banner_fact_What_is_Biome}
@@ -154,7 +156,9 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
 
   renderPartNamibianBiomesRhs(part) {
     return (
-      <NamibianBiomes part={part} />
+      <NamibianBiomes
+        part={part}
+      />
     );
   }
 

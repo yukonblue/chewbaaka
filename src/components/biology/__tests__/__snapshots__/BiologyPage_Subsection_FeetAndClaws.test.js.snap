@@ -20,7 +20,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
           className="OverflowHidden"
         >
           <div
-            className="FloatRight HorizontalCusionPaddingLeft HalfWidth"
+            className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px HalfWidth"
           >
             <div
               className="ImageViewOuterContainer"
@@ -130,15 +130,15 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
           className="OverflowHidden"
         >
           <div
-            className="FloatRight HorizontalCusionPaddingLeft HalfWidth"
+            className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px HalfWidth"
           >
             <div
               className="TextBubbleOuterContainer"
               style={
                 Object {
                   "backgroundColor": "rgb(undefined)",
-                  "height": 540,
-                  "width": 540,
+                  "height": 490,
+                  "width": 490,
                 }
               }
             >
@@ -152,7 +152,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                     style={
                       Object {
                         "color": "rgb(undefined)",
-                        "fontSize": 43.2,
+                        "fontSize": 39.2,
                       }
                     }
                   >
@@ -240,7 +240,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
           className="OverflowHidden"
         >
           <div
-            className="FloatRight HorizontalCusionPaddingLeft HalfWidth"
+            className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px HalfWidth"
           >
             <div
               className="ImageViewOuterContainer"

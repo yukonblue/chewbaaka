@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 26, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Jul 31, 2020
  */
 
 import React from 'react'
@@ -20,7 +20,7 @@ export default class ContentPageSideFloatFluidContainer extends React.Component 
 
     const paddingClassName = this.props.RTL ? "HorizontalCusionPaddingRight" : "HorizontalCusionPaddingLeft";
 
-    let classNames = [floatClassName, paddingClassName];
+    let classNames = [floatClassName, paddingClassName, "BottomMargin20px"];
 
     if (this.props.floatFixedSide) {
       classNames.push(halfWidthClassName);

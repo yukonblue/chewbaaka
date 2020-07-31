@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Jul 31, 2020
  */
 
 import React from 'react'
@@ -63,10 +63,12 @@ export default class BiologyPageSubsectionCommunication extends React.Component 
           {this.renderVocalizationList(part.content["vocalizations"])}
         </div>
 
-        <MediaLinkButton
-          href="https://www.youtube.com/watch?v=3kFl_TY3iUg"
-          title="Cheetah Awareness Day - Vocalizations | YouTube"
-        />
+        <div className="VerticalCushionPadding">
+          <MediaLinkButton
+            href="https://www.youtube.com/watch?v=3kFl_TY3iUg"
+            title="Cheetah Awareness Day - Vocalizations | YouTube"
+          />
+        </div>
       </div>
     );
   }
@@ -91,9 +93,7 @@ export default class BiologyPageSubsectionCommunication extends React.Component 
 
   renderIntroSectionContent(part) {
     return (
-      <div>
-        {ContentPageSubsectionParagraphsContentBinder(part.content)}
-      </div>
+      ContentPageSubsectionParagraphsContentBinder(part.content)
     );
   }
 

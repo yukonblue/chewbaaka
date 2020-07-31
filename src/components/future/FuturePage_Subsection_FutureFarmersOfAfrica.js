@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Jul 31, 2020
  */
 
 import React from 'react'
@@ -120,11 +120,13 @@ export default class FuturePageSubsectionFutureFarmersOfAfrica extends React.Com
           {this.state.subsectionConfig.contents["paragraph_FutureFarmersOfAfrica_06"]}
         </ContentPageParagraph>
 
-        <MediaLinkButton
-          title="Read on CCF's blog on Future Farmers of Africa"
-          href="https://cheetah.org/canada/about-us/what-we-support/future-farmers-of-africa/"
-          icon="file alternate outline"
-        />
+        <div className="VerticalCushionPadding">
+          <MediaLinkButton
+            title="Read on CCF's blog on Future Farmers of Africa"
+            href="https://cheetah.org/canada/about-us/what-we-support/future-farmers-of-africa/"
+            icon="file alternate outline"
+          />
+        </div>
       </ContentPageSubsectionPart>
     );
   }

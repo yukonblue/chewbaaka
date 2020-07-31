@@ -147,7 +147,7 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                 className="OverflowHidden"
               >
                 <div
-                  className="FloatRight HorizontalCusionPaddingLeft"
+                  className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
                 >
                   <div
                     className="TextBubbleOuterContainer"
@@ -210,7 +210,7 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                 </div>
               </div>
               <div
-                className="Centered FactBannerMediumDimension"
+                className="Centered FactBannerMediumDimension VerticalCushionPaddingTopLarge"
               >
                 <img
                   alt="What is a problem animal?"
@@ -265,7 +265,7 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                 className="OverflowHidden"
               >
                 <div
-                  className="FloatRight HorizontalCusionPaddingLeft"
+                  className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
                 >
                   <div
                     className="ImageViewOuterContainer"
@@ -617,7 +617,7 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                   className="OverflowHidden"
                 >
                   <div
-                    className="FloatRight HorizontalCusionPaddingLeft"
+                    className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
                   >
                     <div
                       className="ImageViewOuterContainer"
@@ -733,7 +733,7 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                   className="OverflowHidden"
                 >
                   <div
-                    className="FloatLeft HorizontalCusionPaddingRight"
+                    className="FloatLeft HorizontalCusionPaddingRight BottomMargin20px"
                   >
                     <div
                       className="ImageViewOuterContainer"
@@ -824,7 +824,7 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                   className="OverflowHidden"
                 >
                   <div
-                    className="FloatRight HorizontalCusionPaddingLeft"
+                    className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
                   >
                     <img
                       alt="FSC logo"
@@ -859,7 +859,7 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                   className="OverflowHidden"
                 >
                   <div
-                    className="FloatRight HorizontalCusionPaddingLeft"
+                    className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
                   >
                     <img
                       alt="CCF Bushblok"

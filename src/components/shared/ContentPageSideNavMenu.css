@@ -4,16 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Jul 14, 2020
+ * Updated  : Jul 31, 2020
  */
 
 div.ContentPageSideNavMenuOuterContainer {
   display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-div.ContentPageSideNavMenuOuterContainer_DebugColor {
-  background-color: beige;
+  background-color: #feb628;
+  margin-top: 5px;
 }
 
 span.ContentPageSideNavMenuHeader {
@@ -22,11 +20,21 @@ span.ContentPageSideNavMenuHeader {
 
 span.ContentPageSideNavMenuItem {
   line-height: 1.4em;
-  color: gray;
+  color: #757575;
   font-size: 20px;
+  font-weight: bold;
 }
 
 span.ContentPageSideNavMenuItem:hover {
   color: black;
-  font-weight: bold;
+}
+
+.ui.text.vertical.menu.ContentPageSideNavMenuInnerMenu a.item {
+  padding-right: 25px;
+}
+
+.ui.text.vertical.menu.ContentPageSideNavMenuInnerMenu a.item:hover {
+  background-image: url("./assets/content_page_side_nav_menu_item_background.png");
+  background-repeat: no-repeat;
+  background-position: right center;
 }

@@ -72,14 +72,17 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
         <ContentPageSubsectionSubtitle>
           {part.title}
         </ContentPageSubsectionSubtitle>
+
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
 
-        <CenteredFullWidthContainer maxWidth={1200}>
-          <FluidImageWrapper
-            src={image_CCF_LGD}
-            alt="Livestock Guarding Dog"
-          />
-        </CenteredFullWidthContainer>
+        <div className="VerticalCushionPadding">
+          <CenteredFullWidthContainer maxWidth={1200}>
+            <FluidImageWrapper
+              src={image_CCF_LGD}
+              alt="Livestock Guarding Dog"
+            />
+          </CenteredFullWidthContainer>
+        </div>
       </ContentPageSubsectionPart>
     );
   }
@@ -142,12 +145,14 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
           fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
         />
 
-        <CenteredFullWidthContainer maxWidth={960} className="VerticalCushionPaddingTopLarge">
-          <FluidImageWrapper
-            src={image_LGD}
-            alt="Livestock Guarding Dogs"
-          />
-        </CenteredFullWidthContainer>
+        <div className="VerticalCushionPaddingTopLarge">
+          <CenteredFullWidthContainer maxWidth={960}>
+            <FluidImageWrapper
+              src={image_LGD}
+              alt="Livestock Guarding Dogs"
+            />
+          </CenteredFullWidthContainer>
+        </div>
       </ContentPageSubsectionPart>
     );
   }

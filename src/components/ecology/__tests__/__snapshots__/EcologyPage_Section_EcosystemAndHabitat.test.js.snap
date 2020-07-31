@@ -75,7 +75,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                 className="OverflowHidden"
               >
                 <div
-                  className="FloatRight HorizontalCusionPaddingLeft"
+                  className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
                 >
                   <div
                     className="ImageViewOuterContainer"
@@ -238,15 +238,10 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                 </div>
               </div>
               <div
-                className="Centered FullWidth"
-                style={
-                  Object {
-                    "maxWidth": 1200,
-                  }
-                }
+                className="VerticalCushionPaddingTopLarge"
               >
                 <div
-                  className="ImageViewOuterContainer"
+                  className="Centered FullWidth"
                   style={
                     Object {
                       "maxWidth": 1200,
@@ -254,47 +249,56 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                   }
                 >
                   <div
-                    className="ImageViewInnerContainer"
+                    className="ImageViewOuterContainer"
+                    style={
+                      Object {
+                        "maxWidth": 1200,
+                      }
+                    }
                   >
                     <div
-                      className="ImageViewCore"
+                      className="ImageViewInnerContainer"
                     >
-                      <img
-                        alt="Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on."
-                        className="ImageViewImg"
-                        src="Namibia_Biomes_and_Cheetah_Ranges_Map.jpg"
-                        style={
-                          Object {
-                            "width": 1200,
-                          }
-                        }
-                      />
                       <div
-                        data-testid="ImageViewComponentCaptionPart"
+                        className="ImageViewCore"
                       >
-                        <div
-                          className="CaptionContainer"
-                          data-testid="CaptionComponentTestId"
+                        <img
+                          alt="Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on."
+                          className="ImageViewImg"
+                          src="Namibia_Biomes_and_Cheetah_Ranges_Map.jpg"
                           style={
                             Object {
-                              "maxWidth": 1200,
+                              "width": 1200,
                             }
                           }
+                        />
+                        <div
+                          data-testid="ImageViewComponentCaptionPart"
                         >
                           <div
-                            className="IconContainer"
+                            className="CaptionContainer"
+                            data-testid="CaptionComponentTestId"
+                            style={
+                              Object {
+                                "maxWidth": 1200,
+                              }
+                            }
                           >
-                            <i
-                              aria-hidden="true"
-                              className="image icon"
-                              onClick={[Function]}
-                            />
+                            <div
+                              className="IconContainer"
+                            >
+                              <i
+                                aria-hidden="true"
+                                className="image icon"
+                                onClick={[Function]}
+                              />
+                            </div>
+                            <p
+                              className="ContentPageCaptionTextSize CaptionText"
+                            >
+                              Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on.
+                            </p>
                           </div>
-                          <p
-                            className="ContentPageCaptionTextSize CaptionText"
-                          >
-                            Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on.
-                          </p>
                         </div>
                       </div>
                     </div>
@@ -302,7 +306,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                 </div>
               </div>
               <div
-                className="Centered FactBannerMediumDimension"
+                className="Centered FactBannerMediumDimension VerticalCushionPadding"
               >
                 <img
                   alt="What is biome?"
@@ -739,7 +743,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                 className="OverflowHidden"
               >
                 <div
-                  className="FloatRight HorizontalCusionPaddingLeft"
+                  className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
                 >
                   <div
                     className="ImageViewOuterContainer"

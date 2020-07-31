@@ -26,7 +26,7 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
             className="OverflowHidden"
           >
             <div
-              className="FloatRight HorizontalCusionPaddingLeft"
+              className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
             >
               <div
                 className="ImageViewOuterContainer"
@@ -142,7 +142,7 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
             className="OverflowHidden"
           >
             <div
-              className="FloatLeft HorizontalCusionPaddingRight"
+              className="FloatLeft HorizontalCusionPaddingRight BottomMargin20px"
             >
               <div
                 className="ImageViewOuterContainer"
@@ -233,7 +233,7 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
             className="OverflowHidden"
           >
             <div
-              className="FloatRight HorizontalCusionPaddingLeft"
+              className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
             >
               <img
                 alt="FSC logo"
@@ -268,7 +268,7 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
             className="OverflowHidden"
           >
             <div
-              className="FloatRight HorizontalCusionPaddingLeft"
+              className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
             >
               <img
                 alt="CCF Bushblok"

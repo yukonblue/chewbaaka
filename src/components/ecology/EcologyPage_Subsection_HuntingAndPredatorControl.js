@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Jul 31, 2020
  */
 
 import React from 'react'
@@ -107,7 +107,7 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
           fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
         />
 
-        <div className="Centered FactBannerMediumDimension">
+        <div className="Centered FactBannerMediumDimension VerticalCushionPaddingTopLarge">
           <img
             className="FactBannerMediumDimension"
             src={image_What_is_a_Problem_Animal}

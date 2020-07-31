@@ -20,7 +20,7 @@ exports[`FuturePageSubsectionFutureFarmersOfAfrica component snapshot 1`] = `
           className="OverflowHidden"
         >
           <div
-            className="FloatRight HorizontalCusionPaddingLeft"
+            className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
           >
             <div
               style={
@@ -67,7 +67,7 @@ exports[`FuturePageSubsectionFutureFarmersOfAfrica component snapshot 1`] = `
           className="OverflowHidden"
         >
           <div
-            className="FloatLeft HorizontalCusionPaddingRight"
+            className="FloatLeft HorizontalCusionPaddingRight BottomMargin20px"
           >
             <div
               className="ImageViewOuterContainer"
@@ -161,22 +161,26 @@ exports[`FuturePageSubsectionFutureFarmersOfAfrica component snapshot 1`] = `
         >
           CCF reaches out to local farming communities, visiting farms and joining annual farmer’s association meetings to give vital advice on improvements that farmers can make to their rangeland, livestock and wildlife management.
         </p>
-        <div>
-          <a
-            href="https://cheetah.org/canada/about-us/what-we-support/future-farmers-of-africa/"
-          >
-            <button
-              className="ui blue icon button"
-              onClick={[Function]}
+        <div
+          className="VerticalCushionPadding"
+        >
+          <div>
+            <a
+              href="https://cheetah.org/canada/about-us/what-we-support/future-farmers-of-africa/"
             >
-              Read on CCF's blog on Future Farmers of Africa
-              <i
-                aria-hidden="true"
-                className="file alternate outline icon"
+              <button
+                className="ui blue icon button"
                 onClick={[Function]}
-              />
-            </button>
-          </a>
+              >
+                Read on CCF's blog on Future Farmers of Africa
+                <i
+                  aria-hidden="true"
+                  className="file alternate outline icon"
+                  onClick={[Function]}
+                />
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>

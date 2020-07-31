@@ -20,7 +20,7 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
           className="OverflowHidden"
         >
           <div
-            className="FloatRight HorizontalCusionPaddingLeft"
+            className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
           >
             <img
               alt="Open wide"
@@ -52,7 +52,7 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
           className="OverflowHidden"
         >
           <div
-            className="FloatLeft HorizontalCusionPaddingRight"
+            className="FloatLeft HorizontalCusionPaddingRight BottomMargin20px"
           >
             <img
               alt="Papillae on cheetah's tongue"
@@ -77,7 +77,7 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
           className="OverflowHidden"
         >
           <div
-            className="FloatRight HorizontalCusionPaddingLeft"
+            className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
           >
             <img
               alt="Cheetah grooming"

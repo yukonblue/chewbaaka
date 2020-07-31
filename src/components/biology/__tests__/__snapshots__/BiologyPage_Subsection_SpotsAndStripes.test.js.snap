@@ -114,15 +114,10 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
           </div>
         </div>
         <div
-          className="Centered FullWidth"
-          style={
-            Object {
-              "maxWidth": 720,
-            }
-          }
+          className="VerticalCushionPaddingTopLarge"
         >
           <div
-            className="ImageViewOuterContainer"
+            className="Centered FullWidth"
             style={
               Object {
                 "maxWidth": 720,
@@ -130,47 +125,56 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
             }
           >
             <div
-              className="ImageViewInnerContainer"
+              className="ImageViewOuterContainer"
+              style={
+                Object {
+                  "maxWidth": 720,
+                }
+              }
             >
               <div
-                className="ImageViewCore"
+                className="ImageViewInnerContainer"
               >
-                <img
-                  alt="The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators."
-                  className="ImageViewImg"
-                  src="cheetah_and_honey_badger.jpg"
-                  style={
-                    Object {
-                      "width": 720,
-                    }
-                  }
-                />
                 <div
-                  data-testid="ImageViewComponentCaptionPart"
+                  className="ImageViewCore"
                 >
-                  <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
+                  <img
+                    alt="The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators."
+                    className="ImageViewImg"
+                    src="cheetah_and_honey_badger.jpg"
                     style={
                       Object {
-                        "maxWidth": 720,
+                        "width": 720,
                       }
                     }
+                  />
+                  <div
+                    data-testid="ImageViewComponentCaptionPart"
                   >
                     <div
-                      className="IconContainer"
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 720,
+                        }
+                      }
                     >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
+                      <div
+                        className="IconContainer"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
+                      </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators.
+                      </p>
                     </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators.
-                    </p>
                   </div>
                 </div>
               </div>
