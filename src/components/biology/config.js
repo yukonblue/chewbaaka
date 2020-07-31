@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 27, 2020
+ * Updated  : Jul 30, 2020
  */
 
 export const config = {
@@ -47,7 +47,7 @@ export const config = {
       intro: {
         title: "Lifecycle",
         content: "One of the most incredible things about the cheetahs is the remarkable processes and transitions " +
-                "in their lifecycle. From born at an average weight of no more than 350 grams and completely " +
+                "in their lifecycle. From born at an average weight of 350 grams and completely " +
                 "helpless and unable to see, to becoming one of the most skilled predators and the fastest " +
                 "land animal on the planet, nothing speaks more about the incredible adaptations that allow them " +
                 "to survive and thrive in the challenging environments where they live."
@@ -133,7 +133,7 @@ export const config = {
               "and start their own families. They raise their families on their own without the help of the males.",
             paragraph_Lifecycle_Stage_4_03:
               "Males usually do not breed until they are 4 to 5 years of age, and dominant in a territory. "+
-              'They live alone or brothers form permanent groups called "coalitions". '+
+              'They live alone, or brothers form permanent groups called "coalitions". '+
               "These groups stay together for life, claim territories, hunt and find mates together."
           }
         },
@@ -213,7 +213,7 @@ export const config = {
           title: "Anatomy",
           contents: {
             paragraph_01:
-              "Every part of the cheetah's body work in unison during a high speed run, and the sum of each of their " +
+              "All parts of the cheetah's body work in unison during a high speed run, and the sum of each of their " +
               "role together is greater than the individual parts. Explore the illustration below to learn about the " +
               "role and function of each highlighted body part."
           }
@@ -260,9 +260,10 @@ export const config = {
               "in skull proportions, carnivore skulls are quite similar.",
             paragraph_Skull_02:
               "The cat skulls are different from other carnivore species, as they have a " +
-              "flatter nose and enlarged nasal cavity. There is a large area for the strong jaw muscles.",
+              "flatter nose and enlarged nasal cavity. In addition, there is significant room at the back " +
+              "for holding the strong jaw muscles.",
             paragraph_Skull_03:
-              "The cheetah has some features that are distinct when compared to the skulls of other cats."
+              "The cheetah's skull has some features that are distinct when compared to the skulls of other cats."
           }
         },
         subsection_SpotsAndStripes: {
@@ -307,9 +308,9 @@ export const config = {
             part2: {
               content: {
                 paragraph_01:
-                  "A cheetah running the 249km from Otjiwarongo to Windhoek would need to stop to rest more than 311 times.",
+                  "A cheetah running the 249 km from Otjiwarongo to Windhoek would need to stop to rest more than 311 times.",
                 paragraph_02:
-                  "If it could run there without resting, it would take 2 hours and 26 minutes at 110km/hr."
+                  "If it could run there without resting, it would take 2 hours and 26 minutes at 110 km/hr."
               }
             }
           }
@@ -502,7 +503,7 @@ export const config = {
               title: "Focal Palatine Erosion",
               content: "This abnormality occurs when the lower molar (back teeth) damage and break " +
                       "through the upper palate (roof of mouth). Dental impressions and skull X-rays " +
-                      "allow CCF to relate problems with information on generics, health, diet, " +
+                      "allow CCF to relate problems with information on genetics, health, diet, " +
                       "and geographic origin of affected cheetahs. Palatine erosion is reported in " +
                       "both captive and wild cheetahs and can lead to fatal infection."
             },

@@ -321,7 +321,7 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
               <p
                 className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
               >
-                Historically, cheetahs have not bred well in captivity. In recent years, through cooperative research and management in zoos worldwide, a global master plan is producing successful results. If future extinction were to occur with wild cheetahs this research and maintained captive populations could allow the re-introduction of cheetahs.
+                Historically, cheetahs have not bred well in captivity. In recent years, through cooperative research and management in zoos worldwide, a global master plan is producing successful results. If future extinction were to occur with wild cheetahs, this research and maintained captive populations could allow the re-introduction of cheetahs.
               </p>
             </div>
             <div

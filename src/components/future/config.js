@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Jul 30, 2020
  */
 
 export const config = {
@@ -130,7 +130,7 @@ export const config = {
                 paragraph_01:
                   "Cheetahs in captivity can serve as ambassadors that can help in spreading the message of " +
                   "conservation and sustainable development in education and outreach programs. " +
-                  "Here at Cheetah Conservation Fund, many cheetahs that have had been cared by CCF have left a legacy for future generations."
+                  "Here at Cheetah Conservation Fund, many cheetahs that had been cared by CCF have left a legacy for future generations."
               }
             },
             part_Chewbaaka: {
@@ -158,8 +158,8 @@ export const config = {
               content: {
                 paragraph_01:
                   'Hello, my name is Mekondyo. Mekondyo means "struggle" in the ' +
-                  "Oshiwambo language. I was born on a farm north of Otjiwarango " +
-                  "but I now live on farmland west of Otjiwarango. It is very " +
+                  "Oshiwambo language. I was born on a farm north of Otjiwarongo " +
+                  "but I now live on farmland west of Otjiwarongo. It is very " +
                   "beautiful. I can see the Waterberg Plateau far away. " +
                   "I am 5 years old now and I will tell you my story as you " +
                   "explore this museum."
@@ -270,7 +270,7 @@ export const config = {
               content: {
                 paragraph_01:
                   "In 1994, CCF created a solution to non-lethal predator control - Livestock Guarding Dogs (LGD). " +
-                  "After extensive research, CCF felt that the Anatolian Shepherd and Kangal dog best met the livestock managers’ needs in Namibia. " +
+                  "After extensive research, CCF felt that the Anatolian Shepherd and Kangal dogs best met the livestock managers’ needs in Namibia. " +
                   "In cooperation with Dr. Ray Coppinger from the Livestock Guarding Dog Association in Hampshire College (Massachusetts, U.S.), " +
                   "the first 10 dogs were donated to Namibia by Birinci Anatolians.",
                 paragraph_02:
@@ -285,7 +285,7 @@ export const config = {
               title: "Raising LGD’s",
               content: {
                 paragraph_01:
-                  "LGD’s are placed with their herds around nine weeks of age, as social bonding between the stock and the dogs depends upon " +
+                  "LGD’s are placed with their herds around nine weeks of age, as social bonding between the stock and the dogs deepens upon " +
                   "imprinting before 16 weeks of age. The dogs live with their livestock family instead of a human family, so the puppies bond with the herd; " +
                   "it becomes the dog’s pack rather than the dog’s potential prey. At CCF puppies are born in a whelping pen attached to the main goat yard."
               }
@@ -426,7 +426,7 @@ export const config = {
                 paragraph_02:
                   "Historically, cheetahs have not bred well in captivity. In recent years, through cooperative research and management " +
                   "in zoos worldwide, a global master plan is producing successful results. If future extinction were to occur with wild " +
-                  "cheetahs this research and maintained captive populations could allow the re-introduction of cheetahs."
+                  "cheetahs, this research and maintained captive populations could allow the re-introduction of cheetahs."
               }
             },
             part_Research: {
