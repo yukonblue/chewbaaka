@@ -242,81 +242,92 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
             <div
               className="ContentPageSubsectionPartContainer"
             >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              >
-                Kinked Tails
-              </h4>
               <div
-                className="OverflowHidden"
+                className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
               >
                 <div
-                  className="FloatRight HorizontalCusionPaddingLeft"
+                  className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
                 >
                   <div
-                    className="ImageViewOuterContainer"
-                    style={
-                      Object {
-                        "maxWidth": 640,
-                      }
-                    }
+                    className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
                   >
                     <div
-                      className="ImageViewInnerContainer"
+                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
                     >
-                      <div
-                        className="ImageViewCore"
+                      <h4
+                        className="ContentPageSubsectionSubtitle"
                       >
-                        <img
-                          alt="Kinked tail. (Image credit: Cheetah Conservation Fund)"
-                          className="ImageViewImg"
-                          src="cheetah_kinked_tail.jpg"
-                          style={
-                            Object {
-                              "width": 640,
-                            }
+                        Kinked Tails
+                      </h4>
+                      <p
+                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                      >
+                        Crooked tails have been recorded in 19% of the Namibian cheetahs evaluated since 1995. This is the first documentation of this abnormality in wild cheetahs and could be linked to a lack of genetic diversity.
+                      </p>
+                    </div>
+                    <div
+                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+                    >
+                      <h4
+                        className="ContentPageSubsectionSubtitle"
+                      />
+                      <div
+                        className="ImageViewOuterContainer"
+                        style={
+                          Object {
+                            "maxWidth": 640,
                           }
-                        />
+                        }
+                      >
                         <div
-                          data-testid="ImageViewComponentCaptionPart"
+                          className="ImageViewInnerContainer"
                         >
                           <div
-                            className="CaptionContainer"
-                            data-testid="CaptionComponentTestId"
-                            style={
-                              Object {
-                                "maxWidth": 640,
-                              }
-                            }
+                            className="ImageViewCore"
                           >
+                            <img
+                              alt="Kinked tail. (Image credit: Cheetah Conservation Fund)"
+                              className="ImageViewImg"
+                              src="cheetah_kinked_tail.jpg"
+                              style={
+                                Object {
+                                  "width": 640,
+                                }
+                              }
+                            />
                             <div
-                              className="IconContainer"
+                              data-testid="ImageViewComponentCaptionPart"
                             >
-                              <i
-                                aria-hidden="true"
-                                className="image icon"
-                                onClick={[Function]}
-                              />
+                              <div
+                                className="CaptionContainer"
+                                data-testid="CaptionComponentTestId"
+                                style={
+                                  Object {
+                                    "maxWidth": 640,
+                                  }
+                                }
+                              >
+                                <div
+                                  className="IconContainer"
+                                >
+                                  <i
+                                    aria-hidden="true"
+                                    className="image icon"
+                                    onClick={[Function]}
+                                  />
+                                </div>
+                                <p
+                                  className="ContentPageCaptionTextSize CaptionText"
+                                >
+                                  Kinked tail. (Image credit: Cheetah Conservation Fund)
+                                </p>
+                              </div>
                             </div>
-                            <p
-                              className="ContentPageCaptionTextSize CaptionText"
-                            >
-                              Kinked tail. (Image credit: Cheetah Conservation Fund)
-                            </p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div
-                  className=""
-                >
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                  >
-                    Crooked tails have been recorded in 19% of the Namibian cheetahs evaluated since 1995. This is the first documentation of this abnormality in wild cheetahs and could be linked to a lack of genetic diversity.
-                  </p>
                 </div>
               </div>
             </div>
