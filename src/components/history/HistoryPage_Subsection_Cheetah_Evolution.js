@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 30, 2020
  */
 
 import React from 'react'
@@ -52,9 +52,7 @@ export default class HistoryPageSubsectionCheetahEvolution extends React.Compone
             Learn about the evolution and migration of the cheetah.
           </ContentPageSubsectionSubtitle>
 
-          <div className={getElementStyleClassName("HistoryPageSubsectionCheetahEvolutionMapComponentContainer")}>
-            <HistoryPageCheetahEvolutionMap />
-          </div>
+          <HistoryPageCheetahEvolutionMap />
 
           <LineBreak lines={2} />
 
