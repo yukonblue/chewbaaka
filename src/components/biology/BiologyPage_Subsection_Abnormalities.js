@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 18, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Jul 31, 2020
  */
 
 import React from 'react'
@@ -15,8 +15,6 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageParagraph from '../shared/ContentPageParagraph';
-import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
-import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFluidContainer'
 
 import {
   ContentPageSubsectionColumnDataBinder
@@ -114,25 +112,25 @@ export default class BiologyPageSubsectionAbnormalities extends React.Component 
   renderSection3Content() {
     return (
       <ContentPageSubsectionPart>
-        <ContentPageSubsectionSubtitle>
-          {this.state.subsectionConfig.contents["part_Kinked_Tails"].title}
-        </ContentPageSubsectionSubtitle>
 
-        <ContentPageSideFloatFluidContainer
-          floatPart={
-            <ImageView
-              image={image_cheetah_kinked_tail}
-              caption="Kinked tail."
-              credit={kStringConstantCheetahConservationFund}
-              width={640}
-              height={427}
-            />
+        <ContentPageSubsectionTwoColumnContentTemplate
+          lhsColumn={
+            ContentPageSubsectionColumnDataBinder(
+              this.state.subsectionConfig.contents["part_Kinked_Tails"],
+              this.renderSingleParagraphContent
+            )
           }
-          fixedPart={
-            <ContentPageParagraph>
-              {this.state.subsectionConfig.contents["part_Kinked_Tails"].content}
-            </ContentPageParagraph>
-          }
+          rhsColumn={{
+            content: (
+              <ImageView
+                image={image_cheetah_kinked_tail}
+                caption="Kinked tail."
+                credit={kStringConstantCheetahConservationFund}
+                width={640}
+                height={427}
+              />
+            )
+          }}
         />
       </ContentPageSubsectionPart>
     );
