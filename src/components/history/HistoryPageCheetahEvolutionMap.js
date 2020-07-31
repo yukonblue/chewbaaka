@@ -4,18 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 27, 2020
+ * Updated  : Jul 30, 2020
  */
 
 import React from 'react'
 
-import "semantic-ui-css/semantic.min.css"
-
-import './HistoryPageCheetahEvolutionMap.css'
-
 import ImageSlide from '../shared/ImageSlide'
-
-import { getElementStyleClassName } from '../../styling/styling'
 
 import backgroundImage from './assets/Cheetah_Evolution_Map/Cheetah_Evolution_Map_Background_Only.png'
 import bodyImage_01 from './assets/Cheetah_Evolution_Map/Cheetah_Evolution_Map_Step_01.png'
@@ -32,56 +26,51 @@ export default class HistoryPageCheetahEvolutionMap extends React.Component {
 
   render() {
     return (
-      <div className={getElementStyleClassName("HistoryPageCheetahEvolutionMapOuterContainer")}>
-        <div className={getElementStyleClassName("HistoryPageCheetahEvolutionMapInnerContainer")}>
-          <div className={getElementStyleClassName("HistoryPageCheetahEvolutionMapImageSlideContainer")}>
-            <ImageSlide
-              title={HistoryPageCheetahEvolutionMap._TITLE_}
-              caption="Slide the timeline to see how the cheetah evolved and migrated."
-              sliderNameLabel="Timeline"
-              sliderUnitLabel="million years ago / years ago"
-              backgroundImage={backgroundImage}
-              marks={[
-                {
-                  value: 5,
-                  label: '26 mya',
-                  image: bodyImage_01,
-                },
-                {
-                  value: 10,
-                  label: '6.7 mya',
-                  image: bodyImage_02,
-                },
-                {
-                  value: 30,
-                  label: '100,000 ya',
-                  image: bodyImage_03,
-                },
-                {
-                  value: 40,
-                  label: '100,000 ya',
-                  image: bodyImage_04,
-                },
-                {
-                  value: 60,
-                  label: '12,000 ya',
-                  image: bodyImage_05,
-                },
-                {
-                  value: 70,
-                  label: '10,000 ya',
-                  image: bodyImage_06,
-                },
-                {
-                  value: 90,
-                  label: 'contemporary',
-                  image: bodyImage_07,
-                },
-              ]}
-            />
-          </div>
-        </div>
-      </div>
+      <ImageSlide
+        title={HistoryPageCheetahEvolutionMap._TITLE_}
+        caption="Slide the timeline to see how the cheetah evolved and migrated."
+        sliderNameLabel="Timeline"
+        sliderUnitLabel="million years ago / years ago"
+        backgroundImage={backgroundImage}
+        imageWidth={1200}
+        marks={[
+          {
+            value: 5,
+            label: '26 mya',
+            image: bodyImage_01,
+          },
+          {
+            value: 10,
+            label: '6.7 mya',
+            image: bodyImage_02,
+          },
+          {
+            value: 30,
+            label: '100,000 ya',
+            image: bodyImage_03,
+          },
+          {
+            value: 40,
+            label: '100,000 ya',
+            image: bodyImage_04,
+          },
+          {
+            value: 60,
+            label: '12,000 ya',
+            image: bodyImage_05,
+          },
+          {
+            value: 70,
+            label: '10,000 ya',
+            image: bodyImage_06,
+          },
+          {
+            value: 90,
+            label: 'contemporary',
+            image: bodyImage_07,
+          },
+        ]}
+      />
     );
   }
 }

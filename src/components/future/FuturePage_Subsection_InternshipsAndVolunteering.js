@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Jul 30, 2020
  */
 
 import React from 'react'
@@ -17,9 +17,13 @@ import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 import ContentPageRegularUnorderedList from '../shared/ContentPageRegularUnorderedList'
 
+import CenteredFullWidthContainer from '../shared/CenteredFullWidthContainer'
+
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import FluidImageWrapper from '../shared/FluidImageWrapper'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
@@ -56,15 +60,14 @@ export default class FuturePageSubsectionInternshipsAndVolunteering extends Reac
   }
 
   renderBannerImage() {
-    const width = 1300;
     return (
       <ContentPageSubsectionPart>
-        <div className="Centered" style={{width: width}}>
-          <img
-            style={{width: width}}
-            src={image_CCF_GetInvolved_Volunteer} alt="CCF Volunteering"
+        <CenteredFullWidthContainer maxWidth={1300}>
+          <FluidImageWrapper
+            src={image_CCF_GetInvolved_Volunteer}
+            alt="CCF Volunteering"
           />
-        </div>
+        </CenteredFullWidthContainer>
       </ContentPageSubsectionPart>
     );
   }

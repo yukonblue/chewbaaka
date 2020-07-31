@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Jul 30, 2020
  */
 
 import React from 'react'
@@ -18,6 +18,8 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import ContentPageParagraph from '../shared/ContentPageParagraph'
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
+
+import FluidImageWrapper from '../shared/FluidImageWrapper'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
@@ -77,7 +79,7 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
           one of the eight lineages of the <span className="TaxonomyBinomialName">Felidae</span> family.
         </ContentPageParagraph>
 
-        <img src={big_cats_image} alt="Big Cats" />
+        <FluidImageWrapper src={big_cats_image} alt="Big Cats" />
       </ContentPageSubsectionPart>
     );
   }

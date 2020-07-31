@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 21, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Jul 30, 2020
  */
 
 import React from 'react'
@@ -65,12 +65,10 @@ export default class EcologyPageSubsectionCheetahFriendlyFarming extends React.C
   renderBodyPartContent(part) {
     return (
       <ContentPageSubsectionPart>
-        <img className="FlexClipartSheep" src={image_goat_clipart} alt="sheep" width={160} />
-        <img className="FlexClipartCattle" src={image_cattle_clipart} alt="cattle" width={160} />
         <ContentPageSubsectionThreeColumnContentTemplate
           lhsColumn={this.bodyPartColumnData(part.content["part_SmallstockPractices"])}
 
-          middleColumn={this.bodyPartColumnData(part.content["part_SharedPractices"])}
+          middleColumn={this.bodyPartMiddleColumnData(part.content["part_SharedPractices"])}
 
           rhsColumn={this.bodyPartColumnData(part.content["part_CattlePractices"])}
 
@@ -78,6 +76,20 @@ export default class EcologyPageSubsectionCheetahFriendlyFarming extends React.C
         />
       </ContentPageSubsectionPart>
     );
+  }
+
+  bodyPartMiddleColumnData(part) {
+    return {
+      title: part.title,
+      content: (
+        <div>
+          <img className="FlexClipartSheep" src={image_goat_clipart} alt="sheep" width={160} />
+          <img className="FlexClipartCattle" src={image_cattle_clipart} alt="cattle" width={160} />
+          {this.renderBodyPartColumnContent(part)}
+        </div>
+      ),
+      backgroundColorRGB: part.backgroundColorRGB
+    };
   }
 
   bodyPartColumnData(part) {

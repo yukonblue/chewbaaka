@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 30, 2020
  */
 
 /**
@@ -32,18 +32,28 @@ import './ImageView.css'
 
 import Caption from './Caption'
 
+import { getElementStyleClassName } from '../../styling/styling'
+
 import { getFormattedImageCaptionStringWithCredit}  from './ImageCaptionUtils'
 
 export default function ImageView(props) {
+  const componentOuterContainerDimension = {
+    maxWidth: props.width,
+    // maxHeight: props.height
+  };
+
   const imagePartDimensionStyle = {
     width: props.width,
-    height: props.height
+    // height: props.height
   };
 
   const caption = getFormattedImageCaptionStringWithCredit(props.caption, props.credit);
 
   return (
-    <div className="ImageViewOuterContainer">
+    <div
+      className={getElementStyleClassName("ImageViewOuterContainer")}
+      style={componentOuterContainerDimension}
+    >
       <div className="ImageViewInnerContainer">
         <div className="ImageViewCore">
           <img

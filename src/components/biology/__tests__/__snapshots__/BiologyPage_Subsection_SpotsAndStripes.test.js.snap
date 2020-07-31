@@ -50,70 +50,84 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
         className="ContentPageSubsectionPartContainer"
       >
         <div
-          className="Centered"
+          className="Centered FullWidth"
           style={
             Object {
-              "width": 1080,
+              "maxWidth": 360,
             }
           }
         >
           <div
-            className="FloatLeft"
+            className="ImageViewOuterContainer"
+            style={
+              Object {
+                "maxWidth": 360,
+              }
+            }
           >
             <div
-              className="ImageViewOuterContainer"
+              className="ImageViewInnerContainer"
             >
               <div
-                className="ImageViewInnerContainer"
+                className="ImageViewCore"
               >
+                <img
+                  alt="Mantle on cheetah cub's back provides a form of camouflage that's critical to its survival."
+                  className="ImageViewImg"
+                  src="Cheetah_Mantle.jpg"
+                  style={
+                    Object {
+                      "width": 360,
+                    }
+                  }
+                />
                 <div
-                  className="ImageViewCore"
+                  data-testid="ImageViewComponentCaptionPart"
                 >
-                  <img
-                    alt="Mantle on cheetah cub's back provides a form of camouflage that's critical to its survival."
-                    className="ImageViewImg"
-                    src="Cheetah_Mantle.jpg"
+                  <div
+                    className="CaptionContainer"
+                    data-testid="CaptionComponentTestId"
                     style={
                       Object {
-                        "height": 360,
-                        "width": 360,
+                        "maxWidth": 360,
                       }
                     }
-                  />
-                  <div
-                    data-testid="ImageViewComponentCaptionPart"
                   >
                     <div
-                      className="CaptionContainer"
-                      data-testid="CaptionComponentTestId"
-                      style={
-                        Object {
-                          "width": 360,
-                        }
-                      }
+                      className="IconContainer"
                     >
-                      <div
-                        className="IconContainer"
-                      >
-                        <i
-                          aria-hidden="true"
-                          className="image icon"
-                          onClick={[Function]}
-                        />
-                      </div>
-                      <p
-                        className="ContentPageCaptionTextSize CaptionText"
-                      >
-                        Mantle on cheetah cub's back provides a form of camouflage that's critical to its survival.
-                      </p>
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
                     </div>
+                    <p
+                      className="ContentPageCaptionTextSize CaptionText"
+                    >
+                      Mantle on cheetah cub's back provides a form of camouflage that's critical to its survival.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div
+          className="Centered FullWidth"
+          style={
+            Object {
+              "maxWidth": 720,
+            }
+          }
+        >
           <div
             className="ImageViewOuterContainer"
+            style={
+              Object {
+                "maxWidth": 720,
+              }
+            }
           >
             <div
               className="ImageViewInnerContainer"
@@ -127,7 +141,6 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                   src="cheetah_and_honey_badger.jpg"
                   style={
                     Object {
-                      "height": 360,
                       "width": 720,
                     }
                   }
@@ -140,7 +153,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                     data-testid="CaptionComponentTestId"
                     style={
                       Object {
-                        "width": 720,
+                        "maxWidth": 720,
                       }
                     }
                   >

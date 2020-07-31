@@ -20,10 +20,15 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
           className="OverflowHidden"
         >
           <div
-            className="FloatRight HorizontalCusionPadding RightMargin50px"
+            className="FloatRight HorizontalCusionPaddingLeft HalfWidth"
           >
             <div
               className="ImageViewOuterContainer"
+              style={
+                Object {
+                  "maxWidth": 403,
+                }
+              }
             >
               <div
                 className="ImageViewInnerContainer"
@@ -37,7 +42,6 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                     src="cheetah_paw.jpg"
                     style={
                       Object {
-                        "height": 480,
                         "width": 403,
                       }
                     }
@@ -50,7 +54,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                       data-testid="CaptionComponentTestId"
                       style={
                         Object {
-                          "width": 403,
+                          "maxWidth": 403,
                         }
                       }
                     >
@@ -75,7 +79,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
             </div>
           </div>
           <div
-            className="LeftMargin50px"
+            className="FloatLeft HalfWidth"
           >
             <div
               className="TextBubbleOuterContainer"
@@ -126,7 +130,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
           className="OverflowHidden"
         >
           <div
-            className="FloatRight RightMargin50px"
+            className="FloatRight HorizontalCusionPaddingLeft HalfWidth"
           >
             <div
               className="TextBubbleOuterContainer"
@@ -169,51 +173,59 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
             </div>
           </div>
           <div
-            className="ImageViewOuterContainer"
+            className="FloatLeft HalfWidth"
           >
             <div
-              className="ImageViewInnerContainer"
+              className="ImageViewOuterContainer"
+              style={
+                Object {
+                  "maxWidth": 720,
+                }
+              }
             >
               <div
-                className="ImageViewCore"
+                className="ImageViewInnerContainer"
               >
-                <img
-                  alt="Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability."
-                  className="ImageViewImg"
-                  src="Cheetah_Cat_Dog_Claws_Comparison_Inverted.png"
-                  style={
-                    Object {
-                      "height": 480,
-                      "width": 720,
-                    }
-                  }
-                />
                 <div
-                  data-testid="ImageViewComponentCaptionPart"
+                  className="ImageViewCore"
                 >
-                  <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
+                  <img
+                    alt="Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability."
+                    className="ImageViewImg"
+                    src="Cheetah_Cat_Dog_Claws_Comparison_Inverted.png"
                     style={
                       Object {
                         "width": 720,
                       }
                     }
+                  />
+                  <div
+                    data-testid="ImageViewComponentCaptionPart"
                   >
                     <div
-                      className="IconContainer"
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 720,
+                        }
+                      }
                     >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
+                      <div
+                        className="IconContainer"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
+                      </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability.
+                      </p>
                     </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -228,10 +240,15 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
           className="OverflowHidden"
         >
           <div
-            className="FloatRight RightMargin50px"
+            className="FloatRight HorizontalCusionPaddingLeft HalfWidth"
           >
             <div
               className="ImageViewOuterContainer"
+              style={
+                Object {
+                  "maxWidth": 611,
+                }
+              }
             >
               <div
                 className="ImageViewInnerContainer"
@@ -245,7 +262,6 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                     src="cheetah_dewclaw.jpg"
                     style={
                       Object {
-                        "height": 273,
                         "width": 611,
                       }
                     }
@@ -258,7 +274,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                       data-testid="CaptionComponentTestId"
                       style={
                         Object {
-                          "width": 611,
+                          "maxWidth": 611,
                         }
                       }
                     >
@@ -283,7 +299,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
             </div>
           </div>
           <div
-            className="LeftMargin50px"
+            className="FloatLeft HalfWidth"
           >
             <div
               className="TextBubbleOuterContainer"

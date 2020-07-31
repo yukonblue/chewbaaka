@@ -3,6 +3,11 @@
 exports[`ImageView component snapshot 1`] = `
 <div
   className="ImageViewOuterContainer"
+  style={
+    Object {
+      "maxWidth": 640,
+    }
+  }
 >
   <div
     className="ImageViewInnerContainer"
@@ -16,7 +21,6 @@ exports[`ImageView component snapshot 1`] = `
         src="somesite.com/image.png"
         style={
           Object {
-            "height": 640,
             "width": 640,
           }
         }
@@ -29,7 +33,7 @@ exports[`ImageView component snapshot 1`] = `
           data-testid="CaptionComponentTestId"
           style={
             Object {
-              "width": 640,
+              "maxWidth": 640,
             }
           }
         >
@@ -57,6 +61,11 @@ exports[`ImageView component snapshot 1`] = `
 exports[`ImageView component with image credit string snapshot 1`] = `
 <div
   className="ImageViewOuterContainer"
+  style={
+    Object {
+      "maxWidth": 640,
+    }
+  }
 >
   <div
     className="ImageViewInnerContainer"
@@ -70,7 +79,6 @@ exports[`ImageView component with image credit string snapshot 1`] = `
         src="somesite.com/image.png"
         style={
           Object {
-            "height": 640,
             "width": 640,
           }
         }
@@ -83,7 +91,7 @@ exports[`ImageView component with image credit string snapshot 1`] = `
           data-testid="CaptionComponentTestId"
           style={
             Object {
-              "width": 640,
+              "maxWidth": 640,
             }
           }
         >

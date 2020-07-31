@@ -4,11 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 09, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Jul 30, 2020
  */
 
 div.CaptionContainer {
   margin: 0 auto;
+  max-width: 100%;
 }
 
 div.CaptionContainer_DebugColor {
@@ -28,7 +29,7 @@ p.CaptionText {
   /** Specify a height to make sure variable content
    * does not cause layout size change (i.e., page jump).
    */
-  height: 50px;
+  max-height: 75px;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   margin-right: 5px;

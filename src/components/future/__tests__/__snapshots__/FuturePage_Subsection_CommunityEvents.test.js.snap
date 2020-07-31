@@ -21,6 +21,11 @@ exports[`FuturePageSubsectionCommunityEvents component snapshot 1`] = `
         >
           <div
             className="ImageViewOuterContainer"
+            style={
+              Object {
+                "maxWidth": 960,
+              }
+            }
           >
             <div
               className="ImageViewInnerContainer"
@@ -34,7 +39,6 @@ exports[`FuturePageSubsectionCommunityEvents component snapshot 1`] = `
                   src="CCF_Livelihood_Development.jpg"
                   style={
                     Object {
-                      "height": 576,
                       "width": 960,
                     }
                   }
@@ -47,7 +51,7 @@ exports[`FuturePageSubsectionCommunityEvents component snapshot 1`] = `
                     data-testid="CaptionComponentTestId"
                     style={
                       Object {
-                        "width": 960,
+                        "maxWidth": 960,
                       }
                     }
                   >
@@ -71,21 +75,25 @@ exports[`FuturePageSubsectionCommunityEvents component snapshot 1`] = `
             </div>
           </div>
         </div>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        <div
+          className=""
         >
-          Participatory community events, such as competitions in art, poetry and writing, increase conservation awareness.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          Public educational displays are maintained at strategic locations and community events. Displays provide introductory information on the plight of the cheetah and the work conducted by CCF.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          CCF staff participate in farmer meetings, local conservancy activities and other related events. Workshops and seminars are conducted to exchange information and develop conservation-based farming practices.
-        </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Participatory community events, such as competitions in art, poetry and writing, increase conservation awareness.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Public educational displays are maintained at strategic locations and community events. Displays provide introductory information on the plight of the cheetah and the work conducted by CCF.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            CCF staff participate in farmer meetings, local conservancy activities and other related events. Workshops and seminars are conducted to exchange information and develop conservation-based farming practices.
+          </p>
+        </div>
       </div>
     </div>
   </div>

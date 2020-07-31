@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Jul 30, 2020
  */
 
 import React from 'react'
@@ -13,6 +13,7 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
+import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFluidContainer'
 
 import {
   ContentPageSubsectionParagraphsJoin
@@ -20,11 +21,11 @@ import {
 
 import CheetahAccelerationIllustration from './CheetahAccelerationIllustration'
 
+import FluidImageWrapper from '../shared/FluidImageWrapper'
+
 import TextBubble from '../shared/TextBubble'
 
 import ImageView from '../shared/ImageView'
-
-import './BiologyPage_Subsection_BodyAndBone.css'
 
 import image_cheetah_body_measurements from './assets/Cheetah_Body_Measurements.jpg'
 import image_cheetah_tail from './assets/cheetah_tail.jpg'
@@ -67,23 +68,22 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
   renderPartBodyContent(part) {
     return (
       <ContentPageSubsectionPart>
-        <div className="OverflowHidden">
-          <div className="FloatRight">
-            <img
-              style={{width: 720}}
+        <ContentPageSideFloatFluidContainer
+          floatPart={
+            <FluidImageWrapper
               src={image_cheetah_body_measurements}
               alt="Cheetah body measurements"
             />
-          </div>
-
-          <div className="LeftMargin50px">
+          }
+          fixedPart={
             <TextBubble
               diameter={520}
               title={part.title}
               content={part.contents["paragraph_01"]}
             />
-          </div>
-        </div>
+          }
+          floatFixedSide={true}
+        />
       </ContentPageSubsectionPart>
     );
   }
@@ -91,17 +91,22 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
   renderPartTailContent(part) {
     return (
       <ContentPageSubsectionPart>
-        <div className="OverflowHidden">
-          <div className="FloatRight RightMargin50px">
+        <ContentPageSideFloatFluidContainer
+          floatPart={
             <TextBubble
               diameter={540}
               title={part.title}
               content={ContentPageSubsectionParagraphsJoin(part.contents)}
-            />  
-          </div>
-
-          <img src={image_cheetah_tail} alt="" />
-        </div>
+            /> 
+          }
+          fixedPart={
+            <FluidImageWrapper
+              src={image_cheetah_tail}
+              alt="The cheetah's tail is responsible for controlling balance during a high speed run."
+            />
+          }
+          floatFixedSide={true}
+        />
       </ContentPageSubsectionPart>
     );
   }
@@ -109,22 +114,18 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
   renderPartBoneContent(part) {
     return (
       <ContentPageSubsectionPart>
-        <div className="OverflowHidden">
-          <div className="FloatRight">
-            <div className="BiologyPageSubsectionBodyAndBoneAnimationImageContainer">
-              <ImageView
-                image={image_cheetah_running_animated}
-                caption="The cheetah's flexible spine is a major contributing factor to its body dexterity, long strides, and speed."
-                width={500}
-                height={282}
-              />
-            </div>
-          </div>
+        <TextBubble
+          diameter={760}
+          title={part.title}
+          content={ContentPageSubsectionParagraphsJoin(part.contents)}
+        />
 
-          <TextBubble
-            diameter={760}
-            title={part.title}
-            content={ContentPageSubsectionParagraphsJoin(part.contents)}
+        <div className="Centered VerticalCushionPaddingTopLarge" style={{width: 500}}>
+          <ImageView
+            image={image_cheetah_running_animated}
+            caption="The cheetah's flexible spine is a major contributing factor to its body dexterity, long strides, and speed."
+            width={500}
+            height={282}
           />
         </div>
       </ContentPageSubsectionPart>
@@ -134,9 +135,7 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
   renderCheetahAccelerationIllustrationPart() {
     return (
       <ContentPageSubsectionPart>
-        <div className="BiologyPageSubsectionBodyAndBoneCheetahAccelerationIllustrationContainer Centered">
-          <CheetahAccelerationIllustration />
-        </div>
+        <CheetahAccelerationIllustration />
       </ContentPageSubsectionPart>
     );
   }

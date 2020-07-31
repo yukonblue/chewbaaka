@@ -4,12 +4,13 @@
  *
  * Author   : Tomiko
  * Created  : Jul 09, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Jul 30, 2020
  */
 
 div.ImageSlideOuterContainer {
   display: block;
-  padding: 20px;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 div.ImageSlideOuterContainer_DebugColor {
@@ -17,7 +18,6 @@ div.ImageSlideOuterContainer_DebugColor {
 }
 
 div.ImageSlideInnerContainer {
-  margin: 0 auto;
 }
 
 div.ImageSlideInnerContainer_DebugColor {
@@ -27,6 +27,9 @@ div.ImageSlideInnerContainer_DebugColor {
 div.ImageSlideImgElementContainer {
   display: block;
   margin: 0 auto;
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 div.ImageSlideImgElementContainer_DebugColor {
@@ -34,8 +37,8 @@ div.ImageSlideImgElementContainer_DebugColor {
 }
 
 img.ImageSlideImgElement {
-  display: block;
-  margin: 0 auto;
+  display: inline-block;
+  max-width: 100%;
 }
 
 div.ImageSlideSliderAndLabelOuterContainer {

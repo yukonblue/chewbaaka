@@ -29,6 +29,11 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
           >
             <div
               className="ImageViewOuterContainer"
+              style={
+                Object {
+                  "maxWidth": 598,
+                }
+              }
             >
               <div
                 className="ImageViewInnerContainer"
@@ -42,7 +47,6 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                     src="savanna.jpg"
                     style={
                       Object {
-                        "height": 343,
                         "width": 598,
                       }
                     }
@@ -55,7 +59,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                       data-testid="CaptionComponentTestId"
                       style={
                         Object {
-                          "width": 598,
+                          "maxWidth": 598,
                         }
                       }
                     >
@@ -79,16 +83,20 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
               </div>
             </div>
           </div>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          <div
+            className=""
           >
-            Animals, includes cheetah, are adopted to live in specific habitats. Cheetahs live mainly in grassland savanna. They prefer habitat which includes some cover in the form of bushes, medium length grass, trees, and small hills. Cheetahs need abundant prey in their habitat to survive and reproduce. In Namibia their habitat is densely bushed due to bush encroachment.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            Cheetahs sometimes live in a wide variety of habitats. They occasionally use semi-desert, dense woodland or mountainous terrain. Older animals unable to defend territories and young cheetahs just starting to live on their own use these marginal habitats.
-          </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Animals, includes cheetah, are adopted to live in specific habitats. Cheetahs live mainly in grassland savanna. They prefer habitat which includes some cover in the form of bushes, medium length grass, trees, and small hills. Cheetahs need abundant prey in their habitat to survive and reproduce. In Namibia their habitat is densely bushed due to bush encroachment.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Cheetahs sometimes live in a wide variety of habitats. They occasionally use semi-desert, dense woodland or mountainous terrain. Older animals unable to defend territories and young cheetahs just starting to live on their own use these marginal habitats.
+            </p>
+          </div>
         </div>
         <img
           alt="What is an ecosystem"
@@ -97,7 +105,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
         />
         <img
           alt="African savanna"
-          className="FullWidth VerticalCushionPadding"
+          className="FullWidth"
           src="savana_bg_large.jpg"
         />
       </div>
@@ -180,15 +188,20 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
           </div>
         </div>
         <div
-          className="Centered"
+          className="Centered FullWidth"
           style={
             Object {
-              "width": 1200,
+              "maxWidth": 1200,
             }
           }
         >
           <div
             className="ImageViewOuterContainer"
+            style={
+              Object {
+                "maxWidth": 1200,
+              }
+            }
           >
             <div
               className="ImageViewInnerContainer"
@@ -202,7 +215,6 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                   src="Namibia_Biomes_and_Cheetah_Ranges_Map.jpg"
                   style={
                     Object {
-                      "height": 720,
                       "width": 1200,
                     }
                   }
@@ -215,7 +227,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                     data-testid="CaptionComponentTestId"
                     style={
                       Object {
-                        "width": 1200,
+                        "maxWidth": 1200,
                       }
                     }
                   >

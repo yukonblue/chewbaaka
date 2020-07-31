@@ -121,6 +121,11 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
             >
               <div
                 className="ImageViewOuterContainer"
+                style={
+                  Object {
+                    "maxWidth": 320,
+                  }
+                }
               >
                 <div
                   className="ImageViewInnerContainer"
@@ -134,7 +139,6 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                       src="cheetah_mom_carry_cub.jpg"
                       style={
                         Object {
-                          "height": 480,
                           "width": 320,
                         }
                       }
@@ -147,7 +151,7 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                         data-testid="CaptionComponentTestId"
                         style={
                           Object {
-                            "width": 320,
+                            "maxWidth": 320,
                           }
                         }
                       >
@@ -171,36 +175,40 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                 </div>
               </div>
             </div>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            <div
+              className=""
             >
-              The female’s gestation period lasts 90 to 95 days. This means she is pregnant for about three months.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Shortly before she is ready to give birth, the mother makes a den in a quiet hidden spot. She chooses her location in the tall grass and thick underbrush or near a clump of rocks.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              A cheetah gives birth to an average of five to six cubs. Each cub weights between 250 to 425 grams. Cubs are born completely helpless and with their eyes closed, but they develope rapidly. Scent and touch are used to find their mother’s nipples to suckle.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              They start crawling around the nest area at four to ten days when their eyes begin to open. At three weeks their teeth break through the gums.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              A mother cheetah will frequently move her litter. This prevents a build-up of scent of the den site, which may lead other predators to the cubs. She carries very young cubs in her jaws.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              The cubs are very vulnerable to lions, hyenas and other predators when the female leaves them alone. When hunting she may be away for up to 48 hours. In Tanzania’s Serengeti National Park, 90% of all cubs do not reach the age of 3 months! Other causes of death are abandonment when prey is scarce, exposure due to low temperatures or grass fires.
-            </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                The female’s gestation period lasts 90 to 95 days. This means she is pregnant for about three months.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                Shortly before she is ready to give birth, the mother makes a den in a quiet hidden spot. She chooses her location in the tall grass and thick underbrush or near a clump of rocks.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                A cheetah gives birth to an average of five to six cubs. Each cub weights between 250 to 425 grams. Cubs are born completely helpless and with their eyes closed, but they develope rapidly. Scent and touch are used to find their mother’s nipples to suckle.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                They start crawling around the nest area at four to ten days when their eyes begin to open. At three weeks their teeth break through the gums.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                A mother cheetah will frequently move her litter. This prevents a build-up of scent of the den site, which may lead other predators to the cubs. She carries very young cubs in her jaws.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                The cubs are very vulnerable to lions, hyenas and other predators when the female leaves them alone. When hunting she may be away for up to 48 hours. In Tanzania’s Serengeti National Park, 90% of all cubs do not reach the age of 3 months! Other causes of death are abandonment when prey is scarce, exposure due to low temperatures or grass fires.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -385,10 +393,15 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
             className="OverflowHidden"
           >
             <div
-              className="FloatRight HorizontalCusionPaddingLeft"
+              className="FloatRight HorizontalCusionPaddingLeft HalfWidth"
             >
               <div
                 className="ImageViewOuterContainer"
+                style={
+                  Object {
+                    "maxWidth": 720,
+                  }
+                }
               >
                 <div
                   className="ImageViewInnerContainer"
@@ -402,7 +415,6 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                       src="cheetah_cubs_learning_hunting.jpg"
                       style={
                         Object {
-                          "height": 480,
                           "width": 720,
                         }
                       }
@@ -415,7 +427,7 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                         data-testid="CaptionComponentTestId"
                         style={
                           Object {
-                            "width": 720,
+                            "maxWidth": 720,
                           }
                         }
                       >
@@ -440,41 +452,45 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
               </div>
             </div>
             <div
-              className="TextBubbleOuterContainer"
-              style={
-                Object {
-                  "backgroundColor": "rgb(undefined)",
-                  "height": 520,
-                  "width": 520,
-                }
-              }
+              className="FloatLeft HalfWidth"
             >
               <div
-                className="TextBubbleInnerContainer"
+                className="TextBubbleOuterContainer"
+                style={
+                  Object {
+                    "backgroundColor": "rgb(undefined)",
+                    "height": 520,
+                    "width": 520,
+                  }
+                }
               >
                 <div
-                  className="TextBubbleInnerCore"
+                  className="TextBubbleInnerContainer"
                 >
-                  <h1
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 41.6,
-                      }
-                    }
+                  <div
+                    className="TextBubbleInnerCore"
                   >
-                    Learning to Hunt
-                  </h1>
-                  <p
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 21,
+                    <h1
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 41.6,
+                        }
                       }
-                    }
-                  >
-                    The mother brings live prey, such as a young gazelle, to the 9 to 12 month old cubs. She releases it in front of them and the cubs attempt to catch it. This allows the cubs to practice their hunting skills while still under her supervision. Accurate timing and coordination during a hunt are important for their future survival.
-                  </p>
+                    >
+                      Learning to Hunt
+                    </h1>
+                    <p
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 21,
+                        }
+                      }
+                    >
+                      The mother brings live prey, such as a young gazelle, to the 9 to 12 month old cubs. She releases it in front of them and the cubs attempt to catch it. This allows the cubs to practice their hunting skills while still under her supervision. Accurate timing and coordination during a hunt are important for their future survival.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -581,6 +597,11 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
             >
               <div
                 className="ImageViewOuterContainer"
+                style={
+                  Object {
+                    "maxWidth": 720,
+                  }
+                }
               >
                 <div
                   className="ImageViewInnerContainer"
@@ -594,7 +615,6 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                       src="cheetah_scent_marking.jpg"
                       style={
                         Object {
-                          "height": 480,
                           "width": 720,
                         }
                       }
@@ -607,7 +627,7 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                         data-testid="CaptionComponentTestId"
                         style={
                           Object {
-                            "width": 720,
+                            "maxWidth": 720,
                           }
                         }
                       >
@@ -631,36 +651,40 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                 </div>
               </div>
             </div>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            <div
+              className=""
             >
-              The range of a female offspring may partially overlap that of her mother. Namibian cheetahs are more social than those reported in other countries. Females are often seen with multiple adults and cubs of varying ages.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Female cheetahs are polyoestrous, which means there is no regular breeding season. If not bred, females come into heat (estrus) several times a year. Estrus means they are ready to breed. If cubs are lost to predators females soon come into estrus again.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Smell, sound, and behavioral stimuli attract males to females. Female cheetahs leave a scent trail by releasing sex hormones in urine and feces. They mark trees and bushes. This behavior increases during courtship.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              When courtship takes place, males will follow females closely and mock fighting may be observed.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              When a female is ready to mate, she adopts a receptive posture. The male mounts the female, bites the back of her neck, and breeding takes place. When the male dismounts the female she rolls over on her back and swats at him.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Mating will take place for one to several days and ends when the male loses interest in the female and leaves. Males do not help raise the cubs.
-            </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                The range of a female offspring may partially overlap that of her mother. Namibian cheetahs are more social than those reported in other countries. Females are often seen with multiple adults and cubs of varying ages.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                Female cheetahs are polyoestrous, which means there is no regular breeding season. If not bred, females come into heat (estrus) several times a year. Estrus means they are ready to breed. If cubs are lost to predators females soon come into estrus again.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                Smell, sound, and behavioral stimuli attract males to females. Female cheetahs leave a scent trail by releasing sex hormones in urine and feces. They mark trees and bushes. This behavior increases during courtship.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                When courtship takes place, males will follow females closely and mock fighting may be observed.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                When a female is ready to mate, she adopts a receptive posture. The male mounts the female, bites the back of her neck, and breeding takes place. When the male dismounts the female she rolls over on her back and swats at him.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                Mating will take place for one to several days and ends when the male loses interest in the female and leaves. Males do not help raise the cubs.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -715,6 +739,11 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                       />
                       <div
                         className="ImageViewOuterContainer"
+                        style={
+                          Object {
+                            "maxWidth": 510,
+                          }
+                        }
                       >
                         <div
                           className="ImageViewInnerContainer"
@@ -728,7 +757,6 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                               src="cheetah_coalition.jpg"
                               style={
                                 Object {
-                                  "height": undefined,
                                   "width": 510,
                                 }
                               }
@@ -741,7 +769,7 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                                 data-testid="CaptionComponentTestId"
                                 style={
                                   Object {
-                                    "width": 510,
+                                    "maxWidth": 510,
                                   }
                                 }
                               >
@@ -789,6 +817,11 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                       />
                       <div
                         className="ImageViewOuterContainer"
+                        style={
+                          Object {
+                            "maxWidth": 640,
+                          }
+                        }
                       >
                         <div
                           className="ImageViewInnerContainer"
@@ -802,7 +835,6 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                               src="cheetah_face_hyena.jpg"
                               style={
                                 Object {
-                                  "height": undefined,
                                   "width": 640,
                                 }
                               }
@@ -815,7 +847,7 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                                 data-testid="CaptionComponentTestId"
                                 style={
                                   Object {
-                                    "width": 640,
+                                    "maxWidth": 640,
                                   }
                                 }
                               >

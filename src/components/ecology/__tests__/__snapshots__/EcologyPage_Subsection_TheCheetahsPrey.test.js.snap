@@ -121,6 +121,11 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
                 />
                 <div
                   className="ImageViewOuterContainer"
+                  style={
+                    Object {
+                      "maxWidth": 640,
+                    }
+                  }
                 >
                   <div
                     className="ImageViewInnerContainer"
@@ -134,7 +139,6 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
                         src="cheetah_coalition_hunting.jpg"
                         style={
                           Object {
-                            "height": 360,
                             "width": 640,
                           }
                         }
@@ -147,7 +151,7 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
                           data-testid="CaptionComponentTestId"
                           style={
                             Object {
-                              "width": 640,
+                              "maxWidth": 640,
                             }
                           }
                         >
@@ -179,6 +183,11 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
                 />
                 <div
                   className="ImageViewOuterContainer"
+                  style={
+                    Object {
+                      "maxWidth": 640,
+                    }
+                  }
                 >
                   <div
                     className="ImageViewInnerContainer"
@@ -192,7 +201,6 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
                         src="cheetah_go_after_gazelle.jpg"
                         style={
                           Object {
-                            "height": 360,
                             "width": 640,
                           }
                         }
@@ -205,7 +213,7 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
                           data-testid="CaptionComponentTestId"
                           style={
                             Object {
-                              "width": 640,
+                              "maxWidth": 640,
                             }
                           }
                         >

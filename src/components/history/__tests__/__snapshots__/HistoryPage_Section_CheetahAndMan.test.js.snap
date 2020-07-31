@@ -114,6 +114,11 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                         <div>
                           <div
                             className="ImageSlidingGalleryOuterContainer"
+                            style={
+                              Object {
+                                "maxWidth": undefined,
+                              }
+                            }
                           >
                             <div
                               className="ImageSlidingGalleryCoreContainer"
@@ -132,7 +137,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                                   data-testid="CaptionComponentTestId"
                                   style={
                                     Object {
-                                      "width": undefined,
+                                      "maxWidth": undefined,
                                     }
                                   }
                                 >
@@ -225,75 +230,78 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                         <h4
                           className="ContentPageSubsectionSubtitle"
                         />
-                        <div>
+                        <div
+                          className="ImageSlidingGalleryOuterContainer"
+                          style={
+                            Object {
+                              "maxWidth": 540,
+                            }
+                          }
+                        >
                           <div
-                            className="ImageSlidingGalleryOuterContainer"
+                            className="ImageSlidingGalleryCoreContainer"
                           >
+                            <img
+                              alt="A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799."
+                              className="ImageSlidingGalleryImgPart"
+                              src="cheetah_with_two_indian_servants.jpg"
+                            />
                             <div
-                              className="ImageSlidingGalleryCoreContainer"
+                              className="ImageSlidingGalleryCaptionPart"
+                              data-testid="ImageSlidingGalleryCaptionPart"
                             >
-                              <img
-                                alt="A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799."
-                                className="ImageSlidingGalleryImgPart"
-                                src="cheetah_with_two_indian_servants.jpg"
-                              />
                               <div
-                                className="ImageSlidingGalleryCaptionPart"
-                                data-testid="ImageSlidingGalleryCaptionPart"
+                                className="CaptionContainer"
+                                data-testid="CaptionComponentTestId"
+                                style={
+                                  Object {
+                                    "maxWidth": undefined,
+                                  }
+                                }
                               >
                                 <div
-                                  className="CaptionContainer"
-                                  data-testid="CaptionComponentTestId"
-                                  style={
-                                    Object {
-                                      "width": undefined,
-                                    }
-                                  }
+                                  className="IconContainer"
                                 >
-                                  <div
-                                    className="IconContainer"
-                                  >
-                                    <i
-                                      aria-hidden="true"
-                                      className="image icon"
-                                      onClick={[Function]}
-                                    />
-                                  </div>
-                                  <p
-                                    className="ContentPageCaptionTextSize CaptionText"
-                                  >
-                                    A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799.
-                                  </p>
+                                  <i
+                                    aria-hidden="true"
+                                    className="image icon"
+                                    onClick={[Function]}
+                                  />
                                 </div>
+                                <p
+                                  className="ContentPageCaptionTextSize CaptionText"
+                                >
+                                  A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799.
+                                </p>
                               </div>
                             </div>
+                          </div>
+                          <div
+                            className="ImageSlidingGalleryButtonContainer"
+                          >
                             <div
-                              className="ImageSlidingGalleryButtonContainer"
+                              className="ui blue huge icon left attached disabled button"
+                              onClick={[Function]}
+                              role="button"
+                              tabIndex={-1}
                             >
-                              <div
-                                className="ui blue huge icon left attached disabled button"
+                              <i
+                                aria-hidden="true"
+                                className="arrow alternate circle left outline icon"
                                 onClick={[Function]}
-                                role="button"
-                                tabIndex={-1}
-                              >
-                                <i
-                                  aria-hidden="true"
-                                  className="arrow alternate circle left outline icon"
-                                  onClick={[Function]}
-                                />
-                              </div>
-                              <div
-                                className="ui blue huge icon right attached button"
+                              />
+                            </div>
+                            <div
+                              className="ui blue huge icon right attached button"
+                              onClick={[Function]}
+                              role="button"
+                              tabIndex={0}
+                            >
+                              <i
+                                aria-hidden="true"
+                                className="arrow alternate circle right outline icon"
                                 onClick={[Function]}
-                                role="button"
-                                tabIndex={0}
-                              >
-                                <i
-                                  aria-hidden="true"
-                                  className="arrow alternate circle right outline icon"
-                                  onClick={[Function]}
-                                />
-                              </div>
+                              />
                             </div>
                           </div>
                         </div>
@@ -400,6 +408,11 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                         />
                         <div
                           className="ImageViewOuterContainer"
+                          style={
+                            Object {
+                              "maxWidth": 451,
+                            }
+                          }
                         >
                           <div
                             className="ImageViewInnerContainer"
@@ -413,7 +426,6 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                                 src="cheetah_painting_Renaissance.jpg"
                                 style={
                                   Object {
-                                    "height": 600,
                                     "width": 451,
                                   }
                                 }
@@ -426,7 +438,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                                   data-testid="CaptionComponentTestId"
                                   style={
                                     Object {
-                                      "width": 451,
+                                      "maxWidth": 451,
                                     }
                                   }
                                 >

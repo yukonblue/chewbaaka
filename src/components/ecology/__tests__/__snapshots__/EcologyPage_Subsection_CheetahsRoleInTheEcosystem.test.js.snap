@@ -29,6 +29,11 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
           >
             <div
               className="ImageViewOuterContainer"
+              style={
+                Object {
+                  "maxWidth": 640,
+                }
+              }
             >
               <div
                 className="ImageViewInnerContainer"
@@ -42,7 +47,6 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
                     src="savanna_food_web.jpg"
                     style={
                       Object {
-                        "height": 552,
                         "width": 640,
                       }
                     }
@@ -55,7 +59,7 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
                       data-testid="CaptionComponentTestId"
                       style={
                         Object {
-                          "width": 640,
+                          "maxWidth": 640,
                         }
                       }
                     >
@@ -79,16 +83,20 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
               </div>
             </div>
           </div>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          <div
+            className=""
           >
-            Every animal species has its role (or niche) in the ecosystem that it lives in. As a carnivorous predator, the cheetah’s role in the ecosystem is important as it helps to maintain balanced and healthy food webs.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            One of the cheetah’s roles in the ecosystem is to help keep the population of grazing animals at a healthy state. Because of the fact that cheetahs do not have the strength to go after big games such as adult wildebeest, elands, and kudus, they go after the ones that are young, weak, or sick. This helps to ensure that only the strongest of those species will survive, and also the populations of those species won’t reach the limit the ecosystem could handle such that it will have negative consequences.
-          </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Every animal species has its role (or niche) in the ecosystem that it lives in. As a carnivorous predator, the cheetah’s role in the ecosystem is important as it helps to maintain balanced and healthy food webs.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              One of the cheetah’s roles in the ecosystem is to help keep the population of grazing animals at a healthy state. Because of the fact that cheetahs do not have the strength to go after big games such as adult wildebeest, elands, and kudus, they go after the ones that are young, weak, or sick. This helps to ensure that only the strongest of those species will survive, and also the populations of those species won’t reach the limit the ecosystem could handle such that it will have negative consequences.
+            </p>
+          </div>
         </div>
       </div>
       <div
@@ -126,6 +134,11 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
                 />
                 <div
                   className="ImageViewOuterContainer"
+                  style={
+                    Object {
+                      "maxWidth": 640,
+                    }
+                  }
                 >
                   <div
                     className="ImageViewInnerContainer"
@@ -139,7 +152,6 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
                         src="cheetah_hyena_competition.jpg"
                         style={
                           Object {
-                            "height": 360,
                             "width": 640,
                           }
                         }
@@ -152,7 +164,7 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
                           data-testid="CaptionComponentTestId"
                           style={
                             Object {
-                              "width": 640,
+                              "maxWidth": 640,
                             }
                           }
                         >
@@ -184,6 +196,11 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
                 />
                 <div
                   className="ImageViewOuterContainer"
+                  style={
+                    Object {
+                      "maxWidth": 480,
+                    }
+                  }
                 >
                   <div
                     className="ImageViewInnerContainer"
@@ -197,7 +214,6 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
                         src="cheetah_lion_competition.jpg"
                         style={
                           Object {
-                            "height": 360,
                             "width": 480,
                           }
                         }
@@ -210,7 +226,7 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
                           data-testid="CaptionComponentTestId"
                           style={
                             Object {
-                              "width": 480,
+                              "maxWidth": 480,
                             }
                           }
                         >

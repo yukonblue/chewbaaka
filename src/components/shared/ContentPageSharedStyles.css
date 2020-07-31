@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Jul 30, 2020
  */
 
 /** ----------------------------- CONTAINER -------------------------------- **/
@@ -44,6 +44,10 @@ div.CenteredBlowoutBox {
   text-align: center;
 }
 
+div.InlineBlock {
+  display: inline-block;
+}
+
 div.OverflowHidden {
   overflow: hidden;
 }
@@ -54,6 +58,10 @@ div.FloatLeft {
 
 div.FloatRight {
   float: right;
+}
+
+div.ClearFloat {
+  clear: left;
 }
 
 div.Centered {
@@ -94,6 +102,10 @@ div.RightMargin50px {
 
 div.BottomMargin50px {
   margin-bottom: 50px;
+}
+
+.HalfWidth {
+  width: 50%;
 }
 
 .FullWidth {

@@ -38,7 +38,7 @@ export default class ContentPageSkeleton extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      isMenuActive : true,
+      isMenuActive : false,
       contextRef : React.createContext()
     };
     this.handleMenuActiveToggle = this.handleMenuActiveToggle.bind(this);

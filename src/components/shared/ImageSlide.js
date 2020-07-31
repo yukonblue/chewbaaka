@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Jul 30, 2020
  */
 
 /**
@@ -86,21 +86,25 @@ export default class ImageSlide extends React.Component {
   }
 
   render() {
+    const componentDimensionStyle = {
+      maxWidth: this.props.imageWidth
+    };
+
     const imageDimensionStyle = {
-      width: this.props.imageWidth,
-      height: this.props.imageHeight
+      maxWidth: this.props.imageWidth,
     }
 
     const imgElementContainerStyle = {
-      width: this.props.imageWidth,
-      height: this.props.imageHeight,
+      maxWidth: this.props.imageWidth,
       backgroundImage: `url(${this.props.backgroundImage})`,
-      backgroundSize: `${this.props.imageWidth}px ${this.props.imageHeight}px`,
-      backgroundRepeat: 'no-repeat'
     }
   
     return (
-      <div className={getElementStyleClassName("ImageSlideOuterContainer")} data-testid="ImageSlideComponentTestId">
+      <div
+        className={getElementStyleClassName("ImageSlideOuterContainer")}
+        style={componentDimensionStyle}
+        data-testid="ImageSlideComponentTestId"
+      >
 
         <div className={getElementStyleClassName("ImageSlideInnerContainer")}>
 
@@ -108,7 +112,10 @@ export default class ImageSlide extends React.Component {
             {this.props.title}
           </Header>
 
-          <div className={getElementStyleClassName("ImageSlideImgElementContainer")} style={imgElementContainerStyle}>
+          <div
+            className={getElementStyleClassName("ImageSlideImgElementContainer")}
+            style={imgElementContainerStyle}
+          >
             <img
               className={getElementStyleClassName("ImageSlideImgElement")} 
               src={this.state.marksDict[this.state.activeMark].image}
@@ -174,6 +181,6 @@ export default class ImageSlide extends React.Component {
         </div>
 
       </div>
-    )
+    );
   }
 }

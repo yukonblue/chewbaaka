@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Jul 30, 2020
  */
 
 import React from 'react'
@@ -21,9 +21,13 @@ import {
 
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
+import CenteredFullWidthContainer from '../shared/CenteredFullWidthContainer'
+
 import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
 import ImageView from '../shared/ImageView'
+
+import FluidImageWrapper from '../shared/FluidImageWrapper'
 
 import image_CCF_LGD from './assets/CCF_LGD.jpg'
 import image_CCF_anatolian_shepherd_puppies from './assets/CCF_anatolian_shepherd_puppies.jpg'
@@ -70,13 +74,12 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
         </ContentPageSubsectionSubtitle>
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
 
-        <div className="Centered" style={{width: 1200}}>
-          <img
+        <CenteredFullWidthContainer maxWidth={1200}>
+          <FluidImageWrapper
             src={image_CCF_LGD}
-            alt=""
-            style={{width: 1200}}
+            alt="Livestock Guarding Dog"
           />
-        </div>
+        </CenteredFullWidthContainer>
       </ContentPageSubsectionPart>
     );
   }
@@ -139,13 +142,12 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
           fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
         />
 
-        <div style={{width: 960}} className="Centered VerticalCushionPaddingTopLarge">
-          <img
+        <CenteredFullWidthContainer maxWidth={960} className="VerticalCushionPaddingTopLarge">
+          <FluidImageWrapper
             src={image_LGD}
             alt="Livestock Guarding Dogs"
-            style={{width: 960}}
           />
-        </div>
+        </CenteredFullWidthContainer>
       </ContentPageSubsectionPart>
     );
   }

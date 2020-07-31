@@ -48,6 +48,11 @@ exports[`EcologyPageSubsectionTheFarmingCommunity component snapshot 1`] = `
           >
             <div
               className="ImageViewOuterContainer"
+              style={
+                Object {
+                  "maxWidth": 600,
+                }
+              }
             >
               <div
                 className="ImageViewInnerContainer"
@@ -61,7 +66,6 @@ exports[`EcologyPageSubsectionTheFarmingCommunity component snapshot 1`] = `
                     src="CCF_GWL_map.jpg"
                     style={
                       Object {
-                        "height": 471,
                         "width": 600,
                       }
                     }
@@ -74,7 +78,7 @@ exports[`EcologyPageSubsectionTheFarmingCommunity component snapshot 1`] = `
                       data-testid="CaptionComponentTestId"
                       style={
                         Object {
-                          "width": 600,
+                          "maxWidth": 600,
                         }
                       }
                     >
@@ -98,16 +102,20 @@ exports[`EcologyPageSubsectionTheFarmingCommunity component snapshot 1`] = `
               </div>
             </div>
           </div>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          <div
+            className=""
           >
-            Conservancies are legally protected areas with shared common resources where conservation is actively practiced. Its purpose is to achieve a collective policy for the ownership, management and use of resources. Conservation is the management of human use of organisms or ecosystems to ensure that such use is sustainable. Conservancy objectives include the protection, maintenance, rehabilitation, restoration, and enhancement of ecosystems.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            Conservancies retain all income from wildlife and tourism based enterprises within the conservancy and decides on how these fund are spent. Commercial conservancies consist of adjacent private farms joining together in common units. Communal conservancies operate on a local level and membership is made up entirely of community members who decide to work together for the sustainable management and use of wildlife and tourism.
-          </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Conservancies are legally protected areas with shared common resources where conservation is actively practiced. Its purpose is to achieve a collective policy for the ownership, management and use of resources. Conservation is the management of human use of organisms or ecosystems to ensure that such use is sustainable. Conservancy objectives include the protection, maintenance, rehabilitation, restoration, and enhancement of ecosystems.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Conservancies retain all income from wildlife and tourism based enterprises within the conservancy and decides on how these fund are spent. Commercial conservancies consist of adjacent private farms joining together in common units. Communal conservancies operate on a local level and membership is made up entirely of community members who decide to work together for the sustainable management and use of wildlife and tourism.
+            </p>
+          </div>
         </div>
       </div>
       <div

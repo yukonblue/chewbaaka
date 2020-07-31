@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 18, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Jul 30, 2020
  */
 
 import React from 'react'
@@ -62,6 +62,7 @@ export default class BiologyPageSubsectionLearningToHunt extends React.Component
             content={ContentPageSubsectionParagraphsJoin(this.state.subsectionConfig.contents)}
           />
         }
+        floatFixedSide={true}
       />
     );
   }

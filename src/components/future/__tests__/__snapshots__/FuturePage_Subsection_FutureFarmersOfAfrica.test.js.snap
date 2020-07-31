@@ -49,11 +49,15 @@ exports[`FuturePageSubsectionFutureFarmersOfAfrica component snapshot 1`] = `
               </div>
             </div>
           </div>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          <div
+            className=""
           >
-            In Namibia, 90% of the cheetah population lives on farmlands alongside 80% of the country’s wildlife species. Cheetahs often come into contact with the livestocks and game farming communities, leading to conflict. To mitigate this conflict, Cheetah Conservation Fund (CCF) developed an integrated livestock, wildlife, and rangeland training program called Future Farmers of Africa (FFA).
-          </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              In Namibia, 90% of the cheetah population lives on farmlands alongside 80% of the country’s wildlife species. Cheetahs often come into contact with the livestocks and game farming communities, leading to conflict. To mitigate this conflict, Cheetah Conservation Fund (CCF) developed an integrated livestock, wildlife, and rangeland training program called Future Farmers of Africa (FFA).
+            </p>
+          </div>
         </div>
       </div>
       <div
@@ -67,6 +71,11 @@ exports[`FuturePageSubsectionFutureFarmersOfAfrica component snapshot 1`] = `
           >
             <div
               className="ImageViewOuterContainer"
+              style={
+                Object {
+                  "maxWidth": 742,
+                }
+              }
             >
               <div
                 className="ImageViewInnerContainer"
@@ -80,7 +89,6 @@ exports[`FuturePageSubsectionFutureFarmersOfAfrica component snapshot 1`] = `
                     src="CCF_FFA_01.jpg"
                     style={
                       Object {
-                        "height": 370,
                         "width": 742,
                       }
                     }
@@ -93,7 +101,7 @@ exports[`FuturePageSubsectionFutureFarmersOfAfrica component snapshot 1`] = `
                       data-testid="CaptionComponentTestId"
                       style={
                         Object {
-                          "width": 742,
+                          "maxWidth": 742,
                         }
                       }
                     >
@@ -117,22 +125,26 @@ exports[`FuturePageSubsectionFutureFarmersOfAfrica component snapshot 1`] = `
               </div>
             </div>
           </div>
-          <div>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              From 2006-2017, CCF has certified more than 10,000 Namibian men and women in FFA, which teaches conservation strategies for sustainable land use while accommodating the coexistence of predators alongside livestock and wildlife.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Topics covered in the FFA courses include livestock health and veterinary care, livestock husbandry, livestock valuation, predator spoor (track) identification, differentiating predator kill techniques, best practices to reduce livestock losses, and best methods for non-lethal predator control.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Through the training course, CCF supports farmers by teaching them practical skills in sustainable livestock farming, as well as how to develop supplemental income streams. Farmers then use their skills to generate higher economic productivity. These courses enhance the livelihood development of farmers while promoting predator-friendly farming practices.
-            </p>
+          <div
+            className=""
+          >
+            <div>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                From 2006-2017, CCF has certified more than 10,000 Namibian men and women in FFA, which teaches conservation strategies for sustainable land use while accommodating the coexistence of predators alongside livestock and wildlife.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                Topics covered in the FFA courses include livestock health and veterinary care, livestock husbandry, livestock valuation, predator spoor (track) identification, differentiating predator kill techniques, best practices to reduce livestock losses, and best methods for non-lethal predator control.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                Through the training course, CCF supports farmers by teaching them practical skills in sustainable livestock farming, as well as how to develop supplemental income streams. Farmers then use their skills to generate higher economic productivity. These courses enhance the livelihood development of farmers while promoting predator-friendly farming practices.
+              </p>
+            </div>
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Jul 30, 2020
  */
 
 import React from 'react'
@@ -13,6 +13,7 @@ import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
+import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFluidContainer'
 
 import {
   ContentPageSubsectionParagraphsJoin
@@ -62,24 +63,24 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
   renderPartFootContent(part) {
     return (
       <ContentPageSubsectionPart>
-        <div className="OverflowHidden">
-          <div className="FloatRight HorizontalCusionPadding RightMargin50px">
+        <ContentPageSideFloatFluidContainer
+          floatPart={
             <ImageView
               image={image_cheetah_paw}
               caption="The paws of the cheetah have a distinct shape compared to some of the other carnivores."
               width={403}
               height={480}
             />
-          </div>
-
-          <div className="LeftMargin50px">
+          }
+          fixedPart={
             <TextBubble
               diameter={520}
               title={part.title}
               content={ContentPageSubsectionParagraphsJoin(part.content)}
             />
-          </div>
-        </div>
+          }
+          floatFixedSide={true}
+        />
       </ContentPageSubsectionPart>
     );
   }
@@ -87,22 +88,24 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
   renderPartClawContent(part) {
     return (
       <ContentPageSubsectionPart>
-        <div className="OverflowHidden">
-          <div className="FloatRight RightMargin50px">
+        <ContentPageSideFloatFluidContainer
+          floatPart={
             <TextBubble
               diameter={540}
               title={part.title}
               content={ContentPageSubsectionParagraphsJoin(part.content)}
-            />  
-          </div>
-
-          <ImageView
-            image={image_claws_comparison}
-            caption="Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability."
-            width={720}
-            height={480}
-          />
-        </div>
+            />
+          }
+          fixedPart={
+            <ImageView
+              image={image_claws_comparison}
+              caption="Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability."
+              width={720}
+              height={480}
+            />
+          }
+          floatFixedSide={true}
+        />
       </ContentPageSubsectionPart>
     );
   }
@@ -110,24 +113,24 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
   renderPartDewclawContent(part) {
     return (
       <ContentPageSubsectionPart>
-        <div className="OverflowHidden">
-          <div className="FloatRight RightMargin50px">
+        <ContentPageSideFloatFluidContainer
+          floatPart={
             <ImageView
               image={image_cheetah_dewclaw}
               caption="Cheetah dewclaw."
               width={611}
               height={273}
             />
-          </div>
-
-          <div className="LeftMargin50px">
+          }
+          fixedPart={
             <TextBubble
               diameter={520}
               title={part.title}
               content={ContentPageSubsectionParagraphsJoin(part.content)}
             />
-          </div>
-        </div>
+          }
+          floatFixedSide={true}
+        />
       </ContentPageSubsectionPart>
     );
   }

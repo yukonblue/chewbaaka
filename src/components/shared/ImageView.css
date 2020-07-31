@@ -4,17 +4,19 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Jul 30, 2020
  */
 
 div.ImageViewOuterContainer {
-  display: inline-block;
-  /* Uncomment line below for debugging. */
-  /* background-color: orchid; */
+  display: block;
+  max-width: 100%;
+}
+
+div.ImageViewOuterContainer_DebugColor {
+  background-color: orchid;
 }
 
 img.ImageViewImg {
-  width: 320px;
-  height: 320px;
+  max-width: 100%;
   filter: drop-shadow(1px 1px 1px #222);
 }
