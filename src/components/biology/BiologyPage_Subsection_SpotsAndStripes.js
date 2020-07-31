@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Jul 31, 2020
  */
 
 import React from 'react'
@@ -87,14 +87,16 @@ export default class BiologyPageSubsectionSpotsAndStripes extends React.Componen
           />
         </CenteredFullWidthContainer>
 
-        <CenteredFullWidthContainer maxWidth={720}>
-          <ImageView
-            image={image_cheetah_and_honey_badger}
-            caption="The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators."
-            width={720}
-            height={360}
-          />
-        </CenteredFullWidthContainer>
+        <div className="VerticalCushionPaddingTopLarge">
+          <CenteredFullWidthContainer maxWidth={720}>
+            <ImageView
+              image={image_cheetah_and_honey_badger}
+              caption="The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators."
+              width={720}
+              height={360}
+            />
+          </CenteredFullWidthContainer>
+        </div>
       </ContentPageSubsectionPart>
     );
   }
