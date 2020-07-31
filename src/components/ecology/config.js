@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Jul 30, 2020
  */
 
 export const config = {
@@ -417,7 +417,7 @@ export const config = {
                     paragraph_02:
                       "Under natural conditions, the savannas are covered with grasslands, scattered trees and shrubs, " +
                       "supporting a wide variety of wildlife. Herbivores usually feed intensely in localized areas for " +
-                      "short periods of time. Plants and tress experience brief and intense browsing and grazing pressure " +
+                      "short periods of time. Plants and trees experience brief and intense browsing and grazing pressure " +
                       "separated by extended rest periods. This, combined with regular fires, maintains a balance between " +
                       "trees and grasses. Larger animals like elephant and rhino aid in controlling the growth of bush."
                   }
