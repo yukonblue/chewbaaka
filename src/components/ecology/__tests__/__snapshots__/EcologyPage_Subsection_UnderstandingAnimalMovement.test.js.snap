@@ -142,7 +142,7 @@ exports[`EcologyPageSubsectionUnderstandingAnimalMovement component snapshot 1`]
               className="ImageSlidingGalleryDiscreteOuterContainer"
               style={
                 Object {
-                  "height": 620,
+                  "height": 640,
                   "width": 720,
                 }
               }
@@ -151,7 +151,7 @@ exports[`EcologyPageSubsectionUnderstandingAnimalMovement component snapshot 1`]
                 className="ImageSlidingGalleryDiscreteCoreContainer"
                 style={
                   Object {
-                    "height": 620,
+                    "height": 640,
                     "width": 720,
                   }
                 }

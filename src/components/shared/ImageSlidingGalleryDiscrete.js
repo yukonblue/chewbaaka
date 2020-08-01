@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 23, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Aug 01, 2020
  */
 
 /**
@@ -71,7 +71,7 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
   }
 
   render() {
-    const componentDimensionHeightOffset = 100 + 40;
+    const componentDimensionHeightOffset = 100 + 60;
 
     const componentDimensionStyle = {
       width: this.props.width,
