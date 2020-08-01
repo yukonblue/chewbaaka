@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Jul 19, 2020
+ * Updated  : Jul 31, 2020
  */
 
 div.AfricanWildlifeTracksIllustrationOuterContainer {
@@ -13,16 +13,6 @@ div.AfricanWildlifeTracksIllustrationOuterContainer {
   margin: 0 auto;
   text-align: center;
   background-color: peru;
-}
-
-h4.AfricanWildlifeTracksIllustrationTitle {
-  font-size: 28px;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
-}
-
-h5.AfricanWildlifeTracksIllustrationSubtitle {
-  font-size: 20px;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 div.AfricanWildlifeTracksIllustrationItemContainer {

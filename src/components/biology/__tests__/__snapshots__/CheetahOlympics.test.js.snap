@@ -8,25 +8,45 @@ exports[`CheetahOlympics component snapshot 1`] = `
     className="CheetahOlympicsInnerContainer"
   >
     <h4
-      className="CheetahOlympicsTitle"
+      className="IllustrationFontName IllustrationTitleFontSize TextTransformUppercase CheetahOlympicsTitle"
     >
+      <span
+        aria-label="medal"
+        role="img"
+      >
+        🏅 
+      </span>
       Cheetah Olympics
+      <span
+        aria-label="trophy"
+        role="img"
+      >
+         🏆
+      </span>
     </h4>
-    <p>
+    <p
+      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+    >
       Frankie Fredericks, Namibian Olympic silver medal sprinter, ran 200 meters in 19.92 seconds.
     </p>
-    <p>
+    <p
+      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+    >
       The cheetah can run the same distance in 6.54 seconds.
     </p>
     <p
-      className="CheetahOlympicsSubtitle"
+      className="IllustrationFontName IllustrationSubtitleFontSize TextTransformUppercase"
     >
       Who will win the race?
     </p>
-    <p>
+    <p
+      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+    >
       Which is the fastest land animal in Africa?
     </p>
-    <p>
+    <p
+      className="ContentPageCaptionTextSize"
+    >
       (hover over the squares below to find out)
     </p>
     <div
@@ -584,115 +604,113 @@ exports[`CheetahOlympics component snapshot 1`] = `
       </div>
     </div>
   </div>
-  <div>
+  <div
+    className="QnAPopUpContainer"
+  >
     <div
-      className="QnAPopUpContainer"
+      className="QnAPopUpButtonGroupContainer"
     >
       <div
-        className="QnAPopUpButtonGroupContainer"
+        className="ui blue large label"
+        onClick={[Function]}
       >
-        <div
-          className="ui blue large label"
+        Did You Know
+        <button
+          className="ui orange circular icon button QuestionButton"
           onClick={[Function]}
         >
-          Did You Know
-          <button
-            className="ui orange circular icon button QuestionButton"
+          <i
+            aria-hidden="true"
+            className="question icon"
             onClick={[Function]}
-          >
-            <i
-              aria-hidden="true"
-              className="question icon"
-              onClick={[Function]}
-            />
-          </button>
-        </div>
+          />
+        </button>
       </div>
+    </div>
+    <div
+      className="QnAPopUpTextSecondaryBubbleContainer"
+    >
       <div
-        className="QnAPopUpTextSecondaryBubbleContainer"
+        className="TextBubbleOuterContainer"
+        hidden={true}
+        style={
+          Object {
+            "backgroundColor": "rgb(undefined)",
+            "height": 45,
+            "width": 45,
+          }
+        }
       >
         <div
-          className="TextBubbleOuterContainer"
-          hidden={true}
-          style={
-            Object {
-              "backgroundColor": "rgb(undefined)",
-              "height": 45,
-              "width": 45,
-            }
-          }
+          className="TextBubbleInnerContainer"
         >
           <div
-            className="TextBubbleInnerContainer"
+            className="TextBubbleInnerCore"
           >
-            <div
-              className="TextBubbleInnerCore"
+            <h1
+              style={
+                Object {
+                  "color": "rgb(undefined)",
+                  "fontSize": 3.6,
+                }
+              }
             >
-              <h1
-                style={
-                  Object {
-                    "color": "rgb(undefined)",
-                    "fontSize": 3.6,
-                  }
+              
+            </h1>
+            <p
+              style={
+                Object {
+                  "color": "rgb(undefined)",
+                  "fontSize": 2.25,
                 }
-              >
-                
-              </h1>
-              <p
-                style={
-                  Object {
-                    "color": "rgb(undefined)",
-                    "fontSize": 2.25,
-                  }
-                }
-              >
-                
-              </p>
-            </div>
+              }
+            >
+              
+            </p>
           </div>
         </div>
       </div>
+    </div>
+    <div
+      className="QnAPopUpMainTextBubbleContainer"
+    >
       <div
-        className="QnAPopUpMainTextBubbleContainer"
+        className="TextBubbleOuterContainer"
+        hidden={true}
+        style={
+          Object {
+            "backgroundColor": "rgb(undefined)",
+            "height": 320,
+            "width": 320,
+          }
+        }
       >
         <div
-          className="TextBubbleOuterContainer"
-          hidden={true}
-          style={
-            Object {
-              "backgroundColor": "rgb(undefined)",
-              "height": 320,
-              "width": 320,
-            }
-          }
+          className="TextBubbleInnerContainer"
         >
           <div
-            className="TextBubbleInnerContainer"
+            className="TextBubbleInnerCore"
           >
-            <div
-              className="TextBubbleInnerCore"
+            <h1
+              style={
+                Object {
+                  "color": "rgb(undefined)",
+                  "fontSize": 25.6,
+                }
+              }
             >
-              <h1
-                style={
-                  Object {
-                    "color": "rgb(undefined)",
-                    "fontSize": 25.6,
-                  }
+              Did you know?
+            </h1>
+            <p
+              style={
+                Object {
+                  "color": "rgb(undefined)",
+                  "fontSize": 16,
                 }
-              >
-                Did you know?
-              </h1>
-              <p
-                style={
-                  Object {
-                    "color": "rgb(undefined)",
-                    "fontSize": 16,
-                  }
-                }
-              >
-                The pronghorn antelope is the fastest land animal in North America. When the first cheetahs ancestors roamed on the continent, they used to prey on pronghorn antelopes.
-              </p>
-            </div>
+              }
+            >
+              The pronghorn antelope is the fastest land animal in North America. When the first cheetahs ancestors roamed on the continent, they used to prey on pronghorn antelopes.
+            </p>
           </div>
         </div>
       </div>

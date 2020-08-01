@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Jul 19, 2020
+ * Updated  : Jul 31, 2020
  */
 
 import React from 'react'
@@ -13,7 +13,10 @@ import { Grid } from 'semantic-ui-react'
 
 import TextReveal from '../shared/TextReveal'
 
-import { getElementStyleClassName } from '../../styling/styling'
+import {
+  getElementStyleClassName,
+  getElementStyleClassNames
+} from '../../styling/styling'
 
 import image_spoor_track_cheetah from './assets/spoors/Spoor_Track_Cheetah.jpg'
 import image_spoor_track_leopard from './assets/spoors/Spoor_Track_Leopard.jpg'
@@ -54,8 +57,18 @@ export default class BigCatSpotsIllustration extends React.Component {
     return (
       <div className={getElementStyleClassName("AfricanWildlifeTracksIllustrationOuterContainer")}>
         <div>
-          <h4 className="AfricanWildlifeTracksIllustrationTitle">Footprints (spoor)</h4>
-          <h5 className="AfricanWildlifeTracksIllustrationSubtitle">Identify the spoor of these animals</h5>
+          <h4 className={getElementStyleClassNames(["IllustrationFontName",
+                                                    "IllustrationTitleFontSize",
+                                                    "TextCentered"])}
+          >
+            Footprints (spoor)
+          </h4>
+          <h5 className={getElementStyleClassNames(["IllustrationFontName",
+                                                    "IllustrationSubtitleFontSize",
+                                                    "TextCentered"])}
+          >
+            Identify the spoor of these animals
+          </h5>
           <Grid columns={items.length}>
             <Grid.Row>
               {items}
