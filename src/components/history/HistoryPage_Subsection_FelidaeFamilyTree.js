@@ -123,7 +123,7 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
         />
 
         <div className={getElementStyleClassName("HistoryPageSubsectionFelidaeFamilyTreeCore")}>
-          <FelidaeFamilyTree />
+          {/* <FelidaeFamilyTree /> */}
         </div>
 
         <MediaLinkButton

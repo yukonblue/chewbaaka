@@ -17,7 +17,7 @@ div.FelidaeFamilyTreeComponentOuterContainerDiv {
    * Hence the margin-left is needed below.
    */
   width: 1600px;
-  margin-left: -200px;
+  /* margin-left: -200px; */
   background-image: url('./assets/felidae/Felidae_Family_Tree_Background.png');
 }
 
