@@ -19,8 +19,6 @@ import ContentPageParagraph from '../shared/ContentPageParagraph'
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 
-import DimensionPredicatedContainer from '../shared/DimensionPredicatedContainer'
-
 import FluidImageWrapper from '../shared/FluidImageWrapper'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
@@ -92,18 +90,6 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
 
   renderFelidaeFamilyTreePart() {
     return (
-      <DimensionPredicatedContainer
-        renderContentHandler={this.renderFelidaeFamilyTreePartConditionally}
-      />
-    );
-  }
-
-  renderFelidaeFamilyTreePartConditionally(dimensions) {
-    if (dimensions.width < 1300) {
-      return null;
-    }
-
-    return (
       <ContentPageSubsectionPart>
         <ContentPageSubsectionSubtitle>
           Felidae Family Tree
@@ -123,7 +109,7 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
         />
 
         <div className={getElementStyleClassName("HistoryPageSubsectionFelidaeFamilyTreeCore")}>
-          {/* <FelidaeFamilyTree /> */}
+          <FelidaeFamilyTree />
         </div>
 
         <MediaLinkButton

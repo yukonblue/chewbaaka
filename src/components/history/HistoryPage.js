@@ -22,8 +22,6 @@ import HistoryPageSectionEvolution from './HistoryPage_Section_Evolution'
 import HistoryPageSectionCheetahAndMan from './HistoryPage_Section_CheetahAndMan'
 import HistoryPageSectionRangeAndPopulation from './HistoryPage_Section_RangeAndPopulation'
 
-import HistoryPageSectionFelidaeFamilyTree from './HistoryPage_Section_FelidaeFamilyTree'
-
 export default class HistoryPage extends React.Component {
 
   constructor(props) {
@@ -58,8 +56,6 @@ export default class HistoryPage extends React.Component {
         />
 
         <HistoryPageSectionEvolution config={config} />
-
-        <HistoryPageSectionFelidaeFamilyTree />
 
         <HistoryPageSectionCheetahAndMan config={config} />
 
