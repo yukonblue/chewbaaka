@@ -354,12 +354,12 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
         >
           <div>
             <h4
-              className="AfricanWildlifeTracksIllustrationTitle"
+              className="IllustrationFontName IllustrationTitleFontSize TextCentered"
             >
               Footprints (spoor)
             </h4>
             <h5
-              className="AfricanWildlifeTracksIllustrationSubtitle"
+              className="IllustrationFontName IllustrationSubtitleFontSize TextCentered"
             >
               Identify the spoor of these animals
             </h5>

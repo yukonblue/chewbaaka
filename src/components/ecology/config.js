@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 01, 2020
  */
 
 export const config = {
@@ -26,6 +26,14 @@ export const config = {
         tocImageFilename: "ecology_page_toc_menu_img_03.jpg"
       },
     ],
+    pageTailNavMenu: {
+      prevPage: {
+        label: "Biology",
+      },
+      nextPage: {
+        label: "Future"
+      }
+    }
   },
   contentPageIntro: {
     title: "Ecology",

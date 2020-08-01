@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 18, 2020
- * Updated  : Jul 27, 2020
+ * Updated  : Jul 31, 2020
  */
 
 import React from 'react'
@@ -13,7 +13,10 @@ import { Grid } from 'semantic-ui-react'
 
 import TextRevealDetailed from '../shared/TextRevealDetailed'
 
-import { getElementStyleClassName } from '../../styling/styling'
+import {
+  getElementStyleClassName,
+  getElementStyleClassNames
+} from '../../styling/styling'
 
 import image_pelt_spot_cheetah from './assets/pelt_spot_cheetah.jpg'
 import image_pelt_spot_jaguar from './assets/pelt_spot_jaguar.jpg'
@@ -62,8 +65,15 @@ export default class BigCatSpotsIllustration extends React.Component {
     return (
       <div className={getElementStyleClassName("BigCatSpotsIllustrationOuterContainer")}>
         <div>
-          <h4 className="BigCatSpotsIllustrationTitle">What Cat am I?</h4>
-          <h5 className="BigCatSpotsIllustrationSubtitle">Identify the cat by looking at coat patterns and colors.</h5>
+          <h4 className={getElementStyleClassNames(["IllustrationFontName",
+                                                    "IllustrationTitleFontSize"])}
+          >
+            What Cat am I?
+          </h4>
+          <h5 className={getElementStyleClassNames(["IllustrationFontName",
+                                                    "IllustrationSubtitleFontSize"])}>
+            Identify the cat by looking at coat patterns and colors.
+          </h5>
           <Grid columns={4}>
             <Grid.Row>
               {items}
@@ -85,7 +95,7 @@ export default class BigCatSpotsIllustration extends React.Component {
               caption={item.caption}
             />
           </div>
-          <p className="BigCatSpotsIllustrationHintText">
+          <p className="ContentPageCaptionTextSize">
             {item.hint}
           </p>
         </div>

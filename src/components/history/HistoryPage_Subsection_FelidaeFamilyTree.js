@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 01, 2020
  */
 
 import React from 'react'
@@ -58,7 +58,6 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
       <div className={getElementStyleClassName("HistoryPageSubsectionFelidaeFamilyTreeInnerContainer")}>
         {this.renderRelatedCatPart()}
         {this.renderFelidaeFamilyTreePart()}
-        {this.renderQnAPart()}
       </div>
     );
   }
@@ -79,7 +78,12 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
           one of the eight lineages of the <span className="TaxonomyBinomialName">Felidae</span> family.
         </ContentPageParagraph>
 
-        <FluidImageWrapper src={big_cats_image} alt="Big Cats" />
+        <div className="VerticalCushionPadding">
+          <FluidImageWrapper
+            src={big_cats_image}
+            alt="Big Cats"
+          />
+        </div>
       </ContentPageSubsectionPart>
     );
   }
@@ -113,16 +117,12 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
           title='Learn more about Felidae Evolution'
           icon="file alternate outline"
         />
-      </ContentPageSubsectionPart>
-    );
-  }
 
-  renderQnAPart() {
-    return (
-      <ContentPageSubsectionPart>
-        <QnAPopUp
-          content="All the species of cats except for only the domestic cat are being threatened toward extinction due to man-made factors, such as climate change and habitat destructions."
-        />
+        <ContentPageSubsectionPart>
+          <QnAPopUp
+            content="All the species of cats except for only the domestic cat are being threatened toward extinction due to man-made factors, such as climate change and habitat destructions."
+          />
+        </ContentPageSubsectionPart>
       </ContentPageSubsectionPart>
     );
   }

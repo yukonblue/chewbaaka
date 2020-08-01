@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Jul 19, 2020
+ * Updated  : Jul 31, 2020
  */
 
 import React from 'react'
@@ -12,6 +12,13 @@ import React from 'react'
 import QuizBoard from '../shared/QuizBoard'
 
 import QnAPopUp from '../shared/QnAPopUp'
+
+import ContentPageParagraph from '../shared/ContentPageParagraph'
+
+import {
+  getElementStyleClassName,
+  getElementStyleClassNames
+} from '../../styling/styling'
 
 import './CheetahOlympics.css'
 
@@ -125,26 +132,50 @@ export default class CheetahOlympics extends React.Component {
     return (
       <div className="CheetahOlympicsOuterContainer">
         <div className="CheetahOlympicsInnerContainer">
-          <h4 className="CheetahOlympicsTitle">Cheetah Olympics</h4>
+          <h4 className={getElementStyleClassNames(["IllustrationFontName",
+                                                    "IllustrationTitleFontSize",
+                                                    "TextTransformUppercase",
+                                                    "CheetahOlympicsTitle"])}
+          >
+            <span role="img" aria-label="medal">&#127941; </span>
+              Cheetah Olympics
+            <span role="img" aria-label="trophy"> &#127942;</span>
+          </h4>
 
-          <p>Frankie Fredericks, Namibian Olympic silver medal sprinter, ran 200 meters in 19.92 seconds.</p>
+          <ContentPageParagraph>
+            Frankie Fredericks, Namibian Olympic silver medal sprinter, ran 200 meters in 19.92 seconds.
+          </ContentPageParagraph>
 
-          <p>The cheetah can run the same distance in 6.54 seconds.</p>
+          <ContentPageParagraph>
+            The cheetah can run the same distance in 6.54 seconds.
+          </ContentPageParagraph>
 
-          <p className="CheetahOlympicsSubtitle">Who will win the race?</p>
-          <p>Which is the fastest land animal in Africa?</p>
-          <p>(hover over the squares below to find out)</p>
+          <p className={getElementStyleClassNames(["IllustrationFontName",
+                                                   "IllustrationSubtitleFontSize",
+                                                   "TextTransformUppercase"])}
+          >
+            Who will win the race?
+          </p>
+
+          <ContentPageParagraph>
+            Which is the fastest land animal in Africa?
+          </ContentPageParagraph>
+
+          <p className={getElementStyleClassName("ContentPageCaptionTextSize")}>
+            (hover over the squares below to find out)
+          </p>
+
           <QuizBoard
             width={720}
             height={1040}
             items={CheetahOlympics.__ITEMS__}
           />
         </div>
-        <div>
-          <QnAPopUp
-            content={CheetahOlympics._DID_YOU_KNOW_}
-          />
-        </div>
+
+        <QnAPopUp
+          content={CheetahOlympics._DID_YOU_KNOW_}
+        />
+
       </div>
     );
   }

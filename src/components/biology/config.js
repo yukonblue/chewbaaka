@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 01, 2020
  */
 
 export const config = {
@@ -26,6 +26,14 @@ export const config = {
         tocImageFilename: "biology_page_toc_menu_img_03.jpg"
       }
     ],
+    pageTailNavMenu: {
+      prevPage: {
+        label: "History"
+      },
+      nextPage: {
+        label: "Ecology"
+      }
+    }
   },
   contentPageIntro: {
     title: "Cheetah Biology",

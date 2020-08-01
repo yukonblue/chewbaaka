@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 01, 2020
  */
 
 import React from 'react'
@@ -62,7 +62,9 @@ export default class ContentPageSkeleton extends React.Component {
         <div>
           {this.renderBody()}
         </div>
-        <ContentPageTail />
+        <ContentPageTail
+          pageTailNavMenu={this.props.pageProps.pageTailNavMenu}
+        />
         <Footer
           appConfig={this.props.appConfig}
         />

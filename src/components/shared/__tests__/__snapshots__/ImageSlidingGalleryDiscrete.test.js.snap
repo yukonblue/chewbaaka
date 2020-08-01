@@ -5,7 +5,7 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
   className="ImageSlidingGalleryDiscreteOuterContainer"
   style={
     Object {
-      "height": 240,
+      "height": 260,
       "width": 100,
     }
   }
@@ -14,7 +14,7 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
     className="ImageSlidingGalleryDiscreteCoreContainer"
     style={
       Object {
-        "height": 240,
+        "height": 260,
         "width": 100,
       }
     }

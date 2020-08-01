@@ -4,20 +4,13 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Aug 01, 2020
  */
 
 div.FelidaeFamilyTreeComponentOuterContainerDiv {
   position: relative;
   height: 1000px;
-  /**
-   * NOTE:
-   * Here we expand the width from 1200 to 1600px
-   * to give more room.
-   * Hence the margin-left is needed below.
-   */
   width: 1600px;
-  margin-left: -200px;
   background-image: url('./assets/felidae/Felidae_Family_Tree_Background.png');
 }
 

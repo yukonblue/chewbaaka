@@ -190,12 +190,12 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
         >
           <div>
             <h4
-              className="BigCatSpotsIllustrationTitle"
+              className="IllustrationFontName IllustrationTitleFontSize"
             >
               What Cat am I?
             </h4>
             <h5
-              className="BigCatSpotsIllustrationSubtitle"
+              className="IllustrationFontName IllustrationSubtitleFontSize"
             >
               Identify the cat by looking at coat patterns and colors.
             </h5>
@@ -262,7 +262,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                       </div>
                     </div>
                     <p
-                      className="BigCatSpotsIllustrationHintText"
+                      className="ContentPageCaptionTextSize"
                     >
                       I live in well-watered grasslands, scrubs, woodlands, or reed beds.
                     </p>
@@ -325,7 +325,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                       </div>
                     </div>
                     <p
-                      className="BigCatSpotsIllustrationHintText"
+                      className="ContentPageCaptionTextSize"
                     >
                       I'm from South America and live in the jungle.
                     </p>
@@ -388,7 +388,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                       </div>
                     </div>
                     <p
-                      className="BigCatSpotsIllustrationHintText"
+                      className="ContentPageCaptionTextSize"
                     >
                       I can live anywhere but prefer savannas.
                     </p>
@@ -451,7 +451,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                       </div>
                     </div>
                     <p
-                      className="BigCatSpotsIllustrationHintText"
+                      className="ContentPageCaptionTextSize"
                     >
                       I can live anywhere that is rich in prey and has thick bush for cover. I'm often seen resting on trees.
                     </p>

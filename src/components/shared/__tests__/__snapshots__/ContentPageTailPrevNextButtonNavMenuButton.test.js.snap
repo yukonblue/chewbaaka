@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentPageTailPrevNextButtonNavMenuButton component snapshot 1`] = `
+<a
+  href="/#top"
+>
+  <button
+    className="ui blue massive icon left labeled button"
+    onClick={[Function]}
+  >
+    <i
+      aria-hidden="true"
+      className="arrow circle left icon"
+      onClick={[Function]}
+    />
+    Go Next Page
+  </button>
+</a>
+`;
