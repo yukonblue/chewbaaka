@@ -62,7 +62,9 @@ export default class ContentPageSkeleton extends React.Component {
         <div>
           {this.renderBody()}
         </div>
-        <ContentPageTail />
+        <ContentPageTail
+          pageTailNavMenu={this.props.pageProps.pageTailNavMenu}
+        />
         <Footer
           appConfig={this.props.appConfig}
         />

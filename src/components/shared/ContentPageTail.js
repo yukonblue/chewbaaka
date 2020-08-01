@@ -4,10 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 13, 2020
+ * Updated  : Aug 01, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import { config } from './config'
 
@@ -19,6 +19,7 @@ import {
 } from '../../styling/styling'
 
 import ContentPageSectionTemplate from './ContentPageSectionTemplate'
+import ContentPageTailPrevNextButtonNavMenu from './ContentPageTailPrevNextButtonNavMenu'
 
 import './ContentPageTail.css'
 import './ContentPageSharedStyles.css'
@@ -53,14 +54,31 @@ export default class ContentPageTail extends React.Component {
       <div className={getElementStyleClassNames(["ContentPageTailInnerContainer",
                                                  "ContentPageContentInnerContentDimension"])}
       >
-        <div className={getElementStyleClassName("ContentPageTailInnerImageCollageContainer")}>
-          <ImageCollageDriver
-            data={config.imageCollage}
-            count={ContentPageTail._IMAGE_COLLAGE_CELL_COUNT_}
-            imageWidth={ContentPageTail._IMAGE_COLLAGE_IMAGE_WIDTH_}
-            imageHeight={ContentPageTail._IMAGE_COLLAGE_IMAGE_HEIGHT_}
-          />
-        </div>
+        {this.renderImageCollage()}
+        {this.renderPrevNextPageNavButtons()}
+      </div>
+    );
+  }
+
+  renderImageCollage() {
+    return (
+      <div className={getElementStyleClassName("ContentPageTailInnerImageCollageContainer")}>
+        <ImageCollageDriver
+          data={config.imageCollage}
+          count={ContentPageTail._IMAGE_COLLAGE_CELL_COUNT_}
+          imageWidth={ContentPageTail._IMAGE_COLLAGE_IMAGE_WIDTH_}
+          imageHeight={ContentPageTail._IMAGE_COLLAGE_IMAGE_HEIGHT_}
+        />
+      </div>
+    );
+  }
+
+  renderPrevNextPageNavButtons() {
+    return (
+      <div className={getElementStyleClassName("ContentPageTailInnerNavMenuContainer")}>
+        <ContentPageTailPrevNextButtonNavMenu
+          pageTailNavMenu={this.props.pageTailNavMenu}
+        />
       </div>
     );
   }

@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentPageTailPrevNextButtonNavMenu component snapshot 1`] = `
+<div>
+  <div
+    className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+  >
+    <div
+      className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+    >
+      <div
+        className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+      >
+        <div
+          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+        >
+          <h4
+            className="ContentPageSubsectionSubtitle"
+          />
+          <div
+            className="FloatLeft"
+          >
+            <a
+              href="/biology"
+            >
+              <button
+                className="ui blue massive icon left labeled button"
+                onClick={[Function]}
+              >
+                <i
+                  aria-hidden="true"
+                  className="arrow circle left icon"
+                  onClick={[Function]}
+                />
+                Biology
+              </button>
+            </a>
+          </div>
+        </div>
+        <div
+          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+        >
+          <h4
+            className="ContentPageSubsectionSubtitle"
+          />
+          <div
+            className="FloatRight"
+          >
+            <a
+              href="/future"
+            >
+              <button
+                className="ui blue massive icon right labeled button"
+                onClick={[Function]}
+              >
+                <i
+                  aria-hidden="true"
+                  className="arrow circle right icon"
+                  onClick={[Function]}
+                />
+                Future
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

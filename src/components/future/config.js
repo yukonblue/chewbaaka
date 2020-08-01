@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 01, 2020
  */
 
 export const config = {
@@ -26,6 +26,11 @@ export const config = {
         tocImageFilename: "future_page_toc_menu_img_03.jpg"
       }
     ],
+    pageTailNavMenu: {
+      prevPage: {
+        label: "Ecology"
+      }
+    }
   },
   contentPageIntro: {
     title: "Future of the Cheetah",

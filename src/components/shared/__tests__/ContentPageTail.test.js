@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 26, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Aug 01, 2020
  */
 
 import React from 'react'
@@ -17,9 +17,20 @@ import ContentPageTail from '../ContentPageTail'
 
 import { RUN_TEST_NEVER } from '../../../testing/testing'
 
+const pageTailNavMenu = {
+  prevPage: {
+    label: "Biology",
+  },
+  nextPage: {
+    label: "Future"
+  }
+};
+
 test('renders ContentPageTail component', () => {
   render(
-    <ContentPageTail />
+    <ContentPageTail
+      pageTailNavMenu={pageTailNavMenu}
+    />
   );
 });
 
@@ -30,7 +41,9 @@ RUN_TEST_NEVER(() => {
   test('ContentPageTail component snapshot', () => {
     const tree = renderer
       .create(
-        <ContentPageTail />
+        <ContentPageTail
+          pageTailNavMenu={pageTailNavMenu}
+        />
       ).toJSON();
     expect(tree).toMatchSnapshot();
   });

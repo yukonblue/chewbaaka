@@ -4,14 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 15, 2020
+ * Updated  : Aug 01, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import { render, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react'
 
-import ContentPageSkeleton from '../ContentPageSkeleton';
+import ContentPageSkeleton from '../ContentPageSkeleton'
 
 test('renders ContentPageSkeleton component', () => {
   const pageProps = {
@@ -25,7 +25,15 @@ test('renders ContentPageSkeleton component', () => {
       {
         title: "Menu Item 2"
       }
-    ]
+    ],
+    pageTailNavMenu: {
+      prevPage: {
+        label: "Biology",
+      },
+      nextPage: {
+        label: "Future"
+      }
+    }
   };
 
   render(<ContentPageSkeleton pageProps={pageProps}/>);
