@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 01, 2020
  */
 
 import React from 'react'
@@ -79,7 +79,12 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
           one of the eight lineages of the <span className="TaxonomyBinomialName">Felidae</span> family.
         </ContentPageParagraph>
 
-        <FluidImageWrapper src={big_cats_image} alt="Big Cats" />
+        <div className="VerticalCushionPadding">
+          <FluidImageWrapper
+            src={big_cats_image}
+            alt="Big Cats"
+          />
+        </div>
       </ContentPageSubsectionPart>
     );
   }
