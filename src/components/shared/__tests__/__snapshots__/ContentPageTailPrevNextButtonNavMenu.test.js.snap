@@ -1,67 +1,65 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ContentPageTailPrevNextButtonNavMenu component snapshot 1`] = `
-<div>
+<div
+  className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+>
   <div
-    className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+    className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
   >
     <div
-      className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+      className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
     >
       <div
-        className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
       >
+        <h4
+          className="ContentPageSubsectionSubtitle"
+        />
         <div
-          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+          className="FloatLeft"
         >
-          <h4
-            className="ContentPageSubsectionSubtitle"
-          />
-          <div
-            className="FloatLeft"
+          <a
+            href="/biology"
           >
-            <a
-              href="/biology"
+            <button
+              className="ui blue massive icon left labeled button"
+              onClick={[Function]}
             >
-              <button
-                className="ui blue massive icon left labeled button"
+              <i
+                aria-hidden="true"
+                className="arrow circle left icon"
                 onClick={[Function]}
-              >
-                <i
-                  aria-hidden="true"
-                  className="arrow circle left icon"
-                  onClick={[Function]}
-                />
-                Biology
-              </button>
-            </a>
-          </div>
+              />
+              Biology
+            </button>
+          </a>
         </div>
+      </div>
+      <div
+        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+      >
+        <h4
+          className="ContentPageSubsectionSubtitle"
+        />
         <div
-          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+          className="FloatRight"
         >
-          <h4
-            className="ContentPageSubsectionSubtitle"
-          />
-          <div
-            className="FloatRight"
+          <a
+            href="/future"
           >
-            <a
-              href="/future"
+            <button
+              className="ui blue massive icon right labeled button"
+              onClick={[Function]}
             >
-              <button
-                className="ui blue massive icon right labeled button"
+              <i
+                aria-hidden="true"
+                className="arrow circle right icon"
                 onClick={[Function]}
-              >
-                <i
-                  aria-hidden="true"
-                  className="arrow circle right icon"
-                  onClick={[Function]}
-                />
-                Future
-              </button>
-            </a>
-          </div>
+              />
+              Future
+            </button>
+          </a>
         </div>
       </div>
     </div>

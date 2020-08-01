@@ -16,12 +16,10 @@ export default class ContentPageTailPrevNextButtonNavMenu extends React.Componen
 
   render() {
     return (
-      <div>
-        <ContentPageSubsectionTwoColumnContentTemplate
-          lhsColumn={{content: this.renderPrevPageNavButton()}}
-          rhsColumn={{content: this.renderNextPageNavButton()}}
-        />
-      </div>
+      <ContentPageSubsectionTwoColumnContentTemplate
+        lhsColumn={{content: this.renderPrevPageNavButton()}}
+        rhsColumn={{content: this.renderNextPageNavButton()}}
+      />
     )
   }
 
