@@ -126,7 +126,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                               <img
                                 alt="Mafdet’s head on the bed where the mummy is placed."
                                 className="ImageSlidingGalleryImgPart"
-                                src="https://www.thevintagenews.com/wp-content/uploads/2018/12/anubis_attending_the_mummy_of_sennedjem.jpg"
+                                src="image_Mafdet.jpg"
                               />
                               <div
                                 className="ImageSlidingGalleryCaptionPart"
