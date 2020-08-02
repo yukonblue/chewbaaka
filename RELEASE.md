@@ -1,5 +1,20 @@
 # Release Note
 
+## Version 0.1.4
+
+* Date: August 01, 2020
+* Changelog:
+  * [Style][Fix] Remove use of 'Comic Sans MS' font across components.
+  * [Style][Refactor] Consolidate illustration title and subtitle font styles.
+  * [Style][Refine] Add vertical padding around 'related cat image' in 'Evolution of Cats' subsection.
+  * [Style][Refine] Render `FelidaeFamilyTree` component anyway but without left side clipping (but still can be clipped on the right hand side).
+  * [Style][Refine] Increase component dimension height offset of ImageSlidingGalleryDiscrete component by 20px.
+  * [Style][Refine] Update font-family of named style FuturePageTailVisionStatementText to be just "cursive".
+  * [Feature] Introduce `DimensionPredicatedContainer` component (not currently being used).
+  * [Feature] Introduce `ContentPageTailPrevNextButtonNavMenu` component and incorporate into pages.
+  * [Style][Refine] Adjust image dimensions in 'Relationships with Man' subsection to be consistent.
+  * [Style][Refine] Adjust image dimensions in 'Schools, Teachers, Learners' subsection to be consistent in height.
+
 ## Version 0.1.3
 
 * Date: July 31, 2020
