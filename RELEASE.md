@@ -3,6 +3,9 @@
 ## Version 0.1.4
 
 * Date: August 01, 2020
+* Commit: `61eb3fe`
+* Tag: `v0.1.4`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.1.4)
 * Changelog:
   * [Style][Fix] Remove use of 'Comic Sans MS' font across components.
   * [Style][Refactor] Consolidate illustration title and subtitle font styles.
