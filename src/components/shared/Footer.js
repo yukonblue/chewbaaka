@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 03, 2020
  */
 
 import React from 'react'
@@ -61,6 +61,9 @@ export default function Footer(props) {
                 <a href="https://cheetah.org/">{kStringConstantCheetahConservationFund}</a> is a 501(c)(3) nonprofit organization,
                 dedicated to saving the cheetahs in the wild and changing
                 the world to be a better place.
+              </p>
+              <p>
+                {`All textual content presented on this site are copyright of ${kStringConstantCheetahConservationFund}.`}
               </p>
               <p>
                 {`This site is not an affiliation of ${kStringConstantCheetahConservationFund}.`}

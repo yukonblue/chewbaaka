@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 03, 2020
  */
 
 import React from 'react'
@@ -16,6 +16,9 @@ import renderer from 'react-test-renderer'
 import Footer from '../Footer'
 
 import { config } from '../../../config'
+
+const kExpectedCopyrightStatementText = "All textual content presented on this site are copyright of Cheetah Conservation Fund.";
+const kExpectedAffiliationDisclaimerText = "This site is not an affiliation of Cheetah Conservation Fund.";
 
 test('renders Footer component', () => {
   render(
@@ -37,9 +40,13 @@ test('renders Footer component', () => {
   expect(sectionElementCCFTextContent.includes("Cheetah Conservation Fund")).toBeTruthy();
   expect(sectionElementCCFTextContent.includes("501(c)(3)")).toBeTruthy();
 
-  // Tests disclaimer text to be present.
-  const disclaimerItem = screen.getByText(/This site is not an affiliation of Cheetah Conservation Fund/i);
-  expect(disclaimerItem).toBeInTheDocument();
+  // Tests copyright statement text to be present.
+  const copyrightStatementElement = screen.getByText(kExpectedCopyrightStatementText);
+  expect(copyrightStatementElement).toBeInTheDocument();
+
+  // Tests affiliation disclaimer text to be present.
+  const affiliationDisclaimerElement = screen.getByText(kExpectedAffiliationDisclaimerText);
+  expect(affiliationDisclaimerElement).toBeInTheDocument();
 });
 
 test('Footer component snapshot', () => {
