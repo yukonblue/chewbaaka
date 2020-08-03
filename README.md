@@ -12,9 +12,10 @@
 Currently, there are only two major branches - **master** and **release**.
 
 The **master** branch is served to hold the most active development work.
-TOT of this branch should hold the latest merged work from feature branches.
+TOT of this branch should hold the latest work merged from
+feature branch approved Pull Requests.
 
-All work need to be done on a feature branch branched off the **master**
+All work need to be done on a feature branch branched off from the **master**
 branch, and have a Pull Request open once ready to be reviewed and have
 CI jobs kick in. All feature branches will merge back to the **master**
 branch once approved and have green status across all required CI jobs.
@@ -54,6 +55,25 @@ reflected through the Node.js "server". To build and run the project, do
 npm start
 ```
 
+If the project able to build successfully, you should see the following
+in the terminal:
+
+```
+Compiled successfully!
+
+You can now view chewbaaka in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.0.14:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+```
+
+Simply go to [http://localhost:3000](http://localhost:3000) in the
+web browser to view the rendered site. Any changes in source code that
+result in successful builds will automatically be reflected in the browser.
+
 ### Test
 
 Writing and exercising unit tests frequently is a good practice
@@ -88,10 +108,12 @@ Release note can be found [here](./RELEASE.md).
 
 ## Documentations
 
-Useful documentations:
+Useful links:
 
 - [Node.js](https://nodejs.org/en/)
 - [React JS](https://reactjs.org/)
 - [Semantic UI React](https://react.semantic-ui.com/)
 - [Jest](https://jestjs.io/)
 - [Jest Snapshot Testing](https://jestjs.io/docs/en/snapshot-testing)
+- [Learn React JS - Full Course for Beginners - Tutorial 2019 | YouTube](https://www.youtube.com/watch?v=DLX62G4lc44)
+- [Sitemaps XML format | sitemaps.org](https://www.sitemaps.org/protocol.html)
