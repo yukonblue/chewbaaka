@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+
+    <loc>https://www.hope4cheetahs.org/</loc>
+
+    <lastmod>2020-08-01</lastmod>
+
+    <changefreq>weekly</changefreq>
+
+   </url>
+
+  <url>
+
+    <loc>https://www.hope4cheetahs.org/history/</loc>
+
+    <lastmod>2020-08-01</lastmod>
+
+    <changefreq>weekly</changefreq>
+
+   </url>
+
+  <url>
+
+    <loc>https://www.hope4cheetahs.org/biology/</loc>
+
+    <lastmod>2020-08-01</lastmod>
+
+    <changefreq>weekly</changefreq>
+
+   </url>
+
+  <url>
+
+    <loc>https://www.hope4cheetahs.org/ecology/</loc>
+
+    <lastmod>2020-08-01</lastmod>
+
+    <changefreq>weekly</changefreq>
+
+   </url>
+
+  <url>
+
+    <loc>https://www.hope4cheetahs.org/future/</loc>
+
+    <lastmod>2020-08-01</lastmod>
+
+    <changefreq>weekly</changefreq>
+
+   </url>
+
+</sitemapindex>

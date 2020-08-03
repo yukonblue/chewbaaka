@@ -1,3 +1,16 @@
 # https://www.robotstxt.org/robotstxt.html
+User-agent: AdsBot-Google
+User-agent: AdsBot-Google-Mobile
+User-agent: AdsBot-Google-Mobile-Apps
+User-agent: APIs-Google
+User-agent: DuplexWeb-Google
+User-agent: Googlebot-Image
+User-agent: Googlebot-News
+User-agent: Googlebot-Video
+User-agent: Mediapartners-Google
+Disallow: /
+
 User-agent: *
-Disallow:
+Allow: /
+
+Sitemap: https://www.hope4cheetahs.org/sitemap.xml
