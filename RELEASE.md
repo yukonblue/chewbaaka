@@ -3,6 +3,9 @@
 ## Version 0.1.5
 
 * Date: August 03, 2020
+* Commit: `fed070e`
+* Tag: `v0.1.5`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.1.5)
 * Changelog:
   * [Content] Incorporate copyright statement in global footer.
   * [Config] Introduce `public/sitemap.xml`.
