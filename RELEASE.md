@@ -3,6 +3,9 @@
 ## Version 0.1.6
 
 * Date: August 03, 2020
+* Commit: `80af697`
+* Tag: `v0.1.6`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.1.6)
 * Changelog:
   * [Fix] Fix incorrect sitemap format in `sitemap.xml`.
 
