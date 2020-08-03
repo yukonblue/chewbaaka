@@ -7,7 +7,7 @@
 ![logo](./Resources/Chewbaaka_Logo_256x256.png)
 
 
-## Workflow and branching stretegies
+## Workflow and branching strategies
 
 Currently, there are only two major branches - **master** and **release**.
 
