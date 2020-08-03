@@ -1,5 +1,11 @@
 # Release Note
 
+## Version 0.1.6
+
+* Date: August 03, 2020
+* Changelog:
+  * [Fix] Fix incorrect sitemap format in `sitemap.xml`.
+
 ## Version 0.1.5
 
 * Date: August 03, 2020
