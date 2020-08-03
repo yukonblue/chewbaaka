@@ -117,3 +117,4 @@ Useful links:
 - [Jest Snapshot Testing](https://jestjs.io/docs/en/snapshot-testing)
 - [Learn React JS - Full Course for Beginners - Tutorial 2019 | YouTube](https://www.youtube.com/watch?v=DLX62G4lc44)
 - [Sitemaps XML format | sitemaps.org](https://www.sitemaps.org/protocol.html)
+- [Robots.txt Specifications | Google Developers](https://developers.google.com/search/reference/robots_txt)
