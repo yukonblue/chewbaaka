@@ -1,5 +1,15 @@
 # Release Note
 
+## Version 0.1.5
+
+* Date: August 03, 2020
+* Changelog:
+  * [Content] Incorporate copyright statement in global footer.
+  * [Config] Introduce `public/sitemap.xml`.
+  * [Config] Update `public/robots.txt`.
+  * [Config] Add 'noindex' meta directive in `public/index.html`.
+  * Add setup instructions in top-level `README.md`.
+
 ## Version 0.1.4
 
 * Date: August 01, 2020
