@@ -120,3 +120,9 @@ Useful links:
 - [Robots.txt Specifications | Google Developers](https://developers.google.com/search/reference/robots_txt)
 - [Martin Splitt - Technical SEO 101 for React Developers | React Next 2019 | YouTube](https://www.youtube.com/watch?v=3B7gBVTsEaE)
 - [Martin Splitt "Technical SEO for JavaScript developers"](https://www.youtube.com/watch?v=vjj8B4sq0UI)
+- [Cache-Control - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control)
+
+Documentations related to Amazon AWS:
+
+- [Amazon CloudFront Developer Guide](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
+- [Why doesn't Amazon CloudFront cache files in the amount of time I specified?](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-cache-files-time/)
