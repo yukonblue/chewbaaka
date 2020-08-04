@@ -124,5 +124,6 @@ Useful links:
 
 Documentations related to Amazon AWS:
 
+- [AWS Amplify Console User Guide](https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html)
 - [Amazon CloudFront Developer Guide](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 - [Why doesn't Amazon CloudFront cache files in the amount of time I specified?](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-cache-files-time/)
