@@ -11,6 +11,7 @@ import logging
 import sys
 import urllib2
 
+from HTMLParser import HTMLParser
 
 ## -----------------------------------------------------------------------------
 
@@ -22,6 +23,45 @@ PROG = 'health_check'
 
 
 EXIT_SUCCESS = 0
+
+
+## -----------------------------------------------------------------------------
+
+
+class HTMLHeadParser(HTMLParser):
+
+    def __init__(self, *args, **kwargs):
+        HTMLParser.__init__(self, *args, **kwargs)
+        self._curTag = ''
+        self._curAttrs = None
+        self._title = None
+        self._metaTags = {}
+
+    def handle_starttag(self, tag, attrs):
+        if tag in ('title', 'meta'):
+            self._curTag = tag
+            self._curAttrs = dict({key:val for (key,val) in attrs})
+
+    def handle_endtag(self, tag):
+        if self._curTag == 'meta':
+            if 'charset' in self._curAttrs:
+                self._metaTags['charset'] = self._curAttrs['charset']
+            else:
+                self._metaTags[self._curAttrs['name']] = self._curAttrs.get('content', '')
+        self._curTag = ''
+        self._curAttrs = None
+
+    def handle_data(self, data):
+        if self._curTag == 'title':
+            self._title = str(data)
+
+    @property
+    def title(self):
+        return self._title
+
+    @property
+    def meta(self):
+        return self._metaTags
 
 
 ## -----------------------------------------------------------------------------
@@ -121,10 +161,43 @@ class HTTPResponseHeadersCheck(object):
 ## -----------------------------------------------------------------------------
 
 
+class HTMLHeadCheck(object):
+
+    EXPECTED_TITLE = 'Run Cheetah Run'
+
+    EXPECTED_META = {
+        'charset'         : 'utf-8',
+        'description'     : 'Explore Cheetah Museum at Cheetah Conservation Fund',
+        'viewport'        : 'width=device-width,initial-scale=1',
+        'keywords'        : 'cheetah, Cheetah, Cheetah Conservation Fund, CCF, hope for cheetahs, hope 4 cheetahs, Chewbaaka, wildlife, conservation, hope',
+        'AdsBot-Google'   : 'noindex'
+    }
+
+    def __call__(self, req, resp):
+        html = resp.read()
+
+        htmlParser = HTMLHeadParser()
+        htmlParser.feed(html)
+
+        # print htmlParser.title
+        # print htmlParser.meta
+
+        if htmlParser.title != HTMLHeadCheck.EXPECTED_TITLE:
+            raise ValidationError('Unexpected HTML title: {title}'.format(htmlParser.title))
+
+        for key, val in htmlParser.meta.iteritems():
+            if key in HTMLHeadCheck.EXPECTED_META and val != HTMLHeadCheck.EXPECTED_META[key]:
+                raise ValidationError('Unexpected meta key for name \"{name}\": \"{val}\"'.format(name=key, val=val))
+
+
+## -----------------------------------------------------------------------------
+
+
 class Runner(object):
 
     checks = [
-        HTTPResponseHeadersCheck
+        HTTPResponseHeadersCheck,
+        HTMLHeadCheck
     ]
 
     def __init__(self, args, config, logger):
@@ -150,6 +223,8 @@ class Runner(object):
 
         # Need to start with `HTTPStatusCodeCheck` to get the response.
         resp = HTTPStatusCodeCheck()(req)
+
+        self.logger.info('Response headers: {headers}'.format(headers=resp.headers))
 
         for check in Runner.checks:
             check()(req, resp)
