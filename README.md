@@ -84,7 +84,7 @@ npm test
 ```
 
 Test files should have the same naming convention of their corresponding
-`.js` files, except with the `.test.js`file extension, and be placed
+`.js` files, except with the `.test.js` file extension, and be placed
 in the `__tests__` directory. For example, if the component file is
 named `MyComponent.js`, then the test file should be named `MyComponent.test.js`.
 
