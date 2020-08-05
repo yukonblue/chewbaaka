@@ -28,7 +28,7 @@ import TextBubble from '../shared/TextBubble'
 import ImageView from '../shared/ImageView'
 
 import image_cheetah_body_measurements from './assets/Cheetah_Body_Measurements-min.jpg'
-import image_cheetah_tail from './assets/cheetah_tail.jpg'
+import image_cheetah_tail from './assets/cheetah_tail-min.jpg'
 import image_cheetah_running_animated from './assets/cheetah_running_animated.gif'
 
 export default class BiologyPageSubsectionBodyAndBone extends React.Component {
