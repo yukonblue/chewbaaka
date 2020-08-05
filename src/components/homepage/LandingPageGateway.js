@@ -44,12 +44,13 @@ export default class LandingPageGateway extends React.Component {
           <Header inverted as="h1">
             {title}
           </Header>
-          <p
-            className="LandingPageGatewaySubtitle"
+          <Header
+            inverted
+            as="h2"
             data-testid="LandingPageGatewayComponentSubtitlePartTestId"
           >
             {subtitle}
-          </p>
+          </Header>
           <a href="#Explore">
             <Button
               basic

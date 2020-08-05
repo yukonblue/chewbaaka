@@ -66,12 +66,12 @@ exports[`App component snapshot 1`] = `
       >
         Learn about cheetahs
       </h1>
-      <p
-        className="LandingPageGatewaySubtitle"
+      <h2
+        className="ui inverted header"
         data-testid="LandingPageGatewayComponentSubtitlePartTestId"
       >
         Explore the Cheetah Museum at Cheetah Conservation Fund.
-      </p>
+      </h2>
       <a
         href="#Explore"
       >
