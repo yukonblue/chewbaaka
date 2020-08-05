@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 04, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -24,7 +24,7 @@ import '../shared/ContentPageSharedStyles.css'
 
 import './ExploreGatewayIntro.css'
 
-import image_CCF_Cheetah_Museum from './assets/CCF_Cheetah_Museum.jpg'
+import image_CCF_Cheetah_Museum from './assets/CCF_Cheetah_Museum-min.jpg'
 
 export default function ExploreGatewayIntro() {
   return (
