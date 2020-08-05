@@ -5,7 +5,7 @@ exports[`CheetahSkeletalAnatomyDiagram component snapshot 1`] = `
   className="PopUpLabelledDiagramOuterComponent"
   style={
     Object {
-      "backgroundImage": "url(cheetah_skeletal_anatomy.jpg)",
+      "backgroundImage": "url(cheetah_skeletal_anatomy-min.jpg)",
       "height": 640,
       "width": 960,
     }
