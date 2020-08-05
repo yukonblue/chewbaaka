@@ -18,9 +18,9 @@ import { getElementStyleClassName } from '../../styling/styling'
 import './FelidaeFamilyTree.css'
 
 /** Puma lineage */
-import image_cheetah from './assets/felidae/puma/felidae_cheetah_Acinonyx_jubatus_240x240.jpg'
-import image_jaguarundi from './assets/felidae/puma/felidae_jaguarundi_Herpailurus_yagouaroundi_240x240.jpg'
-import image_puma from './assets/felidae/puma/felidae_puma_Puma_concolor_240x240.jpg'
+import image_cheetah from './assets/felidae/puma/felidae_cheetah_Acinonyx_jubatus_240x240-min.jpg'
+import image_jaguarundi from './assets/felidae/puma/felidae_jaguarundi_Herpailurus_yagouaroundi_240x240-min.jpg'
+import image_puma from './assets/felidae/puma/felidae_puma_Puma_concolor_240x240-min.jpg'
 
 /** Lynx lineage */
 import image_eurasian_lynx from './assets/felidae/lynx/felidae_eurasian_lynx_Lynx_lynx_240x240-min.jpg'
