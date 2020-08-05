@@ -4,22 +4,21 @@
  *
  * Author   : Tomiko
  * Created  : Jun 30, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Aug 04, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import { render, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react'
 
-import renderer from 'react-test-renderer';
+import renderer from 'react-test-renderer'
 
-import App from '../App';
+import App from '../App'
 
 test('renders app', () => {
-  render(<App />);
-
-  const mainTitleElement = screen.getByText(/Run cheetah run/i);
-  expect(mainTitleElement).toBeInTheDocument();
+  render(
+    <App />
+  );
 
   // Tests home page component is present.
   const homePageComponent = screen.getByTestId("HomePageTestId");
@@ -28,7 +27,8 @@ test('renders app', () => {
 
 test('App component snapshot', () => {
   const tree = renderer
-    .create(<App />)
-    .toJSON();
+    .create(
+      <App />
+    ).toJSON();
   expect(tree).toMatchSnapshot();
 });
