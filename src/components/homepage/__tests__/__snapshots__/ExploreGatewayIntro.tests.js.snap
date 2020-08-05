@@ -11,7 +11,7 @@ exports[`ExploreGatewayIntro component snapshot 1`] = `
     <img
       alt="CCF Cheetah Museum"
       className="ExploreGatewayIntroCCFCheetahMuseumImage"
-      src="CCF_Cheetah_Museum.jpg"
+      src="CCF_Cheetah_Museum-min.jpg"
     />
   </div>
   <div
