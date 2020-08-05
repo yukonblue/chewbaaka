@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -38,9 +38,9 @@ import image_mainland_clouded_leopard from './assets/felidae/panthera/felidae_ma
 import image_sunda_clouded_leopard from './assets/felidae/panthera/felidae_sunda_clouded_leopard_Neofelis_diardi_240x240.jpg'
 
 /** Bay Cat lineage */
-import image_asiatic_golden_cat from './assets/felidae/baycat/felidae_asiatic_golden_cat_Catopuma_temminckii_240x240.jpg'
-import image_borneo_bay_cat from './assets/felidae/baycat/felidae_borneo_bay_cat_Catopuma_badia_240x240.jpg'
-import image_marbled_cat from './assets/felidae/baycat/felidae_marbled_cat_Pardofelis_marmorata_240x240.jpg'
+import image_asiatic_golden_cat from './assets/felidae/baycat/felidae_asiatic_golden_cat_Catopuma_temminckii_240x240-min.jpg'
+import image_borneo_bay_cat from './assets/felidae/baycat/felidae_borneo_bay_cat_Catopuma_badia_240x240-min.jpg'
+import image_marbled_cat from './assets/felidae/baycat/felidae_marbled_cat_Pardofelis_marmorata_240x240-min.jpg'
 
 /** Leopard Cat lineage */
 import image_fishing_cat from './assets/felidae/leopardcat/felidae_fishing_cat_Prionailurus_viverrinus_240x240.jpg'
