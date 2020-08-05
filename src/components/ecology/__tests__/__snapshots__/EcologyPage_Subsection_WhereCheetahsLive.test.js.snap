@@ -161,7 +161,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                     onMouseLeave={[Function]}
                     style={
                       Object {
-                        "backgroundImage": "url(biome_savanna.jpg)",
+                        "backgroundImage": "url(biome_savanna-min.jpg)",
                         "height": 320,
                         "width": 480,
                       }
