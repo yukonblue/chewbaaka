@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -22,8 +22,8 @@ import {
 
 import ImageSlidingGallery from '../shared/ImageSlidingGallery'
 
-import image_cheetah_with_two_indian_servants from './assets/cheetah_with_two_indian_servants.jpg'
-import image_cheetah_painting_02 from './assets/cheetah_painting_02.jpg'
+import image_cheetah_with_two_indian_servants from './assets/cheetah_with_two_indian_servants-min.jpg'
+import image_cheetah_painting_02 from './assets/cheetah_painting_02-min.jpg'
 
 export default class HistoryPageSubsectionCheetahsInSports extends React.Component {
 

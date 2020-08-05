@@ -244,7 +244,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                             <img
                               alt="A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799."
                               className="ImageSlidingGalleryImgPart"
-                              src="cheetah_with_two_indian_servants.jpg"
+                              src="cheetah_with_two_indian_servants-min.jpg"
                             />
                             <div
                               className="ImageSlidingGalleryCaptionPart"
@@ -423,7 +423,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                               <img
                                 alt="Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli."
                                 className="ImageViewImg"
-                                src="cheetah_painting_Renaissance.jpg"
+                                src="cheetah_painting_Renaissance-min.jpg"
                                 style={
                                   Object {
                                     "width": 451,
