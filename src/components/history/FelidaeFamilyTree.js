@@ -29,13 +29,13 @@ import image_iberian_lynx from './assets/felidae/lynx/felidae_iberian_lynx_Lynx_
 import image_bobcat from './assets/felidae/lynx/felidae_bobcat_Lynx_rufus_240x240-min.jpg'
 
 /** Panthera lineage */
-import image_tiger from './assets/felidae/panthera/felidae_tiger_Panthera_tigris_240x240.jpg'
-import image_lion from './assets/felidae/panthera/felidae_lion_Panthera_leo_240x240.jpg'
-import image_jaguar from './assets/felidae/panthera/felidae_jaguar_Panthera_onca_240x240.jpg'
-import image_leopard from './assets/felidae/panthera/felidae_leopard_Panthera_pardus_240x240.jpg'
-import image_snow_leopard from './assets/felidae/panthera/felidae_snow_leopard_Panthera_uncia_240x240.jpg'
-import image_mainland_clouded_leopard from './assets/felidae/panthera/felidae_mainland_clouded_leopard_Neofelis_nebulosa_240x240.jpg'
-import image_sunda_clouded_leopard from './assets/felidae/panthera/felidae_sunda_clouded_leopard_Neofelis_diardi_240x240.jpg'
+import image_tiger from './assets/felidae/panthera/felidae_tiger_Panthera_tigris_240x240-min.jpg'
+import image_lion from './assets/felidae/panthera/felidae_lion_Panthera_leo_240x240-min.jpg'
+import image_jaguar from './assets/felidae/panthera/felidae_jaguar_Panthera_onca_240x240-min.jpg'
+import image_leopard from './assets/felidae/panthera/felidae_leopard_Panthera_pardus_240x240-min.jpg'
+import image_snow_leopard from './assets/felidae/panthera/felidae_snow_leopard_Panthera_uncia_240x240-min.jpg'
+import image_mainland_clouded_leopard from './assets/felidae/panthera/felidae_mainland_clouded_leopard_Neofelis_nebulosa_240x240-min.jpg'
+import image_sunda_clouded_leopard from './assets/felidae/panthera/felidae_sunda_clouded_leopard_Neofelis_diardi_240x240-min.jpg'
 
 /** Bay Cat lineage */
 import image_asiatic_golden_cat from './assets/felidae/baycat/felidae_asiatic_golden_cat_Catopuma_temminckii_240x240-min.jpg'
