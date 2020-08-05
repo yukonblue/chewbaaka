@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -42,8 +42,8 @@ import MediaLinkButton from '../shared/MediaLinkButton'
 
 import image_Cheetah_Evolution_and_Extinction_Scale from './assets/Cheetah_Evolution_and_Extinction_Scale.png'
 
-import cheetah_range_map_01 from './assets/cheetah-range-map-01.png'
-import cheetah_range_map_02 from './assets/cheetah-range-map-02.png'
+import cheetah_range_map_01 from './assets/cheetah-range-map-01-min.png'
+import cheetah_range_map_02 from './assets/cheetah-range-map-02-min.png'
 
 export default class HistoryPageSubsectionRoadToExtinction extends React.Component {
 
