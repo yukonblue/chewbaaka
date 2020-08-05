@@ -64,18 +64,14 @@ exports[`HomePage snapshot 1`] = `
       <h1
         className="ui inverted header"
       >
-        Run cheetah run
+        Learn about cheetahs
       </h1>
-      <p
-        className="LandingPageGatewaySubtitle"
+      <h2
+        className="ui inverted header"
         data-testid="LandingPageGatewayComponentSubtitlePartTestId"
       >
-        Visit and explore CCF's 
-        <b>
-          Cheetah Museum
-        </b>
-         at the comfort of your home.
-      </p>
+        Explore the Cheetah Museum at Cheetah Conservation Fund
+      </h2>
       <a
         href="#Explore"
       >
@@ -382,17 +378,6 @@ exports[`HomePage snapshot 1`] = `
             </p>
             <p>
               This site is not an affiliation of Cheetah Conservation Fund.
-            </p>
-            <p>
-              Made with 
-              <span
-                aria-label="heart"
-                role="img"
-              >
-                ❤️
-              </span>
-               by 
-              Will Li
             </p>
           </div>
         </div>

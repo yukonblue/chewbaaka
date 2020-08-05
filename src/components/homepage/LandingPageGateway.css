@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 28, 2020
+ * Updated  : Aug 04, 2020
  */
 
 .ui.vertical.center.aligned.segment.LandingPageGatewayOuterContainer {
@@ -42,14 +42,5 @@
 .ui.container.LandingPageGatewayCoreContentContainer h1.header {
   font-size: 36px;
   color: #F8F8FF;
-  text-shadow: 2px 2px 4px #000000;
-}
-
-.ui.container.LandingPageGatewayCoreContentContainer p.LandingPageGatewaySubtitle {
-  font-size: 21px;
-  line-height: 1.6;
-  font-weight: 400;
-  color: #FFFFFF;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 2px 2px 4px #000000;
 }
