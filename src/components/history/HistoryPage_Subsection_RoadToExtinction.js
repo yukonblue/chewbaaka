@@ -40,7 +40,7 @@ import LineBreak from '../shared/LineBreak'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
-import image_Cheetah_Evolution_and_Extinction_Scale from './assets/Cheetah_Evolution_and_Extinction_Scale.png'
+import image_Cheetah_Evolution_and_Extinction_Scale from './assets/Cheetah_Evolution_and_Extinction_Scale-min.png'
 
 import cheetah_range_map_01 from './assets/cheetah-range-map-01-min.png'
 import cheetah_range_map_02 from './assets/cheetah-range-map-02-min.png'
