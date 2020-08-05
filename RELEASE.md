@@ -3,6 +3,9 @@
 ## Version 0.1.8
 
 * Date: August 04, 2020
+* Commit: `08ad5ed`
+* Tag: `v0.1.8`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.1.8)
 * Changelog:
   * [Fix] Fix home page layout issues on mobile (Issue #103)
 
