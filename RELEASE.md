@@ -1,5 +1,11 @@
 # Release Note
 
+## Version 0.1.8
+
+* Date: August 04, 2020
+* Changelog:
+  * [Fix] Fix home page layout issues on mobile (Issue #103)
+
 ## Version 0.1.7
 
 * Date: August 04, 2020
