@@ -398,7 +398,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                             >
                               <img
                                 className="ui image"
-                                src="Spoor_Track_Cheetah.jpg"
+                                src="Spoor_Track_Cheetah-min.jpg"
                               />
                             </div>
                           </div>
@@ -460,7 +460,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                             >
                               <img
                                 className="ui image"
-                                src="Spoor_Track_Leopard.jpg"
+                                src="Spoor_Track_Leopard-min.jpg"
                               />
                             </div>
                           </div>
@@ -522,7 +522,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                             >
                               <img
                                 className="ui image"
-                                src="Spoor_Track_Lion.jpg"
+                                src="Spoor_Track_Lion-min.jpg"
                               />
                             </div>
                           </div>
@@ -584,7 +584,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                             >
                               <img
                                 className="ui image"
-                                src="Spoor_Track_Spotted_Hyena.jpg"
+                                src="Spoor_Track_Spotted_Hyena-min.jpg"
                               />
                             </div>
                           </div>
@@ -646,7 +646,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                             >
                               <img
                                 className="ui image"
-                                src="Spoor_Track_Wild_Dog.jpg"
+                                src="Spoor_Track_Wild_Dog-min.jpg"
                               />
                             </div>
                           </div>
