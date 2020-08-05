@@ -43,12 +43,12 @@ import image_borneo_bay_cat from './assets/felidae/baycat/felidae_borneo_bay_cat
 import image_marbled_cat from './assets/felidae/baycat/felidae_marbled_cat_Pardofelis_marmorata_240x240-min.jpg'
 
 /** Leopard Cat lineage */
-import image_fishing_cat from './assets/felidae/leopardcat/felidae_fishing_cat_Prionailurus_viverrinus_240x240.jpg'
-import image_mainland_leopard_cat from './assets/felidae/leopardcat/felidae_mainland_leopard_cat_Prionailurus_bengalensis_240x240.jpg'
-import image_sunda_leopard_cat from './assets/felidae/leopardcat/felidae_sunda_leopard_cat_Prionailurus_javanensis_240x240.jpg'
-import image_flat_headed_cat from './assets/felidae/leopardcat/felidae_flat_headed_cat_Prionailurus_planiceps_240x240.jpg'
-import image_rusty_spotted_cat from './assets/felidae/leopardcat/felidae_rusty_spotted_cat_Prionailurus_rubiginosus_240x240.jpg'
-import image_pallas_cat from './assets/felidae/leopardcat/felidae_pallas_cat_Otocolobus_manul_240x240.jpg'
+import image_fishing_cat from './assets/felidae/leopardcat/felidae_fishing_cat_Prionailurus_viverrinus_240x240-min.jpg'
+import image_mainland_leopard_cat from './assets/felidae/leopardcat/felidae_mainland_leopard_cat_Prionailurus_bengalensis_240x240-min.jpg'
+import image_sunda_leopard_cat from './assets/felidae/leopardcat/felidae_sunda_leopard_cat_Prionailurus_javanensis_240x240-min.jpg'
+import image_flat_headed_cat from './assets/felidae/leopardcat/felidae_flat_headed_cat_Prionailurus_planiceps_240x240-min.jpg'
+import image_rusty_spotted_cat from './assets/felidae/leopardcat/felidae_rusty_spotted_cat_Prionailurus_rubiginosus_240x240-min.jpg'
+import image_pallas_cat from './assets/felidae/leopardcat/felidae_pallas_cat_Otocolobus_manul_240x240-min.jpg'
 
 /** Felis lineage */
 import image_jungle_cat from './assets/felidae/felis/felidae_jungle_cat_Felis_chaus_240x240-min.jpg'
