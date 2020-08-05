@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 01, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -23,8 +23,8 @@ import {
 
 import ImageSlidingGallery from '../shared/ImageSlidingGallery'
 
-import image_Mafdet from './assets/image_Mafdet.jpg'
-import image_Egyptian_chariot from './assets/image_Egyptian_chariot.jpg'
+import image_Mafdet from './assets/image_Mafdet-min.jpg'
+import image_Egyptian_chariot from './assets/image_Egyptian_chariot-min.jpg'
 
 export default class HistoryPageSubsectionCheetahAndManImage extends React.Component {
 

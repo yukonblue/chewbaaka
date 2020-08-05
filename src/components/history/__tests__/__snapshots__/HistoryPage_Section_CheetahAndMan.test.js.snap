@@ -126,7 +126,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                               <img
                                 alt="Mafdet’s head on the bed where the mummy is placed."
                                 className="ImageSlidingGalleryImgPart"
-                                src="image_Mafdet.jpg"
+                                src="image_Mafdet-min.jpg"
                               />
                               <div
                                 className="ImageSlidingGalleryCaptionPart"
