@@ -19,7 +19,7 @@ exports[`ExploreGatewayGrid component snapshot 1`] = `
         <img
           className="ui medium image ExploreGatewayGridItemImage"
           data-testid="ExploreGatewayGridItemImageTestId"
-          src="explore_gateway_grid_item_img_01.jpg"
+          src="explore_gateway_grid_item_img_01-min.jpg"
         />
       </a>
     </div>
@@ -43,7 +43,7 @@ exports[`ExploreGatewayGrid component snapshot 1`] = `
         <img
           className="ui medium image ExploreGatewayGridItemImage"
           data-testid="ExploreGatewayGridItemImageTestId"
-          src="explore_gateway_grid_item_img_02.jpg"
+          src="explore_gateway_grid_item_img_02-min.jpg"
         />
       </a>
     </div>
@@ -67,7 +67,7 @@ exports[`ExploreGatewayGrid component snapshot 1`] = `
         <img
           className="ui medium image ExploreGatewayGridItemImage"
           data-testid="ExploreGatewayGridItemImageTestId"
-          src="explore_gateway_grid_item_img_03.jpg"
+          src="explore_gateway_grid_item_img_03-min.jpg"
         />
       </a>
     </div>
@@ -91,7 +91,7 @@ exports[`ExploreGatewayGrid component snapshot 1`] = `
         <img
           className="ui medium image ExploreGatewayGridItemImage"
           data-testid="ExploreGatewayGridItemImageTestId"
-          src="explore_gateway_grid_item_img_04.jpg"
+          src="explore_gateway_grid_item_img_04-min.jpg"
         />
       </a>
     </div>

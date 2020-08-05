@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 28, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -15,10 +15,10 @@ import 'semantic-ui-css/semantic.min.css'
 
 import ExploreGatewayGridItem from './ExploreGatewayGridItem'
 
-import explore_gateway_grid_item_img_01 from './assets/explore_gateway_grid_item_img_01.jpg'
-import explore_gateway_grid_item_img_02 from './assets/explore_gateway_grid_item_img_02.jpg'
-import explore_gateway_grid_item_img_03 from './assets/explore_gateway_grid_item_img_03.jpg'
-import explore_gateway_grid_item_img_04 from './assets/explore_gateway_grid_item_img_04.jpg'
+import explore_gateway_grid_item_img_01 from './assets/explore_gateway_grid_item_img_01-min.jpg'
+import explore_gateway_grid_item_img_02 from './assets/explore_gateway_grid_item_img_02-min.jpg'
+import explore_gateway_grid_item_img_03 from './assets/explore_gateway_grid_item_img_03-min.jpg'
+import explore_gateway_grid_item_img_04 from './assets/explore_gateway_grid_item_img_04-min.jpg'
 
 export default function ExploreGatewayGrid() {
   return (

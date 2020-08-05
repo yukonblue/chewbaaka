@@ -77,6 +77,31 @@ Simply go to [http://localhost:3000](http://localhost:3000) in the
 web browser to view the rendered site. Any changes in source code that
 result in successful builds will automatically be reflected in the browser.
 
+#### Production build
+
+There are occasions when it is necessary to test the production build locally.
+To build a production build, run
+
+```
+npm run build
+```
+
+Once the build finishes successfully, follow the message prompted
+in the terminal:
+
+```
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  serve -s build
+
+Find out more about deployment here:
+
+  bit.ly/CRA-deploy
+```
+
 ### Test
 
 Writing and exercising unit tests frequently is a good practice
@@ -122,6 +147,10 @@ Useful links:
 - [Sitemaps XML format | sitemaps.org](https://www.sitemaps.org/protocol.html)
 - [Robots.txt Specifications | Google Developers](https://developers.google.com/search/reference/robots_txt)
 - [Cache-Control - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control)
+
+Links to online utilities:
+
+- [TinyJPG - Compress JPEG images intelligently](https://tinyjpg.com/)
 
 Resources on SEO:
 

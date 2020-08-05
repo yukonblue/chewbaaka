@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 04, 2020
+ * Updated  : Aug 05, 2020
  */
 
 .ui.vertical.center.aligned.segment.LandingPageGatewayOuterContainer {
@@ -14,19 +14,19 @@
 }
 
 .ui.vertical.segment.LandingPageGatewayBackgroundStyle1 {
-  background-image: url('./assets/background_CCF_01.jpg');
+  background-image: url('./assets/background_CCF_01-min.jpg');
 }
 
 .ui.vertical.segment.LandingPageGatewayBackgroundStyle2 {
-  background-image: url('./assets/background_CCF_02.jpg');
+  background-image: url('./assets/background_CCF_02-min.jpg');
 }
 
 .ui.vertical.segment.LandingPageGatewayBackgroundStyle3 {
-  background-image: url('./assets/background_CCF_03.jpg');
+  background-image: url('./assets/background_CCF_03-min.jpg');
 }
 
 .ui.vertical.segment.LandingPageGatewayBackgroundStyle4 {
-  background-image: url('./assets/background_CCF_04.jpg');
+  background-image: url('./assets/background_CCF_04-min.jpg');
 }
 
 .ui.container.LandingPageGatewayCoreContentContainer {

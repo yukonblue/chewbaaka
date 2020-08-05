@@ -15,7 +15,7 @@ exports[`ExploreGateway component snapshot 1`] = `
       <img
         alt="CCF Cheetah Museum"
         className="ExploreGatewayIntroCCFCheetahMuseumImage"
-        src="CCF_Cheetah_Museum.jpg"
+        src="CCF_Cheetah_Museum-min.jpg"
       />
     </div>
     <div
@@ -111,7 +111,7 @@ exports[`ExploreGateway component snapshot 1`] = `
           <img
             className="ui medium image ExploreGatewayGridItemImage"
             data-testid="ExploreGatewayGridItemImageTestId"
-            src="explore_gateway_grid_item_img_01.jpg"
+            src="explore_gateway_grid_item_img_01-min.jpg"
           />
         </a>
       </div>
@@ -135,7 +135,7 @@ exports[`ExploreGateway component snapshot 1`] = `
           <img
             className="ui medium image ExploreGatewayGridItemImage"
             data-testid="ExploreGatewayGridItemImageTestId"
-            src="explore_gateway_grid_item_img_02.jpg"
+            src="explore_gateway_grid_item_img_02-min.jpg"
           />
         </a>
       </div>
@@ -159,7 +159,7 @@ exports[`ExploreGateway component snapshot 1`] = `
           <img
             className="ui medium image ExploreGatewayGridItemImage"
             data-testid="ExploreGatewayGridItemImageTestId"
-            src="explore_gateway_grid_item_img_03.jpg"
+            src="explore_gateway_grid_item_img_03-min.jpg"
           />
         </a>
       </div>
@@ -183,7 +183,7 @@ exports[`ExploreGateway component snapshot 1`] = `
           <img
             className="ui medium image ExploreGatewayGridItemImage"
             data-testid="ExploreGatewayGridItemImageTestId"
-            src="explore_gateway_grid_item_img_04.jpg"
+            src="explore_gateway_grid_item_img_04-min.jpg"
           />
         </a>
       </div>
