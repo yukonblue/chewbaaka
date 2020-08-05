@@ -64,14 +64,14 @@ import image_serval from './assets/felidae/caracal/felidae_serval_Leptailurus_se
 import image_african_golden_cat from './assets/felidae/caracal/felidae_african_golden_cat_Caracal_aurata_240x240-min.jpg'
 
 /** Leopardus lineage */
-import image_ocelot from './assets/felidae/leopardus/felidae_ocelot_Leopardus_pardalis_240x240.jpg'
-import image_geoffroys_cat from './assets/felidae/leopardus/felidae_geoffroys_cat_Leopardus_geoffroyi_240x240.jpg'
-import image_andean_cat from './assets/felidae/leopardus/felidae_andean_cat_Leopardus_jacobita_240x240.jpg'
-import image_maygay from './assets/felidae/leopardus/felidae_margay_Leopardus_wiedii_240x240.jpg'
-import image_pampas_cat from './assets/felidae/leopardus/felidae_pampas_cat_Leopardus_colocola_240x240.jpg'
-import image_oncilla from './assets/felidae/leopardus/felidae_oncilla_Leopardus_tigrinus_240x240.jpg'
-import image_southern_tiger_cat from './assets/felidae/leopardus/felidae_southern_tiger_cat_Leopardus_guttulus_240x240.jpg'
-import image_guina from './assets/felidae/leopardus/felidae_guina_Leopardus_guigna_240x240.jpg'
+import image_ocelot from './assets/felidae/leopardus/felidae_ocelot_Leopardus_pardalis_240x240-min.jpg'
+import image_geoffroys_cat from './assets/felidae/leopardus/felidae_geoffroys_cat_Leopardus_geoffroyi_240x240-min.jpg'
+import image_andean_cat from './assets/felidae/leopardus/felidae_andean_cat_Leopardus_jacobita_240x240-min.jpg'
+import image_maygay from './assets/felidae/leopardus/felidae_margay_Leopardus_wiedii_240x240-min.jpg'
+import image_pampas_cat from './assets/felidae/leopardus/felidae_pampas_cat_Leopardus_colocola_240x240-min.jpg'
+import image_oncilla from './assets/felidae/leopardus/felidae_oncilla_Leopardus_tigrinus_240x240-min.jpg'
+import image_southern_tiger_cat from './assets/felidae/leopardus/felidae_southern_tiger_cat_Leopardus_guttulus_240x240-min.jpg'
+import image_guina from './assets/felidae/leopardus/felidae_guina_Leopardus_guigna_240x240-min.jpg'
 
 const contentColorLynx = [29,88,182];
 const contentColorPanthera = [248,180,14];
