@@ -1,5 +1,14 @@
 # Release Note
 
+## Version 0.1.7
+
+* Date: August 04, 2020
+* Changelog:
+  * [Tool] Introduced `health_check.py`.
+  * [Content] Update HTML title and description meta in `index.html`.
+  * [Content] Update main title and subtitle text in `LandingPageGateway` component.
+  * [Style] Update landing page subtitle element to be h2 header.
+
 ## Version 0.1.6
 
 * Date: August 03, 2020
