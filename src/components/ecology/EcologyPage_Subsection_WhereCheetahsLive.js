@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 31, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -32,20 +32,20 @@ import ImageViewModal from '../shared/ImageViewModal'
 
 import NamibianBiomes from './NamibianBiomes'
 
-import image_savanna from './assets/savanna.jpg'
+import image_savanna from './assets/savanna-min.jpg'
 
-import image_banner_fact_What_is_Habitat from './assets/What_is_Habitat.png'
+import image_banner_fact_What_is_Habitat from './assets/What_is_Habitat-min.png'
 
-import image_savana_bg_large from './assets/savana_bg_large.jpg'
+import image_savana_bg_large from './assets/savana_bg_large-min.jpg'
 
-import image_Namibia_Biomes_and_Cheetah_Ranges_Map from './assets/Namibia_Biomes_and_Cheetah_Ranges_Map.jpg'
+import image_Namibia_Biomes_and_Cheetah_Ranges_Map from './assets/Namibia_Biomes_and_Cheetah_Ranges_Map-min.jpg'
 
-import image_banner_fact_What_is_Biome from './assets/What_is_Biome.png'
+import image_banner_fact_What_is_Biome from './assets/What_is_Biome-min.png'
 
-import image_namibia_landscape_01 from './assets/namibia_landscape_01.jpg'
-import image_namibia_landscape_02 from './assets/namibia_landscape_02.jpg'
-import image_namibia_landscape_03 from './assets/namibia_landscape_03.jpg'
-import image_namibia_landscape_04 from './assets/namibia_landscape_04.jpg'
+import image_namibia_landscape_01 from './assets/namibia_landscape_01-min.jpg'
+import image_namibia_landscape_02 from './assets/namibia_landscape_02-min.jpg'
+import image_namibia_landscape_03 from './assets/namibia_landscape_03-min.jpg'
+import image_namibia_landscape_04 from './assets/namibia_landscape_04-min.jpg'
 
 export default class EcologyPageSubsectionWhereCheetahsLive extends React.Component {
 

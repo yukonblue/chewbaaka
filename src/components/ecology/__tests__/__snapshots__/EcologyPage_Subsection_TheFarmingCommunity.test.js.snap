@@ -63,7 +63,7 @@ exports[`EcologyPageSubsectionTheFarmingCommunity component snapshot 1`] = `
                   <img
                     alt="Cheetah Conservation Fund works with communal farmers and people living around the Greater Waterberg Landscape Conservancy. (Image credit: Cheetah Conservation Fund)"
                     className="ImageViewImg"
-                    src="CCF_GWL_map.jpg"
+                    src="CCF_GWL_map-min.jpg"
                     style={
                       Object {
                         "width": 600,

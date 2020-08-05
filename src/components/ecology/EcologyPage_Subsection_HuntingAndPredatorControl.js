@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 31, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -23,9 +23,9 @@ import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtit
 
 import TextBubble from '../shared/TextBubble'
 
-import image_What_is_a_Problem_Animal from './assets/What_is_a_Problem_Animal.png'
+import image_What_is_a_Problem_Animal from './assets/What_is_a_Problem_Animal-min.png'
 
-import image_What_is_Sustainable_Utilization from './assets/What_is_Sustainable_Utilization.png'
+import image_What_is_Sustainable_Utilization from './assets/What_is_Sustainable_Utilization-min.png'
 
 export default class EcologyPageSubsectionHuntingAndPredatorControl extends React.Component {
 

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -23,10 +23,10 @@ import ImageSlidingGalleryDiscrete from '../shared/ImageSlidingGalleryDiscrete'
 
 import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
-import image_Spoor_Tracking_Data_Collection from './assets/Spoor_Tracking_Data_Collection.jpg'
-import image_cheetah_collaring from './assets/cheetah_collaring.jpg'
-import image_cheetah_satellite_tracking from './assets/cheetah_satellite_tracking.jpg'
-import image_camera_trap_locations_in_Waterberg_Conservancy from './assets/camera_trap_locations_in_Waterberg_Conservancy.jpg'
+import image_Spoor_Tracking_Data_Collection from './assets/Spoor_Tracking_Data_Collection-min.jpg'
+import image_cheetah_collaring from './assets/cheetah_collaring-min.jpg'
+import image_cheetah_satellite_tracking from './assets/cheetah_satellite_tracking-min.jpg'
+import image_camera_trap_locations_in_Waterberg_Conservancy from './assets/camera_trap_locations_in_Waterberg_Conservancy-min.jpg'
 
 export default class EcologyPageSubsectionUnderstandingAnimalMovement extends React.Component {
 

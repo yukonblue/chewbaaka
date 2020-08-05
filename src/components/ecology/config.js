@@ -4,26 +4,26 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Aug 01, 2020
+ * Updated  : Aug 05, 2020
  */
 
 export const config = {
   pageProps: {
-    coverImage: "Ecology_Page_Cover_Image.jpg",
+    coverImage: "Ecology_Page_Cover_Image-min.jpg",
     title: "Ecology",
     subtitle: "Learn about the habitats and ecosystems that cheetahs live in, and their relationships with other species in the ecosystem.",
     pageMenuItems: [
       {
         title: "Ecosystem and Habitat",
-        tocImageFilename: "ecology_page_toc_menu_img_01.jpg"
+        tocImageFilename: "ecology_page_toc_menu_img_01-min.jpg"
       },
       {
         title: "Eco-management",
-        tocImageFilename: "ecology_page_toc_menu_img_02.jpg"
+        tocImageFilename: "ecology_page_toc_menu_img_02-min.jpg"
       },
       {
         title: "Research",
-        tocImageFilename: "ecology_page_toc_menu_img_03.jpg"
+        tocImageFilename: "ecology_page_toc_menu_img_03-min.jpg"
       },
     ],
     pageTailNavMenu: {
@@ -45,7 +45,7 @@ export const config = {
             "in educating people to make more sustainable utilizations of the land and its resources, and preserve the richness " +
             "in biodiversity and land fertility for future generations.",
     image: {
-      filename: "Ecology_Page_Intro_Section_Background.png",
+      filename: "Ecology_Page_Intro_Section_Background-min.png",
       offset: {
         top: -45
       }

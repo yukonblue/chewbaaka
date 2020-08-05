@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -13,11 +13,11 @@ import ContentPageCaptionLabel from '../shared/ContentPageCaptionLabel'
 
 import ImageSlideModal from '../shared/ImageSlideModal'
 
-import image_biome_savanna from './assets/biome_savanna.jpg'
-import image_biome_succulent_karro from './assets/biome_succulent_karro_biome.jpg'
-import image_biome_nama_karoo from './assets/biome_nama_karoo.jpg'
-import image_biome_namib_desert from './assets/biome_namib_desert.jpg'
-import image_biome_lakes_and_salt_pans from './assets/biome_lakes_and_salt_pans.jpg'
+import image_biome_savanna from './assets/biome_savanna-min.jpg'
+import image_biome_succulent_karro from './assets/biome_succulent_karro_biome-min.jpg'
+import image_biome_nama_karoo from './assets/biome_nama_karoo-min.jpg'
+import image_biome_namib_desert from './assets/biome_namib_desert-min.jpg'
+import image_biome_lakes_and_salt_pans from './assets/biome_lakes_and_salt_pans-min.jpg'
 
 export default function NamibianBiomes(props) {
   const content = props.part.content;
