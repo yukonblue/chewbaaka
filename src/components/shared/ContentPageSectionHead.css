@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 28, 2020
+ * Updated  : Aug 05, 2020
  */
 
 div.ContentPageSectionHeadOuterContainer {
@@ -30,7 +30,7 @@ div.ContentPageSectionHeadTitleContainer_DebugColor {
 h2.ContentPageSectionHeadTitle {
   font-size: 48px;
   line-height: 1.6;
-  background-image: url("./assets/section_header_banner_bg_01.png");
+  background-image: url("./assets/section_header_banner_bg_01-min.png");
   background-repeat: no-repeat;
   background-position: right center;
 }
