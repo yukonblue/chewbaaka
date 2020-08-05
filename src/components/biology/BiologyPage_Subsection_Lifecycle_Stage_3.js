@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 27, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -19,7 +19,7 @@ import {
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
-import image_fact_banner_what_is_diurnal from './assets/What_is_Diurnal.png'
+import image_fact_banner_what_is_diurnal from './assets/What_is_Diurnal-min.png'
 
 export default class BiologyPageSubsectionLifecycleStage3 extends React.Component {
 

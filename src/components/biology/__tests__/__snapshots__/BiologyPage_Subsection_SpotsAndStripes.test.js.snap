@@ -42,7 +42,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
           <img
             alt="What is camouflage?"
             className="FactBannerMediumDimension"
-            src="What_is_Camouflage.png"
+            src="What_is_Camouflage-min.png"
           />
         </div>
       </div>
