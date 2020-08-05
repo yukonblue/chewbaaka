@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 21, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -20,8 +20,8 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
-import image_goat_clipart from './assets/goat_clipart.png'
-import image_cattle_clipart from './assets/cattle_clipart.png'
+import image_goat_clipart from './assets/goat_clipart-min.png'
+import image_cattle_clipart from './assets/cattle_clipart-min.png'
 
 import './EcologyPage_Subsection_CheetahFriendlyFarming.css'
 

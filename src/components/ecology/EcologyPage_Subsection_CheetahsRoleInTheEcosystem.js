@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -23,10 +23,10 @@ import {
 
 import ImageView from '../shared/ImageView'
 
-import image_savanna_food_web from './assets/savanna_food_web.jpg'
+import image_savanna_food_web from './assets/savanna_food_web-min.jpg'
 
-import image_cheetah_hyena_competition from './assets/cheetah_hyena_competition.jpg'
-import image_cheetah_lion_competition from './assets/cheetah_lion_competition.jpg'
+import image_cheetah_hyena_competition from './assets/cheetah_hyena_competition-min.jpg'
+import image_cheetah_lion_competition from './assets/cheetah_lion_competition-min.jpg'
 
 export default class EcologyPageSubsectionCheetahsRoleInTheEcosystem extends React.Component {
 

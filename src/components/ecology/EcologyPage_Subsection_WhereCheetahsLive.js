@@ -32,13 +32,13 @@ import ImageViewModal from '../shared/ImageViewModal'
 
 import NamibianBiomes from './NamibianBiomes'
 
-import image_savanna from './assets/savanna.jpg'
+import image_savanna from './assets/savanna-min.jpg'
 
 import image_banner_fact_What_is_Habitat from './assets/What_is_Habitat-min.png'
 
 import image_savana_bg_large from './assets/savana_bg_large.jpg'
 
-import image_Namibia_Biomes_and_Cheetah_Ranges_Map from './assets/Namibia_Biomes_and_Cheetah_Ranges_Map.jpg'
+import image_Namibia_Biomes_and_Cheetah_Ranges_Map from './assets/Namibia_Biomes_and_Cheetah_Ranges_Map-min.jpg'
 
 import image_banner_fact_What_is_Biome from './assets/What_is_Biome-min.png'
 

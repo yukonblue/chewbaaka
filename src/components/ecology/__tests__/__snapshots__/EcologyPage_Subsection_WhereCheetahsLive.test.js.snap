@@ -44,7 +44,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                   <img
                     alt="African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlifes."
                     className="ImageViewImg"
-                    src="savanna.jpg"
+                    src="savanna-min.jpg"
                     style={
                       Object {
                         "width": 598,
@@ -215,7 +215,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                   <img
                     alt="Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on."
                     className="ImageViewImg"
-                    src="Namibia_Biomes_and_Cheetah_Ranges_Map.jpg"
+                    src="Namibia_Biomes_and_Cheetah_Ranges_Map-min.jpg"
                     style={
                       Object {
                         "width": 1200,

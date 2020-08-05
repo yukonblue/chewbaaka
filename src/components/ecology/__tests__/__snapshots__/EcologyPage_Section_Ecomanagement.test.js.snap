@@ -284,7 +284,7 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                         <img
                           alt="Cheetah Conservation Fund works with communal farmers and people living around the Greater Waterberg Landscape Conservancy. (Image credit: Cheetah Conservation Fund)"
                           className="ImageViewImg"
-                          src="CCF_GWL_map.jpg"
+                          src="CCF_GWL_map-min.jpg"
                           style={
                             Object {
                               "width": 600,
@@ -461,13 +461,13 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                           <img
                             alt="sheep"
                             className="FlexClipartSheep"
-                            src="goat_clipart.png"
+                            src="goat_clipart-min.png"
                             width={160}
                           />
                           <img
                             alt="cattle"
                             className="FlexClipartCattle"
-                            src="cattle_clipart.png"
+                            src="cattle_clipart-min.png"
                             width={160}
                           />
                           <div>
@@ -636,7 +636,7 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                           <img
                             alt="Thickened thorn bush degrades entire habitat and poses problems for all species of animals in that habitat. (Image credit: Cheetah Conservation Fund)"
                             className="ImageViewImg"
-                            src="bush_encroachment.jpg"
+                            src="bush_encroachment-min.jpg"
                             style={
                               Object {
                                 "width": 600,
@@ -752,7 +752,7 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                           <img
                             alt="Cheetahs faced even more hardship in bush encroached territories. They have to adapt in every aspect of their life, such as hunting."
                             className="ImageViewImg"
-                            src="Cheetah_Battle_Bush_Encroachment.jpg"
+                            src="Cheetah_Battle_Bush_Encroachment-min.jpg"
                             style={
                               Object {
                                 "width": 640,
@@ -828,7 +828,7 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                   >
                     <img
                       alt="FSC logo"
-                      src="fsc_logo.png"
+                      src="fsc_logo-min.png"
                     />
                   </div>
                   <div
@@ -863,7 +863,7 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                   >
                     <img
                       alt="CCF Bushblok"
-                      src="CCF_Bushblok_Logo.jpg"
+                      src="CCF_Bushblok_Logo-min.jpg"
                     />
                   </div>
                   <div
@@ -940,7 +940,7 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                             <img
                               alt="Bushblok is produced at CCF from the waste product of habitat restoration. (Image credit: Cheetah Conservation Fund)"
                               className="ImageViewImg"
-                              src="CCF_Bushblok_01.jpg"
+                              src="CCF_Bushblok_01-min.jpg"
                               style={
                                 Object {
                                   "width": 640,
@@ -1002,7 +1002,7 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                             <img
                               alt="Bushblok packaging for different markets. (Image credit: Cheetah Conservation Fund)"
                               className="ImageViewImg"
-                              src="CCF_Bushblok_02.jpg"
+                              src="CCF_Bushblok_02-min.jpg"
                               style={
                                 Object {
                                   "width": 640,

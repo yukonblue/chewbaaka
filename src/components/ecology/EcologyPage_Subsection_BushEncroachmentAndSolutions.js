@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -27,13 +27,13 @@ import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
 import ImageView from '../shared/ImageView'
 
-import image_bush_encroachment from './assets/bush_encroachment.jpg'
-import image_Cheetah_Battle_Bush_Encroachment from './assets/Cheetah_Battle_Bush_Encroachment.jpg'
-import image_fsc_logo from './assets/fsc_logo.png'
-import image_CCF_Bushblok_Logo from './assets/CCF_Bushblok_Logo.jpg'
+import image_bush_encroachment from './assets/bush_encroachment-min.jpg'
+import image_Cheetah_Battle_Bush_Encroachment from './assets/Cheetah_Battle_Bush_Encroachment-min.jpg'
+import image_fsc_logo from './assets/fsc_logo-min.png'
+import image_CCF_Bushblok_Logo from './assets/CCF_Bushblok_Logo-min.jpg'
 
-import image_CCF_Bushblok_01 from './assets/CCF_Bushblok_01.jpg'
-import image_CCF_Bushblok_02 from './assets/CCF_Bushblok_02.jpg'
+import image_CCF_Bushblok_01 from './assets/CCF_Bushblok_01-min.jpg'
+import image_CCF_Bushblok_02 from './assets/CCF_Bushblok_02-min.jpg'
 
 export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends React.Component {
 

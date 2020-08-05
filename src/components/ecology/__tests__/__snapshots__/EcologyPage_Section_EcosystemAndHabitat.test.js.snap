@@ -94,7 +94,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                         <img
                           alt="African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlifes."
                           className="ImageViewImg"
-                          src="savanna.jpg"
+                          src="savanna-min.jpg"
                           style={
                             Object {
                               "width": 598,
@@ -265,7 +265,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                         <img
                           alt="Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on."
                           className="ImageViewImg"
-                          src="Namibia_Biomes_and_Cheetah_Ranges_Map.jpg"
+                          src="Namibia_Biomes_and_Cheetah_Ranges_Map-min.jpg"
                           style={
                             Object {
                               "width": 1200,
@@ -572,7 +572,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
               >
                 <img
                   alt="Cheetah and lion have drastically different preys, hunting strategies, and success rates."
-                  src="Cheetah_Lion_Hunting_Success_Rate_Comparsion.png"
+                  src="Cheetah_Lion_Hunting_Success_Rate_Comparsion-min.png"
                 />
               </div>
             </div>
@@ -611,7 +611,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                             <img
                               alt="Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest."
                               className="ImageViewImg"
-                              src="cheetah_coalition_hunting.jpg"
+                              src="cheetah_coalition_hunting-min.jpg"
                               style={
                                 Object {
                                   "width": 640,
@@ -673,7 +673,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                             <img
                               alt="One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch."
                               className="ImageViewImg"
-                              src="cheetah_go_after_gazelle.jpg"
+                              src="cheetah_go_after_gazelle-min.jpg"
                               style={
                                 Object {
                                   "width": 640,
@@ -762,7 +762,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                         <img
                           alt="A simplified illustration of the food web of a savanna ecosystem."
                           className="ImageViewImg"
-                          src="savanna_food_web.jpg"
+                          src="savanna_food_web-min.jpg"
                           style={
                             Object {
                               "width": 640,
@@ -867,7 +867,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                             <img
                               alt="Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains."
                               className="ImageViewImg"
-                              src="cheetah_hyena_competition.jpg"
+                              src="cheetah_hyena_competition-min.jpg"
                               style={
                                 Object {
                                   "width": 640,
@@ -929,7 +929,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                             <img
                               alt="Lions will often take over the cheetah's prey easily as they are superior in strength."
                               className="ImageViewImg"
-                              src="cheetah_lion_competition.jpg"
+                              src="cheetah_lion_competition-min.jpg"
                               style={
                                 Object {
                                   "width": 480,

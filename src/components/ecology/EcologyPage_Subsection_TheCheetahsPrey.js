@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -21,10 +21,10 @@ import {
 
 import TextBubble from '../shared/TextBubble'
 
-import image_cheetah_coalition_hunting from './assets/cheetah_coalition_hunting.jpg'
-import image_cheetah_go_after_gazelle from './assets/cheetah_go_after_gazelle.jpg'
+import image_cheetah_coalition_hunting from './assets/cheetah_coalition_hunting-min.jpg'
+import image_cheetah_go_after_gazelle from './assets/cheetah_go_after_gazelle-min.jpg'
 
-import image_Cheetah_Lion_Hunting_Success_Rate_Comparsion from './assets/Cheetah_Lion_Hunting_Success_Rate_Comparsion.png'
+import image_Cheetah_Lion_Hunting_Success_Rate_Comparsion from './assets/Cheetah_Lion_Hunting_Success_Rate_Comparsion-min.png'
 
 export default class EcologyPageSubsectionTheCheetahsPrey extends React.Component {
 

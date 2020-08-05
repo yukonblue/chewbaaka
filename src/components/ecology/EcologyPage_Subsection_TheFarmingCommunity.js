@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -25,7 +25,7 @@ import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
 import ImageView from '../shared/ImageView'
 
-import image_CCF_GWL_map from './assets/CCF_GWL_map.jpg'
+import image_CCF_GWL_map from './assets/CCF_GWL_map-min.jpg'
 
 export default class EcologyPageSubsectionTheFarmingCommunity extends React.Component {
 
