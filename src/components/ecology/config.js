@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Aug 01, 2020
+ * Updated  : Aug 05, 2020
  */
 
 export const config = {
@@ -15,15 +15,15 @@ export const config = {
     pageMenuItems: [
       {
         title: "Ecosystem and Habitat",
-        tocImageFilename: "ecology_page_toc_menu_img_01.jpg"
+        tocImageFilename: "ecology_page_toc_menu_img_01-min.jpg"
       },
       {
         title: "Eco-management",
-        tocImageFilename: "ecology_page_toc_menu_img_02.jpg"
+        tocImageFilename: "ecology_page_toc_menu_img_02-min.jpg"
       },
       {
         title: "Research",
-        tocImageFilename: "ecology_page_toc_menu_img_03.jpg"
+        tocImageFilename: "ecology_page_toc_menu_img_03-min.jpg"
       },
     ],
     pageTailNavMenu: {
