@@ -45,7 +45,7 @@ export const config = {
             "in educating people to make more sustainable utilizations of the land and its resources, and preserve the richness " +
             "in biodiversity and land fertility for future generations.",
     image: {
-      filename: "Ecology_Page_Intro_Section_Background.png",
+      filename: "Ecology_Page_Intro_Section_Background-min.png",
       offset: {
         top: -45
       }
