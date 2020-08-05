@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Jul 31, 2020
+ * Updated  : Aug 05, 2020
  */
 
 div.ContentPageSideNavMenuOuterContainer {
@@ -34,7 +34,7 @@ span.ContentPageSideNavMenuItem:hover {
 }
 
 .ui.text.vertical.menu.ContentPageSideNavMenuInnerMenu a.item:hover {
-  background-image: url("./assets/content_page_side_nav_menu_item_background.png");
+  background-image: url("./assets/content_page_side_nav_menu_item_background-min.png");
   background-repeat: no-repeat;
   background-position: right center;
 }
