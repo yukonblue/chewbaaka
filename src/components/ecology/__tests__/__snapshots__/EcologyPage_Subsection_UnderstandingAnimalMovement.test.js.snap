@@ -159,7 +159,7 @@ exports[`EcologyPageSubsectionUnderstandingAnimalMovement component snapshot 1`]
                 <img
                   alt="Spoor tracking data collection."
                   className="ImageSlidingGalleryDiscreteImgPart"
-                  src="Spoor_Tracking_Data_Collection.jpg"
+                  src="Spoor_Tracking_Data_Collection-min.jpg"
                   style={
                     Object {
                       "height": 480,
