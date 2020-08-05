@@ -4,25 +4,25 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 12, 2020
+ * Updated  : Aug 05, 2020
  */
 
-import collage_image_01 from './assets/collage/collage_01.jpg'
-import collage_image_02 from './assets/collage/collage_02.jpg'
-import collage_image_03 from './assets/collage/collage_03.jpg'
-import collage_image_04 from './assets/collage/collage_04.jpg'
-import collage_image_05 from './assets/collage/collage_05.jpg'
-import collage_image_06 from './assets/collage/collage_06.jpg'
-import collage_image_07 from './assets/collage/collage_07.jpg'
-import collage_image_08 from './assets/collage/collage_08.jpg'
-import collage_image_09 from './assets/collage/collage_09.jpg'
-import collage_image_10 from './assets/collage/collage_10.jpg'
-import collage_image_11 from './assets/collage/collage_11.jpg'
-import collage_image_12 from './assets/collage/collage_12.jpg'
-import collage_image_13 from './assets/collage/collage_13.jpg'
-import collage_image_14 from './assets/collage/collage_14.jpg'
-import collage_image_15 from './assets/collage/collage_15.jpg'
-import collage_image_16 from './assets/collage/collage_16.jpg'
+import collage_image_01 from './assets/collage/collage_01-min.jpg'
+import collage_image_02 from './assets/collage/collage_02-min.jpg'
+import collage_image_03 from './assets/collage/collage_03-min.jpg'
+import collage_image_04 from './assets/collage/collage_04-min.jpg'
+import collage_image_05 from './assets/collage/collage_05-min.jpg'
+import collage_image_06 from './assets/collage/collage_06-min.jpg'
+import collage_image_07 from './assets/collage/collage_07-min.jpg'
+import collage_image_08 from './assets/collage/collage_08-min.jpg'
+import collage_image_09 from './assets/collage/collage_09-min.jpg'
+import collage_image_10 from './assets/collage/collage_10-min.jpg'
+import collage_image_11 from './assets/collage/collage_11-min.jpg'
+import collage_image_12 from './assets/collage/collage_12-min.jpg'
+import collage_image_13 from './assets/collage/collage_13-min.jpg'
+import collage_image_14 from './assets/collage/collage_14-min.jpg'
+import collage_image_15 from './assets/collage/collage_15-min.jpg'
+import collage_image_16 from './assets/collage/collage_16-min.jpg'
 
 export const config = {
   imageCollage: {
