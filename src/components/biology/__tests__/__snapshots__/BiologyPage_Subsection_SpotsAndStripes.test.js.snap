@@ -141,7 +141,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                   <img
                     alt="The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators."
                     className="ImageViewImg"
-                    src="cheetah_and_honey_badger.jpg"
+                    src="cheetah_and_honey_badger-min.jpg"
                     style={
                       Object {
                         "width": 720,
