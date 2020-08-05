@@ -121,9 +121,13 @@ Useful links:
 - [Learn React JS - Full Course for Beginners - Tutorial 2019 | YouTube](https://www.youtube.com/watch?v=DLX62G4lc44)
 - [Sitemaps XML format | sitemaps.org](https://www.sitemaps.org/protocol.html)
 - [Robots.txt Specifications | Google Developers](https://developers.google.com/search/reference/robots_txt)
-- [Martin Splitt - Technical SEO 101 for React Developers | React Next 2019 | YouTube](https://www.youtube.com/watch?v=3B7gBVTsEaE)
-- [Martin Splitt "Technical SEO for JavaScript developers"](https://www.youtube.com/watch?v=vjj8B4sq0UI)
 - [Cache-Control - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control)
+
+Resources on SEO:
+
+- [Martin Splitt - Technical SEO 101 for React Developers | React Next 2019 | YouTube](https://www.youtube.com/watch?v=3B7gBVTsEaE)
+- [Martin Splitt "Technical SEO for JavaScript developers" | YouTube](https://www.youtube.com/watch?v=vjj8B4sq0UI)
+- [SEO for Developers | 2020 SEO Tutorial | YouTube](https://www.youtube.com/watch?v=JSm4aQl4w_U)
 
 Documentations related to Amazon AWS:
 
