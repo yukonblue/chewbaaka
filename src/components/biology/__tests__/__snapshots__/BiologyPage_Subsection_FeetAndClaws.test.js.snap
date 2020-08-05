@@ -192,7 +192,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                   <img
                     alt="Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability."
                     className="ImageViewImg"
-                    src="Cheetah_Cat_Dog_Claws_Comparison_Inverted.png"
+                    src="Cheetah_Cat_Dog_Claws_Comparison_Inverted-min.png"
                     style={
                       Object {
                         "width": 720,
