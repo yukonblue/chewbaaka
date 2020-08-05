@@ -59,9 +59,9 @@ import image_sand_cat from './assets/felidae/felis/felidae_sand_cat_Felis_margar
 import image_black_footed_cat from './assets/felidae/felis/felidae_black_footed_cat_Felis_nigripes_240x240.jpg'
 
 /** Caracal lineage */
-import image_caracal from './assets/felidae/caracal/felidae_caracal_Caracal_caracal_240x240.jpg'
-import image_serval from './assets/felidae/caracal/felidae_serval_Leptailurus_serval_240x240.jpg'
-import image_african_golden_cat from './assets/felidae/caracal/felidae_african_golden_cat_Caracal_aurata_240x240.jpg'
+import image_caracal from './assets/felidae/caracal/felidae_caracal_Caracal_caracal_240x240-min.jpg'
+import image_serval from './assets/felidae/caracal/felidae_serval_Leptailurus_serval_240x240-min.jpg'
+import image_african_golden_cat from './assets/felidae/caracal/felidae_african_golden_cat_Caracal_aurata_240x240-min.jpg'
 
 /** Leopardus lineage */
 import image_ocelot from './assets/felidae/leopardus/felidae_ocelot_Leopardus_pardalis_240x240.jpg'
