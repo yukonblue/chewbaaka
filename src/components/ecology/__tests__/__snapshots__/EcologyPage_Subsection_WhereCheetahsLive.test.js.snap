@@ -290,7 +290,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                     onMouseLeave={[Function]}
                     style={
                       Object {
-                        "backgroundImage": "url(namibia_landscape_01.jpg)",
+                        "backgroundImage": "url(namibia_landscape_01-min.jpg)",
                         "height": 320,
                         "width": 480,
                       }
@@ -323,7 +323,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                     onMouseLeave={[Function]}
                     style={
                       Object {
-                        "backgroundImage": "url(namibia_landscape_02.jpg)",
+                        "backgroundImage": "url(namibia_landscape_02-min.jpg)",
                         "height": 320,
                         "width": 480,
                       }
@@ -368,7 +368,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                     onMouseLeave={[Function]}
                     style={
                       Object {
-                        "backgroundImage": "url(namibia_landscape_03.jpg)",
+                        "backgroundImage": "url(namibia_landscape_03-min.jpg)",
                         "height": 320,
                         "width": 480,
                       }
@@ -401,7 +401,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                     onMouseLeave={[Function]}
                     style={
                       Object {
-                        "backgroundImage": "url(namibia_landscape_04.jpg)",
+                        "backgroundImage": "url(namibia_landscape_04-min.jpg)",
                         "height": 320,
                         "width": 480,
                       }

@@ -42,10 +42,10 @@ import image_Namibia_Biomes_and_Cheetah_Ranges_Map from './assets/Namibia_Biomes
 
 import image_banner_fact_What_is_Biome from './assets/What_is_Biome-min.png'
 
-import image_namibia_landscape_01 from './assets/namibia_landscape_01.jpg'
-import image_namibia_landscape_02 from './assets/namibia_landscape_02.jpg'
-import image_namibia_landscape_03 from './assets/namibia_landscape_03.jpg'
-import image_namibia_landscape_04 from './assets/namibia_landscape_04.jpg'
+import image_namibia_landscape_01 from './assets/namibia_landscape_01-min.jpg'
+import image_namibia_landscape_02 from './assets/namibia_landscape_02-min.jpg'
+import image_namibia_landscape_03 from './assets/namibia_landscape_03-min.jpg'
+import image_namibia_landscape_04 from './assets/namibia_landscape_04-min.jpg'
 
 export default class EcologyPageSubsectionWhereCheetahsLive extends React.Component {
 
