@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Jul 31, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -25,7 +25,7 @@ import ImageView from '../shared/ImageView'
 import BigCatSpotsIllustration from './BigCatSpotsIllustration'
 
 import image_cheetah_mantle from './assets/Cheetah_Mantle.jpg'
-import image_cheetah_and_honey_badger from './assets/cheetah_and_honey_badger.jpg'
+import image_cheetah_and_honey_badger from './assets/cheetah_and_honey_badger-min.jpg'
 
 import image_What_is_Camouflage from './assets/What_is_Camouflage.png'
 
