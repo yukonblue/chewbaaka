@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 28, 2020
+ * Updated  : Aug 04, 2020
  */
 
 div.ExploreGatewayIntro {
@@ -33,10 +33,15 @@ div.ExploreGatewayIntroCenterGrid {
   margin: 20px auto;
 }
 
-div.ExploreGatewayIntroCenterGridLeftColumnStyle {
+div.ExploreGatewayIntroCenterGridLhsColumnStyle {
   display: block;
   float: right;
-  width: 500px;
+  max-width: 500px;
+  padding-right: 20px;
+}
+
+div.ExploreGatewayIntroCenterGridRhsColumnStyle {
+  max-width: 480px;
 }
 
 p.CCFMissionStatementQuote {
@@ -58,6 +63,6 @@ p.CCFMissionStatementQuote {
 
 img.ExploreGatewayIntroCCFCheetahMuseumImage {
   display: block;
-  width: 1060px;
+  max-width: 100%;
   margin: 0 auto;
 }

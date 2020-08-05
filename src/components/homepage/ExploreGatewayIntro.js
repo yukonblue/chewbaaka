@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 28, 2020
+ * Updated  : Aug 04, 2020
  */
 
 import React from 'react'
@@ -13,13 +13,15 @@ import {
   Button,
   Container,
   Header,
-  Grid,
   Segment
 } from 'semantic-ui-react'
 
-import "semantic-ui-css/semantic.min.css"
+import FluidTwoColumnContainer from '../shared/FluidTwoColumnContainer'
+
+import 'semantic-ui-css/semantic.min.css'
 
 import '../shared/ContentPageSharedStyles.css'
+
 import './ExploreGatewayIntro.css'
 
 import image_CCF_Cheetah_Museum from './assets/CCF_Cheetah_Museum.jpg'
@@ -44,16 +46,16 @@ export default function ExploreGatewayIntro() {
       </div>
 
       <div className="ExploreGatewayIntroCenterGrid VerticalCushionPadding">
-        <Grid container columns={2}>
-          <Grid.Row>
-            <Grid.Column width={8}>
-              <div className="ExploreGatewayIntroCenterGridLeftColumnStyle">
-                <p className="CCFMissionStatementQuote">
-                  “CCF is Changing the World to Save the Cheetah” - Dr. Laurie Marker
-                </p>
-              </div>
-            </Grid.Column>
-            <Grid.Column width={7}>
+        <FluidTwoColumnContainer
+          lhsColumn={
+            <div className="ExploreGatewayIntroCenterGridLhsColumnStyle">
+              <p className="CCFMissionStatementQuote">
+                “CCF is Changing the World to Save the Cheetah” - Dr. Laurie Marker
+              </p>
+            </div>
+          }
+          rhsColumn={
+            <div className="ExploreGatewayIntroCenterGridRhsColumnStyle">
               <Segment inverted>
                 <p className="JoinTheRace">
                   Join the race to <a href="https://twitter.com/search?q=%23SaveTheCheetah" target="_blank" rel="noopener noreferrer">
@@ -67,10 +69,10 @@ export default function ExploreGatewayIntro() {
                   Get Involved
                 </Button>
               </Segment>
-            </Grid.Column>
-          </Grid.Row>
-        </Grid>
+            </div>
+          }
+        />
       </div>
     </div>
-  )
+  );
 }

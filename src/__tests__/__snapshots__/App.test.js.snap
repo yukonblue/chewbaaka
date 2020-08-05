@@ -119,26 +119,26 @@ exports[`App component snapshot 1`] = `
         className="ExploreGatewayIntroCenterGrid VerticalCushionPadding"
       >
         <div
-          className="ui container two column grid"
+          className="FluidTwoColumnContainerOuterContainer"
         >
           <div
-            className="row"
+            className="FluidTwoColumnContainerColumnContainer"
           >
             <div
-              className="eight wide column"
+              className="ExploreGatewayIntroCenterGridLhsColumnStyle"
             >
-              <div
-                className="ExploreGatewayIntroCenterGridLeftColumnStyle"
+              <p
+                className="CCFMissionStatementQuote"
               >
-                <p
-                  className="CCFMissionStatementQuote"
-                >
-                  “CCF is Changing the World to Save the Cheetah” - Dr. Laurie Marker
-                </p>
-              </div>
+                “CCF is Changing the World to Save the Cheetah” - Dr. Laurie Marker
+              </p>
             </div>
+          </div>
+          <div
+            className="FluidTwoColumnContainerColumnContainer"
+          >
             <div
-              className="seven wide column"
+              className="ExploreGatewayIntroCenterGridRhsColumnStyle"
             >
               <div
                 className="ui inverted segment"
