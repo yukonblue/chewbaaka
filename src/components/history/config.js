@@ -9,7 +9,7 @@
 
 export const config = {
   pageProps: {
-    coverImage: "History_Page_Cover_Image.jpg",
+    coverImage: "History_Page_Cover_Image-min.jpg",
     title: "History",
     subtitle: "Learn about the evolution and migration of the species, its relationship with man throughout history, and its population and ranges.",
     pageMenuItems: [
