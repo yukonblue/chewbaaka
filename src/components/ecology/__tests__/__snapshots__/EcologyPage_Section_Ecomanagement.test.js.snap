@@ -97,7 +97,7 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                   <img
                     alt="What is sustainable utilization?"
                     className="FactBannerMediumDimension"
-                    src="What_is_Sustainable_Utilization.png"
+                    src="What_is_Sustainable_Utilization-min.png"
                   />
                 </div>
               </div>
@@ -215,7 +215,7 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                 <img
                   alt="What is a problem animal?"
                   className="FactBannerMediumDimension"
-                  src="What_is_a_Problem_Animal.png"
+                  src="What_is_a_Problem_Animal-min.png"
                 />
               </div>
             </div>

@@ -101,7 +101,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
         <img
           alt="What is an ecosystem"
           className="FactBannerSmallDimension VerticalCushionPadding"
-          src="What_is_Habitat.png"
+          src="What_is_Habitat-min.png"
         />
         <img
           alt="African savanna"
@@ -261,7 +261,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
           <img
             alt="What is biome?"
             className="FactBannerMediumDimension"
-            src="What_is_Biome.png"
+            src="What_is_Biome-min.png"
           />
         </div>
         <div>
