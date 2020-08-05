@@ -23,10 +23,10 @@ import image_jaguarundi from './assets/felidae/puma/felidae_jaguarundi_Herpailur
 import image_puma from './assets/felidae/puma/felidae_puma_Puma_concolor_240x240.jpg'
 
 /** Lynx lineage */
-import image_eurasian_lynx from './assets/felidae/lynx/felidae_eurasian_lynx_Lynx_lynx_240x240.jpg'
-import image_canadian_lynx from './assets/felidae/lynx/felidae_canadian_lynx_Lynx_canadensis_240x240.jpg'
-import image_iberian_lynx from './assets/felidae/lynx/felidae_iberian_lynx_Lynx_pardinus_240x240.jpg'
-import image_bobcat from './assets/felidae/lynx/felidae_bobcat_Lynx_rufus_240x240.jpg'
+import image_eurasian_lynx from './assets/felidae/lynx/felidae_eurasian_lynx_Lynx_lynx_240x240-min.jpg'
+import image_canadian_lynx from './assets/felidae/lynx/felidae_canadian_lynx_Lynx_canadensis_240x240-min.jpg'
+import image_iberian_lynx from './assets/felidae/lynx/felidae_iberian_lynx_Lynx_pardinus_240x240-min.jpg'
+import image_bobcat from './assets/felidae/lynx/felidae_bobcat_Lynx_rufus_240x240-min.jpg'
 
 /** Panthera lineage */
 import image_tiger from './assets/felidae/panthera/felidae_tiger_Panthera_tigris_240x240.jpg'
