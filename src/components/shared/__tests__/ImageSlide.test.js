@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -17,7 +17,7 @@ import ImageSlide from '../ImageSlide'
 
 import { RUN_TEST_NEVER } from '../../../testing/testing'
 
-import image01 from '../assets/cheetah-conservation-fund-logo.jpg'
+import image01 from '../assets/cheetah-conservation-fund-logo-mini-min.jpg'
 import image02 from '../assets/cheetah-conservation-fund-30-logo.svg'
 
 const title             =   "Cheetah evolution";

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 29, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -15,7 +15,7 @@ import renderer from 'react-test-renderer'
 
 import ImageViewModal from '../ImageViewModal'
 
-import image from '../assets/cheetah-conservation-fund-logo.jpg'
+import image from '../assets/cheetah-conservation-fund-logo-mini-min.jpg'
 
 test('renders ImageViewModal component', () => {
   render(

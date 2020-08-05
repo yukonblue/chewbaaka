@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -37,7 +37,7 @@ import CheetahAccelerationIllustration from '../biology/CheetahAccelerationIllus
 import ImageSlidingGalleryDiscrete from '../shared/ImageSlidingGalleryDiscrete'
 import ImageViewModal from '../shared/ImageViewModal'
 
-import image01 from './assets/cheetah-conservation-fund-logo.jpg'
+import image01 from './assets/cheetah-conservation-fund-logo-mini-min.jpg'
 import image02 from './assets/cheetah-conservation-fund-30-logo.svg'
 import image03 from './assets/cheetah-conservation-fund-30-logo.svg'
 import image04 from './assets/cheetah-conservation-fund-30-logo.svg'

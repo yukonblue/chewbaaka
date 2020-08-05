@@ -4,18 +4,18 @@
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Aug 05, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import { render, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react'
 
-import renderer from 'react-test-renderer';
+import renderer from 'react-test-renderer'
 
-import ImageReveal from '../ImageReveal';
+import ImageReveal from '../ImageReveal'
 
-import coverImage from '../assets/cheetah-conservation-fund-logo.jpg'
+import coverImage from '../assets/cheetah-conservation-fund-logo-mini-min.jpg'
 import contentImage from '../assets/cheetah-conservation-fund-30-logo.svg'
 
 test('renders ImageReveal compoent', () => {

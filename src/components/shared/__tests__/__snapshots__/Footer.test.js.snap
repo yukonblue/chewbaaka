@@ -24,7 +24,7 @@ exports[`Footer component snapshot 1`] = `
         >
           <img
             className="ui small image"
-            src="cheetah-conservation-fund-logo.jpg"
+            src="cheetah-conservation-fund-logo-mini-min.jpg"
           />
         </div>
         <div

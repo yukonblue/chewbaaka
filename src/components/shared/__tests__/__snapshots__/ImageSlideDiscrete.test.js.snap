@@ -16,7 +16,7 @@ exports[`ImageSlideDiscrete component snapshot 1`] = `
     <img
       className="ui fluid image"
       data-testid="ImageSlideDiscreteComponentImgPartTestId"
-      src="cheetah-conservation-fund-logo.jpg"
+      src="cheetah-conservation-fund-logo-mini-min.jpg"
     />
   </div>
   <div

@@ -5,7 +5,7 @@ exports[`PopUpLabelledDiagram component snapshot 1`] = `
   className="PopUpLabelledDiagramOuterComponent"
   style={
     Object {
-      "backgroundImage": "url(cheetah-conservation-fund-logo.jpg)",
+      "backgroundImage": "url(cheetah-conservation-fund-logo-mini-min.jpg)",
       "height": 1043,
       "width": 1814,
     }
