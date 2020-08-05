@@ -71,7 +71,7 @@ exports[`BiologyPageSubsectionHearAndLung component snapshot 1`] = `
                   >
                     <img
                       alt="Cheetah run illustration"
-                      src="Cheetah_Travel_480x480.png"
+                      src="Cheetah_Travel_480x480-min.png"
                       width={420}
                     />
                   </div>

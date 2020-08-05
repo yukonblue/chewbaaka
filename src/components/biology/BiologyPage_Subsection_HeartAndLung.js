@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -21,7 +21,7 @@ import {
 
 import CheetahOlympics from './CheetahOlympics'
 
-import image_Cheetah_Travel from './assets/Cheetah_Travel_480x480.png'
+import image_Cheetah_Travel from './assets/Cheetah_Travel_480x480-min.png'
 
 export default class BiologyPageSubsectionHearAndLung extends React.Component {
 
