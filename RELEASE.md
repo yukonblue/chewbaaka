@@ -3,6 +3,9 @@
 ## Version 0.1.7
 
 * Date: August 04, 2020
+* Commit: `35899c2`
+* Tag: `v0.1.7`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.1.7)
 * Changelog:
   * [Tool] Introduced `health_check.py`.
   * [Content] Update HTML title and description meta in `index.html`.
