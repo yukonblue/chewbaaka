@@ -4,26 +4,26 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Aug 01, 2020
+ * Updated  : Aug 05, 2020
  */
 
 export const config = {
   pageProps: {
-    coverImage: "Biology_Page_Cover_Image.jpg",
+    coverImage: "Biology_Page_Cover_Image-min.jpg",
     title: "Biology",
     subtitle: "Learn everything about what makes the cheetah so remarkable and unqiue.",
     pageMenuItems: [
       {
         title: "Lifecycle",
-        tocImageFilename: "biology_page_toc_menu_img_01.jpg"
+        tocImageFilename: "biology_page_toc_menu_img_01-min.jpg"
       },
       {
         title: "Physiology",
-        tocImageFilename: "biology_page_toc_menu_img_02.jpg"
+        tocImageFilename: "biology_page_toc_menu_img_02-min.jpg"
       },
       {
         title: "Genetics",
-        tocImageFilename: "biology_page_toc_menu_img_03.jpg"
+        tocImageFilename: "biology_page_toc_menu_img_03-min.jpg"
       }
     ],
     pageTailNavMenu: {
@@ -47,7 +47,7 @@ export const config = {
             "The species name, “jubatus”, means “maned”, referring to the mantle on a young cheetah’s back. " +
             "The English word, “cheetah”, comes from the Hindu word “chita” meaning the “spotted one”.",
     image: {
-      filename: "Biology_Page_Intro_Section_Background.png"
+      filename: "Biology_Page_Intro_Section_Background-min.png"
     }
   },
   contentPageSections: {

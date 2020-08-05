@@ -35,7 +35,7 @@ exports[`BiologyPage_Subsection_RipAndTear component snapshot 1`] = `
               <img
                 alt="The three types of teeth of the cheetah: the incisors, canines, and carnassial."
                 className="ImageViewImg"
-                src="cheetah_teeth.jpg"
+                src="cheetah_teeth-min.jpg"
                 style={
                   Object {
                     "width": 640,

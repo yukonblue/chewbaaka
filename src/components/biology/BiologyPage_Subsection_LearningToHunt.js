@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 18, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -22,7 +22,7 @@ import ImageView from '../shared/ImageView'
 
 import TextBubble from '../shared/TextBubble'
 
-import image_cheetah_cubs_learning_hunting from './assets/cheetah_cubs_learning_hunting.jpg'
+import image_cheetah_cubs_learning_hunting from './assets/cheetah_cubs_learning_hunting-min.jpg'
 
 export default class BiologyPageSubsectionLearningToHunt extends React.Component {
 

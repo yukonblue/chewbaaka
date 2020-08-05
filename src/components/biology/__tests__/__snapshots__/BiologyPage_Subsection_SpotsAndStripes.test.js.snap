@@ -42,7 +42,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
           <img
             alt="What is camouflage?"
             className="FactBannerMediumDimension"
-            src="What_is_Camouflage.png"
+            src="What_is_Camouflage-min.png"
           />
         </div>
       </div>
@@ -74,7 +74,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                 <img
                   alt="Mantle on cheetah cub's back provides a form of camouflage that's critical to its survival."
                   className="ImageViewImg"
-                  src="Cheetah_Mantle.jpg"
+                  src="Cheetah_Mantle-min.jpg"
                   style={
                     Object {
                       "width": 360,
@@ -141,7 +141,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                   <img
                     alt="The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators."
                     className="ImageViewImg"
-                    src="cheetah_and_honey_badger.jpg"
+                    src="cheetah_and_honey_badger-min.jpg"
                     style={
                       Object {
                         "width": 720,
@@ -232,7 +232,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                             >
                               <img
                                 className="ui image"
-                                src="pelt_spot_tiger.jpg"
+                                src="pelt_spot_tiger-min.jpg"
                               />
                             </div>
                           </div>
@@ -249,7 +249,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                             >
                               <img
                                 alt="Tiger"
-                                src="cat_thumbnail_tiger.jpg"
+                                src="cat_thumbnail_tiger-min.jpg"
                               />
                               <p
                                 className="TextRevealDetailedCaptionText"
@@ -295,7 +295,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                             >
                               <img
                                 className="ui image"
-                                src="pelt_spot_jaguar.jpg"
+                                src="pelt_spot_jaguar-min.jpg"
                               />
                             </div>
                           </div>
@@ -312,7 +312,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                             >
                               <img
                                 alt="Jaguar"
-                                src="cat_thumbnail_jaguar.jpg"
+                                src="cat_thumbnail_jaguar-min.jpg"
                               />
                               <p
                                 className="TextRevealDetailedCaptionText"
@@ -358,7 +358,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                             >
                               <img
                                 className="ui image"
-                                src="pelt_spot_cheetah.jpg"
+                                src="pelt_spot_cheetah-min.jpg"
                               />
                             </div>
                           </div>
@@ -375,7 +375,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                             >
                               <img
                                 alt="Cheetah"
-                                src="cat_thumbnail_cheetah.jpg"
+                                src="cat_thumbnail_cheetah-min.jpg"
                               />
                               <p
                                 className="TextRevealDetailedCaptionText"
@@ -421,7 +421,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                             >
                               <img
                                 className="ui image"
-                                src="pelt_spot_leopard.jpg"
+                                src="pelt_spot_leopard-min.jpg"
                               />
                             </div>
                           </div>
@@ -438,7 +438,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                             >
                               <img
                                 alt="Leopard"
-                                src="cat_thumbnail_leopard.jpg"
+                                src="cat_thumbnail_leopard-min.jpg"
                               />
                               <p
                                 className="TextRevealDetailedCaptionText"

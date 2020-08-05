@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -19,9 +19,9 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
-import image_open_wide from './assets/open_wide.jpg'
-import image_cheetah_grooming from './assets/cheetah_grooming.jpg'
-import image_cheetah_tongue from './assets/cheetah_tongue.jpg'
+import image_open_wide from './assets/open_wide-min.jpg'
+import image_cheetah_grooming from './assets/cheetah_grooming-min.jpg'
+import image_cheetah_tongue from './assets/cheetah_tongue-min.jpg'
 
 export default class BiologyPageSubsectionOpenWide extends React.Component {
 

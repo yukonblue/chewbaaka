@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Jul 31, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -18,11 +18,11 @@ import {
   getElementStyleClassNames
 } from '../../styling/styling'
 
-import image_spoor_track_cheetah from './assets/spoors/Spoor_Track_Cheetah.jpg'
-import image_spoor_track_leopard from './assets/spoors/Spoor_Track_Leopard.jpg'
-import image_spoor_track_lion from './assets/spoors/Spoor_Track_Lion.jpg'
-import image_spoor_track_spotted_hyena from './assets/spoors/Spoor_Track_Spotted_Hyena.jpg'
-import image_spoor_track_wilddog from './assets/spoors/Spoor_Track_Wild_Dog.jpg'
+import image_spoor_track_cheetah from './assets/spoors/Spoor_Track_Cheetah-min.jpg'
+import image_spoor_track_leopard from './assets/spoors/Spoor_Track_Leopard-min.jpg'
+import image_spoor_track_lion from './assets/spoors/Spoor_Track_Lion-min.jpg'
+import image_spoor_track_spotted_hyena from './assets/spoors/Spoor_Track_Spotted_Hyena-min.jpg'
+import image_spoor_track_wilddog from './assets/spoors/Spoor_Track_Wild_Dog-min.jpg'
 
 import './AfricanWildlifeTracksIllustration.css'
 

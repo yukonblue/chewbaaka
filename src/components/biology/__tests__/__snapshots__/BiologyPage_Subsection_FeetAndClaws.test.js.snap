@@ -39,7 +39,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                   <img
                     alt="The paws of the cheetah have a distinct shape compared to some of the other carnivores."
                     className="ImageViewImg"
-                    src="cheetah_paw.jpg"
+                    src="cheetah_paw-min.jpg"
                     style={
                       Object {
                         "width": 403,
@@ -192,7 +192,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                   <img
                     alt="Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability."
                     className="ImageViewImg"
-                    src="Cheetah_Cat_Dog_Claws_Comparison_Inverted.png"
+                    src="Cheetah_Cat_Dog_Claws_Comparison_Inverted-min.png"
                     style={
                       Object {
                         "width": 720,
@@ -259,7 +259,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                   <img
                     alt="Cheetah dewclaw."
                     className="ImageViewImg"
-                    src="cheetah_dewclaw.jpg"
+                    src="cheetah_dewclaw-min.jpg"
                     style={
                       Object {
                         "width": 611,
@@ -398,7 +398,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                             >
                               <img
                                 className="ui image"
-                                src="Spoor_Track_Cheetah.jpg"
+                                src="Spoor_Track_Cheetah-min.jpg"
                               />
                             </div>
                           </div>
@@ -460,7 +460,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                             >
                               <img
                                 className="ui image"
-                                src="Spoor_Track_Leopard.jpg"
+                                src="Spoor_Track_Leopard-min.jpg"
                               />
                             </div>
                           </div>
@@ -522,7 +522,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                             >
                               <img
                                 className="ui image"
-                                src="Spoor_Track_Lion.jpg"
+                                src="Spoor_Track_Lion-min.jpg"
                               />
                             </div>
                           </div>
@@ -584,7 +584,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                             >
                               <img
                                 className="ui image"
-                                src="Spoor_Track_Spotted_Hyena.jpg"
+                                src="Spoor_Track_Spotted_Hyena-min.jpg"
                               />
                             </div>
                           </div>
@@ -646,7 +646,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                             >
                               <img
                                 className="ui image"
-                                src="Spoor_Track_Wild_Dog.jpg"
+                                src="Spoor_Track_Wild_Dog-min.jpg"
                               />
                             </div>
                           </div>

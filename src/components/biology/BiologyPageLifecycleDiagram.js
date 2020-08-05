@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 27, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -15,7 +15,7 @@ import './BiologyPageLifecycleDiagram.css'
 
 import { getElementStyleClassName } from '../../styling/styling'
 
-import image_lifecycle_diagram from './assets/Lifecycle_Diagram.png'
+import image_lifecycle_diagram from './assets/Lifecycle_Diagram-min.png'
 
 export default function BiologyPageLifecycleDiagram() {
   return (

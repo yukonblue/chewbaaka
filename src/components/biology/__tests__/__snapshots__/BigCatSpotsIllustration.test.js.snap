@@ -48,7 +48,7 @@ exports[`BigCatSpotsIllustration component snapshot 1`] = `
                     >
                       <img
                         className="ui image"
-                        src="pelt_spot_tiger.jpg"
+                        src="pelt_spot_tiger-min.jpg"
                       />
                     </div>
                   </div>
@@ -65,7 +65,7 @@ exports[`BigCatSpotsIllustration component snapshot 1`] = `
                     >
                       <img
                         alt="Tiger"
-                        src="cat_thumbnail_tiger.jpg"
+                        src="cat_thumbnail_tiger-min.jpg"
                       />
                       <p
                         className="TextRevealDetailedCaptionText"
@@ -111,7 +111,7 @@ exports[`BigCatSpotsIllustration component snapshot 1`] = `
                     >
                       <img
                         className="ui image"
-                        src="pelt_spot_jaguar.jpg"
+                        src="pelt_spot_jaguar-min.jpg"
                       />
                     </div>
                   </div>
@@ -128,7 +128,7 @@ exports[`BigCatSpotsIllustration component snapshot 1`] = `
                     >
                       <img
                         alt="Jaguar"
-                        src="cat_thumbnail_jaguar.jpg"
+                        src="cat_thumbnail_jaguar-min.jpg"
                       />
                       <p
                         className="TextRevealDetailedCaptionText"
@@ -174,7 +174,7 @@ exports[`BigCatSpotsIllustration component snapshot 1`] = `
                     >
                       <img
                         className="ui image"
-                        src="pelt_spot_cheetah.jpg"
+                        src="pelt_spot_cheetah-min.jpg"
                       />
                     </div>
                   </div>
@@ -191,7 +191,7 @@ exports[`BigCatSpotsIllustration component snapshot 1`] = `
                     >
                       <img
                         alt="Cheetah"
-                        src="cat_thumbnail_cheetah.jpg"
+                        src="cat_thumbnail_cheetah-min.jpg"
                       />
                       <p
                         className="TextRevealDetailedCaptionText"
@@ -237,7 +237,7 @@ exports[`BigCatSpotsIllustration component snapshot 1`] = `
                     >
                       <img
                         className="ui image"
-                        src="pelt_spot_leopard.jpg"
+                        src="pelt_spot_leopard-min.jpg"
                       />
                     </div>
                   </div>
@@ -254,7 +254,7 @@ exports[`BigCatSpotsIllustration component snapshot 1`] = `
                     >
                       <img
                         alt="Leopard"
-                        src="cat_thumbnail_leopard.jpg"
+                        src="cat_thumbnail_leopard-min.jpg"
                       />
                       <p
                         className="TextRevealDetailedCaptionText"

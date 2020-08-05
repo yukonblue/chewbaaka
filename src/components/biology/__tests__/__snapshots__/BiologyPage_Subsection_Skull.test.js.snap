@@ -35,7 +35,7 @@ exports[`BiologyPageSubsectionSkull component snapshot 1`] = `
           className="PopUpLabelledDiagramOuterComponent"
           style={
             Object {
-              "backgroundImage": "url(cheetah_skull.jpg)",
+              "backgroundImage": "url(cheetah_skull-min.jpg)",
               "height": 573,
               "width": 900,
             }

@@ -4,14 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
 
 import PopUpLabelledDiagram from '../shared/PopUpLabelledDiagram'
 
-import image_cheetah_skull from './assets/cheetah_skull.jpg'
+import image_cheetah_skull from './assets/cheetah_skull-min.jpg'
 
 export default class CheetahSkullDiagram extends React.Component {
 

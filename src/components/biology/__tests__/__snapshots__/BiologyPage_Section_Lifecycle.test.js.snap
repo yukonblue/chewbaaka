@@ -93,7 +93,7 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
         >
           <img
             alt="lifecycle diagram"
-            src="Lifecycle_Diagram.png"
+            src="Lifecycle_Diagram-min.png"
             style={
               Object {
                 "width": 640,
@@ -136,7 +136,7 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                     <img
                       alt="Cheetah cubs are born blind, so they need their mother's care."
                       className="ImageViewImg"
-                      src="cheetah_mom_carry_cub.jpg"
+                      src="cheetah_mom_carry_cub-min.jpg"
                       style={
                         Object {
                           "width": 320,
@@ -412,7 +412,7 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                     <img
                       alt="Cheetah cubs learning how to hunt."
                       className="ImageViewImg"
-                      src="cheetah_cubs_learning_hunting.jpg"
+                      src="cheetah_cubs_learning_hunting-min.jpg"
                       style={
                         Object {
                           "width": 720,
@@ -542,7 +542,7 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
               <img
                 alt="What is diurnal?"
                 className="FactBannerSmallDimension"
-                src="What_is_Diurnal.png"
+                src="What_is_Diurnal-min.png"
               />
             </div>
           </div>
@@ -612,7 +612,7 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                     <img
                       alt="Cheetahs often mark their scent on tree trunks with their urine. This behavior is common among cats."
                       className="ImageViewImg"
-                      src="cheetah_scent_marking.jpg"
+                      src="cheetah_scent_marking-min.jpg"
                       style={
                         Object {
                           "width": 720,
@@ -754,7 +754,7 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                             <img
                               alt="A coalition of cheetahs on the lookout."
                               className="ImageViewImg"
-                              src="cheetah_coalition.jpg"
+                              src="cheetah_coalition-min.jpg"
                               style={
                                 Object {
                                   "width": 510,
@@ -832,7 +832,7 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                             <img
                               alt="Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)"
                               className="ImageViewImg"
-                              src="cheetah_face_hyena.jpg"
+                              src="cheetah_face_hyena-min.jpg"
                               style={
                                 Object {
                                   "width": 640,

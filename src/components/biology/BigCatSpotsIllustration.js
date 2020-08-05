@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 18, 2020
- * Updated  : Jul 31, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -18,15 +18,15 @@ import {
   getElementStyleClassNames
 } from '../../styling/styling'
 
-import image_pelt_spot_cheetah from './assets/pelt_spot_cheetah.jpg'
-import image_pelt_spot_jaguar from './assets/pelt_spot_jaguar.jpg'
-import image_pelt_spot_leopard from './assets/pelt_spot_leopard.jpg'
-import image_pelt_spot_tiger from './assets/pelt_spot_tiger.jpg'
+import image_pelt_spot_cheetah from './assets/pelt_spot_cheetah-min.jpg'
+import image_pelt_spot_jaguar from './assets/pelt_spot_jaguar-min.jpg'
+import image_pelt_spot_leopard from './assets/pelt_spot_leopard-min.jpg'
+import image_pelt_spot_tiger from './assets/pelt_spot_tiger-min.jpg'
 
-import image_cat_thumbnail_cheetah from './assets/cat_thumbnail_cheetah.jpg'
-import image_cat_thumbnail_jaguar from './assets/cat_thumbnail_jaguar.jpg'
-import image_cat_thumbnail_leopard from './assets/cat_thumbnail_leopard.jpg'
-import image_cat_thumbnail_tiger from './assets/cat_thumbnail_tiger.jpg'
+import image_cat_thumbnail_cheetah from './assets/cat_thumbnail_cheetah-min.jpg'
+import image_cat_thumbnail_jaguar from './assets/cat_thumbnail_jaguar-min.jpg'
+import image_cat_thumbnail_leopard from './assets/cat_thumbnail_leopard-min.jpg'
+import image_cat_thumbnail_tiger from './assets/cat_thumbnail_tiger-min.jpg'
 
 import './BigCatSpotsIllustration.css'
 

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -20,7 +20,7 @@ import {
 
 import ImageView from '../shared/ImageView'
 
-import image_cheetah_scent_marking from './assets/cheetah_scent_marking.jpg'
+import image_cheetah_scent_marking from './assets/cheetah_scent_marking-min.jpg'
 
 export default class BiologyPageSubsectionFindingMate extends React.Component {
 

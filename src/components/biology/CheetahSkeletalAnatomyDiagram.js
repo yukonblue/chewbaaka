@@ -4,14 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
 
 import PopUpLabelledDiagram from '../shared/PopUpLabelledDiagram'
 
-import image_cheetah_skeletal_anatomy from './assets/cheetah_skeletal_anatomy.jpg'
+import image_cheetah_skeletal_anatomy from './assets/cheetah_skeletal_anatomy-min.jpg'
 
 export default class CheetahSkeletalAnatomyDiagram extends React.Component {
 

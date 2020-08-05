@@ -4,18 +4,18 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
 
 import ImageSlide from '../shared/ImageSlide'
 
-import image_backdrop from './assets/cheetah_acceleration_illustration/Cheetah_Acceleration_Illustration_Backdrop.png'
-import image_00 from './assets/cheetah_acceleration_illustration/Cheetah_Acceleration_Illustration_00.png'
-import image_01 from './assets/cheetah_acceleration_illustration/Cheetah_Acceleration_Illustration_01.png'
-import image_02 from './assets/cheetah_acceleration_illustration/Cheetah_Acceleration_Illustration_02.png'
-import image_03 from './assets/cheetah_acceleration_illustration/Cheetah_Acceleration_Illustration_03.png'
+import image_backdrop from './assets/cheetah_acceleration_illustration/Cheetah_Acceleration_Illustration_Backdrop-min.png'
+import image_00 from './assets/cheetah_acceleration_illustration/Cheetah_Acceleration_Illustration_00-min.png'
+import image_01 from './assets/cheetah_acceleration_illustration/Cheetah_Acceleration_Illustration_01-min.png'
+import image_02 from './assets/cheetah_acceleration_illustration/Cheetah_Acceleration_Illustration_02-min.png'
+import image_03 from './assets/cheetah_acceleration_illustration/Cheetah_Acceleration_Illustration_03-min.png'
 
 export default class CheetahAccelerationIllustration extends React.Component {
 

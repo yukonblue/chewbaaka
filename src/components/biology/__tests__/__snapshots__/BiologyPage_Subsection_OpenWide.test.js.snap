@@ -25,7 +25,7 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
             <img
               alt="Open wide"
               height={320}
-              src="open_wide.jpg"
+              src="open_wide-min.jpg"
               width={320}
             />
           </div>
@@ -56,7 +56,7 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
           >
             <img
               alt="Papillae on cheetah's tongue"
-              src="cheetah_tongue.jpg"
+              src="cheetah_tongue-min.jpg"
             />
           </div>
           <div
@@ -81,7 +81,7 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
           >
             <img
               alt="Cheetah grooming"
-              src="cheetah_grooming.jpg"
+              src="cheetah_grooming-min.jpg"
             />
           </div>
           <div
