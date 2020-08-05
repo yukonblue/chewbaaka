@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 01, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -29,7 +29,7 @@ import QnAPopUp from '../shared/QnAPopUp'
 
 import FelidaeFamilyTree from './FelidaeFamilyTree'
 
-import big_cats_image from './assets/Big_Cats.png'
+import big_cats_image from './assets/Big_Cats-min.png'
 
 export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Component {
 
