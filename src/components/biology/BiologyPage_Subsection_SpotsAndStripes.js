@@ -24,7 +24,7 @@ import ImageView from '../shared/ImageView'
 
 import BigCatSpotsIllustration from './BigCatSpotsIllustration'
 
-import image_cheetah_mantle from './assets/Cheetah_Mantle.jpg'
+import image_cheetah_mantle from './assets/Cheetah_Mantle-min.jpg'
 import image_cheetah_and_honey_badger from './assets/cheetah_and_honey_badger-min.jpg'
 
 import image_What_is_Camouflage from './assets/What_is_Camouflage-min.png'

@@ -288,7 +288,7 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
                             <img
                               alt="Kinked tail. (Image credit: Cheetah Conservation Fund)"
                               className="ImageViewImg"
-                              src="cheetah_kinked_tail.jpg"
+                              src="cheetah_kinked_tail-min.jpg"
                               style={
                                 Object {
                                   "width": 640,

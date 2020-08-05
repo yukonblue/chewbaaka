@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -16,7 +16,7 @@ import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFl
 
 import ImageView from '../shared/ImageView'
 
-import image_cheetah_mom_carry_cub from './assets/cheetah_mom_carry_cub.jpg'
+import image_cheetah_mom_carry_cub from './assets/cheetah_mom_carry_cub-min.jpg'
 
 import {
   ContentPageSubsectionParagraphsContentBinder

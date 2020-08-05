@@ -20,7 +20,7 @@ import {
 } from '../shared/ContentPageSubsectionContentBinder'
 
 import image_open_wide from './assets/open_wide-min.jpg'
-import image_cheetah_grooming from './assets/cheetah_grooming.jpg'
+import image_cheetah_grooming from './assets/cheetah_grooming-min.jpg'
 import image_cheetah_tongue from './assets/cheetah_tongue.jpg'
 
 export default class BiologyPageSubsectionOpenWide extends React.Component {

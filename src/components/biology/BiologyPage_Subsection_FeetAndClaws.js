@@ -25,9 +25,9 @@ import TextBubble from '../shared/TextBubble'
 
 import ImageView from '../shared/ImageView'
 
-import image_cheetah_paw from './assets/cheetah_paw.jpg'
+import image_cheetah_paw from './assets/cheetah_paw-min.jpg'
 import image_claws_comparison from './assets/Cheetah_Cat_Dog_Claws_Comparison_Inverted-min.png'
-import image_cheetah_dewclaw from './assets/cheetah_dewclaw.jpg'
+import image_cheetah_dewclaw from './assets/cheetah_dewclaw-min.jpg'
 
 export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
 

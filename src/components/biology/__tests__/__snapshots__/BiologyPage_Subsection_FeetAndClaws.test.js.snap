@@ -39,7 +39,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                   <img
                     alt="The paws of the cheetah have a distinct shape compared to some of the other carnivores."
                     className="ImageViewImg"
-                    src="cheetah_paw.jpg"
+                    src="cheetah_paw-min.jpg"
                     style={
                       Object {
                         "width": 403,
@@ -259,7 +259,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                   <img
                     alt="Cheetah dewclaw."
                     className="ImageViewImg"
-                    src="cheetah_dewclaw.jpg"
+                    src="cheetah_dewclaw-min.jpg"
                     style={
                       Object {
                         "width": 611,

@@ -67,7 +67,7 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                       <img
                         alt="A coalition of cheetahs on the lookout."
                         className="ImageViewImg"
-                        src="cheetah_coalition.jpg"
+                        src="cheetah_coalition-min.jpg"
                         style={
                           Object {
                             "width": 510,
@@ -145,7 +145,7 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                       <img
                         alt="Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)"
                         className="ImageViewImg"
-                        src="cheetah_face_hyena.jpg"
+                        src="cheetah_face_hyena-min.jpg"
                         style={
                           Object {
                             "width": 640,

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 18, 2020
- * Updated  : Jul 31, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -24,7 +24,7 @@ import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
 import ImageView from '../shared/ImageView'
 
-import image_cheetah_kinked_tail from './assets/cheetah_kinked_tail.jpg'
+import image_cheetah_kinked_tail from './assets/cheetah_kinked_tail-min.jpg'
 
 export default class BiologyPageSubsectionAbnormalities extends React.Component {
 
