@@ -1,7 +1,7 @@
 {
-  "short_name": "Run Cheetah Run",
-  "name": "Run Cheetah Run",
-  "description": "Cheetah Museum",
+  "short_name": "Cheetah",
+  "name": "Cheetah",
+  "description": "Learn about cheetahs",
   "icons": [
     {
       "src": "favicon.ico",
