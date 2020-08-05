@@ -15,15 +15,15 @@ export const config = {
     pageMenuItems: [
       {
         title: "Lifecycle",
-        tocImageFilename: "biology_page_toc_menu_img_01.jpg"
+        tocImageFilename: "biology_page_toc_menu_img_01-min.jpg"
       },
       {
         title: "Physiology",
-        tocImageFilename: "biology_page_toc_menu_img_02.jpg"
+        tocImageFilename: "biology_page_toc_menu_img_02-min.jpg"
       },
       {
         title: "Genetics",
-        tocImageFilename: "biology_page_toc_menu_img_03.jpg"
+        tocImageFilename: "biology_page_toc_menu_img_03-min.jpg"
       }
     ],
     pageTailNavMenu: {
