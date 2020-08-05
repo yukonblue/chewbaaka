@@ -36,6 +36,9 @@ Node.js install should automatically installs the **npm** package manager.
 
 Node.js official link [here](https://nodejs.org/en/download/).
 
+(Currently I have Node.js version `v12.18.3` installed for development,
+which also installs npm `v6.14.6`).
+
 ### Setup
 
 Once the repo is cloned, the first thing is to setup the necessary
