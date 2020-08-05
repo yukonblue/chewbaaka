@@ -156,7 +156,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
               <img
                 alt="African savanna"
                 className="FullWidth"
-                src="savana_bg_large.jpg"
+                src="savana_bg_large-min.jpg"
               />
             </div>
             <div
