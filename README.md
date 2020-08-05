@@ -148,6 +148,10 @@ Useful links:
 - [Robots.txt Specifications | Google Developers](https://developers.google.com/search/reference/robots_txt)
 - [Cache-Control - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control)
 
+Links to online utilities:
+
+- [TinyJPG - Compress JPEG images intelligently](https://tinyjpg.com/)
+
 Resources on SEO:
 
 - [Martin Splitt - Technical SEO 101 for React Developers | React Next 2019 | YouTube](https://www.youtube.com/watch?v=3B7gBVTsEaE)
