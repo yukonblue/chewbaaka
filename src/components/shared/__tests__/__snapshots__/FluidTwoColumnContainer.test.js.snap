@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FluidTwoColumnContainer component snapshot 1`] = `
+<div
+  className="FluidTwoColumnContainerOuterContainer"
+>
+  <div
+    className="FluidTwoColumnContainerColumnContainer"
+  >
+    <p>
+      This is the LHS column.
+    </p>
+  </div>
+  <div
+    className="FluidTwoColumnContainerColumnContainer"
+  >
+    <p>
+      This is the RHS column.
+    </p>
+  </div>
+</div>
+`;

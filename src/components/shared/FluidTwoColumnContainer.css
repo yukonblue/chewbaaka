@@ -1,0 +1,20 @@
+/**
+ * FluidTwoColumnContainer.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Aug 04, 2020
+ * Updated  : Aug 04, 2020
+ */
+
+div.FluidTwoColumnContainerOuterContainer {
+  display: flex;
+}
+
+div.FluidTwoColumnContainerOuterContainer_DebugColor {
+  background-color: sandybrown;
+}
+
+div.FluidTwoColumnContainerColumnContainer {
+  flex: 50%;
+}
