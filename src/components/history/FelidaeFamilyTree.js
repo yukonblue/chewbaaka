@@ -51,12 +51,12 @@ import image_rusty_spotted_cat from './assets/felidae/leopardcat/felidae_rusty_s
 import image_pallas_cat from './assets/felidae/leopardcat/felidae_pallas_cat_Otocolobus_manul_240x240.jpg'
 
 /** Felis lineage */
-import image_jungle_cat from './assets/felidae/felis/felidae_jungle_cat_Felis_chaus_240x240.jpg'
-import image_chinese_mountain_cat from './assets/felidae/felis/felidae_chinese_mountain_cat_Felis_bieti_240x240.jpg'
-import image_european_wildcat from './assets/felidae/felis/felidae_european_wildcat_Felis_silvestris_240x240.jpg'
-import image_african_wildcat from './assets/felidae/felis/felidae_african_wildcat_Felis_lybica_240x240.jpg'
-import image_sand_cat from './assets/felidae/felis/felidae_sand_cat_Felis_margarita_240x240.jpg'
-import image_black_footed_cat from './assets/felidae/felis/felidae_black_footed_cat_Felis_nigripes_240x240.jpg'
+import image_jungle_cat from './assets/felidae/felis/felidae_jungle_cat_Felis_chaus_240x240-min.jpg'
+import image_chinese_mountain_cat from './assets/felidae/felis/felidae_chinese_mountain_cat_Felis_bieti_240x240-min.jpg'
+import image_european_wildcat from './assets/felidae/felis/felidae_european_wildcat_Felis_silvestris_240x240-min.jpg'
+import image_african_wildcat from './assets/felidae/felis/felidae_african_wildcat_Felis_lybica_240x240-min.jpg'
+import image_sand_cat from './assets/felidae/felis/felidae_sand_cat_Felis_margarita_240x240-min.jpg'
+import image_black_footed_cat from './assets/felidae/felis/felidae_black_footed_cat_Felis_nigripes_240x240-min.jpg'
 
 /** Caracal lineage */
 import image_caracal from './assets/felidae/caracal/felidae_caracal_Caracal_caracal_240x240-min.jpg'
