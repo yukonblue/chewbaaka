@@ -4,16 +4,16 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 11, 2020
+ * Updated  : Aug 05, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react'
 
-import ImageCollage from '../ImageCollage';
+import ImageCollage from '../ImageCollage'
 
-import image from '../assets/cheetah-conservation-fund-logo.jpg'
+import image from '../assets/cheetah-conservation-fund-logo-mini-min.jpg'
 
 test('renders ImageCollage compoent', () => {
   const title = "Title";

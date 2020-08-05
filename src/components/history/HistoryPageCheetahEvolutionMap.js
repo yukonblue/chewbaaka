@@ -4,21 +4,21 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
 
 import ImageSlide from '../shared/ImageSlide'
 
-import backgroundImage from './assets/Cheetah_Evolution_Map/Cheetah_Evolution_Map_Background_Only.png'
-import bodyImage_01 from './assets/Cheetah_Evolution_Map/Cheetah_Evolution_Map_Step_01.png'
-import bodyImage_02 from './assets/Cheetah_Evolution_Map/Cheetah_Evolution_Map_Step_02.png'
-import bodyImage_03 from './assets/Cheetah_Evolution_Map/Cheetah_Evolution_Map_Step_03.png'
-import bodyImage_04 from './assets/Cheetah_Evolution_Map/Cheetah_Evolution_Map_Step_04.png'
-import bodyImage_05 from './assets/Cheetah_Evolution_Map/Cheetah_Evolution_Map_Step_05.png'
-import bodyImage_06 from './assets/Cheetah_Evolution_Map/Cheetah_Evolution_Map_Step_06.png'
-import bodyImage_07 from './assets/Cheetah_Evolution_Map/Cheetah_Evolution_Map_Step_07.png'
+import backgroundImage from './assets/Cheetah_Evolution_Map/Cheetah_Evolution_Map_Background_Only-min.png'
+import bodyImage_01 from './assets/Cheetah_Evolution_Map/Cheetah_Evolution_Map_Step_01-min.png'
+import bodyImage_02 from './assets/Cheetah_Evolution_Map/Cheetah_Evolution_Map_Step_02-min.png'
+import bodyImage_03 from './assets/Cheetah_Evolution_Map/Cheetah_Evolution_Map_Step_03-min.png'
+import bodyImage_04 from './assets/Cheetah_Evolution_Map/Cheetah_Evolution_Map_Step_04-min.png'
+import bodyImage_05 from './assets/Cheetah_Evolution_Map/Cheetah_Evolution_Map_Step_05-min.png'
+import bodyImage_06 from './assets/Cheetah_Evolution_Map/Cheetah_Evolution_Map_Step_06-min.png'
+import bodyImage_07 from './assets/Cheetah_Evolution_Map/Cheetah_Evolution_Map_Step_07-min.png'
 
 export default class HistoryPageCheetahEvolutionMap extends React.Component {
 

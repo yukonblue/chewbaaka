@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 03, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -22,7 +22,7 @@ import 'semantic-ui-css/semantic.min.css'
 
 import { kStringConstantCheetahConservationFund } from './constants'
 
-import logo from './assets/cheetah-conservation-fund-logo.jpg'
+import logo from './assets/cheetah-conservation-fund-logo-mini-min.jpg'
 
 export default function Footer(props) {
   const renderOptionalAuthorName = () => (

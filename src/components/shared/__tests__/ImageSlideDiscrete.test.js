@@ -4,18 +4,18 @@
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Aug 05, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import { render, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react'
 
-import renderer from 'react-test-renderer';
+import renderer from 'react-test-renderer'
 
-import ImageSlideDiscrete from '../ImageSlideDiscrete';
+import ImageSlideDiscrete from '../ImageSlideDiscrete'
 
-import image01 from '../assets/cheetah-conservation-fund-logo.jpg'
+import image01 from '../assets/cheetah-conservation-fund-logo-mini-min.jpg'
 import image02 from '../assets/cheetah-conservation-fund-30-logo.svg'
 
 const title = "Cheetah evolution";

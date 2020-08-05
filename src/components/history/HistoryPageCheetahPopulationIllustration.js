@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 27, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -17,11 +17,11 @@ import ImageSlide from '../shared/ImageSlide'
 
 import { getElementStyleClassName } from '../../styling/styling'
 
-import backgroundImage from './assets/Cheetah_Population_Color_Illustration/Cheetah_Population_Color_Illustration_Outline.png'
-import bodyImage_00 from './assets/Cheetah_Population_Color_Illustration/Cheetah_Population_Color_Illustration_ColorAndText_v0.png'
-import bodyImage_01 from './assets/Cheetah_Population_Color_Illustration/Cheetah_Population_Color_Illustration_ColorAndText_v1.png'
-import bodyImage_02 from './assets/Cheetah_Population_Color_Illustration/Cheetah_Population_Color_Illustration_ColorAndText_v2.png'
-import bodyImage_03 from './assets/Cheetah_Population_Color_Illustration/Cheetah_Population_Color_Illustration_ColorAndText_v3.png'
+import backgroundImage from './assets/Cheetah_Population_Color_Illustration/Cheetah_Population_Color_Illustration_Outline-min.png'
+import bodyImage_00 from './assets/Cheetah_Population_Color_Illustration/Cheetah_Population_Color_Illustration_ColorAndText_v0-min.png'
+import bodyImage_01 from './assets/Cheetah_Population_Color_Illustration/Cheetah_Population_Color_Illustration_ColorAndText_v1-min.png'
+import bodyImage_02 from './assets/Cheetah_Population_Color_Illustration/Cheetah_Population_Color_Illustration_ColorAndText_v2-min.png'
+import bodyImage_03 from './assets/Cheetah_Population_Color_Illustration/Cheetah_Population_Color_Illustration_ColorAndText_v3-min.png'
 
 export default class HistoryPageCheetahPopulationIllustration extends React.Component {
 

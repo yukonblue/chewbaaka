@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -22,7 +22,7 @@ import {
 
 import ImageView from '../shared/ImageView'
 
-import image_cheetah_painting_Renaissance from './assets/cheetah_painting_Renaissance.jpg'
+import image_cheetah_painting_Renaissance from './assets/cheetah_painting_Renaissance-min.jpg'
 
 export default class HistoryPageSubsectionCheetahsInArt extends React.Component {
 

@@ -11,7 +11,7 @@ exports[`ImageViewModal component snapshot 1`] = `
   onMouseLeave={[Function]}
   style={
     Object {
-      "backgroundImage": "url(cheetah-conservation-fund-logo.jpg)",
+      "backgroundImage": "url(cheetah-conservation-fund-logo-mini-min.jpg)",
       "height": 480,
       "width": 720,
     }

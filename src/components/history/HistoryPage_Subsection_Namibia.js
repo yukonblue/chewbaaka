@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -27,6 +27,8 @@ import LineBreak from '../shared/LineBreak'
 import MediaLinkButton from '../shared/MediaLinkButton'
 
 import StatsLabel from '../shared/StatsLabel'
+
+import image_Cheetah_Occurrence_Range_Map from './assets/Cheetah_Occurrence_Range_Map_Namibia-min.png'
 
 export default class HistoryPageSubsectionNamibia extends React.Component {
 
@@ -108,7 +110,7 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
         <ImageView
           width={640}
           height={640}
-          image="https://dfzljdn9uc3pi.cloudfront.net/2015/1346/1/Suppl_Inf_5_cheetah_occurrence_and_suitable_PA.png"
+          image={image_Cheetah_Occurrence_Range_Map}
           caption="Cheetah distribution and population density in Namibia."
         />
       </div>

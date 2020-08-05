@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -18,60 +18,60 @@ import { getElementStyleClassName } from '../../styling/styling'
 import './FelidaeFamilyTree.css'
 
 /** Puma lineage */
-import image_cheetah from './assets/felidae/puma/felidae_cheetah_Acinonyx_jubatus_240x240.jpg'
-import image_jaguarundi from './assets/felidae/puma/felidae_jaguarundi_Herpailurus_yagouaroundi_240x240.jpg'
-import image_puma from './assets/felidae/puma/felidae_puma_Puma_concolor_240x240.jpg'
+import image_cheetah from './assets/felidae/puma/felidae_cheetah_Acinonyx_jubatus_240x240-min.jpg'
+import image_jaguarundi from './assets/felidae/puma/felidae_jaguarundi_Herpailurus_yagouaroundi_240x240-min.jpg'
+import image_puma from './assets/felidae/puma/felidae_puma_Puma_concolor_240x240-min.jpg'
 
 /** Lynx lineage */
-import image_eurasian_lynx from './assets/felidae/lynx/felidae_eurasian_lynx_Lynx_lynx_240x240.jpg'
-import image_canadian_lynx from './assets/felidae/lynx/felidae_canadian_lynx_Lynx_canadensis_240x240.jpg'
-import image_iberian_lynx from './assets/felidae/lynx/felidae_iberian_lynx_Lynx_pardinus_240x240.jpg'
-import image_bobcat from './assets/felidae/lynx/felidae_bobcat_Lynx_rufus_240x240.jpg'
+import image_eurasian_lynx from './assets/felidae/lynx/felidae_eurasian_lynx_Lynx_lynx_240x240-min.jpg'
+import image_canadian_lynx from './assets/felidae/lynx/felidae_canadian_lynx_Lynx_canadensis_240x240-min.jpg'
+import image_iberian_lynx from './assets/felidae/lynx/felidae_iberian_lynx_Lynx_pardinus_240x240-min.jpg'
+import image_bobcat from './assets/felidae/lynx/felidae_bobcat_Lynx_rufus_240x240-min.jpg'
 
 /** Panthera lineage */
-import image_tiger from './assets/felidae/panthera/felidae_tiger_Panthera_tigris_240x240.jpg'
-import image_lion from './assets/felidae/panthera/felidae_lion_Panthera_leo_240x240.jpg'
-import image_jaguar from './assets/felidae/panthera/felidae_jaguar_Panthera_onca_240x240.jpg'
-import image_leopard from './assets/felidae/panthera/felidae_leopard_Panthera_pardus_240x240.jpg'
-import image_snow_leopard from './assets/felidae/panthera/felidae_snow_leopard_Panthera_uncia_240x240.jpg'
-import image_mainland_clouded_leopard from './assets/felidae/panthera/felidae_mainland_clouded_leopard_Neofelis_nebulosa_240x240.jpg'
-import image_sunda_clouded_leopard from './assets/felidae/panthera/felidae_sunda_clouded_leopard_Neofelis_diardi_240x240.jpg'
+import image_tiger from './assets/felidae/panthera/felidae_tiger_Panthera_tigris_240x240-min.jpg'
+import image_lion from './assets/felidae/panthera/felidae_lion_Panthera_leo_240x240-min.jpg'
+import image_jaguar from './assets/felidae/panthera/felidae_jaguar_Panthera_onca_240x240-min.jpg'
+import image_leopard from './assets/felidae/panthera/felidae_leopard_Panthera_pardus_240x240-min.jpg'
+import image_snow_leopard from './assets/felidae/panthera/felidae_snow_leopard_Panthera_uncia_240x240-min.jpg'
+import image_mainland_clouded_leopard from './assets/felidae/panthera/felidae_mainland_clouded_leopard_Neofelis_nebulosa_240x240-min.jpg'
+import image_sunda_clouded_leopard from './assets/felidae/panthera/felidae_sunda_clouded_leopard_Neofelis_diardi_240x240-min.jpg'
 
 /** Bay Cat lineage */
-import image_asiatic_golden_cat from './assets/felidae/baycat/felidae_asiatic_golden_cat_Catopuma_temminckii_240x240.jpg'
-import image_borneo_bay_cat from './assets/felidae/baycat/felidae_borneo_bay_cat_Catopuma_badia_240x240.jpg'
-import image_marbled_cat from './assets/felidae/baycat/felidae_marbled_cat_Pardofelis_marmorata_240x240.jpg'
+import image_asiatic_golden_cat from './assets/felidae/baycat/felidae_asiatic_golden_cat_Catopuma_temminckii_240x240-min.jpg'
+import image_borneo_bay_cat from './assets/felidae/baycat/felidae_borneo_bay_cat_Catopuma_badia_240x240-min.jpg'
+import image_marbled_cat from './assets/felidae/baycat/felidae_marbled_cat_Pardofelis_marmorata_240x240-min.jpg'
 
 /** Leopard Cat lineage */
-import image_fishing_cat from './assets/felidae/leopardcat/felidae_fishing_cat_Prionailurus_viverrinus_240x240.jpg'
-import image_mainland_leopard_cat from './assets/felidae/leopardcat/felidae_mainland_leopard_cat_Prionailurus_bengalensis_240x240.jpg'
-import image_sunda_leopard_cat from './assets/felidae/leopardcat/felidae_sunda_leopard_cat_Prionailurus_javanensis_240x240.jpg'
-import image_flat_headed_cat from './assets/felidae/leopardcat/felidae_flat_headed_cat_Prionailurus_planiceps_240x240.jpg'
-import image_rusty_spotted_cat from './assets/felidae/leopardcat/felidae_rusty_spotted_cat_Prionailurus_rubiginosus_240x240.jpg'
-import image_pallas_cat from './assets/felidae/leopardcat/felidae_pallas_cat_Otocolobus_manul_240x240.jpg'
+import image_fishing_cat from './assets/felidae/leopardcat/felidae_fishing_cat_Prionailurus_viverrinus_240x240-min.jpg'
+import image_mainland_leopard_cat from './assets/felidae/leopardcat/felidae_mainland_leopard_cat_Prionailurus_bengalensis_240x240-min.jpg'
+import image_sunda_leopard_cat from './assets/felidae/leopardcat/felidae_sunda_leopard_cat_Prionailurus_javanensis_240x240-min.jpg'
+import image_flat_headed_cat from './assets/felidae/leopardcat/felidae_flat_headed_cat_Prionailurus_planiceps_240x240-min.jpg'
+import image_rusty_spotted_cat from './assets/felidae/leopardcat/felidae_rusty_spotted_cat_Prionailurus_rubiginosus_240x240-min.jpg'
+import image_pallas_cat from './assets/felidae/leopardcat/felidae_pallas_cat_Otocolobus_manul_240x240-min.jpg'
 
 /** Felis lineage */
-import image_jungle_cat from './assets/felidae/felis/felidae_jungle_cat_Felis_chaus_240x240.jpg'
-import image_chinese_mountain_cat from './assets/felidae/felis/felidae_chinese_mountain_cat_Felis_bieti_240x240.jpg'
-import image_european_wildcat from './assets/felidae/felis/felidae_european_wildcat_Felis_silvestris_240x240.jpg'
-import image_african_wildcat from './assets/felidae/felis/felidae_african_wildcat_Felis_lybica_240x240.jpg'
-import image_sand_cat from './assets/felidae/felis/felidae_sand_cat_Felis_margarita_240x240.jpg'
-import image_black_footed_cat from './assets/felidae/felis/felidae_black_footed_cat_Felis_nigripes_240x240.jpg'
+import image_jungle_cat from './assets/felidae/felis/felidae_jungle_cat_Felis_chaus_240x240-min.jpg'
+import image_chinese_mountain_cat from './assets/felidae/felis/felidae_chinese_mountain_cat_Felis_bieti_240x240-min.jpg'
+import image_european_wildcat from './assets/felidae/felis/felidae_european_wildcat_Felis_silvestris_240x240-min.jpg'
+import image_african_wildcat from './assets/felidae/felis/felidae_african_wildcat_Felis_lybica_240x240-min.jpg'
+import image_sand_cat from './assets/felidae/felis/felidae_sand_cat_Felis_margarita_240x240-min.jpg'
+import image_black_footed_cat from './assets/felidae/felis/felidae_black_footed_cat_Felis_nigripes_240x240-min.jpg'
 
 /** Caracal lineage */
-import image_caracal from './assets/felidae/caracal/felidae_caracal_Caracal_caracal_240x240.jpg'
-import image_serval from './assets/felidae/caracal/felidae_serval_Leptailurus_serval_240x240.jpg'
-import image_african_golden_cat from './assets/felidae/caracal/felidae_african_golden_cat_Caracal_aurata_240x240.jpg'
+import image_caracal from './assets/felidae/caracal/felidae_caracal_Caracal_caracal_240x240-min.jpg'
+import image_serval from './assets/felidae/caracal/felidae_serval_Leptailurus_serval_240x240-min.jpg'
+import image_african_golden_cat from './assets/felidae/caracal/felidae_african_golden_cat_Caracal_aurata_240x240-min.jpg'
 
 /** Leopardus lineage */
-import image_ocelot from './assets/felidae/leopardus/felidae_ocelot_Leopardus_pardalis_240x240.jpg'
-import image_geoffroys_cat from './assets/felidae/leopardus/felidae_geoffroys_cat_Leopardus_geoffroyi_240x240.jpg'
-import image_andean_cat from './assets/felidae/leopardus/felidae_andean_cat_Leopardus_jacobita_240x240.jpg'
-import image_maygay from './assets/felidae/leopardus/felidae_margay_Leopardus_wiedii_240x240.jpg'
-import image_pampas_cat from './assets/felidae/leopardus/felidae_pampas_cat_Leopardus_colocola_240x240.jpg'
-import image_oncilla from './assets/felidae/leopardus/felidae_oncilla_Leopardus_tigrinus_240x240.jpg'
-import image_southern_tiger_cat from './assets/felidae/leopardus/felidae_southern_tiger_cat_Leopardus_guttulus_240x240.jpg'
-import image_guina from './assets/felidae/leopardus/felidae_guina_Leopardus_guigna_240x240.jpg'
+import image_ocelot from './assets/felidae/leopardus/felidae_ocelot_Leopardus_pardalis_240x240-min.jpg'
+import image_geoffroys_cat from './assets/felidae/leopardus/felidae_geoffroys_cat_Leopardus_geoffroyi_240x240-min.jpg'
+import image_andean_cat from './assets/felidae/leopardus/felidae_andean_cat_Leopardus_jacobita_240x240-min.jpg'
+import image_maygay from './assets/felidae/leopardus/felidae_margay_Leopardus_wiedii_240x240-min.jpg'
+import image_pampas_cat from './assets/felidae/leopardus/felidae_pampas_cat_Leopardus_colocola_240x240-min.jpg'
+import image_oncilla from './assets/felidae/leopardus/felidae_oncilla_Leopardus_tigrinus_240x240-min.jpg'
+import image_southern_tiger_cat from './assets/felidae/leopardus/felidae_southern_tiger_cat_Leopardus_guttulus_240x240-min.jpg'
+import image_guina from './assets/felidae/leopardus/felidae_guina_Leopardus_guigna_240x240-min.jpg'
 
 const contentColorLynx = [29,88,182];
 const contentColorPanthera = [248,180,14];

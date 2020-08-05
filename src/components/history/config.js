@@ -4,26 +4,26 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 01, 2020
+ * Updated  : Aug 05, 2020
  */
 
 export const config = {
   pageProps: {
-    coverImage: "History_Page_Cover_Image.jpg",
+    coverImage: "History_Page_Cover_Image-min.jpg",
     title: "History",
     subtitle: "Learn about the evolution and migration of the species, its relationship with man throughout history, and its population and ranges.",
     pageMenuItems: [
       {
         title: "Evolution",
-        tocImageFilename: "history_page_toc_menu_img_01.jpg"
+        tocImageFilename: "history_page_toc_menu_img_01-min.jpg"
       },
       {
         title: "Cheetah and Man",
-        tocImageFilename: "history_page_toc_menu_img_02.jpg"
+        tocImageFilename: "history_page_toc_menu_img_02-min.jpg"
       },
       {
         title: "Range and Population",
-        tocImageFilename: "history_page_toc_menu_img_03.jpg"
+        tocImageFilename: "history_page_toc_menu_img_03-min.jpg"
       }
     ],
     pageTailNavMenu: {
@@ -44,7 +44,7 @@ export const config = {
           "as a symbol of a multitude of positive characteristics, such as adaptability, " +
           "persistence, and focus.",
     image: {
-      filename: "History_Page_Intro_Section_Background.png"
+      filename: "History_Page_Intro_Section_Background-min.png"
     }
   },
   contentPageSections: {
