@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 28, 2020
+ * Updated  : Aug 04, 2020
  */
 
 import React from 'react'
@@ -15,17 +15,26 @@ import renderer from 'react-test-renderer'
 
 import HomePage from '../HomePage'
 
-import { config } from '../../../config'
+import { appConfig } from '../../../config'
+
+import { config } from '../config'
 
 test('renders HomePage component', () => {
   render(
     <HomePage
-      appConfig={config}
+      appConfig={appConfig}
     />
   );
 
-  const mainTitleElement = screen.getByText(/Run cheetah run/i);
+  // Tests main title element is present.
+  const mainTitleText = config.components["landingPageGateway"].constants["landingPageGatewayTitle"];
+  const mainTitleElement = screen.getByText(mainTitleText);
   expect(mainTitleElement).toBeInTheDocument();
+
+  // Tests main subtitle element is present.
+  const mainSubtitleText = config.components["landingPageGateway"].constants["landingPageGatewaySubtitle"];
+  const mainSubtitleElement = screen.getByText(mainSubtitleText);
+  expect(mainSubtitleElement).toBeInTheDocument();
 
   // Tests top nav bar component is present.
   const topNavBarComponent = screen.getByTestId("TopNavBarComponentTestId");

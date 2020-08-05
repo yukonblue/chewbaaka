@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 28, 2020
+ * Updated  : Aug 04, 2020
  */
 
 import React from 'react'
@@ -28,8 +28,11 @@ export default class LandingPageGateway extends React.Component {
 
   static _TITLE_ = "landingPageGatewayTitle";
 
+  static _SUBTITLE_ = "landingPageGatewaySubtitle";
+
   render() {
     const title = this.props.config.components[LandingPageGateway._COMPONENT_NAME_].constants[LandingPageGateway._TITLE_];
+    const subtitle = this.props.config.components[LandingPageGateway._COMPONENT_NAME_].constants[LandingPageGateway._SUBTITLE_];
     return (
       <Segment
         className={["LandingPageGatewayOuterContainer", this.centerSegmentStyleClassName()].join(" ")}
@@ -45,8 +48,7 @@ export default class LandingPageGateway extends React.Component {
             className="LandingPageGatewaySubtitle"
             data-testid="LandingPageGatewayComponentSubtitlePartTestId"
           >
-            Visit and explore CCF's <b>Cheetah Museum</b> at the
-            comfort of your home.
+            {subtitle}
           </p>
           <a href="#Explore">
             <Button

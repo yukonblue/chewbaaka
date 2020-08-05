@@ -4,15 +4,15 @@
  *
  * Author   : Tomiko
  * Created  : Jul 28, 2020
- * Updated  : Jul 28, 2020
+ * Updated  : Aug 04, 2020
  */
 
 export const config = {
   components: {
     landingPageGateway: {
       constants: {
-        landingPageGatewayTitle: "Run cheetah run",
-        landingPageGatewaySubtitle: "Visit and explore CCF's Cheetah Museum at the comfort of your home."
+        landingPageGatewayTitle: "Learn about cheetahs",
+        landingPageGatewaySubtitle: "Explore the Cheetah Museum at Cheetah Conservation Fund."
       },
       dynamicStyleGroups: {
         centerSegmentStyleClassNames: [
