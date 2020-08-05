@@ -70,7 +70,7 @@ exports[`HomePage snapshot 1`] = `
         className="ui inverted header"
         data-testid="LandingPageGatewayComponentSubtitlePartTestId"
       >
-        Explore the Cheetah Museum at Cheetah Conservation Fund.
+        Explore the Cheetah Museum at Cheetah Conservation Fund
       </h2>
       <a
         href="#Explore"

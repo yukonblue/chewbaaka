@@ -12,7 +12,7 @@ export const config = {
     landingPageGateway: {
       constants: {
         landingPageGatewayTitle: "Learn about cheetahs",
-        landingPageGatewaySubtitle: "Explore the Cheetah Museum at Cheetah Conservation Fund."
+        landingPageGatewaySubtitle: "Explore the Cheetah Museum at Cheetah Conservation Fund"
       },
       dynamicStyleGroups: {
         centerSegmentStyleClassNames: [
