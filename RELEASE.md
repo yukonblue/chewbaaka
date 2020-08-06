@@ -3,6 +3,9 @@
 ## Version 0.1.9
 
 * Date: August 06, 2020
+* Commit: `19999ef`
+* Tag: `v0.1.9`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.1.9)
 * Changelog:
   * Fixes for the following issues:
     * Issue #100 - Static resources have cache control max-age of zero seconds.
