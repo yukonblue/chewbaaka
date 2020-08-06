@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -22,7 +22,7 @@ import {
 
 import ImageView from '../shared/ImageView'
 
-import image_cincinnati_zoo_cheetah_sarah from './assets/cincinnati_zoo_cheetah_sarah.jpg'
+import image_cincinnati_zoo_cheetah_sarah from './assets/cincinnati_zoo_cheetah_sarah-min.jpg'
 
 export default class FuturePageSubsectionTheRoleOfZoos extends React.Component {
 
