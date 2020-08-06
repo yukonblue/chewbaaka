@@ -183,7 +183,7 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                 <img
                   alt="CCF Volunteering"
                   className="FullWidth"
-                  src="CCF_GetInvolved_Volunteer.jpg"
+                  src="CCF_GetInvolved_Volunteer-min.jpg"
                 />
               </div>
             </div>
@@ -514,7 +514,7 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                         <img
                           alt="CCF's Predator Preyground. (Image credit: Cheetah Conservation Fund)"
                           className="ImageSlidingGalleryImgPart"
-                          src="CCF_Predator_Preyground.jpg"
+                          src="CCF_Predator_Preyground-min.jpg"
                         />
                         <div
                           className="ImageSlidingGalleryCaptionPart"
@@ -617,7 +617,7 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                       <img
                         alt="CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program. (Image credit: Cheetah Conservation Fund)"
                         className="ImageViewImg"
-                        src="CCF_Livelihood_Development.jpg"
+                        src="CCF_Livelihood_Development-min.jpg"
                         style={
                           Object {
                             "width": 960,

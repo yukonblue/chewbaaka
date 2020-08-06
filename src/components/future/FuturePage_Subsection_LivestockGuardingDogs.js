@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -29,9 +29,9 @@ import ImageView from '../shared/ImageView'
 
 import FluidImageWrapper from '../shared/FluidImageWrapper'
 
-import image_CCF_LGD from './assets/CCF_LGD.jpg'
-import image_CCF_anatolian_shepherd_puppies from './assets/CCF_anatolian_shepherd_puppies.jpg'
-import image_CCF_Year_of_the_LGD from './assets/CCF_Year_of_the_LGD.jpg'
+import image_CCF_LGD from './assets/CCF_LGD-min.jpg'
+import image_CCF_anatolian_shepherd_puppies from './assets/CCF_anatolian_shepherd_puppies-min.jpg'
+import image_CCF_Year_of_the_LGD from './assets/CCF_Year_of_the_LGD-min.jpg'
 import image_Cheetah_and_LGD from './assets/Cheetah_and_LGD.jpg'
 import image_LGD from './assets/LGD_960x960.png'
 

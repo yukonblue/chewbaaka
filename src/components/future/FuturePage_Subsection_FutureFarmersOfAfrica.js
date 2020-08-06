@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 31, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -22,7 +22,7 @@ import MediaLinkButton from '../shared/MediaLinkButton'
 
 import StatsLabel from '../shared/StatsLabel'
 
-import image_CCF_FFA_01 from './assets/CCF_FFA_01.jpg'
+import image_CCF_FFA_01 from './assets/CCF_FFA_01-min.jpg'
 
 export default class FuturePageSubsectionFutureFarmersOfAfrica extends React.Component {
 

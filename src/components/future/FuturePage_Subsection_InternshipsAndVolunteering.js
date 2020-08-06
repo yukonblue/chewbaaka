@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -27,7 +27,7 @@ import FluidImageWrapper from '../shared/FluidImageWrapper'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
-import image_CCF_GetInvolved_Volunteer from './assets/CCF_GetInvolved_Volunteer.jpg'
+import image_CCF_GetInvolved_Volunteer from './assets/CCF_GetInvolved_Volunteer-min.jpg'
 
 export default class FuturePageSubsectionInternshipsAndVolunteering extends React.Component {
 

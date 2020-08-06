@@ -74,7 +74,7 @@ exports[`FuturePageSubsectionSchoolsTeachersLearners component snapshot 1`] = `
                   <img
                     alt="CCF's Predator Preyground. (Image credit: Cheetah Conservation Fund)"
                     className="ImageSlidingGalleryImgPart"
-                    src="CCF_Predator_Preyground.jpg"
+                    src="CCF_Predator_Preyground-min.jpg"
                   />
                   <div
                     className="ImageSlidingGalleryCaptionPart"
