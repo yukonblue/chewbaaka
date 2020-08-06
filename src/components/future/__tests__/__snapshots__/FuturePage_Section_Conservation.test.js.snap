@@ -74,7 +74,7 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
                 >
                   <img
                     alt="Conservation is taking care of the environment in which we live."
-                    src="earth_environment.png"
+                    src="earth_environment-min.png"
                   />
                 </div>
                 <div
@@ -146,7 +146,7 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
                         <img
                           alt=""
                           className="FullWidth"
-                          src="earth_biodiversity.png"
+                          src="earth_biodiversity-min.png"
                         />
                       </div>
                     </div>
@@ -259,7 +259,7 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
                             <img
                               alt="The heaviest trafficking of cheetahs have been observed from Central and Southern Africa into the Middle East. (Image credit: BBC)"
                               className="ImageViewImg"
-                              src="cheetah_trafficking_map.png"
+                              src="cheetah_trafficking_map-min.png"
                               style={
                                 Object {
                                   "width": 640,
@@ -479,7 +479,7 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
                 >
                   <img
                     alt="CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora) Conference of the Parties 17"
-                    src="CITES_CoP17.jpg"
+                    src="CITES_CoP17-min.jpg"
                   />
                 </div>
                 <p
@@ -494,7 +494,7 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
                 <img
                   alt="What is CITES?"
                   className="FactBannerMediumDimension"
-                  src="What_is_CITES.png"
+                  src="What_is_CITES-min.png"
                 />
               </div>
             </div>
@@ -603,7 +603,7 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
                               <img
                                 alt="Chewbaaka"
                                 className="CircularImageImg"
-                                src="Chewbaaka.jpg"
+                                src="Chewbaaka-min.jpg"
                               />
                             </div>
                             <div
@@ -657,7 +657,7 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
                               <img
                                 alt="Mekondyo"
                                 className="CircularImageImg"
-                                src="Mekondyo.jpg"
+                                src="Mekondyo-min.jpg"
                               />
                             </div>
                             <div
