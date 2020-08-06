@@ -1,5 +1,12 @@
 # Release Note
 
+## Version 0.1.10
+
+* Date: August 06, 2020
+* Changelog:
+  * Fixes for the following issues:
+    * Issue #119 - Failed deployment of version 0.1.9
+
 ## Version 0.1.9
 
 * Date: August 06, 2020
