@@ -272,7 +272,7 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
             <img
               alt="Livestock Guarding Dogs"
               className="FullWidth"
-              src="LGD_960x960.png"
+              src="LGD_960x960-min.png"
             />
           </div>
         </div>
