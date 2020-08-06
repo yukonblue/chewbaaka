@@ -33,7 +33,7 @@ import image_cheetah_rescue_02 from './assets/cheetah_rescue_02-min.jpg'
 import image_cheetah_rescue_03 from './assets/cheetah_rescue_03-min.jpg'
 import image_cheetah_rescue_04 from './assets/cheetah_rescue_04-min.jpg'
 
-import image_cheetah_trafficking_map from './assets/cheetah_trafficking_map.png'
+import image_cheetah_trafficking_map from './assets/cheetah_trafficking_map-min.png'
 
 import image_CITES_CoP17 from './assets/CITES_CoP17-min.jpg'
 
