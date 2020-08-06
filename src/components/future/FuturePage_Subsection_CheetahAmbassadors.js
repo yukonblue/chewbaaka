@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -28,8 +28,8 @@ import MediaLinkButton from '../shared/MediaLinkButton'
 
 import './FuturePage_Subsection_CheetahAmbassadors.css'
 
-import image_Chewbaaka from './assets/Chewbaaka.jpg'
-import image_Mekondyo from './assets/Mekondyo.jpg'
+import image_Chewbaaka from './assets/Chewbaaka-min.jpg'
+import image_Mekondyo from './assets/Mekondyo-min.jpg'
 
 export default class FuturePageSubsectionCheetahAmbassadors extends React.Component {
 
