@@ -37,7 +37,7 @@ import image_cheetah_trafficking_map from './assets/cheetah_trafficking_map.png'
 
 import image_CITES_CoP17 from './assets/CITES_CoP17-min.jpg'
 
-import image_What_is_CITES from './assets/What_is_CITES.png'
+import image_What_is_CITES from './assets/What_is_CITES-min.png'
 
 export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends React.Component {
 
