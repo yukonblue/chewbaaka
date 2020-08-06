@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jun 30, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 06, 2020
  */
 
 import React from 'react'
@@ -23,8 +23,6 @@ import BiologyPage from './components/biology/BiologyPage'
 import EcologyPage from './components/ecology/EcologyPage'
 import FuturePage from './components/future/FuturePage'
 
-import TestPage from './components/shared/TestPage'
-
 import './components/shared/GlobalPageStyles.css'
 import './styling/DebugStyles.css'
 
@@ -35,10 +33,6 @@ export default class App extends React.Component {
     return (
       <Router>
         <Switch>
-          { /** Route for testing components in development mode. */ }
-          <Route exact path="/test">
-            <TestPage/>
-          </Route>
           <Route exact path='/history'>
             <HistoryPage
               appConfig={config}
