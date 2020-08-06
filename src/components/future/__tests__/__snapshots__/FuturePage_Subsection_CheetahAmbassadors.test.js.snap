@@ -103,7 +103,7 @@ exports[`FuturePageSubsectionCheetahAmbassadors component snapshot 1`] = `
                         <img
                           alt="Chewbaaka"
                           className="CircularImageImg"
-                          src="Chewbaaka.jpg"
+                          src="Chewbaaka-min.jpg"
                         />
                       </div>
                       <div
@@ -157,7 +157,7 @@ exports[`FuturePageSubsectionCheetahAmbassadors component snapshot 1`] = `
                         <img
                           alt="Mekondyo"
                           className="CircularImageImg"
-                          src="Mekondyo.jpg"
+                          src="Mekondyo-min.jpg"
                         />
                       </div>
                       <div

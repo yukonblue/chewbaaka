@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -28,16 +28,16 @@ import ImageView from '../shared/ImageView'
 
 import ImageSlidingGalleryDiscrete from '../shared/ImageSlidingGalleryDiscrete'
 
-import image_cheetah_rescue_01 from './assets/cheetah_rescue_01.jpg'
-import image_cheetah_rescue_02 from './assets/cheetah_rescue_02.jpg'
-import image_cheetah_rescue_03 from './assets/cheetah_rescue_03.jpg'
-import image_cheetah_rescue_04 from './assets/cheetah_rescue_04.jpg'
+import image_cheetah_rescue_01 from './assets/cheetah_rescue_01-min.jpg'
+import image_cheetah_rescue_02 from './assets/cheetah_rescue_02-min.jpg'
+import image_cheetah_rescue_03 from './assets/cheetah_rescue_03-min.jpg'
+import image_cheetah_rescue_04 from './assets/cheetah_rescue_04-min.jpg'
 
-import image_cheetah_trafficking_map from './assets/cheetah_trafficking_map.png'
+import image_cheetah_trafficking_map from './assets/cheetah_trafficking_map-min.png'
 
-import image_CITES_CoP17 from './assets/CITES_CoP17.jpg'
+import image_CITES_CoP17 from './assets/CITES_CoP17-min.jpg'
 
-import image_What_is_CITES from './assets/What_is_CITES.png'
+import image_What_is_CITES from './assets/What_is_CITES-min.png'
 
 export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends React.Component {
 

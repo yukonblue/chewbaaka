@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -21,8 +21,8 @@ import {
   ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
-import image_earth_environment from './assets/earth_environment.png'
-import image_earth_biodiversity from './assets/earth_biodiversity.png'
+import image_earth_environment from './assets/earth_environment-min.png'
+import image_earth_biodiversity from './assets/earth_biodiversity-min.png'
 
 export default class FuturePageSubsectionWhatIsConservation extends React.Component {
 

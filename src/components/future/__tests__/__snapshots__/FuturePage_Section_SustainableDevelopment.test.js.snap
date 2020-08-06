@@ -141,7 +141,7 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                           <img
                             alt="Sustainable development"
                             className="FullWidth"
-                            src="Sustainable_Development.png"
+                            src="Sustainable_Development-min.png"
                           />
                         </div>
                       </div>
@@ -262,7 +262,7 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                         <img
                           alt="Farmers participate in FFA training courses. (Image credit: Cheetah Conservation Fund)"
                           className="ImageViewImg"
-                          src="CCF_FFA_01.jpg"
+                          src="CCF_FFA_01-min.jpg"
                           style={
                             Object {
                               "width": 742,
@@ -411,7 +411,7 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                   <img
                     alt="Livestock Guarding Dog"
                     className="FullWidth"
-                    src="CCF_LGD.jpg"
+                    src="CCF_LGD-min.jpg"
                   />
                 </div>
               </div>
@@ -447,7 +447,7 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                         <img
                           alt="Anatolian Shepherd puppies live alongside with the herd. (Image credit: Cheetah Conservation Fund)"
                           className="ImageViewImg"
-                          src="CCF_anatolian_shepherd_puppies.jpg"
+                          src="CCF_anatolian_shepherd_puppies-min.jpg"
                           style={
                             Object {
                               "width": 720,
@@ -525,7 +525,7 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                       <img
                         alt="Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program. (Image credit: Cheetah Conservation Fund)"
                         className="ImageViewImg"
-                        src="CCF_Year_of_the_LGD.jpg"
+                        src="CCF_Year_of_the_LGD-min.jpg"
                         style={
                           Object {
                             "width": 1000,
@@ -581,7 +581,7 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                 >
                   <img
                     alt="Cheetah and LGD"
-                    src="Cheetah_and_LGD.jpg"
+                    src="Cheetah_and_LGD-min.jpg"
                     style={
                       Object {
                         "width": 720,
@@ -633,7 +633,7 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                   <img
                     alt="Livestock Guarding Dogs"
                     className="FullWidth"
-                    src="LGD_960x960.png"
+                    src="LGD_960x960-min.png"
                   />
                 </div>
               </div>

@@ -36,7 +36,7 @@ exports[`FuturePageSubsectionCommunityEvents component snapshot 1`] = `
                 <img
                   alt="CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program. (Image credit: Cheetah Conservation Fund)"
                   className="ImageViewImg"
-                  src="CCF_Livelihood_Development.jpg"
+                  src="CCF_Livelihood_Development-min.jpg"
                   style={
                     Object {
                       "width": 960,

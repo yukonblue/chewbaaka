@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -21,7 +21,7 @@ import {
   ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
-import image_Sustainable_Development from './assets/Sustainable_Development.png'
+import image_Sustainable_Development from './assets/Sustainable_Development-min.png'
 
 export default class FuturePageSubsectionMissionPossible extends React.Component {
 

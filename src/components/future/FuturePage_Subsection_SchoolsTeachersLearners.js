@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -22,10 +22,10 @@ import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
 import ImageSlidingGallery from '../shared/ImageSlidingGallery'
 
-import image_CCF_Predator_Preyground from './assets/CCF_Predator_Preyground.jpg'
-import image_CCF_Cheetah_Museum from './assets/CCF_Cheetah_Museum.jpg'
-import image_CCF_Cheetah_Museum_02 from './assets/CCF_Cheetah_Museum_02.jpg'
-import image_CCF_Education_Outreach from './assets/CCF_Education_Outreach.jpg'
+import image_CCF_Predator_Preyground from './assets/CCF_Predator_Preyground-min.jpg'
+import image_CCF_Cheetah_Museum from './assets/CCF_Cheetah_Museum-min.jpg'
+import image_CCF_Cheetah_Museum_02 from './assets/CCF_Cheetah_Museum_02-min.jpg'
+import image_CCF_Education_Outreach from './assets/CCF_Education_Outreach-min.jpg'
 
 export default class FuturePageSubsectionSchoolsTeachersLearners extends React.Component {
 

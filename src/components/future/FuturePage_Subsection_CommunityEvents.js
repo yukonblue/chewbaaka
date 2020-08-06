@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Aug 05, 2020
  */
 
 import React from 'react'
@@ -22,7 +22,7 @@ import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
 import ImageView from '../shared/ImageView'
 
-import image_CCF_Livelihood_Development from './assets/CCF_Livelihood_Development.jpg'
+import image_CCF_Livelihood_Development from './assets/CCF_Livelihood_Development-min.jpg'
 
 export default class FuturePageSubsectionCommunityEvents extends React.Component {
 

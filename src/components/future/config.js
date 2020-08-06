@@ -4,26 +4,26 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Aug 01, 2020
+ * Updated  : Aug 05, 2020
  */
 
 export const config = {
   pageProps: {
-    coverImage: "Future_Page_Cover_Image.jpg",
+    coverImage: "Future_Page_Cover_Image-min.jpg",
     title: "Future",
     subtitle: "Learn about CCF's holistic approach to conservation and sustainable development, and what you can do to help.",
     pageMenuItems: [
       {
         title: "Conservation",
-        tocImageFilename: "future_page_toc_menu_img_01.jpg"
+        tocImageFilename: "future_page_toc_menu_img_01-min.jpg"
       },
       {
         title: "Sustainable Development",
-        tocImageFilename: "future_page_toc_menu_img_02.jpg"
+        tocImageFilename: "future_page_toc_menu_img_02-min.jpg"
       },
       {
         title: "Outreach and Education",
-        tocImageFilename: "future_page_toc_menu_img_03.jpg"
+        tocImageFilename: "future_page_toc_menu_img_03-min.jpg"
       }
     ],
     pageTailNavMenu: {
@@ -43,7 +43,7 @@ export const config = {
             "work together to protect the cheetahs, nurture their ecosystems, and make ourselves better custodians of " +
             "this planet and all living things that share it with us.",
     image: {
-      filename: "Future_Page_Intro_Section_Background.png",
+      filename: "Future_Page_Intro_Section_Background-min.png",
       offset: {
         top: -40
       }
