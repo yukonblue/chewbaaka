@@ -3,6 +3,9 @@
 ## Version 0.1.10
 
 * Date: August 06, 2020
+* Commit: `bbf515f`
+* Tag: `v0.1.10`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.1.10)
 * Changelog:
   * Fixes for the following issues:
     * Issue #119 - Failed deployment of version 0.1.9
