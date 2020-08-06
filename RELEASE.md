@@ -1,5 +1,20 @@
 # Release Note
 
+## Version 0.1.9
+
+* Date: August 06, 2020
+* Changelog:
+  * Fixes for the following issues:
+    * Issue #100 - Static resources have cache control max-age of zero seconds.
+    * Issue #105 - Missing essential security headers in HTTP responses.
+    * Issue #107 - Home page content payload too heavy.
+    * Issue #109 - History page content payload too heavy.
+    * Issue #111 - Biology page content payload too heavy.
+    * Issue #113 - Ecology page content payload too heavy.
+    * Issue #115 - Future page content payload too heavy.
+  * [Sitemap] Update `sitemap.xml` to remove forward slash `'/'` in all `<loc>` tag URL values.
+  * [Refactor][Refine] Remove `TestPage` component and all associated tests.
+
 ## Version 0.1.8
 
 * Date: August 04, 2020
