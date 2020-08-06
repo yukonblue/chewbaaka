@@ -220,7 +220,7 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
           >
             <img
               alt="Cheetah and LGD"
-              src="Cheetah_and_LGD.jpg"
+              src="Cheetah_and_LGD-min.jpg"
               style={
                 Object {
                   "width": 720,

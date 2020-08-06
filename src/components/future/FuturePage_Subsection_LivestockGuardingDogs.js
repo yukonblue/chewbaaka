@@ -32,7 +32,7 @@ import FluidImageWrapper from '../shared/FluidImageWrapper'
 import image_CCF_LGD from './assets/CCF_LGD-min.jpg'
 import image_CCF_anatolian_shepherd_puppies from './assets/CCF_anatolian_shepherd_puppies-min.jpg'
 import image_CCF_Year_of_the_LGD from './assets/CCF_Year_of_the_LGD-min.jpg'
-import image_Cheetah_and_LGD from './assets/Cheetah_and_LGD.jpg'
+import image_Cheetah_and_LGD from './assets/Cheetah_and_LGD-min.jpg'
 import image_LGD from './assets/LGD_960x960.png'
 
 export default class FuturePageSubsectionLivestockGuardingDogs extends React.Component {
