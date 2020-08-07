@@ -4,15 +4,11 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.ContentPageSubsectionTwoColumnContentTemplateOuterContainer {
   margin: 0 auto;
-}
-
-div.ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor {
-  background-color: green;
 }
 
 div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer {
@@ -22,21 +18,9 @@ div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer {
   padding: 20px;
 }
 
-div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor {
-  background-color: lightyellow;
-}
-
 div.ContentPageSubsectionTwoColumnContentTemplateColumnContainer:after {
   /* Clear floats after the columns */
   content: "";
   display: table;
   clear: both;
-}
-
-div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor {
-  background-color: yellow;
-}
-
-div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor {
-  background-color: orange;
 }

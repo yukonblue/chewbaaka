@@ -1,0 +1,16 @@
+/**
+ * ImageViewModal-debug.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Aug 07, 2020
+ * Updated  : Aug 07, 2020
+ */
+
+div.ImageViewModalComponentModalContentOuterContainer_DebugColor {
+  background-color: palegoldenrod;
+}
+
+div.ImageViewModalComponentModalContentImageContainer_DebugColor {
+  background-color: orangered;
+}

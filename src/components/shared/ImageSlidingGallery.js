@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 07, 2020
  */
 
 /**
@@ -33,6 +33,9 @@ import Caption from './Caption'
 import { getFormattedImageCaptionStringWithCredit } from './ImageCaptionUtils'
 
 import './ImageSlidingGallery.css'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./ImageSlidingGallery-debug.css')
 
 export default class ImageSlidingGallery extends React.Component {
 

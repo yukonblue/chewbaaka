@@ -4,14 +4,17 @@
  *
  * Author   : Tomiko
  * Created  : Aug 04, 2020
- * Updated  : Aug 04, 2020
+ * Updated  : Aug 07, 2020
  */
 
 import React from 'react'
 
+import { getElementStyleClassName } from '../../styling/styling'
+
 import './FluidTwoColumnContainer.css'
 
-import { getElementStyleClassName } from '../../styling/styling'
+if ( process.env.NODE_ENV === 'development' )
+  require('./FluidTwoColumnContainer-debug.css')
 
 export default function FluidTwoColumnContainer(props) {
   return (

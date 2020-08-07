@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 09, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 07, 2020
  */
 
 /**
@@ -34,6 +34,9 @@ import {
 import './ContentPageSharedStyles.css'
 
 import './Caption.css'
+
+if (process.env.NODE_ENV === "development")
+  require('./Caption-debug.css')
 
 export default function Caption(props) {
   const containerDimensionStyle = {

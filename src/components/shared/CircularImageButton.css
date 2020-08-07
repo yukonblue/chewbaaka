@@ -4,15 +4,11 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 31, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.CircularImageButtonOuterContainer {
   display: inline-block;
-}
-
-div.CircularImageButtonOuterContainer_DebugColor {
-  background-color: gray;
 }
 
 div.CircularImageButtonCore {
@@ -30,10 +26,6 @@ img.CircularImageButtonImg {
   border-radius: 50%;
 }
 
-img.CircularImageButtonImg_DebugColor {
-  background-color: pink;
-}
-
 img.CircularImageButtonImg:hover {
   filter: contrast(120%);
 }
@@ -44,8 +36,4 @@ p.CircularImageButtonTitle {
   text-align: center;
   font-size: 22px;
   font-weight: bold;
-}
-
-p.CircularImageButtonTitle_DebugColor {
-  background-color: gold;
 }

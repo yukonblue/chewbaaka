@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 07, 2020
  */
 
 /**
@@ -28,13 +28,16 @@
 
 import React from 'react'
 
-import './ImageView.css'
-
 import Caption from './Caption'
 
 import { getElementStyleClassName } from '../../styling/styling'
 
 import { getFormattedImageCaptionStringWithCredit}  from './ImageCaptionUtils'
+
+import './ImageView.css'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./ImageView-debug.css')
 
 export default function ImageView(props) {
   const componentOuterContainerDimension = {

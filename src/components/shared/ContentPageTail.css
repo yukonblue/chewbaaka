@@ -11,10 +11,6 @@ div.ContentPageTailOuterContainer {
   margin-bottom: 50px;
 }
 
-div.ContentPageTailOuterContainer_DebugColor {
-  background-color: goldenrod;
-}
-
 div.ContentPageTailInnerContainer {
   display: block;
   margin: 0px auto;
@@ -23,10 +19,6 @@ div.ContentPageTailInnerContainer {
    * width is specified `div.ContentPageContentInnerContentDimension`
    * in ContentPageSharedStyles.css
    */
-}
-
-div.ContentPageTailInnerContainer_DebugColor {
-  background-color: papayawhip;
 }
 
 div.ContentPageTailInnerImageCollageContainer {

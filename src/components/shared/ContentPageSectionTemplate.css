@@ -4,19 +4,11 @@
  *
  * Author   : Tomiko
  * Created  : Jul 08, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.ContentPageSectionTemplateOuterContainer {
 }
 
-div.ContentPageSectionTemplateOuterContainer_DebugColor {
-  background-color: greenyellow;
-}
-
 div.ContentPageSectionTemplateInnerContainer {
-}
-
-div.ContentPageSectionTemplateInnerContainer_DebugColor {
-  background-color: green;
 }

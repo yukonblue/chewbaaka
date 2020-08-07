@@ -1,0 +1,44 @@
+/**
+ * ImageSlide-debug.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Aug 07, 2020
+ * Updated  : Aug 07, 2020
+ */
+
+div.ImageSlideOuterContainer_DebugColor {
+  background-color: pink;
+}
+
+div.ImageSlideInnerContainer_DebugColor {
+  background-color: brown;
+}
+
+div.ImageSlideImgElementContainer_DebugColor {
+  background-color: greenyellow;
+}
+
+div.ImageSlideSliderAndLabelOuterContainer_DebugColor {
+  background-color: khaki;
+}
+
+div.ImageSlideLabelOuterContainer_DebugColor {
+  background-color: lightblue;
+}
+
+div.ImageSlideSliderAndLabelInnerContainer_DebugColor {
+  background-color: lavender;
+}
+
+div.ImageSlideComponentSliderNameLabelContainer_DebugColor {
+  background-color: lightskyblue;
+}
+
+div.ImageSlideComponentSliderEndLabelContainer_DebugColor {
+  background-color: peru;
+}
+
+div.ImageSlideSliderElementContainer_DebugColor {
+  background-color: greenyellow;
+}

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 07, 2020
  */
 
 import React from 'react'
@@ -14,6 +14,9 @@ import TextRevealWithTextCover from './TextRevealWithTextCover'
 import { getElementStyleClassName } from '../../styling/styling'
 
 import './QuizBoard.css'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./QuizBoard-debug.css')
 
 export default class QuizBoard extends React.Component {
 

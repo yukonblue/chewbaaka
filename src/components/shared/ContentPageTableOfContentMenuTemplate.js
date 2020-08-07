@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 07, 2020
  */
 
 import React from 'react'
@@ -13,13 +13,16 @@ import { Grid, GridColumn } from 'semantic-ui-react'
 
 import 'semantic-ui-css/semantic.min.css'
 
-import './ContentPageTableOfContentMenuTemplate.css'
-
 import { getElementStyleClassName } from '../../styling/styling'
 
 import { ContentPageSectionTitleToAnchorId } from '../shared/ContentPageSectionAnchor'
 
 import CircularImageButton from '../shared/CircularImageButton'
+
+import './ContentPageTableOfContentMenuTemplate.css'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./ContentPageTableOfContentMenuTemplate-debug.css')
 
 export default function ContentPageTableOfContentMenuTemplate(props) {
   // TODO: Handle multi-row menu.

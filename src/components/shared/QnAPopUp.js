@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 28, 2020
+ * Updated  : Aug 07, 2020
  */
 
 /**
@@ -24,11 +24,14 @@ import { Button, Label } from 'semantic-ui-react'
 
 import "semantic-ui-css/semantic.min.css"
 
+import TextBubble from './TextBubble'
+
 import { getElementStyleClassName } from '../../styling/styling'
 
 import './QnAPopUp.css'
 
-import TextBubble from './TextBubble'
+if ( process.env.NODE_ENV === 'development' )
+  require('./QnAPopUp-debug.css')
 
 export default class QnAPopUp extends React.Component {
 

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 08, 2020
- * Updated  : Jul 09, 2020
+ * Updated  : Aug 07, 2020
  */
 
 /**
@@ -23,6 +23,9 @@ import { getElementStyleClassName } from '../../styling/styling'
 import ContentPageSectionHead from './ContentPageSectionHead'
 
 import './ContentPageSectionTemplate.css'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./ContentPageSectionTemplate-debug.css')
 
 function ContentPageSectionTemplate(props) {
   return (

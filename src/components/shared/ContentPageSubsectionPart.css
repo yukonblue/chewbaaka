@@ -4,14 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 25, 2020
- * Updated  : Jul 28, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.ContentPageSubsectionPartContainer {
   margin: 0 auto;
   padding: 20px 0px;
-}
-
-div.ContentPageSubsectionPartContainer_DebugColor {
-  background-color: olive;
 }

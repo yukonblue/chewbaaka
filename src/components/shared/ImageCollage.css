@@ -4,16 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 11, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.ImageCollageOuterContainer {
   display: inline-block;
   filter: drop-shadow(1px 5px 5px #222);
-}
-
-div.ImageCollageOuterContainer_DebugColor {
-  background-color: teal;
 }
 
 div.ImageCollageInnerContainer {

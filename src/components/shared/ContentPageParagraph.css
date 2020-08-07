@@ -4,14 +4,9 @@
  *
  * Author   : Tomiko
  * Created  : Jul 28, 2020
- * Updated  : Jul 28, 2020
+ * Updated  : Aug 07, 2020
  */
 
 p.ContentPageContentParagraphText {
   padding: 15px auto;
-}
-
-p.ContentPageContentParagraphText_DebugColor {
-  color: chocolate;
-  background-color: palegoldenrod;
 }

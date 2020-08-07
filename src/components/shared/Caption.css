@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 09, 2020
- * Updated  : Jul 31, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.CaptionContainer {
@@ -12,17 +12,9 @@ div.CaptionContainer {
   max-width: 100%;
 }
 
-div.CaptionContainer_DebugColor {
-  background-color: cadetblue;
-}
-
 div.IconContainer {
   float: left;
   margin-right: 4px;
-}
-
-div.IconContainer_DebugColor {
-  background-color: coral;
 }
 
 p.CaptionText {

@@ -1,0 +1,16 @@
+/**
+ * ImageSlidingGallery.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Aug 07, 2020
+ * Updated  : Aug 07, 2020
+ */
+
+div.ImageSlidingGalleryOuterContainer_DebugColor {
+  background-color: aliceblue;
+}
+
+div.ImageSlidingGalleryCoreContainer_DebugColor {
+  background-color: blanchedalmond;
+}

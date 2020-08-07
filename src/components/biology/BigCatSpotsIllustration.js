@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 18, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 07, 2020
  */
 
 import React from 'react'
@@ -29,6 +29,9 @@ import image_cat_thumbnail_leopard from './assets/cat_thumbnail_leopard-min.jpg'
 import image_cat_thumbnail_tiger from './assets/cat_thumbnail_tiger-min.jpg'
 
 import './BigCatSpotsIllustration.css'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./BigCatSpotsIllustration-debug.css')
 
 export default class BigCatSpotsIllustration extends React.Component {
 

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 23, 2020
- * Updated  : Aug 01, 2020
+ * Updated  : Aug 07, 2020
  */
 
 /**
@@ -31,14 +31,17 @@ import { Button } from "semantic-ui-react"
 
 import { getFormattedImageCaptionStringWithCredit } from './ImageCaptionUtils'
 
-import './ImageSlidingGalleryDiscrete.css'
-
 import {
   getElementStyleClassName,
   getElementStyleClassNames
 } from '../../styling/styling'
 
 import Caption from './Caption'
+
+import './ImageSlidingGalleryDiscrete.css'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./ImageSlidingGalleryDiscrete-debug.css')
 
 export default class ImageSlidingGalleryDiscrete extends React.Component {
 

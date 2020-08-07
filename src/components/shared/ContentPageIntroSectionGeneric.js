@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 24, 2020
- * Updated  : Jul 28, 2020
+ * Updated  : Aug 07, 2020
  */
 
 import React from 'react'
@@ -16,6 +16,9 @@ import './ContentPageSharedStyles.css'
 import ContentPageIntroSectionTemplate from './ContentPageIntroSectionTemplate'
 
 import './ContentPageIntroSectionGeneric.css'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./ContentPageIntroSectionGeneric-debug.css')
 
 export default class ContentPageIntroSectionGeneric extends React.Component {
 

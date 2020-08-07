@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 28, 2020
+ * Updated  : Aug 07, 2020
  */
 
 /**
@@ -22,14 +22,18 @@
 
 import React from 'react'
 
-import './ContentPageSharedStyles.css'
-import './ContentPageSectionHead.css'
-
 import { getElementStyleClassName } from '../../styling/styling'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
 import ContentPageSectionAnchor from '../shared/ContentPageSectionAnchor'
+
+import './ContentPageSharedStyles.css'
+
+import './ContentPageSectionHead.css'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./ContentPageSectionHead-debug.css')
 
 export default class ContentPageSectionHead extends React.Component {
 

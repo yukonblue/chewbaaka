@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 11, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.HistoryPageCheetahPopulationIllustrationOuterContainer {
@@ -12,14 +12,5 @@ div.HistoryPageCheetahPopulationIllustrationOuterContainer {
   margin: 0 auto;
 }
 
-div.HistoryPageCheetahPopulationIllustrationOuterContainer_DebugColor {
-  background-color: khaki;
-}
-
 div.HistoryPageCheetahPopulationIllustrationImageSlideContainer {
-
-}
-
-div.HistoryPageCheetahPopulationIllustrationImageSlideContainer_DebugColor {
-  background-color: lightcyan;
 }

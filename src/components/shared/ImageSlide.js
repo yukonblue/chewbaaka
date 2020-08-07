@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 31, 2020
+ * Updated  : Aug 07, 2020
  */
 
 /**
@@ -52,9 +52,12 @@ import 'semantic-ui-css/semantic.min.css'
 
 import ContentPageCaptionLabel from './ContentPageCaptionLabel'
 
+import { getElementStyleClassName } from '../../styling/styling'
+
 import './ImageSlide.css'
 
-import { getElementStyleClassName } from '../../styling/styling'
+if ( process.env.NODE_ENV === 'development' )
+  require('./ImageSlide-debug.css')
 
 export default class ImageSlide extends React.Component {
 

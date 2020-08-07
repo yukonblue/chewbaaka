@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.FelidaeFamilyTreeComponentOuterContainerDiv {
@@ -12,8 +12,4 @@ div.FelidaeFamilyTreeComponentOuterContainerDiv {
   height: 1000px;
   width: 1600px;
   background-image: url('./assets/felidae/Felidae_Family_Tree_Background-min.png');
-}
-
-div.FelidaeFamilyTreeComponentOuterContainerDiv_DebugColor {
-  background-color: whitesmoke;
 }

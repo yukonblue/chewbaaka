@@ -4,14 +4,17 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 22, 2020
+ * Updated  : Aug 07, 2020
  */
 
 import React from 'react'
 
+import { getElementStyleClassName } from '../../styling/styling'
+
 import './CircularImageButton.css'
 
-import { getElementStyleClassName } from '../../styling/styling'
+if ( process.env.NODE_ENV === 'development' )
+  require('./CircularImageButton-debug.css')
 
 export default class CircularImageButton extends React.Component {
 

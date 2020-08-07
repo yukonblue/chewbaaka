@@ -4,14 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 22, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.FuturePageSubsectionCheetahsAtCCFImageContainer {
   width: 384px;
   margin: 0 auto;
-}
-
-div.FuturePageSubsectionCheetahsAtCCFImageContainer_DebugColor {
-  background-color: red;
 }

@@ -1,0 +1,24 @@
+/**
+ * ContentPageSubsectionTwoColumnContentTemplate-debug.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Aug 07, 2020
+ * Updated  : Aug 07, 2020
+ */
+
+div.ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor {
+  background-color: green;
+}
+
+div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor {
+  background-color: lightyellow;
+}
+
+div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor {
+  background-color: yellow;
+}
+
+div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor {
+  background-color: orange;
+}

@@ -1,0 +1,16 @@
+/**
+ * ImageSlideModal-debug.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Aug 07, 2020
+ * Updated  : Aug 07, 2020
+ */
+
+div.ImageSlideModalComponentModalContentOuterContainer_DebugColor {
+  background-color: palegoldenrod;
+}
+
+div.ImageSlideModalComponentModalContentImageContainer_DebugColor {
+  background-color: orangered;
+}

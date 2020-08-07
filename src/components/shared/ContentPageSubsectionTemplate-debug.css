@@ -1,0 +1,20 @@
+/**
+ * ContentPageSubsectionTemplate-debug.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Aug 07, 2020
+ * Updated  : Aug 07, 2020
+ */
+
+div.ContentPageSubsectionTemplateOuterContainer_DebugColor {
+  background-color: grey;
+}
+
+div.ContentPageSubsectionTemplateInnerContainer_DebugColor {
+  background-color: plum;
+}
+
+h3.ContentPageSubsectionTitle_DebugColor {
+  background-color: cornflowerblue;
+}

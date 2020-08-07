@@ -20,9 +20,12 @@ import {
 
 import ContentPageSectionTemplate from './ContentPageSectionTemplate'
 import ContentPageTailPrevNextButtonNavMenu from './ContentPageTailPrevNextButtonNavMenu'
+import './ContentPageSharedStyles.css'
 
 import './ContentPageTail.css'
-import './ContentPageSharedStyles.css'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./ContentPageTail-debug.css')
 
 export default class ContentPageTail extends React.Component {
 

@@ -4,32 +4,20 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 16, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.PopUpLabelledDiagramOuterComponent {
   background-size: cover;
 }
 
-div.PopUpLabelledDiagramOuterComponent_DebugColor {
-  background-color: slateblue;
-}
-
 div.PopUpLabelledDiagramInnerComponent {
   position: absolute;
-}
-
-div.PopUpLabelledDiagramInnerComponent_DebugColor {
-  background-color: rosybrown;
 }
 
 div.PopUpLabelledDiagramPopUpItemComponent {
   position: absolute;
   display: inline-block;
-}
-
-div.PopUpLabelledDiagramPopUpItemComponent_DebugColor {
-  background-color: palegoldenrod;
 }
 
 h4.PopUpLabelledDiagramPopUpItemTitle {

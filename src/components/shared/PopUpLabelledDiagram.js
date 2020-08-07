@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 16, 2020
+ * Updated  : Aug 07, 2020
  */
 
 import React from 'react'
@@ -14,6 +14,9 @@ import { Button, Popup } from 'semantic-ui-react'
 import { getElementStyleClassName } from '../../styling/styling'
 
 import './PopUpLabelledDiagram.css'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./PopUpLabelledDiagram-debug.css')
 
 export default class PopUpLabelledDiagram extends React.Component {
 

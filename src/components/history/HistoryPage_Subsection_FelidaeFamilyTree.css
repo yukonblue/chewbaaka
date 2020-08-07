@@ -4,29 +4,17 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 01, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.HistoryPageSubsectionFelidaeFamilyTreeOuterContainer {
   margin: 0 auto;
 }
 
-div.HistoryPageSubsectionFelidaeFamilyTreeOuterContainer_DebugColor {
-  background-color: turquoise;
-}
-
 div.HistoryPageSubsectionFelidaeFamilyTreeInnerContainer {
   margin: 0 auto;
 }
 
-div.HistoryPageSubsectionFelidaeFamilyTreeInnerContainer_DebugColor {
-  background-color: violet;
-}
-
 div.HistoryPageSubsectionFelidaeFamilyTreeCore {
   margin: 20px auto;
-}
-
-div.HistoryPageSubsectionFelidaeFamilyTreeCore_DebugColor {
-  background-color: tomato;
 }
