@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Aug 01, 2020
+ * Updated  : Aug 07, 2020
  */
 
 import React from 'react'
@@ -27,7 +27,7 @@ import './ContentPageSharedStyles.css'
 export default class ContentPageTail extends React.Component {
 
   static _IMAGE_COLLAGE_CELL_COUNT_   = 4;
-  static _IMAGE_COLLAGE_IMAGE_WIDTH_  = 480;
+  static _IMAGE_COLLAGE_IMAGE_WIDTH_  = 420;
   static _IMAGE_COLLAGE_IMAGE_HEIGHT_ = 320;
 
   render() {
