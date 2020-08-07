@@ -3,7 +3,7 @@ health_check.py
 
 Author   : Tomiko
 Created  : Aug 03, 2020
-Updated  : Aug 03, 2020
+Updated  : Aug 07, 2020
 """
 
 import argparse
@@ -145,7 +145,7 @@ class HTTPStatusCodeCheck(object):
 class HTTPResponseHeadersCheck(object):
 
     EXPECTED_MIN_CONTENT_LENGTH = 1000
-    EXPECTED_CONTENT_TYPE = 'text/html'
+    EXPECTED_CONTENT_TYPE       = 'text/html'
 
     def __call__(self, req, resp):
         contentLengthHeaderRawValue = resp.headers.getheader('content-length')
@@ -163,13 +163,13 @@ class HTTPResponseHeadersCheck(object):
 
 class HTMLHeadCheck(object):
 
-    EXPECTED_TITLE = 'Run Cheetah Run'
+    EXPECTED_TITLE = 'Cheetahs'
 
     EXPECTED_META = {
         'charset'         : 'utf-8',
-        'description'     : 'Explore Cheetah Museum at Cheetah Conservation Fund',
+        'description'     : 'Learn about cheetahs by exploring the Cheetah Museum at Cheetah Conservation Fund',
         'viewport'        : 'width=device-width,initial-scale=1',
-        'keywords'        : 'cheetah, Cheetah, Cheetah Conservation Fund, CCF, hope for cheetahs, hope 4 cheetahs, Chewbaaka, wildlife, conservation, hope',
+        'keywords'        : 'cheetah, cheetah evolution, cheetah biology, cheetah habitat, cheetah conservation, learn about cheetahs, hope for cheetahs, save the cheetahs, Cheetah Conservation Fund, CCF, Chewbaaka, wildlife conservation, conservation, bushblok',
         'AdsBot-Google'   : 'noindex'
     }
 
@@ -178,9 +178,6 @@ class HTMLHeadCheck(object):
 
         htmlParser = HTMLHeadParser()
         htmlParser.feed(html)
-
-        # print htmlParser.title
-        # print htmlParser.meta
 
         if htmlParser.title != HTMLHeadCheck.EXPECTED_TITLE:
             raise ValidationError('Unexpected HTML title: {title}'.format(htmlParser.title))
@@ -241,6 +238,8 @@ def driver(args):
 
     runner = Runner(args, config, logger)
     runner.run()
+
+    logger.info('All checks pass.')
 
     return EXIT_SUCCESS
 
