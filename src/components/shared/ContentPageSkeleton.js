@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 01, 2020
+ * Updated  : Aug 06, 2020
  */
 
 import React from 'react'
@@ -33,6 +33,8 @@ import ContentPageSideNavMenu from './ContentPageSideNavMenu'
 import TopNavBar from './TopNavBar'
 import Footer from './Footer'
 
+const __TEST__ = ( process.env.NODE_ENV === "test" );
+
 export default class ContentPageSkeleton extends React.Component {
 
   constructor(props) {
@@ -42,6 +44,12 @@ export default class ContentPageSkeleton extends React.Component {
       contextRef : React.createContext()
     };
     this.handleMenuActiveToggle = this.handleMenuActiveToggle.bind(this);
+  }
+
+  componentDidMount() {
+    if ( !__TEST__ ) {
+      window.scrollTo(0, 0);
+    }
   }
 
   handleMenuActiveToggle() {

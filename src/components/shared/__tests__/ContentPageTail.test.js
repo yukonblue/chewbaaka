@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 26, 2020
- * Updated  : Aug 01, 2020
+ * Updated  : Aug 06, 2020
  */
 
 import React from 'react'
@@ -14,6 +14,8 @@ import { render } from '@testing-library/react'
 import renderer from 'react-test-renderer'
 
 import ContentPageTail from '../ContentPageTail'
+
+import RouterWrapped from '../../../testing/RouterWrapped'
 
 import { RUN_TEST_NEVER } from '../../../testing/testing'
 
@@ -28,9 +30,11 @@ const pageTailNavMenu = {
 
 test('renders ContentPageTail component', () => {
   render(
-    <ContentPageTail
-      pageTailNavMenu={pageTailNavMenu}
-    />
+    RouterWrapped(
+      <ContentPageTail
+        pageTailNavMenu={pageTailNavMenu}
+      />
+    )
   );
 });
 
@@ -41,9 +45,11 @@ RUN_TEST_NEVER(() => {
   test('ContentPageTail component snapshot', () => {
     const tree = renderer
       .create(
-        <ContentPageTail
-          pageTailNavMenu={pageTailNavMenu}
-        />
+        RouterWrapped(
+          <ContentPageTail
+            pageTailNavMenu={pageTailNavMenu}
+          />
+        )
       ).toJSON();
     expect(tree).toMatchSnapshot();
   });

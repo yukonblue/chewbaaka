@@ -9,6 +9,7 @@ exports[`ContentPageTopNavMenuBar component snapshot 1`] = `
   >
     <a
       href="/home"
+      onClick={[Function]}
     >
       <div
         className="item"
@@ -19,6 +20,7 @@ exports[`ContentPageTopNavMenuBar component snapshot 1`] = `
     </a>
     <a
       href="/history"
+      onClick={[Function]}
     >
       <div
         className="item"
@@ -29,6 +31,7 @@ exports[`ContentPageTopNavMenuBar component snapshot 1`] = `
     </a>
     <a
       href="/biology"
+      onClick={[Function]}
     >
       <div
         className="item"
@@ -39,6 +42,7 @@ exports[`ContentPageTopNavMenuBar component snapshot 1`] = `
     </a>
     <a
       href="/ecology"
+      onClick={[Function]}
     >
       <div
         className="item"
@@ -49,6 +53,7 @@ exports[`ContentPageTopNavMenuBar component snapshot 1`] = `
     </a>
     <a
       href="/future"
+      onClick={[Function]}
     >
       <div
         className="item"

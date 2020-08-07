@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Aug 06, 2020
  */
 
 import React from 'react'
@@ -14,6 +14,8 @@ import { render, screen } from '@testing-library/react'
 import renderer from 'react-test-renderer'
 
 import ContentPageHead from '../ContentPageHead'
+
+import RouterWrapped from '../../../testing/RouterWrapped'
 
 const coverImage="";
 const title="Page Title";
@@ -27,9 +29,11 @@ const pageProps = {
 
 test('renders ContentPageHead component', () => {
   render(
-    <ContentPageHead
-      pageProps={pageProps}
-    />
+    RouterWrapped(
+      <ContentPageHead
+        pageProps={pageProps}
+      />
+    )
   );
 
   const component = screen.getByTestId("ContentPageHeadComponentTestId");
@@ -39,9 +43,11 @@ test('renders ContentPageHead component', () => {
 test('ContentPageHead component snapshot', () => {
   const tree = renderer
     .create(
-      <ContentPageHead
-        pageProps={pageProps}
-      />
+      RouterWrapped(
+        <ContentPageHead
+          pageProps={pageProps}
+        />
+      )
     ).toJSON();
   expect(tree).toMatchSnapshot();
 });

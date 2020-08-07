@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 28, 2020
+ * Updated  : Aug 06, 2020
  */
 
 import React from 'react'
@@ -15,17 +15,21 @@ import renderer from 'react-test-renderer'
 
 import ExploreGatewayGridItem from '../ExploreGatewayGridItem'
 
+import RouterWrapped from '../../../testing/RouterWrapped'
+
 const image = "https://cheetah.org/wp-content/uploads/2019/05/iwt_ancientindiancheetahhunt_1000-600-scaled.jpg";
-const dstUrl = "https://cheetah.org/learn/illegal-pet-trade/";
+const dstUrl = "detailedPage";
 const title = "History";
 
 test('renders ExploreGatewayGridItem component', () => {
   render(
-    <ExploreGatewayGridItem
-      image={image}
-      title={title}
-      dstUrl={dstUrl}
-    />
+    RouterWrapped(
+      <ExploreGatewayGridItem
+        image={image}
+        title={title}
+        dstUrl={dstUrl}
+      />
+    )
   );
 
   // Tests component title is present.
@@ -41,17 +45,19 @@ test('renders ExploreGatewayGridItem component', () => {
   // Tests anchor element is present points to the correct URL.
   const componentAnchorElement = screen.getByTestId("ExploreGatewayGridItemImageAnchorTestId");
   expect(componentAnchorElement).toBeInTheDocument();
-  expect(componentAnchorElement.href).toBe(dstUrl);
+  expect(componentAnchorElement.href).toBe('http://localhost/' + dstUrl);
 });
 
 test('ExploreGatewayGridItem component snapshot', () => {
   const tree = renderer
     .create(
-      <ExploreGatewayGridItem
-        image={image}
-        title={title}
-        dstUrl={dstUrl}
-      />
+      RouterWrapped(
+        <ExploreGatewayGridItem
+          image={image}
+          title={title}
+          dstUrl={dstUrl}
+        />
+      )
     ).toJSON();
   expect(tree).toMatchSnapshot();
 });

@@ -3,6 +3,7 @@
 exports[`ContentPageTailPrevNextButtonNavMenuButton component snapshot 1`] = `
 <a
   href="/#top"
+  onClick={[Function]}
 >
   <button
     className="ui blue massive icon left labeled button"

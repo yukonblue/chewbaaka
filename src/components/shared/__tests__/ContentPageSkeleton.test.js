@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 01, 2020
+ * Updated  : Aug 06, 2020
  */
 
 import React from 'react'
@@ -12,6 +12,8 @@ import React from 'react'
 import { render, screen } from '@testing-library/react'
 
 import ContentPageSkeleton from '../ContentPageSkeleton'
+
+import RouterWrapped from '../../../testing/RouterWrapped'
 
 test('renders ContentPageSkeleton component', () => {
   const pageProps = {
@@ -36,7 +38,11 @@ test('renders ContentPageSkeleton component', () => {
     }
   };
 
-  render(<ContentPageSkeleton pageProps={pageProps}/>);
+  render(
+    RouterWrapped(
+      <ContentPageSkeleton pageProps={pageProps}/>
+    )
+  );
 
   const component = screen.getByTestId("ContentPageSkeletonComponentTestId");
   expect(component).toBeInTheDocument();

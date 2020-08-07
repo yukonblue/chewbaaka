@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 04, 2020
+ * Updated  : Aug 06, 2020
  */
 
 import React from 'react'
@@ -19,11 +19,15 @@ import { appConfig } from '../../../config'
 
 import { config } from '../config'
 
+import RouterWrapped from '../../../testing/RouterWrapped'
+
 test('renders HomePage component', () => {
   render(
-    <HomePage
-      appConfig={appConfig}
-    />
+    RouterWrapped(
+      <HomePage
+        appConfig={appConfig}
+      />
+    )
   );
 
   // Tests main title element is present.
@@ -56,9 +60,11 @@ test('renders HomePage component', () => {
 test('HomePage snapshot', () => {
   const tree = renderer
     .create(
-      <HomePage
-        appConfig={config}
-      />
+      RouterWrapped(
+        <HomePage
+          appConfig={config}
+        />
+      )
     ).toJSON();
   expect(tree).toMatchSnapshot();
 });

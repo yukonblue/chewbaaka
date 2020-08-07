@@ -21,6 +21,7 @@ exports[`ContentPageTailPrevNextButtonNavMenu component snapshot 1`] = `
         >
           <a
             href="/biology"
+            onClick={[Function]}
           >
             <button
               className="ui blue massive icon left labeled button"
@@ -47,6 +48,7 @@ exports[`ContentPageTailPrevNextButtonNavMenu component snapshot 1`] = `
         >
           <a
             href="/future"
+            onClick={[Function]}
           >
             <button
               className="ui blue massive icon right labeled button"

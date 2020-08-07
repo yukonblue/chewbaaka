@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Aug 01, 2020
- * Updated  : Aug 01, 2020
+ * Updated  : Aug 06, 2020
  */
 
 import React from 'react'
@@ -14,6 +14,8 @@ import { render, screen } from '@testing-library/react'
 import renderer from 'react-test-renderer'
 
 import ContentPageTailPrevNextButtonNavMenu from '../ContentPageTailPrevNextButtonNavMenu'
+
+import RouterWrapped from '../../../testing/RouterWrapped'
 
 const pageTailNavMenu = {
   prevPage: {
@@ -26,9 +28,11 @@ const pageTailNavMenu = {
 
 test('renders ContentPageTailPrevNextButtonNavMenu component', () => {
   render(
-    <ContentPageTailPrevNextButtonNavMenu
-      pageTailNavMenu={pageTailNavMenu}
-    />
+    RouterWrapped(
+      <ContentPageTailPrevNextButtonNavMenu
+        pageTailNavMenu={pageTailNavMenu}
+      />
+    )
   );
 
   const prevPageElement = screen.getByText(pageTailNavMenu.prevPage.label);
@@ -41,9 +45,11 @@ test('renders ContentPageTailPrevNextButtonNavMenu component', () => {
 test('ContentPageTailPrevNextButtonNavMenu component snapshot', () => {
   const tree = renderer
     .create(
-      <ContentPageTailPrevNextButtonNavMenu
-        pageTailNavMenu={pageTailNavMenu}
-      />
+      RouterWrapped(
+        <ContentPageTailPrevNextButtonNavMenu
+          pageTailNavMenu={pageTailNavMenu}
+        />
+      )
     ).toJSON();
   expect(tree).toMatchSnapshot();
 });

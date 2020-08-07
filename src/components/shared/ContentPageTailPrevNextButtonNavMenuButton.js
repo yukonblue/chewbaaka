@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Aug 01, 2020
- * Updated  : Aug 01, 2020
+ * Updated  : Aug 06, 2020
  */
 
 import React from 'react'
@@ -14,6 +14,8 @@ import {
   Icon
 } from 'semantic-ui-react'
 
+import { Link } from 'react-router-dom'
+
 import 'semantic-ui-css/semantic.min.css'
 
 export default function ContentPageTailPrevNextButtonNavMenuButton({ isRTL, label, href }) {
@@ -21,7 +23,7 @@ export default function ContentPageTailPrevNextButtonNavMenuButton({ isRTL, labe
   const iconName = isRTL ? "arrow circle left" : "arrow circle right";
 
   return (
-    <a href={href}>
+    <Link to={href}>
       <Button
         icon
         color='blue'
@@ -31,6 +33,6 @@ export default function ContentPageTailPrevNextButtonNavMenuButton({ isRTL, labe
         <Icon name={iconName}/>
         {label}
       </Button>
-    </a>
+    </Link>
   );
 }

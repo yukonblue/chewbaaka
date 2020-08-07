@@ -4,19 +4,25 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Aug 06, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import { render, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react'
 
-import renderer from 'react-test-renderer';
+import renderer from 'react-test-renderer'
 
-import ContentPageTopNavMenuBar from '../ContentPageTopNavMenuBar';
+import ContentPageTopNavMenuBar from '../ContentPageTopNavMenuBar'
+
+import RouterWrapped from '../../../testing/RouterWrapped'
 
 test('renders ContentPageTopNavMenuBar component', () => {
-  render(<ContentPageTopNavMenuBar />);
+  render(
+    RouterWrapped(
+      <ContentPageTopNavMenuBar />
+    )
+  );
 
   const expectedMenuItemNames = ["Home", "History", "Biology", "Ecology", "Future"];
 
@@ -29,7 +35,9 @@ test('renders ContentPageTopNavMenuBar component', () => {
 test('ContentPageTopNavMenuBar component snapshot', () => {
   const tree = renderer
     .create(
-      <ContentPageTopNavMenuBar />)
-    .toJSON();
+      RouterWrapped(
+        <ContentPageTopNavMenuBar />
+      )
+    ).toJSON();
   expect(tree).toMatchSnapshot();
 });

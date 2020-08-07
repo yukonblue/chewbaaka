@@ -4,12 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 28, 2020
+ * Updated  : Aug 06, 2020
  */
 
 import React from 'react'
 
 import { Header, Grid, Image } from 'semantic-ui-react'
+
+import { Link } from 'react-router-dom'
 
 import 'semantic-ui-css/semantic.min.css'
 
@@ -19,8 +21,8 @@ export default function ExploreGatewayGridItem(props) {
   return (
     <Grid.Column className="ExploreGatewayGridItemColumn">
       <div className="ExploreGatewayGridItemImageWrapper">
-        <a
-          href={props.dstUrl}
+        <Link
+          to={props.dstUrl}
           className="ExploreGatewayGridItemImageAnchor"
           data-testid="ExploreGatewayGridItemImageAnchorTestId"
         >
@@ -30,7 +32,7 @@ export default function ExploreGatewayGridItem(props) {
             className="ExploreGatewayGridItemImage"
             data-testid="ExploreGatewayGridItemImageTestId"
           />
-        </a>
+        </Link>
       </div>
       <Header
         as="h2"

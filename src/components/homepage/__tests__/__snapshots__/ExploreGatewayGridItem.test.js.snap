@@ -10,7 +10,8 @@ exports[`ExploreGatewayGridItem component snapshot 1`] = `
     <a
       className="ExploreGatewayGridItemImageAnchor"
       data-testid="ExploreGatewayGridItemImageAnchorTestId"
-      href="https://cheetah.org/learn/illegal-pet-trade/"
+      href="/detailedPage"
+      onClick={[Function]}
     >
       <img
         className="ui medium image ExploreGatewayGridItemImage"
