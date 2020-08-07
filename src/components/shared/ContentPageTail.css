@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Aug 01, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.ContentPageTailOuterContainer {
@@ -34,7 +34,7 @@ div.ContentPageTailInnerImageCollageContainer {
    * TODO
    * This hardcoded width is not great...
    */
-  width: 980px;
+  width: 840px;
   margin: 20px auto;
 }
 

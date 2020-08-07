@@ -4,14 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 31, 2020
+ * Updated  : Aug 07, 2020
  */
 
 /** ----------------------------- CONTAINER -------------------------------- **/
 
 div.ContentPageSkeletonContentContainerDimension {
   margin: 0px auto;
-  min-width: 1200px;
+  min-width: 1024px;
   max-width: 1600px;
 }
 
