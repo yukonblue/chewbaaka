@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 13, 2020
+ * Updated  : Aug 06, 2020
  */
 
 body {
@@ -25,9 +25,5 @@ body {
 
   nav.ui.container .ui.menu {
     float: right;
-  }
-
-  html {
-    scroll-behavior: smooth;
   }
 }
