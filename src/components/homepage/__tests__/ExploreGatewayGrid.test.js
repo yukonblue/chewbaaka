@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 04, 2020
- * Updated  : Jul 28, 2020
+ * Updated  : Aug 06, 2020
  */
 
 import React from 'react'
@@ -15,9 +15,13 @@ import renderer from 'react-test-renderer'
 
 import ExploreGatewayGrid from '../ExploreGatewayGrid'
 
+import RouterWrapped from '../../../testing/RouterWrapped'
+
 test('renders ExploreGatewayGrid component', () => {
   render(
-    <ExploreGatewayGrid />
+    RouterWrapped(
+      <ExploreGatewayGrid />
+    )
   );
 
   const expectedNumGridComponentChildren = 4;
@@ -43,7 +47,9 @@ test('renders ExploreGatewayGrid component', () => {
 test('ExploreGatewayGrid component snapshot', () => {
   const tree = renderer
     .create(
-      <ExploreGatewayGrid />
+      RouterWrapped(
+        <ExploreGatewayGrid />
+      )
     ).toJSON();
   expect(tree).toMatchSnapshot();
 });

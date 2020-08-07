@@ -189,7 +189,8 @@ exports[`App component snapshot 1`] = `
           <a
             className="ExploreGatewayGridItemImageAnchor"
             data-testid="ExploreGatewayGridItemImageAnchorTestId"
-            href="history"
+            href="/history"
+            onClick={[Function]}
           >
             <img
               className="ui medium image ExploreGatewayGridItemImage"
@@ -213,7 +214,8 @@ exports[`App component snapshot 1`] = `
           <a
             className="ExploreGatewayGridItemImageAnchor"
             data-testid="ExploreGatewayGridItemImageAnchorTestId"
-            href="biology"
+            href="/biology"
+            onClick={[Function]}
           >
             <img
               className="ui medium image ExploreGatewayGridItemImage"
@@ -237,7 +239,8 @@ exports[`App component snapshot 1`] = `
           <a
             className="ExploreGatewayGridItemImageAnchor"
             data-testid="ExploreGatewayGridItemImageAnchorTestId"
-            href="ecology"
+            href="/ecology"
+            onClick={[Function]}
           >
             <img
               className="ui medium image ExploreGatewayGridItemImage"
@@ -261,7 +264,8 @@ exports[`App component snapshot 1`] = `
           <a
             className="ExploreGatewayGridItemImageAnchor"
             data-testid="ExploreGatewayGridItemImageAnchorTestId"
-            href="future"
+            href="/future"
+            onClick={[Function]}
           >
             <img
               className="ui medium image ExploreGatewayGridItemImage"
