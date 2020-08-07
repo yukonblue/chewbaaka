@@ -136,7 +136,13 @@ Release note can be found [here](./RELEASE.md).
 
 ## Documentations
 
-Useful links:
+Links on common web technologies:
+
+- [Sitemaps XML format | sitemaps.org](https://www.sitemaps.org/protocol.html)
+- [Robots.txt Specifications | Google Developers](https://developers.google.com/search/reference/robots_txt)
+- [Cache-Control - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control)
+
+Links on React frameworks:
 
 - [Node.js](https://nodejs.org/en/)
 - [React JS](https://reactjs.org/)
@@ -144,9 +150,7 @@ Useful links:
 - [Jest](https://jestjs.io/)
 - [Jest Snapshot Testing](https://jestjs.io/docs/en/snapshot-testing)
 - [Learn React JS - Full Course for Beginners - Tutorial 2019 | YouTube](https://www.youtube.com/watch?v=DLX62G4lc44)
-- [Sitemaps XML format | sitemaps.org](https://www.sitemaps.org/protocol.html)
-- [Robots.txt Specifications | Google Developers](https://developers.google.com/search/reference/robots_txt)
-- [Cache-Control - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control)
+- [Combining Gatsby with Create React App | YouTube](https://www.youtube.com/watch?v=5rUNlYs6wu4)
 
 Links to online utilities:
 
