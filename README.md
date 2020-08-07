@@ -151,6 +151,7 @@ Links on React frameworks:
 - [Jest Snapshot Testing](https://jestjs.io/docs/en/snapshot-testing)
 - [Learn React JS - Full Course for Beginners - Tutorial 2019 | YouTube](https://www.youtube.com/watch?v=DLX62G4lc44)
 - [Combining Gatsby with Create React App | YouTube](https://www.youtube.com/watch?v=5rUNlYs6wu4)
+- [9 React Static Site Generators for 2019 | Medium](https://blog.bitsrc.io/9-react-static-site-generators-for-2019-f54a66e519d2)
 
 Links to online utilities:
 
