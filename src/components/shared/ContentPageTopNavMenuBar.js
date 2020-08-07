@@ -4,12 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 06, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
 import { Menu } from 'semantic-ui-react'
+
+import { Link } from 'react-router-dom'
 
 import 'semantic-ui-css/semantic.min.css'
 
@@ -24,9 +26,9 @@ export default class ContentPageTopNavMenuBar extends React.Component {
 
     for (const [idx, val] of menuItemNames.entries()) {
       menuItems.push(
-        <a href={"/" + val.toLowerCase()} key={idx}>
+        <Link to={"/" + val.toLowerCase()} key={idx}>
           <Menu.Item key={idx} name={val} />
-        </a>
+        </Link>
       );
     }
 
