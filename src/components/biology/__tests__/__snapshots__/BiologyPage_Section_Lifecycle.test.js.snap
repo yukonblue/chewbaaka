@@ -393,7 +393,7 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
             className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
           >
             <div
-              className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft HalfWidth"
+              className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
             >
               <div
                 className="ImageViewOuterContainer"
@@ -452,7 +452,7 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
               </div>
             </div>
             <div
-              className="ContentPageSideFloatFluidContainerFixedPartContainer FloatLeft HalfWidth"
+              className="ContentPageSideFloatFluidContainerFixedPartContainer FloatLeft"
             >
               <div
                 className="TextBubbleOuterContainer"

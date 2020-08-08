@@ -21,8 +21,6 @@ if ( process.env.NODE_ENV === 'development' )
 export default class ContentPageSideFloatFluidContainer extends React.Component {
 
   render() {
-    const halfWidthClassName = "HalfWidth";
-
     const floatClassName = this.props.RTL ? "FloatLeft" : "FloatRight";
 
     const paddingClassName = this.props.RTL ? "HorizontalCusionPaddingRight" : "HorizontalCusionPaddingLeft";
@@ -33,17 +31,12 @@ export default class ContentPageSideFloatFluidContainer extends React.Component 
                       paddingClassName
                     ];
 
-    if (this.props.floatFixedSide) {
-      classNames.push(halfWidthClassName);
-    }
-
     const oppositeFloatClassName = this.props.floatFixedSide ? (this.props.RTL ? "FloatRight" : "FloatLeft") : "";
 
     let oppositeClassNames = ["ContentPageSideFloatFluidContainerFixedPartContainer"];
 
     if (this.props.floatFixedSide) {
       oppositeClassNames.push(oppositeFloatClassName);
-      oppositeClassNames.push(halfWidthClassName);
     }
 
     return (
