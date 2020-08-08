@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 08, 2020
  */
 
 import React from 'react'
@@ -19,6 +19,8 @@ import {
 } from '../shared/ContentPageSubsectionContentBinder'
 
 import CenteredFullWidthContainer from '../shared/CenteredFullWidthContainer'
+
+import DimensionPredicatedContainer from '../shared/DimensionPredicatedContainer'
 
 import ImageView from '../shared/ImageView'
 
@@ -54,7 +56,7 @@ export default class BiologyPageSubsectionSpotsAndStripes extends React.Componen
       <div>
         {this.renderPart1()}
         {this.renderPart2()}
-        {this.renderPart3()}
+        {this.renderPart3Conditionally()}
       </div>
     );
   }
@@ -98,6 +100,15 @@ export default class BiologyPageSubsectionSpotsAndStripes extends React.Componen
           </CenteredFullWidthContainer>
         </div>
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderPart3Conditionally() {
+    return (
+      <DimensionPredicatedContainer
+        pred={(dimension) => (dimension.width > 900)}
+        renderContentHandler={this.renderPart3}
+      />
     );
   }
 

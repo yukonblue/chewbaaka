@@ -4,10 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Aug 01, 2020
- * Updated  : Aug 01, 2020
+ * Updated  : Aug 08, 2020
  */
 
 import React from 'react'
+
+const __TEST__ = ( process.env.NODE_ENV === "test" );
 
 export default class DimensionPredicatedContainer extends React.Component {
 
@@ -16,20 +18,24 @@ export default class DimensionPredicatedContainer extends React.Component {
   };
 
   componentDidMount() {
-    this.setState({
-      dimensions: {
-        width: this.container.offsetWidth,
-        height: this.container.offsetHeight,
-      },
-    });
+    if ( !__TEST__ ) {
+      this.setState({
+        dimensions: {
+          width: this.container.offsetWidth,
+          height: this.container.offsetHeight,
+        },
+      });
+    }
   }
 
   render() {
     const { dimensions } = this.state;
 
+    const pred = this.props.pred ? this.props.pred : () => (true);
+
     return (
       <div ref={el => (this.container = el)}>
-        {dimensions && this.props.renderContentHandler(dimensions)}
+        {dimensions && pred(dimensions) && this.props.renderContentHandler(dimensions)}
       </div>
     );
   }

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 08, 2020
  */
 
 /** ----------------------------- CONTAINER -------------------------------- **/
@@ -64,7 +64,7 @@ div.ClearFloat {
   clear: left;
 }
 
-div.Centered {
+.Centered {
   margin: 0 auto;
 }
 
@@ -114,6 +114,10 @@ div.BottomMargin20px {
 
 .FullWidth {
   max-width: 100%;
+}
+
+.DisplayBlock {
+  display: block;
 }
 
 /** ------------------------------- TEXT ----------------------------------- **/

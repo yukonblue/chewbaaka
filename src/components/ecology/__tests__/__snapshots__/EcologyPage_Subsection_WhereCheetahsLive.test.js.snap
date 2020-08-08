@@ -105,7 +105,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
         />
         <img
           alt="African savanna"
-          className="FullWidth"
+          className="FullWidth Centered DisplayBlock"
           src="savana_bg_large-min.jpg"
         />
       </div>

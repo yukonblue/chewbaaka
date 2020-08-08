@@ -129,15 +129,8 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
   renderFelidaeFamilyTreePartCoreConditionally() {
     return (
       <DimensionPredicatedContainer
-        renderContentHandler={
-          (dimensions) => {
-            console.log("FelidaeFamilyTreePartCore container dimension: %O", dimensions);
-            if (dimensions.width < 1346) {
-              return null;
-            }
-            return this.renderFelidaeFamilyTreePartCore();
-          }
-        }
+        pred={(dimension) => (dimension.width >= 1346)}
+        renderContentHandler={this.renderFelidaeFamilyTreePartCore}
       />
     );
   }

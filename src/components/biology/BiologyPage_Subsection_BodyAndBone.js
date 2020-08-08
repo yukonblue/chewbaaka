@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 08, 2020
  */
 
 import React from 'react'
@@ -18,6 +18,8 @@ import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFl
 import {
   ContentPageSubsectionParagraphsJoin
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import DimensionPredicatedContainer from '../shared/DimensionPredicatedContainer'
 
 import CheetahAccelerationIllustration from './CheetahAccelerationIllustration'
 
@@ -60,7 +62,7 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
 
         {this.renderPartBoneContent(this.state.subsectionConfig.contents["part_Bone"])}
 
-        {this.renderCheetahAccelerationIllustrationPart()}
+        {this.renderCheetahAccelerationIllustrationPartConditionally()}
       </div>
     );
   }
@@ -129,6 +131,15 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
           />
         </div>
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderCheetahAccelerationIllustrationPartConditionally() {
+    return (
+      <DimensionPredicatedContainer
+        pred={(dimension) => (dimension.width >= 720)}
+        renderContentHandler={this.renderCheetahAccelerationIllustrationPart}
+      />
     );
   }
 

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 08, 2020
  */
 
 import React from 'react'
@@ -18,6 +18,8 @@ import ContentPageTwoColumnImageGallary from '../shared/ContentPageTwoColumnImag
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import FluidImageWrapper from '../shared/FluidImageWrapper'
 
 import TextBubble from '../shared/TextBubble'
 
@@ -80,12 +82,10 @@ export default class EcologyPageSubsectionTheCheetahsPrey extends React.Componen
   renderCheetahLionComparison() {
     return (
       <ContentPageSubsectionPart>
-        <div className="Centered" style={{width: 960}}>
-          <img
-            src={image_Cheetah_Lion_Hunting_Success_Rate_Comparsion}
-            alt="Cheetah and lion have drastically different preys, hunting strategies, and success rates."
-          />
-        </div>
+        <FluidImageWrapper
+          src={image_Cheetah_Lion_Hunting_Success_Rate_Comparsion}
+          alt="Cheetah and lion have drastically different preys, hunting strategies, and success rates."
+        />
       </ContentPageSubsectionPart>
     );
   }
