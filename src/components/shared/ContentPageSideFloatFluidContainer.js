@@ -4,12 +4,19 @@
  *
  * Author   : Tomiko
  * Created  : Jul 26, 2020
- * Updated  : Jul 31, 2020
+ * Updated  : Aug 08, 2020
  */
 
 import React from 'react'
 
 import './ContentPageSharedStyles.css'
+
+import {
+  getElementStyleClassNames
+} from '../../styling/styling'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./ContentPageSideFloatFluidContainer-debug.css')
 
 export default class ContentPageSideFloatFluidContainer extends React.Component {
 
@@ -20,7 +27,11 @@ export default class ContentPageSideFloatFluidContainer extends React.Component 
 
     const paddingClassName = this.props.RTL ? "HorizontalCusionPaddingRight" : "HorizontalCusionPaddingLeft";
 
-    let classNames = [floatClassName, paddingClassName, "BottomMargin20px"];
+    let classNames = ["ContentPageSideFloatFluidContainerFloatPartContainer",
+                      "BottomMargin20px",
+                      floatClassName,
+                      paddingClassName
+                    ];
 
     if (this.props.floatFixedSide) {
       classNames.push(halfWidthClassName);
@@ -28,7 +39,7 @@ export default class ContentPageSideFloatFluidContainer extends React.Component 
 
     const oppositeFloatClassName = this.props.floatFixedSide ? (this.props.RTL ? "FloatRight" : "FloatLeft") : "";
 
-    let oppositeClassNames = [];
+    let oppositeClassNames = ["ContentPageSideFloatFluidContainerFixedPartContainer"];
 
     if (this.props.floatFixedSide) {
       oppositeClassNames.push(oppositeFloatClassName);
@@ -36,11 +47,13 @@ export default class ContentPageSideFloatFluidContainer extends React.Component 
     }
 
     return (
-      <div className="OverflowHidden">
-        <div className={classNames.join(" ")}>
+      <div className={getElementStyleClassNames(["ContentPageSideFloatFluidContainerOuterContainer",
+                                                 "OverflowHidden"])}
+      >
+        <div className={getElementStyleClassNames(classNames)}>
           {this.props.floatPart}
         </div>
-        <div className={oppositeClassNames.join(" ")}>
+        <div className={getElementStyleClassNames(oppositeClassNames)}>
           {this.props.fixedPart}
         </div>
       </div>
