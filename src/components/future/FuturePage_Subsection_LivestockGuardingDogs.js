@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 08, 2020
  */
 
 import React from 'react'
@@ -146,12 +146,10 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
         />
 
         <div className="VerticalCushionPaddingTopLarge">
-          <CenteredFullWidthContainer maxWidth={960}>
-            <FluidImageWrapper
-              src={image_LGD}
-              alt="Livestock Guarding Dogs"
-            />
-          </CenteredFullWidthContainer>
+          <FluidImageWrapper
+            src={image_LGD}
+            alt="Livestock Guarding Dogs"
+          />
         </div>
       </ContentPageSubsectionPart>
     );
