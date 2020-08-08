@@ -4,14 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 07, 2020
  */
 
 import React from 'react'
-
-import "semantic-ui-css/semantic.min.css"
-
-import './HistoryPageCheetahPopulationIllustration.css'
 
 import ImageSlide from '../shared/ImageSlide'
 
@@ -22,6 +18,13 @@ import bodyImage_00 from './assets/Cheetah_Population_Color_Illustration/Cheetah
 import bodyImage_01 from './assets/Cheetah_Population_Color_Illustration/Cheetah_Population_Color_Illustration_ColorAndText_v1-min.png'
 import bodyImage_02 from './assets/Cheetah_Population_Color_Illustration/Cheetah_Population_Color_Illustration_ColorAndText_v2-min.png'
 import bodyImage_03 from './assets/Cheetah_Population_Color_Illustration/Cheetah_Population_Color_Illustration_ColorAndText_v3-min.png'
+
+import 'semantic-ui-css/semantic.min.css'
+
+import './HistoryPageCheetahPopulationIllustration.css'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./HistoryPageCheetahPopulationIllustration-debug.css')
 
 export default class HistoryPageCheetahPopulationIllustration extends React.Component {
 

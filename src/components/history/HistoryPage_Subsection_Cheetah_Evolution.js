@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 07, 2020
  */
 
 import React from 'react'
@@ -21,9 +21,12 @@ import MediaLinkButton from '../shared/MediaLinkButton'
 
 import LineBreak from '../shared/LineBreak'
 
+import '../shared/ContentPageSharedStyles.css'
+
 import './HistoryPage_Subsection_Cheetah_Evolution.css'
 
-import '../shared/ContentPageSharedStyles.css'
+if ( process.env.NODE_ENV === 'development' )
+  require('./HistoryPage_Subsection_Cheetah_Evolution-debug.css')
 
 export default class HistoryPageSubsectionCheetahEvolution extends React.Component {
 

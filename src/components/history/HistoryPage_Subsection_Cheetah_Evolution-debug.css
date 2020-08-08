@@ -1,0 +1,16 @@
+/**
+ * HistoryPage_Subsection_Cheetah_Evolution-debug.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Aug 07, 2020
+ * Updated  : Aug 07, 2020
+ */
+
+div.HistoryPageSubsectionCheetahEvolutionOuterContainer_DebugColor {
+  background-color: greenyellow;
+}
+
+div.HistoryPageSubsectionCheetahEvolutionInnerContainer_DebugColor {
+  background-color: purple;
+}
