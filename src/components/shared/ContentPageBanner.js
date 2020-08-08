@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 07, 2020
  */
 
 import React from 'react'
@@ -12,7 +12,11 @@ import React from 'react'
 import { getElementStyleClassNames } from '../../styling/styling'
 
 import './ContentPageSharedStyles.css'
+
 import './ContentPageBanner.css'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./ContentPageBanner-debug.css')
 
 export default function ContentPageBanner(props) {
   const contentPageBannerContainerStyles = {

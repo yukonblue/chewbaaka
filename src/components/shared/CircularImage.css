@@ -12,10 +12,6 @@ div.CircularImageOuterContainer {
   width: 384px;
 }
 
-div.CircularImageOuterContainer_DebugColor {
-  background-color: gray;
-}
-
 div.CircularImageCore {
   width: 384px;
   height: 384px;

@@ -4,29 +4,17 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 14, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.ContentPageSkeletonOuterContainer {
   background-color: rgba(239, 239, 239, 1.0);
 }
 
-div.ContentPageSkeletonOuterContainer_DebugColor {
-  background-color: gainsboro;
-}
-
 div.ContentPageSkeletonContentContainer {
-}
-
-div.ContentPageSkeletonContentContainer_DebugColor {
-  background-color: skyblue;
 }
 
 div.ContentPageHeadNavMenuBarOuterContainer {
   /* margin-bottom: 50px; */
   height: 60px;
-}
-
-div.ContentPageHeadNavMenuBarOuterContainer_DebugColor {
-  background-color: hotpink;
 }

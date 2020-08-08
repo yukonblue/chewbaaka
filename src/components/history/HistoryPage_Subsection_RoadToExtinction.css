@@ -4,15 +4,11 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 11, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.HistoryPageSubsectionRoadToExtinctionMiddleColumnContentOuterContainer {
   width: 100%;
-}
-
-div.HistoryPageSubsectionRoadToExtinctionMiddleColumnContentOuterContainer_DebugColor {
-  background-color: wheat;
 }
 
 div.HistoryPageSubsectionRoadToExtinctionStatsBox {

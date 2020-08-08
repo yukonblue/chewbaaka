@@ -4,22 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 12, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.HistoryPageSubsectionCheetahEvolutionOuterContainer {
   margin: 0 auto;
 }
 
-div.HistoryPageSubsectionCheetahEvolutionOuterContainer_DebugColor {
-  background-color: greenyellow;
-}
-
 div.HistoryPageSubsectionCheetahEvolutionInnerContainer {
-}
-
-div.HistoryPageSubsectionCheetahEvolutionInnerContainer_DebugColor {
-  background-color: purple;
 }
 
 div.HistoryPageSubsectionCheetahEvolutionMapComponentContainer {

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Aug 07, 2020
  */
 
 import React from 'react'
@@ -19,6 +19,9 @@ import {
 } from '../../styling/styling'
 
 import './ContentPageSubsectionTwoColumnContentTemplate.css'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./ContentPageSubsectionTwoColumnContentTemplate-debug.css')
 
 export default class ContentPageSubsectionTwoColumnContentTemplate extends React.Component {
 

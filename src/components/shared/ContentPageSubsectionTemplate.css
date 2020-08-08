@@ -4,16 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.ContentPageSubsectionTemplateOuterContainer {
   margin: 0 auto;
   padding: 50px 0px;
-}
-
-div.ContentPageSubsectionTemplateOuterContainer_DebugColor {
-  background-color: grey;
 }
 
 div.ContentPageSubsectionTemplateInnerContainer {
@@ -25,16 +21,8 @@ div.ContentPageSubsectionTemplateInnerContainer {
    */
 }
 
-div.ContentPageSubsectionTemplateInnerContainer_DebugColor {
-  background-color: plum;
-}
-
 h3.ContentPageSubsectionTitle {
   line-height: 1.4;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 32px;
-}
-
-h3.ContentPageSubsectionTitle_DebugColor {
-  background-color: cornflowerblue;
 }

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Aug 07, 2020
  */
 
 /**
@@ -25,7 +25,12 @@ import React from 'react'
 import { getElementStyleClassName } from '../../styling/styling'
 
 import './ContentPageSharedStyles.css'
+
 import './ContentPageIntroSectionTemplate.css'
+
+/* eslint-disable import/first */
+if ( process.env.NODE_ENV === 'development' )
+  require('./ContentPageIntroSectionTemplate-debug.css')
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 

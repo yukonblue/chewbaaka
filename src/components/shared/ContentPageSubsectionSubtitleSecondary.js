@@ -4,14 +4,17 @@
  *
  * Author   : Tomiko
  * Created  : Jul 25, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Aug 07, 2020
  */
 
 import React from 'react'
 
+import { getElementStyleClassName } from '../../styling/styling'
+
 import './ContentPageSubsectionSubtitleSecondary.css'
 
-import { getElementStyleClassName } from '../../styling/styling'
+if ( process.env.NODE_ENV === 'development' )
+  require('./ContentPageSubsectionSubtitleSecondary-debug.css')
 
 export default function ContentPageSubsectionSubtitleSecondary({ children }) {
   return (

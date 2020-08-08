@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 07, 2020
  */
 
 /**
@@ -26,6 +26,9 @@ import React from 'react'
 import { getElementStyleClassName } from '../../styling/styling'
 
 import './CircularImage.css'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./CircularImage-debug.css')
 
 export default class CircularImage extends React.Component {
 

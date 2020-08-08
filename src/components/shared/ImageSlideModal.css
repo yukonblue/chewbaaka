@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 12, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.ImageSliderModalCoverTriggerOuterContainer {
@@ -42,10 +42,6 @@ div.ImageSlideModalComponentModalContentOuterContainer {
   margin: 0 auto;
 }
 
-div.ImageSlideModalComponentModalContentOuterContainer_DebugColor {
-  background-color: palegoldenrod;
-}
-
 img.ui.huge.image.ImageSlideModalComponentModalContentImage {
   display: block;
   margin: 0 auto;
@@ -53,10 +49,6 @@ img.ui.huge.image.ImageSlideModalComponentModalContentImage {
 
 div.ImageSlideModalComponentModalContentImageContainer {
   margin: 0 auto;
-}
-
-div.ImageSlideModalComponentModalContentImageContainer_DebugColor {
-  background-color: orangered;
 }
 
 div.ImageSlideModalComponentModalDescriptionContainer {

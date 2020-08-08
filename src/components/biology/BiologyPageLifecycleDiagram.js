@@ -4,18 +4,21 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 07, 2020
  */
 
 import React from 'react'
+
+import { getElementStyleClassName } from '../../styling/styling'
+
+import image_lifecycle_diagram from './assets/Lifecycle_Diagram-min.png'
 
 import '../shared/ContentPageSharedStyles.css'
 
 import './BiologyPageLifecycleDiagram.css'
 
-import { getElementStyleClassName } from '../../styling/styling'
-
-import image_lifecycle_diagram from './assets/Lifecycle_Diagram-min.png'
+if ( process.env.NODE_ENV === 'development' )
+  require('./BiologyPageLifecycleDiagram-debug.css')
 
 export default function BiologyPageLifecycleDiagram() {
   return (

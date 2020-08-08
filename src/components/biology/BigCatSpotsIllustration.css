@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 18, 2020
- * Updated  : Jul 31, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.BigCatSpotsIllustrationOuterContainer {
@@ -12,10 +12,6 @@ div.BigCatSpotsIllustrationOuterContainer {
   width: 900px;
   margin: 0 auto;
   text-align: center;
-}
-
-div.BigCatSpotsIllustrationOuterContainer_DebugColor {
-  background-color: cyan;
 }
 
 div.BigCatSpotsIllustrationItemContainer {

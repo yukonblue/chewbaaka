@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.ContentPageIntroSectionTemplateOuterContainer {
@@ -15,32 +15,15 @@ div.ContentPageIntroSectionTemplateInnerContainer {
   margin: 0 auto;
 }
 
-div.ContentPageIntroSectionTemplateInnerContainer_DebugColor {
-  background-color: yellowgreen;
-}
-
 div.ContentPageIntroSectionTemplateTitleContainer {
   padding: 20px 0px;
 }
 
-div.ContentPageIntroSectionTemplateTitleContainer_DebugColor {
-  /* Uncomment line below for debugging. */
-  background-color: violet;
-}
-
 div.ContentPageIntroSectionTemplateContentContainer {
-}
-
-div.ContentPageIntroSectionTemplateContentContainer_DebugColor {
-  background-color: tan;
 }
 
 h1.ContentPageIntroSectionTemplateTitle {
   font-size: 64px;
   line-height: 1.6;
   text-decoration: underline;
-}
-
-h1.ContentPageIntroSectionTemplateTitle_DebugColor {
-  background-color: powderblue;
 }

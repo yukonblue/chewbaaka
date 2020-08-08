@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 29, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 07, 2020
  */
 
 import React from 'react'
@@ -16,6 +16,9 @@ import { getElementStyleClassName } from '../../styling/styling'
 import 'semantic-ui-css/semantic.min.css'
 
 import './ImageViewModal.css'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./ImageViewModal-debug.css')
 
 export default class ImageViewModal extends React.Component {
 

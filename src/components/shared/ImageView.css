@@ -4,16 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.ImageViewOuterContainer {
   display: block;
   max-width: 100%;
-}
-
-div.ImageViewOuterContainer_DebugColor {
-  background-color: orchid;
 }
 
 img.ImageViewImg {

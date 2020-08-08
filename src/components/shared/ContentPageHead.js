@@ -4,20 +4,24 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Aug 07, 2020
  */
 
 import React from 'react'
 
 import "semantic-ui-css/semantic.min.css"
 
-import './ContentPageHead.css'
-import './ContentPageSharedStyles.css'
-
 import { getElementStyleClassNames } from '../../styling/styling'
 
 import ContentPageTopNavMenuBar from './ContentPageTopNavMenuBar'
 import ContentPageBanner from './ContentPageBanner'
+
+import './ContentPageSharedStyles.css'
+
+import './ContentPageHead.css'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./ContentPageHead-debug.css')
 
 export default function ContentPageHead(props) {
   let coverImage = null;

@@ -4,18 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 07, 2020
  */
 
 import React from 'react'
 
-import "semantic-ui-css/semantic.min.css"
-
 import TextReveal from '../shared/TextReveal'
 
 import { getElementStyleClassName } from '../../styling/styling'
-
-import './FelidaeFamilyTree.css'
 
 /** Puma lineage */
 import image_cheetah from './assets/felidae/puma/felidae_cheetah_Acinonyx_jubatus_240x240-min.jpg'
@@ -72,6 +68,11 @@ import image_pampas_cat from './assets/felidae/leopardus/felidae_pampas_cat_Leop
 import image_oncilla from './assets/felidae/leopardus/felidae_oncilla_Leopardus_tigrinus_240x240-min.jpg'
 import image_southern_tiger_cat from './assets/felidae/leopardus/felidae_southern_tiger_cat_Leopardus_guttulus_240x240-min.jpg'
 import image_guina from './assets/felidae/leopardus/felidae_guina_Leopardus_guigna_240x240-min.jpg'
+
+import './FelidaeFamilyTree.css'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./FelidaeFamilyTree-debug.css')
 
 const contentColorLynx = [29,88,182];
 const contentColorPanthera = [248,180,14];

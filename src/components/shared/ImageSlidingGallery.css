@@ -4,17 +4,13 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.ImageSlidingGalleryOuterContainer {
   display: block;
   position: relative;
   width: 100%;
-}
-
-div.ImageSlidingGalleryOuterContainer_DebugColor {
-  background-color: aliceblue;
 }
 
 div.ImageSlidingGalleryButtonContainer {
@@ -27,10 +23,6 @@ div.ImageSlidingGalleryButtonContainer {
 div.ImageSlidingGalleryCoreContainer {
   position: relative;
   padding-left: 55px;
-}
-
-div.ImageSlidingGalleryCoreContainer_DebugColor {
-  background-color: blanchedalmond;
 }
 
 img.ImageSlidingGalleryImgPart {

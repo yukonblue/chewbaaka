@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jun 30, 2020
- * Updated  : Aug 06, 2020
+ * Updated  : Aug 07, 2020
  */
 
 import React from 'react'
@@ -24,7 +24,10 @@ import EcologyPage from './components/ecology/EcologyPage'
 import FuturePage from './components/future/FuturePage'
 
 import './components/shared/GlobalPageStyles.css'
-import './styling/DebugStyles.css'
+
+/* eslint-disable import/first */
+if ( process.env.NODE_ENV === 'development' )
+  require('./styling/DebugStyles.css')
 
 import { config } from './config'
 

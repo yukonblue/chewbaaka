@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 07, 2020
  */
 
 /**
@@ -25,6 +25,9 @@ import { getElementStyleClassName } from '../../styling/styling'
 import ImageCollageCell from './ImageCollageCell'
 
 import './ImageCollage.css'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./ImageCollage-debug.css')
 
 export default class ImageCollage extends React.Component {
 

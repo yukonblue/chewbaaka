@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 06, 2020
+ * Updated  : Aug 07, 2020
  */
 
 import React from 'react'
@@ -18,9 +18,6 @@ import {
   Sticky,
 } from 'semantic-ui-react'
 
-import './ContentPageSharedStyles.css'
-import './ContentPageSkeleton.css'
-
 import {
   getElementStyleClassName,
   getElementStyleClassNames
@@ -32,6 +29,15 @@ import ContentPageSideNavMenu from './ContentPageSideNavMenu'
 
 import TopNavBar from './TopNavBar'
 import Footer from './Footer'
+
+import './ContentPageSharedStyles.css'
+
+import './ContentPageSkeleton.css'
+
+if ( process.env.NODE_ENV === 'development' ) {
+  require('./ContentPageSharedStyles-debug.css')
+  require('./ContentPageSkeleton-debug.css')
+}
 
 const __TEST__ = ( process.env.NODE_ENV === "test" );
 

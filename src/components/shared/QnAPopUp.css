@@ -4,17 +4,13 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 28, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.QnAPopUpContainer {
   width: 180px;
   height: 60px;
   position: relative;
-}
-
-div.QnAPopUpContainer_DebugColor {
-  background-color: pink;
 }
 
 div.QnAPopUpMainTextBubbleContainer {
@@ -42,10 +38,6 @@ div.QnAPopUpButtonGroupContainer {
   font-size: 18px;
   font-weight: 600;
   color: #212529;
-}
-
-div.QnAPopUpButtonGroupContainer_DebugColor {
-  background-color: powderblue;
 }
 
 button.ui.orange.circular.icon.button.QuestionButton {

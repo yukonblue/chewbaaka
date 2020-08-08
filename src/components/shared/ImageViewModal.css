@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 29, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.ImageViewModalCoverTriggerOuterContainer {
@@ -28,16 +28,8 @@ div.ImageViewModalComponentModalContentOuterContainer {
   margin: 0 auto;
 }
 
-div.ImageViewModalComponentModalContentOuterContainer_DebugColor {
-  background-color: palegoldenrod;
-}
-
 div.ImageViewModalComponentModalContentImageContainer {
   margin: 0 auto;
-}
-
-div.ImageViewModalComponentModalContentImageContainer_DebugColor {
-  background-color: orangered;
 }
 
 img.ui.huge.image.ImageViewModalComponentModalContentImage {

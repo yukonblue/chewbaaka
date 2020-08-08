@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 11, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.ImageCollageCellOuterContainer {
@@ -12,19 +12,11 @@ div.ImageCollageCellOuterContainer {
   position: relative;
 }
 
-div.ImageCollageCellOuterContainer_DebugColor {
-  background-color: blueviolet;
-}
-
 div.ImageCollageCellTitleGroupOuterContainer {
   position: absolute;
   bottom: 50px;
   left: 50px;
   z-index: 2;
-}
-
-div.ImageCollageCellTitleGroupOuterContainer_DebugColor {
-  background-color: greenyellow;
 }
 
 h2.ImageCollageCellTitleText {

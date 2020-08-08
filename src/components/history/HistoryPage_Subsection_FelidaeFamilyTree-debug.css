@@ -1,0 +1,20 @@
+/**
+ * HistoryPage_Subsection_FelidaeFamilyTree-debug.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Aug 07, 2020
+ * Updated  : Aug 07, 2020
+ */
+
+div.HistoryPageSubsectionFelidaeFamilyTreeOuterContainer_DebugColor {
+  background-color: turquoise;
+}
+
+div.HistoryPageSubsectionFelidaeFamilyTreeInnerContainer_DebugColor {
+  background-color: violet;
+}
+
+div.HistoryPageSubsectionFelidaeFamilyTreeCore_DebugColor {
+  background-color: tomato;
+}

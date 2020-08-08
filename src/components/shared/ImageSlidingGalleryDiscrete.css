@@ -4,15 +4,11 @@
  *
  * Author   : Tomiko
  * Created  : Jul 23, 2020
- * Updated  : Jul 23, 2020
+ * Updated  : Aug 07, 2020
  */
 
 div.ImageSlidingGalleryDiscreteOuterContainer {
   position: relative;
-}
-
-div.ImageSlidingGalleryDiscreteOuterContainer_DebugColor {
-  background-color: gray;
 }
 
 div.ImageSlidingGalleryDiscreteCoreContainer {

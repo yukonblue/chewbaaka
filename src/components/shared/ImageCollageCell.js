@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 07, 2020
  */
 
 /**
@@ -38,6 +38,9 @@ import 'semantic-ui-css/semantic.min.css'
 import { getElementStyleClassName } from '../../styling/styling'
 
 import './ImageCollageCell.css'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./ImageCollageCell-debug.css')
 
 export default class ImageCollageCell extends React.Component {
 

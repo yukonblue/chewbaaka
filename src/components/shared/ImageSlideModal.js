@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 28, 2020
+ * Updated  : Aug 07, 2020
  */
 
 import React from 'react'
@@ -18,6 +18,9 @@ import ContentPageCaptionLabel from './ContentPageCaptionLabel'
 import { getElementStyleClassName } from '../../styling/styling'
 
 import "./ImageSlideModal.css"
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./ImageSlideModal-debug.css')
 
 export default class ImageSlideModal extends React.Component {
 
