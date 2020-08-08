@@ -337,10 +337,10 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                 Ambassadors
               </h4>
               <div
-                className="OverflowHidden"
+                className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
               >
                 <div
-                  className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
+                  className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
                 >
                   <div
                     className="ImageViewOuterContainer"
@@ -399,7 +399,7 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                   </div>
                 </div>
                 <div
-                  className=""
+                  className="ContentPageSideFloatFluidContainerFixedPartContainer"
                 >
                   <p
                     className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
@@ -595,10 +595,10 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
               Community Events
             </h3>
             <div
-              className="OverflowHidden"
+              className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
             >
               <div
-                className="FloatLeft HorizontalCusionPaddingRight BottomMargin20px"
+                className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatLeft HorizontalCusionPaddingRight"
               >
                 <div
                   className="ImageViewOuterContainer"
@@ -657,7 +657,7 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                 </div>
               </div>
               <div
-                className=""
+                className="ContentPageSideFloatFluidContainerFixedPartContainer"
               >
                 <p
                   className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"

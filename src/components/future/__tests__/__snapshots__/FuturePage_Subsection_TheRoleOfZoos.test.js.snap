@@ -36,10 +36,10 @@ exports[`FuturePageSubsectionTheRoleOfZoos component snapshot 1`] = `
           Ambassadors
         </h4>
         <div
-          className="OverflowHidden"
+          className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
         >
           <div
-            className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
           >
             <div
               className="ImageViewOuterContainer"
@@ -98,7 +98,7 @@ exports[`FuturePageSubsectionTheRoleOfZoos component snapshot 1`] = `
             </div>
           </div>
           <div
-            className=""
+            className="ContentPageSideFloatFluidContainerFixedPartContainer"
           >
             <p
               className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"

@@ -17,10 +17,10 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
         className="ContentPageSubsectionPartContainer"
       >
         <div
-          className="OverflowHidden"
+          className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
         >
           <div
-            className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px HalfWidth"
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft HalfWidth"
           >
             <div
               className="ImageViewOuterContainer"
@@ -79,7 +79,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
             </div>
           </div>
           <div
-            className="FloatLeft HalfWidth"
+            className="ContentPageSideFloatFluidContainerFixedPartContainer FloatLeft HalfWidth"
           >
             <div
               className="TextBubbleOuterContainer"
@@ -127,10 +127,10 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
         className="ContentPageSubsectionPartContainer"
       >
         <div
-          className="OverflowHidden"
+          className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
         >
           <div
-            className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px HalfWidth"
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft HalfWidth"
           >
             <div
               className="TextBubbleOuterContainer"
@@ -173,7 +173,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
             </div>
           </div>
           <div
-            className="FloatLeft HalfWidth"
+            className="ContentPageSideFloatFluidContainerFixedPartContainer FloatLeft HalfWidth"
           >
             <div
               className="ImageViewOuterContainer"
@@ -237,10 +237,10 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
         className="ContentPageSubsectionPartContainer"
       >
         <div
-          className="OverflowHidden"
+          className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
         >
           <div
-            className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px HalfWidth"
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft HalfWidth"
           >
             <div
               className="ImageViewOuterContainer"
@@ -299,7 +299,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
             </div>
           </div>
           <div
-            className="FloatLeft HalfWidth"
+            className="ContentPageSideFloatFluidContainerFixedPartContainer FloatLeft HalfWidth"
           >
             <div
               className="TextBubbleOuterContainer"

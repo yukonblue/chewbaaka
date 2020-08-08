@@ -13,10 +13,10 @@ exports[`BiologyPageSubsectionLifecycleStage1 component snapshot 1`] = `
       Stage 1
     </h3>
     <div
-      className="OverflowHidden"
+      className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
     >
       <div
-        className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
+        className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
       >
         <div
           className="ImageViewOuterContainer"
@@ -75,7 +75,7 @@ exports[`BiologyPageSubsectionLifecycleStage1 component snapshot 1`] = `
         </div>
       </div>
       <div
-        className=""
+        className="ContentPageSideFloatFluidContainerFixedPartContainer"
       >
         <p
           className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"

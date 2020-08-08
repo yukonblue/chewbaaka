@@ -23,10 +23,10 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
             Bush Encroachment
           </h4>
           <div
-            className="OverflowHidden"
+            className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
           >
             <div
-              className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
+              className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
             >
               <div
                 className="ImageViewOuterContainer"
@@ -85,7 +85,7 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
               </div>
             </div>
             <div
-              className=""
+              className="ContentPageSideFloatFluidContainerFixedPartContainer"
             >
               <p
                 className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
@@ -139,10 +139,10 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
             Bush Encroachment Threatens Cheetah Survival
           </h4>
           <div
-            className="OverflowHidden"
+            className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
           >
             <div
-              className="FloatLeft HorizontalCusionPaddingRight BottomMargin20px"
+              className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatLeft HorizontalCusionPaddingRight"
             >
               <div
                 className="ImageViewOuterContainer"
@@ -201,7 +201,7 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
               </div>
             </div>
             <div
-              className=""
+              className="ContentPageSideFloatFluidContainerFixedPartContainer"
             >
               <p
                 className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
@@ -230,10 +230,10 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
             Cheetah Conservation Fund’s (CCF) Bush Project
           </h4>
           <div
-            className="OverflowHidden"
+            className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
           >
             <div
-              className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
+              className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
             >
               <img
                 alt="FSC logo"
@@ -241,7 +241,7 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
               />
             </div>
             <div
-              className=""
+              className="ContentPageSideFloatFluidContainerFixedPartContainer"
             >
               <p
                 className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
@@ -265,10 +265,10 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
             The Bushblok project objectives are:
           </h4>
           <div
-            className="OverflowHidden"
+            className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
           >
             <div
-              className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
+              className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
             >
               <img
                 alt="CCF Bushblok"
@@ -276,7 +276,7 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
               />
             </div>
             <div
-              className=""
+              className="ContentPageSideFloatFluidContainerFixedPartContainer"
             >
               <ul>
                 <li

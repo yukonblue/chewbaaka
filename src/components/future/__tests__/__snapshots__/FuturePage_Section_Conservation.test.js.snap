@@ -67,10 +67,10 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
               className="ContentPageSubsectionPartContainer"
             >
               <div
-                className="OverflowHidden"
+                className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
               >
                 <div
-                  className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
+                  className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
                 >
                   <img
                     alt="Conservation is taking care of the environment in which we live."
@@ -78,7 +78,7 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
                   />
                 </div>
                 <div
-                  className=""
+                  className="ContentPageSideFloatFluidContainerFixedPartContainer"
                 >
                   <p
                     className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
