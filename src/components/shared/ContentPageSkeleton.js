@@ -34,8 +34,10 @@ import './ContentPageSharedStyles.css'
 
 import './ContentPageSkeleton.css'
 
-if ( process.env.NODE_ENV === 'development' )
+if ( process.env.NODE_ENV === 'development' ) {
+  require('./ContentPageSharedStyles-debug.css')
   require('./ContentPageSkeleton-debug.css')
+}
 
 const __TEST__ = ( process.env.NODE_ENV === "test" );
 

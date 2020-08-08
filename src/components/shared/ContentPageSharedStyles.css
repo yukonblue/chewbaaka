@@ -125,10 +125,6 @@ p.ContentPageHeadAndSectionIntroText {
   word-wrap: break-word;
 }
 
-p.ContentPageHeadAndSectionIntroText_DebugColor {
-  color: cornflowerblue;
-}
-
 .ContentPageRegularTextSize {
   font-size: 19px;
 }
@@ -139,10 +135,6 @@ p.ContentPageHeadAndSectionIntroText_DebugColor {
 
 p.ContentPageCaptionTextSize {
   font-size: 16px;
-}
-
-p.ContentPageCaptionTextSize_DebugColor {
-  color: aqua;
 }
 
 span.TaxonomyBinomialName {
