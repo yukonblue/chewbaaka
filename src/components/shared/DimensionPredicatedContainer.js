@@ -9,6 +9,8 @@
 
 import React from 'react'
 
+const __TEST__ = ( process.env.NODE_ENV === "test" );
+
 export default class DimensionPredicatedContainer extends React.Component {
 
   state = {
@@ -16,12 +18,14 @@ export default class DimensionPredicatedContainer extends React.Component {
   };
 
   componentDidMount() {
-    this.setState({
-      dimensions: {
-        width: this.container.offsetWidth,
-        height: this.container.offsetHeight,
-      },
-    });
+    if ( !__TEST__ ) {
+      this.setState({
+        dimensions: {
+          width: this.container.offsetWidth,
+          height: this.container.offsetHeight,
+        },
+      });
+    }
   }
 
   render() {
