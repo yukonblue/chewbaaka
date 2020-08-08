@@ -1,0 +1,20 @@
+/**
+ * TextBubble-debug.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Aug 08, 2020
+ * Updated  : Aug 08, 2020
+ */
+
+div.TextBubbleOuterContainer_DebugColor {
+  background-color: deeppink;
+}
+
+div.TextBubbleInnerContainer_DebugColor {
+  background-color: blanchedalmond;
+}
+
+div.TextBubbleInnerCore {
+  background-color: blueviolet;
+}

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 08, 2020
  */
 
 /**
@@ -28,9 +28,14 @@
 
 import React from 'react'
 
-import 'semantic-ui-css/semantic.min.css'
+import {
+  getElementStyleClassName
+} from '../../styling/styling'
 
 import './TextBubble.css'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./TextBubble-debug.css')
 
 export default function TextBubble(props) {
   const componentOuterContainerStyles = {
@@ -51,12 +56,12 @@ export default function TextBubble(props) {
 
   return (
     <div
-      className="TextBubbleOuterContainer"
+      className={getElementStyleClassName("TextBubbleOuterContainer")}
       style={componentOuterContainerStyles}
       hidden={props.hidden}
     >
-      <div className="TextBubbleInnerContainer">
-        <div className="TextBubbleInnerCore">
+      <div className={getElementStyleClassName("TextBubbleInnerContainer")}>
+        <div className={getElementStyleClassName("TextBubbleInnerCore")}>
           <h1 style={componentTitleElementStyles}>
             {props.title}
           </h1>
