@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 08, 2020
  */
 
 import React from 'react'
@@ -16,6 +16,8 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import DimensionPredicatedContainer from '../shared/DimensionPredicatedContainer'
 
 import CheetahSkullDiagram from './CheetahSkullDiagram'
 
@@ -45,10 +47,24 @@ export default class BiologyPageSubsectionSkull extends React.Component {
     return (
       <div>
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
+        {this.renderCheetahSkulDiagramConditionally()}
+      </div>
+    );
+  }
 
-        <div className="BiologyPageSubsectionSkullCheetahSkullDiagramContainer">
-          <CheetahSkullDiagram />
-        </div>
+  renderCheetahSkulDiagramConditionally() {
+    return (
+      <DimensionPredicatedContainer
+        pred={(dimension) => (dimension.width >= 900)}
+        renderContentHandler={this.renderCheetahSkulDiagram}
+      />
+    );
+  }
+
+  renderCheetahSkulDiagram() {
+    return (
+      <div className="BiologyPageSubsectionSkullCheetahSkullDiagramContainer">
+        <CheetahSkullDiagram />
       </div>
     );
   }
