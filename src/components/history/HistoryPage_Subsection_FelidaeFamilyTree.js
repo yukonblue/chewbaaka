@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 08, 2020
  */
 
 import React from 'react'
@@ -15,6 +15,8 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import ContentPageParagraph from '../shared/ContentPageParagraph'
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
+
+import DimensionPredicatedContainer from '../shared/DimensionPredicatedContainer'
 
 import FluidImageWrapper from '../shared/FluidImageWrapper'
 
@@ -61,7 +63,7 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
     return (
       <div className={getElementStyleClassName("HistoryPageSubsectionFelidaeFamilyTreeInnerContainer")}>
         {this.renderRelatedCatPart()}
-        {this.renderFelidaeFamilyTreePart()}
+        {this.renderFelidaeFamilyTreePartConditionally()}
       </div>
     );
   }
@@ -89,6 +91,22 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
           />
         </div>
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderFelidaeFamilyTreePartConditionally() {
+    return (
+      <DimensionPredicatedContainer
+        renderContentHandler={
+          (dimensions) => {
+            console.log(dimensions);
+            if (dimensions.width < 1348) {
+              return null;
+            }
+            return this.renderFelidaeFamilyTreePart();
+          }
+        }
+      />
     );
   }
 
