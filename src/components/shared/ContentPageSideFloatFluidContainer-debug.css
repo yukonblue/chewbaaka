@@ -1,0 +1,20 @@
+/**
+ * ContentPageSideFloatFluidContainer-debug.js
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Aug 08, 2020
+ * Updated  : Aug 08, 2020
+ */
+
+div.ContentPageSideFloatFluidContainerOuterContainer_DebugColor {
+  background-color: sandybrown;
+}
+
+div.ContentPageSideFloatFluidContainerFloatPartContainer_DebugColor {
+  background-color: springgreen;
+}
+
+div.ContentPageSideFloatFluidContainerFixedPartContainer_DebugColor {
+  background-color: tomato;
+}

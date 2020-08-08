@@ -64,10 +64,10 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
           Raising LGD’s
         </h4>
         <div
-          className="OverflowHidden"
+          className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
         >
           <div
-            className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
           >
             <div
               className="ImageViewOuterContainer"
@@ -126,7 +126,7 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
             </div>
           </div>
           <div
-            className=""
+            className="ContentPageSideFloatFluidContainerFixedPartContainer"
           >
             <p
               className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
@@ -213,10 +213,10 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
           Dogs Save Cheetahs
         </h4>
         <div
-          className="OverflowHidden"
+          className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
         >
           <div
-            className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
           >
             <img
               alt="Cheetah and LGD"
@@ -229,7 +229,7 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
             />
           </div>
           <div
-            className=""
+            className="ContentPageSideFloatFluidContainerFixedPartContainer"
           >
             <p
               className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"

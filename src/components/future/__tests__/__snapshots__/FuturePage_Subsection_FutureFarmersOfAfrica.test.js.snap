@@ -17,10 +17,10 @@ exports[`FuturePageSubsectionFutureFarmersOfAfrica component snapshot 1`] = `
         className="ContentPageSubsectionPartContainer"
       >
         <div
-          className="OverflowHidden"
+          className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
         >
           <div
-            className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
           >
             <div
               style={
@@ -50,7 +50,7 @@ exports[`FuturePageSubsectionFutureFarmersOfAfrica component snapshot 1`] = `
             </div>
           </div>
           <div
-            className=""
+            className="ContentPageSideFloatFluidContainerFixedPartContainer"
           >
             <p
               className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
@@ -64,10 +64,10 @@ exports[`FuturePageSubsectionFutureFarmersOfAfrica component snapshot 1`] = `
         className="ContentPageSubsectionPartContainer"
       >
         <div
-          className="OverflowHidden"
+          className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
         >
           <div
-            className="FloatLeft HorizontalCusionPaddingRight BottomMargin20px"
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatLeft HorizontalCusionPaddingRight"
           >
             <div
               className="ImageViewOuterContainer"
@@ -126,7 +126,7 @@ exports[`FuturePageSubsectionFutureFarmersOfAfrica component snapshot 1`] = `
             </div>
           </div>
           <div
-            className=""
+            className="ContentPageSideFloatFluidContainerFixedPartContainer"
           >
             <div>
               <p

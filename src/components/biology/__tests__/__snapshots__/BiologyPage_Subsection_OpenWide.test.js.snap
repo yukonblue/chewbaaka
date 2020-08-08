@@ -17,10 +17,10 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
         className="ContentPageSubsectionPartContainer"
       >
         <div
-          className="OverflowHidden"
+          className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
         >
           <div
-            className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
           >
             <img
               alt="Open wide"
@@ -30,7 +30,7 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
             />
           </div>
           <div
-            className=""
+            className="ContentPageSideFloatFluidContainerFixedPartContainer"
           >
             <p
               className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
@@ -49,10 +49,10 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
         className="ContentPageSubsectionPartContainer"
       >
         <div
-          className="OverflowHidden"
+          className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
         >
           <div
-            className="FloatLeft HorizontalCusionPaddingRight BottomMargin20px"
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatLeft HorizontalCusionPaddingRight"
           >
             <img
               alt="Papillae on cheetah's tongue"
@@ -60,7 +60,7 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
             />
           </div>
           <div
-            className=""
+            className="ContentPageSideFloatFluidContainerFixedPartContainer"
           >
             <p
               className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
@@ -74,10 +74,10 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
         className="ContentPageSubsectionPartContainer"
       >
         <div
-          className="OverflowHidden"
+          className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
         >
           <div
-            className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px"
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
           >
             <img
               alt="Cheetah grooming"
@@ -85,7 +85,7 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
             />
           </div>
           <div
-            className=""
+            className="ContentPageSideFloatFluidContainerFixedPartContainer"
           >
             <p
               className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"

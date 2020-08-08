@@ -13,10 +13,10 @@ exports[`BiologyPageSubsectionLearningToHunt component snapshot 1`] = `
       Learning to Hunt
     </h3>
     <div
-      className="OverflowHidden"
+      className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
     >
       <div
-        className="FloatRight HorizontalCusionPaddingLeft BottomMargin20px HalfWidth"
+        className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
       >
         <div
           className="ImageViewOuterContainer"
@@ -75,7 +75,7 @@ exports[`BiologyPageSubsectionLearningToHunt component snapshot 1`] = `
         </div>
       </div>
       <div
-        className="FloatLeft HalfWidth"
+        className="ContentPageSideFloatFluidContainerFixedPartContainer FloatLeft"
       >
         <div
           className="TextBubbleOuterContainer"
