@@ -131,7 +131,7 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
       <DimensionPredicatedContainer
         renderContentHandler={
           (dimensions) => {
-            console.log(dimensions);
+            console.log("FelidaeFamilyTreePartCore container dimension: %O", dimensions);
             if (dimensions.width < 1346) {
               return null;
             }
