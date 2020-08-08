@@ -137,7 +137,7 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
   renderCheetahAccelerationIllustrationPartConditionally() {
     return (
       <DimensionPredicatedContainer
-        pred={(dimension) => (dimension.width >= 1080)}
+        pred={(dimension) => (dimension.width >= 720)}
         renderContentHandler={this.renderCheetahAccelerationIllustrationPart}
       />
     );
