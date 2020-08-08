@@ -19,7 +19,7 @@ import { getElementStyleClassName } from '../../styling/styling'
 
 import "./ImageSlideModal.css"
 
-if ( process.env.NODE_ENV === 'production' )
+if ( process.env.NODE_ENV === 'development' )
   require('./ImageSlideModal-debug.css')
 
 export default class ImageSlideModal extends React.Component {
