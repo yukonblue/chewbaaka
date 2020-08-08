@@ -63,7 +63,7 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
     return (
       <div className={getElementStyleClassName("HistoryPageSubsectionFelidaeFamilyTreeInnerContainer")}>
         {this.renderRelatedCatPart()}
-        {this.renderFelidaeFamilyTreePartConditionally()}
+        {this.renderFelidaeFamilyTreePart()}
       </div>
     );
   }
@@ -94,22 +94,6 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
     );
   }
 
-  renderFelidaeFamilyTreePartConditionally() {
-    return (
-      <DimensionPredicatedContainer
-        renderContentHandler={
-          (dimensions) => {
-            console.log(dimensions);
-            if (dimensions.width < 1348) {
-              return null;
-            }
-            return this.renderFelidaeFamilyTreePart();
-          }
-        }
-      />
-    );
-  }
-
   renderFelidaeFamilyTreePart() {
     return (
       <ContentPageSubsectionPart>
@@ -124,15 +108,8 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
           representing a subset of the <span className="TaxonomyBinomialName">Felidae</span> cat
           family that are the most related genetically.
         </ContentPageParagraph>
-
-        <HintSignpost
-          hintText="Hover over images below to reveal the members in the Felidae family tree"
-          iconName="arrow circle down"
-        />
-
-        <div className={getElementStyleClassName("HistoryPageSubsectionFelidaeFamilyTreeCore")}>
-          <FelidaeFamilyTree />
-        </div>
+        
+        {this.renderFelidaeFamilyTreePartCoreConditionally()}
 
         <MediaLinkButton
           href="https://www.wildcatfamily.com/felidae-evolution/"
@@ -146,6 +123,34 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
           />
         </ContentPageSubsectionPart>
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderFelidaeFamilyTreePartCoreConditionally() {
+    return (
+      <DimensionPredicatedContainer
+        renderContentHandler={
+          (dimensions) => {
+            console.log(dimensions);
+            if (dimensions.width < 1346) {
+              return null;
+            }
+            return this.renderFelidaeFamilyTreePartCore();
+          }
+        }
+      />
+    );
+  }
+
+  renderFelidaeFamilyTreePartCore() {
+    return (
+      <div className={getElementStyleClassName("HistoryPageSubsectionFelidaeFamilyTreeCore")}>
+        <HintSignpost
+          hintText="Hover over images below to reveal the members in the Felidae family tree"
+          iconName="arrow circle down"
+        />
+        <FelidaeFamilyTree />
+      </div>
     );
   }
 }
