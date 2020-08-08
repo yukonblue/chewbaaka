@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 06, 2020
+ * Updated  : Aug 08, 2020
  */
 
 import React from 'react'
@@ -20,7 +20,9 @@ import RouterWrapped from '../../../testing/RouterWrapped'
 test('renders ContentPageTopNavMenuBar component', () => {
   render(
     RouterWrapped(
-      <ContentPageTopNavMenuBar />
+      <ContentPageTopNavMenuBar
+        pageTitle="Ecology"
+      />
     )
   );
 
@@ -36,7 +38,9 @@ test('ContentPageTopNavMenuBar component snapshot', () => {
   const tree = renderer
     .create(
       RouterWrapped(
-        <ContentPageTopNavMenuBar />
+        <ContentPageTopNavMenuBar
+          pageTitle="Future"
+        />
       )
     ).toJSON();
   expect(tree).toMatchSnapshot();

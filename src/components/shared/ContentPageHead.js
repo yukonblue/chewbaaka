@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 08, 2020
  */
 
 import React from 'react'
@@ -42,7 +42,9 @@ export default function ContentPageHead(props) {
       data-testid="ContentPageHeadComponentTestId"
     >
       <div className="ContentPageHeadNavMenuBarOuterContainer">
-        <ContentPageTopNavMenuBar />
+        <ContentPageTopNavMenuBar
+          pageTitle={props.pageProps.title}
+        />
       </div>
       <ContentPageBanner
         coverImage={coverImage}
