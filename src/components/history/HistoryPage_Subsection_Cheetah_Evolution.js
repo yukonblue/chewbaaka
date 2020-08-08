@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 08, 2020
  */
 
 import React from 'react'
@@ -14,6 +14,8 @@ import { getElementStyleClassName } from '../../styling/styling'
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
+
+import DimensionPredicatedContainer from '../shared/DimensionPredicatedContainer'
 
 import HistoryPageCheetahEvolutionMap from './HistoryPageCheetahEvolutionMap'
 
@@ -55,7 +57,7 @@ export default class HistoryPageSubsectionCheetahEvolution extends React.Compone
             Learn about the evolution and migration of the cheetah.
           </ContentPageSubsectionSubtitle>
 
-          <HistoryPageCheetahEvolutionMap />
+          {this.renderCheetahEvolutionMapConditionally()}
 
           <LineBreak lines={2} />
 
@@ -66,6 +68,19 @@ export default class HistoryPageSubsectionCheetahEvolution extends React.Compone
           />
         </ContentPageSubsectionPart>
       </div>
+    );
+  }
+
+  renderCheetahEvolutionMapConditionally() {
+    return (
+      <DimensionPredicatedContainer
+        pred={(dimension) => (dimension.width >= 720)}
+        renderContentHandler={
+          () => (
+            <HistoryPageCheetahEvolutionMap />
+          )
+        }
+      />
     );
   }
 }
