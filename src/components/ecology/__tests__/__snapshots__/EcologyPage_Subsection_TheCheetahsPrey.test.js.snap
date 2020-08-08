@@ -87,19 +87,11 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
       <div
         className="ContentPageSubsectionPartContainer"
       >
-        <div
-          className="Centered"
-          style={
-            Object {
-              "width": 960,
-            }
-          }
-        >
-          <img
-            alt="Cheetah and lion have drastically different preys, hunting strategies, and success rates."
-            src="Cheetah_Lion_Hunting_Success_Rate_Comparsion-min.png"
-          />
-        </div>
+        <img
+          alt="Cheetah and lion have drastically different preys, hunting strategies, and success rates."
+          className="FullWidth Centered DisplayBlock"
+          src="Cheetah_Lion_Hunting_Success_Rate_Comparsion-min.png"
+        />
       </div>
       <div
         className="ContentPageSubsectionPartContainer"
