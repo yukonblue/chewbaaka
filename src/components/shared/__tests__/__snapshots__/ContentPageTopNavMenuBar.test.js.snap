@@ -56,7 +56,7 @@ exports[`ContentPageTopNavMenuBar component snapshot 1`] = `
       onClick={[Function]}
     >
       <div
-        className="item"
+        className="active item"
         onClick={[Function]}
       >
         Future
