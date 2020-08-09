@@ -76,7 +76,7 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
 
         <div className="VerticalCushionPadding">
-          <CenteredFullWidthContainer maxWidth={1200}>
+          <CenteredFullWidthContainer width={1200}>
             <FluidImageWrapper
               src={image_CCF_LGD}
               alt="Livestock Guarding Dog"
@@ -149,6 +149,7 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
           <FluidImageWrapper
             src={image_LGD}
             alt="Livestock Guarding Dogs"
+            centered
           />
         </div>
       </ContentPageSubsectionPart>

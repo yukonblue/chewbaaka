@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 08, 2020
  */
 
 import React from 'react'
@@ -62,7 +62,7 @@ export default class FuturePageSubsectionInternshipsAndVolunteering extends Reac
   renderBannerImage() {
     return (
       <ContentPageSubsectionPart>
-        <CenteredFullWidthContainer maxWidth={1300}>
+        <CenteredFullWidthContainer width={1300}>
           <FluidImageWrapper
             src={image_CCF_GetInvolved_Volunteer}
             alt="CCF Volunteering"
