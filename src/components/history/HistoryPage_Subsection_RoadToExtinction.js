@@ -41,8 +41,7 @@ import cheetah_range_map_02 from './assets/cheetah-range-map-02-min.png'
 
 import '../shared/ContentPageSharedStyles.css'
 
-if ( process.env.NODE_ENV === 'development' )
-  require('./HistoryPage_Subsection_RoadToExtinction-debug.css')
+import './HistoryPage_Subsection_RoadToExtinction.css'
 
 export default class HistoryPageSubsectionRoadToExtinction extends React.Component {
 
