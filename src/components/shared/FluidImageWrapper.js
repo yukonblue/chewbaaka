@@ -14,7 +14,7 @@ import './ContentPageSharedStyles.css'
 export default function FluidImageWrapper(props) {
   return (
     <img
-      className="FullWidth Centered DisplayBlock"
+      className="FullWidth DisplayBlock"
       src={props.src}
       alt={props.alt}
     />
