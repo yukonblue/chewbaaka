@@ -22,7 +22,7 @@ exports[`BiologyPageSubsectionLearningToHunt component snapshot 1`] = `
           className="ImageViewOuterContainer"
           style={
             Object {
-              "maxWidth": 720,
+              "width": 720,
             }
           }
         >
@@ -30,7 +30,7 @@ exports[`BiologyPageSubsectionLearningToHunt component snapshot 1`] = `
             className="ImageViewInnerContainer"
           >
             <div
-              className="ImageViewCore"
+              className="ImageViewImgContainer"
             >
               <img
                 alt="Cheetah cubs learning how to hunt."
@@ -42,34 +42,30 @@ exports[`BiologyPageSubsectionLearningToHunt component snapshot 1`] = `
                   }
                 }
               />
+            </div>
+            <div
+              className="CaptionContainer"
+              data-testid="CaptionComponentTestId"
+              style={
+                Object {
+                  "maxWidth": 720,
+                }
+              }
+            >
               <div
-                data-testid="ImageViewComponentCaptionPart"
+                className="IconContainer"
               >
-                <div
-                  className="CaptionContainer"
-                  data-testid="CaptionComponentTestId"
-                  style={
-                    Object {
-                      "maxWidth": 720,
-                    }
-                  }
-                >
-                  <div
-                    className="IconContainer"
-                  >
-                    <i
-                      aria-hidden="true"
-                      className="image icon"
-                      onClick={[Function]}
-                    />
-                  </div>
-                  <p
-                    className="ContentPageCaptionTextSize CaptionText"
-                  >
-                    Cheetah cubs learning how to hunt.
-                  </p>
-                </div>
+                <i
+                  aria-hidden="true"
+                  className="image icon"
+                  onClick={[Function]}
+                />
               </div>
+              <p
+                className="ContentPageCaptionTextSize CaptionText"
+              >
+                Cheetah cubs learning how to hunt.
+              </p>
             </div>
           </div>
         </div>

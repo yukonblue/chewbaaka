@@ -80,7 +80,7 @@ export default class BiologyPageSubsectionSpotsAndStripes extends React.Componen
   renderPart2() {
     return (
       <ContentPageSubsectionPart>
-        <CenteredFullWidthContainer maxWidth={360}>
+        <CenteredFullWidthContainer width={360}>
           <ImageView
             image={image_cheetah_mantle}
             caption="Mantle on cheetah cub's back provides a form of camouflage that's critical to its survival."
@@ -90,7 +90,7 @@ export default class BiologyPageSubsectionSpotsAndStripes extends React.Componen
         </CenteredFullWidthContainer>
 
         <div className="VerticalCushionPaddingTopLarge">
-          <CenteredFullWidthContainer maxWidth={720}>
+          <CenteredFullWidthContainer width={720}>
             <ImageView
               image={image_cheetah_and_honey_badger}
               caption="The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators."

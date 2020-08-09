@@ -4,11 +4,11 @@
  *
  * Author   : Tomiko
  * Created  : Jul 29, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 08, 2020
  */
 
 div.ImageViewModalCoverTriggerOuterContainer {
-  display: block;
+  max-width: 100%;
   position: relative;
   background-size: cover;
   cursor: pointer;

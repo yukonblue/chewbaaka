@@ -76,7 +76,7 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
 
         <div className="VerticalCushionPadding">
-          <CenteredFullWidthContainer maxWidth={1200}>
+          <CenteredFullWidthContainer width={1200}>
             <FluidImageWrapper
               src={image_CCF_LGD}
               alt="Livestock Guarding Dog"
@@ -111,18 +111,18 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
   }
 
   renderCCFYearOfTheLGDImage() {
-    const width = 1000;
+    const componentWidth = 1000;
     return (
       <ContentPageSubsectionPart>
-        <div className="Centered" style={{width: width}}>
+        <CenteredFullWidthContainer width={componentWidth}>
           <ImageView
             image={image_CCF_Year_of_the_LGD}
             caption="Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program."
             credit={kStringConstantCheetahConservationFund}
-            width={width}
+            width={componentWidth}
             height={299}
           />
-        </div>
+        </CenteredFullWidthContainer>
       </ContentPageSubsectionPart>
     );
   }
@@ -149,6 +149,7 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
           <FluidImageWrapper
             src={image_LGD}
             alt="Livestock Guarding Dogs"
+            centered
           />
         </div>
       </ContentPageSubsectionPart>

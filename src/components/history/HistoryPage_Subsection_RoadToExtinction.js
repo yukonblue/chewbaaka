@@ -4,23 +4,19 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 08, 2020
  */
 
 import React from 'react'
 
 import { Statistic, Segment } from 'semantic-ui-react'
 
-import "semantic-ui-css/semantic.min.css"
-
-import '../shared/ContentPageSharedStyles.css'
-import './HistoryPage_Subsection_RoadToExtinction.css'
+import 'semantic-ui-css/semantic.min.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPageSubsectionThreeColumnContentTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
-import ContentPageCaptionLabel from '../shared/ContentPageCaptionLabel'
 
 import {
   ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder
@@ -44,6 +40,13 @@ import image_Cheetah_Evolution_and_Extinction_Scale from './assets/Cheetah_Evolu
 
 import cheetah_range_map_01 from './assets/cheetah-range-map-01-min.png'
 import cheetah_range_map_02 from './assets/cheetah-range-map-02-min.png'
+
+import '../shared/ContentPageSharedStyles.css'
+
+import './HistoryPage_Subsection_RoadToExtinction.css'
+
+if ( process.env.NODE_ENV === 'development' )
+  require('./HistoryPage_Subsection_RoadToExtinction-debug.css')
 
 export default class HistoryPageSubsectionRoadToExtinction extends React.Component {
 
@@ -79,7 +82,7 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
 
   renderCheetahEvolutionAndExtinctionScaleImage() {
     return (
-      <CenteredFullWidthContainer maxWidth={1200}>
+      <CenteredFullWidthContainer width={1200}>
         <FluidImageWrapper
           src={image_Cheetah_Evolution_and_Extinction_Scale}
           alt="Cheetah evolution and extinction"
@@ -104,10 +107,8 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
               description: "Cheetahs were driven out of over 90% of its historic range, and a number of parts of its current range have very small populations left."
             }
           ]}
+          caption="Click on the map above see the cheetah's range."
         />
-        <ContentPageCaptionLabel>
-          Click on the map above see the cheetah's range.
-        </ContentPageCaptionLabel>
       </div>
     );
   }

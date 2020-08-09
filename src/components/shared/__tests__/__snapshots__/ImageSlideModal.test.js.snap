@@ -2,8 +2,7 @@
 
 exports[`ImageSlideModal component snapshot 1`] = `
 <div
-  className="ImageSliderModalCoverTriggerOuterContainer"
-  data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
+  className="ImageSlideModalCoverTriggerOuterContainer"
   onBlur={[Function]}
   onClick={[Function]}
   onFocus={[Function]}
@@ -11,20 +10,31 @@ exports[`ImageSlideModal component snapshot 1`] = `
   onMouseLeave={[Function]}
   style={
     Object {
-      "backgroundImage": "url(cheetah-conservation-fund-logo-mini-min.jpg)",
-      "height": 320,
       "width": 480,
     }
   }
 >
   <div
-    className="ImageSliderModalCoverTriggerImageIconInnerContainer"
+    className="ImageSlideModalCoverTriggerInnerContainer"
+    data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundImage": "url(cheetah-conservation-fund-logo-mini-min.jpg)",
+        "height": 320,
+        "width": 480,
+      }
+    }
   >
-    <i
-      aria-hidden="true"
-      className="blue images outline huge icon"
-      onClick={[Function]}
-    />
+    <div
+      className="ImageSlideModalCoverTriggerImageIconInnerContainer"
+    >
+      <i
+        aria-hidden="true"
+        className="blue images outline huge icon"
+        onClick={[Function]}
+      />
+    </div>
   </div>
 </div>
 `;

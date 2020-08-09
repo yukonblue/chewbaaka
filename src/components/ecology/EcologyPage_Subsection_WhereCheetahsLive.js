@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 08, 2020
  */
 
 import React from 'react'
@@ -104,7 +104,7 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
         <FluidImageWrapper
           src={image_savana_bg_large}
           alt="African savanna"
-          className="FullWidth VerticalCushionPadding"
+          centered
         />
       </ContentPageSubsectionPart>
     );
@@ -123,7 +123,7 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
         />
 
         <div className="VerticalCushionPaddingTopLarge">
-          <CenteredFullWidthContainer maxWidth={1200}>
+          <CenteredFullWidthContainer width={1200}>
             <ImageView
               image={image_Namibia_Biomes_and_Cheetah_Ranges_Map}
               caption={part.content["paragraph_biomes_map_caption"]}

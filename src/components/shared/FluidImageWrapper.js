@@ -11,12 +11,18 @@ import React from 'react'
 
 import './ContentPageSharedStyles.css'
 
-export default function FluidImageWrapper(props) {
+export default function FluidImageWrapper({ src, alt, centered }) {
+  let classNames = ["FullWidth", "DisplayBlock"];
+
+  if ( centered ) {
+    classNames.push("Centered");
+  }
+
   return (
     <img
-      className="FullWidth Centered DisplayBlock"
-      src={props.src}
-      alt={props.alt}
+      className={classNames.join(" ")}
+      src={src}
+      alt={alt}
     />
   );
 }

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 08, 2020
  */
 
 import React from 'react'
@@ -96,7 +96,7 @@ export default class EcologyPageSubsectionUnderstandingAnimalMovement extends Re
 
     return (
       <ContentPageSubsectionPart>
-        <div className="Centered" style={{width: componentWidth}}>
+        <div className="Centered" style={{width: componentWidth, maxWidth: `100%`}}>
           <ImageSlidingGalleryDiscrete
             width={componentWidth}
             height={480}

@@ -85,6 +85,7 @@ export default class EcologyPageSubsectionTheCheetahsPrey extends React.Componen
         <FluidImageWrapper
           src={image_Cheetah_Lion_Hunting_Success_Rate_Comparsion}
           alt="Cheetah and lion have drastically different preys, hunting strategies, and success rates."
+          centered
         />
       </ContentPageSubsectionPart>
     );

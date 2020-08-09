@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 08, 2020
  */
 
 div.HistoryPageSubsectionRoadToExtinctionMiddleColumnContentOuterContainer {
@@ -19,7 +19,6 @@ div.HistoryPageSubsectionRoadToExtinctionStatsBox {
 }
 
 div.HistoryPageSubsectionRoadToExtinctionMiddleColumnContentImageSlideModalContainer {
-  /* display: inline-block; */
   width: 480px;
   margin: 0 auto;
 }

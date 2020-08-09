@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Aug 08, 2020
  */
 
 import React from 'react'
@@ -29,9 +29,8 @@ test('renders ImageView component', () => {
     />
   );
 
-  const captionElement = screen.getByTestId("ImageViewComponentCaptionPart");
+  const captionElement = screen.getByText(caption);
   expect(captionElement).toBeInTheDocument();
-  expect(captionElement.textContent).toBe(caption);
 });
 
 test('renders ImageView component with image credit string', () => {
@@ -50,9 +49,8 @@ test('renders ImageView component with image credit string', () => {
     />
   );
 
-  const captionElement = screen.getByTestId("ImageViewComponentCaptionPart");
+  const captionElement = screen.getByText(expectedCaptionText);
   expect(captionElement).toBeInTheDocument();
-  expect(captionElement.textContent).toBe(expectedCaptionText);
 });
 
 test('ImageView component snapshot', () => {

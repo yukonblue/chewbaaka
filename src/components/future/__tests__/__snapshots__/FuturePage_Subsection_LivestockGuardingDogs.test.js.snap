@@ -43,13 +43,13 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
             className="Centered FullWidth"
             style={
               Object {
-                "maxWidth": 1200,
+                "width": 1200,
               }
             }
           >
             <img
               alt="Livestock Guarding Dog"
-              className="FullWidth Centered DisplayBlock"
+              className="FullWidth DisplayBlock"
               src="CCF_LGD-min.jpg"
             />
           </div>
@@ -73,7 +73,7 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
               className="ImageViewOuterContainer"
               style={
                 Object {
-                  "maxWidth": 720,
+                  "width": 720,
                 }
               }
             >
@@ -81,7 +81,7 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
                 className="ImageViewInnerContainer"
               >
                 <div
-                  className="ImageViewCore"
+                  className="ImageViewImgContainer"
                 >
                   <img
                     alt="Anatolian Shepherd puppies live alongside with the herd. (Image credit: Cheetah Conservation Fund)"
@@ -93,34 +93,30 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
                       }
                     }
                   />
+                </div>
+                <div
+                  className="CaptionContainer"
+                  data-testid="CaptionComponentTestId"
+                  style={
+                    Object {
+                      "maxWidth": 720,
+                    }
+                  }
+                >
                   <div
-                    data-testid="ImageViewComponentCaptionPart"
+                    className="IconContainer"
                   >
-                    <div
-                      className="CaptionContainer"
-                      data-testid="CaptionComponentTestId"
-                      style={
-                        Object {
-                          "maxWidth": 720,
-                        }
-                      }
-                    >
-                      <div
-                        className="IconContainer"
-                      >
-                        <i
-                          aria-hidden="true"
-                          className="image icon"
-                          onClick={[Function]}
-                        />
-                      </div>
-                      <p
-                        className="ContentPageCaptionTextSize CaptionText"
-                      >
-                        Anatolian Shepherd puppies live alongside with the herd. (Image credit: Cheetah Conservation Fund)
-                      </p>
-                    </div>
+                    <i
+                      aria-hidden="true"
+                      className="image icon"
+                      onClick={[Function]}
+                    />
                   </div>
+                  <p
+                    className="ContentPageCaptionTextSize CaptionText"
+                  >
+                    Anatolian Shepherd puppies live alongside with the herd. (Image credit: Cheetah Conservation Fund)
+                  </p>
                 </div>
               </div>
             </div>
@@ -140,7 +136,7 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
         className="ContentPageSubsectionPartContainer"
       >
         <div
-          className="Centered"
+          className="Centered FullWidth"
           style={
             Object {
               "width": 1000,
@@ -151,7 +147,7 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
             className="ImageViewOuterContainer"
             style={
               Object {
-                "maxWidth": 1000,
+                "width": 1000,
               }
             }
           >
@@ -159,7 +155,7 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
               className="ImageViewInnerContainer"
             >
               <div
-                className="ImageViewCore"
+                className="ImageViewImgContainer"
               >
                 <img
                   alt="Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program. (Image credit: Cheetah Conservation Fund)"
@@ -171,34 +167,30 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
                     }
                   }
                 />
+              </div>
+              <div
+                className="CaptionContainer"
+                data-testid="CaptionComponentTestId"
+                style={
+                  Object {
+                    "maxWidth": 1000,
+                  }
+                }
+              >
                 <div
-                  data-testid="ImageViewComponentCaptionPart"
+                  className="IconContainer"
                 >
-                  <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "maxWidth": 1000,
-                      }
-                    }
-                  >
-                    <div
-                      className="IconContainer"
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
-                    </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program. (Image credit: Cheetah Conservation Fund)
-                    </p>
-                  </div>
+                  <i
+                    aria-hidden="true"
+                    className="image icon"
+                    onClick={[Function]}
+                  />
                 </div>
+                <p
+                  className="ContentPageCaptionTextSize CaptionText"
+                >
+                  Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program. (Image credit: Cheetah Conservation Fund)
+                </p>
               </div>
             </div>
           </div>
@@ -263,7 +255,7 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
         >
           <img
             alt="Livestock Guarding Dogs"
-            className="FullWidth Centered DisplayBlock"
+            className="FullWidth DisplayBlock Centered"
             src="LGD_960x960-min.png"
           />
         </div>

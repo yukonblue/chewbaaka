@@ -73,7 +73,7 @@ exports[`FuturePageSubsectionFutureFarmersOfAfrica component snapshot 1`] = `
               className="ImageViewOuterContainer"
               style={
                 Object {
-                  "maxWidth": 742,
+                  "width": 742,
                 }
               }
             >
@@ -81,7 +81,7 @@ exports[`FuturePageSubsectionFutureFarmersOfAfrica component snapshot 1`] = `
                 className="ImageViewInnerContainer"
               >
                 <div
-                  className="ImageViewCore"
+                  className="ImageViewImgContainer"
                 >
                   <img
                     alt="Farmers participate in FFA training courses. (Image credit: Cheetah Conservation Fund)"
@@ -93,34 +93,30 @@ exports[`FuturePageSubsectionFutureFarmersOfAfrica component snapshot 1`] = `
                       }
                     }
                   />
+                </div>
+                <div
+                  className="CaptionContainer"
+                  data-testid="CaptionComponentTestId"
+                  style={
+                    Object {
+                      "maxWidth": 742,
+                    }
+                  }
+                >
                   <div
-                    data-testid="ImageViewComponentCaptionPart"
+                    className="IconContainer"
                   >
-                    <div
-                      className="CaptionContainer"
-                      data-testid="CaptionComponentTestId"
-                      style={
-                        Object {
-                          "maxWidth": 742,
-                        }
-                      }
-                    >
-                      <div
-                        className="IconContainer"
-                      >
-                        <i
-                          aria-hidden="true"
-                          className="image icon"
-                          onClick={[Function]}
-                        />
-                      </div>
-                      <p
-                        className="ContentPageCaptionTextSize CaptionText"
-                      >
-                        Farmers participate in FFA training courses. (Image credit: Cheetah Conservation Fund)
-                      </p>
-                    </div>
+                    <i
+                      aria-hidden="true"
+                      className="image icon"
+                      onClick={[Function]}
+                    />
                   </div>
+                  <p
+                    className="ContentPageCaptionTextSize CaptionText"
+                  >
+                    Farmers participate in FFA training courses. (Image credit: Cheetah Conservation Fund)
+                  </p>
                 </div>
               </div>
             </div>

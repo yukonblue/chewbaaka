@@ -20,7 +20,7 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
           className="ImageViewOuterContainer"
           style={
             Object {
-              "maxWidth": 720,
+              "width": 720,
             }
           }
         >
@@ -28,7 +28,7 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
             className="ImageViewInnerContainer"
           >
             <div
-              className="ImageViewCore"
+              className="ImageViewImgContainer"
             >
               <img
                 alt="This is image 1."
@@ -40,34 +40,30 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
                   }
                 }
               />
+            </div>
+            <div
+              className="CaptionContainer"
+              data-testid="CaptionComponentTestId"
+              style={
+                Object {
+                  "maxWidth": 720,
+                }
+              }
+            >
               <div
-                data-testid="ImageViewComponentCaptionPart"
+                className="IconContainer"
               >
-                <div
-                  className="CaptionContainer"
-                  data-testid="CaptionComponentTestId"
-                  style={
-                    Object {
-                      "maxWidth": 720,
-                    }
-                  }
-                >
-                  <div
-                    className="IconContainer"
-                  >
-                    <i
-                      aria-hidden="true"
-                      className="image icon"
-                      onClick={[Function]}
-                    />
-                  </div>
-                  <p
-                    className="ContentPageCaptionTextSize CaptionText"
-                  >
-                    This is image 1.
-                  </p>
-                </div>
+                <i
+                  aria-hidden="true"
+                  className="image icon"
+                  onClick={[Function]}
+                />
               </div>
+              <p
+                className="ContentPageCaptionTextSize CaptionText"
+              >
+                This is image 1.
+              </p>
             </div>
           </div>
         </div>
@@ -82,7 +78,7 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
           className="ImageViewOuterContainer"
           style={
             Object {
-              "maxWidth": 1080,
+              "width": 1080,
             }
           }
         >
@@ -90,7 +86,7 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
             className="ImageViewInnerContainer"
           >
             <div
-              className="ImageViewCore"
+              className="ImageViewImgContainer"
             >
               <img
                 alt="This is image 2. (Image credit: Image God)"
@@ -102,34 +98,30 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
                   }
                 }
               />
+            </div>
+            <div
+              className="CaptionContainer"
+              data-testid="CaptionComponentTestId"
+              style={
+                Object {
+                  "maxWidth": 1080,
+                }
+              }
+            >
               <div
-                data-testid="ImageViewComponentCaptionPart"
+                className="IconContainer"
               >
-                <div
-                  className="CaptionContainer"
-                  data-testid="CaptionComponentTestId"
-                  style={
-                    Object {
-                      "maxWidth": 1080,
-                    }
-                  }
-                >
-                  <div
-                    className="IconContainer"
-                  >
-                    <i
-                      aria-hidden="true"
-                      className="image icon"
-                      onClick={[Function]}
-                    />
-                  </div>
-                  <p
-                    className="ContentPageCaptionTextSize CaptionText"
-                  >
-                    This is image 2. (Image credit: Image God)
-                  </p>
-                </div>
+                <i
+                  aria-hidden="true"
+                  className="image icon"
+                  onClick={[Function]}
+                />
               </div>
+              <p
+                className="ContentPageCaptionTextSize CaptionText"
+              >
+                This is image 2. (Image credit: Image God)
+              </p>
             </div>
           </div>
         </div>

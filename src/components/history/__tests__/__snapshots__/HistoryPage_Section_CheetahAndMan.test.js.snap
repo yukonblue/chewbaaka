@@ -410,7 +410,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                           className="ImageViewOuterContainer"
                           style={
                             Object {
-                              "maxWidth": 451,
+                              "width": 451,
                             }
                           }
                         >
@@ -418,7 +418,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                             className="ImageViewInnerContainer"
                           >
                             <div
-                              className="ImageViewCore"
+                              className="ImageViewImgContainer"
                             >
                               <img
                                 alt="Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli."
@@ -430,34 +430,30 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                                   }
                                 }
                               />
+                            </div>
+                            <div
+                              className="CaptionContainer"
+                              data-testid="CaptionComponentTestId"
+                              style={
+                                Object {
+                                  "maxWidth": 451,
+                                }
+                              }
+                            >
                               <div
-                                data-testid="ImageViewComponentCaptionPart"
+                                className="IconContainer"
                               >
-                                <div
-                                  className="CaptionContainer"
-                                  data-testid="CaptionComponentTestId"
-                                  style={
-                                    Object {
-                                      "maxWidth": 451,
-                                    }
-                                  }
-                                >
-                                  <div
-                                    className="IconContainer"
-                                  >
-                                    <i
-                                      aria-hidden="true"
-                                      className="image icon"
-                                      onClick={[Function]}
-                                    />
-                                  </div>
-                                  <p
-                                    className="ContentPageCaptionTextSize CaptionText"
-                                  >
-                                    Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli.
-                                  </p>
-                                </div>
+                                <i
+                                  aria-hidden="true"
+                                  className="image icon"
+                                  onClick={[Function]}
+                                />
                               </div>
+                              <p
+                                className="ContentPageCaptionTextSize CaptionText"
+                              >
+                                Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli.
+                              </p>
                             </div>
                           </div>
                         </div>

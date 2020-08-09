@@ -54,7 +54,7 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                   className="ImageViewOuterContainer"
                   style={
                     Object {
-                      "maxWidth": 510,
+                      "width": 510,
                     }
                   }
                 >
@@ -62,7 +62,7 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                     className="ImageViewInnerContainer"
                   >
                     <div
-                      className="ImageViewCore"
+                      className="ImageViewImgContainer"
                     >
                       <img
                         alt="A coalition of cheetahs on the lookout."
@@ -74,34 +74,30 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                           }
                         }
                       />
+                    </div>
+                    <div
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 510,
+                        }
+                      }
+                    >
                       <div
-                        data-testid="ImageViewComponentCaptionPart"
+                        className="IconContainer"
                       >
-                        <div
-                          className="CaptionContainer"
-                          data-testid="CaptionComponentTestId"
-                          style={
-                            Object {
-                              "maxWidth": 510,
-                            }
-                          }
-                        >
-                          <div
-                            className="IconContainer"
-                          >
-                            <i
-                              aria-hidden="true"
-                              className="image icon"
-                              onClick={[Function]}
-                            />
-                          </div>
-                          <p
-                            className="ContentPageCaptionTextSize CaptionText"
-                          >
-                            A coalition of cheetahs on the lookout.
-                          </p>
-                        </div>
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
                       </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        A coalition of cheetahs on the lookout.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -132,7 +128,7 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                   className="ImageViewOuterContainer"
                   style={
                     Object {
-                      "maxWidth": 640,
+                      "width": 640,
                     }
                   }
                 >
@@ -140,7 +136,7 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                     className="ImageViewInnerContainer"
                   >
                     <div
-                      className="ImageViewCore"
+                      className="ImageViewImgContainer"
                     >
                       <img
                         alt="Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)"
@@ -152,34 +148,30 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                           }
                         }
                       />
+                    </div>
+                    <div
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 640,
+                        }
+                      }
+                    >
                       <div
-                        data-testid="ImageViewComponentCaptionPart"
+                        className="IconContainer"
                       >
-                        <div
-                          className="CaptionContainer"
-                          data-testid="CaptionComponentTestId"
-                          style={
-                            Object {
-                              "maxWidth": 640,
-                            }
-                          }
-                        >
-                          <div
-                            className="IconContainer"
-                          >
-                            <i
-                              aria-hidden="true"
-                              className="image icon"
-                              onClick={[Function]}
-                            />
-                          </div>
-                          <p
-                            className="ContentPageCaptionTextSize CaptionText"
-                          >
-                            Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)
-                          </p>
-                        </div>
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
                       </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)
+                      </p>
                     </div>
                   </div>
                 </div>

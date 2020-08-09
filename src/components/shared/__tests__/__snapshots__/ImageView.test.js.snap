@@ -5,7 +5,7 @@ exports[`ImageView component snapshot 1`] = `
   className="ImageViewOuterContainer"
   style={
     Object {
-      "maxWidth": 640,
+      "width": 640,
     }
   }
 >
@@ -13,7 +13,7 @@ exports[`ImageView component snapshot 1`] = `
     className="ImageViewInnerContainer"
   >
     <div
-      className="ImageViewCore"
+      className="ImageViewImgContainer"
     >
       <img
         alt="This is a caption"
@@ -25,34 +25,30 @@ exports[`ImageView component snapshot 1`] = `
           }
         }
       />
+    </div>
+    <div
+      className="CaptionContainer"
+      data-testid="CaptionComponentTestId"
+      style={
+        Object {
+          "maxWidth": 640,
+        }
+      }
+    >
       <div
-        data-testid="ImageViewComponentCaptionPart"
+        className="IconContainer"
       >
-        <div
-          className="CaptionContainer"
-          data-testid="CaptionComponentTestId"
-          style={
-            Object {
-              "maxWidth": 640,
-            }
-          }
-        >
-          <div
-            className="IconContainer"
-          >
-            <i
-              aria-hidden="true"
-              className="image icon"
-              onClick={[Function]}
-            />
-          </div>
-          <p
-            className="ContentPageCaptionTextSize CaptionText"
-          >
-            This is a caption
-          </p>
-        </div>
+        <i
+          aria-hidden="true"
+          className="image icon"
+          onClick={[Function]}
+        />
       </div>
+      <p
+        className="ContentPageCaptionTextSize CaptionText"
+      >
+        This is a caption
+      </p>
     </div>
   </div>
 </div>
@@ -63,7 +59,7 @@ exports[`ImageView component with image credit string snapshot 1`] = `
   className="ImageViewOuterContainer"
   style={
     Object {
-      "maxWidth": 640,
+      "width": 640,
     }
   }
 >
@@ -71,7 +67,7 @@ exports[`ImageView component with image credit string snapshot 1`] = `
     className="ImageViewInnerContainer"
   >
     <div
-      className="ImageViewCore"
+      className="ImageViewImgContainer"
     >
       <img
         alt="This is a caption (Image credit: Image God)"
@@ -83,34 +79,30 @@ exports[`ImageView component with image credit string snapshot 1`] = `
           }
         }
       />
+    </div>
+    <div
+      className="CaptionContainer"
+      data-testid="CaptionComponentTestId"
+      style={
+        Object {
+          "maxWidth": 640,
+        }
+      }
+    >
       <div
-        data-testid="ImageViewComponentCaptionPart"
+        className="IconContainer"
       >
-        <div
-          className="CaptionContainer"
-          data-testid="CaptionComponentTestId"
-          style={
-            Object {
-              "maxWidth": 640,
-            }
-          }
-        >
-          <div
-            className="IconContainer"
-          >
-            <i
-              aria-hidden="true"
-              className="image icon"
-              onClick={[Function]}
-            />
-          </div>
-          <p
-            className="ContentPageCaptionTextSize CaptionText"
-          >
-            This is a caption (Image credit: Image God)
-          </p>
-        </div>
+        <i
+          aria-hidden="true"
+          className="image icon"
+          onClick={[Function]}
+        />
       </div>
+      <p
+        className="ContentPageCaptionTextSize CaptionText"
+      >
+        This is a caption (Image credit: Image God)
+      </p>
     </div>
   </div>
 </div>

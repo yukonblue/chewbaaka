@@ -53,7 +53,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
           className="Centered FullWidth"
           style={
             Object {
-              "maxWidth": 360,
+              "width": 360,
             }
           }
         >
@@ -61,7 +61,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
             className="ImageViewOuterContainer"
             style={
               Object {
-                "maxWidth": 360,
+                "width": 360,
               }
             }
           >
@@ -69,7 +69,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
               className="ImageViewInnerContainer"
             >
               <div
-                className="ImageViewCore"
+                className="ImageViewImgContainer"
               >
                 <img
                   alt="Mantle on cheetah cub's back provides a form of camouflage that's critical to its survival."
@@ -81,34 +81,30 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                     }
                   }
                 />
+              </div>
+              <div
+                className="CaptionContainer"
+                data-testid="CaptionComponentTestId"
+                style={
+                  Object {
+                    "maxWidth": 360,
+                  }
+                }
+              >
                 <div
-                  data-testid="ImageViewComponentCaptionPart"
+                  className="IconContainer"
                 >
-                  <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "maxWidth": 360,
-                      }
-                    }
-                  >
-                    <div
-                      className="IconContainer"
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
-                    </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      Mantle on cheetah cub's back provides a form of camouflage that's critical to its survival.
-                    </p>
-                  </div>
+                  <i
+                    aria-hidden="true"
+                    className="image icon"
+                    onClick={[Function]}
+                  />
                 </div>
+                <p
+                  className="ContentPageCaptionTextSize CaptionText"
+                >
+                  Mantle on cheetah cub's back provides a form of camouflage that's critical to its survival.
+                </p>
               </div>
             </div>
           </div>
@@ -120,7 +116,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
             className="Centered FullWidth"
             style={
               Object {
-                "maxWidth": 720,
+                "width": 720,
               }
             }
           >
@@ -128,7 +124,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
               className="ImageViewOuterContainer"
               style={
                 Object {
-                  "maxWidth": 720,
+                  "width": 720,
                 }
               }
             >
@@ -136,7 +132,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                 className="ImageViewInnerContainer"
               >
                 <div
-                  className="ImageViewCore"
+                  className="ImageViewImgContainer"
                 >
                   <img
                     alt="The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators."
@@ -148,34 +144,30 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                       }
                     }
                   />
+                </div>
+                <div
+                  className="CaptionContainer"
+                  data-testid="CaptionComponentTestId"
+                  style={
+                    Object {
+                      "maxWidth": 720,
+                    }
+                  }
+                >
                   <div
-                    data-testid="ImageViewComponentCaptionPart"
+                    className="IconContainer"
                   >
-                    <div
-                      className="CaptionContainer"
-                      data-testid="CaptionComponentTestId"
-                      style={
-                        Object {
-                          "maxWidth": 720,
-                        }
-                      }
-                    >
-                      <div
-                        className="IconContainer"
-                      >
-                        <i
-                          aria-hidden="true"
-                          className="image icon"
-                          onClick={[Function]}
-                        />
-                      </div>
-                      <p
-                        className="ContentPageCaptionTextSize CaptionText"
-                      >
-                        The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators.
-                      </p>
-                    </div>
+                    <i
+                      aria-hidden="true"
+                      className="image icon"
+                      onClick={[Function]}
+                    />
                   </div>
+                  <p
+                    className="ContentPageCaptionTextSize CaptionText"
+                  >
+                    The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators.
+                  </p>
                 </div>
               </div>
             </div>

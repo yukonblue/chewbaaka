@@ -89,7 +89,7 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
       >
         <img
           alt="Cheetah and lion have drastically different preys, hunting strategies, and success rates."
-          className="FullWidth Centered DisplayBlock"
+          className="FullWidth DisplayBlock Centered"
           src="Cheetah_Lion_Hunting_Success_Rate_Comparsion-min.png"
         />
       </div>
@@ -115,7 +115,7 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
                   className="ImageViewOuterContainer"
                   style={
                     Object {
-                      "maxWidth": 640,
+                      "width": 640,
                     }
                   }
                 >
@@ -123,7 +123,7 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
                     className="ImageViewInnerContainer"
                   >
                     <div
-                      className="ImageViewCore"
+                      className="ImageViewImgContainer"
                     >
                       <img
                         alt="Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest."
@@ -135,34 +135,30 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
                           }
                         }
                       />
+                    </div>
+                    <div
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 640,
+                        }
+                      }
+                    >
                       <div
-                        data-testid="ImageViewComponentCaptionPart"
+                        className="IconContainer"
                       >
-                        <div
-                          className="CaptionContainer"
-                          data-testid="CaptionComponentTestId"
-                          style={
-                            Object {
-                              "maxWidth": 640,
-                            }
-                          }
-                        >
-                          <div
-                            className="IconContainer"
-                          >
-                            <i
-                              aria-hidden="true"
-                              className="image icon"
-                              onClick={[Function]}
-                            />
-                          </div>
-                          <p
-                            className="ContentPageCaptionTextSize CaptionText"
-                          >
-                            Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest.
-                          </p>
-                        </div>
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
                       </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -177,7 +173,7 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
                   className="ImageViewOuterContainer"
                   style={
                     Object {
-                      "maxWidth": 640,
+                      "width": 640,
                     }
                   }
                 >
@@ -185,7 +181,7 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
                     className="ImageViewInnerContainer"
                   >
                     <div
-                      className="ImageViewCore"
+                      className="ImageViewImgContainer"
                     >
                       <img
                         alt="One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch."
@@ -197,34 +193,30 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
                           }
                         }
                       />
+                    </div>
+                    <div
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 640,
+                        }
+                      }
+                    >
                       <div
-                        data-testid="ImageViewComponentCaptionPart"
+                        className="IconContainer"
                       >
-                        <div
-                          className="CaptionContainer"
-                          data-testid="CaptionComponentTestId"
-                          style={
-                            Object {
-                              "maxWidth": 640,
-                            }
-                          }
-                        >
-                          <div
-                            className="IconContainer"
-                          >
-                            <i
-                              aria-hidden="true"
-                              className="image icon"
-                              onClick={[Function]}
-                            />
-                          </div>
-                          <p
-                            className="ContentPageCaptionTextSize CaptionText"
-                          >
-                            One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch.
-                          </p>
-                        </div>
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
                       </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch.
+                      </p>
                     </div>
                   </div>
                 </div>
