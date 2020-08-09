@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 09, 2020
  */
 
 import React from 'react'
@@ -100,8 +100,8 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
             <ImageView
               image={image_claws_comparison}
               caption="Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability."
-              width={720}
-              height={480}
+              width={480}
+              height={300}
             />
           }
           floatFixedSide={true}
@@ -118,8 +118,8 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
             <ImageView
               image={image_cheetah_dewclaw}
               caption="Cheetah dewclaw."
-              width={611}
-              height={273}
+              width={480}
+              height={214}
             />
           }
           fixedPart={
