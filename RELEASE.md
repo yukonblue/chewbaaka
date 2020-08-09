@@ -3,6 +3,9 @@
 ## Version 0.1.12
 
 * Date: August 09, 2020
+* Commit: `84feb07`
+* Tag: `v0.1.12`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.1.12)
 * Changelog:
   * Changeset #141 - Incorporate embedded YouTube video frames in content pages
 
