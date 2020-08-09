@@ -395,7 +395,7 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                 className="ImageViewOuterContainer"
                 style={
                   Object {
-                    "width": 720,
+                    "width": 480,
                   }
                 }
               >
@@ -411,7 +411,7 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                       src="cheetah_cubs_learning_hunting-min.jpg"
                       style={
                         Object {
-                          "width": 720,
+                          "width": 480,
                         }
                       }
                     />
@@ -421,7 +421,7 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                     data-testid="CaptionComponentTestId"
                     style={
                       Object {
-                        "maxWidth": 720,
+                        "maxWidth": 480,
                       }
                     }
                   >
