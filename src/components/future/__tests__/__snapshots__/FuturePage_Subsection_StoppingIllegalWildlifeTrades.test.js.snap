@@ -71,7 +71,7 @@ exports[`FuturePageSubsectionStoppingIllegalWildlifeTrades component snapshot 1`
                   className="ImageViewOuterContainer"
                   style={
                     Object {
-                      "maxWidth": 640,
+                      "width": 640,
                     }
                   }
                 >
@@ -79,7 +79,7 @@ exports[`FuturePageSubsectionStoppingIllegalWildlifeTrades component snapshot 1`
                     className="ImageViewInnerContainer"
                   >
                     <div
-                      className="ImageViewCore"
+                      className="ImageViewImgContainer"
                     >
                       <img
                         alt="The heaviest trafficking of cheetahs have been observed from Central and Southern Africa into the Middle East. (Image credit: BBC)"
@@ -91,34 +91,30 @@ exports[`FuturePageSubsectionStoppingIllegalWildlifeTrades component snapshot 1`
                           }
                         }
                       />
+                    </div>
+                    <div
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 640,
+                        }
+                      }
+                    >
                       <div
-                        data-testid="ImageViewComponentCaptionPart"
+                        className="IconContainer"
                       >
-                        <div
-                          className="CaptionContainer"
-                          data-testid="CaptionComponentTestId"
-                          style={
-                            Object {
-                              "maxWidth": 640,
-                            }
-                          }
-                        >
-                          <div
-                            className="IconContainer"
-                          >
-                            <i
-                              aria-hidden="true"
-                              className="image icon"
-                              onClick={[Function]}
-                            />
-                          </div>
-                          <p
-                            className="ContentPageCaptionTextSize CaptionText"
-                          >
-                            The heaviest trafficking of cheetahs have been observed from Central and Southern Africa into the Middle East. (Image credit: BBC)
-                          </p>
-                        </div>
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
                       </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        The heaviest trafficking of cheetahs have been observed from Central and Southern Africa into the Middle East. (Image credit: BBC)
+                      </p>
                     </div>
                   </div>
                 </div>

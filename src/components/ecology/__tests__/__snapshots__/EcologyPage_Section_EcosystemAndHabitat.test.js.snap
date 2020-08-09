@@ -81,7 +81,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                     className="ImageViewOuterContainer"
                     style={
                       Object {
-                        "maxWidth": 598,
+                        "width": 598,
                       }
                     }
                   >
@@ -89,7 +89,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                       className="ImageViewInnerContainer"
                     >
                       <div
-                        className="ImageViewCore"
+                        className="ImageViewImgContainer"
                       >
                         <img
                           alt="African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlifes."
@@ -101,34 +101,30 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                             }
                           }
                         />
+                      </div>
+                      <div
+                        className="CaptionContainer"
+                        data-testid="CaptionComponentTestId"
+                        style={
+                          Object {
+                            "maxWidth": 598,
+                          }
+                        }
+                      >
                         <div
-                          data-testid="ImageViewComponentCaptionPart"
+                          className="IconContainer"
                         >
-                          <div
-                            className="CaptionContainer"
-                            data-testid="CaptionComponentTestId"
-                            style={
-                              Object {
-                                "maxWidth": 598,
-                              }
-                            }
-                          >
-                            <div
-                              className="IconContainer"
-                            >
-                              <i
-                                aria-hidden="true"
-                                className="image icon"
-                                onClick={[Function]}
-                              />
-                            </div>
-                            <p
-                              className="ContentPageCaptionTextSize CaptionText"
-                            >
-                              African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlifes.
-                            </p>
-                          </div>
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
                         </div>
+                        <p
+                          className="ContentPageCaptionTextSize CaptionText"
+                        >
+                          African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlifes.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -252,7 +248,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                     className="ImageViewOuterContainer"
                     style={
                       Object {
-                        "maxWidth": 1200,
+                        "width": 1200,
                       }
                     }
                   >
@@ -260,7 +256,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                       className="ImageViewInnerContainer"
                     >
                       <div
-                        className="ImageViewCore"
+                        className="ImageViewImgContainer"
                       >
                         <img
                           alt="Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on."
@@ -272,34 +268,30 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                             }
                           }
                         />
+                      </div>
+                      <div
+                        className="CaptionContainer"
+                        data-testid="CaptionComponentTestId"
+                        style={
+                          Object {
+                            "maxWidth": 1200,
+                          }
+                        }
+                      >
                         <div
-                          data-testid="ImageViewComponentCaptionPart"
+                          className="IconContainer"
                         >
-                          <div
-                            className="CaptionContainer"
-                            data-testid="CaptionComponentTestId"
-                            style={
-                              Object {
-                                "maxWidth": 1200,
-                              }
-                            }
-                          >
-                            <div
-                              className="IconContainer"
-                            >
-                              <i
-                                aria-hidden="true"
-                                className="image icon"
-                                onClick={[Function]}
-                              />
-                            </div>
-                            <p
-                              className="ContentPageCaptionTextSize CaptionText"
-                            >
-                              Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on.
-                            </p>
-                          </div>
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
                         </div>
+                        <p
+                          className="ContentPageCaptionTextSize CaptionText"
+                        >
+                          Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -590,7 +582,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                         className="ImageViewOuterContainer"
                         style={
                           Object {
-                            "maxWidth": 640,
+                            "width": 640,
                           }
                         }
                       >
@@ -598,7 +590,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                           className="ImageViewInnerContainer"
                         >
                           <div
-                            className="ImageViewCore"
+                            className="ImageViewImgContainer"
                           >
                             <img
                               alt="Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest."
@@ -610,34 +602,30 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                                 }
                               }
                             />
+                          </div>
+                          <div
+                            className="CaptionContainer"
+                            data-testid="CaptionComponentTestId"
+                            style={
+                              Object {
+                                "maxWidth": 640,
+                              }
+                            }
+                          >
                             <div
-                              data-testid="ImageViewComponentCaptionPart"
+                              className="IconContainer"
                             >
-                              <div
-                                className="CaptionContainer"
-                                data-testid="CaptionComponentTestId"
-                                style={
-                                  Object {
-                                    "maxWidth": 640,
-                                  }
-                                }
-                              >
-                                <div
-                                  className="IconContainer"
-                                >
-                                  <i
-                                    aria-hidden="true"
-                                    className="image icon"
-                                    onClick={[Function]}
-                                  />
-                                </div>
-                                <p
-                                  className="ContentPageCaptionTextSize CaptionText"
-                                >
-                                  Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest.
-                                </p>
-                              </div>
+                              <i
+                                aria-hidden="true"
+                                className="image icon"
+                                onClick={[Function]}
+                              />
                             </div>
+                            <p
+                              className="ContentPageCaptionTextSize CaptionText"
+                            >
+                              Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest.
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -652,7 +640,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                         className="ImageViewOuterContainer"
                         style={
                           Object {
-                            "maxWidth": 640,
+                            "width": 640,
                           }
                         }
                       >
@@ -660,7 +648,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                           className="ImageViewInnerContainer"
                         >
                           <div
-                            className="ImageViewCore"
+                            className="ImageViewImgContainer"
                           >
                             <img
                               alt="One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch."
@@ -672,34 +660,30 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                                 }
                               }
                             />
+                          </div>
+                          <div
+                            className="CaptionContainer"
+                            data-testid="CaptionComponentTestId"
+                            style={
+                              Object {
+                                "maxWidth": 640,
+                              }
+                            }
+                          >
                             <div
-                              data-testid="ImageViewComponentCaptionPart"
+                              className="IconContainer"
                             >
-                              <div
-                                className="CaptionContainer"
-                                data-testid="CaptionComponentTestId"
-                                style={
-                                  Object {
-                                    "maxWidth": 640,
-                                  }
-                                }
-                              >
-                                <div
-                                  className="IconContainer"
-                                >
-                                  <i
-                                    aria-hidden="true"
-                                    className="image icon"
-                                    onClick={[Function]}
-                                  />
-                                </div>
-                                <p
-                                  className="ContentPageCaptionTextSize CaptionText"
-                                >
-                                  One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch.
-                                </p>
-                              </div>
+                              <i
+                                aria-hidden="true"
+                                className="image icon"
+                                onClick={[Function]}
+                              />
                             </div>
+                            <p
+                              className="ContentPageCaptionTextSize CaptionText"
+                            >
+                              One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch.
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -741,7 +725,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                     className="ImageViewOuterContainer"
                     style={
                       Object {
-                        "maxWidth": 640,
+                        "width": 640,
                       }
                     }
                   >
@@ -749,7 +733,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                       className="ImageViewInnerContainer"
                     >
                       <div
-                        className="ImageViewCore"
+                        className="ImageViewImgContainer"
                       >
                         <img
                           alt="A simplified illustration of the food web of a savanna ecosystem."
@@ -761,34 +745,30 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                             }
                           }
                         />
+                      </div>
+                      <div
+                        className="CaptionContainer"
+                        data-testid="CaptionComponentTestId"
+                        style={
+                          Object {
+                            "maxWidth": 640,
+                          }
+                        }
+                      >
                         <div
-                          data-testid="ImageViewComponentCaptionPart"
+                          className="IconContainer"
                         >
-                          <div
-                            className="CaptionContainer"
-                            data-testid="CaptionComponentTestId"
-                            style={
-                              Object {
-                                "maxWidth": 640,
-                              }
-                            }
-                          >
-                            <div
-                              className="IconContainer"
-                            >
-                              <i
-                                aria-hidden="true"
-                                className="image icon"
-                                onClick={[Function]}
-                              />
-                            </div>
-                            <p
-                              className="ContentPageCaptionTextSize CaptionText"
-                            >
-                              A simplified illustration of the food web of a savanna ecosystem.
-                            </p>
-                          </div>
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
                         </div>
+                        <p
+                          className="ContentPageCaptionTextSize CaptionText"
+                        >
+                          A simplified illustration of the food web of a savanna ecosystem.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -846,7 +826,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                         className="ImageViewOuterContainer"
                         style={
                           Object {
-                            "maxWidth": 640,
+                            "width": 640,
                           }
                         }
                       >
@@ -854,7 +834,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                           className="ImageViewInnerContainer"
                         >
                           <div
-                            className="ImageViewCore"
+                            className="ImageViewImgContainer"
                           >
                             <img
                               alt="Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains."
@@ -866,34 +846,30 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                                 }
                               }
                             />
+                          </div>
+                          <div
+                            className="CaptionContainer"
+                            data-testid="CaptionComponentTestId"
+                            style={
+                              Object {
+                                "maxWidth": 640,
+                              }
+                            }
+                          >
                             <div
-                              data-testid="ImageViewComponentCaptionPart"
+                              className="IconContainer"
                             >
-                              <div
-                                className="CaptionContainer"
-                                data-testid="CaptionComponentTestId"
-                                style={
-                                  Object {
-                                    "maxWidth": 640,
-                                  }
-                                }
-                              >
-                                <div
-                                  className="IconContainer"
-                                >
-                                  <i
-                                    aria-hidden="true"
-                                    className="image icon"
-                                    onClick={[Function]}
-                                  />
-                                </div>
-                                <p
-                                  className="ContentPageCaptionTextSize CaptionText"
-                                >
-                                  Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains.
-                                </p>
-                              </div>
+                              <i
+                                aria-hidden="true"
+                                className="image icon"
+                                onClick={[Function]}
+                              />
                             </div>
+                            <p
+                              className="ContentPageCaptionTextSize CaptionText"
+                            >
+                              Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains.
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -908,7 +884,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                         className="ImageViewOuterContainer"
                         style={
                           Object {
-                            "maxWidth": 480,
+                            "width": 480,
                           }
                         }
                       >
@@ -916,7 +892,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                           className="ImageViewInnerContainer"
                         >
                           <div
-                            className="ImageViewCore"
+                            className="ImageViewImgContainer"
                           >
                             <img
                               alt="Lions will often take over the cheetah's prey easily as they are superior in strength."
@@ -928,34 +904,30 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                                 }
                               }
                             />
+                          </div>
+                          <div
+                            className="CaptionContainer"
+                            data-testid="CaptionComponentTestId"
+                            style={
+                              Object {
+                                "maxWidth": 480,
+                              }
+                            }
+                          >
                             <div
-                              data-testid="ImageViewComponentCaptionPart"
+                              className="IconContainer"
                             >
-                              <div
-                                className="CaptionContainer"
-                                data-testid="CaptionComponentTestId"
-                                style={
-                                  Object {
-                                    "maxWidth": 480,
-                                  }
-                                }
-                              >
-                                <div
-                                  className="IconContainer"
-                                >
-                                  <i
-                                    aria-hidden="true"
-                                    className="image icon"
-                                    onClick={[Function]}
-                                  />
-                                </div>
-                                <p
-                                  className="ContentPageCaptionTextSize CaptionText"
-                                >
-                                  Lions will often take over the cheetah's prey easily as they are superior in strength.
-                                </p>
-                              </div>
+                              <i
+                                aria-hidden="true"
+                                className="image icon"
+                                onClick={[Function]}
+                              />
                             </div>
+                            <p
+                              className="ContentPageCaptionTextSize CaptionText"
+                            >
+                              Lions will often take over the cheetah's prey easily as they are superior in strength.
+                            </p>
                           </div>
                         </div>
                       </div>

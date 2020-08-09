@@ -23,7 +23,7 @@ exports[`FuturePageSubsectionCommunityEvents component snapshot 1`] = `
             className="ImageViewOuterContainer"
             style={
               Object {
-                "maxWidth": 960,
+                "width": 960,
               }
             }
           >
@@ -31,7 +31,7 @@ exports[`FuturePageSubsectionCommunityEvents component snapshot 1`] = `
               className="ImageViewInnerContainer"
             >
               <div
-                className="ImageViewCore"
+                className="ImageViewImgContainer"
               >
                 <img
                   alt="CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program. (Image credit: Cheetah Conservation Fund)"
@@ -43,34 +43,30 @@ exports[`FuturePageSubsectionCommunityEvents component snapshot 1`] = `
                     }
                   }
                 />
+              </div>
+              <div
+                className="CaptionContainer"
+                data-testid="CaptionComponentTestId"
+                style={
+                  Object {
+                    "maxWidth": 960,
+                  }
+                }
+              >
                 <div
-                  data-testid="ImageViewComponentCaptionPart"
+                  className="IconContainer"
                 >
-                  <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "maxWidth": 960,
-                      }
-                    }
-                  >
-                    <div
-                      className="IconContainer"
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
-                    </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program. (Image credit: Cheetah Conservation Fund)
-                    </p>
-                  </div>
+                  <i
+                    aria-hidden="true"
+                    className="image icon"
+                    onClick={[Function]}
+                  />
                 </div>
+                <p
+                  className="ContentPageCaptionTextSize CaptionText"
+                >
+                  CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program. (Image credit: Cheetah Conservation Fund)
+                </p>
               </div>
             </div>
           </div>

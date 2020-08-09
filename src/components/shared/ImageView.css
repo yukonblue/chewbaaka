@@ -4,15 +4,20 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 08, 2020
  */
 
 div.ImageViewOuterContainer {
-  display: block;
   max-width: 100%;
 }
 
-img.ImageViewImg {
-  max-width: 100%;
+div.ImageViewImgContainer {
   filter: drop-shadow(1px 1px 1px #222);
+}
+
+img.ImageViewImg {
+  display: block;
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
 }

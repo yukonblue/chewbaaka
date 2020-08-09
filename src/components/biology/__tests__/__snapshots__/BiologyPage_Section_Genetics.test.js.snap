@@ -275,7 +275,7 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
                         className="ImageViewOuterContainer"
                         style={
                           Object {
-                            "maxWidth": 640,
+                            "width": 640,
                           }
                         }
                       >
@@ -283,7 +283,7 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
                           className="ImageViewInnerContainer"
                         >
                           <div
-                            className="ImageViewCore"
+                            className="ImageViewImgContainer"
                           >
                             <img
                               alt="Kinked tail. (Image credit: Cheetah Conservation Fund)"
@@ -295,34 +295,30 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
                                 }
                               }
                             />
+                          </div>
+                          <div
+                            className="CaptionContainer"
+                            data-testid="CaptionComponentTestId"
+                            style={
+                              Object {
+                                "maxWidth": 640,
+                              }
+                            }
+                          >
                             <div
-                              data-testid="ImageViewComponentCaptionPart"
+                              className="IconContainer"
                             >
-                              <div
-                                className="CaptionContainer"
-                                data-testid="CaptionComponentTestId"
-                                style={
-                                  Object {
-                                    "maxWidth": 640,
-                                  }
-                                }
-                              >
-                                <div
-                                  className="IconContainer"
-                                >
-                                  <i
-                                    aria-hidden="true"
-                                    className="image icon"
-                                    onClick={[Function]}
-                                  />
-                                </div>
-                                <p
-                                  className="ContentPageCaptionTextSize CaptionText"
-                                >
-                                  Kinked tail. (Image credit: Cheetah Conservation Fund)
-                                </p>
-                              </div>
+                              <i
+                                aria-hidden="true"
+                                className="image icon"
+                                onClick={[Function]}
+                              />
                             </div>
+                            <p
+                              className="ContentPageCaptionTextSize CaptionText"
+                            >
+                              Kinked tail. (Image credit: Cheetah Conservation Fund)
+                            </p>
                           </div>
                         </div>
                       </div>

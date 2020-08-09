@@ -111,15 +111,14 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
   }
 
   renderCCFYearOfTheLGDImage() {
-    const width = 1000;
     return (
       <ContentPageSubsectionPart>
-        <div className="Centered" style={{width: width}}>
+        <div className="Centered">
           <ImageView
             image={image_CCF_Year_of_the_LGD}
             caption="Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program."
             credit={kStringConstantCheetahConservationFund}
-            width={width}
+            width={1000}
             height={299}
           />
         </div>

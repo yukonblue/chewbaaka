@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 08, 2020
  */
 
 /**
@@ -41,13 +41,11 @@ if ( process.env.NODE_ENV === 'development' )
 
 export default function ImageView(props) {
   const componentOuterContainerDimension = {
-    maxWidth: props.width,
-    // maxHeight: props.height
+    width: props.width
   };
 
   const imagePartDimensionStyle = {
-    width: props.width,
-    // height: props.height
+    width: props.width
   };
 
   const caption = getFormattedImageCaptionStringWithCredit(props.caption, props.credit);
@@ -58,20 +56,18 @@ export default function ImageView(props) {
       style={componentOuterContainerDimension}
     >
       <div className="ImageViewInnerContainer">
-        <div className="ImageViewCore">
+        <div className="ImageViewImgContainer">
           <img
             className="ImageViewImg"
             src={props.image}
             alt={caption}
             style={imagePartDimensionStyle}
           />
-          <div data-testid="ImageViewComponentCaptionPart">
-            <Caption
-              caption={caption}
-              width={props.width}
-            />
-          </div>
         </div>
+        <Caption data-testid="ImageViewComponentCaptionPart"
+          caption={caption}
+          width={props.width}
+        />
       </div>
     </div>
   );

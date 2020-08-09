@@ -22,7 +22,7 @@ exports[`BiologyPageSubsectionLifecycleStage1 component snapshot 1`] = `
           className="ImageViewOuterContainer"
           style={
             Object {
-              "maxWidth": 320,
+              "width": 320,
             }
           }
         >
@@ -30,7 +30,7 @@ exports[`BiologyPageSubsectionLifecycleStage1 component snapshot 1`] = `
             className="ImageViewInnerContainer"
           >
             <div
-              className="ImageViewCore"
+              className="ImageViewImgContainer"
             >
               <img
                 alt="Cheetah cubs are born blind, so they need their mother's care."
@@ -42,34 +42,30 @@ exports[`BiologyPageSubsectionLifecycleStage1 component snapshot 1`] = `
                   }
                 }
               />
+            </div>
+            <div
+              className="CaptionContainer"
+              data-testid="CaptionComponentTestId"
+              style={
+                Object {
+                  "maxWidth": 320,
+                }
+              }
+            >
               <div
-                data-testid="ImageViewComponentCaptionPart"
+                className="IconContainer"
               >
-                <div
-                  className="CaptionContainer"
-                  data-testid="CaptionComponentTestId"
-                  style={
-                    Object {
-                      "maxWidth": 320,
-                    }
-                  }
-                >
-                  <div
-                    className="IconContainer"
-                  >
-                    <i
-                      aria-hidden="true"
-                      className="image icon"
-                      onClick={[Function]}
-                    />
-                  </div>
-                  <p
-                    className="ContentPageCaptionTextSize CaptionText"
-                  >
-                    Cheetah cubs are born blind, so they need their mother's care.
-                  </p>
-                </div>
+                <i
+                  aria-hidden="true"
+                  className="image icon"
+                  onClick={[Function]}
+                />
               </div>
+              <p
+                className="ContentPageCaptionTextSize CaptionText"
+              >
+                Cheetah cubs are born blind, so they need their mother's care.
+              </p>
             </div>
           </div>
         </div>
