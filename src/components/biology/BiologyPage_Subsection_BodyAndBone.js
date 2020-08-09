@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Aug 08, 2020
+ * Updated  : Aug 09, 2020
  */
 
 import React from 'react'
@@ -29,9 +29,9 @@ import TextBubble from '../shared/TextBubble'
 
 import ImageView from '../shared/ImageView'
 
-import image_cheetah_body_measurements from './assets/Cheetah_Body_Measurements-min.jpg'
-import image_cheetah_tail from './assets/cheetah_tail-min.jpg'
-import image_cheetah_running_animated from './assets/cheetah_running_animated.gif'
+import image_cheetah_body_measurements from './assets/Cheetah_Body_Measurements_480x320-min.jpg'
+import image_cheetah_tail from './assets/cheetah_tail_480x343-min.jpg'
+import image_cheetah_running_animated from './assets/cheetah_running_animated-min.gif'
 
 export default class BiologyPageSubsectionBodyAndBone extends React.Component {
 
@@ -96,7 +96,7 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
         <ContentPageSideFloatFluidContainer
           floatPart={
             <TextBubble
-              diameter={540}
+              diameter={520}
               title={part.title}
               content={ContentPageSubsectionParagraphsJoin(part.contents)}
             /> 
