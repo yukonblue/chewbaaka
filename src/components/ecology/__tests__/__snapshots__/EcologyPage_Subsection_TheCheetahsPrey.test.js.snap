@@ -89,7 +89,7 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
       >
         <img
           alt="Cheetah and lion have drastically different preys, hunting strategies, and success rates."
-          className="FullWidth Centered DisplayBlock"
+          className="FullWidth DisplayBlock Centered"
           src="Cheetah_Lion_Hunting_Success_Rate_Comparsion-min.png"
         />
       </div>

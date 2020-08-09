@@ -101,7 +101,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
         />
         <img
           alt="African savanna"
-          className="FullWidth Centered DisplayBlock"
+          className="FullWidth DisplayBlock Centered"
           src="savana_bg_large-min.jpg"
         />
       </div>
@@ -192,7 +192,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
             className="Centered FullWidth"
             style={
               Object {
-                "width": undefined,
+                "width": 1200,
               }
             }
           >

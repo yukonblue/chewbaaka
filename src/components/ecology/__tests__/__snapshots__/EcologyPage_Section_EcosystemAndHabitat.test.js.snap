@@ -151,7 +151,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
               />
               <img
                 alt="African savanna"
-                className="FullWidth Centered DisplayBlock"
+                className="FullWidth DisplayBlock Centered"
                 src="savana_bg_large-min.jpg"
               />
             </div>
@@ -242,7 +242,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                   className="Centered FullWidth"
                   style={
                     Object {
-                      "width": undefined,
+                      "width": 1200,
                     }
                   }
                 >
@@ -558,7 +558,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
             >
               <img
                 alt="Cheetah and lion have drastically different preys, hunting strategies, and success rates."
-                className="FullWidth Centered DisplayBlock"
+                className="FullWidth DisplayBlock Centered"
                 src="Cheetah_Lion_Hunting_Success_Rate_Comparsion-min.png"
               />
             </div>

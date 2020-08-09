@@ -400,13 +400,13 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                   className="Centered FullWidth"
                   style={
                     Object {
-                      "width": undefined,
+                      "width": 1200,
                     }
                   }
                 >
                   <img
                     alt="Livestock Guarding Dog"
-                    className="FullWidth Centered DisplayBlock"
+                    className="FullWidth DisplayBlock"
                     src="CCF_LGD-min.jpg"
                   />
                 </div>
@@ -612,7 +612,7 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
               >
                 <img
                   alt="Livestock Guarding Dogs"
-                  className="FullWidth Centered DisplayBlock"
+                  className="FullWidth DisplayBlock Centered"
                   src="LGD_960x960-min.png"
                 />
               </div>
