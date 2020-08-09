@@ -4,14 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 09, 2020
  */
 
 import React from 'react'
 
 import '../shared/ContentPageSharedStyles.css'
-
-import { getElementStyleClassName } from '../../styling/styling'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
@@ -38,22 +36,19 @@ export default class HistoryPageSubsectionCheetahsInSports extends React.Compone
 
   render() {
     return (
-      <div className={getElementStyleClassName("HistoryPageSubsectionCheetahsInSportsOuterContainer")}>
-        <ContentPageSubsectionTemplate title={this.state.subsectionConfig.title} content={this.renderContent()} />
-      </div>
-    )
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
+    );
   }
 
   renderContent() {
     return (
-      <div className={getElementStyleClassName("HistoryPageSubsectionCheetahAndManImageInnerContainer")}>
-        <div>
-          <ContentPageSubsectionTwoColumnContentTemplate
-            lhsColumn={{content: this.renderLhsContent()}}
-            rhsColumn={{content: this.renderRhsContent()}}
-          />
-        </div>
-      </div>
+      <ContentPageSubsectionTwoColumnContentTemplate
+        lhsColumn={{content: this.renderLhsContent()}}
+        rhsColumn={{content: this.renderRhsContent()}}
+      />
     );
   }
 
