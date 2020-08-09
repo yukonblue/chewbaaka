@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 08, 2020
  */
 
 import React from 'react'
@@ -120,7 +120,7 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
   renderImageGallery() {
     return (
       <ContentPageSubsectionPart>
-        <div className="Centered" style={{width: 960}}>
+        <div className="Centered" style={{width: 960, maxWidth: `100%`}}>
           <ImageSlidingGalleryDiscrete
             width={960}
             height={640}
