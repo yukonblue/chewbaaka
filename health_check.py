@@ -3,7 +3,7 @@ health_check.py
 
 Author   : Tomiko
 Created  : Aug 03, 2020
-Updated  : Aug 07, 2020
+Updated  : Aug 09, 2020
 """
 
 import argparse
@@ -163,7 +163,7 @@ class HTTPResponseHeadersCheck(object):
 
 class HTMLHeadCheck(object):
 
-    EXPECTED_TITLE = 'Cheetahs'
+    EXPECTED_TITLE = 'Learn about cheetahs'
 
     EXPECTED_META = {
         'charset'         : 'utf-8',
