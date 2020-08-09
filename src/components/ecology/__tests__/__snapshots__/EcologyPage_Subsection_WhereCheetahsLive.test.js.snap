@@ -192,7 +192,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
             className="Centered FullWidth"
             style={
               Object {
-                "maxWidth": 1200,
+                "width": undefined,
               }
             }
           >

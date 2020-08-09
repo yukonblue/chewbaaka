@@ -53,7 +53,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
           className="Centered FullWidth"
           style={
             Object {
-              "maxWidth": 360,
+              "width": undefined,
             }
           }
         >
@@ -116,7 +116,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
             className="Centered FullWidth"
             style={
               Object {
-                "maxWidth": 720,
+                "width": undefined,
               }
             }
           >

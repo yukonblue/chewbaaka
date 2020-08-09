@@ -20,7 +20,7 @@ exports[`FuturePageSubsectionInternshipsAndVolunteering component snapshot 1`] =
           className="Centered FullWidth"
           style={
             Object {
-              "maxWidth": 1300,
+              "width": undefined,
             }
           }
         >

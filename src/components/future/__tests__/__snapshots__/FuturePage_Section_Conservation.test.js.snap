@@ -323,10 +323,9 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
               className="ContentPageSubsectionPartContainer"
             >
               <div
-                className="Centered"
+                className="Centered FullWidth"
                 style={
                   Object {
-                    "maxWidth": "100%",
                     "width": 960,
                   }
                 }

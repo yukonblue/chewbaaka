@@ -16,6 +16,8 @@ import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPage
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageAlarmBanner from '../shared/ContentPageAlarmBanner'
 
+import CenteredFullWidthContainer from '../shared/CenteredFullWidthContainer'
+
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
@@ -120,7 +122,8 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
   renderImageGallery() {
     return (
       <ContentPageSubsectionPart>
-        <div className="Centered" style={{width: 960, maxWidth: `100%`}}>
+
+        <CenteredFullWidthContainer width={960}>
           <ImageSlidingGalleryDiscrete
             width={960}
             height={640}
@@ -145,7 +148,7 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
               }
             ]}
           />
-        </div>
+        </CenteredFullWidthContainer>
       </ContentPageSubsectionPart>
     );
   }

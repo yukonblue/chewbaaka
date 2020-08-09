@@ -43,7 +43,7 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
             className="Centered FullWidth"
             style={
               Object {
-                "maxWidth": 1200,
+                "width": undefined,
               }
             }
           >
@@ -136,7 +136,12 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
         className="ContentPageSubsectionPartContainer"
       >
         <div
-          className="Centered"
+          className="Centered FullWidth"
+          style={
+            Object {
+              "width": 1000,
+            }
+          }
         >
           <div
             className="ImageViewOuterContainer"
