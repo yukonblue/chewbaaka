@@ -7,6 +7,10 @@
  * Updated  : Aug 07, 2020
  */
 
+div.ImageSlideModalCoverTriggerOuterContainer_DebugColor {
+  background-color: gray;
+}
+
 div.ImageSlideModalComponentModalContentOuterContainer_DebugColor {
   background-color: palegoldenrod;
 }

@@ -4,26 +4,33 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 08, 2020
  */
 
-div.ImageSliderModalCoverTriggerOuterContainer {
+div.ImageSlideModalCoverTriggerOuterContainer {
+  max-width: 100%;
+  background-color: gray;
+  border-radius: 6px;
+}
+
+div.ImageSlideModalCoverTriggerInnerContainer {
+  max-width: 100%;
+  max-height: 100%;
   position: relative;
   float: left;
-  background-color: gray;
   background-size: cover;
   opacity: 0.6;
   border-radius: 6px;
   border: 1px solid gray;
 }
 
-div.ImageSliderModalCoverTriggerImageIconInnerContainer {
+div.ImageSlideModalCoverTriggerImageIconInnerContainer {
   position:absolute;
   bottom:0;
   right:0;
 }
 
-div.ImageSliderModalCoverTriggerOuterContainer:hover {
+div.ImageSlideModalCoverTriggerOuterContainer:hover {
   filter: opacity(60%)
 }
 

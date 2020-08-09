@@ -4,18 +4,18 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 08, 2020
  */
 
 import React from 'react'
-
-import "semantic-ui-css/semantic.min.css"
 
 import { Button, Header, Image, Icon, Modal } from 'semantic-ui-react'
 
 import ContentPageCaptionLabel from './ContentPageCaptionLabel'
 
 import { getElementStyleClassName } from '../../styling/styling'
+
+import 'semantic-ui-css/semantic.min.css'
 
 import "./ImageSlideModal.css"
 
@@ -64,8 +64,12 @@ export default class ImageSlideModal extends React.Component {
     }));
   }
 
-  render() {
+  render() {    
     const coverImage = this.props.slides[0].image;
+
+    const modalCoverContainerDimensionStyle = {
+      width: 480,
+    };
 
     const modalCoverTriggerContainerStyle = {
       width: 480,
@@ -76,23 +80,39 @@ export default class ImageSlideModal extends React.Component {
     const leftPaginationButtonDisabled = ( this.state.activeIndex === 0 );
     const rightPaginationButtonDisabled = ( this.state.activeIndex ===  this.props.slides.length - 1);
 
+    const renderCaption = () => {
+      if ( this.props.caption ) {
+        return (
+          <ContentPageCaptionLabel>
+            {this.props.caption}
+          </ContentPageCaptionLabel>
+        );
+      } else return null;
+    };
+
     return (
       <Modal
         trigger={
           <div
-            className="ImageSliderModalCoverTriggerOuterContainer"
-            style={modalCoverTriggerContainerStyle}
-            onClick={this.handleOpen}
-            data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
+            className={getElementStyleClassName("ImageSlideModalCoverTriggerOuterContainer")}
+            style={modalCoverContainerDimensionStyle}
           >
-            <div className="ImageSliderModalCoverTriggerImageIconInnerContainer">
-              <Icon
-                name="images outline"
-                color="blue"
-                size="huge"
-                onClick={this.handleOpen}
-              />
+            <div
+              className="ImageSlideModalCoverTriggerInnerContainer"
+              style={modalCoverTriggerContainerStyle}
+              onClick={this.handleOpen}
+              data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
+            >
+              <div className="ImageSlideModalCoverTriggerImageIconInnerContainer">
+                <Icon
+                  name="images outline"
+                  color="blue"
+                  size="huge"
+                  onClick={this.handleOpen}
+                />
+              </div>
             </div>
+            {renderCaption()}
           </div>
         }
         open={this.state.isModalOpen}
@@ -142,6 +162,6 @@ export default class ImageSlideModal extends React.Component {
           </div>
         </Modal.Content>
       </Modal>
-    )
+    );
   }
 }
