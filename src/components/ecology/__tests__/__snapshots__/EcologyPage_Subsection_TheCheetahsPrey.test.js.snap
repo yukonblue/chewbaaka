@@ -137,28 +137,32 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
                       />
                     </div>
                     <div
-                      className="CaptionContainer"
-                      data-testid="CaptionComponentTestId"
-                      style={
-                        Object {
-                          "maxWidth": 640,
-                        }
-                      }
+                      className="ImageViewCaptionContainer"
                     >
                       <div
-                        className="IconContainer"
+                        className="CaptionContainer"
+                        data-testid="CaptionComponentTestId"
+                        style={
+                          Object {
+                            "maxWidth": 640,
+                          }
+                        }
                       >
-                        <i
-                          aria-hidden="true"
-                          className="image icon"
-                          onClick={[Function]}
-                        />
+                        <div
+                          className="IconContainer"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
+                        </div>
+                        <p
+                          className="ContentPageCaptionTextSize CaptionText"
+                        >
+                          Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest.
+                        </p>
                       </div>
-                      <p
-                        className="ContentPageCaptionTextSize CaptionText"
-                      >
-                        Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest.
-                      </p>
                     </div>
                   </div>
                 </div>
@@ -195,28 +199,32 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
                       />
                     </div>
                     <div
-                      className="CaptionContainer"
-                      data-testid="CaptionComponentTestId"
-                      style={
-                        Object {
-                          "maxWidth": 640,
-                        }
-                      }
+                      className="ImageViewCaptionContainer"
                     >
                       <div
-                        className="IconContainer"
+                        className="CaptionContainer"
+                        data-testid="CaptionComponentTestId"
+                        style={
+                          Object {
+                            "maxWidth": 640,
+                          }
+                        }
                       >
-                        <i
-                          aria-hidden="true"
-                          className="image icon"
-                          onClick={[Function]}
-                        />
+                        <div
+                          className="IconContainer"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
+                        </div>
+                        <p
+                          className="ContentPageCaptionTextSize CaptionText"
+                        >
+                          One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch.
+                        </p>
                       </div>
-                      <p
-                        className="ContentPageCaptionTextSize CaptionText"
-                      >
-                        One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch.
-                      </p>
                     </div>
                   </div>
                 </div>

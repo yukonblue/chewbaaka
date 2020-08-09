@@ -95,28 +95,32 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
                   />
                 </div>
                 <div
-                  className="CaptionContainer"
-                  data-testid="CaptionComponentTestId"
-                  style={
-                    Object {
-                      "maxWidth": 720,
-                    }
-                  }
+                  className="ImageViewCaptionContainer"
                 >
                   <div
-                    className="IconContainer"
+                    className="CaptionContainer"
+                    data-testid="CaptionComponentTestId"
+                    style={
+                      Object {
+                        "maxWidth": 720,
+                      }
+                    }
                   >
-                    <i
-                      aria-hidden="true"
-                      className="image icon"
-                      onClick={[Function]}
-                    />
+                    <div
+                      className="IconContainer"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
+                    </div>
+                    <p
+                      className="ContentPageCaptionTextSize CaptionText"
+                    >
+                      Anatolian Shepherd puppies live alongside with the herd. (Image credit: Cheetah Conservation Fund)
+                    </p>
                   </div>
-                  <p
-                    className="ContentPageCaptionTextSize CaptionText"
-                  >
-                    Anatolian Shepherd puppies live alongside with the herd. (Image credit: Cheetah Conservation Fund)
-                  </p>
                 </div>
               </div>
             </div>
@@ -169,28 +173,32 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
                 />
               </div>
               <div
-                className="CaptionContainer"
-                data-testid="CaptionComponentTestId"
-                style={
-                  Object {
-                    "maxWidth": 1000,
-                  }
-                }
+                className="ImageViewCaptionContainer"
               >
                 <div
-                  className="IconContainer"
+                  className="CaptionContainer"
+                  data-testid="CaptionComponentTestId"
+                  style={
+                    Object {
+                      "maxWidth": 1000,
+                    }
+                  }
                 >
-                  <i
-                    aria-hidden="true"
-                    className="image icon"
-                    onClick={[Function]}
-                  />
+                  <div
+                    className="IconContainer"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="image icon"
+                      onClick={[Function]}
+                    />
+                  </div>
+                  <p
+                    className="ContentPageCaptionTextSize CaptionText"
+                  >
+                    Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program. (Image credit: Cheetah Conservation Fund)
+                  </p>
                 </div>
-                <p
-                  className="ContentPageCaptionTextSize CaptionText"
-                >
-                  Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program. (Image credit: Cheetah Conservation Fund)
-                </p>
               </div>
             </div>
           </div>
@@ -215,7 +223,7 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
               src="Cheetah_and_LGD-min.jpg"
               style={
                 Object {
-                  "width": 720,
+                  "width": 520,
                 }
               }
             />

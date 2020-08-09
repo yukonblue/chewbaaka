@@ -44,28 +44,32 @@ exports[`BiologyPage_Subsection_RipAndTear component snapshot 1`] = `
               />
             </div>
             <div
-              className="CaptionContainer"
-              data-testid="CaptionComponentTestId"
-              style={
-                Object {
-                  "maxWidth": 640,
-                }
-              }
+              className="ImageViewCaptionContainer"
             >
               <div
-                className="IconContainer"
+                className="CaptionContainer"
+                data-testid="CaptionComponentTestId"
+                style={
+                  Object {
+                    "maxWidth": 640,
+                  }
+                }
               >
-                <i
-                  aria-hidden="true"
-                  className="image icon"
-                  onClick={[Function]}
-                />
+                <div
+                  className="IconContainer"
+                >
+                  <i
+                    aria-hidden="true"
+                    className="image icon"
+                    onClick={[Function]}
+                  />
+                </div>
+                <p
+                  className="ContentPageCaptionTextSize CaptionText"
+                >
+                  The three types of teeth of the cheetah: the incisors, canines, and carnassial.
+                </p>
               </div>
-              <p
-                className="ContentPageCaptionTextSize CaptionText"
-              >
-                The three types of teeth of the cheetah: the incisors, canines, and carnassial.
-              </p>
             </div>
           </div>
         </div>

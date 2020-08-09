@@ -95,28 +95,32 @@ exports[`FuturePageSubsectionFutureFarmersOfAfrica component snapshot 1`] = `
                   />
                 </div>
                 <div
-                  className="CaptionContainer"
-                  data-testid="CaptionComponentTestId"
-                  style={
-                    Object {
-                      "maxWidth": 742,
-                    }
-                  }
+                  className="ImageViewCaptionContainer"
                 >
                   <div
-                    className="IconContainer"
+                    className="CaptionContainer"
+                    data-testid="CaptionComponentTestId"
+                    style={
+                      Object {
+                        "maxWidth": 742,
+                      }
+                    }
                   >
-                    <i
-                      aria-hidden="true"
-                      className="image icon"
-                      onClick={[Function]}
-                    />
+                    <div
+                      className="IconContainer"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
+                    </div>
+                    <p
+                      className="ContentPageCaptionTextSize CaptionText"
+                    >
+                      Farmers participate in FFA training courses. (Image credit: Cheetah Conservation Fund)
+                    </p>
                   </div>
-                  <p
-                    className="ContentPageCaptionTextSize CaptionText"
-                  >
-                    Farmers participate in FFA training courses. (Image credit: Cheetah Conservation Fund)
-                  </p>
                 </div>
               </div>
             </div>

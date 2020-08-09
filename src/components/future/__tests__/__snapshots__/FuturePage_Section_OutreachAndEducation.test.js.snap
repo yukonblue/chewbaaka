@@ -368,28 +368,32 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                         />
                       </div>
                       <div
-                        className="CaptionContainer"
-                        data-testid="CaptionComponentTestId"
-                        style={
-                          Object {
-                            "maxWidth": 720,
-                          }
-                        }
+                        className="ImageViewCaptionContainer"
                       >
                         <div
-                          className="IconContainer"
+                          className="CaptionContainer"
+                          data-testid="CaptionComponentTestId"
+                          style={
+                            Object {
+                              "maxWidth": 720,
+                            }
+                          }
                         >
-                          <i
-                            aria-hidden="true"
-                            className="image icon"
-                            onClick={[Function]}
-                          />
+                          <div
+                            className="IconContainer"
+                          >
+                            <i
+                              aria-hidden="true"
+                              className="image icon"
+                              onClick={[Function]}
+                            />
+                          </div>
+                          <p
+                            className="ContentPageCaptionTextSize CaptionText"
+                          >
+                            In 2009, Cincinnati Zoo's cheetah Sarah set the record of the world's fastest cheetah, as she sprant 100m in just 6.13 seconds. The best record for 100m by humans was from Usain Bolt, finishing in 9.58 seconds.
+                          </p>
                         </div>
-                        <p
-                          className="ContentPageCaptionTextSize CaptionText"
-                        >
-                          In 2009, Cincinnati Zoo's cheetah Sarah set the record of the world's fastest cheetah, as she sprant 100m in just 6.13 seconds. The best record for 100m by humans was from Usain Bolt, finishing in 9.58 seconds.
-                        </p>
                       </div>
                     </div>
                   </div>
@@ -622,28 +626,32 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                       />
                     </div>
                     <div
-                      className="CaptionContainer"
-                      data-testid="CaptionComponentTestId"
-                      style={
-                        Object {
-                          "maxWidth": 960,
-                        }
-                      }
+                      className="ImageViewCaptionContainer"
                     >
                       <div
-                        className="IconContainer"
+                        className="CaptionContainer"
+                        data-testid="CaptionComponentTestId"
+                        style={
+                          Object {
+                            "maxWidth": 960,
+                          }
+                        }
                       >
-                        <i
-                          aria-hidden="true"
-                          className="image icon"
-                          onClick={[Function]}
-                        />
+                        <div
+                          className="IconContainer"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
+                        </div>
+                        <p
+                          className="ContentPageCaptionTextSize CaptionText"
+                        >
+                          CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program. (Image credit: Cheetah Conservation Fund)
+                        </p>
                       </div>
-                      <p
-                        className="ContentPageCaptionTextSize CaptionText"
-                      >
-                        CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program. (Image credit: Cheetah Conservation Fund)
-                      </p>
                     </div>
                   </div>
                 </div>

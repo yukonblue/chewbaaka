@@ -44,28 +44,32 @@ exports[`BiologyPageSubsectionLearningToHunt component snapshot 1`] = `
               />
             </div>
             <div
-              className="CaptionContainer"
-              data-testid="CaptionComponentTestId"
-              style={
-                Object {
-                  "maxWidth": 480,
-                }
-              }
+              className="ImageViewCaptionContainer"
             >
               <div
-                className="IconContainer"
+                className="CaptionContainer"
+                data-testid="CaptionComponentTestId"
+                style={
+                  Object {
+                    "maxWidth": 480,
+                  }
+                }
               >
-                <i
-                  aria-hidden="true"
-                  className="image icon"
-                  onClick={[Function]}
-                />
+                <div
+                  className="IconContainer"
+                >
+                  <i
+                    aria-hidden="true"
+                    className="image icon"
+                    onClick={[Function]}
+                  />
+                </div>
+                <p
+                  className="ContentPageCaptionTextSize CaptionText"
+                >
+                  Cheetah cubs learning how to hunt.
+                </p>
               </div>
-              <p
-                className="ContentPageCaptionTextSize CaptionText"
-              >
-                Cheetah cubs learning how to hunt.
-              </p>
             </div>
           </div>
         </div>

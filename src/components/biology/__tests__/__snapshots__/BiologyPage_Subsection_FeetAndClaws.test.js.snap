@@ -48,28 +48,32 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                   />
                 </div>
                 <div
-                  className="CaptionContainer"
-                  data-testid="CaptionComponentTestId"
-                  style={
-                    Object {
-                      "maxWidth": 403,
-                    }
-                  }
+                  className="ImageViewCaptionContainer"
                 >
                   <div
-                    className="IconContainer"
+                    className="CaptionContainer"
+                    data-testid="CaptionComponentTestId"
+                    style={
+                      Object {
+                        "maxWidth": 403,
+                      }
+                    }
                   >
-                    <i
-                      aria-hidden="true"
-                      className="image icon"
-                      onClick={[Function]}
-                    />
+                    <div
+                      className="IconContainer"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
+                    </div>
+                    <p
+                      className="ContentPageCaptionTextSize CaptionText"
+                    >
+                      The paws of the cheetah have a distinct shape compared to some of the other carnivores.
+                    </p>
                   </div>
-                  <p
-                    className="ContentPageCaptionTextSize CaptionText"
-                  >
-                    The paws of the cheetah have a distinct shape compared to some of the other carnivores.
-                  </p>
                 </div>
               </div>
             </div>
@@ -197,28 +201,32 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                   />
                 </div>
                 <div
-                  className="CaptionContainer"
-                  data-testid="CaptionComponentTestId"
-                  style={
-                    Object {
-                      "maxWidth": 480,
-                    }
-                  }
+                  className="ImageViewCaptionContainer"
                 >
                   <div
-                    className="IconContainer"
+                    className="CaptionContainer"
+                    data-testid="CaptionComponentTestId"
+                    style={
+                      Object {
+                        "maxWidth": 480,
+                      }
+                    }
                   >
-                    <i
-                      aria-hidden="true"
-                      className="image icon"
-                      onClick={[Function]}
-                    />
+                    <div
+                      className="IconContainer"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
+                    </div>
+                    <p
+                      className="ContentPageCaptionTextSize CaptionText"
+                    >
+                      Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability.
+                    </p>
                   </div>
-                  <p
-                    className="ContentPageCaptionTextSize CaptionText"
-                  >
-                    Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability.
-                  </p>
                 </div>
               </div>
             </div>
@@ -260,28 +268,32 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                   />
                 </div>
                 <div
-                  className="CaptionContainer"
-                  data-testid="CaptionComponentTestId"
-                  style={
-                    Object {
-                      "maxWidth": 480,
-                    }
-                  }
+                  className="ImageViewCaptionContainer"
                 >
                   <div
-                    className="IconContainer"
+                    className="CaptionContainer"
+                    data-testid="CaptionComponentTestId"
+                    style={
+                      Object {
+                        "maxWidth": 480,
+                      }
+                    }
                   >
-                    <i
-                      aria-hidden="true"
-                      className="image icon"
-                      onClick={[Function]}
-                    />
+                    <div
+                      className="IconContainer"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
+                    </div>
+                    <p
+                      className="ContentPageCaptionTextSize CaptionText"
+                    >
+                      Cheetah dewclaw.
+                    </p>
                   </div>
-                  <p
-                    className="ContentPageCaptionTextSize CaptionText"
-                  >
-                    Cheetah dewclaw.
-                  </p>
                 </div>
               </div>
             </div>

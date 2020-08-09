@@ -297,28 +297,32 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
                             />
                           </div>
                           <div
-                            className="CaptionContainer"
-                            data-testid="CaptionComponentTestId"
-                            style={
-                              Object {
-                                "maxWidth": 640,
-                              }
-                            }
+                            className="ImageViewCaptionContainer"
                           >
                             <div
-                              className="IconContainer"
+                              className="CaptionContainer"
+                              data-testid="CaptionComponentTestId"
+                              style={
+                                Object {
+                                  "maxWidth": 640,
+                                }
+                              }
                             >
-                              <i
-                                aria-hidden="true"
-                                className="image icon"
-                                onClick={[Function]}
-                              />
+                              <div
+                                className="IconContainer"
+                              >
+                                <i
+                                  aria-hidden="true"
+                                  className="image icon"
+                                  onClick={[Function]}
+                                />
+                              </div>
+                              <p
+                                className="ContentPageCaptionTextSize CaptionText"
+                              >
+                                Kinked tail. (Image credit: Cheetah Conservation Fund)
+                              </p>
                             </div>
-                            <p
-                              className="ContentPageCaptionTextSize CaptionText"
-                            >
-                              Kinked tail. (Image credit: Cheetah Conservation Fund)
-                            </p>
                           </div>
                         </div>
                       </div>

@@ -3,7 +3,7 @@ health_check.py
 
 Author   : Tomiko
 Created  : Aug 03, 2020
-Updated  : Aug 07, 2020
+Updated  : Aug 09, 2020
 """
 
 import argparse
@@ -163,13 +163,13 @@ class HTTPResponseHeadersCheck(object):
 
 class HTMLHeadCheck(object):
 
-    EXPECTED_TITLE = 'Cheetahs'
+    EXPECTED_TITLE = 'Learn about cheetahs'
 
     EXPECTED_META = {
         'charset'         : 'utf-8',
         'description'     : 'Learn about cheetahs by exploring the Cheetah Museum at Cheetah Conservation Fund',
         'viewport'        : 'width=device-width,initial-scale=1',
-        'keywords'        : 'cheetah, cheetah evolution, cheetah biology, cheetah habitat, cheetah conservation, learn about cheetahs, hope for cheetahs, save the cheetahs, Cheetah Conservation Fund, CCF, Chewbaaka, wildlife conservation, conservation, bushblok',
+        'keywords'        : 'cheetah, cheetah evolution, cheetah biology, cheetah habitat, cheetah conservation, cheetah facts, learn about cheetahs, hope for cheetahs, save the cheetahs, Cheetah Conservation Fund, CCF, Chewbaaka, wildlife conservation, conservation',
         'AdsBot-Google'   : 'noindex'
     }
 
