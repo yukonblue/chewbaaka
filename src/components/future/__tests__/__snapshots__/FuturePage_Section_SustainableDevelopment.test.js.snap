@@ -584,7 +584,7 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                     src="Cheetah_and_LGD-min.jpg"
                     style={
                       Object {
-                        "width": 720,
+                        "width": 520,
                       }
                     }
                   />

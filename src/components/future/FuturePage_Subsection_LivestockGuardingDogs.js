@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 08, 2020
+ * Updated  : Aug 09, 2020
  */
 
 import React from 'react'
@@ -139,7 +139,7 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
             <img
               src={image_Cheetah_and_LGD}
               alt="Cheetah and LGD"
-              style={{width: 720}}
+              style={{width: 520}}
             />
           }
           fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
