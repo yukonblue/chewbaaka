@@ -64,7 +64,7 @@ export default function ImageView(props) {
             style={imagePartDimensionStyle}
           />
         </div>
-        <Caption data-testid="ImageViewComponentCaptionPart"
+        <Caption
           caption={caption}
           width={props.width}
         />

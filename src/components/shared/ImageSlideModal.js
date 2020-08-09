@@ -64,7 +64,7 @@ export default class ImageSlideModal extends React.Component {
     }));
   }
 
-  render() {    
+  render() {
     const coverImage = this.props.slides[0].image;
 
     const modalCoverContainerDimensionStyle = {

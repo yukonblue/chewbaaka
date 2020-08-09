@@ -82,7 +82,7 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
 
   renderCheetahEvolutionAndExtinctionScaleImage() {
     return (
-      <CenteredFullWidthContainer maxWidth={1200}>
+      <CenteredFullWidthContainer width={1200}>
         <FluidImageWrapper
           src={image_Cheetah_Evolution_and_Extinction_Scale}
           alt="Cheetah evolution and extinction"
