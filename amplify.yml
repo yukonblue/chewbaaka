@@ -43,5 +43,6 @@ frontend:
     # More info on Cache-Control:
     # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control
     - pattern: '/static/**/*'
+      headers:
       - key: 'Cache-Control'
         value: 'public, max-age=7200, immutable'
