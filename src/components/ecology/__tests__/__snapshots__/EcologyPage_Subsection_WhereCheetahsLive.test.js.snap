@@ -53,28 +53,32 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                   />
                 </div>
                 <div
-                  className="CaptionContainer"
-                  data-testid="CaptionComponentTestId"
-                  style={
-                    Object {
-                      "maxWidth": 598,
-                    }
-                  }
+                  className="ImageViewCaptionContainer"
                 >
                   <div
-                    className="IconContainer"
+                    className="CaptionContainer"
+                    data-testid="CaptionComponentTestId"
+                    style={
+                      Object {
+                        "maxWidth": 598,
+                      }
+                    }
                   >
-                    <i
-                      aria-hidden="true"
-                      className="image icon"
-                      onClick={[Function]}
-                    />
+                    <div
+                      className="IconContainer"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
+                    </div>
+                    <p
+                      className="ContentPageCaptionTextSize CaptionText"
+                    >
+                      African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlifes.
+                    </p>
                   </div>
-                  <p
-                    className="ContentPageCaptionTextSize CaptionText"
-                  >
-                    African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlifes.
-                  </p>
                 </div>
               </div>
             </div>
@@ -222,28 +226,32 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                   />
                 </div>
                 <div
-                  className="CaptionContainer"
-                  data-testid="CaptionComponentTestId"
-                  style={
-                    Object {
-                      "maxWidth": 1200,
-                    }
-                  }
+                  className="ImageViewCaptionContainer"
                 >
                   <div
-                    className="IconContainer"
+                    className="CaptionContainer"
+                    data-testid="CaptionComponentTestId"
+                    style={
+                      Object {
+                        "maxWidth": 1200,
+                      }
+                    }
                   >
-                    <i
-                      aria-hidden="true"
-                      className="image icon"
-                      onClick={[Function]}
-                    />
+                    <div
+                      className="IconContainer"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
+                    </div>
+                    <p
+                      className="ContentPageCaptionTextSize CaptionText"
+                    >
+                      Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on.
+                    </p>
                   </div>
-                  <p
-                    className="ContentPageCaptionTextSize CaptionText"
-                  >
-                    Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on.
-                  </p>
                 </div>
               </div>
             </div>

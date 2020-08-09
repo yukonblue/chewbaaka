@@ -54,28 +54,32 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
                     />
                   </div>
                   <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "maxWidth": 600,
-                      }
-                    }
+                    className="ImageViewCaptionContainer"
                   >
                     <div
-                      className="IconContainer"
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 600,
+                        }
+                      }
                     >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
+                      <div
+                        className="IconContainer"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
+                      </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        Thickened thorn bush degrades entire habitat and poses problems for all species of animals in that habitat. (Image credit: Cheetah Conservation Fund)
+                      </p>
                     </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      Thickened thorn bush degrades entire habitat and poses problems for all species of animals in that habitat. (Image credit: Cheetah Conservation Fund)
-                    </p>
                   </div>
                 </div>
               </div>
@@ -166,28 +170,32 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
                     />
                   </div>
                   <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "maxWidth": 640,
-                      }
-                    }
+                    className="ImageViewCaptionContainer"
                   >
                     <div
-                      className="IconContainer"
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 640,
+                        }
+                      }
                     >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
+                      <div
+                        className="IconContainer"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
+                      </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        Cheetahs faced even more hardship in bush encroached territories. They have to adapt in every aspect of their life, such as hunting.
+                      </p>
                     </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      Cheetahs faced even more hardship in bush encroached territories. They have to adapt in every aspect of their life, such as hunting.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -350,28 +358,32 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
                       />
                     </div>
                     <div
-                      className="CaptionContainer"
-                      data-testid="CaptionComponentTestId"
-                      style={
-                        Object {
-                          "maxWidth": 640,
-                        }
-                      }
+                      className="ImageViewCaptionContainer"
                     >
                       <div
-                        className="IconContainer"
+                        className="CaptionContainer"
+                        data-testid="CaptionComponentTestId"
+                        style={
+                          Object {
+                            "maxWidth": 640,
+                          }
+                        }
                       >
-                        <i
-                          aria-hidden="true"
-                          className="image icon"
-                          onClick={[Function]}
-                        />
+                        <div
+                          className="IconContainer"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
+                        </div>
+                        <p
+                          className="ContentPageCaptionTextSize CaptionText"
+                        >
+                          Bushblok is produced at CCF from the waste product of habitat restoration. (Image credit: Cheetah Conservation Fund)
+                        </p>
                       </div>
-                      <p
-                        className="ContentPageCaptionTextSize CaptionText"
-                      >
-                        Bushblok is produced at CCF from the waste product of habitat restoration. (Image credit: Cheetah Conservation Fund)
-                      </p>
                     </div>
                   </div>
                 </div>
@@ -408,28 +420,32 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
                       />
                     </div>
                     <div
-                      className="CaptionContainer"
-                      data-testid="CaptionComponentTestId"
-                      style={
-                        Object {
-                          "maxWidth": 640,
-                        }
-                      }
+                      className="ImageViewCaptionContainer"
                     >
                       <div
-                        className="IconContainer"
+                        className="CaptionContainer"
+                        data-testid="CaptionComponentTestId"
+                        style={
+                          Object {
+                            "maxWidth": 640,
+                          }
+                        }
                       >
-                        <i
-                          aria-hidden="true"
-                          className="image icon"
-                          onClick={[Function]}
-                        />
+                        <div
+                          className="IconContainer"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
+                        </div>
+                        <p
+                          className="ContentPageCaptionTextSize CaptionText"
+                        >
+                          Bushblok packaging for different markets. (Image credit: Cheetah Conservation Fund)
+                        </p>
                       </div>
-                      <p
-                        className="ContentPageCaptionTextSize CaptionText"
-                      >
-                        Bushblok packaging for different markets. (Image credit: Cheetah Conservation Fund)
-                      </p>
                     </div>
                   </div>
                 </div>

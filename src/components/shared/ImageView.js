@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 08, 2020
+ * Updated  : Aug 09, 2020
  */
 
 /**
@@ -64,10 +64,12 @@ export default function ImageView(props) {
             style={imagePartDimensionStyle}
           />
         </div>
-        <Caption
-          caption={caption}
-          width={props.width}
-        />
+        <div className="ImageViewCaptionContainer">
+          <Caption
+            caption={caption}
+            width={props.width}
+          />
+        </div>
       </div>
     </div>
   );

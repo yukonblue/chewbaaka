@@ -53,28 +53,32 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
                   />
                 </div>
                 <div
-                  className="CaptionContainer"
-                  data-testid="CaptionComponentTestId"
-                  style={
-                    Object {
-                      "maxWidth": 640,
-                    }
-                  }
+                  className="ImageViewCaptionContainer"
                 >
                   <div
-                    className="IconContainer"
+                    className="CaptionContainer"
+                    data-testid="CaptionComponentTestId"
+                    style={
+                      Object {
+                        "maxWidth": 640,
+                      }
+                    }
                   >
-                    <i
-                      aria-hidden="true"
-                      className="image icon"
-                      onClick={[Function]}
-                    />
+                    <div
+                      className="IconContainer"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
+                    </div>
+                    <p
+                      className="ContentPageCaptionTextSize CaptionText"
+                    >
+                      A simplified illustration of the food web of a savanna ecosystem.
+                    </p>
                   </div>
-                  <p
-                    className="ContentPageCaptionTextSize CaptionText"
-                  >
-                    A simplified illustration of the food web of a savanna ecosystem.
-                  </p>
                 </div>
               </div>
             </div>
@@ -154,28 +158,32 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
                       />
                     </div>
                     <div
-                      className="CaptionContainer"
-                      data-testid="CaptionComponentTestId"
-                      style={
-                        Object {
-                          "maxWidth": 640,
-                        }
-                      }
+                      className="ImageViewCaptionContainer"
                     >
                       <div
-                        className="IconContainer"
+                        className="CaptionContainer"
+                        data-testid="CaptionComponentTestId"
+                        style={
+                          Object {
+                            "maxWidth": 640,
+                          }
+                        }
                       >
-                        <i
-                          aria-hidden="true"
-                          className="image icon"
-                          onClick={[Function]}
-                        />
+                        <div
+                          className="IconContainer"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
+                        </div>
+                        <p
+                          className="ContentPageCaptionTextSize CaptionText"
+                        >
+                          Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains.
+                        </p>
                       </div>
-                      <p
-                        className="ContentPageCaptionTextSize CaptionText"
-                      >
-                        Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains.
-                      </p>
                     </div>
                   </div>
                 </div>
@@ -212,28 +220,32 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
                       />
                     </div>
                     <div
-                      className="CaptionContainer"
-                      data-testid="CaptionComponentTestId"
-                      style={
-                        Object {
-                          "maxWidth": 480,
-                        }
-                      }
+                      className="ImageViewCaptionContainer"
                     >
                       <div
-                        className="IconContainer"
+                        className="CaptionContainer"
+                        data-testid="CaptionComponentTestId"
+                        style={
+                          Object {
+                            "maxWidth": 480,
+                          }
+                        }
                       >
-                        <i
-                          aria-hidden="true"
-                          className="image icon"
-                          onClick={[Function]}
-                        />
+                        <div
+                          className="IconContainer"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
+                        </div>
+                        <p
+                          className="ContentPageCaptionTextSize CaptionText"
+                        >
+                          Lions will often take over the cheetah's prey easily as they are superior in strength.
+                        </p>
                       </div>
-                      <p
-                        className="ContentPageCaptionTextSize CaptionText"
-                      >
-                        Lions will often take over the cheetah's prey easily as they are superior in strength.
-                      </p>
                     </div>
                   </div>
                 </div>

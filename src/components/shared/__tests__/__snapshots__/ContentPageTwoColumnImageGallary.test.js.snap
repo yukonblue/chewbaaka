@@ -42,28 +42,32 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
               />
             </div>
             <div
-              className="CaptionContainer"
-              data-testid="CaptionComponentTestId"
-              style={
-                Object {
-                  "maxWidth": 720,
-                }
-              }
+              className="ImageViewCaptionContainer"
             >
               <div
-                className="IconContainer"
+                className="CaptionContainer"
+                data-testid="CaptionComponentTestId"
+                style={
+                  Object {
+                    "maxWidth": 720,
+                  }
+                }
               >
-                <i
-                  aria-hidden="true"
-                  className="image icon"
-                  onClick={[Function]}
-                />
+                <div
+                  className="IconContainer"
+                >
+                  <i
+                    aria-hidden="true"
+                    className="image icon"
+                    onClick={[Function]}
+                  />
+                </div>
+                <p
+                  className="ContentPageCaptionTextSize CaptionText"
+                >
+                  This is image 1.
+                </p>
               </div>
-              <p
-                className="ContentPageCaptionTextSize CaptionText"
-              >
-                This is image 1.
-              </p>
             </div>
           </div>
         </div>
@@ -100,28 +104,32 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
               />
             </div>
             <div
-              className="CaptionContainer"
-              data-testid="CaptionComponentTestId"
-              style={
-                Object {
-                  "maxWidth": 1080,
-                }
-              }
+              className="ImageViewCaptionContainer"
             >
               <div
-                className="IconContainer"
+                className="CaptionContainer"
+                data-testid="CaptionComponentTestId"
+                style={
+                  Object {
+                    "maxWidth": 1080,
+                  }
+                }
               >
-                <i
-                  aria-hidden="true"
-                  className="image icon"
-                  onClick={[Function]}
-                />
+                <div
+                  className="IconContainer"
+                >
+                  <i
+                    aria-hidden="true"
+                    className="image icon"
+                    onClick={[Function]}
+                  />
+                </div>
+                <p
+                  className="ContentPageCaptionTextSize CaptionText"
+                >
+                  This is image 2. (Image credit: Image God)
+                </p>
               </div>
-              <p
-                className="ContentPageCaptionTextSize CaptionText"
-              >
-                This is image 2. (Image credit: Image God)
-              </p>
             </div>
           </div>
         </div>

@@ -93,28 +93,32 @@ exports[`FuturePageSubsectionStoppingIllegalWildlifeTrades component snapshot 1`
                       />
                     </div>
                     <div
-                      className="CaptionContainer"
-                      data-testid="CaptionComponentTestId"
-                      style={
-                        Object {
-                          "maxWidth": 640,
-                        }
-                      }
+                      className="ImageViewCaptionContainer"
                     >
                       <div
-                        className="IconContainer"
+                        className="CaptionContainer"
+                        data-testid="CaptionComponentTestId"
+                        style={
+                          Object {
+                            "maxWidth": 640,
+                          }
+                        }
                       >
-                        <i
-                          aria-hidden="true"
-                          className="image icon"
-                          onClick={[Function]}
-                        />
+                        <div
+                          className="IconContainer"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
+                        </div>
+                        <p
+                          className="ContentPageCaptionTextSize CaptionText"
+                        >
+                          The heaviest trafficking of cheetahs have been observed from Central and Southern Africa into the Middle East. (Image credit: BBC)
+                        </p>
                       </div>
-                      <p
-                        className="ContentPageCaptionTextSize CaptionText"
-                      >
-                        The heaviest trafficking of cheetahs have been observed from Central and Southern Africa into the Middle East. (Image credit: BBC)
-                      </p>
                     </div>
                   </div>
                 </div>

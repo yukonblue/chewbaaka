@@ -403,28 +403,32 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                         />
                       </div>
                       <div
-                        className="CaptionContainer"
-                        data-testid="CaptionComponentTestId"
-                        style={
-                          Object {
-                            "maxWidth": 451,
-                          }
-                        }
+                        className="ImageViewCaptionContainer"
                       >
                         <div
-                          className="IconContainer"
+                          className="CaptionContainer"
+                          data-testid="CaptionComponentTestId"
+                          style={
+                            Object {
+                              "maxWidth": 451,
+                            }
+                          }
                         >
-                          <i
-                            aria-hidden="true"
-                            className="image icon"
-                            onClick={[Function]}
-                          />
+                          <div
+                            className="IconContainer"
+                          >
+                            <i
+                              aria-hidden="true"
+                              className="image icon"
+                              onClick={[Function]}
+                            />
+                          </div>
+                          <p
+                            className="ContentPageCaptionTextSize CaptionText"
+                          >
+                            Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli.
+                          </p>
                         </div>
-                        <p
-                          className="ContentPageCaptionTextSize CaptionText"
-                        >
-                          Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli.
-                        </p>
                       </div>
                     </div>
                   </div>

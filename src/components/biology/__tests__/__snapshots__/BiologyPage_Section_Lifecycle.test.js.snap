@@ -145,28 +145,32 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                     />
                   </div>
                   <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "maxWidth": 320,
-                      }
-                    }
+                    className="ImageViewCaptionContainer"
                   >
                     <div
-                      className="IconContainer"
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 320,
+                        }
+                      }
                     >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
+                      <div
+                        className="IconContainer"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
+                      </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        Cheetah cubs are born blind, so they need their mother's care.
+                      </p>
                     </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      Cheetah cubs are born blind, so they need their mother's care.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -417,28 +421,32 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                     />
                   </div>
                   <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "maxWidth": 480,
-                      }
-                    }
+                    className="ImageViewCaptionContainer"
                   >
                     <div
-                      className="IconContainer"
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 480,
+                        }
+                      }
                     >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
+                      <div
+                        className="IconContainer"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
+                      </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        Cheetah cubs learning how to hunt.
+                      </p>
                     </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      Cheetah cubs learning how to hunt.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -613,28 +621,32 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                     />
                   </div>
                   <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "maxWidth": 720,
-                      }
-                    }
+                    className="ImageViewCaptionContainer"
                   >
                     <div
-                      className="IconContainer"
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 720,
+                        }
+                      }
                     >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
+                      <div
+                        className="IconContainer"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
+                      </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        Cheetahs often mark their scent on tree trunks with their urine. This behavior is common among cats.
+                      </p>
                     </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      Cheetahs often mark their scent on tree trunks with their urine. This behavior is common among cats.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -751,28 +763,32 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                             />
                           </div>
                           <div
-                            className="CaptionContainer"
-                            data-testid="CaptionComponentTestId"
-                            style={
-                              Object {
-                                "maxWidth": 510,
-                              }
-                            }
+                            className="ImageViewCaptionContainer"
                           >
                             <div
-                              className="IconContainer"
+                              className="CaptionContainer"
+                              data-testid="CaptionComponentTestId"
+                              style={
+                                Object {
+                                  "maxWidth": 510,
+                                }
+                              }
                             >
-                              <i
-                                aria-hidden="true"
-                                className="image icon"
-                                onClick={[Function]}
-                              />
+                              <div
+                                className="IconContainer"
+                              >
+                                <i
+                                  aria-hidden="true"
+                                  className="image icon"
+                                  onClick={[Function]}
+                                />
+                              </div>
+                              <p
+                                className="ContentPageCaptionTextSize CaptionText"
+                              >
+                                A coalition of cheetahs on the lookout.
+                              </p>
                             </div>
-                            <p
-                              className="ContentPageCaptionTextSize CaptionText"
-                            >
-                              A coalition of cheetahs on the lookout.
-                            </p>
                           </div>
                         </div>
                       </div>
@@ -825,28 +841,32 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                             />
                           </div>
                           <div
-                            className="CaptionContainer"
-                            data-testid="CaptionComponentTestId"
-                            style={
-                              Object {
-                                "maxWidth": 640,
-                              }
-                            }
+                            className="ImageViewCaptionContainer"
                           >
                             <div
-                              className="IconContainer"
+                              className="CaptionContainer"
+                              data-testid="CaptionComponentTestId"
+                              style={
+                                Object {
+                                  "maxWidth": 640,
+                                }
+                              }
                             >
-                              <i
-                                aria-hidden="true"
-                                className="image icon"
-                                onClick={[Function]}
-                              />
+                              <div
+                                className="IconContainer"
+                              >
+                                <i
+                                  aria-hidden="true"
+                                  className="image icon"
+                                  onClick={[Function]}
+                                />
+                              </div>
+                              <p
+                                className="ContentPageCaptionTextSize CaptionText"
+                              >
+                                Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)
+                              </p>
                             </div>
-                            <p
-                              className="ContentPageCaptionTextSize CaptionText"
-                            >
-                              Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)
-                            </p>
                           </div>
                         </div>
                       </div>

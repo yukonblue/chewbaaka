@@ -27,28 +27,32 @@ exports[`ImageView component snapshot 1`] = `
       />
     </div>
     <div
-      className="CaptionContainer"
-      data-testid="CaptionComponentTestId"
-      style={
-        Object {
-          "maxWidth": 640,
-        }
-      }
+      className="ImageViewCaptionContainer"
     >
       <div
-        className="IconContainer"
+        className="CaptionContainer"
+        data-testid="CaptionComponentTestId"
+        style={
+          Object {
+            "maxWidth": 640,
+          }
+        }
       >
-        <i
-          aria-hidden="true"
-          className="image icon"
-          onClick={[Function]}
-        />
+        <div
+          className="IconContainer"
+        >
+          <i
+            aria-hidden="true"
+            className="image icon"
+            onClick={[Function]}
+          />
+        </div>
+        <p
+          className="ContentPageCaptionTextSize CaptionText"
+        >
+          This is a caption
+        </p>
       </div>
-      <p
-        className="ContentPageCaptionTextSize CaptionText"
-      >
-        This is a caption
-      </p>
     </div>
   </div>
 </div>
@@ -81,28 +85,32 @@ exports[`ImageView component with image credit string snapshot 1`] = `
       />
     </div>
     <div
-      className="CaptionContainer"
-      data-testid="CaptionComponentTestId"
-      style={
-        Object {
-          "maxWidth": 640,
-        }
-      }
+      className="ImageViewCaptionContainer"
     >
       <div
-        className="IconContainer"
+        className="CaptionContainer"
+        data-testid="CaptionComponentTestId"
+        style={
+          Object {
+            "maxWidth": 640,
+          }
+        }
       >
-        <i
-          aria-hidden="true"
-          className="image icon"
-          onClick={[Function]}
-        />
+        <div
+          className="IconContainer"
+        >
+          <i
+            aria-hidden="true"
+            className="image icon"
+            onClick={[Function]}
+          />
+        </div>
+        <p
+          className="ContentPageCaptionTextSize CaptionText"
+        >
+          This is a caption (Image credit: Image God)
+        </p>
       </div>
-      <p
-        className="ContentPageCaptionTextSize CaptionText"
-      >
-        This is a caption (Image credit: Image God)
-      </p>
     </div>
   </div>
 </div>

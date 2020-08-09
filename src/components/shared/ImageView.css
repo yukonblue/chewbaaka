@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 08, 2020
+ * Updated  : Aug 09, 2020
  */
 
 div.ImageViewOuterContainer {
@@ -20,4 +20,8 @@ img.ImageViewImg {
   object-fit: contain;
   max-width: 100%;
   height: auto;
+}
+
+div.ImageViewCaptionContainer {
+  margin-top: 5px;
 }

@@ -44,28 +44,32 @@ exports[`BiologyPageSubsectionLifecycleStage1 component snapshot 1`] = `
               />
             </div>
             <div
-              className="CaptionContainer"
-              data-testid="CaptionComponentTestId"
-              style={
-                Object {
-                  "maxWidth": 320,
-                }
-              }
+              className="ImageViewCaptionContainer"
             >
               <div
-                className="IconContainer"
+                className="CaptionContainer"
+                data-testid="CaptionComponentTestId"
+                style={
+                  Object {
+                    "maxWidth": 320,
+                  }
+                }
               >
-                <i
-                  aria-hidden="true"
-                  className="image icon"
-                  onClick={[Function]}
-                />
+                <div
+                  className="IconContainer"
+                >
+                  <i
+                    aria-hidden="true"
+                    className="image icon"
+                    onClick={[Function]}
+                  />
+                </div>
+                <p
+                  className="ContentPageCaptionTextSize CaptionText"
+                >
+                  Cheetah cubs are born blind, so they need their mother's care.
+                </p>
               </div>
-              <p
-                className="ContentPageCaptionTextSize CaptionText"
-              >
-                Cheetah cubs are born blind, so they need their mother's care.
-              </p>
             </div>
           </div>
         </div>
