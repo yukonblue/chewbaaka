@@ -1,5 +1,11 @@
 # Release Note
 
+## Version 0.1.12
+
+* Date: August 09, 2020
+* Changelog:
+  * Changeset #141 - Incorporate embedded YouTube video frames in content pages
+
 ## Version 0.1.11
 
 * Date: August 09, 2020
