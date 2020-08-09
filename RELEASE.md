@@ -1,5 +1,27 @@
 # Release Note
 
+## Version 0.1.11
+
+* Date: August 09, 2020
+* Changelog:
+  * Fixes for the following issues:
+    * Issue #94 - `TextBubble` clipping inside `ContentPageSideFloatFluidContainer`
+    * Issue #96 - Felidae Family Tree does not show entirety in most regular sized display sizes
+    * Issue #98 - Content page top nav menu bar should highlight the item for the current page
+    * Issue #105 - Missing essential security headers in HTTP responses
+    * Issue #121 - Navigations between pages cause browser to refresh
+    * Issue #123 - Content page extend beyond supposed bound right-hand side
+    * Issue #130 - We should render all fixed-width components conditionally
+    * Issue #131 - `ImageView`, `ImageViewModal`, `ImageSlidingGalleryDiscrete`, and `ImageSlideModal` components can bleed out of parent bound
+    * Issue #139 - Stats blow box in history page have inconsistent inner and outer background color
+  * Other notable changes:
+    * Changeset #120 - Deprecate and remove `ImageSlideDiscrete` component
+    * Changeset #126 - Strip debug styles from production builds
+    * Changeset #134 - History page style cleanups
+    * Changeset #135 - Biology page style refinements
+    * Changeset #136 - General refinements
+    * Changeset #138 - Refine landing page text styles
+
 ## Version 0.1.10
 
 * Date: August 06, 2020
