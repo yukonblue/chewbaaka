@@ -3,6 +3,9 @@
 ## Version 0.1.11
 
 * Date: August 09, 2020
+* Commit: `d8493e4`
+* Tag: `v0.1.11`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.1.11)
 * Changelog:
   * Fixes for the following issues:
     * Issue #94 - `TextBubble` clipping inside `ContentPageSideFloatFluidContainer`
