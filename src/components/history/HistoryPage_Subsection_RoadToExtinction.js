@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Aug 08, 2020
+ * Updated  : Aug 09, 2020
  */
 
 import React from 'react'
@@ -23,8 +23,6 @@ import {
 } from '../shared/ContentPageSubsectionContentBinder'
 
 import CenteredFullWidthContainer from '../shared/CenteredFullWidthContainer'
-
-import { getElementStyleClassName } from '../../styling/styling'
 
 import HistoryPageCheetahPopulationIllustration from './HistoryPageCheetahPopulationIllustration'
 
@@ -45,9 +43,6 @@ import '../shared/ContentPageSharedStyles.css'
 
 import './HistoryPage_Subsection_RoadToExtinction.css'
 
-if ( process.env.NODE_ENV === 'development' )
-  require('./HistoryPage_Subsection_RoadToExtinction-debug.css')
-
 export default class HistoryPageSubsectionRoadToExtinction extends React.Component {
 
   static _SUBSECTION_NAME_        =   "subsection_RoadToExtinction";
@@ -63,15 +58,16 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
 
   render() {
     return (
-      <div className="HistoryPageSubsectionRoadToExtinctionOuterContainer">
-        <ContentPageSubsectionTemplate title={this.state.subsectionConfig.title} content={this.renderContent()} />
-      </div>
-    )
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
+    );
   }
 
   renderContent() {
     return (
-      <div className="HistoryPageSubsectionRoadToExtinctionInnerContainer">
+      <div>
         {this.renderCheetahEvolutionAndExtinctionScaleImage()}
         {this.renderThreeColumnPart()}
         {this.renderCheetahRangeMapPart()}
@@ -93,7 +89,7 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
 
   renderCheetahRangeMapPart() {
     return (
-      <div className={getElementStyleClassName("HistoryPageSubsectionRoadToExtinctionMiddleColumnContentImageSlideModalContainer")}>
+      <CenteredFullWidthContainer width={480}>
         <ImageSlideModal
           slides={[
             {
@@ -109,7 +105,7 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
           ]}
           caption="Click on the map above see the cheetah's range."
         />
-      </div>
+      </CenteredFullWidthContainer>
     );
   }
 
@@ -130,22 +126,10 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
 
   renderMiddleColumnContent() {
     return (
-      <div className={getElementStyleClassName("HistoryPageSubsectionRoadToExtinctionMiddleColumnContentOuterContainer")}>
-        <div className={getElementStyleClassName("HistoryPageSubsectionRoadToExtinctionMiddleColumnContentCheetahPopulationIllustrationContainer")}>
-          <HistoryPageCheetahPopulationIllustration />
-        </div>
+      <div className="VerticalCushionPadding">
+        <HistoryPageCheetahPopulationIllustration />
       </div>
-    )
-  }
-
-  renderSideColumnContent(content) {
-    return (
-      <div>
-        <div>
-          {content}
-        </div>
-      </div>
-    )
+    );
   }
 
   renderThreeColumnPart() {

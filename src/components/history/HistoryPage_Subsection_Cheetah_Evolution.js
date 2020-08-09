@@ -4,12 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Aug 08, 2020
+ * Updated  : Aug 09, 2020
  */
 
 import React from 'react'
-
-import { getElementStyleClassName } from '../../styling/styling'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
@@ -25,11 +23,6 @@ import LineBreak from '../shared/LineBreak'
 
 import '../shared/ContentPageSharedStyles.css'
 
-import './HistoryPage_Subsection_Cheetah_Evolution.css'
-
-if ( process.env.NODE_ENV === 'development' )
-  require('./HistoryPage_Subsection_Cheetah_Evolution-debug.css')
-
 export default class HistoryPageSubsectionCheetahEvolution extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_CheetahEvolution";
@@ -43,31 +36,30 @@ export default class HistoryPageSubsectionCheetahEvolution extends React.Compone
 
   render() {
     return (
-      <div className={getElementStyleClassName("HistoryPageSubsectionCheetahEvolutionOuterContainer")}>
-        <ContentPageSubsectionTemplate title={this.state.subsectionConfig.title} content={this.renderContent()} />
-      </div>
-    )
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
+    );
   }
 
   renderContent() {
     return (
-      <div className={getElementStyleClassName("HistoryPageSubsectionCheetahEvolutionInnerContainer")}>
-        <ContentPageSubsectionPart>
-          <ContentPageSubsectionSubtitle>
-            Learn about the evolution and migration of the cheetah.
-          </ContentPageSubsectionSubtitle>
+      <ContentPageSubsectionPart>
+        <ContentPageSubsectionSubtitle>
+          Learn about the evolution and migration of the cheetah.
+        </ContentPageSubsectionSubtitle>
 
-          {this.renderCheetahEvolutionMapConditionally()}
+        {this.renderCheetahEvolutionMapConditionally()}
 
-          <LineBreak lines={2} />
+        <LineBreak lines={2} />
 
-          <MediaLinkButton
-            href="https://www.sciencedaily.com/releases/2015/12/151208204222.htm"
-            title='Cheetahs migrated from North America | ScienceDaily'
-            icon="file alternate outline"
-          />
-        </ContentPageSubsectionPart>
-      </div>
+        <MediaLinkButton
+          href="https://www.sciencedaily.com/releases/2015/12/151208204222.htm"
+          title='Cheetahs migrated from North America | ScienceDaily'
+          icon="file alternate outline"
+        />
+      </ContentPageSubsectionPart>
     );
   }
 
