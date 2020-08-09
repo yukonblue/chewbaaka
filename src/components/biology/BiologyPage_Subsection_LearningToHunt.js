@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 18, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 09, 2020
  */
 
 import React from 'react'
@@ -51,8 +51,8 @@ export default class BiologyPageSubsectionLearningToHunt extends React.Component
           <ImageView
             image={image_cheetah_cubs_learning_hunting}
             caption="Cheetah cubs learning how to hunt."
-            width={720}
-            height={480}
+            width={480}
+            height={320}
           />
         }
         fixedPart={
