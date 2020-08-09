@@ -33,5 +33,15 @@ frontend:
         value: 'nosniff'
       - key: 'Content-Security-Policy'
         value: 'default-src self'
+    ##
+    # Give a two-hour cache window for all resources.
+    #
+    # Issue #100
+    #
+    # https://forums.aws.amazon.com/thread.jspa?threadID=306225
+    #
+    # More info on Cache-Control:
+    # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control
+    - pattern: '/static/**/*'
       - key: 'Cache-Control'
-        value: 'public,max-age=7200,immutable'
+        value: 'public, max-age=7200, immutable'
