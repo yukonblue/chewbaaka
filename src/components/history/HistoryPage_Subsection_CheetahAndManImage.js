@@ -4,15 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 09, 2020
  */
 
 import React from 'react'
 
 import '../shared/ContentPageSharedStyles.css'
-import './HistoryPage_Subsection_CheetahAndManImage.css'
-
-import { getElementStyleClassName } from '../../styling/styling'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
@@ -39,22 +36,19 @@ export default class HistoryPageSubsectionCheetahAndManImage extends React.Compo
 
   render() {
     return (
-      <div className={getElementStyleClassName("HistoryPageSubsectionCheetahAndManImageOuterContainer")}>
-        <ContentPageSubsectionTemplate title={this.state.subsectionConfig.title} content={this.renderContent()} />
-      </div>
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
     )
   }
 
   renderContent() {
     return (
-      <div className={getElementStyleClassName("HistoryPageSubsectionCheetahAndManImageInnerContainer")}>
-        <div>
-          <ContentPageSubsectionTwoColumnContentTemplate
-            lhsColumn={{content: this.renderLhsContent()}}
-            rhsColumn={{content: this.renderRhsContent()}}
-          />
-        </div>
-      </div>
+      <ContentPageSubsectionTwoColumnContentTemplate
+        lhsColumn={{content: this.renderLhsContent()}}
+        rhsColumn={{content: this.renderRhsContent()}}
+      />
     );
   }
 
@@ -66,20 +60,18 @@ export default class HistoryPageSubsectionCheetahAndManImage extends React.Compo
 
   renderRhsContent() {
     return (
-      <div>
-        <ImageSlidingGallery
-          slides={[
-            {
-              image: image_Mafdet,
-              caption: "Mafdet’s head on the bed where the mummy is placed."
-            },
-            {
-              image: image_Egyptian_chariot,
-              caption: "Egyptian chariot, accompanied by a cheetah and slave."
-            }
-          ]}
-        />
-      </div>
+      <ImageSlidingGallery
+        slides={[
+          {
+            image: image_Mafdet,
+            caption: "Mafdet’s head on the bed where the mummy is placed."
+          },
+          {
+            image: image_Egyptian_chariot,
+            caption: "Egyptian chariot, accompanied by a cheetah and slave."
+          }
+        ]}
+      />
     );
   }
 }
