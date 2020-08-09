@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 04, 2020
+ * Updated  : Aug 09, 2020
  */
 
 import React from 'react'
@@ -16,7 +16,11 @@ import {
   Segment
 } from 'semantic-ui-react'
 
+import { kStringConstantCheetahConservationFund } from '../shared/constants'
+
 import 'semantic-ui-css/semantic.min.css'
+
+import '../shared/SharedStyles.css'
 
 import './LandingPageGateway.css'
 
@@ -32,7 +36,7 @@ export default class LandingPageGateway extends React.Component {
 
   render() {
     const title = this.props.config.components[LandingPageGateway._COMPONENT_NAME_].constants[LandingPageGateway._TITLE_];
-    const subtitle = this.props.config.components[LandingPageGateway._COMPONENT_NAME_].constants[LandingPageGateway._SUBTITLE_];
+    // const subtitle = this.props.config.components[LandingPageGateway._COMPONENT_NAME_].constants[LandingPageGateway._SUBTITLE_];
     return (
       <Segment
         className={["LandingPageGatewayOuterContainer", this.centerSegmentStyleClassName()].join(" ")}
@@ -49,7 +53,7 @@ export default class LandingPageGateway extends React.Component {
             as="h2"
             data-testid="LandingPageGatewayComponentSubtitlePartTestId"
           >
-            {subtitle}
+            Explore the <span className="BrandColorSecondary">Cheetah Museum</span> at <span className="BrandColorPrimary">{kStringConstantCheetahConservationFund}</span>
           </Header>
           <a href="#Explore">
             <Button
@@ -62,7 +66,7 @@ export default class LandingPageGateway extends React.Component {
           </a>
         </Container>
       </Segment>
-    )
+    );
   }
 
   centerSegmentStyleClassName() {
