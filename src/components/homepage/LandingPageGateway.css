@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 09, 2020
  */
 
 .ui.vertical.center.aligned.segment.LandingPageGatewayOuterContainer {
@@ -42,5 +42,9 @@
 .ui.container.LandingPageGatewayCoreContentContainer h1.header {
   font-size: 36px;
   color: #F8F8FF;
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 0 0 6px #000;
+}
+
+.ui.container.LandingPageGatewayCoreContentContainer h2.header {
+  text-shadow: 0 0 6px #000;
 }

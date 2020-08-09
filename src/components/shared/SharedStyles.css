@@ -1,0 +1,16 @@
+/**
+ * SharedStyles.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Aug 09, 2020
+ * Updated  : Aug 09, 2020
+ */
+
+.BrandColorPrimary {
+  color: rgb(255,182,31);
+}
+
+.BrandColorSecondary {
+  color: rgb(255,149,0);
+}
