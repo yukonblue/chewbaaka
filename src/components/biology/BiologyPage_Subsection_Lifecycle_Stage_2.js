@@ -54,8 +54,8 @@ export default class BiologyPageSubsectionLifecycleStage2 extends React.Componen
     return (
       <div>
         <FluidTwoColumnContainer
-          lhsColumn={this.renderPart2()}
-          rhsColumn={this.renderPart1()}
+          lhsColumn={this.renderPart1()}
+          rhsColumn={this.renderPart2()}
         />
       </div>
     );

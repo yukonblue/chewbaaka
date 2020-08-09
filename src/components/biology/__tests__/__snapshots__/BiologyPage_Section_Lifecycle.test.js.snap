@@ -233,41 +233,6 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                 <div
                   className="ContentPageSubsectionPartContainer"
                 >
-                  <div
-                    className="Centered FullWidth"
-                    style={
-                      Object {
-                        "width": 560,
-                      }
-                    }
-                  >
-                    <div
-                      style={
-                        Object {
-                          "height": 315,
-                          "width": 560,
-                        }
-                      }
-                    >
-                      <iframe
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen={true}
-                        frameBorder="0"
-                        height={315}
-                        src="https://www.youtube.com/embed/Wjtb7XMZlgY"
-                        title="Cheetah Mom Teaches Cubs to Hunt | YouTube"
-                        width={560}
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="FluidTwoColumnContainerColumnContainer"
-              >
-                <div
-                  className="ContentPageSubsectionPartContainer"
-                >
                   <p
                     className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                   >
@@ -392,6 +357,41 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                           </div>
                         </div>
                       </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="FluidTwoColumnContainerColumnContainer"
+              >
+                <div
+                  className="ContentPageSubsectionPartContainer"
+                >
+                  <div
+                    className="Centered FullWidth"
+                    style={
+                      Object {
+                        "width": 560,
+                      }
+                    }
+                  >
+                    <div
+                      style={
+                        Object {
+                          "height": 315,
+                          "width": 560,
+                        }
+                      }
+                    >
+                      <iframe
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen={true}
+                        frameBorder="0"
+                        height={315}
+                        src="https://www.youtube.com/embed/Wjtb7XMZlgY"
+                        title="Cheetah Mom Teaches Cubs to Hunt | YouTube"
+                        width={560}
+                      />
                     </div>
                   </div>
                 </div>
