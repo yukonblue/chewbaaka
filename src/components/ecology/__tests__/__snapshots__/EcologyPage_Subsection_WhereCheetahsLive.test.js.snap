@@ -141,6 +141,12 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                   className="ContentPageSubsectionSubtitle"
                 />
                 <div
+                  className="ImageSlideModalCoverTriggerOuterContainer"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
                   style={
                     Object {
                       "width": 480,
@@ -148,13 +154,9 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                   }
                 >
                   <div
-                    className="ImageSliderModalCoverTriggerOuterContainer"
+                    className="ImageSlideModalCoverTriggerInnerContainer"
                     data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
-                    onBlur={[Function]}
                     onClick={[Function]}
-                    onFocus={[Function]}
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
                     style={
                       Object {
                         "backgroundImage": "url(biome_savanna-min.jpg)",
@@ -164,7 +166,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                     }
                   >
                     <div
-                      className="ImageSliderModalCoverTriggerImageIconInnerContainer"
+                      className="ImageSlideModalCoverTriggerImageIconInnerContainer"
                     >
                       <i
                         aria-hidden="true"

@@ -326,6 +326,7 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
                 className="Centered"
                 style={
                   Object {
+                    "maxWidth": "100%",
                     "width": 960,
                   }
                 }
