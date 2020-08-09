@@ -14,150 +14,172 @@ exports[`BiologyPageSubsectionLifecycleStage2 component snapshot 1`] = `
     </h3>
     <div>
       <div
-        className="OverflowHidden"
-      >
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          At 1.5 to 2 months of age, the cubs leave the safety of the den to accompany their mother. They are very vulnerable as they are not able to defend themselves.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          They stop drinking their mother’s milk at 3 to 4 months of age. They start eating meat and learning to hunt. The games they play and the experiences they have during this stage will teach them skills needed to survive on their own.
-        </p>
-        <div
-          className="FloatRight VerticalCushionPaddingTopLarge"
-        >
-          <div>
-            <a
-              href="https://www.youtube.com/watch?v=Wjtb7XMZlgY"
-            >
-              <button
-                className="ui blue icon button"
-                onClick={[Function]}
-              >
-                Cheetah Mom Teaches Cubs to Hunt | YouTube
-                <i
-                  aria-hidden="true"
-                  className="file video icon"
-                  onClick={[Function]}
-                />
-              </button>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div
-        className="ContentPageSubsectionPartContainer"
+        className="FluidTwoColumnContainerOuterContainer"
       >
         <div
-          className="QnAPopUpContainer"
+          className="FluidTwoColumnContainerColumnContainer"
         >
           <div
-            className="QnAPopUpButtonGroupContainer"
+            className="ContentPageSubsectionPartContainer"
           >
             <div
-              className="ui blue large label"
-              onClick={[Function]}
-            >
-              Did You Know
-              <button
-                className="ui orange circular icon button QuestionButton"
-                onClick={[Function]}
-              >
-                <i
-                  aria-hidden="true"
-                  className="question icon"
-                  onClick={[Function]}
-                />
-              </button>
-            </div>
-          </div>
-          <div
-            className="QnAPopUpTextSecondaryBubbleContainer"
-          >
-            <div
-              className="TextBubbleOuterContainer"
-              hidden={true}
+              className="Centered FullWidth"
               style={
                 Object {
-                  "backgroundColor": "rgb(undefined)",
-                  "height": 45,
-                  "width": 45,
+                  "width": 560,
                 }
               }
             >
               <div
-                className="TextBubbleInnerContainer"
+                style={
+                  Object {
+                    "height": 315,
+                    "width": 560,
+                  }
+                }
               >
-                <div
-                  className="TextBubbleInnerCore"
-                >
-                  <h1
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 3.6,
-                      }
-                    }
-                  >
-                    
-                  </h1>
-                  <p
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 2.25,
-                      }
-                    }
-                  >
-                    
-                  </p>
-                </div>
+                <iframe
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen={true}
+                  frameBorder="0"
+                  height={315}
+                  src="https://www.youtube.com/embed/Wjtb7XMZlgY"
+                  title="Cheetah Mom Teaches Cubs to Hunt | YouTube"
+                  width={560}
+                />
               </div>
             </div>
           </div>
+        </div>
+        <div
+          className="FluidTwoColumnContainerColumnContainer"
+        >
           <div
-            className="QnAPopUpMainTextBubbleContainer"
+            className="ContentPageSubsectionPartContainer"
           >
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              At 1.5 to 2 months of age, the cubs leave the safety of the den to accompany their mother. They are very vulnerable as they are not able to defend themselves.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              They stop drinking their mother’s milk at 3 to 4 months of age. They start eating meat and learning to hunt. The games they play and the experiences they have during this stage will teach them skills needed to survive on their own.
+            </p>
             <div
-              className="TextBubbleOuterContainer"
-              hidden={true}
-              style={
-                Object {
-                  "backgroundColor": "rgb(undefined)",
-                  "height": 320,
-                  "width": 320,
-                }
-              }
+              className="VerticalCushionPaddingTopLarge"
             >
               <div
-                className="TextBubbleInnerContainer"
+                className="QnAPopUpContainer"
               >
                 <div
-                  className="TextBubbleInnerCore"
+                  className="QnAPopUpButtonGroupContainer"
                 >
-                  <h1
+                  <div
+                    className="ui blue large label"
+                    onClick={[Function]}
+                  >
+                    Did You Know
+                    <button
+                      className="ui orange circular icon button QuestionButton"
+                      onClick={[Function]}
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="question icon"
+                        onClick={[Function]}
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div
+                  className="QnAPopUpTextSecondaryBubbleContainer"
+                >
+                  <div
+                    className="TextBubbleOuterContainer"
+                    hidden={true}
                     style={
                       Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 25.6,
+                        "backgroundColor": "rgb(undefined)",
+                        "height": 45,
+                        "width": 45,
                       }
                     }
                   >
-                    Did you know?
-                  </h1>
-                  <p
+                    <div
+                      className="TextBubbleInnerContainer"
+                    >
+                      <div
+                        className="TextBubbleInnerCore"
+                      >
+                        <h1
+                          style={
+                            Object {
+                              "color": "rgb(undefined)",
+                              "fontSize": 3.6,
+                            }
+                          }
+                        >
+                          
+                        </h1>
+                        <p
+                          style={
+                            Object {
+                              "color": "rgb(undefined)",
+                              "fontSize": 2.25,
+                            }
+                          }
+                        >
+                          
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="QnAPopUpMainTextBubbleContainer"
+                >
+                  <div
+                    className="TextBubbleOuterContainer"
+                    hidden={true}
                     style={
                       Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 16,
+                        "backgroundColor": "rgb(undefined)",
+                        "height": 320,
+                        "width": 320,
                       }
                     }
                   >
-                    Young cheetahs rely on their mother on learning how to hunt. Cubs rescued and rehabilitated are difficult to be re-wilded because most of them have not acquired sufficient hunting skills needed to survive.
-                  </p>
+                    <div
+                      className="TextBubbleInnerContainer"
+                    >
+                      <div
+                        className="TextBubbleInnerCore"
+                      >
+                        <h1
+                          style={
+                            Object {
+                              "color": "rgb(undefined)",
+                              "fontSize": 25.6,
+                            }
+                          }
+                        >
+                          Did you know?
+                        </h1>
+                        <p
+                          style={
+                            Object {
+                              "color": "rgb(undefined)",
+                              "fontSize": 16,
+                            }
+                          }
+                        >
+                          Young cheetahs rely on their mother on learning how to hunt. Cubs rescued and rehabilitated are difficult to be re-wilded because most of them have not acquired sufficient hunting skills needed to survive.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 09, 2020
  */
 
 import React from 'react'
@@ -18,9 +18,13 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
+import FluidTwoColumnContainer from '../shared/FluidTwoColumnContainer'
+
+import CenteredFullWidthContainer from '../shared/CenteredFullWidthContainer'
+
 import QnAPopUp from '../shared/QnAPopUp'
 
-import MediaLinkButton from '../shared/MediaLinkButton'
+import MediaEmbed from '../shared/MediaEmbed'
 
 export default class BiologyPageSubsectionLifecycleStage2 extends React.Component {
 
@@ -49,33 +53,39 @@ export default class BiologyPageSubsectionLifecycleStage2 extends React.Componen
   renderContent() {
     return (
       <div>
-        {this.renderPart1()}
-        {this.renderPart2()}
+        <FluidTwoColumnContainer
+          lhsColumn={this.renderPart2()}
+          rhsColumn={this.renderPart1()}
+        />
       </div>
     );
   }
 
   renderPart1() {
     return (
-      <div className="OverflowHidden">
+      <ContentPageSubsectionPart>
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
-        <div className="FloatRight VerticalCushionPaddingTopLarge">
-          <MediaLinkButton
-            href="https://www.youtube.com/watch?v=Wjtb7XMZlgY"
-            title="Cheetah Mom Teaches Cubs to Hunt | YouTube"
+        <div className="VerticalCushionPaddingTopLarge">
+          <QnAPopUp
+            className="VerticalCushionPaddingTopLarge"
+            content={BiologyPageSubsectionLifecycleStage2._DID_YOU_KNOW_}
           />
         </div>
-      </div>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderPart2() {
     return (
       <ContentPageSubsectionPart>
-        <QnAPopUp
-          className="VerticalCushionPaddingTopLarge"
-          content={BiologyPageSubsectionLifecycleStage2._DID_YOU_KNOW_}
-        />
+        <CenteredFullWidthContainer width={560}>
+          <MediaEmbed
+            title="Cheetah Mom Teaches Cubs to Hunt | YouTube"
+            width={560}
+            height={315}
+            src="https://www.youtube.com/embed/Wjtb7XMZlgY"
+          />
+        </CenteredFullWidthContainer>
       </ContentPageSubsectionPart>
     );
   }
