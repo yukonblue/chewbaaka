@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 10, 2020
+ * Updated  : Aug 11, 2020
  */
 
 import React from 'react'
@@ -87,7 +87,7 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
           floatPart={
             <ImageView
               image={image_savanna}
-              caption="African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlifes."
+              caption="African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlife."
               width={598}
               height={343}
             />

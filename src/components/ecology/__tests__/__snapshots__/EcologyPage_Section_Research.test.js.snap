@@ -154,7 +154,7 @@ exports[`EcologyPageSectionResearch component snapshot 1`] = `
                 <p
                   className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                 >
-                  Three study areas, each at 200 km sqr are divided into grids. These areas combined are equal to the size of a cheetah’s home range area.
+                  Three study areas, each at 200 square kilometers are divided into grids. These areas combined are equal to the size of a cheetah’s home range area.
                 </p>
                 <p
                   className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 11, 2020
  */
 
 export const config = {
@@ -113,7 +113,7 @@ export const config = {
                   "beetles, bugs, geckos, lizards, snakes and rodents.",
                 paragraph_biome_lakes_and_salt_pans:
                   "The Lakes and Salt Pans biome in Namibia is solely consisted of the Etosha pan that forms part of the Kalahari Basin. " +
-                  "It is mainly consisted of a 120-kilometre-long dry lakebed that deposits salt and mineral underground. The high saline condition " +
+                  "It is mainly consisted of a 120 kilometer long dry lakebed that deposits salt and mineral underground. The high saline condition " +
                   "of the salt pans support mostly algae, which attracts migratory birds such as flamingos and pelicans that use the lakes as breeding grounds."
               }
             }
@@ -467,7 +467,7 @@ export const config = {
                       "unpredictable and regular droughts.",
                     paragraph_02:
                       "The deep rooted thorn bushes reduce the water table and compete with the grasses and become a thicket, " +
-                      "taking the underground water and causing desertation. Bush encroachment causes changes in habitats and the " +
+                      "taking the underground water and causing desertification. Bush encroachment causes changes in habitats and the " +
                       "mix of prey species on the land.",
                     paragraph_03:
                       "The cheetah’s rangeland has been infested with undesirable thickened thorn bush species. Bush encroachment reduces " +
@@ -576,7 +576,7 @@ export const config = {
                   title: "Camera Trapping",
                   content: {
                     paragraph_01:
-                      "Three study areas, each at 200 km sqr are divided into grids. " +
+                      "Three study areas, each at 200 square kilometers are divided into grids. " +
                       "These areas combined are equal to the size of a cheetah’s home range area.",
                     paragraph_02:
                       "A camera trap location is allocated to the study areas; this takes periods of ground trothing in order to " +

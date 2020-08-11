@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 08, 2020
+ * Updated  : Aug 11, 2020
  */
 
 import React from 'react'
@@ -67,7 +67,7 @@ export default class EcologyPageSubsectionTheCheetahsPrey extends React.Componen
               diameter={480}
               backgroundColorRGB={[187,143,206]}
               title="Cheetahs prefer game to livestock"
-              content={"Cheetahs are born to prey on wild game, and will instinctly go after them. " +
+              content={"Cheetahs are born to prey on wild game, and will instinctually go after them. " +
                       "Cheetahs only go after livestock as a last resort when wild game is not available. " +
                       "This makes maintaining healthy ecosystems very important."}
             />

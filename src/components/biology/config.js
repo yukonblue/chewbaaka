@@ -75,7 +75,7 @@ export const config = {
               "A cheetah gives birth to an average of five to six cubs. " +
               "Each cub weights between 250 to 425 grams. Cubs are born " +
               "completely helpless and with their eyes closed, but they " +
-              "develope rapidly. Scent and touch are used to find their " +
+              "develop rapidly. Scent and touch are used to find their " +
               "mother’s nipples to suckle.",
             paragraph_Lifecycle_Stage_1_04:
               "They start crawling around the nest area at four to ten days "+
@@ -421,7 +421,7 @@ export const config = {
               }
             },
             part_Volcalizations: {
-              title: "Volcalizations",
+              title: "Vocalizations",
               subtitle: "Cheetahs have many unusual vocalizations. These are some of the most common calls made by cheetahs.",
               content: {
                 vocalizations: [

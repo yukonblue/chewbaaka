@@ -92,7 +92,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                         className="ImageViewImgContainer"
                       >
                         <img
-                          alt="African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlifes."
+                          alt="African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlife."
                           className="ImageViewImg"
                           src="savanna-min.jpg"
                           style={
@@ -126,7 +126,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                           <p
                             className="ContentPageCaptionTextSize CaptionText"
                           >
-                            African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlifes.
+                            African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlife.
                           </p>
                         </div>
                       </div>
@@ -551,7 +551,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                             }
                           }
                         >
-                          Cheetahs are born to prey on wild game, and will instinctly go after them. Cheetahs only go after livestock as a last resort when wild game is not available. This makes maintaining healthy ecosystems very important.
+                          Cheetahs are born to prey on wild game, and will instinctually go after them. Cheetahs only go after livestock as a last resort when wild game is not available. This makes maintaining healthy ecosystems very important.
                         </p>
                       </div>
                     </div>
