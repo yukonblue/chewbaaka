@@ -141,6 +141,7 @@ Links on common web technologies:
 - [Sitemaps XML format | sitemaps.org](https://www.sitemaps.org/protocol.html)
 - [Robots.txt Specifications | Google Developers](https://developers.google.com/search/reference/robots_txt)
 - [Cache-Control - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control)
+- [Introduction To Responsive Web Design - HTML & CSS Tutorial | YouTube](https://www.youtube.com/watch?v=srvUrASNj0s)
 
 Links on React frameworks:
 
