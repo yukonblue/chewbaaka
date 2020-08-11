@@ -98,11 +98,20 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
             </p>
           </div>
         </div>
-        <img
-          alt="What is an ecosystem"
-          className="FactBannerSmallDimension VerticalCushionPadding"
-          src="What_is_Habitat-min.png"
-        />
+        <div
+          className="Centered FullWidth"
+          style={
+            Object {
+              "width": 640,
+            }
+          }
+        >
+          <img
+            alt="What is an ecosystem"
+            className="FactBannerSmallDimension VerticalCushionPadding"
+            src="What_is_Habitat-min.png"
+          />
+        </div>
         <img
           alt="African savanna"
           className="FullWidth DisplayBlock Centered"
@@ -145,12 +154,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                   className="ContentPageSubsectionSubtitle"
                 />
                 <div
-                  className="ImageSlideModalCoverTriggerOuterContainer"
-                  onBlur={[Function]}
-                  onClick={[Function]}
-                  onFocus={[Function]}
-                  onMouseEnter={[Function]}
-                  onMouseLeave={[Function]}
+                  className="Centered"
                   style={
                     Object {
                       "width": 480,
@@ -158,32 +162,46 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                   }
                 >
                   <div
-                    className="ImageSlideModalCoverTriggerInnerContainer"
-                    data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
+                    className="ImageSlideModalCoverTriggerOuterContainer"
+                    onBlur={[Function]}
                     onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
                     style={
                       Object {
-                        "backgroundImage": "url(biome_savanna-min.jpg)",
-                        "height": 320,
                         "width": 480,
                       }
                     }
                   >
                     <div
-                      className="ImageSlideModalCoverTriggerImageIconInnerContainer"
+                      className="ImageSlideModalCoverTriggerInnerContainer"
+                      data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "backgroundImage": "url(biome_savanna-min.jpg)",
+                          "height": 320,
+                          "width": 480,
+                        }
+                      }
                     >
-                      <i
-                        aria-hidden="true"
-                        className="blue images outline huge icon"
-                        onClick={[Function]}
-                      />
+                      <div
+                        className="ImageSlideModalCoverTriggerImageIconInnerContainer"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="blue images outline huge icon"
+                          onClick={[Function]}
+                        />
+                      </div>
                     </div>
+                    <p
+                      className="ContentPageCaptionTextSize"
+                    >
+                      Click to learn more about the biomes of Namibia.
+                    </p>
                   </div>
-                  <p
-                    className="ContentPageCaptionTextSize"
-                  >
-                    Click to learn more about the biomes of Namibia.
-                  </p>
                 </div>
               </div>
             </div>
