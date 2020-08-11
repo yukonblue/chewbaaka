@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 08, 2020
+ * Updated  : Aug 11, 2020
  */
 
 import React from 'react'
@@ -130,7 +130,7 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
             slides={[
               {
                 image: image_cheetah_rescue_01,
-                caption: "Most cheetah cubs trafficked and sold end up as buyers' pets. The cubs consequently suffer from shock, malnurishment, and unsuitable living conditions."
+                caption: "Most cheetah cubs trafficked and sold end up as buyers' pets. The cubs consequently suffer from shock, malnourishment, and unsuitable living conditions."
               },
               {
                 image: image_cheetah_rescue_02,
