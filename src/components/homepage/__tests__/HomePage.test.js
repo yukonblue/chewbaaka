@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 09, 2020
+ * Updated  : Aug 10, 2020
  */
 
 import React from 'react'
@@ -40,10 +40,6 @@ test('renders HomePage component', () => {
   // const mainSubtitleText = config.components["landingPageGateway"].constants["landingPageGatewaySubtitle"];
   // const mainSubtitleElement = screen.getByText(mainSubtitleText);
   // expect(mainSubtitleElement).toBeInTheDocument();
-
-  // Tests top nav bar component is present.
-  const topNavBarComponent = screen.getByTestId("TopNavBarComponentTestId");
-  expect(topNavBarComponent).toBeInTheDocument();
 
   // Tests landing page gateway component is present.
   const landingPageGatewayComponent = screen.getByTestId("LandingPageGatewayComponentTestId");
