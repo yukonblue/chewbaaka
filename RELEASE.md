@@ -3,6 +3,9 @@
 ## Version 0.1.13
 
 * Date: August 10, 2020
+* Commit: `3611583`
+* Tag: `v0.1.13`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.1.13)
 * Changelog:
   * Fixes for the following issues:
     * Issue #94 - Content paragraph not left aligned with subsection title in select cases.
