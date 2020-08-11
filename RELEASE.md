@@ -3,6 +3,9 @@
 ## Version 0.1.14
 
 * Date: August 11, 2020
+* Commit: `cc134a5`
+* Tag: `v0.1.14`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.1.14)
 * Changelog:
   * Fixes for the following issues:
     * Issue #147 - Typo in intro banner subtitle in Biology page
