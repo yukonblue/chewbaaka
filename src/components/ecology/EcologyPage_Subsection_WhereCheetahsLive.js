@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 08, 2020
+ * Updated  : Aug 10, 2020
  */
 
 import React from 'react'
@@ -156,9 +156,11 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
 
   renderPartNamibianBiomesRhs(part) {
     return (
-      <NamibianBiomes
-        part={part}
-      />
+      <div className="Centered" style={{width: 480}}>
+        <NamibianBiomes
+          part={part}
+        />
+      </div>
     );
   }
 
