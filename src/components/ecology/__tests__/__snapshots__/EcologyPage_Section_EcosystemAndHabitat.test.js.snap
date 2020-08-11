@@ -92,7 +92,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                         className="ImageViewImgContainer"
                       >
                         <img
-                          alt="African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlifes."
+                          alt="African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlife."
                           className="ImageViewImg"
                           src="savanna-min.jpg"
                           style={
@@ -126,7 +126,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                           <p
                             className="ContentPageCaptionTextSize CaptionText"
                           >
-                            African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlifes.
+                            African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlife.
                           </p>
                         </div>
                       </div>
