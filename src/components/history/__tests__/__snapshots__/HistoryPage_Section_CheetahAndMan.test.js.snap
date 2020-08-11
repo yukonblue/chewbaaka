@@ -378,7 +378,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                     className="ContentPageSubsectionSubtitle"
                   />
                   <div
-                    className="ImageViewOuterContainer"
+                    className="Centered FullWidth"
                     style={
                       Object {
                         "width": 451,
@@ -386,48 +386,57 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                     }
                   >
                     <div
-                      className="ImageViewInnerContainer"
+                      className="ImageViewOuterContainer"
+                      style={
+                        Object {
+                          "width": 451,
+                        }
+                      }
                     >
                       <div
-                        className="ImageViewImgContainer"
-                      >
-                        <img
-                          alt="Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli."
-                          className="ImageViewImg"
-                          src="cheetah_painting_Renaissance-min.jpg"
-                          style={
-                            Object {
-                              "width": 451,
-                            }
-                          }
-                        />
-                      </div>
-                      <div
-                        className="ImageViewCaptionContainer"
+                        className="ImageViewInnerContainer"
                       >
                         <div
-                          className="CaptionContainer"
-                          data-testid="CaptionComponentTestId"
-                          style={
-                            Object {
-                              "maxWidth": 451,
+                          className="ImageViewImgContainer"
+                        >
+                          <img
+                            alt="Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli."
+                            className="ImageViewImg"
+                            src="cheetah_painting_Renaissance-min.jpg"
+                            style={
+                              Object {
+                                "width": 451,
+                              }
                             }
-                          }
+                          />
+                        </div>
+                        <div
+                          className="ImageViewCaptionContainer"
                         >
                           <div
-                            className="IconContainer"
+                            className="CaptionContainer"
+                            data-testid="CaptionComponentTestId"
+                            style={
+                              Object {
+                                "maxWidth": 451,
+                              }
+                            }
                           >
-                            <i
-                              aria-hidden="true"
-                              className="image icon"
-                              onClick={[Function]}
-                            />
+                            <div
+                              className="IconContainer"
+                            >
+                              <i
+                                aria-hidden="true"
+                                className="image icon"
+                                onClick={[Function]}
+                              />
+                            </div>
+                            <p
+                              className="ContentPageCaptionTextSize CaptionText"
+                            >
+                              Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli.
+                            </p>
                           </div>
-                          <p
-                            className="ContentPageCaptionTextSize CaptionText"
-                          >
-                            Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli.
-                          </p>
                         </div>
                       </div>
                     </div>

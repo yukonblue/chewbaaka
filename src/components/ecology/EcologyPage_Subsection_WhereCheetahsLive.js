@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 08, 2020
+ * Updated  : Aug 10, 2020
  */
 
 import React from 'react'
@@ -95,11 +95,13 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
           fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
         />
 
-        <img
-          src={image_banner_fact_What_is_Habitat}
-          alt="What is an ecosystem"
-          className="FactBannerSmallDimension VerticalCushionPadding"
-        />
+        <CenteredFullWidthContainer width={640}>
+          <img
+            src={image_banner_fact_What_is_Habitat}
+            alt="What is a habitat"
+            className="FactBannerSmallDimension VerticalCushionPadding"
+          />
+        </CenteredFullWidthContainer>
 
         <FluidImageWrapper
           src={image_savana_bg_large}
@@ -156,9 +158,11 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
 
   renderPartNamibianBiomesRhs(part) {
     return (
-      <NamibianBiomes
-        part={part}
-      />
+      <div className="Centered" style={{width: 480}}>
+        <NamibianBiomes
+          part={part}
+        />
+      </div>
     );
   }
 
