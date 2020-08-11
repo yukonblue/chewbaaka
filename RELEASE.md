@@ -5,6 +5,8 @@
 * Changelog:
   * Fixes for the following issues:
     * Issue #94 - Content paragraph not left aligned with subsection title in select cases.
+  * Other changes:
+    * Changeset #144 - Remove top nav bar from home page
   * Specific changes:
     * [Style][Fix] Removing 20px padding of named style `ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer`.
     * [Content][Fix] Fix incorrect alt text of 'What is a Habitat' banner image under 'Where Cheetahs Live' subsection.
@@ -12,6 +14,7 @@
     * [Style][Refine] Add left and right padding to two columns in `ContentPageSubsectionTwoColumnContentTemplate` component.
     * [Style][Refine] Horizontally center 'What is a Habitat' banner image under 'Where Cheetahs Live' subsection.
     * [Style][Refine] Horizontally center image in 'Cheetahs in Art' subsection.
+    * [Style][Refine] Remove top nav bar from home page.
 
 ## Version 0.1.12
 
