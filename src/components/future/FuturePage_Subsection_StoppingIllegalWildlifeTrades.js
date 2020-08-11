@@ -134,7 +134,7 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
               },
               {
                 image: image_cheetah_rescue_02,
-                caption: "Cheetah cubs trafficked are often in extremely poor physical health and conditions. Many perish within weeks even with the best care after confistication.",
+                caption: "Cheetah cubs trafficked are often in extremely poor physical health and conditions. Many perish within weeks even with the best care after confiscation.",
                 credit: kStringConstantCheetahConservationFund
               },
               {
