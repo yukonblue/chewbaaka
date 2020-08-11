@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Aug 09, 2020
+ * Updated  : Aug 10, 2020
  */
 
 import React from 'react'
@@ -12,13 +12,12 @@ import React from 'react'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
+import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
-
-import FluidTwoColumnContainer from '../shared/FluidTwoColumnContainer'
 
 import CenteredFullWidthContainer from '../shared/CenteredFullWidthContainer'
 
@@ -52,12 +51,10 @@ export default class BiologyPageSubsectionLifecycleStage2 extends React.Componen
 
   renderContent() {
     return (
-      <div>
-        <FluidTwoColumnContainer
-          lhsColumn={this.renderPart1()}
-          rhsColumn={this.renderPart2()}
-        />
-      </div>
+      <ContentPageSubsectionTwoColumnContentTemplate
+        lhsColumn={{content: this.renderPart1()}}
+        rhsColumn={{content: this.renderPart2()}}
+      />
     );
   }
 

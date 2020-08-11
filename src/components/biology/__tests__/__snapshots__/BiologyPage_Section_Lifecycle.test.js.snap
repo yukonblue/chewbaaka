@@ -223,136 +223,145 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
           >
             Stage 2
           </h3>
-          <div>
+          <div
+            className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+          >
             <div
-              className="FluidTwoColumnContainerOuterContainer"
+              className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
             >
               <div
-                className="FluidTwoColumnContainerColumnContainer"
+                className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
               >
                 <div
-                  className="ContentPageSubsectionPartContainer"
+                  className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
                 >
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                  >
-                    At 1.5 to 2 months of age, the cubs leave the safety of the den to accompany their mother. They are very vulnerable as they are not able to defend themselves.
-                  </p>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                  >
-                    They stop drinking their mother’s milk at 3 to 4 months of age. They start eating meat and learning to hunt. The games they play and the experiences they have during this stage will teach them skills needed to survive on their own.
-                  </p>
+                  <h4
+                    className="ContentPageSubsectionSubtitle"
+                  />
                   <div
-                    className="VerticalCushionPaddingTopLarge"
+                    className="ContentPageSubsectionPartContainer"
                   >
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      At 1.5 to 2 months of age, the cubs leave the safety of the den to accompany their mother. They are very vulnerable as they are not able to defend themselves.
+                    </p>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      They stop drinking their mother’s milk at 3 to 4 months of age. They start eating meat and learning to hunt. The games they play and the experiences they have during this stage will teach them skills needed to survive on their own.
+                    </p>
                     <div
-                      className="QnAPopUpContainer"
+                      className="VerticalCushionPaddingTopLarge"
                     >
                       <div
-                        className="QnAPopUpButtonGroupContainer"
+                        className="QnAPopUpContainer"
                       >
                         <div
-                          className="ui blue large label"
-                          onClick={[Function]}
-                        >
-                          Did You Know
-                          <button
-                            className="ui orange circular icon button QuestionButton"
-                            onClick={[Function]}
-                          >
-                            <i
-                              aria-hidden="true"
-                              className="question icon"
-                              onClick={[Function]}
-                            />
-                          </button>
-                        </div>
-                      </div>
-                      <div
-                        className="QnAPopUpTextSecondaryBubbleContainer"
-                      >
-                        <div
-                          className="TextBubbleOuterContainer"
-                          hidden={true}
-                          style={
-                            Object {
-                              "backgroundColor": "rgb(undefined)",
-                              "height": 45,
-                              "width": 45,
-                            }
-                          }
+                          className="QnAPopUpButtonGroupContainer"
                         >
                           <div
-                            className="TextBubbleInnerContainer"
+                            className="ui blue large label"
+                            onClick={[Function]}
+                          >
+                            Did You Know
+                            <button
+                              className="ui orange circular icon button QuestionButton"
+                              onClick={[Function]}
+                            >
+                              <i
+                                aria-hidden="true"
+                                className="question icon"
+                                onClick={[Function]}
+                              />
+                            </button>
+                          </div>
+                        </div>
+                        <div
+                          className="QnAPopUpTextSecondaryBubbleContainer"
+                        >
+                          <div
+                            className="TextBubbleOuterContainer"
+                            hidden={true}
+                            style={
+                              Object {
+                                "backgroundColor": "rgb(undefined)",
+                                "height": 45,
+                                "width": 45,
+                              }
+                            }
                           >
                             <div
-                              className="TextBubbleInnerCore"
+                              className="TextBubbleInnerContainer"
                             >
-                              <h1
-                                style={
-                                  Object {
-                                    "color": "rgb(undefined)",
-                                    "fontSize": 3.6,
-                                  }
-                                }
+                              <div
+                                className="TextBubbleInnerCore"
                               >
-                                
-                              </h1>
-                              <p
-                                style={
-                                  Object {
-                                    "color": "rgb(undefined)",
-                                    "fontSize": 2.25,
+                                <h1
+                                  style={
+                                    Object {
+                                      "color": "rgb(undefined)",
+                                      "fontSize": 3.6,
+                                    }
                                   }
-                                }
-                              >
-                                
-                              </p>
+                                >
+                                  
+                                </h1>
+                                <p
+                                  style={
+                                    Object {
+                                      "color": "rgb(undefined)",
+                                      "fontSize": 2.25,
+                                    }
+                                  }
+                                >
+                                  
+                                </p>
+                              </div>
                             </div>
                           </div>
                         </div>
-                      </div>
-                      <div
-                        className="QnAPopUpMainTextBubbleContainer"
-                      >
                         <div
-                          className="TextBubbleOuterContainer"
-                          hidden={true}
-                          style={
-                            Object {
-                              "backgroundColor": "rgb(undefined)",
-                              "height": 320,
-                              "width": 320,
-                            }
-                          }
+                          className="QnAPopUpMainTextBubbleContainer"
                         >
                           <div
-                            className="TextBubbleInnerContainer"
+                            className="TextBubbleOuterContainer"
+                            hidden={true}
+                            style={
+                              Object {
+                                "backgroundColor": "rgb(undefined)",
+                                "height": 320,
+                                "width": 320,
+                              }
+                            }
                           >
                             <div
-                              className="TextBubbleInnerCore"
+                              className="TextBubbleInnerContainer"
                             >
-                              <h1
-                                style={
-                                  Object {
-                                    "color": "rgb(undefined)",
-                                    "fontSize": 25.6,
-                                  }
-                                }
+                              <div
+                                className="TextBubbleInnerCore"
                               >
-                                Did you know?
-                              </h1>
-                              <p
-                                style={
-                                  Object {
-                                    "color": "rgb(undefined)",
-                                    "fontSize": 16,
+                                <h1
+                                  style={
+                                    Object {
+                                      "color": "rgb(undefined)",
+                                      "fontSize": 25.6,
+                                    }
                                   }
-                                }
-                              >
-                                Young cheetahs rely on their mother on learning how to hunt. Cubs rescued and rehabilitated are difficult to be re-wilded because most of them have not acquired sufficient hunting skills needed to survive.
-                              </p>
+                                >
+                                  Did you know?
+                                </h1>
+                                <p
+                                  style={
+                                    Object {
+                                      "color": "rgb(undefined)",
+                                      "fontSize": 16,
+                                    }
+                                  }
+                                >
+                                  Young cheetahs rely on their mother on learning how to hunt. Cubs rescued and rehabilitated are difficult to be re-wilded because most of them have not acquired sufficient hunting skills needed to survive.
+                                </p>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -360,38 +369,41 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                     </div>
                   </div>
                 </div>
-              </div>
-              <div
-                className="FluidTwoColumnContainerColumnContainer"
-              >
                 <div
-                  className="ContentPageSubsectionPartContainer"
+                  className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
                 >
+                  <h4
+                    className="ContentPageSubsectionSubtitle"
+                  />
                   <div
-                    className="Centered FullWidth"
-                    style={
-                      Object {
-                        "width": 560,
-                      }
-                    }
+                    className="ContentPageSubsectionPartContainer"
                   >
                     <div
+                      className="Centered FullWidth"
                       style={
                         Object {
-                          "height": 315,
                           "width": 560,
                         }
                       }
                     >
-                      <iframe
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen={true}
-                        frameBorder="0"
-                        height={315}
-                        src="https://www.youtube.com/embed/Wjtb7XMZlgY"
-                        title="Cheetah Mom Teaches Cubs to Hunt | YouTube"
-                        width={560}
-                      />
+                      <div
+                        style={
+                          Object {
+                            "height": 315,
+                            "width": 560,
+                          }
+                        }
+                      >
+                        <iframe
+                          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen={true}
+                          frameBorder="0"
+                          height={315}
+                          src="https://www.youtube.com/embed/Wjtb7XMZlgY"
+                          title="Cheetah Mom Teaches Cubs to Hunt | YouTube"
+                          width={560}
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
