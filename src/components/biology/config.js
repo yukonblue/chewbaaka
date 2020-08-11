@@ -4,14 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 11, 2020
  */
 
 export const config = {
   pageProps: {
     coverImage: "Biology_Page_Cover_Image-min.jpg",
     title: "Biology",
-    subtitle: "Learn everything about what makes the cheetah so remarkable and unqiue.",
+    subtitle: "Learn everything about what makes the cheetah so remarkable and unique.",
     pageMenuItems: [
       {
         title: "Lifecycle",
