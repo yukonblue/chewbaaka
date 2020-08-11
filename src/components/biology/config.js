@@ -421,7 +421,7 @@ export const config = {
               }
             },
             part_Volcalizations: {
-              title: "Volcalizations",
+              title: "Vocalizations",
               subtitle: "Cheetahs have many unusual vocalizations. These are some of the most common calls made by cheetahs.",
               content: {
                 vocalizations: [

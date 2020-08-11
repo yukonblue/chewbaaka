@@ -24,7 +24,7 @@ exports[`BiologyPageSubsectionCommunication component snapshot 1`] = `
         <h4
           className="ContentPageSubsectionSubtitle"
         >
-          Volcalizations
+          Vocalizations
         </h4>
         <div
           className="OverflowHidden"
@@ -56,7 +56,7 @@ exports[`BiologyPageSubsectionCommunication component snapshot 1`] = `
                       }
                     }
                   >
-                    Volcalizations
+                    Vocalizations
                   </h1>
                   <p
                     style={
