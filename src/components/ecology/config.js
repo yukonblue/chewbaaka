@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 11, 2020
  */
 
 export const config = {
@@ -113,7 +113,7 @@ export const config = {
                   "beetles, bugs, geckos, lizards, snakes and rodents.",
                 paragraph_biome_lakes_and_salt_pans:
                   "The Lakes and Salt Pans biome in Namibia is solely consisted of the Etosha pan that forms part of the Kalahari Basin. " +
-                  "It is mainly consisted of a 120-kilometre-long dry lakebed that deposits salt and mineral underground. The high saline condition " +
+                  "It is mainly consisted of a 120 kilometer long dry lakebed that deposits salt and mineral underground. The high saline condition " +
                   "of the salt pans support mostly algae, which attracts migratory birds such as flamingos and pelicans that use the lakes as breeding grounds."
               }
             }
