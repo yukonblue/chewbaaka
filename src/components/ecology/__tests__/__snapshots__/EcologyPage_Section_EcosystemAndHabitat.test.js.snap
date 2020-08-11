@@ -157,7 +157,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                 }
               >
                 <img
-                  alt="What is an ecosystem"
+                  alt="What is a habitat"
                   className="FactBannerSmallDimension VerticalCushionPadding"
                   src="What_is_Habitat-min.png"
                 />

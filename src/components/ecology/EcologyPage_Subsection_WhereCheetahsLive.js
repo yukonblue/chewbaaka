@@ -98,7 +98,7 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
         <CenteredFullWidthContainer width={640}>
           <img
             src={image_banner_fact_What_is_Habitat}
-            alt="What is an ecosystem"
+            alt="What is a habitat"
             className="FactBannerSmallDimension VerticalCushionPadding"
           />
         </CenteredFullWidthContainer>
