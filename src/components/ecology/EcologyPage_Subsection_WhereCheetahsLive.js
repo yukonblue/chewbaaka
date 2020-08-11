@@ -95,11 +95,13 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
           fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
         />
 
-        <img
-          src={image_banner_fact_What_is_Habitat}
-          alt="What is an ecosystem"
-          className="FactBannerSmallDimension VerticalCushionPadding"
-        />
+        <CenteredFullWidthContainer width={640}>
+          <img
+            src={image_banner_fact_What_is_Habitat}
+            alt="What is an ecosystem"
+            className="FactBannerSmallDimension VerticalCushionPadding"
+          />
+        </CenteredFullWidthContainer>
 
         <FluidImageWrapper
           src={image_savana_bg_large}
