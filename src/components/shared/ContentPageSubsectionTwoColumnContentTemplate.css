@@ -23,3 +23,11 @@ div.ContentPageSubsectionTwoColumnContentTemplateColumnContainer:after {
   display: table;
   clear: both;
 }
+
+div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs {
+  padding-right: 1rem;
+}
+
+div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs {
+  padding-left: 1rem;
+}
