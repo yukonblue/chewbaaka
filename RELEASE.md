@@ -1,7 +1,8 @@
 # Release Note
 
-## [NEXT VERSION]
+## Version 0.1.13
 
+* Date: August 10, 2020
 * Changelog:
   * Fixes for the following issues:
     * Issue #94 - Content paragraph not left aligned with subsection title in select cases.
