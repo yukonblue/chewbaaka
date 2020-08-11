@@ -3,7 +3,7 @@ health_check.py
 
 Author   : Tomiko
 Created  : Aug 03, 2020
-Updated  : Aug 09, 2020
+Updated  : Aug 10, 2020
 """
 
 import argparse
@@ -23,6 +23,12 @@ PROG = 'health_check'
 
 
 EXIT_SUCCESS = 0
+
+
+## -----------------------------------------------------------------------------
+
+
+EXIT_FAIL = 255
 
 
 ## -----------------------------------------------------------------------------
@@ -147,6 +153,29 @@ class HTTPResponseHeadersCheck(object):
     EXPECTED_MIN_CONTENT_LENGTH = 1000
     EXPECTED_CONTENT_TYPE       = 'text/html'
 
+    EXPECTED_KEY_VALUE_PAIRS    = [
+        {
+            'header': 'x-amz-server-side-encryption',
+            'value': 'AES256'
+        },
+        {
+            'header': 'strict-transport-security',
+            'value': 'max-age=31536000; includeSubDomains'
+        },
+        {
+            'header': 'x-frame-options',
+            'value': 'SAMEORIGIN'
+        },
+        {
+            'header': 'x-xss-protection',
+            'value': '1; mode=block'
+        },
+        {
+            'header': 'x-content-type-options',
+            'value': 'nosniff'
+        },
+    ]
+
     def __call__(self, req, resp):
         contentLengthHeaderRawValue = resp.headers.getheader('content-length')
         contentLengthHeaderIntValue = int(contentLengthHeaderRawValue)
@@ -156,6 +185,13 @@ class HTTPResponseHeadersCheck(object):
         contentTypeHeaderRawValue = resp.headers.getheader('content-type')
         if contentTypeHeaderRawValue != HTTPResponseHeadersCheck.EXPECTED_CONTENT_TYPE:
             raise ValidationError('content-type is not \"{}\"'.format(HTTPResponseHeadersCheck.EXPECTED_CONTENT_TYPE))
+
+        for pair in self.EXPECTED_KEY_VALUE_PAIRS:
+            header = pair['header']
+            expectedValue = pair['value']
+            actualValue = resp.headers.getheader(header)
+            if actualValue != expectedValue:
+                raise ValidationError('Got value \"{}\" for header \"{}\", but expected \"{}\".'.format(actualValue, header, expectedValue))
 
 
 ## -----------------------------------------------------------------------------
@@ -203,15 +239,18 @@ class Runner(object):
         self.logger = logger
 
     def run(self):
+        hasErrors = False
         urlsToCheck = [self.config.homePageUrl] + self.config.contentPageUrls
         for url in urlsToCheck:
             try:
                 self.runChecksOnUrl(url)
                 self.logger.info("[PASS]")
             except ValidationError as ex:
+                hasErrors = True
                 self.logger.error(ex)
-                if self.args.bail_on_first_error:
-                    raise ex
+                break
+
+        return EXIT_FAIL if hasErrors else EXIT_SUCCESS
 
     def runChecksOnUrl(self, url):
         self.logger.info('Checking URL: \"{}\" ...'.format(url))
@@ -237,11 +276,14 @@ def driver(args):
     logger.info('Config: {config}'.format(config=config))
 
     runner = Runner(args, config, logger)
-    runner.run()
+    res = runner.run()
 
-    logger.info('All checks pass.')
+    if res == EXIT_SUCCESS:
+        logger.info('All checks pass.')
+    else:
+        logger.info('Exiting with errors')
 
-    return EXIT_SUCCESS
+    return res
 
 
 ## -----------------------------------------------------------------------------
