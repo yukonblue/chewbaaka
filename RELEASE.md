@@ -15,6 +15,7 @@
     * [Style][Refine] Horizontally center 'What is a Habitat' banner image under 'Where Cheetahs Live' subsection.
     * [Style][Refine] Horizontally center image in 'Cheetahs in Art' subsection.
     * [Style][Refine] Remove top nav bar from home page.
+    * Remove `fixedOnTop` prop from `TopNavBar` component.
 
 ## Version 0.1.12
 
