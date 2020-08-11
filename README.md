@@ -136,37 +136,4 @@ Release note can be found [here](./RELEASE.md).
 
 ## Documentations
 
-Links on common web technologies:
-
-- [Sitemaps XML format | sitemaps.org](https://www.sitemaps.org/protocol.html)
-- [Robots.txt Specifications | Google Developers](https://developers.google.com/search/reference/robots_txt)
-- [Cache-Control - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control)
-- [Introduction To Responsive Web Design - HTML & CSS Tutorial | YouTube](https://www.youtube.com/watch?v=srvUrASNj0s)
-
-Links on React frameworks:
-
-- [Node.js](https://nodejs.org/en/)
-- [React JS](https://reactjs.org/)
-- [Semantic UI React](https://react.semantic-ui.com/)
-- [Jest](https://jestjs.io/)
-- [Jest Snapshot Testing](https://jestjs.io/docs/en/snapshot-testing)
-- [Learn React JS - Full Course for Beginners - Tutorial 2019 | YouTube](https://www.youtube.com/watch?v=DLX62G4lc44)
-- [Combining Gatsby with Create React App | YouTube](https://www.youtube.com/watch?v=5rUNlYs6wu4)
-- [9 React Static Site Generators for 2019 | Medium](https://blog.bitsrc.io/9-react-static-site-generators-for-2019-f54a66e519d2)
-
-Links to online utilities:
-
-- [TinyJPG - Compress JPEG images intelligently](https://tinyjpg.com/)
-
-Resources on SEO:
-
-- [Martin Splitt - Technical SEO 101 for React Developers | React Next 2019 | YouTube](https://www.youtube.com/watch?v=3B7gBVTsEaE)
-- [Martin Splitt "Technical SEO for JavaScript developers" | YouTube](https://www.youtube.com/watch?v=vjj8B4sq0UI)
-- [SEO for Developers | 2020 SEO Tutorial | YouTube](https://www.youtube.com/watch?v=JSm4aQl4w_U)
-
-Documentations related to Amazon AWS:
-
-- [AWS Amplify Console User Guide](https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html)
-- [Amazon CloudFront Developer Guide](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
-- [Why doesn't Amazon CloudFront cache files in the amount of time I specified?](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-cache-files-time/)
-- [AWS Amplify Caching](http://chrisbell.eu/aws-amplify-caching-cache-control/)
+All documentations are hosted on the project's [wiki](https://github.com/tetrachrome/chewbaaka/wiki).
