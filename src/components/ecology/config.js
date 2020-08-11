@@ -576,7 +576,7 @@ export const config = {
                   title: "Camera Trapping",
                   content: {
                     paragraph_01:
-                      "Three study areas, each at 200 km sqr are divided into grids. " +
+                      "Three study areas, each at 200 square kilometers are divided into grids. " +
                       "These areas combined are equal to the size of a cheetah’s home range area.",
                     paragraph_02:
                       "A camera trap location is allocated to the study areas; this takes periods of ground trothing in order to " +
