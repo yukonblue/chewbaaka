@@ -1,5 +1,13 @@
 # Release Note
 
+## Version 0.1.14
+
+* Date: August 11, 2020
+* Changelog:
+  * Fixes for the following issues:
+    * Issue #147 - Typo in intro banner subtitle in Biology page
+    * Issue #149 - Typos discovered throughout content pages
+
 ## Version 0.1.13
 
 * Date: August 10, 2020
