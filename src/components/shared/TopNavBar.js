@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 28, 2020
+ * Updated  : Aug 10, 2020
  */
 
 import React from 'react'
@@ -14,8 +14,6 @@ import { Container, Image, Menu } from 'semantic-ui-react'
 import logo from './assets/cheetah-conservation-fund-30-logo.svg'
 
 import './TopNavBar.css'
-
-const __TEST__ = ( process.env.NODE_ENV === "test" );
 
 export default class TopNavBar extends React.Component {
 
@@ -35,14 +33,6 @@ export default class TopNavBar extends React.Component {
   ];
 
   render() {
-    /**
-     * Set `fixed` prop of `Menu` component to "top"
-     * in test mode to avoid warning about invalid prop.
-     *
-     * TODO: Figure out a better solution for this ...
-     */
-    const menuFixedStatus = ( this.props.fixedOnTop || __TEST__ ) ? "top": "";
-
     const menuItems = TopNavBar.menuItemsData.map((item, idx) => (
       <Menu.Item as="a" href={item.href} target="_blank" key={idx}>
         {item.label}
@@ -50,9 +40,14 @@ export default class TopNavBar extends React.Component {
     ));
 
     return (
-      <Menu fixed={menuFixedStatus} className="TopNavBarMenu" data-testid="TopNavBarComponentTestId">
+      <Menu className="TopNavBarMenu" data-testid="TopNavBarComponentTestId">
         <Container>
-          <Menu.Item as="a" header href="https://cheetah.org" data-testid="TopNavBarComponentMainNavBarItemTestId">
+          <Menu.Item
+            as="a"
+            header
+            href="https://cheetah.org"
+            data-testid="TopNavBarComponentMainNavBarItemTestId"
+          >
             <Image
               size="small"
               src={logo}
@@ -62,6 +57,6 @@ export default class TopNavBar extends React.Component {
           {menuItems}
         </Container>
       </Menu>
-    )
+    );
   }
 }

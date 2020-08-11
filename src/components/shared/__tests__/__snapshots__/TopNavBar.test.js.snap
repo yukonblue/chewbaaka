@@ -2,7 +2,7 @@
 
 exports[`TopNavBar component snapshot 1`] = `
 <div
-  className="ui top fixed TopNavBarMenu menu"
+  className="ui TopNavBarMenu menu"
   data-testid="TopNavBarComponentTestId"
 >
   <div
