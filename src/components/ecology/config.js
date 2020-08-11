@@ -467,7 +467,7 @@ export const config = {
                       "unpredictable and regular droughts.",
                     paragraph_02:
                       "The deep rooted thorn bushes reduce the water table and compete with the grasses and become a thicket, " +
-                      "taking the underground water and causing desertation. Bush encroachment causes changes in habitats and the " +
+                      "taking the underground water and causing desertification. Bush encroachment causes changes in habitats and the " +
                       "mix of prey species on the land.",
                     paragraph_03:
                       "The cheetah’s rangeland has been infested with undesirable thickened thorn bush species. Bush encroachment reduces " +
