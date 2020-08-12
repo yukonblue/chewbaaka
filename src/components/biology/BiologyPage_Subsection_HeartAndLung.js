@@ -9,8 +9,6 @@
 
 import React from 'react'
 
-import '../shared/ContentPageSharedStyles.css'
-
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
@@ -18,6 +16,8 @@ import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import DimensionPredicatedContainer from '../shared/DimensionPredicatedContainer'
 
 import FluidImageWrapper from '../shared/FluidImageWrapper'
 
@@ -49,7 +49,7 @@ export default class BiologyPageSubsectionHearAndLung extends React.Component {
     return (
       <div>
         {this.renderPart1()}
-        {this.renderPart2()}
+        {this.renderCheetahOlympicsPartConditionally()}
       </div>
     );
   }
@@ -65,7 +65,16 @@ export default class BiologyPageSubsectionHearAndLung extends React.Component {
     );
   }
 
-  renderPart2() {
+  renderCheetahOlympicsPartConditionally() {
+    return (
+      <DimensionPredicatedContainer
+        pred={(dimension) => (dimension.width > 720)}
+        renderContentHandler={this.renderCheetahOlympicsPart}
+      />
+    );
+  }
+
+  renderCheetahOlympicsPart() {
     return (
       <ContentPageSubsectionPart>
         <CheetahOlympics />
