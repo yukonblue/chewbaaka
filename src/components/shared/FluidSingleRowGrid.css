@@ -1,0 +1,20 @@
+/**
+ * FluidSingleRowGrid.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Aug 11, 2020
+ * Updated  : Aug 11, 2020
+ */
+
+/**
+Useful link on flex box
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
+
+div.FluidSingleRowGridOuterContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
