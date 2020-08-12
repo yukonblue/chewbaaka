@@ -65,12 +65,12 @@ export default class BiologyPageSubsectionLifecycleStage2 extends React.Componen
     return (
       <ContentPageSubsectionPart>
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
-        <div className="VerticalCushionPaddingTopLarge">
+        {/* <div className="VerticalCushionPaddingTopLarge">
           <QnAPopUp
             className="VerticalCushionPaddingTopLarge"
             content={BiologyPageSubsectionLifecycleStage2._DID_YOU_KNOW_}
           />
-        </div>
+        </div> */}
       </ContentPageSubsectionPart>
     );
   }
