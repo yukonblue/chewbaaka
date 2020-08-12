@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 12, 2020
  */
 
 import React from 'react'
@@ -117,23 +117,19 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
 
   renderRhsContentChewbaaka() {
     return (
-      <div className={getElementStyleClassName("FuturePageSubsectionCheetahsAtCCFImageContainer")}>
-        <CircularImage
-          image={image_Chewbaaka}
-          title="Chewbaaka"
-        />
-      </div>
+      <CircularImage
+        image={image_Chewbaaka}
+        title="Chewbaaka"
+      />
     );
   }
 
   renderLhsContentMekondyo() {
     return (
-      <div className={getElementStyleClassName("FuturePageSubsectionCheetahsAtCCFImageContainer")}>
-        <CircularImage
-          image={image_Mekondyo}
-          title="Mekondyo"
-        />
-      </div>
+      <CircularImage
+        image={image_Mekondyo}
+        title="Mekondyo"
+      />
     );
   }
 
