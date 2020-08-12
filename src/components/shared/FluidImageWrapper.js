@@ -11,7 +11,7 @@ import React from 'react'
 
 import './ContentPageSharedStyles.css'
 
-export default function FluidImageWrapper({ src, alt, centered }) {
+export default function FluidImageWrapper({ src, alt, centered, width }) {
   let classNames = ["FullWidth", "DisplayBlock"];
 
   if ( centered ) {
@@ -23,6 +23,7 @@ export default function FluidImageWrapper({ src, alt, centered }) {
       className={classNames.join(" ")}
       src={src}
       alt={alt}
+      width={width}
     />
   );
 }

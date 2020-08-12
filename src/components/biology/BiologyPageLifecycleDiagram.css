@@ -4,12 +4,11 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 12, 2020
  */
 
 div.BiologyPageLifecycleDiagramOuterContainer {
   margin: 0 auto;
-  width: 640px;
 }
 
 p.BiologyPageLifecycleDiagramSubtitle {
@@ -18,4 +17,10 @@ p.BiologyPageLifecycleDiagramSubtitle {
 
 p.BiologyPageLifecycleDiagramContentText {
   font-size: 18px;
+}
+
+@media (max-width: 419) {
+  div.BiologyPageLifecycleDiagramOuterContainer {
+    display: none;
+  }
 }
