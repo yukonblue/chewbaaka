@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 12, 2020
  */
 
 import React from 'react'
@@ -18,6 +18,8 @@ import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import FluidImageWrapper from '../shared/FluidImageWrapper'
 
 import CheetahOlympics from './CheetahOlympics'
 
@@ -40,12 +42,12 @@ export default class BiologyPageSubsectionHearAndLung extends React.Component {
         title={this.state.subsectionConfig.title}
         content={this.renderContent()}
       />
-    )
+    );
   }
 
   renderContent() {
     return (
-      <div className="BiologyPageSubsectionHearAndLungInnerContainer">
+      <div>
         {this.renderPart1()}
         {this.renderPart2()}
       </div>
@@ -80,13 +82,12 @@ export default class BiologyPageSubsectionHearAndLung extends React.Component {
   renderRhsContent() {
     return (
       <div>
-        <div className="Centered" style={{width: 420}}>
-          <img
-            src={image_Cheetah_Travel}
-            alt="Cheetah run illustration"
-            width={420}
-          />
-        </div>
+        <FluidImageWrapper
+          src={image_Cheetah_Travel}
+          alt="Cheetah run illustration"
+          width={420}
+          centered
+        />
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents.part2.content)}
       </div>
     );
