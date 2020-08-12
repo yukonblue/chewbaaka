@@ -14,6 +14,7 @@ div.ContentPageSubsectionTwoColumnContentTemplateOuterContainer {
 div.ContentPageSubsectionTwoColumnContentTemplateInnerContainer {
   display: flex;
   flex-wrap: nowrap;
+  box-sizing: content-box;
 }
 
 div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs {

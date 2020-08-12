@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 09, 2020
+ * Updated  : Aug 12, 2020
  */
 
 /**
@@ -39,16 +39,13 @@ import './ImageView.css'
 if ( process.env.NODE_ENV === 'development' )
   require('./ImageView-debug.css')
 
-export default function ImageView(props) {
+export default function ImageView({ width, image, caption, credit }) {
+
   const componentOuterContainerDimension = {
-    width: props.width
+    maxWidth: width
   };
 
-  const imagePartDimensionStyle = {
-    width: props.width
-  };
-
-  const caption = getFormattedImageCaptionStringWithCredit(props.caption, props.credit);
+  const formattedCaption = getFormattedImageCaptionStringWithCredit(caption, credit);
 
   return (
     <div
@@ -59,15 +56,14 @@ export default function ImageView(props) {
         <div className="ImageViewImgContainer">
           <img
             className="ImageViewImg"
-            src={props.image}
-            alt={caption}
-            style={imagePartDimensionStyle}
+            src={image}
+            alt={formattedCaption}
           />
         </div>
         <div className="ImageViewCaptionContainer">
           <Caption
             caption={caption}
-            width={props.width}
+            width={width}
           />
         </div>
       </div>

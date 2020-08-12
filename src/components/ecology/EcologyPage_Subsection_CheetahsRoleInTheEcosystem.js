@@ -93,8 +93,8 @@ export default class EcologyPageSubsectionCheetahsRoleInTheEcosystem extends Rea
             {
               image: image_cheetah_hyena_competition,
               caption: "Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains.",
-              width: 640,
-              height: 360
+              width: 483,
+              height: 269
             },
             {
               image: image_cheetah_lion_competition,

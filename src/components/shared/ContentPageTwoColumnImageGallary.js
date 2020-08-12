@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 26, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Aug 12, 2020
  */
 
 import React from 'react'
@@ -31,7 +31,6 @@ export default class ContentPageTwoColumnImageGallary extends React.Component {
         caption={part.caption}
         credit={part.credit}
         width={part.width}
-        height={part.height}
       />
     );
   }
