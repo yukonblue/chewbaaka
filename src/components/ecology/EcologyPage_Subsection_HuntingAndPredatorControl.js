@@ -107,13 +107,11 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
           fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
         />
 
-        <div className="Centered FactBannerMediumDimension VerticalCushionPaddingTopLarge">
-          <img
-            className="FactBannerMediumDimension"
-            src={image_What_is_a_Problem_Animal}
-            alt="What is a problem animal?"
-          />
-        </div>
+        <FactBannerImage
+          src={image_What_is_a_Problem_Animal}
+          alt="What is a problem animal?"
+          large
+        />
       </ContentPageSubsectionPart>
     );
   }
