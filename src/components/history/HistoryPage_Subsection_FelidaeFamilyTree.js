@@ -24,7 +24,7 @@ import MediaLinkButton from '../shared/MediaLinkButton'
 
 import HintSignpost from '../shared/HintSignpost'
 
-import QnAPopUp from '../shared/QnAPopUp'
+// import QnAPopUp from '../shared/QnAPopUp'
 
 import FelidaeFamilyTree from './FelidaeFamilyTree'
 

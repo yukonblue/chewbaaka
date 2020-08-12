@@ -24,7 +24,7 @@ import {
 } from '../../styling/styling'
 
 import ContentPageHead from './ContentPageHead'
-import ContentPageTail from './ContentPageTail'
+// import ContentPageTail from './ContentPageTail'
 import ContentPageSideNavMenu from './ContentPageSideNavMenu'
 
 import TopNavBar from './TopNavBar'
@@ -76,9 +76,9 @@ export default class ContentPageSkeleton extends React.Component {
         <div>
           {this.renderBody()}
         </div>
-        <ContentPageTail
+        {/* <ContentPageTail
           pageTailNavMenu={this.props.pageProps.pageTailNavMenu}
-        />
+        /> */}
         <Footer
           appConfig={this.props.appConfig}
         />

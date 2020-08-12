@@ -22,7 +22,7 @@ import FluidTwoColumnContainer from '../shared/FluidTwoColumnContainer'
 
 import CenteredFullWidthContainer from '../shared/CenteredFullWidthContainer'
 
-import QnAPopUp from '../shared/QnAPopUp'
+// import QnAPopUp from '../shared/QnAPopUp'
 
 import MediaEmbed from '../shared/MediaEmbed'
 
