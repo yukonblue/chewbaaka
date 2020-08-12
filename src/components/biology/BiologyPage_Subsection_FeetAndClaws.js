@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Aug 09, 2020
+ * Updated  : Aug 12, 2020
  */
 
 import React from 'react'
@@ -19,11 +19,13 @@ import {
   ContentPageSubsectionParagraphsJoin
 } from '../shared/ContentPageSubsectionContentBinder'
 
-import AfricanWildlifeTracksIllustration from './AfricanWildlifeTracksIllustration'
+import DimensionPredicatedContainer from '../shared/DimensionPredicatedContainer'
 
 import TextBubble from '../shared/TextBubble'
 
 import ImageView from '../shared/ImageView'
+
+import AfricanWildlifeTracksIllustration from './AfricanWildlifeTracksIllustration'
 
 import image_cheetah_paw from './assets/cheetah_paw-min.jpg'
 import image_claws_comparison from './assets/Cheetah_Cat_Dog_Claws_Comparison_Inverted-min.png'
@@ -55,7 +57,7 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
         {this.renderPartFootContent(this.state.subsectionConfig.contents["part_Foot"])}
         {this.renderPartClawContent(this.state.subsectionConfig.contents["part_Claw"])}
         {this.renderPartDewclawContent(this.state.subsectionConfig.contents["part_Dewclaw"])}
-        {this.renderSpoorIllustration()}
+        {this.renderSpoorIllustrationConditionally()}
       </div>
     );
   }
@@ -132,6 +134,15 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
           floatFixedSide={true}
         />
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderSpoorIllustrationConditionally() {
+    return (
+      <DimensionPredicatedContainer
+        pred={(dimension) => (dimension.width >= 812)}
+        renderContentHandler={this.renderSpoorIllustration}
+      />
     );
   }
 
