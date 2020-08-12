@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 11, 2020
  */
 
 div.ContentPageSubsectionThreeColumnContentTemplateOuterContainer {
@@ -12,29 +12,43 @@ div.ContentPageSubsectionThreeColumnContentTemplateOuterContainer {
 }
 
 div.ContentPageSubsectionThreeColumnContentTemplateInnerContainer {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 div.ContentPageSubsectionThreeColumnContentTemplateColumn {
-  float: left;
+  /* float: left; */
   text-align: center;
   padding: 20px;
 }
 
-div.ContentPageSubsectionThreeColumnContentTemplateColumnContainer:after {
-  /* Clear floats after the columns */
-  content: "";
-  display: table;
-  clear: both;
-}
-
 div.ContentPageSubsectionThreeColumnContentTemplateLeftColumnContainer {
-  width: 25%;
+  flex-basis: 25%;
 }
 
 div.ContentPageSubsectionThreeColumnContentTemplateMiddleColumnContainer {
-  width: 50%;
+  flex-basis: 50%;
 }
 
 div.ContentPageSubsectionThreeColumnContentTemplateRightColumnContainer {
-  width: 25%;
+  flex-basis: 25%;
+}
+
+@media (max-width: 1023px) {
+  div.ContentPageSubsectionThreeColumnContentTemplateInnerContainer {
+    flex-wrap: wrap;
+    background-color: deepskyblue;
+  }
+
+  div.ContentPageSubsectionThreeColumnContentTemplateLeftColumnContainer {
+    flex-basis: 100%;
+  }
+
+  div.ContentPageSubsectionThreeColumnContentTemplateMiddleColumnContainer {
+    flex-basis: 100%;
+  }
+
+  div.ContentPageSubsectionThreeColumnContentTemplateRightColumnContainer {
+    flex-basis: 100%;
+  }
 }
