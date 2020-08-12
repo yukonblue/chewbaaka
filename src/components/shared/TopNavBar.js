@@ -4,12 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 10, 2020
+ * Updated  : Aug 11, 2020
  */
 
 import React from 'react'
 
-import { Container, Image, Menu } from 'semantic-ui-react'
+import { Image, Menu } from 'semantic-ui-react'
 
 import logo from './assets/cheetah-conservation-fund-30-logo.svg'
 
@@ -40,22 +40,20 @@ export default class TopNavBar extends React.Component {
     ));
 
     return (
-      <Menu className="TopNavBarMenu" data-testid="TopNavBarComponentTestId">
-        <Container>
-          <Menu.Item
-            as="a"
-            header
-            href="https://cheetah.org"
-            data-testid="TopNavBarComponentMainNavBarItemTestId"
-          >
-            <Image
-              size="small"
-              src={logo}
-              style={{ marginRight: "1.5em" }}
-            />
-          </Menu.Item>
-          {menuItems}
-        </Container>
+      <Menu stackable className="TopNavBarMenu" data-testid="TopNavBarComponentTestId">
+        <Menu.Item
+          as="a"
+          header
+          href="https://cheetah.org"
+          data-testid="TopNavBarComponentMainNavBarItemTestId"
+        >
+          <Image
+            size="small"
+            src={logo}
+            style={{ marginRight: "1.5em" }}
+          />
+        </Menu.Item>
+        {menuItems}
       </Menu>
     );
   }
