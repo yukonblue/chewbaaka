@@ -116,13 +116,13 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
   renderPartBoneContent(part) {
     return (
       <ContentPageSubsectionPart>
-        <TextBubble
+        {/* <TextBubble
           diameter={760}
           title={part.title}
           content={ContentPageSubsectionParagraphsJoin(part.contents)}
-        />
+        /> */}
 
-        <div className="Centered VerticalCushionPaddingTopLarge" style={{width: 500}}>
+        <div className="Centered VerticalCushionPaddingTopLarge">
           <ImageView
             image={image_cheetah_running_animated}
             caption="The cheetah's flexible spine is a major contributing factor to its body dexterity, long strides, and speed."
