@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 11, 2020
+ * Updated  : Aug 12, 2020
  */
 
 div.ContentPageSubsectionTwoColumnContentTemplateOuterContainer {
@@ -30,5 +30,13 @@ div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs {
   div.ContentPageSubsectionTwoColumnContentTemplateInnerContainer {
     flex-direction: column;
     flex-wrap: nowrap;
+  }
+
+  div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs {
+    flex: 1;
+  }
+  
+  div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs {
+    padding: 0;
   }
 }
