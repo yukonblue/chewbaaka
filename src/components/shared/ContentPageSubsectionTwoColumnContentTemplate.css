@@ -18,27 +18,17 @@ div.ContentPageSubsectionTwoColumnContentTemplateInnerContainer {
 
 div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs {
   padding-right: 1rem;
-  flex-basis: 50%;
+  flex: 1;
 }
 
 div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs {
   padding-left: 1rem;
-  flex-basis: 50%;
+  flex: 1;
 }
 
 @media (max-width: 1023px) {
   div.ContentPageSubsectionTwoColumnContentTemplateInnerContainer {
-    flex-wrap: wrap;
-    background-color: deepskyblue;
-  }
-
-  div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs {
-    padding: 0;
-    flex-basis: 100%;
-  }
-
-  div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs {
-    padding: 0;
-    flex-basis: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
   }
 }
