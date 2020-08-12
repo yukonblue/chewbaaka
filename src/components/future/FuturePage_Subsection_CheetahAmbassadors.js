@@ -20,19 +20,12 @@ import {
 
 import '../shared/ContentPageSharedStyles.css'
 
-import { getElementStyleClassName } from '../../styling/styling'
-
 import CircularImage from '../shared/CircularImage'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
 import image_Chewbaaka from './assets/Chewbaaka-min.jpg'
 import image_Mekondyo from './assets/Mekondyo-min.jpg'
-
-import './FuturePage_Subsection_CheetahAmbassadors.css'
-
-if ( process.env.NODE_ENV === 'development' )
-  require('./FuturePage_Subsection_CheetahAmbassadors-debug.css')
 
 export default class FuturePageSubsectionCheetahAmbassadors extends React.Component {
 
