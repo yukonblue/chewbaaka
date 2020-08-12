@@ -24,6 +24,8 @@ import {
 
 import CenteredFullWidthContainer from '../shared/CenteredFullWidthContainer'
 
+import FactBannerImage from '../shared/FactBannerImage'
+
 import ImageView from '../shared/ImageView'
 
 import FluidImageWrapper from '../shared/FluidImageWrapper'
@@ -64,7 +66,7 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
         title={this.state.subsectionConfig.title}
         content={this.renderContent()}
       />
-    )
+    );
   }
 
   renderContent() {
@@ -95,13 +97,11 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
           fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
         />
 
-        <CenteredFullWidthContainer width={640}>
-          <img
-            src={image_banner_fact_What_is_Habitat}
-            alt="What is a habitat"
-            className="FactBannerSmallDimension VerticalCushionPadding"
-          />
-        </CenteredFullWidthContainer>
+        <FactBannerImage
+          src={image_banner_fact_What_is_Habitat}
+          alt="What is a habitat"
+          centered
+        />
 
         <FluidImageWrapper
           src={image_savana_bg_large}
@@ -135,13 +135,12 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
           </CenteredFullWidthContainer>
         </div>
 
-        <div className="Centered FactBannerMediumDimension VerticalCushionPadding">
-          <img
-            className="FactBannerMediumDimension"
-            src={image_banner_fact_What_is_Biome}
-            alt="What is biome?"
-          />
-        </div>
+        <FactBannerImage
+          src={image_banner_fact_What_is_Biome}
+          alt="What is biome?"
+          centered
+          large
+        />
 
         {this.renderImageViewModals()}
       </ContentPageSubsectionPart>
@@ -158,11 +157,9 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
 
   renderPartNamibianBiomesRhs(part) {
     return (
-      <div className="Centered" style={{width: 480}}>
-        <NamibianBiomes
-          part={part}
-        />
-      </div>
+      <NamibianBiomes
+        part={part}
+      />
     );
   }
 

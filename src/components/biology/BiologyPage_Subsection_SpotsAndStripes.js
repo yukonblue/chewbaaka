@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Aug 08, 2020
+ * Updated  : Aug 11, 2020
  */
 
 import React from 'react'
@@ -21,6 +21,8 @@ import {
 import CenteredFullWidthContainer from '../shared/CenteredFullWidthContainer'
 
 import DimensionPredicatedContainer from '../shared/DimensionPredicatedContainer'
+
+import FactBannerImage from '../shared/FactBannerImage'
 
 import ImageView from '../shared/ImageView'
 
@@ -66,13 +68,11 @@ export default class BiologyPageSubsectionSpotsAndStripes extends React.Componen
       <ContentPageSubsectionPart>
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
 
-        <div className="FactBannerMediumDimension Centered">
-          <img
-            className="FactBannerMediumDimension"
-            src={image_What_is_Camouflage}
-            alt="What is camouflage?"
-          />
-        </div>
+        <FactBannerImage
+          src={image_What_is_Camouflage}
+          alt="What is camouflage?"
+          large
+        />
       </ContentPageSubsectionPart>
     );
   }

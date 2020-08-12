@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 11, 2020
  */
 
 import React from 'react'
@@ -22,6 +22,8 @@ import {
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
 import TextBubble from '../shared/TextBubble'
+
+import FactBannerImage from '../shared/FactBannerImage'
 
 import image_What_is_a_Problem_Animal from './assets/What_is_a_Problem_Animal-min.png'
 
@@ -74,13 +76,11 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
     const renderOptionalBannerImgOnPart = () => {
       if (part.is_part_What_is_Sustainable_Utilization) {
         return (
-          <div className="Centered FactBannerMediumDimension">
-            <img
-              className="FactBannerMediumDimension"
-              src={image_What_is_Sustainable_Utilization}
-              alt="What is sustainable utilization?"
-            />
-          </div>
+          <FactBannerImage
+            src={image_What_is_Sustainable_Utilization}
+            alt="What is sustainable utilization?"
+            large
+          />
         );
       }
     };

@@ -24,6 +24,8 @@ import {
 
 import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
+import FactBannerImage from '../shared/FactBannerImage'
+
 import MediaLinkButton from '../shared/MediaLinkButton'
 
 import ImageView from '../shared/ImageView'
@@ -167,13 +169,11 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
           {ContentPageSubsectionParagraphsContentBinder(part.content)}
         </div>
 
-        <div className="VerticalCushionPadding Centered FactBannerMediumDimension">
-          <img
-            className="FactBannerMediumDimension"
-            src={image_What_is_CITES}
-            alt="What is CITES?"
-          />
-        </div>
+        <FactBannerImage
+          src={image_What_is_CITES}
+          alt="What is CITES?"
+          large
+        />
       </ContentPageSubsectionPart>
     );
   }
