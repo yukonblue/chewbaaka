@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 23, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 12, 2020
  */
 
 /**
@@ -23,7 +23,7 @@
  *  - `slides`: An array of objects of { image, caption, credit } tuples.
  */
 
-import React from 'react'
+import React, { Fragment } from 'react'
 
 import "semantic-ui-css/semantic.min.css"
 
@@ -74,28 +74,8 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
   }
 
   render() {
-    const componentDimensionHeightOffset = 100 + 60;
-
     const componentDimensionStyle = {
-      width: this.props.width,
-      height: this.props.height + componentDimensionHeightOffset
-    };
-
-    const componentCoreDimensionStyle = {
-      width: this.props.width,
-      height: this.props.height
-    };
-
-    /**
-     * Vertically center the prev/next buttons in the center of the image.
-     * Need to minus half of the height of the button itself
-     * to make it appear really centered.
-     */
-    const buttonHeight = 43;
-    const buttonCommonTopPos = (this.props.height / 2) - (buttonHeight / 2);
-
-    const buttonCommonPositionStyle = {
-      top: buttonCommonTopPos
+      width: this.props.width
     };
 
     const buttonItems = this.props.slides.map((_, idx) => (this.renderButtonItem(idx)));
@@ -110,14 +90,16 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
         style={componentDimensionStyle}
       >
         <div
-          className={getElementStyleClassName("ImageSlidingGalleryDiscreteCoreContainer")}
+          className={getElementStyleClassName("ImageSlidingGalleryDiscreteInnerContainer")}
           style={componentDimensionStyle}
         >
-          <img className="ImageSlidingGalleryDiscreteImgPart"
-            style={componentCoreDimensionStyle}
-            src={activeSlide.image}
-            alt={caption}
-          />
+          <div className={getElementStyleClassName("ImageSlidingGalleryDiscreteCoreContainer")}>
+            <img className="ImageSlidingGalleryDiscreteImgPart"
+              src={activeSlide.image}
+              alt={caption}
+            />
+            {this.renderPrevNextButtonGroup()}
+          </div>
           <div
             className="ImageSlidingGalleryDiscreteCaptionPart"
             data-testid="ImageSlidingGalleryDiscreteCaptionPart"
@@ -130,10 +112,16 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
             </Button.Group>
           </div>
         </div>
+      </div>
+    );
+  }
+
+  renderPrevNextButtonGroup() {
+    return (
+      <Fragment>
         <div
           className={getElementStyleClassNames(["ImageSlidingGalleryDiscreteButtonContainer",
                                                 "ImageSlidingGalleryDiscreteButtonLhsContainer"])}
-          style={buttonCommonPositionStyle}
         >
           <Button
             circular
@@ -147,7 +135,6 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
         <div
           className={getElementStyleClassNames(["ImageSlidingGalleryDiscreteButtonContainer",
                                                 "ImageSlidingGalleryDiscreteButtonRhsContainer"])}
-          style={buttonCommonPositionStyle}
         >
           <Button
             circular
@@ -158,7 +145,7 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
             onClick={this.handleOnNextClick}
           />
         </div>
-      </div>
+      </Fragment>
     );
   }
 

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 23, 2020
- * Updated  : Aug 08, 2020
+ * Updated  : Aug 12, 2020
  */
 
 div.ImageSlidingGalleryDiscreteOuterContainer {
@@ -13,8 +13,15 @@ div.ImageSlidingGalleryDiscreteOuterContainer {
   position: relative;
 }
 
+div.ImageSlidingGalleryDiscreteInnerContainer {
+  max-width: 100%;
+}
+
 div.ImageSlidingGalleryDiscreteCoreContainer {
   max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 div.ImageSlidingGalleryDiscreteButtonGroupContainer {
@@ -29,7 +36,6 @@ img.ImageSlidingGalleryDiscreteImgPart {
 
 div.ImageSlidingGalleryDiscreteButtonContainer {
   position: absolute;
-  justify-content: center;
 }
 
 div.ImageSlidingGalleryDiscreteButtonLhsContainer {
