@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 11, 2020
  */
 
 import React from 'react'
@@ -45,13 +45,11 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
 
   render() {
     return (
-      <div className="HistoryPageSubsectionNamibiaOuterContainer">
-        <ContentPageSubsectionTemplate
-          title={this.state.subsectionConfig.title}
-          content={this.renderContent()}
-        />
-      </div>
-    )
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
+    );
   }
 
   renderContent() {
@@ -106,14 +104,12 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
 
   renderMiddleColumnContent() {
     return (
-      <div>
-        <ImageView
-          width={640}
-          height={640}
-          image={image_Cheetah_Occurrence_Range_Map}
-          caption="Cheetah distribution and population density in Namibia."
-        />
-      </div>
+      <ImageView
+        width={640}
+        height={640}
+        image={image_Cheetah_Occurrence_Range_Map}
+        caption="Cheetah distribution and population density in Namibia."
+      />
     );
   }
 
