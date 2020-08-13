@@ -13,10 +13,10 @@ export const config = {
   version: packageJson.version,
   author: 'Will Li',
   styling: {
-    mode: 'debug',
+    mode: 'prod',
     debugStyles: {
       'DebugColor': true,
-      'DebugWireframe': false,
+      'DebugWireframe': true,
     }
   }
 };
