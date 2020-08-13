@@ -31,6 +31,8 @@ import image_cheetah_paw from './assets/cheetah_paw-min.jpg'
 import image_claws_comparison from './assets/Cheetah_Cat_Dog_Claws_Comparison_Inverted-min.png'
 import image_cheetah_dewclaw from './assets/cheetah_dewclaw-min.jpg'
 
+import './BiologyPage_Subsection_FeetAndClaws.css'
+
 export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_FeetAndClaws";
@@ -150,7 +152,9 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
     return (
       <ContentPageSubsectionPart>
         <div className="VerticalCushionPadding"></div>
-        <AfricanWildlifeTracksIllustration />
+        <div className="AfricanWildlifeTracksIllustrationPageWrapper">
+          <AfricanWildlifeTracksIllustration />
+        </div>
       </ContentPageSubsectionPart>
     );
   }
