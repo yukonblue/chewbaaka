@@ -4,19 +4,43 @@
  *
  * Author   : Tomiko
  * Created  : Jul 24, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 12, 2020
  */
 
 div.ContentPageIntroSectionGenericInnerContainer {
-  display: block;
-  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+div.ContentPageIntroSectionGenericIntroTextContainer {
+  flex: 4;
+}
+
+div.ContentPageIntroSectionGenericImgContainer {
+  flex: 6;
 }
 
 img.ContentPageIntroSectionGenericImg {
-  position: relative;
-  float: right;
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
-div.ContentPageIntroSectionGenericInnerContainer::after {
-  float: clear;
+@media (max-width: 1535px) {
+  div.ContentPageIntroSectionGenericInnerContainer {
+    flex-direction: column;
+  }
+
+  div.ContentPageIntroSectionGenericImgContainer {
+    order: 1;
+  }
+
+  div.ContentPageIntroSectionGenericIntroTextContainer {
+    order: 2;
+  }
+
+  img.ContentPageIntroSectionGenericImg {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
