@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 12, 2020
+ * Updated  : Aug 13, 2020
  */
 
 import React from 'react'
@@ -40,18 +40,16 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
 
   render() {
     return (
-      <div className="FuturePageSubsectionCheetahsAtCCF">
-        <ContentPageSubsectionTemplate
-          title={this.state.subsectionConfig.title}
-          content={this.renderContent()}
-        />
-      </div>
-    )
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
+    );
   }
 
   renderContent() {
     return (
-      <div className="FuturePageSubsectionCheetahsAtCCFInnerContainer">
+      <div>
         {this.renderPartIntro(this.state.subsectionConfig.contents["part_Intro"])}
         {this.renderPartChewbaaka(this.state.subsectionConfig.contents["part_Chewbaaka"])}
         {this.renderPartMekondyo(this.state.subsectionConfig.contents["part_Mekondyo"])}
