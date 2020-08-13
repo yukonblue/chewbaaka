@@ -25,6 +25,8 @@ import CheetahOlympics from './CheetahOlympics'
 
 import image_Cheetah_Travel from './assets/Cheetah_Travel_480x480-min.png'
 
+import './BiologyPage_Subsection_HeartAndLung.css'
+
 export default class BiologyPageSubsectionHearAndLung extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_HearAndLung";
@@ -76,9 +78,11 @@ export default class BiologyPageSubsectionHearAndLung extends React.Component {
 
   renderCheetahOlympicsPart() {
     return (
-      <ContentPageSubsectionPart>
-        <CheetahOlympics />
-      </ContentPageSubsectionPart>
+      <div className="CheetahOlympicsSubsectionWrapper">
+        <ContentPageSubsectionPart>
+          <CheetahOlympics />
+        </ContentPageSubsectionPart>
+      </div>
     );
   }
 
