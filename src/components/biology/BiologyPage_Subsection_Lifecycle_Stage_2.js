@@ -65,6 +65,7 @@ export default class BiologyPageSubsectionLifecycleStage2 extends React.Componen
     return (
       <ContentPageSubsectionPart>
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
+        {/** TODO: Enable this text bubble */}
         {/* <div className="VerticalCushionPaddingTopLarge">
           <QnAPopUp
             className="VerticalCushionPaddingTopLarge"
