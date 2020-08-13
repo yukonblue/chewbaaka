@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Aug 11, 2020
+ * Updated  : Aug 13, 2020
  */
 
 import React from 'react'
@@ -57,6 +57,7 @@ export default class BiologyPageSubsectionLifecycleStage3 extends React.Componen
         <FactBannerImage
           src={image_fact_banner_what_is_diurnal}
           alt="What is diurnal?"
+          centered
         />
       </div>
     );

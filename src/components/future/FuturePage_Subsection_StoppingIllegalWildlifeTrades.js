@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 12, 2020
+ * Updated  : Aug 13, 2020
  */
 
 import React from 'react'
@@ -177,6 +177,7 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
           src={image_What_is_CITES}
           alt="What is CITES?"
           large
+          centered
         />
       </ContentPageSubsectionPart>
     );

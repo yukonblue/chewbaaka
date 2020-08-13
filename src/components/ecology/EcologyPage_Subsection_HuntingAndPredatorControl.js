@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 11, 2020
+ * Updated  : Aug 13, 2020
  */
 
 import React from 'react'
@@ -80,6 +80,7 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
             src={image_What_is_Sustainable_Utilization}
             alt="What is sustainable utilization?"
             large
+            centered
           />
         );
       }
@@ -111,6 +112,7 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
           src={image_What_is_a_Problem_Animal}
           alt="What is a problem animal?"
           large
+          centered
         />
       </ContentPageSubsectionPart>
     );

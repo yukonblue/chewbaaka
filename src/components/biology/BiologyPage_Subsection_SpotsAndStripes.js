@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Aug 12, 2020
+ * Updated  : Aug 13, 2020
  */
 
 import React from 'react'
@@ -74,6 +74,7 @@ export default class BiologyPageSubsectionSpotsAndStripes extends React.Componen
           src={image_What_is_Camouflage}
           alt="What is camouflage?"
           large
+          centered
         />
       </ContentPageSubsectionPart>
     );
