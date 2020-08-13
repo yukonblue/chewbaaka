@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 13, 2020
  */
 
 import React from 'react'
@@ -27,7 +27,6 @@ import ContentPageHead from './ContentPageHead'
 import ContentPageTail from './ContentPageTail'
 import ContentPageSideNavMenu from './ContentPageSideNavMenu'
 
-import TopNavBar from './TopNavBar'
 import Footer from './Footer'
 
 import './ContentPageSharedStyles.css'
@@ -68,7 +67,6 @@ export default class ContentPageSkeleton extends React.Component {
   render() {
     return (
       <div className={getElementStyleClassName("ContentPageSkeletonOuterContainer")}>
-        <TopNavBar />
         <ContentPageHead
           pageProps={this.props.pageProps}
           imagesContext={this.props.imagesContext}
