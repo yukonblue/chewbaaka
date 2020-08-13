@@ -136,10 +136,9 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
 
         <ContentPageSideFloatFluidContainer
           floatPart={
-            <img
+            <FluidImageWrapper
               src={image_Cheetah_and_LGD}
               alt="Cheetah and LGD"
-              style={{width: 520}}
             />
           }
           fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
