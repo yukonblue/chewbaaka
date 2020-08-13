@@ -16,7 +16,7 @@ export default class ContentPageTailPrevNextButtonNavMenu extends React.Componen
 
   render() {
     return (
-      <FluidSingleRowGrid>
+      <FluidSingleRowGrid justifyContent="space-evenly">
         {this.renderPageNavButton(this.props.pageTailNavMenu.prevPage, true)}
         {this.renderPageNavButton(this.props.pageTailNavMenu.nextPage, false)}
       </FluidSingleRowGrid>
