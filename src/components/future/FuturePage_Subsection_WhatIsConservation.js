@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 12, 2020
  */
 
 import React from 'react'
@@ -61,6 +61,7 @@ export default class FuturePageSubsectionWhatIsConservation extends React.Compon
             <img
               src={image_earth_environment}
               alt="Conservation is taking care of the environment in which we live."
+              className="FullWidth"
             />
           }
           fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
