@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 11, 2020
+ * Updated  : Aug 12, 2020
  */
 
 import React from 'react'
@@ -29,6 +29,8 @@ import FactBannerImage from '../shared/FactBannerImage'
 import ImageView from '../shared/ImageView'
 
 import FluidImageWrapper from '../shared/FluidImageWrapper'
+
+import FluidSingleRowGrid from '../shared/FluidSingleRowGrid'
 
 import ImageViewModal from '../shared/ImageViewModal'
 
@@ -177,26 +179,17 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
      * Use more suitable/tailored container for these image views.
      */
 
-    return (
-      <div>
-        <ContentPageSubsectionTwoColumnContentTemplate
-          lhsColumn={{
-            content: renderImageViewModal(image_namibia_landscape_01)
-          }}
-          rhsColumn={{
-            content: renderImageViewModal(image_namibia_landscape_02)
-          }}
-        />
+    const images = [
+      image_namibia_landscape_01,
+      image_namibia_landscape_02,
+      image_namibia_landscape_03,
+      image_namibia_landscape_04,
+    ];
 
-        <ContentPageSubsectionTwoColumnContentTemplate
-          lhsColumn={{
-            content: renderImageViewModal(image_namibia_landscape_03)
-          }}
-          rhsColumn={{
-            content: renderImageViewModal(image_namibia_landscape_04)
-          }}
-        />
-      </div>
+    return (
+      <FluidSingleRowGrid justifyContent="space-evenly">
+        {images.map((image) => (renderImageViewModal(image)))}
+      </FluidSingleRowGrid>
     );
   }
 }
