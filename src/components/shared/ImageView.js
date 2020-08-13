@@ -57,12 +57,12 @@ export default function ImageView({ width, image, caption, credit }) {
           <img
             className="ImageViewImg"
             src={image}
-            alt={formattedCaption}
+            alt={caption}
           />
         </div>
         <div className="ImageViewCaptionContainer">
           <Caption
-            caption={caption}
+            caption={formattedCaption}
             width={width}
           />
         </div>
