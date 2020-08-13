@@ -17,7 +17,7 @@ import './StatsLabel.css'
 
 export default function StatsLabel(props) {
   return (
-    <Segment inverted>
+    <Segment inverted className="StatsLabel">
       <Statistic inverted size="huge" color={props.color}>
         <Statistic.Value>
           {props.value}

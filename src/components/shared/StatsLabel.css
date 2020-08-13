@@ -7,7 +7,7 @@
  * Updated  : Aug 12, 2020
  */
 
-div.ui.inverted.segment {
+div.ui.inverted.segment.StatsLabel {
   padding: 50px;
   text-align: center;
   border-radius: 10px;
