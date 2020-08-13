@@ -1,5 +1,34 @@
 # Release Note
 
+## %NEXT VERSION%
+
+* Changelog
+  * Fixes for the following issues:
+    * Issue #125 - Adopt fluid dimension design across content pages
+  * All notable changes:
+    - Deprecate `TopNavBar` and refined `ContentPageTopNavMenuBar` as the single top navigation bar in a content page.
+    - Refined the following common controls to better adopt fluid layout:
+      - `CircularImage`
+      - `ImageView`
+      - `Caption`
+      - `MediaEmbed`
+      - `StatsLabel`
+      - `FactBannerImage`
+      - `ImageSlidingGallery`
+      - `ImageSlidingGalleryDiscrete`
+    - Refined the following content page layout components to better adopt fluid layout:
+      - `ContentPageTopNavMenuBar`
+      - `ContentPageIntroSectionGeneric`
+      - `ContentPageSubsectionTwoColumnContentTemplate`
+      - `ContentPageSubsectionThreeColumnContentTemplate`
+      - `ContentPageTail`
+      - `ContentPageTailPrevNextButtonNavMenu`
+      - `ContentPageSideFloatFluidContainer`
+      - `FluidTwoColumnContainer`
+    - Introduced new content page layout component `FluidSingleRowGrid`.
+    - Refined background image styling of `ContentPageBanner` component.
+    - Use conditional rendering and media queries for fixed size component.
+
 ## Version 0.1.14
 
 * Date: August 11, 2020
