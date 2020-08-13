@@ -4,13 +4,15 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 12, 2020
  */
 
 div.ContentPageBannerContainer {
   /** 16:9 ratio */
   height: 900px;
   background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
 }
 
 div.ContentPageBannerTitleContainer {
