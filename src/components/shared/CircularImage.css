@@ -13,8 +13,8 @@ div.CircularImageOuterContainer {
 }
 
 img.CircularImageImg {
-  width: 100%;
-  /* max-width: 100%; */
+  max-width: 100%;
+  box-sizing: border-box;
   border: 12px solid orange;
   border-radius: 50%;
   -moz-border-radius: 50%;
