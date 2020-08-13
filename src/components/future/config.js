@@ -28,7 +28,8 @@ export const config = {
     ],
     pageTailNavMenu: {
       prevPage: {
-        label: "Ecology"
+        label: "Ecology",
+        href: "/ecology"
       }
     }
   },

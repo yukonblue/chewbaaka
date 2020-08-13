@@ -29,9 +29,11 @@ export const config = {
     pageTailNavMenu: {
       prevPage: {
         label: "Biology",
+        href: "/biology"
       },
       nextPage: {
-        label: "Future"
+        label: "Future",
+        href: "/future"
       }
     }
   },
