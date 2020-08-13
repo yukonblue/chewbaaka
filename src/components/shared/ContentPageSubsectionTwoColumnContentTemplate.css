@@ -34,7 +34,7 @@ div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs {
   }
 
   div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs {
-    flex: 1;
+    padding: 0;
   }
   
   div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs {
