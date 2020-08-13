@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 06, 2020
+ * Updated  : Aug 13, 2020
  */
 
 import React from 'react'
@@ -31,9 +31,11 @@ test('renders ContentPageSkeleton component', () => {
     pageTailNavMenu: {
       prevPage: {
         label: "Biology",
+        href: "/biology"
       },
       nextPage: {
-        label: "Future"
+        label: "Future",
+        href: "/future"
       }
     }
   };

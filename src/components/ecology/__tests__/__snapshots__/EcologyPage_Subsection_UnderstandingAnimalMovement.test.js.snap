@@ -143,31 +143,57 @@ exports[`EcologyPageSubsectionUnderstandingAnimalMovement component snapshot 1`]
               className="ImageSlidingGalleryDiscreteOuterContainer"
               style={
                 Object {
-                  "height": 640,
                   "width": 720,
                 }
               }
             >
               <div
-                className="ImageSlidingGalleryDiscreteCoreContainer"
+                className="ImageSlidingGalleryDiscreteInnerContainer"
                 style={
                   Object {
-                    "height": 640,
                     "width": 720,
                   }
                 }
               >
-                <img
-                  alt="Spoor tracking data collection."
-                  className="ImageSlidingGalleryDiscreteImgPart"
-                  src="Spoor_Tracking_Data_Collection-min.jpg"
-                  style={
-                    Object {
-                      "height": 480,
-                      "width": 720,
-                    }
-                  }
-                />
+                <div
+                  className="ImageSlidingGalleryDiscreteCoreContainer"
+                >
+                  <img
+                    alt="Spoor tracking data collection."
+                    className="ImageSlidingGalleryDiscreteImgPart"
+                    src="Spoor_Tracking_Data_Collection-min.jpg"
+                  />
+                  <div
+                    className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonLhsContainer"
+                  >
+                    <button
+                      className="ui blue large circular icon disabled button"
+                      disabled={true}
+                      onClick={[Function]}
+                      tabIndex={-1}
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="arrow alternate circle left outline icon"
+                        onClick={[Function]}
+                      />
+                    </button>
+                  </div>
+                  <div
+                    className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonRhsContainer"
+                  >
+                    <button
+                      className="ui blue large circular icon button"
+                      onClick={[Function]}
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="arrow alternate circle right outline icon"
+                        onClick={[Function]}
+                      />
+                    </button>
+                  </div>
+                </div>
                 <div
                   className="ImageSlidingGalleryDiscreteCaptionPart"
                   data-testid="ImageSlidingGalleryDiscreteCaptionPart"
@@ -229,46 +255,6 @@ exports[`EcologyPageSubsectionUnderstandingAnimalMovement component snapshot 1`]
                     </button>
                   </div>
                 </div>
-              </div>
-              <div
-                className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonLhsContainer"
-                style={
-                  Object {
-                    "top": 218.5,
-                  }
-                }
-              >
-                <button
-                  className="ui blue large circular icon disabled button"
-                  disabled={true}
-                  onClick={[Function]}
-                  tabIndex={-1}
-                >
-                  <i
-                    aria-hidden="true"
-                    className="arrow alternate circle left outline icon"
-                    onClick={[Function]}
-                  />
-                </button>
-              </div>
-              <div
-                className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonRhsContainer"
-                style={
-                  Object {
-                    "top": 218.5,
-                  }
-                }
-              >
-                <button
-                  className="ui blue large circular icon button"
-                  onClick={[Function]}
-                >
-                  <i
-                    aria-hidden="true"
-                    className="arrow alternate circle right outline icon"
-                    onClick={[Function]}
-                  />
-                </button>
               </div>
             </div>
           </div>

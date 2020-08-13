@@ -13,16 +13,16 @@ exports[`BiologyPageSubsectionLifecycleStage1 component snapshot 1`] = `
       Stage 1
     </h3>
     <div
-      className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+      className="ContentPageSideFloatFluidContainerOuterContainer"
     >
       <div
-        className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+        className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
       >
         <div
           className="ImageViewOuterContainer"
           style={
             Object {
-              "width": 320,
+              "maxWidth": 320,
             }
           }
         >
@@ -36,11 +36,6 @@ exports[`BiologyPageSubsectionLifecycleStage1 component snapshot 1`] = `
                 alt="Cheetah cubs are born blind, so they need their mother's care."
                 className="ImageViewImg"
                 src="cheetah_mom_carry_cub-min.jpg"
-                style={
-                  Object {
-                    "width": 320,
-                  }
-                }
               />
             </div>
             <div

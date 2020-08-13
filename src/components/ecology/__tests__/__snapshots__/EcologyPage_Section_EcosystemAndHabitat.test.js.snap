@@ -72,16 +72,16 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                 Cheetah Habitat
               </h4>
               <div
-                className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+                className="ContentPageSideFloatFluidContainerOuterContainer"
               >
                 <div
-                  className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+                  className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
                 >
                   <div
                     className="ImageViewOuterContainer"
                     style={
                       Object {
-                        "width": 598,
+                        "maxWidth": 598,
                       }
                     }
                   >
@@ -95,11 +95,6 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                           alt="African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlife."
                           className="ImageViewImg"
                           src="savanna-min.jpg"
-                          style={
-                            Object {
-                              "width": 598,
-                            }
-                          }
                         />
                       </div>
                       <div
@@ -148,20 +143,11 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                   </p>
                 </div>
               </div>
-              <div
-                className="Centered FullWidth"
-                style={
-                  Object {
-                    "width": 640,
-                  }
-                }
-              >
-                <img
-                  alt="What is a habitat"
-                  className="FactBannerSmallDimension VerticalCushionPadding"
-                  src="What_is_Habitat-min.png"
-                />
-              </div>
+              <img
+                alt="What is a habitat"
+                className="FullWidth DisplayBlock Centered FactBannerSmallDimension"
+                src="What_is_Habitat-min.png"
+              />
               <img
                 alt="African savanna"
                 className="FullWidth DisplayBlock Centered"
@@ -183,76 +169,63 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                   className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
                 >
                   <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
                   >
-                    <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+                    <h4
+                      className="ContentPageSubsectionSubtitle"
+                    />
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                     >
-                      <h4
-                        className="ContentPageSubsectionSubtitle"
-                      />
-                      <p
-                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                      >
-                        Namibia is a country with rich biodiversity, as its land spans over five distinct types of biomes.
-                      </p>
-                    </div>
+                      Namibia is a country with rich biodiversity, as its land spans over five distinct types of biomes.
+                    </p>
+                  </div>
+                  <div
+                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+                  >
+                    <h4
+                      className="ContentPageSubsectionSubtitle"
+                    />
                     <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+                      className="ImageSlideModalCoverTriggerOuterContainer"
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      style={
+                        Object {
+                          "width": 480,
+                        }
+                      }
                     >
-                      <h4
-                        className="ContentPageSubsectionSubtitle"
-                      />
                       <div
-                        className="Centered"
+                        className="ImageSlideModalCoverTriggerInnerContainer"
+                        data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
+                        onClick={[Function]}
                         style={
                           Object {
+                            "backgroundImage": "url(biome_savanna-min.jpg)",
+                            "height": 320,
                             "width": 480,
                           }
                         }
                       >
                         <div
-                          className="ImageSlideModalCoverTriggerOuterContainer"
-                          onBlur={[Function]}
-                          onClick={[Function]}
-                          onFocus={[Function]}
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
-                          style={
-                            Object {
-                              "width": 480,
-                            }
-                          }
+                          className="ImageSlideModalCoverTriggerImageIconInnerContainer"
                         >
-                          <div
-                            className="ImageSlideModalCoverTriggerInnerContainer"
-                            data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
+                          <i
+                            aria-hidden="true"
+                            className="blue images outline huge icon"
                             onClick={[Function]}
-                            style={
-                              Object {
-                                "backgroundImage": "url(biome_savanna-min.jpg)",
-                                "height": 320,
-                                "width": 480,
-                              }
-                            }
-                          >
-                            <div
-                              className="ImageSlideModalCoverTriggerImageIconInnerContainer"
-                            >
-                              <i
-                                aria-hidden="true"
-                                className="blue images outline huge icon"
-                                onClick={[Function]}
-                              />
-                            </div>
-                          </div>
-                          <p
-                            className="ContentPageCaptionTextSize"
-                          >
-                            Click to learn more about the biomes of Namibia.
-                          </p>
+                          />
                         </div>
                       </div>
+                      <p
+                        className="ContentPageCaptionTextSize"
+                      >
+                        Click to learn more about the biomes of Namibia.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -272,7 +245,7 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                     className="ImageViewOuterContainer"
                     style={
                       Object {
-                        "width": 1200,
+                        "maxWidth": 1200,
                       }
                     }
                   >
@@ -286,11 +259,6 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                           alt="Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on."
                           className="ImageViewImg"
                           src="Namibia_Biomes_and_Cheetah_Ranges_Map-min.jpg"
-                          style={
-                            Object {
-                              "width": 1200,
-                            }
-                          }
                         />
                       </div>
                       <div
@@ -325,170 +293,121 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                   </div>
                 </div>
               </div>
+              <img
+                alt="What is biome?"
+                className="FullWidth DisplayBlock Centered FactBannerMediumDimension"
+                src="What_is_Biome-min.png"
+              />
               <div
-                className="Centered FactBannerMediumDimension VerticalCushionPadding"
+                className="FluidSingleRowGridOuterContainer"
+                style={
+                  Object {
+                    "justifyContent": "space-evenly",
+                  }
+                }
               >
-                <img
-                  alt="What is biome?"
-                  className="FactBannerMediumDimension"
-                  src="What_is_Biome-min.png"
-                />
-              </div>
-              <div>
                 <div
-                  className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+                  className="ImageViewModalCoverTriggerOuterContainer"
+                  data-testid="ImageViewModalComponentCoverImageContainerTestId"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  style={
+                    Object {
+                      "backgroundImage": "url(namibia_landscape_01-min.jpg)",
+                      "height": 320,
+                      "width": 480,
+                    }
+                  }
                 >
                   <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+                    className="ImageViewModalCoverTriggerImageIconInnerContainer"
                   >
-                    <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
-                    >
-                      <div
-                        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-                      >
-                        <h4
-                          className="ContentPageSubsectionSubtitle"
-                        />
-                        <div
-                          className="ImageViewModalCoverTriggerOuterContainer"
-                          data-testid="ImageViewModalComponentCoverImageContainerTestId"
-                          onBlur={[Function]}
-                          onClick={[Function]}
-                          onFocus={[Function]}
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
-                          style={
-                            Object {
-                              "backgroundImage": "url(namibia_landscape_01-min.jpg)",
-                              "height": 320,
-                              "width": 480,
-                            }
-                          }
-                        >
-                          <div
-                            className="ImageViewModalCoverTriggerImageIconInnerContainer"
-                          >
-                            <i
-                              aria-hidden="true"
-                              className="black file image large icon"
-                              onClick={[Function]}
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-                      >
-                        <h4
-                          className="ContentPageSubsectionSubtitle"
-                        />
-                        <div
-                          className="ImageViewModalCoverTriggerOuterContainer"
-                          data-testid="ImageViewModalComponentCoverImageContainerTestId"
-                          onBlur={[Function]}
-                          onClick={[Function]}
-                          onFocus={[Function]}
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
-                          style={
-                            Object {
-                              "backgroundImage": "url(namibia_landscape_02-min.jpg)",
-                              "height": 320,
-                              "width": 480,
-                            }
-                          }
-                        >
-                          <div
-                            className="ImageViewModalCoverTriggerImageIconInnerContainer"
-                          >
-                            <i
-                              aria-hidden="true"
-                              className="black file image large icon"
-                              onClick={[Function]}
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    <i
+                      aria-hidden="true"
+                      className="black file image large icon"
+                      onClick={[Function]}
+                    />
                   </div>
                 </div>
                 <div
-                  className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+                  className="ImageViewModalCoverTriggerOuterContainer"
+                  data-testid="ImageViewModalComponentCoverImageContainerTestId"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  style={
+                    Object {
+                      "backgroundImage": "url(namibia_landscape_02-min.jpg)",
+                      "height": 320,
+                      "width": 480,
+                    }
+                  }
                 >
                   <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+                    className="ImageViewModalCoverTriggerImageIconInnerContainer"
                   >
-                    <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
-                    >
-                      <div
-                        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-                      >
-                        <h4
-                          className="ContentPageSubsectionSubtitle"
-                        />
-                        <div
-                          className="ImageViewModalCoverTriggerOuterContainer"
-                          data-testid="ImageViewModalComponentCoverImageContainerTestId"
-                          onBlur={[Function]}
-                          onClick={[Function]}
-                          onFocus={[Function]}
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
-                          style={
-                            Object {
-                              "backgroundImage": "url(namibia_landscape_03-min.jpg)",
-                              "height": 320,
-                              "width": 480,
-                            }
-                          }
-                        >
-                          <div
-                            className="ImageViewModalCoverTriggerImageIconInnerContainer"
-                          >
-                            <i
-                              aria-hidden="true"
-                              className="black file image large icon"
-                              onClick={[Function]}
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-                      >
-                        <h4
-                          className="ContentPageSubsectionSubtitle"
-                        />
-                        <div
-                          className="ImageViewModalCoverTriggerOuterContainer"
-                          data-testid="ImageViewModalComponentCoverImageContainerTestId"
-                          onBlur={[Function]}
-                          onClick={[Function]}
-                          onFocus={[Function]}
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
-                          style={
-                            Object {
-                              "backgroundImage": "url(namibia_landscape_04-min.jpg)",
-                              "height": 320,
-                              "width": 480,
-                            }
-                          }
-                        >
-                          <div
-                            className="ImageViewModalCoverTriggerImageIconInnerContainer"
-                          >
-                            <i
-                              aria-hidden="true"
-                              className="black file image large icon"
-                              onClick={[Function]}
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    <i
+                      aria-hidden="true"
+                      className="black file image large icon"
+                      onClick={[Function]}
+                    />
+                  </div>
+                </div>
+                <div
+                  className="ImageViewModalCoverTriggerOuterContainer"
+                  data-testid="ImageViewModalComponentCoverImageContainerTestId"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  style={
+                    Object {
+                      "backgroundImage": "url(namibia_landscape_03-min.jpg)",
+                      "height": 320,
+                      "width": 480,
+                    }
+                  }
+                >
+                  <div
+                    className="ImageViewModalCoverTriggerImageIconInnerContainer"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="black file image large icon"
+                      onClick={[Function]}
+                    />
+                  </div>
+                </div>
+                <div
+                  className="ImageViewModalCoverTriggerOuterContainer"
+                  data-testid="ImageViewModalComponentCoverImageContainerTestId"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  style={
+                    Object {
+                      "backgroundImage": "url(namibia_landscape_04-min.jpg)",
+                      "height": 320,
+                      "width": 480,
+                    }
+                  }
+                >
+                  <div
+                    className="ImageViewModalCoverTriggerImageIconInnerContainer"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="black file image large icon"
+                      onClick={[Function]}
+                    />
                   </div>
                 </div>
               </div>
@@ -598,128 +517,114 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                   className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
                 >
                   <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
                   >
+                    <h4
+                      className="ContentPageSubsectionSubtitle"
+                    />
                     <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-                    >
-                      <h4
-                        className="ContentPageSubsectionSubtitle"
-                      />
-                      <div
-                        className="ImageViewOuterContainer"
-                        style={
-                          Object {
-                            "width": 640,
-                          }
+                      className="ImageViewOuterContainer"
+                      style={
+                        Object {
+                          "maxWidth": 640,
                         }
+                      }
+                    >
+                      <div
+                        className="ImageViewInnerContainer"
                       >
                         <div
-                          className="ImageViewInnerContainer"
+                          className="ImageViewImgContainer"
+                        >
+                          <img
+                            alt="Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest."
+                            className="ImageViewImg"
+                            src="cheetah_coalition_hunting-min.jpg"
+                          />
+                        </div>
+                        <div
+                          className="ImageViewCaptionContainer"
                         >
                           <div
-                            className="ImageViewImgContainer"
-                          >
-                            <img
-                              alt="Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest."
-                              className="ImageViewImg"
-                              src="cheetah_coalition_hunting-min.jpg"
-                              style={
-                                Object {
-                                  "width": 640,
-                                }
+                            className="CaptionContainer"
+                            data-testid="CaptionComponentTestId"
+                            style={
+                              Object {
+                                "maxWidth": 640,
                               }
-                            />
-                          </div>
-                          <div
-                            className="ImageViewCaptionContainer"
+                            }
                           >
                             <div
-                              className="CaptionContainer"
-                              data-testid="CaptionComponentTestId"
-                              style={
-                                Object {
-                                  "maxWidth": 640,
-                                }
-                              }
+                              className="IconContainer"
                             >
-                              <div
-                                className="IconContainer"
-                              >
-                                <i
-                                  aria-hidden="true"
-                                  className="image icon"
-                                  onClick={[Function]}
-                                />
-                              </div>
-                              <p
-                                className="ContentPageCaptionTextSize CaptionText"
-                              >
-                                Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest.
-                              </p>
+                              <i
+                                aria-hidden="true"
+                                className="image icon"
+                                onClick={[Function]}
+                              />
                             </div>
+                            <p
+                              className="ContentPageCaptionTextSize CaptionText"
+                            >
+                              Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest.
+                            </p>
                           </div>
                         </div>
                       </div>
                     </div>
+                  </div>
+                  <div
+                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+                  >
+                    <h4
+                      className="ContentPageSubsectionSubtitle"
+                    />
                     <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-                    >
-                      <h4
-                        className="ContentPageSubsectionSubtitle"
-                      />
-                      <div
-                        className="ImageViewOuterContainer"
-                        style={
-                          Object {
-                            "width": 640,
-                          }
+                      className="ImageViewOuterContainer"
+                      style={
+                        Object {
+                          "maxWidth": 640,
                         }
+                      }
+                    >
+                      <div
+                        className="ImageViewInnerContainer"
                       >
                         <div
-                          className="ImageViewInnerContainer"
+                          className="ImageViewImgContainer"
+                        >
+                          <img
+                            alt="One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch."
+                            className="ImageViewImg"
+                            src="cheetah_go_after_gazelle-min.jpg"
+                          />
+                        </div>
+                        <div
+                          className="ImageViewCaptionContainer"
                         >
                           <div
-                            className="ImageViewImgContainer"
-                          >
-                            <img
-                              alt="One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch."
-                              className="ImageViewImg"
-                              src="cheetah_go_after_gazelle-min.jpg"
-                              style={
-                                Object {
-                                  "width": 640,
-                                }
+                            className="CaptionContainer"
+                            data-testid="CaptionComponentTestId"
+                            style={
+                              Object {
+                                "maxWidth": 640,
                               }
-                            />
-                          </div>
-                          <div
-                            className="ImageViewCaptionContainer"
+                            }
                           >
                             <div
-                              className="CaptionContainer"
-                              data-testid="CaptionComponentTestId"
-                              style={
-                                Object {
-                                  "maxWidth": 640,
-                                }
-                              }
+                              className="IconContainer"
                             >
-                              <div
-                                className="IconContainer"
-                              >
-                                <i
-                                  aria-hidden="true"
-                                  className="image icon"
-                                  onClick={[Function]}
-                                />
-                              </div>
-                              <p
-                                className="ContentPageCaptionTextSize CaptionText"
-                              >
-                                One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch.
-                              </p>
+                              <i
+                                aria-hidden="true"
+                                className="image icon"
+                                onClick={[Function]}
+                              />
                             </div>
+                            <p
+                              className="ContentPageCaptionTextSize CaptionText"
+                            >
+                              One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch.
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -752,16 +657,16 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                 Cheetah’s role
               </h4>
               <div
-                className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+                className="ContentPageSideFloatFluidContainerOuterContainer"
               >
                 <div
-                  className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+                  className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
                 >
                   <div
                     className="ImageViewOuterContainer"
                     style={
                       Object {
-                        "width": 640,
+                        "maxWidth": 640,
                       }
                     }
                   >
@@ -775,11 +680,6 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                           alt="A simplified illustration of the food web of a savanna ecosystem."
                           className="ImageViewImg"
                           src="savanna_food_web-min.jpg"
-                          style={
-                            Object {
-                              "width": 640,
-                            }
-                          }
                         />
                       </div>
                       <div
@@ -854,128 +754,114 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                   className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
                 >
                   <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
                   >
+                    <h4
+                      className="ContentPageSubsectionSubtitle"
+                    />
                     <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-                    >
-                      <h4
-                        className="ContentPageSubsectionSubtitle"
-                      />
-                      <div
-                        className="ImageViewOuterContainer"
-                        style={
-                          Object {
-                            "width": 640,
-                          }
+                      className="ImageViewOuterContainer"
+                      style={
+                        Object {
+                          "maxWidth": 483,
                         }
+                      }
+                    >
+                      <div
+                        className="ImageViewInnerContainer"
                       >
                         <div
-                          className="ImageViewInnerContainer"
+                          className="ImageViewImgContainer"
+                        >
+                          <img
+                            alt="Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains."
+                            className="ImageViewImg"
+                            src="cheetah_hyena_competition-min.jpg"
+                          />
+                        </div>
+                        <div
+                          className="ImageViewCaptionContainer"
                         >
                           <div
-                            className="ImageViewImgContainer"
-                          >
-                            <img
-                              alt="Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains."
-                              className="ImageViewImg"
-                              src="cheetah_hyena_competition-min.jpg"
-                              style={
-                                Object {
-                                  "width": 640,
-                                }
+                            className="CaptionContainer"
+                            data-testid="CaptionComponentTestId"
+                            style={
+                              Object {
+                                "maxWidth": 483,
                               }
-                            />
-                          </div>
-                          <div
-                            className="ImageViewCaptionContainer"
+                            }
                           >
                             <div
-                              className="CaptionContainer"
-                              data-testid="CaptionComponentTestId"
-                              style={
-                                Object {
-                                  "maxWidth": 640,
-                                }
-                              }
+                              className="IconContainer"
                             >
-                              <div
-                                className="IconContainer"
-                              >
-                                <i
-                                  aria-hidden="true"
-                                  className="image icon"
-                                  onClick={[Function]}
-                                />
-                              </div>
-                              <p
-                                className="ContentPageCaptionTextSize CaptionText"
-                              >
-                                Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains.
-                              </p>
+                              <i
+                                aria-hidden="true"
+                                className="image icon"
+                                onClick={[Function]}
+                              />
                             </div>
+                            <p
+                              className="ContentPageCaptionTextSize CaptionText"
+                            >
+                              Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains.
+                            </p>
                           </div>
                         </div>
                       </div>
                     </div>
+                  </div>
+                  <div
+                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+                  >
+                    <h4
+                      className="ContentPageSubsectionSubtitle"
+                    />
                     <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-                    >
-                      <h4
-                        className="ContentPageSubsectionSubtitle"
-                      />
-                      <div
-                        className="ImageViewOuterContainer"
-                        style={
-                          Object {
-                            "width": 480,
-                          }
+                      className="ImageViewOuterContainer"
+                      style={
+                        Object {
+                          "maxWidth": 480,
                         }
+                      }
+                    >
+                      <div
+                        className="ImageViewInnerContainer"
                       >
                         <div
-                          className="ImageViewInnerContainer"
+                          className="ImageViewImgContainer"
+                        >
+                          <img
+                            alt="Lions will often take over the cheetah's prey easily as they are superior in strength."
+                            className="ImageViewImg"
+                            src="cheetah_lion_competition-min.jpg"
+                          />
+                        </div>
+                        <div
+                          className="ImageViewCaptionContainer"
                         >
                           <div
-                            className="ImageViewImgContainer"
-                          >
-                            <img
-                              alt="Lions will often take over the cheetah's prey easily as they are superior in strength."
-                              className="ImageViewImg"
-                              src="cheetah_lion_competition-min.jpg"
-                              style={
-                                Object {
-                                  "width": 480,
-                                }
+                            className="CaptionContainer"
+                            data-testid="CaptionComponentTestId"
+                            style={
+                              Object {
+                                "maxWidth": 480,
                               }
-                            />
-                          </div>
-                          <div
-                            className="ImageViewCaptionContainer"
+                            }
                           >
                             <div
-                              className="CaptionContainer"
-                              data-testid="CaptionComponentTestId"
-                              style={
-                                Object {
-                                  "maxWidth": 480,
-                                }
-                              }
+                              className="IconContainer"
                             >
-                              <div
-                                className="IconContainer"
-                              >
-                                <i
-                                  aria-hidden="true"
-                                  className="image icon"
-                                  onClick={[Function]}
-                                />
-                              </div>
-                              <p
-                                className="ContentPageCaptionTextSize CaptionText"
-                              >
-                                Lions will often take over the cheetah's prey easily as they are superior in strength.
-                              </p>
+                              <i
+                                aria-hidden="true"
+                                className="image icon"
+                                onClick={[Function]}
+                              />
                             </div>
+                            <p
+                              className="ContentPageCaptionTextSize CaptionText"
+                            >
+                              Lions will often take over the cheetah's prey easily as they are superior in strength.
+                            </p>
                           </div>
                         </div>
                       </div>

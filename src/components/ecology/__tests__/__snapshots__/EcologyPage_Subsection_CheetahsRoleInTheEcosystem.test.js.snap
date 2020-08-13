@@ -22,16 +22,16 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
           Cheetah’s role
         </h4>
         <div
-          className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+          className="ContentPageSideFloatFluidContainerOuterContainer"
         >
           <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
           >
             <div
               className="ImageViewOuterContainer"
               style={
                 Object {
-                  "width": 640,
+                  "maxWidth": 640,
                 }
               }
             >
@@ -45,11 +45,6 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
                     alt="A simplified illustration of the food web of a savanna ecosystem."
                     className="ImageViewImg"
                     src="savanna_food_web-min.jpg"
-                    style={
-                      Object {
-                        "width": 640,
-                      }
-                    }
                   />
                 </div>
                 <div
@@ -124,128 +119,114 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
             className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
           >
             <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
             >
+              <h4
+                className="ContentPageSubsectionSubtitle"
+              />
               <div
-                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-              >
-                <h4
-                  className="ContentPageSubsectionSubtitle"
-                />
-                <div
-                  className="ImageViewOuterContainer"
-                  style={
-                    Object {
-                      "width": 640,
-                    }
+                className="ImageViewOuterContainer"
+                style={
+                  Object {
+                    "maxWidth": 483,
                   }
+                }
+              >
+                <div
+                  className="ImageViewInnerContainer"
                 >
                   <div
-                    className="ImageViewInnerContainer"
+                    className="ImageViewImgContainer"
+                  >
+                    <img
+                      alt="Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains."
+                      className="ImageViewImg"
+                      src="cheetah_hyena_competition-min.jpg"
+                    />
+                  </div>
+                  <div
+                    className="ImageViewCaptionContainer"
                   >
                     <div
-                      className="ImageViewImgContainer"
-                    >
-                      <img
-                        alt="Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains."
-                        className="ImageViewImg"
-                        src="cheetah_hyena_competition-min.jpg"
-                        style={
-                          Object {
-                            "width": 640,
-                          }
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 483,
                         }
-                      />
-                    </div>
-                    <div
-                      className="ImageViewCaptionContainer"
+                      }
                     >
                       <div
-                        className="CaptionContainer"
-                        data-testid="CaptionComponentTestId"
-                        style={
-                          Object {
-                            "maxWidth": 640,
-                          }
-                        }
+                        className="IconContainer"
                       >
-                        <div
-                          className="IconContainer"
-                        >
-                          <i
-                            aria-hidden="true"
-                            className="image icon"
-                            onClick={[Function]}
-                          />
-                        </div>
-                        <p
-                          className="ContentPageCaptionTextSize CaptionText"
-                        >
-                          Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains.
-                        </p>
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
                       </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains.
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+            <div
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+            >
+              <h4
+                className="ContentPageSubsectionSubtitle"
+              />
               <div
-                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-              >
-                <h4
-                  className="ContentPageSubsectionSubtitle"
-                />
-                <div
-                  className="ImageViewOuterContainer"
-                  style={
-                    Object {
-                      "width": 480,
-                    }
+                className="ImageViewOuterContainer"
+                style={
+                  Object {
+                    "maxWidth": 480,
                   }
+                }
+              >
+                <div
+                  className="ImageViewInnerContainer"
                 >
                   <div
-                    className="ImageViewInnerContainer"
+                    className="ImageViewImgContainer"
+                  >
+                    <img
+                      alt="Lions will often take over the cheetah's prey easily as they are superior in strength."
+                      className="ImageViewImg"
+                      src="cheetah_lion_competition-min.jpg"
+                    />
+                  </div>
+                  <div
+                    className="ImageViewCaptionContainer"
                   >
                     <div
-                      className="ImageViewImgContainer"
-                    >
-                      <img
-                        alt="Lions will often take over the cheetah's prey easily as they are superior in strength."
-                        className="ImageViewImg"
-                        src="cheetah_lion_competition-min.jpg"
-                        style={
-                          Object {
-                            "width": 480,
-                          }
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 480,
                         }
-                      />
-                    </div>
-                    <div
-                      className="ImageViewCaptionContainer"
+                      }
                     >
                       <div
-                        className="CaptionContainer"
-                        data-testid="CaptionComponentTestId"
-                        style={
-                          Object {
-                            "maxWidth": 480,
-                          }
-                        }
+                        className="IconContainer"
                       >
-                        <div
-                          className="IconContainer"
-                        >
-                          <i
-                            aria-hidden="true"
-                            className="image icon"
-                            onClick={[Function]}
-                          />
-                        </div>
-                        <p
-                          className="ContentPageCaptionTextSize CaptionText"
-                        >
-                          Lions will often take over the cheetah's prey easily as they are superior in strength.
-                        </p>
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
                       </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        Lions will often take over the cheetah's prey easily as they are superior in strength.
+                      </p>
                     </div>
                   </div>
                 </div>

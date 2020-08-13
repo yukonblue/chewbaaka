@@ -38,18 +38,11 @@ exports[`BiologyPageLifecycleDiagram component snapshot 1`] = `
     </b>
     : adult life.
   </p>
-  <div
-    className="Centered"
-  >
-    <img
-      alt="lifecycle diagram"
-      src="Lifecycle_Diagram-min.png"
-      style={
-        Object {
-          "width": 640,
-        }
-      }
-    />
-  </div>
+  <img
+    alt="lifecycle diagram"
+    className="FullWidth DisplayBlock Centered"
+    src="Lifecycle_Diagram-min.png"
+    width={640}
+  />
 </div>
 `;

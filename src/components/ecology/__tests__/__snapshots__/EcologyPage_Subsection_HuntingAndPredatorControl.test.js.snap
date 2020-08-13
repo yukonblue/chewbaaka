@@ -41,15 +41,11 @@ exports[`EcologyPageSubsectionHuntingAndPredatorControl component snapshot 1`] =
           >
             Sustainability refers to a process that can last forever. Utilizing a resource sustainably means that using the natural resource will not destroy it. Hunting can be a form of sustainable use. A sustainable outlook on hunting also sets aside a portion of the revenue collected from the hunt to support conservation efforts for the species.
           </p>
-          <div
-            className="Centered FactBannerMediumDimension"
-          >
-            <img
-              alt="What is sustainable utilization?"
-              className="FactBannerMediumDimension"
-              src="What_is_Sustainable_Utilization-min.png"
-            />
-          </div>
+          <img
+            alt="What is sustainable utilization?"
+            className="FullWidth DisplayBlock Centered FactBannerMediumDimension"
+            src="What_is_Sustainable_Utilization-min.png"
+          />
         </div>
         <div
           className="ContentPageSubsectionPartContainer"
@@ -94,10 +90,10 @@ exports[`EcologyPageSubsectionHuntingAndPredatorControl component snapshot 1`] =
           Predator Control
         </h4>
         <div
-          className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+          className="ContentPageSideFloatFluidContainerOuterContainer"
         >
           <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
           >
             <div
               className="TextBubbleOuterContainer"
@@ -159,15 +155,11 @@ exports[`EcologyPageSubsectionHuntingAndPredatorControl component snapshot 1`] =
             </p>
           </div>
         </div>
-        <div
-          className="Centered FactBannerMediumDimension VerticalCushionPaddingTopLarge"
-        >
-          <img
-            alt="What is a problem animal?"
-            className="FactBannerMediumDimension"
-            src="What_is_a_Problem_Animal-min.png"
-          />
-        </div>
+        <img
+          alt="What is a problem animal?"
+          className="FullWidth DisplayBlock Centered FactBannerMediumDimension"
+          src="What_is_a_Problem_Animal-min.png"
+        />
       </div>
     </div>
   </div>

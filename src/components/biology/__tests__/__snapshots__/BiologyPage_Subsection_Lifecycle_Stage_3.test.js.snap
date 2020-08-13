@@ -40,15 +40,11 @@ exports[`BiologyPageSubsectionLifecycleStage3 component snapshot 1`] = `
           </button>
         </a>
       </div>
-      <div
-        className="FactBannerSmallDimension Centered"
-      >
-        <img
-          alt="What is diurnal?"
-          className="FactBannerSmallDimension"
-          src="What_is_Diurnal-min.png"
-        />
-      </div>
+      <img
+        alt="What is diurnal?"
+        className="FullWidth DisplayBlock Centered FactBannerSmallDimension"
+        src="What_is_Diurnal-min.png"
+      />
     </div>
   </div>
 </div>

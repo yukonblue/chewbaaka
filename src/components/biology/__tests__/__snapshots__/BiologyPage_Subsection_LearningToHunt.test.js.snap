@@ -13,16 +13,16 @@ exports[`BiologyPageSubsectionLearningToHunt component snapshot 1`] = `
       Learning to Hunt
     </h3>
     <div
-      className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+      className="ContentPageSideFloatFluidContainerOuterContainer"
     >
       <div
-        className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+        className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
       >
         <div
           className="ImageViewOuterContainer"
           style={
             Object {
-              "width": 480,
+              "maxWidth": 480,
             }
           }
         >
@@ -36,11 +36,6 @@ exports[`BiologyPageSubsectionLearningToHunt component snapshot 1`] = `
                 alt="Cheetah cubs learning how to hunt."
                 className="ImageViewImg"
                 src="cheetah_cubs_learning_hunting-min.jpg"
-                style={
-                  Object {
-                    "width": 480,
-                  }
-                }
               />
             </div>
             <div

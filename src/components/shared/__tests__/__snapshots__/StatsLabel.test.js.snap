@@ -2,7 +2,7 @@
 
 exports[`StatsLabel component snapshot 1`] = `
 <div
-  className="ui inverted segment"
+  className="ui inverted segment StatsLabel"
 >
   <div
     className="ui orange huge inverted statistic"

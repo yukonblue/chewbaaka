@@ -14,16 +14,16 @@ exports[`FuturePageSubsectionCommunityEvents component snapshot 1`] = `
         Community Events
       </h3>
       <div
-        className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+        className="ContentPageSideFloatFluidContainerOuterContainer"
       >
         <div
-          className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatLeft HorizontalCusionPaddingRight"
+          className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatLeft"
         >
           <div
             className="ImageViewOuterContainer"
             style={
               Object {
-                "width": 960,
+                "maxWidth": 960,
               }
             }
           >
@@ -34,14 +34,9 @@ exports[`FuturePageSubsectionCommunityEvents component snapshot 1`] = `
                 className="ImageViewImgContainer"
               >
                 <img
-                  alt="CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program. (Image credit: Cheetah Conservation Fund)"
+                  alt="CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program."
                   className="ImageViewImg"
                   src="CCF_Livelihood_Development-min.jpg"
-                  style={
-                    Object {
-                      "width": 960,
-                    }
-                  }
                 />
               </div>
               <div

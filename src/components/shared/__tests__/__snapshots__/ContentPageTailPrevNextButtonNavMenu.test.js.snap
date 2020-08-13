@@ -2,69 +2,44 @@
 
 exports[`ContentPageTailPrevNextButtonNavMenu component snapshot 1`] = `
 <div
-  className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+  className="FluidSingleRowGridOuterContainer"
+  style={
+    Object {
+      "justifyContent": "space-evenly",
+    }
+  }
 >
-  <div
-    className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+  <a
+    href="/biology"
+    onClick={[Function]}
   >
-    <div
-      className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+    <button
+      className="ui blue massive icon left labeled button"
+      onClick={[Function]}
     >
-      <div
-        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-      >
-        <h4
-          className="ContentPageSubsectionSubtitle"
-        />
-        <div
-          className="FloatLeft"
-        >
-          <a
-            href="/biology"
-            onClick={[Function]}
-          >
-            <button
-              className="ui blue massive icon left labeled button"
-              onClick={[Function]}
-            >
-              <i
-                aria-hidden="true"
-                className="arrow circle left icon"
-                onClick={[Function]}
-              />
-              Biology
-            </button>
-          </a>
-        </div>
-      </div>
-      <div
-        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-      >
-        <h4
-          className="ContentPageSubsectionSubtitle"
-        />
-        <div
-          className="FloatRight"
-        >
-          <a
-            href="/future"
-            onClick={[Function]}
-          >
-            <button
-              className="ui blue massive icon right labeled button"
-              onClick={[Function]}
-            >
-              <i
-                aria-hidden="true"
-                className="arrow circle right icon"
-                onClick={[Function]}
-              />
-              Future
-            </button>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
+      <i
+        aria-hidden="true"
+        className="arrow circle left icon"
+        onClick={[Function]}
+      />
+      Biology
+    </button>
+  </a>
+  <a
+    href="/future"
+    onClick={[Function]}
+  >
+    <button
+      className="ui blue massive icon right labeled button"
+      onClick={[Function]}
+    >
+      <i
+        aria-hidden="true"
+        className="arrow circle right icon"
+        onClick={[Function]}
+      />
+      Future
+    </button>
+  </a>
 </div>
 `;

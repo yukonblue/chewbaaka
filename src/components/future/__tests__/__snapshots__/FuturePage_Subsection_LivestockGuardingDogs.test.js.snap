@@ -64,16 +64,16 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
           Raising LGD’s
         </h4>
         <div
-          className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+          className="ContentPageSideFloatFluidContainerOuterContainer"
         >
           <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
           >
             <div
               className="ImageViewOuterContainer"
               style={
                 Object {
-                  "width": 720,
+                  "maxWidth": 720,
                 }
               }
             >
@@ -84,14 +84,9 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
                   className="ImageViewImgContainer"
                 >
                   <img
-                    alt="Anatolian Shepherd puppies live alongside with the herd. (Image credit: Cheetah Conservation Fund)"
+                    alt="Anatolian Shepherd puppies live alongside with the herd."
                     className="ImageViewImg"
                     src="CCF_anatolian_shepherd_puppies-min.jpg"
-                    style={
-                      Object {
-                        "width": 720,
-                      }
-                    }
                   />
                 </div>
                 <div
@@ -151,7 +146,7 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
             className="ImageViewOuterContainer"
             style={
               Object {
-                "width": 1000,
+                "maxWidth": 1000,
               }
             }
           >
@@ -162,14 +157,9 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
                 className="ImageViewImgContainer"
               >
                 <img
-                  alt="Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program. (Image credit: Cheetah Conservation Fund)"
+                  alt="Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program."
                   className="ImageViewImg"
                   src="CCF_Year_of_the_LGD-min.jpg"
-                  style={
-                    Object {
-                      "width": 1000,
-                    }
-                  }
                 />
               </div>
               <div
@@ -213,19 +203,15 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
           Dogs Save Cheetahs
         </h4>
         <div
-          className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+          className="ContentPageSideFloatFluidContainerOuterContainer"
         >
           <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
           >
             <img
               alt="Cheetah and LGD"
+              className="FullWidth DisplayBlock"
               src="Cheetah_and_LGD-min.jpg"
-              style={
-                Object {
-                  "width": 520,
-                }
-              }
             />
           </div>
           <div

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 12, 2020
+ * Updated  : Aug 13, 2020
  */
 
 import React from 'react'
@@ -166,14 +166,6 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
   }
 
   renderImageViewModals() {
-    const renderImageViewModal = (image) => (
-      <ImageViewModal
-        image={image}
-        width={480}
-        height={320}
-      />
-    );
-
     /**
      * TODO:
      * Use more suitable/tailored container for these image views.
@@ -188,7 +180,14 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
 
     return (
       <FluidSingleRowGrid justifyContent="space-evenly">
-        {images.map((image) => (renderImageViewModal(image)))}
+        {images.map((image, idx) => (
+          <ImageViewModal
+            key={idx}
+            image={image}
+            width={480}
+            height={320}
+          />
+        ))}
       </FluidSingleRowGrid>
     );
   }

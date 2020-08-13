@@ -5,31 +5,57 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
   className="ImageSlidingGalleryDiscreteOuterContainer"
   style={
     Object {
-      "height": 260,
       "width": 100,
     }
   }
 >
   <div
-    className="ImageSlidingGalleryDiscreteCoreContainer"
+    className="ImageSlidingGalleryDiscreteInnerContainer"
     style={
       Object {
-        "height": 260,
         "width": 100,
       }
     }
   >
-    <img
-      alt="Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words"
-      className="ImageSlidingGalleryDiscreteImgPart"
-      src=""
-      style={
-        Object {
-          "height": 100,
-          "width": 100,
-        }
-      }
-    />
+    <div
+      className="ImageSlidingGalleryDiscreteCoreContainer"
+    >
+      <img
+        alt="Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words"
+        className="ImageSlidingGalleryDiscreteImgPart"
+        src=""
+      />
+      <div
+        className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonLhsContainer"
+      >
+        <button
+          className="ui blue large circular icon disabled button"
+          disabled={true}
+          onClick={[Function]}
+          tabIndex={-1}
+        >
+          <i
+            aria-hidden="true"
+            className="arrow alternate circle left outline icon"
+            onClick={[Function]}
+          />
+        </button>
+      </div>
+      <div
+        className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonRhsContainer"
+      >
+        <button
+          className="ui blue large circular icon button"
+          onClick={[Function]}
+        >
+          <i
+            aria-hidden="true"
+            className="arrow alternate circle right outline icon"
+            onClick={[Function]}
+          />
+        </button>
+      </div>
+    </div>
     <div
       className="ImageSlidingGalleryDiscreteCaptionPart"
       data-testid="ImageSlidingGalleryDiscreteCaptionPart"
@@ -79,46 +105,6 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
         </button>
       </div>
     </div>
-  </div>
-  <div
-    className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonLhsContainer"
-    style={
-      Object {
-        "top": 28.5,
-      }
-    }
-  >
-    <button
-      className="ui blue large circular icon disabled button"
-      disabled={true}
-      onClick={[Function]}
-      tabIndex={-1}
-    >
-      <i
-        aria-hidden="true"
-        className="arrow alternate circle left outline icon"
-        onClick={[Function]}
-      />
-    </button>
-  </div>
-  <div
-    className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonRhsContainer"
-    style={
-      Object {
-        "top": 28.5,
-      }
-    }
-  >
-    <button
-      className="ui blue large circular icon button"
-      onClick={[Function]}
-    >
-      <i
-        aria-hidden="true"
-        className="arrow alternate circle right outline icon"
-        onClick={[Function]}
-      />
-    </button>
   </div>
 </div>
 `;

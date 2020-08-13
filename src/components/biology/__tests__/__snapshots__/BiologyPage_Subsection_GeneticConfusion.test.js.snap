@@ -13,10 +13,10 @@ exports[`BiologyPageSubsectionGeneticConfusion component snapshot 1`] = `
       Genetic Confusion
     </h3>
     <div
-      className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+      className="ContentPageSideFloatFluidContainerOuterContainer"
     >
       <div
-        className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+        className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
       >
         <div
           className="TextBubbleOuterContainer"

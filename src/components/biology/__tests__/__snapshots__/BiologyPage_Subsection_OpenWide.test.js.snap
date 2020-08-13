@@ -17,10 +17,10 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
         className="ContentPageSubsectionPartContainer"
       >
         <div
-          className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+          className="ContentPageSideFloatFluidContainerOuterContainer"
         >
           <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
           >
             <img
               alt="Open wide"
@@ -49,10 +49,10 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
         className="ContentPageSubsectionPartContainer"
       >
         <div
-          className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+          className="ContentPageSideFloatFluidContainerOuterContainer"
         >
           <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatLeft HorizontalCusionPaddingRight"
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatLeft"
           >
             <img
               alt="Papillae on cheetah's tongue"
@@ -74,10 +74,10 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
         className="ContentPageSubsectionPartContainer"
       >
         <div
-          className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+          className="ContentPageSideFloatFluidContainerOuterContainer"
         >
           <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
           >
             <img
               alt="Cheetah grooming"

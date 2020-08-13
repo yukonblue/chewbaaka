@@ -91,15 +91,11 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                 >
                   Sustainability refers to a process that can last forever. Utilizing a resource sustainably means that using the natural resource will not destroy it. Hunting can be a form of sustainable use. A sustainable outlook on hunting also sets aside a portion of the revenue collected from the hunt to support conservation efforts for the species.
                 </p>
-                <div
-                  className="Centered FactBannerMediumDimension"
-                >
-                  <img
-                    alt="What is sustainable utilization?"
-                    className="FactBannerMediumDimension"
-                    src="What_is_Sustainable_Utilization-min.png"
-                  />
-                </div>
+                <img
+                  alt="What is sustainable utilization?"
+                  className="FullWidth DisplayBlock Centered FactBannerMediumDimension"
+                  src="What_is_Sustainable_Utilization-min.png"
+                />
               </div>
               <div
                 className="ContentPageSubsectionPartContainer"
@@ -144,10 +140,10 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                 Predator Control
               </h4>
               <div
-                className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+                className="ContentPageSideFloatFluidContainerOuterContainer"
               >
                 <div
-                  className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+                  className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
                 >
                   <div
                     className="TextBubbleOuterContainer"
@@ -209,15 +205,11 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                   </p>
                 </div>
               </div>
-              <div
-                className="Centered FactBannerMediumDimension VerticalCushionPaddingTopLarge"
-              >
-                <img
-                  alt="What is a problem animal?"
-                  className="FactBannerMediumDimension"
-                  src="What_is_a_Problem_Animal-min.png"
-                />
-              </div>
+              <img
+                alt="What is a problem animal?"
+                className="FullWidth DisplayBlock Centered FactBannerMediumDimension"
+                src="What_is_a_Problem_Animal-min.png"
+              />
             </div>
           </div>
         </div>
@@ -262,16 +254,16 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                 Conservancies
               </h4>
               <div
-                className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+                className="ContentPageSideFloatFluidContainerOuterContainer"
               >
                 <div
-                  className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+                  className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
                 >
                   <div
                     className="ImageViewOuterContainer"
                     style={
                       Object {
-                        "width": 600,
+                        "maxWidth": 600,
                       }
                     }
                   >
@@ -282,14 +274,9 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                         className="ImageViewImgContainer"
                       >
                         <img
-                          alt="Cheetah Conservation Fund works with communal farmers and people living around the Greater Waterberg Landscape Conservancy. (Image credit: Cheetah Conservation Fund)"
+                          alt="Cheetah Conservation Fund works with communal farmers and people living around the Greater Waterberg Landscape Conservancy."
                           className="ImageViewImg"
                           src="CCF_GWL_map-min.jpg"
-                          style={
-                            Object {
-                              "width": 600,
-                            }
-                          }
                         />
                       </div>
                       <div
@@ -397,67 +384,72 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                   className="ContentPageSubsectionThreeColumnContentTemplateInnerContainer"
                 >
                   <div
-                    className="ContentPageSubsectionThreeColumnContentTemplateColumnContainer"
+                    className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateLeftColumnContainer"
                   >
-                    <div
-                      className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateLeftColumnContainer"
+                    <h4
+                      className="ContentPageSubsectionSubtitle"
                     >
-                      <h4
-                        className="ContentPageSubsectionSubtitle"
-                      >
-                        Smallstock practices
-                      </h4>
-                      <h5
-                        className="ContentPageSubsectionSubtitleSecondary"
-                      />
+                      Smallstock practices
+                    </h4>
+                    <h5
+                      className="ContentPageSubsectionSubtitleSecondary"
+                    />
+                    <div>
                       <div>
-                        <div>
-                          <div
-                            className="VerticalCushionPadding"
+                        <div
+                          className="VerticalCushionPadding"
+                        >
+                          <h5
+                            className="ContentPageSubsectionSubtitleSecondary"
                           >
-                            <h5
-                              className="ContentPageSubsectionSubtitleSecondary"
-                            >
-                              Kraals
-                            </h5>
-                            <p
-                              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                            >
-                              Kraaling smallstock at night enables monitoring and protection. Sturdy fencing or thorn branches must be tall enough to keep stock in and predators out.
-                            </p>
-                          </div>
-                          <div
-                            className="VerticalCushionPadding"
+                            Kraals
+                          </h5>
+                          <p
+                            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                           >
-                            <h5
-                              className="ContentPageSubsectionSubtitleSecondary"
-                            >
-                              Herder
-                            </h5>
-                            <p
-                              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                            >
-                              Keeping a herder with smallstock during the day provides additional protection.
-                            </p>
-                          </div>
+                            Kraaling smallstock at night enables monitoring and protection. Sturdy fencing or thorn branches must be tall enough to keep stock in and predators out.
+                          </p>
+                        </div>
+                        <div
+                          className="VerticalCushionPadding"
+                        >
+                          <h5
+                            className="ContentPageSubsectionSubtitleSecondary"
+                          >
+                            Herder
+                          </h5>
+                          <p
+                            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                          >
+                            Keeping a herder with smallstock during the day provides additional protection.
+                          </p>
                         </div>
                       </div>
                     </div>
-                    <div
-                      className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateMiddleColumnContainer"
-                      style={
-                        Object {
-                          "backgroundColor": "rgb(247,220,111)",
-                        }
+                  </div>
+                  <div
+                    className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateMiddleColumnContainer"
+                    style={
+                      Object {
+                        "backgroundColor": "rgb(247,220,111)",
                       }
+                    }
+                  >
+                    <h4
+                      className="ContentPageSubsectionSubtitle"
                     >
-                      <h4
-                        className="ContentPageSubsectionSubtitle"
-                      >
-                        Shared practices
-                      </h4>
+                      Shared practices
+                    </h4>
+                    <div>
                       <div>
-                        <div>
+                        <div
+                          className="FluidSingleRowGridOuterContainer"
+                          style={
+                            Object {
+                              "justifyContent": undefined,
+                            }
+                          }
+                        >
                           <img
                             alt="sheep"
                             className="FlexClipartSheep"
@@ -470,84 +462,7 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                             src="cattle_clipart-min.png"
                             width={160}
                           />
-                          <div>
-                            <div
-                              className="VerticalCushionPadding"
-                            >
-                              <h5
-                                className="ContentPageSubsectionSubtitleSecondary"
-                              >
-                                Herd Management
-                              </h5>
-                              <p
-                                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                              >
-                                Predators such as cheetahs are opportunistic. Management strategies should aim to protect livestock when they are most vulnerable, particularly at night and during birthing seasons. Culling animals that fail to produce or consistently lose calves to predation increases herd production.
-                              </p>
-                            </div>
-                            <div
-                              className="VerticalCushionPadding"
-                            >
-                              <h5
-                                className="ContentPageSubsectionSubtitleSecondary"
-                              >
-                                Seasonal births
-                              </h5>
-                              <p
-                                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                              >
-                                Seasonal birthing allows intensive monitoring of the calving/lambing herds.
-                              </p>
-                              <p
-                                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                              >
-                                Synchronizing livestock births with wildlife calving seasons ensures sufficient natural prey when livestock are most vulnerable.
-                              </p>
-                            </div>
-                            <div
-                              className="VerticalCushionPadding"
-                            >
-                              <h5
-                                className="ContentPageSubsectionSubtitleSecondary"
-                              >
-                                Fencing
-                              </h5>
-                              <p
-                                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                              >
-                                Wildlife-friendly farmers use four to five strands of non-barbed galvanized wires for interior livestock fencing. These low fences are not high and leave a large gap along the bottom to allow migration of wildlife through farmlands.
-                              </p>
-                            </div>
-                            <div
-                              className="VerticalCushionPadding"
-                            >
-                              <h5
-                                className="ContentPageSubsectionSubtitleSecondary"
-                              >
-                                Guard animals
-                              </h5>
-                              <p
-                                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                              >
-                                Losses are reduced by utilizing livestock guardians such as dogs for smallstock and donkeys for cattle. Guard animals need to be healthy and properly trained in order to be effective.
-                              </p>
-                            </div>
-                          </div>
                         </div>
-                      </div>
-                    </div>
-                    <div
-                      className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateRightColumnContainer"
-                    >
-                      <h4
-                        className="ContentPageSubsectionSubtitle"
-                      >
-                        Cattle practices
-                      </h4>
-                      <h5
-                        className="ContentPageSubsectionSubtitleSecondary"
-                      />
-                      <div>
                         <div>
                           <div
                             className="VerticalCushionPadding"
@@ -555,17 +470,12 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                             <h5
                               className="ContentPageSubsectionSubtitleSecondary"
                             >
-                              Calving camps
+                              Herd Management
                             </h5>
                             <p
                               className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                             >
-                              Close monitoring is made possible by locating calving camps near the homestead. This reduces losses to predation, accidents or other complications in the first few weeks of a calf’s life. Larger herd size also discourages predators.
-                            </p>
-                            <p
-                              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                            >
-                              Calves under three months of age and heifers (first-time mothers) are most vulnerable to predators. Closer monitoring will reduce losses.
+                              Predators such as cheetahs are opportunistic. Management strategies should aim to protect livestock when they are most vulnerable, particularly at night and during birthing seasons. Culling animals that fail to produce or consistently lose calves to predation increases herd production.
                             </p>
                           </div>
                           <div
@@ -574,14 +484,96 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                             <h5
                               className="ContentPageSubsectionSubtitleSecondary"
                             >
-                              Breeds
+                              Seasonal births
                             </h5>
                             <p
                               className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                             >
-                              Choose breeds that are more aggressive and allowing horns to grow on cows reduces losses to predators.
+                              Seasonal birthing allows intensive monitoring of the calving/lambing herds.
+                            </p>
+                            <p
+                              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                            >
+                              Synchronizing livestock births with wildlife calving seasons ensures sufficient natural prey when livestock are most vulnerable.
                             </p>
                           </div>
+                          <div
+                            className="VerticalCushionPadding"
+                          >
+                            <h5
+                              className="ContentPageSubsectionSubtitleSecondary"
+                            >
+                              Fencing
+                            </h5>
+                            <p
+                              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                            >
+                              Wildlife-friendly farmers use four to five strands of non-barbed galvanized wires for interior livestock fencing. These low fences are not high and leave a large gap along the bottom to allow migration of wildlife through farmlands.
+                            </p>
+                          </div>
+                          <div
+                            className="VerticalCushionPadding"
+                          >
+                            <h5
+                              className="ContentPageSubsectionSubtitleSecondary"
+                            >
+                              Guard animals
+                            </h5>
+                            <p
+                              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                            >
+                              Losses are reduced by utilizing livestock guardians such as dogs for smallstock and donkeys for cattle. Guard animals need to be healthy and properly trained in order to be effective.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateRightColumnContainer"
+                  >
+                    <h4
+                      className="ContentPageSubsectionSubtitle"
+                    >
+                      Cattle practices
+                    </h4>
+                    <h5
+                      className="ContentPageSubsectionSubtitleSecondary"
+                    />
+                    <div>
+                      <div>
+                        <div
+                          className="VerticalCushionPadding"
+                        >
+                          <h5
+                            className="ContentPageSubsectionSubtitleSecondary"
+                          >
+                            Calving camps
+                          </h5>
+                          <p
+                            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                          >
+                            Close monitoring is made possible by locating calving camps near the homestead. This reduces losses to predation, accidents or other complications in the first few weeks of a calf’s life. Larger herd size also discourages predators.
+                          </p>
+                          <p
+                            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                          >
+                            Calves under three months of age and heifers (first-time mothers) are most vulnerable to predators. Closer monitoring will reduce losses.
+                          </p>
+                        </div>
+                        <div
+                          className="VerticalCushionPadding"
+                        >
+                          <h5
+                            className="ContentPageSubsectionSubtitleSecondary"
+                          >
+                            Breeds
+                          </h5>
+                          <p
+                            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                          >
+                            Choose breeds that are more aggressive and allowing horns to grow on cows reduces losses to predators.
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -614,16 +606,16 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                   Bush Encroachment
                 </h4>
                 <div
-                  className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+                  className="ContentPageSideFloatFluidContainerOuterContainer"
                 >
                   <div
-                    className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+                    className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
                   >
                     <div
                       className="ImageViewOuterContainer"
                       style={
                         Object {
-                          "width": 600,
+                          "maxWidth": 600,
                         }
                       }
                     >
@@ -634,14 +626,9 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                           className="ImageViewImgContainer"
                         >
                           <img
-                            alt="Thickened thorn bush degrades entire habitat and poses problems for all species of animals in that habitat. (Image credit: Cheetah Conservation Fund)"
+                            alt="Thickened thorn bush degrades entire habitat and poses problems for all species of animals in that habitat."
                             className="ImageViewImg"
                             src="bush_encroachment-min.jpg"
-                            style={
-                              Object {
-                                "width": 600,
-                              }
-                            }
                           />
                         </div>
                         <div
@@ -730,16 +717,16 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                   Bush Encroachment Threatens Cheetah Survival
                 </h4>
                 <div
-                  className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+                  className="ContentPageSideFloatFluidContainerOuterContainer"
                 >
                   <div
-                    className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatLeft HorizontalCusionPaddingRight"
+                    className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatLeft"
                   >
                     <div
                       className="ImageViewOuterContainer"
                       style={
                         Object {
-                          "width": 640,
+                          "maxWidth": 640,
                         }
                       }
                     >
@@ -753,11 +740,6 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                             alt="Cheetahs faced even more hardship in bush encroached territories. They have to adapt in every aspect of their life, such as hunting."
                             className="ImageViewImg"
                             src="Cheetah_Battle_Bush_Encroachment-min.jpg"
-                            style={
-                              Object {
-                                "width": 640,
-                              }
-                            }
                           />
                         </div>
                         <div
@@ -821,10 +803,10 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                   Cheetah Conservation Fund’s (CCF) Bush Project
                 </h4>
                 <div
-                  className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+                  className="ContentPageSideFloatFluidContainerOuterContainer"
                 >
                   <div
-                    className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+                    className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
                   >
                     <img
                       alt="FSC logo"
@@ -856,10 +838,10 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                   The Bushblok project objectives are:
                 </h4>
                 <div
-                  className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+                  className="ContentPageSideFloatFluidContainerOuterContainer"
                 >
                   <div
-                    className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+                    className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
                   >
                     <img
                       alt="CCF Bushblok"
@@ -915,128 +897,114 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                   className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
                 >
                   <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
                   >
+                    <h4
+                      className="ContentPageSubsectionSubtitle"
+                    />
                     <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-                    >
-                      <h4
-                        className="ContentPageSubsectionSubtitle"
-                      />
-                      <div
-                        className="ImageViewOuterContainer"
-                        style={
-                          Object {
-                            "width": 640,
-                          }
+                      className="ImageViewOuterContainer"
+                      style={
+                        Object {
+                          "maxWidth": 640,
                         }
+                      }
+                    >
+                      <div
+                        className="ImageViewInnerContainer"
                       >
                         <div
-                          className="ImageViewInnerContainer"
+                          className="ImageViewImgContainer"
+                        >
+                          <img
+                            alt="Bushblok is produced at CCF from the waste product of habitat restoration."
+                            className="ImageViewImg"
+                            src="CCF_Bushblok_01-min.jpg"
+                          />
+                        </div>
+                        <div
+                          className="ImageViewCaptionContainer"
                         >
                           <div
-                            className="ImageViewImgContainer"
-                          >
-                            <img
-                              alt="Bushblok is produced at CCF from the waste product of habitat restoration. (Image credit: Cheetah Conservation Fund)"
-                              className="ImageViewImg"
-                              src="CCF_Bushblok_01-min.jpg"
-                              style={
-                                Object {
-                                  "width": 640,
-                                }
+                            className="CaptionContainer"
+                            data-testid="CaptionComponentTestId"
+                            style={
+                              Object {
+                                "maxWidth": 640,
                               }
-                            />
-                          </div>
-                          <div
-                            className="ImageViewCaptionContainer"
+                            }
                           >
                             <div
-                              className="CaptionContainer"
-                              data-testid="CaptionComponentTestId"
-                              style={
-                                Object {
-                                  "maxWidth": 640,
-                                }
-                              }
+                              className="IconContainer"
                             >
-                              <div
-                                className="IconContainer"
-                              >
-                                <i
-                                  aria-hidden="true"
-                                  className="image icon"
-                                  onClick={[Function]}
-                                />
-                              </div>
-                              <p
-                                className="ContentPageCaptionTextSize CaptionText"
-                              >
-                                Bushblok is produced at CCF from the waste product of habitat restoration. (Image credit: Cheetah Conservation Fund)
-                              </p>
+                              <i
+                                aria-hidden="true"
+                                className="image icon"
+                                onClick={[Function]}
+                              />
                             </div>
+                            <p
+                              className="ContentPageCaptionTextSize CaptionText"
+                            >
+                              Bushblok is produced at CCF from the waste product of habitat restoration. (Image credit: Cheetah Conservation Fund)
+                            </p>
                           </div>
                         </div>
                       </div>
                     </div>
+                  </div>
+                  <div
+                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+                  >
+                    <h4
+                      className="ContentPageSubsectionSubtitle"
+                    />
                     <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-                    >
-                      <h4
-                        className="ContentPageSubsectionSubtitle"
-                      />
-                      <div
-                        className="ImageViewOuterContainer"
-                        style={
-                          Object {
-                            "width": 640,
-                          }
+                      className="ImageViewOuterContainer"
+                      style={
+                        Object {
+                          "maxWidth": 640,
                         }
+                      }
+                    >
+                      <div
+                        className="ImageViewInnerContainer"
                       >
                         <div
-                          className="ImageViewInnerContainer"
+                          className="ImageViewImgContainer"
+                        >
+                          <img
+                            alt="Bushblok packaging for different markets."
+                            className="ImageViewImg"
+                            src="CCF_Bushblok_02-min.jpg"
+                          />
+                        </div>
+                        <div
+                          className="ImageViewCaptionContainer"
                         >
                           <div
-                            className="ImageViewImgContainer"
-                          >
-                            <img
-                              alt="Bushblok packaging for different markets. (Image credit: Cheetah Conservation Fund)"
-                              className="ImageViewImg"
-                              src="CCF_Bushblok_02-min.jpg"
-                              style={
-                                Object {
-                                  "width": 640,
-                                }
+                            className="CaptionContainer"
+                            data-testid="CaptionComponentTestId"
+                            style={
+                              Object {
+                                "maxWidth": 640,
                               }
-                            />
-                          </div>
-                          <div
-                            className="ImageViewCaptionContainer"
+                            }
                           >
                             <div
-                              className="CaptionContainer"
-                              data-testid="CaptionComponentTestId"
-                              style={
-                                Object {
-                                  "maxWidth": 640,
-                                }
-                              }
+                              className="IconContainer"
                             >
-                              <div
-                                className="IconContainer"
-                              >
-                                <i
-                                  aria-hidden="true"
-                                  className="image icon"
-                                  onClick={[Function]}
-                                />
-                              </div>
-                              <p
-                                className="ContentPageCaptionTextSize CaptionText"
-                              >
-                                Bushblok packaging for different markets. (Image credit: Cheetah Conservation Fund)
-                              </p>
+                              <i
+                                aria-hidden="true"
+                                className="image icon"
+                                onClick={[Function]}
+                              />
                             </div>
+                            <p
+                              className="ContentPageCaptionTextSize CaptionText"
+                            >
+                              Bushblok packaging for different markets. (Image credit: Cheetah Conservation Fund)
+                            </p>
                           </div>
                         </div>
                       </div>
