@@ -4,7 +4,9 @@
 
 * Changelog:
   * Fixes for the following issues:
+    * Issue #161 - Explore gateway grid item anchor area too wide when viewport is shrunk.
     * Issue #162 - Cheetah range map under 'Namibia - Cheetah Capital of the World' subsection not horizontally centered.
+    * Issue #165 - Inconsistent dimensions in Explore gateway grid item images.
   * Other changes:
     * Fix `--bump-minor` and `--bump-major` options in `versionutil.py` to be semantically correct.
     * Add unit test for 'Namibia - Cheetah Capital of the World' subsection.

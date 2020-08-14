@@ -5,7 +5,7 @@ exports[`ExploreGatewayGridItem component snapshot 1`] = `
   className="column ExploreGatewayGridItemColumn"
 >
   <div
-    className="ExploreGatewayGridItemImageWrapper"
+    className="ExploreGatewayGridItemInnerContainer"
   >
     <a
       className="ExploreGatewayGridItemImageAnchor"
@@ -19,11 +19,11 @@ exports[`ExploreGatewayGridItem component snapshot 1`] = `
         src="https://cheetah.org/wp-content/uploads/2019/05/iwt_ancientindiancheetahhunt_1000-600-scaled.jpg"
       />
     </a>
+    <h2
+      className="ui left aligned header ExploreGatewayGridItemHeader"
+    >
+      History
+    </h2>
   </div>
-  <h2
-    className="ui left aligned header ExploreGatewayGridItemHeader"
-  >
-    History
-  </h2>
 </div>
 `;

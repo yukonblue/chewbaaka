@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 06, 2020
+ * Updated  : Aug 14, 2020
  */
 
 import React from 'react'
@@ -20,7 +20,7 @@ import './ExploreGatewayGridItem.css'
 export default function ExploreGatewayGridItem(props) {
   return (
     <Grid.Column className="ExploreGatewayGridItemColumn">
-      <div className="ExploreGatewayGridItemImageWrapper">
+      <div className="ExploreGatewayGridItemInnerContainer">
         <Link
           to={props.dstUrl}
           className="ExploreGatewayGridItemImageAnchor"
@@ -33,14 +33,14 @@ export default function ExploreGatewayGridItem(props) {
             data-testid="ExploreGatewayGridItemImageTestId"
           />
         </Link>
+        <Header
+          as="h2"
+          textAlign="left"
+          className="ExploreGatewayGridItemHeader"
+        >
+          {props.title}
+        </Header>
       </div>
-      <Header
-        as="h2"
-        textAlign="left"
-        className="ExploreGatewayGridItemHeader"
-      >
-        {props.title}
-      </Header>
     </Grid.Column>
   );
 }
