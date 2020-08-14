@@ -81,58 +81,55 @@ exports[`App component snapshot 1`] = `
         className="ExploreGatewayIntroCenterGrid VerticalCushionPadding"
       >
         <div
-          className="FluidTwoColumnContainerOuterContainer"
+          className="FluidSingleRowGridOuterContainer"
+          style={
+            Object {
+              "justifyContent": "center",
+            }
+          }
         >
           <div
-            className="FluidTwoColumnContainerColumnContainer"
+            className="ExploreGatewayIntroCenterGridLhsColumnStyle"
           >
-            <div
-              className="ExploreGatewayIntroCenterGridLhsColumnStyle"
+            <p
+              className="CCFMissionStatementQuote"
             >
-              <p
-                className="CCFMissionStatementQuote"
-              >
-                “CCF is Changing the World to Save the Cheetah” - Dr. Laurie Marker
-              </p>
-            </div>
+              “CCF is Changing the World to Save the Cheetah” - Dr. Laurie Marker
+            </p>
           </div>
           <div
-            className="FluidTwoColumnContainerColumnContainer"
+            className="ExploreGatewayIntroCenterGridRhsColumnStyle"
           >
             <div
-              className="ExploreGatewayIntroCenterGridRhsColumnStyle"
+              className="ui inverted segment"
             >
-              <div
-                className="ui inverted segment"
+              <p
+                className="JoinTheRace"
               >
-                <p
-                  className="JoinTheRace"
-                >
-                  Join the race to 
-                  <a
-                    href="https://twitter.com/search?q=%23SaveTheCheetah"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <span
-                      className="SafeTheCheetah"
-                    >
-                      #SafeTheCheetah
-                    </span>
-                  </a>
-                </p>
-                <p>
-                  Cheetahs can't win without us.
-                </p>
+                Join the race to 
                 <a
-                  className="ui basic inverted button"
-                  href="https://cheetah.org/get-involved/ways-to-give/"
-                  onClick={[Function]}
-                  role="button"
+                  href="https://twitter.com/search?q=%23SaveTheCheetah"
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
-                  Get Involved
+                  <span
+                    className="SafeTheCheetah"
+                  >
+                    #SafeTheCheetah
+                  </span>
                 </a>
-              </div>
+              </p>
+              <p>
+                Cheetahs can't win without us.
+              </p>
+              <a
+                className="ui basic inverted button"
+                href="https://cheetah.org/get-involved/ways-to-give/"
+                onClick={[Function]}
+                role="button"
+              >
+                Get Involved
+              </a>
             </div>
           </div>
         </div>

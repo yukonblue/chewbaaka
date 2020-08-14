@@ -181,10 +181,9 @@ exports[`EcologyPageSectionResearch component snapshot 1`] = `
                 className="ContentPageSubsectionPartContainer"
               >
                 <div
-                  className="Centered"
+                  className="Centered FullWidth"
                   style={
                     Object {
-                      "maxWidth": "100%",
                       "width": 720,
                     }
                   }
@@ -209,9 +208,9 @@ exports[`EcologyPageSectionResearch component snapshot 1`] = `
                         className="ImageSlidingGalleryDiscreteCoreContainer"
                       >
                         <img
-                          alt="Spoor tracking data collection."
+                          alt="Cheetah movement study with camera traps in the Greater Waterberg Conservancy. (Image credit: Cheetah Conservation Fund)"
                           className="ImageSlidingGalleryDiscreteImgPart"
-                          src="Spoor_Tracking_Data_Collection-min.jpg"
+                          src="camera_trap_locations_in_Waterberg_Conservancy-min.jpg"
                         />
                         <div
                           className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonLhsContainer"
@@ -269,7 +268,7 @@ exports[`EcologyPageSectionResearch component snapshot 1`] = `
                           <p
                             className="ContentPageCaptionTextSize CaptionText"
                           >
-                            Spoor tracking data collection.
+                            Cheetah movement study with camera traps in the Greater Waterberg Conservancy. (Image credit: Cheetah Conservation Fund)
                           </p>
                         </div>
                       </div>
@@ -281,12 +280,6 @@ exports[`EcologyPageSectionResearch component snapshot 1`] = `
                         >
                           <button
                             className="ui yellow huge button"
-                            onClick={[Function]}
-                          >
-                            0
-                          </button>
-                          <button
-                            className="ui blue huge button"
                             onClick={[Function]}
                           >
                             1

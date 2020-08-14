@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 04, 2020
+ * Updated  : Aug 13, 2020
  */
 
 div.ExploreGatewayIntro {
@@ -38,6 +38,7 @@ div.ExploreGatewayIntroCenterGridLhsColumnStyle {
   float: right;
   max-width: 500px;
   padding-right: 20px;
+  text-align: right;
 }
 
 div.ExploreGatewayIntroCenterGridRhsColumnStyle {

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 26, 2020
- * Updated  : Aug 06, 2020
+ * Updated  : Aug 13, 2020
  */
 
 import React from 'react'
@@ -22,9 +22,11 @@ import { RUN_TEST_NEVER } from '../../../testing/testing'
 const pageTailNavMenu = {
   prevPage: {
     label: "Biology",
+    href: "/biology"
   },
   nextPage: {
-    label: "Future"
+    label: "Future",
+    href: "/future"
   }
 };
 

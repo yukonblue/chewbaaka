@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 08, 2020
+ * Updated  : Aug 13, 2020
  */
 
 import React from 'react'
@@ -19,11 +19,12 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
+import CenteredFullWidthContainer from '../shared/CenteredFullWidthContainer'
+
 import ImageSlidingGalleryDiscrete from '../shared/ImageSlidingGalleryDiscrete'
 
 import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
-import image_Spoor_Tracking_Data_Collection from './assets/Spoor_Tracking_Data_Collection-min.jpg'
 import image_cheetah_collaring from './assets/cheetah_collaring-min.jpg'
 import image_cheetah_satellite_tracking from './assets/cheetah_satellite_tracking-min.jpg'
 import image_camera_trap_locations_in_Waterberg_Conservancy from './assets/camera_trap_locations_in_Waterberg_Conservancy-min.jpg'
@@ -96,15 +97,11 @@ export default class EcologyPageSubsectionUnderstandingAnimalMovement extends Re
 
     return (
       <ContentPageSubsectionPart>
-        <div className="Centered" style={{width: componentWidth, maxWidth: `100%`}}>
+        <CenteredFullWidthContainer width={componentWidth}>
           <ImageSlidingGalleryDiscrete
             width={componentWidth}
-            height={480}
+            height={432}
             slides={[
-              {
-                image: image_Spoor_Tracking_Data_Collection,
-                caption: "Spoor tracking data collection."
-              },
               {
                 image: image_camera_trap_locations_in_Waterberg_Conservancy,
                 caption: "Cheetah movement study with camera traps in the Greater Waterberg Conservancy.",
@@ -122,7 +119,7 @@ export default class EcologyPageSubsectionUnderstandingAnimalMovement extends Re
               }
             ]}
           />
-        </div>
+        </CenteredFullWidthContainer>
       </ContentPageSubsectionPart>
     );
   }

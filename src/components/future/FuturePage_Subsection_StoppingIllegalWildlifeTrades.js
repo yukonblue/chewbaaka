@@ -131,7 +131,7 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
         <CenteredFullWidthContainer width={960}>
           <ImageSlidingGalleryDiscrete
             width={960}
-            height={640}
+            height={576}
             slides={[
               {
                 image: image_cheetah_rescue_01,

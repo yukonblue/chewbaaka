@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 23, 2020
- * Updated  : Aug 12, 2020
+ * Updated  : Aug 13, 2020
  */
 
 /**
@@ -158,7 +158,7 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
         size="huge"
         onClick={(e) => (this.handleGridButtonOnClick(idx))}
       >
-        {idx}
+        {idx+1}
       </Button>
     );
   }
