@@ -31,6 +31,7 @@
     - Use conditional rendering and media queries for fixed size component.
     - [Refine][Style] Add media query specification for content page side rail menu.
     - [Refine][Fix] Make sure image wrapped by `FluidImageWrapper` retain original aspect ratio.
+    - [Style][Refine] Give vertical margin to `FactBannerImage` component.
 
 ## Version 0.1.14
 
