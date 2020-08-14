@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 26, 2020
- * Updated  : Jul 31, 2020
+ * Updated  : Aug 11, 2020
  */
 
 div.FuturePageTailOuterContainer {
@@ -29,11 +29,16 @@ div.FuturePageTailStatementBoxInnerContainer {
   font-weight: 900;
 }
 
+div.FuturePageTailVisionStatementTextContainer {
+  display: flex;
+}
+
 p.FuturePageTailVisionStatementText {
-  display: inline-block;
-  width: 100%;
-  padding: 0 300px;
-  margin: 60px auto;
+  width: 60%;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
   text-align: center;
   font-family: cursive;
   font-size: 28px;

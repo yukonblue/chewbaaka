@@ -32,122 +32,6 @@ exports[`BiologyPageSubsectionLifecycleStage2 component snapshot 1`] = `
             >
               They stop drinking their mother’s milk at 3 to 4 months of age. They start eating meat and learning to hunt. The games they play and the experiences they have during this stage will teach them skills needed to survive on their own.
             </p>
-            <div
-              className="VerticalCushionPaddingTopLarge"
-            >
-              <div
-                className="QnAPopUpContainer"
-              >
-                <div
-                  className="QnAPopUpButtonGroupContainer"
-                >
-                  <div
-                    className="ui blue large label"
-                    onClick={[Function]}
-                  >
-                    Did You Know
-                    <button
-                      className="ui orange circular icon button QuestionButton"
-                      onClick={[Function]}
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="question icon"
-                        onClick={[Function]}
-                      />
-                    </button>
-                  </div>
-                </div>
-                <div
-                  className="QnAPopUpTextSecondaryBubbleContainer"
-                >
-                  <div
-                    className="TextBubbleOuterContainer"
-                    hidden={true}
-                    style={
-                      Object {
-                        "backgroundColor": "rgb(undefined)",
-                        "height": 45,
-                        "width": 45,
-                      }
-                    }
-                  >
-                    <div
-                      className="TextBubbleInnerContainer"
-                    >
-                      <div
-                        className="TextBubbleInnerCore"
-                      >
-                        <h1
-                          style={
-                            Object {
-                              "color": "rgb(undefined)",
-                              "fontSize": 3.6,
-                            }
-                          }
-                        >
-                          
-                        </h1>
-                        <p
-                          style={
-                            Object {
-                              "color": "rgb(undefined)",
-                              "fontSize": 2.25,
-                            }
-                          }
-                        >
-                          
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="QnAPopUpMainTextBubbleContainer"
-                >
-                  <div
-                    className="TextBubbleOuterContainer"
-                    hidden={true}
-                    style={
-                      Object {
-                        "backgroundColor": "rgb(undefined)",
-                        "height": 320,
-                        "width": 320,
-                      }
-                    }
-                  >
-                    <div
-                      className="TextBubbleInnerContainer"
-                    >
-                      <div
-                        className="TextBubbleInnerCore"
-                      >
-                        <h1
-                          style={
-                            Object {
-                              "color": "rgb(undefined)",
-                              "fontSize": 25.6,
-                            }
-                          }
-                        >
-                          Did you know?
-                        </h1>
-                        <p
-                          style={
-                            Object {
-                              "color": "rgb(undefined)",
-                              "fontSize": 16,
-                            }
-                          }
-                        >
-                          Young cheetahs rely on their mother on learning how to hunt. Cubs rescued and rehabilitated are difficult to be re-wilded because most of them have not acquired sufficient hunting skills needed to survive.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         <div
@@ -164,24 +48,16 @@ exports[`BiologyPageSubsectionLifecycleStage2 component snapshot 1`] = `
                 }
               }
             >
-              <div
-                style={
-                  Object {
-                    "height": 315,
-                    "width": 560,
-                  }
-                }
-              >
-                <iframe
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen={true}
-                  frameBorder="0"
-                  height={315}
-                  src="https://www.youtube.com/embed/Wjtb7XMZlgY"
-                  title="Cheetah Mom Teaches Cubs to Hunt | YouTube"
-                  width={560}
-                />
-              </div>
+              <iframe
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen={true}
+                className="FullWidth"
+                frameBorder="0"
+                height={315}
+                src="https://www.youtube.com/embed/Wjtb7XMZlgY"
+                title="Cheetah Mom Teaches Cubs to Hunt | YouTube"
+                width={560}
+              />
             </div>
           </div>
         </div>

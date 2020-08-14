@@ -89,24 +89,30 @@ export default class ImageSlidingGallery extends React.Component {
             />
           </div>
         </div>
-        <div className="ImageSlidingGalleryButtonContainer">
-          <Button
-            icon="arrow alternate circle left outline"
-            attached="left"
-            size="huge"
-            color="blue"
-            disabled={(this.state.activeIndex === 0)}
-            onClick={this.handleOnPrevClick}
-          />
-          <Button
-            icon="arrow alternate circle right outline"
-            attached="right"
-            size="huge"
-            color="blue"
-            disabled={(this.state.activeIndex === (this.props.slides.length - 1))}
-            onClick={this.handleOnNextClick}
-          />
-        </div>
+        {this.renderPrevNextButtonGroup()}
+      </div>
+    );
+  }
+
+  renderPrevNextButtonGroup() {
+    return (
+      <div className="ImageSlidingGalleryButtonContainer">
+        <Button
+          icon="arrow alternate circle left outline"
+          attached="left"
+          size="huge"
+          color="blue"
+          disabled={(this.state.activeIndex === 0)}
+          onClick={this.handleOnPrevClick}
+        />
+        <Button
+          icon="arrow alternate circle right outline"
+          attached="right"
+          size="huge"
+          color="blue"
+          disabled={(this.state.activeIndex === (this.props.slides.length - 1))}
+          onClick={this.handleOnNextClick}
+        />
       </div>
     );
   }

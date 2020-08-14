@@ -5,63 +5,76 @@ exports[`ContentPageTopNavMenuBar component snapshot 1`] = `
   className="ContentPageTopNavMenuBarContainer"
 >
   <div
-    className="ui secondary menu"
+    className="ContentPageTopNavMenuBarLogoPseudoContainer"
   >
     <a
-      href="/home"
-      onClick={[Function]}
+      href="https://cheetah.org/"
     >
-      <div
-        className="item"
-        onClick={[Function]}
-      >
-        Home
-      </div>
+      <img
+        alt="CCF logo"
+        src="cheetah-conservation-fund-30-logo.svg"
+      />
     </a>
-    <a
-      href="/history"
-      onClick={[Function]}
-    >
-      <div
-        className="item"
-        onClick={[Function]}
+  </div>
+  <div
+    className="ContentPageTopNavMenuBarMenuListSidePseudoContainer"
+  >
+    <nav>
+      <ul
+        className="ContentPageTopNavMenuBarMenuList"
       >
-        History
-      </div>
-    </a>
-    <a
-      href="/biology"
-      onClick={[Function]}
-    >
-      <div
-        className="item"
-        onClick={[Function]}
-      >
-        Biology
-      </div>
-    </a>
-    <a
-      href="/ecology"
-      onClick={[Function]}
-    >
-      <div
-        className="item"
-        onClick={[Function]}
-      >
-        Ecology
-      </div>
-    </a>
-    <a
-      href="/future"
-      onClick={[Function]}
-    >
-      <div
-        className="active item"
-        onClick={[Function]}
-      >
-        Future
-      </div>
-    </a>
+        <li
+          className=""
+        >
+          <a
+            href="/home"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li
+          className=""
+        >
+          <a
+            href="/history"
+            onClick={[Function]}
+          >
+            History
+          </a>
+        </li>
+        <li
+          className=""
+        >
+          <a
+            href="/biology"
+            onClick={[Function]}
+          >
+            Biology
+          </a>
+        </li>
+        <li
+          className=""
+        >
+          <a
+            href="/ecology"
+            onClick={[Function]}
+          >
+            Ecology
+          </a>
+        </li>
+        <li
+          className="ActiveItem"
+        >
+          <a
+            href="/future"
+            onClick={[Function]}
+          >
+            Future
+          </a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </div>
 `;

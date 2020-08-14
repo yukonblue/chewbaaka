@@ -23,16 +23,16 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
             Bush Encroachment
           </h4>
           <div
-            className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+            className="ContentPageSideFloatFluidContainerOuterContainer"
           >
             <div
-              className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+              className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
             >
               <div
                 className="ImageViewOuterContainer"
                 style={
                   Object {
-                    "width": 600,
+                    "maxWidth": 600,
                   }
                 }
               >
@@ -43,14 +43,9 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
                     className="ImageViewImgContainer"
                   >
                     <img
-                      alt="Thickened thorn bush degrades entire habitat and poses problems for all species of animals in that habitat. (Image credit: Cheetah Conservation Fund)"
+                      alt="Thickened thorn bush degrades entire habitat and poses problems for all species of animals in that habitat."
                       className="ImageViewImg"
                       src="bush_encroachment-min.jpg"
-                      style={
-                        Object {
-                          "width": 600,
-                        }
-                      }
                     />
                   </div>
                   <div
@@ -139,16 +134,16 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
             Bush Encroachment Threatens Cheetah Survival
           </h4>
           <div
-            className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+            className="ContentPageSideFloatFluidContainerOuterContainer"
           >
             <div
-              className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatLeft HorizontalCusionPaddingRight"
+              className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatLeft"
             >
               <div
                 className="ImageViewOuterContainer"
                 style={
                   Object {
-                    "width": 640,
+                    "maxWidth": 640,
                   }
                 }
               >
@@ -162,11 +157,6 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
                       alt="Cheetahs faced even more hardship in bush encroached territories. They have to adapt in every aspect of their life, such as hunting."
                       className="ImageViewImg"
                       src="Cheetah_Battle_Bush_Encroachment-min.jpg"
-                      style={
-                        Object {
-                          "width": 640,
-                        }
-                      }
                     />
                   </div>
                   <div
@@ -230,10 +220,10 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
             Cheetah Conservation Fund’s (CCF) Bush Project
           </h4>
           <div
-            className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+            className="ContentPageSideFloatFluidContainerOuterContainer"
           >
             <div
-              className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+              className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
             >
               <img
                 alt="FSC logo"
@@ -265,10 +255,10 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
             The Bushblok project objectives are:
           </h4>
           <div
-            className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+            className="ContentPageSideFloatFluidContainerOuterContainer"
           >
             <div
-              className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+              className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
             >
               <img
                 alt="CCF Bushblok"
@@ -324,128 +314,114 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
             className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
           >
             <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
             >
+              <h4
+                className="ContentPageSubsectionSubtitle"
+              />
               <div
-                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-              >
-                <h4
-                  className="ContentPageSubsectionSubtitle"
-                />
-                <div
-                  className="ImageViewOuterContainer"
-                  style={
-                    Object {
-                      "width": 640,
-                    }
+                className="ImageViewOuterContainer"
+                style={
+                  Object {
+                    "maxWidth": 640,
                   }
+                }
+              >
+                <div
+                  className="ImageViewInnerContainer"
                 >
                   <div
-                    className="ImageViewInnerContainer"
+                    className="ImageViewImgContainer"
+                  >
+                    <img
+                      alt="Bushblok is produced at CCF from the waste product of habitat restoration."
+                      className="ImageViewImg"
+                      src="CCF_Bushblok_01-min.jpg"
+                    />
+                  </div>
+                  <div
+                    className="ImageViewCaptionContainer"
                   >
                     <div
-                      className="ImageViewImgContainer"
-                    >
-                      <img
-                        alt="Bushblok is produced at CCF from the waste product of habitat restoration. (Image credit: Cheetah Conservation Fund)"
-                        className="ImageViewImg"
-                        src="CCF_Bushblok_01-min.jpg"
-                        style={
-                          Object {
-                            "width": 640,
-                          }
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 640,
                         }
-                      />
-                    </div>
-                    <div
-                      className="ImageViewCaptionContainer"
+                      }
                     >
                       <div
-                        className="CaptionContainer"
-                        data-testid="CaptionComponentTestId"
-                        style={
-                          Object {
-                            "maxWidth": 640,
-                          }
-                        }
+                        className="IconContainer"
                       >
-                        <div
-                          className="IconContainer"
-                        >
-                          <i
-                            aria-hidden="true"
-                            className="image icon"
-                            onClick={[Function]}
-                          />
-                        </div>
-                        <p
-                          className="ContentPageCaptionTextSize CaptionText"
-                        >
-                          Bushblok is produced at CCF from the waste product of habitat restoration. (Image credit: Cheetah Conservation Fund)
-                        </p>
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
                       </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        Bushblok is produced at CCF from the waste product of habitat restoration. (Image credit: Cheetah Conservation Fund)
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+            <div
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+            >
+              <h4
+                className="ContentPageSubsectionSubtitle"
+              />
               <div
-                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-              >
-                <h4
-                  className="ContentPageSubsectionSubtitle"
-                />
-                <div
-                  className="ImageViewOuterContainer"
-                  style={
-                    Object {
-                      "width": 640,
-                    }
+                className="ImageViewOuterContainer"
+                style={
+                  Object {
+                    "maxWidth": 640,
                   }
+                }
+              >
+                <div
+                  className="ImageViewInnerContainer"
                 >
                   <div
-                    className="ImageViewInnerContainer"
+                    className="ImageViewImgContainer"
+                  >
+                    <img
+                      alt="Bushblok packaging for different markets."
+                      className="ImageViewImg"
+                      src="CCF_Bushblok_02-min.jpg"
+                    />
+                  </div>
+                  <div
+                    className="ImageViewCaptionContainer"
                   >
                     <div
-                      className="ImageViewImgContainer"
-                    >
-                      <img
-                        alt="Bushblok packaging for different markets. (Image credit: Cheetah Conservation Fund)"
-                        className="ImageViewImg"
-                        src="CCF_Bushblok_02-min.jpg"
-                        style={
-                          Object {
-                            "width": 640,
-                          }
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 640,
                         }
-                      />
-                    </div>
-                    <div
-                      className="ImageViewCaptionContainer"
+                      }
                     >
                       <div
-                        className="CaptionContainer"
-                        data-testid="CaptionComponentTestId"
-                        style={
-                          Object {
-                            "maxWidth": 640,
-                          }
-                        }
+                        className="IconContainer"
                       >
-                        <div
-                          className="IconContainer"
-                        >
-                          <i
-                            aria-hidden="true"
-                            className="image icon"
-                            onClick={[Function]}
-                          />
-                        </div>
-                        <p
-                          className="ContentPageCaptionTextSize CaptionText"
-                        >
-                          Bushblok packaging for different markets. (Image credit: Cheetah Conservation Fund)
-                        </p>
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
                       </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        Bushblok packaging for different markets. (Image credit: Cheetah Conservation Fund)
+                      </p>
                     </div>
                   </div>
                 </div>

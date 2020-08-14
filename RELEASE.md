@@ -1,5 +1,40 @@
 # Release Note
 
+## %NEXT VERSION%
+
+* Changelog
+  * Fixes for the following issues:
+    * Issue #125 - Adopt fluid dimension design across content pages
+  * All notable changes:
+    - Removed `min-width` specification in named style `ContentPageSkeletonContentContainerDimension`.
+    - Deprecate `TopNavBar` and refined `ContentPageTopNavMenuBar` as the single top navigation bar in a content page.
+    - Refined the following common controls to better adopt fluid layout:
+      - `CircularImage`
+      - `ImageView`
+      - `Caption`
+      - `MediaEmbed`
+      - `StatsLabel`
+      - `FactBannerImage`
+      - `ImageSlidingGallery`
+      - `ImageSlidingGalleryDiscrete`
+      - `TextBubble`
+    - Refined the following content page layout components to better adopt fluid layout:
+      - `ContentPageTopNavMenuBar`
+      - `ContentPageIntroSectionGeneric`
+      - `ContentPageSubsectionTwoColumnContentTemplate`
+      - `ContentPageSubsectionThreeColumnContentTemplate`
+      - `ContentPageTail`
+      - `ContentPageTailPrevNextButtonNavMenu`
+      - `ContentPageSideFloatFluidContainer`
+      - `FluidTwoColumnContainer`
+    - Introduced new content page layout component `FluidSingleRowGrid`.
+    - Refined background image styling of `ContentPageBanner` component.
+    - Use conditional rendering and media queries for fixed size component.
+    - [Refine][Style] Add media query specification for content page side rail menu.
+    - [Refine][Fix] Make sure image wrapped by `FluidImageWrapper` retain original aspect ratio.
+    - [Style][Refine] Give vertical margin to `FactBannerImage` component.
+    - [Style][Refine] Remove fixed height specification for text in `Caption` component (I'm okay with page jump for now).
+
 ## Version 0.1.14
 
 * Date: August 11, 2020

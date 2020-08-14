@@ -22,7 +22,7 @@ import FluidTwoColumnContainer from '../shared/FluidTwoColumnContainer'
 
 import CenteredFullWidthContainer from '../shared/CenteredFullWidthContainer'
 
-import QnAPopUp from '../shared/QnAPopUp'
+// import QnAPopUp from '../shared/QnAPopUp'
 
 import MediaEmbed from '../shared/MediaEmbed'
 
@@ -65,12 +65,13 @@ export default class BiologyPageSubsectionLifecycleStage2 extends React.Componen
     return (
       <ContentPageSubsectionPart>
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
-        <div className="VerticalCushionPaddingTopLarge">
+        {/** TODO: Enable this text bubble */}
+        {/* <div className="VerticalCushionPaddingTopLarge">
           <QnAPopUp
             className="VerticalCushionPaddingTopLarge"
             content={BiologyPageSubsectionLifecycleStage2._DID_YOU_KNOW_}
           />
-        </div>
+        </div> */}
       </ContentPageSubsectionPart>
     );
   }

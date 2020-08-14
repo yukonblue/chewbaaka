@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 26, 2020
- * Updated  : Jul 26, 2020
+ * Updated  : Aug 11, 2020
  */
 
 import React from 'react'
@@ -36,9 +36,11 @@ export default class FuturePageTail extends React.Component {
             <h5 className="FuturePageTailTitle TextCentered">
               {`${kStringConstantCheetahConservationFund} Vision Statement`}
             </h5>
-            <p className="FuturePageTailVisionStatementText TextCentered">
-              {kStringConstantCCFVisionStatement}
-            </p>
+            <div className="FuturePageTailVisionStatementTextContainer">
+              <p className="FuturePageTailVisionStatementText TextCentered">
+                {kStringConstantCCFVisionStatement}
+              </p>
+            </div>
           </div>
         </div>
       </div>

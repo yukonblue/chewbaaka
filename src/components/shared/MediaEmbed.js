@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Aug 09, 2020
- * Updated  : Aug 09, 2020
+ * Updated  : Aug 12, 2020
  */
 
 import React from 'react'
@@ -15,22 +15,16 @@ export default function MediaEmbed({ title, width, height, src }) {
 
   title = title ? title : "YouTube video";
 
-  const componentDimensionStyle = {
-    width: width,
-    height: height
-  };
-
   return (
-    <div style={componentDimensionStyle}>
-      <iframe
-        title={title}
-        width={width}
-        height={height}
-        src={src}
-        frameBorder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen>
-      </iframe>
-    </div>
+    <iframe
+      className="FullWidth"
+      title={title}
+      width={width}
+      height={height}
+      src={src}
+      frameBorder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    />
   );
 }

@@ -1,0 +1,15 @@
+/**
+ * StatsLabel.js
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Aug 12, 2020
+ * Updated  : Aug 13, 2020
+ */
+
+div.ui.inverted.segment.StatsLabel {
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(27,28,29);
+}

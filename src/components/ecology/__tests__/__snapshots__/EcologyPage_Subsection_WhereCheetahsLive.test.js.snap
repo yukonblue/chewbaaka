@@ -22,16 +22,16 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
           Cheetah Habitat
         </h4>
         <div
-          className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+          className="ContentPageSideFloatFluidContainerOuterContainer"
         >
           <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
           >
             <div
               className="ImageViewOuterContainer"
               style={
                 Object {
-                  "width": 598,
+                  "maxWidth": 598,
                 }
               }
             >
@@ -45,11 +45,6 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                     alt="African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlife."
                     className="ImageViewImg"
                     src="savanna-min.jpg"
-                    style={
-                      Object {
-                        "width": 598,
-                      }
-                    }
                   />
                 </div>
                 <div
@@ -98,23 +93,14 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
             </p>
           </div>
         </div>
-        <div
-          className="Centered FullWidth"
-          style={
-            Object {
-              "width": 640,
-            }
-          }
-        >
-          <img
-            alt="What is a habitat"
-            className="FactBannerSmallDimension VerticalCushionPadding"
-            src="What_is_Habitat-min.png"
-          />
-        </div>
+        <img
+          alt="What is a habitat"
+          className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerSmallDimension"
+          src="What_is_Habitat-min.png"
+        />
         <img
           alt="African savanna"
-          className="FullWidth DisplayBlock Centered"
+          className="FullWidth DisplayBlock RetainAspectRatio Centered"
           src="savana_bg_large-min.jpg"
         />
       </div>
@@ -133,76 +119,63 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
             className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
           >
             <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
             >
-              <div
-                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+              <h4
+                className="ContentPageSubsectionSubtitle"
+              />
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
               >
-                <h4
-                  className="ContentPageSubsectionSubtitle"
-                />
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  Namibia is a country with rich biodiversity, as its land spans over five distinct types of biomes.
-                </p>
-              </div>
+                Namibia is a country with rich biodiversity, as its land spans over five distinct types of biomes.
+              </p>
+            </div>
+            <div
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+            >
+              <h4
+                className="ContentPageSubsectionSubtitle"
+              />
               <div
-                className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+                className="ImageSlideModalCoverTriggerOuterContainer"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "width": 480,
+                  }
+                }
               >
-                <h4
-                  className="ContentPageSubsectionSubtitle"
-                />
                 <div
-                  className="Centered"
+                  className="ImageSlideModalCoverTriggerInnerContainer"
+                  data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
+                  onClick={[Function]}
                   style={
                     Object {
+                      "backgroundImage": "url(biome_savanna-min.jpg)",
+                      "height": 320,
                       "width": 480,
                     }
                   }
                 >
                   <div
-                    className="ImageSlideModalCoverTriggerOuterContainer"
-                    onBlur={[Function]}
-                    onClick={[Function]}
-                    onFocus={[Function]}
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
-                    style={
-                      Object {
-                        "width": 480,
-                      }
-                    }
+                    className="ImageSlideModalCoverTriggerImageIconInnerContainer"
                   >
-                    <div
-                      className="ImageSlideModalCoverTriggerInnerContainer"
-                      data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
+                    <i
+                      aria-hidden="true"
+                      className="blue images outline huge icon"
                       onClick={[Function]}
-                      style={
-                        Object {
-                          "backgroundImage": "url(biome_savanna-min.jpg)",
-                          "height": 320,
-                          "width": 480,
-                        }
-                      }
-                    >
-                      <div
-                        className="ImageSlideModalCoverTriggerImageIconInnerContainer"
-                      >
-                        <i
-                          aria-hidden="true"
-                          className="blue images outline huge icon"
-                          onClick={[Function]}
-                        />
-                      </div>
-                    </div>
-                    <p
-                      className="ContentPageCaptionTextSize"
-                    >
-                      Click to learn more about the biomes of Namibia.
-                    </p>
+                    />
                   </div>
                 </div>
+                <p
+                  className="ContentPageCaptionTextSize"
+                >
+                  Click to learn more about the biomes of Namibia.
+                </p>
               </div>
             </div>
           </div>
@@ -222,7 +195,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
               className="ImageViewOuterContainer"
               style={
                 Object {
-                  "width": 1200,
+                  "maxWidth": 1200,
                 }
               }
             >
@@ -236,11 +209,6 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                     alt="Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on."
                     className="ImageViewImg"
                     src="Namibia_Biomes_and_Cheetah_Ranges_Map-min.jpg"
-                    style={
-                      Object {
-                        "width": 1200,
-                      }
-                    }
                   />
                 </div>
                 <div
@@ -275,170 +243,121 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
             </div>
           </div>
         </div>
+        <img
+          alt="What is biome?"
+          className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
+          src="What_is_Biome-min.png"
+        />
         <div
-          className="Centered FactBannerMediumDimension VerticalCushionPadding"
+          className="FluidSingleRowGridOuterContainer"
+          style={
+            Object {
+              "justifyContent": "space-evenly",
+            }
+          }
         >
-          <img
-            alt="What is biome?"
-            className="FactBannerMediumDimension"
-            src="What_is_Biome-min.png"
-          />
-        </div>
-        <div>
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+            className="ImageViewModalCoverTriggerOuterContainer"
+            data-testid="ImageViewModalComponentCoverImageContainerTestId"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            style={
+              Object {
+                "backgroundImage": "url(namibia_landscape_01-min.jpg)",
+                "height": 320,
+                "width": 480,
+              }
+            }
           >
             <div
-              className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+              className="ImageViewModalCoverTriggerImageIconInnerContainer"
             >
-              <div
-                className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
-              >
-                <div
-                  className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-                >
-                  <h4
-                    className="ContentPageSubsectionSubtitle"
-                  />
-                  <div
-                    className="ImageViewModalCoverTriggerOuterContainer"
-                    data-testid="ImageViewModalComponentCoverImageContainerTestId"
-                    onBlur={[Function]}
-                    onClick={[Function]}
-                    onFocus={[Function]}
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
-                    style={
-                      Object {
-                        "backgroundImage": "url(namibia_landscape_01-min.jpg)",
-                        "height": 320,
-                        "width": 480,
-                      }
-                    }
-                  >
-                    <div
-                      className="ImageViewModalCoverTriggerImageIconInnerContainer"
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="black file image large icon"
-                        onClick={[Function]}
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-                >
-                  <h4
-                    className="ContentPageSubsectionSubtitle"
-                  />
-                  <div
-                    className="ImageViewModalCoverTriggerOuterContainer"
-                    data-testid="ImageViewModalComponentCoverImageContainerTestId"
-                    onBlur={[Function]}
-                    onClick={[Function]}
-                    onFocus={[Function]}
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
-                    style={
-                      Object {
-                        "backgroundImage": "url(namibia_landscape_02-min.jpg)",
-                        "height": 320,
-                        "width": 480,
-                      }
-                    }
-                  >
-                    <div
-                      className="ImageViewModalCoverTriggerImageIconInnerContainer"
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="black file image large icon"
-                        onClick={[Function]}
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <i
+                aria-hidden="true"
+                className="black file image large icon"
+                onClick={[Function]}
+              />
             </div>
           </div>
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+            className="ImageViewModalCoverTriggerOuterContainer"
+            data-testid="ImageViewModalComponentCoverImageContainerTestId"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            style={
+              Object {
+                "backgroundImage": "url(namibia_landscape_02-min.jpg)",
+                "height": 320,
+                "width": 480,
+              }
+            }
           >
             <div
-              className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+              className="ImageViewModalCoverTriggerImageIconInnerContainer"
             >
-              <div
-                className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
-              >
-                <div
-                  className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-                >
-                  <h4
-                    className="ContentPageSubsectionSubtitle"
-                  />
-                  <div
-                    className="ImageViewModalCoverTriggerOuterContainer"
-                    data-testid="ImageViewModalComponentCoverImageContainerTestId"
-                    onBlur={[Function]}
-                    onClick={[Function]}
-                    onFocus={[Function]}
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
-                    style={
-                      Object {
-                        "backgroundImage": "url(namibia_landscape_03-min.jpg)",
-                        "height": 320,
-                        "width": 480,
-                      }
-                    }
-                  >
-                    <div
-                      className="ImageViewModalCoverTriggerImageIconInnerContainer"
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="black file image large icon"
-                        onClick={[Function]}
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-                >
-                  <h4
-                    className="ContentPageSubsectionSubtitle"
-                  />
-                  <div
-                    className="ImageViewModalCoverTriggerOuterContainer"
-                    data-testid="ImageViewModalComponentCoverImageContainerTestId"
-                    onBlur={[Function]}
-                    onClick={[Function]}
-                    onFocus={[Function]}
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
-                    style={
-                      Object {
-                        "backgroundImage": "url(namibia_landscape_04-min.jpg)",
-                        "height": 320,
-                        "width": 480,
-                      }
-                    }
-                  >
-                    <div
-                      className="ImageViewModalCoverTriggerImageIconInnerContainer"
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="black file image large icon"
-                        onClick={[Function]}
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <i
+                aria-hidden="true"
+                className="black file image large icon"
+                onClick={[Function]}
+              />
+            </div>
+          </div>
+          <div
+            className="ImageViewModalCoverTriggerOuterContainer"
+            data-testid="ImageViewModalComponentCoverImageContainerTestId"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            style={
+              Object {
+                "backgroundImage": "url(namibia_landscape_03-min.jpg)",
+                "height": 320,
+                "width": 480,
+              }
+            }
+          >
+            <div
+              className="ImageViewModalCoverTriggerImageIconInnerContainer"
+            >
+              <i
+                aria-hidden="true"
+                className="black file image large icon"
+                onClick={[Function]}
+              />
+            </div>
+          </div>
+          <div
+            className="ImageViewModalCoverTriggerOuterContainer"
+            data-testid="ImageViewModalComponentCoverImageContainerTestId"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            style={
+              Object {
+                "backgroundImage": "url(namibia_landscape_04-min.jpg)",
+                "height": 320,
+                "width": 480,
+              }
+            }
+          >
+            <div
+              className="ImageViewModalCoverTriggerImageIconInnerContainer"
+            >
+              <i
+                aria-hidden="true"
+                className="black file image large icon"
+                onClick={[Function]}
+              />
             </div>
           </div>
         </div>

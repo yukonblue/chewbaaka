@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 11, 2020
+ * Updated  : Aug 13, 2020
  */
 
 import React from 'react'
@@ -18,11 +18,17 @@ import ContentPageAlarmBanner from '../shared/ContentPageAlarmBanner'
 
 import CenteredFullWidthContainer from '../shared/CenteredFullWidthContainer'
 
+import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFluidContainer'
+
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
 import { kStringConstantCheetahConservationFund } from '../shared/constants'
+
+import FluidImageWrapper from '../shared/FluidImageWrapper'
+
+import FactBannerImage from '../shared/FactBannerImage'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
@@ -122,7 +128,6 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
   renderImageGallery() {
     return (
       <ContentPageSubsectionPart>
-
         <CenteredFullWidthContainer width={960}>
           <ImageSlidingGalleryDiscrete
             width={960}
@@ -156,24 +161,24 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
   renderPartCITESCoP17Content(part) {
     return (
       <ContentPageSubsectionPart>
-        <div className="OverflowHidden">
-          <div className="FloatLeft HorizontalCusionPadding">
-            <img
+        <ContentPageSideFloatFluidContainer
+          floatPart={
+            <FluidImageWrapper
               src={image_CITES_CoP17}
               alt="CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora) Conference of the Parties 17"
             />
-          </div>
+          }
+          fixedPart={
+            ContentPageSubsectionParagraphsContentBinder(part.content)
+          }
+        />
 
-          {ContentPageSubsectionParagraphsContentBinder(part.content)}
-        </div>
-
-        <div className="VerticalCushionPadding Centered FactBannerMediumDimension">
-          <img
-            className="FactBannerMediumDimension"
-            src={image_What_is_CITES}
-            alt="What is CITES?"
-          />
-        </div>
+        <FactBannerImage
+          src={image_What_is_CITES}
+          alt="What is CITES?"
+          large
+          centered
+        />
       </ContentPageSubsectionPart>
     );
   }

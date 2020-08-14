@@ -88,19 +88,12 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
           </b>
           : adult life.
         </p>
-        <div
-          className="Centered"
-        >
-          <img
-            alt="lifecycle diagram"
-            src="Lifecycle_Diagram-min.png"
-            style={
-              Object {
-                "width": 640,
-              }
-            }
-          />
-        </div>
+        <img
+          alt="lifecycle diagram"
+          className="FullWidth DisplayBlock RetainAspectRatio Centered"
+          src="Lifecycle_Diagram-min.png"
+          width={640}
+        />
       </div>
       <div
         className="ContentPageSubsectionTemplateOuterContainer"
@@ -114,16 +107,16 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
             Stage 1
           </h3>
           <div
-            className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+            className="ContentPageSideFloatFluidContainerOuterContainer"
           >
             <div
-              className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+              className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
             >
               <div
                 className="ImageViewOuterContainer"
                 style={
                   Object {
-                    "width": 320,
+                    "maxWidth": 320,
                   }
                 }
               >
@@ -137,11 +130,6 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                       alt="Cheetah cubs are born blind, so they need their mother's care."
                       className="ImageViewImg"
                       src="cheetah_mom_carry_cub-min.jpg"
-                      style={
-                        Object {
-                          "width": 320,
-                        }
-                      }
                     />
                   </div>
                   <div
@@ -243,122 +231,6 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                   >
                     They stop drinking their mother’s milk at 3 to 4 months of age. They start eating meat and learning to hunt. The games they play and the experiences they have during this stage will teach them skills needed to survive on their own.
                   </p>
-                  <div
-                    className="VerticalCushionPaddingTopLarge"
-                  >
-                    <div
-                      className="QnAPopUpContainer"
-                    >
-                      <div
-                        className="QnAPopUpButtonGroupContainer"
-                      >
-                        <div
-                          className="ui blue large label"
-                          onClick={[Function]}
-                        >
-                          Did You Know
-                          <button
-                            className="ui orange circular icon button QuestionButton"
-                            onClick={[Function]}
-                          >
-                            <i
-                              aria-hidden="true"
-                              className="question icon"
-                              onClick={[Function]}
-                            />
-                          </button>
-                        </div>
-                      </div>
-                      <div
-                        className="QnAPopUpTextSecondaryBubbleContainer"
-                      >
-                        <div
-                          className="TextBubbleOuterContainer"
-                          hidden={true}
-                          style={
-                            Object {
-                              "backgroundColor": "rgb(undefined)",
-                              "height": 45,
-                              "width": 45,
-                            }
-                          }
-                        >
-                          <div
-                            className="TextBubbleInnerContainer"
-                          >
-                            <div
-                              className="TextBubbleInnerCore"
-                            >
-                              <h1
-                                style={
-                                  Object {
-                                    "color": "rgb(undefined)",
-                                    "fontSize": 3.6,
-                                  }
-                                }
-                              >
-                                
-                              </h1>
-                              <p
-                                style={
-                                  Object {
-                                    "color": "rgb(undefined)",
-                                    "fontSize": 2.25,
-                                  }
-                                }
-                              >
-                                
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        className="QnAPopUpMainTextBubbleContainer"
-                      >
-                        <div
-                          className="TextBubbleOuterContainer"
-                          hidden={true}
-                          style={
-                            Object {
-                              "backgroundColor": "rgb(undefined)",
-                              "height": 320,
-                              "width": 320,
-                            }
-                          }
-                        >
-                          <div
-                            className="TextBubbleInnerContainer"
-                          >
-                            <div
-                              className="TextBubbleInnerCore"
-                            >
-                              <h1
-                                style={
-                                  Object {
-                                    "color": "rgb(undefined)",
-                                    "fontSize": 25.6,
-                                  }
-                                }
-                              >
-                                Did you know?
-                              </h1>
-                              <p
-                                style={
-                                  Object {
-                                    "color": "rgb(undefined)",
-                                    "fontSize": 16,
-                                  }
-                                }
-                              >
-                                Young cheetahs rely on their mother on learning how to hunt. Cubs rescued and rehabilitated are difficult to be re-wilded because most of them have not acquired sufficient hunting skills needed to survive.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
               <div
@@ -375,24 +247,16 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                       }
                     }
                   >
-                    <div
-                      style={
-                        Object {
-                          "height": 315,
-                          "width": 560,
-                        }
-                      }
-                    >
-                      <iframe
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen={true}
-                        frameBorder="0"
-                        height={315}
-                        src="https://www.youtube.com/embed/Wjtb7XMZlgY"
-                        title="Cheetah Mom Teaches Cubs to Hunt | YouTube"
-                        width={560}
-                      />
-                    </div>
+                    <iframe
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen={true}
+                      className="FullWidth"
+                      frameBorder="0"
+                      height={315}
+                      src="https://www.youtube.com/embed/Wjtb7XMZlgY"
+                      title="Cheetah Mom Teaches Cubs to Hunt | YouTube"
+                      width={560}
+                    />
                   </div>
                 </div>
               </div>
@@ -412,16 +276,16 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
             Learning to Hunt
           </h3>
           <div
-            className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+            className="ContentPageSideFloatFluidContainerOuterContainer"
           >
             <div
-              className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+              className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
             >
               <div
                 className="ImageViewOuterContainer"
                 style={
                   Object {
-                    "width": 480,
+                    "maxWidth": 480,
                   }
                 }
               >
@@ -435,11 +299,6 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                       alt="Cheetah cubs learning how to hunt."
                       className="ImageViewImg"
                       src="cheetah_cubs_learning_hunting-min.jpg"
-                      style={
-                        Object {
-                          "width": 480,
-                        }
-                      }
                     />
                   </div>
                   <div
@@ -477,41 +336,45 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
               className="ContentPageSideFloatFluidContainerFixedPartContainer FloatLeft"
             >
               <div
-                className="TextBubbleOuterContainer"
-                style={
-                  Object {
-                    "backgroundColor": "rgb(undefined)",
-                    "height": 520,
-                    "width": 520,
-                  }
-                }
+                className="TextBubbleOuterContainerFlexWrapper"
               >
                 <div
-                  className="TextBubbleInnerContainer"
+                  className="TextBubbleOuterContainer"
+                  style={
+                    Object {
+                      "backgroundColor": "rgb(undefined)",
+                      "height": 520,
+                      "maxWidth": 520,
+                    }
+                  }
                 >
                   <div
-                    className="TextBubbleInnerCore"
+                    className="TextBubbleInnerContainer"
                   >
-                    <h1
-                      style={
-                        Object {
-                          "color": "rgb(undefined)",
-                          "fontSize": 41.6,
-                        }
-                      }
+                    <div
+                      className="TextBubbleInnerCore"
                     >
-                      Learning to Hunt
-                    </h1>
-                    <p
-                      style={
-                        Object {
-                          "color": "rgb(undefined)",
-                          "fontSize": 21,
+                      <h1
+                        style={
+                          Object {
+                            "color": "rgb(undefined)",
+                            "fontSize": 41.6,
+                          }
                         }
-                      }
-                    >
-                      The mother brings live prey, such as a young gazelle, to the 9 to 12 month old cubs. She releases it in front of them and the cubs attempt to catch it. This allows the cubs to practice their hunting skills while still under her supervision. Accurate timing and coordination during a hunt are important for their future survival.
-                    </p>
+                      >
+                        Learning to Hunt
+                      </h1>
+                      <p
+                        style={
+                          Object {
+                            "color": "rgb(undefined)",
+                            "fontSize": 21,
+                          }
+                        }
+                      >
+                        The mother brings live prey, such as a young gazelle, to the 9 to 12 month old cubs. She releases it in front of them and the cubs attempt to catch it. This allows the cubs to practice their hunting skills while still under her supervision. Accurate timing and coordination during a hunt are important for their future survival.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -558,15 +421,11 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                 </button>
               </a>
             </div>
-            <div
-              className="FactBannerSmallDimension Centered"
-            >
-              <img
-                alt="What is diurnal?"
-                className="FactBannerSmallDimension"
-                src="What_is_Diurnal-min.png"
-              />
-            </div>
+            <img
+              alt="What is diurnal?"
+              className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerSmallDimension"
+              src="What_is_Diurnal-min.png"
+            />
           </div>
         </div>
       </div>
@@ -612,16 +471,16 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
             Finding a Mate
           </h3>
           <div
-            className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+            className="ContentPageSideFloatFluidContainerOuterContainer"
           >
             <div
-              className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+              className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
             >
               <div
                 className="ImageViewOuterContainer"
                 style={
                   Object {
-                    "width": 720,
+                    "maxWidth": 720,
                   }
                 }
               >
@@ -635,11 +494,6 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                       alt="Cheetahs often mark their scent on tree trunks with their urine. This behavior is common among cats."
                       className="ImageViewImg"
                       src="cheetah_scent_marking-min.jpg"
-                      style={
-                        Object {
-                          "width": 720,
-                        }
-                      }
                     />
                   </div>
                   <div
@@ -732,85 +586,76 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                   className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
                 >
                   <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
                   >
-                    <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+                    <h4
+                      className="ContentPageSubsectionSubtitle"
                     >
-                      <h4
-                        className="ContentPageSubsectionSubtitle"
-                      >
-                        Male coalitions
-                      </h4>
-                      <p
-                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                      >
-                        A coalition consists of a group of male siblings of the same litter or young unrelated males that have joined together. A hierarchy develops among the males within a coalition.
-                      </p>
-                      <p
-                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                      >
-                        Young males are usually chased away from their birth range by dominant breeding males. They may establish home ranges more than 100 km away. A coalition is more successful in acquiring and holding territories and in defending kills than single males. This competition can result in mortality among males.
-                      </p>
-                    </div>
-                    <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+                      Male coalitions
+                    </h4>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                     >
-                      <h4
-                        className="ContentPageSubsectionSubtitle"
-                      />
-                      <div
-                        className="ImageViewOuterContainer"
-                        style={
-                          Object {
-                            "width": 510,
-                          }
+                      A coalition consists of a group of male siblings of the same litter or young unrelated males that have joined together. A hierarchy develops among the males within a coalition.
+                    </p>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      Young males are usually chased away from their birth range by dominant breeding males. They may establish home ranges more than 100 km away. A coalition is more successful in acquiring and holding territories and in defending kills than single males. This competition can result in mortality among males.
+                    </p>
+                  </div>
+                  <div
+                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+                  >
+                    <h4
+                      className="ContentPageSubsectionSubtitle"
+                    />
+                    <div
+                      className="ImageViewOuterContainer"
+                      style={
+                        Object {
+                          "maxWidth": 510,
                         }
+                      }
+                    >
+                      <div
+                        className="ImageViewInnerContainer"
                       >
                         <div
-                          className="ImageViewInnerContainer"
+                          className="ImageViewImgContainer"
+                        >
+                          <img
+                            alt="A coalition of cheetahs on the lookout."
+                            className="ImageViewImg"
+                            src="cheetah_coalition-min.jpg"
+                          />
+                        </div>
+                        <div
+                          className="ImageViewCaptionContainer"
                         >
                           <div
-                            className="ImageViewImgContainer"
-                          >
-                            <img
-                              alt="A coalition of cheetahs on the lookout."
-                              className="ImageViewImg"
-                              src="cheetah_coalition-min.jpg"
-                              style={
-                                Object {
-                                  "width": 510,
-                                }
+                            className="CaptionContainer"
+                            data-testid="CaptionComponentTestId"
+                            style={
+                              Object {
+                                "maxWidth": 510,
                               }
-                            />
-                          </div>
-                          <div
-                            className="ImageViewCaptionContainer"
+                            }
                           >
                             <div
-                              className="CaptionContainer"
-                              data-testid="CaptionComponentTestId"
-                              style={
-                                Object {
-                                  "maxWidth": 510,
-                                }
-                              }
+                              className="IconContainer"
                             >
-                              <div
-                                className="IconContainer"
-                              >
-                                <i
-                                  aria-hidden="true"
-                                  className="image icon"
-                                  onClick={[Function]}
-                                />
-                              </div>
-                              <p
-                                className="ContentPageCaptionTextSize CaptionText"
-                              >
-                                A coalition of cheetahs on the lookout.
-                              </p>
+                              <i
+                                aria-hidden="true"
+                                className="image icon"
+                                onClick={[Function]}
+                              />
                             </div>
+                            <p
+                              className="ContentPageCaptionTextSize CaptionText"
+                            >
+                              A coalition of cheetahs on the lookout.
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -829,94 +674,85 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                   className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
                 >
                   <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
                   >
+                    <h4
+                      className="ContentPageSubsectionSubtitle"
+                    />
                     <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-                    >
-                      <h4
-                        className="ContentPageSubsectionSubtitle"
-                      />
-                      <div
-                        className="ImageViewOuterContainer"
-                        style={
-                          Object {
-                            "width": 640,
-                          }
+                      className="ImageViewOuterContainer"
+                      style={
+                        Object {
+                          "maxWidth": 640,
                         }
+                      }
+                    >
+                      <div
+                        className="ImageViewInnerContainer"
                       >
                         <div
-                          className="ImageViewInnerContainer"
+                          className="ImageViewImgContainer"
+                        >
+                          <img
+                            alt="Cheetahs often have to come to face hyenas in competition of food."
+                            className="ImageViewImg"
+                            src="cheetah_face_hyena-min.jpg"
+                          />
+                        </div>
+                        <div
+                          className="ImageViewCaptionContainer"
                         >
                           <div
-                            className="ImageViewImgContainer"
-                          >
-                            <img
-                              alt="Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)"
-                              className="ImageViewImg"
-                              src="cheetah_face_hyena-min.jpg"
-                              style={
-                                Object {
-                                  "width": 640,
-                                }
+                            className="CaptionContainer"
+                            data-testid="CaptionComponentTestId"
+                            style={
+                              Object {
+                                "maxWidth": 640,
                               }
-                            />
-                          </div>
-                          <div
-                            className="ImageViewCaptionContainer"
+                            }
                           >
                             <div
-                              className="CaptionContainer"
-                              data-testid="CaptionComponentTestId"
-                              style={
-                                Object {
-                                  "maxWidth": 640,
-                                }
-                              }
+                              className="IconContainer"
                             >
-                              <div
-                                className="IconContainer"
-                              >
-                                <i
-                                  aria-hidden="true"
-                                  className="image icon"
-                                  onClick={[Function]}
-                                />
-                              </div>
-                              <p
-                                className="ContentPageCaptionTextSize CaptionText"
-                              >
-                                Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)
-                              </p>
+                              <i
+                                aria-hidden="true"
+                                className="image icon"
+                                onClick={[Function]}
+                              />
                             </div>
+                            <p
+                              className="ContentPageCaptionTextSize CaptionText"
+                            >
+                              Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)
+                            </p>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+                  </div>
+                  <div
+                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+                  >
+                    <h4
+                      className="ContentPageSubsectionSubtitle"
                     >
-                      <h4
-                        className="ContentPageSubsectionSubtitle"
-                      >
-                        Mortality
-                      </h4>
-                      <p
-                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                      >
-                        The cheetah’s lifespan is poorly documented in the wild. A radio collared cheetah lived to be almost 7 years of age in Tanzania’s Serengeti National Park, and one of CCF’s radio collared cheetahs in Namibia lived for over 10 years.
-                      </p>
-                      <p
-                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                      >
-                        Adult mortality is one of the most significant limiting factors for cheetah population growth and survival. Poaching, competition with large predators and farmers, and loss of habitats and prey are factors attributing to early death.
-                      </p>
-                      <p
-                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                      >
-                        Though cub deaths are high, cheetahs have evolved to reproduce rapidly in response to this mortality.
-                      </p>
-                    </div>
+                      Mortality
+                    </h4>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      The cheetah’s lifespan is poorly documented in the wild. A radio collared cheetah lived to be almost 7 years of age in Tanzania’s Serengeti National Park, and one of CCF’s radio collared cheetahs in Namibia lived for over 10 years.
+                    </p>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      Adult mortality is one of the most significant limiting factors for cheetah population growth and survival. Poaching, competition with large predators and farmers, and loss of habitats and prey are factors attributing to early death.
+                    </p>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      Though cub deaths are high, cheetahs have evolved to reproduce rapidly in response to this mortality.
+                    </p>
                   </div>
                 </div>
               </div>

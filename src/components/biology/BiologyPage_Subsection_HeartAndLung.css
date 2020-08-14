@@ -1,0 +1,14 @@
+/**
+ * BiologyPage_Subsection_HeartAndLung.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Aug 12, 2020
+ * Updated  : Aug 12, 2020
+ */
+
+@media (max-width: 1023px) {
+  div.CheetahOlympicsSubsectionWrapper {
+    display: none;
+  }
+}

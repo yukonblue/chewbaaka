@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 13, 2020
  */
 
 import React from 'react'
@@ -18,6 +18,8 @@ import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFl
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import FluidImageWrapper from '../shared/FluidImageWrapper'
 
 import image_open_wide from './assets/open_wide-min.jpg'
 import image_cheetah_grooming from './assets/cheetah_grooming-min.jpg'
@@ -58,11 +60,9 @@ export default class BiologyPageSubsectionOpenWide extends React.Component {
       <ContentPageSubsectionPart>
         <ContentPageSideFloatFluidContainer
           floatPart={
-            <img
+            <FluidImageWrapper
               src={image_open_wide}
               alt="Open wide"
-              width={320}
-              height={320}
             />
           }
           fixedPart={ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents.part1)}
@@ -76,7 +76,7 @@ export default class BiologyPageSubsectionOpenWide extends React.Component {
       <ContentPageSubsectionPart>
         <ContentPageSideFloatFluidContainer
           floatPart={
-            <img
+            <FluidImageWrapper
               src={image_cheetah_tongue}
               alt="Papillae on cheetah's tongue"
             />
@@ -93,7 +93,7 @@ export default class BiologyPageSubsectionOpenWide extends React.Component {
       <ContentPageSubsectionPart>
         <ContentPageSideFloatFluidContainer
           floatPart={
-            <img
+            <FluidImageWrapper
               src={image_cheetah_grooming}
               alt="Cheetah grooming"
             />

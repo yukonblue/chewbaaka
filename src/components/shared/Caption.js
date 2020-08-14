@@ -38,9 +38,9 @@ import './Caption.css'
 if (process.env.NODE_ENV === "development")
   require('./Caption-debug.css')
 
-export default function Caption(props) {
+export default function Caption({ width, caption }) {
   const containerDimensionStyle = {
-    maxWidth: props.width,
+    maxWidth: width
   };
 
   return (
@@ -55,7 +55,7 @@ export default function Caption(props) {
       <p className={getElementStyleClassNames(["ContentPageCaptionTextSize",
                                               "CaptionText"])}
       >
-        {props.caption}
+        {caption}
       </p>
     </div>
   );

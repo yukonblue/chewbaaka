@@ -1,0 +1,33 @@
+/**
+ * ContentPageSideFloatFluidContainer.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Aug 13, 2020
+ * Updated  : Aug 13, 2020
+ */
+
+div.ContentPageSideFloatFluidContainerOuterContainer {
+  overflow: hidden;
+}
+
+/* div.ContentPageSideFloatFluidContainerFixedPartContainer {
+} */
+
+div.ContentPageSideFloatFluidContainerFloatPartContainer {
+  padding: 0 2rem;
+}
+
+@media (max-width: 1023px) {
+  div.ContentPageSideFloatFluidContainerOuterContainer {
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.ContentPageSideFloatFluidContainerFloatPartContainer {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+}

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 12, 2020
  */
 
 import React from 'react'
@@ -12,6 +12,8 @@ import React from 'react'
 import { getElementStyleClassName } from '../../styling/styling'
 
 import image_lifecycle_diagram from './assets/Lifecycle_Diagram-min.png'
+
+import FluidImageWrapper from '../shared/FluidImageWrapper'
 
 import '../shared/ContentPageSharedStyles.css'
 
@@ -35,13 +37,12 @@ export default function BiologyPageLifecycleDiagram() {
       <p className="BiologyPageLifecycleDiagramContentText TextCentered">
         <b>Stage 3</b>: 18 to 22 months; <b>Stage 4</b>: adult life.
       </p>
-      <div className="Centered">
-        <img
-          style={{width: 640}}
-          src={image_lifecycle_diagram}
-          alt="lifecycle diagram"
-        />
-      </div>
+      <FluidImageWrapper
+        src={image_lifecycle_diagram}
+        alt="lifecycle diagram"
+        centered
+        width={640}
+      />
     </div>
-  )
+  );
 }

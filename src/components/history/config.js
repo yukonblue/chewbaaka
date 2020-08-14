@@ -27,8 +27,13 @@ export const config = {
       }
     ],
     pageTailNavMenu: {
+      prevPage: {
+        label: "Home",
+        href: "/"
+      },
       nextPage: {
-        label: "Biology"
+        label: "Biology",
+        href: "/biology"
       }
     }
   },

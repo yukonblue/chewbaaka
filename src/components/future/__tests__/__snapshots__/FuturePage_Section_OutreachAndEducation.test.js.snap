@@ -70,65 +70,61 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                 className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
               >
                 <div
-                  className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+                  className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
                 >
-                  <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-                  >
+                  <h4
+                    className="ContentPageSubsectionSubtitle"
+                  />
+                  <div>
                     <h4
                       className="ContentPageSubsectionSubtitle"
-                    />
-                    <div>
-                      <h4
-                        className="ContentPageSubsectionSubtitle"
-                      >
-                        Veterinary Clinic
-                      </h4>
-                      <p
-                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                      >
-                        The HASS Family Research Center houses CCF’s registered on-site veterinary clinic. The clinic allows CCF to provide medical care for cheetahs within the sanctuary, CCF Livestock Guarding Dogs and CCF’s livestock. In addition, all cheetahs that CCF studies receive a full biomedical work-up and health assessment.
-                      </p>
-                      <p
-                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                      >
-                        Other clinical procedures include routine medical checks, dental care and when necessary, surgery. While working with these animals, CCF research staff can collect biological samples that are used to do health evaluation, reproduction studies and to determine the cheetah population’s genetic status and provide the basis of a disease surveillance system for cheetahs, these biological samples also aid in future research.
-                      </p>
-                      <p
-                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                      >
-                        Wild cheetahs that come into the clinic are marked with a transponder ear tag and/or fitted with a radio or satellite tracking collar before release back into the wild. CCF works with the Namibian Ministry of Environment and Tourism and neighboring farmers to determine a suitable habitat for relocation if necessary, or release on the farm where the cheetah was caught.
-                      </p>
-                    </div>
+                    >
+                      Veterinary Clinic
+                    </h4>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      The HASS Family Research Center houses CCF’s registered on-site veterinary clinic. The clinic allows CCF to provide medical care for cheetahs within the sanctuary, CCF Livestock Guarding Dogs and CCF’s livestock. In addition, all cheetahs that CCF studies receive a full biomedical work-up and health assessment.
+                    </p>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      Other clinical procedures include routine medical checks, dental care and when necessary, surgery. While working with these animals, CCF research staff can collect biological samples that are used to do health evaluation, reproduction studies and to determine the cheetah population’s genetic status and provide the basis of a disease surveillance system for cheetahs, these biological samples also aid in future research.
+                    </p>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      Wild cheetahs that come into the clinic are marked with a transponder ear tag and/or fitted with a radio or satellite tracking collar before release back into the wild. CCF works with the Namibian Ministry of Environment and Tourism and neighboring farmers to determine a suitable habitat for relocation if necessary, or release on the farm where the cheetah was caught.
+                    </p>
                   </div>
-                  <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-                  >
+                </div>
+                <div
+                  className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+                >
+                  <h4
+                    className="ContentPageSubsectionSubtitle"
+                  />
+                  <div>
                     <h4
                       className="ContentPageSubsectionSubtitle"
-                    />
-                    <div>
-                      <h4
-                        className="ContentPageSubsectionSubtitle"
-                      >
-                        Ecological Studies
-                      </h4>
-                      <p
-                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                      >
-                        Satellite tracking collars provide important data for CCF research teams. Researchers can monitor the daily movement of the cheetah, track its hunting skills and monitor its general well-being in the wild. If also allows researchers to evaluate the cheetah’s habitat use and prey preference.
-                      </p>
-                      <p
-                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                      >
-                        Satellite and VHS monitoring collars, as well as camera traps help determine animal home ranges, habitat preferences and seasonal use, territoriality and behaviors unique to individual cheetah populations.
-                      </p>
-                      <p
-                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                      >
-                        CCF conducts vegetation studies that include monitoring growth patterns of bush within targeted study areas on CCF land. Information on vegetation is used to identify target areas for ecological management and help determine and monitor the manner with which bush encroachment affects the biodiversity of the land.
-                      </p>
-                    </div>
+                    >
+                      Ecological Studies
+                    </h4>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      Satellite tracking collars provide important data for CCF research teams. Researchers can monitor the daily movement of the cheetah, track its hunting skills and monitor its general well-being in the wild. If also allows researchers to evaluate the cheetah’s habitat use and prey preference.
+                    </p>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      Satellite and VHS monitoring collars, as well as camera traps help determine animal home ranges, habitat preferences and seasonal use, territoriality and behaviors unique to individual cheetah populations.
+                    </p>
+                    <p
+                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                    >
+                      CCF conducts vegetation studies that include monitoring growth patterns of bush within targeted study areas on CCF land. Information on vegetation is used to identify target areas for ecological management and help determine and monitor the manner with which bush encroachment affects the biodiversity of the land.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -182,7 +178,7 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
               >
                 <img
                   alt="CCF Volunteering"
-                  className="FullWidth DisplayBlock"
+                  className="FullWidth DisplayBlock RetainAspectRatio"
                   src="CCF_GetInvolved_Volunteer-min.jpg"
                 />
               </div>
@@ -197,82 +193,78 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                   className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
                 >
                   <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
                   >
-                    <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-                    >
+                    <h4
+                      className="ContentPageSubsectionSubtitle"
+                    />
+                    <div>
                       <h4
                         className="ContentPageSubsectionSubtitle"
-                      />
-                      <div>
-                        <h4
-                          className="ContentPageSubsectionSubtitle"
+                      >
+                        Internships
+                      </h4>
+                      <p
+                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                      >
+                        CCF welcomes a selected number of students each year with a wide variety of backgrounds and courses of study. Graduate and undergraduate students are given a chance to learn about aspects of conservation biology, ecology, veterinary medicine, genetics, animal science, agriculture, sociology, business, computing, graphic design, education and tourism.
+                      </p>
+                      <p
+                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                      >
+                        CCF is an official fourth year placement for students from Namibia’s two major universities, University of Namibia (UNAM) and Namibia University of Science and Technology (NUST). In addition, CCF welcomes interns from undergraduate and graduate university programs all over the world.
+                      </p>
+                      <p
+                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                      >
+                        Aspiring biologists, genetics, and ecologists pursuing Masters and Ph.D. degrees come to CCF to work on research and thesis projects all year.
+                      </p>
+                      <ul>
+                        <li
+                          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
                         >
-                          Internships
-                        </h4>
-                        <p
-                          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                          cheetah feeding - collecting and dissecting cheetah feces
+                        </li>
+                        <li
+                          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
                         >
-                          CCF welcomes a selected number of students each year with a wide variety of backgrounds and courses of study. Graduate and undergraduate students are given a chance to learn about aspects of conservation biology, ecology, veterinary medicine, genetics, animal science, agriculture, sociology, business, computing, graphic design, education and tourism.
-                        </p>
-                        <p
-                          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                          observing cheetah behavior - assisting in clinical work-ups
+                        </li>
+                        <li
+                          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
                         >
-                          CCF is an official fourth year placement for students from Namibia’s two major universities, University of Namibia (UNAM) and Namibia University of Science and Technology (NUST). In addition, CCF welcomes interns from undergraduate and graduate university programs all over the world.
-                        </p>
-                        <p
-                          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                          raise livestock guarding dog puppies - conducting field work
+                        </li>
+                        <li
+                          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
                         >
-                          Aspiring biologists, genetics, and ecologists pursuing Masters and Ph.D. degrees come to CCF to work on research and thesis projects all year.
-                        </p>
-                        <ul>
-                          <li
-                            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
-                          >
-                            cheetah feeding - collecting and dissecting cheetah feces
-                          </li>
-                          <li
-                            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
-                          >
-                            observing cheetah behavior - assisting in clinical work-ups
-                          </li>
-                          <li
-                            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
-                          >
-                            raise livestock guarding dog puppies - conducting field work
-                          </li>
-                          <li
-                            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
-                          >
-                            being involved with outreach and education programs
-                          </li>
-                        </ul>
-                      </div>
+                          being involved with outreach and education programs
+                        </li>
+                      </ul>
                     </div>
-                    <div
-                      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-                    >
+                  </div>
+                  <div
+                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+                  >
+                    <h4
+                      className="ContentPageSubsectionSubtitle"
+                    />
+                    <div>
                       <h4
                         className="ContentPageSubsectionSubtitle"
-                      />
-                      <div>
-                        <h4
-                          className="ContentPageSubsectionSubtitle"
-                        >
-                          Volunteering
-                        </h4>
-                        <p
-                          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                        >
-                          Volunteering at CCF in Namibia is a rewarding experience, and most of the people who participate in our volunteer program will tell you that it is among the best experiences they have ever had. Volunteers do everything from data entry and camera trap photo sorting to chopping up meat to collecting and cataloging scat samples.
-                        </p>
-                        <p
-                          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                        >
-                          Like interns, volunteers can expect to work on a variety of tasks. CCF also seeks professionally skilled volunteers to work as cheetah keepers, animal behavior specialists, ecologists, biologists, veterinarians, and vet-technicians, as well as educators, trainers, and conservationists.
-                        </p>
-                      </div>
+                      >
+                        Volunteering
+                      </h4>
+                      <p
+                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                      >
+                        Volunteering at CCF in Namibia is a rewarding experience, and most of the people who participate in our volunteer program will tell you that it is among the best experiences they have ever had. Volunteers do everything from data entry and camera trap photo sorting to chopping up meat to collecting and cataloging scat samples.
+                      </p>
+                      <p
+                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                      >
+                        Like interns, volunteers can expect to work on a variety of tasks. CCF also seeks professionally skilled volunteers to work as cheetah keepers, animal behavior specialists, ecologists, biologists, veterinarians, and vet-technicians, as well as educators, trainers, and conservationists.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -337,16 +329,16 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                 Ambassadors
               </h4>
               <div
-                className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+                className="ContentPageSideFloatFluidContainerOuterContainer"
               >
                 <div
-                  className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+                  className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
                 >
                   <div
                     className="ImageViewOuterContainer"
                     style={
                       Object {
-                        "width": 720,
+                        "maxWidth": 720,
                       }
                     }
                   >
@@ -360,11 +352,6 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                           alt="In 2009, Cincinnati Zoo's cheetah Sarah set the record of the world's fastest cheetah, as she sprant 100m in just 6.13 seconds. The best record for 100m by humans was from Usain Bolt, finishing in 9.58 seconds."
                           className="ImageViewImg"
                           src="cincinnati_zoo_cheetah_sarah-min.jpg"
-                          style={
-                            Object {
-                              "width": 720,
-                            }
-                          }
                         />
                       </div>
                       <div
@@ -460,119 +447,115 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                 className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
               >
                 <div
-                  className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+                  className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
                 >
-                  <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+                  <h4
+                    className="ContentPageSubsectionSubtitle"
+                  />
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                   >
-                    <h4
-                      className="ContentPageSubsectionSubtitle"
-                    />
-                    <p
-                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                    >
-                      CCF develops outreach school programs and educational packets are distributed to students and teachers. All schools are welcomed to CCF facilities.
-                    </p>
-                    <p
-                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                    >
-                      Staff members conduct assemblies throughout Namibia. Students are encouraged to become more involved in conservation in school and in their homes. Workshops assist teachers in initiating cheetah conservation and environmental education programs.
-                    </p>
-                    <p
-                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                    >
-                      Educational facilities at CCF’s headquarters encourage participation in cheetah conservation. The Education Center, the Visitor Center and Predator-Preyground provide information in an interacting setting. CCF’s Wildlife Camp allows outdoor education and a wilderness experience. A Nature Trail highlights the farmland ecosystem and the valuable role of predators.
-                    </p>
-                    <p
-                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                    >
-                      CCF takes a cross-curricular approach, integrating conservation issues into subjects that are required as part of the school syllabus and donates books to schools and libraries.
-                    </p>
-                    <p
-                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                    >
-                      CCF works with government agencies to incorporate cheetah conservation in the school curriculum.
-                    </p>
-                  </div>
-                  <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+                    CCF develops outreach school programs and educational packets are distributed to students and teachers. All schools are welcomed to CCF facilities.
+                  </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                   >
-                    <h4
-                      className="ContentPageSubsectionSubtitle"
-                    />
-                    <div
-                      className="ImageSlidingGalleryOuterContainer"
-                      style={
-                        Object {
-                          "maxWidth": undefined,
-                        }
+                    Staff members conduct assemblies throughout Namibia. Students are encouraged to become more involved in conservation in school and in their homes. Workshops assist teachers in initiating cheetah conservation and environmental education programs.
+                  </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    Educational facilities at CCF’s headquarters encourage participation in cheetah conservation. The Education Center, the Visitor Center and Predator-Preyground provide information in an interacting setting. CCF’s Wildlife Camp allows outdoor education and a wilderness experience. A Nature Trail highlights the farmland ecosystem and the valuable role of predators.
+                  </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    CCF takes a cross-curricular approach, integrating conservation issues into subjects that are required as part of the school syllabus and donates books to schools and libraries.
+                  </p>
+                  <p
+                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  >
+                    CCF works with government agencies to incorporate cheetah conservation in the school curriculum.
+                  </p>
+                </div>
+                <div
+                  className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+                >
+                  <h4
+                    className="ContentPageSubsectionSubtitle"
+                  />
+                  <div
+                    className="ImageSlidingGalleryOuterContainer"
+                    style={
+                      Object {
+                        "maxWidth": undefined,
                       }
+                    }
+                  >
+                    <div
+                      className="ImageSlidingGalleryCoreContainer"
                     >
+                      <img
+                        alt="CCF's Predator Preyground. (Image credit: Cheetah Conservation Fund)"
+                        className="ImageSlidingGalleryImgPart"
+                        src="CCF_Predator_Preyground-min.jpg"
+                      />
                       <div
-                        className="ImageSlidingGalleryCoreContainer"
+                        className="ImageSlidingGalleryCaptionPart"
+                        data-testid="ImageSlidingGalleryCaptionPart"
                       >
-                        <img
-                          alt="CCF's Predator Preyground. (Image credit: Cheetah Conservation Fund)"
-                          className="ImageSlidingGalleryImgPart"
-                          src="CCF_Predator_Preyground-min.jpg"
-                        />
                         <div
-                          className="ImageSlidingGalleryCaptionPart"
-                          data-testid="ImageSlidingGalleryCaptionPart"
+                          className="CaptionContainer"
+                          data-testid="CaptionComponentTestId"
+                          style={
+                            Object {
+                              "maxWidth": undefined,
+                            }
+                          }
                         >
                           <div
-                            className="CaptionContainer"
-                            data-testid="CaptionComponentTestId"
-                            style={
-                              Object {
-                                "maxWidth": undefined,
-                              }
-                            }
+                            className="IconContainer"
                           >
-                            <div
-                              className="IconContainer"
-                            >
-                              <i
-                                aria-hidden="true"
-                                className="image icon"
-                                onClick={[Function]}
-                              />
-                            </div>
-                            <p
-                              className="ContentPageCaptionTextSize CaptionText"
-                            >
-                              CCF's Predator Preyground. (Image credit: Cheetah Conservation Fund)
-                            </p>
+                            <i
+                              aria-hidden="true"
+                              className="image icon"
+                              onClick={[Function]}
+                            />
                           </div>
+                          <p
+                            className="ContentPageCaptionTextSize CaptionText"
+                          >
+                            CCF's Predator Preyground. (Image credit: Cheetah Conservation Fund)
+                          </p>
                         </div>
                       </div>
+                    </div>
+                    <div
+                      className="ImageSlidingGalleryButtonContainer"
+                    >
                       <div
-                        className="ImageSlidingGalleryButtonContainer"
+                        className="ui blue huge icon left attached disabled button"
+                        onClick={[Function]}
+                        role="button"
+                        tabIndex={-1}
                       >
-                        <div
-                          className="ui blue huge icon left attached disabled button"
+                        <i
+                          aria-hidden="true"
+                          className="arrow alternate circle left outline icon"
                           onClick={[Function]}
-                          role="button"
-                          tabIndex={-1}
-                        >
-                          <i
-                            aria-hidden="true"
-                            className="arrow alternate circle left outline icon"
-                            onClick={[Function]}
-                          />
-                        </div>
-                        <div
-                          className="ui blue huge icon right attached button"
+                        />
+                      </div>
+                      <div
+                        className="ui blue huge icon right attached button"
+                        onClick={[Function]}
+                        role="button"
+                        tabIndex={0}
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="arrow alternate circle right outline icon"
                           onClick={[Function]}
-                          role="button"
-                          tabIndex={0}
-                        >
-                          <i
-                            aria-hidden="true"
-                            className="arrow alternate circle right outline icon"
-                            onClick={[Function]}
-                          />
-                        </div>
+                        />
                       </div>
                     </div>
                   </div>
@@ -595,16 +578,16 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
               Community Events
             </h3>
             <div
-              className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+              className="ContentPageSideFloatFluidContainerOuterContainer"
             >
               <div
-                className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatLeft HorizontalCusionPaddingRight"
+                className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatLeft"
               >
                 <div
                   className="ImageViewOuterContainer"
                   style={
                     Object {
-                      "width": 960,
+                      "maxWidth": 960,
                     }
                   }
                 >
@@ -615,14 +598,9 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                       className="ImageViewImgContainer"
                     >
                       <img
-                        alt="CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program. (Image credit: Cheetah Conservation Fund)"
+                        alt="CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program."
                         className="ImageViewImg"
                         src="CCF_Livelihood_Development-min.jpg"
-                        style={
-                          Object {
-                            "width": 960,
-                          }
-                        }
                       />
                     </div>
                     <div

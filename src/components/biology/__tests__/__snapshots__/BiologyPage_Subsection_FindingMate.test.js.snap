@@ -13,16 +13,16 @@ exports[`BiologyPageSubsectionFindingMate component snapshot 1`] = `
       Finding a Mate
     </h3>
     <div
-      className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+      className="ContentPageSideFloatFluidContainerOuterContainer"
     >
       <div
-        className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+        className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
       >
         <div
           className="ImageViewOuterContainer"
           style={
             Object {
-              "width": 720,
+              "maxWidth": 720,
             }
           }
         >
@@ -36,11 +36,6 @@ exports[`BiologyPageSubsectionFindingMate component snapshot 1`] = `
                 alt="Cheetahs often mark their scent on tree trunks with their urine. This behavior is common among cats."
                 className="ImageViewImg"
                 src="cheetah_scent_marking-min.jpg"
-                style={
-                  Object {
-                    "width": 720,
-                  }
-                }
               />
             </div>
             <div

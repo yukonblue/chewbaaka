@@ -4,15 +4,11 @@
  *
  * Author   : Tomiko
  * Created  : Aug 07, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 13, 2020
  */
 
 div.ContentPageSkeletonOuterContainer_DebugColor {
   background-color: gainsboro;
-}
-
-div.ContentPageSkeletonContentContainer_DebugColor {
-  background-color: skyblue;
 }
 
 div.ContentPageHeadNavMenuBarOuterContainer_DebugColor {

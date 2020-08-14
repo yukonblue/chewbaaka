@@ -33,41 +33,45 @@ exports[`BiologyPageSubsectionCommunication component snapshot 1`] = `
             className="FloatRight"
           >
             <div
-              className="TextBubbleOuterContainer"
-              style={
-                Object {
-                  "backgroundColor": "rgb(187,143,206)",
-                  "height": 320,
-                  "width": 320,
-                }
-              }
+              className="TextBubbleOuterContainerFlexWrapper"
             >
               <div
-                className="TextBubbleInnerContainer"
+                className="TextBubbleOuterContainer"
+                style={
+                  Object {
+                    "backgroundColor": "rgb(187,143,206)",
+                    "height": 320,
+                    "maxWidth": 320,
+                  }
+                }
               >
                 <div
-                  className="TextBubbleInnerCore"
+                  className="TextBubbleInnerContainer"
                 >
-                  <h1
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 25.6,
-                      }
-                    }
+                  <div
+                    className="TextBubbleInnerCore"
                   >
-                    Vocalizations
-                  </h1>
-                  <p
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 16,
+                    <h1
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 25.6,
+                        }
                       }
-                    }
-                  >
-                    Cheetahs have many unusual vocalizations. These are some of the most common calls made by cheetahs.
-                  </p>
+                    >
+                      Vocalizations
+                    </h1>
+                    <p
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 16,
+                        }
+                      }
+                    >
+                      Cheetahs have many unusual vocalizations. These are some of the most common calls made by cheetahs.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

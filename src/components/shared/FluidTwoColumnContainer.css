@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Aug 04, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 12, 2020
  */
 
 div.FluidTwoColumnContainerOuterContainer {
@@ -13,4 +13,14 @@ div.FluidTwoColumnContainerOuterContainer {
 
 div.FluidTwoColumnContainerColumnContainer {
   flex: 50%;
+}
+
+@media (max-width: 1023px) {
+  div.FluidTwoColumnContainerOuterContainer {
+    flex-direction: column;
+  }
+
+  div.FluidTwoColumnContainerColumnContainer {
+    flex: 1;
+  }
 }

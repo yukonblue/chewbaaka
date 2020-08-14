@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 21, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 12, 2020
  */
 
 import React from 'react'
@@ -16,14 +16,14 @@ import ContentPageSubsectionThreeColumnContentTemplate from '../shared/ContentPa
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageSubsectionSubtitleSecondary from '../shared/ContentPageSubsectionSubtitleSecondary'
 
+import FuidSingleRowGrid from '../shared/FluidSingleRowGrid'
+
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
 import image_goat_clipart from './assets/goat_clipart-min.png'
 import image_cattle_clipart from './assets/cattle_clipart-min.png'
-
-import './EcologyPage_Subsection_CheetahFriendlyFarming.css'
 
 export default class EcologyPageSubsectionCheetahFriendlyFarming extends React.Component {
 
@@ -83,8 +83,10 @@ export default class EcologyPageSubsectionCheetahFriendlyFarming extends React.C
       title: part.title,
       content: (
         <div>
-          <img className="FlexClipartSheep" src={image_goat_clipart} alt="sheep" width={160} />
-          <img className="FlexClipartCattle" src={image_cattle_clipart} alt="cattle" width={160} />
+          <FuidSingleRowGrid>
+            <img className="FlexClipartSheep" src={image_goat_clipart} alt="sheep" width={160} />
+            <img className="FlexClipartCattle" src={image_cattle_clipart} alt="cattle" width={160} />
+          </FuidSingleRowGrid>
           {this.renderBodyPartColumnContent(part)}
         </div>
       ),

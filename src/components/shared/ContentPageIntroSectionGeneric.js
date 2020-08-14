@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 24, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 12, 2020
  */
 
 import React from 'react'
@@ -37,15 +37,18 @@ export default class ContentPageIntroSectionGeneric extends React.Component {
     const images = this.props.imagesContext();
     return (
       <div className={getElementStyleClassName("ContentPageIntroSectionGenericInnerContainer")}>
-        <img
-          className={getElementStyleClassName("ContentPageIntroSectionGenericImg")}
-          src={images("./" + this.props.contentPageIntro.image.filename)}
-          alt={this.props.contentPageIntro.title}
-          style={this.props.contentPageIntro.image.offset}
-        />
-        <p className={getElementStyleClassName("ContentPageHeadAndSectionIntroText")}>
-          {this.props.contentPageIntro.content}
-        </p>      
+        <div className="ContentPageIntroSectionGenericIntroTextContainer">
+          <p className={getElementStyleClassName("ContentPageHeadAndSectionIntroText")}>
+            {this.props.contentPageIntro.content}
+          </p>
+        </div>
+        <div className="ContentPageIntroSectionGenericImgContainer">
+          <img
+            className={getElementStyleClassName("ContentPageIntroSectionGenericImg")}
+            src={images("./" + this.props.contentPageIntro.image.filename)}
+            alt={this.props.contentPageIntro.title}
+          />
+        </div>
       </div>
     );
   }

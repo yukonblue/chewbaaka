@@ -5,7 +5,7 @@ exports[`ImageView component snapshot 1`] = `
   className="ImageViewOuterContainer"
   style={
     Object {
-      "width": 640,
+      "maxWidth": 640,
     }
   }
 >
@@ -19,11 +19,6 @@ exports[`ImageView component snapshot 1`] = `
         alt="This is a caption"
         className="ImageViewImg"
         src="somesite.com/image.png"
-        style={
-          Object {
-            "width": 640,
-          }
-        }
       />
     </div>
     <div
@@ -63,7 +58,7 @@ exports[`ImageView component with image credit string snapshot 1`] = `
   className="ImageViewOuterContainer"
   style={
     Object {
-      "width": 640,
+      "maxWidth": 640,
     }
   }
 >
@@ -74,14 +69,9 @@ exports[`ImageView component with image credit string snapshot 1`] = `
       className="ImageViewImgContainer"
     >
       <img
-        alt="This is a caption (Image credit: Image God)"
+        alt="This is a caption"
         className="ImageViewImg"
         src="somesite.com/image.png"
-        style={
-          Object {
-            "width": 640,
-          }
-        }
       />
     </div>
     <div

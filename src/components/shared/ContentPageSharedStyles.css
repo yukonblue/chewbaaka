@@ -4,14 +4,13 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 08, 2020
+ * Updated  : Aug 13, 2020
  */
 
 /** ----------------------------- CONTAINER -------------------------------- **/
 
 div.ContentPageSkeletonContentContainerDimension {
   margin: 0px auto;
-  min-width: 1024px;
   max-width: 1600px;
 }
 
@@ -24,17 +23,6 @@ div.ContentPageContentInnerContentDimension {
   width: 85%;
 }
 
-.FactBannerSmallDimension {
-  width: 640px;
-}
-
-.FactBannerMediumDimension {
-  width: 720px;
-}
-
-.FactBannerLargeDimension {
-  width: 960px;
-}
 
 /** ------------------------- CONTAINER AUXILLARY -------------------------- **/
 
@@ -118,6 +106,13 @@ div.BottomMargin20px {
 
 .DisplayBlock {
   display: block;
+}
+
+img.RetainAspectRatio {
+  object-fit: contain;
+  max-width: 100%;
+  width: auto;
+  height: auto;
 }
 
 /** ------------------------------- TEXT ----------------------------------- **/

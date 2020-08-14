@@ -1,0 +1,20 @@
+/**
+ * FactBannerImage.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Aug 11, 2020
+ * Updated  : Aug 11, 2020
+ */
+
+.FactBannerSmallDimension {
+  width: 640px;
+}
+
+.FactBannerMediumDimension {
+  width: 720px;
+}
+
+.FactBannerLargeDimension {
+  width: 960px;
+}

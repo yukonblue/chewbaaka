@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Aug 09, 2020
+ * Updated  : Aug 13, 2020
  */
 
 import React from 'react'
@@ -122,7 +122,7 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
           content={ContentPageSubsectionParagraphsJoin(part.contents)}
         />
 
-        <div className="Centered VerticalCushionPaddingTopLarge" style={{width: 500}}>
+        <div className="Centered VerticalCushionPaddingTopLarge" style={{maxWidth: 500}}>
           <ImageView
             image={image_cheetah_running_animated}
             caption="The cheetah's flexible spine is a major contributing factor to its body dexterity, long strides, and speed."

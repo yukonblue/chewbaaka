@@ -41,15 +41,11 @@ exports[`EcologyPageSubsectionHuntingAndPredatorControl component snapshot 1`] =
           >
             Sustainability refers to a process that can last forever. Utilizing a resource sustainably means that using the natural resource will not destroy it. Hunting can be a form of sustainable use. A sustainable outlook on hunting also sets aside a portion of the revenue collected from the hunt to support conservation efforts for the species.
           </p>
-          <div
-            className="Centered FactBannerMediumDimension"
-          >
-            <img
-              alt="What is sustainable utilization?"
-              className="FactBannerMediumDimension"
-              src="What_is_Sustainable_Utilization-min.png"
-            />
-          </div>
+          <img
+            alt="What is sustainable utilization?"
+            className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
+            src="What_is_Sustainable_Utilization-min.png"
+          />
         </div>
         <div
           className="ContentPageSubsectionPartContainer"
@@ -94,47 +90,51 @@ exports[`EcologyPageSubsectionHuntingAndPredatorControl component snapshot 1`] =
           Predator Control
         </h4>
         <div
-          className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+          className="ContentPageSideFloatFluidContainerOuterContainer"
         >
           <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
           >
             <div
-              className="TextBubbleOuterContainer"
-              style={
-                Object {
-                  "backgroundColor": "rgb(255,155,0)",
-                  "height": 560,
-                  "width": 560,
-                }
-              }
+              className="TextBubbleOuterContainerFlexWrapper"
             >
               <div
-                className="TextBubbleInnerContainer"
+                className="TextBubbleOuterContainer"
+                style={
+                  Object {
+                    "backgroundColor": "rgb(255,155,0)",
+                    "height": 560,
+                    "maxWidth": 560,
+                  }
+                }
               >
                 <div
-                  className="TextBubbleInnerCore"
+                  className="TextBubbleInnerContainer"
                 >
-                  <h1
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 44.800000000000004,
-                      }
-                    }
+                  <div
+                    className="TextBubbleInnerCore"
                   >
-                    Predator control is an issue around the globe.
-                  </h1>
-                  <p
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 21,
+                    <h1
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 44.800000000000004,
+                        }
                       }
-                    }
-                  >
-                    Proven farm and livestock management techniques can be employed to deter predations from problem animals. One great example is CCF’s Livestock Guarding Dog program.
-                  </p>
+                    >
+                      Predator control is an issue around the globe.
+                    </h1>
+                    <p
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 21,
+                        }
+                      }
+                    >
+                      Proven farm and livestock management techniques can be employed to deter predations from problem animals. One great example is CCF’s Livestock Guarding Dog program.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -159,15 +159,11 @@ exports[`EcologyPageSubsectionHuntingAndPredatorControl component snapshot 1`] =
             </p>
           </div>
         </div>
-        <div
-          className="Centered FactBannerMediumDimension VerticalCushionPaddingTopLarge"
-        >
-          <img
-            alt="What is a problem animal?"
-            className="FactBannerMediumDimension"
-            src="What_is_a_Problem_Animal-min.png"
-          />
-        </div>
+        <img
+          alt="What is a problem animal?"
+          className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
+          src="What_is_a_Problem_Animal-min.png"
+        />
       </div>
     </div>
   </div>

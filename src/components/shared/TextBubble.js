@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 08, 2020
+ * Updated  : Aug 13, 2020
  */
 
 /**
@@ -39,7 +39,7 @@ if ( process.env.NODE_ENV === 'development' )
 
 export default function TextBubble(props) {
   const componentOuterContainerStyles = {
-    width: props.diameter,
+    maxWidth: props.diameter,
     height: props.diameter,
     backgroundColor: `rgb(${props.backgroundColorRGB})`
   };
@@ -55,19 +55,21 @@ export default function TextBubble(props) {
   };
 
   return (
-    <div
-      className={getElementStyleClassName("TextBubbleOuterContainer")}
-      style={componentOuterContainerStyles}
-      hidden={props.hidden}
-    >
-      <div className={getElementStyleClassName("TextBubbleInnerContainer")}>
-        <div className={getElementStyleClassName("TextBubbleInnerCore")}>
-          <h1 style={componentTitleElementStyles}>
-            {props.title}
-          </h1>
-          <p style={componentContentElementStyles}>
-            {props.content}
-          </p>
+    <div className="TextBubbleOuterContainerFlexWrapper">
+      <div
+        className={getElementStyleClassName("TextBubbleOuterContainer")}
+        style={componentOuterContainerStyles}
+        hidden={props.hidden}
+      >
+        <div className={getElementStyleClassName("TextBubbleInnerContainer")}>
+          <div className={getElementStyleClassName("TextBubbleInnerCore")}>
+            <h1 style={componentTitleElementStyles}>
+              {props.title}
+            </h1>
+            <p style={componentContentElementStyles}>
+              {props.content}
+            </p>
+          </div>
         </div>
       </div>
     </div>

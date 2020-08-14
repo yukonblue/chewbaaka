@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 11, 2020
+ * Updated  : Aug 13, 2020
  */
 
 import React from 'react'
@@ -24,9 +24,13 @@ import {
 
 import CenteredFullWidthContainer from '../shared/CenteredFullWidthContainer'
 
+import FactBannerImage from '../shared/FactBannerImage'
+
 import ImageView from '../shared/ImageView'
 
 import FluidImageWrapper from '../shared/FluidImageWrapper'
+
+import FluidSingleRowGrid from '../shared/FluidSingleRowGrid'
 
 import ImageViewModal from '../shared/ImageViewModal'
 
@@ -64,7 +68,7 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
         title={this.state.subsectionConfig.title}
         content={this.renderContent()}
       />
-    )
+    );
   }
 
   renderContent() {
@@ -95,13 +99,11 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
           fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
         />
 
-        <CenteredFullWidthContainer width={640}>
-          <img
-            src={image_banner_fact_What_is_Habitat}
-            alt="What is a habitat"
-            className="FactBannerSmallDimension VerticalCushionPadding"
-          />
-        </CenteredFullWidthContainer>
+        <FactBannerImage
+          src={image_banner_fact_What_is_Habitat}
+          alt="What is a habitat"
+          centered
+        />
 
         <FluidImageWrapper
           src={image_savana_bg_large}
@@ -135,13 +137,12 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
           </CenteredFullWidthContainer>
         </div>
 
-        <div className="Centered FactBannerMediumDimension VerticalCushionPadding">
-          <img
-            className="FactBannerMediumDimension"
-            src={image_banner_fact_What_is_Biome}
-            alt="What is biome?"
-          />
-        </div>
+        <FactBannerImage
+          src={image_banner_fact_What_is_Biome}
+          alt="What is biome?"
+          centered
+          large
+        />
 
         {this.renderImageViewModals()}
       </ContentPageSubsectionPart>
@@ -158,48 +159,31 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
 
   renderPartNamibianBiomesRhs(part) {
     return (
-      <div className="Centered" style={{width: 480}}>
-        <NamibianBiomes
-          part={part}
-        />
-      </div>
+      <NamibianBiomes
+        part={part}
+      />
     );
   }
 
   renderImageViewModals() {
-    const renderImageViewModal = (image) => (
-      <ImageViewModal
-        image={image}
-        width={480}
-        height={320}
-      />
-    );
-
-    /**
-     * TODO:
-     * Use more suitable/tailored container for these image views.
-     */
+    const images = [
+      image_namibia_landscape_01,
+      image_namibia_landscape_02,
+      image_namibia_landscape_03,
+      image_namibia_landscape_04,
+    ];
 
     return (
-      <div>
-        <ContentPageSubsectionTwoColumnContentTemplate
-          lhsColumn={{
-            content: renderImageViewModal(image_namibia_landscape_01)
-          }}
-          rhsColumn={{
-            content: renderImageViewModal(image_namibia_landscape_02)
-          }}
-        />
-
-        <ContentPageSubsectionTwoColumnContentTemplate
-          lhsColumn={{
-            content: renderImageViewModal(image_namibia_landscape_03)
-          }}
-          rhsColumn={{
-            content: renderImageViewModal(image_namibia_landscape_04)
-          }}
-        />
-      </div>
+      <FluidSingleRowGrid justifyContent="space-evenly">
+        {images.map((image, idx) => (
+          <ImageViewModal
+            key={idx}
+            image={image}
+            width={480}
+            height={320}
+          />
+        ))}
+      </FluidSingleRowGrid>
     );
   }
 }

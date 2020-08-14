@@ -4,17 +4,18 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 13, 2020
  */
 
 div.ContentPageSkeletonOuterContainer {
   background-color: rgba(239, 239, 239, 1.0);
 }
 
-div.ContentPageSkeletonContentContainer {
-}
-
-div.ContentPageHeadNavMenuBarOuterContainer {
-  /* margin-bottom: 50px; */
-  height: 60px;
+/** This width specification is kept in sync
+    with the one defined in ContentPageTopNavMenuBar.css
+*/
+@media (max-width: 918px) {
+  div.ui.left.internal.rail.ContentPageSkeletonSideRail {
+    display: none;
+  }
 }

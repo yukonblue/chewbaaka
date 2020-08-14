@@ -24,7 +24,7 @@ import MediaLinkButton from '../shared/MediaLinkButton'
 
 import HintSignpost from '../shared/HintSignpost'
 
-import QnAPopUp from '../shared/QnAPopUp'
+// import QnAPopUp from '../shared/QnAPopUp'
 
 import FelidaeFamilyTree from './FelidaeFamilyTree'
 
@@ -117,11 +117,15 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
           icon="file alternate outline"
         />
 
-        <ContentPageSubsectionPart>
+        {/**
+         * TODO
+         * Bring back this pop up while maintain fluid layout
+         */}
+        {/* <ContentPageSubsectionPart>
           <QnAPopUp
             content="All the species of cats except for only the domestic cat are being threatened toward extinction due to man-made factors, such as climate change and habitat destructions."
           />
-        </ContentPageSubsectionPart>
+        </ContentPageSubsectionPart> */}
       </ContentPageSubsectionPart>
     );
   }

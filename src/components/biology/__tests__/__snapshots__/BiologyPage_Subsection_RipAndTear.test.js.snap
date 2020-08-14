@@ -13,16 +13,16 @@ exports[`BiologyPage_Subsection_RipAndTear component snapshot 1`] = `
       Rip and Tear
     </h3>
     <div
-      className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+      className="ContentPageSideFloatFluidContainerOuterContainer"
     >
       <div
-        className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+        className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
       >
         <div
           className="ImageViewOuterContainer"
           style={
             Object {
-              "width": 640,
+              "maxWidth": 640,
             }
           }
         >
@@ -36,11 +36,6 @@ exports[`BiologyPage_Subsection_RipAndTear component snapshot 1`] = `
                 alt="The three types of teeth of the cheetah: the incisors, canines, and carnassial."
                 className="ImageViewImg"
                 src="cheetah_teeth-min.jpg"
-                style={
-                  Object {
-                    "width": 640,
-                  }
-                }
               />
             </div>
             <div

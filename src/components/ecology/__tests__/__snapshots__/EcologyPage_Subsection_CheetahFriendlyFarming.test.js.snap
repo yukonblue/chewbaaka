@@ -41,16 +41,16 @@ exports[`EcologyPageSubsectionCheetahFriendlyFarming component snapshot 1`] = `
           Conservancies
         </h4>
         <div
-          className="ContentPageSideFloatFluidContainerOuterContainer OverflowHidden"
+          className="ContentPageSideFloatFluidContainerOuterContainer"
         >
           <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight HorizontalCusionPaddingLeft"
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
           >
             <div
               className="ImageViewOuterContainer"
               style={
                 Object {
-                  "width": 600,
+                  "maxWidth": 600,
                 }
               }
             >
@@ -61,14 +61,9 @@ exports[`EcologyPageSubsectionCheetahFriendlyFarming component snapshot 1`] = `
                   className="ImageViewImgContainer"
                 >
                   <img
-                    alt="Cheetah Conservation Fund works with communal farmers and people living around the Greater Waterberg Landscape Conservancy. (Image credit: Cheetah Conservation Fund)"
+                    alt="Cheetah Conservation Fund works with communal farmers and people living around the Greater Waterberg Landscape Conservancy."
                     className="ImageViewImg"
                     src="CCF_GWL_map-min.jpg"
-                    style={
-                      Object {
-                        "width": 600,
-                      }
-                    }
                   />
                 </div>
                 <div

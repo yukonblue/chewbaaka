@@ -4,14 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Aug 09, 2020
+ * Updated  : Aug 12, 2020
  */
 
 import React from 'react'
-
-import { Statistic, Segment } from 'semantic-ui-react'
-
-import 'semantic-ui-css/semantic.min.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
@@ -34,14 +30,14 @@ import LineBreak from '../shared/LineBreak'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
+import StatsLabel from '../shared/StatsLabel'
+
 import image_Cheetah_Evolution_and_Extinction_Scale from './assets/Cheetah_Evolution_and_Extinction_Scale-min.png'
 
 import cheetah_range_map_01 from './assets/cheetah-range-map-01-min.png'
 import cheetah_range_map_02 from './assets/cheetah-range-map-02-min.png'
 
 import '../shared/ContentPageSharedStyles.css'
-
-import './HistoryPage_Subsection_RoadToExtinction.css'
 
 export default class HistoryPageSubsectionRoadToExtinction extends React.Component {
 
@@ -111,16 +107,11 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
 
   renderStatsBoxHugeWithColor(value, label, color) {
     return (
-      <div className="CenteredBlowoutBox HistoryPageSubsectionRoadToExtinctionStatsBox">
-        <Segment inverted>
-          <Statistic inverted size="huge" color={color}>
-            <Statistic.Value>{value}</Statistic.Value>
-            <Statistic.Label>
-              {label}
-            </Statistic.Label>
-          </Statistic>
-        </Segment>
-      </div>
+      <StatsLabel
+        value={value}
+        label={label}
+        color={color}
+      />
     );
   }
 

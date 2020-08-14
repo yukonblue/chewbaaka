@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 11, 2020
  */
 
 import React from 'react'
@@ -29,26 +29,24 @@ export default class ContentPageSubsectionTwoColumnContentTemplate extends React
     return (
       <div className={getElementStyleClassName("ContentPageSubsectionTwoColumnContentTemplateOuterContainer")}>
         <div className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer">
-          <div className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"> 
-            <div className={getElementStyleClassNames(["ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer",
-                                                      "ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"])}
-            >
-              <ContentPageSubsectionSubtitle>
-                {this.props.lhsColumn.title}
-              </ContentPageSubsectionSubtitle>
-              {this.props.lhsColumn.content}
-            </div>
-            <div className={getElementStyleClassNames(["ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer",
-                                                      "ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"])}
-            >
-              <ContentPageSubsectionSubtitle>
-                {this.props.rhsColumn.title}
-              </ContentPageSubsectionSubtitle>
-              {this.props.rhsColumn.content}
-            </div>
+          <div className={getElementStyleClassNames(["ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer",
+                                                    "ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"])}
+          >
+            <ContentPageSubsectionSubtitle>
+              {this.props.lhsColumn.title}
+            </ContentPageSubsectionSubtitle>
+            {this.props.lhsColumn.content}
+          </div>
+          <div className={getElementStyleClassNames(["ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer",
+                                                    "ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"])}
+          >
+            <ContentPageSubsectionSubtitle>
+              {this.props.rhsColumn.title}
+            </ContentPageSubsectionSubtitle>
+            {this.props.rhsColumn.content}
           </div>
         </div>
       </div>
-    )
+    );
   }
 }

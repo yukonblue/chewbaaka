@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 26, 2020
- * Updated  : Aug 08, 2020
+ * Updated  : Aug 13, 2020
  */
 
 import React from 'react'
@@ -12,8 +12,11 @@ import React from 'react'
 import './ContentPageSharedStyles.css'
 
 import {
+  getElementStyleClassName,
   getElementStyleClassNames
 } from '../../styling/styling'
+
+import './ContentPageSideFloatFluidContainer.css'
 
 if ( process.env.NODE_ENV === 'development' )
   require('./ContentPageSideFloatFluidContainer-debug.css')
@@ -23,12 +26,9 @@ export default class ContentPageSideFloatFluidContainer extends React.Component 
   render() {
     const floatClassName = this.props.RTL ? "FloatLeft" : "FloatRight";
 
-    const paddingClassName = this.props.RTL ? "HorizontalCusionPaddingRight" : "HorizontalCusionPaddingLeft";
-
     let classNames = ["ContentPageSideFloatFluidContainerFloatPartContainer",
                       "BottomMargin20px",
                       floatClassName,
-                      paddingClassName
                     ];
 
     const oppositeFloatClassName = this.props.floatFixedSide ? (this.props.RTL ? "FloatRight" : "FloatLeft") : "";
@@ -40,8 +40,7 @@ export default class ContentPageSideFloatFluidContainer extends React.Component 
     }
 
     return (
-      <div className={getElementStyleClassNames(["ContentPageSideFloatFluidContainerOuterContainer",
-                                                 "OverflowHidden"])}
+      <div className={getElementStyleClassName("ContentPageSideFloatFluidContainerOuterContainer")}
       >
         <div className={getElementStyleClassNames(classNames)}>
           {this.props.floatPart}

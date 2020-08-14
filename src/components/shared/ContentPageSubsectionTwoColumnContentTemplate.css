@@ -4,30 +4,40 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 10, 2020
+ * Updated  : Aug 12, 2020
  */
 
 div.ContentPageSubsectionTwoColumnContentTemplateOuterContainer {
   margin: 0 auto;
 }
 
-div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer {
-  margin: 0 auto;
-  float: left;
-  width: 50%;
-}
-
-div.ContentPageSubsectionTwoColumnContentTemplateColumnContainer:after {
-  /* Clear floats after the columns */
-  content: "";
-  display: table;
-  clear: both;
+div.ContentPageSubsectionTwoColumnContentTemplateInnerContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  box-sizing: content-box;
 }
 
 div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs {
   padding-right: 1rem;
+  flex: 1;
 }
 
 div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs {
   padding-left: 1rem;
+  flex: 1;
+}
+
+@media (max-width: 1023px) {
+  div.ContentPageSubsectionTwoColumnContentTemplateInnerContainer {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs {
+    padding: 0;
+  }
+  
+  div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs {
+    padding: 0;
+  }
 }

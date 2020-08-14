@@ -4,27 +4,21 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 12, 2020
  */
 
 div.CircularImageOuterContainer {
-  /** NOTE: This need to be kept in sync with width below. */
   width: 384px;
+  max-width: 100%;
 }
 
-div.CircularImageCore {
-  width: 384px;
-  height: 384px;
+img.CircularImageImg {
+  max-width: 100%;
+  box-sizing: border-box;
   border: 12px solid orange;
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;  
-}
-
-img.CircularImageImg {
-  width: 361px;
-  height: 361px;
-  border-radius: 50%;
 }
 
 p.CircularImageTitle {

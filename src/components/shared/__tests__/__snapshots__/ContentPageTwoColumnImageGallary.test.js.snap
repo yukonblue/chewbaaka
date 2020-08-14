@@ -8,128 +8,114 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
     className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
   >
     <div
-      className="ContentPageSubsectionTwoColumnContentTemplateColumnContainer"
+      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
     >
+      <h4
+        className="ContentPageSubsectionSubtitle"
+      />
       <div
-        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-      >
-        <h4
-          className="ContentPageSubsectionSubtitle"
-        />
-        <div
-          className="ImageViewOuterContainer"
-          style={
-            Object {
-              "width": 720,
-            }
+        className="ImageViewOuterContainer"
+        style={
+          Object {
+            "maxWidth": 720,
           }
+        }
+      >
+        <div
+          className="ImageViewInnerContainer"
         >
           <div
-            className="ImageViewInnerContainer"
+            className="ImageViewImgContainer"
+          >
+            <img
+              alt="This is image 1."
+              className="ImageViewImg"
+              src="some image 1"
+            />
+          </div>
+          <div
+            className="ImageViewCaptionContainer"
           >
             <div
-              className="ImageViewImgContainer"
-            >
-              <img
-                alt="This is image 1."
-                className="ImageViewImg"
-                src="some image 1"
-                style={
-                  Object {
-                    "width": 720,
-                  }
+              className="CaptionContainer"
+              data-testid="CaptionComponentTestId"
+              style={
+                Object {
+                  "maxWidth": 720,
                 }
-              />
-            </div>
-            <div
-              className="ImageViewCaptionContainer"
+              }
             >
               <div
-                className="CaptionContainer"
-                data-testid="CaptionComponentTestId"
-                style={
-                  Object {
-                    "maxWidth": 720,
-                  }
-                }
+                className="IconContainer"
               >
-                <div
-                  className="IconContainer"
-                >
-                  <i
-                    aria-hidden="true"
-                    className="image icon"
-                    onClick={[Function]}
-                  />
-                </div>
-                <p
-                  className="ContentPageCaptionTextSize CaptionText"
-                >
-                  This is image 1.
-                </p>
+                <i
+                  aria-hidden="true"
+                  className="image icon"
+                  onClick={[Function]}
+                />
               </div>
+              <p
+                className="ContentPageCaptionTextSize CaptionText"
+              >
+                This is image 1.
+              </p>
             </div>
           </div>
         </div>
       </div>
+    </div>
+    <div
+      className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+    >
+      <h4
+        className="ContentPageSubsectionSubtitle"
+      />
       <div
-        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-      >
-        <h4
-          className="ContentPageSubsectionSubtitle"
-        />
-        <div
-          className="ImageViewOuterContainer"
-          style={
-            Object {
-              "width": 1080,
-            }
+        className="ImageViewOuterContainer"
+        style={
+          Object {
+            "maxWidth": 1080,
           }
+        }
+      >
+        <div
+          className="ImageViewInnerContainer"
         >
           <div
-            className="ImageViewInnerContainer"
+            className="ImageViewImgContainer"
+          >
+            <img
+              alt="This is image 2."
+              className="ImageViewImg"
+              src="some image 2"
+            />
+          </div>
+          <div
+            className="ImageViewCaptionContainer"
           >
             <div
-              className="ImageViewImgContainer"
-            >
-              <img
-                alt="This is image 2. (Image credit: Image God)"
-                className="ImageViewImg"
-                src="some image 2"
-                style={
-                  Object {
-                    "width": 1080,
-                  }
+              className="CaptionContainer"
+              data-testid="CaptionComponentTestId"
+              style={
+                Object {
+                  "maxWidth": 1080,
                 }
-              />
-            </div>
-            <div
-              className="ImageViewCaptionContainer"
+              }
             >
               <div
-                className="CaptionContainer"
-                data-testid="CaptionComponentTestId"
-                style={
-                  Object {
-                    "maxWidth": 1080,
-                  }
-                }
+                className="IconContainer"
               >
-                <div
-                  className="IconContainer"
-                >
-                  <i
-                    aria-hidden="true"
-                    className="image icon"
-                    onClick={[Function]}
-                  />
-                </div>
-                <p
-                  className="ContentPageCaptionTextSize CaptionText"
-                >
-                  This is image 2. (Image credit: Image God)
-                </p>
+                <i
+                  aria-hidden="true"
+                  className="image icon"
+                  onClick={[Function]}
+                />
               </div>
+              <p
+                className="ContentPageCaptionTextSize CaptionText"
+              >
+                This is image 2. (Image credit: Image God)
+              </p>
             </div>
           </div>
         </div>

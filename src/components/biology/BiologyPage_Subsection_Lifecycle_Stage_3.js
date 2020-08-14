@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 13, 2020
  */
 
 import React from 'react'
@@ -18,6 +18,8 @@ import {
 } from '../shared/ContentPageSubsectionContentBinder'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
+
+import FactBannerImage from '../shared/FactBannerImage'
 
 import image_fact_banner_what_is_diurnal from './assets/What_is_Diurnal-min.png'
 
@@ -52,13 +54,11 @@ export default class BiologyPageSubsectionLifecycleStage3 extends React.Componen
           icon="file image"
         />
 
-        <div className="FactBannerSmallDimension Centered">
-          <img
-            className="FactBannerSmallDimension"
-            src={image_fact_banner_what_is_diurnal}
-            alt="What is diurnal?"
-          />
-        </div>
+        <FactBannerImage
+          src={image_fact_banner_what_is_diurnal}
+          alt="What is diurnal?"
+          centered
+        />
       </div>
     );
   }

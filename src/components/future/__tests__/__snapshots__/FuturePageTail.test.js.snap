@@ -24,11 +24,15 @@ exports[`FuturePageTail component snapshot 1`] = `
           >
             Cheetah Conservation Fund Vision Statement
           </h5>
-          <p
-            className="FuturePageTailVisionStatementText TextCentered"
+          <div
+            className="FuturePageTailVisionStatementTextContainer"
           >
-            We see a world in which cheetahs live and flourish in coexistence with people and the environment.
-          </p>
+            <p
+              className="FuturePageTailVisionStatementText TextCentered"
+            >
+              We see a world in which cheetahs live and flourish in coexistence with people and the environment.
+            </p>
+          </div>
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 13, 2020
  */
 
 import React from 'react'
@@ -20,19 +20,12 @@ import {
 
 import '../shared/ContentPageSharedStyles.css'
 
-import { getElementStyleClassName } from '../../styling/styling'
-
 import CircularImage from '../shared/CircularImage'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
 import image_Chewbaaka from './assets/Chewbaaka-min.jpg'
 import image_Mekondyo from './assets/Mekondyo-min.jpg'
-
-import './FuturePage_Subsection_CheetahAmbassadors.css'
-
-if ( process.env.NODE_ENV === 'development' )
-  require('./FuturePage_Subsection_CheetahAmbassadors-debug.css')
 
 export default class FuturePageSubsectionCheetahAmbassadors extends React.Component {
 
@@ -47,18 +40,16 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
 
   render() {
     return (
-      <div className="FuturePageSubsectionCheetahsAtCCF">
-        <ContentPageSubsectionTemplate
-          title={this.state.subsectionConfig.title}
-          content={this.renderContent()}
-        />
-      </div>
-    )
+      <ContentPageSubsectionTemplate
+        title={this.state.subsectionConfig.title}
+        content={this.renderContent()}
+      />
+    );
   }
 
   renderContent() {
     return (
-      <div className="FuturePageSubsectionCheetahsAtCCFInnerContainer">
+      <div>
         {this.renderPartIntro(this.state.subsectionConfig.contents["part_Intro"])}
         {this.renderPartChewbaaka(this.state.subsectionConfig.contents["part_Chewbaaka"])}
         {this.renderPartMekondyo(this.state.subsectionConfig.contents["part_Mekondyo"])}
@@ -117,23 +108,19 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
 
   renderRhsContentChewbaaka() {
     return (
-      <div className={getElementStyleClassName("FuturePageSubsectionCheetahsAtCCFImageContainer")}>
-        <CircularImage
-          image={image_Chewbaaka}
-          title="Chewbaaka"
-        />
-      </div>
+      <CircularImage
+        image={image_Chewbaaka}
+        title="Chewbaaka"
+      />
     );
   }
 
   renderLhsContentMekondyo() {
     return (
-      <div className={getElementStyleClassName("FuturePageSubsectionCheetahsAtCCFImageContainer")}>
-        <CircularImage
-          image={image_Mekondyo}
-          title="Mekondyo"
-        />
-      </div>
+      <CircularImage
+        image={image_Mekondyo}
+        title="Mekondyo"
+      />
     );
   }
 

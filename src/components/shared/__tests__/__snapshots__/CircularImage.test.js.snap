@@ -4,23 +4,15 @@ exports[`CircularImage component snapshot 1`] = `
 <div
   className="CircularImageOuterContainer"
 >
-  <div
-    className="CircularImageCore"
+  <img
+    alt="Chewbaaka"
+    className="CircularImageImg"
+    src="https://sotinpc.files.wordpress.com/2013/04/day-of-rememberance.jpg"
+  />
+  <p
+    className="CircularImageTitle"
   >
-    <img
-      alt="Chewbaaka"
-      className="CircularImageImg"
-      src="https://sotinpc.files.wordpress.com/2013/04/day-of-rememberance.jpg"
-    />
-  </div>
-  <div
-    className="CircularImageTitleContainer"
-  >
-    <p
-      className="CircularImageTitle"
-    >
-      Chewbaaka
-    </p>
-  </div>
+    Chewbaaka
+  </p>
 </div>
 `;

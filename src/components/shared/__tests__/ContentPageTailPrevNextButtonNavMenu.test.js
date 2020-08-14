@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Aug 01, 2020
- * Updated  : Aug 06, 2020
+ * Updated  : Aug 13, 2020
  */
 
 import React from 'react'
@@ -20,9 +20,11 @@ import RouterWrapped from '../../../testing/RouterWrapped'
 const pageTailNavMenu = {
   prevPage: {
     label: "Biology",
+    href: "/biology"
   },
   nextPage: {
-    label: "Future"
+    label: "Future",
+    href: "/future"
   }
 };
 
