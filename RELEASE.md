@@ -2,6 +2,10 @@
 
 ## Version 0.2.0
 
+* Date: August 13, 2020
+* Commit: `66dca7a`
+* Tag: `v0.2.0`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.2.0)
 * Changelog
   * Fixes for the following issues:
     * Issue #125 - Adopt fluid dimension design across content pages
