@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 13, 2020
+ * Updated  : Aug 14, 2020
  */
 
 div.ContentPageTopNavMenuBarContainer {
@@ -54,7 +54,23 @@ nav ul.ContentPageTopNavMenuBarMenuList li a:hover {
   color: rgba(0,0,0,.95);
 }
 
-@media (max-width: 918px) {
+@media (max-width: 917px) {
+  div.ContentPageTopNavMenuBarContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav ul.ContentPageTopNavMenuBarMenuList {
+    justify-content: space-between;
+  }
+
+  nav ul.ContentPageTopNavMenuBarMenuList li {
+    margin: auto 0.6em;
+  }
+}
+
+@media (max-width: 639px) {
   div.ContentPageTopNavMenuBarContainer {
     flex-direction: column;
     align-items: center;
