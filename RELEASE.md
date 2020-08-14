@@ -29,6 +29,7 @@
     - Refined background image styling of `ContentPageBanner` component.
     - Use conditional rendering and media queries for fixed size component.
     - [Refine][Style] Add media query specification for content page side rail menu.
+    - [Refine][Fix] Make sure image wrapped by `FluidImageWrapper` retain original aspect ratio.
 
 ## Version 0.1.14
 

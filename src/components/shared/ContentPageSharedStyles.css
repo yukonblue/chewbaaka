@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 11, 2020
+ * Updated  : Aug 13, 2020
  */
 
 /** ----------------------------- CONTAINER -------------------------------- **/
@@ -106,6 +106,13 @@ div.BottomMargin20px {
 
 .DisplayBlock {
   display: block;
+}
+
+img.RetainAspectRatio {
+  object-fit: contain;
+  max-width: 100%;
+  width: auto;
+  height: auto;
 }
 
 /** ------------------------------- TEXT ----------------------------------- **/
