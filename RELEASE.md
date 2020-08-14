@@ -1,6 +1,6 @@
 # Release Note
 
-## %NEXT VERSION%
+## Version 0.2.0
 
 * Changelog
   * Fixes for the following issues:
