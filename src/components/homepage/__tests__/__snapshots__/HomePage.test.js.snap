@@ -143,7 +143,7 @@ exports[`HomePage snapshot 1`] = `
         className="column ExploreGatewayGridItemColumn"
       >
         <div
-          className="ExploreGatewayGridItemImageWrapper"
+          className="ExploreGatewayGridItemInnerContainer"
         >
           <a
             className="ExploreGatewayGridItemImageAnchor"
@@ -157,18 +157,18 @@ exports[`HomePage snapshot 1`] = `
               src="explore_gateway_grid_item_img_01-min.jpg"
             />
           </a>
+          <h2
+            className="ui left aligned header ExploreGatewayGridItemHeader"
+          >
+            History
+          </h2>
         </div>
-        <h2
-          className="ui left aligned header ExploreGatewayGridItemHeader"
-        >
-          History
-        </h2>
       </div>
       <div
         className="column ExploreGatewayGridItemColumn"
       >
         <div
-          className="ExploreGatewayGridItemImageWrapper"
+          className="ExploreGatewayGridItemInnerContainer"
         >
           <a
             className="ExploreGatewayGridItemImageAnchor"
@@ -182,18 +182,18 @@ exports[`HomePage snapshot 1`] = `
               src="explore_gateway_grid_item_img_02-min.jpg"
             />
           </a>
+          <h2
+            className="ui left aligned header ExploreGatewayGridItemHeader"
+          >
+            Biology
+          </h2>
         </div>
-        <h2
-          className="ui left aligned header ExploreGatewayGridItemHeader"
-        >
-          Biology
-        </h2>
       </div>
       <div
         className="column ExploreGatewayGridItemColumn"
       >
         <div
-          className="ExploreGatewayGridItemImageWrapper"
+          className="ExploreGatewayGridItemInnerContainer"
         >
           <a
             className="ExploreGatewayGridItemImageAnchor"
@@ -207,18 +207,18 @@ exports[`HomePage snapshot 1`] = `
               src="explore_gateway_grid_item_img_03-min.jpg"
             />
           </a>
+          <h2
+            className="ui left aligned header ExploreGatewayGridItemHeader"
+          >
+            Ecology
+          </h2>
         </div>
-        <h2
-          className="ui left aligned header ExploreGatewayGridItemHeader"
-        >
-          Ecology
-        </h2>
       </div>
       <div
         className="column ExploreGatewayGridItemColumn"
       >
         <div
-          className="ExploreGatewayGridItemImageWrapper"
+          className="ExploreGatewayGridItemInnerContainer"
         >
           <a
             className="ExploreGatewayGridItemImageAnchor"
@@ -232,12 +232,12 @@ exports[`HomePage snapshot 1`] = `
               src="explore_gateway_grid_item_img_04-min.jpg"
             />
           </a>
+          <h2
+            className="ui left aligned header ExploreGatewayGridItemHeader"
+          >
+            Future
+          </h2>
         </div>
-        <h2
-          className="ui left aligned header ExploreGatewayGridItemHeader"
-        >
-          Future
-        </h2>
       </div>
     </div>
     <br />
