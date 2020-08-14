@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 13, 2020
+ * Updated  : Aug 13, 2020
  */
 
 div.column.ExploreGatewayGridItemColumn {
@@ -23,7 +23,6 @@ a.ExploreGatewayGridItemImageAnchor:hover {
 
 img.ui.medium.image.ExploreGatewayGridItemImage {
   width: 232.5px;
-  height: 379.067px;
 }
 
 img.ui.medium.image.ExploreGatewayGridItemImage:hover {
