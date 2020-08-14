@@ -116,12 +116,11 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
   renderPartBoneContent(part) {
     return (
       <ContentPageSubsectionPart>
-        {/** TODO: Enable this text bubble */}
-        {/* <TextBubble
+        <TextBubble
           diameter={760}
           title={part.title}
           content={ContentPageSubsectionParagraphsJoin(part.contents)}
-        /> */}
+        />
 
         <div className="Centered VerticalCushionPaddingTopLarge">
           <ImageView
