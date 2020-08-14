@@ -32,6 +32,7 @@
     - [Refine][Style] Add media query specification for content page side rail menu.
     - [Refine][Fix] Make sure image wrapped by `FluidImageWrapper` retain original aspect ratio.
     - [Style][Refine] Give vertical margin to `FactBannerImage` component.
+    - [Style][Refine] Remove fixed height specification for text in `Caption` component (I'm okay with page jump for now).
 
 ## Version 0.1.14
 
