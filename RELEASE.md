@@ -12,6 +12,7 @@
     * Issue #159 - Not enough margin between parts in 'Stage 2' subsection in Biology page.
   * Other changes:
     * [Fix] Make button labels in `ImageSlidingGalleryDiscrete` component start at 1 instead of 0
+    * Retired image artwork `src/components/ecology/assets/Spoor_Tracking_Data_Collection-min.jpg`.
 
 ## Version 0.2.0
 
