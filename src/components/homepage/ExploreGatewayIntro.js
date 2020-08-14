@@ -16,7 +16,7 @@ import {
   Segment
 } from 'semantic-ui-react'
 
-import FluidTwoColumnContainer from '../shared/FluidTwoColumnContainer'
+import FluidSingleRowGrid from '../shared/FluidSingleRowGrid'
 
 import 'semantic-ui-css/semantic.min.css'
 
@@ -46,32 +46,28 @@ export default function ExploreGatewayIntro() {
       </div>
 
       <div className="ExploreGatewayIntroCenterGrid VerticalCushionPadding">
-        <FluidTwoColumnContainer
-          lhsColumn={
-            <div className="ExploreGatewayIntroCenterGridLhsColumnStyle">
-              <p className="CCFMissionStatementQuote">
-                “CCF is Changing the World to Save the Cheetah” - Dr. Laurie Marker
+        <FluidSingleRowGrid justifyContent="center">
+          <div className="ExploreGatewayIntroCenterGridLhsColumnStyle">
+            <p className="CCFMissionStatementQuote">
+              “CCF is Changing the World to Save the Cheetah” - Dr. Laurie Marker
+            </p>
+          </div>
+          <div className="ExploreGatewayIntroCenterGridRhsColumnStyle">
+            <Segment inverted>
+              <p className="JoinTheRace">
+                Join the race to <a href="https://twitter.com/search?q=%23SaveTheCheetah" target="_blank" rel="noopener noreferrer">
+                  <span className="SafeTheCheetah">
+                    #SafeTheCheetah
+                  </span>
+                </a>
               </p>
-            </div>
-          }
-          rhsColumn={
-            <div className="ExploreGatewayIntroCenterGridRhsColumnStyle">
-              <Segment inverted>
-                <p className="JoinTheRace">
-                  Join the race to <a href="https://twitter.com/search?q=%23SaveTheCheetah" target="_blank" rel="noopener noreferrer">
-                    <span className="SafeTheCheetah">
-                      #SafeTheCheetah
-                    </span>
-                  </a>
-                </p>
-                <p>Cheetahs can't win without us.</p>
-                <Button basic inverted href="https://cheetah.org/get-involved/ways-to-give/">
-                  Get Involved
-                </Button>
-              </Segment>
-            </div>
-          }
-        />
+              <p>Cheetahs can't win without us.</p>
+              <Button basic inverted href="https://cheetah.org/get-involved/ways-to-give/">
+                Get Involved
+              </Button>
+            </Segment>
+          </div>
+        </FluidSingleRowGrid>
       </div>
     </div>
   );
