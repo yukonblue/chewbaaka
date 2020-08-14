@@ -166,11 +166,6 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
   }
 
   renderImageViewModals() {
-    /**
-     * TODO:
-     * Use more suitable/tailored container for these image views.
-     */
-
     const images = [
       image_namibia_landscape_01,
       image_namibia_landscape_02,
