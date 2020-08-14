@@ -6,6 +6,7 @@
   * Fixes for the following issues:
     * Issue #125 - Adopt fluid dimension design across content pages
   * All notable changes:
+    - Removed `min-width` specification in named style `ContentPageSkeletonContentContainerDimension`.
     - Deprecate `TopNavBar` and refined `ContentPageTopNavMenuBar` as the single top navigation bar in a content page.
     - Refined the following common controls to better adopt fluid layout:
       - `CircularImage`
