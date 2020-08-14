@@ -3,6 +3,9 @@
 ## Version 0.2.2
 
 * Date: August 14, 2020
+* Commit: `a6f2f66`
+* Tag: `v0.2.2`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.2.2)
 * Changelog:
   * Fixes for the following issues:
     * Issue #161 - Explore gateway grid item anchor area too wide when viewport is shrunk.
