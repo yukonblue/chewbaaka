@@ -1,7 +1,8 @@
 # Release Note
 
-## %NEXT VERSION%
+## Version 0.2.1
 
+* Date: August 13, 2020
 * Changelog:
   * Fixes for the following issues:
     * Issue #153 - Image under 'What is Conservation' subsection is stretched.
