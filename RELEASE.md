@@ -3,6 +3,9 @@
 ## Version 0.2.1
 
 * Date: August 13, 2020
+* Commit: `c3f44f6`
+* Tag: `v0.2.1`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.2.1)
 * Changelog:
   * Fixes for the following issues:
     * Issue #153 - Image under 'What is Conservation' subsection is stretched.
