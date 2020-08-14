@@ -3,8 +3,11 @@
 ## %NEXT VERSION%
 
 * Changelog:
+  * Fixes for the following issues:
+    * Issue #162 - Cheetah range map under 'Namibia - Cheetah Capital of the World' subsection not horizontally centered.
   * Other changes:
     * Fix `--bump-minor` and `--bump-major` options in `versionutil.py` to be semantically correct.
+    * Add unit test for 'Namibia - Cheetah Capital of the World' subsection.
 
 ## Version 0.2.1
 
