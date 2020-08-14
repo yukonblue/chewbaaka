@@ -28,6 +28,7 @@
     - Introduced new content page layout component `FluidSingleRowGrid`.
     - Refined background image styling of `ContentPageBanner` component.
     - Use conditional rendering and media queries for fixed size component.
+    - [Refine][Style] Add media query specification for content page side rail menu.
 
 ## Version 0.1.14
 

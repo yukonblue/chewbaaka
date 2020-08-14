@@ -92,7 +92,7 @@ export default class ContentPageSkeleton extends React.Component {
                                                       "ContentPageSkeletonContentContainer"])}>
             {this.props.content}
           </div>
-          <Rail internal position='left'>
+          <Rail internal position='left' className="ContentPageSkeletonSideRail">
             <Sticky context={this.state.contextRef} offset={100}>
               <Button
                 circular
