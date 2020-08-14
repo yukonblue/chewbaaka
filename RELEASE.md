@@ -1,5 +1,11 @@
 # Release Note
 
+## %NEXT VERSION%
+
+* Changelog:
+  * Other changes:
+    * Fix `--bump-minor` and `--bump-major` options in `versionutil.py` to be semantically correct.
+
 ## Version 0.2.1
 
 * Date: August 13, 2020

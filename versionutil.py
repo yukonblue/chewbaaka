@@ -3,7 +3,7 @@ versionutils.py
 
 Author   : Tomiko
 Created  : Jul 29, 2020
-Updated  : Jul 29, 2020
+Updated  : Aug 14, 2020
 """
 
 """
@@ -67,8 +67,11 @@ def bumpVersionStr(versionStr, args):
         patchStr = bumpStr(patchStr)
     elif args.bump_minor:
         minorStr = bumpStr(minorStr)
+        patchStr = '0'
     else:
         majorStr = bumpStr(majorStr)
+        minorStr = '0'
+        patchStr = '0'
 
     return '.'.join([majorStr, minorStr, patchStr])
 
