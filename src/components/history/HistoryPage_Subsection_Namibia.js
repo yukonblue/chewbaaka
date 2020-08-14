@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 11, 2020
+ * Updated  : Aug 14, 2020
  */
 
 import React from 'react'
@@ -104,12 +104,14 @@ export default class HistoryPageSubsectionNamibia extends React.Component {
 
   renderMiddleColumnContent() {
     return (
-      <ImageView
-        width={640}
-        height={640}
-        image={image_Cheetah_Occurrence_Range_Map}
-        caption="Cheetah distribution and population density in Namibia."
-      />
+      <div className="Centered" style={{maxWidth:640}}>
+        <ImageView
+          width={640}
+          height={640}
+          image={image_Cheetah_Occurrence_Range_Map}
+          caption="Cheetah distribution and population density in Namibia."
+        />
+      </div>
     );
   }
 
