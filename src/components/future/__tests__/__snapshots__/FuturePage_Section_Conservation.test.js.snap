@@ -74,7 +74,7 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
                 >
                   <img
                     alt="Conservation is taking care of the environment in which we live."
-                    className="FullWidth"
+                    className="FullWidth DisplayBlock RetainAspectRatio"
                     src="earth_environment-min.png"
                   />
                 </div>

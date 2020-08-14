@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 12, 2020
+ * Updated  : Aug 13, 2020
  */
 
 import React from 'react'
@@ -20,6 +20,8 @@ import {
   ContentPageSubsectionParagraphsContentBinder,
   ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import FluidImageWrapper from '../shared/FluidImageWrapper'
 
 import image_earth_environment from './assets/earth_environment-min.png'
 import image_earth_biodiversity from './assets/earth_biodiversity-min.png'
@@ -58,10 +60,9 @@ export default class FuturePageSubsectionWhatIsConservation extends React.Compon
       <ContentPageSubsectionPart>
         <ContentPageSideFloatFluidContainer
           floatPart={
-            <img
+            <FluidImageWrapper
               src={image_earth_environment}
               alt="Conservation is taking care of the environment in which we live."
-              className="FullWidth"
             />
           }
           fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
