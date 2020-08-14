@@ -39,7 +39,7 @@ exports[`ExploreGateway component snapshot 1`] = `
         className="FluidTwoColumnContainerOuterContainer"
       >
         <div
-          className="FluidTwoColumnContainerColumnContainer"
+          className="FluidTwoColumnContainerColumnContainer FluidTwoColumnLhsContainerColumnContainer"
         >
           <div
             className="ExploreGatewayIntroCenterGridLhsColumnStyle"
@@ -52,7 +52,7 @@ exports[`ExploreGateway component snapshot 1`] = `
           </div>
         </div>
         <div
-          className="FluidTwoColumnContainerColumnContainer"
+          className="FluidTwoColumnContainerColumnContainer FluidTwoColumnRhsContainerColumnContainer"
         >
           <div
             className="ExploreGatewayIntroCenterGridRhsColumnStyle"

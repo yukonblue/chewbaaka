@@ -5,14 +5,14 @@ exports[`FluidTwoColumnContainer component snapshot 1`] = `
   className="FluidTwoColumnContainerOuterContainer"
 >
   <div
-    className="FluidTwoColumnContainerColumnContainer"
+    className="FluidTwoColumnContainerColumnContainer FluidTwoColumnLhsContainerColumnContainer"
   >
     <p>
       This is the LHS column.
     </p>
   </div>
   <div
-    className="FluidTwoColumnContainerColumnContainer"
+    className="FluidTwoColumnContainerColumnContainer FluidTwoColumnRhsContainerColumnContainer"
   >
     <p>
       This is the RHS column.

@@ -4,9 +4,17 @@
  *
  * Author   : Tomiko
  * Created  : Aug 07, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 13, 2020
  */
 
 div.FluidTwoColumnContainerOuterContainer_DebugColor {
   background-color: sandybrown;
+}
+
+div.FluidTwoColumnLhsContainerColumnContainer_DebugColor {
+  background-color: lightseagreen;
+}
+
+div.FluidTwoColumnRhsContainerColumnContainer_DebugColor {
+  background-color: magenta;
 }

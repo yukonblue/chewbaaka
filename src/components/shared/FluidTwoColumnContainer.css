@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Aug 04, 2020
- * Updated  : Aug 12, 2020
+ * Updated  : Aug 13, 2020
  */
 
 div.FluidTwoColumnContainerOuterContainer {
@@ -12,7 +12,15 @@ div.FluidTwoColumnContainerOuterContainer {
 }
 
 div.FluidTwoColumnContainerColumnContainer {
-  flex: 50%;
+  flex: 1;
+}
+
+div.FluidTwoColumnLhsContainerColumnContainer {
+  padding-right: 2em;
+}
+
+div.FluidTwoColumnRhsContainerColumnContainer {
+  padding-left: 2em;
 }
 
 @media (max-width: 1023px) {
@@ -20,7 +28,11 @@ div.FluidTwoColumnContainerColumnContainer {
     flex-direction: column;
   }
 
-  div.FluidTwoColumnContainerColumnContainer {
-    flex: 1;
+  div.FluidTwoColumnLhsContainerColumnContainer {
+    padding: 0;
+  }
+  
+  div.FluidTwoColumnRhsContainerColumnContainer {
+    padding: 0;
   }
 }
