@@ -1,5 +1,18 @@
 # Release Note
 
+## %NEXT VERSION%
+
+* Changelog:
+  * Fixes for the following issues:
+    * Issue #153 - Image under 'What is Conservation' subsection is stretched.
+    * Issue #155 - Degenerate rendering in `ImageSlidingGalleryDiscrete` component.
+    * Issue #156 - Misalignment in `ImageSlidingGalleryDiscrete` component in Ecology page.
+    * Issue #157 - Explore gateway buttons in homepage can be stretched.
+    * Issue #158 - Bad layout in Homepage explore gateway intro.
+    * Issue #159 - Not enough margin between parts in 'Stage 2' subsection in Biology page.
+  * Other changes:
+    * [Fix] Make button labels in `ImageSlidingGalleryDiscrete` component start at 1 instead of 0
+
 ## Version 0.2.0
 
 * Date: August 13, 2020
