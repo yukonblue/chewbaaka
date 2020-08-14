@@ -95,13 +95,13 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
           className="ui yellow huge button"
           onClick={[Function]}
         >
-          0
+          1
         </button>
         <button
           className="ui blue huge button"
           onClick={[Function]}
         >
-          1
+          2
         </button>
       </div>
     </div>

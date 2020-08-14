@@ -416,12 +416,6 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
                           className="ui yellow huge button"
                           onClick={[Function]}
                         >
-                          0
-                        </button>
-                        <button
-                          className="ui blue huge button"
-                          onClick={[Function]}
-                        >
                           1
                         </button>
                         <button
@@ -435,6 +429,12 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
                           onClick={[Function]}
                         >
                           3
+                        </button>
+                        <button
+                          className="ui blue huge button"
+                          onClick={[Function]}
+                        >
+                          4
                         </button>
                       </div>
                     </div>
