@@ -28,42 +28,46 @@ exports[`QnAPopUp component snapshot 1`] = `
     className="QnAPopUpTextSecondaryBubbleContainer"
   >
     <div
-      className="TextBubbleOuterContainer"
-      hidden={true}
-      style={
-        Object {
-          "backgroundColor": "rgb(undefined)",
-          "height": 45,
-          "width": 45,
-        }
-      }
+      className="TextBubbleOuterContainerFlexWrapper"
     >
       <div
-        className="TextBubbleInnerContainer"
+        className="TextBubbleOuterContainer"
+        hidden={true}
+        style={
+          Object {
+            "backgroundColor": "rgb(undefined)",
+            "height": 45,
+            "maxWidth": 45,
+          }
+        }
       >
         <div
-          className="TextBubbleInnerCore"
+          className="TextBubbleInnerContainer"
         >
-          <h1
-            style={
-              Object {
-                "color": "rgb(undefined)",
-                "fontSize": 3.6,
-              }
-            }
+          <div
+            className="TextBubbleInnerCore"
           >
-            
-          </h1>
-          <p
-            style={
-              Object {
-                "color": "rgb(undefined)",
-                "fontSize": 2.25,
+            <h1
+              style={
+                Object {
+                  "color": "rgb(undefined)",
+                  "fontSize": 3.6,
+                }
               }
-            }
-          >
-            
-          </p>
+            >
+              
+            </h1>
+            <p
+              style={
+                Object {
+                  "color": "rgb(undefined)",
+                  "fontSize": 2.25,
+                }
+              }
+            >
+              
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -72,42 +76,46 @@ exports[`QnAPopUp component snapshot 1`] = `
     className="QnAPopUpMainTextBubbleContainer"
   >
     <div
-      className="TextBubbleOuterContainer"
-      hidden={true}
-      style={
-        Object {
-          "backgroundColor": "rgb(undefined)",
-          "height": 320,
-          "width": 320,
-        }
-      }
+      className="TextBubbleOuterContainerFlexWrapper"
     >
       <div
-        className="TextBubbleInnerContainer"
+        className="TextBubbleOuterContainer"
+        hidden={true}
+        style={
+          Object {
+            "backgroundColor": "rgb(undefined)",
+            "height": 320,
+            "maxWidth": 320,
+          }
+        }
       >
         <div
-          className="TextBubbleInnerCore"
+          className="TextBubbleInnerContainer"
         >
-          <h1
-            style={
-              Object {
-                "color": "rgb(undefined)",
-                "fontSize": 25.6,
-              }
-            }
+          <div
+            className="TextBubbleInnerCore"
           >
-            Did you know?
-          </h1>
-          <p
-            style={
-              Object {
-                "color": "rgb(undefined)",
-                "fontSize": 16,
+            <h1
+              style={
+                Object {
+                  "color": "rgb(undefined)",
+                  "fontSize": 25.6,
+                }
               }
-            }
-          >
-            The cheetah is the fastest land animal!
-          </p>
+            >
+              Did you know?
+            </h1>
+            <p
+              style={
+                Object {
+                  "color": "rgb(undefined)",
+                  "fontSize": 16,
+                }
+              }
+            >
+              The cheetah is the fastest land animal!
+            </p>
+          </div>
         </div>
       </div>
     </div>

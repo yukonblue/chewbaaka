@@ -42,7 +42,7 @@ exports[`BiologyPageSubsectionLifecycleStage3 component snapshot 1`] = `
       </div>
       <img
         alt="What is diurnal?"
-        className="FullWidth DisplayBlock Centered FactBannerSmallDimension"
+        className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerSmallDimension"
         src="What_is_Diurnal-min.png"
       />
     </div>

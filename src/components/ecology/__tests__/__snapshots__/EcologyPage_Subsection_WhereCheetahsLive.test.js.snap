@@ -95,12 +95,12 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
         </div>
         <img
           alt="What is a habitat"
-          className="FullWidth DisplayBlock Centered FactBannerSmallDimension"
+          className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerSmallDimension"
           src="What_is_Habitat-min.png"
         />
         <img
           alt="African savanna"
-          className="FullWidth DisplayBlock Centered"
+          className="FullWidth DisplayBlock RetainAspectRatio Centered"
           src="savana_bg_large-min.jpg"
         />
       </div>
@@ -245,7 +245,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
         </div>
         <img
           alt="What is biome?"
-          className="FullWidth DisplayBlock Centered FactBannerMediumDimension"
+          className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
           src="What_is_Biome-min.png"
         />
         <div

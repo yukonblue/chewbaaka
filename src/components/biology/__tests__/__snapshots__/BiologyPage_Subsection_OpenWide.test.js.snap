@@ -24,9 +24,8 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
           >
             <img
               alt="Open wide"
-              height={320}
+              className="FullWidth DisplayBlock RetainAspectRatio"
               src="open_wide-min.jpg"
-              width={320}
             />
           </div>
           <div
@@ -56,6 +55,7 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
           >
             <img
               alt="Papillae on cheetah's tongue"
+              className="FullWidth DisplayBlock RetainAspectRatio"
               src="cheetah_tongue-min.jpg"
             />
           </div>
@@ -81,6 +81,7 @@ exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
           >
             <img
               alt="Cheetah grooming"
+              className="FullWidth DisplayBlock RetainAspectRatio"
               src="cheetah_grooming-min.jpg"
             />
           </div>

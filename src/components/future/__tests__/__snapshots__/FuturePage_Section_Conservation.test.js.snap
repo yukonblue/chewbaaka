@@ -453,7 +453,7 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
                 >
                   <img
                     alt="CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora) Conference of the Parties 17"
-                    className="FullWidth DisplayBlock"
+                    className="FullWidth DisplayBlock RetainAspectRatio"
                     src="CITES_CoP17-min.jpg"
                   />
                 </div>
@@ -469,7 +469,7 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
               </div>
               <img
                 alt="What is CITES?"
-                className="FullWidth DisplayBlock Centered FactBannerMediumDimension"
+                className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
                 src="What_is_CITES-min.png"
               />
             </div>

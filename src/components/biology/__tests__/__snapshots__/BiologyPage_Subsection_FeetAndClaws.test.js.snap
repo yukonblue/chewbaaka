@@ -77,41 +77,45 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
             className="ContentPageSideFloatFluidContainerFixedPartContainer FloatLeft"
           >
             <div
-              className="TextBubbleOuterContainer"
-              style={
-                Object {
-                  "backgroundColor": "rgb(undefined)",
-                  "height": 520,
-                  "width": 520,
-                }
-              }
+              className="TextBubbleOuterContainerFlexWrapper"
             >
               <div
-                className="TextBubbleInnerContainer"
+                className="TextBubbleOuterContainer"
+                style={
+                  Object {
+                    "backgroundColor": "rgb(undefined)",
+                    "height": 520,
+                    "maxWidth": 520,
+                  }
+                }
               >
                 <div
-                  className="TextBubbleInnerCore"
+                  className="TextBubbleInnerContainer"
                 >
-                  <h1
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 41.6,
-                      }
-                    }
+                  <div
+                    className="TextBubbleInnerCore"
                   >
-                    Foot
-                  </h1>
-                  <p
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 21,
+                    <h1
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 41.6,
+                        }
                       }
-                    }
-                  >
-                    Cheetah’s foot pads are hard and less rounded than the other cats. The pads function like tire threads providing them with increased traction in fast, sharp turns.
-                  </p>
+                    >
+                      Foot
+                    </h1>
+                    <p
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 21,
+                        }
+                      }
+                    >
+                      Cheetah’s foot pads are hard and less rounded than the other cats. The pads function like tire threads providing them with increased traction in fast, sharp turns.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -128,41 +132,45 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
             className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
           >
             <div
-              className="TextBubbleOuterContainer"
-              style={
-                Object {
-                  "backgroundColor": "rgb(undefined)",
-                  "height": 490,
-                  "width": 490,
-                }
-              }
+              className="TextBubbleOuterContainerFlexWrapper"
             >
               <div
-                className="TextBubbleInnerContainer"
+                className="TextBubbleOuterContainer"
+                style={
+                  Object {
+                    "backgroundColor": "rgb(undefined)",
+                    "height": 490,
+                    "maxWidth": 490,
+                  }
+                }
               >
                 <div
-                  className="TextBubbleInnerCore"
+                  className="TextBubbleInnerContainer"
                 >
-                  <h1
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 39.2,
-                      }
-                    }
+                  <div
+                    className="TextBubbleInnerCore"
                   >
-                    Claw
-                  </h1>
-                  <p
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 21,
+                    <h1
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 39.2,
+                        }
                       }
-                    }
-                  >
-                    The short blunt claws work like the cleats on a track shoe. They grip the ground for traction when running and help increase speed. Cheetah’s claws are semi-retractable, meaning they do not completely retract like the claws of other cats. The foot structure of the cheetah is very dog-like.
-                  </p>
+                    >
+                      Claw
+                    </h1>
+                    <p
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 21,
+                        }
+                      }
+                    >
+                      The short blunt claws work like the cleats on a track shoe. They grip the ground for traction when running and help increase speed. Cheetah’s claws are semi-retractable, meaning they do not completely retract like the claws of other cats. The foot structure of the cheetah is very dog-like.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -287,41 +295,45 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
             className="ContentPageSideFloatFluidContainerFixedPartContainer FloatLeft"
           >
             <div
-              className="TextBubbleOuterContainer"
-              style={
-                Object {
-                  "backgroundColor": "rgb(undefined)",
-                  "height": 520,
-                  "width": 520,
-                }
-              }
+              className="TextBubbleOuterContainerFlexWrapper"
             >
               <div
-                className="TextBubbleInnerContainer"
+                className="TextBubbleOuterContainer"
+                style={
+                  Object {
+                    "backgroundColor": "rgb(undefined)",
+                    "height": 520,
+                    "maxWidth": 520,
+                  }
+                }
               >
                 <div
-                  className="TextBubbleInnerCore"
+                  className="TextBubbleInnerContainer"
                 >
-                  <h1
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 41.6,
-                      }
-                    }
+                  <div
+                    className="TextBubbleInnerCore"
                   >
-                    Dewclaw
-                  </h1>
-                  <p
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 21,
+                    <h1
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 41.6,
+                        }
                       }
-                    }
-                  >
-                    The dewclaws of the cheetah are located on the upper inside area of the front foot. These are sharp and frequently used to hook and hold prey.
-                  </p>
+                    >
+                      Dewclaw
+                    </h1>
+                    <p
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 21,
+                        }
+                      }
+                    >
+                      The dewclaws of the cheetah are located on the upper inside area of the front foot. These are sharp and frequently used to hook and hold prey.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

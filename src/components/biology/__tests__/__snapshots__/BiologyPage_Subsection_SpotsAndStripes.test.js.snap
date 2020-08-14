@@ -38,7 +38,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
         </p>
         <img
           alt="What is camouflage?"
-          className="FullWidth DisplayBlock Centered FactBannerMediumDimension"
+          className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
           src="What_is_Camouflage-min.png"
         />
       </div>

@@ -19,41 +19,45 @@ exports[`BiologyPageSubsectionGeneticConfusion component snapshot 1`] = `
         className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
       >
         <div
-          className="TextBubbleOuterContainer"
-          style={
-            Object {
-              "backgroundColor": "rgb(254,182,40)",
-              "height": 520,
-              "width": 520,
-            }
-          }
+          className="TextBubbleOuterContainerFlexWrapper"
         >
           <div
-            className="TextBubbleInnerContainer"
+            className="TextBubbleOuterContainer"
+            style={
+              Object {
+                "backgroundColor": "rgb(254,182,40)",
+                "height": 520,
+                "maxWidth": 520,
+              }
+            }
           >
             <div
-              className="TextBubbleInnerCore"
+              className="TextBubbleInnerContainer"
             >
-              <h1
-                style={
-                  Object {
-                    "color": "rgb(undefined)",
-                    "fontSize": 41.6,
-                  }
-                }
+              <div
+                className="TextBubbleInnerCore"
               >
-                How does this relate to the cheetah?
-              </h1>
-              <p
-                style={
-                  Object {
-                    "color": "rgb(undefined)",
-                    "fontSize": 21,
+                <h1
+                  style={
+                    Object {
+                      "color": "rgb(undefined)",
+                      "fontSize": 41.6,
+                    }
                   }
-                }
-              >
-                Cheetahs are very closely related and have a low genetic diversity. This is due to the drastic reduction in their numbers when the population bottleneck occurred. This inbreeding and low genetic diversity may cause abnormalities.
-              </p>
+                >
+                  How does this relate to the cheetah?
+                </h1>
+                <p
+                  style={
+                    Object {
+                      "color": "rgb(undefined)",
+                      "fontSize": 21,
+                    }
+                  }
+                >
+                  Cheetahs are very closely related and have a low genetic diversity. This is due to the drastic reduction in their numbers when the population bottleneck occurred. This inbreeding and low genetic diversity may cause abnormalities.
+                </p>
+              </div>
             </div>
           </div>
         </div>

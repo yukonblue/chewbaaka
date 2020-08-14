@@ -23,41 +23,45 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
             className="FloatRight"
           >
             <div
-              className="TextBubbleOuterContainer"
-              style={
-                Object {
-                  "backgroundColor": "rgb(187,143,206)",
-                  "height": 480,
-                  "width": 480,
-                }
-              }
+              className="TextBubbleOuterContainerFlexWrapper"
             >
               <div
-                className="TextBubbleInnerContainer"
+                className="TextBubbleOuterContainer"
+                style={
+                  Object {
+                    "backgroundColor": "rgb(187,143,206)",
+                    "height": 480,
+                    "maxWidth": 480,
+                  }
+                }
               >
                 <div
-                  className="TextBubbleInnerCore"
+                  className="TextBubbleInnerContainer"
                 >
-                  <h1
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 38.4,
-                      }
-                    }
+                  <div
+                    className="TextBubbleInnerCore"
                   >
-                    Cheetahs prefer game to livestock
-                  </h1>
-                  <p
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 21,
+                    <h1
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 38.4,
+                        }
                       }
-                    }
-                  >
-                    Cheetahs are born to prey on wild game, and will instinctually go after them. Cheetahs only go after livestock as a last resort when wild game is not available. This makes maintaining healthy ecosystems very important.
-                  </p>
+                    >
+                      Cheetahs prefer game to livestock
+                    </h1>
+                    <p
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 21,
+                        }
+                      }
+                    >
+                      Cheetahs are born to prey on wild game, and will instinctually go after them. Cheetahs only go after livestock as a last resort when wild game is not available. This makes maintaining healthy ecosystems very important.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -89,7 +93,7 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
       >
         <img
           alt="Cheetah and lion have drastically different preys, hunting strategies, and success rates."
-          className="FullWidth DisplayBlock Centered"
+          className="FullWidth DisplayBlock RetainAspectRatio Centered"
           src="Cheetah_Lion_Hunting_Success_Rate_Comparsion-min.png"
         />
       </div>

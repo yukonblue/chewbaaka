@@ -43,7 +43,7 @@ exports[`EcologyPageSubsectionHuntingAndPredatorControl component snapshot 1`] =
           </p>
           <img
             alt="What is sustainable utilization?"
-            className="FullWidth DisplayBlock Centered FactBannerMediumDimension"
+            className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
             src="What_is_Sustainable_Utilization-min.png"
           />
         </div>
@@ -96,41 +96,45 @@ exports[`EcologyPageSubsectionHuntingAndPredatorControl component snapshot 1`] =
             className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
           >
             <div
-              className="TextBubbleOuterContainer"
-              style={
-                Object {
-                  "backgroundColor": "rgb(255,155,0)",
-                  "height": 560,
-                  "width": 560,
-                }
-              }
+              className="TextBubbleOuterContainerFlexWrapper"
             >
               <div
-                className="TextBubbleInnerContainer"
+                className="TextBubbleOuterContainer"
+                style={
+                  Object {
+                    "backgroundColor": "rgb(255,155,0)",
+                    "height": 560,
+                    "maxWidth": 560,
+                  }
+                }
               >
                 <div
-                  className="TextBubbleInnerCore"
+                  className="TextBubbleInnerContainer"
                 >
-                  <h1
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 44.800000000000004,
-                      }
-                    }
+                  <div
+                    className="TextBubbleInnerCore"
                   >
-                    Predator control is an issue around the globe.
-                  </h1>
-                  <p
-                    style={
-                      Object {
-                        "color": "rgb(undefined)",
-                        "fontSize": 21,
+                    <h1
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 44.800000000000004,
+                        }
                       }
-                    }
-                  >
-                    Proven farm and livestock management techniques can be employed to deter predations from problem animals. One great example is CCF’s Livestock Guarding Dog program.
-                  </p>
+                    >
+                      Predator control is an issue around the globe.
+                    </h1>
+                    <p
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 21,
+                        }
+                      }
+                    >
+                      Proven farm and livestock management techniques can be employed to deter predations from problem animals. One great example is CCF’s Livestock Guarding Dog program.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -157,7 +161,7 @@ exports[`EcologyPageSubsectionHuntingAndPredatorControl component snapshot 1`] =
         </div>
         <img
           alt="What is a problem animal?"
-          className="FullWidth DisplayBlock Centered FactBannerMediumDimension"
+          className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
           src="What_is_a_Problem_Animal-min.png"
         />
       </div>
