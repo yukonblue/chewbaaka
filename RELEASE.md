@@ -16,6 +16,7 @@
       - `FactBannerImage`
       - `ImageSlidingGallery`
       - `ImageSlidingGalleryDiscrete`
+      - `TextBubble`
     - Refined the following content page layout components to better adopt fluid layout:
       - `ContentPageTopNavMenuBar`
       - `ContentPageIntroSectionGeneric`
