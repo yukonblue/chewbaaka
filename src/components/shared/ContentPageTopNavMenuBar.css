@@ -24,6 +24,7 @@ nav ul.ContentPageTopNavMenuBarMenuList {
   list-style: none;
   display: flex;
   justify-content: flex-end;
+  padding: 0;
 }
 
 nav ul.ContentPageTopNavMenuBarMenuList li {
