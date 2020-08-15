@@ -2,6 +2,7 @@
 
 ## Version 0.2.3
 
+* Date: August 15, 2020
 * Changelog:
   * Fixes for the following issues:
     * #169 - CCF logo icon in footer is too blurry.
