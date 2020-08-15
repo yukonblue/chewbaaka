@@ -3,6 +3,9 @@
 ## Version 0.2.3
 
 * Date: August 15, 2020
+* Commit: `ee5f023`
+* Tag: `v0.2.3`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.2.3)
 * Changelog:
   * Fixes for the following issues:
     * #169 - CCF logo icon in footer is too blurry.
