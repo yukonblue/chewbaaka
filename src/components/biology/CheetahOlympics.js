@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Jul 31, 2020
+ * Updated  : Aug 17, 2020
  */
 
 import React from 'react'
@@ -106,7 +106,7 @@ export default class CheetahOlympics extends React.Component {
       }
     },
     {
-      title: "Second fastest animal in the world",
+      title: "Second fastest land animal in the world",
       description: "Pronghorn antelope, a North American species, sprints up to 86 km/hr.",
       position: {
         top: 840,

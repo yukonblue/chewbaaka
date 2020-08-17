@@ -1,5 +1,11 @@
 # Release Note
 
+## %NEXT VERSION%
+
+* Changelog:
+  * Fixes for the following issues:
+    * Issue #171 - 'Cheetah Olympics' component should label pronghorn antelope second fastest **land** animal.
+
 ## Version 0.2.3
 
 * Date: August 15, 2020
