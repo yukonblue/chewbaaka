@@ -3,6 +3,9 @@
 ## Version 0.2.4
 
 * Date: August 17, 2020
+* Commit: `40d9af8`
+* Tag: `v0.2.4`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.2.4)
 * Changelog:
   * Fixes for the following issues:
     * Issue #171 - 'Cheetah Olympics' component should label pronghorn antelope second fastest **land** animal.
