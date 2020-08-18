@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Aug 12, 2020
+ * Updated  : Aug 17, 2020
  */
 
 export const config = {
@@ -68,7 +68,7 @@ export const config = {
               title: "Cheetah Habitat",
               content: {
                 paragraph_01:
-                  "Animals, includes cheetah, are adopted to live in specific habitats. " +
+                  "Animals, includes cheetah, are adapted to live in specific habitats. " +
                   "Cheetahs live mainly in grassland savanna. They prefer habitat which includes " +
                   "some cover in the form of bushes, medium length grass, trees, and small hills. " +
                   "Cheetahs need abundant prey in their habitat to survive and reproduce. " +
