@@ -1,11 +1,13 @@
 # Release Note
 
-## %NEXT VERSION%
+## Version 0.2.5
 
+* Date: August 17, 2020
 * Changelog:
   * Fixes for the following issues:
     * Issue #173 - Text in `TextBubble` clipped when bubble shrunk.
     * Issue #174 - Typo in first paragraph in 'Where Cheetahs Live' subsection.
+    * Issue #177 - 'Cheetah Anatomy Diagram' can bleed beyond viewport dimension.
 
 ## Version 0.2.4
 
