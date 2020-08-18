@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentPageAlarmBanner component snapshot 1`] = `
+<h4
+  className="ContentPageAlarmBannerText"
+>
+  This is an instance of \`ContentPageAlarmBanner\` component
+</h4>
+`;

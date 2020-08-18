@@ -1,5 +1,11 @@
 # Release Note
 
+## %NEXT VERSION%
+
+* Changelog:
+  * Other changes:
+    * Changeset #180 - Add more unit tests.
+
 ## Version 0.2.5
 
 * Date: August 17, 2020

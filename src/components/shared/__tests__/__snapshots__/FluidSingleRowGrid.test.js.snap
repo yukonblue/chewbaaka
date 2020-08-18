@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FluidSingleRowGrid component snapshot 1`] = `
+<div
+  className="FluidSingleRowGridOuterContainer"
+  style={
+    Object {
+      "justifyContent": undefined,
+    }
+  }
+>
+  <p>
+    This is a title
+  </p>
+  <p>
+    This is a subtitle
+  </p>
+  <p>
+    This is a paragraph
+  </p>
+</div>
+`;
