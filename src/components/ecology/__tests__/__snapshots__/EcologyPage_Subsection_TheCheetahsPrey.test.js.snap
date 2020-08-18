@@ -30,8 +30,8 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
                 style={
                   Object {
                     "backgroundColor": "rgb(187,143,206)",
-                    "height": 480,
                     "maxWidth": 480,
+                    "minHeight": 480,
                   }
                 }
               >

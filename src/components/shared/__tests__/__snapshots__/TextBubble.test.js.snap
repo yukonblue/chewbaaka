@@ -9,8 +9,8 @@ exports[`TextBubble component snapshot 1`] = `
     style={
       Object {
         "backgroundColor": "rgb(20,80,120)",
-        "height": 600,
         "maxWidth": 600,
+        "minHeight": 600,
       }
     }
   >
