@@ -135,111 +135,113 @@ exports[`HomePage snapshot 1`] = `
         </div>
       </div>
     </div>
-    <div
-      className="ui container stackable center aligned four column grid"
-      data-testid="ExploreGatewayGridTestId"
-    >
+    <nav>
       <div
-        className="column ExploreGatewayGridItemColumn"
+        className="ui container stackable center aligned four column grid"
+        data-testid="ExploreGatewayGridTestId"
       >
         <div
-          className="ExploreGatewayGridItemInnerContainer"
+          className="column ExploreGatewayGridItemColumn"
         >
-          <a
-            className="ExploreGatewayGridItemImageAnchor"
-            data-testid="ExploreGatewayGridItemImageAnchorTestId"
-            href="/history"
-            onClick={[Function]}
+          <div
+            className="ExploreGatewayGridItemInnerContainer"
           >
-            <img
-              className="ui medium image ExploreGatewayGridItemImage"
-              data-testid="ExploreGatewayGridItemImageTestId"
-              src="explore_gateway_grid_item_img_01-min.jpg"
-            />
-          </a>
-          <h2
-            className="ui left aligned header ExploreGatewayGridItemHeader"
-          >
-            History
-          </h2>
+            <a
+              className="ExploreGatewayGridItemImageAnchor"
+              data-testid="ExploreGatewayGridItemImageAnchorTestId"
+              href="/history"
+              onClick={[Function]}
+            >
+              <img
+                className="ui medium image ExploreGatewayGridItemImage"
+                data-testid="ExploreGatewayGridItemImageTestId"
+                src="explore_gateway_grid_item_img_01-min.jpg"
+              />
+            </a>
+            <h2
+              className="ui left aligned header ExploreGatewayGridItemHeader"
+            >
+              History
+            </h2>
+          </div>
         </div>
-      </div>
-      <div
-        className="column ExploreGatewayGridItemColumn"
-      >
         <div
-          className="ExploreGatewayGridItemInnerContainer"
+          className="column ExploreGatewayGridItemColumn"
         >
-          <a
-            className="ExploreGatewayGridItemImageAnchor"
-            data-testid="ExploreGatewayGridItemImageAnchorTestId"
-            href="/biology"
-            onClick={[Function]}
+          <div
+            className="ExploreGatewayGridItemInnerContainer"
           >
-            <img
-              className="ui medium image ExploreGatewayGridItemImage"
-              data-testid="ExploreGatewayGridItemImageTestId"
-              src="explore_gateway_grid_item_img_02-min.jpg"
-            />
-          </a>
-          <h2
-            className="ui left aligned header ExploreGatewayGridItemHeader"
-          >
-            Biology
-          </h2>
+            <a
+              className="ExploreGatewayGridItemImageAnchor"
+              data-testid="ExploreGatewayGridItemImageAnchorTestId"
+              href="/biology"
+              onClick={[Function]}
+            >
+              <img
+                className="ui medium image ExploreGatewayGridItemImage"
+                data-testid="ExploreGatewayGridItemImageTestId"
+                src="explore_gateway_grid_item_img_02-min.jpg"
+              />
+            </a>
+            <h2
+              className="ui left aligned header ExploreGatewayGridItemHeader"
+            >
+              Biology
+            </h2>
+          </div>
         </div>
-      </div>
-      <div
-        className="column ExploreGatewayGridItemColumn"
-      >
         <div
-          className="ExploreGatewayGridItemInnerContainer"
+          className="column ExploreGatewayGridItemColumn"
         >
-          <a
-            className="ExploreGatewayGridItemImageAnchor"
-            data-testid="ExploreGatewayGridItemImageAnchorTestId"
-            href="/ecology"
-            onClick={[Function]}
+          <div
+            className="ExploreGatewayGridItemInnerContainer"
           >
-            <img
-              className="ui medium image ExploreGatewayGridItemImage"
-              data-testid="ExploreGatewayGridItemImageTestId"
-              src="explore_gateway_grid_item_img_03-min.jpg"
-            />
-          </a>
-          <h2
-            className="ui left aligned header ExploreGatewayGridItemHeader"
-          >
-            Ecology
-          </h2>
+            <a
+              className="ExploreGatewayGridItemImageAnchor"
+              data-testid="ExploreGatewayGridItemImageAnchorTestId"
+              href="/ecology"
+              onClick={[Function]}
+            >
+              <img
+                className="ui medium image ExploreGatewayGridItemImage"
+                data-testid="ExploreGatewayGridItemImageTestId"
+                src="explore_gateway_grid_item_img_03-min.jpg"
+              />
+            </a>
+            <h2
+              className="ui left aligned header ExploreGatewayGridItemHeader"
+            >
+              Ecology
+            </h2>
+          </div>
         </div>
-      </div>
-      <div
-        className="column ExploreGatewayGridItemColumn"
-      >
         <div
-          className="ExploreGatewayGridItemInnerContainer"
+          className="column ExploreGatewayGridItemColumn"
         >
-          <a
-            className="ExploreGatewayGridItemImageAnchor"
-            data-testid="ExploreGatewayGridItemImageAnchorTestId"
-            href="/future"
-            onClick={[Function]}
+          <div
+            className="ExploreGatewayGridItemInnerContainer"
           >
-            <img
-              className="ui medium image ExploreGatewayGridItemImage"
-              data-testid="ExploreGatewayGridItemImageTestId"
-              src="explore_gateway_grid_item_img_04-min.jpg"
-            />
-          </a>
-          <h2
-            className="ui left aligned header ExploreGatewayGridItemHeader"
-          >
-            Future
-          </h2>
+            <a
+              className="ExploreGatewayGridItemImageAnchor"
+              data-testid="ExploreGatewayGridItemImageAnchorTestId"
+              href="/future"
+              onClick={[Function]}
+            >
+              <img
+                className="ui medium image ExploreGatewayGridItemImage"
+                data-testid="ExploreGatewayGridItemImageTestId"
+                src="explore_gateway_grid_item_img_04-min.jpg"
+              />
+            </a>
+            <h2
+              className="ui left aligned header ExploreGatewayGridItemHeader"
+            >
+              Future
+            </h2>
+          </div>
         </div>
       </div>
-    </div>
+    </nav>
     <br />
   </div>
   <footer>
