@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 13, 2020
+ * Updated  : Aug 17, 2020
  */
 
 div.TextBubbleOuterContainerFlexWrapper {
@@ -13,28 +13,27 @@ div.TextBubbleOuterContainerFlexWrapper {
 }
 
 div.TextBubbleOuterContainer {
-  max-width: 100%;
-  overflow: hidden;
+  width: 100%;
   background-color: rgba(0, 185, 207);
   border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-div.TextBubbleInnerContainer {
-  width: 80%;
-  height: 80%;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%) translateX(13%);
-  vertical-align: middle;
-}
+/* div.TextBubbleInnerContainer {
+} */
 
 div.TextBubbleInnerCore {
-  position: relative;
-  top: 15%;
-  text-align: left;
-  text-overflow: ellipsis;
+  margin: 0 10%;
 }
 
 div.TextBubbleInnerCore h1 {
   color: white;
+}
+
+@media screen and (max-width: 909px) {
+  div.TextBubbleOuterContainer {
+    border-radius: 0;
+  }
 }
