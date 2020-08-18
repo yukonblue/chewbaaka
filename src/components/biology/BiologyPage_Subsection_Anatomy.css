@@ -4,10 +4,16 @@
  *
  * Author   : Tomiko
  * Updated  : Jul 17, 2020
- * Created  : Jul 17, 2020
+ * Created  : Aug 17, 2020
  */
 
 div.BiologyPageSubsectionAnatomyCheetahSkeletalAnatomyDiagramContainer {
   width: 960px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1145px) {
+  div.BiologyPageSubsectionAnatomyCheetahSkeletalAnatomyDiagramContainer {
+    display: none;
+  }
 }
