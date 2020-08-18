@@ -1,138 +1,134 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`FuturePageSubsectionTheRoleOfZoos component snapshot 1`] = `
-<div
+<section
   className="ContentPageSubsectionTemplateOuterContainer"
 >
-  <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  <h3
+    className="ContentPageSubsectionTitle"
   >
-    <h3
-      className="ContentPageSubsectionTitle"
+    The Role of Zoos
+  </h3>
+  <div>
+    <div
+      className="ContentPageSubsectionPartContainer"
     >
-      The Role of Zoos
-    </h3>
-    <div>
-      <div
-        className="ContentPageSubsectionPartContainer"
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
       >
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          Moderns zoos serve as conservation education centers and provide sanctuary for many endangered species. Cooperative breeding, management and research have assisted in re-establishing some species in the wild.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          Historically, cheetahs have not bred well in captivity. In recent years, through cooperative research and management in zoos worldwide, a global master plan is producing successful results. If future extinction were to occur with wild cheetahs, this research and maintained captive populations could allow the re-introduction of cheetahs.
-        </p>
-      </div>
-      <div
-        className="ContentPageSubsectionPartContainer"
+        Moderns zoos serve as conservation education centers and provide sanctuary for many endangered species. Cooperative breeding, management and research have assisted in re-establishing some species in the wild.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
       >
-        <h4
-          className="ContentPageSubsectionSubtitle"
-        >
-          Ambassadors
-        </h4>
+        Historically, cheetahs have not bred well in captivity. In recent years, through cooperative research and management in zoos worldwide, a global master plan is producing successful results. If future extinction were to occur with wild cheetahs, this research and maintained captive populations could allow the re-introduction of cheetahs.
+      </p>
+    </div>
+    <div
+      className="ContentPageSubsectionPartContainer"
+    >
+      <h4
+        className="ContentPageSubsectionSubtitle"
+      >
+        Ambassadors
+      </h4>
+      <div
+        className="ContentPageSideFloatFluidContainerOuterContainer"
+      >
         <div
-          className="ContentPageSideFloatFluidContainerOuterContainer"
+          className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
         >
           <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
+            className="ImageViewOuterContainer"
+            style={
+              Object {
+                "maxWidth": 720,
+              }
+            }
           >
             <div
-              className="ImageViewOuterContainer"
-              style={
-                Object {
-                  "maxWidth": 720,
-                }
-              }
+              className="ImageViewInnerContainer"
             >
               <div
-                className="ImageViewInnerContainer"
+                className="ImageViewImgContainer"
+              >
+                <img
+                  alt="In 2009, Cincinnati Zoo's cheetah Sarah set the record of the world's fastest cheetah, as she sprant 100m in just 6.13 seconds. The best record for 100m by humans was from Usain Bolt, finishing in 9.58 seconds."
+                  className="ImageViewImg"
+                  src="cincinnati_zoo_cheetah_sarah-min.jpg"
+                />
+              </div>
+              <div
+                className="ImageViewCaptionContainer"
               >
                 <div
-                  className="ImageViewImgContainer"
-                >
-                  <img
-                    alt="In 2009, Cincinnati Zoo's cheetah Sarah set the record of the world's fastest cheetah, as she sprant 100m in just 6.13 seconds. The best record for 100m by humans was from Usain Bolt, finishing in 9.58 seconds."
-                    className="ImageViewImg"
-                    src="cincinnati_zoo_cheetah_sarah-min.jpg"
-                  />
-                </div>
-                <div
-                  className="ImageViewCaptionContainer"
+                  className="CaptionContainer"
+                  data-testid="CaptionComponentTestId"
+                  style={
+                    Object {
+                      "maxWidth": 720,
+                    }
+                  }
                 >
                   <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "maxWidth": 720,
-                      }
-                    }
+                    className="IconContainer"
                   >
-                    <div
-                      className="IconContainer"
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
-                    </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      In 2009, Cincinnati Zoo's cheetah Sarah set the record of the world's fastest cheetah, as she sprant 100m in just 6.13 seconds. The best record for 100m by humans was from Usain Bolt, finishing in 9.58 seconds.
-                    </p>
+                    <i
+                      aria-hidden="true"
+                      className="image icon"
+                      onClick={[Function]}
+                    />
                   </div>
+                  <p
+                    className="ContentPageCaptionTextSize CaptionText"
+                  >
+                    In 2009, Cincinnati Zoo's cheetah Sarah set the record of the world's fastest cheetah, as she sprant 100m in just 6.13 seconds. The best record for 100m by humans was from Usain Bolt, finishing in 9.58 seconds.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-          <div
-            className="ContentPageSideFloatFluidContainerFixedPartContainer"
+        </div>
+        <div
+          className="ContentPageSideFloatFluidContainerFixedPartContainer"
+        >
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
           >
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              As representatives of the wild cheetah, zoo animals provide the opportunity for people around the world to see a cheetah close up.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Through educational programs, zoos spark the interest of individuals who can support or join the projects that will save wild cheetahs.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Zoos contribute to the conservation of wild cheetahs through education, research and support.
-            </p>
-          </div>
+            As representatives of the wild cheetah, zoo animals provide the opportunity for people around the world to see a cheetah close up.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Through educational programs, zoos spark the interest of individuals who can support or join the projects that will save wild cheetahs.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Zoos contribute to the conservation of wild cheetahs through education, research and support.
+          </p>
         </div>
       </div>
-      <div
-        className="ContentPageSubsectionPartContainer"
+    </div>
+    <div
+      className="ContentPageSubsectionPartContainer"
+    >
+      <h4
+        className="ContentPageSubsectionSubtitle"
       >
-        <h4
-          className="ContentPageSubsectionSubtitle"
-        >
-          Research
-        </h4>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          Zoos, universities, private individuals, governmental and NGOs support cooperative efforts worldwide.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          Reproductive, medical and behavioral studies, and laboratory analysis are cooperative conservation efforts between captive and wild cheetah.
-        </p>
-      </div>
+        Research
+      </h4>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+      >
+        Zoos, universities, private individuals, governmental and NGOs support cooperative efforts worldwide.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+      >
+        Reproductive, medical and behavioral studies, and laboratory analysis are cooperative conservation efforts between captive and wild cheetah.
+      </p>
     </div>
   </div>
-</div>
+</section>
 `;

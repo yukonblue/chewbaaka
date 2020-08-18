@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 18, 2020
  */
 
 /**
@@ -18,8 +18,7 @@
 import React from 'react'
 
 import {
-  getElementStyleClassName,
-  getElementStyleClassNames
+  getElementStyleClassName
 } from '../../styling/styling'
 
 import './ContentPageSharedStyles.css'
@@ -31,15 +30,11 @@ if ( process.env.NODE_ENV === 'development' )
 
 export default function ContentPageSubsectionTemplate(props) {
   return (
-    <div className={getElementStyleClassName("ContentPageSubsectionTemplateOuterContainer")}>
-      <div className={getElementStyleClassNames(["ContentPageSubsectionTemplateInnerContainer",
-                                                 "ContentPageContentInnerContentDimension"])}
-      >
-        <h3 className={getElementStyleClassName("ContentPageSubsectionTitle")}>
-          {props.title}
-        </h3>
-        {props.content}
-      </div>
-    </div>
+    <section className={getElementStyleClassName("ContentPageSubsectionTemplateOuterContainer")}>
+      <h3 className={getElementStyleClassName("ContentPageSubsectionTitle")}>
+        {props.title}
+      </h3>
+      {props.content}
+    </section>
   );
 }

@@ -1,111 +1,107 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`HistoryPageSubsectionCheetahsInArt component snapshot 1`] = `
-<div
+<section
   className="ContentPageSubsectionTemplateOuterContainer"
 >
-  <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  <h3
+    className="ContentPageSubsectionTitle"
   >
-    <h3
-      className="ContentPageSubsectionTitle"
-    >
-      Cheetahs In Art
-    </h3>
+    Cheetahs In Art
+  </h3>
+  <div
+    className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+  >
     <div
-      className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+      className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
     >
       <div
-        className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
       >
-        <div
-          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+        <h4
+          className="ContentPageSubsectionSubtitle"
+        />
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
         >
-          <h4
-            className="ContentPageSubsectionSubtitle"
-          />
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            Sumerians (Iraqi ancestors) were the first to use cheetahs in art.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            The cheetah and leopard have often been mistaken for each other. Cheetahs in early art were frequently called "panther" or "hunting leopard". Early artists called the true leopard "pardus" and described it as a cross between a cheetah (panther), and the lion (leo).
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            Middle Age and Renaissance artists began drawing cheetahs and other animals more life-like. During this time of scientific exploration, detailed descriptions of animals provided incentive for reality in art. Artists included cheetahs more often in their paintings as the trade in live animals increased.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            Artists always pictured cheetahs as animals of speed and royalty.
-          </p>
-        </div>
-        <div
-          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+          Sumerians (Iraqi ancestors) were the first to use cheetahs in art.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
         >
-          <h4
-            className="ContentPageSubsectionSubtitle"
-          />
+          The cheetah and leopard have often been mistaken for each other. Cheetahs in early art were frequently called "panther" or "hunting leopard". Early artists called the true leopard "pardus" and described it as a cross between a cheetah (panther), and the lion (leo).
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          Middle Age and Renaissance artists began drawing cheetahs and other animals more life-like. During this time of scientific exploration, detailed descriptions of animals provided incentive for reality in art. Artists included cheetahs more often in their paintings as the trade in live animals increased.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          Artists always pictured cheetahs as animals of speed and royalty.
+        </p>
+      </div>
+      <div
+        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+      >
+        <h4
+          className="ContentPageSubsectionSubtitle"
+        />
+        <div
+          className="Centered FullWidth"
+          style={
+            Object {
+              "width": 451,
+            }
+          }
+        >
           <div
-            className="Centered FullWidth"
+            className="ImageViewOuterContainer"
             style={
               Object {
-                "width": 451,
+                "maxWidth": 451,
               }
             }
           >
             <div
-              className="ImageViewOuterContainer"
-              style={
-                Object {
-                  "maxWidth": 451,
-                }
-              }
+              className="ImageViewInnerContainer"
             >
               <div
-                className="ImageViewInnerContainer"
+                className="ImageViewImgContainer"
+              >
+                <img
+                  alt="Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli."
+                  className="ImageViewImg"
+                  src="cheetah_painting_Renaissance-min.jpg"
+                />
+              </div>
+              <div
+                className="ImageViewCaptionContainer"
               >
                 <div
-                  className="ImageViewImgContainer"
-                >
-                  <img
-                    alt="Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli."
-                    className="ImageViewImg"
-                    src="cheetah_painting_Renaissance-min.jpg"
-                  />
-                </div>
-                <div
-                  className="ImageViewCaptionContainer"
+                  className="CaptionContainer"
+                  data-testid="CaptionComponentTestId"
+                  style={
+                    Object {
+                      "maxWidth": 451,
+                    }
+                  }
                 >
                   <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "maxWidth": 451,
-                      }
-                    }
+                    className="IconContainer"
                   >
-                    <div
-                      className="IconContainer"
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
-                    </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli.
-                    </p>
+                    <i
+                      aria-hidden="true"
+                      className="image icon"
+                      onClick={[Function]}
+                    />
                   </div>
+                  <p
+                    className="ContentPageCaptionTextSize CaptionText"
+                  >
+                    Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli.
+                  </p>
                 </div>
               </div>
             </div>
@@ -114,5 +110,5 @@ exports[`HistoryPageSubsectionCheetahsInArt component snapshot 1`] = `
       </div>
     </div>
   </div>
-</div>
+</section>
 `;

@@ -1,46 +1,42 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`HistoryPageSubsectionCheetahEvolution component snapshot 1`] = `
-<div
+<section
   className="ContentPageSubsectionTemplateOuterContainer"
 >
-  <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  <h3
+    className="ContentPageSubsectionTitle"
   >
-    <h3
-      className="ContentPageSubsectionTitle"
+    Cheetah Evolution
+  </h3>
+  <div
+    className="ContentPageSubsectionPartContainer"
+  >
+    <h4
+      className="ContentPageSubsectionSubtitle"
     >
-      Cheetah Evolution
-    </h3>
-    <div
-      className="ContentPageSubsectionPartContainer"
-    >
-      <h4
-        className="ContentPageSubsectionSubtitle"
+      Learn about the evolution and migration of the cheetah.
+    </h4>
+    <div />
+    <br />
+    <br />
+    <div>
+      <a
+        href="https://www.sciencedaily.com/releases/2015/12/151208204222.htm"
       >
-        Learn about the evolution and migration of the cheetah.
-      </h4>
-      <div />
-      <br />
-      <br />
-      <div>
-        <a
-          href="https://www.sciencedaily.com/releases/2015/12/151208204222.htm"
+        <button
+          className="ui blue icon button"
+          onClick={[Function]}
         >
-          <button
-            className="ui blue icon button"
+          Cheetahs migrated from North America | ScienceDaily
+          <i
+            aria-hidden="true"
+            className="file alternate outline icon"
             onClick={[Function]}
-          >
-            Cheetahs migrated from North America | ScienceDaily
-            <i
-              aria-hidden="true"
-              className="file alternate outline icon"
-              onClick={[Function]}
-            />
-          </button>
-        </a>
-      </div>
+          />
+        </button>
+      </a>
     </div>
   </div>
-</div>
+</section>
 `;

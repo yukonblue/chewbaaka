@@ -1,134 +1,130 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`HistoryPageSubsectionCheetahAndManImage component snapshot 1`] = `
-<div
+<section
   className="ContentPageSubsectionTemplateOuterContainer"
 >
-  <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  <h3
+    className="ContentPageSubsectionTitle"
   >
-    <h3
-      className="ContentPageSubsectionTitle"
-    >
-      Relationships with Man
-    </h3>
+    Relationships with Man
+  </h3>
+  <div
+    className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+  >
     <div
-      className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+      className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
     >
       <div
-        className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
       >
-        <div
-          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+        <h4
+          className="ContentPageSubsectionSubtitle"
+        />
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
         >
-          <h4
-            className="ContentPageSubsectionSubtitle"
-          />
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            Traditional African healers and witchdoctors used cheetah foot bones in spiritualistic rituals to symbolize fleet-footedness and speed. They used bones from a wide variety of animals and techniques varied from tribe to tribe. Objects represented a person, a thing or mood from the past, present or future, and are known as Divinatory sets.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            During the time of the Egyptian pharaohs, the cheetah was considered a goddess named "Mafdet". Pharaohs kept cheetahs as close companions, symbolic of Mafdet's protection of the royal throne.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            The San of Southern Africa ate cheetah meat as a symbol for speed, but it was not a main food in their diet.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            Kings wore cheetah skins for dignity. Trade in cheetah skin only started after European explorers began requesting them.
-          </p>
-        </div>
-        <div
-          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+          Traditional African healers and witchdoctors used cheetah foot bones in spiritualistic rituals to symbolize fleet-footedness and speed. They used bones from a wide variety of animals and techniques varied from tribe to tribe. Objects represented a person, a thing or mood from the past, present or future, and are known as Divinatory sets.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
         >
-          <h4
-            className="ContentPageSubsectionSubtitle"
-          />
-          <div
-            className="ImageSlidingGalleryOuterContainer"
-            style={
-              Object {
-                "maxWidth": undefined,
-              }
+          During the time of the Egyptian pharaohs, the cheetah was considered a goddess named "Mafdet". Pharaohs kept cheetahs as close companions, symbolic of Mafdet's protection of the royal throne.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          The San of Southern Africa ate cheetah meat as a symbol for speed, but it was not a main food in their diet.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          Kings wore cheetah skins for dignity. Trade in cheetah skin only started after European explorers began requesting them.
+        </p>
+      </div>
+      <div
+        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+      >
+        <h4
+          className="ContentPageSubsectionSubtitle"
+        />
+        <div
+          className="ImageSlidingGalleryOuterContainer"
+          style={
+            Object {
+              "maxWidth": undefined,
             }
+          }
+        >
+          <div
+            className="ImageSlidingGalleryCoreContainer"
           >
+            <img
+              alt="Mafdet’s head on the bed where the mummy is placed."
+              className="ImageSlidingGalleryImgPart"
+              src="image_Mafdet-min.jpg"
+            />
             <div
-              className="ImageSlidingGalleryCoreContainer"
+              className="ImageSlidingGalleryCaptionPart"
+              data-testid="ImageSlidingGalleryCaptionPart"
             >
-              <img
-                alt="Mafdet’s head on the bed where the mummy is placed."
-                className="ImageSlidingGalleryImgPart"
-                src="image_Mafdet-min.jpg"
-              />
               <div
-                className="ImageSlidingGalleryCaptionPart"
-                data-testid="ImageSlidingGalleryCaptionPart"
+                className="CaptionContainer"
+                data-testid="CaptionComponentTestId"
+                style={
+                  Object {
+                    "maxWidth": undefined,
+                  }
+                }
               >
                 <div
-                  className="CaptionContainer"
-                  data-testid="CaptionComponentTestId"
-                  style={
-                    Object {
-                      "maxWidth": undefined,
-                    }
-                  }
+                  className="IconContainer"
                 >
-                  <div
-                    className="IconContainer"
-                  >
-                    <i
-                      aria-hidden="true"
-                      className="image icon"
-                      onClick={[Function]}
-                    />
-                  </div>
-                  <p
-                    className="ContentPageCaptionTextSize CaptionText"
-                  >
-                    Mafdet’s head on the bed where the mummy is placed.
-                  </p>
+                  <i
+                    aria-hidden="true"
+                    className="image icon"
+                    onClick={[Function]}
+                  />
                 </div>
+                <p
+                  className="ContentPageCaptionTextSize CaptionText"
+                >
+                  Mafdet’s head on the bed where the mummy is placed.
+                </p>
               </div>
             </div>
+          </div>
+          <div
+            className="ImageSlidingGalleryButtonContainer"
+          >
             <div
-              className="ImageSlidingGalleryButtonContainer"
+              className="ui blue huge icon left attached disabled button"
+              onClick={[Function]}
+              role="button"
+              tabIndex={-1}
             >
-              <div
-                className="ui blue huge icon left attached disabled button"
+              <i
+                aria-hidden="true"
+                className="arrow alternate circle left outline icon"
                 onClick={[Function]}
-                role="button"
-                tabIndex={-1}
-              >
-                <i
-                  aria-hidden="true"
-                  className="arrow alternate circle left outline icon"
-                  onClick={[Function]}
-                />
-              </div>
-              <div
-                className="ui blue huge icon right attached button"
+              />
+            </div>
+            <div
+              className="ui blue huge icon right attached button"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              <i
+                aria-hidden="true"
+                className="arrow alternate circle right outline icon"
                 onClick={[Function]}
-                role="button"
-                tabIndex={0}
-              >
-                <i
-                  aria-hidden="true"
-                  className="arrow alternate circle right outline icon"
-                  onClick={[Function]}
-                />
-              </div>
+              />
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>
 `;

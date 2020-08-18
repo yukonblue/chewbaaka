@@ -1,102 +1,98 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`BiologyPageSubsectionOpenWide component snapshot 1`] = `
-<div
+<section
   className="ContentPageSubsectionTemplateOuterContainer"
 >
-  <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  <h3
+    className="ContentPageSubsectionTitle"
   >
-    <h3
-      className="ContentPageSubsectionTitle"
+    Open Wide
+  </h3>
+  <div>
+    <div
+      className="ContentPageSubsectionPartContainer"
     >
-      Open Wide
-    </h3>
-    <div>
       <div
-        className="ContentPageSubsectionPartContainer"
+        className="ContentPageSideFloatFluidContainerOuterContainer"
       >
         <div
-          className="ContentPageSideFloatFluidContainerOuterContainer"
+          className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
         >
-          <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
+          <img
+            alt="Open wide"
+            className="FullWidth DisplayBlock RetainAspectRatio"
+            src="open_wide-min.jpg"
+          />
+        </div>
+        <div
+          className="ContentPageSideFloatFluidContainerFixedPartContainer"
+        >
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
           >
-            <img
-              alt="Open wide"
-              className="FullWidth DisplayBlock RetainAspectRatio"
-              src="open_wide-min.jpg"
-            />
-          </div>
-          <div
-            className="ContentPageSideFloatFluidContainerFixedPartContainer"
+            The cheetah takes smaller prey than other similar sized cats. Their strong jaws lock around the throat of the prey in what is called the “strangulation hold”, which can last up to 20 minutes.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
           >
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              The cheetah takes smaller prey than other similar sized cats. Their strong jaws lock around the throat of the prey in what is called the “strangulation hold”, which can last up to 20 minutes.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Cheetahs’ jaws are not as powerful as that of lions or leopards. Cheetahs have comparatively shorter canine teeth. In all cats, powerful muscles move the jaw up and down and provide vice-like strength for gripping prey.
-            </p>
-          </div>
+            Cheetahs’ jaws are not as powerful as that of lions or leopards. Cheetahs have comparatively shorter canine teeth. In all cats, powerful muscles move the jaw up and down and provide vice-like strength for gripping prey.
+          </p>
         </div>
       </div>
+    </div>
+    <div
+      className="ContentPageSubsectionPartContainer"
+    >
       <div
-        className="ContentPageSubsectionPartContainer"
+        className="ContentPageSideFloatFluidContainerOuterContainer"
       >
         <div
-          className="ContentPageSideFloatFluidContainerOuterContainer"
+          className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatLeft"
         >
-          <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatLeft"
+          <img
+            alt="Papillae on cheetah's tongue"
+            className="FullWidth DisplayBlock RetainAspectRatio"
+            src="cheetah_tongue-min.jpg"
+          />
+        </div>
+        <div
+          className="ContentPageSideFloatFluidContainerFixedPartContainer"
+        >
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
           >
-            <img
-              alt="Papillae on cheetah's tongue"
-              className="FullWidth DisplayBlock RetainAspectRatio"
-              src="cheetah_tongue-min.jpg"
-            />
-          </div>
-          <div
-            className="ContentPageSideFloatFluidContainerFixedPartContainer"
-          >
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              The tongue is adopted for licking and is covered with small hard spines called papillae. The papillae act like a rasp, removing the meat from the bones of the prey. Rough tongue feels similar to the texture of sandpaper.
-            </p>
-          </div>
+            The tongue is adopted for licking and is covered with small hard spines called papillae. The papillae act like a rasp, removing the meat from the bones of the prey. Rough tongue feels similar to the texture of sandpaper.
+          </p>
         </div>
       </div>
+    </div>
+    <div
+      className="ContentPageSubsectionPartContainer"
+    >
       <div
-        className="ContentPageSubsectionPartContainer"
+        className="ContentPageSideFloatFluidContainerOuterContainer"
       >
         <div
-          className="ContentPageSideFloatFluidContainerOuterContainer"
+          className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
         >
-          <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
+          <img
+            alt="Cheetah grooming"
+            className="FullWidth DisplayBlock RetainAspectRatio"
+            src="cheetah_grooming-min.jpg"
+          />
+        </div>
+        <div
+          className="ContentPageSideFloatFluidContainerFixedPartContainer"
+        >
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
           >
-            <img
-              alt="Cheetah grooming"
-              className="FullWidth DisplayBlock RetainAspectRatio"
-              src="cheetah_grooming-min.jpg"
-            />
-          </div>
-          <div
-            className="ContentPageSideFloatFluidContainerFixedPartContainer"
-          >
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Keeping the fur clean is an important part of a cheetah’s life. Family members spend many hours grooming each other with their tongues. This behavior aids in the social bonding of a cheetah group.
-            </p>
-          </div>
+            Keeping the fur clean is an important part of a cheetah’s life. Family members spend many hours grooming each other with their tongues. This behavior aids in the social bonding of a cheetah group.
+          </p>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>
 `;

@@ -4,19 +4,17 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 18, 2020
  */
 
-div.ContentPageSubsectionTemplateOuterContainer {
+.ContentPageSubsectionTemplateOuterContainer {
   margin: 0 auto;
-  padding: 50px 0px;
-}
-
-div.ContentPageSubsectionTemplateInnerContainer {
-  margin: 0 auto;
+  width: 85%;
+  padding: 50px 0;
   /**
    * NOTE:
-   * width is specified `div.ContentPageContentInnerContentDimension`
+   * The width is derived from the width
+   * specified by `div.ContentPageContentInnerContentDimension`
    * in ContentPageSharedStyles.css
    */
 }

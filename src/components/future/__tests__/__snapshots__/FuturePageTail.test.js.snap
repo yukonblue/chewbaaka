@@ -1,41 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`FuturePageTail component snapshot 1`] = `
-<div
+<section
   className="ContentPageSubsectionTemplateOuterContainer"
 >
+  <h3
+    className="ContentPageSubsectionTitle"
+  />
   <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+    className="FuturePageTailOuterContainer"
   >
-    <h3
-      className="ContentPageSubsectionTitle"
-    />
     <div
-      className="FuturePageTailOuterContainer"
+      className="FuturePageTailStatementBoxOuterContainer"
     >
       <div
-        className="FuturePageTailStatementBoxOuterContainer"
+        className="FuturePageTailStatementBoxInnerContainer"
       >
-        <div
-          className="FuturePageTailStatementBoxInnerContainer"
+        <h5
+          className="FuturePageTailTitle TextCentered"
         >
-          <h5
-            className="FuturePageTailTitle TextCentered"
+          Cheetah Conservation Fund Vision Statement
+        </h5>
+        <div
+          className="FuturePageTailVisionStatementTextContainer"
+        >
+          <p
+            className="FuturePageTailVisionStatementText TextCentered"
           >
-            Cheetah Conservation Fund Vision Statement
-          </h5>
-          <div
-            className="FuturePageTailVisionStatementTextContainer"
-          >
-            <p
-              className="FuturePageTailVisionStatementText TextCentered"
-            >
-              We see a world in which cheetahs live and flourish in coexistence with people and the environment.
-            </p>
-          </div>
+            We see a world in which cheetahs live and flourish in coexistence with people and the environment.
+          </p>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>
 `;

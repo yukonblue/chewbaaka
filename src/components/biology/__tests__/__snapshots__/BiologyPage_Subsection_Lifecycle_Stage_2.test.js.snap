@@ -1,68 +1,64 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`BiologyPageSubsectionLifecycleStage2 component snapshot 1`] = `
-<div
+<section
   className="ContentPageSubsectionTemplateOuterContainer"
 >
-  <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  <h3
+    className="ContentPageSubsectionTitle"
   >
-    <h3
-      className="ContentPageSubsectionTitle"
+    Stage 2
+  </h3>
+  <div>
+    <div
+      className="FluidTwoColumnContainerOuterContainer"
     >
-      Stage 2
-    </h3>
-    <div>
       <div
-        className="FluidTwoColumnContainerOuterContainer"
+        className="FluidTwoColumnContainerColumnContainer FluidTwoColumnLhsContainerColumnContainer"
       >
         <div
-          className="FluidTwoColumnContainerColumnContainer FluidTwoColumnLhsContainerColumnContainer"
+          className="ContentPageSubsectionPartContainer"
         >
-          <div
-            className="ContentPageSubsectionPartContainer"
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
           >
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              At 1.5 to 2 months of age, the cubs leave the safety of the den to accompany their mother. They are very vulnerable as they are not able to defend themselves.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              They stop drinking their mother’s milk at 3 to 4 months of age. They start eating meat and learning to hunt. The games they play and the experiences they have during this stage will teach them skills needed to survive on their own.
-            </p>
-          </div>
+            At 1.5 to 2 months of age, the cubs leave the safety of the den to accompany their mother. They are very vulnerable as they are not able to defend themselves.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            They stop drinking their mother’s milk at 3 to 4 months of age. They start eating meat and learning to hunt. The games they play and the experiences they have during this stage will teach them skills needed to survive on their own.
+          </p>
         </div>
+      </div>
+      <div
+        className="FluidTwoColumnContainerColumnContainer FluidTwoColumnRhsContainerColumnContainer"
+      >
         <div
-          className="FluidTwoColumnContainerColumnContainer FluidTwoColumnRhsContainerColumnContainer"
+          className="ContentPageSubsectionPartContainer"
         >
           <div
-            className="ContentPageSubsectionPartContainer"
-          >
-            <div
-              className="Centered FullWidth"
-              style={
-                Object {
-                  "width": 560,
-                }
+            className="Centered FullWidth"
+            style={
+              Object {
+                "width": 560,
               }
-            >
-              <iframe
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen={true}
-                className="FullWidth"
-                frameBorder="0"
-                height={315}
-                src="https://www.youtube.com/embed/Wjtb7XMZlgY"
-                title="Cheetah Mom Teaches Cubs to Hunt | YouTube"
-                width={560}
-              />
-            </div>
+            }
+          >
+            <iframe
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen={true}
+              className="FullWidth"
+              frameBorder="0"
+              height={315}
+              src="https://www.youtube.com/embed/Wjtb7XMZlgY"
+              title="Cheetah Mom Teaches Cubs to Hunt | YouTube"
+              width={560}
+            />
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>
 `;

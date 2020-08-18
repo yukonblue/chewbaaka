@@ -1,139 +1,135 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`HistoryPageSubsectionCheetahsInSports component snapshot 1`] = `
-<div
+<section
   className="ContentPageSubsectionTemplateOuterContainer"
 >
-  <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  <h3
+    className="ContentPageSubsectionTitle"
   >
-    <h3
-      className="ContentPageSubsectionTitle"
-    >
-      Cheetahs In Sports
-    </h3>
+    Cheetahs In Sports
+  </h3>
+  <div
+    className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+  >
     <div
-      className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+      className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
     >
       <div
-        className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
       >
+        <h4
+          className="ContentPageSubsectionSubtitle"
+        />
         <div
-          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-        >
-          <h4
-            className="ContentPageSubsectionSubtitle"
-          />
-          <div
-            className="ImageSlidingGalleryOuterContainer"
-            style={
-              Object {
-                "maxWidth": 540,
-              }
+          className="ImageSlidingGalleryOuterContainer"
+          style={
+            Object {
+              "maxWidth": 540,
             }
+          }
+        >
+          <div
+            className="ImageSlidingGalleryCoreContainer"
           >
+            <img
+              alt="A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799."
+              className="ImageSlidingGalleryImgPart"
+              src="cheetah_with_two_indian_servants-min.jpg"
+            />
             <div
-              className="ImageSlidingGalleryCoreContainer"
+              className="ImageSlidingGalleryCaptionPart"
+              data-testid="ImageSlidingGalleryCaptionPart"
             >
-              <img
-                alt="A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799."
-                className="ImageSlidingGalleryImgPart"
-                src="cheetah_with_two_indian_servants-min.jpg"
-              />
               <div
-                className="ImageSlidingGalleryCaptionPart"
-                data-testid="ImageSlidingGalleryCaptionPart"
+                className="CaptionContainer"
+                data-testid="CaptionComponentTestId"
+                style={
+                  Object {
+                    "maxWidth": undefined,
+                  }
+                }
               >
                 <div
-                  className="CaptionContainer"
-                  data-testid="CaptionComponentTestId"
-                  style={
-                    Object {
-                      "maxWidth": undefined,
-                    }
-                  }
+                  className="IconContainer"
                 >
-                  <div
-                    className="IconContainer"
-                  >
-                    <i
-                      aria-hidden="true"
-                      className="image icon"
-                      onClick={[Function]}
-                    />
-                  </div>
-                  <p
-                    className="ContentPageCaptionTextSize CaptionText"
-                  >
-                    A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799.
-                  </p>
+                  <i
+                    aria-hidden="true"
+                    className="image icon"
+                    onClick={[Function]}
+                  />
                 </div>
-              </div>
-            </div>
-            <div
-              className="ImageSlidingGalleryButtonContainer"
-            >
-              <div
-                className="ui blue huge icon left attached disabled button"
-                onClick={[Function]}
-                role="button"
-                tabIndex={-1}
-              >
-                <i
-                  aria-hidden="true"
-                  className="arrow alternate circle left outline icon"
-                  onClick={[Function]}
-                />
-              </div>
-              <div
-                className="ui blue huge icon right attached button"
-                onClick={[Function]}
-                role="button"
-                tabIndex={0}
-              >
-                <i
-                  aria-hidden="true"
-                  className="arrow alternate circle right outline icon"
-                  onClick={[Function]}
-                />
+                <p
+                  className="ContentPageCaptionTextSize CaptionText"
+                >
+                  A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799.
+                </p>
               </div>
             </div>
           </div>
+          <div
+            className="ImageSlidingGalleryButtonContainer"
+          >
+            <div
+              className="ui blue huge icon left attached disabled button"
+              onClick={[Function]}
+              role="button"
+              tabIndex={-1}
+            >
+              <i
+                aria-hidden="true"
+                className="arrow alternate circle left outline icon"
+                onClick={[Function]}
+              />
+            </div>
+            <div
+              className="ui blue huge icon right attached button"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              <i
+                aria-hidden="true"
+                className="arrow alternate circle right outline icon"
+                onClick={[Function]}
+              />
+            </div>
+          </div>
         </div>
-        <div
-          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+      </div>
+      <div
+        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+      >
+        <h4
+          className="ContentPageSubsectionSubtitle"
+        />
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
         >
-          <h4
-            className="ContentPageSubsectionSubtitle"
-          />
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            In c1700 BC, the Egyptians were the first to tame cheetahs. They admired the cheetah for its speed, hunting ability and beauty. They honored cheetahs as symbols of royalty and prestige.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            The swiftest animal on earth became a cherished hunting companion of Pharaohs and royalty throughout Europe, Asia and India. Until the early 1900s, ownership of cheetahs was as important to these nobles as their love for gold. Cheetahs hunt by sight so they excelled in the sport known as "coursing". Hunts organized by royalty and nobles were for the challenge of sport, not for food. Hunts represented power and prestige.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            By the 1500s the popularity of the cheetah as a hunting companion rivaled that of the dog. Cheetahs, the most easily tamed of the big cats, were caught, tamed and trained. Adults were used because cubs had not learned how to hunt. Tamed cheetahs formed a strong bond with their keepers.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            Each cheetah rode to the hunt by horseback or on a cart. Its eyes were coved with a hood and uncovered when prey were sighted. The cat was released to chase down the prey then rewarded with meat fed from a wooden spoon.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            Although cherished, pampered cheetahs were loved to near extinction and taken from the wild in great numbers. By the early 1900s, India and Iran were importing African cheetahs for the sport of "coursing", as their own wild population became too small.
-          </p>
-        </div>
+          In c1700 BC, the Egyptians were the first to tame cheetahs. They admired the cheetah for its speed, hunting ability and beauty. They honored cheetahs as symbols of royalty and prestige.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          The swiftest animal on earth became a cherished hunting companion of Pharaohs and royalty throughout Europe, Asia and India. Until the early 1900s, ownership of cheetahs was as important to these nobles as their love for gold. Cheetahs hunt by sight so they excelled in the sport known as "coursing". Hunts organized by royalty and nobles were for the challenge of sport, not for food. Hunts represented power and prestige.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          By the 1500s the popularity of the cheetah as a hunting companion rivaled that of the dog. Cheetahs, the most easily tamed of the big cats, were caught, tamed and trained. Adults were used because cubs had not learned how to hunt. Tamed cheetahs formed a strong bond with their keepers.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          Each cheetah rode to the hunt by horseback or on a cart. Its eyes were coved with a hood and uncovered when prey were sighted. The cat was released to chase down the prey then rewarded with meat fed from a wooden spoon.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          Although cherished, pampered cheetahs were loved to near extinction and taken from the wild in great numbers. By the early 1900s, India and Iran were importing African cheetahs for the sport of "coursing", as their own wild population became too small.
+        </p>
       </div>
     </div>
   </div>
-</div>
+</section>
 `;

@@ -1,35 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`BiologyPageSubsectionSkull component snapshot 1`] = `
-<div
+<section
   className="ContentPageSubsectionTemplateOuterContainer"
 >
-  <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  <h3
+    className="ContentPageSubsectionTitle"
   >
-    <h3
-      className="ContentPageSubsectionTitle"
+    Skull
+  </h3>
+  <div>
+    <p
+      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
     >
-      Skull
-    </h3>
-    <div>
-      <p
-        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-      >
-        All predators have specialized features for catching and killing prey. Predators have large forward facing eye sockets, and large ear cavities that provides space for specialized senses. Although there are differences in skull proportions, carnivore skulls are quite similar.
-      </p>
-      <p
-        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-      >
-        The cat skulls are different from other carnivore species, as they have a flatter nose and enlarged nasal cavity. In addition, there is significant room at the back for holding the strong jaw muscles.
-      </p>
-      <p
-        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-      >
-        The cheetah's skull has some features that are distinct when compared to the skulls of other cats.
-      </p>
-      <div />
-    </div>
+      All predators have specialized features for catching and killing prey. Predators have large forward facing eye sockets, and large ear cavities that provides space for specialized senses. Although there are differences in skull proportions, carnivore skulls are quite similar.
+    </p>
+    <p
+      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+    >
+      The cat skulls are different from other carnivore species, as they have a flatter nose and enlarged nasal cavity. In addition, there is significant room at the back for holding the strong jaw muscles.
+    </p>
+    <p
+      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+    >
+      The cheetah's skull has some features that are distinct when compared to the skulls of other cats.
+    </p>
+    <div />
   </div>
-</div>
+</section>
 `;

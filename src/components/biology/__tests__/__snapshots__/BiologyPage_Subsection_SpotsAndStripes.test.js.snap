@@ -1,55 +1,114 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
-<div
+<section
   className="ContentPageSubsectionTemplateOuterContainer"
 >
-  <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  <h3
+    className="ContentPageSubsectionTitle"
   >
-    <h3
-      className="ContentPageSubsectionTitle"
+    Spots and Stripes
+  </h3>
+  <div>
+    <div
+      className="ContentPageSubsectionPartContainer"
     >
-      Spots and Stripes
-    </h3>
-    <div>
-      <div
-        className="ContentPageSubsectionPartContainer"
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
       >
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        Adult cheetahs are easily distinguished from other cats by their coat patterns. The color and spots are a form of camouflage. This helps cheetahs hunt prey and hide from other predators.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+      >
+        Distinctive black tear stripes run from the eyes to the mouth. The stripes are thought to protect the eyes from the sun’s glare. It is believed they have the same function as a rifle scope, helping cheetahs focus on their prey.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+      >
+        Until three months of age, cheetah cubs have a thick-silvery grey mantle that runs down their back. The mantle helps camouflage the cubs by blending them into the shadows and grass. It also provides protection from sun and rain.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+      >
+        With their mantle, cubs look like an aggressive animal called a honey badger. This may deter predators such as lions, hyenas, and eagles from attempting to kill them. This is known as “mimicry”.
+      </p>
+      <img
+        alt="What is camouflage?"
+        className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
+        src="What_is_Camouflage-min.png"
+      />
+    </div>
+    <div
+      className="ContentPageSubsectionPartContainer"
+    >
+      <div
+        className="Centered FullWidth"
+        style={
+          Object {
+            "width": 360,
+          }
+        }
+      >
+        <div
+          className="ImageViewOuterContainer"
+          style={
+            Object {
+              "maxWidth": 360,
+            }
+          }
         >
-          Adult cheetahs are easily distinguished from other cats by their coat patterns. The color and spots are a form of camouflage. This helps cheetahs hunt prey and hide from other predators.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          Distinctive black tear stripes run from the eyes to the mouth. The stripes are thought to protect the eyes from the sun’s glare. It is believed they have the same function as a rifle scope, helping cheetahs focus on their prey.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          Until three months of age, cheetah cubs have a thick-silvery grey mantle that runs down their back. The mantle helps camouflage the cubs by blending them into the shadows and grass. It also provides protection from sun and rain.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          With their mantle, cubs look like an aggressive animal called a honey badger. This may deter predators such as lions, hyenas, and eagles from attempting to kill them. This is known as “mimicry”.
-        </p>
-        <img
-          alt="What is camouflage?"
-          className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
-          src="What_is_Camouflage-min.png"
-        />
+          <div
+            className="ImageViewInnerContainer"
+          >
+            <div
+              className="ImageViewImgContainer"
+            >
+              <img
+                alt="Mantle on cheetah cub's back provides a form of camouflage that's critical to its survival."
+                className="ImageViewImg"
+                src="Cheetah_Mantle-min.jpg"
+              />
+            </div>
+            <div
+              className="ImageViewCaptionContainer"
+            >
+              <div
+                className="CaptionContainer"
+                data-testid="CaptionComponentTestId"
+                style={
+                  Object {
+                    "maxWidth": 360,
+                  }
+                }
+              >
+                <div
+                  className="IconContainer"
+                >
+                  <i
+                    aria-hidden="true"
+                    className="image icon"
+                    onClick={[Function]}
+                  />
+                </div>
+                <p
+                  className="ContentPageCaptionTextSize CaptionText"
+                >
+                  Mantle on cheetah cub's back provides a form of camouflage that's critical to its survival.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div
-        className="ContentPageSubsectionPartContainer"
+        className="VerticalCushionPaddingTopLarge"
       >
         <div
           className="Centered FullWidth"
           style={
             Object {
-              "width": 360,
+              "width": 720,
             }
           }
         >
@@ -57,7 +116,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
             className="ImageViewOuterContainer"
             style={
               Object {
-                "maxWidth": 360,
+                "maxWidth": 720,
               }
             }
           >
@@ -68,9 +127,9 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                 className="ImageViewImgContainer"
               >
                 <img
-                  alt="Mantle on cheetah cub's back provides a form of camouflage that's critical to its survival."
+                  alt="The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators."
                   className="ImageViewImg"
-                  src="Cheetah_Mantle-min.jpg"
+                  src="cheetah_and_honey_badger-min.jpg"
                 />
               </div>
               <div
@@ -81,7 +140,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                   data-testid="CaptionComponentTestId"
                   style={
                     Object {
-                      "maxWidth": 360,
+                      "maxWidth": 720,
                     }
                   }
                 >
@@ -97,79 +156,16 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                   <p
                     className="ContentPageCaptionTextSize CaptionText"
                   >
-                    Mantle on cheetah cub's back provides a form of camouflage that's critical to its survival.
+                    The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div
-          className="VerticalCushionPaddingTopLarge"
-        >
-          <div
-            className="Centered FullWidth"
-            style={
-              Object {
-                "width": 720,
-              }
-            }
-          >
-            <div
-              className="ImageViewOuterContainer"
-              style={
-                Object {
-                  "maxWidth": 720,
-                }
-              }
-            >
-              <div
-                className="ImageViewInnerContainer"
-              >
-                <div
-                  className="ImageViewImgContainer"
-                >
-                  <img
-                    alt="The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators."
-                    className="ImageViewImg"
-                    src="cheetah_and_honey_badger-min.jpg"
-                  />
-                </div>
-                <div
-                  className="ImageViewCaptionContainer"
-                >
-                  <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "maxWidth": 720,
-                      }
-                    }
-                  >
-                    <div
-                      className="IconContainer"
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
-                    </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
-      <div />
     </div>
+    <div />
   </div>
-</div>
+</section>
 `;
