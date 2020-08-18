@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MediaEmbed component snapshot 1`] = `
+<iframe
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen={true}
+  className="FullWidth"
+  frameBorder="0"
+  height={320}
+  src="https://www.youtube.com/watch?v=IRAbmfnrkL8"
+  title="This is a title"
+  width={480}
+/>
+`;
