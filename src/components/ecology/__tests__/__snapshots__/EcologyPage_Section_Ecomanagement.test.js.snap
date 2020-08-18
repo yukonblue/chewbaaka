@@ -153,8 +153,8 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                       style={
                         Object {
                           "backgroundColor": "rgb(255,155,0)",
-                          "height": 560,
                           "maxWidth": 560,
+                          "minHeight": 560,
                         }
                       }
                     >

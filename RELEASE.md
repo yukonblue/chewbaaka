@@ -1,5 +1,12 @@
 # Release Note
 
+## %NEXT VERSION%
+
+* Changelog:
+  * Fixes for the following issues:
+    * Issue #173 - Text in `TextBubble` clipped when bubble shrunk.
+    * Issue #174 - Typo in first paragraph in 'Where Cheetahs Live' subsection.
+
 ## Version 0.2.4
 
 * Date: August 17, 2020

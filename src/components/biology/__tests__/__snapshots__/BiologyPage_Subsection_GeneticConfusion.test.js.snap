@@ -26,8 +26,8 @@ exports[`BiologyPageSubsectionGeneticConfusion component snapshot 1`] = `
             style={
               Object {
                 "backgroundColor": "rgb(254,182,40)",
-                "height": 520,
                 "maxWidth": 520,
+                "minHeight": 520,
               }
             }
           >

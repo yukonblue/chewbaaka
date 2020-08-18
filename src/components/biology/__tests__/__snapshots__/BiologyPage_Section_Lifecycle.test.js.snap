@@ -343,8 +343,8 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                   style={
                     Object {
                       "backgroundColor": "rgb(undefined)",
-                      "height": 520,
                       "maxWidth": 520,
+                      "minHeight": 520,
                     }
                   }
                 >

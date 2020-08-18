@@ -84,8 +84,8 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                 style={
                   Object {
                     "backgroundColor": "rgb(undefined)",
-                    "height": 520,
                     "maxWidth": 520,
+                    "minHeight": 520,
                   }
                 }
               >
@@ -139,8 +139,8 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                 style={
                   Object {
                     "backgroundColor": "rgb(undefined)",
-                    "height": 490,
                     "maxWidth": 490,
+                    "minHeight": 490,
                   }
                 }
               >
@@ -302,8 +302,8 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                 style={
                   Object {
                     "backgroundColor": "rgb(undefined)",
-                    "height": 520,
                     "maxWidth": 520,
+                    "minHeight": 520,
                   }
                 }
               >
