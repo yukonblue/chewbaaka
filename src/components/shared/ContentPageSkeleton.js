@@ -4,12 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 13, 2020
+ * Updated  : Aug 18, 2020
  */
 
 import React from 'react'
-
-import "semantic-ui-css/semantic.min.css"
 
 import {
   Button,
@@ -28,6 +26,8 @@ import ContentPageTail from './ContentPageTail'
 import ContentPageSideNavMenu from './ContentPageSideNavMenu'
 
 import Footer from './Footer'
+
+import 'semantic-ui-css/semantic.min.css'
 
 import './ContentPageSharedStyles.css'
 
@@ -67,21 +67,21 @@ export default class ContentPageSkeleton extends React.Component {
   render() {
     return (
       <div className={getElementStyleClassName("ContentPageSkeletonOuterContainer")}>
-        <ContentPageHead
-          pageProps={this.props.pageProps}
-          imagesContext={this.props.imagesContext}
-        />
-        <div>
+        <article>
+          <ContentPageHead
+            pageProps={this.props.pageProps}
+            imagesContext={this.props.imagesContext}
+          />
           {this.renderBody()}
-        </div>
-        <ContentPageTail
-          pageTailNavMenu={this.props.pageProps.pageTailNavMenu}
-        />
-        <Footer
-          appConfig={this.props.appConfig}
-        />
+          <ContentPageTail
+            pageTailNavMenu={this.props.pageProps.pageTailNavMenu}
+          />
+          <Footer
+            appConfig={this.props.appConfig}
+          />
+          </article>
       </div>
-    )
+    );
   }
 
   renderBody() {
@@ -110,6 +110,6 @@ export default class ContentPageSkeleton extends React.Component {
           </Rail>
         </div>
       </Ref>
-    )
+    );
   }
 }
