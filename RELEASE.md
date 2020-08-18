@@ -3,6 +3,9 @@
 ## Version 0.2.5
 
 * Date: August 17, 2020
+* Commit: `1ccb7d7`
+* Tag: `v0.2.5`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.2.5)
 * Changelog:
   * Fixes for the following issues:
     * Issue #173 - Text in `TextBubble` clipped when bubble shrunk.
