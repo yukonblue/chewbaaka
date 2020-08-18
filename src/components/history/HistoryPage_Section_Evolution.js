@@ -4,10 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 08, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 18, 2020
  */
 
-import React from 'react'
+import React, { Fragment } from 'react'
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
@@ -36,7 +36,7 @@ export default class HistoryPageSectionEvolution extends React.Component {
 
   renderContent() {
     return (
-      <div>
+      <Fragment>
         <HistoryPageSubsectionFelidaeFamilyTree
           sectionConfig={this.state.sectionConfig}
         />
@@ -44,7 +44,7 @@ export default class HistoryPageSectionEvolution extends React.Component {
         <HistoryPageSubsectionCheetahEvolution
           sectionConfig={this.state.sectionConfig}
         />
-      </div>
+      </Fragment>
     );
   }
 }

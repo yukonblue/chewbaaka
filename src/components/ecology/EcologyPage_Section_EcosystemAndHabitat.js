@@ -4,10 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 18, 2020
  */
 
-import React from 'react'
+import React, { Fragment } from 'react'
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
@@ -37,7 +37,7 @@ export default class EcologyPageSectionEcosystemAndHabitat extends React.Compone
 
   renderContent() {
     return (
-      <div>
+      <Fragment>
         <EcologyPageSubsectionWhereCheetahsLive
           sectionConfig={this.state.sectionConfig}
         />
@@ -49,7 +49,7 @@ export default class EcologyPageSectionEcosystemAndHabitat extends React.Compone
         <EcologyPageSubsectionCheetahsRoleInTheEcosystem
           sectionConfig={this.state.sectionConfig}
         />
-      </div>
+      </Fragment>
     );
   }
 }
