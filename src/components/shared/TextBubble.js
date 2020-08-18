@@ -55,11 +55,13 @@ export default function TextBubble(props) {
   };
 
   return (
-    <div className="TextBubbleOuterContainerFlexWrapper">
+    <div
+      className="TextBubbleOuterContainerFlexWrapper"
+      hidden={props.hidden}
+    >
       <div
         className={getElementStyleClassName("TextBubbleOuterContainer")}
         style={componentOuterContainerStyles}
-        hidden={props.hidden}
       >
         <div className={getElementStyleClassName("TextBubbleInnerContainer")}>
           <div className={getElementStyleClassName("TextBubbleInnerCore")}>

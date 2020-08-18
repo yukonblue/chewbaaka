@@ -632,10 +632,10 @@ exports[`CheetahOlympics component snapshot 1`] = `
     >
       <div
         className="TextBubbleOuterContainerFlexWrapper"
+        hidden={true}
       >
         <div
           className="TextBubbleOuterContainer"
-          hidden={true}
           style={
             Object {
               "backgroundColor": "rgb(undefined)",
@@ -680,10 +680,10 @@ exports[`CheetahOlympics component snapshot 1`] = `
     >
       <div
         className="TextBubbleOuterContainerFlexWrapper"
+        hidden={true}
       >
         <div
           className="TextBubbleOuterContainer"
-          hidden={true}
           style={
             Object {
               "backgroundColor": "rgb(undefined)",
