@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 18, 2020
  */
 
 /**
@@ -26,7 +26,7 @@ import { getElementStyleClassName } from '../../styling/styling'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 
-import ContentPageSectionAnchor from '../shared/ContentPageSectionAnchor'
+import { ContentPageSectionTitleToAnchorId } from '../shared/ContentPageSectionAnchor'
 
 import './ContentPageSharedStyles.css'
 
@@ -39,31 +39,25 @@ export default class ContentPageSectionHead extends React.Component {
 
   render() {
     return (
-      <div>
-        <ContentPageSubsectionTemplate
-          content={this.renderContent()}
-        />
-      </div>
-    )
+      <ContentPageSubsectionTemplate
+        content={this.renderContent()}
+      />
+    );
   }
 
   renderContent() {
     return (
-      <div className="ContentPageSectionHeadOuterContainer">
-        <ContentPageSectionAnchor title={this.props.title}/>
-        <div className={getElementStyleClassName("ContentPageSectionHeadInnerContainer")}>
-          <div className={getElementStyleClassName("ContentPageSectionHeadTitleContainer")}>
-            <h2 className={getElementStyleClassName("ContentPageSectionHeadTitle")}>
-              {this.props.title}
-            </h2>
-          </div>
-          <div className="ContentPageIntroParagraphContentContainer">
-            <p className={getElementStyleClassName("ContentPageHeadAndSectionIntroText")}>
-              {this.props.content}
-            </p>
-          </div>
-        </div>
-      </div>
+      <section className="ContentPageSectionHeadOuterContainer">
+        <h2
+          className={getElementStyleClassName("ContentPageSectionHeadTitle")}
+          id={ContentPageSectionTitleToAnchorId(this.props.title)}
+        >
+          {this.props.title}
+        </h2>
+        <p className={getElementStyleClassName("ContentPageHeadAndSectionIntroText")}>
+          {this.props.content}
+        </p>
+      </section>
     );
   }
 }

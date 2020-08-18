@@ -4,17 +4,17 @@
  *
  * Author   : Tomiko
  * Created  : Aug 07, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 18, 2020
  */
 
-div.ContentPageSectionHeadInnerContainer_DebugColor {
+.ContentPageSectionHeadInnerContainer_DebugColor {
   background-color: yellowgreen;
-}
-
-div.ContentPageSectionHeadTitleContainer_DebugColor {
-  background-color: yellow;
 }
 
 h2.ContentPageSectionHeadTitle_DebugColor {
   background-color: lightsalmon;
+}
+
+p.ContentPageHeadAndSectionIntroText_DebugColor {
+  background-color: cornsilk;
 }
