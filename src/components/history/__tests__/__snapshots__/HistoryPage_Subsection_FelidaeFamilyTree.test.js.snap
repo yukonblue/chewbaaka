@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HistoryPageSubsectionFelidaeFamilyTree component snapshot 1`] = `
+<div
+  className="HistoryPageSubsectionFelidaeFamilyTreeOuterContainer"
+>
+  <div
+    className="ContentPageSubsectionTemplateOuterContainer"
+  >
+    <div
+      className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+    >
+      <h3
+        className="ContentPageSubsectionTitle"
+      >
+        Evolution of Cats
+      </h3>
+      <div
+        className="HistoryPageSubsectionFelidaeFamilyTreeInnerContainer"
+      >
+        <div
+          className="ContentPageSubsectionPartContainer"
+        >
+          <h4
+            className="ContentPageSubsectionSubtitle"
+          >
+            Which big cat is the most related to the cheetah?
+          </h4>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            It is easy to think that the closest relative to the cheetah among the big cats is the leopard, given the close resemblance to their appearances. However, the cheetah is actually most closely related to the North American 
+            <b>
+              cougar (puma)
+            </b>
+             (
+            <span
+              className="TaxonomyBinomialName"
+            >
+              Puma concolor
+            </span>
+            ) and the 
+            <b>
+              jaguarundi
+            </b>
+             (
+            <span
+              className="TaxonomyBinomialName"
+            >
+              Herpailurus yagouaroundi
+            </span>
+            ) that roams through Central to South America. Together, these three species form the 
+            <b>
+              <span
+                className="TaxonomyBinomialName"
+              >
+                Puma
+              </span>
+            </b>
+             lineage, one of the eight lineages of the 
+            <span
+              className="TaxonomyBinomialName"
+            >
+              Felidae
+            </span>
+             family.
+          </p>
+          <div
+            className="VerticalCushionPadding"
+          >
+            <img
+              alt="Big Cats"
+              className="FullWidth DisplayBlock RetainAspectRatio"
+              src="Big_Cats-min.png"
+            />
+          </div>
+        </div>
+        <div
+          className="ContentPageSubsectionPartContainer"
+        >
+          <h4
+            className="ContentPageSubsectionSubtitle"
+          >
+            Felidae Family Tree
+          </h4>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            The evolution of the 
+            <span
+              className="TaxonomyBinomialName"
+            >
+              Felidae
+            </span>
+             cat family began about 25 million years ago. Through time, the ancestors of the cat family slowly evolved into eight main lineages, with each lineage representing a subset of the 
+            <span
+              className="TaxonomyBinomialName"
+            >
+              Felidae
+            </span>
+             cat family that are the most related genetically.
+          </p>
+          <div />
+          <div>
+            <a
+              href="https://www.wildcatfamily.com/felidae-evolution/"
+            >
+              <button
+                className="ui blue icon button"
+                onClick={[Function]}
+              >
+                Learn more about Felidae Evolution
+                <i
+                  aria-hidden="true"
+                  className="file alternate outline icon"
+                  onClick={[Function]}
+                />
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
