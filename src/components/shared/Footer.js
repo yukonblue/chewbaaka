@@ -47,9 +47,9 @@ export default function Footer(props) {
                   alt={kStringConstantCheetahConservationFund}
                 />
               </Grid.Column>
-              <Grid.Column width={6}>
+              <Grid.Column width={8}>
                 <p className="FooterColumnHeading">Resources</p>
-                <List link inverted>
+                <List link inverted className="FooterNav">
                   <List.Item as="a" href="https://cheetah.org/about/what-we-do/">About CCF</List.Item>
                   <List.Item as="a" href="https://animalfactguide.com/animal-facts/cheetah/">Cheetah Fun Facts</List.Item>
                   <List.Item as="a" href="https://wildnet.org/wildlife-programs/cheetah-namibia/">Wildlife Conservation Network & CCF</List.Item>

@@ -11,3 +11,12 @@ p.FooterColumnHeading {
   font-size: 18px;
   color: white;
 }
+
+@media (max-width: 415px) {
+  .FooterNav a {
+    display: inline-block;
+    font-size: 17px;
+    margin: 1rem auto;
+    padding: 20px;
+  }
+}

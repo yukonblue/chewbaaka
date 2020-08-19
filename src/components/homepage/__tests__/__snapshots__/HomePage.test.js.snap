@@ -281,7 +281,7 @@ exports[`HomePage snapshot 1`] = `
               />
             </div>
             <div
-              className="six wide column"
+              className="eight wide column"
             >
               <p
                 className="FooterColumnHeading"
@@ -289,7 +289,7 @@ exports[`HomePage snapshot 1`] = `
                 Resources
               </p>
               <div
-                className="ui inverted link list"
+                className="ui inverted link list FooterNav"
                 role="list"
               >
                 <a
