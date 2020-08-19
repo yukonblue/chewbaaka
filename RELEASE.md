@@ -8,9 +8,9 @@
   * Other changes:
     * Changeset #180 - Add more unit tests.
   * All accessibility fixes and refinements:
-    * Fix 'Heading elements are not in a sequentially-descending order' issue in footer links.
-    * Fix 'Image elements do not have [alt] attributes' and 'Links do not have a discernible name' issues in explore gateway grid item links.
-    * Fix 'Links to cross-origin destinations are unsafe' issue in footer links.
+    * Fix **'Heading elements are not in a sequentially-descending order'** issue in footer links.
+    * Fix **'Image elements do not have [alt] attributes'** and **'Links do not have a discernible name'** issues in explore gateway grid item links.
+    * Fix **'Links to cross-origin destinations are unsafe'** issue in footer links.
 
 ## Version 0.2.5
 
