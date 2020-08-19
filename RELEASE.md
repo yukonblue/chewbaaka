@@ -15,6 +15,7 @@
     * Fix **'Image elements do not have [alt] attributes'** issue in CCF logo in footer.
     * Fix **'Buttons do not have an accessible name'** issue in `ImageSlidingGallery` component.
     * Fix **'Buttons do not have an accessible name'** issue in `ImageSlidingGalleryDiscrete` component.
+    * Fix **'ARIA input fields do not have accessible names'** and **'[aria-*] attributes do not have valid values'** issues in `ImageSlide` component.
 
 ## Version 0.2.5
 
