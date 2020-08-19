@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 12, 2020
+ * Updated  : Aug 18, 2020
  */
 
 div.ContentPageBannerContainer {
@@ -38,7 +38,7 @@ hr.ContentPageBannerTitleLineBreak {
   border: 2px solid #098094;
 }
 
-h2.ContentPageBannerSubtitle {
+p.ContentPageBannerSubtitle {
   margin: 0 auto;
   width: 50%;
   text-align: center;
@@ -47,6 +47,4 @@ h2.ContentPageBannerSubtitle {
   font-weight: 520;
   line-height: 1.6;
   color: white;
-  /* Uncomment line below for debugging. */
-  /* background-color: turquoise; */
 }

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 18, 2020
  */
 
 import React from 'react'
@@ -33,7 +33,7 @@ export default function ContentPageBanner(props) {
       <div className="ContentPageBannerTitleContainer">
         <h1 className="ContentPageBannerTitle">{props.title}</h1>
         <hr className="ContentPageBannerTitleLineBreak" />
-        <h2 className="ContentPageBannerSubtitle">{props.subtitle}</h2>
+        <p className="ContentPageBannerSubtitle">{props.subtitle}</p>
       </div>
     </div>
   );
