@@ -12,6 +12,7 @@ exports[`ExploreGatewayGridItem component snapshot 1`] = `
       data-testid="ExploreGatewayGridItemImageAnchorTestId"
       href="/detailedPage"
       onClick={[Function]}
+      title="History page"
     >
       <img
         alt="History"

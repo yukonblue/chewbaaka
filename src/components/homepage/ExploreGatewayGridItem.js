@@ -23,6 +23,7 @@ export default function ExploreGatewayGridItem(props) {
       <div className="ExploreGatewayGridItemInnerContainer">
         <Link
           to={props.dstUrl}
+          title={props.title + " page"}
           className="ExploreGatewayGridItemImageAnchor"
           data-testid="ExploreGatewayGridItemImageAnchorTestId"
         >

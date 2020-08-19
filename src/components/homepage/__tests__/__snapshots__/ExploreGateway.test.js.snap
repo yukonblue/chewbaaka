@@ -106,6 +106,7 @@ exports[`ExploreGateway component snapshot 1`] = `
             data-testid="ExploreGatewayGridItemImageAnchorTestId"
             href="/history"
             onClick={[Function]}
+            title="History page"
           >
             <img
               alt="History"
@@ -132,6 +133,7 @@ exports[`ExploreGateway component snapshot 1`] = `
             data-testid="ExploreGatewayGridItemImageAnchorTestId"
             href="/biology"
             onClick={[Function]}
+            title="Biology page"
           >
             <img
               alt="Biology"
@@ -158,6 +160,7 @@ exports[`ExploreGateway component snapshot 1`] = `
             data-testid="ExploreGatewayGridItemImageAnchorTestId"
             href="/ecology"
             onClick={[Function]}
+            title="Ecology page"
           >
             <img
               alt="Ecology"
@@ -184,6 +187,7 @@ exports[`ExploreGateway component snapshot 1`] = `
             data-testid="ExploreGatewayGridItemImageAnchorTestId"
             href="/future"
             onClick={[Function]}
+            title="Future page"
           >
             <img
               alt="Future"
