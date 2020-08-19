@@ -108,6 +108,7 @@ exports[`ExploreGateway component snapshot 1`] = `
             onClick={[Function]}
           >
             <img
+              alt="History"
               className="ui medium image ExploreGatewayGridItemImage"
               data-testid="ExploreGatewayGridItemImageTestId"
               src="explore_gateway_grid_item_img_01-min.jpg"
@@ -133,6 +134,7 @@ exports[`ExploreGateway component snapshot 1`] = `
             onClick={[Function]}
           >
             <img
+              alt="Biology"
               className="ui medium image ExploreGatewayGridItemImage"
               data-testid="ExploreGatewayGridItemImageTestId"
               src="explore_gateway_grid_item_img_02-min.jpg"
@@ -158,6 +160,7 @@ exports[`ExploreGateway component snapshot 1`] = `
             onClick={[Function]}
           >
             <img
+              alt="Ecology"
               className="ui medium image ExploreGatewayGridItemImage"
               data-testid="ExploreGatewayGridItemImageTestId"
               src="explore_gateway_grid_item_img_03-min.jpg"
@@ -183,6 +186,7 @@ exports[`ExploreGateway component snapshot 1`] = `
             onClick={[Function]}
           >
             <img
+              alt="Future"
               className="ui medium image ExploreGatewayGridItemImage"
               data-testid="ExploreGatewayGridItemImageTestId"
               src="explore_gateway_grid_item_img_04-min.jpg"
