@@ -4,12 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 18, 2020
  */
 
-import React from 'react'
-
-import "semantic-ui-css/semantic.min.css"
+import React, { Fragment } from 'react'
 
 import ContentPageSkeleton from '../shared/ContentPageSkeleton'
 
@@ -40,12 +38,12 @@ export default class FuturePage extends React.Component {
         content={this.renderContent()}
         imagesContext={this.state.imagesContext}
       />
-    )
+    );
   }
 
   renderContent() {
     return (
-      <div>
+      <Fragment>
         <ContentPageTableOfContentMenuBootstrapper
           pageMenuItems={config.pageProps.pageMenuItems}
           imagesContext = {this.state.imagesContext}
@@ -69,7 +67,7 @@ export default class FuturePage extends React.Component {
         />
 
         <FuturePageTail />
-      </div>
-    )
+      </Fragment>
+    );
   }
 }
