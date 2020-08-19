@@ -20,7 +20,7 @@ import React from 'react'
 
 import { getElementStyleClassName } from '../../styling/styling'
 
-import ContentPageSectionHead from './ContentPageSectionHead'
+import ContentPageSectionHeadFragment from './ContentPageSectionHeadFragment'
 
 import './ContentPageSectionTemplate.css'
 
@@ -30,7 +30,7 @@ if ( process.env.NODE_ENV === 'development' )
 export default function ContentPageSectionTemplate(props) {
   return (
     <article className={getElementStyleClassName("ContentPageSectionTemplateOuterContainer")}>
-      <ContentPageSectionHead
+      <ContentPageSectionHeadFragment
         title={props.sectionConfig.intro.title}
         content={props.sectionConfig.intro.content}
       />

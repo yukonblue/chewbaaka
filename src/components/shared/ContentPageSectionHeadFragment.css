@@ -1,15 +1,11 @@
 /**
- * ContentPageSectionHead.css
+ * ContentPageSectionHeadFragment.css
  * Chewbaaka
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
  * Updated  : Aug 18, 2020
  */
-
-.ContentPageSectionHeadOuterContainer {
-  margin: 0 auto;
-}
 
 h2.ContentPageSectionHeadTitle {
   padding: 1rem 0;
