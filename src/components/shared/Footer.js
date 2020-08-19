@@ -44,6 +44,7 @@ export default function Footer(props) {
                 <Image
                   size="small"
                   src={logo}
+                  alt={kStringConstantCheetahConservationFund}
                 />
               </Grid.Column>
               <Grid.Column width={6}>

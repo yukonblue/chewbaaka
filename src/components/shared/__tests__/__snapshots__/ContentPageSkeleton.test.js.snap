@@ -689,6 +689,7 @@ exports[`ContentPageSkeleton snapshot 1`] = `
               className="three wide column"
             >
               <img
+                alt="Cheetah Conservation Fund"
                 className="ui small image"
                 src="cheetah-conservation-fund-logo-mini-min.jpg"
               />
