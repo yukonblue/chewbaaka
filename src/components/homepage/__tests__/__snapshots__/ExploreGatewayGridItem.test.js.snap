@@ -12,8 +12,10 @@ exports[`ExploreGatewayGridItem component snapshot 1`] = `
       data-testid="ExploreGatewayGridItemImageAnchorTestId"
       href="/detailedPage"
       onClick={[Function]}
+      title="History page"
     >
       <img
+        alt="History"
         className="ui medium image ExploreGatewayGridItemImage"
         data-testid="ExploreGatewayGridItemImageTestId"
         src="https://cheetah.org/wp-content/uploads/2019/05/iwt_ancientindiancheetahhunt_1000-600-scaled.jpg"

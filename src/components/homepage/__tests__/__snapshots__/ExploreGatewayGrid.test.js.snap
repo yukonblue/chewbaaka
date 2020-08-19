@@ -17,8 +17,10 @@ exports[`ExploreGatewayGrid component snapshot 1`] = `
           data-testid="ExploreGatewayGridItemImageAnchorTestId"
           href="/history"
           onClick={[Function]}
+          title="History page"
         >
           <img
+            alt="History"
             className="ui medium image ExploreGatewayGridItemImage"
             data-testid="ExploreGatewayGridItemImageTestId"
             src="explore_gateway_grid_item_img_01-min.jpg"
@@ -42,8 +44,10 @@ exports[`ExploreGatewayGrid component snapshot 1`] = `
           data-testid="ExploreGatewayGridItemImageAnchorTestId"
           href="/biology"
           onClick={[Function]}
+          title="Biology page"
         >
           <img
+            alt="Biology"
             className="ui medium image ExploreGatewayGridItemImage"
             data-testid="ExploreGatewayGridItemImageTestId"
             src="explore_gateway_grid_item_img_02-min.jpg"
@@ -67,8 +71,10 @@ exports[`ExploreGatewayGrid component snapshot 1`] = `
           data-testid="ExploreGatewayGridItemImageAnchorTestId"
           href="/ecology"
           onClick={[Function]}
+          title="Ecology page"
         >
           <img
+            alt="Ecology"
             className="ui medium image ExploreGatewayGridItemImage"
             data-testid="ExploreGatewayGridItemImageTestId"
             src="explore_gateway_grid_item_img_03-min.jpg"
@@ -92,8 +98,10 @@ exports[`ExploreGatewayGrid component snapshot 1`] = `
           data-testid="ExploreGatewayGridItemImageAnchorTestId"
           href="/future"
           onClick={[Function]}
+          title="Future page"
         >
           <img
+            alt="Future"
             className="ui medium image ExploreGatewayGridItemImage"
             data-testid="ExploreGatewayGridItemImageTestId"
             src="explore_gateway_grid_item_img_04-min.jpg"

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 18, 2020
+ * Updated  : Aug 19, 2020
  */
 
 import React from 'react'
@@ -12,17 +12,18 @@ import React from 'react'
 import {
   Container,
   Grid,
-  Header,
   Image,
   List,
   Segment
 } from 'semantic-ui-react'
 
-import 'semantic-ui-css/semantic.min.css'
-
 import { kStringConstantCheetahConservationFund } from './constants'
 
 import logo from './assets/cheetah-conservation-fund-logo-mini-min.jpg'
+
+import 'semantic-ui-css/semantic.min.css'
+
+import './Footer.css'
 
 export default function Footer(props) {
   const renderOptionalAuthorName = () => (
@@ -43,21 +44,22 @@ export default function Footer(props) {
                 <Image
                   size="small"
                   src={logo}
+                  alt={kStringConstantCheetahConservationFund}
                 />
               </Grid.Column>
               <Grid.Column width={6}>
-                <Header inverted as="h4" content="Resources" />
+                <p className="FooterColumnHeading">Resources</p>
                 <List link inverted>
-                  <List.Item as="a" target="_blank" href="https://cheetah.org/about/what-we-do/">About CCF</List.Item>
-                  <List.Item as="a" target="_blank" href="https://animalfactguide.com/animal-facts/cheetah/">Cheetah Fun Facts</List.Item>
-                  <List.Item as="a" target="_blank" href="https://wildnet.org/wildlife-programs/cheetah-namibia/">Wildlife Conservation Network & CCF</List.Item>
-                  <List.Item as="a" target="_blank" href="https://www.iucnredlist.org/species/219/50649567">IUCN Red List - Cheetah</List.Item>
+                  <List.Item as="a" href="https://cheetah.org/about/what-we-do/">About CCF</List.Item>
+                  <List.Item as="a" href="https://animalfactguide.com/animal-facts/cheetah/">Cheetah Fun Facts</List.Item>
+                  <List.Item as="a" href="https://wildnet.org/wildlife-programs/cheetah-namibia/">Wildlife Conservation Network & CCF</List.Item>
+                  <List.Item as="a" href="https://www.iucnredlist.org/species/219/50649567">IUCN Red List - Cheetah</List.Item>
                 </List>
               </Grid.Column>
               <Grid.Column width={7}>
-                <Header as="h4" inverted>
+                <p className="FooterColumnHeading">
                   {kStringConstantCheetahConservationFund}
-                </Header>
+                </p>
                 <p data-testid="footerSectionCCF">
                   <a href="https://cheetah.org/">{kStringConstantCheetahConservationFund}</a> is a 501(c)(3) nonprofit organization,
                   dedicated to saving the cheetahs in the wild and changing

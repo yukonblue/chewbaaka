@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 23, 2020
- * Updated  : Aug 13, 2020
+ * Updated  : Aug 19, 2020
  */
 
 /**
@@ -25,8 +25,6 @@
 
 import React, { Fragment } from 'react'
 
-import "semantic-ui-css/semantic.min.css"
-
 import { Button } from "semantic-ui-react"
 
 import { getFormattedImageCaptionStringWithCredit } from './ImageCaptionUtils'
@@ -37,6 +35,8 @@ import {
 } from '../../styling/styling'
 
 import Caption from './Caption'
+
+import 'semantic-ui-css/semantic.min.css'
 
 import './ImageSlidingGalleryDiscrete.css'
 
@@ -128,6 +128,7 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
             icon="arrow alternate circle left outline"
             size="large"
             color="blue"
+            aria-label="Previous slide"
             disabled={(this.state.activeIndex === 0)}
             onClick={this.handleOnPrevClick}
           />
@@ -141,6 +142,7 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
             icon="arrow alternate circle right outline"
             size="large"
             color="blue"
+            aria-label="Next slide"
             disabled={(this.state.activeIndex === (this.props.slides.length - 1))}
             onClick={this.handleOnNextClick}
           />

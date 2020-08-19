@@ -7,6 +7,15 @@
     * Issue #181 - Refine page document outline and use more semantically correct HTML5 elements where appropriate.
   * Other changes:
     * Changeset #180 - Add more unit tests.
+    * Changeset #183 - Address accessibility issues - Part 1
+  * All accessibility fixes and refinements:
+    * Fix **'Heading elements are not in a sequentially-descending order'** issue in footer links.
+    * Fix **'Image elements do not have [alt] attributes'** and **'Links do not have a discernible name'** issues in explore gateway grid item links.
+    * Fix **'Links to cross-origin destinations are unsafe'** issue in footer links.
+    * Fix **'Image elements do not have [alt] attributes'** issue in CCF logo in footer.
+    * Fix **'Buttons do not have an accessible name'** issue in `ImageSlidingGallery` component.
+    * Fix **'Buttons do not have an accessible name'** issue in `ImageSlidingGalleryDiscrete` component.
+    * Fix **'ARIA input fields do not have accessible names'** and **'[aria-*] attributes do not have valid values'** issues in `ImageSlide` component.
 
 ## Version 0.2.5
 

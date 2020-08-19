@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 19, 2020
  */
 
 /**
@@ -175,7 +175,7 @@ export default class ImageSlide extends React.Component {
                 <Slider
                   defaultValue={this.props.marks[0].value}
                   valueLabelFormat={(value) => ("")}
-                  aria-labelledby="discrete-slider-restrict"
+                  aria-label="discrete-slider-restrict"
                   step={null}
                   valueLabelDisplay="auto"
                   marks={this.props.marks}

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 14, 2020
+ * Updated  : Aug 19, 2020
  */
 
 import React from 'react'
@@ -23,12 +23,14 @@ export default function ExploreGatewayGridItem(props) {
       <div className="ExploreGatewayGridItemInnerContainer">
         <Link
           to={props.dstUrl}
+          title={props.title + " page"}
           className="ExploreGatewayGridItemImageAnchor"
           data-testid="ExploreGatewayGridItemImageAnchorTestId"
         >
           <Image
             size="medium"
             src={props.image}
+            alt={props.title}
             className="ExploreGatewayGridItemImage"
             data-testid="ExploreGatewayGridItemImageTestId"
           />
