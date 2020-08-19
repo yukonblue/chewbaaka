@@ -51,6 +51,7 @@ exports[`ImageSlidingGallery component snapshot 1`] = `
     className="ImageSlidingGalleryButtonContainer"
   >
     <div
+      aria-label="Previous slide"
       className="ui blue huge icon left attached disabled button"
       onClick={[Function]}
       role="button"
@@ -63,6 +64,7 @@ exports[`ImageSlidingGallery component snapshot 1`] = `
       />
     </div>
     <div
+      aria-label="Next slide"
       className="ui blue huge icon right attached button"
       onClick={[Function]}
       role="button"

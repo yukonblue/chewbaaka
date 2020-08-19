@@ -102,6 +102,7 @@ export default class ImageSlidingGallery extends React.Component {
           attached="left"
           size="huge"
           color="blue"
+          aria-label="Previous slide"
           disabled={(this.state.activeIndex === 0)}
           onClick={this.handleOnPrevClick}
         />
@@ -110,6 +111,7 @@ export default class ImageSlidingGallery extends React.Component {
           attached="right"
           size="huge"
           color="blue"
+          aria-label="Next slide"
           disabled={(this.state.activeIndex === (this.props.slides.length - 1))}
           onClick={this.handleOnNextClick}
         />

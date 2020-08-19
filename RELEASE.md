@@ -13,6 +13,7 @@
     * Fix **'Image elements do not have [alt] attributes'** and **'Links do not have a discernible name'** issues in explore gateway grid item links.
     * Fix **'Links to cross-origin destinations are unsafe'** issue in footer links.
     * Fix **'Image elements do not have [alt] attributes'** issue in CCF logo in footer.
+    * Fix **'Buttons do not have an accessible name'** issue in `ImageSlidingGallery` component.
 
 ## Version 0.2.5
 
