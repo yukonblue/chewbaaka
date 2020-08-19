@@ -67,19 +67,17 @@ export default class ContentPageSkeleton extends React.Component {
   render() {
     return (
       <div className={getElementStyleClassName("ContentPageSkeletonOuterContainer")}>
-        <article>
-          <ContentPageHead
-            pageProps={this.props.pageProps}
-            imagesContext={this.props.imagesContext}
-          />
-          {this.renderBody()}
-          <ContentPageTail
-            pageTailNavMenu={this.props.pageProps.pageTailNavMenu}
-          />
-          <Footer
-            appConfig={this.props.appConfig}
-          />
-          </article>
+        <ContentPageHead
+          pageProps={this.props.pageProps}
+          imagesContext={this.props.imagesContext}
+        />
+        {this.renderBody()}
+        <ContentPageTail
+          pageTailNavMenu={this.props.pageProps.pageTailNavMenu}
+        />
+        <Footer
+          appConfig={this.props.appConfig}
+        />
       </div>
     );
   }
