@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 18, 2020
  */
 
 import React from 'react'
@@ -54,8 +54,7 @@ export default class ContentPageTail extends React.Component {
 
   renderContent() {
     return (
-      <div className={getElementStyleClassNames(["ContentPageTailInnerContainer",
-                                                 ""])}
+      <div className={getElementStyleClassName("ContentPageTailInnerContainer")}
       >
         {this.renderImageCollage()}
         {this.renderPrevNextPageNavButtons()}

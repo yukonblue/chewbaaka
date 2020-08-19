@@ -242,7 +242,7 @@ exports[`ContentPageSkeleton snapshot 1`] = `
             className="ContentPageHeadAndSectionIntroText"
           />
           <div
-            className="ContentPageTailInnerContainer "
+            className="ContentPageTailInnerContainer"
           >
             <div
               className="ContentPageTailInnerImageCollageContainer"
