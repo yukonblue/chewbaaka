@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Aug 11, 2020
+ * Updated  : Aug 18, 2020
  */
 
 import React from 'react'
@@ -36,9 +36,9 @@ export default class ContentPageSubsectionThreeColumnContentTemplate extends Rea
             <ContentPageSubsectionSubtitle>
               {this.props.lhsColumn.title}
             </ContentPageSubsectionSubtitle>
-            <ContentPageSubsectionSubtitleSecondary>
-              {this.props.lhsColumn.subtitle}
-            </ContentPageSubsectionSubtitleSecondary>
+
+            {this.renderOptionalColumnSubtitle(this.props.lhsColumn.subtitle)}
+
             <div>
               {this.props.lhsColumn.content}
             </div>
@@ -57,9 +57,9 @@ export default class ContentPageSubsectionThreeColumnContentTemplate extends Rea
             <ContentPageSubsectionSubtitle>
               {this.props.rhsColumn.title}
             </ContentPageSubsectionSubtitle>
-            <ContentPageSubsectionSubtitleSecondary>
-              {this.props.rhsColumn.subtitle}
-            </ContentPageSubsectionSubtitleSecondary>
+
+            {this.renderOptionalColumnSubtitle(this.props.rhsColumn.subtitle)}
+
             <div>
               {this.props.rhsColumn.content}
             </div>
@@ -80,6 +80,16 @@ export default class ContentPageSubsectionThreeColumnContentTemplate extends Rea
       }
     };
     return pred();
+  }
+
+  renderOptionalColumnSubtitle(subtitle) {
+    if ( !subtitle ) return null;
+
+    return (
+      <ContentPageSubsectionSubtitle>
+        {subtitle}
+      </ContentPageSubsectionSubtitle>
+    );
   }
 
   getColumnStyle(column) {
