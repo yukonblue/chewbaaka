@@ -32,7 +32,8 @@ export default class ContentPageSubsectionThreeColumnContentTemplate extends Rea
     return (
       <div className={getElementStyleClassName("ContentPageSubsectionThreeColumnContentTemplateOuterContainer")}>
         <div className={getElementStyleClassName("ContentPageSubsectionThreeColumnContentTemplateInnerContainer")}>
-          <div className={getElementStyleClassNames(["ContentPageSubsectionThreeColumnContentTemplateColumn", "ContentPageSubsectionThreeColumnContentTemplateLeftColumnContainer"])}>
+          <div className={getElementStyleClassNames(["ContentPageSubsectionThreeColumnContentTemplateColumn",
+                                                    "ContentPageSubsectionThreeColumnContentTemplateLeftColumnContainer"])}>
             <ContentPageSubsectionSubtitle>
               {this.props.lhsColumn.title}
             </ContentPageSubsectionSubtitle>
@@ -53,7 +54,8 @@ export default class ContentPageSubsectionThreeColumnContentTemplate extends Rea
               {this.props.middleColumn.content}
             </div>
           </div>
-          <div className={getElementStyleClassNames(["ContentPageSubsectionThreeColumnContentTemplateColumn", "ContentPageSubsectionThreeColumnContentTemplateRightColumnContainer"])}>
+          <div className={getElementStyleClassNames(["ContentPageSubsectionThreeColumnContentTemplateColumn",
+                                                    "ContentPageSubsectionThreeColumnContentTemplateRightColumnContainer"])}>
             <ContentPageSubsectionSubtitle>
               {this.props.rhsColumn.title}
             </ContentPageSubsectionSubtitle>
@@ -86,9 +88,9 @@ export default class ContentPageSubsectionThreeColumnContentTemplate extends Rea
     if ( !subtitle ) return null;
 
     return (
-      <ContentPageSubsectionSubtitle>
+      <ContentPageSubsectionSubtitleSecondary>
         {subtitle}
-      </ContentPageSubsectionSubtitle>
+      </ContentPageSubsectionSubtitleSecondary>
     );
   }
 
