@@ -177,6 +177,7 @@ exports[`EcologyPageSectionResearch component snapshot 1`] = `
                     className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonLhsContainer"
                   >
                     <button
+                      aria-label="Previous slide"
                       className="ui blue large circular icon disabled button"
                       disabled={true}
                       onClick={[Function]}
@@ -193,6 +194,7 @@ exports[`EcologyPageSectionResearch component snapshot 1`] = `
                     className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonRhsContainer"
                   >
                     <button
+                      aria-label="Next slide"
                       className="ui blue large circular icon button"
                       onClick={[Function]}
                     >
