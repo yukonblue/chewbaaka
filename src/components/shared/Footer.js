@@ -49,10 +49,10 @@ export default function Footer(props) {
               <Grid.Column width={6}>
                 <p className="FooterColumnHeading">Resources</p>
                 <List link inverted>
-                  <List.Item as="a" target="_blank" href="https://cheetah.org/about/what-we-do/">About CCF</List.Item>
-                  <List.Item as="a" target="_blank" href="https://animalfactguide.com/animal-facts/cheetah/">Cheetah Fun Facts</List.Item>
-                  <List.Item as="a" target="_blank" href="https://wildnet.org/wildlife-programs/cheetah-namibia/">Wildlife Conservation Network & CCF</List.Item>
-                  <List.Item as="a" target="_blank" href="https://www.iucnredlist.org/species/219/50649567">IUCN Red List - Cheetah</List.Item>
+                  <List.Item as="a" href="https://cheetah.org/about/what-we-do/">About CCF</List.Item>
+                  <List.Item as="a" href="https://animalfactguide.com/animal-facts/cheetah/">Cheetah Fun Facts</List.Item>
+                  <List.Item as="a" href="https://wildnet.org/wildlife-programs/cheetah-namibia/">Wildlife Conservation Network & CCF</List.Item>
+                  <List.Item as="a" href="https://www.iucnredlist.org/species/219/50649567">IUCN Red List - Cheetah</List.Item>
                 </List>
               </Grid.Column>
               <Grid.Column width={7}>

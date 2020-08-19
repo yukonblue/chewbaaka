@@ -710,7 +710,6 @@ exports[`ContentPageSkeleton snapshot 1`] = `
                   href="https://cheetah.org/about/what-we-do/"
                   onClick={[Function]}
                   role="listitem"
-                  target="_blank"
                 >
                   About CCF
                 </a>
@@ -719,7 +718,6 @@ exports[`ContentPageSkeleton snapshot 1`] = `
                   href="https://animalfactguide.com/animal-facts/cheetah/"
                   onClick={[Function]}
                   role="listitem"
-                  target="_blank"
                 >
                   Cheetah Fun Facts
                 </a>
@@ -728,7 +726,6 @@ exports[`ContentPageSkeleton snapshot 1`] = `
                   href="https://wildnet.org/wildlife-programs/cheetah-namibia/"
                   onClick={[Function]}
                   role="listitem"
-                  target="_blank"
                 >
                   Wildlife Conservation Network & CCF
                 </a>
@@ -737,7 +734,6 @@ exports[`ContentPageSkeleton snapshot 1`] = `
                   href="https://www.iucnredlist.org/species/219/50649567"
                   onClick={[Function]}
                   role="listitem"
-                  target="_blank"
                 >
                   IUCN Red List - Cheetah
                 </a>
