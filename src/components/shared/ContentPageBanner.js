@@ -31,7 +31,7 @@ export default function ContentPageBanner(props) {
       data-testid="ContentPageBannerComponentTestId"
     >
       <div className="ContentPageBannerTitleContainer">
-        <h1 className="ContentPageBannerTitle">{props.title}</h1>
+        <p className="ContentPageBannerTitle">{props.title}</p>
         <hr className="ContentPageBannerTitleLineBreak" />
         <p className="ContentPageBannerSubtitle">{props.subtitle}</p>
       </div>
