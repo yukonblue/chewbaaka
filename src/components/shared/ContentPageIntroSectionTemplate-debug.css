@@ -4,19 +4,11 @@
  *
  * Author   : Tomiko
  * Created  : Aug 07, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 18, 2020
  */
 
-div.ContentPageIntroSectionTemplateInnerContainer_DebugColor {
-  background-color: yellowgreen;
-}
-
-div.ContentPageIntroSectionTemplateTitleContainer_DebugColor {
+div.ContentPageIntroSectionTemplateOuterContainer_DebugColor {
   background-color: violet;
-}
-
-div.ContentPageIntroSectionTemplateContentContainer_DebugColor {
-  background-color: tan;
 }
 
 h1.ContentPageIntroSectionTemplateTitle_DebugColor {

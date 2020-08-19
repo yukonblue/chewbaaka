@@ -4,25 +4,15 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 18, 2020
  */
 
 div.ContentPageIntroSectionTemplateOuterContainer {
   margin: 0 auto;
 }
 
-div.ContentPageIntroSectionTemplateInnerContainer {
-  margin: 0 auto;
-}
-
-div.ContentPageIntroSectionTemplateTitleContainer {
-  padding: 20px 0px;
-}
-
-div.ContentPageIntroSectionTemplateContentContainer {
-}
-
 h1.ContentPageIntroSectionTemplateTitle {
+  padding: 20px 0px;
   font-size: 64px;
   line-height: 1.6;
   text-decoration: underline;
