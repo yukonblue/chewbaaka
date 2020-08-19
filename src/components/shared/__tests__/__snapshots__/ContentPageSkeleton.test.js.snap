@@ -696,11 +696,11 @@ exports[`ContentPageSkeleton snapshot 1`] = `
             <div
               className="six wide column"
             >
-              <h4
-                className="ui inverted header"
+              <p
+                className="FooterColumnHeading"
               >
                 Resources
-              </h4>
+              </p>
               <div
                 className="ui inverted link list"
                 role="list"
@@ -746,11 +746,11 @@ exports[`ContentPageSkeleton snapshot 1`] = `
             <div
               className="seven wide column"
             >
-              <h4
-                className="ui inverted header"
+              <p
+                className="FooterColumnHeading"
               >
                 Cheetah Conservation Fund
-              </h4>
+              </p>
               <p
                 data-testid="footerSectionCCF"
               >
