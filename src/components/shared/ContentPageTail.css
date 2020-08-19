@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Aug 18, 2020
+ * Updated  : Aug 19, 2020
  */
 
 div.ContentPageTailOuterContainer {
@@ -21,7 +21,8 @@ div.ContentPageTailInnerImageCollageContainer {
    * TODO
    * This hardcoded width is not great...
    */
-  width: 840px;
+  width: 976px;
+  box-sizing: content-box;
   margin: 20px auto;
 }
 
@@ -29,7 +30,7 @@ div.ContentPageTailInnerNavMenuContainer {
   margin: 40px auto;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1177px) {
   div.ContentPageTailInnerImageCollageContainer {
     display: none;
   }

@@ -278,7 +278,7 @@ exports[`ContentPageSkeleton snapshot 1`] = `
                                 <img
                                   height={320}
                                   src="collage_01-min.jpg"
-                                  width={420}
+                                  width={480}
                                 />
                               </a>
                               <div
@@ -310,7 +310,7 @@ exports[`ContentPageSkeleton snapshot 1`] = `
                                 <img
                                   height={320}
                                   src="collage_01-min.jpg"
-                                  width={420}
+                                  width={480}
                                 />
                               </a>
                               <div
@@ -349,7 +349,7 @@ exports[`ContentPageSkeleton snapshot 1`] = `
                                 <img
                                   height={320}
                                   src="collage_02-min.jpg"
-                                  width={420}
+                                  width={480}
                                 />
                               </a>
                               <div
@@ -381,7 +381,7 @@ exports[`ContentPageSkeleton snapshot 1`] = `
                                 <img
                                   height={320}
                                   src="collage_02-min.jpg"
-                                  width={420}
+                                  width={480}
                                 />
                               </a>
                               <div
@@ -420,7 +420,7 @@ exports[`ContentPageSkeleton snapshot 1`] = `
                                 <img
                                   height={320}
                                   src="collage_03-min.jpg"
-                                  width={420}
+                                  width={480}
                                 />
                               </a>
                               <div
@@ -452,7 +452,7 @@ exports[`ContentPageSkeleton snapshot 1`] = `
                                 <img
                                   height={320}
                                   src="collage_03-min.jpg"
-                                  width={420}
+                                  width={480}
                                 />
                               </a>
                               <div
@@ -491,7 +491,7 @@ exports[`ContentPageSkeleton snapshot 1`] = `
                                 <img
                                   height={320}
                                   src="collage_04-min.jpg"
-                                  width={420}
+                                  width={480}
                                 />
                               </a>
                               <div
@@ -523,7 +523,7 @@ exports[`ContentPageSkeleton snapshot 1`] = `
                                 <img
                                   height={320}
                                   src="collage_04-min.jpg"
-                                  width={420}
+                                  width={480}
                                 />
                               </a>
                               <div
