@@ -11,9 +11,6 @@ import React, { Fragment } from 'react'
 
 import ContentPageSkeleton from '../shared/ContentPageSkeleton'
 
-import ContentPageTableOfContentMenuBootstrapper from '../shared/ContentPageTableOfContentMenuBootstrapper'
-import ContentPageIntroSectionGeneric from '../shared/ContentPageIntroSectionGeneric'
-
 import { config }  from './config'
 
 import FuturePageSectionConservation from './FuturePage_Section_Conservation'
@@ -35,6 +32,7 @@ export default class FuturePage extends React.Component {
       <ContentPageSkeleton
         appConfig={this.props.appConfig}
         pageProps={config.pageProps}
+        contentPageIntro={config.contentPageIntro}
         content={this.renderContent()}
         imagesContext={this.state.imagesContext}
       />
@@ -44,16 +42,6 @@ export default class FuturePage extends React.Component {
   renderContent() {
     return (
       <Fragment>
-        <ContentPageTableOfContentMenuBootstrapper
-          pageMenuItems={config.pageProps.pageMenuItems}
-          imagesContext = {this.state.imagesContext}
-        />
-
-        <ContentPageIntroSectionGeneric
-          contentPageIntro={config.contentPageIntro}
-          imagesContext = {this.state.imagesContext}
-        />
-
         <FuturePageSectionConservation
           config={config}
         />

@@ -13,9 +13,6 @@ import ContentPageSkeleton from '../shared/ContentPageSkeleton'
 
 import { config }  from './config'
 
-import ContentPageTableOfContentMenuBootstrapper from '../shared/ContentPageTableOfContentMenuBootstrapper'
-import ContentPageIntroSectionGeneric from '../shared/ContentPageIntroSectionGeneric'
-
 import HistoryPageSectionEvolution from './HistoryPage_Section_Evolution'
 import HistoryPageSectionCheetahAndMan from './HistoryPage_Section_CheetahAndMan'
 import HistoryPageSectionRangeAndPopulation from './HistoryPage_Section_RangeAndPopulation'
@@ -34,25 +31,16 @@ export default class HistoryPage extends React.Component {
       <ContentPageSkeleton
         appConfig={this.props.appConfig}
         pageProps={config.pageProps}
+        contentPageIntro={config.contentPageIntro}
         content={this.renderContent()}
         imagesContext={this.state.imagesContext}
       />
-    );
+    )
   }
 
   renderContent() {
     return (
       <Fragment>
-        <ContentPageTableOfContentMenuBootstrapper
-          pageMenuItems={config.pageProps.pageMenuItems}
-          imagesContext = {this.state.imagesContext}
-        />
-
-        <ContentPageIntroSectionGeneric
-          contentPageIntro={config.contentPageIntro}
-          imagesContext = {this.state.imagesContext}
-        />
-
         <HistoryPageSectionEvolution config={config} />
 
         <HistoryPageSectionCheetahAndMan config={config} />

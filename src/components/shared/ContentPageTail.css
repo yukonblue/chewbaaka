@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Aug 13, 2020
+ * Updated  : Aug 18, 2020
  */
 
 div.ContentPageTailOuterContainer {
@@ -14,11 +14,6 @@ div.ContentPageTailOuterContainer {
 div.ContentPageTailInnerContainer {
   display: block;
   margin: 0px auto;
-  /**
-   * NOTE:
-   * width is specified `div.ContentPageContentInnerContentDimension`
-   * in ContentPageSharedStyles.css
-   */
 }
 
 div.ContentPageTailInnerImageCollageContainer {

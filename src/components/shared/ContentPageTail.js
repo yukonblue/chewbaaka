@@ -55,7 +55,7 @@ export default class ContentPageTail extends React.Component {
   renderContent() {
     return (
       <div className={getElementStyleClassNames(["ContentPageTailInnerContainer",
-                                                 "ContentPageContentInnerContentDimension"])}
+                                                 ""])}
       >
         {this.renderImageCollage()}
         {this.renderPrevNextPageNavButtons()}

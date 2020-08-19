@@ -9,14 +9,7 @@
 
 .ContentPageSubsectionTemplateOuterContainer {
   margin: 0 auto;
-  width: 85%;
   padding: 50px 0;
-  /**
-   * NOTE:
-   * The width is derived from the width
-   * specified by `div.ContentPageContentInnerContentDimension`
-   * in ContentPageSharedStyles.css
-   */
 }
 
 h3.ContentPageSubsectionTitle {

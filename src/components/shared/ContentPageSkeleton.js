@@ -21,6 +21,8 @@ import {
   getElementStyleClassNames
 } from '../../styling/styling'
 
+import ContentPageTableOfContentMenuBootstrapper from './ContentPageTableOfContentMenuBootstrapper'
+import ContentPageIntroSectionGeneric from './ContentPageIntroSectionGeneric'
 import ContentPageHead from './ContentPageHead'
 import ContentPageTail from './ContentPageTail'
 import ContentPageSideNavMenu from './ContentPageSideNavMenu'
@@ -71,10 +73,23 @@ export default class ContentPageSkeleton extends React.Component {
           pageProps={this.props.pageProps}
           imagesContext={this.props.imagesContext}
         />
+
+        <ContentPageTableOfContentMenuBootstrapper
+          pageMenuItems={this.props.pageProps.pageMenuItems}
+          imagesContext = {this.props.imagesContext}
+        />
+
+        <ContentPageIntroSectionGeneric
+          contentPageIntro={this.props.contentPageIntro}
+          imagesContext = {this.props.imagesContext}
+        />
+
         {this.renderBody()}
+
         <ContentPageTail
           pageTailNavMenu={this.props.pageProps.pageTailNavMenu}
         />
+
         <Footer
           appConfig={this.props.appConfig}
         />
