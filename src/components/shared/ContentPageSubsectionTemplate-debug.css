@@ -7,11 +7,11 @@
  * Updated  : Aug 07, 2020
  */
 
-div.ContentPageSubsectionTemplateOuterContainer_DebugColor {
+.ContentPageSubsectionTemplateOuterContainer_DebugColor {
   background-color: grey;
 }
 
-div.ContentPageSubsectionTemplateInnerContainer_DebugColor {
+.ContentPageSubsectionTemplateInnerContainer_DebugColor {
   background-color: plum;
 }
 

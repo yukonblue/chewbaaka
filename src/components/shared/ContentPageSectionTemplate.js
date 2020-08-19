@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 08, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 18, 2020
  */
 
 /**
@@ -16,30 +16,26 @@
  * layout, as well as section head and title support.
  */
 
-import React from 'react';
+import React from 'react'
 
 import { getElementStyleClassName } from '../../styling/styling'
 
-import ContentPageSectionHead from './ContentPageSectionHead'
+import ContentPageSectionHeadFragment from './ContentPageSectionHeadFragment'
 
 import './ContentPageSectionTemplate.css'
 
 if ( process.env.NODE_ENV === 'development' )
   require('./ContentPageSectionTemplate-debug.css')
 
-function ContentPageSectionTemplate(props) {
+export default function ContentPageSectionTemplate(props) {
   return (
-    <div className={getElementStyleClassName("ContentPageSectionTemplateOuterContainer")}>
-      <ContentPageSectionHead
+    <article className={getElementStyleClassName("ContentPageSectionTemplateOuterContainer")}>
+      <ContentPageSectionHeadFragment
         title={props.sectionConfig.intro.title}
         content={props.sectionConfig.intro.content}
       />
 
-      <div className={getElementStyleClassName("ContentPageSectionTemplateInnerContainer")}>
-        {props.sectionContent}
-      </div>
-    </div>
+      {props.sectionContent}
+    </article>
   );
 }
-
-export default ContentPageSectionTemplate;

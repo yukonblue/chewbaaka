@@ -13,19 +13,19 @@ exports[`ContentPageBanner component snapshot 1`] = `
   <div
     className="ContentPageBannerTitleContainer"
   >
-    <h1
+    <p
       className="ContentPageBannerTitle"
     >
       Title
-    </h1>
+    </p>
     <hr
       className="ContentPageBannerTitleLineBreak"
     />
-    <h2
+    <p
       className="ContentPageBannerSubtitle"
     >
       This is a subtitle
-    </h2>
+    </p>
   </div>
 </div>
 `;

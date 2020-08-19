@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 31, 2020
+ * Updated  : Aug 18, 2020
  */
 
 import React from 'react'
@@ -67,7 +67,9 @@ export default class ContentPageSideNavMenu extends React.Component {
               {this.props.title}
             </span>
           </Menu.Item>
-          {menuItems}
+          <nav>
+            {menuItems}
+          </nav>
         </Menu>
       </div>
     );

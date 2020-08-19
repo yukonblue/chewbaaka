@@ -1,51 +1,47 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`BiologyPageSubsectionLifecycleStage3 component snapshot 1`] = `
-<div
+<section
   className="ContentPageSubsectionTemplateOuterContainer"
 >
-  <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  <h3
+    className="ContentPageSubsectionTitle"
   >
-    <h3
-      className="ContentPageSubsectionTitle"
+    Stage 3
+  </h3>
+  <div>
+    <p
+      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
     >
-      Stage 3
-    </h3>
+      Stage three begins at the age 18 to 22 months when the cubs have grown to sub-adults and leave their mother. The sub-adults will remain together for up to six more months. At first, their success rate at capturing prey is poor.
+    </p>
+    <p
+      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+    >
+      Cheetahs are diurnal, hunting mornings and early evenings. They rely on their sight to find prey. They spend most of the day resting under shady trees or on termite mounds. Night hunting is only done during a bright moon.
+    </p>
     <div>
-      <p
-        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+      <a
+        href="https://www.nationalgeographic.co.uk/animals/2017/12/stunning-pictures-cheetahs-action"
       >
-        Stage three begins at the age 18 to 22 months when the cubs have grown to sub-adults and leave their mother. The sub-adults will remain together for up to six more months. At first, their success rate at capturing prey is poor.
-      </p>
-      <p
-        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-      >
-        Cheetahs are diurnal, hunting mornings and early evenings. They rely on their sight to find prey. They spend most of the day resting under shady trees or on termite mounds. Night hunting is only done during a bright moon.
-      </p>
-      <div>
-        <a
-          href="https://www.nationalgeographic.co.uk/animals/2017/12/stunning-pictures-cheetahs-action"
+        <button
+          className="ui blue icon button"
+          onClick={[Function]}
         >
-          <button
-            className="ui blue icon button"
+          Stunning Pictures of Cheetahs in Action | National Geographic
+          <i
+            aria-hidden="true"
+            className="file image icon"
             onClick={[Function]}
-          >
-            Stunning Pictures of Cheetahs in Action | National Geographic
-            <i
-              aria-hidden="true"
-              className="file image icon"
-              onClick={[Function]}
-            />
-          </button>
-        </a>
-      </div>
-      <img
-        alt="What is diurnal?"
-        className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerSmallDimension"
-        src="What_is_Diurnal-min.png"
-      />
+          />
+        </button>
+      </a>
     </div>
+    <img
+      alt="What is diurnal?"
+      className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerSmallDimension"
+      src="What_is_Diurnal-min.png"
+    />
   </div>
-</div>
+</section>
 `;

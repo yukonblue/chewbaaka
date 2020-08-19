@@ -4,17 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 18, 2020
  */
 
-import React from 'react'
-
-import "semantic-ui-css/semantic.min.css"
+import React, { Fragment } from 'react'
 
 import ContentPageSkeleton from '../shared/ContentPageSkeleton'
-
-import ContentPageTableOfContentMenuBootstrapper from '../shared/ContentPageTableOfContentMenuBootstrapper'
-import ContentPageIntroSectionGeneric from '../shared/ContentPageIntroSectionGeneric'
 
 import { config }  from './config'
 
@@ -37,25 +32,16 @@ export default class FuturePage extends React.Component {
       <ContentPageSkeleton
         appConfig={this.props.appConfig}
         pageProps={config.pageProps}
+        contentPageIntro={config.contentPageIntro}
         content={this.renderContent()}
         imagesContext={this.state.imagesContext}
       />
-    )
+    );
   }
 
   renderContent() {
     return (
-      <div>
-        <ContentPageTableOfContentMenuBootstrapper
-          pageMenuItems={config.pageProps.pageMenuItems}
-          imagesContext = {this.state.imagesContext}
-        />
-
-        <ContentPageIntroSectionGeneric
-          contentPageIntro={config.contentPageIntro}
-          imagesContext = {this.state.imagesContext}
-        />
-
+      <Fragment>
         <FuturePageSectionConservation
           config={config}
         />
@@ -69,7 +55,7 @@ export default class FuturePage extends React.Component {
         />
 
         <FuturePageTail />
-      </div>
-    )
+      </Fragment>
+    );
   }
 }

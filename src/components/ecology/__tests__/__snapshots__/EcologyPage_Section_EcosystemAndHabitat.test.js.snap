@@ -1,84 +1,69 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
-<div
+<article
   className="ContentPageSectionTemplateOuterContainer"
 >
-  <div>
-    <div
-      className="ContentPageSubsectionTemplateOuterContainer"
-    >
-      <div
-        className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
-      >
-        <h3
-          className="ContentPageSubsectionTitle"
-        />
-        <div
-          className="ContentPageSectionHeadOuterContainer"
-        >
-          <div
-            data-testid="ContentPageSectionAnchorComponentTestId"
-            id="ecosystem-and-habitat"
-          />
-          <div
-            className="ContentPageSectionHeadInnerContainer"
-          >
-            <div
-              className="ContentPageSectionHeadTitleContainer"
-            >
-              <h2
-                className="ContentPageSectionHeadTitle"
-              >
-                Ecosystem and Habitat
-              </h2>
-            </div>
-            <div
-              className="ContentPageIntroParagraphContentContainer"
-            >
-              <p
-                className="ContentPageHeadAndSectionIntroText"
-              >
-                Understanding the relationships and interactions of elements in the ecosystem and habitat where cheetahs live is crucial for any conservation and management efforts. Understanding of subjects in this area can help answer questions such as “what animals do cheetahs prey on and eat” and “what are its roles in its habitat and relationships with other species of animals”.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    className="ContentPageSectionTemplateInnerContainer"
+  <h2
+    className="ContentPageSectionHeadTitle"
+    id="ecosystem-and-habitat"
   >
+    Ecosystem and Habitat
+  </h2>
+  <p
+    className="ContentPageHeadAndSectionIntroText"
+  >
+    Understanding the relationships and interactions of elements in the ecosystem and habitat where cheetahs live is crucial for any conservation and management efforts. Understanding of subjects in this area can help answer questions such as “what animals do cheetahs prey on and eat” and “what are its roles in its habitat and relationships with other species of animals”.
+  </p>
+  <section
+    className="ContentPageSubsectionTemplateOuterContainer"
+  >
+    <h3
+      className="ContentPageSubsectionTitle"
+    >
+      Where Cheetahs Live
+    </h3>
     <div>
       <div
-        className="ContentPageSubsectionTemplateOuterContainer"
+        className="ContentPageSubsectionPartContainer"
       >
-        <div
-          className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+        <h4
+          className="ContentPageSubsectionSubtitle"
         >
-          <h3
-            className="ContentPageSubsectionTitle"
+          Cheetah Habitat
+        </h4>
+        <div
+          className="ContentPageSideFloatFluidContainerOuterContainer"
+        >
+          <div
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
           >
-            Where Cheetahs Live
-          </h3>
-          <div>
             <div
-              className="ContentPageSubsectionPartContainer"
+              className="ImageViewOuterContainer"
+              style={
+                Object {
+                  "maxWidth": 598,
+                }
+              }
             >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              >
-                Cheetah Habitat
-              </h4>
               <div
-                className="ContentPageSideFloatFluidContainerOuterContainer"
+                className="ImageViewInnerContainer"
               >
                 <div
-                  className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
+                  className="ImageViewImgContainer"
+                >
+                  <img
+                    alt="African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlife."
+                    className="ImageViewImg"
+                    src="savanna-min.jpg"
+                  />
+                </div>
+                <div
+                  className="ImageViewCaptionContainer"
                 >
                   <div
-                    className="ImageViewOuterContainer"
+                    className="CaptionContainer"
+                    data-testid="CaptionComponentTestId"
                     style={
                       Object {
                         "maxWidth": 598,
@@ -86,163 +71,157 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                     }
                   >
                     <div
-                      className="ImageViewInnerContainer"
+                      className="IconContainer"
                     >
-                      <div
-                        className="ImageViewImgContainer"
-                      >
-                        <img
-                          alt="African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlife."
-                          className="ImageViewImg"
-                          src="savanna-min.jpg"
-                        />
-                      </div>
-                      <div
-                        className="ImageViewCaptionContainer"
-                      >
-                        <div
-                          className="CaptionContainer"
-                          data-testid="CaptionComponentTestId"
-                          style={
-                            Object {
-                              "maxWidth": 598,
-                            }
-                          }
-                        >
-                          <div
-                            className="IconContainer"
-                          >
-                            <i
-                              aria-hidden="true"
-                              className="image icon"
-                              onClick={[Function]}
-                            />
-                          </div>
-                          <p
-                            className="ContentPageCaptionTextSize CaptionText"
-                          >
-                            African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlife.
-                          </p>
-                        </div>
-                      </div>
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
                     </div>
-                  </div>
-                </div>
-                <div
-                  className="ContentPageSideFloatFluidContainerFixedPartContainer"
-                >
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                  >
-                    Animals, includes cheetah, are adapted to live in specific habitats. Cheetahs live mainly in grassland savanna. They prefer habitat which includes some cover in the form of bushes, medium length grass, trees, and small hills. Cheetahs need abundant prey in their habitat to survive and reproduce. In Namibia their habitat is densely bushed due to bush encroachment.
-                  </p>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                  >
-                    Cheetahs sometimes live in a wide variety of habitats. They occasionally use semi-desert, dense woodland or mountainous terrain. Older animals unable to defend territories and young cheetahs just starting to live on their own use these marginal habitats.
-                  </p>
-                </div>
-              </div>
-              <img
-                alt="What is a habitat"
-                className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerSmallDimension"
-                src="What_is_Habitat-min.png"
-              />
-              <img
-                alt="African savanna"
-                className="FullWidth DisplayBlock RetainAspectRatio Centered"
-                src="savana_bg_large-min.jpg"
-              />
-            </div>
-            <div
-              className="ContentPageSubsectionPartContainer"
-            >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              >
-                Namibian Biomes
-              </h4>
-              <div
-                className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
-              >
-                <div
-                  className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
-                >
-                  <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-                  >
-                    <h4
-                      className="ContentPageSubsectionSubtitle"
-                    />
                     <p
-                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                      className="ContentPageCaptionTextSize CaptionText"
                     >
-                      Namibia is a country with rich biodiversity, as its land spans over five distinct types of biomes.
+                      African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlife.
                     </p>
                   </div>
-                  <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-                  >
-                    <h4
-                      className="ContentPageSubsectionSubtitle"
-                    />
-                    <div
-                      className="ImageSlideModalCoverTriggerOuterContainer"
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onFocus={[Function]}
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
-                      style={
-                        Object {
-                          "width": 480,
-                        }
-                      }
-                    >
-                      <div
-                        className="ImageSlideModalCoverTriggerInnerContainer"
-                        data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
-                        onClick={[Function]}
-                        style={
-                          Object {
-                            "backgroundImage": "url(biome_savanna-min.jpg)",
-                            "height": 320,
-                            "width": 480,
-                          }
-                        }
-                      >
-                        <div
-                          className="ImageSlideModalCoverTriggerImageIconInnerContainer"
-                        >
-                          <i
-                            aria-hidden="true"
-                            className="blue images outline huge icon"
-                            onClick={[Function]}
-                          />
-                        </div>
-                      </div>
-                      <p
-                        className="ContentPageCaptionTextSize"
-                      >
-                        Click to learn more about the biomes of Namibia.
-                      </p>
-                    </div>
-                  </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div
+            className="ContentPageSideFloatFluidContainerFixedPartContainer"
+          >
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Animals, includes cheetah, are adapted to live in specific habitats. Cheetahs live mainly in grassland savanna. They prefer habitat which includes some cover in the form of bushes, medium length grass, trees, and small hills. Cheetahs need abundant prey in their habitat to survive and reproduce. In Namibia their habitat is densely bushed due to bush encroachment.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Cheetahs sometimes live in a wide variety of habitats. They occasionally use semi-desert, dense woodland or mountainous terrain. Older animals unable to defend territories and young cheetahs just starting to live on their own use these marginal habitats.
+            </p>
+          </div>
+        </div>
+        <img
+          alt="What is a habitat"
+          className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerSmallDimension"
+          src="What_is_Habitat-min.png"
+        />
+        <img
+          alt="African savanna"
+          className="FullWidth DisplayBlock RetainAspectRatio Centered"
+          src="savana_bg_large-min.jpg"
+        />
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <h4
+          className="ContentPageSubsectionSubtitle"
+        >
+          Namibian Biomes
+        </h4>
+        <div
+          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+        >
+          <div
+            className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+          >
+            <div
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+            >
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                Namibia is a country with rich biodiversity, as its land spans over five distinct types of biomes.
+              </p>
+            </div>
+            <div
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+            >
               <div
-                className="VerticalCushionPaddingTopLarge"
+                className="ImageSlideModalCoverTriggerOuterContainer"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "width": 480,
+                  }
+                }
               >
                 <div
-                  className="Centered FullWidth"
+                  className="ImageSlideModalCoverTriggerInnerContainer"
+                  data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
+                  onClick={[Function]}
                   style={
                     Object {
-                      "width": 1200,
+                      "backgroundImage": "url(biome_savanna-min.jpg)",
+                      "height": 320,
+                      "width": 480,
                     }
                   }
                 >
                   <div
-                    className="ImageViewOuterContainer"
+                    className="ImageSlideModalCoverTriggerImageIconInnerContainer"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="blue images outline huge icon"
+                      onClick={[Function]}
+                    />
+                  </div>
+                </div>
+                <p
+                  className="ContentPageCaptionTextSize"
+                >
+                  Click to learn more about the biomes of Namibia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="VerticalCushionPaddingTopLarge"
+        >
+          <div
+            className="Centered FullWidth"
+            style={
+              Object {
+                "width": 1200,
+              }
+            }
+          >
+            <div
+              className="ImageViewOuterContainer"
+              style={
+                Object {
+                  "maxWidth": 1200,
+                }
+              }
+            >
+              <div
+                className="ImageViewInnerContainer"
+              >
+                <div
+                  className="ImageViewImgContainer"
+                >
+                  <img
+                    alt="Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on."
+                    className="ImageViewImg"
+                    src="Namibia_Biomes_and_Cheetah_Ranges_Map-min.jpg"
+                  />
+                </div>
+                <div
+                  className="ImageViewCaptionContainer"
+                >
+                  <div
+                    className="CaptionContainer"
+                    data-testid="CaptionComponentTestId"
                     style={
                       Object {
                         "maxWidth": 1200,
@@ -250,284 +229,277 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                     }
                   >
                     <div
-                      className="ImageViewInnerContainer"
+                      className="IconContainer"
                     >
-                      <div
-                        className="ImageViewImgContainer"
-                      >
-                        <img
-                          alt="Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on."
-                          className="ImageViewImg"
-                          src="Namibia_Biomes_and_Cheetah_Ranges_Map-min.jpg"
-                        />
-                      </div>
-                      <div
-                        className="ImageViewCaptionContainer"
-                      >
-                        <div
-                          className="CaptionContainer"
-                          data-testid="CaptionComponentTestId"
-                          style={
-                            Object {
-                              "maxWidth": 1200,
-                            }
-                          }
-                        >
-                          <div
-                            className="IconContainer"
-                          >
-                            <i
-                              aria-hidden="true"
-                              className="image icon"
-                              onClick={[Function]}
-                            />
-                          </div>
-                          <p
-                            className="ContentPageCaptionTextSize CaptionText"
-                          >
-                            Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on.
-                          </p>
-                        </div>
-                      </div>
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
                     </div>
+                    <p
+                      className="ContentPageCaptionTextSize CaptionText"
+                    >
+                      Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on.
+                    </p>
                   </div>
                 </div>
               </div>
-              <img
-                alt="What is biome?"
-                className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
-                src="What_is_Biome-min.png"
+            </div>
+          </div>
+        </div>
+        <img
+          alt="What is biome?"
+          className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
+          src="What_is_Biome-min.png"
+        />
+        <div
+          className="FluidSingleRowGridOuterContainer"
+          style={
+            Object {
+              "justifyContent": "space-evenly",
+            }
+          }
+        >
+          <div
+            className="ImageViewModalCoverTriggerOuterContainer"
+            data-testid="ImageViewModalComponentCoverImageContainerTestId"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            style={
+              Object {
+                "backgroundImage": "url(namibia_landscape_01-min.jpg)",
+                "height": 320,
+                "width": 480,
+              }
+            }
+          >
+            <div
+              className="ImageViewModalCoverTriggerImageIconInnerContainer"
+            >
+              <i
+                aria-hidden="true"
+                className="black file image large icon"
+                onClick={[Function]}
               />
+            </div>
+          </div>
+          <div
+            className="ImageViewModalCoverTriggerOuterContainer"
+            data-testid="ImageViewModalComponentCoverImageContainerTestId"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            style={
+              Object {
+                "backgroundImage": "url(namibia_landscape_02-min.jpg)",
+                "height": 320,
+                "width": 480,
+              }
+            }
+          >
+            <div
+              className="ImageViewModalCoverTriggerImageIconInnerContainer"
+            >
+              <i
+                aria-hidden="true"
+                className="black file image large icon"
+                onClick={[Function]}
+              />
+            </div>
+          </div>
+          <div
+            className="ImageViewModalCoverTriggerOuterContainer"
+            data-testid="ImageViewModalComponentCoverImageContainerTestId"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            style={
+              Object {
+                "backgroundImage": "url(namibia_landscape_03-min.jpg)",
+                "height": 320,
+                "width": 480,
+              }
+            }
+          >
+            <div
+              className="ImageViewModalCoverTriggerImageIconInnerContainer"
+            >
+              <i
+                aria-hidden="true"
+                className="black file image large icon"
+                onClick={[Function]}
+              />
+            </div>
+          </div>
+          <div
+            className="ImageViewModalCoverTriggerOuterContainer"
+            data-testid="ImageViewModalComponentCoverImageContainerTestId"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            style={
+              Object {
+                "backgroundImage": "url(namibia_landscape_04-min.jpg)",
+                "height": 320,
+                "width": 480,
+              }
+            }
+          >
+            <div
+              className="ImageViewModalCoverTriggerImageIconInnerContainer"
+            >
+              <i
+                aria-hidden="true"
+                className="black file image large icon"
+                onClick={[Function]}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="ContentPageSubsectionTemplateOuterContainer"
+  >
+    <h3
+      className="ContentPageSubsectionTitle"
+    >
+      The Cheetah’s Prey
+    </h3>
+    <div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <div
+          className="OverflowHidden"
+        >
+          <div
+            className="FloatRight"
+          >
+            <div
+              className="TextBubbleOuterContainerFlexWrapper"
+            >
               <div
-                className="FluidSingleRowGridOuterContainer"
+                className="TextBubbleOuterContainer"
                 style={
                   Object {
-                    "justifyContent": "space-evenly",
+                    "backgroundColor": "rgb(187,143,206)",
+                    "maxWidth": 480,
+                    "minHeight": 480,
                   }
                 }
               >
                 <div
-                  className="ImageViewModalCoverTriggerOuterContainer"
-                  data-testid="ImageViewModalComponentCoverImageContainerTestId"
-                  onBlur={[Function]}
-                  onClick={[Function]}
-                  onFocus={[Function]}
-                  onMouseEnter={[Function]}
-                  onMouseLeave={[Function]}
-                  style={
-                    Object {
-                      "backgroundImage": "url(namibia_landscape_01-min.jpg)",
-                      "height": 320,
-                      "width": 480,
-                    }
-                  }
+                  className="TextBubbleInnerContainer"
                 >
                   <div
-                    className="ImageViewModalCoverTriggerImageIconInnerContainer"
+                    className="TextBubbleInnerCore"
                   >
-                    <i
-                      aria-hidden="true"
-                      className="black file image large icon"
-                      onClick={[Function]}
-                    />
-                  </div>
-                </div>
-                <div
-                  className="ImageViewModalCoverTriggerOuterContainer"
-                  data-testid="ImageViewModalComponentCoverImageContainerTestId"
-                  onBlur={[Function]}
-                  onClick={[Function]}
-                  onFocus={[Function]}
-                  onMouseEnter={[Function]}
-                  onMouseLeave={[Function]}
-                  style={
-                    Object {
-                      "backgroundImage": "url(namibia_landscape_02-min.jpg)",
-                      "height": 320,
-                      "width": 480,
-                    }
-                  }
-                >
-                  <div
-                    className="ImageViewModalCoverTriggerImageIconInnerContainer"
-                  >
-                    <i
-                      aria-hidden="true"
-                      className="black file image large icon"
-                      onClick={[Function]}
-                    />
-                  </div>
-                </div>
-                <div
-                  className="ImageViewModalCoverTriggerOuterContainer"
-                  data-testid="ImageViewModalComponentCoverImageContainerTestId"
-                  onBlur={[Function]}
-                  onClick={[Function]}
-                  onFocus={[Function]}
-                  onMouseEnter={[Function]}
-                  onMouseLeave={[Function]}
-                  style={
-                    Object {
-                      "backgroundImage": "url(namibia_landscape_03-min.jpg)",
-                      "height": 320,
-                      "width": 480,
-                    }
-                  }
-                >
-                  <div
-                    className="ImageViewModalCoverTriggerImageIconInnerContainer"
-                  >
-                    <i
-                      aria-hidden="true"
-                      className="black file image large icon"
-                      onClick={[Function]}
-                    />
-                  </div>
-                </div>
-                <div
-                  className="ImageViewModalCoverTriggerOuterContainer"
-                  data-testid="ImageViewModalComponentCoverImageContainerTestId"
-                  onBlur={[Function]}
-                  onClick={[Function]}
-                  onFocus={[Function]}
-                  onMouseEnter={[Function]}
-                  onMouseLeave={[Function]}
-                  style={
-                    Object {
-                      "backgroundImage": "url(namibia_landscape_04-min.jpg)",
-                      "height": 320,
-                      "width": 480,
-                    }
-                  }
-                >
-                  <div
-                    className="ImageViewModalCoverTriggerImageIconInnerContainer"
-                  >
-                    <i
-                      aria-hidden="true"
-                      className="black file image large icon"
-                      onClick={[Function]}
-                    />
+                    <h1
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 38.4,
+                        }
+                      }
+                    >
+                      Cheetahs prefer game to livestock
+                    </h1>
+                    <p
+                      style={
+                        Object {
+                          "color": "rgb(undefined)",
+                          "fontSize": 21,
+                        }
+                      }
+                    >
+                      Cheetahs are born to prey on wild game, and will instinctually go after them. Cheetahs only go after livestock as a last resort when wild game is not available. This makes maintaining healthy ecosystems very important.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Cheetahs hunt mostly small antelope, young of large antelope, warthog, hare and game birds. They may take livestock in exceptional or opportunistic cases.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Cheetahs prefer game to livestock.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            The cheetah’s lightweight build limits the size of prey they catch. Male coalitions can, however, overcome larger prey. Coalitions also stand a better chance at defending their prey against competitors than single cheetahs.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Predators have to work very hard to catch their prey. Cheetahs need to carefully select the animal they are most likely to catch. For this reason cheetahs, like all other predators, target animals that are old, sick, very young, injured, or slow. This allows only the strongest to survive and pass on their genes, thus maintaining a healthier game population.
+          </p>
         </div>
       </div>
       <div
-        className="ContentPageSubsectionTemplateOuterContainer"
+        className="ContentPageSubsectionPartContainer"
+      >
+        <img
+          alt="Cheetah and lion have drastically different preys, hunting strategies, and success rates."
+          className="FullWidth DisplayBlock RetainAspectRatio Centered"
+          src="Cheetah_Lion_Hunting_Success_Rate_Comparsion-min.png"
+        />
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer"
       >
         <div
-          className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
         >
-          <h3
-            className="ContentPageSubsectionTitle"
+          <div
+            className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
           >
-            The Cheetah’s Prey
-          </h3>
-          <div>
             <div
-              className="ContentPageSubsectionPartContainer"
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
             >
               <div
-                className="OverflowHidden"
+                className="ImageViewOuterContainer"
+                style={
+                  Object {
+                    "maxWidth": 640,
+                  }
+                }
               >
                 <div
-                  className="FloatRight"
+                  className="ImageViewInnerContainer"
                 >
                   <div
-                    className="TextBubbleOuterContainerFlexWrapper"
+                    className="ImageViewImgContainer"
                   >
-                    <div
-                      className="TextBubbleOuterContainer"
-                      style={
-                        Object {
-                          "backgroundColor": "rgb(187,143,206)",
-                          "maxWidth": 480,
-                          "minHeight": 480,
-                        }
-                      }
-                    >
-                      <div
-                        className="TextBubbleInnerContainer"
-                      >
-                        <div
-                          className="TextBubbleInnerCore"
-                        >
-                          <h1
-                            style={
-                              Object {
-                                "color": "rgb(undefined)",
-                                "fontSize": 38.4,
-                              }
-                            }
-                          >
-                            Cheetahs prefer game to livestock
-                          </h1>
-                          <p
-                            style={
-                              Object {
-                                "color": "rgb(undefined)",
-                                "fontSize": 21,
-                              }
-                            }
-                          >
-                            Cheetahs are born to prey on wild game, and will instinctually go after them. Cheetahs only go after livestock as a last resort when wild game is not available. This makes maintaining healthy ecosystems very important.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  Cheetahs hunt mostly small antelope, young of large antelope, warthog, hare and game birds. They may take livestock in exceptional or opportunistic cases.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  Cheetahs prefer game to livestock.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  The cheetah’s lightweight build limits the size of prey they catch. Male coalitions can, however, overcome larger prey. Coalitions also stand a better chance at defending their prey against competitors than single cheetahs.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  Predators have to work very hard to catch their prey. Cheetahs need to carefully select the animal they are most likely to catch. For this reason cheetahs, like all other predators, target animals that are old, sick, very young, injured, or slow. This allows only the strongest to survive and pass on their genes, thus maintaining a healthier game population.
-                </p>
-              </div>
-            </div>
-            <div
-              className="ContentPageSubsectionPartContainer"
-            >
-              <img
-                alt="Cheetah and lion have drastically different preys, hunting strategies, and success rates."
-                className="FullWidth DisplayBlock RetainAspectRatio Centered"
-                src="Cheetah_Lion_Hunting_Success_Rate_Comparsion-min.png"
-              />
-            </div>
-            <div
-              className="ContentPageSubsectionPartContainer"
-            >
-              <div
-                className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
-              >
-                <div
-                  className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
-                >
-                  <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-                  >
-                    <h4
-                      className="ContentPageSubsectionSubtitle"
+                    <img
+                      alt="Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest."
+                      className="ImageViewImg"
+                      src="cheetah_coalition_hunting-min.jpg"
                     />
+                  </div>
+                  <div
+                    className="ImageViewCaptionContainer"
+                  >
                     <div
-                      className="ImageViewOuterContainer"
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
                       style={
                         Object {
                           "maxWidth": 640,
@@ -535,340 +507,73 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                       }
                     >
                       <div
-                        className="ImageViewInnerContainer"
+                        className="IconContainer"
                       >
-                        <div
-                          className="ImageViewImgContainer"
-                        >
-                          <img
-                            alt="Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest."
-                            className="ImageViewImg"
-                            src="cheetah_coalition_hunting-min.jpg"
-                          />
-                        </div>
-                        <div
-                          className="ImageViewCaptionContainer"
-                        >
-                          <div
-                            className="CaptionContainer"
-                            data-testid="CaptionComponentTestId"
-                            style={
-                              Object {
-                                "maxWidth": 640,
-                              }
-                            }
-                          >
-                            <div
-                              className="IconContainer"
-                            >
-                              <i
-                                aria-hidden="true"
-                                className="image icon"
-                                onClick={[Function]}
-                              />
-                            </div>
-                            <p
-                              className="ContentPageCaptionTextSize CaptionText"
-                            >
-                              Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-                  >
-                    <h4
-                      className="ContentPageSubsectionSubtitle"
-                    />
-                    <div
-                      className="ImageViewOuterContainer"
-                      style={
-                        Object {
-                          "maxWidth": 640,
-                        }
-                      }
-                    >
-                      <div
-                        className="ImageViewInnerContainer"
-                      >
-                        <div
-                          className="ImageViewImgContainer"
-                        >
-                          <img
-                            alt="One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch."
-                            className="ImageViewImg"
-                            src="cheetah_go_after_gazelle-min.jpg"
-                          />
-                        </div>
-                        <div
-                          className="ImageViewCaptionContainer"
-                        >
-                          <div
-                            className="CaptionContainer"
-                            data-testid="CaptionComponentTestId"
-                            style={
-                              Object {
-                                "maxWidth": 640,
-                              }
-                            }
-                          >
-                            <div
-                              className="IconContainer"
-                            >
-                              <i
-                                aria-hidden="true"
-                                className="image icon"
-                                onClick={[Function]}
-                              />
-                            </div>
-                            <p
-                              className="ContentPageCaptionTextSize CaptionText"
-                            >
-                              One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        className="ContentPageSubsectionTemplateOuterContainer"
-      >
-        <div
-          className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
-        >
-          <h3
-            className="ContentPageSubsectionTitle"
-          >
-            Cheetah’s Role in the Ecosystem
-          </h3>
-          <div>
-            <div
-              className="ContentPageSubsectionPartContainer"
-            >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              >
-                Cheetah’s role
-              </h4>
-              <div
-                className="ContentPageSideFloatFluidContainerOuterContainer"
-              >
-                <div
-                  className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
-                >
-                  <div
-                    className="ImageViewOuterContainer"
-                    style={
-                      Object {
-                        "maxWidth": 640,
-                      }
-                    }
-                  >
-                    <div
-                      className="ImageViewInnerContainer"
-                    >
-                      <div
-                        className="ImageViewImgContainer"
-                      >
-                        <img
-                          alt="A simplified illustration of the food web of a savanna ecosystem."
-                          className="ImageViewImg"
-                          src="savanna_food_web-min.jpg"
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
                         />
                       </div>
-                      <div
-                        className="ImageViewCaptionContainer"
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
                       >
-                        <div
-                          className="CaptionContainer"
-                          data-testid="CaptionComponentTestId"
-                          style={
-                            Object {
-                              "maxWidth": 640,
-                            }
-                          }
-                        >
-                          <div
-                            className="IconContainer"
-                          >
-                            <i
-                              aria-hidden="true"
-                              className="image icon"
-                              onClick={[Function]}
-                            />
-                          </div>
-                          <p
-                            className="ContentPageCaptionTextSize CaptionText"
-                          >
-                            A simplified illustration of the food web of a savanna ecosystem.
-                          </p>
-                        </div>
-                      </div>
+                        Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest.
+                      </p>
                     </div>
                   </div>
-                </div>
-                <div
-                  className="ContentPageSideFloatFluidContainerFixedPartContainer"
-                >
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                  >
-                    Every animal species has its role (or niche) in the ecosystem that it lives in. As a carnivorous predator, the cheetah’s role in the ecosystem is important as it helps to maintain balanced and healthy food webs.
-                  </p>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                  >
-                    One of the cheetah’s roles in the ecosystem is to help keep the population of grazing animals at a healthy state. Because of the fact that cheetahs do not have the strength to go after big games such as adult wildebeest, elands, and kudus, they go after the ones that are young, weak, or sick. This helps to ensure that only the strongest of those species will survive, and also the populations of those species won’t reach the limit the ecosystem could handle such that it will have negative consequences.
-                  </p>
                 </div>
               </div>
             </div>
             <div
-              className="ContentPageSubsectionPartContainer"
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
             >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              >
-                Relationships with other species
-              </h4>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                Perhaps the cheetahs’ closest interactions with other species of animals other than the ones preyed upon are their competitors. While there are no species of animals that solely prey on the cheetahs as a food source, many compete with the cheetahs for food, territory, and dominance. Lions, leopards, and hyenas are the most formidable competitors that would come into the way of the cheetahs.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                Despite the fact that competitions inevitably lead to casualties, it is an important aspect of any healthy ecosystem. Competitions ensure that no species of animal absolutely dominates all the resources in a territory, and resources are partitioned accordingly among the competing species as much as possible to minimize conflict. This leads to a balanced ecosystem with the most biodiversity, as each species is unique in its role within the ecosystem.
-              </p>
               <div
-                className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+                className="ImageViewOuterContainer"
+                style={
+                  Object {
+                    "maxWidth": 640,
+                  }
+                }
               >
                 <div
-                  className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+                  className="ImageViewInnerContainer"
                 >
                   <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+                    className="ImageViewImgContainer"
                   >
-                    <h4
-                      className="ContentPageSubsectionSubtitle"
+                    <img
+                      alt="One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch."
+                      className="ImageViewImg"
+                      src="cheetah_go_after_gazelle-min.jpg"
                     />
-                    <div
-                      className="ImageViewOuterContainer"
-                      style={
-                        Object {
-                          "maxWidth": 483,
-                        }
-                      }
-                    >
-                      <div
-                        className="ImageViewInnerContainer"
-                      >
-                        <div
-                          className="ImageViewImgContainer"
-                        >
-                          <img
-                            alt="Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains."
-                            className="ImageViewImg"
-                            src="cheetah_hyena_competition-min.jpg"
-                          />
-                        </div>
-                        <div
-                          className="ImageViewCaptionContainer"
-                        >
-                          <div
-                            className="CaptionContainer"
-                            data-testid="CaptionComponentTestId"
-                            style={
-                              Object {
-                                "maxWidth": 483,
-                              }
-                            }
-                          >
-                            <div
-                              className="IconContainer"
-                            >
-                              <i
-                                aria-hidden="true"
-                                className="image icon"
-                                onClick={[Function]}
-                              />
-                            </div>
-                            <p
-                              className="ContentPageCaptionTextSize CaptionText"
-                            >
-                              Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                   <div
-                    className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+                    className="ImageViewCaptionContainer"
                   >
-                    <h4
-                      className="ContentPageSubsectionSubtitle"
-                    />
                     <div
-                      className="ImageViewOuterContainer"
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
                       style={
                         Object {
-                          "maxWidth": 480,
+                          "maxWidth": 640,
                         }
                       }
                     >
                       <div
-                        className="ImageViewInnerContainer"
+                        className="IconContainer"
                       >
-                        <div
-                          className="ImageViewImgContainer"
-                        >
-                          <img
-                            alt="Lions will often take over the cheetah's prey easily as they are superior in strength."
-                            className="ImageViewImg"
-                            src="cheetah_lion_competition-min.jpg"
-                          />
-                        </div>
-                        <div
-                          className="ImageViewCaptionContainer"
-                        >
-                          <div
-                            className="CaptionContainer"
-                            data-testid="CaptionComponentTestId"
-                            style={
-                              Object {
-                                "maxWidth": 480,
-                              }
-                            }
-                          >
-                            <div
-                              className="IconContainer"
-                            >
-                              <i
-                                aria-hidden="true"
-                                className="image icon"
-                                onClick={[Function]}
-                              />
-                            </div>
-                            <p
-                              className="ContentPageCaptionTextSize CaptionText"
-                            >
-                              Lions will often take over the cheetah's prey easily as they are superior in strength.
-                            </p>
-                          </div>
-                        </div>
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
                       </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -878,6 +583,233 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </section>
+  <section
+    className="ContentPageSubsectionTemplateOuterContainer"
+  >
+    <h3
+      className="ContentPageSubsectionTitle"
+    >
+      Cheetah’s Role in the Ecosystem
+    </h3>
+    <div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <h4
+          className="ContentPageSubsectionSubtitle"
+        >
+          Cheetah’s role
+        </h4>
+        <div
+          className="ContentPageSideFloatFluidContainerOuterContainer"
+        >
+          <div
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
+          >
+            <div
+              className="ImageViewOuterContainer"
+              style={
+                Object {
+                  "maxWidth": 640,
+                }
+              }
+            >
+              <div
+                className="ImageViewInnerContainer"
+              >
+                <div
+                  className="ImageViewImgContainer"
+                >
+                  <img
+                    alt="A simplified illustration of the food web of a savanna ecosystem."
+                    className="ImageViewImg"
+                    src="savanna_food_web-min.jpg"
+                  />
+                </div>
+                <div
+                  className="ImageViewCaptionContainer"
+                >
+                  <div
+                    className="CaptionContainer"
+                    data-testid="CaptionComponentTestId"
+                    style={
+                      Object {
+                        "maxWidth": 640,
+                      }
+                    }
+                  >
+                    <div
+                      className="IconContainer"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
+                    </div>
+                    <p
+                      className="ContentPageCaptionTextSize CaptionText"
+                    >
+                      A simplified illustration of the food web of a savanna ecosystem.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="ContentPageSideFloatFluidContainerFixedPartContainer"
+          >
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Every animal species has its role (or niche) in the ecosystem that it lives in. As a carnivorous predator, the cheetah’s role in the ecosystem is important as it helps to maintain balanced and healthy food webs.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              One of the cheetah’s roles in the ecosystem is to help keep the population of grazing animals at a healthy state. Because of the fact that cheetahs do not have the strength to go after big games such as adult wildebeest, elands, and kudus, they go after the ones that are young, weak, or sick. This helps to ensure that only the strongest of those species will survive, and also the populations of those species won’t reach the limit the ecosystem could handle such that it will have negative consequences.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <h4
+          className="ContentPageSubsectionSubtitle"
+        >
+          Relationships with other species
+        </h4>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          Perhaps the cheetahs’ closest interactions with other species of animals other than the ones preyed upon are their competitors. While there are no species of animals that solely prey on the cheetahs as a food source, many compete with the cheetahs for food, territory, and dominance. Lions, leopards, and hyenas are the most formidable competitors that would come into the way of the cheetahs.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          Despite the fact that competitions inevitably lead to casualties, it is an important aspect of any healthy ecosystem. Competitions ensure that no species of animal absolutely dominates all the resources in a territory, and resources are partitioned accordingly among the competing species as much as possible to minimize conflict. This leads to a balanced ecosystem with the most biodiversity, as each species is unique in its role within the ecosystem.
+        </p>
+        <div
+          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+        >
+          <div
+            className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+          >
+            <div
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+            >
+              <div
+                className="ImageViewOuterContainer"
+                style={
+                  Object {
+                    "maxWidth": 483,
+                  }
+                }
+              >
+                <div
+                  className="ImageViewInnerContainer"
+                >
+                  <div
+                    className="ImageViewImgContainer"
+                  >
+                    <img
+                      alt="Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains."
+                      className="ImageViewImg"
+                      src="cheetah_hyena_competition-min.jpg"
+                    />
+                  </div>
+                  <div
+                    className="ImageViewCaptionContainer"
+                  >
+                    <div
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 483,
+                        }
+                      }
+                    >
+                      <div
+                        className="IconContainer"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
+                      </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+            >
+              <div
+                className="ImageViewOuterContainer"
+                style={
+                  Object {
+                    "maxWidth": 480,
+                  }
+                }
+              >
+                <div
+                  className="ImageViewInnerContainer"
+                >
+                  <div
+                    className="ImageViewImgContainer"
+                  >
+                    <img
+                      alt="Lions will often take over the cheetah's prey easily as they are superior in strength."
+                      className="ImageViewImg"
+                      src="cheetah_lion_competition-min.jpg"
+                    />
+                  </div>
+                  <div
+                    className="ImageViewCaptionContainer"
+                  >
+                    <div
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 480,
+                        }
+                      }
+                    >
+                      <div
+                        className="IconContainer"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
+                      </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        Lions will often take over the cheetah's prey easily as they are superior in strength.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</article>
 `;

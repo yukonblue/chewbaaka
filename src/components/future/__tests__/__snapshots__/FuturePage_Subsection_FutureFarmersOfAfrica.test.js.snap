@@ -1,184 +1,180 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`FuturePageSubsectionFutureFarmersOfAfrica component snapshot 1`] = `
-<div
+<section
   className="ContentPageSubsectionTemplateOuterContainer"
 >
-  <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  <h3
+    className="ContentPageSubsectionTitle"
   >
-    <h3
-      className="ContentPageSubsectionTitle"
+    Future Farmers of Africa
+  </h3>
+  <div>
+    <div
+      className="ContentPageSubsectionPartContainer"
     >
-      Future Farmers of Africa
-    </h3>
-    <div>
       <div
-        className="ContentPageSubsectionPartContainer"
+        className="ContentPageSideFloatFluidContainerOuterContainer"
       >
         <div
-          className="ContentPageSideFloatFluidContainerOuterContainer"
+          className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
         >
           <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
+            style={
+              Object {
+                "width": 240,
+              }
+            }
           >
             <div
-              style={
-                Object {
-                  "width": 240,
-                }
-              }
+              className="ui inverted segment StatsLabel"
             >
               <div
-                className="ui inverted segment StatsLabel"
+                className="ui orange huge inverted statistic"
               >
                 <div
-                  className="ui orange huge inverted statistic"
+                  className="value"
                 >
-                  <div
-                    className="value"
-                  >
-                    90%
-                  </div>
-                  <div
-                    className="label"
-                  >
-                    of the cheetah population in Namibia lives on farmlands alongside 80% of the country’s wildlife species
-                  </div>
+                  90%
+                </div>
+                <div
+                  className="label"
+                >
+                  of the cheetah population in Namibia lives on farmlands alongside 80% of the country’s wildlife species
                 </div>
               </div>
             </div>
           </div>
-          <div
-            className="ContentPageSideFloatFluidContainerFixedPartContainer"
+        </div>
+        <div
+          className="ContentPageSideFloatFluidContainerFixedPartContainer"
+        >
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
           >
+            In Namibia, 90% of the cheetah population lives on farmlands alongside 80% of the country’s wildlife species. Cheetahs often come into contact with the livestocks and game farming communities, leading to conflict. To mitigate this conflict, Cheetah Conservation Fund (CCF) developed an integrated livestock, wildlife, and rangeland training program called Future Farmers of Africa (FFA).
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ContentPageSubsectionPartContainer"
+    >
+      <div
+        className="ContentPageSideFloatFluidContainerOuterContainer"
+      >
+        <div
+          className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatLeft"
+        >
+          <div
+            className="ImageViewOuterContainer"
+            style={
+              Object {
+                "maxWidth": 742,
+              }
+            }
+          >
+            <div
+              className="ImageViewInnerContainer"
+            >
+              <div
+                className="ImageViewImgContainer"
+              >
+                <img
+                  alt="Farmers participate in FFA training courses."
+                  className="ImageViewImg"
+                  src="CCF_FFA_01-min.jpg"
+                />
+              </div>
+              <div
+                className="ImageViewCaptionContainer"
+              >
+                <div
+                  className="CaptionContainer"
+                  data-testid="CaptionComponentTestId"
+                  style={
+                    Object {
+                      "maxWidth": 742,
+                    }
+                  }
+                >
+                  <div
+                    className="IconContainer"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="image icon"
+                      onClick={[Function]}
+                    />
+                  </div>
+                  <p
+                    className="ContentPageCaptionTextSize CaptionText"
+                  >
+                    Farmers participate in FFA training courses. (Image credit: Cheetah Conservation Fund)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ContentPageSideFloatFluidContainerFixedPartContainer"
+        >
+          <div>
             <p
               className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
             >
-              In Namibia, 90% of the cheetah population lives on farmlands alongside 80% of the country’s wildlife species. Cheetahs often come into contact with the livestocks and game farming communities, leading to conflict. To mitigate this conflict, Cheetah Conservation Fund (CCF) developed an integrated livestock, wildlife, and rangeland training program called Future Farmers of Africa (FFA).
+              From 2006-2017, CCF has certified more than 10,000 Namibian men and women in FFA, which teaches conservation strategies for sustainable land use while accommodating the coexistence of predators alongside livestock and wildlife.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Topics covered in the FFA courses include livestock health and veterinary care, livestock husbandry, livestock valuation, predator spoor (track) identification, differentiating predator kill techniques, best practices to reduce livestock losses, and best methods for non-lethal predator control.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Through the training course, CCF supports farmers by teaching them practical skills in sustainable livestock farming, as well as how to develop supplemental income streams. Farmers then use their skills to generate higher economic productivity. These courses enhance the livelihood development of farmers while promoting predator-friendly farming practices.
             </p>
           </div>
         </div>
       </div>
-      <div
-        className="ContentPageSubsectionPartContainer"
+    </div>
+    <div
+      className="ContentPageSubsectionPartContainer"
+    >
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
       >
-        <div
-          className="ContentPageSideFloatFluidContainerOuterContainer"
-        >
-          <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatLeft"
-          >
-            <div
-              className="ImageViewOuterContainer"
-              style={
-                Object {
-                  "maxWidth": 742,
-                }
-              }
-            >
-              <div
-                className="ImageViewInnerContainer"
-              >
-                <div
-                  className="ImageViewImgContainer"
-                >
-                  <img
-                    alt="Farmers participate in FFA training courses."
-                    className="ImageViewImg"
-                    src="CCF_FFA_01-min.jpg"
-                  />
-                </div>
-                <div
-                  className="ImageViewCaptionContainer"
-                >
-                  <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "maxWidth": 742,
-                      }
-                    }
-                  >
-                    <div
-                      className="IconContainer"
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
-                    </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      Farmers participate in FFA training courses. (Image credit: Cheetah Conservation Fund)
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="ContentPageSideFloatFluidContainerFixedPartContainer"
-          >
-            <div>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                From 2006-2017, CCF has certified more than 10,000 Namibian men and women in FFA, which teaches conservation strategies for sustainable land use while accommodating the coexistence of predators alongside livestock and wildlife.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                Topics covered in the FFA courses include livestock health and veterinary care, livestock husbandry, livestock valuation, predator spoor (track) identification, differentiating predator kill techniques, best practices to reduce livestock losses, and best methods for non-lethal predator control.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                Through the training course, CCF supports farmers by teaching them practical skills in sustainable livestock farming, as well as how to develop supplemental income streams. Farmers then use their skills to generate higher economic productivity. These courses enhance the livelihood development of farmers while promoting predator-friendly farming practices.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        className="ContentPageSubsectionPartContainer"
+        CCF’s Integrated Livestock and Wildlife Model Farm houses cattle, goats, sheep and livestock guarding dogs, as well as Namibian wildlife. The Model Farm serves as a training facility for FFA, demonstrating how sustainable livestock farming practices allow for the management of their livestock and better livestock health without having to eliminate cheetahs and other predators.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
       >
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          CCF’s Integrated Livestock and Wildlife Model Farm houses cattle, goats, sheep and livestock guarding dogs, as well as Namibian wildlife. The Model Farm serves as a training facility for FFA, demonstrating how sustainable livestock farming practices allow for the management of their livestock and better livestock health without having to eliminate cheetahs and other predators.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          CCF reaches out to local farming communities, visiting farms and joining annual farmer’s association meetings to give vital advice on improvements that farmers can make to their rangeland, livestock and wildlife management.
-        </p>
-        <div
-          className="VerticalCushionPadding"
-        >
-          <div>
-            <a
-              href="https://cheetah.org/canada/about-us/what-we-support/future-farmers-of-africa/"
+        CCF reaches out to local farming communities, visiting farms and joining annual farmer’s association meetings to give vital advice on improvements that farmers can make to their rangeland, livestock and wildlife management.
+      </p>
+      <div
+        className="VerticalCushionPadding"
+      >
+        <div>
+          <a
+            href="https://cheetah.org/canada/about-us/what-we-support/future-farmers-of-africa/"
+          >
+            <button
+              className="ui blue icon button"
+              onClick={[Function]}
             >
-              <button
-                className="ui blue icon button"
+              Read on CCF's blog on Future Farmers of Africa
+              <i
+                aria-hidden="true"
+                className="file alternate outline icon"
                 onClick={[Function]}
-              >
-                Read on CCF's blog on Future Farmers of Africa
-                <i
-                  aria-hidden="true"
-                  className="file alternate outline icon"
-                  onClick={[Function]}
-                />
-              </button>
-            </a>
-          </div>
+              />
+            </button>
+          </a>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>
 `;

@@ -1,122 +1,118 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`BiologyPageSubsectionLearningToHunt component snapshot 1`] = `
-<div
+<section
   className="ContentPageSubsectionTemplateOuterContainer"
 >
-  <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  <h3
+    className="ContentPageSubsectionTitle"
   >
-    <h3
-      className="ContentPageSubsectionTitle"
-    >
-      Learning to Hunt
-    </h3>
+    Learning to Hunt
+  </h3>
+  <div
+    className="ContentPageSideFloatFluidContainerOuterContainer"
+  >
     <div
-      className="ContentPageSideFloatFluidContainerOuterContainer"
+      className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
     >
       <div
-        className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
+        className="ImageViewOuterContainer"
+        style={
+          Object {
+            "maxWidth": 480,
+          }
+        }
       >
         <div
-          className="ImageViewOuterContainer"
-          style={
-            Object {
-              "maxWidth": 480,
-            }
-          }
+          className="ImageViewInnerContainer"
         >
           <div
-            className="ImageViewInnerContainer"
+            className="ImageViewImgContainer"
+          >
+            <img
+              alt="Cheetah cubs learning how to hunt."
+              className="ImageViewImg"
+              src="cheetah_cubs_learning_hunting-min.jpg"
+            />
+          </div>
+          <div
+            className="ImageViewCaptionContainer"
           >
             <div
-              className="ImageViewImgContainer"
-            >
-              <img
-                alt="Cheetah cubs learning how to hunt."
-                className="ImageViewImg"
-                src="cheetah_cubs_learning_hunting-min.jpg"
-              />
-            </div>
-            <div
-              className="ImageViewCaptionContainer"
+              className="CaptionContainer"
+              data-testid="CaptionComponentTestId"
+              style={
+                Object {
+                  "maxWidth": 480,
+                }
+              }
             >
               <div
-                className="CaptionContainer"
-                data-testid="CaptionComponentTestId"
-                style={
-                  Object {
-                    "maxWidth": 480,
-                  }
-                }
+                className="IconContainer"
               >
-                <div
-                  className="IconContainer"
-                >
-                  <i
-                    aria-hidden="true"
-                    className="image icon"
-                    onClick={[Function]}
-                  />
-                </div>
-                <p
-                  className="ContentPageCaptionTextSize CaptionText"
-                >
-                  Cheetah cubs learning how to hunt.
-                </p>
+                <i
+                  aria-hidden="true"
+                  className="image icon"
+                  onClick={[Function]}
+                />
               </div>
+              <p
+                className="ContentPageCaptionTextSize CaptionText"
+              >
+                Cheetah cubs learning how to hunt.
+              </p>
             </div>
           </div>
         </div>
       </div>
+    </div>
+    <div
+      className="ContentPageSideFloatFluidContainerFixedPartContainer FloatLeft"
+    >
       <div
-        className="ContentPageSideFloatFluidContainerFixedPartContainer FloatLeft"
+        className="TextBubbleOuterContainerFlexWrapper"
       >
         <div
-          className="TextBubbleOuterContainerFlexWrapper"
+          className="TextBubbleOuterContainer"
+          style={
+            Object {
+              "backgroundColor": "rgb(undefined)",
+              "maxWidth": 520,
+              "minHeight": 520,
+            }
+          }
         >
           <div
-            className="TextBubbleOuterContainer"
-            style={
-              Object {
-                "backgroundColor": "rgb(undefined)",
-                "maxWidth": 520,
-                "minHeight": 520,
-              }
-            }
+            className="TextBubbleInnerContainer"
           >
             <div
-              className="TextBubbleInnerContainer"
+              className="TextBubbleInnerCore"
             >
-              <div
-                className="TextBubbleInnerCore"
+              <h1
+                style={
+                  Object {
+                    "color": "rgb(undefined)",
+                    "fontSize": 41.6,
+                  }
+                }
               >
-                <h1
-                  style={
-                    Object {
-                      "color": "rgb(undefined)",
-                      "fontSize": 41.6,
-                    }
+                Learning to Hunt
+              </h1>
+              <p
+                style={
+                  Object {
+                    "color": "rgb(undefined)",
+                    "fontSize": 21,
                   }
-                >
-                  Learning to Hunt
-                </h1>
-                <p
-                  style={
-                    Object {
-                      "color": "rgb(undefined)",
-                      "fontSize": 21,
-                    }
-                  }
-                >
-                  The mother brings live prey, such as a young gazelle, to the 9 to 12 month old cubs. She releases it in front of them and the cubs attempt to catch it. This allows the cubs to practice their hunting skills while still under her supervision. Accurate timing and coordination during a hunt are important for their future survival.
-                </p>
-              </div>
+                }
+              >
+                The mother brings live prey, such as a young gazelle, to the 9 to 12 month old cubs. She releases it in front of them and the cubs attempt to catch it. This allows the cubs to practice their hunting skills while still under her supervision. Accurate timing and coordination during a hunt are important for their future survival.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>
 `;

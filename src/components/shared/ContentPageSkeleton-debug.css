@@ -4,13 +4,9 @@
  *
  * Author   : Tomiko
  * Created  : Aug 07, 2020
- * Updated  : Aug 13, 2020
+ * Updated  : Aug 18, 2020
  */
 
-div.ContentPageSkeletonOuterContainer_DebugColor {
+.ContentPageSkeletonOuterContainer_DebugColor {
   background-color: gainsboro;
-}
-
-div.ContentPageHeadNavMenuBarOuterContainer_DebugColor {
-  background-color: hotpink;
 }

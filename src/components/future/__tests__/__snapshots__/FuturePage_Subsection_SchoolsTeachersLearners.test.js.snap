@@ -1,135 +1,125 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`FuturePageSubsectionSchoolsTeachersLearners component snapshot 1`] = `
-<div
+<section
   className="ContentPageSubsectionTemplateOuterContainer"
 >
-  <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  <h3
+    className="ContentPageSubsectionTitle"
   >
-    <h3
-      className="ContentPageSubsectionTitle"
+    Schools, Teachers, Learners
+  </h3>
+  <div>
+    <div
+      className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
     >
-      Schools, Teachers, Learners
-    </h3>
-    <div>
       <div
-        className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+        className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
       >
         <div
-          className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+        >
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            CCF develops outreach school programs and educational packets are distributed to students and teachers. All schools are welcomed to CCF facilities.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Staff members conduct assemblies throughout Namibia. Students are encouraged to become more involved in conservation in school and in their homes. Workshops assist teachers in initiating cheetah conservation and environmental education programs.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Educational facilities at CCF’s headquarters encourage participation in cheetah conservation. The Education Center, the Visitor Center and Predator-Preyground provide information in an interacting setting. CCF’s Wildlife Camp allows outdoor education and a wilderness experience. A Nature Trail highlights the farmland ecosystem and the valuable role of predators.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            CCF takes a cross-curricular approach, integrating conservation issues into subjects that are required as part of the school syllabus and donates books to schools and libraries.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            CCF works with government agencies to incorporate cheetah conservation in the school curriculum.
+          </p>
+        </div>
+        <div
+          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
         >
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-          >
-            <h4
-              className="ContentPageSubsectionSubtitle"
-            />
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              CCF develops outreach school programs and educational packets are distributed to students and teachers. All schools are welcomed to CCF facilities.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Staff members conduct assemblies throughout Namibia. Students are encouraged to become more involved in conservation in school and in their homes. Workshops assist teachers in initiating cheetah conservation and environmental education programs.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Educational facilities at CCF’s headquarters encourage participation in cheetah conservation. The Education Center, the Visitor Center and Predator-Preyground provide information in an interacting setting. CCF’s Wildlife Camp allows outdoor education and a wilderness experience. A Nature Trail highlights the farmland ecosystem and the valuable role of predators.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              CCF takes a cross-curricular approach, integrating conservation issues into subjects that are required as part of the school syllabus and donates books to schools and libraries.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              CCF works with government agencies to incorporate cheetah conservation in the school curriculum.
-            </p>
-          </div>
-          <div
-            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-          >
-            <h4
-              className="ContentPageSubsectionSubtitle"
-            />
-            <div
-              className="ImageSlidingGalleryOuterContainer"
-              style={
-                Object {
-                  "maxWidth": undefined,
-                }
+            className="ImageSlidingGalleryOuterContainer"
+            style={
+              Object {
+                "maxWidth": undefined,
               }
+            }
+          >
+            <div
+              className="ImageSlidingGalleryCoreContainer"
             >
+              <img
+                alt="CCF's Predator Preyground. (Image credit: Cheetah Conservation Fund)"
+                className="ImageSlidingGalleryImgPart"
+                src="CCF_Predator_Preyground-min.jpg"
+              />
               <div
-                className="ImageSlidingGalleryCoreContainer"
+                className="ImageSlidingGalleryCaptionPart"
+                data-testid="ImageSlidingGalleryCaptionPart"
               >
-                <img
-                  alt="CCF's Predator Preyground. (Image credit: Cheetah Conservation Fund)"
-                  className="ImageSlidingGalleryImgPart"
-                  src="CCF_Predator_Preyground-min.jpg"
-                />
                 <div
-                  className="ImageSlidingGalleryCaptionPart"
-                  data-testid="ImageSlidingGalleryCaptionPart"
+                  className="CaptionContainer"
+                  data-testid="CaptionComponentTestId"
+                  style={
+                    Object {
+                      "maxWidth": undefined,
+                    }
+                  }
                 >
                   <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "maxWidth": undefined,
-                      }
-                    }
+                    className="IconContainer"
                   >
-                    <div
-                      className="IconContainer"
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
-                    </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      CCF's Predator Preyground. (Image credit: Cheetah Conservation Fund)
-                    </p>
+                    <i
+                      aria-hidden="true"
+                      className="image icon"
+                      onClick={[Function]}
+                    />
                   </div>
+                  <p
+                    className="ContentPageCaptionTextSize CaptionText"
+                  >
+                    CCF's Predator Preyground. (Image credit: Cheetah Conservation Fund)
+                  </p>
                 </div>
               </div>
+            </div>
+            <div
+              className="ImageSlidingGalleryButtonContainer"
+            >
               <div
-                className="ImageSlidingGalleryButtonContainer"
+                className="ui blue huge icon left attached disabled button"
+                onClick={[Function]}
+                role="button"
+                tabIndex={-1}
               >
-                <div
-                  className="ui blue huge icon left attached disabled button"
+                <i
+                  aria-hidden="true"
+                  className="arrow alternate circle left outline icon"
                   onClick={[Function]}
-                  role="button"
-                  tabIndex={-1}
-                >
-                  <i
-                    aria-hidden="true"
-                    className="arrow alternate circle left outline icon"
-                    onClick={[Function]}
-                  />
-                </div>
-                <div
-                  className="ui blue huge icon right attached button"
+                />
+              </div>
+              <div
+                className="ui blue huge icon right attached button"
+                onClick={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                <i
+                  aria-hidden="true"
+                  className="arrow alternate circle right outline icon"
                   onClick={[Function]}
-                  role="button"
-                  tabIndex={0}
-                >
-                  <i
-                    aria-hidden="true"
-                    className="arrow alternate circle right outline icon"
-                    onClick={[Function]}
-                  />
-                </div>
+                />
               </div>
             </div>
           </div>
@@ -137,5 +127,5 @@ exports[`FuturePageSubsectionSchoolsTeachersLearners component snapshot 1`] = `
       </div>
     </div>
   </div>
-</div>
+</section>
 `;

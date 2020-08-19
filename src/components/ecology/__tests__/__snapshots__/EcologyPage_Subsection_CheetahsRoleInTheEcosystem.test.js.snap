@@ -1,37 +1,128 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] = `
-<div
+<section
   className="ContentPageSubsectionTemplateOuterContainer"
 >
-  <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  <h3
+    className="ContentPageSubsectionTitle"
   >
-    <h3
-      className="ContentPageSubsectionTitle"
+    Cheetah’s Role in the Ecosystem
+  </h3>
+  <div>
+    <div
+      className="ContentPageSubsectionPartContainer"
     >
-      Cheetah’s Role in the Ecosystem
-    </h3>
-    <div>
-      <div
-        className="ContentPageSubsectionPartContainer"
+      <h4
+        className="ContentPageSubsectionSubtitle"
       >
-        <h4
-          className="ContentPageSubsectionSubtitle"
-        >
-          Cheetah’s role
-        </h4>
+        Cheetah’s role
+      </h4>
+      <div
+        className="ContentPageSideFloatFluidContainerOuterContainer"
+      >
         <div
-          className="ContentPageSideFloatFluidContainerOuterContainer"
+          className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
         >
           <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
+            className="ImageViewOuterContainer"
+            style={
+              Object {
+                "maxWidth": 640,
+              }
+            }
+          >
+            <div
+              className="ImageViewInnerContainer"
+            >
+              <div
+                className="ImageViewImgContainer"
+              >
+                <img
+                  alt="A simplified illustration of the food web of a savanna ecosystem."
+                  className="ImageViewImg"
+                  src="savanna_food_web-min.jpg"
+                />
+              </div>
+              <div
+                className="ImageViewCaptionContainer"
+              >
+                <div
+                  className="CaptionContainer"
+                  data-testid="CaptionComponentTestId"
+                  style={
+                    Object {
+                      "maxWidth": 640,
+                    }
+                  }
+                >
+                  <div
+                    className="IconContainer"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="image icon"
+                      onClick={[Function]}
+                    />
+                  </div>
+                  <p
+                    className="ContentPageCaptionTextSize CaptionText"
+                  >
+                    A simplified illustration of the food web of a savanna ecosystem.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ContentPageSideFloatFluidContainerFixedPartContainer"
+        >
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Every animal species has its role (or niche) in the ecosystem that it lives in. As a carnivorous predator, the cheetah’s role in the ecosystem is important as it helps to maintain balanced and healthy food webs.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            One of the cheetah’s roles in the ecosystem is to help keep the population of grazing animals at a healthy state. Because of the fact that cheetahs do not have the strength to go after big games such as adult wildebeest, elands, and kudus, they go after the ones that are young, weak, or sick. This helps to ensure that only the strongest of those species will survive, and also the populations of those species won’t reach the limit the ecosystem could handle such that it will have negative consequences.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ContentPageSubsectionPartContainer"
+    >
+      <h4
+        className="ContentPageSubsectionSubtitle"
+      >
+        Relationships with other species
+      </h4>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+      >
+        Perhaps the cheetahs’ closest interactions with other species of animals other than the ones preyed upon are their competitors. While there are no species of animals that solely prey on the cheetahs as a food source, many compete with the cheetahs for food, territory, and dominance. Lions, leopards, and hyenas are the most formidable competitors that would come into the way of the cheetahs.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+      >
+        Despite the fact that competitions inevitably lead to casualties, it is an important aspect of any healthy ecosystem. Competitions ensure that no species of animal absolutely dominates all the resources in a territory, and resources are partitioned accordingly among the competing species as much as possible to minimize conflict. This leads to a balanced ecosystem with the most biodiversity, as each species is unique in its role within the ecosystem.
+      </p>
+      <div
+        className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+      >
+        <div
+          className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+        >
+          <div
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
           >
             <div
               className="ImageViewOuterContainer"
               style={
                 Object {
-                  "maxWidth": 640,
+                  "maxWidth": 483,
                 }
               }
             >
@@ -42,9 +133,9 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
                   className="ImageViewImgContainer"
                 >
                   <img
-                    alt="A simplified illustration of the food web of a savanna ecosystem."
+                    alt="Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains."
                     className="ImageViewImg"
-                    src="savanna_food_web-min.jpg"
+                    src="cheetah_hyena_competition-min.jpg"
                   />
                 </div>
                 <div
@@ -55,7 +146,7 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
                     data-testid="CaptionComponentTestId"
                     style={
                       Object {
-                        "maxWidth": 640,
+                        "maxWidth": 483,
                       }
                     }
                   >
@@ -71,7 +162,7 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
                     <p
                       className="ContentPageCaptionTextSize CaptionText"
                     >
-                      A simplified illustration of the food web of a savanna ecosystem.
+                      Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains.
                     </p>
                   </div>
                 </div>
@@ -79,155 +170,54 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
             </div>
           </div>
           <div
-            className="ContentPageSideFloatFluidContainerFixedPartContainer"
-          >
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Every animal species has its role (or niche) in the ecosystem that it lives in. As a carnivorous predator, the cheetah’s role in the ecosystem is important as it helps to maintain balanced and healthy food webs.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              One of the cheetah’s roles in the ecosystem is to help keep the population of grazing animals at a healthy state. Because of the fact that cheetahs do not have the strength to go after big games such as adult wildebeest, elands, and kudus, they go after the ones that are young, weak, or sick. This helps to ensure that only the strongest of those species will survive, and also the populations of those species won’t reach the limit the ecosystem could handle such that it will have negative consequences.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div
-        className="ContentPageSubsectionPartContainer"
-      >
-        <h4
-          className="ContentPageSubsectionSubtitle"
-        >
-          Relationships with other species
-        </h4>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          Perhaps the cheetahs’ closest interactions with other species of animals other than the ones preyed upon are their competitors. While there are no species of animals that solely prey on the cheetahs as a food source, many compete with the cheetahs for food, territory, and dominance. Lions, leopards, and hyenas are the most formidable competitors that would come into the way of the cheetahs.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          Despite the fact that competitions inevitably lead to casualties, it is an important aspect of any healthy ecosystem. Competitions ensure that no species of animal absolutely dominates all the resources in a territory, and resources are partitioned accordingly among the competing species as much as possible to minimize conflict. This leads to a balanced ecosystem with the most biodiversity, as each species is unique in its role within the ecosystem.
-        </p>
-        <div
-          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
-        >
-          <div
-            className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
           >
             <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-            >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              />
-              <div
-                className="ImageViewOuterContainer"
-                style={
-                  Object {
-                    "maxWidth": 483,
-                  }
+              className="ImageViewOuterContainer"
+              style={
+                Object {
+                  "maxWidth": 480,
                 }
+              }
+            >
+              <div
+                className="ImageViewInnerContainer"
               >
                 <div
-                  className="ImageViewInnerContainer"
+                  className="ImageViewImgContainer"
                 >
-                  <div
-                    className="ImageViewImgContainer"
-                  >
-                    <img
-                      alt="Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains."
-                      className="ImageViewImg"
-                      src="cheetah_hyena_competition-min.jpg"
-                    />
-                  </div>
-                  <div
-                    className="ImageViewCaptionContainer"
-                  >
-                    <div
-                      className="CaptionContainer"
-                      data-testid="CaptionComponentTestId"
-                      style={
-                        Object {
-                          "maxWidth": 483,
-                        }
-                      }
-                    >
-                      <div
-                        className="IconContainer"
-                      >
-                        <i
-                          aria-hidden="true"
-                          className="image icon"
-                          onClick={[Function]}
-                        />
-                      </div>
-                      <p
-                        className="ContentPageCaptionTextSize CaptionText"
-                      >
-                        Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains.
-                      </p>
-                    </div>
-                  </div>
+                  <img
+                    alt="Lions will often take over the cheetah's prey easily as they are superior in strength."
+                    className="ImageViewImg"
+                    src="cheetah_lion_competition-min.jpg"
+                  />
                 </div>
-              </div>
-            </div>
-            <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-            >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              />
-              <div
-                className="ImageViewOuterContainer"
-                style={
-                  Object {
-                    "maxWidth": 480,
-                  }
-                }
-              >
                 <div
-                  className="ImageViewInnerContainer"
+                  className="ImageViewCaptionContainer"
                 >
                   <div
-                    className="ImageViewImgContainer"
-                  >
-                    <img
-                      alt="Lions will often take over the cheetah's prey easily as they are superior in strength."
-                      className="ImageViewImg"
-                      src="cheetah_lion_competition-min.jpg"
-                    />
-                  </div>
-                  <div
-                    className="ImageViewCaptionContainer"
+                    className="CaptionContainer"
+                    data-testid="CaptionComponentTestId"
+                    style={
+                      Object {
+                        "maxWidth": 480,
+                      }
+                    }
                   >
                     <div
-                      className="CaptionContainer"
-                      data-testid="CaptionComponentTestId"
-                      style={
-                        Object {
-                          "maxWidth": 480,
-                        }
-                      }
+                      className="IconContainer"
                     >
-                      <div
-                        className="IconContainer"
-                      >
-                        <i
-                          aria-hidden="true"
-                          className="image icon"
-                          onClick={[Function]}
-                        />
-                      </div>
-                      <p
-                        className="ContentPageCaptionTextSize CaptionText"
-                      >
-                        Lions will often take over the cheetah's prey easily as they are superior in strength.
-                      </p>
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
                     </div>
+                    <p
+                      className="ContentPageCaptionTextSize CaptionText"
+                    >
+                      Lions will often take over the cheetah's prey easily as they are superior in strength.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -237,5 +227,5 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
       </div>
     </div>
   </div>
-</div>
+</section>
 `;

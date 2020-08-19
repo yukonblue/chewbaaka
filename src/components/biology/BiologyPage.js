@@ -4,17 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jul 30, 2020
+ * Updated  : Aug 18, 2020
  */
 
-import React from 'react'
-
-import "semantic-ui-css/semantic.min.css"
+import React, { Fragment } from 'react'
 
 import ContentPageSkeleton from '../shared/ContentPageSkeleton'
-
-import ContentPageTableOfContentMenuBootstrapper from '../shared/ContentPageTableOfContentMenuBootstrapper'
-import ContentPageIntroSectionGeneric from '../shared/ContentPageIntroSectionGeneric'
 
 import BiologyPageSectionLifecyle from './BiologyPage_Section_Lifecycle'
 import BiologyPageSectionPhysiology from './BiologyPage_Section_Physiology'
@@ -36,31 +31,22 @@ export default class BiologyPage extends React.Component {
       <ContentPageSkeleton
         appConfig={this.props.appConfig}
         pageProps={config.pageProps}
+        contentPageIntro={config.contentPageIntro}
         content={this.renderContent()}
         imagesContext={this.state.imagesContext}
       />
-    )
+    );
   }
 
   renderContent() {
     return (
-      <div>
-        <ContentPageTableOfContentMenuBootstrapper
-          pageMenuItems={config.pageProps.pageMenuItems}
-          imagesContext = {this.state.imagesContext}
-        />
-
-        <ContentPageIntroSectionGeneric
-          contentPageIntro={config.contentPageIntro}
-          imagesContext = {this.state.imagesContext}
-        />
-
+      <Fragment>
         <BiologyPageSectionLifecyle config={config} />
 
         <BiologyPageSectionPhysiology config={config} />
 
         <BiologyPageSectionGenetics config={config} />
-      </div>
-    )
+      </Fragment>
+    );
   }
 }

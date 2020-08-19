@@ -2,95 +2,91 @@
 
 exports[`FuturePageSubsectionCommunityEvents component snapshot 1`] = `
 <div>
-  <div
+  <section
     className="ContentPageSubsectionTemplateOuterContainer"
   >
-    <div
-      className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+    <h3
+      className="ContentPageSubsectionTitle"
     >
-      <h3
-        className="ContentPageSubsectionTitle"
-      >
-        Community Events
-      </h3>
+      Community Events
+    </h3>
+    <div
+      className="ContentPageSideFloatFluidContainerOuterContainer"
+    >
       <div
-        className="ContentPageSideFloatFluidContainerOuterContainer"
+        className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatLeft"
       >
         <div
-          className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatLeft"
+          className="ImageViewOuterContainer"
+          style={
+            Object {
+              "maxWidth": 960,
+            }
+          }
         >
           <div
-            className="ImageViewOuterContainer"
-            style={
-              Object {
-                "maxWidth": 960,
-              }
-            }
+            className="ImageViewInnerContainer"
           >
             <div
-              className="ImageViewInnerContainer"
+              className="ImageViewImgContainer"
+            >
+              <img
+                alt="CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program."
+                className="ImageViewImg"
+                src="CCF_Livelihood_Development-min.jpg"
+              />
+            </div>
+            <div
+              className="ImageViewCaptionContainer"
             >
               <div
-                className="ImageViewImgContainer"
-              >
-                <img
-                  alt="CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program."
-                  className="ImageViewImg"
-                  src="CCF_Livelihood_Development-min.jpg"
-                />
-              </div>
-              <div
-                className="ImageViewCaptionContainer"
+                className="CaptionContainer"
+                data-testid="CaptionComponentTestId"
+                style={
+                  Object {
+                    "maxWidth": 960,
+                  }
+                }
               >
                 <div
-                  className="CaptionContainer"
-                  data-testid="CaptionComponentTestId"
-                  style={
-                    Object {
-                      "maxWidth": 960,
-                    }
-                  }
+                  className="IconContainer"
                 >
-                  <div
-                    className="IconContainer"
-                  >
-                    <i
-                      aria-hidden="true"
-                      className="image icon"
-                      onClick={[Function]}
-                    />
-                  </div>
-                  <p
-                    className="ContentPageCaptionTextSize CaptionText"
-                  >
-                    CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program. (Image credit: Cheetah Conservation Fund)
-                  </p>
+                  <i
+                    aria-hidden="true"
+                    className="image icon"
+                    onClick={[Function]}
+                  />
                 </div>
+                <p
+                  className="ContentPageCaptionTextSize CaptionText"
+                >
+                  CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program. (Image credit: Cheetah Conservation Fund)
+                </p>
               </div>
             </div>
           </div>
         </div>
-        <div
-          className="ContentPageSideFloatFluidContainerFixedPartContainer"
+      </div>
+      <div
+        className="ContentPageSideFloatFluidContainerFixedPartContainer"
+      >
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
         >
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            Participatory community events, such as competitions in art, poetry and writing, increase conservation awareness.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            Public educational displays are maintained at strategic locations and community events. Displays provide introductory information on the plight of the cheetah and the work conducted by CCF.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            CCF staff participate in farmer meetings, local conservancy activities and other related events. Workshops and seminars are conducted to exchange information and develop conservation-based farming practices.
-          </p>
-        </div>
+          Participatory community events, such as competitions in art, poetry and writing, increase conservation awareness.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          Public educational displays are maintained at strategic locations and community events. Displays provide introductory information on the plight of the cheetah and the work conducted by CCF.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          CCF staff participate in farmer meetings, local conservancy activities and other related events. Workshops and seminars are conducted to exchange information and develop conservation-based farming practices.
+        </p>
       </div>
     </div>
-  </div>
+  </section>
 </div>
 `;

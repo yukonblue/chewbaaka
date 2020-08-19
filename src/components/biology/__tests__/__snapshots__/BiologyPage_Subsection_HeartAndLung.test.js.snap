@@ -1,84 +1,74 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`BiologyPageSubsectionHearAndLung component snapshot 1`] = `
-<div
+<section
   className="ContentPageSubsectionTemplateOuterContainer"
 >
-  <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  <h3
+    className="ContentPageSubsectionTitle"
   >
-    <h3
-      className="ContentPageSubsectionTitle"
+    Heart and Lung
+  </h3>
+  <div>
+    <div
+      className="ContentPageSubsectionPartContainer"
     >
-      Heart and Lung
-    </h3>
-    <div>
       <div
-        className="ContentPageSubsectionPartContainer"
+        className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
       >
         <div
-          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+          className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
         >
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
           >
-            <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
             >
-              <h4
-                className="ContentPageSubsectionSubtitle"
+              The cheetah has a strong heart that rapidly pumps large amounts of oxygenated blood from the lungs to the muscles to keep them supplied with energy while running.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Large lungs provide adequate oxygen for a cheetah’s increased energy needs while pursuing its prey. The cheetah’s respiratory rate climbs from 60 to 150 breathes per minute, nearly twice as fast as humans.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Cheetahs have enlarged nostrils and sinuses allowing an increase in air flow to the lungs.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              High speeds can, however, only be maintained for 400 - 800 meters before exhaustion sets in and the body risks overheating.
+            </p>
+          </div>
+          <div
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+          >
+            <div>
+              <img
+                alt="Cheetah run illustration"
+                className="FullWidth DisplayBlock RetainAspectRatio Centered"
+                src="Cheetah_Travel_480x480-min.png"
+                width={420}
               />
               <p
                 className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
               >
-                The cheetah has a strong heart that rapidly pumps large amounts of oxygenated blood from the lungs to the muscles to keep them supplied with energy while running.
+                A cheetah running the 249 km from Otjiwarongo to Windhoek would need to stop to rest more than 311 times.
               </p>
               <p
                 className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
               >
-                Large lungs provide adequate oxygen for a cheetah’s increased energy needs while pursuing its prey. The cheetah’s respiratory rate climbs from 60 to 150 breathes per minute, nearly twice as fast as humans.
+                If it could run there without resting, it would take 2 hours and 26 minutes at 110 km/hr.
               </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                Cheetahs have enlarged nostrils and sinuses allowing an increase in air flow to the lungs.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                High speeds can, however, only be maintained for 400 - 800 meters before exhaustion sets in and the body risks overheating.
-              </p>
-            </div>
-            <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-            >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              />
-              <div>
-                <img
-                  alt="Cheetah run illustration"
-                  className="FullWidth DisplayBlock RetainAspectRatio Centered"
-                  src="Cheetah_Travel_480x480-min.png"
-                  width={420}
-                />
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  A cheetah running the 249 km from Otjiwarongo to Windhoek would need to stop to rest more than 311 times.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  If it could run there without resting, it would take 2 hours and 26 minutes at 110 km/hr.
-                </p>
-              </div>
             </div>
           </div>
         </div>
       </div>
-      <div />
     </div>
+    <div />
   </div>
-</div>
+</section>
 `;

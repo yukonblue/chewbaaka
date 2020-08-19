@@ -18,39 +18,41 @@ exports[`ContentPageSideNavMenu component snapshot 1`] = `
         Menu Title
       </span>
     </div>
-    <a
-      className="active item"
-      href="#menuitem1"
-      onClick={[Function]}
-    >
-      <span
-        className="ContentPageSideNavMenuItem"
+    <nav>
+      <a
+        className="active item"
+        href="#menuitem1"
+        onClick={[Function]}
       >
-        MenuItem1
-      </span>
-    </a>
-    <a
-      className="item"
-      href="#menuitem2"
-      onClick={[Function]}
-    >
-      <span
-        className="ContentPageSideNavMenuItem"
+        <span
+          className="ContentPageSideNavMenuItem"
+        >
+          MenuItem1
+        </span>
+      </a>
+      <a
+        className="item"
+        href="#menuitem2"
+        onClick={[Function]}
       >
-        MenuItem2
-      </span>
-    </a>
-    <a
-      className="item"
-      href="#menuitem3"
-      onClick={[Function]}
-    >
-      <span
-        className="ContentPageSideNavMenuItem"
+        <span
+          className="ContentPageSideNavMenuItem"
+        >
+          MenuItem2
+        </span>
+      </a>
+      <a
+        className="item"
+        href="#menuitem3"
+        onClick={[Function]}
       >
-        MenuItem3
-      </span>
-    </a>
+        <span
+          className="ContentPageSideNavMenuItem"
+        >
+          MenuItem3
+        </span>
+      </a>
+    </nav>
   </div>
 </div>
 `;

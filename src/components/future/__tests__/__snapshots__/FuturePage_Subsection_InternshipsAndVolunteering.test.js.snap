@@ -1,145 +1,135 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`FuturePageSubsectionInternshipsAndVolunteering component snapshot 1`] = `
-<div
+<section
   className="ContentPageSubsectionTemplateOuterContainer"
 >
-  <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  <h3
+    className="ContentPageSubsectionTitle"
   >
-    <h3
-      className="ContentPageSubsectionTitle"
+    Internships and Volunteering
+  </h3>
+  <div>
+    <div
+      className="ContentPageSubsectionPartContainer"
     >
-      Internships and Volunteering
-    </h3>
-    <div>
       <div
-        className="ContentPageSubsectionPartContainer"
-      >
-        <div
-          className="Centered FullWidth"
-          style={
-            Object {
-              "width": 1300,
-            }
+        className="Centered FullWidth"
+        style={
+          Object {
+            "width": 1300,
           }
-        >
-          <img
-            alt="CCF Volunteering"
-            className="FullWidth DisplayBlock RetainAspectRatio"
-            src="CCF_GetInvolved_Volunteer-min.jpg"
-          />
-        </div>
+        }
+      >
+        <img
+          alt="CCF Volunteering"
+          className="FullWidth DisplayBlock RetainAspectRatio"
+          src="CCF_GetInvolved_Volunteer-min.jpg"
+        />
       </div>
+    </div>
+    <div
+      className="ContentPageSubsectionPartContainer"
+    >
       <div
-        className="ContentPageSubsectionPartContainer"
+        className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
       >
         <div
-          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+          className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
         >
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
           >
-            <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-            >
+            <div>
               <h4
                 className="ContentPageSubsectionSubtitle"
-              />
-              <div>
-                <h4
-                  className="ContentPageSubsectionSubtitle"
+              >
+                Internships
+              </h4>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                CCF welcomes a selected number of students each year with a wide variety of backgrounds and courses of study. Graduate and undergraduate students are given a chance to learn about aspects of conservation biology, ecology, veterinary medicine, genetics, animal science, agriculture, sociology, business, computing, graphic design, education and tourism.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                CCF is an official fourth year placement for students from Namibia’s two major universities, University of Namibia (UNAM) and Namibia University of Science and Technology (NUST). In addition, CCF welcomes interns from undergraduate and graduate university programs all over the world.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                Aspiring biologists, genetics, and ecologists pursuing Masters and Ph.D. degrees come to CCF to work on research and thesis projects all year.
+              </p>
+              <ul>
+                <li
+                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
                 >
-                  Internships
-                </h4>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  cheetah feeding - collecting and dissecting cheetah feces
+                </li>
+                <li
+                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
                 >
-                  CCF welcomes a selected number of students each year with a wide variety of backgrounds and courses of study. Graduate and undergraduate students are given a chance to learn about aspects of conservation biology, ecology, veterinary medicine, genetics, animal science, agriculture, sociology, business, computing, graphic design, education and tourism.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  observing cheetah behavior - assisting in clinical work-ups
+                </li>
+                <li
+                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
                 >
-                  CCF is an official fourth year placement for students from Namibia’s two major universities, University of Namibia (UNAM) and Namibia University of Science and Technology (NUST). In addition, CCF welcomes interns from undergraduate and graduate university programs all over the world.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  raise livestock guarding dog puppies - conducting field work
+                </li>
+                <li
+                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
                 >
-                  Aspiring biologists, genetics, and ecologists pursuing Masters and Ph.D. degrees come to CCF to work on research and thesis projects all year.
-                </p>
-                <ul>
-                  <li
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
-                  >
-                    cheetah feeding - collecting and dissecting cheetah feces
-                  </li>
-                  <li
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
-                  >
-                    observing cheetah behavior - assisting in clinical work-ups
-                  </li>
-                  <li
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
-                  >
-                    raise livestock guarding dog puppies - conducting field work
-                  </li>
-                  <li
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight"
-                  >
-                    being involved with outreach and education programs
-                  </li>
-                </ul>
-              </div>
+                  being involved with outreach and education programs
+                </li>
+              </ul>
             </div>
-            <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-            >
+          </div>
+          <div
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+          >
+            <div>
               <h4
                 className="ContentPageSubsectionSubtitle"
-              />
-              <div>
-                <h4
-                  className="ContentPageSubsectionSubtitle"
-                >
-                  Volunteering
-                </h4>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  Volunteering at CCF in Namibia is a rewarding experience, and most of the people who participate in our volunteer program will tell you that it is among the best experiences they have ever had. Volunteers do everything from data entry and camera trap photo sorting to chopping up meat to collecting and cataloging scat samples.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  Like interns, volunteers can expect to work on a variety of tasks. CCF also seeks professionally skilled volunteers to work as cheetah keepers, animal behavior specialists, ecologists, biologists, veterinarians, and vet-technicians, as well as educators, trainers, and conservationists.
-                </p>
-              </div>
+              >
+                Volunteering
+              </h4>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                Volunteering at CCF in Namibia is a rewarding experience, and most of the people who participate in our volunteer program will tell you that it is among the best experiences they have ever had. Volunteers do everything from data entry and camera trap photo sorting to chopping up meat to collecting and cataloging scat samples.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                Like interns, volunteers can expect to work on a variety of tasks. CCF also seeks professionally skilled volunteers to work as cheetah keepers, animal behavior specialists, ecologists, biologists, veterinarians, and vet-technicians, as well as educators, trainers, and conservationists.
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <div
-        className="ContentPageSubsectionPartContainer"
-      >
-        <div>
-          <a
-            href="https://cheetah.org/get-involved/volunteer/"
+    </div>
+    <div
+      className="ContentPageSubsectionPartContainer"
+    >
+      <div>
+        <a
+          href="https://cheetah.org/get-involved/volunteer/"
+        >
+          <button
+            className="ui blue icon button"
+            onClick={[Function]}
           >
-            <button
-              className="ui blue icon button"
+            Learn more about CCF's Volunteer Program
+            <i
+              aria-hidden="true"
+              className="file alternate outline icon"
               onClick={[Function]}
-            >
-              Learn more about CCF's Volunteer Program
-              <i
-                aria-hidden="true"
-                className="file alternate outline icon"
-                onClick={[Function]}
-              />
-            </button>
-          </a>
-        </div>
+            />
+          </button>
+        </a>
       </div>
     </div>
   </div>
-</div>
+</section>
 `;

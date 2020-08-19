@@ -1,25 +1,14 @@
 /**
- * ContentPageSectionHead.css
+ * ContentPageSectionHeadFragment.css
  * Chewbaaka
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 11, 2020
+ * Updated  : Aug 18, 2020
  */
 
-div.ContentPageSectionHeadOuterContainer {
-  margin: 0 auto;
-}
-
-div.ContentPageSectionHeadInnerContainer {
-  margin: 0 auto;
-}
-
-div.ContentPageSectionHeadTitleContainer {
-  padding: 20px 0px; 
-}
-
 h2.ContentPageSectionHeadTitle {
+  padding: 1rem 0;
   font-size: 48px;
   line-height: 1.6;
 }

@@ -4,10 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 18, 2020
  */
 
-import React from 'react'
+import React, { Fragment } from 'react'
 
 import ContentPageSectionTemplate from '../shared/ContentPageSectionTemplate'
 
@@ -43,7 +43,7 @@ export default class BiologyPageSectionPhysiology extends React.Component {
 
   renderContent() {
     return (
-      <div>
+      <Fragment>
         <BiologyPageSubsectionAnatomy
           sectionConfig={this.state.sectionConfig}
         />
@@ -79,7 +79,7 @@ export default class BiologyPageSectionPhysiology extends React.Component {
         <BiologyPageSubsectionCommunication
           sectionConfig={this.state.sectionConfig}
         />
-      </div>
+      </Fragment>
     );
   }
 }

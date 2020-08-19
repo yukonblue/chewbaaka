@@ -4,12 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 13, 2020
+ * Updated  : Aug 18, 2020
  */
 
 import React from 'react'
-
-import "semantic-ui-css/semantic.min.css"
 
 import {
   Button,
@@ -19,15 +17,18 @@ import {
 } from 'semantic-ui-react'
 
 import {
-  getElementStyleClassName,
-  getElementStyleClassNames
+  getElementStyleClassName
 } from '../../styling/styling'
 
+import ContentPageTableOfContentMenuBootstrapper from './ContentPageTableOfContentMenuBootstrapper'
+import ContentPageIntroSectionGeneric from './ContentPageIntroSectionGeneric'
 import ContentPageHead from './ContentPageHead'
 import ContentPageTail from './ContentPageTail'
 import ContentPageSideNavMenu from './ContentPageSideNavMenu'
 
 import Footer from './Footer'
+
+import 'semantic-ui-css/semantic.min.css'
 
 import './ContentPageSharedStyles.css'
 
@@ -67,30 +68,60 @@ export default class ContentPageSkeleton extends React.Component {
   render() {
     return (
       <div className={getElementStyleClassName("ContentPageSkeletonOuterContainer")}>
+        {this.renderHeader()}
+        {this.renderBody()}
+        {this.renderFooter()}
+      </div>
+    );
+  }
+
+  renderHeader() {
+    return (
+      <div className="ContentPageSkeletonContentContainerDimension">
         <ContentPageHead
           pageProps={this.props.pageProps}
           imagesContext={this.props.imagesContext}
         />
-        <div>
-          {this.renderBody()}
-        </div>
+
+        <ContentPageTableOfContentMenuBootstrapper
+          pageMenuItems={this.props.pageProps.pageMenuItems}
+          imagesContext = {this.props.imagesContext}
+        />
+      </div>
+    );
+  }
+
+  renderFooter() {
+    return (
+      <Footer
+        appConfig={this.props.appConfig}
+      />
+    );
+  }
+
+  renderContent() {
+    return (
+      <div className="ContentPageSkeletonContentContainer">
+        <ContentPageIntroSectionGeneric
+          contentPageIntro={this.props.contentPageIntro}
+          imagesContext = {this.props.imagesContext}
+        />
+
+        {this.props.content}
+
         <ContentPageTail
           pageTailNavMenu={this.props.pageProps.pageTailNavMenu}
         />
-        <Footer
-          appConfig={this.props.appConfig}
-        />
       </div>
-    )
+    );
   }
 
   renderBody() {
     return (
       <Ref innerRef={this.state.contextRef}>
         <div data-testid="ContentPageSkeletonComponentTestId">
-          <div className={getElementStyleClassNames(["ContentPageSkeletonContentContainerDimension",
-                                                      "ContentPageSkeletonContentContainer"])}>
-            {this.props.content}
+          <div className={getElementStyleClassName("ContentPageSkeletonContentContainerDimension")}>
+            {this.renderContent()}
           </div>
           <Rail internal position='left' className="ContentPageSkeletonSideRail">
             <Sticky context={this.state.contextRef} offset={100}>
@@ -110,6 +141,6 @@ export default class ContentPageSkeleton extends React.Component {
           </Rail>
         </div>
       </Ref>
-    )
+    );
   }
 }

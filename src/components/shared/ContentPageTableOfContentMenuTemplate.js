@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 18, 2020
  */
 
 import React from 'react'
@@ -38,9 +38,11 @@ export default function ContentPageTableOfContentMenuTemplate(props) {
   return (
     <div className={getElementStyleClassName("ContentPageTableOfContentMenuTemplateOuterContainer")}>
       <div className={getElementStyleClassName("ContentPageTableOfContentMenuTemplateInnerContainer")}>
-        <FluidSingleRowGrid>
-          {gridColumns}
-        </FluidSingleRowGrid>
+        <nav>
+          <FluidSingleRowGrid>
+            {gridColumns}
+          </FluidSingleRowGrid>
+        </nav>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Aug 12, 2020
+ * Updated  : Aug 18, 2020
  */
 
 import React from 'react'
@@ -74,34 +74,38 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
 
   renderCheetahEvolutionAndExtinctionScaleImage() {
     return (
-      <CenteredFullWidthContainer width={1200}>
-        <FluidImageWrapper
-          src={image_Cheetah_Evolution_and_Extinction_Scale}
-          alt="Cheetah evolution and extinction"
-        />
-      </CenteredFullWidthContainer>
+      <ContentPageSubsectionPart>
+        <CenteredFullWidthContainer width={1200}>
+          <FluidImageWrapper
+            src={image_Cheetah_Evolution_and_Extinction_Scale}
+            alt="Cheetah evolution and extinction"
+          />
+        </CenteredFullWidthContainer>
+      </ContentPageSubsectionPart>
     );
   }
 
   renderCheetahRangeMapPart() {
     return (
-      <CenteredFullWidthContainer width={480}>
-        <ImageSlideModal
-          slides={[
-            {
-              image: cheetah_range_map_01,
-              title: "Cheetah Range by Subspecies",
-              description: "Ranges with highest populations are in southern and eastern Africa. The Asiatic cheetahs are left only in the Persian Gulf."
-            },
-            {
-              image: cheetah_range_map_02,
-              title: "Cheetah Range Population Breakdown",
-              description: "Cheetahs were driven out of over 90% of its historic range, and a number of parts of its current range have very small populations left."
-            }
-          ]}
-          caption="Click on the map above see the cheetah's range."
-        />
-      </CenteredFullWidthContainer>
+      <ContentPageSubsectionPart>
+        <CenteredFullWidthContainer width={480}>
+          <ImageSlideModal
+            slides={[
+              {
+                image: cheetah_range_map_01,
+                title: "Cheetah Range by Subspecies",
+                description: "Ranges with highest populations are in southern and eastern Africa. The Asiatic cheetahs are left only in the Persian Gulf."
+              },
+              {
+                image: cheetah_range_map_02,
+                title: "Cheetah Range Population Breakdown",
+                description: "Cheetahs were driven out of over 90% of its historic range, and a number of parts of its current range have very small populations left."
+              }
+            ]}
+            caption="Click on the map above see the cheetah's range."
+          />
+        </CenteredFullWidthContainer>
+      </ContentPageSubsectionPart>
     );
   }
 

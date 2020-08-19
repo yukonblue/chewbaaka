@@ -1,85 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`EcologyPageSubsectionHuntingAndPredatorControl component snapshot 1`] = `
-<div
+<section
   className="ContentPageSubsectionTemplateOuterContainer"
 >
-  <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  <h3
+    className="ContentPageSubsectionTitle"
   >
-    <h3
-      className="ContentPageSubsectionTitle"
-    >
-      Hunting and Predator Control
-    </h3>
+    Hunting and Predator Control
+  </h3>
+  <div>
     <div>
-      <div>
-        <div
-          className="ContentPageSubsectionPartContainer"
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <h4
+          className="ContentPageSubsectionSubtitle"
         >
-          <h4
-            className="ContentPageSubsectionSubtitle"
-          >
-            Traditional Hunting versus Poaching?
-          </h4>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            Subsistence hunting for food is carried out throughout the world where families live off the land. Traditional methods of traps and snares are still popular but more and more people are turning toward guns.
-          </p>
-        </div>
-        <div
-          className="ContentPageSubsectionPartContainer"
+          Traditional Hunting versus Poaching?
+        </h4>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
         >
-          <h4
-            className="ContentPageSubsectionSubtitle"
-          >
-            Conservation Through Sustainable Utilization
-          </h4>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            Sustainability refers to a process that can last forever. Utilizing a resource sustainably means that using the natural resource will not destroy it. Hunting can be a form of sustainable use. A sustainable outlook on hunting also sets aside a portion of the revenue collected from the hunt to support conservation efforts for the species.
-          </p>
-          <img
-            alt="What is sustainable utilization?"
-            className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
-            src="What_is_Sustainable_Utilization-min.png"
-          />
-        </div>
-        <div
-          className="ContentPageSubsectionPartContainer"
-        >
-          <h4
-            className="ContentPageSubsectionSubtitle"
-          >
-            Hunting
-          </h4>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            Hunting has changed through the ages from a necessity for survival, to a sport and a management activity. Ethical hunters and trophy hunting operations operate with the best intentions for conservation and the continued existence of the population being hunted.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            In Namibia, there are a number of laws that regulate hunting. Permits are required to hunt wildlife that has been divided up into numerous categories, namely, hunt-able game. With each of these categories there are differing requirements for permits.
-          </p>
-        </div>
-        <div
-          className="ContentPageSubsectionPartContainer"
-        >
-          <h4
-            className="ContentPageSubsectionSubtitle"
-          >
-            Population Control
-          </h4>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            Game farmers have to manage their herds throughout the year and on occasion they cull animals to reduce their numbers, through shooting or live sale. When animals are shot, the meat is sold for food. Game capture units transport and sell live game. Permits are required for these operations.
-          </p>
-        </div>
+          Subsistence hunting for food is carried out throughout the world where families live off the land. Traditional methods of traps and snares are still popular but more and more people are turning toward guns.
+        </p>
       </div>
       <div
         className="ContentPageSubsectionPartContainer"
@@ -87,85 +31,137 @@ exports[`EcologyPageSubsectionHuntingAndPredatorControl component snapshot 1`] =
         <h4
           className="ContentPageSubsectionSubtitle"
         >
-          Predator Control
+          Conservation Through Sustainable Utilization
         </h4>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          Sustainability refers to a process that can last forever. Utilizing a resource sustainably means that using the natural resource will not destroy it. Hunting can be a form of sustainable use. A sustainable outlook on hunting also sets aside a portion of the revenue collected from the hunt to support conservation efforts for the species.
+        </p>
+        <img
+          alt="What is sustainable utilization?"
+          className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
+          src="What_is_Sustainable_Utilization-min.png"
+        />
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <h4
+          className="ContentPageSubsectionSubtitle"
+        >
+          Hunting
+        </h4>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          Hunting has changed through the ages from a necessity for survival, to a sport and a management activity. Ethical hunters and trophy hunting operations operate with the best intentions for conservation and the continued existence of the population being hunted.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          In Namibia, there are a number of laws that regulate hunting. Permits are required to hunt wildlife that has been divided up into numerous categories, namely, hunt-able game. With each of these categories there are differing requirements for permits.
+        </p>
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <h4
+          className="ContentPageSubsectionSubtitle"
+        >
+          Population Control
+        </h4>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          Game farmers have to manage their herds throughout the year and on occasion they cull animals to reduce their numbers, through shooting or live sale. When animals are shot, the meat is sold for food. Game capture units transport and sell live game. Permits are required for these operations.
+        </p>
+      </div>
+    </div>
+    <div
+      className="ContentPageSubsectionPartContainer"
+    >
+      <h4
+        className="ContentPageSubsectionSubtitle"
+      >
+        Predator Control
+      </h4>
+      <div
+        className="ContentPageSideFloatFluidContainerOuterContainer"
+      >
         <div
-          className="ContentPageSideFloatFluidContainerOuterContainer"
+          className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
         >
           <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
+            className="TextBubbleOuterContainerFlexWrapper"
           >
             <div
-              className="TextBubbleOuterContainerFlexWrapper"
+              className="TextBubbleOuterContainer"
+              style={
+                Object {
+                  "backgroundColor": "rgb(255,155,0)",
+                  "maxWidth": 560,
+                  "minHeight": 560,
+                }
+              }
             >
               <div
-                className="TextBubbleOuterContainer"
-                style={
-                  Object {
-                    "backgroundColor": "rgb(255,155,0)",
-                    "maxWidth": 560,
-                    "minHeight": 560,
-                  }
-                }
+                className="TextBubbleInnerContainer"
               >
                 <div
-                  className="TextBubbleInnerContainer"
+                  className="TextBubbleInnerCore"
                 >
-                  <div
-                    className="TextBubbleInnerCore"
+                  <h1
+                    style={
+                      Object {
+                        "color": "rgb(undefined)",
+                        "fontSize": 44.800000000000004,
+                      }
+                    }
                   >
-                    <h1
-                      style={
-                        Object {
-                          "color": "rgb(undefined)",
-                          "fontSize": 44.800000000000004,
-                        }
+                    Predator control is an issue around the globe.
+                  </h1>
+                  <p
+                    style={
+                      Object {
+                        "color": "rgb(undefined)",
+                        "fontSize": 21,
                       }
-                    >
-                      Predator control is an issue around the globe.
-                    </h1>
-                    <p
-                      style={
-                        Object {
-                          "color": "rgb(undefined)",
-                          "fontSize": 21,
-                        }
-                      }
-                    >
-                      Proven farm and livestock management techniques can be employed to deter predations from problem animals. One great example is CCF’s Livestock Guarding Dog program.
-                    </p>
-                  </div>
+                    }
+                  >
+                    Proven farm and livestock management techniques can be employed to deter predations from problem animals. One great example is CCF’s Livestock Guarding Dog program.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-          <div
-            className="ContentPageSideFloatFluidContainerFixedPartContainer"
-          >
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Predator control is an issue around the globe.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              An animal usually resorts to killing livestock due to a medical problem, human influence or a natural incident which renders it unable to catch its wild prey. Only a cheetah that consistently hunts livestock should be considered a problem animal. It is critical to identify the individual culprit causing losses rather than remove all cheetahs indiscriminately. The opportunistic killing of inadequately protected livestock, such a new born calves in the bush, indicates poor livestock management which does not warrant the removal of the predator. Some farmers trap, poison and shoot cheetahs. This may not be due to livestock losses, but simply because the predator entered the farm and is perceived as a threat to livestock or family.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Predator control most commonly involves setting live capture cage traps. Farmers also use gin traps and poisoned carcasses. These methods only increase problems as they tend to lure and kill indiscriminately. Animals suffering as a result include ones which benefit the farmland ecosystem, as such pangolin, aardwolf, honey badger and bat eared fox.
-            </p>
-          </div>
         </div>
-        <img
-          alt="What is a problem animal?"
-          className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
-          src="What_is_a_Problem_Animal-min.png"
-        />
+        <div
+          className="ContentPageSideFloatFluidContainerFixedPartContainer"
+        >
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Predator control is an issue around the globe.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            An animal usually resorts to killing livestock due to a medical problem, human influence or a natural incident which renders it unable to catch its wild prey. Only a cheetah that consistently hunts livestock should be considered a problem animal. It is critical to identify the individual culprit causing losses rather than remove all cheetahs indiscriminately. The opportunistic killing of inadequately protected livestock, such a new born calves in the bush, indicates poor livestock management which does not warrant the removal of the predator. Some farmers trap, poison and shoot cheetahs. This may not be due to livestock losses, but simply because the predator entered the farm and is perceived as a threat to livestock or family.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Predator control most commonly involves setting live capture cage traps. Farmers also use gin traps and poisoned carcasses. These methods only increase problems as they tend to lure and kill indiscriminately. Animals suffering as a result include ones which benefit the farmland ecosystem, as such pangolin, aardwolf, honey badger and bat eared fox.
+          </p>
+        </div>
       </div>
+      <img
+        alt="What is a problem animal?"
+        className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
+        src="What_is_a_Problem_Animal-min.png"
+      />
     </div>
   </div>
-</div>
+</section>
 `;

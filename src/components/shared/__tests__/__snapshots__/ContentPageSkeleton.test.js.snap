@@ -1,0 +1,777 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentPageSkeleton snapshot 1`] = `
+<div
+  className="ContentPageSkeletonOuterContainer"
+>
+  <div
+    className="ContentPageSkeletonContentContainerDimension"
+  >
+    <header>
+      <div
+        className="ContentPageHeadOuterContainer"
+        data-testid="ContentPageHeadComponentTestId"
+      >
+        <div
+          className="ContentPageTopNavMenuBarContainer"
+        >
+          <div
+            className="ContentPageTopNavMenuBarLogoPseudoContainer"
+          >
+            <a
+              href="https://cheetah.org/"
+            >
+              <img
+                alt="CCF logo"
+                src="cheetah-conservation-fund-30-logo.svg"
+              />
+            </a>
+          </div>
+          <div
+            className="ContentPageTopNavMenuBarMenuListSidePseudoContainer"
+          >
+            <nav>
+              <ul
+                className="ContentPageTopNavMenuBarMenuList"
+              >
+                <li
+                  className=""
+                >
+                  <a
+                    href="/home"
+                    onClick={[Function]}
+                  >
+                    Home
+                  </a>
+                </li>
+                <li
+                  className=""
+                >
+                  <a
+                    href="/history"
+                    onClick={[Function]}
+                  >
+                    History
+                  </a>
+                </li>
+                <li
+                  className=""
+                >
+                  <a
+                    href="/biology"
+                    onClick={[Function]}
+                  >
+                    Biology
+                  </a>
+                </li>
+                <li
+                  className=""
+                >
+                  <a
+                    href="/ecology"
+                    onClick={[Function]}
+                  >
+                    Ecology
+                  </a>
+                </li>
+                <li
+                  className=""
+                >
+                  <a
+                    href="/future"
+                    onClick={[Function]}
+                  >
+                    Future
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div
+          className="ContentPageSkeletonContentContainerDimension ContentPageBannerContainer"
+          data-testid="ContentPageBannerComponentTestId"
+          style={
+            Object {
+              "backgroundImage": "url(null)",
+            }
+          }
+        >
+          <div
+            className="ContentPageBannerTitleContainer"
+          >
+            <p
+              className="ContentPageBannerTitle"
+            >
+              Title
+            </p>
+            <hr
+              className="ContentPageBannerTitleLineBreak"
+            />
+            <p
+              className="ContentPageBannerSubtitle"
+            >
+              This is a subtitle
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div
+      className="ContentPageTableOfContentMenuTemplateOuterContainer"
+    >
+      <div
+        className="ContentPageTableOfContentMenuTemplateInnerContainer"
+      >
+        <nav>
+          <div
+            className="FluidSingleRowGridOuterContainer"
+            style={
+              Object {
+                "justifyContent": undefined,
+              }
+            }
+          >
+            <div
+              className="CircularImageButtonOuterContainer"
+            >
+              <a
+                href="#menu-item-1"
+              >
+                <div
+                  className="CircularImageButtonCore"
+                >
+                  <img
+                    alt="Menu Item 1"
+                    className="CircularImageButtonImg"
+                    src={null}
+                  />
+                </div>
+                <div>
+                  <p
+                    className="CircularImageButtonTitle"
+                  >
+                    Menu Item 1
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div
+              className="CircularImageButtonOuterContainer"
+            >
+              <a
+                href="#menu-item-2"
+              >
+                <div
+                  className="CircularImageButtonCore"
+                >
+                  <img
+                    alt="Menu Item 2"
+                    className="CircularImageButtonImg"
+                    src={null}
+                  />
+                </div>
+                <div>
+                  <p
+                    className="CircularImageButtonTitle"
+                  >
+                    Menu Item 2
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div
+    data-testid="ContentPageSkeletonComponentTestId"
+  >
+    <div
+      className="ContentPageSkeletonContentContainerDimension"
+    >
+      <div
+        className="ContentPageSkeletonContentContainer"
+      >
+        <div
+          className="ContentPageIntroSectionGenericOuterContainer"
+        >
+          <div
+            className="ContentPageIntroSectionTemplateOuterContainer"
+          >
+            <h1
+              className="ContentPageIntroSectionTemplateTitle"
+            >
+              This is a title
+            </h1>
+            <div
+              className="ContentPageIntroSectionGenericInnerContainer"
+            >
+              <div
+                className="ContentPageIntroSectionGenericIntroTextContainer"
+              >
+                <p
+                  className="ContentPageHeadAndSectionIntroText"
+                >
+                  This is some content
+                </p>
+              </div>
+              <div
+                className="ContentPageIntroSectionGenericImgContainer"
+              >
+                <img
+                  alt="This is a title"
+                  className="ContentPageIntroSectionGenericImg"
+                  src={null}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ContentPageSkeletonContentContainerDimension ContentPageTailOuterContainer"
+        >
+          <article
+            className="ContentPageSectionTemplateOuterContainer"
+          >
+            <h2
+              className="ContentPageSectionHeadTitle"
+              id="before-you-go"
+            >
+              Before You Go
+            </h2>
+            <p
+              className="ContentPageHeadAndSectionIntroText"
+            />
+            <div
+              className="ContentPageTailInnerContainer"
+            >
+              <div
+                className="ContentPageTailInnerImageCollageContainer"
+              >
+                <div
+                  className="ImageCollageOuterContainer"
+                >
+                  <div
+                    className="ImageCollageInnerContainer"
+                  >
+                    <div
+                      className="ImageCollageCellOuterContainer"
+                    >
+                      <div
+                        className="ImageCollageCellInnerContainer"
+                      >
+                        <div
+                          className="ui move down reveal"
+                        >
+                          <div
+                            className="ui hidden content"
+                          >
+                            <div
+                              className="ImageCollageCellCore"
+                            >
+                              <a
+                                className="ui image"
+                                href="https://cheetah.org/get-involved/ways-to-give/"
+                              >
+                                <img
+                                  height={320}
+                                  src="collage_01-min.jpg"
+                                  width={420}
+                                />
+                              </a>
+                              <div
+                                className="ImageCollageCellTitleGroupOuterContainer"
+                              >
+                                <p
+                                  className="ImageCollageCellSubtitleText"
+                                >
+                                  Every action counts
+                                </p>
+                                <p
+                                  className="ImageCollageCellTitleText"
+                                >
+                                  Get Involved
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            className="ui visible content"
+                          >
+                            <div
+                              className="ImageCollageCellCore"
+                            >
+                              <a
+                                className="ui image ImageCollageCellImgVisibleStyle"
+                                href="https://cheetah.org/get-involved/ways-to-give/"
+                              >
+                                <img
+                                  height={320}
+                                  src="collage_01-min.jpg"
+                                  width={420}
+                                />
+                              </a>
+                              <div
+                                className="ImageCollageCellTitleGroupOuterContainer"
+                              >
+                                <p
+                                  className="ImageCollageCellTitleText"
+                                >
+                                  Get Involved
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="ImageCollageCellOuterContainer"
+                    >
+                      <div
+                        className="ImageCollageCellInnerContainer"
+                      >
+                        <div
+                          className="ui move down reveal"
+                        >
+                          <div
+                            className="ui hidden content"
+                          >
+                            <div
+                              className="ImageCollageCellCore"
+                            >
+                              <a
+                                className="ui image"
+                                href="https://internationalcheetahday.com/"
+                              >
+                                <img
+                                  height={320}
+                                  src="collage_02-min.jpg"
+                                  width={420}
+                                />
+                              </a>
+                              <div
+                                className="ImageCollageCellTitleGroupOuterContainer"
+                              >
+                                <p
+                                  className="ImageCollageCellSubtitleText"
+                                >
+                                  Cheetahs deserve a holiday of their own
+                                </p>
+                                <p
+                                  className="ImageCollageCellTitleText"
+                                >
+                                  International Cheetah Day
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            className="ui visible content"
+                          >
+                            <div
+                              className="ImageCollageCellCore"
+                            >
+                              <a
+                                className="ui image ImageCollageCellImgVisibleStyle"
+                                href="https://internationalcheetahday.com/"
+                              >
+                                <img
+                                  height={320}
+                                  src="collage_02-min.jpg"
+                                  width={420}
+                                />
+                              </a>
+                              <div
+                                className="ImageCollageCellTitleGroupOuterContainer"
+                              >
+                                <p
+                                  className="ImageCollageCellTitleText"
+                                >
+                                  International Cheetah Day
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="ImageCollageCellOuterContainer"
+                    >
+                      <div
+                        className="ImageCollageCellInnerContainer"
+                      >
+                        <div
+                          className="ui move down reveal"
+                        >
+                          <div
+                            className="ui hidden content"
+                          >
+                            <div
+                              className="ImageCollageCellCore"
+                            >
+                              <a
+                                className="ui image"
+                                href="https://www.iucnredlist.org/es/species/219/13034574"
+                              >
+                                <img
+                                  height={320}
+                                  src="collage_03-min.jpg"
+                                  width={420}
+                                />
+                              </a>
+                              <div
+                                className="ImageCollageCellTitleGroupOuterContainer"
+                              >
+                                <p
+                                  className="ImageCollageCellSubtitleText"
+                                >
+                                  Latest status on the species
+                                </p>
+                                <p
+                                  className="ImageCollageCellTitleText"
+                                >
+                                  Cheetah on IUCN
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            className="ui visible content"
+                          >
+                            <div
+                              className="ImageCollageCellCore"
+                            >
+                              <a
+                                className="ui image ImageCollageCellImgVisibleStyle"
+                                href="https://www.iucnredlist.org/es/species/219/13034574"
+                              >
+                                <img
+                                  height={320}
+                                  src="collage_03-min.jpg"
+                                  width={420}
+                                />
+                              </a>
+                              <div
+                                className="ImageCollageCellTitleGroupOuterContainer"
+                              >
+                                <p
+                                  className="ImageCollageCellTitleText"
+                                >
+                                  Cheetah on IUCN
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="ImageCollageCellOuterContainer"
+                    >
+                      <div
+                        className="ImageCollageCellInnerContainer"
+                      >
+                        <div
+                          className="ui move down reveal"
+                        >
+                          <div
+                            className="ui hidden content"
+                          >
+                            <div
+                              className="ImageCollageCellCore"
+                            >
+                              <a
+                                className="ui image"
+                                href="https://wildnet.org/"
+                              >
+                                <img
+                                  height={320}
+                                  src="collage_04-min.jpg"
+                                  width={420}
+                                />
+                              </a>
+                              <div
+                                className="ImageCollageCellTitleGroupOuterContainer"
+                              >
+                                <p
+                                  className="ImageCollageCellSubtitleText"
+                                >
+                                  Work with other organizations
+                                </p>
+                                <p
+                                  className="ImageCollageCellTitleText"
+                                >
+                                  Join Forces
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            className="ui visible content"
+                          >
+                            <div
+                              className="ImageCollageCellCore"
+                            >
+                              <a
+                                className="ui image ImageCollageCellImgVisibleStyle"
+                                href="https://wildnet.org/"
+                              >
+                                <img
+                                  height={320}
+                                  src="collage_04-min.jpg"
+                                  width={420}
+                                />
+                              </a>
+                              <div
+                                className="ImageCollageCellTitleGroupOuterContainer"
+                              >
+                                <p
+                                  className="ImageCollageCellTitleText"
+                                >
+                                  Join Forces
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="ContentPageTailInnerNavMenuContainer"
+              >
+                <div
+                  className="FluidSingleRowGridOuterContainer"
+                  style={
+                    Object {
+                      "justifyContent": "space-evenly",
+                    }
+                  }
+                >
+                  <a
+                    href="/biology"
+                    onClick={[Function]}
+                  >
+                    <button
+                      className="ui blue massive icon left labeled button"
+                      onClick={[Function]}
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="arrow circle left icon"
+                        onClick={[Function]}
+                      />
+                      Biology
+                    </button>
+                  </a>
+                  <a
+                    href="/future"
+                    onClick={[Function]}
+                  >
+                    <button
+                      className="ui blue massive icon right labeled button"
+                      onClick={[Function]}
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="arrow circle right icon"
+                        onClick={[Function]}
+                      />
+                      Future
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ui left internal rail ContentPageSkeletonSideRail"
+    >
+      <div
+        className=""
+      >
+        <div
+          style={Object {}}
+        />
+        <div
+          className="ui sticky"
+        >
+          <button
+            className="ui black circular icon button"
+            onClick={[Function]}
+          >
+            <i
+              aria-hidden="true"
+              className="list ul icon"
+              onClick={[Function]}
+            />
+          </button>
+          <div
+            hidden={true}
+          >
+            <div
+              className="ContentPageSideNavMenuOuterContainer"
+              data-testid="ContentPageSideNavMenuComponentTestId"
+            >
+              <div
+                className="ui text vertical ContentPageSideNavMenuInnerMenu menu"
+              >
+                <div
+                  className="header item"
+                  onClick={[Function]}
+                >
+                  <span
+                    className="ContentPageSideNavMenuHeader"
+                  >
+                    Title
+                  </span>
+                </div>
+                <nav>
+                  <a
+                    className="active item"
+                    href="#menu-item-1"
+                    onClick={[Function]}
+                  >
+                    <span
+                      className="ContentPageSideNavMenuItem"
+                    >
+                      Menu Item 1
+                    </span>
+                  </a>
+                  <a
+                    className="item"
+                    href="#menu-item-2"
+                    onClick={[Function]}
+                  >
+                    <span
+                      className="ContentPageSideNavMenuItem"
+                    >
+                      Menu Item 2
+                    </span>
+                  </a>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div
+      className="ui inverted segment"
+      data-testid="FooterComponentTestId"
+      style={
+        Object {
+          "padding": "5em 0em",
+        }
+      }
+    >
+      <div
+        className="ui container"
+      >
+        <div
+          className="ui inverted stackable divided grid"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="three wide column"
+            >
+              <img
+                className="ui small image"
+                src="cheetah-conservation-fund-logo-mini-min.jpg"
+              />
+            </div>
+            <div
+              className="six wide column"
+            >
+              <h4
+                className="ui inverted header"
+              >
+                Resources
+              </h4>
+              <div
+                className="ui inverted link list"
+                role="list"
+              >
+                <a
+                  className="item"
+                  href="https://cheetah.org/about/what-we-do/"
+                  onClick={[Function]}
+                  role="listitem"
+                  target="_blank"
+                >
+                  About CCF
+                </a>
+                <a
+                  className="item"
+                  href="https://animalfactguide.com/animal-facts/cheetah/"
+                  onClick={[Function]}
+                  role="listitem"
+                  target="_blank"
+                >
+                  Cheetah Fun Facts
+                </a>
+                <a
+                  className="item"
+                  href="https://wildnet.org/wildlife-programs/cheetah-namibia/"
+                  onClick={[Function]}
+                  role="listitem"
+                  target="_blank"
+                >
+                  Wildlife Conservation Network & CCF
+                </a>
+                <a
+                  className="item"
+                  href="https://www.iucnredlist.org/species/219/50649567"
+                  onClick={[Function]}
+                  role="listitem"
+                  target="_blank"
+                >
+                  IUCN Red List - Cheetah
+                </a>
+              </div>
+            </div>
+            <div
+              className="seven wide column"
+            >
+              <h4
+                className="ui inverted header"
+              >
+                Cheetah Conservation Fund
+              </h4>
+              <p
+                data-testid="footerSectionCCF"
+              >
+                <a
+                  href="https://cheetah.org/"
+                >
+                  Cheetah Conservation Fund
+                </a>
+                 is a 501(c)(3) nonprofit organization, dedicated to saving the cheetahs in the wild and changing the world to be a better place.
+              </p>
+              <p>
+                All textual content presented on this site are copyright of Cheetah Conservation Fund.
+              </p>
+              <p>
+                This site is not an affiliation of Cheetah Conservation Fund.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

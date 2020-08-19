@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Aug 13, 2020
- * Updated  : Aug 13, 2020
+ * Updated  : Aug 18, 2020
  */
 
 div.ContentPageSideFloatFluidContainerOuterContainer {
@@ -27,6 +27,7 @@ div.ContentPageSideFloatFluidContainerFloatPartContainer {
 
   div.ContentPageSideFloatFluidContainerFloatPartContainer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     padding: 0;
   }

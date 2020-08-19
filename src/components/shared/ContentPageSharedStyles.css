@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 13, 2020
+ * Updated  : Aug 18, 2020
  */
 
 /** ----------------------------- CONTAINER -------------------------------- **/
@@ -13,16 +13,6 @@ div.ContentPageSkeletonContentContainerDimension {
   margin: 0px auto;
   max-width: 1600px;
 }
-
-/**
- * NOTE:
- * This specifies the common width style of content
- * page section inner content.
- */
-div.ContentPageContentInnerContentDimension {
-  width: 85%;
-}
-
 
 /** ------------------------- CONTAINER AUXILLARY -------------------------- **/
 

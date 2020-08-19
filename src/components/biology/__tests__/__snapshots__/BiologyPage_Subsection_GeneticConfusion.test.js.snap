@@ -1,87 +1,83 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`BiologyPageSubsectionGeneticConfusion component snapshot 1`] = `
-<div
+<section
   className="ContentPageSubsectionTemplateOuterContainer"
 >
-  <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  <h3
+    className="ContentPageSubsectionTitle"
   >
-    <h3
-      className="ContentPageSubsectionTitle"
-    >
-      Genetic Confusion
-    </h3>
+    Genetic Confusion
+  </h3>
+  <div
+    className="ContentPageSideFloatFluidContainerOuterContainer"
+  >
     <div
-      className="ContentPageSideFloatFluidContainerOuterContainer"
+      className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
     >
       <div
-        className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
+        className="TextBubbleOuterContainerFlexWrapper"
       >
         <div
-          className="TextBubbleOuterContainerFlexWrapper"
+          className="TextBubbleOuterContainer"
+          style={
+            Object {
+              "backgroundColor": "rgb(254,182,40)",
+              "maxWidth": 520,
+              "minHeight": 520,
+            }
+          }
         >
           <div
-            className="TextBubbleOuterContainer"
-            style={
-              Object {
-                "backgroundColor": "rgb(254,182,40)",
-                "maxWidth": 520,
-                "minHeight": 520,
-              }
-            }
+            className="TextBubbleInnerContainer"
           >
             <div
-              className="TextBubbleInnerContainer"
+              className="TextBubbleInnerCore"
             >
-              <div
-                className="TextBubbleInnerCore"
+              <h1
+                style={
+                  Object {
+                    "color": "rgb(undefined)",
+                    "fontSize": 41.6,
+                  }
+                }
               >
-                <h1
-                  style={
-                    Object {
-                      "color": "rgb(undefined)",
-                      "fontSize": 41.6,
-                    }
+                How does this relate to the cheetah?
+              </h1>
+              <p
+                style={
+                  Object {
+                    "color": "rgb(undefined)",
+                    "fontSize": 21,
                   }
-                >
-                  How does this relate to the cheetah?
-                </h1>
-                <p
-                  style={
-                    Object {
-                      "color": "rgb(undefined)",
-                      "fontSize": 21,
-                    }
-                  }
-                >
-                  Cheetahs are very closely related and have a low genetic diversity. This is due to the drastic reduction in their numbers when the population bottleneck occurred. This inbreeding and low genetic diversity may cause abnormalities.
-                </p>
-              </div>
+                }
+              >
+                Cheetahs are very closely related and have a low genetic diversity. This is due to the drastic reduction in their numbers when the population bottleneck occurred. This inbreeding and low genetic diversity may cause abnormalities.
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <div
-        className="ContentPageSideFloatFluidContainerFixedPartContainer"
+    </div>
+    <div
+      className="ContentPageSideFloatFluidContainerFixedPartContainer"
+    >
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
       >
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          Genes are the components of living cells that pass down inherited characteristics such as brown eyes or curly hair in humans.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          Genetic diversity is the variety of genes in an organism or in a population. Diversity increases the likelihood that a given species can adapt and survive catastrophes such as sudden environmental changes or exposure to new diseases.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          Diversity is reduced when inbreeding occurs. This means members of the same family or close relatives breed only among themselves.
-        </p>
-      </div>
+        Genes are the components of living cells that pass down inherited characteristics such as brown eyes or curly hair in humans.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+      >
+        Genetic diversity is the variety of genes in an organism or in a population. Diversity increases the likelihood that a given species can adapt and survive catastrophes such as sudden environmental changes or exposure to new diseases.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+      >
+        Diversity is reduced when inbreeding occurs. This means members of the same family or close relatives breed only among themselves.
+      </p>
     </div>
   </div>
-</div>
+</section>
 `;

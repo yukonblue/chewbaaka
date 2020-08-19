@@ -1,183 +1,176 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`BiologyPageSubsectionAbnormalities component snapshot 1`] = `
-<div
+<section
   className="ContentPageSubsectionTemplateOuterContainer"
 >
-  <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  <h3
+    className="ContentPageSubsectionTitle"
   >
-    <h3
-      className="ContentPageSubsectionTitle"
+    Abnormalities
+  </h3>
+  <div>
+    <div
+      className="ContentPageSubsectionPartContainer"
     >
-      Abnormalities
-    </h3>
-    <div>
-      <div
-        className="ContentPageSubsectionPartContainer"
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
       >
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          CCF collects data to monitor cheetah genetics, physical qualities and reproduction. Body measurements, blood, and skin samples help evaluate overall health. CCF has recorded the following abnormalities in wild Namibian cheetahs.
-        </p>
-      </div>
+        CCF collects data to monitor cheetah genetics, physical qualities and reproduction. Body measurements, blood, and skin samples help evaluate overall health. CCF has recorded the following abnormalities in wild Namibian cheetahs.
+      </p>
+    </div>
+    <div
+      className="ContentPageSubsectionPartContainer"
+    >
       <div
-        className="ContentPageSubsectionPartContainer"
+        className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
       >
         <div
-          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+          className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
         >
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
           >
-            <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+            <h4
+              className="ContentPageSubsectionSubtitle"
             >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              >
-                Crowded Lower Incisors
-              </h4>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                Cheetahs use their front teeth (incisors) to rapidly skin their prey. Some cheetahs have very crowded and crooked front teeth. This abnormality decreases the amount of meat the cheetah can quickly eat before another predator steals the kill.
-              </p>
-            </div>
-            <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+              Crowded Lower Incisors
+            </h4>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
             >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              >
-                Birth Defects
-              </h4>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                Congenital (Genetic) Birth Defects, such as five legged and two-headed cubs are often reported in cheetahs and cause high infant mortality. Defects are a result of low genetic diversity. This problem is also reported in other inbred species.
-              </p>
-            </div>
+              Cheetahs use their front teeth (incisors) to rapidly skin their prey. Some cheetahs have very crowded and crooked front teeth. This abnormality decreases the amount of meat the cheetah can quickly eat before another predator steals the kill.
+            </p>
+          </div>
+          <div
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+          >
+            <h4
+              className="ContentPageSubsectionSubtitle"
+            >
+              Birth Defects
+            </h4>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Congenital (Genetic) Birth Defects, such as five legged and two-headed cubs are often reported in cheetahs and cause high infant mortality. Defects are a result of low genetic diversity. This problem is also reported in other inbred species.
+            </p>
           </div>
         </div>
       </div>
+    </div>
+    <div
+      className="ContentPageSubsectionPartContainer"
+    >
       <div
-        className="ContentPageSubsectionPartContainer"
+        className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
       >
         <div
-          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+          className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
         >
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
           >
-            <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+            <h4
+              className="ContentPageSubsectionSubtitle"
             >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              >
-                Focal Palatine Erosion
-              </h4>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                This abnormality occurs when the lower molar (back teeth) damage and break through the upper palate (roof of mouth). Dental impressions and skull X-rays allow CCF to relate problems with information on genetics, health, diet, and geographic origin of affected cheetahs. Palatine erosion is reported in both captive and wild cheetahs and can lead to fatal infection.
-              </p>
-            </div>
-            <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+              Focal Palatine Erosion
+            </h4>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
             >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              >
-                Abnormal Sperm
-              </h4>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                A high frequency of sperm abnormalities (71%) first alerted researchers to the genetic problems of cheetahs. Cheetahs have a very low sperm count - 10 times lower than a domestic cat. Sperm abnormalities usually indicate a high level of inbreeding in the population. Cheetahs breed normally despite this problem and long term monitoring will follow their success rate.
-              </p>
-            </div>
+              This abnormality occurs when the lower molar (back teeth) damage and break through the upper palate (roof of mouth). Dental impressions and skull X-rays allow CCF to relate problems with information on genetics, health, diet, and geographic origin of affected cheetahs. Palatine erosion is reported in both captive and wild cheetahs and can lead to fatal infection.
+            </p>
+          </div>
+          <div
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+          >
+            <h4
+              className="ContentPageSubsectionSubtitle"
+            >
+              Abnormal Sperm
+            </h4>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              A high frequency of sperm abnormalities (71%) first alerted researchers to the genetic problems of cheetahs. Cheetahs have a very low sperm count - 10 times lower than a domestic cat. Sperm abnormalities usually indicate a high level of inbreeding in the population. Cheetahs breed normally despite this problem and long term monitoring will follow their success rate.
+            </p>
           </div>
         </div>
       </div>
+    </div>
+    <div
+      className="ContentPageSubsectionPartContainer"
+    >
       <div
-        className="ContentPageSubsectionPartContainer"
+        className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
       >
         <div
-          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+          className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
         >
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+          >
+            <h4
+              className="ContentPageSubsectionSubtitle"
+            >
+              Kinked Tails
+            </h4>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Crooked tails have been recorded in 19% of the Namibian cheetahs evaluated since 1995. This is the first documentation of this abnormality in wild cheetahs and could be linked to a lack of genetic diversity.
+            </p>
+          </div>
+          <div
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
           >
             <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-            >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              >
-                Kinked Tails
-              </h4>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                Crooked tails have been recorded in 19% of the Namibian cheetahs evaluated since 1995. This is the first documentation of this abnormality in wild cheetahs and could be linked to a lack of genetic diversity.
-              </p>
-            </div>
-            <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-            >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              />
-              <div
-                className="ImageViewOuterContainer"
-                style={
-                  Object {
-                    "maxWidth": 640,
-                  }
+              className="ImageViewOuterContainer"
+              style={
+                Object {
+                  "maxWidth": 640,
                 }
+              }
+            >
+              <div
+                className="ImageViewInnerContainer"
               >
                 <div
-                  className="ImageViewInnerContainer"
+                  className="ImageViewImgContainer"
+                >
+                  <img
+                    alt="Kinked tail."
+                    className="ImageViewImg"
+                    src="cheetah_kinked_tail-min.jpg"
+                  />
+                </div>
+                <div
+                  className="ImageViewCaptionContainer"
                 >
                   <div
-                    className="ImageViewImgContainer"
-                  >
-                    <img
-                      alt="Kinked tail."
-                      className="ImageViewImg"
-                      src="cheetah_kinked_tail-min.jpg"
-                    />
-                  </div>
-                  <div
-                    className="ImageViewCaptionContainer"
+                    className="CaptionContainer"
+                    data-testid="CaptionComponentTestId"
+                    style={
+                      Object {
+                        "maxWidth": 640,
+                      }
+                    }
                   >
                     <div
-                      className="CaptionContainer"
-                      data-testid="CaptionComponentTestId"
-                      style={
-                        Object {
-                          "maxWidth": 640,
-                        }
-                      }
+                      className="IconContainer"
                     >
-                      <div
-                        className="IconContainer"
-                      >
-                        <i
-                          aria-hidden="true"
-                          className="image icon"
-                          onClick={[Function]}
-                        />
-                      </div>
-                      <p
-                        className="ContentPageCaptionTextSize CaptionText"
-                      >
-                        Kinked tail. (Image credit: Cheetah Conservation Fund)
-                      </p>
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
                     </div>
+                    <p
+                      className="ContentPageCaptionTextSize CaptionText"
+                    >
+                      Kinked tail. (Image credit: Cheetah Conservation Fund)
+                    </p>
                   </div>
                 </div>
               </div>
@@ -187,5 +180,5 @@ exports[`BiologyPageSubsectionAbnormalities component snapshot 1`] = `
       </div>
     </div>
   </div>
-</div>
+</section>
 `;

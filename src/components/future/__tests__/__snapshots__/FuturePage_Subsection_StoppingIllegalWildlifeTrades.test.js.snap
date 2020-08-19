@@ -1,149 +1,148 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`FuturePageSubsectionStoppingIllegalWildlifeTrades component snapshot 1`] = `
-<div
+<section
   className="ContentPageSubsectionTemplateOuterContainer"
 >
-  <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  <h3
+    className="ContentPageSubsectionTitle"
   >
-    <h3
-      className="ContentPageSubsectionTitle"
+    Stopping Illegal Wildlife Trades
+  </h3>
+  <div>
+    <div
+      className="ContentPageSubsectionPartContainer"
     >
-      Stopping Illegal Wildlife Trades
-    </h3>
-    <div>
-      <div
-        className="ContentPageSubsectionPartContainer"
+      <h4
+        className="ContentPageAlarmBannerText"
       >
-        <h4
-          className="ContentPageAlarmBannerText"
-        >
-          The illegal trafficking of cheetahs into the pet trade has become one of the main threats to cheetah survival.
-        </h4>
-      </div>
+        The illegal trafficking of cheetahs into the pet trade has become one of the main threats to cheetah survival.
+      </h4>
+    </div>
+    <div
+      className="ContentPageSubsectionPartContainer"
+    >
       <div
-        className="ContentPageSubsectionPartContainer"
+        className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
       >
         <div
-          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+          className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
         >
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+          >
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Since 2005, CCF has been actively involved with issues involving the illegal trade of live cheetah cubs. Staff monitor cheetah trafficking activities and organizes confiscations through proper authorities when possible.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Cheetahs are listed as an Appendix I species under the Convention on International Trade in Endangered Species (CITES). They are poached from the wild for the pet trade and their body parts, which get sold on the markets. Illegal wildlife trafficking is one of the top five transnational crimes, generating an estimated U.S. $50-150 million in illegal revenues annually.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              CCF is taking a leadership role in addressing the illegal pet trade. CCF trains wildlife officers involved in the front lines of trafficking in the Horn of Africa as well as in the Middle East, teaching them proper care for confiscated animals.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              CCF has built the most extensive database on cheetah trafficking, recording hundreds of trafficking cases going through the Horn of Africa to the Middle East.
+            </p>
+          </div>
+          <div
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
           >
             <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-            >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              />
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                Since 2005, CCF has been actively involved with issues involving the illegal trade of live cheetah cubs. Staff monitor cheetah trafficking activities and organizes confiscations through proper authorities when possible.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                Cheetahs are listed as an Appendix I species under the Convention on International Trade in Endangered Species (CITES). They are poached from the wild for the pet trade and their body parts, which get sold on the markets. Illegal wildlife trafficking is one of the top five transnational crimes, generating an estimated U.S. $50-150 million in illegal revenues annually.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                CCF is taking a leadership role in addressing the illegal pet trade. CCF trains wildlife officers involved in the front lines of trafficking in the Horn of Africa as well as in the Middle East, teaching them proper care for confiscated animals.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                CCF has built the most extensive database on cheetah trafficking, recording hundreds of trafficking cases going through the Horn of Africa to the Middle East.
-              </p>
-            </div>
-            <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-            >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              />
-              <div
-                className="ImageViewOuterContainer"
-                style={
-                  Object {
-                    "maxWidth": 640,
-                  }
+              className="ImageViewOuterContainer"
+              style={
+                Object {
+                  "maxWidth": 640,
                 }
+              }
+            >
+              <div
+                className="ImageViewInnerContainer"
               >
                 <div
-                  className="ImageViewInnerContainer"
+                  className="ImageViewImgContainer"
+                >
+                  <img
+                    alt="The heaviest trafficking of cheetahs have been observed from Central and Southern Africa into the Middle East."
+                    className="ImageViewImg"
+                    src="cheetah_trafficking_map-min.png"
+                  />
+                </div>
+                <div
+                  className="ImageViewCaptionContainer"
                 >
                   <div
-                    className="ImageViewImgContainer"
-                  >
-                    <img
-                      alt="The heaviest trafficking of cheetahs have been observed from Central and Southern Africa into the Middle East."
-                      className="ImageViewImg"
-                      src="cheetah_trafficking_map-min.png"
-                    />
-                  </div>
-                  <div
-                    className="ImageViewCaptionContainer"
+                    className="CaptionContainer"
+                    data-testid="CaptionComponentTestId"
+                    style={
+                      Object {
+                        "maxWidth": 640,
+                      }
+                    }
                   >
                     <div
-                      className="CaptionContainer"
-                      data-testid="CaptionComponentTestId"
-                      style={
-                        Object {
-                          "maxWidth": 640,
-                        }
-                      }
+                      className="IconContainer"
                     >
-                      <div
-                        className="IconContainer"
-                      >
-                        <i
-                          aria-hidden="true"
-                          className="image icon"
-                          onClick={[Function]}
-                        />
-                      </div>
-                      <p
-                        className="ContentPageCaptionTextSize CaptionText"
-                      >
-                        The heaviest trafficking of cheetahs have been observed from Central and Southern Africa into the Middle East. (Image credit: BBC)
-                      </p>
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
                     </div>
+                    <p
+                      className="ContentPageCaptionTextSize CaptionText"
+                    >
+                      The heaviest trafficking of cheetahs have been observed from Central and Southern Africa into the Middle East. (Image credit: BBC)
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div
-          className="VerticalCushionPadding"
-        >
-          <div>
-            <a
-              href="https://cheetah.org/press-releases/cheetah-conservation-fund-receives-emaciated-cubs-intercepted-from-wildlife-traffickers-by-somaliland-government-in-record-breaking-seizure/"
-            >
-              <button
-                className="ui blue icon button"
-                onClick={[Function]}
-              >
-                Read on CCF’s collaboration with the Somaliland government on intercepting cheetah trafficking
-                <i
-                  aria-hidden="true"
-                  className="file alternate outline icon"
-                  onClick={[Function]}
-                />
-              </button>
-            </a>
-          </div>
-        </div>
       </div>
       <div
-        className="ContentPageSubsectionPartContainer"
+        className="VerticalCushionPadding"
+      >
+        <div>
+          <a
+            href="https://cheetah.org/press-releases/cheetah-conservation-fund-receives-emaciated-cubs-intercepted-from-wildlife-traffickers-by-somaliland-government-in-record-breaking-seizure/"
+          >
+            <button
+              className="ui blue icon button"
+              onClick={[Function]}
+            >
+              Read on CCF’s collaboration with the Somaliland government on intercepting cheetah trafficking
+              <i
+                aria-hidden="true"
+                className="file alternate outline icon"
+                onClick={[Function]}
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ContentPageSubsectionPartContainer"
+    >
+      <div
+        className="Centered FullWidth"
+        style={
+          Object {
+            "width": 960,
+          }
+        }
       >
         <div
-          className="Centered FullWidth"
+          className="ImageSlidingGalleryDiscreteOuterContainer"
           style={
             Object {
               "width": 960,
@@ -151,7 +150,7 @@ exports[`FuturePageSubsectionStoppingIllegalWildlifeTrades component snapshot 1`
           }
         >
           <div
-            className="ImageSlidingGalleryDiscreteOuterContainer"
+            className="ImageSlidingGalleryDiscreteInnerContainer"
             style={
               Object {
                 "width": 960,
@@ -159,149 +158,140 @@ exports[`FuturePageSubsectionStoppingIllegalWildlifeTrades component snapshot 1`
             }
           >
             <div
-              className="ImageSlidingGalleryDiscreteInnerContainer"
-              style={
-                Object {
-                  "width": 960,
-                }
-              }
+              className="ImageSlidingGalleryDiscreteCoreContainer"
+            >
+              <img
+                alt="Most cheetah cubs trafficked and sold end up as buyers' pets. The cubs consequently suffer from shock, malnourishment, and unsuitable living conditions."
+                className="ImageSlidingGalleryDiscreteImgPart"
+                src="cheetah_rescue_01-min.jpg"
+              />
+              <div
+                className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonLhsContainer"
+              >
+                <button
+                  className="ui blue large circular icon disabled button"
+                  disabled={true}
+                  onClick={[Function]}
+                  tabIndex={-1}
+                >
+                  <i
+                    aria-hidden="true"
+                    className="arrow alternate circle left outline icon"
+                    onClick={[Function]}
+                  />
+                </button>
+              </div>
+              <div
+                className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonRhsContainer"
+              >
+                <button
+                  className="ui blue large circular icon button"
+                  onClick={[Function]}
+                >
+                  <i
+                    aria-hidden="true"
+                    className="arrow alternate circle right outline icon"
+                    onClick={[Function]}
+                  />
+                </button>
+              </div>
+            </div>
+            <div
+              className="ImageSlidingGalleryDiscreteCaptionPart"
+              data-testid="ImageSlidingGalleryDiscreteCaptionPart"
             >
               <div
-                className="ImageSlidingGalleryDiscreteCoreContainer"
-              >
-                <img
-                  alt="Most cheetah cubs trafficked and sold end up as buyers' pets. The cubs consequently suffer from shock, malnourishment, and unsuitable living conditions."
-                  className="ImageSlidingGalleryDiscreteImgPart"
-                  src="cheetah_rescue_01-min.jpg"
-                />
-                <div
-                  className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonLhsContainer"
-                >
-                  <button
-                    className="ui blue large circular icon disabled button"
-                    disabled={true}
-                    onClick={[Function]}
-                    tabIndex={-1}
-                  >
-                    <i
-                      aria-hidden="true"
-                      className="arrow alternate circle left outline icon"
-                      onClick={[Function]}
-                    />
-                  </button>
-                </div>
-                <div
-                  className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonRhsContainer"
-                >
-                  <button
-                    className="ui blue large circular icon button"
-                    onClick={[Function]}
-                  >
-                    <i
-                      aria-hidden="true"
-                      className="arrow alternate circle right outline icon"
-                      onClick={[Function]}
-                    />
-                  </button>
-                </div>
-              </div>
-              <div
-                className="ImageSlidingGalleryDiscreteCaptionPart"
-                data-testid="ImageSlidingGalleryDiscreteCaptionPart"
-              >
-                <div
-                  className="CaptionContainer"
-                  data-testid="CaptionComponentTestId"
-                  style={
-                    Object {
-                      "maxWidth": undefined,
-                    }
+                className="CaptionContainer"
+                data-testid="CaptionComponentTestId"
+                style={
+                  Object {
+                    "maxWidth": undefined,
                   }
-                >
-                  <div
-                    className="IconContainer"
-                  >
-                    <i
-                      aria-hidden="true"
-                      className="image icon"
-                      onClick={[Function]}
-                    />
-                  </div>
-                  <p
-                    className="ContentPageCaptionTextSize CaptionText"
-                  >
-                    Most cheetah cubs trafficked and sold end up as buyers' pets. The cubs consequently suffer from shock, malnourishment, and unsuitable living conditions.
-                  </p>
-                </div>
-              </div>
-              <div
-                className="ImageSlidingGalleryDiscreteButtonGroupContainer"
+                }
               >
                 <div
-                  className="ui buttons"
+                  className="IconContainer"
                 >
-                  <button
-                    className="ui yellow huge button"
+                  <i
+                    aria-hidden="true"
+                    className="image icon"
                     onClick={[Function]}
-                  >
-                    1
-                  </button>
-                  <button
-                    className="ui blue huge button"
-                    onClick={[Function]}
-                  >
-                    2
-                  </button>
-                  <button
-                    className="ui blue huge button"
-                    onClick={[Function]}
-                  >
-                    3
-                  </button>
-                  <button
-                    className="ui blue huge button"
-                    onClick={[Function]}
-                  >
-                    4
-                  </button>
+                  />
                 </div>
+                <p
+                  className="ContentPageCaptionTextSize CaptionText"
+                >
+                  Most cheetah cubs trafficked and sold end up as buyers' pets. The cubs consequently suffer from shock, malnourishment, and unsuitable living conditions.
+                </p>
+              </div>
+            </div>
+            <div
+              className="ImageSlidingGalleryDiscreteButtonGroupContainer"
+            >
+              <div
+                className="ui buttons"
+              >
+                <button
+                  className="ui yellow huge button"
+                  onClick={[Function]}
+                >
+                  1
+                </button>
+                <button
+                  className="ui blue huge button"
+                  onClick={[Function]}
+                >
+                  2
+                </button>
+                <button
+                  className="ui blue huge button"
+                  onClick={[Function]}
+                >
+                  3
+                </button>
+                <button
+                  className="ui blue huge button"
+                  onClick={[Function]}
+                >
+                  4
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+    <div
+      className="ContentPageSubsectionPartContainer"
+    >
       <div
-        className="ContentPageSubsectionPartContainer"
+        className="ContentPageSideFloatFluidContainerOuterContainer"
       >
         <div
-          className="ContentPageSideFloatFluidContainerOuterContainer"
+          className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
         >
-          <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
-          >
-            <img
-              alt="CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora) Conference of the Parties 17"
-              className="FullWidth DisplayBlock RetainAspectRatio"
-              src="CITES_CoP17-min.jpg"
-            />
-          </div>
-          <div
-            className="ContentPageSideFloatFluidContainerFixedPartContainer"
-          >
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              CCF participates in the CITES inter-sessional working group on the illegal trade in cheetahs, and was instrumental in making recommendations adopted by CITES at CoP17 to stop the illegal cheetah pet trade.
-            </p>
-          </div>
+          <img
+            alt="CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora) Conference of the Parties 17"
+            className="FullWidth DisplayBlock RetainAspectRatio"
+            src="CITES_CoP17-min.jpg"
+          />
         </div>
-        <img
-          alt="What is CITES?"
-          className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
-          src="What_is_CITES-min.png"
-        />
+        <div
+          className="ContentPageSideFloatFluidContainerFixedPartContainer"
+        >
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            CCF participates in the CITES inter-sessional working group on the illegal trade in cheetahs, and was instrumental in making recommendations adopted by CITES at CoP17 to stop the illegal cheetah pet trade.
+          </p>
+        </div>
       </div>
+      <img
+        alt="What is CITES?"
+        className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
+        src="What_is_CITES-min.png"
+      />
     </div>
   </div>
-</div>
+</section>
 `;

@@ -1,368 +1,358 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
-<div
+<section
   className="ContentPageSubsectionTemplateOuterContainer"
 >
-  <div
-    className="ContentPageSubsectionTemplateInnerContainer ContentPageContentInnerContentDimension"
+  <h3
+    className="ContentPageSubsectionTitle"
   >
-    <h3
-      className="ContentPageSubsectionTitle"
+    Where Cheetahs Live
+  </h3>
+  <div>
+    <div
+      className="ContentPageSubsectionPartContainer"
     >
-      Where Cheetahs Live
-    </h3>
-    <div>
-      <div
-        className="ContentPageSubsectionPartContainer"
+      <h4
+        className="ContentPageSubsectionSubtitle"
       >
-        <h4
-          className="ContentPageSubsectionSubtitle"
-        >
-          Cheetah Habitat
-        </h4>
+        Cheetah Habitat
+      </h4>
+      <div
+        className="ContentPageSideFloatFluidContainerOuterContainer"
+      >
         <div
-          className="ContentPageSideFloatFluidContainerOuterContainer"
+          className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
         >
           <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
+            className="ImageViewOuterContainer"
+            style={
+              Object {
+                "maxWidth": 598,
+              }
+            }
           >
             <div
-              className="ImageViewOuterContainer"
-              style={
-                Object {
-                  "maxWidth": 598,
-                }
-              }
+              className="ImageViewInnerContainer"
             >
               <div
-                className="ImageViewInnerContainer"
+                className="ImageViewImgContainer"
+              >
+                <img
+                  alt="African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlife."
+                  className="ImageViewImg"
+                  src="savanna-min.jpg"
+                />
+              </div>
+              <div
+                className="ImageViewCaptionContainer"
               >
                 <div
-                  className="ImageViewImgContainer"
-                >
-                  <img
-                    alt="African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlife."
-                    className="ImageViewImg"
-                    src="savanna-min.jpg"
-                  />
-                </div>
-                <div
-                  className="ImageViewCaptionContainer"
+                  className="CaptionContainer"
+                  data-testid="CaptionComponentTestId"
+                  style={
+                    Object {
+                      "maxWidth": 598,
+                    }
+                  }
                 >
                   <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "maxWidth": 598,
-                      }
-                    }
+                    className="IconContainer"
                   >
-                    <div
-                      className="IconContainer"
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
-                    </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlife.
-                    </p>
+                    <i
+                      aria-hidden="true"
+                      className="image icon"
+                      onClick={[Function]}
+                    />
                   </div>
+                  <p
+                    className="ContentPageCaptionTextSize CaptionText"
+                  >
+                    African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlife.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div
+          className="ContentPageSideFloatFluidContainerFixedPartContainer"
+        >
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Animals, includes cheetah, are adapted to live in specific habitats. Cheetahs live mainly in grassland savanna. They prefer habitat which includes some cover in the form of bushes, medium length grass, trees, and small hills. Cheetahs need abundant prey in their habitat to survive and reproduce. In Namibia their habitat is densely bushed due to bush encroachment.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Cheetahs sometimes live in a wide variety of habitats. They occasionally use semi-desert, dense woodland or mountainous terrain. Older animals unable to defend territories and young cheetahs just starting to live on their own use these marginal habitats.
+          </p>
+        </div>
+      </div>
+      <img
+        alt="What is a habitat"
+        className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerSmallDimension"
+        src="What_is_Habitat-min.png"
+      />
+      <img
+        alt="African savanna"
+        className="FullWidth DisplayBlock RetainAspectRatio Centered"
+        src="savana_bg_large-min.jpg"
+      />
+    </div>
+    <div
+      className="ContentPageSubsectionPartContainer"
+    >
+      <h4
+        className="ContentPageSubsectionSubtitle"
+      >
+        Namibian Biomes
+      </h4>
+      <div
+        className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+      >
+        <div
+          className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+        >
           <div
-            className="ContentPageSideFloatFluidContainerFixedPartContainer"
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
           >
             <p
               className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
             >
-              Animals, includes cheetah, are adapted to live in specific habitats. Cheetahs live mainly in grassland savanna. They prefer habitat which includes some cover in the form of bushes, medium length grass, trees, and small hills. Cheetahs need abundant prey in their habitat to survive and reproduce. In Namibia their habitat is densely bushed due to bush encroachment.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Cheetahs sometimes live in a wide variety of habitats. They occasionally use semi-desert, dense woodland or mountainous terrain. Older animals unable to defend territories and young cheetahs just starting to live on their own use these marginal habitats.
+              Namibia is a country with rich biodiversity, as its land spans over five distinct types of biomes.
             </p>
           </div>
-        </div>
-        <img
-          alt="What is a habitat"
-          className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerSmallDimension"
-          src="What_is_Habitat-min.png"
-        />
-        <img
-          alt="African savanna"
-          className="FullWidth DisplayBlock RetainAspectRatio Centered"
-          src="savana_bg_large-min.jpg"
-        />
-      </div>
-      <div
-        className="ContentPageSubsectionPartContainer"
-      >
-        <h4
-          className="ContentPageSubsectionSubtitle"
-        >
-          Namibian Biomes
-        </h4>
-        <div
-          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
-        >
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
           >
             <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+              className="ImageSlideModalCoverTriggerOuterContainer"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "width": 480,
+                }
+              }
             >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              />
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                Namibia is a country with rich biodiversity, as its land spans over five distinct types of biomes.
-              </p>
-            </div>
-            <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-            >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              />
               <div
-                className="ImageSlideModalCoverTriggerOuterContainer"
-                onBlur={[Function]}
+                className="ImageSlideModalCoverTriggerInnerContainer"
+                data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
                 onClick={[Function]}
-                onFocus={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
                 style={
                   Object {
+                    "backgroundImage": "url(biome_savanna-min.jpg)",
+                    "height": 320,
                     "width": 480,
                   }
                 }
               >
                 <div
-                  className="ImageSlideModalCoverTriggerInnerContainer"
-                  data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
-                  onClick={[Function]}
-                  style={
-                    Object {
-                      "backgroundImage": "url(biome_savanna-min.jpg)",
-                      "height": 320,
-                      "width": 480,
-                    }
-                  }
+                  className="ImageSlideModalCoverTriggerImageIconInnerContainer"
                 >
-                  <div
-                    className="ImageSlideModalCoverTriggerImageIconInnerContainer"
-                  >
-                    <i
-                      aria-hidden="true"
-                      className="blue images outline huge icon"
-                      onClick={[Function]}
-                    />
-                  </div>
-                </div>
-                <p
-                  className="ContentPageCaptionTextSize"
-                >
-                  Click to learn more about the biomes of Namibia.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="VerticalCushionPaddingTopLarge"
-        >
-          <div
-            className="Centered FullWidth"
-            style={
-              Object {
-                "width": 1200,
-              }
-            }
-          >
-            <div
-              className="ImageViewOuterContainer"
-              style={
-                Object {
-                  "maxWidth": 1200,
-                }
-              }
-            >
-              <div
-                className="ImageViewInnerContainer"
-              >
-                <div
-                  className="ImageViewImgContainer"
-                >
-                  <img
-                    alt="Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on."
-                    className="ImageViewImg"
-                    src="Namibia_Biomes_and_Cheetah_Ranges_Map-min.jpg"
+                  <i
+                    aria-hidden="true"
+                    className="blue images outline huge icon"
+                    onClick={[Function]}
                   />
                 </div>
-                <div
-                  className="ImageViewCaptionContainer"
-                >
-                  <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "maxWidth": 1200,
-                      }
-                    }
-                  >
-                    <div
-                      className="IconContainer"
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
-                    </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on.
-                    </p>
-                  </div>
-                </div>
               </div>
+              <p
+                className="ContentPageCaptionTextSize"
+              >
+                Click to learn more about the biomes of Namibia.
+              </p>
             </div>
           </div>
         </div>
-        <img
-          alt="What is biome?"
-          className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
-          src="What_is_Biome-min.png"
-        />
+      </div>
+      <div
+        className="VerticalCushionPaddingTopLarge"
+      >
         <div
-          className="FluidSingleRowGridOuterContainer"
+          className="Centered FullWidth"
           style={
             Object {
-              "justifyContent": "space-evenly",
+              "width": 1200,
             }
           }
         >
           <div
-            className="ImageViewModalCoverTriggerOuterContainer"
-            data-testid="ImageViewModalComponentCoverImageContainerTestId"
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
+            className="ImageViewOuterContainer"
             style={
               Object {
-                "backgroundImage": "url(namibia_landscape_01-min.jpg)",
-                "height": 320,
-                "width": 480,
+                "maxWidth": 1200,
               }
             }
           >
             <div
-              className="ImageViewModalCoverTriggerImageIconInnerContainer"
+              className="ImageViewInnerContainer"
             >
-              <i
-                aria-hidden="true"
-                className="black file image large icon"
-                onClick={[Function]}
-              />
+              <div
+                className="ImageViewImgContainer"
+              >
+                <img
+                  alt="Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on."
+                  className="ImageViewImg"
+                  src="Namibia_Biomes_and_Cheetah_Ranges_Map-min.jpg"
+                />
+              </div>
+              <div
+                className="ImageViewCaptionContainer"
+              >
+                <div
+                  className="CaptionContainer"
+                  data-testid="CaptionComponentTestId"
+                  style={
+                    Object {
+                      "maxWidth": 1200,
+                    }
+                  }
+                >
+                  <div
+                    className="IconContainer"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="image icon"
+                      onClick={[Function]}
+                    />
+                  </div>
+                  <p
+                    className="ContentPageCaptionTextSize CaptionText"
+                  >
+                    Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div
-            className="ImageViewModalCoverTriggerOuterContainer"
-            data-testid="ImageViewModalComponentCoverImageContainerTestId"
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            style={
-              Object {
-                "backgroundImage": "url(namibia_landscape_02-min.jpg)",
-                "height": 320,
-                "width": 480,
-              }
+        </div>
+      </div>
+      <img
+        alt="What is biome?"
+        className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
+        src="What_is_Biome-min.png"
+      />
+      <div
+        className="FluidSingleRowGridOuterContainer"
+        style={
+          Object {
+            "justifyContent": "space-evenly",
+          }
+        }
+      >
+        <div
+          className="ImageViewModalCoverTriggerOuterContainer"
+          data-testid="ImageViewModalComponentCoverImageContainerTestId"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(namibia_landscape_01-min.jpg)",
+              "height": 320,
+              "width": 480,
             }
+          }
+        >
+          <div
+            className="ImageViewModalCoverTriggerImageIconInnerContainer"
           >
-            <div
-              className="ImageViewModalCoverTriggerImageIconInnerContainer"
-            >
-              <i
-                aria-hidden="true"
-                className="black file image large icon"
-                onClick={[Function]}
-              />
-            </div>
+            <i
+              aria-hidden="true"
+              className="black file image large icon"
+              onClick={[Function]}
+            />
           </div>
-          <div
-            className="ImageViewModalCoverTriggerOuterContainer"
-            data-testid="ImageViewModalComponentCoverImageContainerTestId"
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            style={
-              Object {
-                "backgroundImage": "url(namibia_landscape_03-min.jpg)",
-                "height": 320,
-                "width": 480,
-              }
+        </div>
+        <div
+          className="ImageViewModalCoverTriggerOuterContainer"
+          data-testid="ImageViewModalComponentCoverImageContainerTestId"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(namibia_landscape_02-min.jpg)",
+              "height": 320,
+              "width": 480,
             }
+          }
+        >
+          <div
+            className="ImageViewModalCoverTriggerImageIconInnerContainer"
           >
-            <div
-              className="ImageViewModalCoverTriggerImageIconInnerContainer"
-            >
-              <i
-                aria-hidden="true"
-                className="black file image large icon"
-                onClick={[Function]}
-              />
-            </div>
+            <i
+              aria-hidden="true"
+              className="black file image large icon"
+              onClick={[Function]}
+            />
           </div>
-          <div
-            className="ImageViewModalCoverTriggerOuterContainer"
-            data-testid="ImageViewModalComponentCoverImageContainerTestId"
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            style={
-              Object {
-                "backgroundImage": "url(namibia_landscape_04-min.jpg)",
-                "height": 320,
-                "width": 480,
-              }
+        </div>
+        <div
+          className="ImageViewModalCoverTriggerOuterContainer"
+          data-testid="ImageViewModalComponentCoverImageContainerTestId"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(namibia_landscape_03-min.jpg)",
+              "height": 320,
+              "width": 480,
             }
+          }
+        >
+          <div
+            className="ImageViewModalCoverTriggerImageIconInnerContainer"
           >
-            <div
-              className="ImageViewModalCoverTriggerImageIconInnerContainer"
-            >
-              <i
-                aria-hidden="true"
-                className="black file image large icon"
-                onClick={[Function]}
-              />
-            </div>
+            <i
+              aria-hidden="true"
+              className="black file image large icon"
+              onClick={[Function]}
+            />
+          </div>
+        </div>
+        <div
+          className="ImageViewModalCoverTriggerOuterContainer"
+          data-testid="ImageViewModalComponentCoverImageContainerTestId"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(namibia_landscape_04-min.jpg)",
+              "height": 320,
+              "width": 480,
+            }
+          }
+        >
+          <div
+            className="ImageViewModalCoverTriggerImageIconInnerContainer"
+          >
+            <i
+              aria-hidden="true"
+              className="black file image large icon"
+              onClick={[Function]}
+            />
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>
 `;

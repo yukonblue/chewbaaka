@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Jul 12, 2020
+ * Updated  : Aug 18, 2020
  */
 
 /**
@@ -24,11 +24,13 @@
  *  - `imageHeight`: The desired height of each collage cell.
  */
 
-import _ from 'lodash';
+import _ from 'lodash'
 
-import React from 'react';
+import React from 'react'
 
 import ImageCollage from './ImageCollage'
+
+const __TEST__ = ( process.env.NODE_ENV === "test" );
 
 export default class ImageCollageDriver extends React.Component {
 
@@ -43,12 +45,12 @@ export default class ImageCollageDriver extends React.Component {
     const contents = this.props.data.collageCellContent;
     const images = this.props.data.images;
     const count = Math.min(contents.length, (this.props.count ? this.props.count : 1));
-    const contentsToUse = contents.sort(() => Math.random() - 0.5).slice(0, 4);
+    const contentsToUse = (__TEST__ ? contents.slice(0, 4) : contents.sort(() => Math.random() - 0.5).slice(0, 4));
 
     const cells = _.times(count, (idx) => {
       const content = contentsToUse[idx];
       return {
-        image: images[Math.floor(Math.random() * images.length)],
+        image: images[(__TEST__ ? idx : Math.floor(Math.random() * images.length))],
         title: content.title,
         subtitle: content.subtitle,
         href: content.href,
@@ -62,9 +64,7 @@ export default class ImageCollageDriver extends React.Component {
 
   render() {
     return (
-      <div>
-        <ImageCollage cells={this.state.cells} />
-      </div>
-    )
+      <ImageCollage cells={this.state.cells} />
+    );
   }
 }

@@ -135,217 +135,221 @@ exports[`HomePage snapshot 1`] = `
         </div>
       </div>
     </div>
-    <div
-      className="ui container stackable center aligned four column grid"
-      data-testid="ExploreGatewayGridTestId"
-    >
+    <nav>
       <div
-        className="column ExploreGatewayGridItemColumn"
+        className="ui container stackable center aligned four column grid"
+        data-testid="ExploreGatewayGridTestId"
       >
         <div
-          className="ExploreGatewayGridItemInnerContainer"
+          className="column ExploreGatewayGridItemColumn"
         >
-          <a
-            className="ExploreGatewayGridItemImageAnchor"
-            data-testid="ExploreGatewayGridItemImageAnchorTestId"
-            href="/history"
-            onClick={[Function]}
+          <div
+            className="ExploreGatewayGridItemInnerContainer"
           >
-            <img
-              className="ui medium image ExploreGatewayGridItemImage"
-              data-testid="ExploreGatewayGridItemImageTestId"
-              src="explore_gateway_grid_item_img_01-min.jpg"
-            />
-          </a>
-          <h2
-            className="ui left aligned header ExploreGatewayGridItemHeader"
-          >
-            History
-          </h2>
+            <a
+              className="ExploreGatewayGridItemImageAnchor"
+              data-testid="ExploreGatewayGridItemImageAnchorTestId"
+              href="/history"
+              onClick={[Function]}
+            >
+              <img
+                className="ui medium image ExploreGatewayGridItemImage"
+                data-testid="ExploreGatewayGridItemImageTestId"
+                src="explore_gateway_grid_item_img_01-min.jpg"
+              />
+            </a>
+            <h2
+              className="ui left aligned header ExploreGatewayGridItemHeader"
+            >
+              History
+            </h2>
+          </div>
         </div>
-      </div>
-      <div
-        className="column ExploreGatewayGridItemColumn"
-      >
         <div
-          className="ExploreGatewayGridItemInnerContainer"
+          className="column ExploreGatewayGridItemColumn"
         >
-          <a
-            className="ExploreGatewayGridItemImageAnchor"
-            data-testid="ExploreGatewayGridItemImageAnchorTestId"
-            href="/biology"
-            onClick={[Function]}
+          <div
+            className="ExploreGatewayGridItemInnerContainer"
           >
-            <img
-              className="ui medium image ExploreGatewayGridItemImage"
-              data-testid="ExploreGatewayGridItemImageTestId"
-              src="explore_gateway_grid_item_img_02-min.jpg"
-            />
-          </a>
-          <h2
-            className="ui left aligned header ExploreGatewayGridItemHeader"
-          >
-            Biology
-          </h2>
+            <a
+              className="ExploreGatewayGridItemImageAnchor"
+              data-testid="ExploreGatewayGridItemImageAnchorTestId"
+              href="/biology"
+              onClick={[Function]}
+            >
+              <img
+                className="ui medium image ExploreGatewayGridItemImage"
+                data-testid="ExploreGatewayGridItemImageTestId"
+                src="explore_gateway_grid_item_img_02-min.jpg"
+              />
+            </a>
+            <h2
+              className="ui left aligned header ExploreGatewayGridItemHeader"
+            >
+              Biology
+            </h2>
+          </div>
         </div>
-      </div>
-      <div
-        className="column ExploreGatewayGridItemColumn"
-      >
         <div
-          className="ExploreGatewayGridItemInnerContainer"
+          className="column ExploreGatewayGridItemColumn"
         >
-          <a
-            className="ExploreGatewayGridItemImageAnchor"
-            data-testid="ExploreGatewayGridItemImageAnchorTestId"
-            href="/ecology"
-            onClick={[Function]}
+          <div
+            className="ExploreGatewayGridItemInnerContainer"
           >
-            <img
-              className="ui medium image ExploreGatewayGridItemImage"
-              data-testid="ExploreGatewayGridItemImageTestId"
-              src="explore_gateway_grid_item_img_03-min.jpg"
-            />
-          </a>
-          <h2
-            className="ui left aligned header ExploreGatewayGridItemHeader"
-          >
-            Ecology
-          </h2>
+            <a
+              className="ExploreGatewayGridItemImageAnchor"
+              data-testid="ExploreGatewayGridItemImageAnchorTestId"
+              href="/ecology"
+              onClick={[Function]}
+            >
+              <img
+                className="ui medium image ExploreGatewayGridItemImage"
+                data-testid="ExploreGatewayGridItemImageTestId"
+                src="explore_gateway_grid_item_img_03-min.jpg"
+              />
+            </a>
+            <h2
+              className="ui left aligned header ExploreGatewayGridItemHeader"
+            >
+              Ecology
+            </h2>
+          </div>
         </div>
-      </div>
-      <div
-        className="column ExploreGatewayGridItemColumn"
-      >
         <div
-          className="ExploreGatewayGridItemInnerContainer"
+          className="column ExploreGatewayGridItemColumn"
         >
-          <a
-            className="ExploreGatewayGridItemImageAnchor"
-            data-testid="ExploreGatewayGridItemImageAnchorTestId"
-            href="/future"
-            onClick={[Function]}
+          <div
+            className="ExploreGatewayGridItemInnerContainer"
           >
-            <img
-              className="ui medium image ExploreGatewayGridItemImage"
-              data-testid="ExploreGatewayGridItemImageTestId"
-              src="explore_gateway_grid_item_img_04-min.jpg"
-            />
-          </a>
-          <h2
-            className="ui left aligned header ExploreGatewayGridItemHeader"
-          >
-            Future
-          </h2>
+            <a
+              className="ExploreGatewayGridItemImageAnchor"
+              data-testid="ExploreGatewayGridItemImageAnchorTestId"
+              href="/future"
+              onClick={[Function]}
+            >
+              <img
+                className="ui medium image ExploreGatewayGridItemImage"
+                data-testid="ExploreGatewayGridItemImageTestId"
+                src="explore_gateway_grid_item_img_04-min.jpg"
+              />
+            </a>
+            <h2
+              className="ui left aligned header ExploreGatewayGridItemHeader"
+            >
+              Future
+            </h2>
+          </div>
         </div>
       </div>
-    </div>
+    </nav>
     <br />
   </div>
-  <div
-    className="ui inverted segment"
-    data-testid="FooterComponentTestId"
-    style={
-      Object {
-        "padding": "5em 0em",
-      }
-    }
-  >
+  <footer>
     <div
-      className="ui container"
+      className="ui inverted segment"
+      data-testid="FooterComponentTestId"
+      style={
+        Object {
+          "padding": "5em 0em",
+        }
+      }
     >
       <div
-        className="ui inverted stackable divided grid"
+        className="ui container"
       >
         <div
-          className="row"
+          className="ui inverted stackable divided grid"
         >
           <div
-            className="three wide column"
+            className="row"
           >
-            <img
-              className="ui small image"
-              src="cheetah-conservation-fund-logo-mini-min.jpg"
-            />
-          </div>
-          <div
-            className="six wide column"
-          >
-            <h4
-              className="ui inverted header"
-            >
-              Resources
-            </h4>
             <div
-              className="ui inverted link list"
-              role="list"
+              className="three wide column"
             >
-              <a
-                className="item"
-                href="https://cheetah.org/about/what-we-do/"
-                onClick={[Function]}
-                role="listitem"
-                target="_blank"
-              >
-                About CCF
-              </a>
-              <a
-                className="item"
-                href="https://animalfactguide.com/animal-facts/cheetah/"
-                onClick={[Function]}
-                role="listitem"
-                target="_blank"
-              >
-                Cheetah Fun Facts
-              </a>
-              <a
-                className="item"
-                href="https://wildnet.org/wildlife-programs/cheetah-namibia/"
-                onClick={[Function]}
-                role="listitem"
-                target="_blank"
-              >
-                Wildlife Conservation Network & CCF
-              </a>
-              <a
-                className="item"
-                href="https://www.iucnredlist.org/species/219/50649567"
-                onClick={[Function]}
-                role="listitem"
-                target="_blank"
-              >
-                IUCN Red List - Cheetah
-              </a>
+              <img
+                className="ui small image"
+                src="cheetah-conservation-fund-logo-mini-min.jpg"
+              />
             </div>
-          </div>
-          <div
-            className="seven wide column"
-          >
-            <h4
-              className="ui inverted header"
+            <div
+              className="six wide column"
             >
-              Cheetah Conservation Fund
-            </h4>
-            <p
-              data-testid="footerSectionCCF"
+              <h4
+                className="ui inverted header"
+              >
+                Resources
+              </h4>
+              <div
+                className="ui inverted link list"
+                role="list"
+              >
+                <a
+                  className="item"
+                  href="https://cheetah.org/about/what-we-do/"
+                  onClick={[Function]}
+                  role="listitem"
+                  target="_blank"
+                >
+                  About CCF
+                </a>
+                <a
+                  className="item"
+                  href="https://animalfactguide.com/animal-facts/cheetah/"
+                  onClick={[Function]}
+                  role="listitem"
+                  target="_blank"
+                >
+                  Cheetah Fun Facts
+                </a>
+                <a
+                  className="item"
+                  href="https://wildnet.org/wildlife-programs/cheetah-namibia/"
+                  onClick={[Function]}
+                  role="listitem"
+                  target="_blank"
+                >
+                  Wildlife Conservation Network & CCF
+                </a>
+                <a
+                  className="item"
+                  href="https://www.iucnredlist.org/species/219/50649567"
+                  onClick={[Function]}
+                  role="listitem"
+                  target="_blank"
+                >
+                  IUCN Red List - Cheetah
+                </a>
+              </div>
+            </div>
+            <div
+              className="seven wide column"
             >
-              <a
-                href="https://cheetah.org/"
+              <h4
+                className="ui inverted header"
               >
                 Cheetah Conservation Fund
-              </a>
-               is a 501(c)(3) nonprofit organization, dedicated to saving the cheetahs in the wild and changing the world to be a better place.
-            </p>
-            <p>
-              All textual content presented on this site are copyright of Cheetah Conservation Fund.
-            </p>
-            <p>
-              This site is not an affiliation of Cheetah Conservation Fund.
-            </p>
+              </h4>
+              <p
+                data-testid="footerSectionCCF"
+              >
+                <a
+                  href="https://cheetah.org/"
+                >
+                  Cheetah Conservation Fund
+                </a>
+                 is a 501(c)(3) nonprofit organization, dedicated to saving the cheetahs in the wild and changing the world to be a better place.
+              </p>
+              <p>
+                All textual content presented on this site are copyright of Cheetah Conservation Fund.
+              </p>
+              <p>
+                This site is not an affiliation of Cheetah Conservation Fund.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </footer>
 </div>
 `;

@@ -3,6 +3,8 @@
 ## %NEXT VERSION%
 
 * Changelog:
+  * Fixes for the following issues:
+    * Issue #181 - Refine page document outline and use more semantically correct HTML5 elements where appropriate.
   * Other changes:
     * Changeset #180 - Add more unit tests.
 
