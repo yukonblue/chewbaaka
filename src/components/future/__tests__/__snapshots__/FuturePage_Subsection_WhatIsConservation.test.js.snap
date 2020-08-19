@@ -68,9 +68,6 @@ exports[`FuturePageSubsectionWhatIsConservation component snapshot 1`] = `
             >
               Environmental Education
             </h4>
-            <h5
-              className="ContentPageSubsectionSubtitleSecondary"
-            />
             <div>
               <p
                 className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
@@ -103,9 +100,6 @@ exports[`FuturePageSubsectionWhatIsConservation component snapshot 1`] = `
             >
               Conservation Biology
             </h4>
-            <h5
-              className="ContentPageSubsectionSubtitleSecondary"
-            />
             <div>
               <p
                 className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"

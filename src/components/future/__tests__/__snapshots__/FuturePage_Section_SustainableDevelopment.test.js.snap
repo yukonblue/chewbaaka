@@ -1,599 +1,559 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
-<div
+<article
   className="ContentPageSectionTemplateOuterContainer"
 >
-  <div>
-    <section
-      className="ContentPageSubsectionTemplateOuterContainer"
-    >
-      <h3
-        className="ContentPageSubsectionTitle"
-      />
-      <div
-        className="ContentPageSectionHeadOuterContainer"
-      >
-        <div
-          data-testid="ContentPageSectionAnchorComponentTestId"
-          id="sustainable-development"
-        />
-        <div
-          className="ContentPageSectionHeadInnerContainer"
-        >
-          <div
-            className="ContentPageSectionHeadTitleContainer"
-          >
-            <h2
-              className="ContentPageSectionHeadTitle"
-            >
-              Sustainable Development
-            </h2>
-          </div>
-          <div
-            className="ContentPageIntroParagraphContentContainer"
-          >
-            <p
-              className="ContentPageHeadAndSectionIntroText"
-            >
-              Sustainable development is key to ensure long term utilizations of natural resources without compromising the integrity of the ecosystem and the sharing of resources by other species. Part of sustainable development involves taking part of the revenue generated from any human development and contribute that to the nurturing and protection of the entire ecosystem. Any human development can be turned to be sustainable by employing the best practices of land, livestock, and wildlife management techniques that have proven to be effective and successful.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-  <div
-    className="ContentPageSectionTemplateInnerContainer"
+  <h2
+    className="ContentPageSectionHeadTitle"
+    id="sustainable-development"
   >
+    Sustainable Development
+  </h2>
+  <p
+    className="ContentPageHeadAndSectionIntroText"
+  >
+    Sustainable development is key to ensure long term utilizations of natural resources without compromising the integrity of the ecosystem and the sharing of resources by other species. Part of sustainable development involves taking part of the revenue generated from any human development and contribute that to the nurturing and protection of the entire ecosystem. Any human development can be turned to be sustainable by employing the best practices of land, livestock, and wildlife management techniques that have proven to be effective and successful.
+  </p>
+  <section
+    className="ContentPageSubsectionTemplateOuterContainer"
+  >
+    <h3
+      className="ContentPageSubsectionTitle"
+    >
+      Mission Possible
+    </h3>
     <div>
-      <section
-        className="ContentPageSubsectionTemplateOuterContainer"
+      <div
+        className="ContentPageSubsectionPartContainer"
       >
-        <h3
-          className="ContentPageSubsectionTitle"
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
         >
-          Mission Possible
-        </h3>
-        <div>
+          In Africa, property that is owned and managed by farmers can maintain viable populations of animals and natural habitats. It is the careful management of these habitats that holds the key to the future survival of plant and animal species such as the cheetah.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          In order to ensure a successful future we need to be responsible custodians of nature. The way land and animals are managed determines the future of all ecosystems.
+        </p>
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <div
+          className="ContentPageSubsectionThreeColumnContentTemplateOuterContainer"
+        >
           <div
-            className="ContentPageSubsectionPartContainer"
-          >
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              In Africa, property that is owned and managed by farmers can maintain viable populations of animals and natural habitats. It is the careful management of these habitats that holds the key to the future survival of plant and animal species such as the cheetah.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              In order to ensure a successful future we need to be responsible custodians of nature. The way land and animals are managed determines the future of all ecosystems.
-            </p>
-          </div>
-          <div
-            className="ContentPageSubsectionPartContainer"
+            className="ContentPageSubsectionThreeColumnContentTemplateInnerContainer"
           >
             <div
-              className="ContentPageSubsectionThreeColumnContentTemplateOuterContainer"
+              className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateLeftColumnContainer"
             >
-              <div
-                className="ContentPageSubsectionThreeColumnContentTemplateInnerContainer"
+              <h4
+                className="ContentPageSubsectionSubtitle"
               >
-                <div
-                  className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateLeftColumnContainer"
-                >
-                  <h4
-                    className="ContentPageSubsectionSubtitle"
-                  >
-                    Land Management
-                  </h4>
-                  <h5
-                    className="ContentPageSubsectionSubtitleSecondary"
-                  />
-                  <div>
-                    <p
-                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                    >
-                      The productivity of the land depends on water and soil. Preventing erosion increases the potential for the land to produce food and allows water to penetrate the soil, thus carrying important nutrients to the roots of the plants. We must learn to live within the limits of the scarcity of water in our dry country.
-                    </p>
-                    <p
-                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                    >
-                      The use of alternative fuels or efficient wood burning stoves and ovens reduces deforestation. Establishing timber plantations and using alternative building materials saves natural forests.
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateMiddleColumnContainer"
-                  style={
-                    Object {
-                      "backgroundColor": "rgb(undefined)",
-                    }
-                  }
-                >
-                  <h4
-                    className="ContentPageSubsectionSubtitle"
-                  >
-                    Livestock Management
-                  </h4>
-                  <div>
-                    <div>
-                      <p
-                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                      >
-                        Many farmers use rotational grazing where farmlands are divided into camps. Practicing rotational and seasonal grazing allows used areas time to recover.
-                      </p>
-                      <p
-                        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                      >
-                        Recovery of damaged land occurs faster if it is protected from the impact of overgrazing. Proper herd size is necessary to prevent overgrazing, trampling of the land and reducing predator problems. A balance of grazing and browsing animals reduces the pressure on one vegetation type.
-                      </p>
-                      <img
-                        alt="Sustainable development"
-                        className="FullWidth"
-                        src="Sustainable_Development-min.png"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateRightColumnContainer"
-                >
-                  <h4
-                    className="ContentPageSubsectionSubtitle"
-                  >
-                    Wildlife Management
-                  </h4>
-                  <h5
-                    className="ContentPageSubsectionSubtitleSecondary"
-                  />
-                  <div>
-                    <p
-                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                    >
-                      Allowing wild animals to migrate naturally through farm areas promotes the balance of browsers and grazers, and allows predators their food at wild game. This reduces the temptation to take domestic stock.
-                    </p>
-                    <p
-                      className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                    >
-                      Ethical hunting removes older animals while predators prey on the young, diseased, and genetically weak. Together they keep wild herds healthy and in check.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section
-        className="ContentPageSubsectionTemplateOuterContainer"
-      >
-        <h3
-          className="ContentPageSubsectionTitle"
-        >
-          Future Farmers of Africa
-        </h3>
-        <div>
-          <div
-            className="ContentPageSubsectionPartContainer"
-          >
-            <div
-              className="ContentPageSideFloatFluidContainerOuterContainer"
-            >
-              <div
-                className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
-              >
-                <div
-                  style={
-                    Object {
-                      "width": 240,
-                    }
-                  }
-                >
-                  <div
-                    className="ui inverted segment StatsLabel"
-                  >
-                    <div
-                      className="ui orange huge inverted statistic"
-                    >
-                      <div
-                        className="value"
-                      >
-                        90%
-                      </div>
-                      <div
-                        className="label"
-                      >
-                        of the cheetah population in Namibia lives on farmlands alongside 80% of the country’s wildlife species
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="ContentPageSideFloatFluidContainerFixedPartContainer"
-              >
+                Land Management
+              </h4>
+              <div>
                 <p
                   className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                 >
-                  In Namibia, 90% of the cheetah population lives on farmlands alongside 80% of the country’s wildlife species. Cheetahs often come into contact with the livestocks and game farming communities, leading to conflict. To mitigate this conflict, Cheetah Conservation Fund (CCF) developed an integrated livestock, wildlife, and rangeland training program called Future Farmers of Africa (FFA).
+                  The productivity of the land depends on water and soil. Preventing erosion increases the potential for the land to produce food and allows water to penetrate the soil, thus carrying important nutrients to the roots of the plants. We must learn to live within the limits of the scarcity of water in our dry country.
+                </p>
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                >
+                  The use of alternative fuels or efficient wood burning stoves and ovens reduces deforestation. Establishing timber plantations and using alternative building materials saves natural forests.
                 </p>
               </div>
             </div>
-          </div>
-          <div
-            className="ContentPageSubsectionPartContainer"
-          >
             <div
-              className="ContentPageSideFloatFluidContainerOuterContainer"
+              className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateMiddleColumnContainer"
+              style={
+                Object {
+                  "backgroundColor": "rgb(undefined)",
+                }
+              }
             >
-              <div
-                className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatLeft"
+              <h4
+                className="ContentPageSubsectionSubtitle"
               >
-                <div
-                  className="ImageViewOuterContainer"
-                  style={
-                    Object {
-                      "maxWidth": 742,
-                    }
-                  }
-                >
-                  <div
-                    className="ImageViewInnerContainer"
-                  >
-                    <div
-                      className="ImageViewImgContainer"
-                    >
-                      <img
-                        alt="Farmers participate in FFA training courses."
-                        className="ImageViewImg"
-                        src="CCF_FFA_01-min.jpg"
-                      />
-                    </div>
-                    <div
-                      className="ImageViewCaptionContainer"
-                    >
-                      <div
-                        className="CaptionContainer"
-                        data-testid="CaptionComponentTestId"
-                        style={
-                          Object {
-                            "maxWidth": 742,
-                          }
-                        }
-                      >
-                        <div
-                          className="IconContainer"
-                        >
-                          <i
-                            aria-hidden="true"
-                            className="image icon"
-                            onClick={[Function]}
-                          />
-                        </div>
-                        <p
-                          className="ContentPageCaptionTextSize CaptionText"
-                        >
-                          Farmers participate in FFA training courses. (Image credit: Cheetah Conservation Fund)
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="ContentPageSideFloatFluidContainerFixedPartContainer"
-              >
+                Livestock Management
+              </h4>
+              <div>
                 <div>
                   <p
                     className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                   >
-                    From 2006-2017, CCF has certified more than 10,000 Namibian men and women in FFA, which teaches conservation strategies for sustainable land use while accommodating the coexistence of predators alongside livestock and wildlife.
+                    Many farmers use rotational grazing where farmlands are divided into camps. Practicing rotational and seasonal grazing allows used areas time to recover.
                   </p>
                   <p
                     className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                   >
-                    Topics covered in the FFA courses include livestock health and veterinary care, livestock husbandry, livestock valuation, predator spoor (track) identification, differentiating predator kill techniques, best practices to reduce livestock losses, and best methods for non-lethal predator control.
+                    Recovery of damaged land occurs faster if it is protected from the impact of overgrazing. Proper herd size is necessary to prevent overgrazing, trampling of the land and reducing predator problems. A balance of grazing and browsing animals reduces the pressure on one vegetation type.
                   </p>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                  >
-                    Through the training course, CCF supports farmers by teaching them practical skills in sustainable livestock farming, as well as how to develop supplemental income streams. Farmers then use their skills to generate higher economic productivity. These courses enhance the livelihood development of farmers while promoting predator-friendly farming practices.
-                  </p>
+                  <img
+                    alt="Sustainable development"
+                    className="FullWidth"
+                    src="Sustainable_Development-min.png"
+                  />
                 </div>
               </div>
             </div>
-          </div>
-          <div
-            className="ContentPageSubsectionPartContainer"
-          >
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              CCF’s Integrated Livestock and Wildlife Model Farm houses cattle, goats, sheep and livestock guarding dogs, as well as Namibian wildlife. The Model Farm serves as a training facility for FFA, demonstrating how sustainable livestock farming practices allow for the management of their livestock and better livestock health without having to eliminate cheetahs and other predators.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              CCF reaches out to local farming communities, visiting farms and joining annual farmer’s association meetings to give vital advice on improvements that farmers can make to their rangeland, livestock and wildlife management.
-            </p>
             <div
-              className="VerticalCushionPadding"
+              className="ContentPageSubsectionThreeColumnContentTemplateColumn ContentPageSubsectionThreeColumnContentTemplateRightColumnContainer"
             >
+              <h4
+                className="ContentPageSubsectionSubtitle"
+              >
+                Wildlife Management
+              </h4>
               <div>
-                <a
-                  href="https://cheetah.org/canada/about-us/what-we-support/future-farmers-of-africa/"
-                >
-                  <button
-                    className="ui blue icon button"
-                    onClick={[Function]}
-                  >
-                    Read on CCF's blog on Future Farmers of Africa
-                    <i
-                      aria-hidden="true"
-                      className="file alternate outline icon"
-                      onClick={[Function]}
-                    />
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section
-        className="ContentPageSubsectionTemplateOuterContainer"
-      >
-        <h3
-          className="ContentPageSubsectionTitle"
-        >
-          Livestock Guarding Dogs
-        </h3>
-        <div>
-          <div
-            className="ContentPageSubsectionPartContainer"
-          >
-            <h4
-              className="ContentPageSubsectionSubtitle"
-            >
-              CCF’s Livestock Guarding Dog History
-            </h4>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              In 1994, CCF created a solution to non-lethal predator control - Livestock Guarding Dogs (LGD). After extensive research, CCF felt that the Anatolian Shepherd and Kangal dogs best met the livestock managers’ needs in Namibia. In cooperation with Dr. Ray Coppinger from the Livestock Guarding Dog Association in Hampshire College (Massachusetts, U.S.), the first 10 dogs were donated to Namibia by Birinci Anatolians.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Since then, hundreds of farmers have received Anatolian Shepherds and Kangal dogs to ward off predators, such as cheetahs, jackals and leopards. These dogs do not herd the goats, but protect the flock by placing themselves between the herd and the predator and barking loudly.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              CCF’s success is due to the commitment of CCF staff members and the participating farmers. CCF staff regularly visit the farms, educating and advising the farmers and herders for the dogs to be as effective as possible.
-            </p>
-            <div
-              className="VerticalCushionPadding"
-            >
-              <div
-                className="Centered FullWidth"
-                style={
-                  Object {
-                    "width": 1200,
-                  }
-                }
-              >
-                <img
-                  alt="Livestock Guarding Dog"
-                  className="FullWidth DisplayBlock RetainAspectRatio"
-                  src="CCF_LGD-min.jpg"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            className="ContentPageSubsectionPartContainer"
-          >
-            <h4
-              className="ContentPageSubsectionSubtitle"
-            >
-              Raising LGD’s
-            </h4>
-            <div
-              className="ContentPageSideFloatFluidContainerOuterContainer"
-            >
-              <div
-                className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
-              >
-                <div
-                  className="ImageViewOuterContainer"
-                  style={
-                    Object {
-                      "maxWidth": 720,
-                    }
-                  }
-                >
-                  <div
-                    className="ImageViewInnerContainer"
-                  >
-                    <div
-                      className="ImageViewImgContainer"
-                    >
-                      <img
-                        alt="Anatolian Shepherd puppies live alongside with the herd."
-                        className="ImageViewImg"
-                        src="CCF_anatolian_shepherd_puppies-min.jpg"
-                      />
-                    </div>
-                    <div
-                      className="ImageViewCaptionContainer"
-                    >
-                      <div
-                        className="CaptionContainer"
-                        data-testid="CaptionComponentTestId"
-                        style={
-                          Object {
-                            "maxWidth": 720,
-                          }
-                        }
-                      >
-                        <div
-                          className="IconContainer"
-                        >
-                          <i
-                            aria-hidden="true"
-                            className="image icon"
-                            onClick={[Function]}
-                          />
-                        </div>
-                        <p
-                          className="ContentPageCaptionTextSize CaptionText"
-                        >
-                          Anatolian Shepherd puppies live alongside with the herd. (Image credit: Cheetah Conservation Fund)
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="ContentPageSideFloatFluidContainerFixedPartContainer"
-              >
                 <p
                   className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
                 >
-                  LGD’s are placed with their herds around nine weeks of age, as social bonding between the stock and the dogs deepens upon imprinting before 16 weeks of age. The dogs live with their livestock family instead of a human family, so the puppies bond with the herd; it becomes the dog’s pack rather than the dog’s potential prey. At CCF puppies are born in a whelping pen attached to the main goat yard.
+                  Allowing wild animals to migrate naturally through farm areas promotes the balance of browsers and grazers, and allows predators their food at wild game. This reduces the temptation to take domestic stock.
+                </p>
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                >
+                  Ethical hunting removes older animals while predators prey on the young, diseased, and genetically weak. Together they keep wild herds healthy and in check.
                 </p>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="ContentPageSubsectionTemplateOuterContainer"
+  >
+    <h3
+      className="ContentPageSubsectionTitle"
+    >
+      Future Farmers of Africa
+    </h3>
+    <div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <div
+          className="ContentPageSideFloatFluidContainerOuterContainer"
+        >
           <div
-            className="ContentPageSubsectionPartContainer"
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
           >
             <div
-              className="Centered FullWidth"
               style={
                 Object {
-                  "width": 1000,
+                  "width": 240,
                 }
               }
             >
               <div
-                className="ImageViewOuterContainer"
-                style={
-                  Object {
-                    "maxWidth": 1000,
-                  }
-                }
+                className="ui inverted segment StatsLabel"
               >
                 <div
-                  className="ImageViewInnerContainer"
+                  className="ui orange huge inverted statistic"
                 >
                   <div
-                    className="ImageViewImgContainer"
+                    className="value"
                   >
-                    <img
-                      alt="Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program."
-                      className="ImageViewImg"
-                      src="CCF_Year_of_the_LGD-min.jpg"
-                    />
+                    90%
                   </div>
                   <div
-                    className="ImageViewCaptionContainer"
+                    className="label"
                   >
-                    <div
-                      className="CaptionContainer"
-                      data-testid="CaptionComponentTestId"
-                      style={
-                        Object {
-                          "maxWidth": 1000,
-                        }
-                      }
-                    >
-                      <div
-                        className="IconContainer"
-                      >
-                        <i
-                          aria-hidden="true"
-                          className="image icon"
-                          onClick={[Function]}
-                        />
-                      </div>
-                      <p
-                        className="ContentPageCaptionTextSize CaptionText"
-                      >
-                        Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program. (Image credit: Cheetah Conservation Fund)
-                      </p>
-                    </div>
+                    of the cheetah population in Namibia lives on farmlands alongside 80% of the country’s wildlife species
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div
-            className="ContentPageSubsectionPartContainer"
+            className="ContentPageSideFloatFluidContainerFixedPartContainer"
           >
-            <h4
-              className="ContentPageSubsectionSubtitle"
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
             >
-              Dogs Save Cheetahs
-            </h4>
+              In Namibia, 90% of the cheetah population lives on farmlands alongside 80% of the country’s wildlife species. Cheetahs often come into contact with the livestocks and game farming communities, leading to conflict. To mitigate this conflict, Cheetah Conservation Fund (CCF) developed an integrated livestock, wildlife, and rangeland training program called Future Farmers of Africa (FFA).
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <div
+          className="ContentPageSideFloatFluidContainerOuterContainer"
+        >
+          <div
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatLeft"
+          >
             <div
-              className="ContentPageSideFloatFluidContainerOuterContainer"
+              className="ImageViewOuterContainer"
+              style={
+                Object {
+                  "maxWidth": 742,
+                }
+              }
             >
               <div
-                className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
+                className="ImageViewInnerContainer"
               >
-                <img
-                  alt="Cheetah and LGD"
-                  className="FullWidth DisplayBlock RetainAspectRatio"
-                  src="Cheetah_and_LGD-min.jpg"
-                />
-              </div>
-              <div
-                className="ContentPageSideFloatFluidContainerFixedPartContainer"
-              >
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                <div
+                  className="ImageViewImgContainer"
                 >
-                  Livestock Guarding Dogs have been used for thousands of years to protect cattle, sheep and goats from predator attacks. There are over 20 breeds of guarding dogs. The Anatolian Shepherd, a Turkish breed, was selected as the best candidate for use with smallstock in Namibia as they are able to work in vast open spaces without direct guidance. These dogs look similar to the flock, with large rounded heads, floppy ears and short fur. They have a good sense of hearing and smelling, a calm temperament and a very loud bark.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                  <img
+                    alt="Farmers participate in FFA training courses."
+                    className="ImageViewImg"
+                    src="CCF_FFA_01-min.jpg"
+                  />
+                </div>
+                <div
+                  className="ImageViewCaptionContainer"
                 >
-                  Anatolians do not herd livestock, they guard them. They are attentive, protective, trustworthy, and aggressive towards predator threats.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  Puppies are placed with the stock at eight weeks of age to form a strong bond with the herd. It is important that bonding occurs with the herd and not with humans or other dogs.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  Dog owners take the responsibility for the health care of their dogs. This includes veterinary check-ups, vaccinations, and observations for signs of illness or injuries.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  An appropriate diet is necessary for the Anatolian Shepherd. Enough food allows proper growth and a healthy dog. They should never be given raw meat as this could produce a predatory response. They need water during the day when they are out with the herd.
-                </p>
+                  <div
+                    className="CaptionContainer"
+                    data-testid="CaptionComponentTestId"
+                    style={
+                      Object {
+                        "maxWidth": 742,
+                      }
+                    }
+                  >
+                    <div
+                      className="IconContainer"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
+                    </div>
+                    <p
+                      className="ContentPageCaptionTextSize CaptionText"
+                    >
+                      Farmers participate in FFA training courses. (Image credit: Cheetah Conservation Fund)
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div
-              className="VerticalCushionPaddingTopLarge"
-            >
-              <img
-                alt="Livestock Guarding Dogs"
-                className="FullWidth DisplayBlock RetainAspectRatio Centered"
-                src="LGD_960x960-min.png"
-              />
+          </div>
+          <div
+            className="ContentPageSideFloatFluidContainerFixedPartContainer"
+          >
+            <div>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                From 2006-2017, CCF has certified more than 10,000 Namibian men and women in FFA, which teaches conservation strategies for sustainable land use while accommodating the coexistence of predators alongside livestock and wildlife.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                Topics covered in the FFA courses include livestock health and veterinary care, livestock husbandry, livestock valuation, predator spoor (track) identification, differentiating predator kill techniques, best practices to reduce livestock losses, and best methods for non-lethal predator control.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                Through the training course, CCF supports farmers by teaching them practical skills in sustainable livestock farming, as well as how to develop supplemental income streams. Farmers then use their skills to generate higher economic productivity. These courses enhance the livelihood development of farmers while promoting predator-friendly farming practices.
+              </p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          CCF’s Integrated Livestock and Wildlife Model Farm houses cattle, goats, sheep and livestock guarding dogs, as well as Namibian wildlife. The Model Farm serves as a training facility for FFA, demonstrating how sustainable livestock farming practices allow for the management of their livestock and better livestock health without having to eliminate cheetahs and other predators.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          CCF reaches out to local farming communities, visiting farms and joining annual farmer’s association meetings to give vital advice on improvements that farmers can make to their rangeland, livestock and wildlife management.
+        </p>
+        <div
+          className="VerticalCushionPadding"
+        >
+          <div>
+            <a
+              href="https://cheetah.org/canada/about-us/what-we-support/future-farmers-of-africa/"
+            >
+              <button
+                className="ui blue icon button"
+                onClick={[Function]}
+              >
+                Read on CCF's blog on Future Farmers of Africa
+                <i
+                  aria-hidden="true"
+                  className="file alternate outline icon"
+                  onClick={[Function]}
+                />
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+  </section>
+  <section
+    className="ContentPageSubsectionTemplateOuterContainer"
+  >
+    <h3
+      className="ContentPageSubsectionTitle"
+    >
+      Livestock Guarding Dogs
+    </h3>
+    <div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <h4
+          className="ContentPageSubsectionSubtitle"
+        >
+          CCF’s Livestock Guarding Dog History
+        </h4>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          In 1994, CCF created a solution to non-lethal predator control - Livestock Guarding Dogs (LGD). After extensive research, CCF felt that the Anatolian Shepherd and Kangal dogs best met the livestock managers’ needs in Namibia. In cooperation with Dr. Ray Coppinger from the Livestock Guarding Dog Association in Hampshire College (Massachusetts, U.S.), the first 10 dogs were donated to Namibia by Birinci Anatolians.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          Since then, hundreds of farmers have received Anatolian Shepherds and Kangal dogs to ward off predators, such as cheetahs, jackals and leopards. These dogs do not herd the goats, but protect the flock by placing themselves between the herd and the predator and barking loudly.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          CCF’s success is due to the commitment of CCF staff members and the participating farmers. CCF staff regularly visit the farms, educating and advising the farmers and herders for the dogs to be as effective as possible.
+        </p>
+        <div
+          className="VerticalCushionPadding"
+        >
+          <div
+            className="Centered FullWidth"
+            style={
+              Object {
+                "width": 1200,
+              }
+            }
+          >
+            <img
+              alt="Livestock Guarding Dog"
+              className="FullWidth DisplayBlock RetainAspectRatio"
+              src="CCF_LGD-min.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <h4
+          className="ContentPageSubsectionSubtitle"
+        >
+          Raising LGD’s
+        </h4>
+        <div
+          className="ContentPageSideFloatFluidContainerOuterContainer"
+        >
+          <div
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
+          >
+            <div
+              className="ImageViewOuterContainer"
+              style={
+                Object {
+                  "maxWidth": 720,
+                }
+              }
+            >
+              <div
+                className="ImageViewInnerContainer"
+              >
+                <div
+                  className="ImageViewImgContainer"
+                >
+                  <img
+                    alt="Anatolian Shepherd puppies live alongside with the herd."
+                    className="ImageViewImg"
+                    src="CCF_anatolian_shepherd_puppies-min.jpg"
+                  />
+                </div>
+                <div
+                  className="ImageViewCaptionContainer"
+                >
+                  <div
+                    className="CaptionContainer"
+                    data-testid="CaptionComponentTestId"
+                    style={
+                      Object {
+                        "maxWidth": 720,
+                      }
+                    }
+                  >
+                    <div
+                      className="IconContainer"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
+                    </div>
+                    <p
+                      className="ContentPageCaptionTextSize CaptionText"
+                    >
+                      Anatolian Shepherd puppies live alongside with the herd. (Image credit: Cheetah Conservation Fund)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="ContentPageSideFloatFluidContainerFixedPartContainer"
+          >
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              LGD’s are placed with their herds around nine weeks of age, as social bonding between the stock and the dogs deepens upon imprinting before 16 weeks of age. The dogs live with their livestock family instead of a human family, so the puppies bond with the herd; it becomes the dog’s pack rather than the dog’s potential prey. At CCF puppies are born in a whelping pen attached to the main goat yard.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <div
+          className="Centered FullWidth"
+          style={
+            Object {
+              "width": 1000,
+            }
+          }
+        >
+          <div
+            className="ImageViewOuterContainer"
+            style={
+              Object {
+                "maxWidth": 1000,
+              }
+            }
+          >
+            <div
+              className="ImageViewInnerContainer"
+            >
+              <div
+                className="ImageViewImgContainer"
+              >
+                <img
+                  alt="Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program."
+                  className="ImageViewImg"
+                  src="CCF_Year_of_the_LGD-min.jpg"
+                />
+              </div>
+              <div
+                className="ImageViewCaptionContainer"
+              >
+                <div
+                  className="CaptionContainer"
+                  data-testid="CaptionComponentTestId"
+                  style={
+                    Object {
+                      "maxWidth": 1000,
+                    }
+                  }
+                >
+                  <div
+                    className="IconContainer"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="image icon"
+                      onClick={[Function]}
+                    />
+                  </div>
+                  <p
+                    className="ContentPageCaptionTextSize CaptionText"
+                  >
+                    Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program. (Image credit: Cheetah Conservation Fund)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <h4
+          className="ContentPageSubsectionSubtitle"
+        >
+          Dogs Save Cheetahs
+        </h4>
+        <div
+          className="ContentPageSideFloatFluidContainerOuterContainer"
+        >
+          <div
+            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
+          >
+            <img
+              alt="Cheetah and LGD"
+              className="FullWidth DisplayBlock RetainAspectRatio"
+              src="Cheetah_and_LGD-min.jpg"
+            />
+          </div>
+          <div
+            className="ContentPageSideFloatFluidContainerFixedPartContainer"
+          >
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Livestock Guarding Dogs have been used for thousands of years to protect cattle, sheep and goats from predator attacks. There are over 20 breeds of guarding dogs. The Anatolian Shepherd, a Turkish breed, was selected as the best candidate for use with smallstock in Namibia as they are able to work in vast open spaces without direct guidance. These dogs look similar to the flock, with large rounded heads, floppy ears and short fur. They have a good sense of hearing and smelling, a calm temperament and a very loud bark.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Anatolians do not herd livestock, they guard them. They are attentive, protective, trustworthy, and aggressive towards predator threats.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Puppies are placed with the stock at eight weeks of age to form a strong bond with the herd. It is important that bonding occurs with the herd and not with humans or other dogs.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Dog owners take the responsibility for the health care of their dogs. This includes veterinary check-ups, vaccinations, and observations for signs of illness or injuries.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              An appropriate diet is necessary for the Anatolian Shepherd. Enough food allows proper growth and a healthy dog. They should never be given raw meat as this could produce a predatory response. They need water during the day when they are out with the herd.
+            </p>
+          </div>
+        </div>
+        <div
+          className="VerticalCushionPaddingTopLarge"
+        >
+          <img
+            alt="Livestock Guarding Dogs"
+            className="FullWidth DisplayBlock RetainAspectRatio Centered"
+            src="LGD_960x960-min.png"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+</article>
 `;

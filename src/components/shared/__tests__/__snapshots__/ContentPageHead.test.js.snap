@@ -1,12 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ContentPageHead component snapshot 1`] = `
-<div
-  className="ContentPageSkeletonContentContainerDimension ContentPageHeadOuterContainer"
-  data-testid="ContentPageHeadComponentTestId"
->
+<header>
   <div
-    className="ContentPageHeadNavMenuBarOuterContainer"
+    className="ContentPageHeadOuterContainer"
+    data-testid="ContentPageHeadComponentTestId"
   >
     <div
       className="ContentPageTopNavMenuBarContainer"
@@ -84,31 +82,31 @@ exports[`ContentPageHead component snapshot 1`] = `
         </nav>
       </div>
     </div>
-  </div>
-  <div
-    className="ContentPageSkeletonContentContainerDimension ContentPageBannerContainer"
-    data-testid="ContentPageBannerComponentTestId"
-    style={
-      Object {
-        "backgroundImage": "url(null)",
-      }
-    }
-  >
     <div
-      className="ContentPageBannerTitleContainer"
+      className="ContentPageSkeletonContentContainerDimension ContentPageBannerContainer"
+      data-testid="ContentPageBannerComponentTestId"
+      style={
+        Object {
+          "backgroundImage": "url(null)",
+        }
+      }
     >
-      <h1
-        className="ContentPageBannerTitle"
+      <div
+        className="ContentPageBannerTitleContainer"
       >
-        Page Title
-      </h1>
-      <hr
-        className="ContentPageBannerTitleLineBreak"
-      />
-      <h2
-        className="ContentPageBannerSubtitle"
-      />
+        <p
+          className="ContentPageBannerTitle"
+        >
+          Page Title
+        </p>
+        <hr
+          className="ContentPageBannerTitleLineBreak"
+        />
+        <p
+          className="ContentPageBannerSubtitle"
+        />
+      </div>
     </div>
   </div>
-</div>
+</header>
 `;

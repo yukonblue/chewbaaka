@@ -125,9 +125,6 @@ exports[`BiologyPageSubsectionAbnormalities component snapshot 1`] = `
           <div
             className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
           >
-            <h4
-              className="ContentPageSubsectionSubtitle"
-            />
             <div
               className="ImageViewOuterContainer"
               style={

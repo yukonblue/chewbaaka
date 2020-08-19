@@ -1,420 +1,368 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
-<div
+<article
   className="ContentPageSectionTemplateOuterContainer"
 >
-  <div>
-    <section
-      className="ContentPageSubsectionTemplateOuterContainer"
-    >
-      <h3
-        className="ContentPageSubsectionTitle"
-      />
-      <div
-        className="ContentPageSectionHeadOuterContainer"
-      >
-        <div
-          data-testid="ContentPageSectionAnchorComponentTestId"
-          id="cheetah-and-man"
-        />
-        <div
-          className="ContentPageSectionHeadInnerContainer"
-        >
-          <div
-            className="ContentPageSectionHeadTitleContainer"
-          >
-            <h2
-              className="ContentPageSectionHeadTitle"
-            >
-              Cheetah and Man
-            </h2>
-          </div>
-          <div
-            className="ContentPageIntroParagraphContentContainer"
-          >
-            <p
-              className="ContentPageHeadAndSectionIntroText"
-            >
-              The history of cheetah-human relationship goes back in millennia, and archeological artifacts uncovered throughout the world suggest that human interactions with the species goes hand in hand with its migration and evolution. The relationship between cheetahs and us have been both profound and complex, as the species have been revered, utilized, displayed, and exploited throughout human history.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-  <div
-    className="ContentPageSectionTemplateInnerContainer"
+  <h2
+    className="ContentPageSectionHeadTitle"
+    id="cheetah-and-man"
   >
-    <div>
-      <section
-        className="ContentPageSubsectionTemplateOuterContainer"
+    Cheetah and Man
+  </h2>
+  <p
+    className="ContentPageHeadAndSectionIntroText"
+  >
+    The history of cheetah-human relationship goes back in millennia, and archeological artifacts uncovered throughout the world suggest that human interactions with the species goes hand in hand with its migration and evolution. The relationship between cheetahs and us have been both profound and complex, as the species have been revered, utilized, displayed, and exploited throughout human history.
+  </p>
+  <section
+    className="ContentPageSubsectionTemplateOuterContainer"
+  >
+    <h3
+      className="ContentPageSubsectionTitle"
+    >
+      Relationships with Man
+    </h3>
+    <div
+      className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+    >
+      <div
+        className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
       >
-        <h3
-          className="ContentPageSubsectionTitle"
-        >
-          Relationships with Man
-        </h3>
         <div
-          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
         >
-          <div
-            className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
           >
-            <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-            >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              />
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                Traditional African healers and witchdoctors used cheetah foot bones in spiritualistic rituals to symbolize fleet-footedness and speed. They used bones from a wide variety of animals and techniques varied from tribe to tribe. Objects represented a person, a thing or mood from the past, present or future, and are known as Divinatory sets.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                During the time of the Egyptian pharaohs, the cheetah was considered a goddess named "Mafdet". Pharaohs kept cheetahs as close companions, symbolic of Mafdet's protection of the royal throne.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                The San of Southern Africa ate cheetah meat as a symbol for speed, but it was not a main food in their diet.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                Kings wore cheetah skins for dignity. Trade in cheetah skin only started after European explorers began requesting them.
-              </p>
-            </div>
-            <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-            >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              />
-              <div
-                className="ImageSlidingGalleryOuterContainer"
-                style={
-                  Object {
-                    "maxWidth": undefined,
-                  }
-                }
-              >
-                <div
-                  className="ImageSlidingGalleryCoreContainer"
-                >
-                  <img
-                    alt="Mafdet’s head on the bed where the mummy is placed."
-                    className="ImageSlidingGalleryImgPart"
-                    src="image_Mafdet-min.jpg"
-                  />
-                  <div
-                    className="ImageSlidingGalleryCaptionPart"
-                    data-testid="ImageSlidingGalleryCaptionPart"
-                  >
-                    <div
-                      className="CaptionContainer"
-                      data-testid="CaptionComponentTestId"
-                      style={
-                        Object {
-                          "maxWidth": undefined,
-                        }
-                      }
-                    >
-                      <div
-                        className="IconContainer"
-                      >
-                        <i
-                          aria-hidden="true"
-                          className="image icon"
-                          onClick={[Function]}
-                        />
-                      </div>
-                      <p
-                        className="ContentPageCaptionTextSize CaptionText"
-                      >
-                        Mafdet’s head on the bed where the mummy is placed.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="ImageSlidingGalleryButtonContainer"
-                >
-                  <div
-                    className="ui blue huge icon left attached disabled button"
-                    onClick={[Function]}
-                    role="button"
-                    tabIndex={-1}
-                  >
-                    <i
-                      aria-hidden="true"
-                      className="arrow alternate circle left outline icon"
-                      onClick={[Function]}
-                    />
-                  </div>
-                  <div
-                    className="ui blue huge icon right attached button"
-                    onClick={[Function]}
-                    role="button"
-                    tabIndex={0}
-                  >
-                    <i
-                      aria-hidden="true"
-                      className="arrow alternate circle right outline icon"
-                      onClick={[Function]}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+            Traditional African healers and witchdoctors used cheetah foot bones in spiritualistic rituals to symbolize fleet-footedness and speed. They used bones from a wide variety of animals and techniques varied from tribe to tribe. Objects represented a person, a thing or mood from the past, present or future, and are known as Divinatory sets.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            During the time of the Egyptian pharaohs, the cheetah was considered a goddess named "Mafdet". Pharaohs kept cheetahs as close companions, symbolic of Mafdet's protection of the royal throne.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            The San of Southern Africa ate cheetah meat as a symbol for speed, but it was not a main food in their diet.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Kings wore cheetah skins for dignity. Trade in cheetah skin only started after European explorers began requesting them.
+          </p>
         </div>
-      </section>
-      <section
-        className="ContentPageSubsectionTemplateOuterContainer"
-      >
-        <h3
-          className="ContentPageSubsectionTitle"
-        >
-          Cheetahs In Sports
-        </h3>
         <div
-          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
         >
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+            className="ImageSlidingGalleryOuterContainer"
+            style={
+              Object {
+                "maxWidth": undefined,
+              }
+            }
           >
             <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+              className="ImageSlidingGalleryCoreContainer"
             >
-              <h4
-                className="ContentPageSubsectionSubtitle"
+              <img
+                alt="Mafdet’s head on the bed where the mummy is placed."
+                className="ImageSlidingGalleryImgPart"
+                src="image_Mafdet-min.jpg"
               />
               <div
-                className="ImageSlidingGalleryOuterContainer"
-                style={
-                  Object {
-                    "maxWidth": 540,
-                  }
-                }
+                className="ImageSlidingGalleryCaptionPart"
+                data-testid="ImageSlidingGalleryCaptionPart"
               >
                 <div
-                  className="ImageSlidingGalleryCoreContainer"
-                >
-                  <img
-                    alt="A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799."
-                    className="ImageSlidingGalleryImgPart"
-                    src="cheetah_with_two_indian_servants-min.jpg"
-                  />
-                  <div
-                    className="ImageSlidingGalleryCaptionPart"
-                    data-testid="ImageSlidingGalleryCaptionPart"
-                  >
-                    <div
-                      className="CaptionContainer"
-                      data-testid="CaptionComponentTestId"
-                      style={
-                        Object {
-                          "maxWidth": undefined,
-                        }
-                      }
-                    >
-                      <div
-                        className="IconContainer"
-                      >
-                        <i
-                          aria-hidden="true"
-                          className="image icon"
-                          onClick={[Function]}
-                        />
-                      </div>
-                      <p
-                        className="ContentPageCaptionTextSize CaptionText"
-                      >
-                        A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="ImageSlidingGalleryButtonContainer"
-                >
-                  <div
-                    className="ui blue huge icon left attached disabled button"
-                    onClick={[Function]}
-                    role="button"
-                    tabIndex={-1}
-                  >
-                    <i
-                      aria-hidden="true"
-                      className="arrow alternate circle left outline icon"
-                      onClick={[Function]}
-                    />
-                  </div>
-                  <div
-                    className="ui blue huge icon right attached button"
-                    onClick={[Function]}
-                    role="button"
-                    tabIndex={0}
-                  >
-                    <i
-                      aria-hidden="true"
-                      className="arrow alternate circle right outline icon"
-                      onClick={[Function]}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-            >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              />
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                In c1700 BC, the Egyptians were the first to tame cheetahs. They admired the cheetah for its speed, hunting ability and beauty. They honored cheetahs as symbols of royalty and prestige.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                The swiftest animal on earth became a cherished hunting companion of Pharaohs and royalty throughout Europe, Asia and India. Until the early 1900s, ownership of cheetahs was as important to these nobles as their love for gold. Cheetahs hunt by sight so they excelled in the sport known as "coursing". Hunts organized by royalty and nobles were for the challenge of sport, not for food. Hunts represented power and prestige.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                By the 1500s the popularity of the cheetah as a hunting companion rivaled that of the dog. Cheetahs, the most easily tamed of the big cats, were caught, tamed and trained. Adults were used because cubs had not learned how to hunt. Tamed cheetahs formed a strong bond with their keepers.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                Each cheetah rode to the hunt by horseback or on a cart. Its eyes were coved with a hood and uncovered when prey were sighted. The cat was released to chase down the prey then rewarded with meat fed from a wooden spoon.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                Although cherished, pampered cheetahs were loved to near extinction and taken from the wild in great numbers. By the early 1900s, India and Iran were importing African cheetahs for the sport of "coursing", as their own wild population became too small.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section
-        className="ContentPageSubsectionTemplateOuterContainer"
-      >
-        <h3
-          className="ContentPageSubsectionTitle"
-        >
-          Cheetahs In Art
-        </h3>
-        <div
-          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
-        >
-          <div
-            className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
-          >
-            <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-            >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              />
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                Sumerians (Iraqi ancestors) were the first to use cheetahs in art.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                The cheetah and leopard have often been mistaken for each other. Cheetahs in early art were frequently called "panther" or "hunting leopard". Early artists called the true leopard "pardus" and described it as a cross between a cheetah (panther), and the lion (leo).
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                Middle Age and Renaissance artists began drawing cheetahs and other animals more life-like. During this time of scientific exploration, detailed descriptions of animals provided incentive for reality in art. Artists included cheetahs more often in their paintings as the trade in live animals increased.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                Artists always pictured cheetahs as animals of speed and royalty.
-              </p>
-            </div>
-            <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-            >
-              <h4
-                className="ContentPageSubsectionSubtitle"
-              />
-              <div
-                className="Centered FullWidth"
-                style={
-                  Object {
-                    "width": 451,
-                  }
-                }
-              >
-                <div
-                  className="ImageViewOuterContainer"
+                  className="CaptionContainer"
+                  data-testid="CaptionComponentTestId"
                   style={
                     Object {
-                      "maxWidth": 451,
+                      "maxWidth": undefined,
                     }
                   }
                 >
                   <div
-                    className="ImageViewInnerContainer"
+                    className="IconContainer"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="image icon"
+                      onClick={[Function]}
+                    />
+                  </div>
+                  <p
+                    className="ContentPageCaptionTextSize CaptionText"
+                  >
+                    Mafdet’s head on the bed where the mummy is placed.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="ImageSlidingGalleryButtonContainer"
+            >
+              <div
+                className="ui blue huge icon left attached disabled button"
+                onClick={[Function]}
+                role="button"
+                tabIndex={-1}
+              >
+                <i
+                  aria-hidden="true"
+                  className="arrow alternate circle left outline icon"
+                  onClick={[Function]}
+                />
+              </div>
+              <div
+                className="ui blue huge icon right attached button"
+                onClick={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                <i
+                  aria-hidden="true"
+                  className="arrow alternate circle right outline icon"
+                  onClick={[Function]}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="ContentPageSubsectionTemplateOuterContainer"
+  >
+    <h3
+      className="ContentPageSubsectionTitle"
+    >
+      Cheetahs In Sports
+    </h3>
+    <div
+      className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+    >
+      <div
+        className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+      >
+        <div
+          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+        >
+          <div
+            className="ImageSlidingGalleryOuterContainer"
+            style={
+              Object {
+                "maxWidth": 540,
+              }
+            }
+          >
+            <div
+              className="ImageSlidingGalleryCoreContainer"
+            >
+              <img
+                alt="A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799."
+                className="ImageSlidingGalleryImgPart"
+                src="cheetah_with_two_indian_servants-min.jpg"
+              />
+              <div
+                className="ImageSlidingGalleryCaptionPart"
+                data-testid="ImageSlidingGalleryCaptionPart"
+              >
+                <div
+                  className="CaptionContainer"
+                  data-testid="CaptionComponentTestId"
+                  style={
+                    Object {
+                      "maxWidth": undefined,
+                    }
+                  }
+                >
+                  <div
+                    className="IconContainer"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="image icon"
+                      onClick={[Function]}
+                    />
+                  </div>
+                  <p
+                    className="ContentPageCaptionTextSize CaptionText"
+                  >
+                    A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="ImageSlidingGalleryButtonContainer"
+            >
+              <div
+                className="ui blue huge icon left attached disabled button"
+                onClick={[Function]}
+                role="button"
+                tabIndex={-1}
+              >
+                <i
+                  aria-hidden="true"
+                  className="arrow alternate circle left outline icon"
+                  onClick={[Function]}
+                />
+              </div>
+              <div
+                className="ui blue huge icon right attached button"
+                onClick={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                <i
+                  aria-hidden="true"
+                  className="arrow alternate circle right outline icon"
+                  onClick={[Function]}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+        >
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            In c1700 BC, the Egyptians were the first to tame cheetahs. They admired the cheetah for its speed, hunting ability and beauty. They honored cheetahs as symbols of royalty and prestige.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            The swiftest animal on earth became a cherished hunting companion of Pharaohs and royalty throughout Europe, Asia and India. Until the early 1900s, ownership of cheetahs was as important to these nobles as their love for gold. Cheetahs hunt by sight so they excelled in the sport known as "coursing". Hunts organized by royalty and nobles were for the challenge of sport, not for food. Hunts represented power and prestige.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            By the 1500s the popularity of the cheetah as a hunting companion rivaled that of the dog. Cheetahs, the most easily tamed of the big cats, were caught, tamed and trained. Adults were used because cubs had not learned how to hunt. Tamed cheetahs formed a strong bond with their keepers.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Each cheetah rode to the hunt by horseback or on a cart. Its eyes were coved with a hood and uncovered when prey were sighted. The cat was released to chase down the prey then rewarded with meat fed from a wooden spoon.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Although cherished, pampered cheetahs were loved to near extinction and taken from the wild in great numbers. By the early 1900s, India and Iran were importing African cheetahs for the sport of "coursing", as their own wild population became too small.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="ContentPageSubsectionTemplateOuterContainer"
+  >
+    <h3
+      className="ContentPageSubsectionTitle"
+    >
+      Cheetahs In Art
+    </h3>
+    <div
+      className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+    >
+      <div
+        className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+      >
+        <div
+          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+        >
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Sumerians (Iraqi ancestors) were the first to use cheetahs in art.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            The cheetah and leopard have often been mistaken for each other. Cheetahs in early art were frequently called "panther" or "hunting leopard". Early artists called the true leopard "pardus" and described it as a cross between a cheetah (panther), and the lion (leo).
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Middle Age and Renaissance artists began drawing cheetahs and other animals more life-like. During this time of scientific exploration, detailed descriptions of animals provided incentive for reality in art. Artists included cheetahs more often in their paintings as the trade in live animals increased.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Artists always pictured cheetahs as animals of speed and royalty.
+          </p>
+        </div>
+        <div
+          className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+        >
+          <div
+            className="Centered FullWidth"
+            style={
+              Object {
+                "width": 451,
+              }
+            }
+          >
+            <div
+              className="ImageViewOuterContainer"
+              style={
+                Object {
+                  "maxWidth": 451,
+                }
+              }
+            >
+              <div
+                className="ImageViewInnerContainer"
+              >
+                <div
+                  className="ImageViewImgContainer"
+                >
+                  <img
+                    alt="Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli."
+                    className="ImageViewImg"
+                    src="cheetah_painting_Renaissance-min.jpg"
+                  />
+                </div>
+                <div
+                  className="ImageViewCaptionContainer"
+                >
+                  <div
+                    className="CaptionContainer"
+                    data-testid="CaptionComponentTestId"
+                    style={
+                      Object {
+                        "maxWidth": 451,
+                      }
+                    }
                   >
                     <div
-                      className="ImageViewImgContainer"
+                      className="IconContainer"
                     >
-                      <img
-                        alt="Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli."
-                        className="ImageViewImg"
-                        src="cheetah_painting_Renaissance-min.jpg"
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
                       />
                     </div>
-                    <div
-                      className="ImageViewCaptionContainer"
+                    <p
+                      className="ContentPageCaptionTextSize CaptionText"
                     >
-                      <div
-                        className="CaptionContainer"
-                        data-testid="CaptionComponentTestId"
-                        style={
-                          Object {
-                            "maxWidth": 451,
-                          }
-                        }
-                      >
-                        <div
-                          className="IconContainer"
-                        >
-                          <i
-                            aria-hidden="true"
-                            className="image icon"
-                            onClick={[Function]}
-                          />
-                        </div>
-                        <p
-                          className="ContentPageCaptionTextSize CaptionText"
-                        >
-                          Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli.
-                        </p>
-                      </div>
-                    </div>
+                      Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </div>
-  </div>
-</div>
+  </section>
+</article>
 `;

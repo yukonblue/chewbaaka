@@ -118,9 +118,6 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
           <div
             className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
           >
-            <h4
-              className="ContentPageSubsectionSubtitle"
-            />
             <p
               className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
             >
@@ -130,9 +127,6 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
           <div
             className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
           >
-            <h4
-              className="ContentPageSubsectionSubtitle"
-            />
             <div
               className="ImageSlideModalCoverTriggerOuterContainer"
               onBlur={[Function]}

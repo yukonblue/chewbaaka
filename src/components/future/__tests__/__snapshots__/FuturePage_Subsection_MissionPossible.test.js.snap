@@ -41,9 +41,6 @@ exports[`FuturePageSubsectionMissionPossible component snapshot 1`] = `
             >
               Land Management
             </h4>
-            <h5
-              className="ContentPageSubsectionSubtitleSecondary"
-            />
             <div>
               <p
                 className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
@@ -98,9 +95,6 @@ exports[`FuturePageSubsectionMissionPossible component snapshot 1`] = `
             >
               Wildlife Management
             </h4>
-            <h5
-              className="ContentPageSubsectionSubtitleSecondary"
-            />
             <div>
               <p
                 className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"

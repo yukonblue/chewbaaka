@@ -1,734 +1,694 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
-<div
+<article
   className="ContentPageSectionTemplateOuterContainer"
 >
-  <div>
-    <section
-      className="ContentPageSubsectionTemplateOuterContainer"
-    >
-      <h3
-        className="ContentPageSubsectionTitle"
-      />
-      <div
-        className="ContentPageSectionHeadOuterContainer"
-      >
-        <div
-          data-testid="ContentPageSectionAnchorComponentTestId"
-          id="lifecycle"
-        />
-        <div
-          className="ContentPageSectionHeadInnerContainer"
-        >
-          <div
-            className="ContentPageSectionHeadTitleContainer"
-          >
-            <h2
-              className="ContentPageSectionHeadTitle"
-            >
-              Lifecycle
-            </h2>
-          </div>
-          <div
-            className="ContentPageIntroParagraphContentContainer"
-          >
-            <p
-              className="ContentPageHeadAndSectionIntroText"
-            >
-              One of the most incredible things about the cheetahs is the remarkable processes and transitions in their lifecycle. From born at an average weight of 350 grams and completely helpless and unable to see, to becoming one of the most skilled predators and the fastest land animal on the planet, nothing speaks more about the incredible adaptations that allow them to survive and thrive in the challenging environments where they live.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-  <div
-    className="ContentPageSectionTemplateInnerContainer"
+  <h2
+    className="ContentPageSectionHeadTitle"
+    id="lifecycle"
   >
-    <div>
+    Lifecycle
+  </h2>
+  <p
+    className="ContentPageHeadAndSectionIntroText"
+  >
+    One of the most incredible things about the cheetahs is the remarkable processes and transitions in their lifecycle. From born at an average weight of 350 grams and completely helpless and unable to see, to becoming one of the most skilled predators and the fastest land animal on the planet, nothing speaks more about the incredible adaptations that allow them to survive and thrive in the challenging environments where they live.
+  </p>
+  <div
+    className="BiologyPageLifecycleDiagramOuterContainer"
+  >
+    <h3
+      className="ContentPageSubsectionTitle TextCentered"
+    >
+      The Cycle of Life
+    </h3>
+    <p
+      className="BiologyPageLifecycleDiagramSubtitle TextCentered"
+    >
+      There are four stages in the lifecycle of the cheetah.
+    </p>
+    <p
+      className="BiologyPageLifecycleDiagramContentText TextCentered"
+    >
+      <b>
+        Stage 1
+      </b>
+      : 90 to 95 days pregnancy; 
+      <b>
+        Stage 2
+      </b>
+      : 6 weeks to 18 months;
+    </p>
+    <p
+      className="BiologyPageLifecycleDiagramContentText TextCentered"
+    >
+      <b>
+        Stage 3
+      </b>
+      : 18 to 22 months; 
+      <b>
+        Stage 4
+      </b>
+      : adult life.
+    </p>
+    <img
+      alt="lifecycle diagram"
+      className="FullWidth DisplayBlock RetainAspectRatio Centered"
+      src="Lifecycle_Diagram-min.png"
+      width={640}
+    />
+  </div>
+  <section
+    className="ContentPageSubsectionTemplateOuterContainer"
+  >
+    <h3
+      className="ContentPageSubsectionTitle"
+    >
+      Stage 1
+    </h3>
+    <div
+      className="ContentPageSideFloatFluidContainerOuterContainer"
+    >
       <div
-        className="BiologyPageLifecycleDiagramOuterContainer"
+        className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
       >
-        <h3
-          className="ContentPageSubsectionTitle TextCentered"
-        >
-          The Cycle of Life
-        </h3>
-        <p
-          className="BiologyPageLifecycleDiagramSubtitle TextCentered"
-        >
-          There are four stages in the lifecycle of the cheetah.
-        </p>
-        <p
-          className="BiologyPageLifecycleDiagramContentText TextCentered"
-        >
-          <b>
-            Stage 1
-          </b>
-          : 90 to 95 days pregnancy; 
-          <b>
-            Stage 2
-          </b>
-          : 6 weeks to 18 months;
-        </p>
-        <p
-          className="BiologyPageLifecycleDiagramContentText TextCentered"
-        >
-          <b>
-            Stage 3
-          </b>
-          : 18 to 22 months; 
-          <b>
-            Stage 4
-          </b>
-          : adult life.
-        </p>
-        <img
-          alt="lifecycle diagram"
-          className="FullWidth DisplayBlock RetainAspectRatio Centered"
-          src="Lifecycle_Diagram-min.png"
-          width={640}
-        />
-      </div>
-      <section
-        className="ContentPageSubsectionTemplateOuterContainer"
-      >
-        <h3
-          className="ContentPageSubsectionTitle"
-        >
-          Stage 1
-        </h3>
         <div
-          className="ContentPageSideFloatFluidContainerOuterContainer"
+          className="ImageViewOuterContainer"
+          style={
+            Object {
+              "maxWidth": 320,
+            }
+          }
         >
           <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
+            className="ImageViewInnerContainer"
           >
             <div
-              className="ImageViewOuterContainer"
-              style={
-                Object {
-                  "maxWidth": 320,
-                }
-              }
+              className="ImageViewImgContainer"
             >
-              <div
-                className="ImageViewInnerContainer"
-              >
-                <div
-                  className="ImageViewImgContainer"
-                >
-                  <img
-                    alt="Cheetah cubs are born blind, so they need their mother's care."
-                    className="ImageViewImg"
-                    src="cheetah_mom_carry_cub-min.jpg"
-                  />
-                </div>
-                <div
-                  className="ImageViewCaptionContainer"
-                >
-                  <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "maxWidth": 320,
-                      }
-                    }
-                  >
-                    <div
-                      className="IconContainer"
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
-                    </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      Cheetah cubs are born blind, so they need their mother's care.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="ContentPageSideFloatFluidContainerFixedPartContainer"
-          >
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              The female’s gestation period lasts 90 to 95 days. This means she is pregnant for about three months.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Shortly before she is ready to give birth, the mother makes a den in a quiet hidden spot. She chooses her location in the tall grass and thick underbrush or near a clump of rocks.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              A cheetah gives birth to an average of five to six cubs. Each cub weights between 250 to 425 grams. Cubs are born completely helpless and with their eyes closed, but they develop rapidly. Scent and touch are used to find their mother’s nipples to suckle.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              They start crawling around the nest area at four to ten days when their eyes begin to open. At three weeks their teeth break through the gums.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              A mother cheetah will frequently move her litter. This prevents a build-up of scent of the den site, which may lead other predators to the cubs. She carries very young cubs in her jaws.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              The cubs are very vulnerable to lions, hyenas and other predators when the female leaves them alone. When hunting she may be away for up to 48 hours. In Tanzania’s Serengeti National Park, 90% of all cubs do not reach the age of 3 months! Other causes of death are abandonment when prey is scarce, exposure due to low temperatures or grass fires.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section
-        className="ContentPageSubsectionTemplateOuterContainer"
-      >
-        <h3
-          className="ContentPageSubsectionTitle"
-        >
-          Stage 2
-        </h3>
-        <div>
-          <div
-            className="FluidTwoColumnContainerOuterContainer"
-          >
-            <div
-              className="FluidTwoColumnContainerColumnContainer FluidTwoColumnLhsContainerColumnContainer"
-            >
-              <div
-                className="ContentPageSubsectionPartContainer"
-              >
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  At 1.5 to 2 months of age, the cubs leave the safety of the den to accompany their mother. They are very vulnerable as they are not able to defend themselves.
-                </p>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  They stop drinking their mother’s milk at 3 to 4 months of age. They start eating meat and learning to hunt. The games they play and the experiences they have during this stage will teach them skills needed to survive on their own.
-                </p>
-              </div>
+              <img
+                alt="Cheetah cubs are born blind, so they need their mother's care."
+                className="ImageViewImg"
+                src="cheetah_mom_carry_cub-min.jpg"
+              />
             </div>
             <div
-              className="FluidTwoColumnContainerColumnContainer FluidTwoColumnRhsContainerColumnContainer"
+              className="ImageViewCaptionContainer"
             >
               <div
-                className="ContentPageSubsectionPartContainer"
-              >
-                <div
-                  className="Centered FullWidth"
-                  style={
-                    Object {
-                      "width": 560,
-                    }
-                  }
-                >
-                  <iframe
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen={true}
-                    className="FullWidth"
-                    frameBorder="0"
-                    height={315}
-                    src="https://www.youtube.com/embed/Wjtb7XMZlgY"
-                    title="Cheetah Mom Teaches Cubs to Hunt | YouTube"
-                    width={560}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section
-        className="ContentPageSubsectionTemplateOuterContainer"
-      >
-        <h3
-          className="ContentPageSubsectionTitle"
-        >
-          Learning to Hunt
-        </h3>
-        <div
-          className="ContentPageSideFloatFluidContainerOuterContainer"
-        >
-          <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
-          >
-            <div
-              className="ImageViewOuterContainer"
-              style={
-                Object {
-                  "maxWidth": 480,
-                }
-              }
-            >
-              <div
-                className="ImageViewInnerContainer"
-              >
-                <div
-                  className="ImageViewImgContainer"
-                >
-                  <img
-                    alt="Cheetah cubs learning how to hunt."
-                    className="ImageViewImg"
-                    src="cheetah_cubs_learning_hunting-min.jpg"
-                  />
-                </div>
-                <div
-                  className="ImageViewCaptionContainer"
-                >
-                  <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "maxWidth": 480,
-                      }
-                    }
-                  >
-                    <div
-                      className="IconContainer"
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
-                    </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      Cheetah cubs learning how to hunt.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="ContentPageSideFloatFluidContainerFixedPartContainer FloatLeft"
-          >
-            <div
-              className="TextBubbleOuterContainerFlexWrapper"
-            >
-              <div
-                className="TextBubbleOuterContainer"
+                className="CaptionContainer"
+                data-testid="CaptionComponentTestId"
                 style={
                   Object {
-                    "backgroundColor": "rgb(undefined)",
-                    "maxWidth": 520,
-                    "minHeight": 520,
+                    "maxWidth": 320,
                   }
                 }
               >
                 <div
-                  className="TextBubbleInnerContainer"
+                  className="IconContainer"
                 >
-                  <div
-                    className="TextBubbleInnerCore"
-                  >
-                    <h1
-                      style={
-                        Object {
-                          "color": "rgb(undefined)",
-                          "fontSize": 41.6,
-                        }
-                      }
-                    >
-                      Learning to Hunt
-                    </h1>
-                    <p
-                      style={
-                        Object {
-                          "color": "rgb(undefined)",
-                          "fontSize": 21,
-                        }
-                      }
-                    >
-                      The mother brings live prey, such as a young gazelle, to the 9 to 12 month old cubs. She releases it in front of them and the cubs attempt to catch it. This allows the cubs to practice their hunting skills while still under her supervision. Accurate timing and coordination during a hunt are important for their future survival.
-                    </p>
-                  </div>
+                  <i
+                    aria-hidden="true"
+                    className="image icon"
+                    onClick={[Function]}
+                  />
                 </div>
+                <p
+                  className="ContentPageCaptionTextSize CaptionText"
+                >
+                  Cheetah cubs are born blind, so they need their mother's care.
+                </p>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <section
-        className="ContentPageSubsectionTemplateOuterContainer"
+      </div>
+      <div
+        className="ContentPageSideFloatFluidContainerFixedPartContainer"
       >
-        <h3
-          className="ContentPageSubsectionTitle"
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
         >
-          Stage 3
-        </h3>
-        <div>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            Stage three begins at the age 18 to 22 months when the cubs have grown to sub-adults and leave their mother. The sub-adults will remain together for up to six more months. At first, their success rate at capturing prey is poor.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            Cheetahs are diurnal, hunting mornings and early evenings. They rely on their sight to find prey. They spend most of the day resting under shady trees or on termite mounds. Night hunting is only done during a bright moon.
-          </p>
-          <div>
-            <a
-              href="https://www.nationalgeographic.co.uk/animals/2017/12/stunning-pictures-cheetahs-action"
-            >
-              <button
-                className="ui blue icon button"
-                onClick={[Function]}
-              >
-                Stunning Pictures of Cheetahs in Action | National Geographic
-                <i
-                  aria-hidden="true"
-                  className="file image icon"
-                  onClick={[Function]}
-                />
-              </button>
-            </a>
-          </div>
-          <img
-            alt="What is diurnal?"
-            className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerSmallDimension"
-            src="What_is_Diurnal-min.png"
-          />
-        </div>
-      </section>
-      <section
-        className="ContentPageSubsectionTemplateOuterContainer"
+          The female’s gestation period lasts 90 to 95 days. This means she is pregnant for about three months.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          Shortly before she is ready to give birth, the mother makes a den in a quiet hidden spot. She chooses her location in the tall grass and thick underbrush or near a clump of rocks.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          A cheetah gives birth to an average of five to six cubs. Each cub weights between 250 to 425 grams. Cubs are born completely helpless and with their eyes closed, but they develop rapidly. Scent and touch are used to find their mother’s nipples to suckle.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          They start crawling around the nest area at four to ten days when their eyes begin to open. At three weeks their teeth break through the gums.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          A mother cheetah will frequently move her litter. This prevents a build-up of scent of the den site, which may lead other predators to the cubs. She carries very young cubs in her jaws.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          The cubs are very vulnerable to lions, hyenas and other predators when the female leaves them alone. When hunting she may be away for up to 48 hours. In Tanzania’s Serengeti National Park, 90% of all cubs do not reach the age of 3 months! Other causes of death are abandonment when prey is scarce, exposure due to low temperatures or grass fires.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section
+    className="ContentPageSubsectionTemplateOuterContainer"
+  >
+    <h3
+      className="ContentPageSubsectionTitle"
+    >
+      Stage 2
+    </h3>
+    <div>
+      <div
+        className="FluidTwoColumnContainerOuterContainer"
       >
-        <h3
-          className="ContentPageSubsectionTitle"
-        >
-          Stage 4
-        </h3>
-        <div>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            In Stage 4, cheetahs become sexually mature. Although they are mature at 16 to 18 months, most do not breed until they are three to five years old.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            At 20 - 30 months of age, females leave their litter-mates to find suitable mates and start their own families. They raise their families on their own without the help of the males.
-          </p>
-          <p
-            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-          >
-            Males usually do not breed until they are 4 to 5 years of age, and dominant in a territory. They live alone, or brothers form permanent groups called "coalitions". These groups stay together for life, claim territories, hunt and find mates together.
-          </p>
-        </div>
-      </section>
-      <section
-        className="ContentPageSubsectionTemplateOuterContainer"
-      >
-        <h3
-          className="ContentPageSubsectionTitle"
-        >
-          Finding a Mate
-        </h3>
         <div
-          className="ContentPageSideFloatFluidContainerOuterContainer"
+          className="FluidTwoColumnContainerColumnContainer FluidTwoColumnLhsContainerColumnContainer"
         >
           <div
-            className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
+            className="ContentPageSubsectionPartContainer"
+          >
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              At 1.5 to 2 months of age, the cubs leave the safety of the den to accompany their mother. They are very vulnerable as they are not able to defend themselves.
+            </p>
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              They stop drinking their mother’s milk at 3 to 4 months of age. They start eating meat and learning to hunt. The games they play and the experiences they have during this stage will teach them skills needed to survive on their own.
+            </p>
+          </div>
+        </div>
+        <div
+          className="FluidTwoColumnContainerColumnContainer FluidTwoColumnRhsContainerColumnContainer"
+        >
+          <div
+            className="ContentPageSubsectionPartContainer"
           >
             <div
-              className="ImageViewOuterContainer"
+              className="Centered FullWidth"
               style={
                 Object {
-                  "maxWidth": 720,
+                  "width": 560,
                 }
               }
             >
-              <div
-                className="ImageViewInnerContainer"
-              >
-                <div
-                  className="ImageViewImgContainer"
-                >
-                  <img
-                    alt="Cheetahs often mark their scent on tree trunks with their urine. This behavior is common among cats."
-                    className="ImageViewImg"
-                    src="cheetah_scent_marking-min.jpg"
-                  />
-                </div>
-                <div
-                  className="ImageViewCaptionContainer"
-                >
-                  <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "maxWidth": 720,
-                      }
-                    }
-                  >
-                    <div
-                      className="IconContainer"
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
-                    </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      Cheetahs often mark their scent on tree trunks with their urine. This behavior is common among cats.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="ContentPageSideFloatFluidContainerFixedPartContainer"
-          >
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              The range of a female offspring may partially overlap that of her mother. Namibian cheetahs are more social than those reported in other countries. Females are often seen with multiple adults and cubs of varying ages.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Female cheetahs are polyoestrous, which means there is no regular breeding season. If not bred, females come into heat (estrus) several times a year. Estrus means they are ready to breed. If cubs are lost to predators females soon come into estrus again.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Smell, sound, and behavioral stimuli attract males to females. Female cheetahs leave a scent trail by releasing sex hormones in urine and feces. They mark trees and bushes. This behavior increases during courtship.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              When courtship takes place, males will follow females closely and mock fighting may be observed.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              When a female is ready to mate, she adopts a receptive posture. The male mounts the female, bites the back of her neck, and breeding takes place. When the male dismounts the female she rolls over on her back and swats at him.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Mating will take place for one to several days and ends when the male loses interest in the female and leaves. Males do not help raise the cubs.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section
-        className="ContentPageSubsectionTemplateOuterContainer"
-      >
-        <h3
-          className="ContentPageSubsectionTitle"
-        >
-          Living Fast - Dying Young
-        </h3>
-        <div>
-          <div
-            className="ContentPageSubsectionPartContainer"
-          >
-            <div
-              className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
-            >
-              <div
-                className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
-              >
-                <div
-                  className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-                >
-                  <h4
-                    className="ContentPageSubsectionSubtitle"
-                  >
-                    Male coalitions
-                  </h4>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                  >
-                    A coalition consists of a group of male siblings of the same litter or young unrelated males that have joined together. A hierarchy develops among the males within a coalition.
-                  </p>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                  >
-                    Young males are usually chased away from their birth range by dominant breeding males. They may establish home ranges more than 100 km away. A coalition is more successful in acquiring and holding territories and in defending kills than single males. This competition can result in mortality among males.
-                  </p>
-                </div>
-                <div
-                  className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-                >
-                  <h4
-                    className="ContentPageSubsectionSubtitle"
-                  />
-                  <div
-                    className="ImageViewOuterContainer"
-                    style={
-                      Object {
-                        "maxWidth": 510,
-                      }
-                    }
-                  >
-                    <div
-                      className="ImageViewInnerContainer"
-                    >
-                      <div
-                        className="ImageViewImgContainer"
-                      >
-                        <img
-                          alt="A coalition of cheetahs on the lookout."
-                          className="ImageViewImg"
-                          src="cheetah_coalition-min.jpg"
-                        />
-                      </div>
-                      <div
-                        className="ImageViewCaptionContainer"
-                      >
-                        <div
-                          className="CaptionContainer"
-                          data-testid="CaptionComponentTestId"
-                          style={
-                            Object {
-                              "maxWidth": 510,
-                            }
-                          }
-                        >
-                          <div
-                            className="IconContainer"
-                          >
-                            <i
-                              aria-hidden="true"
-                              className="image icon"
-                              onClick={[Function]}
-                            />
-                          </div>
-                          <p
-                            className="ContentPageCaptionTextSize CaptionText"
-                          >
-                            A coalition of cheetahs on the lookout.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="ContentPageSubsectionPartContainer"
-          >
-            <div
-              className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
-            >
-              <div
-                className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
-              >
-                <div
-                  className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
-                >
-                  <h4
-                    className="ContentPageSubsectionSubtitle"
-                  />
-                  <div
-                    className="ImageViewOuterContainer"
-                    style={
-                      Object {
-                        "maxWidth": 640,
-                      }
-                    }
-                  >
-                    <div
-                      className="ImageViewInnerContainer"
-                    >
-                      <div
-                        className="ImageViewImgContainer"
-                      >
-                        <img
-                          alt="Cheetahs often have to come to face hyenas in competition of food."
-                          className="ImageViewImg"
-                          src="cheetah_face_hyena-min.jpg"
-                        />
-                      </div>
-                      <div
-                        className="ImageViewCaptionContainer"
-                      >
-                        <div
-                          className="CaptionContainer"
-                          data-testid="CaptionComponentTestId"
-                          style={
-                            Object {
-                              "maxWidth": 640,
-                            }
-                          }
-                        >
-                          <div
-                            className="IconContainer"
-                          >
-                            <i
-                              aria-hidden="true"
-                              className="image icon"
-                              onClick={[Function]}
-                            />
-                          </div>
-                          <p
-                            className="ContentPageCaptionTextSize CaptionText"
-                          >
-                            Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
-                >
-                  <h4
-                    className="ContentPageSubsectionSubtitle"
-                  >
-                    Mortality
-                  </h4>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                  >
-                    The cheetah’s lifespan is poorly documented in the wild. A radio collared cheetah lived to be almost 7 years of age in Tanzania’s Serengeti National Park, and one of CCF’s radio collared cheetahs in Namibia lived for over 10 years.
-                  </p>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                  >
-                    Adult mortality is one of the most significant limiting factors for cheetah population growth and survival. Poaching, competition with large predators and farmers, and loss of habitats and prey are factors attributing to early death.
-                  </p>
-                  <p
-                    className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                  >
-                    Though cub deaths are high, cheetahs have evolved to reproduce rapidly in response to this mortality.
-                  </p>
-                </div>
-              </div>
+              <iframe
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen={true}
+                className="FullWidth"
+                frameBorder="0"
+                height={315}
+                src="https://www.youtube.com/embed/Wjtb7XMZlgY"
+                title="Cheetah Mom Teaches Cubs to Hunt | YouTube"
+                width={560}
+              />
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </div>
-  </div>
-</div>
+  </section>
+  <section
+    className="ContentPageSubsectionTemplateOuterContainer"
+  >
+    <h3
+      className="ContentPageSubsectionTitle"
+    >
+      Learning to Hunt
+    </h3>
+    <div
+      className="ContentPageSideFloatFluidContainerOuterContainer"
+    >
+      <div
+        className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
+      >
+        <div
+          className="ImageViewOuterContainer"
+          style={
+            Object {
+              "maxWidth": 480,
+            }
+          }
+        >
+          <div
+            className="ImageViewInnerContainer"
+          >
+            <div
+              className="ImageViewImgContainer"
+            >
+              <img
+                alt="Cheetah cubs learning how to hunt."
+                className="ImageViewImg"
+                src="cheetah_cubs_learning_hunting-min.jpg"
+              />
+            </div>
+            <div
+              className="ImageViewCaptionContainer"
+            >
+              <div
+                className="CaptionContainer"
+                data-testid="CaptionComponentTestId"
+                style={
+                  Object {
+                    "maxWidth": 480,
+                  }
+                }
+              >
+                <div
+                  className="IconContainer"
+                >
+                  <i
+                    aria-hidden="true"
+                    className="image icon"
+                    onClick={[Function]}
+                  />
+                </div>
+                <p
+                  className="ContentPageCaptionTextSize CaptionText"
+                >
+                  Cheetah cubs learning how to hunt.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ContentPageSideFloatFluidContainerFixedPartContainer FloatLeft"
+      >
+        <div
+          className="TextBubbleOuterContainerFlexWrapper"
+        >
+          <div
+            className="TextBubbleOuterContainer"
+            style={
+              Object {
+                "backgroundColor": "rgb(undefined)",
+                "maxWidth": 520,
+                "minHeight": 520,
+              }
+            }
+          >
+            <div
+              className="TextBubbleInnerContainer"
+            >
+              <div
+                className="TextBubbleInnerCore"
+              >
+                <h1
+                  style={
+                    Object {
+                      "color": "rgb(undefined)",
+                      "fontSize": 41.6,
+                    }
+                  }
+                >
+                  Learning to Hunt
+                </h1>
+                <p
+                  style={
+                    Object {
+                      "color": "rgb(undefined)",
+                      "fontSize": 21,
+                    }
+                  }
+                >
+                  The mother brings live prey, such as a young gazelle, to the 9 to 12 month old cubs. She releases it in front of them and the cubs attempt to catch it. This allows the cubs to practice their hunting skills while still under her supervision. Accurate timing and coordination during a hunt are important for their future survival.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="ContentPageSubsectionTemplateOuterContainer"
+  >
+    <h3
+      className="ContentPageSubsectionTitle"
+    >
+      Stage 3
+    </h3>
+    <div>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+      >
+        Stage three begins at the age 18 to 22 months when the cubs have grown to sub-adults and leave their mother. The sub-adults will remain together for up to six more months. At first, their success rate at capturing prey is poor.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+      >
+        Cheetahs are diurnal, hunting mornings and early evenings. They rely on their sight to find prey. They spend most of the day resting under shady trees or on termite mounds. Night hunting is only done during a bright moon.
+      </p>
+      <div>
+        <a
+          href="https://www.nationalgeographic.co.uk/animals/2017/12/stunning-pictures-cheetahs-action"
+        >
+          <button
+            className="ui blue icon button"
+            onClick={[Function]}
+          >
+            Stunning Pictures of Cheetahs in Action | National Geographic
+            <i
+              aria-hidden="true"
+              className="file image icon"
+              onClick={[Function]}
+            />
+          </button>
+        </a>
+      </div>
+      <img
+        alt="What is diurnal?"
+        className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerSmallDimension"
+        src="What_is_Diurnal-min.png"
+      />
+    </div>
+  </section>
+  <section
+    className="ContentPageSubsectionTemplateOuterContainer"
+  >
+    <h3
+      className="ContentPageSubsectionTitle"
+    >
+      Stage 4
+    </h3>
+    <div>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+      >
+        In Stage 4, cheetahs become sexually mature. Although they are mature at 16 to 18 months, most do not breed until they are three to five years old.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+      >
+        At 20 - 30 months of age, females leave their litter-mates to find suitable mates and start their own families. They raise their families on their own without the help of the males.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+      >
+        Males usually do not breed until they are 4 to 5 years of age, and dominant in a territory. They live alone, or brothers form permanent groups called "coalitions". These groups stay together for life, claim territories, hunt and find mates together.
+      </p>
+    </div>
+  </section>
+  <section
+    className="ContentPageSubsectionTemplateOuterContainer"
+  >
+    <h3
+      className="ContentPageSubsectionTitle"
+    >
+      Finding a Mate
+    </h3>
+    <div
+      className="ContentPageSideFloatFluidContainerOuterContainer"
+    >
+      <div
+        className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
+      >
+        <div
+          className="ImageViewOuterContainer"
+          style={
+            Object {
+              "maxWidth": 720,
+            }
+          }
+        >
+          <div
+            className="ImageViewInnerContainer"
+          >
+            <div
+              className="ImageViewImgContainer"
+            >
+              <img
+                alt="Cheetahs often mark their scent on tree trunks with their urine. This behavior is common among cats."
+                className="ImageViewImg"
+                src="cheetah_scent_marking-min.jpg"
+              />
+            </div>
+            <div
+              className="ImageViewCaptionContainer"
+            >
+              <div
+                className="CaptionContainer"
+                data-testid="CaptionComponentTestId"
+                style={
+                  Object {
+                    "maxWidth": 720,
+                  }
+                }
+              >
+                <div
+                  className="IconContainer"
+                >
+                  <i
+                    aria-hidden="true"
+                    className="image icon"
+                    onClick={[Function]}
+                  />
+                </div>
+                <p
+                  className="ContentPageCaptionTextSize CaptionText"
+                >
+                  Cheetahs often mark their scent on tree trunks with their urine. This behavior is common among cats.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ContentPageSideFloatFluidContainerFixedPartContainer"
+      >
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          The range of a female offspring may partially overlap that of her mother. Namibian cheetahs are more social than those reported in other countries. Females are often seen with multiple adults and cubs of varying ages.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          Female cheetahs are polyoestrous, which means there is no regular breeding season. If not bred, females come into heat (estrus) several times a year. Estrus means they are ready to breed. If cubs are lost to predators females soon come into estrus again.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          Smell, sound, and behavioral stimuli attract males to females. Female cheetahs leave a scent trail by releasing sex hormones in urine and feces. They mark trees and bushes. This behavior increases during courtship.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          When courtship takes place, males will follow females closely and mock fighting may be observed.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          When a female is ready to mate, she adopts a receptive posture. The male mounts the female, bites the back of her neck, and breeding takes place. When the male dismounts the female she rolls over on her back and swats at him.
+        </p>
+        <p
+          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+        >
+          Mating will take place for one to several days and ends when the male loses interest in the female and leaves. Males do not help raise the cubs.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section
+    className="ContentPageSubsectionTemplateOuterContainer"
+  >
+    <h3
+      className="ContentPageSubsectionTitle"
+    >
+      Living Fast - Dying Young
+    </h3>
+    <div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <div
+          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+        >
+          <div
+            className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+          >
+            <div
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+            >
+              <h4
+                className="ContentPageSubsectionSubtitle"
+              >
+                Male coalitions
+              </h4>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                A coalition consists of a group of male siblings of the same litter or young unrelated males that have joined together. A hierarchy develops among the males within a coalition.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                Young males are usually chased away from their birth range by dominant breeding males. They may establish home ranges more than 100 km away. A coalition is more successful in acquiring and holding territories and in defending kills than single males. This competition can result in mortality among males.
+              </p>
+            </div>
+            <div
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+            >
+              <div
+                className="ImageViewOuterContainer"
+                style={
+                  Object {
+                    "maxWidth": 510,
+                  }
+                }
+              >
+                <div
+                  className="ImageViewInnerContainer"
+                >
+                  <div
+                    className="ImageViewImgContainer"
+                  >
+                    <img
+                      alt="A coalition of cheetahs on the lookout."
+                      className="ImageViewImg"
+                      src="cheetah_coalition-min.jpg"
+                    />
+                  </div>
+                  <div
+                    className="ImageViewCaptionContainer"
+                  >
+                    <div
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 510,
+                        }
+                      }
+                    >
+                      <div
+                        className="IconContainer"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
+                      </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        A coalition of cheetahs on the lookout.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ContentPageSubsectionPartContainer"
+      >
+        <div
+          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+        >
+          <div
+            className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+          >
+            <div
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+            >
+              <div
+                className="ImageViewOuterContainer"
+                style={
+                  Object {
+                    "maxWidth": 640,
+                  }
+                }
+              >
+                <div
+                  className="ImageViewInnerContainer"
+                >
+                  <div
+                    className="ImageViewImgContainer"
+                  >
+                    <img
+                      alt="Cheetahs often have to come to face hyenas in competition of food."
+                      className="ImageViewImg"
+                      src="cheetah_face_hyena-min.jpg"
+                    />
+                  </div>
+                  <div
+                    className="ImageViewCaptionContainer"
+                  >
+                    <div
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 640,
+                        }
+                      }
+                    >
+                      <div
+                        className="IconContainer"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
+                      </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        Cheetahs often have to come to face hyenas in competition of food. (Image credit: Steve Volkwyn)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+            >
+              <h4
+                className="ContentPageSubsectionSubtitle"
+              >
+                Mortality
+              </h4>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                The cheetah’s lifespan is poorly documented in the wild. A radio collared cheetah lived to be almost 7 years of age in Tanzania’s Serengeti National Park, and one of CCF’s radio collared cheetahs in Namibia lived for over 10 years.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                Adult mortality is one of the most significant limiting factors for cheetah population growth and survival. Poaching, competition with large predators and farmers, and loss of habitats and prey are factors attributing to early death.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                Though cub deaths are high, cheetahs have evolved to reproduce rapidly in response to this mortality.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</article>
 `;

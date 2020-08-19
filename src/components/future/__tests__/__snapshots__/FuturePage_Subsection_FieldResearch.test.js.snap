@@ -19,9 +19,6 @@ exports[`FuturePageSubsectionFieldResearch component snapshot 1`] = `
         <div
           className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
         >
-          <h4
-            className="ContentPageSubsectionSubtitle"
-          />
           <div>
             <h4
               className="ContentPageSubsectionSubtitle"
@@ -48,9 +45,6 @@ exports[`FuturePageSubsectionFieldResearch component snapshot 1`] = `
         <div
           className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
         >
-          <h4
-            className="ContentPageSubsectionSubtitle"
-          />
           <div>
             <h4
               className="ContentPageSubsectionSubtitle"
