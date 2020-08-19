@@ -12,8 +12,8 @@
 }
 
 div.ContentPageSkeletonContentContainer {
-  padding-left: 7.5%;
-  padding-right: 7.5%;
+  margin: 0 auto;
+  width: 85%;
 }
 
 /** This width specification is kept in sync

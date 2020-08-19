@@ -7,7 +7,7 @@
  * Updated  : Aug 18, 2020
  */
 
-import React, { Fragment } from 'react'
+import React from 'react'
 
 import {
   Button,
@@ -17,8 +17,7 @@ import {
 } from 'semantic-ui-react'
 
 import {
-  getElementStyleClassName,
-  getElementStyleClassNames
+  getElementStyleClassName
 } from '../../styling/styling'
 
 import ContentPageTableOfContentMenuBootstrapper from './ContentPageTableOfContentMenuBootstrapper'
@@ -102,7 +101,7 @@ export default class ContentPageSkeleton extends React.Component {
 
   renderContent() {
     return (
-      <Fragment>
+      <div className="ContentPageSkeletonContentContainer">
         <ContentPageIntroSectionGeneric
           contentPageIntro={this.props.contentPageIntro}
           imagesContext = {this.props.imagesContext}
@@ -113,7 +112,7 @@ export default class ContentPageSkeleton extends React.Component {
         <ContentPageTail
           pageTailNavMenu={this.props.pageProps.pageTailNavMenu}
         />
-      </Fragment>
+      </div>
     );
   }
 
@@ -121,8 +120,7 @@ export default class ContentPageSkeleton extends React.Component {
     return (
       <Ref innerRef={this.state.contextRef}>
         <div data-testid="ContentPageSkeletonComponentTestId">
-          <div className={getElementStyleClassNames(["ContentPageSkeletonContentContainerDimension",
-                                                      "ContentPageSkeletonContentContainer"])}>
+          <div className={getElementStyleClassName("ContentPageSkeletonContentContainerDimension")}>
             {this.renderContent()}
           </div>
           <Rail internal position='left' className="ContentPageSkeletonSideRail">
