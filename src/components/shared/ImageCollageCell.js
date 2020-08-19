@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 18, 2020
  */
 
 /**
@@ -61,9 +61,9 @@ export default class ImageCollageCell extends React.Component {
                   <p className={getElementStyleClassName("ImageCollageCellSubtitleText")}>
                     {this.props.subtitle}
                   </p>
-                  <h2 className={getElementStyleClassName("ImageCollageCellTitleText")}>
+                  <p className={getElementStyleClassName("ImageCollageCellTitleText")}>
                     {this.props.title}
-                  </h2>
+                  </p>
                 </div>
               </div>
             </Reveal.Content>
@@ -78,9 +78,9 @@ export default class ImageCollageCell extends React.Component {
                 />
                 <div className={getElementStyleClassName("ImageCollageCellTitleGroupOuterContainer")}>
                   {/* <p className={getElementStyleClassName("ImageCollageCellSubtitleText")}>{this.props.subtitle}</p> */}
-                  <h2 className={getElementStyleClassName("ImageCollageCellTitleText")}>
+                  <p className={getElementStyleClassName("ImageCollageCellTitleText")}>
                     {this.props.title}
-                  </h2>
+                  </p>
                 </div>
               </div>
             </Reveal.Content>

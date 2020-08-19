@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 18, 2020
  */
 
 div.ImageCollageCellOuterContainer {
@@ -19,7 +19,7 @@ div.ImageCollageCellTitleGroupOuterContainer {
   z-index: 2;
 }
 
-h2.ImageCollageCellTitleText {
+p.ImageCollageCellTitleText {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 28px;
   line-height: 0.8;
