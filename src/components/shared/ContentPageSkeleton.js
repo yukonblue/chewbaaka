@@ -7,7 +7,7 @@
  * Updated  : Aug 18, 2020
  */
 
-import React from 'react'
+import React, { Fragment } from 'react'
 
 import {
   Button,
@@ -69,6 +69,16 @@ export default class ContentPageSkeleton extends React.Component {
   render() {
     return (
       <div className={getElementStyleClassName("ContentPageSkeletonOuterContainer")}>
+        {this.renderHeader()}
+        {this.renderBody()}
+        {this.renderFooter()}
+      </div>
+    );
+  }
+
+  renderHeader() {
+    return (
+      <div className="ContentPageSkeletonContentContainerDimension">
         <ContentPageHead
           pageProps={this.props.pageProps}
           imagesContext={this.props.imagesContext}
@@ -78,22 +88,32 @@ export default class ContentPageSkeleton extends React.Component {
           pageMenuItems={this.props.pageProps.pageMenuItems}
           imagesContext = {this.props.imagesContext}
         />
+      </div>
+    );
+  }
 
+  renderFooter() {
+    return (
+      <Footer
+        appConfig={this.props.appConfig}
+      />
+    );
+  }
+
+  renderContent() {
+    return (
+      <Fragment>
         <ContentPageIntroSectionGeneric
           contentPageIntro={this.props.contentPageIntro}
           imagesContext = {this.props.imagesContext}
         />
 
-        {this.renderBody()}
+        {this.props.content}
 
         <ContentPageTail
           pageTailNavMenu={this.props.pageProps.pageTailNavMenu}
         />
-
-        <Footer
-          appConfig={this.props.appConfig}
-        />
-      </div>
+      </Fragment>
     );
   }
 
@@ -103,7 +123,7 @@ export default class ContentPageSkeleton extends React.Component {
         <div data-testid="ContentPageSkeletonComponentTestId">
           <div className={getElementStyleClassNames(["ContentPageSkeletonContentContainerDimension",
                                                       "ContentPageSkeletonContentContainer"])}>
-            {this.props.content}
+            {this.renderContent()}
           </div>
           <Rail internal position='left' className="ContentPageSkeletonSideRail">
             <Sticky context={this.state.contextRef} offset={100}>

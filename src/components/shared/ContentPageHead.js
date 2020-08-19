@@ -11,7 +11,7 @@ import React from 'react'
 
 import "semantic-ui-css/semantic.min.css"
 
-import { getElementStyleClassNames } from '../../styling/styling'
+import { getElementStyleClassName } from '../../styling/styling'
 
 import ContentPageTopNavMenuBar from './ContentPageTopNavMenuBar'
 import ContentPageBanner from './ContentPageBanner'
@@ -38,8 +38,7 @@ export default function ContentPageHead(props) {
   return (
     <header>
       <div
-        className={getElementStyleClassNames(["ContentPageSkeletonContentContainerDimension",
-                                              "ContentPageHeadOuterContainer"])}
+        className={getElementStyleClassName("ContentPageHeadOuterContainer")}
         data-testid="ContentPageHeadComponentTestId"
       >
         <ContentPageTopNavMenuBar
