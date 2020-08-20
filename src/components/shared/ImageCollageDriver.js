@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Aug 19, 2020
+ * Updated  : Aug 18, 2020
  */
 
 /**
@@ -24,9 +24,9 @@
  *  - `imageHeight`: The desired height of each collage cell.
  */
 
-import React from 'react'
+import _ from 'lodash'
 
-import times from '../shared/times'
+import React from 'react'
 
 import ImageCollage from './ImageCollage'
 
@@ -47,7 +47,7 @@ export default class ImageCollageDriver extends React.Component {
     const count = Math.min(contents.length, (this.props.count ? this.props.count : 1));
     const contentsToUse = (__TEST__ ? contents.slice(0, 4) : contents.sort(() => Math.random() - 0.5).slice(0, 4));
 
-    const cells = times(count, (idx) => {
+    const cells = _.times(count, (idx) => {
       const content = contentsToUse[idx];
       return {
         image: images[(__TEST__ ? idx : Math.floor(Math.random() * images.length))],
