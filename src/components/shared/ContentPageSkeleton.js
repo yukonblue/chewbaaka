@@ -79,13 +79,16 @@ export default class ContentPageSkeleton extends React.Component {
   renderHTMLHead() {
     const headMeta = this.props.pageConfig.headMeta;
 
-    const baseDescriptionKeywords = "cheetah, cheetah conservation, cheetah facts, learn about cheetahs, hope for cheetahs, save the cheetahs, Cheetah Conservation Fund, CCF, wildlife conservation, conservation";
+    const globalMetaKeywords = this.props.appConfig.headMeta.keywords;
+    const headMetaKeywords = headMeta.keywords;
+  
+    const metaKeywords = headMetaKeywords.concat(globalMetaKeywords).join(", ");
 
     return (
       <Helmet>
         <title>{headMeta.title}</title>
         <meta name="description" content={headMeta.description} />
-        <meta name="keywords" content={headMeta.keywords.join(",") + ", " + baseDescriptionKeywords} />
+        <meta name="keywords" content={metaKeywords} />
       </Helmet>
     );
   }

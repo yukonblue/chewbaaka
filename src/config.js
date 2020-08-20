@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 09, 2020
- * Updated  : Jul 31, 2020
+ * Updated  : Aug 20, 2020
  */
 
 import packageJson from '../package.json'
@@ -18,5 +18,17 @@ export const config = {
       'DebugColor': true,
       'DebugWireframe': true,
     }
+  },
+  headMeta: {
+    keywords: [
+      "cheetah",
+      "cheetah conservation",
+      "cheetah facts",
+      "learn about cheetahs",
+      "hope for cheetahs",
+      "Cheetah Conservation Fund",
+      "wildlife conservation",
+      "conservation"
+    ]
   }
 };

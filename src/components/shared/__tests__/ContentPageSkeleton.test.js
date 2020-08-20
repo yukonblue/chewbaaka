@@ -17,6 +17,16 @@ import ContentPageSkeleton from '../ContentPageSkeleton'
 
 import RouterWrapped from '../../../testing/RouterWrapped'
 
+const appConfig = {
+  headMeta:{
+    keywords: [
+      "HTML head meta keyword shared 1",
+      "HTML head meta keyword shared 2",
+      "HTML head meta keyword shared 3",
+    ]
+  }
+};
+
 const pageConfig = {
   headMeta: {
     title: "HTML head meta title",
@@ -66,6 +76,7 @@ const imagesContext = () => {
 const renderInstance = () => (
   RouterWrapped(
     <ContentPageSkeleton
+      appConfig={appConfig}
       pageConfig={pageConfig}
       imagesContext={imagesContext}
     />
