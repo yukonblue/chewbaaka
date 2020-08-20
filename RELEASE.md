@@ -5,6 +5,7 @@
 * Changelog:
   * Fixes for the following issues:
     * Issue #181 - Refine page document outline and use more semantically correct HTML5 elements where appropriate.
+    * Issue #185 - Images in 'Bush Encroachment and Solutions' subsection can be stretched.
   * Other changes:
     * Changeset #180 - Add more unit tests.
     * Changeset #183 - Address accessibility issues - Part 1
