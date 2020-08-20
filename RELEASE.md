@@ -1,7 +1,8 @@
 # Release Note
 
-## %NEXT VERSION%
+## Version 0.2.6
 
+* Date: August 19, 2020
 * Changelog:
   * Fixes for the following issues:
     * Issue #181 - Refine page document outline and use more semantically correct HTML5 elements where appropriate.
@@ -9,6 +10,7 @@
   * Other changes:
     * Changeset #180 - Add more unit tests.
     * Changeset #183 - Address accessibility issues - Part 1
+    * Update wording in footer.
   * All accessibility fixes and refinements:
     * Fix **'Heading elements are not in a sequentially-descending order'** issue in footer links.
     * Fix **'Image elements do not have [alt] attributes'** and **'Links do not have a discernible name'** issues in explore gateway grid item links.
