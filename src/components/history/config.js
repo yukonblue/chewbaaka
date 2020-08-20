@@ -15,6 +15,8 @@ export const config = {
       "cheetah history",
       "cheetah evolution",
       "cheetah lineage",
+      "cheetah population",
+      "cheetah range",
     ]
   },
   pageProps: {
