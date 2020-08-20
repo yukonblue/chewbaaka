@@ -281,7 +281,7 @@ exports[`App component snapshot 1`] = `
               />
             </div>
             <div
-              className="eight wide column"
+              className="six wide column"
             >
               <p
                 className="FooterColumnHeading"
