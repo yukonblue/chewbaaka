@@ -30,8 +30,7 @@ export default class HistoryPage extends React.Component {
     return (
       <ContentPageSkeleton
         appConfig={this.props.appConfig}
-        pageProps={config.pageProps}
-        contentPageIntro={config.contentPageIntro}
+        pageConfig={config}
         content={this.renderContent()}
         imagesContext={this.state.imagesContext}
       />

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Aug 18, 2020
+ * Updated  : Aug 20, 2020
  */
 
 import React, { Fragment } from 'react'
@@ -31,8 +31,7 @@ export default class FuturePage extends React.Component {
     return (
       <ContentPageSkeleton
         appConfig={this.props.appConfig}
-        pageProps={config.pageProps}
-        contentPageIntro={config.contentPageIntro}
+        pageConfig={config}
         content={this.renderContent()}
         imagesContext={this.state.imagesContext}
       />
