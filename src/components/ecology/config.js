@@ -10,11 +10,11 @@
 export const config = {
   headMeta: {
     title: "Cheetah ecosystem and habitat",
-    description: "Learn about the biology and anatomy of the cheetah, and what makes it the fastest land animal.",
+    description: "Learn about the ecosystem and habitats of the cheetah, and sustainable farming practices that protect their habitats.",
     keywords: [
       "cheetah ecosystem",
       "cheetah habitat",
-      "cheetah nich",
+      "cheetah niche",
       "Namibia biome"
     ]
   },
