@@ -61,7 +61,7 @@ export default function Footer(props) {
                   {kStringConstantCheetahConservationFund}
                 </p>
                 <p data-testid="footerSectionCCF">
-                  <a href="https://cheetah.org/">{kStringConstantCheetahConservationFund}</a> is a 501(c)(3) nonprofit organization,
+                  <a href="https://cheetah.org/" className="CCFLink">{kStringConstantCheetahConservationFund}</a> is a 501(c)(3) nonprofit organization,
                   dedicated to saving the cheetahs in the wild and changing
                   the world to be a better place.
                 </p>

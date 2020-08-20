@@ -338,6 +338,7 @@ exports[`HomePage snapshot 1`] = `
                 data-testid="footerSectionCCF"
               >
                 <a
+                  className="CCFLink"
                   href="https://cheetah.org/"
                 >
                   Cheetah Conservation Fund
