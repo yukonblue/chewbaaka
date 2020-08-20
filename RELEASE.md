@@ -1,5 +1,11 @@
 # Release Note
 
+## %NEXT VERSION%
+
+* Changelog:
+  * Fixes for the following issues:
+    * Issue #187 - Content page title and other meta tags should have distinct content
+
 ## Version 0.2.6
 
 * Date: August 19, 2020
