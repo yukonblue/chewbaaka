@@ -3,6 +3,9 @@
 ## Version 0.2.6
 
 * Date: August 19, 2020
+* Commit: `d016821`
+* Tag: `v0.2.6`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.2.6)
 * Changelog:
   * Fixes for the following issues:
     * Issue #181 - Refine page document outline and use more semantically correct HTML5 elements where appropriate.
