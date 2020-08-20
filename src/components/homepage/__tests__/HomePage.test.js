@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 10, 2020
+ * Updated  : Aug 20, 2020
  */
 
 import React from 'react'
@@ -15,7 +15,7 @@ import renderer from 'react-test-renderer'
 
 import HomePage from '../HomePage'
 
-import { appConfig } from '../../../config'
+import { config as appConfig } from '../../../config'
 
 import { config } from '../config'
 
@@ -59,7 +59,7 @@ test('HomePage snapshot', () => {
     .create(
       RouterWrapped(
         <HomePage
-          appConfig={config}
+          appConfig={appConfig}
         />
       )
     ).toJSON();

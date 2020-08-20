@@ -351,6 +351,17 @@ exports[`HomePage snapshot 1`] = `
               <p>
                 This site is not an affiliation of Cheetah Conservation Fund.
               </p>
+              <p>
+                Crafted with 
+                <span
+                  aria-label="heart"
+                  role="img"
+                >
+                  ❤️
+                </span>
+                 by 
+                Will Li
+              </p>
             </div>
           </div>
         </div>

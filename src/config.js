@@ -20,6 +20,8 @@ export const config = {
     }
   },
   headMeta: {
+    title: "Learn about cheetahs",
+    description: "Learn about cheetahs by exploring the Cheetah Museum at Cheetah Conservation Fund",
     keywords: [
       "cheetah",
       "cheetah conservation",
