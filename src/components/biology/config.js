@@ -15,6 +15,8 @@ export const config = {
       "cheetah biology",
       "cheetah physiology",
       "cheetah speed",
+      "cheetah lifecycle",
+      "cheetah mortality",
     ]
   },
   pageProps: {
