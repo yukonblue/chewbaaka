@@ -289,7 +289,7 @@ exports[`HomePage snapshot 1`] = `
                 Resources
               </p>
               <div
-                className="ui inverted link list"
+                className="ui inverted link list FooterNav"
                 role="list"
               >
                 <a
@@ -338,6 +338,7 @@ exports[`HomePage snapshot 1`] = `
                 data-testid="footerSectionCCF"
               >
                 <a
+                  className="CCFLink"
                   href="https://cheetah.org/"
                 >
                   Cheetah Conservation Fund

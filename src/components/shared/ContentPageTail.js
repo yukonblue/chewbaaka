@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Aug 18, 2020
+ * Updated  : Aug 19, 2020
  */
 
 import React from 'react'
@@ -30,7 +30,7 @@ if ( process.env.NODE_ENV === 'development' )
 export default class ContentPageTail extends React.Component {
 
   static _IMAGE_COLLAGE_CELL_COUNT_   = 4;
-  static _IMAGE_COLLAGE_IMAGE_WIDTH_  = 420;
+  static _IMAGE_COLLAGE_IMAGE_WIDTH_  = 480;
   static _IMAGE_COLLAGE_IMAGE_HEIGHT_ = 320;
 
   render() {

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 14, 2020
+ * Updated  : Aug 19, 2020
  */
 
 div.ContentPageTopNavMenuBarContainer {
@@ -47,11 +47,11 @@ nav ul.ContentPageTopNavMenuBarMenuList li.ActiveItem a {
 }
 
 nav ul.ContentPageTopNavMenuBarMenuList li a {
-  color: gray;
+  color: #05629a;
 }
 
 nav ul.ContentPageTopNavMenuBarMenuList li a:hover {
-  color: rgba(0,0,0,.95);
+  color: rgb(255,149,0);
 }
 
 @media (max-width: 917px) {

@@ -16,6 +16,10 @@
     * Fix **'Buttons do not have an accessible name'** issue in `ImageSlidingGallery` component.
     * Fix **'Buttons do not have an accessible name'** issue in `ImageSlidingGalleryDiscrete` component.
     * Fix **'ARIA input fields do not have accessible names'** and **'[aria-*] attributes do not have valid values'** issues in `ImageSlide` component.
+    * Fix **'Displays images with incorrect aspect ratio '** issue in content page tail image collage component.
+    * Fix **'Includes front-end JavaScript libraries with known security vulnerabilities'** by update lodash dependency to version `4.17.20`.
+    * Fix **'Background and foreground colors do not have a sufficient contrast ratio'** issue in content page top nav bar items.
+    * Fix **'Background and foreground colors do not have a sufficient contrast ratio'** issue in CCF link in footer.
 
 ## Version 0.2.5
 

@@ -11,3 +11,20 @@ p.FooterColumnHeading {
   font-size: 18px;
   color: white;
 }
+
+a.CCFLink {
+  color: rgb(255,182,31);
+}
+
+a.CCFLink:hover {
+  color: rgb(255,149,0);
+}
+
+@media (max-width: 415px) {
+  .FooterNav a {
+    display: inline-block;
+    font-size: 17px;
+    margin: 1rem auto;
+    padding: 20px;
+  }
+}
