@@ -4,10 +4,19 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 20, 2020
  */
 
 export const config = {
+  headMeta: {
+    title: "History of the cheetah",
+    description: "Learn about the history and evolution of the cheetah.",
+    keywords: [
+      "cheetah history",
+      "cheetah evolution",
+      "cheetah lineage",
+    ]
+  },
   pageProps: {
     coverImage: "History_Page_Cover_Image-min.jpg",
     title: "History",

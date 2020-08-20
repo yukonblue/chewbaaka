@@ -4,10 +4,20 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Aug 12, 2020
+ * Updated  : Aug 20, 2020
  */
 
 export const config = {
+  headMeta: {
+    title: "Future of the cheetah",
+    description: "Learn about the future of the cheetahs, and what conservation actions we can take.",
+    keywords: [
+      "cheetah status",
+      "cheetah future",
+      "illegal cheetah trafficking",
+      "livestock guarding dog",
+    ]
+  },
   pageProps: {
     coverImage: "Future_Page_Cover_Image-min.jpg",
     title: "Future",

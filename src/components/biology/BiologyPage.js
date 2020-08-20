@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Aug 18, 2020
+ * Updated  : Aug 20, 2020
  */
 
 import React, { Fragment } from 'react'
@@ -30,8 +30,7 @@ export default class BiologyPage extends React.Component {
     return (
       <ContentPageSkeleton
         appConfig={this.props.appConfig}
-        pageProps={config.pageProps}
-        contentPageIntro={config.contentPageIntro}
+        pageConfig={config}
         content={this.renderContent()}
         imagesContext={this.state.imagesContext}
       />

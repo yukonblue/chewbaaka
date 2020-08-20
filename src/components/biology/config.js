@@ -4,10 +4,19 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Aug 12, 2020
+ * Updated  : Aug 20, 2020
  */
 
 export const config = {
+  headMeta: {
+    title: "Cheetah biology",
+    description: "Learn about the biology and anatomy of the cheetah, and what makes it the fastest land animal.",
+    keywords: [
+      "cheetah biology",
+      "cheetah physiology",
+      "cheetah speed",
+    ]
+  },
   pageProps: {
     coverImage: "Biology_Page_Cover_Image-min.jpg",
     title: "Biology",

@@ -4,10 +4,20 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Aug 17, 2020
+ * Updated  : Aug 20, 2020
  */
 
 export const config = {
+  headMeta: {
+    title: "Cheetah ecosystem and habitat",
+    description: "Learn about the biology and anatomy of the cheetah, and what makes it the fastest land animal.",
+    keywords: [
+      "cheetah ecosystem",
+      "cheetah habitat",
+      "cheetah nich",
+      "Namibia biome"
+    ]
+  },
   pageProps: {
     coverImage: "Ecology_Page_Cover_Image-min.jpg",
     title: "Ecology",

@@ -4,10 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 18, 2020
+ * Updated  : Aug 20, 2020
  */
 
-import React from 'react'
+import React, { Fragment } from 'react'
+
+import { Helmet } from 'react-helmet'
 
 import {
   Button,
@@ -67,6 +69,29 @@ export default class ContentPageSkeleton extends React.Component {
 
   render() {
     return (
+      <Fragment>
+        {this.renderHTMLHead()}
+        {this.renderHTMLBody()}
+      </Fragment>
+    );
+  }
+
+  renderHTMLHead() {
+    const headMeta = this.props.pageConfig.headMeta;
+
+    const baseDescriptionKeywords = "cheetah, cheetah conservation, cheetah facts, learn about cheetahs, hope for cheetahs, save the cheetahs, Cheetah Conservation Fund, CCF, wildlife conservation, conservation";
+
+    return (
+      <Helmet>
+        <title>{headMeta.title}</title>
+        <meta name="description" content={headMeta.description} />
+        <meta name="keywords" content={headMeta.keywords.join(",") + ", " + baseDescriptionKeywords} />
+      </Helmet>
+    );
+  }
+
+  renderHTMLBody() {
+    return (
       <div className={getElementStyleClassName("ContentPageSkeletonOuterContainer")}>
         {this.renderHeader()}
         {this.renderBody()}
@@ -79,12 +104,12 @@ export default class ContentPageSkeleton extends React.Component {
     return (
       <div className="ContentPageSkeletonContentContainerDimension">
         <ContentPageHead
-          pageProps={this.props.pageProps}
+          pageProps={this.props.pageConfig.pageProps}
           imagesContext={this.props.imagesContext}
         />
 
         <ContentPageTableOfContentMenuBootstrapper
-          pageMenuItems={this.props.pageProps.pageMenuItems}
+          pageMenuItems={this.props.pageConfig.pageProps.pageMenuItems}
           imagesContext = {this.props.imagesContext}
         />
       </div>
@@ -103,14 +128,14 @@ export default class ContentPageSkeleton extends React.Component {
     return (
       <div className="ContentPageSkeletonContentContainer">
         <ContentPageIntroSectionGeneric
-          contentPageIntro={this.props.contentPageIntro}
+          contentPageIntro={this.props.pageConfig.contentPageIntro}
           imagesContext = {this.props.imagesContext}
         />
 
         {this.props.content}
 
         <ContentPageTail
-          pageTailNavMenu={this.props.pageProps.pageTailNavMenu}
+          pageTailNavMenu={this.props.pageConfig.pageProps.pageTailNavMenu}
         />
       </div>
     );
@@ -133,8 +158,8 @@ export default class ContentPageSkeleton extends React.Component {
               />
               <div hidden={!this.state.isMenuActive}>
                 <ContentPageSideNavMenu
-                  title={this.props.pageProps.title}
-                  items={this.props.pageProps.pageMenuItems.map(pageMenuItem => (pageMenuItem.title))}
+                  title={this.props.pageConfig.pageProps.title}
+                  items={this.props.pageConfig.pageProps.pageMenuItems.map(pageMenuItem => (pageMenuItem.title))}
                 />
               </div>
             </Sticky>
