@@ -9,7 +9,7 @@
 
 export const config = {
   headMeta: {
-    title: "Cheetah biology",
+    title: "Cheetah biology | Learn about cheetahs",
     description: "Learn about the biology and anatomy of the cheetah, and what makes it the fastest land animal.",
     keywords: [
       "cheetah biology",
