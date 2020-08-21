@@ -1,10 +1,14 @@
 # Release Note
 
-## %NEXT VERSION%
+## Version 0.2.7
 
+* Date: August 20, 2020
 * Changelog:
   * Fixes for the following issues:
     * Issue #187 - Content page title and other meta tags should have distinct content
+  * Other changes.
+    * Depedency module security update.
+    * Update content page titles.
 
 ## Version 0.2.6
 
