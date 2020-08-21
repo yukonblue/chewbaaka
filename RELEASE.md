@@ -3,6 +3,9 @@
 ## Version 0.2.8
 
 * Date: August 20, 2020
+* Commit: `4063848`
+* Tag: `v0.2.8`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.2.8)
 * Changelog:
   * Changeset #190 - Update `'semantic-ui-react'` to version `1.2.1`.
 
