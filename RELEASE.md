@@ -1,5 +1,11 @@
 # Release Note
 
+## Version 0.2.8
+
+* Date: August 20, 2020
+* Changelog:
+  * Changeset #190 - Update `'semantic-ui-react'` to version `1.2.1`.
+
 ## Version 0.2.7
 
 * Date: August 20, 2020
