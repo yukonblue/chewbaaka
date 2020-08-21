@@ -3,6 +3,9 @@
 ## Version 0.2.7
 
 * Date: August 20, 2020
+* Commit: `bffe06f`
+* Tag: `v0.2.7`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.2.7)
 * Changelog:
   * Fixes for the following issues:
     * Issue #187 - Content page title and other meta tags should have distinct content
