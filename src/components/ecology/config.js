@@ -9,7 +9,7 @@
 
 export const config = {
   headMeta: {
-    title: "Cheetah ecosystem and habitat",
+    title: "Cheetah ecosystem and habitat | Learn about cheetahs",
     description: "Learn about the ecosystem and habitats of the cheetah, and sustainable farming practices that protect their habitats.",
     keywords: [
       "cheetah ecosystem",

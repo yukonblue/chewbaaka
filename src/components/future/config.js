@@ -9,7 +9,7 @@
 
 export const config = {
   headMeta: {
-    title: "Future of the cheetah",
+    title: "Future of the cheetah | Learn about cheetahs",
     description: "Learn about the future of the cheetahs, and conservation actions for saving them from extinction.",
     keywords: [
       "cheetah status",
