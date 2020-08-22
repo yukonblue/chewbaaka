@@ -4,10 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 08, 2020
+ * Updated  : Aug 22, 2020
  */
 
-import React from 'react'
+import React, { Suspense } from 'react'
 
 import { getElementStyleClassName } from '../../styling/styling'
 
@@ -26,7 +26,7 @@ import HintSignpost from '../shared/HintSignpost'
 
 // import QnAPopUp from '../shared/QnAPopUp'
 
-import FelidaeFamilyTree from './FelidaeFamilyTree'
+// import FelidaeFamilyTree from './FelidaeFamilyTree'
 
 import big_cats_image from './assets/Big_Cats-min.png'
 
@@ -36,6 +36,8 @@ import './HistoryPage_Subsection_FelidaeFamilyTree.css'
 
 if ( process.env.NODE_ENV === 'development' )
   require('./HistoryPage_Subsection_FelidaeFamilyTree-debug.css')
+
+const FelidaeFamilyTree = React.lazy(() => import('./FelidaeFamilyTree'));
 
 export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Component {
 
@@ -141,13 +143,15 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
 
   renderFelidaeFamilyTreePartCore() {
     return (
-      <div className={getElementStyleClassName("HistoryPageSubsectionFelidaeFamilyTreeCore")}>
-        <HintSignpost
-          hintText="Hover over images below to reveal the members in the Felidae family tree"
-          iconName="arrow circle down"
-        />
-        <FelidaeFamilyTree />
-      </div>
+      <Suspense fallback={<div></div>}>
+        <div className={getElementStyleClassName("HistoryPageSubsectionFelidaeFamilyTreeCore")}>
+          <HintSignpost
+            hintText="Hover over images below to reveal the members in the Felidae family tree"
+            iconName="arrow circle down"
+          />
+          <FelidaeFamilyTree />
+        </div>
+      </Suspense>
     );
   }
 }
