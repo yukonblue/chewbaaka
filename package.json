@@ -41,6 +41,7 @@
   },
   "version": "0.2.9",
   "reactSnap": {
+    "inlineCss": true,
     "fixWebpackChunksIssue": false,
     "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"]
   }
