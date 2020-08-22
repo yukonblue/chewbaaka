@@ -1,5 +1,12 @@
 # Release Note
 
+## Version 0.2.9
+
+* Date: August 21, 2020
+* Changelog:
+  * Fixes for the following issues:
+    * Issue #191 - 'Home' menu item in content page top nav bar points to invalid '/home' path
+
 ## Version 0.2.8
 
 * Date: August 20, 2020
