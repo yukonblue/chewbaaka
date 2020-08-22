@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Aug 19, 2020
+ * Updated  : Aug 22, 2020
  */
 
 import React from 'react'
@@ -20,6 +20,9 @@ import {
 
 import ContentPageSectionTemplate from './ContentPageSectionTemplate'
 import ContentPageTailPrevNextButtonNavMenu from './ContentPageTailPrevNextButtonNavMenu'
+
+import DimensionPredicatedContainer from '../shared/DimensionPredicatedContainer'
+
 import './ContentPageSharedStyles.css'
 
 import './ContentPageTail.css'
@@ -56,9 +59,18 @@ export default class ContentPageTail extends React.Component {
     return (
       <div className={getElementStyleClassName("ContentPageTailInnerContainer")}
       >
-        {this.renderImageCollage()}
+        {this.renderImageCollageConditionally()}
         {this.renderPrevNextPageNavButtons()}
       </div>
+    );
+  }
+
+  renderImageCollageConditionally() {
+    return (
+      <DimensionPredicatedContainer
+        pred={(dimension) => (dimension.width >= 1024)}
+        renderContentHandler={this.renderImageCollage}
+      />
     );
   }
 
