@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 08, 2020
+ * Updated  : Aug 21, 2020
  */
 
 import React from 'react'
@@ -28,9 +28,12 @@ test('renders ContentPageTopNavMenuBar component', () => {
 
   const expectedMenuItemNames = ["Home", "History", "Biology", "Ecology", "Future"];
 
-  for (const [_, expectedMenuItemName] of expectedMenuItemNames.entries()) {
-    const menuItemElement = screen.getByText(expectedMenuItemName);
+  const getExpectedMenuItemHref = (menuItemName) => ("/" + (menuItemName.toLowerCase() === "home" ? "" : menuItemName.toLowerCase()));
+
+  for (const [_, menuItemName] of expectedMenuItemNames.entries()) {
+    const menuItemElement = screen.getByText(menuItemName);
     expect(menuItemElement).toBeInTheDocument();
+    expect(menuItemElement).toHaveAttribute('href', getExpectedMenuItemHref(menuItemName));
   }
 });
 

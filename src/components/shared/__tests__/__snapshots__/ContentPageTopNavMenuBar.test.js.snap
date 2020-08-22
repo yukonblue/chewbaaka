@@ -27,7 +27,7 @@ exports[`ContentPageTopNavMenuBar component snapshot 1`] = `
           className=""
         >
           <a
-            href="/home"
+            href="/"
             onClick={[Function]}
           >
             Home
