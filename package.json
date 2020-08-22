@@ -41,7 +41,6 @@
   },
   "version": "0.2.9",
   "reactSnap": {
-    "removeScriptTags": true,
     "fixWebpackChunksIssue": false,
     "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"]
   }
