@@ -3,6 +3,9 @@
 ## Version 0.2.9
 
 * Date: August 21, 2020
+* Commit: `f2b7d5f`
+* Tag: `v0.2.9`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.2.9)
 * Changelog:
   * Fixes for the following issues:
     * Issue #191 - 'Home' menu item in content page top nav bar points to invalid '/home' path
