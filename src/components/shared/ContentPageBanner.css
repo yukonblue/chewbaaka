@@ -50,13 +50,13 @@ p.ContentPageBannerSubtitle {
   color: white;
 }
 
-@media (max-width: 1279px) {
+@media (max-width: 1280px) {
   div.ContentPageBannerContainer {
     height: 720px;
   }
 }
 
-@media (max-width: 639px) {
+@media (max-width: 640px) {
   div.ContentPageBannerContainer {
     height: 360px;
   }

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Aug 20, 2020
+ * Updated  : Aug 22, 2020
  */
 
 export const config = {
@@ -19,7 +19,7 @@ export const config = {
     ]
   },
   pageProps: {
-    coverImage: "Ecology_Page_Cover_Image-min.jpg",
+    coverImageNamePrefix: "Ecology_Page_Cover_Image",
     title: "Ecology",
     subtitle: "Learn about the habitats and ecosystems that cheetahs live in, and their relationships with other species in the ecosystem.",
     pageMenuItems: [

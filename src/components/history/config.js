@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 20, 2020
+ * Updated  : Aug 22, 2020
  */
 
 export const config = {
@@ -20,7 +20,7 @@ export const config = {
     ]
   },
   pageProps: {
-    coverImage: "History_Page_Cover_Image-min.jpg",
+    coverImageNamePrefix: "History_Page_Cover_Image",
     title: "History",
     subtitle: "Learn about the evolution and migration of the species, its relationship with man throughout history, and its population and ranges.",
     pageMenuItems: [
