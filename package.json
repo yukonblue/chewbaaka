@@ -33,7 +33,7 @@
   "name": "chewbaaka",
   "private": true,
   "scripts": {
-    "build": "react-scripts build && node ./addPreloadLinks.js",
+    "build": "react-scripts build && node ./addPreloadWoff.js && node ./addPreloadLinks.js",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "test": "react-scripts test --runInBand"

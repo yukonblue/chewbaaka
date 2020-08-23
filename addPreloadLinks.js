@@ -28,7 +28,10 @@ let fileWithPreload = [
   splitBy,
 ];
 
+console.log('Adding preload links for the following static files in index.html head:');
 links.forEach(link => {
+  console.log(link);
+
   let fileType = 'script';
 
   if (/\.css$/.test(link)) {
