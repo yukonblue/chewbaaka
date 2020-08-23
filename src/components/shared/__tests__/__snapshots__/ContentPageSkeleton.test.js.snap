@@ -117,71 +117,73 @@ exports[`ContentPageSkeleton snapshot 1`] = `
         </div>
       </div>
     </header>
-    <div
-      className="ContentPageTableOfContentMenuTemplateOuterContainer"
-    >
+    <div>
       <div
-        className="ContentPageTableOfContentMenuTemplateInnerContainer"
+        className="ContentPageTableOfContentMenuTemplateOuterContainer"
       >
-        <nav>
-          <div
-            className="FluidSingleRowGridOuterContainer"
-            style={
-              Object {
-                "justifyContent": undefined,
+        <div
+          className="ContentPageTableOfContentMenuTemplateInnerContainer"
+        >
+          <nav>
+            <div
+              className="FluidSingleRowGridOuterContainer"
+              style={
+                Object {
+                  "justifyContent": undefined,
+                }
               }
-            }
-          >
-            <div
-              className="CircularImageButtonOuterContainer"
             >
-              <a
-                href="#menu-item-1"
+              <div
+                className="CircularImageButtonOuterContainer"
               >
-                <div
-                  className="CircularImageButtonCore"
+                <a
+                  href="#menu-item-1"
                 >
-                  <img
-                    alt="Menu Item 1"
-                    className="CircularImageButtonImg"
-                    src={null}
-                  />
-                </div>
-                <div>
-                  <p
-                    className="CircularImageButtonTitle"
+                  <div
+                    className="CircularImageButtonCore"
                   >
-                    Menu Item 1
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div
-              className="CircularImageButtonOuterContainer"
-            >
-              <a
-                href="#menu-item-2"
+                    <img
+                      alt="Menu Item 1"
+                      className="CircularImageButtonImg"
+                      src={null}
+                    />
+                  </div>
+                  <div>
+                    <p
+                      className="CircularImageButtonTitle"
+                    >
+                      Menu Item 1
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div
+                className="CircularImageButtonOuterContainer"
               >
-                <div
-                  className="CircularImageButtonCore"
+                <a
+                  href="#menu-item-2"
                 >
-                  <img
-                    alt="Menu Item 2"
-                    className="CircularImageButtonImg"
-                    src={null}
-                  />
-                </div>
-                <div>
-                  <p
-                    className="CircularImageButtonTitle"
+                  <div
+                    className="CircularImageButtonCore"
                   >
-                    Menu Item 2
-                  </p>
-                </div>
-              </a>
+                    <img
+                      alt="Menu Item 2"
+                      className="CircularImageButtonImg"
+                      src={null}
+                    />
+                  </div>
+                  <div>
+                    <p
+                      className="CircularImageButtonTitle"
+                    >
+                      Menu Item 2
+                    </p>
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
-        </nav>
+          </nav>
+        </div>
       </div>
     </div>
   </div>
@@ -247,7 +249,304 @@ exports[`ContentPageSkeleton snapshot 1`] = `
             <div
               className="ContentPageTailInnerContainer"
             >
-              <div />
+              <div>
+                <div
+                  className="ContentPageTailInnerImageCollageContainer"
+                >
+                  <div
+                    className="ImageCollageOuterContainer"
+                  >
+                    <div
+                      className="ImageCollageInnerContainer"
+                    >
+                      <div
+                        className="ImageCollageCellOuterContainer"
+                      >
+                        <div
+                          className="ImageCollageCellInnerContainer"
+                        >
+                          <div
+                            className="ui move down reveal"
+                          >
+                            <div
+                              className="ui hidden content"
+                            >
+                              <div
+                                className="ImageCollageCellCore"
+                              >
+                                <a
+                                  className="ui image"
+                                  href="https://cheetah.org/get-involved/ways-to-give/"
+                                >
+                                  <img
+                                    height={320}
+                                    src="collage_01-min.jpg"
+                                    width={480}
+                                  />
+                                </a>
+                                <div
+                                  className="ImageCollageCellTitleGroupOuterContainer"
+                                >
+                                  <p
+                                    className="ImageCollageCellSubtitleText"
+                                  >
+                                    Every action counts
+                                  </p>
+                                  <p
+                                    className="ImageCollageCellTitleText"
+                                  >
+                                    Get Involved
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              className="ui visible content"
+                            >
+                              <div
+                                className="ImageCollageCellCore"
+                              >
+                                <a
+                                  className="ui image ImageCollageCellImgVisibleStyle"
+                                  href="https://cheetah.org/get-involved/ways-to-give/"
+                                >
+                                  <img
+                                    height={320}
+                                    src="collage_01-min.jpg"
+                                    width={480}
+                                  />
+                                </a>
+                                <div
+                                  className="ImageCollageCellTitleGroupOuterContainer"
+                                >
+                                  <p
+                                    className="ImageCollageCellTitleText"
+                                  >
+                                    Get Involved
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="ImageCollageCellOuterContainer"
+                      >
+                        <div
+                          className="ImageCollageCellInnerContainer"
+                        >
+                          <div
+                            className="ui move down reveal"
+                          >
+                            <div
+                              className="ui hidden content"
+                            >
+                              <div
+                                className="ImageCollageCellCore"
+                              >
+                                <a
+                                  className="ui image"
+                                  href="https://internationalcheetahday.com/"
+                                >
+                                  <img
+                                    height={320}
+                                    src="collage_02-min.jpg"
+                                    width={480}
+                                  />
+                                </a>
+                                <div
+                                  className="ImageCollageCellTitleGroupOuterContainer"
+                                >
+                                  <p
+                                    className="ImageCollageCellSubtitleText"
+                                  >
+                                    Cheetahs deserve a holiday of their own
+                                  </p>
+                                  <p
+                                    className="ImageCollageCellTitleText"
+                                  >
+                                    International Cheetah Day
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              className="ui visible content"
+                            >
+                              <div
+                                className="ImageCollageCellCore"
+                              >
+                                <a
+                                  className="ui image ImageCollageCellImgVisibleStyle"
+                                  href="https://internationalcheetahday.com/"
+                                >
+                                  <img
+                                    height={320}
+                                    src="collage_02-min.jpg"
+                                    width={480}
+                                  />
+                                </a>
+                                <div
+                                  className="ImageCollageCellTitleGroupOuterContainer"
+                                >
+                                  <p
+                                    className="ImageCollageCellTitleText"
+                                  >
+                                    International Cheetah Day
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="ImageCollageCellOuterContainer"
+                      >
+                        <div
+                          className="ImageCollageCellInnerContainer"
+                        >
+                          <div
+                            className="ui move down reveal"
+                          >
+                            <div
+                              className="ui hidden content"
+                            >
+                              <div
+                                className="ImageCollageCellCore"
+                              >
+                                <a
+                                  className="ui image"
+                                  href="https://www.iucnredlist.org/es/species/219/13034574"
+                                >
+                                  <img
+                                    height={320}
+                                    src="collage_03-min.jpg"
+                                    width={480}
+                                  />
+                                </a>
+                                <div
+                                  className="ImageCollageCellTitleGroupOuterContainer"
+                                >
+                                  <p
+                                    className="ImageCollageCellSubtitleText"
+                                  >
+                                    Latest status on the species
+                                  </p>
+                                  <p
+                                    className="ImageCollageCellTitleText"
+                                  >
+                                    Cheetah on IUCN
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              className="ui visible content"
+                            >
+                              <div
+                                className="ImageCollageCellCore"
+                              >
+                                <a
+                                  className="ui image ImageCollageCellImgVisibleStyle"
+                                  href="https://www.iucnredlist.org/es/species/219/13034574"
+                                >
+                                  <img
+                                    height={320}
+                                    src="collage_03-min.jpg"
+                                    width={480}
+                                  />
+                                </a>
+                                <div
+                                  className="ImageCollageCellTitleGroupOuterContainer"
+                                >
+                                  <p
+                                    className="ImageCollageCellTitleText"
+                                  >
+                                    Cheetah on IUCN
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="ImageCollageCellOuterContainer"
+                      >
+                        <div
+                          className="ImageCollageCellInnerContainer"
+                        >
+                          <div
+                            className="ui move down reveal"
+                          >
+                            <div
+                              className="ui hidden content"
+                            >
+                              <div
+                                className="ImageCollageCellCore"
+                              >
+                                <a
+                                  className="ui image"
+                                  href="https://wildnet.org/"
+                                >
+                                  <img
+                                    height={320}
+                                    src="collage_04-min.jpg"
+                                    width={480}
+                                  />
+                                </a>
+                                <div
+                                  className="ImageCollageCellTitleGroupOuterContainer"
+                                >
+                                  <p
+                                    className="ImageCollageCellSubtitleText"
+                                  >
+                                    Work with other organizations
+                                  </p>
+                                  <p
+                                    className="ImageCollageCellTitleText"
+                                  >
+                                    Join Forces
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              className="ui visible content"
+                            >
+                              <div
+                                className="ImageCollageCellCore"
+                              >
+                                <a
+                                  className="ui image ImageCollageCellImgVisibleStyle"
+                                  href="https://wildnet.org/"
+                                >
+                                  <img
+                                    height={320}
+                                    src="collage_04-min.jpg"
+                                    width={480}
+                                  />
+                                </a>
+                                <div
+                                  className="ImageCollageCellTitleGroupOuterContainer"
+                                >
+                                  <p
+                                    className="ImageCollageCellTitleText"
+                                  >
+                                    Join Forces
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div
                 className="ContentPageTailInnerNavMenuContainer"
               >
