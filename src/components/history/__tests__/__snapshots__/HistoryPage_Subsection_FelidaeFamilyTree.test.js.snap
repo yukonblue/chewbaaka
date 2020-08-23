@@ -97,7 +97,2199 @@ exports[`HistoryPageSubsectionFelidaeFamilyTree component snapshot 1`] = `
           </span>
            cat family that are the most related genetically.
         </p>
-        <div />
+        <div>
+          <div
+            className="HistoryPageSubsectionFelidaeFamilyTreeCore"
+          >
+            <div
+              className="HintSignpostOuterContainer"
+            >
+              <div
+                className="HintSignpostInnerContainer"
+              >
+                <div
+                  className="ui blue large label"
+                  onClick={[Function]}
+                >
+                  Hover over images below to reveal the members in the Felidae family tree
+                  <div
+                    className="HintSignpostIconContainer"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="arrow circle down large icon"
+                      onClick={[Function]}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="FelidaeFamilyTreeComponentOuterContainerDiv"
+            >
+              <div
+                style={
+                  Object {
+                    "left": 35,
+                    "position": "absolute",
+                    "top": 10,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_cheetah_Acinonyx_jubatus_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "orange",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Cheetah
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Acinonyx jubatus
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 15,
+                    "position": "absolute",
+                    "top": 160,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_puma_Puma_concolor_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "orange",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Puma
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Puma concolor
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 40,
+                    "position": "absolute",
+                    "top": 310,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_jaguarundi_Herpailurus_yagouaroundi_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "orange",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Jaguarundi
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Herpailurus yagouaroundi
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 180,
+                    "position": "absolute",
+                    "top": 30,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_eurasian_lynx_Lynx_lynx_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(29,88,182",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Eurasian Lynx
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Lynx lynx
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 190,
+                    "position": "absolute",
+                    "top": 190,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_canadian_lynx_Lynx_canadensis_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(29,88,182",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Canadian Lynx
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Lynx canadensis
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 200,
+                    "position": "absolute",
+                    "top": 350,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_iberian_lynx_Lynx_pardinus_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(29,88,182",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Iberian Lynx
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Lynx pardinus
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 180,
+                    "position": "absolute",
+                    "top": 500,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_bobcat_Lynx_rufus_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(29,88,182",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Bobcat
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Lynx rufus
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 430,
+                    "position": "absolute",
+                    "top": 20,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_tiger_Panthera_tigris_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(248,180,14)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Tiger
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Panthera tigris
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 580,
+                    "position": "absolute",
+                    "top": 30,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_lion_Panthera_leo_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(248,180,14)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Lion
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Panthera leo
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 400,
+                    "position": "absolute",
+                    "top": 180,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_jaguar_Panthera_onca_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(248,180,14)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Jaguar
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Panthera onca
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 550,
+                    "position": "absolute",
+                    "top": 180,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_leopard_Panthera_pardus_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(248,180,14)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Leopard
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Panthera pardus
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 390,
+                    "position": "absolute",
+                    "top": 330,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_snow_leopard_Panthera_uncia_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(248,180,14)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Snow Leopard
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Panthera uncia
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 330,
+                    "position": "absolute",
+                    "top": 470,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_mainland_clouded_leopard_Neofelis_nebulosa_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(248,180,14)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Mainland Clouded Leopard
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Neofelis nebulosa
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 320,
+                    "position": "absolute",
+                    "top": 620,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_sunda_clouded_leopard_Neofelis_diardi_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(248,180,14)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Sunda Clouded Leopard
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Neofelis diardi
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 1340,
+                    "position": "absolute",
+                    "top": 420,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_asiatic_golden_cat_Catopuma_temminckii_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(95,0,221)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Asiatic Golden Cat
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Catopuma temminckii
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 1180,
+                    "position": "absolute",
+                    "top": 490,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_borneo_bay_cat_Catopuma_badia_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(95,0,221)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Borneo Bay Cat
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Catopuma badia
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 1020,
+                    "position": "absolute",
+                    "top": 540,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_marbled_cat_Pardofelis_marmorata_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(95,0,221)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Marbled Cat
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Pardofelis marmorata
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 1400,
+                    "position": "absolute",
+                    "top": 640,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_ocelot_Leopardus_pardalis_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(41,105,3)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Ocelot
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Leopardus pardalis
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 1370,
+                    "position": "absolute",
+                    "top": 780,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_geoffroys_cat_Leopardus_geoffroyi_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(41,105,3)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Geoffroy's Cat
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Leopardus geoffroyi
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 1200,
+                    "position": "absolute",
+                    "top": 700,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_andean_cat_Leopardus_jacobita_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(41,105,3)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Andean Cat
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Leopardus jacobita
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 1020,
+                    "position": "absolute",
+                    "top": 720,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_margay_Leopardus_wiedii_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(41,105,3)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Margay
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Leopardus wiedii
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 880,
+                    "position": "absolute",
+                    "top": 660,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_pampas_cat_Leopardus_colocola_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(41,105,3)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Pampas Cat
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Leopardus colocola
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 730,
+                    "position": "absolute",
+                    "top": 670,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_oncilla_Leopardus_tigrinus_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(41,105,3)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Oncilla - Northern Tiger Cat
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Leopardus tigrinus
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 580,
+                    "position": "absolute",
+                    "top": 730,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_southern_tiger_cat_Leopardus_guttulus_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(41,105,3)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Southern Tiger Cat
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Leopardus guttulus
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 1200,
+                    "position": "absolute",
+                    "top": 850,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_guina_Leopardus_guigna_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(41,105,3)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Guiña / Kodkod
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Leopardus guigna
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 790,
+                    "position": "absolute",
+                    "top": 10,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_fishing_cat_Prionailurus_viverrinus_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(232,10,147)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Fishing Cat
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Prionailurus viverrinus
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 750,
+                    "position": "absolute",
+                    "top": 150,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_mainland_leopard_cat_Prionailurus_bengalensis_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(232,10,147)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Mainland Leopard Cat
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Prionailurus bengalensis
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 700,
+                    "position": "absolute",
+                    "top": 300,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_sunda_leopard_cat_Prionailurus_javanensis_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(232,10,147)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Sunda Leopard Cat
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Prionailurus javanensis
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 560,
+                    "position": "absolute",
+                    "top": 400,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_flat_headed_cat_Prionailurus_planiceps_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(232,10,147)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Flat-headed Cat
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Prionailurus planiceps
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 700,
+                    "position": "absolute",
+                    "top": 450,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_rusty_spotted_cat_Prionailurus_rubiginosus_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(232,10,147)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Rusty-spotted Cat
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Prionailurus rubiginosus
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 530,
+                    "position": "absolute",
+                    "top": 560,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_pallas_cat_Otocolobus_manul_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(232,10,147)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Pallas's Cat
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Otocolobus manul
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 950,
+                    "position": "absolute",
+                    "top": 10,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_caracal_Caracal_caracal_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(12,231,168)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Caracal
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Caracal caracal
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 900,
+                    "position": "absolute",
+                    "top": 160,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_serval_Leptailurus_serval_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(12,231,168)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Serval
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Leptailurus serval
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 860,
+                    "position": "absolute",
+                    "top": 300,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_african_golden_cat_Caracal_aurata_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(12,231,168)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        African Golden Cat
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Caracal aurata
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 1120,
+                    "position": "absolute",
+                    "top": 30,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_jungle_cat_Felis_chaus_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(154,77,13)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Jungle Cat
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Felis chaus
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 1070,
+                    "position": "absolute",
+                    "top": 170,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_chinese_mountain_cat_Felis_bieti_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(154,77,13)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Chinese Mountain Cat
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Felis bieti
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 1200,
+                    "position": "absolute",
+                    "top": 170,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_european_wildcat_Felis_silvestris_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(154,77,13)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        European Wildcat
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Felis silvestris
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 1330,
+                    "position": "absolute",
+                    "top": 230,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_african_wildcat_Felis_lybica_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(154,77,13)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        African-Asiatic Wildcat
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Felis lybica
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 1200,
+                    "position": "absolute",
+                    "top": 300,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_sand_cat_Felis_margarita_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(154,77,13)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Sand Cat
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Felis margarita
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "left": 1060,
+                    "position": "absolute",
+                    "top": 320,
+                  }
+                }
+              >
+                <div
+                  className="ui fade reveal"
+                  data-testid="TextRevealComponentTestId"
+                >
+                  <div
+                    className="ui visible content"
+                    data-testid="TextRevealComponentVisiblePartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentCoverContainerDiv"
+                    >
+                      <img
+                        className="ui image"
+                        src="felidae_black_footed_cat_Felis_nigripes_240x240-min.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="ui hidden content"
+                    data-testid="TextRevealComponentHiddenPartTestId"
+                  >
+                    <div
+                      className="TextRevealComponentContentContainerDiv"
+                      style={
+                        Object {
+                          "backgroundColor": "rgb(154,77,13)",
+                        }
+                      }
+                    >
+                      <p
+                        className="TextRevealComponentDescriptionText"
+                        data-testid="TextRevealComponentDescriptionTextPartTestId"
+                      >
+                        Black-footed Cat
+                      </p>
+                      <p
+                        className="TextRevealComponentCaptionText"
+                        data-testid="TextRevealComponentCaptionTextPartTestId"
+                      >
+                        Felis nigripes
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div>
           <a
             href="https://www.wildcatfamily.com/felidae-evolution/"
