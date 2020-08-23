@@ -20,7 +20,7 @@
 const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
-const assets = glob.sync(__dirname + '/build/static/media/*.woff*')
+const assets = glob.sync(__dirname + '/build/static/media/*.woff2')
   .map((assetPath) => {
     // console.log(assetPath);
     return path.relative(__dirname + '/build', assetPath);
