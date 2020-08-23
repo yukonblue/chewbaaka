@@ -3,6 +3,9 @@
 ## Version 0.3.0
 
 * Date: August 23, 2020
+* Commit: `c6fdd6b`
+* Tag: `v0.3.0`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.3.0)
 * Changelog:
   * Changeset #194 - Lazy loading architecture
   * Changeset #195 - Adopt lazy loading in History page
