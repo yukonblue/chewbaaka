@@ -60,4 +60,8 @@ p.ContentPageBannerSubtitle {
   div.ContentPageBannerContainer {
     height: 360px;
   }
+
+  p.ContentPageBannerSubtitle {
+    line-height: 1.2;
+  }
 }
