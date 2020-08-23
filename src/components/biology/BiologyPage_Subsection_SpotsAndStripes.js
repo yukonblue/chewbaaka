@@ -4,10 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Aug 13, 2020
+ * Updated  : Aug 22, 2020
  */
 
-import React from 'react'
+import React, { Suspense } from 'react'
 
 import '../shared/ContentPageSharedStyles.css'
 
@@ -26,7 +26,7 @@ import FactBannerImage from '../shared/FactBannerImage'
 
 import ImageView from '../shared/ImageView'
 
-import BigCatSpotsIllustration from './BigCatSpotsIllustration'
+// import BigCatSpotsIllustration from './BigCatSpotsIllustration'
 
 import image_cheetah_mantle from './assets/Cheetah_Mantle-min.jpg'
 import image_cheetah_and_honey_badger from './assets/cheetah_and_honey_badger-min.jpg'
@@ -34,6 +34,8 @@ import image_cheetah_and_honey_badger from './assets/cheetah_and_honey_badger-mi
 import image_What_is_Camouflage from './assets/What_is_Camouflage-min.png'
 
 import './BiologyPage_Subsection_SpotsAndStripes.css'
+
+const BigCatSpotsIllustration = React.lazy(() => import('./BigCatSpotsIllustration'));
 
 export default class BiologyPageSubsectionSpotsAndStripes extends React.Component {
 
@@ -117,11 +119,13 @@ export default class BiologyPageSubsectionSpotsAndStripes extends React.Componen
 
   renderPart3() {
     return (
-      <div className="BigCatSpotsIllustrationPageSubsectionWrapper">
-        <ContentPageSubsectionPart>  
-          <BigCatSpotsIllustration />
-        </ContentPageSubsectionPart>
-      </div>
+      <Suspense fallback={<div></div>}>
+        <div className="BigCatSpotsIllustrationPageSubsectionWrapper">
+          <ContentPageSubsectionPart>  
+            <BigCatSpotsIllustration />
+          </ContentPageSubsectionPart>
+        </div>
+      </Suspense>
     );
   }
 }
