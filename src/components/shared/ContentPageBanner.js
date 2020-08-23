@@ -66,13 +66,11 @@ export default class ContentPageBanner extends React.Component {
   }
 
   getCoverImageInstance(matches) {
-    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : (matches.medium ? "_M" : "_L")) : "_S";
+    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : (matches.medium ? "_M" : "_L")) : "_L";
 
     const ext = ".jpg";
 
     const coverImageName = this.props.coverImageNamePrefix + coverImageSizeSuffix + "-min" + ext;
-
-    // console.log(coverImageName);
 
     let coverImage = null;
 
