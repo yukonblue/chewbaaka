@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Aug 20, 2020
+ * Updated  : Aug 22, 2020
  */
 
 export const config = {
@@ -20,7 +20,7 @@ export const config = {
     ]
   },
   pageProps: {
-    coverImage: "Biology_Page_Cover_Image-min.jpg",
+    coverImageNamePrefix: "Biology_Page_Cover_Image",
     title: "Biology",
     subtitle: "Learn everything about what makes the cheetah so remarkable and unique.",
     pageMenuItems: [

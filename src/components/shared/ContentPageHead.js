@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 18, 2020
+ * Updated  : Aug 22, 2020
  */
 
 import React from 'react'
@@ -24,17 +24,6 @@ if ( process.env.NODE_ENV === 'development' )
   require('./ContentPageHead-debug.css')
 
 export default function ContentPageHead(props) {
-  let coverImage = null;
-
-  /**
-   * NOTE:
-   * We don't have a context in unit test.
-   */
-  if (props.imagesContext) {
-    const images = props.imagesContext();
-    coverImage = images("./" + props.pageProps.coverImage);
-  }
-
   return (
     <header>
       <div
@@ -45,7 +34,8 @@ export default function ContentPageHead(props) {
           pageTitle={props.pageProps.title}
         />
         <ContentPageBanner
-          coverImage={coverImage}
+          coverImageNamePrefix={props.pageProps.coverImageNamePrefix}
+          imagesContext={props.imagesContext}
           title={props.pageProps.title}
           subtitle={props.pageProps.subtitle}
         />

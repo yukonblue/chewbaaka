@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 06, 2020
+ * Updated  : Aug 22, 2020
  */
 
 import React from 'react'
@@ -17,12 +17,12 @@ import ContentPageHead from '../ContentPageHead'
 
 import RouterWrapped from '../../../testing/RouterWrapped'
 
-const coverImage="";
-const title="Page Title";
-const subtitle="Page Subtitle";
+const coverImageNamePrefix = "My_Cover_Image";
+const title = "Page Title";
+const subtitle = "Page Subtitle";
 
 const pageProps = {
-  coverImage: coverImage,
+  coverImageNamePrefix: coverImageNamePrefix,
   title: title,
   subtile: subtitle
 };

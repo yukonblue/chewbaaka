@@ -4,23 +4,34 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 08, 2020
+ * Updated  : Aug 22, 2020
  */
 
-import React from 'react';
+import React from 'react'
 
-import { render, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react'
 
-import renderer from 'react-test-renderer';
+import renderer from 'react-test-renderer'
 
-import ContentPageBanner from '../ContentPageBanner';
+import ContentPageBanner from '../ContentPageBanner'
 
-const coverImage = '';
+const coverImageNamePrefix = "My_Cover_Image";
 const title = 'Title';
 const subtitle = 'This is a subtitle';
 
+const getInstance = () => (
+  <ContentPageBanner
+    coverImageNamePrefix={coverImageNamePrefix}
+    title={title}
+    subtitle={subtitle}
+    imageContext={null}
+  />
+);
+
 test('renders ContentPageBanner component', () => {
-  render(<ContentPageBanner coverImage={coverImage} title={title} subtitle={subtitle} />);
+  render(
+    getInstance()
+  );
 
   const component = screen.getByTestId("ContentPageBannerComponentTestId");
   expect(component).toBeInTheDocument();
@@ -35,11 +46,7 @@ test('renders ContentPageBanner component', () => {
 test('ContentPageBanner component snapshot', () => {
   const tree = renderer
     .create(
-      <ContentPageBanner
-        coverImage={coverImage}
-        title={title}
-        subtitle={subtitle}
-      />)
-    .toJSON();
+      getInstance()
+    ).toJSON();
   expect(tree).toMatchSnapshot();
 });
