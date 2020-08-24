@@ -3,7 +3,7 @@ health_check.py
 
 Author   : Tomiko
 Created  : Aug 03, 2020
-Updated  : Aug 10, 2020
+Updated  : Aug 24, 2020
 """
 
 import argparse
@@ -218,8 +218,11 @@ class HTMLHeadCheck(object):
         if htmlParser.title != HTMLHeadCheck.EXPECTED_TITLE:
             raise ValidationError('Unexpected HTML title: {title}'.format(htmlParser.title))
 
-        for key, val in htmlParser.meta.iteritems():
-            if key in HTMLHeadCheck.EXPECTED_META and val != HTMLHeadCheck.EXPECTED_META[key]:
+        for key, expected in HTMLHeadCheck.EXPECTED_META.iteritems():
+            value = htmlParser.meta.get(key)
+            if not value:
+                raise ValidationError('Did not find meta with name \"{name}\" in response.'.format(name=key))
+            elif value != expected:
                 raise ValidationError('Unexpected meta key for name \"{name}\": \"{val}\"'.format(name=key, val=val))
 
 
