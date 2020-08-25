@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 23, 2020
+ * Updated  : Aug 09, 2020
  */
 
 .ui.vertical.center.aligned.segment.LandingPageGatewayOuterContainer {
@@ -14,19 +14,19 @@
 }
 
 .ui.vertical.segment.LandingPageGatewayBackgroundStyle1 {
-  background-image: url('./assets/background_CCF_01_L-min.jpg');
+  background-image: url('./assets/background_CCF_01-min.jpg');
 }
 
 .ui.vertical.segment.LandingPageGatewayBackgroundStyle2 {
-  background-image: url('./assets/background_CCF_02_L-min.jpg');
+  background-image: url('./assets/background_CCF_02-min.jpg');
 }
 
 .ui.vertical.segment.LandingPageGatewayBackgroundStyle3 {
-  background-image: url('./assets/background_CCF_03_L-min.jpg');
+  background-image: url('./assets/background_CCF_03-min.jpg');
 }
 
 .ui.vertical.segment.LandingPageGatewayBackgroundStyle4 {
-  background-image: url('./assets/background_CCF_04_L-min.jpg');
+  background-image: url('./assets/background_CCF_04-min.jpg');
 }
 
 .ui.container.LandingPageGatewayCoreContentContainer {
@@ -47,40 +47,4 @@
 
 .ui.container.LandingPageGatewayCoreContentContainer h2.header {
   text-shadow: 0 0 6px #000;
-}
-
-@media (max-width: 1280px) {
-  .ui.vertical.segment.LandingPageGatewayBackgroundStyle1 {
-    background-image: url('./assets/background_CCF_01_M-min.jpg');
-  }
-  
-  .ui.vertical.segment.LandingPageGatewayBackgroundStyle2 {
-    background-image: url('./assets/background_CCF_02_M-min.jpg');
-  }
-  
-  .ui.vertical.segment.LandingPageGatewayBackgroundStyle3 {
-    background-image: url('./assets/background_CCF_03_M-min.jpg');
-  }
-  
-  .ui.vertical.segment.LandingPageGatewayBackgroundStyle4 {
-    background-image: url('./assets/background_CCF_04_M-min.jpg');
-  }
-}
-
-@media (max-width: 640px) {
-  .ui.vertical.segment.LandingPageGatewayBackgroundStyle1 {
-    background-image: url('./assets/background_CCF_01_S-min.jpg');
-  }
-  
-  .ui.vertical.segment.LandingPageGatewayBackgroundStyle2 {
-    background-image: url('./assets/background_CCF_02_S-min.jpg');
-  }
-  
-  .ui.vertical.segment.LandingPageGatewayBackgroundStyle3 {
-    background-image: url('./assets/background_CCF_03_S-min.jpg');
-  }
-  
-  .ui.vertical.segment.LandingPageGatewayBackgroundStyle4 {
-    background-image: url('./assets/background_CCF_04_S-min.jpg');
-  }
 }
