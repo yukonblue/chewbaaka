@@ -20,6 +20,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-helmet": "^6.1.0",
+    "react-media": "^1.10.0",
     "react-router-dom": "5.2.0",
     "react-scripts": "^3.4.3",
     "react-snap": "^1.23.0",
@@ -33,13 +34,13 @@
   "name": "chewbaaka",
   "private": true,
   "scripts": {
-    "build": "react-scripts build",
+    "build": "react-scripts build && node ./addPreloadWoff.js && node ./addPreloadLinks.js",
     "postbuild": "react-snap",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "test": "react-scripts test --runInBand"
   },
-  "version": "0.2.9",
+  "version": "0.3.1",
   "reactSnap": {
     "inlineCss": true,
     "fixWebpackChunksIssue": false,

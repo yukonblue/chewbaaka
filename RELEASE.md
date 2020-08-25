@@ -1,5 +1,31 @@
 # Release Note
 
+## Version 0.3.1
+
+* Date: August 24, 2020
+* Commit: `775910d`
+* Tag: `v0.3.1`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.3.1)
+* Changelog:
+  * Revert #200 - "Optimize homepage landing gateway background image assets with size variants (#200)"
+
+## Version 0.3.0
+
+* Date: August 23, 2020
+* Commit: `c6fdd6b`
+* Tag: `v0.3.0`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.3.0)
+* Changelog:
+  * Changeset #194 - Lazy loading architecture
+  * Changeset #195 - Adopt lazy loading in History page
+  * Changeset #196 - Render Image Collage in content page tail conditionally
+  * Changeset #197 - Optimize content page banner style and asset
+  * Changeset #198 - Conditionally render content page ToC
+  * Changeset #199 - More code splitting and lazy loading
+  * Changeset #200 - Optimize homepage landing gateway background image assets with size variants
+  * 227c11e - Convert stylesheet links in index.html's head markup to 'preload' links
+  * da193cf - Add 'preload' <link> tags in index.html's head markup for all static .woff/.woff2 files
+
 ## Version 0.2.9
 
 * Date: August 21, 2020

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 18, 2020
+ * Updated  : Aug 22, 2020
  */
 
 div.ContentPageBannerContainer {
@@ -48,4 +48,20 @@ p.ContentPageBannerSubtitle {
   font-weight: 520;
   line-height: 1.6;
   color: white;
+}
+
+@media (max-width: 1280px) {
+  div.ContentPageBannerContainer {
+    height: 720px;
+  }
+}
+
+@media (max-width: 640px) {
+  div.ContentPageBannerContainer {
+    height: 360px;
+  }
+
+  p.ContentPageBannerSubtitle {
+    line-height: 1.2;
+  }
 }

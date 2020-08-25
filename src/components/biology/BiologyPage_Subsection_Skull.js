@@ -4,10 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Aug 12, 2020
+ * Updated  : Aug 22, 2020
  */
 
-import React from 'react'
+import React, { Suspense } from 'react'
 
 import '../shared/ContentPageSharedStyles.css'
 
@@ -19,9 +19,11 @@ import {
 
 import DimensionPredicatedContainer from '../shared/DimensionPredicatedContainer'
 
-import CheetahSkullDiagram from './CheetahSkullDiagram'
+// import CheetahSkullDiagram from './CheetahSkullDiagram'
 
 import './BiologyPage_Subsection_Skull.css'
+
+const CheetahSkullDiagram = React.lazy(() => import('./CheetahSkullDiagram'));
 
 export default class BiologyPageSubsectionSkull extends React.Component {
 
@@ -63,9 +65,11 @@ export default class BiologyPageSubsectionSkull extends React.Component {
 
   renderCheetahSkulDiagram() {
     return (
-      <div className="BiologyPageSubsectionSkullCheetahSkullDiagramContainer">
-        <CheetahSkullDiagram />
-      </div>
+      <Suspense fallback={<div></div>}>
+        <div className="BiologyPageSubsectionSkullCheetahSkullDiagramContainer">
+          <CheetahSkullDiagram />
+        </div>
+      </Suspense>
     );
   }
 }

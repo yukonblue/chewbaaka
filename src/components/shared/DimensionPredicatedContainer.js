@@ -25,6 +25,12 @@ export default class DimensionPredicatedContainer extends React.Component {
           height: this.container.offsetHeight,
         },
       });
+    } else {
+      this.setState({
+        dimensions: {
+          width: 1600,  // Give some large value for when running tests.
+        },
+      });
     }
   }
 

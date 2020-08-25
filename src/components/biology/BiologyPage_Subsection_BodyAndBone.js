@@ -4,10 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Aug 13, 2020
+ * Updated  : Aug 22, 2020
  */
 
-import React from 'react'
+import React, { Suspense } from 'react'
 
 import '../shared/ContentPageSharedStyles.css'
 
@@ -21,7 +21,7 @@ import {
 
 import DimensionPredicatedContainer from '../shared/DimensionPredicatedContainer'
 
-import CheetahAccelerationIllustration from './CheetahAccelerationIllustration'
+// import CheetahAccelerationIllustration from './CheetahAccelerationIllustration'
 
 import FluidImageWrapper from '../shared/FluidImageWrapper'
 
@@ -32,6 +32,8 @@ import ImageView from '../shared/ImageView'
 import image_cheetah_body_measurements from './assets/Cheetah_Body_Measurements_480x320-min.jpg'
 import image_cheetah_tail from './assets/cheetah_tail_480x343-min.jpg'
 import image_cheetah_running_animated from './assets/cheetah_running_animated-min.gif'
+
+const CheetahAccelerationIllustration = React.lazy(() => import('./CheetahAccelerationIllustration'));
 
 export default class BiologyPageSubsectionBodyAndBone extends React.Component {
 
@@ -146,7 +148,9 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
   renderCheetahAccelerationIllustrationPart() {
     return (
       <ContentPageSubsectionPart>
-        <CheetahAccelerationIllustration />
+        <Suspense fallback={<div></div>}>
+          <CheetahAccelerationIllustration />
+        </Suspense>
       </ContentPageSubsectionPart>
     );
   }

@@ -4,10 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Aug 12, 2020
+ * Updated  : Aug 22, 2020
  */
 
-import React from 'react'
+import React, { Suspense } from 'react'
 
 import '../shared/ContentPageSharedStyles.css'
 
@@ -25,13 +25,15 @@ import TextBubble from '../shared/TextBubble'
 
 import ImageView from '../shared/ImageView'
 
-import AfricanWildlifeTracksIllustration from './AfricanWildlifeTracksIllustration'
+// import AfricanWildlifeTracksIllustration from './AfricanWildlifeTracksIllustration'
 
 import image_cheetah_paw from './assets/cheetah_paw-min.jpg'
 import image_claws_comparison from './assets/Cheetah_Cat_Dog_Claws_Comparison_Inverted-min.png'
 import image_cheetah_dewclaw from './assets/cheetah_dewclaw-min.jpg'
 
 import './BiologyPage_Subsection_FeetAndClaws.css'
+
+const AfricanWildlifeTracksIllustration = React.lazy(() => import('./AfricanWildlifeTracksIllustration'));
 
 export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
 
@@ -152,9 +154,11 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
     return (
       <ContentPageSubsectionPart>
         <div className="VerticalCushionPadding"></div>
-        <div className="AfricanWildlifeTracksIllustrationPageWrapper">
-          <AfricanWildlifeTracksIllustration />
-        </div>
+        <Suspense fallback={<div></div>}>
+          <div className="AfricanWildlifeTracksIllustrationPageWrapper">
+            <AfricanWildlifeTracksIllustration />
+          </div>
+        </Suspense>
       </ContentPageSubsectionPart>
     );
   }

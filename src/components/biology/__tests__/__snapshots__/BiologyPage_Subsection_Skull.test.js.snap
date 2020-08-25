@@ -25,7 +25,123 @@ exports[`BiologyPageSubsectionSkull component snapshot 1`] = `
     >
       The cheetah's skull has some features that are distinct when compared to the skulls of other cats.
     </p>
-    <div />
+    <div>
+      <div
+        className="BiologyPageSubsectionSkullCheetahSkullDiagramContainer"
+      >
+        <div
+          className="PopUpLabelledDiagramOuterComponent"
+          style={
+            Object {
+              "backgroundImage": "url(cheetah_skull-min.jpg)",
+              "height": 573,
+              "width": 900,
+            }
+          }
+        >
+          <div
+            className="PopUpLabelledDiagramInnerComponent"
+          >
+            <div
+              className="PopUpLabelledDiagramPopUpItemComponent"
+              style={
+                Object {
+                  "left": 350,
+                  "top": 160,
+                }
+              }
+            >
+              <button
+                className="ui blue mini circular icon button"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+              >
+                <i
+                  aria-hidden="true"
+                  className="plus icon"
+                  onClick={[Function]}
+                />
+              </button>
+            </div>
+            <div
+              className="PopUpLabelledDiagramPopUpItemComponent"
+              style={
+                Object {
+                  "left": 750,
+                  "top": 180,
+                }
+              }
+            >
+              <button
+                className="ui blue mini circular icon button"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+              >
+                <i
+                  aria-hidden="true"
+                  className="plus icon"
+                  onClick={[Function]}
+                />
+              </button>
+            </div>
+            <div
+              className="PopUpLabelledDiagramPopUpItemComponent"
+              style={
+                Object {
+                  "left": 500,
+                  "top": 300,
+                }
+              }
+            >
+              <button
+                className="ui blue mini circular icon button"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+              >
+                <i
+                  aria-hidden="true"
+                  className="plus icon"
+                  onClick={[Function]}
+                />
+              </button>
+            </div>
+            <div
+              className="PopUpLabelledDiagramPopUpItemComponent"
+              style={
+                Object {
+                  "left": 120,
+                  "top": 220,
+                }
+              }
+            >
+              <button
+                className="ui blue mini circular icon button"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+              >
+                <i
+                  aria-hidden="true"
+                  className="plus icon"
+                  onClick={[Function]}
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 `;

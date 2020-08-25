@@ -4,10 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Aug 12, 2020
+ * Updated  : Aug 22, 2020
  */
 
-import React from 'react'
+import React, { Suspense } from 'react'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
@@ -21,11 +21,13 @@ import DimensionPredicatedContainer from '../shared/DimensionPredicatedContainer
 
 import FluidImageWrapper from '../shared/FluidImageWrapper'
 
-import CheetahOlympics from './CheetahOlympics'
+// import CheetahOlympics from './CheetahOlympics'
 
 import image_Cheetah_Travel from './assets/Cheetah_Travel_480x480-min.png'
 
 import './BiologyPage_Subsection_HeartAndLung.css'
+
+const CheetahOlympics = React.lazy(() => import('./CheetahOlympics'));
 
 export default class BiologyPageSubsectionHearAndLung extends React.Component {
 
@@ -80,7 +82,9 @@ export default class BiologyPageSubsectionHearAndLung extends React.Component {
     return (
       <div className="CheetahOlympicsSubsectionWrapper">
         <ContentPageSubsectionPart>
-          <CheetahOlympics />
+          <Suspense fallback={<div></div>}>
+            <CheetahOlympics />
+          </Suspense>
         </ContentPageSubsectionPart>
       </div>
     );

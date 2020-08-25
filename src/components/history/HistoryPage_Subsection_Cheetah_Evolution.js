@@ -4,10 +4,10 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Aug 09, 2020
+ * Updated  : Aug 22, 2020
  */
 
-import React from 'react'
+import React, { Suspense } from 'react'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
@@ -15,13 +15,15 @@ import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtit
 
 import DimensionPredicatedContainer from '../shared/DimensionPredicatedContainer'
 
-import HistoryPageCheetahEvolutionMap from './HistoryPageCheetahEvolutionMap'
+// import HistoryPageCheetahEvolutionMap from './HistoryPageCheetahEvolutionMap'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
 import LineBreak from '../shared/LineBreak'
 
 import '../shared/ContentPageSharedStyles.css'
+
+const HistoryPageCheetahEvolutionMap = React.lazy(() => import('./HistoryPageCheetahEvolutionMap'));
 
 export default class HistoryPageSubsectionCheetahEvolution extends React.Component {
 
@@ -69,10 +71,18 @@ export default class HistoryPageSubsectionCheetahEvolution extends React.Compone
         pred={(dimension) => (dimension.width >= 720)}
         renderContentHandler={
           () => (
-            <HistoryPageCheetahEvolutionMap />
+            this.renderCheetahEvolutionMapConditionallyCore()
           )
         }
       />
+    );
+  }
+
+  renderCheetahEvolutionMapConditionallyCore() {
+    return (
+      <Suspense fallback={<div></div>}>
+        <HistoryPageCheetahEvolutionMap />
+      </Suspense>
     );
   }
 }
