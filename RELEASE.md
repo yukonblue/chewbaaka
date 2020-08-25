@@ -1,5 +1,11 @@
 # Release Note
 
+## Version 0.3.1
+
+* Date: August 24, 2020
+* Changelog:
+  * Revert #200 - "Optimize homepage landing gateway background image assets with size variants (#200)"
+
 ## Version 0.3.0
 
 * Date: August 23, 2020
