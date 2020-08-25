@@ -1,5 +1,12 @@
 # Release Note
 
+## Version 0.4.0
+
+* Date: August 25, 2020
+* Changelog:
+  * Changeset #193 - Port to SSG architecture
+    * This patch adopts the **static-site generation** architecture and switches to serving statically rendered HTML artifacts in production.
+
 ## Version 0.3.1
 
 * Date: August 24, 2020
