@@ -3,6 +3,9 @@
 ## Version 0.4.0
 
 * Date: August 25, 2020
+* Commit: `07e46c4`
+* Tag: `v0.4.0`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.4.0)
 * Changelog:
   * Changeset #193 - Port to SSG architecture
     * This patch adopts the **static-site generation** architecture and switches to serving statically rendered HTML artifacts in production.
