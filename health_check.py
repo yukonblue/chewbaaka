@@ -3,7 +3,7 @@ health_check.py
 
 Author   : Tomiko
 Created  : Aug 03, 2020
-Updated  : Aug 24, 2020
+Updated  : Aug 25, 2020
 """
 
 import argparse
@@ -47,15 +47,18 @@ class HTMLHeadParser(HTMLParser):
         if tag in ('title', 'meta'):
             self._curTag = tag
             self._curAttrs = dict({key:val for (key,val) in attrs})
+            self._handle_meta()
 
     def handle_endtag(self, tag):
+        self._curTag = ''
+        self._curAttrs = None
+
+    def _handle_meta(self):
         if self._curTag == 'meta':
             if 'charset' in self._curAttrs:
                 self._metaTags['charset'] = self._curAttrs['charset']
-            else:
+            elif self._curAttrs['name'] not in self._metaTags:
                 self._metaTags[self._curAttrs['name']] = self._curAttrs.get('content', '')
-        self._curTag = ''
-        self._curAttrs = None
 
     def handle_data(self, data):
         if self._curTag == 'title':
@@ -134,7 +137,19 @@ class ValidationError(Exception):
 ## -----------------------------------------------------------------------------
 
 
-class HTTPStatusCodeCheck(object):
+class Check(object):
+
+    def __init__(self, logger, *args, **kwargs):
+        super(Check, self).__init__(*args, **kwargs)
+        self.logger = logger
+
+
+## -----------------------------------------------------------------------------
+
+class HTTPStatusCodeCheck(Check):
+
+    def __init__(self, *args, **kwargs):
+        super(HTTPStatusCodeCheck, self).__init__(*args, **kwargs)
 
     def __call__(self, req):
         try:
@@ -148,7 +163,10 @@ class HTTPStatusCodeCheck(object):
 ## -----------------------------------------------------------------------------
 
 
-class HTTPResponseHeadersCheck(object):
+class HTTPResponseHeadersCheck(Check):
+
+    def __init__(self, *args, **kwargs):
+        super(HTTPResponseHeadersCheck, self).__init__(*args, **kwargs)
 
     EXPECTED_MIN_CONTENT_LENGTH = 1000
     EXPECTED_CONTENT_TYPE       = 'text/html'
@@ -197,17 +215,77 @@ class HTTPResponseHeadersCheck(object):
 ## -----------------------------------------------------------------------------
 
 
-class HTMLHeadCheck(object):
+class HTMLHeadCheck(Check):
 
-    EXPECTED_TITLE = 'Learn about cheetahs'
+    def __init__(self, *args, **kwargs):
+        super(HTMLHeadCheck, self).__init__(*args, **kwargs)
 
     EXPECTED_META = {
         'charset'         : 'utf-8',
-        'description'     : 'Learn about cheetahs by exploring the Cheetah Museum at Cheetah Conservation Fund',
         'viewport'        : 'width=device-width,initial-scale=1',
-        'keywords'        : 'cheetah, cheetah evolution, cheetah biology, cheetah habitat, cheetah conservation, cheetah facts, learn about cheetahs, hope for cheetahs, save the cheetahs, Cheetah Conservation Fund, CCF, Chewbaaka, wildlife conservation, conservation',
         'AdsBot-Google'   : 'noindex'
     }
+
+    EXPECTED_META_BY_URL  =   {
+        'https://hope4cheetahs.org': {
+            'title': 'Learn about cheetahs',
+            'description': 'Learn about cheetahs by exploring the Cheetah Museum at Cheetah Conservation Fund',
+            'keywords': []
+        },
+        'https://hope4cheetahs.org/history': {
+            'title': 'History of the cheetah | Learn about cheetahs',
+            'description': 'Learn about the history and evolution of the cheetah.',
+            'keywords': [
+                "cheetah history",
+                "cheetah evolution",
+                "cheetah lineage",
+                "cheetah population",
+                "cheetah range",
+            ]
+        },
+        'https://hope4cheetahs.org/biology': {
+            'title': "Cheetah biology | Learn about cheetahs",
+            'description': "Learn about the biology and anatomy of the cheetah, and what makes it the fastest land animal.",
+            'keywords': [
+                "cheetah biology",
+                "cheetah physiology",
+                "cheetah speed",
+                "cheetah lifecycle",
+                "cheetah mortality",
+            ]
+        },
+        'https://hope4cheetahs.org/ecology': {
+            'title': "Cheetah ecosystem and habitat | Learn about cheetahs",
+            'description': "Learn about the ecosystem and habitats of the cheetah, and sustainable farming practices that protect their habitats.",
+            'keywords': [
+                "cheetah ecosystem",
+                "cheetah habitat",
+                "cheetah niche",
+                "Namibia biome"
+            ]
+        },
+        'https://hope4cheetahs.org/future': {
+            'title': "Future of the cheetah | Learn about cheetahs",
+            'description': "Learn about the future of the cheetahs, and conservation actions for saving them from extinction.",
+            'keywords': [
+                "cheetah status",
+                "cheetah future",
+                "illegal cheetah trafficking",
+                "livestock guarding dog",
+            ]
+        }
+    }
+
+    EXPECTED_GLOBAL_META_KEYWORDS = [
+        "cheetah",
+        "cheetah conservation",
+        "cheetah facts",
+        "learn about cheetahs",
+        "hope for cheetahs",
+        "Cheetah Conservation Fund",
+        "wildlife conservation",
+        "conservation"
+    ]
 
     def __call__(self, req, resp):
         html = resp.read()
@@ -215,15 +293,35 @@ class HTMLHeadCheck(object):
         htmlParser = HTMLHeadParser()
         htmlParser.feed(html)
 
-        if htmlParser.title != HTMLHeadCheck.EXPECTED_TITLE:
-            raise ValidationError('Unexpected HTML title: {title}'.format(htmlParser.title))
+        expectedMeta = HTMLHeadCheck.EXPECTED_META_BY_URL[req.get_full_url()]
+
+        expectedTitle = expectedMeta['title']
+        expectedDescription = expectedMeta['description']
+        expectedKeywordString = ', '.join(expectedMeta['keywords'] + HTMLHeadCheck.EXPECTED_GLOBAL_META_KEYWORDS)
+
+        if htmlParser.title != expectedTitle:
+            raise ValidationError('Unexpected HTML title: \"{title}\"'.format(title=htmlParser.title))
+        else:
+            self.logger.info('Found expected HTML title: \"{title}\"'.format(title=htmlParser.title))
+
+        if htmlParser.meta.get('description') != expectedDescription:
+            raise ValidationError('Unexpected HTML meta description: \"{description}\"'.format(description=htmlParser.meta.get('description')))
+        else:
+            self.logger.info('Found expected HTML meta description: \"{description}\"'.format(description=htmlParser.meta.get('description')))
+
+        if htmlParser.meta.get('keywords') != expectedKeywordString:
+            raise ValidationError('Unexpected HTML meta keywords: \"{keywords}\". Expected \"{expected}\".'.format(
+                keywords=htmlParser.meta.get('keywords'),
+                expected=expectedKeywordString))
+        else:
+            self.logger.info('Found expected HTML meta keywords: \"{keywords}\"'.format(keywords=htmlParser.meta.get('keywords')))
 
         for key, expected in HTMLHeadCheck.EXPECTED_META.iteritems():
             value = htmlParser.meta.get(key)
             if not value:
                 raise ValidationError('Did not find meta with name \"{name}\" in response.'.format(name=key))
             elif value != expected:
-                raise ValidationError('Unexpected meta key for name \"{name}\": \"{val}\"'.format(name=key, val=val))
+                raise ValidationError('Unexpected meta key for name \"{name}\": \"{val}\"'.format(name=key, val=value))
 
 
 ## -----------------------------------------------------------------------------
@@ -261,12 +359,12 @@ class Runner(object):
         req = urllib2.Request(url)
 
         # Need to start with `HTTPStatusCodeCheck` to get the response.
-        resp = HTTPStatusCodeCheck()(req)
+        resp = HTTPStatusCodeCheck(self.logger)(req)
 
         self.logger.info('Response headers: {headers}'.format(headers=resp.headers))
 
         for check in Runner.checks:
-            check()(req, resp)
+            check(self.logger)(req, resp)
 
 
 ## -----------------------------------------------------------------------------
