@@ -3,6 +3,9 @@
 ## Version 0.3.1
 
 * Date: August 24, 2020
+* Commit: `775910d`
+* Tag: `v0.3.1`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.3.1)
 * Changelog:
   * Revert #200 - "Optimize homepage landing gateway background image assets with size variants (#200)"
 
