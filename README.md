@@ -51,6 +51,8 @@ Contributions from folks that are experts in SEO are very much needed at the mom
 
 ### Help spread the words out
 
+[![Help Stop Illegal Cheetah Trafficking](https://img.shields.io/static/v1?label=HELP&message=Stop%20Illegal%20Cheetah%20Trafficking&color=red&style=for-the-badge)](https://www.gofundme.com/f/stop-illegal-cheetah-trades-and-trafficking)
+
 Simply help spread the word out about the current plight of the cheetahs
 to your family and friends is a great way to help.
 
