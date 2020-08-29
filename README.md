@@ -74,6 +74,11 @@ as any updates to the **release** branch is automatically deployed to the server
 Only merging of version git tags authored on **master** to the **release**
 branch is allowed.
 
+### Pull request and commit best practices
+
+Both pull requests and commit messages should document the relevant
+changes with concise descriptions.
+
 
 ## Setup, build, and test
 
@@ -149,12 +154,6 @@ There are currently two types of tests -
 Snapshot files (with `.snap` extension) should be updated to be correct
 and be checked-in in the corresponding `__snapshots__` directory as
 part of the repository source artifact.
-
-
-## Pull request and commit best practices
-
-Both pull requests and commit messages should document the relevant
-changes with concise descriptions.
 
 
 ## Versions and Releases
