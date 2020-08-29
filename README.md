@@ -18,6 +18,8 @@ at [https://hope4cheetahs.org](https://hope4cheetahs.org). The goal is to
 **promote cheetah conservation** and get more people to learn about the amazing cheetahs
 and their current plight.
 
+[![Watch the video](https://img.youtube.com/vi/p5r1NxE2kLU/hqdefault.jpg)](https://youtu.be/p5r1NxE2kLU)
+
 
 ## Contributions
 
