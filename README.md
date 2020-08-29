@@ -5,6 +5,8 @@ at [https://hope4cheetahs.org](https://hope4cheetahs.org).
 
 [![CircleCI](https://circleci.com/gh/tetrachrome/chewbaaka.svg?style=svg&circle-token=3ff42881c6c3f2a44809d10947587a4c566fd574)](https://circleci.com/gh/tetrachrome/chewbaaka)
 [![Actions Status](https://github.com/tetrachrome/chewbaaka/workflows/Node.js%20CI/badge.svg)](https://github.com/tetrachrome/chewbaaka/actions)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/tetrachrome/)
+[![Help Stop Illegal Cheetah Trafficking](https://img.shields.io/static/v1?label=HELP&message=Stop%20Illegal%20Cheetah%20Trafficking&color=red&style=for-the-badge)](https://www.gofundme.com/f/stop-illegal-cheetah-trades-and-trafficking)
 
 ![logo](./Resources/Chewbaaka_Logo_256x256.png)
 
@@ -46,6 +48,18 @@ and highly needed.
 
 SEO has been an aspect that is currently lacking in this project.
 Contributions from folks that are experts in SEO are very much needed at the moment.
+
+### Help spread the words out
+
+[![Help Stop Illegal Cheetah Trafficking](https://img.shields.io/static/v1?label=HELP&message=Stop%20Illegal%20Cheetah%20Trafficking&color=red&style=for-the-badge)](https://www.gofundme.com/f/stop-illegal-cheetah-trades-and-trafficking)
+
+Simply help spread the word out about the current plight of the cheetahs
+to your family and friends is a great way to help.
+
+You can also follow the [GoFundMe campaign](https://www.gofundme.com/f/stop-illegal-cheetah-trades-and-trafficking)
+set up to raise money for Cheetah Conservation Fund's work on
+stopping illegal cheetah trades and trafficking in Somaliland at
+the Persian Gulf. Learn more [here](https://www.cnn.com/2019/08/28/africa/somaliland-cheetahs-gulf-intl/index.html).
 
 ### How do I get started?
 
