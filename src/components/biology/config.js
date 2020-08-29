@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Aug 22, 2020
+ * Updated  : Aug 29, 2020
  */
 
 export const config = {
@@ -501,7 +501,7 @@ export const config = {
               title: "How does this relate to the cheetah?",
               content: "Cheetahs are very closely related and have a low genetic diversity. " +
                       "This is due to the drastic reduction in their numbers when the population bottleneck occurred. " +
-                      "This inbreeding and low genetic diversity may cause abnormalities."
+                      "Inbreeding and low genetic diversity may cause abnormalities."
             }
           }
         },
