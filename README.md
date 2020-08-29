@@ -56,7 +56,7 @@ Contributions from folks that are experts in SEO are very much needed at the mom
 Simply help spread the word out about the current plight of the cheetahs
 to your family and friends is a great way to help.
 
-You can also follow the [GoFundMe campaign](https://www.gofundme.com/f/stop-illegal-cheetah-trades-and-trafficking).
+You can also follow the [GoFundMe campaign](https://www.gofundme.com/f/stop-illegal-cheetah-trades-and-trafficking)
 set up to raise money for Cheetah Conservation Fund's work on
 stopping illegal cheetah trades and trafficking in Somaliland at
 the Persian Gulf. Learn more [here](https://www.cnn.com/2019/08/28/africa/somaliland-cheetahs-gulf-intl/index.html).
