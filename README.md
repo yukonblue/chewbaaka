@@ -21,6 +21,11 @@ and their current plight.
 [![Watch the video](https://img.youtube.com/vi/p5r1NxE2kLU/hqdefault.jpg)](https://youtu.be/p5r1NxE2kLU)
 
 
+## Support
+
+<div class="gfm-embed" data-url="https://www.gofundme.com/f/stop-illegal-cheetah-trades-and-trafficking/widget/large/"></div><script defer src="https://www.gofundme.com/static/js/embed.js"></script>
+
+
 ## Contributions
 
 Anybody interested in this project is encouraged to contribute in any way possible.
@@ -46,6 +51,11 @@ and highly needed.
 
 SEO has been an aspect that is currently lacking in this project.
 Contributions from folks that are experts in SEO are very much needed at the moment.
+
+### Help spread the words out
+
+Simply help spread the word out about the current plight of the cheetahs
+to your family and friends is a great way to help.
 
 ### How do I get started?
 
