@@ -8,6 +8,8 @@ at [https://hope4cheetahs.org](https://hope4cheetahs.org).
 
 ![logo](./Resources/Chewbaaka_Logo_256x256.png)
 
+[![Watch the video](https://img.youtube.com/vi/p5r1NxE2kLU/maxresdefault.jpg)](https://youtu.be/p5r1NxE2kLU)
+
 ## Goals and Objectives
 
 Named after the iconic cheetah ambassador *Chewbaaka*, this project is
