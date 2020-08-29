@@ -3,6 +3,9 @@
 ## Version 0.4.1
 
 * Date: August 29, 2020
+* Commit: `505a053`
+* Tag: `v0.4.1`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/v0.4.1)
 * Changelog:
   * Fixes for the following issues:
     * Issue #201 - Grammatical error in 'Genetic Confusion' subsection
