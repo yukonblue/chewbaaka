@@ -1,17 +1,17 @@
-# Chewbaaka - Save the Cheetah and Change the World
+# Chewbaaka - Save the Cheetahs and Change the World
 
 This project powers the virtual Cheetah Museum of [Cheetah Conservation Fund](https://cheetah.org)
 at [https://hope4cheetahs.org](https://hope4cheetahs.org).
 
 [![CircleCI](https://circleci.com/gh/tetrachrome/chewbaaka.svg?style=svg&circle-token=3ff42881c6c3f2a44809d10947587a4c566fd574)](https://circleci.com/gh/tetrachrome/chewbaaka)
-
 [![Actions Status](https://github.com/tetrachrome/chewbaaka/workflows/Node.js%20CI/badge.svg)](https://github.com/tetrachrome/chewbaaka/actions)
 
 ![logo](./Resources/Chewbaaka_Logo_256x256.png)
 
 ## Goals and Objectives
 
-This project is dedicated to [Cheetah Conservation Fund](https://cheetah.org)
+Named after the iconic cheetah ambassador *Chewbaaka*, this project is
+dedicated to [Cheetah Conservation Fund](https://cheetah.org)
 and to showcase CCF's [Cheetah Museum](https://youtu.be/p5r1NxE2kLU) virtually
 at [https://hope4cheetahs.org](https://hope4cheetahs.org). The goal is to promote
 cheetah conservation and get more people to learn about the amazing cheetahs
