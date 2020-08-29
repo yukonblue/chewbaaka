@@ -1,5 +1,13 @@
 # Release Note
 
+## Version 0.4.1
+
+* Date: August 29, 2020
+* Changelog:
+  * Fixes for the following issues:
+    * Issue #201 - Grammatical error in 'Genetic Confusion' subsection
+    * Issue #202 - Spelling error in 'Bush Encroachment and Solutions' subsection under Ecology page
+
 ## Version 0.4.0
 
 * Date: August 25, 2020
