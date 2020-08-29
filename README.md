@@ -8,7 +8,6 @@ at [https://hope4cheetahs.org](https://hope4cheetahs.org).
 
 ![logo](./Resources/Chewbaaka_Logo_256x256.png)
 
-[![Watch the video](https://img.youtube.com/vi/p5r1NxE2kLU/maxresdefault.jpg)](https://youtu.be/p5r1NxE2kLU)
 
 ## Goals and Objectives
 
@@ -19,18 +18,19 @@ at [https://hope4cheetahs.org](https://hope4cheetahs.org). The goal is to
 **promote cheetah conservation** and get more people to learn about the amazing cheetahs
 and their current plight.
 
+
 ## Contributions
 
 Anybody interested in this project is encouraged to contribute in any way possible.
-Currently we are looking for contributions in several aspects:
+Currently contributions are mostly needed in these aspects:
 
 ### Core site functionality and performance improvements
 
-Help in improving the core functionality and improvement of the site is always welcomed
-and highly needed. Currently these are the domains that need the most help:
+Help in improving the core functionalities and performance of the site is always welcomed
+and highly needed.
 
-- Site performance improvements in various including but not limiting to
-  launch and rendering performance, payload optimizations, graphics and image
+- Site performance improvements in various aspects including but not limiting to
+  site launch and rendering performance, payload optimizations, graphics and image
   assets optimizations and compressions. [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/)
   is the de-facto performance metrics tool used so far to determine
   perf improvement opportunities.
@@ -43,8 +43,7 @@ and highly needed. Currently these are the domains that need the most help:
 ### Search Engine Optimization
 
 SEO has been an aspect that is currently lacking in this project.
-Helps in this are also highly needed. Contributions from folks that are
-experts in SEO are very much needed at the moment.
+Contributions from folks that are experts in SEO are very much needed at the moment.
 
 ### How do I get started?
 
@@ -55,6 +54,7 @@ For opening up discussions on ideas and questions, opening up an issue
 [here](https://github.com/tetrachrome/chewbaaka/issues/new) is the best way.
 
 For other changes, please open up a Pull Request.
+
 
 ## Workflow and branching strategies
 
@@ -73,6 +73,7 @@ The **release** branch should ALWAYS holds the latest **stable release version**
 as any updates to the **release** branch is automatically deployed to the server.
 Only merging of version git tags authored on **master** to the **release**
 branch is allowed.
+
 
 ## Setup, build, and test
 
@@ -149,14 +150,17 @@ Snapshot files (with `.snap` extension) should be updated to be correct
 and be checked-in in the corresponding `__snapshots__` directory as
 part of the repository source artifact.
 
+
 ## Pull request and commit best practices
 
 Both pull requests and commit messages should document the relevant
 changes with concise descriptions.
 
+
 ## Versions and Releases
 
 Release note can be found [here](./RELEASE.md).
+
 
 ## Documentations
 
