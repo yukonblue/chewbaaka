@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 29, 2020
  */
 
 import React from 'react'
@@ -146,7 +146,7 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
     return (
       <ImageView
         image={image_Cheetah_Battle_Bush_Encroachment}
-        caption="Cheetahs faced even more hardship in bush encroached territories. They have to adapt in every aspect of their life, such as hunting."
+        caption="Cheetahs face even more hardship in bush encroached territories. They have to adapt in every aspect of their life, such as hunting."
         width={640}
         height={423}
       />
