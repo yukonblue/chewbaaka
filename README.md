@@ -1,10 +1,61 @@
-# Chewbaaka
+# Chewbaaka - Change the World to Save the Cheetahs
+
+This project powers the virtual Cheetah Museum
+at [https://hope4cheetahs.org](https://hope4cheetahs.org).
 
 [![CircleCI](https://circleci.com/gh/tetrachrome/chewbaaka.svg?style=svg&circle-token=3ff42881c6c3f2a44809d10947587a4c566fd574)](https://circleci.com/gh/tetrachrome/chewbaaka)
-
 [![Actions Status](https://github.com/tetrachrome/chewbaaka/workflows/Node.js%20CI/badge.svg)](https://github.com/tetrachrome/chewbaaka/actions)
 
 ![logo](./Resources/Chewbaaka_Logo_256x256.png)
+
+
+## Goals and Objectives
+
+Named after the iconic cheetah ambassador *Chewbaaka*, this project is
+dedicated to [Cheetah Conservation Fund](https://cheetah.org)
+and to showcase CCF's [Cheetah Museum](https://youtu.be/p5r1NxE2kLU) virtually
+at [https://hope4cheetahs.org](https://hope4cheetahs.org). The goal is to
+**promote cheetah conservation** and get more people to learn about the amazing cheetahs
+and their current plight.
+
+[![Watch the video](https://img.youtube.com/vi/p5r1NxE2kLU/hqdefault.jpg)](https://youtu.be/p5r1NxE2kLU)
+
+
+## Contributions
+
+Anybody interested in this project is encouraged to contribute in any way possible.
+Currently contributions are mostly needed in these aspects:
+
+### Core site functionality and performance improvements
+
+Help in improving the core functionalities and performance of the site is always welcomed
+and highly needed.
+
+- Site performance improvements in various aspects including but not limiting to
+  site launch and rendering performance, payload optimizations, graphics and image
+  assets optimizations and compressions. [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/)
+  is the de-facto performance metrics tool used so far to determine
+  perf improvement opportunities.
+
+- Design and implement more interactive elements. This site was designed to simulate
+  experience of visiting the actual museum as close as possible. There's a lot more
+  that could be done to refine the experience to be more interactive and engaging.
+  Ideas, designs, and implementations in this area are highly needed and valued.
+
+### Search Engine Optimization
+
+SEO has been an aspect that is currently lacking in this project.
+Contributions from folks that are experts in SEO are very much needed at the moment.
+
+### How do I get started?
+
+First, thank you for your interest! The first step would be to read down below
+to get familiar with the workflow and build steps of this project.
+
+For opening up discussions on ideas and questions, opening up an issue
+[here](https://github.com/tetrachrome/chewbaaka/issues/new) is the best way.
+
+For other changes, please open up a Pull Request.
 
 
 ## Workflow and branching strategies
@@ -24,6 +75,12 @@ The **release** branch should ALWAYS holds the latest **stable release version**
 as any updates to the **release** branch is automatically deployed to the server.
 Only merging of version git tags authored on **master** to the **release**
 branch is allowed.
+
+### Pull request and commit best practices
+
+Both pull requests and commit messages should document the relevant
+changes with concise descriptions.
+
 
 ## Setup, build, and test
 
@@ -77,31 +134,6 @@ Simply go to [http://localhost:3000](http://localhost:3000) in the
 web browser to view the rendered site. Any changes in source code that
 result in successful builds will automatically be reflected in the browser.
 
-#### Production build
-
-There are occasions when it is necessary to test the production build locally.
-To build a production build, run
-
-```
-npm run build
-```
-
-Once the build finishes successfully, follow the message prompted
-in the terminal:
-
-```
-You can control this with the homepage field in your package.json.
-
-The build folder is ready to be deployed.
-You may serve it with a static server:
-
-  serve -s build
-
-Find out more about deployment here:
-
-  bit.ly/CRA-deploy
-```
-
 ### Test
 
 Writing and exercising unit tests frequently is a good practice
@@ -125,14 +157,11 @@ Snapshot files (with `.snap` extension) should be updated to be correct
 and be checked-in in the corresponding `__snapshots__` directory as
 part of the repository source artifact.
 
-## Pull request and commit best practices
-
-Both pull requests and commit messages should document the relevant
-changes with concise descriptions.
 
 ## Versions and Releases
 
 Release note can be found [here](./RELEASE.md).
+
 
 ## Documentations
 
