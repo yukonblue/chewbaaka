@@ -151,7 +151,7 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
                   className="ImageViewImgContainer"
                 >
                   <img
-                    alt="Cheetahs faced even more hardship in bush encroached territories. They have to adapt in every aspect of their life, such as hunting."
+                    alt="Cheetahs face even more hardship in bush encroached territories. They have to adapt in every aspect of their life, such as hunting."
                     className="ImageViewImg"
                     src="Cheetah_Battle_Bush_Encroachment-min.jpg"
                   />
@@ -180,7 +180,7 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
                     <p
                       className="ContentPageCaptionTextSize CaptionText"
                     >
-                      Cheetahs faced even more hardship in bush encroached territories. They have to adapt in every aspect of their life, such as hunting.
+                      Cheetahs face even more hardship in bush encroached territories. They have to adapt in every aspect of their life, such as hunting.
                     </p>
                   </div>
                 </div>
