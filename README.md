@@ -7,6 +7,7 @@ at [https://hope4cheetahs.org](https://hope4cheetahs.org).
 [![Actions Status](https://github.com/tetrachrome/chewbaaka/workflows/Node.js%20CI/badge.svg)](https://github.com/tetrachrome/chewbaaka/actions)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/tetrachrome/)
 [![Help Stop Illegal Cheetah Trafficking](https://img.shields.io/static/v1?label=HELP&message=Stop%20Illegal%20Cheetah%20Trafficking&color=red&style=for-the-badge)](https://gf.me/u/yu5nuj)
+[![Support Cheetah Conservation Fund](https://img.shields.io/static/v1?label=SUPPORT&message=Cheetah%20Conservation%20Fund&color=yellow&style=for-the-badge)](https://cheetah.org)
 
 ![logo](./Resources/Chewbaaka_Logo_256x256.png)
 
