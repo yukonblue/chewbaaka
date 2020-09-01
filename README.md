@@ -182,3 +182,9 @@ Release note can be found [here](./RELEASE.md).
 ## Documentations
 
 All documentations are hosted on the project's [wiki](https://github.com/tetrachrome/chewbaaka/wiki).
+
+
+## License
+
+This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+Public License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
