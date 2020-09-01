@@ -10,6 +10,8 @@ at [https://hope4cheetahs.org](https://hope4cheetahs.org).
 [![Help Stop Illegal Cheetah Trafficking](https://img.shields.io/static/v1?label=HELP&message=Stop%20Illegal%20Cheetah%20Trafficking&color=red&style=for-the-badge)](https://gf.me/u/yu5nuj)
 [![Support Cheetah Conservation Fund](https://img.shields.io/static/v1?label=SUPPORT&message=Cheetah%20Conservation%20Fund&color=yellow&style=for-the-badge)](https://cheetah.org)
 
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+
 ![logo](./Resources/Chewbaaka_Logo_256x256.png)
 
 
@@ -182,3 +184,9 @@ Release note can be found [here](./RELEASE.md).
 ## Documentations
 
 All documentations are hosted on the project's [wiki](https://github.com/tetrachrome/chewbaaka/wiki).
+
+
+## License
+
+This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+Public License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
