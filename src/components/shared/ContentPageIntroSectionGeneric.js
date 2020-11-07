@@ -41,7 +41,6 @@ export default class ContentPageIntroSectionGeneric extends React.Component {
       <div className={getElementStyleClassName("ContentPageIntroSectionGenericInnerContainer")}>
         <div className="ContentPageIntroSectionGenericIntroTextContainer">
           <p className={getElementStyleClassName("ContentPageHeadAndSectionIntroText")}>
-            {this.props.contentPageIntro.content}
             {getFormattedSpecialText(this.props.contentPageIntro.content)}
           </p>
         </div>
