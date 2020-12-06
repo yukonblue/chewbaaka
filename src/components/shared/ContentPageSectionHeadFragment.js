@@ -30,6 +30,8 @@ import './ContentPageSharedStyles.css'
 
 import './ContentPageSectionHeadFragment.css'
 
+import getFormattedText from './TextFormatter.js'
+
 if ( process.env.NODE_ENV === 'development' )
   require('./ContentPageSectionHeadFragment-debug.css')
 
@@ -45,7 +47,7 @@ export default class ContentPageSectionHeadFragment extends React.Component {
           {this.props.title}
         </h2>
         <p className={getElementStyleClassName("ContentPageHeadAndSectionIntroText")}>
-          {this.props.content}
+          {getFormattedText(this.props.content)}
         </p>
       </Fragment>
     );

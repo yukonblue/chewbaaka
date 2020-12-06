@@ -17,6 +17,8 @@ import ContentPageIntroSectionTemplate from './ContentPageIntroSectionTemplate'
 
 import './ContentPageIntroSectionGeneric.css'
 
+import getFormattedText from './TextFormatter.js'
+
 if ( process.env.NODE_ENV === 'development' )
   require('./ContentPageIntroSectionGeneric-debug.css')
 
@@ -39,7 +41,7 @@ export default class ContentPageIntroSectionGeneric extends React.Component {
       <div className={getElementStyleClassName("ContentPageIntroSectionGenericInnerContainer")}>
         <div className="ContentPageIntroSectionGenericIntroTextContainer">
           <p className={getElementStyleClassName("ContentPageHeadAndSectionIntroText")}>
-            {this.props.contentPageIntro.content}
+            {getFormattedText(this.props.contentPageIntro.content)}
           </p>
         </div>
         <div className="ContentPageIntroSectionGenericImgContainer">

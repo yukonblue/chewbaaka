@@ -110,7 +110,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                       }
                     }
                   >
-                    Cheetah’s foot pads are hard and less rounded than the other cats. The pads function like tire threads providing them with increased traction in fast, sharp turns.
+                    Cheetah’s foot pads are hard and less rounded than the other cats. The pads function like tire threads providing them with increased traction in fast, sharp turns. 
                   </p>
                 </div>
               </div>
@@ -165,7 +165,8 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                       }
                     }
                   >
-                    The short blunt claws work like the cleats on a track shoe. They grip the ground for traction when running and help increase speed. Cheetah’s claws are semi-retractable, meaning they do not completely retract like the claws of other cats. The foot structure of the cheetah is very dog-like.
+                    The short blunt claws work like the cleats on a track shoe. They grip the ground for traction when running and help increase speed. 
+                    Cheetah’s claws are semi-retractable, meaning they do not completely retract like the claws of other cats. The foot structure of the cheetah is very dog-like. 
                   </p>
                 </div>
               </div>
@@ -328,7 +329,7 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
                       }
                     }
                   >
-                    The dewclaws of the cheetah are located on the upper inside area of the front foot. These are sharp and frequently used to hook and hold prey.
+                    The dewclaws of the cheetah are located on the upper inside area of the front foot. These are sharp and frequently used to hook and hold prey. 
                   </p>
                 </div>
               </div>

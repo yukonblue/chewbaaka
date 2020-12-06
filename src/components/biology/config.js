@@ -55,9 +55,9 @@ export const config = {
             "cheetah can out-perform a sports car. Cheetahs are markedly different in both anatomy and behavior " +
             "from the other 36 species of cats. They are the only species in their genus. " +
             "They have evolved for speed versus power and aggression. Their bodies are lightweight in comparison with " +
-            "the build of other big cats. They rely on their speed and skills for survival. The genus name, Acinonyx, " +
+            "the build of other big cats. They rely on their speed and skills for survival. The genus name, IIIAcinonyxIII, " +
             "is interpreted as “non-moving claws”, referring to their semi-retractable claws. " +
-            "The species name, “jubatus”, means “maned”, referring to the mantle on a young cheetah’s back. " +
+            "The species name, “IIIjubatusIII”, means “maned”, referring to the mantle on a young cheetah’s back. " +
             "The English word, “cheetah”, comes from the Hindu word “chita” meaning the “spotted one”.",
     image: {
       filename: "Biology_Page_Intro_Section_Background-min.png"

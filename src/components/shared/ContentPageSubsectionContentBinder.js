@@ -13,6 +13,8 @@ import ContentPageParagraph from './ContentPageParagraph'
 
 import './ContentPageSharedStyles.css'
 
+import getFormattedText from './TextFormatter.js'
+
 function ContentPageSubsectionColumnDataBinder(columnData, columnContentBinder) {
   return {
     title: columnData.title,
@@ -25,7 +27,7 @@ const ContentPageSubsectionParagraphsContentBinder = (paragraphContents) => (
   Object.keys(paragraphContents).map(
     (key, idx) => (
       <ContentPageParagraph key={idx}>
-        {paragraphContents[key]}
+        {getFormattedText(paragraphContents[key])}
       </ContentPageParagraph>
     )
   )
@@ -36,7 +38,7 @@ const ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder = (column
 );
 
 const ContentPageSubsectionParagraphsJoin = (paragraphContents) => (
-  Object.values(paragraphContents).join(" ")
+  Object.values(paragraphContents).map((content)=> getFormattedText(content + " "))
 );
 
 export {
