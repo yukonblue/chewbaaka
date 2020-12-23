@@ -1,17 +1,20 @@
 """
 health_check.py
 
+(requires Python3)
+
 Author   : Tomiko
 Created  : Aug 03, 2020
-Updated  : Aug 25, 2020
+Updated  : Dec 22, 2020
 """
 
 import argparse
 import logging
 import sys
-import urllib2
+import urllib
+import urllib.request
 
-from HTMLParser import HTMLParser
+from html.parser import HTMLParser
 
 ## -----------------------------------------------------------------------------
 
@@ -153,8 +156,8 @@ class HTTPStatusCodeCheck(Check):
 
     def __call__(self, req):
         try:
-            resp = urllib2.urlopen(req)
-        except urllib2.HTTPError as ex:
+            resp = urllib.request.urlopen(req)
+        except urllib.error.HTTPError as ex:
             raise ValidationError('Got HTTP status code {}'.format(ex.code))
 
         return resp
@@ -195,19 +198,19 @@ class HTTPResponseHeadersCheck(Check):
     ]
 
     def __call__(self, req, resp):
-        contentLengthHeaderRawValue = resp.headers.getheader('content-length')
+        contentLengthHeaderRawValue = resp.headers['content-length']
         contentLengthHeaderIntValue = int(contentLengthHeaderRawValue)
         if contentLengthHeaderIntValue < HTTPResponseHeadersCheck.EXPECTED_MIN_CONTENT_LENGTH:
             raise ValidationError('Content length less than {} bytes'.format(HTTPResponseHeadersCheck.EXPECTED_MIN_CONTENT_LENGTH))
 
-        contentTypeHeaderRawValue = resp.headers.getheader('content-type')
+        contentTypeHeaderRawValue = resp.headers['content-type']
         if contentTypeHeaderRawValue != HTTPResponseHeadersCheck.EXPECTED_CONTENT_TYPE:
             raise ValidationError('content-type is not \"{}\"'.format(HTTPResponseHeadersCheck.EXPECTED_CONTENT_TYPE))
 
         for pair in self.EXPECTED_KEY_VALUE_PAIRS:
             header = pair['header']
             expectedValue = pair['value']
-            actualValue = resp.headers.getheader(header)
+            actualValue = resp.headers[header]
             if actualValue != expectedValue:
                 raise ValidationError('Got value \"{}\" for header \"{}\", but expected \"{}\".'.format(actualValue, header, expectedValue))
 
@@ -290,6 +293,8 @@ class HTMLHeadCheck(Check):
     def __call__(self, req, resp):
         html = resp.read()
 
+        html = str(html)
+
         htmlParser = HTMLHeadParser()
         htmlParser.feed(html)
 
@@ -316,7 +321,7 @@ class HTMLHeadCheck(Check):
         else:
             self.logger.info('Found expected HTML meta keywords: \"{keywords}\"'.format(keywords=htmlParser.meta.get('keywords')))
 
-        for key, expected in HTMLHeadCheck.EXPECTED_META.iteritems():
+        for key, expected in HTMLHeadCheck.EXPECTED_META.items():
             value = htmlParser.meta.get(key)
             if not value:
                 raise ValidationError('Did not find meta with name \"{name}\" in response.'.format(name=key))
@@ -356,7 +361,7 @@ class Runner(object):
     def runChecksOnUrl(self, url):
         self.logger.info('Checking URL: \"{}\" ...'.format(url))
 
-        req = urllib2.Request(url)
+        req = urllib.request.Request(url)
 
         # Need to start with `HTTPStatusCodeCheck` to get the response.
         resp = HTTPStatusCodeCheck(self.logger)(req)
