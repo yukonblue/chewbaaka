@@ -68,7 +68,7 @@ set up to raise money for Cheetah Conservation Fund's work on
 stopping illegal cheetah trades and trafficking in Somaliland at
 the Persian Gulf. Learn more [here](https://www.cnn.com/2019/08/28/africa/somaliland-cheetahs-gulf-intl/index.html).
 
-### Help directly to Cheetah Conservation Fund
+### Contribute directly to Cheetah Conservation Fund
 
 Visit Cheetah Conservation Fund's official site at
 [https://cheetah.org/](https://cheetah.org/) to learn about many ways
@@ -202,4 +202,4 @@ All documentations are hosted on the project's [wiki](https://github.com/tetrach
 This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 Public License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-This project is **not** affiliate with Cheetah Conservation Fund.
+This project is **not** affiliated with Cheetah Conservation Fund.
