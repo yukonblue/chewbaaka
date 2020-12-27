@@ -6,9 +6,10 @@ at [https://hope4cheetahs.org](https://hope4cheetahs.org).
 [![CircleCI](https://circleci.com/gh/tetrachrome/chewbaaka.svg?style=svg&circle-token=3ff42881c6c3f2a44809d10947587a4c566fd574)](https://circleci.com/gh/tetrachrome/chewbaaka)
 [![Actions Status](https://github.com/tetrachrome/chewbaaka/workflows/Node.js%20CI/badge.svg)](https://github.com/tetrachrome/chewbaaka/actions)
 
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/tetrachrome/)
 [![Help Stop Illegal Cheetah Trafficking](https://img.shields.io/static/v1?label=HELP&message=Stop%20Illegal%20Cheetah%20Trafficking&color=red&style=for-the-badge)](https://gf.me/u/yu5nuj)
 [![Support Cheetah Conservation Fund](https://img.shields.io/static/v1?label=SUPPORT&message=Cheetah%20Conservation%20Fund&color=yellow&style=for-the-badge)](https://cheetah.org)
+
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/tetrachrome/)
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
@@ -69,6 +70,8 @@ stopping illegal cheetah trades and trafficking in Somaliland at
 the Persian Gulf. Learn more [here](https://www.cnn.com/2019/08/28/africa/somaliland-cheetahs-gulf-intl/index.html).
 
 ### Contribute directly to Cheetah Conservation Fund
+
+[![Support Cheetah Conservation Fund](https://img.shields.io/static/v1?label=SUPPORT&message=Cheetah%20Conservation%20Fund&color=yellow&style=for-the-badge)](https://cheetah.org)
 
 Visit Cheetah Conservation Fund's official site at
 [https://cheetah.org/](https://cheetah.org/) to learn about many ways
@@ -144,8 +147,8 @@ reflected through the Node.js "server". To build and run the project, do
 npm start
 ```
 
-If the project able to build successfully, you should see the following
-in the terminal:
+If you are able to build the project successfully, you should see the
+following in the terminal:
 
 ```
 Compiled successfully!
