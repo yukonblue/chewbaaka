@@ -26,11 +26,12 @@ and their current plight.
 
 [![Watch the video](https://img.youtube.com/vi/p5r1NxE2kLU/hqdefault.jpg)](https://youtu.be/p5r1NxE2kLU)
 
+[Here](https://youtu.be/p5r1NxE2kLU)'s CCF's official video tour of the Cheetah Museum.
 
 ## Contributions
 
-Anybody interested in this project is encouraged to contribute in any way possible.
-Currently contributions are mostly needed in these aspects:
+Anybody interested in this project is encouraged to contribute in any ways possible.
+Currently contributions are mostly needed in these areas:
 
 ### Core site functionality and performance improvements
 
@@ -43,15 +44,17 @@ and highly needed.
   is the de-facto performance metrics tool used so far to determine
   perf improvement opportunities.
 
-- Design and implement more interactive elements. This site was designed to simulate
-  experience of visiting the actual museum as close as possible. There's a lot more
-  that could be done to refine the experience to be more interactive and engaging.
-  Ideas, designs, and implementations in this area are highly needed and valued.
+- Design and implement more interactive elements. This site was designed to
+  simulate the experience of visiting the actual museum as close as possible.
+  There are a lot more that could be done to refine the experience to be more
+  interactive and engaging. Ideas, designs, and implementations in this area
+  are highly needed and valued.
 
 ### Search Engine Optimization
 
 SEO has been an aspect that is currently lacking in this project.
-Contributions from folks that are experts in SEO are very much needed at the moment.
+Contributions from folks that are experts in SEO are very much needed
+at the moment.
 
 ### Help spread the words out
 
@@ -65,7 +68,15 @@ set up to raise money for Cheetah Conservation Fund's work on
 stopping illegal cheetah trades and trafficking in Somaliland at
 the Persian Gulf. Learn more [here](https://www.cnn.com/2019/08/28/africa/somaliland-cheetahs-gulf-intl/index.html).
 
-### How do I get started?
+### Contribute directly to Cheetah Conservation Fund
+
+Visit Cheetah Conservation Fund's official site at
+[https://cheetah.org/](https://cheetah.org/) to learn about many ways
+people can contribute, including donations, fundraising campaigns,
+internship and volunteering opportunities (both domestically and overseas).
+
+
+## How do I get started?
 
 First, thank you for your interest! The first step would be to read down below
 to get familiar with the workflow and build steps of this project.
@@ -190,3 +201,5 @@ All documentations are hosted on the project's [wiki](https://github.com/tetrach
 
 This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 Public License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+This project is **not** affiliated with Cheetah Conservation Fund.
