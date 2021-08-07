@@ -8,7 +8,7 @@ at [https://hope4cheetahs.org](https://hope4cheetahs.org).
 [![platform-linux](https://img.shields.io/badge/platform-linux-orange)](#)
 [![platform-osx](https://img.shields.io/badge/platform-OSX-blue)](#)
 
-[![Help Stop Illegal Cheetah Trafficking](https://img.shields.io/static/v1?label=HELP&message=Stop%20Illegal%20Cheetah%20Trafficking&color=red&style=for-the-badge)](https://gf.me/u/yu5nuj)
+[![Help Stop Illegal Cheetah Trafficking](https://img.shields.io/static/v1?label=HELP&message=Stop%20Illegal%20Cheetah%20Trafficking&color=red&style=for-the-badge)](https://cheetah.org/learn/illegal-pet-trade/)
 [![Support Cheetah Conservation Fund](https://img.shields.io/static/v1?label=SUPPORT&message=Cheetah%20Conservation%20Fund&color=yellow&style=for-the-badge)](https://cheetah.org)
 
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/tetrachrome/)
@@ -61,14 +61,16 @@ at the moment.
 
 ### Help spread the words out
 
-[![Help Stop Illegal Cheetah Trafficking](https://img.shields.io/static/v1?label=HELP&message=Stop%20Illegal%20Cheetah%20Trafficking&color=red&style=for-the-badge)](https://gf.me/u/yu5nuj)
+[![Help Stop Illegal Cheetah Trafficking](https://img.shields.io/static/v1?label=HELP&message=Stop%20Illegal%20Cheetah%20Trafficking&color=red&style=for-the-badge)](https://cheetah.org/learn/illegal-pet-trade/)
 
 Simply help spread the word out about the current plight of the cheetahs
 to your family and friends is a great way to help.
 
 You can read about CCF's work in stopping illegal cheetah trades and trafficking
-in eastern Africa and the Persian Gulf on CCF's official site [here](https://cheetah.org/ccf-blog/illegal-pet-trade/somali-state-somaliland-border-meeting-on-cheetah-trafficking/), and
-[here](https://www.cnn.com/2019/08/28/africa/somaliland-cheetahs-gulf-intl/index.html).
+in eastern Africa and the Persian Gulf on CCF's official site [here](https://cheetah.org/learn/illegal-pet-trade/),
+and the latest update from [here](https://cheetah.org/ccf-blog/illegal-pet-trade/somali-state-somaliland-border-meeting-on-cheetah-trafficking/).
+
+CNN Exclusive: [The ultra-rich are illegally buying cheetahs as pets and it's leading to their extinction](https://www.cnn.com/2019/08/28/africa/somaliland-cheetahs-gulf-intl/index.html)
 
 ### Contribute directly to Cheetah Conservation Fund
 
