@@ -64,10 +64,9 @@ at the moment.
 Simply help spread the word out about the current plight of the cheetahs
 to your family and friends is a great way to help.
 
-You can also follow the [GoFundMe campaign](https://www.gofundme.com/f/stop-illegal-cheetah-trades-and-trafficking)
-set up to raise money for Cheetah Conservation Fund's work on
-stopping illegal cheetah trades and trafficking in Somaliland at
-the Persian Gulf. Learn more [here](https://www.cnn.com/2019/08/28/africa/somaliland-cheetahs-gulf-intl/index.html).
+You can read about CCF's work in stopping illegal cheetah trades and trafficking
+in eastern Africa and the Persian Gulf on CCF's official site [here](https://cheetah.org/ccf-blog/illegal-pet-trade/somali-state-somaliland-border-meeting-on-cheetah-trafficking/), and
+[here](https://www.cnn.com/2019/08/28/africa/somaliland-cheetahs-gulf-intl/index.html).
 
 ### Contribute directly to Cheetah Conservation Fund
 
