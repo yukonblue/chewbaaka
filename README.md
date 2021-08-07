@@ -64,10 +64,9 @@ at the moment.
 Simply help spread the word out about the current plight of the cheetahs
 to your family and friends is a great way to help.
 
-You can also follow the [GoFundMe campaign](https://www.gofundme.com/f/stop-illegal-cheetah-trades-and-trafficking)
-set up to raise money for Cheetah Conservation Fund's work on
-stopping illegal cheetah trades and trafficking in Somaliland at
-the Persian Gulf. Learn more [here](https://www.cnn.com/2019/08/28/africa/somaliland-cheetahs-gulf-intl/index.html).
+You can read about CCF's work in stopping illegal cheetah trades and trafficking
+in eastern Africa and the Persian Gulf on CCF's official site [here](https://cheetah.org/ccf-blog/illegal-pet-trade/somali-state-somaliland-border-meeting-on-cheetah-trafficking/), and
+[here](https://www.cnn.com/2019/08/28/africa/somaliland-cheetahs-gulf-intl/index.html).
 
 ### Contribute directly to Cheetah Conservation Fund
 
@@ -120,13 +119,13 @@ The project requires **Node.js** and **npm** to be installed.
 
 ### Node.js
 
-Node.js version `12.x` is the recommended version for development.
+Node.js version `14.x` is the recommended version for development.
 Node.js install should automatically installs the **npm** package manager.
 
 Node.js official link [here](https://nodejs.org/en/download/).
 
-(Currently I have Node.js version `v12.18.3` installed for development,
-which also installs npm `v6.14.6`).
+(Currently I have Node.js version `v14.17.4` (check with `node --version`) installed for development,
+which also installs npm version `6.14.14` (check with `npm --version`)).
 
 ### Setup
 
