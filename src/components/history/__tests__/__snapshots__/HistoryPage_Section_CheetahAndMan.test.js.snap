@@ -73,63 +73,63 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                 src="image_Mafdet-min.jpg"
               />
               <div
-                className="ImageSlidingGalleryCaptionPart"
-                data-testid="ImageSlidingGalleryCaptionPart"
+                className="ImageSlidingGalleryButtonContainer"
               >
                 <div
-                  className="CaptionContainer"
-                  data-testid="CaptionComponentTestId"
-                  style={
-                    Object {
-                      "maxWidth": undefined,
-                    }
-                  }
+                  aria-label="Previous slide"
+                  className="ui blue huge icon left attached disabled button"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex={-1}
                 >
-                  <div
-                    className="IconContainer"
-                  >
-                    <i
-                      aria-hidden="true"
-                      className="image icon"
-                      onClick={[Function]}
-                    />
-                  </div>
-                  <p
-                    className="ContentPageCaptionTextSize CaptionText"
-                  >
-                    Mafdet’s head on the bed where the mummy is placed.
-                  </p>
+                  <i
+                    aria-hidden="true"
+                    className="arrow alternate circle left outline icon"
+                    onClick={[Function]}
+                  />
+                </div>
+                <div
+                  aria-label="Next slide"
+                  className="ui blue huge icon right attached button"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  <i
+                    aria-hidden="true"
+                    className="arrow alternate circle right outline icon"
+                    onClick={[Function]}
+                  />
                 </div>
               </div>
             </div>
             <div
-              className="ImageSlidingGalleryButtonContainer"
+              className="ImageSlidingGalleryCaptionPart"
+              data-testid="ImageSlidingGalleryCaptionPart"
             >
               <div
-                aria-label="Previous slide"
-                className="ui blue huge icon left attached disabled button"
-                onClick={[Function]}
-                role="button"
-                tabIndex={-1}
+                className="CaptionContainer"
+                data-testid="CaptionComponentTestId"
+                style={
+                  Object {
+                    "maxWidth": undefined,
+                  }
+                }
               >
-                <i
-                  aria-hidden="true"
-                  className="arrow alternate circle left outline icon"
-                  onClick={[Function]}
-                />
-              </div>
-              <div
-                aria-label="Next slide"
-                className="ui blue huge icon right attached button"
-                onClick={[Function]}
-                role="button"
-                tabIndex={0}
-              >
-                <i
-                  aria-hidden="true"
-                  className="arrow alternate circle right outline icon"
-                  onClick={[Function]}
-                />
+                <div
+                  className="IconContainer"
+                >
+                  <i
+                    aria-hidden="true"
+                    className="image icon"
+                    onClick={[Function]}
+                  />
+                </div>
+                <p
+                  className="ContentPageCaptionTextSize CaptionText"
+                >
+                  Mafdet’s head on the bed where the mummy is placed.
+                </p>
               </div>
             </div>
           </div>
@@ -171,63 +171,63 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                 src="cheetah_with_two_indian_servants-min.jpg"
               />
               <div
-                className="ImageSlidingGalleryCaptionPart"
-                data-testid="ImageSlidingGalleryCaptionPart"
+                className="ImageSlidingGalleryButtonContainer"
               >
                 <div
-                  className="CaptionContainer"
-                  data-testid="CaptionComponentTestId"
-                  style={
-                    Object {
-                      "maxWidth": undefined,
-                    }
-                  }
+                  aria-label="Previous slide"
+                  className="ui blue huge icon left attached disabled button"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex={-1}
                 >
-                  <div
-                    className="IconContainer"
-                  >
-                    <i
-                      aria-hidden="true"
-                      className="image icon"
-                      onClick={[Function]}
-                    />
-                  </div>
-                  <p
-                    className="ContentPageCaptionTextSize CaptionText"
-                  >
-                    A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799.
-                  </p>
+                  <i
+                    aria-hidden="true"
+                    className="arrow alternate circle left outline icon"
+                    onClick={[Function]}
+                  />
+                </div>
+                <div
+                  aria-label="Next slide"
+                  className="ui blue huge icon right attached button"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  <i
+                    aria-hidden="true"
+                    className="arrow alternate circle right outline icon"
+                    onClick={[Function]}
+                  />
                 </div>
               </div>
             </div>
             <div
-              className="ImageSlidingGalleryButtonContainer"
+              className="ImageSlidingGalleryCaptionPart"
+              data-testid="ImageSlidingGalleryCaptionPart"
             >
               <div
-                aria-label="Previous slide"
-                className="ui blue huge icon left attached disabled button"
-                onClick={[Function]}
-                role="button"
-                tabIndex={-1}
+                className="CaptionContainer"
+                data-testid="CaptionComponentTestId"
+                style={
+                  Object {
+                    "maxWidth": undefined,
+                  }
+                }
               >
-                <i
-                  aria-hidden="true"
-                  className="arrow alternate circle left outline icon"
-                  onClick={[Function]}
-                />
-              </div>
-              <div
-                aria-label="Next slide"
-                className="ui blue huge icon right attached button"
-                onClick={[Function]}
-                role="button"
-                tabIndex={0}
-              >
-                <i
-                  aria-hidden="true"
-                  className="arrow alternate circle right outline icon"
-                  onClick={[Function]}
-                />
+                <div
+                  className="IconContainer"
+                >
+                  <i
+                    aria-hidden="true"
+                    className="image icon"
+                    onClick={[Function]}
+                  />
+                </div>
+                <p
+                  className="ContentPageCaptionTextSize CaptionText"
+                >
+                  A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799.
+                </p>
               </div>
             </div>
           </div>

@@ -65,63 +65,63 @@ exports[`FuturePageSubsectionSchoolsTeachersLearners component snapshot 1`] = `
                 src="CCF_Predator_Preyground-min.jpg"
               />
               <div
-                className="ImageSlidingGalleryCaptionPart"
-                data-testid="ImageSlidingGalleryCaptionPart"
+                className="ImageSlidingGalleryButtonContainer"
               >
                 <div
-                  className="CaptionContainer"
-                  data-testid="CaptionComponentTestId"
-                  style={
-                    Object {
-                      "maxWidth": undefined,
-                    }
-                  }
+                  aria-label="Previous slide"
+                  className="ui blue huge icon left attached disabled button"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex={-1}
                 >
-                  <div
-                    className="IconContainer"
-                  >
-                    <i
-                      aria-hidden="true"
-                      className="image icon"
-                      onClick={[Function]}
-                    />
-                  </div>
-                  <p
-                    className="ContentPageCaptionTextSize CaptionText"
-                  >
-                    CCF's Predator Preyground. (Image credit: Cheetah Conservation Fund)
-                  </p>
+                  <i
+                    aria-hidden="true"
+                    className="arrow alternate circle left outline icon"
+                    onClick={[Function]}
+                  />
+                </div>
+                <div
+                  aria-label="Next slide"
+                  className="ui blue huge icon right attached button"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  <i
+                    aria-hidden="true"
+                    className="arrow alternate circle right outline icon"
+                    onClick={[Function]}
+                  />
                 </div>
               </div>
             </div>
             <div
-              className="ImageSlidingGalleryButtonContainer"
+              className="ImageSlidingGalleryCaptionPart"
+              data-testid="ImageSlidingGalleryCaptionPart"
             >
               <div
-                aria-label="Previous slide"
-                className="ui blue huge icon left attached disabled button"
-                onClick={[Function]}
-                role="button"
-                tabIndex={-1}
+                className="CaptionContainer"
+                data-testid="CaptionComponentTestId"
+                style={
+                  Object {
+                    "maxWidth": undefined,
+                  }
+                }
               >
-                <i
-                  aria-hidden="true"
-                  className="arrow alternate circle left outline icon"
-                  onClick={[Function]}
-                />
-              </div>
-              <div
-                aria-label="Next slide"
-                className="ui blue huge icon right attached button"
-                onClick={[Function]}
-                role="button"
-                tabIndex={0}
-              >
-                <i
-                  aria-hidden="true"
-                  className="arrow alternate circle right outline icon"
-                  onClick={[Function]}
-                />
+                <div
+                  className="IconContainer"
+                >
+                  <i
+                    aria-hidden="true"
+                    className="image icon"
+                    onClick={[Function]}
+                  />
+                </div>
+                <p
+                  className="ContentPageCaptionTextSize CaptionText"
+                >
+                  CCF's Predator Preyground. (Image credit: Cheetah Conservation Fund)
+                </p>
               </div>
             </div>
           </div>
