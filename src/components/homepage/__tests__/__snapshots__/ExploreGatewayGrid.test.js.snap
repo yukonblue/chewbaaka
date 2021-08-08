@@ -1,7 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ExploreGatewayGrid component snapshot 1`] = `
-<nav>
+<nav
+  className="ExploreGatewayGrid"
+  id="ExploreGatewayMenu"
+>
   <div
     className="ui container stackable center aligned four column grid"
     data-testid="ExploreGatewayGridTestId"

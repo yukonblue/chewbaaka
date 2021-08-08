@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Jul 28, 2020
+ * Updated  : Aug 08, 2021
  */
 
 import React from 'react'
@@ -23,11 +23,6 @@ test('renders explore gateway intro', () => {
   // Tests component title is present.
   const componentTitleElement = screen.getByText(/Explore CCF’s Cheetah Museum/i);
   expect(componentTitleElement).toBeInTheDocument();
-
-  // Tests 'Get Involved' button is present and have the correct link.
-  const getInvolvedButton = screen.getByText("Get Involved");
-  expect(getInvolvedButton).toBeInTheDocument();
-  expect(getInvolvedButton.href).toBe("https://cheetah.org/get-involved/ways-to-give/");
 });
 
 test('ExploreGatewayIntro component snapshot', () => {
