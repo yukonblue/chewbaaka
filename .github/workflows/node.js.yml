@@ -30,3 +30,4 @@ jobs:
       env:
         CI: ""
     - run: npm test
+    - run: python3 versionutil_test.py
