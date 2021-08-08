@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 13, 2020
+ * Updated  : Aug 08, 2021
  */
 
 div.ExploreGatewayIntro {
@@ -67,3 +67,10 @@ img.ExploreGatewayIntroCCFCheetahMuseumImage {
   max-width: 100%;
   margin: 0 auto;
 }
+
+p.ExploreGatewayMenuIconLinkText {
+  text-align: center;
+}
+
+/* a.ExploreGatewayMenuIconLink {
+} */
