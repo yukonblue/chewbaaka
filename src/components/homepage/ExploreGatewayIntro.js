@@ -48,7 +48,7 @@ export default function ExploreGatewayIntro() {
           <div className="ExploreGatewayMenuIconLinkOuterContainer">
             <p className="ExploreGatewayMenuIconLinkText">
               <a href="#ExploreGatewayMenu" className="ExploreGatewayMenuIconLink">
-                <Icon name='angle double down' textAlign="center" size='huge' color='yellow'/>
+                <Icon name='angle double down' size='huge' color='yellow'/>
               </a>
             </p>
           </div>

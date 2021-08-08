@@ -30,10 +30,29 @@ exports[`ExploreGateway component snapshot 1`] = `
         >
           Explore CCF’s Cheetah Museum in Namibia and learn about the cheetahs, all at the comfort of your home.
         </div>
+        <div
+          className="ExploreGatewayMenuIconLinkOuterContainer"
+        >
+          <p
+            className="ExploreGatewayMenuIconLinkText"
+          >
+            <a
+              className="ExploreGatewayMenuIconLink"
+              href="#ExploreGatewayMenu"
+            >
+              <i
+                aria-hidden="true"
+                className="yellow angle double down huge icon"
+                onClick={[Function]}
+              />
+            </a>
+          </p>
+        </div>
       </div>
     </div>
     <div
       className="ExploreGatewayIntroCenterGrid VerticalCushionPadding"
+      id="ExploreGatewayMenu"
     >
       <div
         className="FluidSingleRowGridOuterContainer"
