@@ -1,5 +1,5 @@
 """
-versionutils.py
+versionutil.py
 
 Author   : Tomiko
 Created  : Jul 29, 2020
@@ -75,7 +75,14 @@ def bumpVersionStr(versionStr, args):
         minorStr = '0'
         patchStr = '0'
 
-    return '.'.join([majorStr, minorStr, patchStr])
+    result = '.'.join([majorStr, minorStr, patchStr])
+
+    if args.prerelease:
+        result += ('-' + args.prerelease)
+    if args.build:
+        result += ('+' + args.build)
+
+    return result
 
 
 ## -----------------------------------------------------------------------------
@@ -89,15 +96,11 @@ def process_impl(args, filepath, logger):
         logger.info('Current version: {version}'.format(version=versionStr))
         if (any((args.bump_patch, args.bump_minor, args.bump_major))):
             bumpedVersionStr = bumpVersionStr(versionStr, args)
-            if args.prerelease:
-                bumpedVersionStr += ('-' + args.prerelease)
-            if args.build:
-                bumpedVersionStr += ('+' + args.build)
             logger.info('New version: {version}'.format(version=bumpedVersionStr))
             d['version'] = bumpedVersionStr
             newd = d
 
-    if newd:
+    if newd and not args.display_only:
         with open(filepath, 'w') as fd:
             json.dump(newd, fd, separators=(',', ': '), indent=2, sort_keys=True)
 
@@ -149,6 +152,12 @@ def validateSemverPrerelease(s):
     for component in s.split('.'):
         if len(component) == 0 or not all((c.isalnum() or c == '-') for c in component):
             return False
+        if component[0] == '0' and len(component) > 1:
+            try:
+                int(component)
+                return False
+            except:
+                pass
     return True
 
 
@@ -182,10 +191,10 @@ def driver(args):
 
     arg_vals = [args.bump_patch, args.bump_minor, args.bump_major]
 
-    true_count = arg_vals.count(True)
+    args_count = arg_vals.count(True)
 
-    if true_count > 1:
-        sys.stderr.write('Must supply one of bump-patch, bump-minor, and bump-major.\n')
+    if args_count != 1:
+        sys.stderr.write('Must supply exactly one of bump-patch, bump-minor, and bump-major.\n')
         return errno.EINVAL
 
     if args.prerelease and not validateSemverPrerelease(args.prerelease):
@@ -217,6 +226,7 @@ def main():
     parser.add_argument('--bump-major', dest='bump_major', action='store_true', default=False, help='Bump version major number.')
     parser.add_argument('--prerelease', dest='prerelease', action='store', type=str, help='Specifies the prerelease component of the version string.')
     parser.add_argument('--build', dest='build', action='store', type=str, help='Specifies the build component of the version string.')
+    parser.add_argument('--display-only', dest='display_only', action='store_true', help='Display the bumped version string only, does not write to file.')
     args = parser.parse_args()
 
     sys.exit(driver(args))
