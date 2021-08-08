@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 08, 2021
  */
 
 import React from 'react'
@@ -13,12 +13,15 @@ import {
   Button,
   Container,
   Header,
+  Icon,
   Segment
 } from 'semantic-ui-react'
 
 import FluidSingleRowGrid from '../shared/FluidSingleRowGrid'
 
 import 'semantic-ui-css/semantic.min.css'
+
+import '../shared/GlobalStyles.css'
 
 import '../shared/ContentPageSharedStyles.css'
 
@@ -42,10 +45,17 @@ export default function ExploreGatewayIntro() {
           <Header size="huge" textAlign="center">
             Explore CCF’s Cheetah Museum in Namibia and learn about the cheetahs, all at the comfort of your home.
           </Header>
+          <div className="ExploreGatewayMenuIconLinkOuterContainer">
+            <p className="ExploreGatewayMenuIconLinkText">
+              <a href="#ExploreGatewayMenu" className="ExploreGatewayMenuIconLink">
+                <Icon name='angle double down' size='huge' color='yellow'/>
+              </a>
+            </p>
+          </div>
         </Container>
       </div>
 
-      <div className="ExploreGatewayIntroCenterGrid VerticalCushionPadding">
+      <div id="ExploreGatewayMenu" className="ExploreGatewayIntroCenterGrid VerticalCushionPadding">
         <FluidSingleRowGrid justifyContent="center">
           <div className="ExploreGatewayIntroCenterGridLhsColumnStyle">
             <p className="CCFMissionStatementQuote">
