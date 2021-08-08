@@ -51,7 +51,7 @@ exports[`HomePage snapshot 1`] = `
     id="Explore"
   >
     <div
-      className="ExploreGatewayIntro"
+      className="ExploreGatewayIntro ExploreGatewayBackground"
       data-testid="ExploreGatewayIntroTestId"
     >
       <div
@@ -95,66 +95,11 @@ exports[`HomePage snapshot 1`] = `
           </div>
         </div>
       </div>
-      <div
-        className="ExploreGatewayIntroCenterGrid VerticalCushionPadding"
-        id="ExploreGatewayMenu"
-      >
-        <div
-          className="FluidSingleRowGridOuterContainer"
-          style={
-            Object {
-              "justifyContent": "center",
-            }
-          }
-        >
-          <div
-            className="ExploreGatewayIntroCenterGridLhsColumnStyle"
-          >
-            <p
-              className="CCFMissionStatementQuote"
-            >
-              “CCF is Changing the World to Save the Cheetah” - Dr. Laurie Marker
-            </p>
-          </div>
-          <div
-            className="ExploreGatewayIntroCenterGridRhsColumnStyle"
-          >
-            <div
-              className="ui inverted segment"
-            >
-              <p
-                className="JoinTheRace"
-              >
-                Join the race to 
-                <a
-                  href="https://twitter.com/search?q=%23SaveTheCheetah"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <span
-                    className="SafeTheCheetah"
-                  >
-                    #SafeTheCheetah
-                  </span>
-                </a>
-              </p>
-              <p>
-                Cheetahs can't win without us.
-              </p>
-              <a
-                className="ui basic inverted button"
-                href="https://cheetah.org/get-involved/ways-to-give/"
-                onClick={[Function]}
-                role="button"
-              >
-                Get Involved
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-    <nav>
+    <nav
+      className="ExploreGatewayGrid"
+      id="ExploreGatewayMenu"
+    >
       <div
         className="ui container stackable center aligned four column grid"
         data-testid="ExploreGatewayGridTestId"
@@ -269,7 +214,63 @@ exports[`HomePage snapshot 1`] = `
         </div>
       </div>
     </nav>
-    <br />
+    <div
+      className="ExploreGatewayFooter ExploreGatewayBackground VerticalCushionPadding"
+    >
+      <div
+        className="FluidSingleRowGridOuterContainer"
+        style={
+          Object {
+            "justifyContent": "center",
+          }
+        }
+      >
+        <div
+          className="ExploreGatewayIntroCenterGridLhsColumnStyle"
+        >
+          <p
+            className="CCFMissionStatementQuote"
+          >
+            “CCF is Changing the World to Save the Cheetah” - Dr. Laurie Marker
+          </p>
+        </div>
+        <div
+          className="ExploreGatewayIntroCenterGridRhsColumnStyle"
+        >
+          <div
+            className="ui inverted segment"
+          >
+            <p
+              className="JoinTheRace"
+            >
+              Join the race to 
+              <a
+                href="https://twitter.com/search?q=%23SaveTheCheetah"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <span
+                  className="SafeTheCheetah"
+                >
+                  #SafeTheCheetah
+                </span>
+              </a>
+            </p>
+            <p>
+              Cheetahs can't win without us.
+            </p>
+            <a
+              className="ui basic inverted button"
+              href="https://cheetah.org/get-involved/ways-to-give/"
+              onClick={[Function]}
+              role="button"
+            >
+              Get Involved
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <footer>
     <div

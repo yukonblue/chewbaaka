@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExploreGatewayFooter component snapshot 1`] = `
+<div
+  className="ExploreGatewayFooter ExploreGatewayBackground VerticalCushionPadding"
+>
+  <div
+    className="FluidSingleRowGridOuterContainer"
+    style={
+      Object {
+        "justifyContent": "center",
+      }
+    }
+  >
+    <div
+      className="ExploreGatewayIntroCenterGridLhsColumnStyle"
+    >
+      <p
+        className="CCFMissionStatementQuote"
+      >
+        “CCF is Changing the World to Save the Cheetah” - Dr. Laurie Marker
+      </p>
+    </div>
+    <div
+      className="ExploreGatewayIntroCenterGridRhsColumnStyle"
+    >
+      <div
+        className="ui inverted segment"
+      >
+        <p
+          className="JoinTheRace"
+        >
+          Join the race to 
+          <a
+            href="https://twitter.com/search?q=%23SaveTheCheetah"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <span
+              className="SafeTheCheetah"
+            >
+              #SafeTheCheetah
+            </span>
+          </a>
+        </p>
+        <p>
+          Cheetahs can't win without us.
+        </p>
+        <a
+          className="ui basic inverted button"
+          href="https://cheetah.org/get-involved/ways-to-give/"
+          onClick={[Function]}
+          role="button"
+        >
+          Get Involved
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
