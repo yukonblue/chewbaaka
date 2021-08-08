@@ -1,5 +1,26 @@
 # Release Note
 
+## Version 0.4.2
+
+* Date: August 08, 2021
+* Changelog:
+  * Fixes for the following issues:
+    * Issue #97 - Scientific names should have the proper formatting
+    * Issue #95 - `ImageSlidingGallery` does not retain fixed dimension across all hosted images while being fluid in its bound.
+  * Refinements:
+    * 63dba18 - Improve contrast of content page banner title and subtitle text.
+    * 1f92484 - Minor refinement in navigation experience in landing page.
+    * Minor refinement in homepage explore gateway layout.
+  * Tools changes:
+    * 8818acb - Port `health_check.py` to Python 3.
+    * 1fcbdbb - Incorporate support for semver prerelease and build components in `versionutil.py`.
+    * 9eb8248 - Incorporate unit tests for `versionutil.py`.
+  * Build/config changes:
+    * Update Semantic UI React (semantic-ui-react) version.
+    * Update GitHub Actions CI config.
+  * Misc. changes:
+    * Updates to top-level `README.md`.
+
 ## Version 0.4.1
 
 * Date: August 29, 2020
