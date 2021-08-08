@@ -3,7 +3,7 @@ versionutils.py
 
 Author   : Tomiko
 Created  : Jul 29, 2020
-Updated  : Aug 14, 2020
+Updated  : Aug 07, 2021
 """
 
 """
@@ -63,6 +63,8 @@ def bumpVersionStr(versionStr, args):
     minorStr = pieces[1] if len(pieces) >= 1 else '0'
     patchStr = pieces[2] if len(pieces) >= 2 else '0'
 
+    patchStr = patchStr.split('-')[0]
+
     if args.bump_patch:
         patchStr = bumpStr(patchStr)
     elif args.bump_minor:
@@ -87,6 +89,10 @@ def process_impl(args, filepath, logger):
         logger.info('Current version: {version}'.format(version=versionStr))
         if (any((args.bump_patch, args.bump_minor, args.bump_major))):
             bumpedVersionStr = bumpVersionStr(versionStr, args)
+            if args.prerelease:
+                bumpedVersionStr += ('-' + args.prerelease)
+            if args.build:
+                bumpedVersionStr += ('+' + args.build)
             logger.info('New version: {version}'.format(version=bumpedVersionStr))
             d['version'] = bumpedVersionStr
             newd = d
@@ -126,15 +132,68 @@ def getLogger():
 ## -----------------------------------------------------------------------------
 
 
+def validateSemverPrerelease(s):
+    """
+    https://semver.org/#spec-item-9
+
+    A pre-release version MAY be denoted by appending a hyphen and a series
+    of dot separated identifiers immediately following the patch version.
+    Identifiers MUST comprise only ASCII alphanumerics and hyphens [0-9A-Za-z-].
+    Identifiers MUST NOT be empty. Numeric identifiers MUST NOT include leading
+    zeroes. Pre-release versions have a lower precedence than the associated
+    normal version. A pre-release version indicates that the version is unstable
+    and might not satisfy the intended compatibility requirements as denoted by
+    its associated normal version. Examples: 1.0.0-alpha, 1.0.0-alpha.1,
+    1.0.0-0.3.7, 1.0.0-x.7.z.92, 1.0.0-x-y-z.–.
+    """
+    for component in s.split('.'):
+        if len(component) == 0 or not all((c.isalnum() or c == '-') for c in component):
+            return False
+    return True
+
+
+## -----------------------------------------------------------------------------
+
+
+def validateSemverBuild(s):
+    """
+    https://semver.org/#spec-item-10
+
+    Build metadata MAY be denoted by appending a plus sign and a series of dot
+    separated identifiers immediately following the patch or pre-release
+    version. Identifiers MUST comprise only ASCII alphanumerics and hyphens
+    [0-9A-Za-z-]. Identifiers MUST NOT be empty. Build metadata MUST be ignored
+    when determining version precedence. Thus two versions that differ only in
+    the build metadata, have the same precedence. Examples: 1.0.0-alpha+001,
+    1.0.0+20130313144700, 1.0.0-beta+exp.sha.5114f85,
+    1.0.0+21AF26D3—-117B344092BD.
+    """
+    for component in s.split('.'):
+        if len(component) == 0 or not all((c.isalnum() or c == '-') for c in component):
+            return False
+    return True
+
+
+## -----------------------------------------------------------------------------
+
+
 def driver(args):
     logger = getLogger()
 
     arg_vals = [args.bump_patch, args.bump_minor, args.bump_major]
 
-    true_count =  arg_vals.count(True)
+    true_count = arg_vals.count(True)
 
     if true_count > 1:
         sys.stderr.write('Must supply one of bump-patch, bump-minor, and bump-major.\n')
+        return errno.EINVAL
+
+    if args.prerelease and not validateSemverPrerelease(args.prerelease):
+        sys.stderr.write('Invalid semver prerelease component: \'{prerelease}\'.\n'.format(prerelease=args.prerelease))
+        return errno.EINVAL
+
+    if args.build and not validateSemverBuild(args.build):
+        sys.stderr.write('Invalid semver build component: \'{build}\'.\n'.format(build=args.build))
         return errno.EINVAL
 
     filepath = os.path.join(os.getcwd(), PACKAGE_JSON_FILENAME)
@@ -156,7 +215,8 @@ def main():
     parser.add_argument('--bump-patch', dest='bump_patch', action='store_true', default=False, help='Bump version patch number.')
     parser.add_argument('--bump-minor', dest='bump_minor', action='store_true', default=False, help='Bump version minor number.')
     parser.add_argument('--bump-major', dest='bump_major', action='store_true', default=False, help='Bump version major number.')
-
+    parser.add_argument('--prerelease', dest='prerelease', action='store', type=str, help='Specifies the prerelease component of the version string.')
+    parser.add_argument('--build', dest='build', action='store', type=str, help='Specifies the build component of the version string.')
     args = parser.parse_args()
 
     sys.exit(driver(args))
