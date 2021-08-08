@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 19, 2020
+ * Updated  : Aug 08, 2021
  */
 
 /**
@@ -13,6 +13,12 @@
  * `ImageSlidingGallery` is a component that illustrates a set of
  * user specified images one at a time, along with a piece of
  * caption string annotating the image.
+ *
+ * It is advisable to have all the images in the same dimension,
+ * or at least same aspect ratios. Otherwise the rendering output
+ * may cause "page jump" effect.
+ *
+ * https://github.com/tetrachrome/chewbaaka/issues/95
  *
  * Props:
  *
@@ -80,16 +86,16 @@ export default class ImageSlidingGallery extends React.Component {
             src={activeSlide.image}
             alt={caption}
           />
-          <div
+          {this.renderPrevNextButtonGroup()}
+        </div>
+        <div
             className="ImageSlidingGalleryCaptionPart"
             data-testid="ImageSlidingGalleryCaptionPart"
           >
             <Caption
               caption={caption}
             />
-          </div>
         </div>
-        {this.renderPrevNextButtonGroup()}
       </div>
     );
   }
