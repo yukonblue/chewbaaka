@@ -5,7 +5,7 @@ exports[`ContentPageSkeleton snapshot 1`] = `
   className="ContentPageSkeletonOuterContainer"
 >
   <div
-    className="ContentPageSkeletonContentContainerDimension"
+    className="ContentPageSkeletonContentContainerDimension ContentPageSkeletonPreContentContainer"
   >
     <header>
       <div
@@ -91,6 +91,7 @@ exports[`ContentPageSkeleton snapshot 1`] = `
         <div
           className="ContentPageSkeletonContentContainerDimension ContentPageBannerContainer"
           data-testid="ContentPageBannerComponentTestId"
+          id="ContentPageBanner"
           style={
             Object {
               "backgroundImage": "url(null)",
@@ -668,6 +669,60 @@ exports[`ContentPageSkeleton snapshot 1`] = `
                 </nav>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ContentPageSkeletonBottomNavBarContainer"
+    >
+      <div
+        className="ContentPageBottomNavBarOuterContainer ContentPageSkeletonContentContainerDimension"
+      >
+        <div
+          className="ContentPageBottomNavBarInnerContainer"
+        >
+          <div
+            className="ContentPageBottomNavBarIconSetContainer"
+          >
+            <a
+              href="#"
+            >
+              <i
+                aria-hidden="true"
+                className="blue arrow alternate circle up outline big icon"
+                onClick={[Function]}
+              />
+            </a>
+            <a
+              href="#ContentPageBanner"
+            >
+              <i
+                aria-hidden="true"
+                className="orange list alternate big icon"
+                onClick={[Function]}
+              />
+            </a>
+            <a
+              disabled={false}
+              href="/biology"
+            >
+              <i
+                aria-hidden="true"
+                className="blue chevron circle left big icon"
+                onClick={[Function]}
+              />
+            </a>
+            <a
+              disabled={false}
+              href="/future"
+            >
+              <i
+                aria-hidden="true"
+                className="blue chevron circle right big icon"
+                onClick={[Function]}
+              />
+            </a>
           </div>
         </div>
       </div>

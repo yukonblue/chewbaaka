@@ -4,16 +4,42 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 18, 2020
+ * Updated  : Aug 10, 2021
  */
 
 .ContentPageSkeletonOuterContainer {
-  background-color: rgba(239, 239, 239, 1.0);
+  background-color: rgb(239, 239, 239);
+}
+
+div.ContentPageSkeletonPreContentContainer {
+  position: relative; /** This is to make the z-index attribute below into effect,
+                          as the attribute only works for an element with explicitly defined
+                          position attribute.
+                      */
+
+  z-index: 999;       /** This is to make sure that the `ContentPageBottomNavBar` component
+                          does not occlude the content page banner and section nav menu bar.
+
+                          NOTE: Make sure this has a higher value for the z-index attribute
+                          than the one defined for `ContentPageBottomNavBar` (in ContentPageBottomNavBar.css).
+                      */
 }
 
 div.ContentPageSkeletonContentContainer {
   margin: 0 auto;
   width: 85%;
+}
+
+/** Wrapper container to make the `ContentPageSkeletonBottomNavBar`
+    component appear at a fixed position offset relative
+    to the bottom of its parent container (we want it to have
+    the effect of appearing at the bottom of the screen).
+*/
+div.ContentPageSkeletonBottomNavBarContainer {
+  position: fixed;
+  margin: 0 auto;
+  width: 100%;
+  bottom: 0px;
 }
 
 /** This width specification is kept in sync

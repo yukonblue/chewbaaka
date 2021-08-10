@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 22, 2020
+ * Updated  : Aug 10, 2021
  */
 
 import React from 'react'
@@ -55,6 +55,7 @@ export default class ContentPageBanner extends React.Component {
                                               "ContentPageBannerContainer"])}
         style={contentPageBannerContainerStyles}
         data-testid="ContentPageBannerComponentTestId"
+        id="ContentPageBanner"
       >
         <div className="ContentPageBannerTitleContainer">
           <p className="ContentPageBannerTitle">{this.props.title}</p>
