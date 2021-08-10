@@ -4,12 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Aug 22, 2020
+ * Updated  : Aug 09, 2021
  */
 
 import React from 'react'
 
 import ContentPageTableOfContentMenuTemplate from './ContentPageTableOfContentMenuTemplate'
+
+import ContentPageTableOfContentMenuTemplateCompact from './ContentPageTableOfContentMenuTemplateCompact'
 
 import DimensionPredicatedContainer from '../shared/DimensionPredicatedContainer'
 
@@ -28,9 +30,15 @@ export default function ContentPageTableOfContentMenuBootstrapper(props) {
   }));
 
   return (
-    <DimensionPredicatedContainer
-      pred={(dimension) => (dimension.width >= 824)}
-      renderContentHandler={() => (<ContentPageTableOfContentMenuTemplate items={items} />)}
-    />
+    <div>
+      <DimensionPredicatedContainer
+        pred={(dimension) => (dimension.width >= 824)}
+        renderContentHandler={() => (<ContentPageTableOfContentMenuTemplate items={items} />)}
+      />
+      <DimensionPredicatedContainer
+        pred={(dimension) => (dimension.width < 824)}
+        renderContentHandler={() => (<ContentPageTableOfContentMenuTemplateCompact items={items} />)}
+      />
+    </div>
   );
 }

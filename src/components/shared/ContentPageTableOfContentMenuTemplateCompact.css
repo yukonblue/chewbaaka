@@ -1,0 +1,46 @@
+/**
+ * ContentPageTableOfContentMenuTemplateCompact.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Aug 09, 2021
+ * Updated  : Aug 09, 2021
+ */
+
+div.ContentPageTableOfContentMenuTemplateCompactOuterContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p.ContentPageTableOfContentMenuTemplateCompactNavBarCaptionTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  margin: 20px 0px -5px 0px;
+  padding-left: 10px;
+  color: gray;
+}
+
+nav ul.ContentPageTableOfContentMenuTemplateCompactNavBarList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 0px;
+}
+
+nav ul.ContentPageTableOfContentMenuTemplateCompactNavBarList li {
+  padding: 0.6em 0.6em;
+  margin: auto 0.6em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+nav ul.ContentPageTableOfContentMenuTemplateCompactNavBarList li a {
+  color: #05629a;
+}
+
+nav ul.ContentPageTableOfContentMenuTemplateCompactNavBarList li a:hover {
+  color: rgb(255,149,0);
+}
