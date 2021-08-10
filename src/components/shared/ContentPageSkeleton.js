@@ -31,6 +31,8 @@ import ContentPageBottomNavBar from './ContentPageBottomNavBar'
 
 import Footer from './Footer'
 
+import RenderVersionString from './Debug'
+
 import 'semantic-ui-css/semantic.min.css'
 
 import './ContentPageSharedStyles.css'
@@ -73,6 +75,7 @@ export default class ContentPageSkeleton extends React.Component {
       <Fragment>
         {this.renderHTMLHead()}
         {this.renderHTMLBody()}
+        {this.renderVersionString()}
       </Fragment>
     );
   }
@@ -175,5 +178,9 @@ export default class ContentPageSkeleton extends React.Component {
         </div>
       </Ref>
     );
+  }
+
+  renderVersionString() {
+    return RenderVersionString(this.props.appConfig.version);
   }
 }

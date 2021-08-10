@@ -3,6 +3,9 @@
 ## Version 0.4.2
 
 * Date: August 08, 2021
+* Commit: `29fa966`
+* Tag: `0.4.2`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/0.4.2)
 * Changelog:
   * Fixes for the following issues:
     * Issue #97 - Scientific names should have the proper formatting
