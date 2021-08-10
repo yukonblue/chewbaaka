@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 20, 2020
+ * Updated  : Aug 10, 2021
  */
 
 import React, { Fragment } from 'react'
@@ -27,6 +27,7 @@ import ContentPageIntroSectionGeneric from './ContentPageIntroSectionGeneric'
 import ContentPageHead from './ContentPageHead'
 import ContentPageTail from './ContentPageTail'
 import ContentPageSideNavMenu from './ContentPageSideNavMenu'
+import ContentPageBottomNavBar from './ContentPageBottomNavBar'
 
 import Footer from './Footer'
 
@@ -81,7 +82,7 @@ export default class ContentPageSkeleton extends React.Component {
 
     const globalMetaKeywords = this.props.appConfig.headMeta.keywords;
     const headMetaKeywords = headMeta.keywords;
-  
+
     const metaKeywords = headMetaKeywords.concat(globalMetaKeywords).join(", ");
 
     return (
@@ -105,7 +106,7 @@ export default class ContentPageSkeleton extends React.Component {
 
   renderHeader() {
     return (
-      <div className="ContentPageSkeletonContentContainerDimension">
+      <div className="ContentPageSkeletonContentContainerDimension ContentPageSkeletonPreContentContainer">
         <ContentPageHead
           pageProps={this.props.pageConfig.pageProps}
           imagesContext={this.props.imagesContext}
@@ -167,6 +168,10 @@ export default class ContentPageSkeleton extends React.Component {
               </div>
             </Sticky>
           </Rail>
+
+          <div className="ContentPageSkeletonBottomNavBarContainer">
+            <ContentPageBottomNavBar pageTailNavMenu={this.props.pageConfig.pageProps.pageTailNavMenu}/>
+          </div>
         </div>
       </Ref>
     );

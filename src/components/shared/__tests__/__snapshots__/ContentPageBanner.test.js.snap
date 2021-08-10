@@ -4,6 +4,7 @@ exports[`ContentPageBanner component snapshot 1`] = `
 <div
   className="ContentPageSkeletonContentContainerDimension ContentPageBannerContainer"
   data-testid="ContentPageBannerComponentTestId"
+  id="ContentPageBanner"
   style={
     Object {
       "backgroundImage": "url(null)",
