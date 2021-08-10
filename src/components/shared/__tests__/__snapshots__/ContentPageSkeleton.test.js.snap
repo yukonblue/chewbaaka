@@ -118,73 +118,76 @@ exports[`ContentPageSkeleton snapshot 1`] = `
       </div>
     </header>
     <div>
-      <div
-        className="ContentPageTableOfContentMenuTemplateOuterContainer"
-      >
+      <div>
         <div
-          className="ContentPageTableOfContentMenuTemplateInnerContainer"
+          className="ContentPageTableOfContentMenuTemplateOuterContainer"
         >
-          <nav>
-            <div
-              className="FluidSingleRowGridOuterContainer"
-              style={
-                Object {
-                  "justifyContent": undefined,
+          <div
+            className="ContentPageTableOfContentMenuTemplateInnerContainer"
+          >
+            <nav>
+              <div
+                className="FluidSingleRowGridOuterContainer"
+                style={
+                  Object {
+                    "justifyContent": undefined,
+                  }
                 }
-              }
-            >
-              <div
-                className="CircularImageButtonOuterContainer"
               >
-                <a
-                  href="#menu-item-1"
+                <div
+                  className="CircularImageButtonOuterContainer"
                 >
-                  <div
-                    className="CircularImageButtonCore"
+                  <a
+                    href="#menu-item-1"
                   >
-                    <img
-                      alt="Menu Item 1"
-                      className="CircularImageButtonImg"
-                      src={null}
-                    />
-                  </div>
-                  <div>
-                    <p
-                      className="CircularImageButtonTitle"
+                    <div
+                      className="CircularImageButtonCore"
                     >
-                      Menu Item 1
-                    </p>
-                  </div>
-                </a>
-              </div>
-              <div
-                className="CircularImageButtonOuterContainer"
-              >
-                <a
-                  href="#menu-item-2"
+                      <img
+                        alt="Menu Item 1"
+                        className="CircularImageButtonImg"
+                        src={null}
+                      />
+                    </div>
+                    <div>
+                      <p
+                        className="CircularImageButtonTitle"
+                      >
+                        Menu Item 1
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  className="CircularImageButtonOuterContainer"
                 >
-                  <div
-                    className="CircularImageButtonCore"
+                  <a
+                    href="#menu-item-2"
                   >
-                    <img
-                      alt="Menu Item 2"
-                      className="CircularImageButtonImg"
-                      src={null}
-                    />
-                  </div>
-                  <div>
-                    <p
-                      className="CircularImageButtonTitle"
+                    <div
+                      className="CircularImageButtonCore"
                     >
-                      Menu Item 2
-                    </p>
-                  </div>
-                </a>
+                      <img
+                        alt="Menu Item 2"
+                        className="CircularImageButtonImg"
+                        src={null}
+                      />
+                    </div>
+                    <div>
+                      <p
+                        className="CircularImageButtonTitle"
+                      >
+                        Menu Item 2
+                      </p>
+                    </div>
+                  </a>
+                </div>
               </div>
-            </div>
-          </nav>
+            </nav>
+          </div>
         </div>
       </div>
+      <div />
     </div>
   </div>
   <div
