@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 20, 2020
+ * Updated  : Aug 10, 2021
  */
 
 import React, { Fragment } from 'react'
@@ -15,11 +15,9 @@ import LandingPageGateway from './LandingPageGateway'
 import ExploreGateway from './ExploreGateway'
 import Footer from '../shared/Footer'
 
-import HtmlComment from '../shared/HtmlComment'
+import RenderVersionString from '../shared/Debug'
 
 import { config } from './config'
-
-const __TEST__ = ( process.env.NODE_ENV === "test" );
 
 export default class HomePage extends React.Component {
 
@@ -28,6 +26,7 @@ export default class HomePage extends React.Component {
       <Fragment>
         {this.renderHTMLHead()}
         {this.renderHTMLBody()}
+        {this.renderVersionString()}
       </Fragment>
     );
   }
@@ -42,7 +41,6 @@ export default class HomePage extends React.Component {
         <Footer
           appConfig={this.props.appConfig}
         />
-        {this.renderVersionInDebug()}
       </div>
     )
   }
@@ -59,11 +57,7 @@ export default class HomePage extends React.Component {
     );
   }
 
-  renderVersionInDebug() {
-    return (!__TEST__) ? (
-      <HtmlComment
-        text={`Version: ${this.props.appConfig.version}`}
-      />
-    ) : null;
+  renderVersionString() {
+    return RenderVersionString(this.props.appConfig.version);
   }
 }

@@ -18,7 +18,7 @@ at [https://hope4cheetahs.org](https://hope4cheetahs.org).
 ![logo](./Resources/Chewbaaka_Logo_256x256.png)
 
 
-## Goals and Objectives
+## Project Objectives
 
 Named after the iconic cheetah ambassador *Chewbaaka*, this project is
 dedicated to [Cheetah Conservation Fund](https://cheetah.org)
@@ -29,7 +29,7 @@ and their current plight.
 
 [![Watch the video](https://img.youtube.com/vi/p5r1NxE2kLU/hqdefault.jpg)](https://youtu.be/p5r1NxE2kLU)
 
-[Here](https://youtu.be/p5r1NxE2kLU)'s CCF's official video tour of the Cheetah Museum.
+Click [here](https://youtu.be/p5r1NxE2kLU) to view CCF's official video tour of the Cheetah Museum.
 
 ## Contributions
 
