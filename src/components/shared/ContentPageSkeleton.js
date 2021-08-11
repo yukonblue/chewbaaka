@@ -77,7 +77,6 @@ export default class ContentPageSkeleton extends React.Component {
       <Fragment>
         {this.renderHTMLHead()}
         {this.renderHTMLBody()}
-        {this.renderVersionString()}
       </Fragment>
     );
   }
@@ -105,6 +104,7 @@ export default class ContentPageSkeleton extends React.Component {
         {this.renderHeader()}
         {this.renderBody()}
         {this.renderFooter()}
+        {this.renderVersionString()}
       </div>
     );
   }
