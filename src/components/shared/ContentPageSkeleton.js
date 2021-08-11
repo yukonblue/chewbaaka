@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 10, 2021
+ * Updated  : Aug 11, 2021
  */
 
 import React, { Fragment } from 'react'
@@ -32,6 +32,8 @@ import ContentPageBottomNavBar from './ContentPageBottomNavBar'
 import Footer from './Footer'
 
 import RenderVersionString from './Debug'
+
+import DimensionPredicatedContainer from './DimensionPredicatedContainer'
 
 import 'semantic-ui-css/semantic.min.css'
 
@@ -172,11 +174,26 @@ export default class ContentPageSkeleton extends React.Component {
             </Sticky>
           </Rail>
 
-          <div className="ContentPageSkeletonBottomNavBarContainer">
-            <ContentPageBottomNavBar pageTailNavMenu={this.props.pageConfig.pageProps.pageTailNavMenu}/>
-          </div>
+          {this.renderBottomNavBarConditionally()}
         </div>
       </Ref>
+    );
+  }
+
+  renderBottomNavBarConditionally() {
+    return (
+      <DimensionPredicatedContainer
+        pred={(dimension) => (dimension.width < 824)}
+        renderContentHandler={() => (this.renderBottomNavBar())}
+      />
+    );
+  }
+
+  renderBottomNavBar() {
+    return (
+      <div className="ContentPageSkeletonBottomNavBarContainer">
+        <ContentPageBottomNavBar pageTailNavMenu={this.props.pageConfig.pageProps.pageTailNavMenu}/>
+      </div>
     );
   }
 
