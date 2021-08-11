@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 10, 2021
+ * Updated  : Aug 11, 2021
  */
 
 import React, { Fragment } from 'react'
@@ -26,7 +26,6 @@ export default class HomePage extends React.Component {
       <Fragment>
         {this.renderHTMLHead()}
         {this.renderHTMLBody()}
-        {this.renderVersionString()}
       </Fragment>
     );
   }
@@ -41,6 +40,7 @@ export default class HomePage extends React.Component {
         <Footer
           appConfig={this.props.appConfig}
         />
+        {this.renderVersionString()}
       </div>
     )
   }

@@ -70,7 +70,7 @@ def bumpVersionStr(versionStr, args):
     elif args.bump_minor:
         minorStr = bumpStr(minorStr)
         patchStr = '0'
-    else:
+    elif args.bump_major:
         majorStr = bumpStr(majorStr)
         minorStr = '0'
         patchStr = '0'
@@ -94,11 +94,10 @@ def process_impl(args, filepath, logger):
         d = json.load(fd)
         versionStr = d['version']
         logger.info('Current version: {version}'.format(version=versionStr))
-        if (any((args.bump_patch, args.bump_minor, args.bump_major))):
-            bumpedVersionStr = bumpVersionStr(versionStr, args)
-            logger.info('New version: {version}'.format(version=bumpedVersionStr))
-            d['version'] = bumpedVersionStr
-            newd = d
+        bumpedVersionStr = bumpVersionStr(versionStr, args)
+        logger.info('New version: {version}'.format(version=bumpedVersionStr))
+        d['version'] = bumpedVersionStr
+        newd = d
 
     if newd and not args.display_only:
         with open(filepath, 'w') as fd:
@@ -189,12 +188,16 @@ def validateSemverBuild(s):
 def driver(args):
     logger = getLogger()
 
+    if not any((args.bump_patch, args.bump_minor, args.bump_major, args.prerelease, args.build)):
+        sys.stderr.write('Must supply at least one of --bump-patch, --bump-minor, --bump-major, --prerelease, and --build.\n')
+        return errno.EINVAL
+
     arg_vals = [args.bump_patch, args.bump_minor, args.bump_major]
 
     args_count = arg_vals.count(True)
 
-    if args_count != 1:
-        sys.stderr.write('Must supply exactly one of bump-patch, bump-minor, and bump-major.\n')
+    if args_count > 1:
+        sys.stderr.write('Must supply exactly one of --bump-patch, --bump-minor, and --bump-major.\n')
         return errno.EINVAL
 
     if args.prerelease and not validateSemverPrerelease(args.prerelease):
