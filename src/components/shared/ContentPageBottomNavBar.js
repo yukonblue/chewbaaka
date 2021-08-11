@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Aug 10, 2021
- * Updated  : Aug 10, 2021
+ * Updated  : Aug 11, 2021
  */
 
 import React from 'react'
@@ -34,7 +34,7 @@ export default class ContentPageBottomNavBar extends React.Component {
             </a>
 
             <a href="#ContentPageBanner">
-              <Icon name='list alternate' size='big' color='orange'/>
+              <Icon name='list alternate' size='big' color='blue'/>
             </a>
 
             {this.renderPrevNextPageIconButton(this.props.pageTailNavMenu.prevPage, true)}

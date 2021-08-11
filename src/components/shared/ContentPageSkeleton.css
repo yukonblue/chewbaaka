@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 10, 2021
+ * Updated  : Aug 11, 2021
  */
 
 .ContentPageSkeletonOuterContainer {
@@ -23,6 +23,17 @@ div.ContentPageSkeletonPreContentContainer {
                           NOTE: Make sure this has a higher value for the z-index attribute
                           than the one defined for `ContentPageBottomNavBar` (in ContentPageBottomNavBar.css).
                       */
+
+  /** Specify a background color here that's a repeat
+      of the background color specified in `.ContentPageSkeletonOuterContainer`
+      above.
+
+      The goal is to mask the content page bottom nav bar component (i.e. `ContentPageBottomNavBar`)
+      and make sure that any content above the page body content can occlude
+      the nav bar (e.g. without this the nav bar would appear on top of `ContentPageTableOfContentMenuTemplateCompact`
+      on mobile, and since the nav bar has a translucent bg color, it isn't ideal.
+  */
+  background-color: rgb(239, 239, 239);
 }
 
 div.ContentPageSkeletonContentContainer {
