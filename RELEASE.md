@@ -1,5 +1,16 @@
 # Release Note
 
+## Version 0.5.0
+
+* Date: August 11, 2021
+* Changelog:
+  * New / refinements:
+    * Introduced a new content page bottom navigation bar (i.e. `ContentPageBottomNavBar`).
+    * Embed project version string across all content pages as well.
+  * Tools:
+    * Updates `versionutil.py` to be able to update prerelease or build component
+      of version string without having to bump any of the major, minor, or patch components.
+
 ## Version 0.4.2
 
 * Date: August 08, 2021
