@@ -34,7 +34,7 @@ frontend:
       # - key: 'Content-Security-Policy'
       #   value: 'default-src self'
     ##
-    # Give a two-hour cache window for all resources.
+    # Give static resources aggressive cache control and limit.
     #
     # Issue #100
     #
@@ -45,4 +45,4 @@ frontend:
     - pattern: '/static/**/*'
       headers:
       - key: 'Cache-Control'
-        value: 'public, max-age=7200, must-revalidate'
+        value: 'public, max-age=604800, immutable'
