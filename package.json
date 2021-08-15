@@ -44,9 +44,9 @@
   "scripts": {
     "build": "react-scripts build && node ./addPreloadWoff.js && node ./addPreloadLinks.js",
     "eject": "react-scripts eject",
-    "postbuild": "react-snap",
+    "postbuild": "react-snap && python3 postprocess.py --override",
     "start": "react-scripts start",
     "test": "react-scripts test --runInBand"
   },
-  "version": "0.5.0"
+  "version": "0.5.1+08.15.21-1055"
 }
