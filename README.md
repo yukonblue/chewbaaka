@@ -192,6 +192,58 @@ Snapshot files (with `.snap` extension) should be updated to be correct
 and be checked-in in the corresponding `__snapshots__` directory as
 part of the repository source artifact.
 
+### Production build
+
+To generate release build for production, run:
+
+```
+npm run build
+```
+
+This will generate the entire site in production/release mode.
+The output will be under the local `build/` directory.
+
+To serve the production build locally, one can use the `serve`
+package, which can be installed with:
+
+```
+npm install -g serve
+```
+
+Once `serve` has been installed, it can be used to serve the production
+release locally with:
+
+```
+serve -s build -l 3000
+```
+
+This will prompt `serve` to launch a virtual server that serves
+the production build at localhost port 3000.
+
+### Audit and benchmark production build locally
+
+Once the production build can be served locally, one can make use
+of [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/)'s
+CLI tool to audit the production build locally.
+
+First, to install the Node command line tool for Google Lighthouse, follow
+the instructions [here](https://developers.google.com/web/tools/lighthouse/)
+and run:
+
+```
+npm install -g lighthouse
+```
+
+Once it's installed, build and serve the production build like described
+above, and while the virtual server is running, invoke Lighthouse with:
+
+```
+lighthouse localhost:3000/<page> --view
+```
+
+This will invoke Lighthouse to audit the page, and at the end of the audit
+automatically open up the report page.
+
 
 ## Versions and Releases
 

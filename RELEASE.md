@@ -3,8 +3,13 @@
 ## Version 0.5.0
 
 * Date: August 11, 2021
+* Commit: `8734665`
+* Tag: `0.5.0`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/0.5.0)
 * Changelog:
   * New / refinements:
+    * Introduced a compact version of content page section menu for mobile-like display sizes
+      (i.e. `ContentPageTableOfContentMenuTemplateCompact`).
     * Introduced a new content page bottom navigation bar (i.e. `ContentPageBottomNavBar`).
     * Embed project version string across all content pages as well.
   * Tools:
