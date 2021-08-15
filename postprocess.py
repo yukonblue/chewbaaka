@@ -194,6 +194,10 @@ def driver(args):
 
     logger.info('Arguments: {args}'.format(args=args))
 
+    if args.nop:
+        logger.info('Exiting since passed --nop')
+        return EXIT_SUCCESS
+
     runner = Runner(args, config, logger)
     res = runner.run()
 
@@ -212,6 +216,7 @@ def main():
     parser = argparse.ArgumentParser(prog='', description='')
     parser.add_argument('--tmp-filepath', dest='tmp_filepath', action='store', type=str, help='Specify a temporary file path used for postprocessed files.')
     parser.add_argument('--override', dest='override', action='store_true', default=False, help='INTRUSIVE: Copy over original files with processed temp files.')
+    parser.add_argument('--nop', dest='nop', action='store_true', default=False, help='Make the invocation a no-op, effectively immediately exit the process right after invocation.')
 
     args = parser.parse_args()
 
