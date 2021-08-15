@@ -139,7 +139,7 @@ class Runner(object):
         try:
             for filepath in self.config.filepaths:
                 self.process(filepath)
-        except ex as Exception:
+        except Exception as ex:
             self.logger.error(ex)
             self.logger.exception(ex)
             return EXIT_FAIL
@@ -148,6 +148,9 @@ class Runner(object):
 
     def process(self, filepath):
         self.logger.info('>>> Starting process file {filepath}'.format(filepath=filepath))
+
+        if not os.path.exists(filepath) or not os.path.isfile(filepath):
+            raise Exception('File does not exist or invalid: {filepath}'.format(filepath=filepath))
 
         tmp_filepath = self.args.tmp_filepath if self.args.tmp_filepath else str(tempfile.mkstemp()[1])
 
@@ -213,7 +216,7 @@ def driver(args):
 
 
 def main():
-    parser = argparse.ArgumentParser(prog='', description='')
+    parser = argparse.ArgumentParser(prog=PROG, description='Postprocess built artifacts')
     parser.add_argument('--tmp-filepath', dest='tmp_filepath', action='store', type=str, help='Specify a temporary file path used for postprocessed files.')
     parser.add_argument('--override', dest='override', action='store_true', default=False, help='INTRUSIVE: Copy over original files with processed temp files.')
     parser.add_argument('--nop', dest='nop', action='store_true', default=False, help='Make the invocation a no-op, effectively immediately exit the process right after invocation.')
