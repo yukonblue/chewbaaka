@@ -216,6 +216,135 @@ class TestHTMLRewriter(unittest.TestCase):
 
         self._check(html, expectedHtml)
 
+    def testRewriteWithComment(self):
+        html = """
+            <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="utf-8">
+                    <meta content="width=device-width,initial-scale=1" name="viewport">
+                    <link href="/static/css/main.af3c9481.chunk.css" rel="stylesheet">
+                    <script src="/static/js/1.863c462e.chunk.js" charset="utf-8">
+                    </script>
+                </head>
+                <body>
+                    <!-- Version 0.5.0 -->
+                </body>
+            </html>
+        """
+
+        expectedHtml = """
+            <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="utf-8">
+                    <meta content="width=device-width,initial-scale=1" name="viewport">
+                    <link href="/static/css/main.af3c9481.chunk.css" rel="stylesheet">
+                    <script defer src="/static/js/1.863c462e.chunk.js" charset="utf-8">
+                    </script>
+                </head>
+                <body>
+                    <!-- Version 0.5.0 -->
+                </body>
+            </html>
+        """
+
+        self._check(html, expectedHtml)
+
+    def testRewriteWithNonAsciiCharacterInBody(self):
+        html = """
+            <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="utf-8">
+                    <meta content="width=device-width,initial-scale=1" name="viewport">
+                    <link href="/static/css/main.af3c9481.chunk.css" rel="stylesheet">
+                    <script src="/static/js/1.863c462e.chunk.js" charset="utf-8">
+                    </script>
+                </head>
+                <body>
+                    <p>Crafted with <span aria-label="heart" role="img">❤️</span> by Will Li</p>
+                </body>
+            </html>
+        """
+
+        expectedHtml = """
+            <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="utf-8">
+                    <meta content="width=device-width,initial-scale=1" name="viewport">
+                    <link href="/static/css/main.af3c9481.chunk.css" rel="stylesheet">
+                    <script defer src="/static/js/1.863c462e.chunk.js" charset="utf-8">
+                    </script>
+                </head>
+                <body>
+                    <p>Crafted with <span aria-label="heart" role="img">❤️</span> by Will Li</p>
+                </body>
+            </html>
+        """
+
+        self._check(html, expectedHtml)
+
+    def testRewriteWithComplexEmbeddedStyle(self):
+        html = """
+            <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="utf-8">
+                    <meta content="width=device-width,initial-scale=1" name="viewport">
+                    <link href="/static/css/main.af3c9481.chunk.css" rel="stylesheet">
+                    <script src="/static/js/1.863c462e.chunk.js" charset="utf-8">
+                    <style>
+                        .body {
+                            font-color: #red;
+                        }
+                    </style>
+                    <style data-jss="" data-meta="MuiSlider">
+                        .MuiSlider-root{color:#3f51b5;width:100%;cursor:pointer;height:2px;display:inline-block;padding:13px 0;position:relative;box-sizing:content-box;touch-action:none;-webkit-tap-highlight-color:transparent}.MuiSlider-root.Mui-disabled{color:#bdbdbd;cursor:default;pointer-events:none}.MuiSlider-root.MuiSlider-vertical{width:2px;height:100%;padding:0 13px}@media (pointer:coarse){.MuiSlider-root{padding:20px 0}.MuiSlider-root.MuiSlider-vertical{padding:0 20px}}@media print{.MuiSlider-root{-webkit-print-color-adjust:exact}}.MuiSlider-colorSecondary{color:#f50057}.MuiSlider-marked{margin-bottom:20px}.MuiSlider-marked.MuiSlider-vertical{margin-right:20px;margin-bottom:auto}.MuiSlider-rail{width:100%;height:2px;display:block;opacity:.38;position:absolute;border-radius:1px;background-color:currentColor}.MuiSlider-vertical .MuiSlider-rail{width:2px;height:100%}.MuiSlider-track{height:2px;display:block;position:absolute;border-radius:1px;background-color:currentColor}.MuiSlider-vertical .MuiSlider-track{width:2px}.MuiSlider-trackFalse .MuiSlider-track{display:none}.MuiSlider-trackInverted .MuiSlider-track{background-color:#b6bce2}.MuiSlider-trackInverted .MuiSlider-rail{opacity:1}.MuiSlider-thumb{width:12px;height:12px;display:flex;outline:0;position:absolute;box-sizing:border-box;margin-top:-5px;transition:box-shadow 150ms cubic-bezier(.4,0,.2,1) 0s;align-items:center;margin-left:-6px;border-radius:50%;justify-content:center;background-color:currentColor}.MuiSlider-thumb::after{top:-15px;left:-15px;right:-15px;bottom:-15px;content:"";position:absolute;border-radius:50%}.MuiSlider-thumb.Mui-focusVisible,.MuiSlider-thumb:hover{box-shadow:0 0 0 8px rgba(63,81,181,.16)}.MuiSlider-thumb.MuiSlider-active{box-shadow:0 0 0 14px rgba(63,81,181,.16)}.MuiSlider-thumb.Mui-disabled{width:8px;height:8px;margin-top:-3px;margin-left:-4px}.MuiSlider-vertical .MuiSlider-thumb{margin-left:-5px;margin-bottom:-6px}.MuiSlider-vertical .MuiSlider-thumb.Mui-disabled{margin-left:-3px;margin-bottom:-4px}.MuiSlider-thumb.Mui-disabled:hover{box-shadow:none}@media (hover:none){.MuiSlider-thumb.Mui-focusVisible,.MuiSlider-thumb:hover{box-shadow:none}}.MuiSlider-thumbColorSecondary.Mui-focusVisible,.MuiSlider-thumbColorSecondary:hover{box-shadow:0 0 0 8px rgba(245,0,87,.16)}.MuiSlider-thumbColorSecondary.MuiSlider-active{box-shadow:0 0 0 14px rgba(245,0,87,.16)}.MuiSlider-valueLabel{left:calc(-50% - 4px)}.MuiSlider-mark{width:2px;height:2px;position:absolute;border-radius:1px;background-color:currentColor}.MuiSlider-markActive{opacity:.8;background-color:#fff}.MuiSlider-markLabel{top:26px;color:rgba(0,0,0,.54);position:absolute;font-size:.875rem;transform:translateX(-50%);font-family:Roboto,Helvetica,Arial,sans-serif;font-weight:400;line-height:1.43;white-space:nowrap;letter-spacing:.01071em}.MuiSlider-vertical .MuiSlider-markLabel{top:auto;left:26px;transform:translateY(50%)}@media (pointer:coarse){.MuiSlider-markLabel{top:40px}.MuiSlider-vertical .MuiSlider-markLabel{left:31px}}.MuiSlider-markLabelActive{color:rgba(0,0,0,.87)}
+                    </style>
+                    <script>
+                        console.log("Hello, world");
+                    </script>
+                </head>
+                <body>
+                    <div>
+                        <p>&lt; Hello, world!</p>
+                    <div>
+                </body>
+            </html>
+        """
+
+        expectedHtml = """
+            <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="utf-8">
+                    <meta content="width=device-width,initial-scale=1" name="viewport">
+                    <link href="/static/css/main.af3c9481.chunk.css" rel="stylesheet">
+                    <script defer src="/static/js/1.863c462e.chunk.js" charset="utf-8">
+                    <style>
+                        .body {
+                            font-color: #red;
+                        }
+                    </style>
+                    <style data-jss="" data-meta="MuiSlider">
+                        .MuiSlider-root{color:#3f51b5;width:100%;cursor:pointer;height:2px;display:inline-block;padding:13px 0;position:relative;box-sizing:content-box;touch-action:none;-webkit-tap-highlight-color:transparent}.MuiSlider-root.Mui-disabled{color:#bdbdbd;cursor:default;pointer-events:none}.MuiSlider-root.MuiSlider-vertical{width:2px;height:100%;padding:0 13px}@media (pointer:coarse){.MuiSlider-root{padding:20px 0}.MuiSlider-root.MuiSlider-vertical{padding:0 20px}}@media print{.MuiSlider-root{-webkit-print-color-adjust:exact}}.MuiSlider-colorSecondary{color:#f50057}.MuiSlider-marked{margin-bottom:20px}.MuiSlider-marked.MuiSlider-vertical{margin-right:20px;margin-bottom:auto}.MuiSlider-rail{width:100%;height:2px;display:block;opacity:.38;position:absolute;border-radius:1px;background-color:currentColor}.MuiSlider-vertical .MuiSlider-rail{width:2px;height:100%}.MuiSlider-track{height:2px;display:block;position:absolute;border-radius:1px;background-color:currentColor}.MuiSlider-vertical .MuiSlider-track{width:2px}.MuiSlider-trackFalse .MuiSlider-track{display:none}.MuiSlider-trackInverted .MuiSlider-track{background-color:#b6bce2}.MuiSlider-trackInverted .MuiSlider-rail{opacity:1}.MuiSlider-thumb{width:12px;height:12px;display:flex;outline:0;position:absolute;box-sizing:border-box;margin-top:-5px;transition:box-shadow 150ms cubic-bezier(.4,0,.2,1) 0s;align-items:center;margin-left:-6px;border-radius:50%;justify-content:center;background-color:currentColor}.MuiSlider-thumb::after{top:-15px;left:-15px;right:-15px;bottom:-15px;content:"";position:absolute;border-radius:50%}.MuiSlider-thumb.Mui-focusVisible,.MuiSlider-thumb:hover{box-shadow:0 0 0 8px rgba(63,81,181,.16)}.MuiSlider-thumb.MuiSlider-active{box-shadow:0 0 0 14px rgba(63,81,181,.16)}.MuiSlider-thumb.Mui-disabled{width:8px;height:8px;margin-top:-3px;margin-left:-4px}.MuiSlider-vertical .MuiSlider-thumb{margin-left:-5px;margin-bottom:-6px}.MuiSlider-vertical .MuiSlider-thumb.Mui-disabled{margin-left:-3px;margin-bottom:-4px}.MuiSlider-thumb.Mui-disabled:hover{box-shadow:none}@media (hover:none){.MuiSlider-thumb.Mui-focusVisible,.MuiSlider-thumb:hover{box-shadow:none}}.MuiSlider-thumbColorSecondary.Mui-focusVisible,.MuiSlider-thumbColorSecondary:hover{box-shadow:0 0 0 8px rgba(245,0,87,.16)}.MuiSlider-thumbColorSecondary.MuiSlider-active{box-shadow:0 0 0 14px rgba(245,0,87,.16)}.MuiSlider-valueLabel{left:calc(-50% - 4px)}.MuiSlider-mark{width:2px;height:2px;position:absolute;border-radius:1px;background-color:currentColor}.MuiSlider-markActive{opacity:.8;background-color:#fff}.MuiSlider-markLabel{top:26px;color:rgba(0,0,0,.54);position:absolute;font-size:.875rem;transform:translateX(-50%);font-family:Roboto,Helvetica,Arial,sans-serif;font-weight:400;line-height:1.43;white-space:nowrap;letter-spacing:.01071em}.MuiSlider-vertical .MuiSlider-markLabel{top:auto;left:26px;transform:translateY(50%)}@media (pointer:coarse){.MuiSlider-markLabel{top:40px}.MuiSlider-vertical .MuiSlider-markLabel{left:31px}}.MuiSlider-markLabelActive{color:rgba(0,0,0,.87)}
+                    </style>
+                    <script>
+                        console.log("Hello, world");
+                    </script>
+                </head>
+                <body>
+                    <div>
+                        <p>&lt; Hello, world!</p>
+                    <div>
+                </body>
+            </html>
+        """
+
+        self._check(html, expectedHtml)
+
     def _check(self, html, expectedHtml):
         rewriter = HTMLRewriter('')
 
