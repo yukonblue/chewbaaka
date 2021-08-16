@@ -3,7 +3,7 @@ postprocess_test.py
 
 Author   : Tomiko
 Created  : Aug 15, 2021
-Updated  : Aug 15, 2021
+Updated  : Aug 16, 2021
 """
 
 import unittest
@@ -14,6 +14,10 @@ from postprocess import HTMLRewriter
 
 
 class TestHTMLRewriter(unittest.TestCase):
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.maxDiff = None
 
     def testRewriteWithSimpleHTML(self):
         html = """
@@ -77,6 +81,7 @@ class TestHTMLRewriter(unittest.TestCase):
                     <meta content="width=device-width,initial-scale=1" name="viewport">
                     <link href="/static/css/main.af3c9481.chunk.css" rel="stylesheet">
                     <script src="/static/js/1.863c462e.chunk.js" charset="utf-8">
+                    </script>
                 </head>
             </html>
         """
@@ -89,13 +94,12 @@ class TestHTMLRewriter(unittest.TestCase):
                     <meta content="width=device-width,initial-scale=1" name="viewport">
                     <link href="/static/css/main.af3c9481.chunk.css" rel="stylesheet">
                     <script defer src="/static/js/1.863c462e.chunk.js" charset="utf-8">
+                    </script>
                 </head>
             </html>
         """
 
-        ## TODO: This test case current fails on macOS 11.5.2 (20G95)
-        # Python 3.8.2
-        # self._check(html, expectedHtml)
+        self._check(html, expectedHtml)
 
     def testRewriteWithComplexInlineStyle(self):
         html = """
@@ -128,13 +132,232 @@ class TestHTMLRewriter(unittest.TestCase):
 
         self._check(html, expectedHtml)
 
+    def testRewriteWithStartEndTag(self):
+        html = """
+            <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="utf-8">
+                    <meta content="width=device-width,initial-scale=1" name="viewport">
+                    <link href="/static/css/main.af3c9481.chunk.css" rel="stylesheet">
+                    <script src="/static/js/1.863c462e.chunk.js" charset="utf-8">
+                    </script>
+                </head>
+                <body>
+                     <img src="hello.jpg" alt="hello" width="1024" height="768">
+                </body>
+            </html>
+        """
+
+        expectedHtml = """
+            <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="utf-8">
+                    <meta content="width=device-width,initial-scale=1" name="viewport">
+                    <link href="/static/css/main.af3c9481.chunk.css" rel="stylesheet">
+                    <script defer src="/static/js/1.863c462e.chunk.js" charset="utf-8">
+                    </script>
+                </head>
+                <body>
+                     <img src="hello.jpg" alt="hello" width="1024" height="768">
+                </body>
+            </html>
+        """
+
+        self._check(html, expectedHtml)
+
+    def testRewriteWithInBodyScript(self):
+        html = """
+            <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="utf-8">
+                    <meta content="width=device-width,initial-scale=1" name="viewport">
+                    <link href="/static/css/main.af3c9481.chunk.css" rel="stylesheet">
+                    <script src="/static/js/1.863c462e.chunk.js" charset="utf-8">
+                    </script>
+                </head>
+                <body>
+                    <div>
+                        <h1>Hello, world!</h1>
+                    </div>
+                    <script>
+                        !function(e){function t(t){for(var n,o,u=t[0],f=t[1],i=t[2],l=0,d=[];l<u.length;l++)o=u[l],Object.prototype.hasOwnProperty.call(a,o)&&a[o]&&d.push(a[o][0]),a[o]=0;for(n in f)Object.prototype.hasOwnProperty.call(f,n)&&(e[n]=f[n]);for(s&&s(t);d.length;)d.shift()();return c.push.apply(c,i||[]),r()}function r(){for(var e,t=0;t<c.length;t++){for(var r=c[t],n=!0,o=1;o<r.length;o++){var f=r[o];0!==a[f]&&(n=!1)}n&&(c.splice(t--,1),e=u(u.s=r[0]))}return e}var n={},o={6:0},a={6:0},c=[];function u(t){if(n[t])return n[t].exports;var r=n[t]={i:t,l:!1,exports:{}};return e[t].call(r.exports,r,r.exports,u),r.l=!0,r.exports}u.e=function(e){var t=[];o[e]?t.push(o[e]):0!==o[e]&&{0:1,8:1,9:1,10:1,11:1,12:1,13:1,14:1,15:1,16:1,17:1,18:1}[e]&&t.push(o[e]=new Promise((function(t,r){for(var n="static/css/"+({}[e]||e)+"."+{0:"ebc560db",1:"31d6cfe0",2:"31d6cfe0",3:"31d6cfe0",4:"31d6cfe0",8:"49e204d2",9:"11680288",10:"4696bd2f",11:"4a940f59",12:"18012030",13:"736146bb",14:"fcb4c333",15:"c2c1d5b1",16:"5064f383",17:"ae0b7fe0",18:"ae0b7fe0",19:"31d6cfe0"}[e]+".chunk.css",a=u.p+n,c=document.getElementsByTagName("link"),f=0;f<c.length;f++){var i=(s=c[f]).getAttribute("data-href")||s.getAttribute("href");if("stylesheet"===s.rel&&(i===n||i===a))return t()}var l=document.getElementsByTagName("style");for(f=0;f<l.length;f++){var s;if((i=(s=l[f]).getAttribute("data-href"))===n||i===a)return t()}var d=document.createElement("link");d.rel="stylesheet",d.type="text/css",d.onload=t,d.onerror=function(t){var n=t&&t.target&&t.target.src||a,c=new Error("Loading CSS chunk "+e+" failed.\n("+n+")");c.code="CSS_CHUNK_LOAD_FAILED",c.request=n,delete o[e],d.parentNode.removeChild(d),r(c)},d.href=a,document.getElementsByTagName("head")[0].appendChild(d)})).then((function(){o[e]=0})));var r=a[e];if(0!==r)if(r)t.push(r[2]);else{var n=new Promise((function(t,n){r=a[e]=[t,n]}));t.push(r[2]=n);var c,f=document.createElement("script");f.charset="utf-8",f.timeout=120,u.nc&&f.setAttribute("nonce",u.nc),f.src=function(e){return u.p+"static/js/"+({}[e]||e)+"."+{0:"2e9a64df",1:"863c462e",2:"80991755",3:"4e82bf42",4:"4c55a10d",8:"f9d66c93",9:"e961b3d3",10:"0eb75c64",11:"7d596c2c",12:"63715c01",13:"6895e8cb",14:"5c906f64",15:"25022fd1",16:"9b21977d",17:"e6eef61a",18:"28aa31a1",19:"1c2d10c4"}[e]+".chunk.js"}(e);var i=new Error;c=function(t){f.onerror=f.onload=null,clearTimeout(l);var r=a[e];if(0!==r){if(r){var n=t&&("load"===t.type?"missing":t.type),o=t&&t.target&&t.target.src;i.message="Loading chunk "+e+" failed.\n("+n+": "+o+")",i.name="ChunkLoadError",i.type=n,i.request=o,r[1](i)}a[e]=void 0}};var l=setTimeout((function(){c({type:"timeout",target:f})}),12e4);f.onerror=f.onload=c,document.head.appendChild(f)}return Promise.all(t)},u.m=e,u.c=n,u.d=function(e,t,r){u.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},u.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},u.t=function(e,t){if(1&t&&(e=u(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(u.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var n in e)u.d(r,n,function(t){return e[t]}.bind(null,n));return r},u.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return u.d(t,"a",t),t},u.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},u.p="/",u.oe=function(e){throw console.error(e),e};var f=this.webpackJsonpchewbaaka=this.webpackJsonpchewbaaka||[],i=f.push.bind(f);f.push=t,f=f.slice();for(var l=0;l<f.length;l++)t(f[l]);var s=i;r()}([])
+                    </script>
+                    <script src="/static/js/7.5b7708af.chunk.js">
+                    </script>
+                    <script src="/static/js/main.81d0d1cf.chunk.js">
+                    </script>
+                </body>
+            </html>
+        """
+
+        expectedHtml = """
+            <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="utf-8">
+                    <meta content="width=device-width,initial-scale=1" name="viewport">
+                    <link href="/static/css/main.af3c9481.chunk.css" rel="stylesheet">
+                    <script defer src="/static/js/1.863c462e.chunk.js" charset="utf-8">
+                    </script>
+                </head>
+                <body>
+                    <div>
+                        <h1>Hello, world!</h1>
+                    </div>
+                    <script>
+                        !function(e){function t(t){for(var n,o,u=t[0],f=t[1],i=t[2],l=0,d=[];l<u.length;l++)o=u[l],Object.prototype.hasOwnProperty.call(a,o)&&a[o]&&d.push(a[o][0]),a[o]=0;for(n in f)Object.prototype.hasOwnProperty.call(f,n)&&(e[n]=f[n]);for(s&&s(t);d.length;)d.shift()();return c.push.apply(c,i||[]),r()}function r(){for(var e,t=0;t<c.length;t++){for(var r=c[t],n=!0,o=1;o<r.length;o++){var f=r[o];0!==a[f]&&(n=!1)}n&&(c.splice(t--,1),e=u(u.s=r[0]))}return e}var n={},o={6:0},a={6:0},c=[];function u(t){if(n[t])return n[t].exports;var r=n[t]={i:t,l:!1,exports:{}};return e[t].call(r.exports,r,r.exports,u),r.l=!0,r.exports}u.e=function(e){var t=[];o[e]?t.push(o[e]):0!==o[e]&&{0:1,8:1,9:1,10:1,11:1,12:1,13:1,14:1,15:1,16:1,17:1,18:1}[e]&&t.push(o[e]=new Promise((function(t,r){for(var n="static/css/"+({}[e]||e)+"."+{0:"ebc560db",1:"31d6cfe0",2:"31d6cfe0",3:"31d6cfe0",4:"31d6cfe0",8:"49e204d2",9:"11680288",10:"4696bd2f",11:"4a940f59",12:"18012030",13:"736146bb",14:"fcb4c333",15:"c2c1d5b1",16:"5064f383",17:"ae0b7fe0",18:"ae0b7fe0",19:"31d6cfe0"}[e]+".chunk.css",a=u.p+n,c=document.getElementsByTagName("link"),f=0;f<c.length;f++){var i=(s=c[f]).getAttribute("data-href")||s.getAttribute("href");if("stylesheet"===s.rel&&(i===n||i===a))return t()}var l=document.getElementsByTagName("style");for(f=0;f<l.length;f++){var s;if((i=(s=l[f]).getAttribute("data-href"))===n||i===a)return t()}var d=document.createElement("link");d.rel="stylesheet",d.type="text/css",d.onload=t,d.onerror=function(t){var n=t&&t.target&&t.target.src||a,c=new Error("Loading CSS chunk "+e+" failed.\n("+n+")");c.code="CSS_CHUNK_LOAD_FAILED",c.request=n,delete o[e],d.parentNode.removeChild(d),r(c)},d.href=a,document.getElementsByTagName("head")[0].appendChild(d)})).then((function(){o[e]=0})));var r=a[e];if(0!==r)if(r)t.push(r[2]);else{var n=new Promise((function(t,n){r=a[e]=[t,n]}));t.push(r[2]=n);var c,f=document.createElement("script");f.charset="utf-8",f.timeout=120,u.nc&&f.setAttribute("nonce",u.nc),f.src=function(e){return u.p+"static/js/"+({}[e]||e)+"."+{0:"2e9a64df",1:"863c462e",2:"80991755",3:"4e82bf42",4:"4c55a10d",8:"f9d66c93",9:"e961b3d3",10:"0eb75c64",11:"7d596c2c",12:"63715c01",13:"6895e8cb",14:"5c906f64",15:"25022fd1",16:"9b21977d",17:"e6eef61a",18:"28aa31a1",19:"1c2d10c4"}[e]+".chunk.js"}(e);var i=new Error;c=function(t){f.onerror=f.onload=null,clearTimeout(l);var r=a[e];if(0!==r){if(r){var n=t&&("load"===t.type?"missing":t.type),o=t&&t.target&&t.target.src;i.message="Loading chunk "+e+" failed.\n("+n+": "+o+")",i.name="ChunkLoadError",i.type=n,i.request=o,r[1](i)}a[e]=void 0}};var l=setTimeout((function(){c({type:"timeout",target:f})}),12e4);f.onerror=f.onload=c,document.head.appendChild(f)}return Promise.all(t)},u.m=e,u.c=n,u.d=function(e,t,r){u.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},u.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},u.t=function(e,t){if(1&t&&(e=u(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(u.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var n in e)u.d(r,n,function(t){return e[t]}.bind(null,n));return r},u.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return u.d(t,"a",t),t},u.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},u.p="/",u.oe=function(e){throw console.error(e),e};var f=this.webpackJsonpchewbaaka=this.webpackJsonpchewbaaka||[],i=f.push.bind(f);f.push=t,f=f.slice();for(var l=0;l<f.length;l++)t(f[l]);var s=i;r()}([])
+                    </script>
+                    <script defer src="/static/js/7.5b7708af.chunk.js">
+                    </script>
+                    <script defer src="/static/js/main.81d0d1cf.chunk.js">
+                    </script>
+                </body>
+            </html>
+        """
+
+        self._check(html, expectedHtml)
+
+    def testRewriteWithComment(self):
+        html = """
+            <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="utf-8">
+                    <meta content="width=device-width,initial-scale=1" name="viewport">
+                    <link href="/static/css/main.af3c9481.chunk.css" rel="stylesheet">
+                    <script src="/static/js/1.863c462e.chunk.js" charset="utf-8">
+                    </script>
+                </head>
+                <body>
+                    <!-- Version 0.5.0 -->
+                </body>
+            </html>
+        """
+
+        expectedHtml = """
+            <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="utf-8">
+                    <meta content="width=device-width,initial-scale=1" name="viewport">
+                    <link href="/static/css/main.af3c9481.chunk.css" rel="stylesheet">
+                    <script defer src="/static/js/1.863c462e.chunk.js" charset="utf-8">
+                    </script>
+                </head>
+                <body>
+                    <!-- Version 0.5.0 -->
+                </body>
+            </html>
+        """
+
+        self._check(html, expectedHtml)
+
+    def testRewriteWithNonAsciiCharacterInBody(self):
+        html = """
+            <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="utf-8">
+                    <meta content="width=device-width,initial-scale=1" name="viewport">
+                    <link href="/static/css/main.af3c9481.chunk.css" rel="stylesheet">
+                    <script src="/static/js/1.863c462e.chunk.js" charset="utf-8">
+                    </script>
+                </head>
+                <body>
+                    <p>Crafted with <span aria-label="heart" role="img">❤️</span> by Will Li</p>
+                </body>
+            </html>
+        """
+
+        expectedHtml = """
+            <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="utf-8">
+                    <meta content="width=device-width,initial-scale=1" name="viewport">
+                    <link href="/static/css/main.af3c9481.chunk.css" rel="stylesheet">
+                    <script defer src="/static/js/1.863c462e.chunk.js" charset="utf-8">
+                    </script>
+                </head>
+                <body>
+                    <p>Crafted with <span aria-label="heart" role="img">❤️</span> by Will Li</p>
+                </body>
+            </html>
+        """
+
+        self._check(html, expectedHtml)
+
+    def testRewriteWithComplexEmbeddedStyle(self):
+        html = """
+            <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="utf-8">
+                    <meta content="width=device-width,initial-scale=1" name="viewport">
+                    <link href="/static/css/main.af3c9481.chunk.css" rel="stylesheet">
+                    <script src="/static/js/1.863c462e.chunk.js" charset="utf-8">
+                    <style>
+                        .body {
+                            font-color: #red;
+                        }
+                    </style>
+                    <style data-jss="" data-meta="MuiSlider">
+                        .MuiSlider-root{color:#3f51b5;width:100%;cursor:pointer;height:2px;display:inline-block;padding:13px 0;position:relative;box-sizing:content-box;touch-action:none;-webkit-tap-highlight-color:transparent}.MuiSlider-root.Mui-disabled{color:#bdbdbd;cursor:default;pointer-events:none}.MuiSlider-root.MuiSlider-vertical{width:2px;height:100%;padding:0 13px}@media (pointer:coarse){.MuiSlider-root{padding:20px 0}.MuiSlider-root.MuiSlider-vertical{padding:0 20px}}@media print{.MuiSlider-root{-webkit-print-color-adjust:exact}}.MuiSlider-colorSecondary{color:#f50057}.MuiSlider-marked{margin-bottom:20px}.MuiSlider-marked.MuiSlider-vertical{margin-right:20px;margin-bottom:auto}.MuiSlider-rail{width:100%;height:2px;display:block;opacity:.38;position:absolute;border-radius:1px;background-color:currentColor}.MuiSlider-vertical .MuiSlider-rail{width:2px;height:100%}.MuiSlider-track{height:2px;display:block;position:absolute;border-radius:1px;background-color:currentColor}.MuiSlider-vertical .MuiSlider-track{width:2px}.MuiSlider-trackFalse .MuiSlider-track{display:none}.MuiSlider-trackInverted .MuiSlider-track{background-color:#b6bce2}.MuiSlider-trackInverted .MuiSlider-rail{opacity:1}.MuiSlider-thumb{width:12px;height:12px;display:flex;outline:0;position:absolute;box-sizing:border-box;margin-top:-5px;transition:box-shadow 150ms cubic-bezier(.4,0,.2,1) 0s;align-items:center;margin-left:-6px;border-radius:50%;justify-content:center;background-color:currentColor}.MuiSlider-thumb::after{top:-15px;left:-15px;right:-15px;bottom:-15px;content:"";position:absolute;border-radius:50%}.MuiSlider-thumb.Mui-focusVisible,.MuiSlider-thumb:hover{box-shadow:0 0 0 8px rgba(63,81,181,.16)}.MuiSlider-thumb.MuiSlider-active{box-shadow:0 0 0 14px rgba(63,81,181,.16)}.MuiSlider-thumb.Mui-disabled{width:8px;height:8px;margin-top:-3px;margin-left:-4px}.MuiSlider-vertical .MuiSlider-thumb{margin-left:-5px;margin-bottom:-6px}.MuiSlider-vertical .MuiSlider-thumb.Mui-disabled{margin-left:-3px;margin-bottom:-4px}.MuiSlider-thumb.Mui-disabled:hover{box-shadow:none}@media (hover:none){.MuiSlider-thumb.Mui-focusVisible,.MuiSlider-thumb:hover{box-shadow:none}}.MuiSlider-thumbColorSecondary.Mui-focusVisible,.MuiSlider-thumbColorSecondary:hover{box-shadow:0 0 0 8px rgba(245,0,87,.16)}.MuiSlider-thumbColorSecondary.MuiSlider-active{box-shadow:0 0 0 14px rgba(245,0,87,.16)}.MuiSlider-valueLabel{left:calc(-50% - 4px)}.MuiSlider-mark{width:2px;height:2px;position:absolute;border-radius:1px;background-color:currentColor}.MuiSlider-markActive{opacity:.8;background-color:#fff}.MuiSlider-markLabel{top:26px;color:rgba(0,0,0,.54);position:absolute;font-size:.875rem;transform:translateX(-50%);font-family:Roboto,Helvetica,Arial,sans-serif;font-weight:400;line-height:1.43;white-space:nowrap;letter-spacing:.01071em}.MuiSlider-vertical .MuiSlider-markLabel{top:auto;left:26px;transform:translateY(50%)}@media (pointer:coarse){.MuiSlider-markLabel{top:40px}.MuiSlider-vertical .MuiSlider-markLabel{left:31px}}.MuiSlider-markLabelActive{color:rgba(0,0,0,.87)}
+                    </style>
+                    <script>
+                        console.log("Hello, world");
+                    </script>
+                </head>
+                <body>
+                    <div>
+                        <p>&lt; Hello, world!</p>
+                    <div>
+                </body>
+            </html>
+        """
+
+        expectedHtml = """
+            <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="utf-8">
+                    <meta content="width=device-width,initial-scale=1" name="viewport">
+                    <link href="/static/css/main.af3c9481.chunk.css" rel="stylesheet">
+                    <script defer src="/static/js/1.863c462e.chunk.js" charset="utf-8">
+                    <style>
+                        .body {
+                            font-color: #red;
+                        }
+                    </style>
+                    <style data-jss="" data-meta="MuiSlider">
+                        .MuiSlider-root{color:#3f51b5;width:100%;cursor:pointer;height:2px;display:inline-block;padding:13px 0;position:relative;box-sizing:content-box;touch-action:none;-webkit-tap-highlight-color:transparent}.MuiSlider-root.Mui-disabled{color:#bdbdbd;cursor:default;pointer-events:none}.MuiSlider-root.MuiSlider-vertical{width:2px;height:100%;padding:0 13px}@media (pointer:coarse){.MuiSlider-root{padding:20px 0}.MuiSlider-root.MuiSlider-vertical{padding:0 20px}}@media print{.MuiSlider-root{-webkit-print-color-adjust:exact}}.MuiSlider-colorSecondary{color:#f50057}.MuiSlider-marked{margin-bottom:20px}.MuiSlider-marked.MuiSlider-vertical{margin-right:20px;margin-bottom:auto}.MuiSlider-rail{width:100%;height:2px;display:block;opacity:.38;position:absolute;border-radius:1px;background-color:currentColor}.MuiSlider-vertical .MuiSlider-rail{width:2px;height:100%}.MuiSlider-track{height:2px;display:block;position:absolute;border-radius:1px;background-color:currentColor}.MuiSlider-vertical .MuiSlider-track{width:2px}.MuiSlider-trackFalse .MuiSlider-track{display:none}.MuiSlider-trackInverted .MuiSlider-track{background-color:#b6bce2}.MuiSlider-trackInverted .MuiSlider-rail{opacity:1}.MuiSlider-thumb{width:12px;height:12px;display:flex;outline:0;position:absolute;box-sizing:border-box;margin-top:-5px;transition:box-shadow 150ms cubic-bezier(.4,0,.2,1) 0s;align-items:center;margin-left:-6px;border-radius:50%;justify-content:center;background-color:currentColor}.MuiSlider-thumb::after{top:-15px;left:-15px;right:-15px;bottom:-15px;content:"";position:absolute;border-radius:50%}.MuiSlider-thumb.Mui-focusVisible,.MuiSlider-thumb:hover{box-shadow:0 0 0 8px rgba(63,81,181,.16)}.MuiSlider-thumb.MuiSlider-active{box-shadow:0 0 0 14px rgba(63,81,181,.16)}.MuiSlider-thumb.Mui-disabled{width:8px;height:8px;margin-top:-3px;margin-left:-4px}.MuiSlider-vertical .MuiSlider-thumb{margin-left:-5px;margin-bottom:-6px}.MuiSlider-vertical .MuiSlider-thumb.Mui-disabled{margin-left:-3px;margin-bottom:-4px}.MuiSlider-thumb.Mui-disabled:hover{box-shadow:none}@media (hover:none){.MuiSlider-thumb.Mui-focusVisible,.MuiSlider-thumb:hover{box-shadow:none}}.MuiSlider-thumbColorSecondary.Mui-focusVisible,.MuiSlider-thumbColorSecondary:hover{box-shadow:0 0 0 8px rgba(245,0,87,.16)}.MuiSlider-thumbColorSecondary.MuiSlider-active{box-shadow:0 0 0 14px rgba(245,0,87,.16)}.MuiSlider-valueLabel{left:calc(-50% - 4px)}.MuiSlider-mark{width:2px;height:2px;position:absolute;border-radius:1px;background-color:currentColor}.MuiSlider-markActive{opacity:.8;background-color:#fff}.MuiSlider-markLabel{top:26px;color:rgba(0,0,0,.54);position:absolute;font-size:.875rem;transform:translateX(-50%);font-family:Roboto,Helvetica,Arial,sans-serif;font-weight:400;line-height:1.43;white-space:nowrap;letter-spacing:.01071em}.MuiSlider-vertical .MuiSlider-markLabel{top:auto;left:26px;transform:translateY(50%)}@media (pointer:coarse){.MuiSlider-markLabel{top:40px}.MuiSlider-vertical .MuiSlider-markLabel{left:31px}}.MuiSlider-markLabelActive{color:rgba(0,0,0,.87)}
+                    </style>
+                    <script>
+                        console.log("Hello, world");
+                    </script>
+                </head>
+                <body>
+                    <div>
+                        <p>&lt; Hello, world!</p>
+                    <div>
+                </body>
+            </html>
+        """
+
+        self._check(html, expectedHtml)
+
     def _check(self, html, expectedHtml):
-        rewriter = HTMLRewriter('')
+        rewriter = HTMLRewriter()
 
         rewriter.feed(html)
 
-        self.maxDiff = None
-        self.assertEqual(expectedHtml, rewriter.html)
+        rewrittenHTML = str(rewriter.html)
+        rewriter.close()
+
+        self.assertEqual(expectedHtml, rewrittenHTML)
 
 
 ## -----------------------------------------------------------------------------
