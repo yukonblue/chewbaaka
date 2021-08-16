@@ -3,7 +3,7 @@ postprocess_test.py
 
 Author   : Tomiko
 Created  : Aug 15, 2021
-Updated  : Aug 15, 2021
+Updated  : Aug 16, 2021
 """
 
 import unittest
@@ -14,6 +14,10 @@ from postprocess import HTMLRewriter
 
 
 class TestHTMLRewriter(unittest.TestCase):
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.maxDiff = None
 
     def testRewriteWithSimpleHTML(self):
         html = """
@@ -346,12 +350,14 @@ class TestHTMLRewriter(unittest.TestCase):
         self._check(html, expectedHtml)
 
     def _check(self, html, expectedHtml):
-        rewriter = HTMLRewriter('')
+        rewriter = HTMLRewriter()
 
         rewriter.feed(html)
 
-        self.maxDiff = None
-        self.assertEqual(expectedHtml, rewriter.html)
+        rewrittenHTML = str(rewriter.html)
+        rewriter.close()
+
+        self.assertEqual(expectedHtml, rewrittenHTML)
 
 
 ## -----------------------------------------------------------------------------

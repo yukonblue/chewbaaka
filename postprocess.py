@@ -3,7 +3,7 @@ postprocess.py (Python 3)
 
 Author   : Tomiko
 Created  : Aug 15, 2021
-Updated  : Aug 15, 2021
+Updated  : Aug 16, 2021
 """
 
 """
@@ -67,9 +67,8 @@ class Config(object):
 
 class HTMLRewriter(HTMLParser):
 
-    def __init__(self, output_filepath):
+    def __init__(self):
         super().__init__(convert_charrefs=False)
-        self.output_filepath = output_filepath
         self.html = ''
         self._curTag = ''
         self._curAttrs = []
@@ -120,9 +119,10 @@ class HTMLRewriter(HTMLParser):
     def handle_comment(self, data):
         self.html += '<!--{data}-->'.format(data=data)
 
-    def save(self):
-        with open(self.output_filepath, 'w') as fd:
+    def save(self, output_filepath):
+        with open(output_filepath, 'w') as fd:
             fd.write(self.html)
+        self.close()
 
 
 ## -----------------------------------------------------------------------------
@@ -156,13 +156,13 @@ class Runner(object):
 
         self.logger.info('Temporary file path: {tmp_filepath}'.format(tmp_filepath=tmp_filepath))
 
-        htmlRewriter = HTMLRewriter(tmp_filepath)
+        htmlRewriter = HTMLRewriter()
 
         with open(filepath, 'r') as fd:
             html = fd.read()
             htmlRewriter.feed(str(html))
 
-        htmlRewriter.save()
+        htmlRewriter.save(tmp_filepath)
 
         self.logger.info('Successfully written to temp file path: {tmp_filepath}'.format(tmp_filepath=tmp_filepath))
 
