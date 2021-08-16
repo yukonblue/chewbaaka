@@ -84,7 +84,7 @@ class HTMLRewriter(HTMLParser):
 
         hints = []
 
-        if tag == 'script':
+        if tag == 'script' and (attrs is not None and len(attrs) > 0):
             hints.append('defer')
 
         for i in range(len(attrs)):
