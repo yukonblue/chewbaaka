@@ -80,7 +80,7 @@ class HTMLRewriter(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         self._curTag = tag
-        self._curAttrs = []#dict({key:val for (key,val) in attrs})
+        self._curAttrs = []
 
         hints = []
 
