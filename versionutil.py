@@ -3,7 +3,7 @@ versionutil.py
 
 Author   : Tomiko
 Created  : Jul 29, 2020
-Updated  : Aug 11, 2021
+Updated  : Aug 17, 2021
 """
 
 """
@@ -63,7 +63,9 @@ def bumpVersionStr(versionStr, args):
     minorStr = pieces[1] if len(pieces) >= 1 else '0'
     patchStr = pieces[2] if len(pieces) >= 2 else '0'
 
+    # Remove trailing prerelease and build components if present.
     patchStr = patchStr.split('-')[0]
+    patchStr = patchStr.split('+')[0]
 
     if args.bump_patch:
         patchStr = bumpStr(patchStr)

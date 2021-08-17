@@ -3,7 +3,7 @@ versionutil_test.py
 
 Author   : Tomiko
 Created  : Aug 07, 2021
-Updated  : Aug 08, 2021
+Updated  : Aug 17, 2021
 """
 
 import unittest
@@ -154,6 +154,61 @@ class TestBumpVersionString(unittest.TestCase):
                 'build': 'build.xyz',
             },
             'expected': '123.45.7-alpha.1.2.3+build.xyz'
+        },
+        {
+            'verStr': '123.45.6-alpha.1.2.3',
+            'args': {
+                'bump_major': False,
+                'bump_minor': False,
+                'bump_patch': False,
+                'prerelease': None,
+                'build': '08.17.2021-0900',
+            },
+            'expected': '123.45.6+08.17.2021-0900'
+        },
+        {
+            'verStr': '123.45.6+08.17.2021-0815',
+            'args': {
+                'bump_major': False,
+                'bump_minor': False,
+                'bump_patch': False,
+                'prerelease': None,
+                'build': '08.17.2021-0900',
+            },
+            'expected': '123.45.6+08.17.2021-0900'
+        },
+        {
+            'verStr': '123.45.6+08.17.2021-0815',
+            'args': {
+                'bump_major': False,
+                'bump_minor': False,
+                'bump_patch': False,
+                'prerelease': 'alpha.1.2.3',
+                'build': None,
+            },
+            'expected': '123.45.6-alpha.1.2.3'
+        },
+        {
+            'verStr': '1.23.456-alpha.1+build.xyz',
+            'args': {
+                'bump_major': True,
+                'bump_minor': False,
+                'bump_patch': False,
+                'prerelease': 'beta.2',
+                'build': '08.17.2021-0900',
+            },
+            'expected': '2.0.0-beta.2+08.17.2021-0900'
+        },
+        {
+            'verStr': '1.23.456-alpha.1',
+            'args': {
+                'bump_major': False,
+                'bump_minor': False,
+                'bump_patch': True,
+                'prerelease': None,
+                'build': '08.17.2021-0900',
+            },
+            'expected': '1.23.457+08.17.2021-0900'
         },
     ]
 
