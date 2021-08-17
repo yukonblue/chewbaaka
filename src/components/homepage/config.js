@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 28, 2020
- * Updated  : Aug 04, 2020
+ * Updated  : Aug 17, 2021
  */
 
 export const config = {
@@ -14,14 +14,6 @@ export const config = {
         landingPageGatewayTitle: "Learn about cheetahs",
         landingPageGatewaySubtitle: "Explore the Cheetah Museum at Cheetah Conservation Fund"
       },
-      dynamicStyleGroups: {
-        centerSegmentStyleClassNames: [
-          "LandingPageGatewayBackgroundStyle1",
-          "LandingPageGatewayBackgroundStyle2",
-          "LandingPageGatewayBackgroundStyle3",
-          "LandingPageGatewayBackgroundStyle4",
-        ]
-      }
     }
   }
 }

@@ -2,7 +2,7 @@
 
 exports[`LandingPageGateway component snapshot 1`] = `
 <div
-  className="ui vertical center aligned segment LandingPageGatewayOuterContainer LandingPageGatewayBackgroundStyle1"
+  className="ui vertical center aligned segment LandingPageGatewayOuterContainer LandingPageGatewayBackgroundStyle"
   data-testid="LandingPageGatewayComponentTestId"
 >
   <div

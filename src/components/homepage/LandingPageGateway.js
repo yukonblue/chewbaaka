@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 09, 2020
+ * Updated  : Aug 17, 2021
  */
 
 import React from 'react'
@@ -36,10 +36,10 @@ export default class LandingPageGateway extends React.Component {
 
   render() {
     const title = this.props.config.components[LandingPageGateway._COMPONENT_NAME_].constants[LandingPageGateway._TITLE_];
-    // const subtitle = this.props.config.components[LandingPageGateway._COMPONENT_NAME_].constants[LandingPageGateway._SUBTITLE_];
+
     return (
       <Segment
-        className={["LandingPageGatewayOuterContainer", this.centerSegmentStyleClassName()].join(" ")}
+        className={["LandingPageGatewayOuterContainer", "LandingPageGatewayBackgroundStyle"].join(" ")}
         vertical
         textAlign="center"
         data-testid="LandingPageGatewayComponentTestId"
@@ -67,22 +67,5 @@ export default class LandingPageGateway extends React.Component {
         </Container>
       </Segment>
     );
-  }
-
-  centerSegmentStyleClassName() {
-    const centerSegmentStyleClassNames =
-      this.props.config.components[LandingPageGateway._COMPONENT_NAME_].dynamicStyleGroups["centerSegmentStyleClassNames"];
-
-    let idx = 0;
-
-    if ( __TEST__ ) {
-      // We want determinate behavior in test mode
-      // because of snapshot testing.
-      idx = 0;
-    } else {
-      idx = Math.floor(Math.random() * centerSegmentStyleClassNames.length);
-    }
-
-    return centerSegmentStyleClassNames[idx];
   }
 }

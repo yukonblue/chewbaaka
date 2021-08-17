@@ -6,7 +6,7 @@ exports[`HomePage snapshot 1`] = `
   data-testid="HomePageTestId"
 >
   <div
-    className="ui vertical center aligned segment LandingPageGatewayOuterContainer LandingPageGatewayBackgroundStyle1"
+    className="ui vertical center aligned segment LandingPageGatewayOuterContainer LandingPageGatewayBackgroundStyle"
     data-testid="LandingPageGatewayComponentTestId"
   >
     <div
