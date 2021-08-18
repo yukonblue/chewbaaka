@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Aug 22, 2020
+ * Updated  : Aug 18, 2021
  */
 
 export const config = {
@@ -57,7 +57,7 @@ export const config = {
             "in educating people to make more sustainable utilizations of the land and its resources, and preserve the richness " +
             "in biodiversity and land fertility for future generations.",
     image: {
-      filename: "Ecology_Page_Intro_Section_Background-min.png"
+      filenamePrefix: "Ecology_Page_Intro_Section_Background"
     }
   },
   contentPageSections: {

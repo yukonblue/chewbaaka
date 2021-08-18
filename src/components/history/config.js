@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 22, 2020
+ * Updated  : Aug 18, 2021
  */
 
 export const config = {
@@ -60,7 +60,7 @@ export const config = {
           "as a symbol of a multitude of positive characteristics, such as adaptability, " +
           "persistence, and focus.",
     image: {
-      filename: "History_Page_Intro_Section_Background-min.png"
+      filenamePrefix: "History_Page_Intro_Section_Background"
     }
   },
   contentPageSections: {
