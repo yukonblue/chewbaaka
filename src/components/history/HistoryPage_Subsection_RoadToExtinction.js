@@ -4,10 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Aug 18, 2020
+ * Updated  : Aug 18, 2021
  */
 
 import React from 'react'
+
+import Media from 'react-media'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
@@ -32,12 +34,12 @@ import MediaLinkButton from '../shared/MediaLinkButton'
 
 import StatsLabel from '../shared/StatsLabel'
 
-import image_Cheetah_Evolution_and_Extinction_Scale from './assets/Cheetah_Evolution_and_Extinction_Scale-min.png'
-
 import cheetah_range_map_01 from './assets/cheetah-range-map-01-min.png'
 import cheetah_range_map_02 from './assets/cheetah-range-map-02-min.png'
 
 import '../shared/ContentPageSharedStyles.css'
+
+const __TEST__ = (process.env.NODE_ENV === 'test');
 
 export default class HistoryPageSubsectionRoadToExtinction extends React.Component {
 
@@ -48,7 +50,8 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[HistoryPageSubsectionRoadToExtinction._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[HistoryPageSubsectionRoadToExtinction._SUBSECTION_NAME_],
+      imagesContext: () => (require.context("./assets/", true))
     };
   }
 
@@ -62,9 +65,27 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
   }
 
   renderContent() {
+    if ( __TEST__ ) {
+      return this.renderCore(null);
+    }
+
+    return (
+      <Media queries={{
+        small: "(max-width: 480px)",
+        medium: "(max-width: 768px)",
+        large: "(min-width: 769px)"
+      }}>
+        {
+          matches => (this.renderCore(matches))
+        }
+      </Media>
+    );
+  }
+
+  renderCore(matches) {
     return (
       <div>
-        {this.renderCheetahEvolutionAndExtinctionScaleImage()}
+        {this.renderCheetahEvolutionAndExtinctionScaleImage(matches)}
         {this.renderThreeColumnPart()}
         {this.renderCheetahRangeMapPart()}
         {this.renderStatisticsPart()}
@@ -72,13 +93,22 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
     );
   }
 
-  renderCheetahEvolutionAndExtinctionScaleImage() {
+  renderCheetahEvolutionAndExtinctionScaleImage(matches) {
+    const images = this.state.imagesContext();
+
+    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : (matches.medium ? "_M" : "_L")) : "_L";
+
+    const ext = ".png";
+
+    const imageName = "./Cheetah_Evolution_and_Extinction_Scale" + coverImageSizeSuffix + "-min" + ext;
+
     return (
       <ContentPageSubsectionPart>
         <CenteredFullWidthContainer width={1200}>
           <FluidImageWrapper
-            src={image_Cheetah_Evolution_and_Extinction_Scale}
+            src={images(imageName)}
             alt="Cheetah evolution and extinction"
+            centered
           />
         </CenteredFullWidthContainer>
       </ContentPageSubsectionPart>
