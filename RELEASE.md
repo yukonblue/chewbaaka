@@ -1,5 +1,15 @@
 # Release Note
 
+## Version 0.5.1
+
+* Date: August 18, 2021
+* Changelog:
+  * Optimize home page and content page assets
+    * `7653d90`, `0d27151`, `b7f75ec`
+  * `c624570` - Aggressive caching control and limit for static resources.
+  * `91c4e38` - Postprocess built HTMLs.
+  * Fixed a bug in `versionutil.py`.
+
 ## Version 0.5.0
 
 * Date: August 11, 2021
