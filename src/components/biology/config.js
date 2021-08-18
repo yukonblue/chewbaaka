@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Aug 29, 2020
+ * Updated  : Aug 18, 2021
  */
 
 export const config = {
@@ -60,7 +60,7 @@ export const config = {
             "The species name, “IIIjubatusIII”, means “maned”, referring to the mantle on a young cheetah’s back. " +
             "The English word, “cheetah”, comes from the Hindu word “chita” meaning the “spotted one”.",
     image: {
-      filename: "Biology_Page_Intro_Section_Background-min.png"
+      filenamePrefix: "Biology_Page_Intro_Section_Background"
     }
   },
   contentPageSections: {
