@@ -4,10 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 22, 2020
+ * Updated  : Aug 18, 2021
  */
 
 import React, { Suspense } from 'react'
+
+import Media from 'react-media'
 
 import { getElementStyleClassName } from '../../styling/styling'
 
@@ -28,8 +30,6 @@ import HintSignpost from '../shared/HintSignpost'
 
 // import FelidaeFamilyTree from './FelidaeFamilyTree'
 
-import big_cats_image from './assets/Big_Cats-min.png'
-
 import '../shared/ContentPageSharedStyles.css'
 
 import './HistoryPage_Subsection_FelidaeFamilyTree.css'
@@ -39,6 +39,8 @@ if ( process.env.NODE_ENV === 'development' )
 
 const FelidaeFamilyTree = React.lazy(() => import('./FelidaeFamilyTree'));
 
+const __TEST__ = (process.env.NODE_ENV === 'test');
+
 export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Component {
 
   static _SUBSECTION_NAME_ = "subsection_EvolutionOfCats";
@@ -46,7 +48,8 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[HistoryPageSubsectionFelidaeFamilyTree._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[HistoryPageSubsectionFelidaeFamilyTree._SUBSECTION_NAME_],
+      imagesContext: () => (require.context("./assets/", true))
     };
   }
 
@@ -62,15 +65,33 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
   }
 
   renderContent() {
+    if ( __TEST__ ) {
+      return this.renderCore(null);
+    }
+
+    return (
+      <Media queries={{
+        small: "(max-width: 480px)",
+        medium: "(max-width: 768px)",
+        large: "(min-width: 769px)"
+      }}>
+        {
+          matches => (this.renderCore(matches))
+        }
+      </Media>
+    );
+  }
+
+  renderCore(matches) {
     return (
       <div className={getElementStyleClassName("HistoryPageSubsectionFelidaeFamilyTreeInnerContainer")}>
-        {this.renderRelatedCatPart()}
+        {this.renderRelatedCatPart(matches)}
         {this.renderFelidaeFamilyTreePart()}
       </div>
     );
   }
 
-  renderRelatedCatPart() {
+  renderRelatedCatPart(matches) {
     return (
       <ContentPageSubsectionPart>
         <ContentPageSubsectionSubtitle>
@@ -87,12 +108,27 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
         </ContentPageParagraph>
 
         <div className="VerticalCushionPadding">
-          <FluidImageWrapper
-            src={big_cats_image}
-            alt="Big Cats"
-          />
+          {this.renderBigCatsImage(matches)}
         </div>
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderBigCatsImage(matches) {
+    const images = this.state.imagesContext();
+
+    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : (matches.medium ? "_M" : "_L")) : "_L";
+
+    const ext = ".png";
+
+    const imageName = "./Big_Cats" + coverImageSizeSuffix + "-min" + ext;
+
+    return (
+      <FluidImageWrapper
+        src={images(imageName)}
+        alt="Big Cats"
+        centered
+      />
     );
   }
 
@@ -110,7 +146,7 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
           representing a subset of the <span className="TaxonomyBinomialName">Felidae</span> cat
           family that are the most related genetically.
         </ContentPageParagraph>
-        
+
         {this.renderFelidaeFamilyTreePartCoreConditionally()}
 
         <MediaLinkButton

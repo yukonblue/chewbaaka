@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 17, 2021
+ * Updated  : Aug 18, 2021
  */
 
 import React from 'react'
@@ -23,8 +23,6 @@ import 'semantic-ui-css/semantic.min.css'
 import '../shared/SharedStyles.css'
 
 import './LandingPageGateway.css'
-
-const __TEST__ = ( process.env.NODE_ENV === "test" );
 
 export default class LandingPageGateway extends React.Component {
 
