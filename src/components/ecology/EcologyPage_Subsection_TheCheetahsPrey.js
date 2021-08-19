@@ -4,10 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 11, 2020
+ * Updated  : Aug 19, 2021
  */
 
 import React from 'react'
+
+import Media from 'react-media'
 
 import '../shared/ContentPageSharedStyles.css'
 
@@ -26,7 +28,7 @@ import TextBubble from '../shared/TextBubble'
 import image_cheetah_coalition_hunting from './assets/cheetah_coalition_hunting-min.jpg'
 import image_cheetah_go_after_gazelle from './assets/cheetah_go_after_gazelle-min.jpg'
 
-import image_Cheetah_Lion_Hunting_Success_Rate_Comparsion from './assets/Cheetah_Lion_Hunting_Success_Rate_Comparsion-min.png'
+const __TEST__ = (process.env.NODE_ENV === 'test');
 
 export default class EcologyPageSubsectionTheCheetahsPrey extends React.Component {
 
@@ -35,7 +37,8 @@ export default class EcologyPageSubsectionTheCheetahsPrey extends React.Componen
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionTheCheetahsPrey._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionTheCheetahsPrey._SUBSECTION_NAME_],
+      imagesContext: () => (require.context("./assets/", true))
     };
   }
 
@@ -74,16 +77,41 @@ export default class EcologyPageSubsectionTheCheetahsPrey extends React.Componen
           </div>
 
           {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
+
         </div>
       </ContentPageSubsectionPart>
     );
   }
 
   renderCheetahLionComparison() {
+    if (__TEST__) {
+      return this.renderCheetahLionComparisonImage(null);
+    }
+
+    return (
+      <Media queries={{
+        small: "(max-width: 480px)",
+      }}>
+        {
+          matches => (this.renderCheetahLionComparisonImage(matches))
+        }
+      </Media>
+    );
+  }
+
+  renderCheetahLionComparisonImage(matches) {
+    const images = this.state.imagesContext();
+
+    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
+
+    const ext = ".png";
+
+    const imageName = "./Cheetah_Lion_Hunting_Success_Rate_Comparsion" + coverImageSizeSuffix + "-min" + ext;
+
     return (
       <ContentPageSubsectionPart>
         <FluidImageWrapper
-          src={image_Cheetah_Lion_Hunting_Success_Rate_Comparsion}
+          src={images(imageName)}
           alt="Cheetah and lion have drastically different preys, hunting strategies, and success rates."
           centered
         />

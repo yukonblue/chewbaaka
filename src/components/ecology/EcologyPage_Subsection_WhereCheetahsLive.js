@@ -4,10 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 13, 2020
+ * Updated  : Aug 19, 2021
  */
 
 import React from 'react'
+
+import Media from 'react-media'
 
 import '../shared/ContentPageSharedStyles.css'
 
@@ -38,18 +40,14 @@ import NamibianBiomes from './NamibianBiomes'
 
 import image_savanna from './assets/savanna-min.jpg'
 
-import image_banner_fact_What_is_Habitat from './assets/What_is_Habitat-min.png'
-
-import image_savana_bg_large from './assets/savana_bg_large-min.jpg'
-
 import image_Namibia_Biomes_and_Cheetah_Ranges_Map from './assets/Namibia_Biomes_and_Cheetah_Ranges_Map-min.jpg'
-
-import image_banner_fact_What_is_Biome from './assets/What_is_Biome-min.png'
 
 import image_namibia_landscape_01 from './assets/namibia_landscape_01-min.jpg'
 import image_namibia_landscape_02 from './assets/namibia_landscape_02-min.jpg'
 import image_namibia_landscape_03 from './assets/namibia_landscape_03-min.jpg'
 import image_namibia_landscape_04 from './assets/namibia_landscape_04-min.jpg'
+
+const __TEST__ = (process.env.NODE_ENV === 'test');
 
 export default class EcologyPageSubsectionWhereCheetahsLive extends React.Component {
 
@@ -58,7 +56,8 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionWhereCheetahsLive._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionWhereCheetahsLive._SUBSECTION_NAME_],
+      imagesContext: () => (require.context("./assets/", true))
     };
   }
 
@@ -99,18 +98,79 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
           fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
         />
 
-        <FactBannerImage
-          src={image_banner_fact_What_is_Habitat}
-          alt="What is a habitat"
-          centered
-        />
+        {this.renderWhatIsHabitatImagePart()}
 
-        <FluidImageWrapper
-          src={image_savana_bg_large}
-          alt="African savanna"
-          centered
-        />
+        {this.renderAfricanSavannaImagePart()}
+
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderWhatIsHabitatImagePart() {
+    if (__TEST__) {
+      return this.renderWhatIsHabitatImage(null);
+    }
+
+    return (
+      <Media queries={{
+        small: "(max-width: 480px)",
+      }}>
+        {
+          matches => (this.renderWhatIsHabitatImage(matches))
+        }
+      </Media>
+    );
+  }
+
+  renderWhatIsHabitatImage(matches) {
+    const images = this.state.imagesContext();
+
+    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
+
+    const ext = ".png";
+
+    const imageName = "./What_is_Habitat" + coverImageSizeSuffix + "-min" + ext;
+
+    return (
+      <FactBannerImage
+        src={images(imageName)}
+        alt="What is a habitat"
+        centered
+      />
+    );
+  }
+
+  renderAfricanSavannaImagePart() {
+    if (__TEST__) {
+      return this.renderAfricanSavannaImage(null);
+    }
+
+    return (
+      <Media queries={{
+        small: "(max-width: 480px)",
+      }}>
+        {
+          matches => (this.renderAfricanSavannaImage(matches))
+        }
+      </Media>
+    );
+  }
+
+  renderAfricanSavannaImage(matches) {
+    const images = this.state.imagesContext();
+
+    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
+
+    const ext = ".jpg";
+
+    const imageName = "./savana_bg_large" + coverImageSizeSuffix + "-min" + ext;
+
+    return (
+      <FluidImageWrapper
+        src={images(imageName)}
+        alt="African savanna"
+        centered
+      />
     );
   }
 
@@ -137,15 +197,35 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
           </CenteredFullWidthContainer>
         </div>
 
-        <FactBannerImage
-          src={image_banner_fact_What_is_Biome}
-          alt="What is biome?"
-          centered
-          large
-        />
+        <Media queries={{
+          small: "(max-width: 480px)",
+        }}>
+          {
+            matches => (this.renderWhatIsBiomeImage(matches))
+          }
+        </Media>
 
         {this.renderImageViewModals()}
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderWhatIsBiomeImage(matches) {
+    const images = this.state.imagesContext();
+
+    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
+
+    const ext = ".png";
+
+    const imageName = "./What_is_Biome" + coverImageSizeSuffix + "-min" + ext;
+
+    return (
+      <FactBannerImage
+        src={images(imageName)}
+        alt="What is biome?"
+        centered
+        large
+      />
     );
   }
 

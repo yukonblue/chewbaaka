@@ -4,10 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 13, 2020
+ * Updated  : Aug 19, 2021
  */
 
 import React from 'react'
+
+import Media from 'react-media'
 
 import '../shared/ContentPageSharedStyles.css'
 
@@ -25,9 +27,7 @@ import TextBubble from '../shared/TextBubble'
 
 import FactBannerImage from '../shared/FactBannerImage'
 
-import image_What_is_a_Problem_Animal from './assets/What_is_a_Problem_Animal-min.png'
-
-import image_What_is_Sustainable_Utilization from './assets/What_is_Sustainable_Utilization-min.png'
+const __TEST__ = (process.env.NODE_ENV === 'test');
 
 export default class EcologyPageSubsectionHuntingAndPredatorControl extends React.Component {
 
@@ -36,7 +36,8 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionHuntingAndPredatorControl._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionHuntingAndPredatorControl._SUBSECTION_NAME_],
+      imagesContext: () => (require.context("./assets/", true))
     };
   }
 
@@ -75,13 +76,18 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
   renderPartContent(part, idx) {
     const renderOptionalBannerImgOnPart = () => {
       if (part.is_part_What_is_Sustainable_Utilization) {
+        if ( __TEST__ ) {
+          return this.renderWhatIsSustainableUtilizationImage(null);
+        }
+
         return (
-          <FactBannerImage
-            src={image_What_is_Sustainable_Utilization}
-            alt="What is sustainable utilization?"
-            large
-            centered
-          />
+          <Media queries={{
+            small: "(max-width: 480px)",
+          }}>
+            {
+              matches => (this.renderWhatIsSustainableUtilizationImage(matches))
+            }
+          </Media>
         );
       }
     };
@@ -93,6 +99,25 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
         {ContentPageSubsectionParagraphsContentBinder(part.content)}
         {renderOptionalBannerImgOnPart()}
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderWhatIsSustainableUtilizationImage(matches) {
+    const images = this.state.imagesContext();
+
+    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
+
+    const ext = ".png";
+
+    const imageName = "./What_is_Sustainable_Utilization" + coverImageSizeSuffix + "-min" + ext;
+
+    return (
+      <FactBannerImage
+        src={images(imageName)}
+        alt="What is sustainable utilization?"
+        large
+        centered
+      />
     );
   }
 
@@ -108,13 +133,44 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
           fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
         />
 
-        <FactBannerImage
-          src={image_What_is_a_Problem_Animal}
-          alt="What is a problem animal?"
-          large
-          centered
-        />
+        {this.renderWhatIsProblemAnimalImagePart()}
+
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderWhatIsProblemAnimalImagePart() {
+    if ( __TEST__ ) {
+      return this.renderWhatIsProblemAnimalImage(null);
+    }
+
+    return (
+      <Media queries={{
+        small: "(max-width: 480px)",
+      }}>
+        {
+          matches => (this.renderWhatIsProblemAnimalImage(matches))
+        }
+      </Media>
+    );
+  }
+
+  renderWhatIsProblemAnimalImage(matches) {
+    const images = this.state.imagesContext();
+
+    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
+
+    const ext = ".png";
+
+    const imageName = "./What_is_a_Problem_Animal" + coverImageSizeSuffix + "-min" + ext;
+
+    return (
+      <FactBannerImage
+        src={images(imageName)}
+        alt="What is a problem animal?"
+        large
+        centered
+      />
     );
   }
 
