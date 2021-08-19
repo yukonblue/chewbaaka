@@ -4,10 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 19, 2021
  */
 
 import React from 'react'
+
+import Media from 'react-media'
 
 import '../shared/ContentPageSharedStyles.css'
 
@@ -25,7 +27,7 @@ import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
 import ImageView from '../shared/ImageView'
 
-import image_CCF_GWL_map from './assets/CCF_GWL_map-min.jpg'
+const __TEST__ = (process.env.NODE_ENV === 'test');
 
 export default class EcologyPageSubsectionTheFarmingCommunity extends React.Component {
 
@@ -34,7 +36,8 @@ export default class EcologyPageSubsectionTheFarmingCommunity extends React.Comp
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionTheFarmingCommunity._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionTheFarmingCommunity._SUBSECTION_NAME_],
+      imagesContext: () => (require.context("./assets/", true))
     };
   }
 
@@ -95,9 +98,33 @@ export default class EcologyPageSubsectionTheFarmingCommunity extends React.Comp
   }
 
   renderFloatPart() {
+    if ( __TEST__ ) {
+      return this.renderConservancyImage(null);
+    }
+
+    return (
+      <Media queries={{
+        small: "(max-width: 480px)",
+      }}>
+        {
+          matches => (this.renderConservancyImage(matches))
+        }
+      </Media>
+    );
+  }
+
+  renderConservancyImage(matches) {
+    const images = this.state.imagesContext();
+
+    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
+
+    const ext = ".jpg";
+
+    const imageName = "./CCF_GWL_map" + coverImageSizeSuffix + "-min" + ext;
+
     return (
       <ImageView
-        image={image_CCF_GWL_map}
+        image={images(imageName)}
         caption="Cheetah Conservation Fund works with communal farmers and people living around the Greater Waterberg Landscape Conservancy."
         credit={kStringConstantCheetahConservationFund}
         width={600}
