@@ -4,10 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 08, 2020
+ * Updated  : Aug 19, 2021
  */
 
 import React from 'react'
+
+import Media from 'react-media'
 
 import '../shared/ContentPageSharedStyles.css'
 
@@ -27,7 +29,7 @@ import FluidImageWrapper from '../shared/FluidImageWrapper'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
-import image_CCF_GetInvolved_Volunteer from './assets/CCF_GetInvolved_Volunteer-min.jpg'
+const __TEST__ = (process.env.NODE_ENV === 'test');
 
 export default class FuturePageSubsectionInternshipsAndVolunteering extends React.Component {
 
@@ -36,7 +38,8 @@ export default class FuturePageSubsectionInternshipsAndVolunteering extends Reac
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[FuturePageSubsectionInternshipsAndVolunteering._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[FuturePageSubsectionInternshipsAndVolunteering._SUBSECTION_NAME_],
+      imagesContext: () => (require.context("./assets/", true))
     };
   }
 
@@ -63,12 +66,43 @@ export default class FuturePageSubsectionInternshipsAndVolunteering extends Reac
     return (
       <ContentPageSubsectionPart>
         <CenteredFullWidthContainer width={1300}>
-          <FluidImageWrapper
-            src={image_CCF_GetInvolved_Volunteer}
-            alt="CCF Volunteering"
-          />
+          {this.renderGetInvolvedVolunteerImagePart()}
         </CenteredFullWidthContainer>
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderGetInvolvedVolunteerImagePart() {
+    if (__TEST__) {
+      return this.renderGetInvolvedVolunteerImage(null);
+    }
+
+    return (
+      <Media queries={{
+        small: "(max-width: 480px)",
+      }}>
+        {
+          matches => (this.renderGetInvolvedVolunteerImage(matches))
+        }
+      </Media>
+    );
+  }
+
+  renderGetInvolvedVolunteerImage(matches) {
+    const images = this.state.imagesContext();
+
+    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
+
+    const ext = ".jpg";
+
+    const imageName = "./CCF_GetInvolved_Volunteer" + coverImageSizeSuffix + "-min" + ext;
+
+    return (
+      <FluidImageWrapper
+        src={images(imageName)}
+        alt="CCF Volunteering"
+        center
+      />
     );
   }
 

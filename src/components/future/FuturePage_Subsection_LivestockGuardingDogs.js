@@ -4,10 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 12, 2020
+ * Updated  : Aug 19, 2021
  */
 
 import React from 'react'
+
+import Media from 'react-media'
 
 import '../shared/ContentPageSharedStyles.css'
 
@@ -29,11 +31,11 @@ import ImageView from '../shared/ImageView'
 
 import FluidImageWrapper from '../shared/FluidImageWrapper'
 
-import image_CCF_LGD from './assets/CCF_LGD-min.jpg'
 import image_CCF_anatolian_shepherd_puppies from './assets/CCF_anatolian_shepherd_puppies-min.jpg'
 import image_CCF_Year_of_the_LGD from './assets/CCF_Year_of_the_LGD-min.jpg'
 import image_Cheetah_and_LGD from './assets/Cheetah_and_LGD-min.jpg'
-import image_LGD from './assets/LGD_960x960-min.png'
+
+const __TEST__ = (process.env.NODE_ENV === 'test');
 
 export default class FuturePageSubsectionLivestockGuardingDogs extends React.Component {
 
@@ -42,7 +44,8 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[FuturePageSubsectionLivestockGuardingDogs._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[FuturePageSubsectionLivestockGuardingDogs._SUBSECTION_NAME_],
+      imagesContext: () => (require.context("./assets/", true))
     };
   }
 
@@ -77,13 +80,43 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
 
         <div className="VerticalCushionPadding">
           <CenteredFullWidthContainer width={1200}>
-            <FluidImageWrapper
-              src={image_CCF_LGD}
-              alt="Livestock Guarding Dog"
-            />
+            {this.renderCCFLGDImagePart()}
           </CenteredFullWidthContainer>
         </div>
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderCCFLGDImagePart() {
+    if (__TEST__) {
+      return this.renderCCFLGDImage(null);
+    }
+
+    return (
+      <Media queries={{
+        small: "(max-width: 480px)",
+      }}>
+        {
+          matches => (this.renderCCFLGDImage(matches))
+        }
+      </Media>
+    );
+  }
+
+  renderCCFLGDImage(matches) {
+    const images = this.state.imagesContext();
+
+    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
+
+    const ext = ".jpg";
+
+    const imageName = "./CCF_LGD" + coverImageSizeSuffix + "-min" + ext;
+
+    return (
+      <FluidImageWrapper
+        src={images(imageName)}
+        alt="Livestock Guarding Dog"
+      />
     );
   }
 
@@ -105,7 +138,7 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
             />
           }
           fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
-        />          
+        />
       </ContentPageSubsectionPart>
     )
   }
@@ -145,13 +178,43 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
         />
 
         <div className="VerticalCushionPaddingTopLarge">
-          <FluidImageWrapper
-            src={image_LGD}
-            alt="Livestock Guarding Dogs"
-            centered
-          />
+          {this.renderLGDImagePart()}
         </div>
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderLGDImagePart() {
+    if (__TEST__) {
+      return this.renderLGDImage(null);
+    }
+
+    return (
+      <Media queries={{
+        small: "(max-width: 480px)",
+      }}>
+        {
+          matches => (this.renderLGDImage(matches))
+        }
+      </Media>
+    );
+  }
+
+  renderLGDImage(matches) {
+    const images = this.state.imagesContext();
+
+    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
+
+    const ext = ".png";
+
+    const imageName = "./LGD_960x960" + coverImageSizeSuffix + "-min" + ext;
+
+    return (
+      <FluidImageWrapper
+        src={images(imageName)}
+        alt="Livestock Guarding Dogs"
+        centered
+      />
     );
   }
 }
