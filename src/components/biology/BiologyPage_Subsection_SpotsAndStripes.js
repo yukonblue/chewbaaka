@@ -4,10 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Aug 22, 2020
+ * Updated  : Aug 20, 2021
  */
 
 import React, { Suspense } from 'react'
+
+import Media from 'react-media'
 
 import '../shared/ContentPageSharedStyles.css'
 
@@ -29,13 +31,12 @@ import ImageView from '../shared/ImageView'
 // import BigCatSpotsIllustration from './BigCatSpotsIllustration'
 
 import image_cheetah_mantle from './assets/Cheetah_Mantle-min.jpg'
-import image_cheetah_and_honey_badger from './assets/cheetah_and_honey_badger-min.jpg'
-
-import image_What_is_Camouflage from './assets/What_is_Camouflage-min.png'
 
 import './BiologyPage_Subsection_SpotsAndStripes.css'
 
 const BigCatSpotsIllustration = React.lazy(() => import('./BigCatSpotsIllustration'));
+
+const __TEST__ = (process.env.NODE_ENV === 'test');
 
 export default class BiologyPageSubsectionSpotsAndStripes extends React.Component {
 
@@ -44,7 +45,8 @@ export default class BiologyPageSubsectionSpotsAndStripes extends React.Componen
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionSpotsAndStripes._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionSpotsAndStripes._SUBSECTION_NAME_],
+      imagesContext: () => (require.context("./assets/", true))
     };
   }
 
@@ -72,13 +74,43 @@ export default class BiologyPageSubsectionSpotsAndStripes extends React.Componen
       <ContentPageSubsectionPart>
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents)}
 
-        <FactBannerImage
-          src={image_What_is_Camouflage}
-          alt="What is camouflage?"
-          large
-          centered
-        />
+        {this.renderWhatIsCamouflageImagePart()}
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderWhatIsCamouflageImagePart() {
+    if (__TEST__) {
+      return this.renderWhatIsCamouflageImage(null);
+    }
+
+    return (
+      <Media queries={{
+        small: "(max-width: 480px)",
+      }}>
+        {
+          matches => (this.renderWhatIsCamouflageImage(matches))
+        }
+      </Media>
+    );
+  }
+
+  renderWhatIsCamouflageImage(matches) {
+    const images = this.state.imagesContext();
+
+    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
+
+    const ext = ".png";
+
+    const imageName = "./What_is_Camouflage" + coverImageSizeSuffix + "-min" + ext;
+
+    return (
+      <FactBannerImage
+        src={images(imageName)}
+        alt="What is camouflage?"
+        large
+        centered
+      />
     );
   }
 
@@ -96,15 +128,45 @@ export default class BiologyPageSubsectionSpotsAndStripes extends React.Componen
 
         <div className="VerticalCushionPaddingTopLarge">
           <CenteredFullWidthContainer width={720}>
-            <ImageView
-              image={image_cheetah_and_honey_badger}
-              caption="The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators."
-              width={720}
-              height={360}
-            />
+            {this.renderCheetahAndBadgerImagePart()}
           </CenteredFullWidthContainer>
         </div>
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderCheetahAndBadgerImagePart() {
+    if (__TEST__) {
+      return this.renderCheetahAndBadgerImage(null);
+    }
+
+    return (
+      <Media queries={{
+        small: "(max-width: 480px)",
+      }}>
+        {
+          matches => (this.renderCheetahAndBadgerImage(matches))
+        }
+      </Media>
+    );
+  }
+
+  renderCheetahAndBadgerImage(matches) {
+    const images = this.state.imagesContext();
+
+    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
+
+    const ext = ".jpg";
+
+    const imageName = "./cheetah_and_honey_badger" + coverImageSizeSuffix + "-min" + ext;
+
+    return (
+      <ImageView
+        image={images(imageName)}
+        caption="The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators."
+        width={720}
+        height={360}
+      />
     );
   }
 

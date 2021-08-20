@@ -4,10 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Aug 13, 2020
+ * Updated  : Aug 20, 2021
  */
 
 import React from 'react'
+
+import Media from 'react-media'
 
 import '../shared/ContentPageSharedStyles.css'
 
@@ -21,7 +23,7 @@ import MediaLinkButton from '../shared/MediaLinkButton'
 
 import FactBannerImage from '../shared/FactBannerImage'
 
-import image_fact_banner_what_is_diurnal from './assets/What_is_Diurnal-min.png'
+const __TEST__ = (process.env.NODE_ENV === 'test');
 
 export default class BiologyPageSubsectionLifecycleStage3 extends React.Component {
 
@@ -30,7 +32,8 @@ export default class BiologyPageSubsectionLifecycleStage3 extends React.Componen
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionLifecycleStage3._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionLifecycleStage3._SUBSECTION_NAME_],
+      imagesContext: () => (require.context("./assets/", true))
     };
   }
 
@@ -54,12 +57,42 @@ export default class BiologyPageSubsectionLifecycleStage3 extends React.Componen
           icon="file image"
         />
 
-        <FactBannerImage
-          src={image_fact_banner_what_is_diurnal}
-          alt="What is diurnal?"
-          centered
-        />
+        {this.renderWhatIsDiurnalImagePart()}
       </div>
+    );
+  }
+
+  renderWhatIsDiurnalImagePart() {
+    if (__TEST__) {
+      return this.renderWhatIsDiurnalImage(null);
+    }
+
+    return (
+      <Media queries={{
+        small: "(max-width: 480px)",
+      }}>
+        {
+          matches => (this.renderWhatIsDiurnalImage(matches))
+        }
+      </Media>
+    );
+  }
+
+  renderWhatIsDiurnalImage(matches) {
+    const images = this.state.imagesContext();
+
+    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
+
+    const ext = ".png";
+
+    const imageName = "./What_is_Diurnal" + coverImageSizeSuffix + "-min" + ext;
+
+    return (
+      <FactBannerImage
+        src={images(imageName)}
+        alt="What is diurnal?"
+        centered
+      />
     );
   }
 }
