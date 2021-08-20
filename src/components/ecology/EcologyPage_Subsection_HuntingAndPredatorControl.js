@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 19, 2021
+ * Updated  : Aug 20, 2021
  */
 
 import React from 'react'
@@ -20,6 +20,8 @@ import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFl
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import { GetImagePath } from '../shared/Path'
 
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
@@ -105,15 +107,9 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
   renderWhatIsSustainableUtilizationImage(matches) {
     const images = this.state.imagesContext();
 
-    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
-
-    const ext = ".png";
-
-    const imageName = "./What_is_Sustainable_Utilization" + coverImageSizeSuffix + "-min" + ext;
-
     return (
       <FactBannerImage
-        src={images(imageName)}
+        src={images(GetImagePath("./What_is_Sustainable_Utilization", ".png", matches))}
         alt="What is sustainable utilization?"
         large
         centered
@@ -158,15 +154,9 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
   renderWhatIsProblemAnimalImage(matches) {
     const images = this.state.imagesContext();
 
-    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
-
-    const ext = ".png";
-
-    const imageName = "./What_is_a_Problem_Animal" + coverImageSizeSuffix + "-min" + ext;
-
     return (
       <FactBannerImage
-        src={images(imageName)}
+        src={images(GetImagePath("./What_is_a_Problem_Animal", ".png", matches))}
         alt="What is a problem animal?"
         large
         centered

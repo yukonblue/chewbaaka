@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 24, 2020
- * Updated  : Aug 18, 2021
+ * Updated  : Aug 20, 2021
  */
 
 import React from 'react'
@@ -16,6 +16,8 @@ import { getElementStyleClassName } from '../../styling/styling'
 import './ContentPageSharedStyles.css'
 
 import ContentPageIntroSectionTemplate from './ContentPageIntroSectionTemplate'
+
+import { GetImagePath } from '../shared/Path'
 
 import './ContentPageIntroSectionGeneric.css'
 
@@ -59,11 +61,7 @@ export default class ContentPageIntroSectionGeneric extends React.Component {
   renderContent(matches) {
     const images = this.props.imagesContext();
 
-    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
-
-    const ext = ".png";
-
-    const coverImageName = "./" + this.props.contentPageIntro.image.filenamePrefix + coverImageSizeSuffix + "-min" + ext;
+    const coverImageName = GetImagePath("./" + this.props.contentPageIntro.image.filenamePrefix, ".png", matches);
 
     return (
       <div className={getElementStyleClassName("ContentPageIntroSectionGenericInnerContainer")}>

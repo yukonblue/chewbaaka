@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 19, 2021
+ * Updated  : Aug 20, 2021
  */
 
 import React from 'react'
@@ -20,6 +20,8 @@ import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFl
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import { GetImagePath } from '../shared/Path'
 
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 
@@ -106,15 +108,9 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
   renderCCFLGDImage(matches) {
     const images = this.state.imagesContext();
 
-    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
-
-    const ext = ".jpg";
-
-    const imageName = "./CCF_LGD" + coverImageSizeSuffix + "-min" + ext;
-
     return (
       <FluidImageWrapper
-        src={images(imageName)}
+        src={images(GetImagePath("./CCF_LGD", ".jpg", matches))}
         alt="Livestock Guarding Dog"
       />
     );
@@ -203,15 +199,9 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
   renderLGDImage(matches) {
     const images = this.state.imagesContext();
 
-    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
-
-    const ext = ".png";
-
-    const imageName = "./LGD_960x960" + coverImageSizeSuffix + "-min" + ext;
-
     return (
       <FluidImageWrapper
-        src={images(imageName)}
+        src={images(GetImagePath("./LGD_960x960", ".png", matches))}
         alt="Livestock Guarding Dogs"
         centered
       />

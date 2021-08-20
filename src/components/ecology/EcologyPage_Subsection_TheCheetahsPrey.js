@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 19, 2021
+ * Updated  : Aug 20, 2021
  */
 
 import React from 'react'
@@ -20,6 +20,8 @@ import ContentPageTwoColumnImageGallary from '../shared/ContentPageTwoColumnImag
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import { GetImagePath } from '../shared/Path'
 
 import FluidImageWrapper from '../shared/FluidImageWrapper'
 
@@ -102,16 +104,10 @@ export default class EcologyPageSubsectionTheCheetahsPrey extends React.Componen
   renderCheetahLionComparisonImage(matches) {
     const images = this.state.imagesContext();
 
-    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
-
-    const ext = ".png";
-
-    const imageName = "./Cheetah_Lion_Hunting_Success_Rate_Comparsion" + coverImageSizeSuffix + "-min" + ext;
-
     return (
       <ContentPageSubsectionPart>
         <FluidImageWrapper
-          src={images(imageName)}
+          src={images(GetImagePath("./Cheetah_Lion_Hunting_Success_Rate_Comparsion", ".png", matches))}
           alt="Cheetah and lion have drastically different preys, hunting strategies, and success rates."
           centered
         />

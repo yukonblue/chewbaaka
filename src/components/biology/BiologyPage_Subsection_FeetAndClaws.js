@@ -21,6 +21,8 @@ import {
   ContentPageSubsectionParagraphsJoin
 } from '../shared/ContentPageSubsectionContentBinder'
 
+import { GetImagePath } from '../shared/Path'
+
 import DimensionPredicatedContainer from '../shared/DimensionPredicatedContainer'
 
 import TextBubble from '../shared/TextBubble'
@@ -134,15 +136,9 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
   renderClawsComparisonImage(matches) {
     const images = this.state.imagesContext();
 
-    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
-
-    const ext = ".png";
-
-    const imageName = "./Cheetah_Cat_Dog_Claws_Comparison_Inverted" + coverImageSizeSuffix + "-min" + ext;
-
     return (
       <ImageView
-        image={images(imageName)}
+        image={images(GetImagePath("./Cheetah_Cat_Dog_Claws_Comparison_Inverted", ".png", matches))}
         caption="Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability."
         width={480}
         height={300}

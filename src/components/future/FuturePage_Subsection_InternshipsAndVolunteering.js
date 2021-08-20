@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 19, 2021
+ * Updated  : Aug 20, 2021
  */
 
 import React from 'react'
@@ -24,6 +24,8 @@ import CenteredFullWidthContainer from '../shared/CenteredFullWidthContainer'
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import { GetImagePath } from '../shared/Path'
 
 import FluidImageWrapper from '../shared/FluidImageWrapper'
 
@@ -91,15 +93,9 @@ export default class FuturePageSubsectionInternshipsAndVolunteering extends Reac
   renderGetInvolvedVolunteerImage(matches) {
     const images = this.state.imagesContext();
 
-    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
-
-    const ext = ".jpg";
-
-    const imageName = "./CCF_GetInvolved_Volunteer" + coverImageSizeSuffix + "-min" + ext;
-
     return (
       <FluidImageWrapper
-        src={images(imageName)}
+        src={images(GetImagePath("./CCF_GetInvolved_Volunteer", ".jpg", matches))}
         alt="CCF Volunteering"
         center
       />

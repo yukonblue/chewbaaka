@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 10, 2021
+ * Updated  : Aug 20, 2021
  */
 
 import React from 'react'
@@ -12,6 +12,8 @@ import React from 'react'
 import Media from 'react-media'
 
 import { getElementStyleClassNames } from '../../styling/styling'
+
+import { GetImagePath } from '../shared/Path'
 
 import './ContentPageSharedStyles.css'
 
@@ -67,12 +69,6 @@ export default class ContentPageBanner extends React.Component {
   }
 
   getCoverImageInstance(matches) {
-    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : (matches.medium ? "_M" : "_L")) : "_L";
-
-    const ext = ".jpg";
-
-    const coverImageName = this.props.coverImageNamePrefix + coverImageSizeSuffix + "-min" + ext;
-
     let coverImage = null;
 
     /**
@@ -81,7 +77,7 @@ export default class ContentPageBanner extends React.Component {
      */
     if (this.props.imagesContext) {
       const images = this.props.imagesContext();
-      coverImage = images('./' + coverImageName);
+      coverImage = images(GetImagePath("./" + this.props.coverImageNamePrefix, ".jpg", matches));
     }
 
     return coverImage;
