@@ -19,6 +19,8 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
+import { GetImagePath } from '../shared/Path'
+
 import MediaLinkButton from '../shared/MediaLinkButton'
 
 import FactBannerImage from '../shared/FactBannerImage'
@@ -81,15 +83,9 @@ export default class BiologyPageSubsectionLifecycleStage3 extends React.Componen
   renderWhatIsDiurnalImage(matches) {
     const images = this.state.imagesContext();
 
-    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
-
-    const ext = ".png";
-
-    const imageName = "./What_is_Diurnal" + coverImageSizeSuffix + "-min" + ext;
-
     return (
       <FactBannerImage
-        src={images(imageName)}
+        src={images(GetImagePath("./What_is_Diurnal", ".png", matches))}
         alt="What is diurnal?"
         centered
       />

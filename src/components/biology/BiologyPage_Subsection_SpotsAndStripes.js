@@ -20,6 +20,8 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
+import { GetImagePath } from '../shared/Path'
+
 import CenteredFullWidthContainer from '../shared/CenteredFullWidthContainer'
 
 import DimensionPredicatedContainer from '../shared/DimensionPredicatedContainer'
@@ -98,15 +100,9 @@ export default class BiologyPageSubsectionSpotsAndStripes extends React.Componen
   renderWhatIsCamouflageImage(matches) {
     const images = this.state.imagesContext();
 
-    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
-
-    const ext = ".png";
-
-    const imageName = "./What_is_Camouflage" + coverImageSizeSuffix + "-min" + ext;
-
     return (
       <FactBannerImage
-        src={images(imageName)}
+        src={images(GetImagePath("./What_is_Camouflage", ".png", matches))}
         alt="What is camouflage?"
         large
         centered
@@ -154,15 +150,9 @@ export default class BiologyPageSubsectionSpotsAndStripes extends React.Componen
   renderCheetahAndBadgerImage(matches) {
     const images = this.state.imagesContext();
 
-    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
-
-    const ext = ".jpg";
-
-    const imageName = "./cheetah_and_honey_badger" + coverImageSizeSuffix + "-min" + ext;
-
     return (
       <ImageView
-        image={images(imageName)}
+        image={images(GetImagePath("./cheetah_and_honey_badger", ".jpg", matches))}
         caption="The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators."
         width={720}
         height={360}

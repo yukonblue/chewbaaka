@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 19, 2021
+ * Updated  : Aug 20, 2021
  */
 
 import React from 'react'
@@ -19,6 +19,8 @@ import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFl
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import { GetImagePath } from '../shared/Path'
 
 import { kStringConstantCheetahConservationFund } from '../shared/constants'
 
@@ -80,15 +82,9 @@ export default class FuturePageSubsectionCommunityEvents extends React.Component
   renderCCGLivelihoodDevelopmentImage(matches) {
     const images = this.state.imagesContext();
 
-    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
-
-    const ext = ".jpg";
-
-    const imageName = "./CCF_Livelihood_Development" + coverImageSizeSuffix + "-min" + ext;
-
     return (
       <ImageView
-        image={images(imageName)}
+        image={images(GetImagePath("./CCF_Livelihood_Development", ".jpg", matches))}
         caption="CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program."
         credit={kStringConstantCheetahConservationFund}
         width={960}

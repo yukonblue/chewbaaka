@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Aug 18, 2021
+ * Updated  : Aug 20, 2021
  */
 
 import React from 'react'
@@ -19,6 +19,8 @@ import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import {
   ContentPageSubsectionColumnDataBinderWithParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import { GetImagePath } from '../shared/Path'
 
 import CenteredFullWidthContainer from '../shared/CenteredFullWidthContainer'
 
@@ -96,17 +98,11 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
   renderCheetahEvolutionAndExtinctionScaleImage(matches) {
     const images = this.state.imagesContext();
 
-    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : (matches.medium ? "_M" : "_L")) : "_L";
-
-    const ext = ".png";
-
-    const imageName = "./Cheetah_Evolution_and_Extinction_Scale" + coverImageSizeSuffix + "-min" + ext;
-
     return (
       <ContentPageSubsectionPart>
         <CenteredFullWidthContainer width={1200}>
           <FluidImageWrapper
-            src={images(imageName)}
+            src={images(GetImagePath("./Cheetah_Evolution_and_Extinction_Scale", ".png", matches))}
             alt="Cheetah evolution and extinction"
             centered
           />

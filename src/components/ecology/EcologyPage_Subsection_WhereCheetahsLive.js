@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 19, 2021
+ * Updated  : Aug 20, 2021
  */
 
 import React from 'react'
@@ -23,6 +23,8 @@ import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFl
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import { GetImagePath } from '../shared/Path'
 
 import CenteredFullWidthContainer from '../shared/CenteredFullWidthContainer'
 
@@ -125,15 +127,9 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
   renderWhatIsHabitatImage(matches) {
     const images = this.state.imagesContext();
 
-    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
-
-    const ext = ".png";
-
-    const imageName = "./What_is_Habitat" + coverImageSizeSuffix + "-min" + ext;
-
     return (
       <FactBannerImage
-        src={images(imageName)}
+        src={images(GetImagePath("./What_is_Habitat", ".png", matches))}
         alt="What is a habitat"
         centered
       />
@@ -159,15 +155,9 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
   renderAfricanSavannaImage(matches) {
     const images = this.state.imagesContext();
 
-    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
-
-    const ext = ".jpg";
-
-    const imageName = "./savana_bg_large" + coverImageSizeSuffix + "-min" + ext;
-
     return (
       <FluidImageWrapper
-        src={images(imageName)}
+        src={images(GetImagePath("./savana_bg_large", ".jpg", matches))}
         alt="African savanna"
         centered
       />
@@ -213,15 +203,9 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
   renderWhatIsBiomeImage(matches) {
     const images = this.state.imagesContext();
 
-    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
-
-    const ext = ".png";
-
-    const imageName = "./What_is_Biome" + coverImageSizeSuffix + "-min" + ext;
-
     return (
       <FactBannerImage
-        src={images(imageName)}
+        src={images(GetImagePath("./What_is_Biome", ".png", matches))}
         alt="What is biome?"
         centered
         large

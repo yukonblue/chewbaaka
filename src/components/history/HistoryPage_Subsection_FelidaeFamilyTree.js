@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 18, 2021
+ * Updated  : Aug 20, 2021
  */
 
 import React, { Suspense } from 'react'
@@ -12,6 +12,8 @@ import React, { Suspense } from 'react'
 import Media from 'react-media'
 
 import { getElementStyleClassName } from '../../styling/styling'
+
+import { GetImagePath } from '../shared/Path'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageParagraph from '../shared/ContentPageParagraph'
@@ -117,15 +119,9 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
   renderBigCatsImage(matches) {
     const images = this.state.imagesContext();
 
-    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : (matches.medium ? "_M" : "_L")) : "_L";
-
-    const ext = ".png";
-
-    const imageName = "./Big_Cats" + coverImageSizeSuffix + "-min" + ext;
-
     return (
       <FluidImageWrapper
-        src={images(imageName)}
+        src={images(GetImagePath("./Big_Cats", ".png", matches))}
         alt="Big Cats"
         centered
       />
