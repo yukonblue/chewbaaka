@@ -1,8 +1,19 @@
 # Release Note
 
+## Version 0.5.2
+
+* Date: August 20, 2021
+* Changelog:
+  * `84c44ca` Optimize assets for Biology Page (#246)
+  * `14aebb8` Optimize assets for Future Page (#245)
+  * `0bf43e7` Optimize assets in Ecology Page (#244)
+  * Refactor image path logic into separate routine (#247)
+
 ## Version 0.5.1
 
 * Date: August 18, 2021
+* Commit: `d19ea2e`
+* Tag: `0.5.1`
 * Changelog:
   * Optimize home page and content page assets
     * `7653d90`, `0d27151`, `b7f75ec`
