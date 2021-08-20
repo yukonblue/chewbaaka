@@ -4,10 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Aug 22, 2020
+ * Updated  : Aug 20, 2021
  */
 
 import React, { Suspense } from 'react'
+
+import Media from 'react-media'
 
 import '../shared/ContentPageSharedStyles.css'
 
@@ -28,12 +30,13 @@ import ImageView from '../shared/ImageView'
 // import AfricanWildlifeTracksIllustration from './AfricanWildlifeTracksIllustration'
 
 import image_cheetah_paw from './assets/cheetah_paw-min.jpg'
-import image_claws_comparison from './assets/Cheetah_Cat_Dog_Claws_Comparison_Inverted-min.png'
 import image_cheetah_dewclaw from './assets/cheetah_dewclaw-min.jpg'
 
 import './BiologyPage_Subsection_FeetAndClaws.css'
 
 const AfricanWildlifeTracksIllustration = React.lazy(() => import('./AfricanWildlifeTracksIllustration'));
+
+const __TEST__ = (process.env.NODE_ENV === 'test');
 
 export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
 
@@ -42,7 +45,8 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionFeetAndClaws._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionFeetAndClaws._SUBSECTION_NAME_],
+      imagesContext: () => (require.context("./assets/", true))
     };
   }
 
@@ -103,16 +107,46 @@ export default class BiologyPageSubsectionFeetAndClaws extends React.Component {
             />
           }
           fixedPart={
-            <ImageView
-              image={image_claws_comparison}
-              caption="Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability."
-              width={480}
-              height={300}
-            />
+            this.renderClawsComparisonImagePart()
           }
           floatFixedSide={true}
         />
       </ContentPageSubsectionPart>
+    );
+  }
+
+  renderClawsComparisonImagePart() {
+    if (__TEST__) {
+      return this.renderClawsComparisonImage(null);
+    }
+
+    return (
+      <Media queries={{
+        small: "(max-width: 480px)",
+      }}>
+        {
+          matches => (this.renderClawsComparisonImage(matches))
+        }
+      </Media>
+    );
+  }
+
+  renderClawsComparisonImage(matches) {
+    const images = this.state.imagesContext();
+
+    const coverImageSizeSuffix = matches ? (matches.small ? "_S" : "_L") : "_L";
+
+    const ext = ".png";
+
+    const imageName = "./Cheetah_Cat_Dog_Claws_Comparison_Inverted" + coverImageSizeSuffix + "-min" + ext;
+
+    return (
+      <ImageView
+        image={images(imageName)}
+        caption="Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability."
+        width={480}
+        height={300}
+      />
     );
   }
 
