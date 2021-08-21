@@ -155,7 +155,7 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
   }
 
   renderAfricanSavannaImage(matches) {
-    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/", true)) : () => (require.context("./assets/", true));
+    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/")) : () => (require.context("./assets/"));
     const images = context();
 
     return (
