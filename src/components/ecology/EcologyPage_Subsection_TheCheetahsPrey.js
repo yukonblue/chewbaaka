@@ -103,8 +103,8 @@ export default class EcologyPageSubsectionTheCheetahsPrey extends React.Componen
   }
 
   renderCheetahLionComparisonImage(matches) {
-    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/", true)) : () => (require.context("./assets/", true));
-    const images = context(__dirname);
+    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/")) : () => (require.context("./assets/"));
+    const images = context();
 
     return (
       <ContentPageSubsectionPart>

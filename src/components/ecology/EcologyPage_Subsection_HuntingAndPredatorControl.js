@@ -106,8 +106,8 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
   }
 
   renderWhatIsSustainableUtilizationImage(matches) {
-    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/", true)) : () => (require.context("./assets/", true));
-    const images = context(__dirname);
+    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/")) : () => (require.context("./assets/"));
+    const images = context();
 
     return (
       <FactBannerImage
@@ -154,8 +154,8 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
   }
 
   renderWhatIsProblemAnimalImage(matches) {
-    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/", true)) : () => (require.context("./assets/", true));
-    const images = context(__dirname);
+    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/")) : () => (require.context("./assets/"));
+    const images = context();
 
     return (
       <FactBannerImage
