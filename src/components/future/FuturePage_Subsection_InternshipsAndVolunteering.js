@@ -42,7 +42,8 @@ export default class FuturePageSubsectionInternshipsAndVolunteering extends Reac
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[FuturePageSubsectionInternshipsAndVolunteering._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[FuturePageSubsectionInternshipsAndVolunteering._SUBSECTION_NAME_],
+      imagesContext: __TEST__ ? (base) => (requireContext(__dirname, base)) : (base) => (require.context(base))
     };
   }
 
@@ -92,8 +93,7 @@ export default class FuturePageSubsectionInternshipsAndVolunteering extends Reac
   }
 
   renderGetInvolvedVolunteerImage(matches) {
-    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/", true)) : () => (require.context("./assets/", true));
-    const images = context(__dirname);
+    const images = this.state.imagesContext("./assets/");
 
     return (
       <FluidImageWrapper

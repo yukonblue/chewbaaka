@@ -52,7 +52,8 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[HistoryPageSubsectionFelidaeFamilyTree._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[HistoryPageSubsectionFelidaeFamilyTree._SUBSECTION_NAME_],
+      imagesContext: __TEST__ ? (base) => (requireContext(__dirname, base)) : (base) => (require.context(base))
     };
   }
 
@@ -118,8 +119,7 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
   }
 
   renderBigCatsImage(matches) {
-    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/", true)) : () => (require.context("./assets/", true));
-    const images = context(__dirname);
+    const images = this.state.imagesContext("./assets/");
 
     return (
       <FluidImageWrapper

@@ -60,7 +60,8 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionWhereCheetahsLive._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionWhereCheetahsLive._SUBSECTION_NAME_],
+      imagesContext: __TEST__ ? (base) => (requireContext(__dirname, base)) : (base) => (require.context(base))
     };
   }
 
@@ -126,8 +127,7 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
   }
 
   renderWhatIsHabitatImage(matches) {
-    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/", true)) : () => (require.context("./assets/", true));
-    const images = context(__dirname);
+    const images = this.state.imagesContext("./assets/");
 
     return (
       <FactBannerImage
@@ -155,8 +155,7 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
   }
 
   renderAfricanSavannaImage(matches) {
-    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/", true)) : () => (require.context("./assets/", true));
-    const images = context(__dirname);
+    const images = this.state.imagesContext("./assets/");
 
     return (
       <FluidImageWrapper
@@ -214,8 +213,7 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
   }
 
   renderWhatIsBiomeImage(matches) {
-    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/", true)) : () => (require.context("./assets/", true));
-    const images = context(__dirname);
+    const images = this.state.imagesContext("./assets/");
 
     return (
       <FactBannerImage

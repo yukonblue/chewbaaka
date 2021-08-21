@@ -48,7 +48,8 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[FuturePageSubsectionLivestockGuardingDogs._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[FuturePageSubsectionLivestockGuardingDogs._SUBSECTION_NAME_],
+      imagesContext: __TEST__ ? (base) => (requireContext(__dirname, base)) : (base) => (require.context(base))
     };
   }
 
@@ -107,8 +108,7 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
   }
 
   renderCCFLGDImage(matches) {
-    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/", true)) : () => (require.context("./assets/", true));
-    const images = context(__dirname);
+    const images = this.state.imagesContext("./assets/");
 
     return (
       <FluidImageWrapper
@@ -199,8 +199,7 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
   }
 
   renderLGDImage(matches) {
-    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/", true)) : () => (require.context("./assets/", true));
-    const images = context(__dirname);
+    const images = this.state.imagesContext("./assets/");
 
     return (
       <FluidImageWrapper
