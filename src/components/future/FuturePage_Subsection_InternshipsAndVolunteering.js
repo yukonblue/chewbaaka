@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 20, 2021
+ * Updated  : Aug 21, 2021
  */
 
 import React from 'react'
@@ -25,6 +25,8 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
+import { requireContext } from '../shared/workarounds/RequireContextMock'
+
 import { GetImagePath } from '../shared/Path'
 
 import FluidImageWrapper from '../shared/FluidImageWrapper'
@@ -40,8 +42,7 @@ export default class FuturePageSubsectionInternshipsAndVolunteering extends Reac
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[FuturePageSubsectionInternshipsAndVolunteering._SUBSECTION_NAME_],
-      imagesContext: () => (require.context("./assets/", true))
+      subsectionConfig: props.sectionConfig.subsections[FuturePageSubsectionInternshipsAndVolunteering._SUBSECTION_NAME_]
     };
   }
 
@@ -91,7 +92,8 @@ export default class FuturePageSubsectionInternshipsAndVolunteering extends Reac
   }
 
   renderGetInvolvedVolunteerImage(matches) {
-    const images = this.state.imagesContext();
+    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/", true)) : () => (require.context("./assets/", true));
+    const images = context(__dirname);
 
     return (
       <FluidImageWrapper

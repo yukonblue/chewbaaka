@@ -4,12 +4,14 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Aug 20, 2021
+ * Updated  : Aug 21, 2021
  */
 
 import React from 'react'
 
 import Media from 'react-media'
+
+import { requireContext } from '../shared/workarounds/RequireContextMock'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
@@ -52,8 +54,7 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[HistoryPageSubsectionRoadToExtinction._SUBSECTION_NAME_],
-      imagesContext: () => (require.context("./assets/", true))
+      subsectionConfig: props.sectionConfig.subsections[HistoryPageSubsectionRoadToExtinction._SUBSECTION_NAME_]
     };
   }
 
@@ -96,7 +97,8 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
   }
 
   renderCheetahEvolutionAndExtinctionScaleImage(matches) {
-    const images = this.state.imagesContext();
+    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/", true)) : () => (require.context("./assets/", true));
+    const images = context(__dirname);
 
     return (
       <ContentPageSubsectionPart>
