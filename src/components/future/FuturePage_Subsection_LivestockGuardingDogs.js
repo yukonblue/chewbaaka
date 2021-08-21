@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 20, 2021
+ * Updated  : Aug 21, 2021
  */
 
 import React from 'react'
@@ -20,6 +20,8 @@ import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFl
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import { requireContext } from '../shared/workarounds/RequireContextMock'
 
 import { GetImagePath } from '../shared/Path'
 
@@ -46,8 +48,7 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[FuturePageSubsectionLivestockGuardingDogs._SUBSECTION_NAME_],
-      imagesContext: () => (require.context("./assets/", true))
+      subsectionConfig: props.sectionConfig.subsections[FuturePageSubsectionLivestockGuardingDogs._SUBSECTION_NAME_]
     };
   }
 
@@ -106,7 +107,8 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
   }
 
   renderCCFLGDImage(matches) {
-    const images = this.state.imagesContext();
+    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/")) : () => (require.context("./assets/"));
+    const images = context();
 
     return (
       <FluidImageWrapper
@@ -197,7 +199,8 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
   }
 
   renderLGDImage(matches) {
-    const images = this.state.imagesContext();
+    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/")) : () => (require.context("./assets/"));
+    const images = context();
 
     return (
       <FluidImageWrapper

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 20, 2021
+ * Updated  : Aug 21, 2021
  */
 
 import React from 'react'
@@ -23,6 +23,8 @@ import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFl
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import { requireContext } from '../shared/workarounds/RequireContextMock'
 
 import { GetImagePath } from '../shared/Path'
 
@@ -58,8 +60,7 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionWhereCheetahsLive._SUBSECTION_NAME_],
-      imagesContext: () => (require.context("./assets/", true))
+      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionWhereCheetahsLive._SUBSECTION_NAME_]
     };
   }
 
@@ -125,7 +126,8 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
   }
 
   renderWhatIsHabitatImage(matches) {
-    const images = this.state.imagesContext();
+    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/")) : () => (require.context("./assets/"));
+    const images = context();
 
     return (
       <FactBannerImage
@@ -153,7 +155,8 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
   }
 
   renderAfricanSavannaImage(matches) {
-    const images = this.state.imagesContext();
+    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/")) : () => (require.context("./assets/"));
+    const images = context();
 
     return (
       <FluidImageWrapper
@@ -187,21 +190,32 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
           </CenteredFullWidthContainer>
         </div>
 
-        <Media queries={{
-          small: "(max-width: 480px)",
-        }}>
-          {
-            matches => (this.renderWhatIsBiomeImage(matches))
-          }
-        </Media>
+        {this.renderWhatIsBiomeImagePart()}
 
         {this.renderImageViewModals()}
       </ContentPageSubsectionPart>
     );
   }
 
+  renderWhatIsBiomeImagePart() {
+    if (__TEST__) {
+      return this.renderWhatIsBiomeImage(null);
+    }
+
+    return (
+      <Media queries={{
+        small: "(max-width: 480px)",
+      }}>
+        {
+          matches => (this.renderWhatIsBiomeImage(matches))
+        }
+      </Media>
+    );
+  }
+
   renderWhatIsBiomeImage(matches) {
-    const images = this.state.imagesContext();
+    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/")) : () => (require.context("./assets/"));
+    const images = context();
 
     return (
       <FactBannerImage

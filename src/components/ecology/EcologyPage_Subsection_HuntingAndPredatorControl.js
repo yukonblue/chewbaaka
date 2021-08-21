@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 20, 2021
+ * Updated  : Aug 21, 2021
  */
 
 import React from 'react'
@@ -12,6 +12,8 @@ import React from 'react'
 import Media from 'react-media'
 
 import '../shared/ContentPageSharedStyles.css'
+
+import { requireContext } from '../shared/workarounds/RequireContextMock'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
@@ -38,8 +40,7 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionHuntingAndPredatorControl._SUBSECTION_NAME_],
-      imagesContext: () => (require.context("./assets/", true))
+      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionHuntingAndPredatorControl._SUBSECTION_NAME_]
     };
   }
 
@@ -105,7 +106,8 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
   }
 
   renderWhatIsSustainableUtilizationImage(matches) {
-    const images = this.state.imagesContext();
+    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/")) : () => (require.context("./assets/"));
+    const images = context();
 
     return (
       <FactBannerImage
@@ -152,7 +154,8 @@ export default class EcologyPageSubsectionHuntingAndPredatorControl extends Reac
   }
 
   renderWhatIsProblemAnimalImage(matches) {
-    const images = this.state.imagesContext();
+    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/")) : () => (require.context("./assets/"));
+    const images = context();
 
     return (
       <FactBannerImage

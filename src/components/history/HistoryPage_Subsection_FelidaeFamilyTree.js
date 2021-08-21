@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 20, 2021
+ * Updated  : Aug 21, 2021
  */
 
 import React, { Suspense } from 'react'
@@ -12,6 +12,8 @@ import React, { Suspense } from 'react'
 import Media from 'react-media'
 
 import { getElementStyleClassName } from '../../styling/styling'
+
+import { requireContext } from '../shared/workarounds/RequireContextMock'
 
 import { GetImagePath } from '../shared/Path'
 
@@ -50,8 +52,7 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[HistoryPageSubsectionFelidaeFamilyTree._SUBSECTION_NAME_],
-      imagesContext: () => (require.context("./assets/", true))
+      subsectionConfig: props.sectionConfig.subsections[HistoryPageSubsectionFelidaeFamilyTree._SUBSECTION_NAME_]
     };
   }
 
@@ -117,7 +118,8 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
   }
 
   renderBigCatsImage(matches) {
-    const images = this.state.imagesContext();
+    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/")) : () => (require.context("./assets/"));
+    const images = context();
 
     return (
       <FluidImageWrapper

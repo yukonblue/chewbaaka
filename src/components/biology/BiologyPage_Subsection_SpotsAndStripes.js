@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Aug 20, 2021
+ * Updated  : Aug 21, 2021
  */
 
 import React, { Suspense } from 'react'
@@ -19,6 +19,8 @@ import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import { requireContext } from '../shared/workarounds/RequireContextMock'
 
 import { GetImagePath } from '../shared/Path'
 
@@ -47,8 +49,7 @@ export default class BiologyPageSubsectionSpotsAndStripes extends React.Componen
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionSpotsAndStripes._SUBSECTION_NAME_],
-      imagesContext: () => (require.context("./assets/", true))
+      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionSpotsAndStripes._SUBSECTION_NAME_]
     };
   }
 
@@ -98,7 +99,8 @@ export default class BiologyPageSubsectionSpotsAndStripes extends React.Componen
   }
 
   renderWhatIsCamouflageImage(matches) {
-    const images = this.state.imagesContext();
+    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/")) : () => (require.context("./assets/"));
+    const images = context();
 
     return (
       <FactBannerImage
@@ -148,7 +150,8 @@ export default class BiologyPageSubsectionSpotsAndStripes extends React.Componen
   }
 
   renderCheetahAndBadgerImage(matches) {
-    const images = this.state.imagesContext();
+    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/")) : () => (require.context("./assets/"));
+    const images = context();
 
     return (
       <ImageView

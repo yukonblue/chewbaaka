@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Aug 20, 2021
+ * Updated  : Aug 21, 2021
  */
 
 import React from 'react'
@@ -18,6 +18,8 @@ import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTempla
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
+
+import { requireContext } from '../shared/workarounds/RequireContextMock'
 
 import { GetImagePath } from '../shared/Path'
 
@@ -34,8 +36,7 @@ export default class BiologyPageSubsectionLifecycleStage3 extends React.Componen
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionLifecycleStage3._SUBSECTION_NAME_],
-      imagesContext: () => (require.context("./assets/", true))
+      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionLifecycleStage3._SUBSECTION_NAME_]
     };
   }
 
@@ -81,7 +82,8 @@ export default class BiologyPageSubsectionLifecycleStage3 extends React.Componen
   }
 
   renderWhatIsDiurnalImage(matches) {
-    const images = this.state.imagesContext();
+    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/")) : () => (require.context("./assets/"));
+    const images = context();
 
     return (
       <FactBannerImage

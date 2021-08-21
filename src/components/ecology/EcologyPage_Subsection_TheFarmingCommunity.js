@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 20, 2021
+ * Updated  : Aug 21, 2021
  */
 
 import React from 'react'
@@ -23,6 +23,8 @@ import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
 
+import { requireContext } from '../shared/workarounds/RequireContextMock'
+
 import { GetImagePath } from '../shared/Path'
 
 import { kStringConstantCheetahConservationFund } from '../shared/constants'
@@ -38,8 +40,7 @@ export default class EcologyPageSubsectionTheFarmingCommunity extends React.Comp
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionTheFarmingCommunity._SUBSECTION_NAME_],
-      imagesContext: () => (require.context("./assets/", true))
+      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionTheFarmingCommunity._SUBSECTION_NAME_]
     };
   }
 
@@ -116,7 +117,8 @@ export default class EcologyPageSubsectionTheFarmingCommunity extends React.Comp
   }
 
   renderConservancyImage(matches) {
-    const images = this.state.imagesContext();
+    const context = __TEST__ ? () => (requireContext(__dirname, "./assets/")) : () => (require.context("./assets/"));
+    const images = context();
 
     return (
       <ImageView

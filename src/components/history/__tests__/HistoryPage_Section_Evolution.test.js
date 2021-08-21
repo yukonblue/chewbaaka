@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Aug 18, 2021
+ * Updated  : Aug 21, 2021
  */
 
 import React from 'react';
@@ -20,11 +20,7 @@ import HistoryPageSectionEvolution from '../HistoryPage_Section_Evolution';
 import { RUN_TEST_NEVER } from '../../../testing/testing'
 
 test('renders HistoryPageSectionEvolution component', () => {
-  /**
-   * Disable test because we currently use require.context
-   * and it doesn't work in Jest.
-   */
-  // render(<HistoryPageSectionEvolution config={config}/>);
+  render(<HistoryPageSectionEvolution config={config}/>);
 });
 
 /**

@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
+<section
+  className="ContentPageSubsectionTemplateOuterContainer"
+>
+  <h3
+    className="ContentPageSubsectionTitle"
+  >
+    Livestock Guarding Dogs
+  </h3>
+  <div>
+    <div
+      className="ContentPageSubsectionPartContainer"
+    >
+      <h4
+        className="ContentPageSubsectionSubtitle"
+      >
+        CCF’s Livestock Guarding Dog History
+      </h4>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+      >
+        In 1994, CCF created a solution to non-lethal predator control - Livestock Guarding Dogs (LGD). After extensive research, CCF felt that the Anatolian Shepherd and Kangal dogs best met the livestock managers’ needs in Namibia. In cooperation with Dr. Ray Coppinger from the Livestock Guarding Dog Association in Hampshire College (Massachusetts, U.S.), the first 10 dogs were donated to Namibia by Birinci Anatolians.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+      >
+        Since then, hundreds of farmers have received Anatolian Shepherds and Kangal dogs to ward off predators, such as cheetahs, jackals and leopards. These dogs do not herd the goats, but protect the flock by placing themselves between the herd and the predator and barking loudly.
+      </p>
+      <p
+        className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+      >
+        CCF’s success is due to the commitment of CCF staff members and the participating farmers. CCF staff regularly visit the farms, educating and advising the farmers and herders for the dogs to be as effective as possible.
+      </p>
+      <div
+        className="VerticalCushionPadding"
+      >
+        <div
+          className="Centered FullWidth"
+          style={
+            Object {
+              "width": 1200,
+            }
+          }
+        >
+          <img
+            alt="Livestock Guarding Dog"
+            className="FullWidth DisplayBlock RetainAspectRatio"
+            src="CCF_LGD_L-min.jpg"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="ContentPageSubsectionPartContainer"
+    >
+      <h4
+        className="ContentPageSubsectionSubtitle"
+      >
+        Raising LGD’s
+      </h4>
+      <div
+        className="ContentPageSideFloatFluidContainerOuterContainer"
+      >
+        <div
+          className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
+        >
+          <div
+            className="ImageViewOuterContainer"
+            style={
+              Object {
+                "maxWidth": 720,
+              }
+            }
+          >
+            <div
+              className="ImageViewInnerContainer"
+            >
+              <div
+                className="ImageViewImgContainer"
+              >
+                <img
+                  alt="Anatolian Shepherd puppies live alongside with the herd."
+                  className="ImageViewImg"
+                  src="CCF_anatolian_shepherd_puppies-min.jpg"
+                />
+              </div>
+              <div
+                className="ImageViewCaptionContainer"
+              >
+                <div
+                  className="CaptionContainer"
+                  data-testid="CaptionComponentTestId"
+                  style={
+                    Object {
+                      "maxWidth": 720,
+                    }
+                  }
+                >
+                  <div
+                    className="IconContainer"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="image icon"
+                      onClick={[Function]}
+                    />
+                  </div>
+                  <p
+                    className="ContentPageCaptionTextSize CaptionText"
+                  >
+                    Anatolian Shepherd puppies live alongside with the herd. (Image credit: Cheetah Conservation Fund)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ContentPageSideFloatFluidContainerFixedPartContainer"
+        >
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            LGD’s are placed with their herds around nine weeks of age, as social bonding between the stock and the dogs deepens upon imprinting before 16 weeks of age. The dogs live with their livestock family instead of a human family, so the puppies bond with the herd; it becomes the dog’s pack rather than the dog’s potential prey. At CCF puppies are born in a whelping pen attached to the main goat yard.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ContentPageSubsectionPartContainer"
+    >
+      <div
+        className="Centered FullWidth"
+        style={
+          Object {
+            "width": 1000,
+          }
+        }
+      >
+        <div
+          className="ImageViewOuterContainer"
+          style={
+            Object {
+              "maxWidth": 1000,
+            }
+          }
+        >
+          <div
+            className="ImageViewInnerContainer"
+          >
+            <div
+              className="ImageViewImgContainer"
+            >
+              <img
+                alt="Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program."
+                className="ImageViewImg"
+                src="CCF_Year_of_the_LGD-min.jpg"
+              />
+            </div>
+            <div
+              className="ImageViewCaptionContainer"
+            >
+              <div
+                className="CaptionContainer"
+                data-testid="CaptionComponentTestId"
+                style={
+                  Object {
+                    "maxWidth": 1000,
+                  }
+                }
+              >
+                <div
+                  className="IconContainer"
+                >
+                  <i
+                    aria-hidden="true"
+                    className="image icon"
+                    onClick={[Function]}
+                  />
+                </div>
+                <p
+                  className="ContentPageCaptionTextSize CaptionText"
+                >
+                  Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program. (Image credit: Cheetah Conservation Fund)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ContentPageSubsectionPartContainer"
+    >
+      <h4
+        className="ContentPageSubsectionSubtitle"
+      >
+        Dogs Save Cheetahs
+      </h4>
+      <div
+        className="ContentPageSideFloatFluidContainerOuterContainer"
+      >
+        <div
+          className="ContentPageSideFloatFluidContainerFloatPartContainer BottomMargin20px FloatRight"
+        >
+          <img
+            alt="Cheetah and LGD"
+            className="FullWidth DisplayBlock RetainAspectRatio"
+            src="Cheetah_and_LGD-min.jpg"
+          />
+        </div>
+        <div
+          className="ContentPageSideFloatFluidContainerFixedPartContainer"
+        >
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Livestock Guarding Dogs have been used for thousands of years to protect cattle, sheep and goats from predator attacks. There are over 20 breeds of guarding dogs. The Anatolian Shepherd, a Turkish breed, was selected as the best candidate for use with smallstock in Namibia as they are able to work in vast open spaces without direct guidance. These dogs look similar to the flock, with large rounded heads, floppy ears and short fur. They have a good sense of hearing and smelling, a calm temperament and a very loud bark.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Anatolians do not herd livestock, they guard them. They are attentive, protective, trustworthy, and aggressive towards predator threats.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Puppies are placed with the stock at eight weeks of age to form a strong bond with the herd. It is important that bonding occurs with the herd and not with humans or other dogs.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Dog owners take the responsibility for the health care of their dogs. This includes veterinary check-ups, vaccinations, and observations for signs of illness or injuries.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            An appropriate diet is necessary for the Anatolian Shepherd. Enough food allows proper growth and a healthy dog. They should never be given raw meat as this could produce a predatory response. They need water during the day when they are out with the herd.
+          </p>
+        </div>
+      </div>
+      <div
+        className="VerticalCushionPaddingTopLarge"
+      >
+        <img
+          alt="Livestock Guarding Dogs"
+          className="FullWidth DisplayBlock RetainAspectRatio Centered"
+          src="LGD_960x960_L-min.png"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+`;
