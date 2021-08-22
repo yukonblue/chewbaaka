@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 21, 2020
+ * Updated  : Aug 22, 2020
  */
 
 import React from 'react'
@@ -35,6 +35,8 @@ export default class ContentPageTopNavMenuBar extends React.Component {
           <img
             src={logo}
             alt="CCF logo"
+            width="282"
+            height="60"
           />
         </a>
       </div>

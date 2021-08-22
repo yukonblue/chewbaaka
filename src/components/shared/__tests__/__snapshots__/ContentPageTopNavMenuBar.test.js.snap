@@ -12,7 +12,9 @@ exports[`ContentPageTopNavMenuBar component snapshot 1`] = `
     >
       <img
         alt="CCF logo"
+        height="60"
         src="cheetah-conservation-fund-30-logo.svg"
+        width="282"
       />
     </a>
   </div>
