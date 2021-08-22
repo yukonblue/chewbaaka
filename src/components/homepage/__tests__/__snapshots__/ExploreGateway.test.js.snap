@@ -15,7 +15,9 @@ exports[`ExploreGateway component snapshot 1`] = `
       <img
         alt="CCF Cheetah Museum"
         className="ExploreGatewayIntroCCFCheetahMuseumImage"
+        height="600"
         src="CCF_Cheetah_Museum-min.jpg"
+        width="1000"
       />
     </div>
     <div
@@ -76,7 +78,9 @@ exports[`ExploreGateway component snapshot 1`] = `
               alt="History"
               className="ui medium image ExploreGatewayGridItemImage"
               data-testid="ExploreGatewayGridItemImageTestId"
+              height="373"
               src="explore_gateway_grid_item_img_01-min.jpg"
+              width="232"
             />
           </a>
           <h2
@@ -103,7 +107,9 @@ exports[`ExploreGateway component snapshot 1`] = `
               alt="Biology"
               className="ui medium image ExploreGatewayGridItemImage"
               data-testid="ExploreGatewayGridItemImageTestId"
+              height="373"
               src="explore_gateway_grid_item_img_02-min.jpg"
+              width="232"
             />
           </a>
           <h2
@@ -130,7 +136,9 @@ exports[`ExploreGateway component snapshot 1`] = `
               alt="Ecology"
               className="ui medium image ExploreGatewayGridItemImage"
               data-testid="ExploreGatewayGridItemImageTestId"
+              height="373"
               src="explore_gateway_grid_item_img_03-min.jpg"
+              width="232"
             />
           </a>
           <h2
@@ -157,7 +165,9 @@ exports[`ExploreGateway component snapshot 1`] = `
               alt="Future"
               className="ui medium image ExploreGatewayGridItemImage"
               data-testid="ExploreGatewayGridItemImageTestId"
+              height="373"
               src="explore_gateway_grid_item_img_04-min.jpg"
+              width="232"
             />
           </a>
           <h2
