@@ -235,10 +235,18 @@ npm install -g lighthouse
 ```
 
 Once it's installed, build and serve the production build like described
-above, and while the virtual server is running, invoke Lighthouse with:
+above, and while the virtual server is running, invoke Lighthouse like below:
+
+For home page:
 
 ```
-lighthouse localhost:3000/<page> --view
+lighthouse http://localhost:3000 --view
+```
+
+Or for a particular content page:
+
+```
+lighthouse http://localhost:3000/<page> --view
 ```
 
 This will invoke Lighthouse to audit the page, and at the end of the audit

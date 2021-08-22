@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 08, 2021
+ * Updated  : Aug 22, 2021
  */
 
 import React from 'react'
@@ -32,6 +32,8 @@ export default function ExploreGatewayIntro() {
     <div className="ExploreGatewayIntro ExploreGatewayBackground" data-testid="ExploreGatewayIntroTestId">
       <div className="VerticalCushionPadding">
         <img
+          width="1000"
+          height="600"
           className="ExploreGatewayIntroCCFCheetahMuseumImage"
           src={image_CCF_Cheetah_Museum}
           alt="CCF Cheetah Museum"
