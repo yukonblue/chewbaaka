@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 24, 2020
- * Updated  : Aug 20, 2021
+ * Updated  : Aug 22, 2021
  */
 
 import React from 'react'
@@ -63,6 +63,8 @@ export default class ContentPageIntroSectionGeneric extends React.Component {
 
     const coverImageName = GetImagePath("./" + this.props.contentPageIntro.image.filenamePrefix, ".png", matches);
 
+    const aspectRatio =  this.props.contentPageIntro.image.aspectRatio;
+
     return (
       <div className={getElementStyleClassName("ContentPageIntroSectionGenericInnerContainer")}>
         <div className="ContentPageIntroSectionGenericIntroTextContainer">
@@ -75,6 +77,8 @@ export default class ContentPageIntroSectionGeneric extends React.Component {
             className={getElementStyleClassName("ContentPageIntroSectionGenericImg")}
             src={images(coverImageName)}
             alt={this.props.contentPageIntro.title}
+            width={aspectRatio.width}
+            height={aspectRatio.height}
           />
         </div>
       </div>

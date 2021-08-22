@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 20, 2020
+ * Updated  : Aug 22, 2021
  */
 
 import React from 'react'
@@ -64,7 +64,11 @@ const pageConfig = {
     title: "This is a title",
     content: "This is some content",
     image: {
-      filename: "cheetah-conservation-fund-logo-mini-min.jpg"
+      filenamePrefix: "cheetah-conservation-fund-logo-mini-min",
+      aspectRatio: {
+        width: 410,
+        height: 200
+      }
     }
   }
 };
