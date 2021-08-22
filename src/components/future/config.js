@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Aug 18, 2021
+ * Updated  : Aug 22, 2021
  */
 
 export const config = {
@@ -54,7 +54,11 @@ export const config = {
             "work together to protect the cheetahs, nurture their ecosystems, and make ourselves better custodians of " +
             "this planet and all living things that share it with us.",
     image: {
-      filenamePrefix: "Future_Page_Intro_Section_Background"
+      filenamePrefix: "Future_Page_Intro_Section_Background",
+      aspectRatio: {
+        width: 640,
+        height: 640
+      }
     }
   },
   contentPageSections: {

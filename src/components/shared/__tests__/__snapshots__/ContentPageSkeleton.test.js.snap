@@ -231,7 +231,9 @@ exports[`ContentPageSkeleton snapshot 1`] = `
                 <img
                   alt="This is a title"
                   className="ContentPageIntroSectionGenericImg"
+                  height={200}
                   src={null}
+                  width={410}
                 />
               </div>
             </div>
