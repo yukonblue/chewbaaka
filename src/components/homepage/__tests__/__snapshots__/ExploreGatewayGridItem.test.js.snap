@@ -18,7 +18,9 @@ exports[`ExploreGatewayGridItem component snapshot 1`] = `
         alt="History"
         className="ui medium image ExploreGatewayGridItemImage"
         data-testid="ExploreGatewayGridItemImageTestId"
+        height="373"
         src="https://cheetah.org/wp-content/uploads/2019/05/iwt_ancientindiancheetahhunt_1000-600-scaled.jpg"
+        width="232"
       />
     </a>
     <h2

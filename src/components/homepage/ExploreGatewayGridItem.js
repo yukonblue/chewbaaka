@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 19, 2020
+ * Updated  : Aug 22, 2020
  */
 
 import React from 'react'
@@ -29,6 +29,8 @@ export default function ExploreGatewayGridItem(props) {
         >
           <Image
             size="medium"
+            width="232"
+            height="373"
             src={props.image}
             alt={props.title}
             className="ExploreGatewayGridItemImage"

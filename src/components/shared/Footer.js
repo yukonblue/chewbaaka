@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 19, 2020
+ * Updated  : Aug 22, 2020
  */
 
 import React from 'react'
@@ -42,6 +42,8 @@ export default function Footer(props) {
             <Grid.Row>
               <Grid.Column width={3}>
                 <Image
+                  width="300"
+                  height="172"
                   size="small"
                   src={logo}
                   alt={kStringConstantCheetahConservationFund}

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 08, 2021
+ * Updated  : Aug 22, 2021
  */
 
 /* div.ExploreGatewayIntro {
@@ -52,7 +52,7 @@ p.CCFMissionStatementQuote {
   background-repeat: no-repeat;
   background-size: 100% 0.25rem;
   background-position: 0 100%;
-  
+
   font-family: 'Roboto', sans-serif;
   font-size: 21px;
   font-style: italic;
@@ -64,6 +64,7 @@ p.CCFMissionStatementQuote {
 img.ExploreGatewayIntroCCFCheetahMuseumImage {
   display: block;
   max-width: 100%;
+  height: auto;
   margin: 0 auto;
 }
 
