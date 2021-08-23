@@ -40,8 +40,10 @@ exports[`EcologyPageSubsectionHuntingAndPredatorControl component snapshot 1`] =
         </p>
         <img
           alt="What is sustainable utilization?"
-          className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
+          className="FactBannerImage FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
+          height={480}
           src="What_is_Sustainable_Utilization_L-min.png"
+          width={960}
         />
       </div>
       <div
@@ -158,8 +160,10 @@ exports[`EcologyPageSubsectionHuntingAndPredatorControl component snapshot 1`] =
       </div>
       <img
         alt="What is a problem animal?"
-        className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
+        className="FactBannerImage FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
+        height={480}
         src="What_is_a_Problem_Animal_L-min.png"
+        width={960}
       />
     </div>
   </div>

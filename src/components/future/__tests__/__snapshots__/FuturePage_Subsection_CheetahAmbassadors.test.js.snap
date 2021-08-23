@@ -80,7 +80,9 @@ exports[`FuturePageSubsectionCheetahAmbassadors component snapshot 1`] = `
               <img
                 alt="Chewbaaka"
                 className="CircularImageImg"
+                height={400}
                 src="Chewbaaka-min.jpg"
+                width={400}
               />
               <p
                 className="CircularImageTitle"
@@ -115,7 +117,9 @@ exports[`FuturePageSubsectionCheetahAmbassadors component snapshot 1`] = `
               <img
                 alt="Mekondyo"
                 className="CircularImageImg"
+                height={385}
                 src="Mekondyo-min.jpg"
+                width={385}
               />
               <p
                 className="CircularImageTitle"

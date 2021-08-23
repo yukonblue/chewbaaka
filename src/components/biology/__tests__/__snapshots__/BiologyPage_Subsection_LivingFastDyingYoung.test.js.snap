@@ -58,7 +58,9 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                   <img
                     alt="A coalition of cheetahs on the lookout."
                     className="ImageViewImg"
+                    height={342}
                     src="cheetah_coalition-min.jpg"
+                    width={510}
                   />
                 </div>
                 <div
@@ -124,7 +126,9 @@ exports[`BiologyPageSubsectionLivingFastDyingYoung component snapshot 1`] = `
                   <img
                     alt="Cheetahs often have to come to face hyenas in competition of food."
                     className="ImageViewImg"
+                    height={424}
                     src="cheetah_face_hyena-min.jpg"
+                    width={640}
                   />
                 </div>
                 <div

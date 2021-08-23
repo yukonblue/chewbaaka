@@ -15,7 +15,9 @@ exports[`ImageSlidingGallery component snapshot 1`] = `
     <img
       alt="Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words"
       className="ImageSlidingGalleryImgPart"
+      height={900}
       src=""
+      width={1600}
     />
     <div
       className="ImageSlidingGalleryButtonContainer"

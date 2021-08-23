@@ -32,7 +32,9 @@ exports[`BiologyPageSubsectionLearningToHunt component snapshot 1`] = `
             <img
               alt="Cheetah cubs learning how to hunt."
               className="ImageViewImg"
+              height={320}
               src="cheetah_cubs_learning_hunting-min.jpg"
+              width={480}
             />
           </div>
           <div

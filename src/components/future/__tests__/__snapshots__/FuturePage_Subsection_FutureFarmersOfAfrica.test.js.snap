@@ -83,7 +83,9 @@ exports[`FuturePageSubsectionFutureFarmersOfAfrica component snapshot 1`] = `
                 <img
                   alt="Farmers participate in FFA training courses."
                   className="ImageViewImg"
+                  height={370}
                   src="CCF_FFA_01-min.jpg"
+                  width={742}
                 />
               </div>
               <div

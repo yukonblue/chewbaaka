@@ -41,6 +41,7 @@ exports[`BiologyPageLifecycleDiagram component snapshot 1`] = `
   <img
     alt="lifecycle diagram"
     className="FullWidth DisplayBlock RetainAspectRatio Centered"
+    height={675}
     src="Lifecycle_Diagram-min.png"
     width={640}
   />

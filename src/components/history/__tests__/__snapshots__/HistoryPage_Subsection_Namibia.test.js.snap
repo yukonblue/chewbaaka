@@ -104,7 +104,9 @@ exports[`HistoryPageSubsectionNamibia component snapshot 1`] = `
                       <img
                         alt="Cheetah distribution and population density in Namibia."
                         className="ImageViewImg"
+                        height={640}
                         src="Cheetah_Occurrence_Range_Map_Namibia-min.png"
+                        width={640}
                       />
                     </div>
                     <div

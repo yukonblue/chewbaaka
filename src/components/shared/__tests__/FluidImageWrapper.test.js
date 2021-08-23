@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Aug 17, 2020
- * Updated  : Aug 17, 2020
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -18,6 +18,7 @@ import FluidImageWrapper from '../FluidImageWrapper'
 const href = "https://google.com/image.jpg";
 const src = "Some image";
 const width = 520;
+const height = 320;
 
 test('renders FluidImageWrapper component', () => {
   render(
@@ -25,6 +26,7 @@ test('renders FluidImageWrapper component', () => {
       src={src}
       href={href}
       width={width}
+      height={height}
       centered
     />
   );
@@ -37,6 +39,7 @@ test('FluidImageWrapper component snapshot', () => {
         src={src}
         href={href}
         width={width}
+        height={height}
         centered
       />
     ).toJSON();

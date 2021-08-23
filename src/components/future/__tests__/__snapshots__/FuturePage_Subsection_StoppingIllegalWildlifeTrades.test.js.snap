@@ -72,7 +72,9 @@ exports[`FuturePageSubsectionStoppingIllegalWildlifeTrades component snapshot 1`
                   <img
                     alt="The heaviest trafficking of cheetahs have been observed from Central and Southern Africa into the Middle East."
                     className="ImageViewImg"
+                    height={360}
                     src="cheetah_trafficking_map-min.png"
+                    width={640}
                   />
                 </div>
                 <div
@@ -163,7 +165,9 @@ exports[`FuturePageSubsectionStoppingIllegalWildlifeTrades component snapshot 1`
               <img
                 alt="Most cheetah cubs trafficked and sold end up as buyers' pets. The cubs consequently suffer from shock, malnourishment, and unsuitable living conditions."
                 className="ImageSlidingGalleryDiscreteImgPart"
+                height={576}
                 src="cheetah_rescue_01-min.jpg"
+                width={960}
               />
               <div
                 className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonLhsContainer"
@@ -275,7 +279,9 @@ exports[`FuturePageSubsectionStoppingIllegalWildlifeTrades component snapshot 1`
           <img
             alt="CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora) Conference of the Parties 17"
             className="FullWidth DisplayBlock RetainAspectRatio"
+            height={289}
             src="CITES_CoP17-min.jpg"
+            width={480}
           />
         </div>
         <div
@@ -290,8 +296,10 @@ exports[`FuturePageSubsectionStoppingIllegalWildlifeTrades component snapshot 1`
       </div>
       <img
         alt="What is CITES?"
-        className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
+        className="FactBannerImage FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
+        height={373}
         src="What_is_CITES-min.png"
+        width={960}
       />
     </div>
   </div>

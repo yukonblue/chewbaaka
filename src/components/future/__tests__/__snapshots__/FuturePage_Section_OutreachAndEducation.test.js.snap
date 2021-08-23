@@ -130,7 +130,9 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
           <img
             alt="CCF Volunteering"
             className="FullWidth DisplayBlock RetainAspectRatio"
+            height={433}
             src="CCF_GetInvolved_Volunteer_L-min.jpg"
+            width={1300}
           />
         </div>
       </div>
@@ -292,7 +294,9 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                   <img
                     alt="In 2009, Cincinnati Zoo's cheetah Sarah set the record of the world's fastest cheetah, as she sprant 100m in just 6.13 seconds. The best record for 100m by humans was from Usain Bolt, finishing in 9.58 seconds."
                     className="ImageViewImg"
+                    height={406}
                     src="cincinnati_zoo_cheetah_sarah-min.jpg"
+                    width={720}
                   />
                 </div>
                 <div
@@ -427,9 +431,11 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                 className="ImageSlidingGalleryCoreContainer"
               >
                 <img
-                  alt="CCF's Predator Preyground. (Image credit: Cheetah Conservation Fund)"
+                  alt="CCF's Predator Preyground."
                   className="ImageSlidingGalleryImgPart"
+                  height={320}
                   src="CCF_Predator_Preyground-min.jpg"
+                  width={533}
                 />
                 <div
                   className="ImageSlidingGalleryButtonContainer"
@@ -487,7 +493,7 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                   <p
                     className="ContentPageCaptionTextSize CaptionText"
                   >
-                    CCF's Predator Preyground. (Image credit: Cheetah Conservation Fund)
+                    CCF's Predator Preyground.
                   </p>
                 </div>
               </div>
@@ -529,7 +535,9 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                 <img
                   alt="CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program."
                   className="ImageViewImg"
+                  height={577}
                   src="CCF_Livelihood_Development_L-min.jpg"
+                  width={960}
                 />
               </div>
               <div

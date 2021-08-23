@@ -27,7 +27,9 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
             <img
               alt="This is image 1."
               className="ImageViewImg"
+              height={480}
               src="some image 1"
+              width={720}
             />
           </div>
           <div
@@ -81,7 +83,9 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
             <img
               alt="This is image 2."
               className="ImageViewImg"
+              height={720}
               src="some image 2"
+              width={1080}
             />
           </div>
           <div

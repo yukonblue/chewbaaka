@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -24,6 +24,8 @@ const title             =   "Cheetah evolution";
 const sliderNameLabel   =   "Timeline";
 const sliderUnitLabel   =   "mya";
 const caption           =   "Slide to see change";
+const imageWidth        =   400;
+const imageHeight       =   200;
 const marks             =   [
                               {
                                 value: 0,
@@ -45,6 +47,8 @@ test('renders ImageSlide component', () => {
       sliderUnitLabel={sliderUnitLabel}
       caption={caption}
       marks={marks}
+      imageWidth={imageWidth}
+      imageHeight={imageHeight}
     />
   );
 
@@ -97,6 +101,8 @@ RUN_TEST_NEVER(() => {
           sliderUnitLabel={sliderUnitLabel}
           caption={caption}
           marks={marks}
+          imageWidth={imageWidth}
+          imageHeight={imageHeight}
         />)
       .toJSON();
     expect(tree).toMatchSnapshot();

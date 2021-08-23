@@ -48,7 +48,9 @@ exports[`BigCatSpotsIllustration component snapshot 1`] = `
                     >
                       <img
                         className="ui image"
+                        height={200}
                         src="pelt_spot_tiger-min.jpg"
+                        width={200}
                       />
                     </div>
                   </div>
@@ -65,7 +67,9 @@ exports[`BigCatSpotsIllustration component snapshot 1`] = `
                     >
                       <img
                         alt="Tiger"
+                        height={200}
                         src="cat_thumbnail_tiger-min.jpg"
+                        width={200}
                       />
                       <p
                         className="TextRevealDetailedCaptionText"
@@ -111,7 +115,9 @@ exports[`BigCatSpotsIllustration component snapshot 1`] = `
                     >
                       <img
                         className="ui image"
+                        height={200}
                         src="pelt_spot_jaguar-min.jpg"
+                        width={200}
                       />
                     </div>
                   </div>
@@ -128,7 +134,9 @@ exports[`BigCatSpotsIllustration component snapshot 1`] = `
                     >
                       <img
                         alt="Jaguar"
+                        height={200}
                         src="cat_thumbnail_jaguar-min.jpg"
+                        width={200}
                       />
                       <p
                         className="TextRevealDetailedCaptionText"
@@ -174,7 +182,9 @@ exports[`BigCatSpotsIllustration component snapshot 1`] = `
                     >
                       <img
                         className="ui image"
+                        height={200}
                         src="pelt_spot_cheetah-min.jpg"
+                        width={200}
                       />
                     </div>
                   </div>
@@ -191,7 +201,9 @@ exports[`BigCatSpotsIllustration component snapshot 1`] = `
                     >
                       <img
                         alt="Cheetah"
+                        height={200}
                         src="cat_thumbnail_cheetah-min.jpg"
+                        width={200}
                       />
                       <p
                         className="TextRevealDetailedCaptionText"
@@ -237,7 +249,9 @@ exports[`BigCatSpotsIllustration component snapshot 1`] = `
                     >
                       <img
                         className="ui image"
+                        height={200}
                         src="pelt_spot_leopard-min.jpg"
+                        width={200}
                       />
                     </div>
                   </div>
@@ -254,7 +268,9 @@ exports[`BigCatSpotsIllustration component snapshot 1`] = `
                     >
                       <img
                         alt="Leopard"
+                        height={200}
                         src="cat_thumbnail_leopard-min.jpg"
+                        width={200}
                       />
                       <p
                         className="TextRevealDetailedCaptionText"

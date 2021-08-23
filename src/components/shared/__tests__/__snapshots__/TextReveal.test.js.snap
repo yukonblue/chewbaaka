@@ -21,7 +21,9 @@ exports[`TextReveal component snapshot 1`] = `
       >
         <img
           className="ui image"
+          height={120}
           src="https://cheetah.org/wp-content/uploads/2019/01/cheetah-conservation-fund-cheetah-fact-01.jpg"
+          width={120}
         />
       </div>
     </div>

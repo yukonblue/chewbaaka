@@ -37,24 +37,22 @@ exports[`BiologyPageSubsectionLifecycleStage2 component snapshot 1`] = `
         <div
           className="ContentPageSubsectionPartContainer"
         >
-          <div
-            className="Centered FullWidth"
-            style={
-              Object {
-                "width": 560,
-              }
-            }
-          >
-            <iframe
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen={true}
-              className="FullWidth"
-              frameBorder="0"
-              height={315}
-              src="https://www.youtube.com/embed/Wjtb7XMZlgY"
-              title="Cheetah Mom Teaches Cubs to Hunt | YouTube"
-              width={560}
-            />
+          <div>
+            <a
+              href="https://www.youtube.com/embed/Wjtb7XMZlgY"
+            >
+              <button
+                className="ui blue icon button"
+                onClick={[Function]}
+              >
+                Cheetah Mom Teaches Cubs to Hunt 
+                <i
+                  aria-hidden="true"
+                  className="youtube icon"
+                  onClick={[Function]}
+                />
+              </button>
+            </a>
           </div>
         </div>
       </div>

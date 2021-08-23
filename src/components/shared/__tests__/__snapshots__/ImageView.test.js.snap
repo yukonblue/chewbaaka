@@ -18,7 +18,9 @@ exports[`ImageView component snapshot 1`] = `
       <img
         alt="This is a caption"
         className="ImageViewImg"
+        height={640}
         src="somesite.com/image.png"
+        width={640}
       />
     </div>
     <div
@@ -71,7 +73,9 @@ exports[`ImageView component with image credit string snapshot 1`] = `
       <img
         alt="This is a caption"
         className="ImageViewImg"
+        height={640}
         src="somesite.com/image.png"
+        width={640}
       />
     </div>
     <div

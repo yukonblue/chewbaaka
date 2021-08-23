@@ -147,10 +147,10 @@ exports[`BiologyPageSubsectionCommunication component snapshot 1`] = `
               className="ui blue icon button"
               onClick={[Function]}
             >
-              Cheetah Awareness Day - Vocalizations | YouTube
+              Cheetah Awareness Day - Vocalizations 
               <i
                 aria-hidden="true"
-                className="file video icon"
+                className="youtube icon"
                 onClick={[Function]}
               />
             </button>

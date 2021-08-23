@@ -70,7 +70,9 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
               <img
                 alt="Mafdet’s head on the bed where the mummy is placed."
                 className="ImageSlidingGalleryImgPart"
+                height={320}
                 src="image_Mafdet-min.jpg"
+                width={480}
               />
               <div
                 className="ImageSlidingGalleryButtonContainer"
@@ -168,7 +170,9 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
               <img
                 alt="A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799."
                 className="ImageSlidingGalleryImgPart"
+                height={317}
                 src="cheetah_with_two_indian_servants-min.jpg"
+                width={480}
               />
               <div
                 className="ImageSlidingGalleryButtonContainer"
@@ -330,7 +334,9 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                   <img
                     alt="Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli."
                     className="ImageViewImg"
+                    height={600}
                     src="cheetah_painting_Renaissance-min.jpg"
+                    width={451}
                   />
                 </div>
                 <div
