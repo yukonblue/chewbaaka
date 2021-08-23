@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 09, 2020
+ * Updated  : Aug 23, 2020
  */
 
 import React from 'react'
@@ -64,11 +64,19 @@ export default class HistoryPageSubsectionCheetahAndManImage extends React.Compo
         slides={[
           {
             image: image_Mafdet,
-            caption: "Mafdet’s head on the bed where the mummy is placed."
+            caption: "Mafdet’s head on the bed where the mummy is placed.",
+            aspectRatio: {
+              width: 480,
+              height: 320
+            }
           },
           {
             image: image_Egyptian_chariot,
-            caption: "Egyptian chariot, accompanied by a cheetah and slave."
+            caption: "Egyptian chariot, accompanied by a cheetah and slave.",
+            aspectRatio: {
+              width: 480,
+              height: 320
+            }
           }
         ]}
       />

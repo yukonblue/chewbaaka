@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -24,6 +24,9 @@ export default class HistoryPageCheetahEvolutionMap extends React.Component {
 
   static _TITLE_ = "Map of Cheetah Evolution"
 
+  static _DEFAULT_IMAGE_WIDTH_ = 1200;
+  static _DEFAULT_IMAGE_HEIGHT_ = 686;
+
   render() {
     return (
       <ImageSlide
@@ -32,7 +35,8 @@ export default class HistoryPageCheetahEvolutionMap extends React.Component {
         sliderNameLabel="Timeline"
         sliderUnitLabel="million years ago / years ago"
         backgroundImage={backgroundImage}
-        imageWidth={1200}
+        imageWidth={HistoryPageCheetahEvolutionMap._DEFAULT_IMAGE_WIDTH_}
+        imageHeight={HistoryPageCheetahEvolutionMap._DEFAULT_IMAGE_HEIGHT_}
         marks={[
           {
             value: 5,

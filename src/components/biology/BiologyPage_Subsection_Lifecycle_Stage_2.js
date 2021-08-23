@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Aug 09, 2020
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -20,11 +20,13 @@ import {
 
 import FluidTwoColumnContainer from '../shared/FluidTwoColumnContainer'
 
-import CenteredFullWidthContainer from '../shared/CenteredFullWidthContainer'
+// import CenteredFullWidthContainer from '../shared/CenteredFullWidthContainer'
 
 // import QnAPopUp from '../shared/QnAPopUp'
 
-import MediaEmbed from '../shared/MediaEmbed'
+// import MediaEmbed from '../shared/MediaEmbed'
+
+import MediaLinkButton from '../shared/MediaLinkButton'
 
 export default class BiologyPageSubsectionLifecycleStage2 extends React.Component {
 
@@ -79,14 +81,11 @@ export default class BiologyPageSubsectionLifecycleStage2 extends React.Componen
   renderPart2() {
     return (
       <ContentPageSubsectionPart>
-        <CenteredFullWidthContainer width={560}>
-          <MediaEmbed
-            title="Cheetah Mom Teaches Cubs to Hunt | YouTube"
-            width={560}
-            height={315}
-            src="https://www.youtube.com/embed/Wjtb7XMZlgY"
-          />
-        </CenteredFullWidthContainer>
+        <MediaLinkButton
+          href="https://www.youtube.com/embed/Wjtb7XMZlgY"
+          title="Cheetah Mom Teaches Cubs to Hunt "
+          icon="youtube"
+        />
       </ContentPageSubsectionPart>
     );
   }

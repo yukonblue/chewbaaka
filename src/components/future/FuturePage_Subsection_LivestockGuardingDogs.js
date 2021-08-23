@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 21, 2021
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -114,6 +114,9 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
       <FluidImageWrapper
         src={images(GetImagePath("./CCF_LGD", ".jpg", matches))}
         alt="Livestock Guarding Dog"
+        // Aspect ratio
+        width={1200}
+        height={809}
       />
     );
   }
@@ -170,6 +173,9 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
             <FluidImageWrapper
               src={image_Cheetah_and_LGD}
               alt="Cheetah and LGD"
+              // Specify the aspect ratio
+              width={720}
+              height={576}
             />
           }
           fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
@@ -207,6 +213,9 @@ export default class FuturePageSubsectionLivestockGuardingDogs extends React.Com
         src={images(GetImagePath("./LGD_960x960", ".png", matches))}
         alt="Livestock Guarding Dogs"
         centered
+        // Aspect ratio
+        width={960}
+        height={960}
       />
     );
   }

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Aug 21, 2021
+ * Updated  : Aug 23, 2021
  */
 
 import React, { Suspense } from 'react'
@@ -108,6 +108,9 @@ export default class BiologyPageSubsectionSpotsAndStripes extends React.Componen
         alt="What is camouflage?"
         large
         centered
+        // Aspect ratio
+        width={960}
+        height={480}
       />
     );
   }

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Aug 21, 2021
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -90,6 +90,9 @@ export default class BiologyPageSubsectionLifecycleStage3 extends React.Componen
         src={images(GetImagePath("./What_is_Diurnal", ".png", matches))}
         alt="What is diurnal?"
         centered
+        // Aspect ratio
+        width={960}
+        height={480}
       />
     );
   }

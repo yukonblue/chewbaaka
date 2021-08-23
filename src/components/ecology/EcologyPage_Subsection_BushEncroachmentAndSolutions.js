@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 29, 2020
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -173,6 +173,9 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
       <img
         src={image_fsc_logo}
         alt="FSC logo"
+        // Specify the aspect ratio.
+        width={246}
+        height={300}
       />
     );
   }
@@ -197,6 +200,9 @@ export default class EcologyPageSubsectionBushEncroachmentAndSolutions extends R
       <img
         src={image_CCF_Bushblok_Logo}
         alt="CCF Bushblok"
+        // Specify the aspect ratio.
+        width={300}
+        height={128}
       />
     );
   }

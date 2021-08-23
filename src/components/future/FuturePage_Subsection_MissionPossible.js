@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -96,6 +96,9 @@ export default class FuturePageSubsectionMissionPossible extends React.Component
         <img className="FullWidth"
           src={image_Sustainable_Development}
           alt="Sustainable development"
+          // Aspect ratio
+          width={640}
+          height={640}
         />
       </div>
     );

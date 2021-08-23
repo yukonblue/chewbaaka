@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Aug 22, 2020
+ * Updated  : Aug 23, 2021
  */
 
 import React, { Suspense } from 'react'
@@ -102,8 +102,10 @@ export default class BiologyPageSubsectionHearAndLung extends React.Component {
         <FluidImageWrapper
           src={image_Cheetah_Travel}
           alt="Cheetah run illustration"
-          width={420}
           centered
+          // Aspect ratio
+          width={480}
+          height={480}
         />
         {ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents.part2.content)}
       </div>

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 13, 2020
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -63,6 +63,9 @@ export default class FuturePageSubsectionWhatIsConservation extends React.Compon
             <FluidImageWrapper
               src={image_earth_environment}
               alt="Conservation is taking care of the environment in which we live."
+              // Specify the aspect ratio
+              width={480}
+              height={423}
             />
           }
           fixedPart={ContentPageSubsectionParagraphsContentBinder(part.content)}
@@ -100,7 +103,10 @@ export default class FuturePageSubsectionWhatIsConservation extends React.Compon
       <img
         className="FullWidth"
         src={image_earth_biodiversity}
-        alt=""
+        alt="Earth biodiversity"
+        // Specify the aspect ratio.
+        width={620}
+        height={572}
       />
     );
   }

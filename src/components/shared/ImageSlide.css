@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 09, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Aug 23, 2021
  */
 
 div.ImageSlideOuterContainer {
@@ -47,6 +47,7 @@ img.ImageSlideImgElement {
    */
   max-width: 100%;
   max-height: 100%;
+  height: auto;
 }
 
 div.ImageSlideSliderAndLabelOuterContainer {

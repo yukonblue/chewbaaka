@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Aug 12, 2020
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -41,7 +41,9 @@ export default function BiologyPageLifecycleDiagram() {
         src={image_lifecycle_diagram}
         alt="lifecycle diagram"
         centered
+        // Aspect ratio
         width={640}
+        height={675}
       />
     </div>
   );

@@ -4,17 +4,21 @@
  *
  * Author   : Tomiko
  * Created  : Aug 11, 2020
- * Updated  : Aug 11, 2020
+ * Updated  : Aug 23, 2021
  */
 
-.FactBannerSmallDimension {
+img.FactBannerImage {
+  height: 100%;
+}
+
+img.FactBannerSmallDimension {
   width: 640px;
 }
 
-.FactBannerMediumDimension {
+img.FactBannerMediumDimension {
   width: 720px;
 }
 
-.FactBannerLargeDimension {
+img.FactBannerLargeDimension {
   width: 960px;
 }

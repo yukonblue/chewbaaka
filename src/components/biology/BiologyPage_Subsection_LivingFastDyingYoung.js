@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -87,8 +87,10 @@ export default class BiologyPageSubsectionLivingFastDyingYoung extends React.Com
     return (
       <ImageView
         image={image_cheetah_coalition}
-        width={510}
         caption="A coalition of cheetahs on the lookout."
+        // Aspect ratio
+        width={510}
+        height={342}
       />
     );
   }
@@ -97,9 +99,11 @@ export default class BiologyPageSubsectionLivingFastDyingYoung extends React.Com
     return (
       <ImageView
         image={image_cheetah_face_hyena}
-        width={640}
         caption="Cheetahs often have to come to face hyenas in competition of food."
         credit="Steve Volkwyn"
+        // Aspect ratio
+        width={640}
+        height={424}
       />
     )
   }

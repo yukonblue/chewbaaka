@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 12, 2020
+ * Updated  : Aug 23, 2020
  */
 
 /**
@@ -22,8 +22,16 @@
  *  - `credit` (optional): Optional string specifying the image credit.
  *
  *  - `width` (optional): The width of the image to be shown.
+ *                        Must be an integer. When used to enforce
+ *                        the dimension of the image, it is assumed to be
+ *                        in pixels. When used to specify the aspect ratio
+ *                        of the image, it is assumed to be unitless.
  *
  *  - `height` (optional): The height of the image to be shown.
+ *                         Must be an integer. When used to enforce
+ *                         the dimension of the image, it is assumed to be
+ *                         in pixels. When used to specify the aspect ratio
+ *                         of the image, it is assumed to be unitless.
  */
 
 import React from 'react'
@@ -39,13 +47,18 @@ import './ImageView.css'
 if ( process.env.NODE_ENV === 'development' )
   require('./ImageView-debug.css')
 
-export default function ImageView({ width, image, caption, credit }) {
+export default function ImageView({ image, caption, credit, width, height }) {
 
   const componentOuterContainerDimension = {
     maxWidth: width
   };
 
   const formattedCaption = getFormattedImageCaptionStringWithCredit(caption, credit);
+
+  const aspectRatio = {
+    width: parseInt(width, 10),
+    height: parseInt(height, 10)
+  };
 
   return (
     <div
@@ -58,6 +71,9 @@ export default function ImageView({ width, image, caption, credit }) {
             className="ImageViewImg"
             src={image}
             alt={caption}
+            // Specify the aspect ratio
+            width={aspectRatio.width}
+            height={aspectRatio.height}
           />
         </div>
         <div className="ImageViewCaptionContainer">

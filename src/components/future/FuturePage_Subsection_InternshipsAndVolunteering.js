@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 21, 2021
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -100,6 +100,9 @@ export default class FuturePageSubsectionInternshipsAndVolunteering extends Reac
         src={images(GetImagePath("./CCF_GetInvolved_Volunteer", ".jpg", matches))}
         alt="CCF Volunteering"
         center
+        // Aspect ratio
+        width={1300}
+        height={433}
       />
     );
   }

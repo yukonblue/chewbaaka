@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -22,6 +22,7 @@ export default class CheetahAccelerationIllustration extends React.Component {
   static _TITLE_ = "How Fast Can a Cheetah Run"
 
   static _DEFAULT_IMAGE_WIDTH_ = 1080;
+  static _DEFAULT_IMAGE_HEIGHT_ = 480;
 
   static _MARKS_ = [
     {
@@ -56,6 +57,7 @@ export default class CheetahAccelerationIllustration extends React.Component {
         backgroundImage={image_backdrop}
         marks={CheetahAccelerationIllustration._MARKS_}
         imageWidth={CheetahAccelerationIllustration._DEFAULT_IMAGE_WIDTH_}
+        imageHeight={CheetahAccelerationIllustration._DEFAULT_IMAGE_HEIGHT_}
       />
     );
   }

@@ -4,21 +4,24 @@
  *
  * Author   : Tomiko
  * Created  : Jul 23, 2020
- * Updated  : Aug 12, 2020
+ * Updated  : Aug 23, 2021
  */
 
 div.ImageSlidingGalleryDiscreteOuterContainer {
   display: block;
   max-width: 100%;
+  height: auto;
   position: relative;
 }
 
 div.ImageSlidingGalleryDiscreteInnerContainer {
   max-width: 100%;
+  height: auto;
 }
 
 div.ImageSlidingGalleryDiscreteCoreContainer {
   max-width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,6 +34,7 @@ div.ImageSlidingGalleryDiscreteButtonGroupContainer {
 
 img.ImageSlidingGalleryDiscreteImgPart {
   max-width: 100%;
+  height: auto;
   filter: drop-shadow(1px 1px 1px #222);
 }
 

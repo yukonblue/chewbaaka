@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 18, 2020
+ * Updated  : Aug 23, 2021
  */
 
 /** ----------------------------- CONTAINER -------------------------------- **/
@@ -92,6 +92,7 @@ div.BottomMargin20px {
 
 .FullWidth {
   max-width: 100%;
+  height: auto;
 }
 
 .DisplayBlock {
