@@ -60,7 +60,9 @@ exports[`EcologyPageSubsectionTheFarmingCommunity component snapshot 1`] = `
                 <img
                   alt="Cheetah Conservation Fund works with communal farmers and people living around the Greater Waterberg Landscape Conservancy."
                   className="ImageViewImg"
+                  height={471}
                   src="CCF_GWL_map_L-min.jpg"
+                  width={600}
                 />
               </div>
               <div

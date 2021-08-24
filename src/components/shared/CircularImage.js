@@ -39,6 +39,9 @@ export default class CircularImage extends React.Component {
           className="CircularImageImg"
           src={this.props.image}
           alt={this.props.title}
+          // Specify the aspect ratio
+          width={this.props.width}
+          height={this.props.height}
         />
         <p className="CircularImageTitle">
           {this.props.title}

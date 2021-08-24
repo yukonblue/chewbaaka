@@ -60,9 +60,11 @@ exports[`FuturePageSubsectionSchoolsTeachersLearners component snapshot 1`] = `
               className="ImageSlidingGalleryCoreContainer"
             >
               <img
-                alt="CCF's Predator Preyground. (Image credit: Cheetah Conservation Fund)"
+                alt="CCF's Predator Preyground."
                 className="ImageSlidingGalleryImgPart"
+                height={320}
                 src="CCF_Predator_Preyground-min.jpg"
+                width={533}
               />
               <div
                 className="ImageSlidingGalleryButtonContainer"
@@ -120,7 +122,7 @@ exports[`FuturePageSubsectionSchoolsTeachersLearners component snapshot 1`] = `
                 <p
                   className="ContentPageCaptionTextSize CaptionText"
                 >
-                  CCF's Predator Preyground. (Image credit: Cheetah Conservation Fund)
+                  CCF's Predator Preyground.
                 </p>
               </div>
             </div>

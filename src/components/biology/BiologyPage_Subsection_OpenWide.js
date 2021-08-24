@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Aug 13, 2020
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -63,6 +63,9 @@ export default class BiologyPageSubsectionOpenWide extends React.Component {
             <FluidImageWrapper
               src={image_open_wide}
               alt="Open wide"
+              // Aspect ratio
+              width={480}
+              height={480}
             />
           }
           fixedPart={ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents.part1)}
@@ -79,6 +82,9 @@ export default class BiologyPageSubsectionOpenWide extends React.Component {
             <FluidImageWrapper
               src={image_cheetah_tongue}
               alt="Papillae on cheetah's tongue"
+              // Aspect ratio
+              width={480}
+              height={327}
             />
           }
           fixedPart={ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents.part2)}
@@ -96,6 +102,9 @@ export default class BiologyPageSubsectionOpenWide extends React.Component {
             <FluidImageWrapper
               src={image_cheetah_grooming}
               alt="Cheetah grooming"
+              // Aspect ratio
+              width={481}
+              height={481}
             />
           }
           fixedPart={ContentPageSubsectionParagraphsContentBinder(this.state.subsectionConfig.contents.part3)}

@@ -96,7 +96,9 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                   <img
                     alt="Sustainable development"
                     className="FullWidth"
+                    height={640}
                     src="Sustainable_Development-min.png"
+                    width={640}
                   />
                 </div>
               </div>
@@ -209,7 +211,9 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                   <img
                     alt="Farmers participate in FFA training courses."
                     className="ImageViewImg"
+                    height={370}
                     src="CCF_FFA_01-min.jpg"
+                    width={742}
                   />
                 </div>
                 <div
@@ -349,7 +353,9 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
             <img
               alt="Livestock Guarding Dog"
               className="FullWidth DisplayBlock RetainAspectRatio"
+              height={809}
               src="CCF_LGD_L-min.jpg"
+              width={1200}
             />
           </div>
         </div>
@@ -385,7 +391,9 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                   <img
                     alt="Anatolian Shepherd puppies live alongside with the herd."
                     className="ImageViewImg"
+                    height={480}
                     src="CCF_anatolian_shepherd_puppies-min.jpg"
+                    width={720}
                   />
                 </div>
                 <div
@@ -458,7 +466,9 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
                 <img
                   alt="Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program."
                   className="ImageViewImg"
+                  height={299}
                   src="CCF_Year_of_the_LGD-min.jpg"
+                  width={1000}
                 />
               </div>
               <div
@@ -510,7 +520,9 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
             <img
               alt="Cheetah and LGD"
               className="FullWidth DisplayBlock RetainAspectRatio"
+              height={576}
               src="Cheetah_and_LGD-min.jpg"
+              width={720}
             />
           </div>
           <div
@@ -549,7 +561,9 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
           <img
             alt="Livestock Guarding Dogs"
             className="FullWidth DisplayBlock RetainAspectRatio Centered"
+            height={960}
             src="LGD_960x960_L-min.png"
+            width={960}
           />
         </div>
       </div>

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 21, 2021
+ * Updated  : Aug 23, 2021
  */
 
 import React, { Suspense } from 'react'
@@ -126,6 +126,9 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
         src={images(GetImagePath("./Big_Cats", ".png", matches))}
         alt="Big Cats"
         centered
+        // specify the aspect ratio
+        width={1200}
+        height={711}
       />
     );
   }

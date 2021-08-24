@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 08, 2021
+ * Updated  : Aug 23, 2021
  */
 
 /**
@@ -75,6 +75,8 @@ export default class ImageSlidingGallery extends React.Component {
 
     const caption = getFormattedImageCaptionStringWithCredit(activeSlide.caption, activeSlide.credit);
 
+    const aspectRatio = activeSlide.aspectRatio;
+
     return (
       <div
         className={getElementStyleClassName("ImageSlidingGalleryOuterContainer")}
@@ -85,6 +87,8 @@ export default class ImageSlidingGallery extends React.Component {
             className="ImageSlidingGalleryImgPart"
             src={activeSlide.image}
             alt={caption}
+            width={aspectRatio.width}
+            height={aspectRatio.height}
           />
           {this.renderPrevNextButtonGroup()}
         </div>

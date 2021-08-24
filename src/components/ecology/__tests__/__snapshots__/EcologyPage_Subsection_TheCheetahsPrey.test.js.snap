@@ -91,7 +91,9 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
       <img
         alt="Cheetah and lion have drastically different preys, hunting strategies, and success rates."
         className="FullWidth DisplayBlock RetainAspectRatio Centered"
+        height={720}
         src="Cheetah_Lion_Hunting_Success_Rate_Comparsion_L-min.png"
+        width={960}
       />
     </div>
     <div
@@ -123,7 +125,9 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
                   <img
                     alt="Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest."
                     className="ImageViewImg"
+                    height={360}
                     src="cheetah_coalition_hunting-min.jpg"
+                    width={640}
                   />
                 </div>
                 <div
@@ -177,7 +181,9 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
                   <img
                     alt="One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch."
                     className="ImageViewImg"
+                    height={360}
                     src="cheetah_go_after_gazelle-min.jpg"
+                    width={640}
                   />
                 </div>
                 <div

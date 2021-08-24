@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Aug 21, 2021
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -107,6 +107,9 @@ export default class HistoryPageSubsectionRoadToExtinction extends React.Compone
             src={images(GetImagePath("./Cheetah_Evolution_and_Extinction_Scale", ".png", matches))}
             alt="Cheetah evolution and extinction"
             centered
+            // Aspect ratio
+            width={1200}
+            height={480}
           />
         </CenteredFullWidthContainer>
       </ContentPageSubsectionPart>

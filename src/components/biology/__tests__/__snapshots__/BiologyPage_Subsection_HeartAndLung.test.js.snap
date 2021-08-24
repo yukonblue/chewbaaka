@@ -50,8 +50,9 @@ exports[`BiologyPageSubsectionHearAndLung component snapshot 1`] = `
               <img
                 alt="Cheetah run illustration"
                 className="FullWidth DisplayBlock RetainAspectRatio Centered"
+                height={480}
                 src="Cheetah_Travel_480x480-min.png"
-                width={420}
+                width={480}
               />
               <p
                 className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"

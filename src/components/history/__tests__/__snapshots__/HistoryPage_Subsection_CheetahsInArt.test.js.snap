@@ -67,7 +67,9 @@ exports[`HistoryPageSubsectionCheetahsInArt component snapshot 1`] = `
                 <img
                   alt="Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli."
                   className="ImageViewImg"
+                  height={600}
                   src="cheetah_painting_Renaissance-min.jpg"
+                  width={451}
                 />
               </div>
               <div

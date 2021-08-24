@@ -157,7 +157,9 @@ exports[`EcologyPageSubsectionUnderstandingAnimalMovement component snapshot 1`]
                 <img
                   alt="Cheetah movement study with camera traps in the Greater Waterberg Conservancy. (Image credit: Cheetah Conservation Fund)"
                   className="ImageSlidingGalleryDiscreteImgPart"
+                  height={432}
                   src="camera_trap_locations_in_Waterberg_Conservancy-min.jpg"
+                  width={720}
                 />
                 <div
                   className="ImageSlidingGalleryDiscreteButtonContainer ImageSlidingGalleryDiscreteButtonLhsContainer"

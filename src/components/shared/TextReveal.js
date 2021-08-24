@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Aug 23, 2021
  */
 
 /**
@@ -39,11 +39,11 @@ export default class TextReveal extends React.Component {
 
     const componentContentDivStyles = {
       backgroundColor: (this.props.contentColor ?  this.props.contentColor : defaultColor)
-    }
+    };
 
     const componentDivStylesStub = {
       position: "absolute",
-    }
+    };
 
     const componentStyles = {...componentDivStylesStub, ...this.props.position}
 
@@ -52,7 +52,7 @@ export default class TextReveal extends React.Component {
         <Reveal animated={getRevealComponentAnimation(this.props.animation)} data-testid="TextRevealComponentTestId">
           <Reveal.Content visible data-testid="TextRevealComponentVisiblePartTestId">
             <div className="TextRevealComponentCoverContainerDiv" >
-              <Image src={this.props.coverImage} />
+              <Image src={this.props.coverImage} width={120} height={120} />
             </div>
           </Reveal.Content>
           <Reveal.Content hidden data-testid="TextRevealComponentHiddenPartTestId">
@@ -67,6 +67,6 @@ export default class TextReveal extends React.Component {
           </Reveal.Content>
         </Reveal>
       </div>
-    )
+    );
   }
 }

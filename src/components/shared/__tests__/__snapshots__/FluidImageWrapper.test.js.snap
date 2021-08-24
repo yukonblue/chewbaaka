@@ -3,6 +3,7 @@
 exports[`FluidImageWrapper component snapshot 1`] = `
 <img
   className="FullWidth DisplayBlock RetainAspectRatio Centered"
+  height={320}
   src="Some image"
   width={520}
 />

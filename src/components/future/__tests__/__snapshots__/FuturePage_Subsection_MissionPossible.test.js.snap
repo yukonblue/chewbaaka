@@ -82,7 +82,9 @@ exports[`FuturePageSubsectionMissionPossible component snapshot 1`] = `
                 <img
                   alt="Sustainable development"
                   className="FullWidth"
+                  height={640}
                   src="Sustainable_Development-min.png"
+                  width={640}
                 />
               </div>
             </div>

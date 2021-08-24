@@ -54,8 +54,10 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
           </p>
           <img
             alt="What is sustainable utilization?"
-            className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
+            className="FactBannerImage FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
+            height={480}
             src="What_is_Sustainable_Utilization_L-min.png"
+            width={960}
           />
         </div>
         <div
@@ -172,8 +174,10 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
         </div>
         <img
           alt="What is a problem animal?"
-          className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
+          className="FactBannerImage FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerMediumDimension"
+          height={480}
           src="What_is_a_Problem_Animal_L-min.png"
+          width={960}
         />
       </div>
     </div>
@@ -237,7 +241,9 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                   <img
                     alt="Cheetah Conservation Fund works with communal farmers and people living around the Greater Waterberg Landscape Conservancy."
                     className="ImageViewImg"
+                    height={471}
                     src="CCF_GWL_map_L-min.jpg"
+                    width={600}
                   />
                 </div>
                 <div
@@ -407,12 +413,14 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                     <img
                       alt="sheep"
                       className="FlexClipartSheep"
+                      height={157}
                       src="goat_clipart-min.png"
                       width={160}
                     />
                     <img
                       alt="cattle"
                       className="FlexClipartCattle"
+                      height={131}
                       src="cattle_clipart-min.png"
                       width={160}
                     />
@@ -575,7 +583,9 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                     <img
                       alt="Thickened thorn bush degrades entire habitat and poses problems for all species of animals in that habitat."
                       className="ImageViewImg"
+                      height={450}
                       src="bush_encroachment-min.jpg"
+                      width={600}
                     />
                   </div>
                   <div
@@ -686,7 +696,9 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                     <img
                       alt="Cheetahs face even more hardship in bush encroached territories. They have to adapt in every aspect of their life, such as hunting."
                       className="ImageViewImg"
+                      height={423}
                       src="Cheetah_Battle_Bush_Encroachment-min.jpg"
+                      width={640}
                     />
                   </div>
                   <div
@@ -757,7 +769,9 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
             >
               <img
                 alt="FSC logo"
+                height={300}
                 src="fsc_logo-min.png"
+                width={246}
               />
             </div>
             <div
@@ -792,7 +806,9 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
             >
               <img
                 alt="CCF Bushblok"
+                height={128}
                 src="CCF_Bushblok_Logo-min.jpg"
+                width={300}
               />
             </div>
             <div
@@ -863,7 +879,9 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                     <img
                       alt="Bushblok is produced at CCF from the waste product of habitat restoration."
                       className="ImageViewImg"
+                      height={360}
                       src="CCF_Bushblok_01-min.jpg"
+                      width={640}
                     />
                   </div>
                   <div
@@ -917,7 +935,9 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
                     <img
                       alt="Bushblok packaging for different markets."
                       className="ImageViewImg"
+                      height={360}
                       src="CCF_Bushblok_02-min.jpg"
+                      width={640}
                     />
                   </div>
                   <div

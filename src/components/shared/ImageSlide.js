@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Aug 19, 2020
+ * Updated  : Aug 23, 2021
  */
 
 /**
@@ -111,7 +111,12 @@ export default class ImageSlide extends React.Component {
       maxWidth: this.props.imageWidth,
       backgroundImage: `url(${this.props.backgroundImage})`,
     }
-  
+
+    const aspectRatio = {
+      width: parseInt(this.props.imageWidth, 10),
+      height: parseInt(this.props.imageHeight, 10)
+    }
+
     return (
       <div
         className={getElementStyleClassName("ImageSlideOuterContainer")}
@@ -135,6 +140,9 @@ export default class ImageSlide extends React.Component {
               alt={this.state.marksDict[this.state.activeMark].label}
               style={imageDimensionStyle}
               data-testid="ImageSlideComponentImgPartTestId"
+              // Specify the aspect ratio
+              width={aspectRatio.width}
+              height={aspectRatio.height}
             />
           </div>
 

@@ -41,7 +41,9 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
                 <img
                   alt="A simplified illustration of the food web of a savanna ecosystem."
                   className="ImageViewImg"
+                  height={552}
                   src="savanna_food_web-min.jpg"
+                  width={640}
                 />
               </div>
               <div
@@ -135,7 +137,9 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
                   <img
                     alt="Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains."
                     className="ImageViewImg"
+                    height={269}
                     src="cheetah_hyena_competition-min.jpg"
+                    width={483}
                   />
                 </div>
                 <div
@@ -189,7 +193,9 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
                   <img
                     alt="Lions will often take over the cheetah's prey easily as they are superior in strength."
                     className="ImageViewImg"
+                    height={360}
                     src="cheetah_lion_competition-min.jpg"
+                    width={480}
                   />
                 </div>
                 <div

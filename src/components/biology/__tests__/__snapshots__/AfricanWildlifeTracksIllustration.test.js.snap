@@ -50,7 +50,9 @@ exports[`AfricanWildlifeTracksIllustration component snapshot 1`] = `
                     >
                       <img
                         className="ui image"
+                        height={120}
                         src="Spoor_Track_Cheetah-min.jpg"
+                        width={120}
                       />
                     </div>
                   </div>
@@ -112,7 +114,9 @@ exports[`AfricanWildlifeTracksIllustration component snapshot 1`] = `
                     >
                       <img
                         className="ui image"
+                        height={120}
                         src="Spoor_Track_Leopard-min.jpg"
+                        width={120}
                       />
                     </div>
                   </div>
@@ -174,7 +178,9 @@ exports[`AfricanWildlifeTracksIllustration component snapshot 1`] = `
                     >
                       <img
                         className="ui image"
+                        height={120}
                         src="Spoor_Track_Lion-min.jpg"
+                        width={120}
                       />
                     </div>
                   </div>
@@ -236,7 +242,9 @@ exports[`AfricanWildlifeTracksIllustration component snapshot 1`] = `
                     >
                       <img
                         className="ui image"
+                        height={120}
                         src="Spoor_Track_Spotted_Hyena-min.jpg"
+                        width={120}
                       />
                     </div>
                   </div>
@@ -298,7 +306,9 @@ exports[`AfricanWildlifeTracksIllustration component snapshot 1`] = `
                     >
                       <img
                         className="ui image"
+                        height={120}
                         src="Spoor_Track_Wild_Dog-min.jpg"
+                        width={120}
                       />
                     </div>
                   </div>

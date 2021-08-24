@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 13, 2020
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -166,6 +166,9 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
             <FluidImageWrapper
               src={image_CITES_CoP17}
               alt="CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora) Conference of the Parties 17"
+              // Specify the aspect ratio.
+              width={480}
+              height={289}
             />
           }
           fixedPart={
@@ -178,6 +181,9 @@ export default class FuturePageSubsectionStoppingIllegalWildlifeTrades extends R
           alt="What is CITES?"
           large
           centered
+          // Specify the aspect ratio.
+          width={960}
+          height={373}
         />
       </ContentPageSubsectionPart>
     );

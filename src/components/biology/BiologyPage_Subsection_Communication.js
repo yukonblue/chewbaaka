@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Jul 31, 2020
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -66,7 +66,8 @@ export default class BiologyPageSubsectionCommunication extends React.Component 
         <div className="VerticalCushionPadding">
           <MediaLinkButton
             href="https://www.youtube.com/watch?v=3kFl_TY3iUg"
-            title="Cheetah Awareness Day - Vocalizations | YouTube"
+            title="Cheetah Awareness Day - Vocalizations "
+            icon="youtube"
           />
         </div>
       </div>

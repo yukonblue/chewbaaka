@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 21, 2020
- * Updated  : Aug 12, 2020
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -84,8 +84,8 @@ export default class EcologyPageSubsectionCheetahFriendlyFarming extends React.C
       content: (
         <div>
           <FuidSingleRowGrid>
-            <img className="FlexClipartSheep" src={image_goat_clipart} alt="sheep" width={160} />
-            <img className="FlexClipartCattle" src={image_cattle_clipart} alt="cattle" width={160} />
+            <img className="FlexClipartSheep" src={image_goat_clipart} alt="sheep" width={160} height={157} />
+            <img className="FlexClipartCattle" src={image_cattle_clipart} alt="cattle" width={160} height={131} />
           </FuidSingleRowGrid>
           {this.renderBodyPartColumnContent(part)}
         </div>

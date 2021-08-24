@@ -4,18 +4,23 @@
  *
  * Author   : Tomiko
  * Created  : Jul 30, 2020
- * Updated  : Aug 13, 2020
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
 
 import './ContentPageSharedStyles.css'
 
-export default function FluidImageWrapper({ src, alt, centered, width }) {
+export default function FluidImageWrapper({ src, alt, centered, width, height }) {
   let classNames = ["FullWidth", "DisplayBlock", "RetainAspectRatio"];
 
   if ( centered ) {
     classNames.push("Centered");
+  }
+
+  const aspectRatio = {
+    width: parseInt(width, 10),
+    height: parseInt(height, 10)
   }
 
   return (
@@ -23,7 +28,9 @@ export default function FluidImageWrapper({ src, alt, centered, width }) {
       className={classNames.join(" ")}
       src={src}
       alt={alt}
-      width={width}
+      // specify aspect ratio
+      width={aspectRatio.width}
+      height={aspectRatio.height}
     />
   );
 }

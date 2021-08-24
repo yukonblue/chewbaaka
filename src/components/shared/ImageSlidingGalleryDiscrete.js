@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 23, 2020
- * Updated  : Aug 19, 2020
+ * Updated  : Aug 23, 2021
  */
 
 /**
@@ -84,6 +84,11 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
 
     const caption = getFormattedImageCaptionStringWithCredit(activeSlide.caption, activeSlide.credit);
 
+    const aspectRatio = {
+      width: parseInt(this.props.width, 10),
+      height: parseInt(this.props.height, 10)
+    }
+
     return (
       <div
         className={getElementStyleClassName("ImageSlidingGalleryDiscreteOuterContainer")}
@@ -97,6 +102,9 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
             <img className="ImageSlidingGalleryDiscreteImgPart"
               src={activeSlide.image}
               alt={caption}
+              // Specify the aspect ratio
+              width={aspectRatio.width}
+              height={aspectRatio.height}
             />
             {this.renderPrevNextButtonGroup()}
           </div>

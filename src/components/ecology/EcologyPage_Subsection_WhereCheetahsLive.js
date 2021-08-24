@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 21, 2021
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -134,6 +134,9 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
         src={images(GetImagePath("./What_is_Habitat", ".png", matches))}
         alt="What is a habitat"
         centered
+        // Aspect ratio
+        width={960}
+        height={480}
       />
     );
   }
@@ -163,6 +166,9 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
         src={images(GetImagePath("./savana_bg_large", ".jpg", matches))}
         alt="African savanna"
         centered
+        // Aspect ratio
+        width={1201}
+        height={676}
       />
     );
   }
@@ -223,6 +229,9 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
         alt="What is biome?"
         centered
         large
+        // Aspect ratio
+        width={960}
+        height={480}
       />
     );
   }

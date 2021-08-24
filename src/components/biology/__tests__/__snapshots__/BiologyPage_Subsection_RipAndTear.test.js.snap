@@ -32,7 +32,9 @@ exports[`BiologyPage_Subsection_RipAndTear component snapshot 1`] = `
             <img
               alt="The three types of teeth of the cheetah: the incisors, canines, and carnassial."
               className="ImageViewImg"
+              height={505}
               src="cheetah_teeth-min.jpg"
+              width={640}
             />
           </div>
           <div

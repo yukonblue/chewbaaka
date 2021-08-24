@@ -55,6 +55,7 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
     <img
       alt="lifecycle diagram"
       className="FullWidth DisplayBlock RetainAspectRatio Centered"
+      height={675}
       src="Lifecycle_Diagram-min.png"
       width={640}
     />
@@ -90,7 +91,9 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
               <img
                 alt="Cheetah cubs are born blind, so they need their mother's care."
                 className="ImageViewImg"
+                height={480}
                 src="cheetah_mom_carry_cub-min.jpg"
+                width={320}
               />
             </div>
             <div
@@ -196,24 +199,22 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
           <div
             className="ContentPageSubsectionPartContainer"
           >
-            <div
-              className="Centered FullWidth"
-              style={
-                Object {
-                  "width": 560,
-                }
-              }
-            >
-              <iframe
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen={true}
-                className="FullWidth"
-                frameBorder="0"
-                height={315}
-                src="https://www.youtube.com/embed/Wjtb7XMZlgY"
-                title="Cheetah Mom Teaches Cubs to Hunt | YouTube"
-                width={560}
-              />
+            <div>
+              <a
+                href="https://www.youtube.com/embed/Wjtb7XMZlgY"
+              >
+                <button
+                  className="ui blue icon button"
+                  onClick={[Function]}
+                >
+                  Cheetah Mom Teaches Cubs to Hunt 
+                  <i
+                    aria-hidden="true"
+                    className="youtube icon"
+                    onClick={[Function]}
+                  />
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -251,7 +252,9 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
               <img
                 alt="Cheetah cubs learning how to hunt."
                 className="ImageViewImg"
+                height={320}
                 src="cheetah_cubs_learning_hunting-min.jpg"
+                width={480}
               />
             </div>
             <div
@@ -373,8 +376,10 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
       </div>
       <img
         alt="What is diurnal?"
-        className="FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerSmallDimension"
+        className="FactBannerImage FullWidth DisplayBlock VerticalCushionPadding Centered FactBannerSmallDimension"
+        height={480}
         src="What_is_Diurnal_L-min.png"
+        width={960}
       />
     </div>
   </section>
@@ -435,7 +440,9 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
               <img
                 alt="Cheetahs often mark their scent on tree trunks with their urine. This behavior is common among cats."
                 className="ImageViewImg"
+                height={480}
                 src="cheetah_scent_marking-min.jpg"
+                width={720}
               />
             </div>
             <div
@@ -562,7 +569,9 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                     <img
                       alt="A coalition of cheetahs on the lookout."
                       className="ImageViewImg"
+                      height={342}
                       src="cheetah_coalition-min.jpg"
+                      width={510}
                     />
                   </div>
                   <div
@@ -628,7 +637,9 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
                     <img
                       alt="Cheetahs often have to come to face hyenas in competition of food."
                       className="ImageViewImg"
+                      height={424}
                       src="cheetah_face_hyena-min.jpg"
+                      width={640}
                     />
                   </div>
                   <div

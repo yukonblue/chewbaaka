@@ -24,7 +24,9 @@ exports[`FuturePageSubsectionInternshipsAndVolunteering component snapshot 1`] =
         <img
           alt="CCF Volunteering"
           className="FullWidth DisplayBlock RetainAspectRatio"
+          height={433}
           src="CCF_GetInvolved_Volunteer_L-min.jpg"
+          width={1300}
         />
       </div>
     </div>

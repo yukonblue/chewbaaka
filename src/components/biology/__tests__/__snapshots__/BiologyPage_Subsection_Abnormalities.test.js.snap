@@ -142,7 +142,9 @@ exports[`BiologyPageSubsectionAbnormalities component snapshot 1`] = `
                   <img
                     alt="Kinked tail."
                     className="ImageViewImg"
+                    height={427}
                     src="cheetah_kinked_tail-min.jpg"
+                    width={640}
                   />
                 </div>
                 <div

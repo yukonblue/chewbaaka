@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jul 25, 2020
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -18,12 +18,20 @@ import ImageSlidingGallery from '../ImageSlidingGallery'
 const slides=[
   {
     image: '',
-    caption: "Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words"
+    caption: "Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words",
+    aspectRatio: {
+      width: 1600,
+      height: 900
+    }
   },
   {
     image: '',
     caption: "Listen to a Tsimshian (Pacific Northwest Native) storyteller recount the family history painted on a 38-foot-long house front as specific parts of the design light up.",
-    credit: "Image God"
+    credit: "Image God",
+    aspectRatio: {
+      width: 1024,
+      height: 736
+    }
   }
 ];
 

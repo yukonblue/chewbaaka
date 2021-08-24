@@ -33,7 +33,9 @@ exports[`FuturePageSubsectionCommunityEvents component snapshot 1`] = `
               <img
                 alt="CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program."
                 className="ImageViewImg"
+                height={577}
                 src="CCF_Livelihood_Development_L-min.jpg"
+                width={960}
               />
             </div>
             <div

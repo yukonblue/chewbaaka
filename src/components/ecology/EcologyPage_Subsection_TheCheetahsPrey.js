@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 21, 2021
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -112,6 +112,9 @@ export default class EcologyPageSubsectionTheCheetahsPrey extends React.Componen
           src={images(GetImagePath("./Cheetah_Lion_Hunting_Success_Rate_Comparsion", ".png", matches))}
           alt="Cheetah and lion have drastically different preys, hunting strategies, and success rates."
           centered
+          // Aspect ratio
+          width={960}
+          height={720}
         />
       </ContentPageSubsectionPart>
     );

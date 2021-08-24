@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Aug 17, 2020
- * Updated  : Aug 17, 2020
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -17,12 +17,16 @@ import FactBannerImage from '../FactBannerImage'
 
 const href = "https://google.com/image.jpg";
 const src = "Some image";
+const width = 520;
+const height = 320;
 
 test('renders FactBannerImage component', () => {
   render(
     <FactBannerImage
       src={src}
       href={href}
+      width={width}
+      height={height}
       large
       centered
     />
@@ -35,6 +39,8 @@ test('FactBannerImage component snapshot', () => {
       <FactBannerImage
         src={src}
         href={href}
+        width={width}
+        height={height}
         large
         centered
       />

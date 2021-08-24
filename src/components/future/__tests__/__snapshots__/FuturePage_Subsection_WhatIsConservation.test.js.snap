@@ -22,7 +22,9 @@ exports[`FuturePageSubsectionWhatIsConservation component snapshot 1`] = `
           <img
             alt="Conservation is taking care of the environment in which we live."
             className="FullWidth DisplayBlock RetainAspectRatio"
+            height={423}
             src="earth_environment-min.png"
+            width={480}
           />
         </div>
         <div
@@ -86,9 +88,11 @@ exports[`FuturePageSubsectionWhatIsConservation component snapshot 1`] = `
           >
             <div>
               <img
-                alt=""
+                alt="Earth biodiversity"
                 className="FullWidth"
+                height={572}
                 src="earth_biodiversity-min.png"
+                width={620}
               />
             </div>
           </div>

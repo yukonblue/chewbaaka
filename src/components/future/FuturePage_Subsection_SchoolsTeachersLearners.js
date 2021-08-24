@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -71,22 +71,38 @@ export default class FuturePageSubsectionSchoolsTeachersLearners extends React.C
           {
             image: image_CCF_Predator_Preyground,
             caption: "CCF's Predator Preyground.",
-            credit: kStringConstantCheetahConservationFund
+            credit: kStringConstantCheetahConservationFund.content,
+            aspectRatio: {
+              width: 533,
+              height: 320
+            }
           },
           {
             image: image_CCF_Cheetah_Museum,
             caption: "CCF's Cheetah Museum.",
-            credit: kStringConstantCheetahConservationFund
+            credit: kStringConstantCheetahConservationFund,
+            aspectRatio: {
+              width: 533,
+              height: 320
+            }
           },
           {
             image: image_CCF_Cheetah_Museum_02,
             caption: "School kids visit Cheetah Museum on field trip.",
-            credit: kStringConstantCheetahConservationFund
+            credit: kStringConstantCheetahConservationFund,
+            aspectRatio: {
+              width: 533,
+              height: 320
+            }
           },
           {
             image: image_CCF_Education_Outreach,
             caption: "Educational outreach at Namibian school.",
-            credit: kStringConstantCheetahConservationFund
+            credit: kStringConstantCheetahConservationFund,
+            aspectRatio: {
+              width: 533,
+              height: 320
+            }
           }
         ]}
       />

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Aug 22, 2020
+ * Updated  : Aug 23, 2020
  */
 
 import React, { Suspense } from 'react'
@@ -77,6 +77,9 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
             <FluidImageWrapper
               src={image_cheetah_body_measurements}
               alt="Cheetah body measurements"
+              // Aspect ratio
+              width={480}
+              height={320}
             />
           }
           fixedPart={
@@ -107,6 +110,9 @@ export default class BiologyPageSubsectionBodyAndBone extends React.Component {
             <FluidImageWrapper
               src={image_cheetah_tail}
               alt="The cheetah's tail is responsible for controlling balance during a high speed run."
+              // Aspect ratio
+              width={480}
+              height={343}
             />
           }
           floatFixedSide={true}

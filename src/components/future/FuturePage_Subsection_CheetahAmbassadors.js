@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 13, 2020
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -111,6 +111,9 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
       <CircularImage
         image={image_Chewbaaka}
         title="Chewbaaka"
+        // Aspect ratio
+        width={400}
+        height={400}
       />
     );
   }
@@ -120,6 +123,9 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
       <CircularImage
         image={image_Mekondyo}
         title="Mekondyo"
+        // Aspect ratio
+        width={385}
+        height={385}
       />
     );
   }

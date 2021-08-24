@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 18, 2020
- * Updated  : Jul 18, 2020
+ * Updated  : Aug 23, 2021
  */
 
 /**
@@ -41,25 +41,25 @@ export default class TextRevealDetailed extends React.Component {
 
     const componentContentDivStyles = {
       backgroundColor: (this.props.contentColor ?  this.props.contentColor : defaultColor)
-    }
+    };
 
     const componentDivStylesStub = {
       position: "absolute",
-    }
+    };
 
-    const componentStyles = {...componentDivStylesStub, ...this.props.position}
+    const componentStyles = {...componentDivStylesStub, ...this.props.position};
 
     return (
       <div style={componentStyles}>
         <Reveal animated={getRevealComponentAnimation(this.props.animation)}>
           <Reveal.Content visible>
             <div className="TextRevealDetailedCoverContainer">
-              <Image src={this.props.coverImage} />
+              <Image src={this.props.coverImage} width={200} height={200} />
             </div>
           </Reveal.Content>
           <Reveal.Content hidden>
             <div className="TextRevealDetailedContentContainer" style={componentContentDivStyles}>
-              <img src={this.props.contentImage} alt={this.props.caption} />
+              <img src={this.props.contentImage} alt={this.props.caption} width={200} height={200} />
               <p className="TextRevealDetailedCaptionText">
                 {this.props.caption}
               </p>
@@ -67,6 +67,6 @@ export default class TextRevealDetailed extends React.Component {
           </Reveal.Content>
         </Reveal>
       </div>
-    )
+    );
   }
 }

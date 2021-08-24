@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Aug 09, 2020
+ * Updated  : Aug 23, 2020
  */
 
 import React from 'react'
@@ -58,11 +58,19 @@ export default class HistoryPageSubsectionCheetahsInSports extends React.Compone
         slides={[
           {
             image: image_cheetah_with_two_indian_servants,
-            caption: "A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799."
+            caption: "A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799.",
+            aspectRatio: {
+              width: 480,
+              height: 317
+            }
           },
           {
             image: image_cheetah_painting_02,
-            caption: "This 1878 painting from Marianne North’s book shows cheetahs and lynxes chained to charpais by their keepers in Alwar."
+            caption: "This 1878 painting from Marianne North’s book shows cheetahs and lynxes chained to charpais by their keepers in Alwar.",
+            aspectRatio: {
+              width: 480,
+              height: 314
+            }
           }
         ]}
         width={540}

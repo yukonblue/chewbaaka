@@ -32,7 +32,9 @@ exports[`BiologyPageSubsectionFindingMate component snapshot 1`] = `
             <img
               alt="Cheetahs often mark their scent on tree trunks with their urine. This behavior is common among cats."
               className="ImageViewImg"
+              height={480}
               src="cheetah_scent_marking-min.jpg"
+              width={720}
             />
           </div>
           <div

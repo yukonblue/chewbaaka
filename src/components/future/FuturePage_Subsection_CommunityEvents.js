@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 21, 2021
+ * Updated  : Aug 23, 2021
  */
 
 import React from 'react'
@@ -89,7 +89,9 @@ export default class FuturePageSubsectionCommunityEvents extends React.Component
         image={images(GetImagePath("./CCF_Livelihood_Development", ".jpg", matches))}
         caption="CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program."
         credit={kStringConstantCheetahConservationFund}
+        // Aspect ratio
         width={960}
+        height={577}
       />
     );
   }
