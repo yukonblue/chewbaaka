@@ -79,6 +79,143 @@ def unquote(s):
 ## -----------------------------------------------------------------------------
 
 
+class HTMLRewriterV1(HTMLParser):
+
+    def __init__(self):
+        super().__init__(convert_charrefs=False)
+        self.html = ''
+        self._curTag = ''
+        self._curAttrs = []
+        self._curHints = []
+        self._headTags = []
+
+    def handle_decl(self, decl):
+        self.html += '<!{decl}>'.format(decl=decl)
+
+    def handle_starttag(self, tag, attrs):
+        self._curTag = tag
+        self._curAttrs = []
+
+        hints = []
+
+        if tag == 'script' and (attrs is not None and len(attrs) > 0):
+            hints.append('defer')
+
+        if self._is_stylesheet_link(tag, attrs):
+            for i in range(len(attrs)):
+                kv = attrs[i]
+                k = kv[0]
+                v = kv[1]
+                if k == 'rel' and unquote(v) == "stylesheet":
+                    self._curAttrs.append((k, "preload"))
+                elif k == 'type' and unquote(v) == 'text/css':
+                    pass
+                elif k == 'href' and unquote(v).endswith('.css'):
+                    self._curAttrs.append((k, v))
+                else:
+                    self._curAttrs.append((k, v))
+
+            self._curAttrs.append(("as", "style"))
+
+            self._add_processed_stylesheet_link(tag, attrs)
+        else:
+            for i in range(len(attrs)):
+                kv = attrs[i]
+                k = kv[0]
+                v = kv[1]
+                if v is not None:
+                    self._curAttrs.append((k, v))
+                else:
+                    hints.append(k)
+
+        self.html += '<{tag}'.format(tag=tag)
+        if hints:
+            self.html += ' '
+            self.html += ' '.join(hints)
+
+        if self._curAttrs:
+            self.html += ' '
+            self.html += ' '.join(('{k}=\"{v}\"'.format(k=k, v=v) for (k, v) in self._curAttrs))
+        self.html += '>'
+
+    def handle_endtag(self, tag):
+        if tag == 'head' and self._headTags:
+            self.html += ''.join(self._headTags)
+            self._headTags = []
+
+        self.html += '</{tag}>'.format(tag=tag)
+        self._curTag = ''
+        self._curAttrs = []
+
+    def handle_data(self, data):
+        self.html += str(data)
+
+    def handle_entityref(self, name):
+        self.html += '&{name};'.format(name=name)
+
+    def handle_comment(self, data):
+        self.html += '<!--{data}-->'.format(data=data)
+
+    def save(self, output_filepath):
+        with open(output_filepath, 'w') as fd:
+            fd.write(self.html)
+        self.close()
+
+    def _is_stylesheet_link(self, tag, attrs):
+        if tag != 'link':
+            return False
+
+        has_rel_stylesheet = False
+        has_type_text_css = False
+        has_href_with_css_ext = False
+
+        for i in range(len(attrs)):
+            kv = attrs[i]
+            k = kv[0]
+            v = kv[1]
+            if k == 'rel' and unquote(v) == "stylesheet":
+                has_rel_stylesheet = True
+            elif k == 'type' and unquote(v) == 'text/css':
+                has_type_text_css = True
+            elif k == 'href' and unquote(v).endswith('.css'):
+                has_href_with_css_ext = True
+
+        return all((
+            has_rel_stylesheet,
+            has_href_with_css_ext,
+            # has_type_text_css,
+        ))
+
+    def _add_processed_stylesheet_link(self, tag, attrs):
+        tmpHints = []
+        tmpAttrs = []
+
+        for i in range(len(attrs)):
+            kv = attrs[i]
+            k = kv[0]
+            v = kv[1]
+            if v is not None:
+                tmpAttrs.append((k, v))
+            else:
+                tmpHints.append(k)
+
+        tmpHtml = '<{tag}'.format(tag=tag)
+
+        if tmpHints:
+            tmpHtml += ' '
+            tmpHtml += ' '.join(tmpHints)
+
+        if tmpAttrs:
+            tmpHtml += ' '
+            tmpHtml += ' '.join(('{k}=\"{v}\"'.format(k=k, v=v) for (k, v) in tmpAttrs))
+        tmpHtml += '/>'
+
+        self._headTags.append(tmpHtml)
+
+
+## -----------------------------------------------------------------------------
+
+
 class HTMLElementType(Enum):
 
     ROOT        = 1
@@ -243,7 +380,7 @@ class HTMLRegularElement(HTMLElement):
 ## -----------------------------------------------------------------------------
 
 
-class HTMLRewriter(HTMLParser):
+class HTMLRewriterV2(HTMLParser):
 
     def __init__(self):
         super().__init__(convert_charrefs=False)
@@ -385,6 +522,12 @@ class HTMLRewriter(HTMLParser):
 ## -----------------------------------------------------------------------------
 
 
+HTMLRewriter = HTMLRewriterV2
+
+
+## -----------------------------------------------------------------------------
+
+
 class Runner(object):
 
     def __init__(self, args, config, logger):
@@ -416,6 +559,8 @@ class Runner(object):
         self.logger.info('Temporary file path: {tmp_filepath}'.format(tmp_filepath=tmp_filepath))
 
         htmlRewriter = HTMLRewriter()
+
+        self.logger.info('Using instance of {}'.format(type(htmlRewriter)))
 
         with open(filepath, 'r') as fd:
             html = fd.read()
