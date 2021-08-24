@@ -19,6 +19,7 @@ import shutil
 import sys
 import tempfile
 
+from enum import Enum
 from html.parser import HTMLParser
 
 
@@ -78,22 +79,195 @@ def unquote(s):
 ## -----------------------------------------------------------------------------
 
 
+class HTMLElementType(Enum):
+
+    ROOT        = 1
+    REGULAR     = 2
+    DECL        = 3
+    DATA        = 4
+    ENTITY_REF  = 5
+    COMMENT     = 6
+
+
+## -----------------------------------------------------------------------------
+
+
+class HTMLElement(object):
+
+    def __init__(self, elementType):
+        self._elementType = elementType
+
+    def add_child(self, child):
+        assert False, 'Not implemented in base class'
+
+
+## -----------------------------------------------------------------------------
+
+
+class HTMLRootElement(HTMLElement):
+
+    ELEMENT_TYPE = HTMLElementType.ROOT
+
+    def __init__(self):
+        super().__init__(elementType=self.ELEMENT_TYPE)
+        self._children = []
+
+    def add_child(self, child):
+        self._children.append(child)
+
+    def serialize(self):
+        return ''.join((child.serialize() for child in self._children))
+
+
+## -----------------------------------------------------------------------------
+
+
+class HTMLDeclElement(HTMLElement):
+
+    ELEMENT_TYPE = HTMLElementType.DECL
+
+    def __init__(self, name):
+        super().__init__(elementType=self.ELEMENT_TYPE)
+        self._name = str(name)
+
+    def serialize(self):
+        return '<!{decl}>'.format(decl=self._name)
+
+
+## -----------------------------------------------------------------------------
+
+
+class HTMLDataElement(HTMLElement):
+
+    ELEMENT_TYPE = HTMLElementType.DATA
+
+    def __init__(self, data):
+        super().__init__(elementType=self.ELEMENT_TYPE)
+        self._data = str(data)
+
+    def serialize(self):
+        return str(self._data)
+
+
+## -----------------------------------------------------------------------------
+
+
+class HTMLEntityRefElement(HTMLElement):
+
+    ELEMENT_TYPE = HTMLElementType.ENTITY_REF
+
+    def __init__(self, name):
+        super().__init__(elementType=self.ELEMENT_TYPE)
+        self._name = str(name)
+
+    def serialize(self):
+        return '&{name};'.format(name=self._name)
+
+
+## -----------------------------------------------------------------------------
+
+
+class HTMLCommentElement(HTMLElement):
+
+    ELEMENT_TYPE = HTMLElementType.COMMENT
+
+    def __init__(self, data):
+        super().__init__(elementType=self.ELEMENT_TYPE)
+        self._data = str(data)
+
+    def serialize(self):
+        return '<!--{data}-->'.format(data=self._data)
+
+
+## -----------------------------------------------------------------------------
+
+
+class HTMLRegularElement(HTMLElement):
+
+    ELEMENT_TYPE = HTMLElementType.REGULAR
+
+    __self_terminating_tags = (
+        'meta',
+        'link',
+    )
+
+    __container_like_tags = (
+        'body',
+        'div',
+        'p',
+        'a',
+    )
+
+    def __init__(self, tag, hints=[], attrs=[], children=[]):
+        super().__init__(elementType=self.ELEMENT_TYPE)
+        self._tag = str(tag)
+        self._hints = list(hints)
+        self._attrs = list(attrs)
+        self._children = list(children)
+
+    def add_child(self, child):
+        self._children.append(child)
+
+    def serialize(self):
+        html = '<{tag}'.format(tag=self._tag)
+
+        if self._hints:
+            html += ' '
+            html += ' '.join(self._hints)
+
+        if self._attrs:
+            html += ' '
+            html += ' '.join(('{k}=\"{v}\"'.format(k=k, v=v) for (k, v) in list(self._attrs)))
+
+        if self.is_self_terminating():
+            assert not self._children
+
+        if self._children or self._tag in self.__container_like_tags:
+            html += '>'
+            html += ''.join((child.serialize() for child in self._children))
+            html += '</{tag}>'.format(tag=self._tag)
+        else:
+            if self._tag not in ('meta'):
+                html += '/'
+            html += '>'
+
+        return html
+
+    def is_self_terminating(self):
+        return self._is_self_terminating_tag(self._tag)
+
+    def _is_self_terminating_tag(self, tag):
+        return tag in self.__self_terminating_tags
+
+
+## -----------------------------------------------------------------------------
+
+
 class HTMLRewriter(HTMLParser):
 
     def __init__(self):
         super().__init__(convert_charrefs=False)
-        self.html = ''
-        self._curTag = ''
-        self._curAttrs = []
-        self._curHints = []
-        self._headTags = []
+        self._root = HTMLRootElement()
+        self._stack = [self._root]
+        self._headElements = []
 
     def handle_decl(self, decl):
-        self.html += '<!{decl}>'.format(decl=decl)
+        self._stack[-1].add_child(HTMLDeclElement(decl))
+
+    def handle_data(self, data):
+        if data and self._stack:
+            if isinstance(data, str) and data.isspace():
+                return
+            self._stack[-1].add_child(HTMLDataElement(data))
+
+    def handle_entityref(self, name):
+        self._stack[-1].add_child(HTMLEntityRefElement(name))
+
+    def handle_comment(self, data):
+        self._stack[-1].add_child(HTMLCommentElement(data))
 
     def handle_starttag(self, tag, attrs):
-        self._curTag = tag
-        self._curAttrs = []
+        curAttrs = []
 
         hints = []
 
@@ -106,15 +280,15 @@ class HTMLRewriter(HTMLParser):
                 k = kv[0]
                 v = kv[1]
                 if k == 'rel' and unquote(v) == "stylesheet":
-                    self._curAttrs.append((k, "preload"))
+                    curAttrs.append((k, "preload"))
                 elif k == 'type' and unquote(v) == 'text/css':
                     pass
                 elif k == 'href' and unquote(v).endswith('.css'):
-                    self._curAttrs.append((k, v))
+                    curAttrs.append((k, v))
                 else:
-                    self._curAttrs.append((k, v))
+                    curAttrs.append((k, v))
 
-            self._curAttrs.append(("as", "style"))
+            curAttrs.append(("as", "style"))
 
             self._add_processed_stylesheet_link(tag, attrs)
         else:
@@ -123,41 +297,39 @@ class HTMLRewriter(HTMLParser):
                 k = kv[0]
                 v = kv[1]
                 if v is not None:
-                    self._curAttrs.append((k, v))
+                    curAttrs.append((k, v))
                 else:
                     hints.append(k)
 
-        self.html += '<{tag}'.format(tag=tag)
-        if hints:
-            self.html += ' '
-            self.html += ' '.join(hints)
+        element = HTMLRegularElement(tag=tag, hints=hints, attrs=curAttrs)
 
-        if self._curAttrs:
-            self.html += ' '
-            self.html += ' '.join(('{k}=\"{v}\"'.format(k=k, v=v) for (k, v) in self._curAttrs))
-        self.html += '>'
+        if len(self._stack) > 1:
+            if self._prevStartTagEnded:
+                self._stack.pop()
+
+        self._prevStartTagEnded = False
+
+        self._stack[-1].add_child(element)
+
+        if not element.is_self_terminating():
+            # print('Pushing tag {tag} onto stack'.format(tag=tag))
+            self._stack.append(element)
 
     def handle_endtag(self, tag):
-        if tag == 'head' and self._headTags:
-            self.html += ''.join(self._headTags)
-            self._headTags = []
+        if tag == 'head' and self._headElements:
+            for element in self._headElements:
+                self._stack[-1].add_child(element)
+            self._headElements = []
 
-        self.html += '</{tag}>'.format(tag=tag)
-        self._curTag = ''
-        self._curAttrs = []
+        # print('Popping tag {tag} off stack'.format(tag=tag))
+        self._stack.pop()
 
-    def handle_data(self, data):
-        self.html += str(data)
-
-    def handle_entityref(self, name):
-        self.html += '&{name};'.format(name=name)
-
-    def handle_comment(self, data):
-        self.html += '<!--{data}-->'.format(data=data)
+    def serialize(self):
+        return self._root.serialize()
 
     def save(self, output_filepath):
         with open(output_filepath, 'w') as fd:
-            fd.write(self.html)
+            fd.write(self.serialize())
         self.close()
 
     def _is_stylesheet_link(self, tag, attrs):
@@ -198,18 +370,9 @@ class HTMLRewriter(HTMLParser):
             else:
                 tmpHints.append(k)
 
-        tmpHtml = '<{tag}'.format(tag=tag)
+        element = HTMLRegularElement(tag=tag, hints=tmpHints, attrs=tmpAttrs)
 
-        if tmpHints:
-            tmpHtml += ' '
-            tmpHtml += ' '.join(tmpHints)
-
-        if tmpAttrs:
-            tmpHtml += ' '
-            tmpHtml += ' '.join(('{k}=\"{v}\"'.format(k=k, v=v) for (k, v) in tmpAttrs))
-        tmpHtml += '/>'
-
-        self._headTags.append(tmpHtml)
+        self._headElements.append(element)
 
 
 ## -----------------------------------------------------------------------------
