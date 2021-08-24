@@ -250,6 +250,7 @@ class HTMLRewriter(HTMLParser):
         self._root = HTMLRootElement()
         self._stack = [self._root]
         self._headElements = []
+        self.logEnabled = False
 
     def handle_decl(self, decl):
         self._stack[-1].add_child(HTMLDeclElement(decl))
@@ -311,8 +312,12 @@ class HTMLRewriter(HTMLParser):
 
         self._stack[-1].add_child(element)
 
+        if self.logEnabled:
+            print('Encountering starting tag <{tag}>'.format(tag=tag))
+
         if not element.is_self_terminating():
-            # print('Pushing tag {tag} onto stack'.format(tag=tag))
+            if self.logEnabled:
+                print('Pushing tag <{tag}> onto stack'.format(tag=tag))
             self._stack.append(element)
 
     def handle_endtag(self, tag):
@@ -321,8 +326,10 @@ class HTMLRewriter(HTMLParser):
                 self._stack[-1].add_child(element)
             self._headElements = []
 
-        # print('Popping tag {tag} off stack'.format(tag=tag))
-        self._stack.pop()
+        if len(self._stack) > 1 and isinstance(self._stack[-1], HTMLRegularElement) and self._stack[-1]._tag == tag:
+            if self.logEnabled:
+                print('Popping tag with end tag <{tag}> off stack'.format(tag=tag))
+            self._stack.pop()
 
     def serialize(self):
         return self._root.serialize()
