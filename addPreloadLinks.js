@@ -10,7 +10,7 @@
  *
  * facebook / create-react-app
  * Add preload to script and link tags in production builds #3319
- * 
+ *
  * https://github.com/facebook/create-react-app/issues/3319
  */
 

@@ -42,11 +42,11 @@
     ]
   },
   "scripts": {
-    "build": "react-scripts build && node ./addPreloadWoff.js && node ./addPreloadLinks.js",
+    "build": "react-scripts build && node ./addPreloadWoff.js",
     "eject": "react-scripts eject",
     "postbuild": "react-snap && python3 postprocess.py --override",
     "start": "react-scripts start",
     "test": "react-scripts test --runInBand"
   },
-  "version": "0.5.3-alpha.5+08.23.21-1712"
+  "version": "0.5.3-alpha.6+08.24.21-0922"
 }
