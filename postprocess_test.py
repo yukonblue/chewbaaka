@@ -83,7 +83,7 @@ class TestHTMLRegularElement(TestHTMLElementBase):
     def testTagOnlyElement(self):
         element = HTMLRegularElement(tag='div')
 
-        expectedHtml = '<div/>'
+        expectedHtml = '<div></div>'
 
         self._check(element, expectedHtml)
 
@@ -134,7 +134,7 @@ class TestHTMLRewriter(unittest.TestCase):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.maxDiff = None
-        self.printOutput = True
+        self.printOutput = False
 
     def testRewriteWithSimpleHTML(self):
         html = (
