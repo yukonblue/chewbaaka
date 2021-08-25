@@ -10,7 +10,7 @@ import unittest
 
 from postprocess import HTMLDeclElement, HTMLDataElement, HTMLEntityRefElement,\
                         HTMLCommentElement, HTMLRegularElement,\
-                        HTMLRewriterV1, HTMLRewriterV2
+                        HTMLRewritterOptions, HTMLRewriterV1, HTMLRewriterV2
 
 
 ## -----------------------------------------------------------------------------
@@ -431,7 +431,9 @@ class TestHTMLRewriterV1(unittest.TestCase):
         self._check(html, expectedHtml)
 
     def _check(self, html, expectedHtml):
-        rewriter = HTMLRewriterV1()
+        opts = HTMLRewritterOptions(preload_assets=True)
+
+        rewriter = HTMLRewriterV1(opts)
 
         rewriter.feed(html)
 
@@ -1057,9 +1059,10 @@ class TestHTMLRewriterV2(unittest.TestCase):
         self._check(html, expectedHtml)
 
     def _check(self, html, expectedHtml):
-        rewriter = HTMLRewriterV2()
+        opts = HTMLRewritterOptions(preload_assets=True)
 
-        # rewriter.logEnabled = True
+        rewriter = HTMLRewriterV2(opts)
+
         rewriter.feed(html)
 
         rewrittenHTML = str(rewriter.serialize())

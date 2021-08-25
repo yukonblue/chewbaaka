@@ -72,6 +72,16 @@ class Config(object):
 ## -----------------------------------------------------------------------------
 
 
+class HTMLRewritterOptions(object):
+
+    def __init__(self, preload_assets=True, enable_logging=False):
+        self.preload_assets = preload_assets
+        self.enable_logging = enable_logging
+
+
+## -----------------------------------------------------------------------------
+
+
 def unquote(s):
     return s.replace('"', '').replace("'", '')
 
@@ -81,8 +91,9 @@ def unquote(s):
 
 class HTMLRewriterV1(HTMLParser):
 
-    def __init__(self):
+    def __init__(self, opts):
         super().__init__(convert_charrefs=False)
+        self._opts = opts
         self.html = ''
         self._curTag = ''
         self._curAttrs = []
@@ -101,7 +112,7 @@ class HTMLRewriterV1(HTMLParser):
         if tag == 'script' and (attrs is not None and len(attrs) > 0):
             hints.append('defer')
 
-        if self._is_stylesheet_link(tag, attrs):
+        if self._opts.preload_assets and self._is_stylesheet_link(tag, attrs):
             for i in range(len(attrs)):
                 kv = attrs[i]
                 k = kv[0]
@@ -382,12 +393,12 @@ class HTMLRegularElement(HTMLElement):
 
 class HTMLRewriterV2(HTMLParser):
 
-    def __init__(self):
+    def __init__(self, opts):
         super().__init__(convert_charrefs=False)
+        self._opts = opts
         self._root = HTMLRootElement()
         self._stack = [self._root]
         self._headElements = []
-        self.logEnabled = False
 
     def handle_decl(self, decl):
         self._stack[-1].add_child(HTMLDeclElement(decl))
@@ -412,7 +423,7 @@ class HTMLRewriterV2(HTMLParser):
         if tag == 'script' and (attrs is not None and len(attrs) > 0):
             hints.append('defer')
 
-        if self._is_stylesheet_link(tag, attrs):
+        if self._opts.preload_assets and self._is_stylesheet_link(tag, attrs):
             for i in range(len(attrs)):
                 kv = attrs[i]
                 k = kv[0]
@@ -449,11 +460,11 @@ class HTMLRewriterV2(HTMLParser):
 
         self._stack[-1].add_child(element)
 
-        if self.logEnabled:
+        if self._opts.enable_logging:
             print('Encountering starting tag <{tag}>'.format(tag=tag))
 
         if not element.is_self_terminating():
-            if self.logEnabled:
+            if self._opts.enable_logging:
                 print('Pushing tag <{tag}> onto stack'.format(tag=tag))
             self._stack.append(element)
 
@@ -464,7 +475,7 @@ class HTMLRewriterV2(HTMLParser):
             self._headElements = []
 
         if len(self._stack) > 1 and isinstance(self._stack[-1], HTMLRegularElement) and self._stack[-1]._tag == tag:
-            if self.logEnabled:
+            if self._opts.enable_logging:
                 print('Popping tag with end tag <{tag}> off stack'.format(tag=tag))
             self._stack.pop()
 
@@ -558,7 +569,9 @@ class Runner(object):
 
         self.logger.info('Temporary file path: {tmp_filepath}'.format(tmp_filepath=tmp_filepath))
 
-        htmlRewriter = HTMLRewriter()
+        opts = HTMLRewritterOptions(preload_assets=args.preload_assets)
+
+        htmlRewriter = HTMLRewriter(opts)
 
         self.logger.info('Using instance of {}'.format(type(htmlRewriter)))
 
@@ -624,7 +637,7 @@ def main():
     parser.add_argument('--tmp-filepath', dest='tmp_filepath', action='store', type=str, help='Specify a temporary file path used for postprocessed files.')
     parser.add_argument('--override', dest='override', action='store_true', default=False, help='INTRUSIVE: Copy over original files with processed temp files.')
     parser.add_argument('--nop', dest='nop', action='store_true', default=False, help='Make the invocation a no-op, effectively immediately exit the process right after invocation.')
-
+    parser.add_argument('--preload-assets', dest='preload_assets', action='store_true', default=False, help='Generate a <link rel=preload ...> element for each style/font static asset under the top-level <head> element.')
     args = parser.parse_args()
 
     sys.exit(driver(args))
