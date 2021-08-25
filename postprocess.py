@@ -3,7 +3,7 @@ postprocess.py (Python 3)
 
 Author   : Tomiko
 Created  : Aug 15, 2021
-Updated  : Aug 24, 2021
+Updated  : Aug 25, 2021
 """
 
 """
@@ -19,6 +19,7 @@ import shutil
 import sys
 import tempfile
 
+from enum import Enum
 from html.parser import HTMLParser
 
 
@@ -71,6 +72,18 @@ class Config(object):
 ## -----------------------------------------------------------------------------
 
 
+class HTMLRewritterOptions(object):
+
+    def __init__(self, convert_charrefs=False, defer_scripts=False, preload_stylesheets=False, enable_logging=False):
+        self.convert_charrefs = convert_charrefs
+        self.defer_scripts = defer_scripts
+        self.preload_stylesheets = preload_stylesheets
+        self.enable_logging = enable_logging
+
+
+## -----------------------------------------------------------------------------
+
+
 def unquote(s):
     return s.replace('"', '').replace("'", '')
 
@@ -78,10 +91,159 @@ def unquote(s):
 ## -----------------------------------------------------------------------------
 
 
-class HTMLRewriter(HTMLParser):
+class HTMLUtility(object):
 
-    def __init__(self):
-        super().__init__(convert_charrefs=False)
+    @classmethod
+    def is_stylesheet_link(self, tag, attrs):
+        if tag != 'link':
+            return False
+
+        has_rel_stylesheet = False
+        has_type_text_css = False
+        has_href_with_css_ext = False
+
+        for (k, v) in attrs:
+            if k == 'rel' and v == 'stylesheet':
+                has_rel_stylesheet = True
+            elif k == 'type' and v == 'text/css':
+                has_type_text_css = True
+            elif k == 'href' and v.endswith('.css'):
+                has_href_with_css_ext = True
+
+        return all((
+            has_rel_stylesheet,
+            has_href_with_css_ext,
+            # has_type_text_css,
+        ))
+
+    @classmethod
+    def distinguish_hints_and_attrs(self, attrs):
+        tmpHints = set([])
+        tmpAttrs = []
+
+        for (k, v) in attrs:
+            if v is not None:
+                tmpAttrs.append((k, v))
+            else:
+                tmpHints.add(k)
+
+        return (list(tmpHints), tmpAttrs)
+
+
+## -----------------------------------------------------------------------------
+
+
+class HTMLElementTransformRule(object):
+
+    def __init__(self, callback=None):
+        self._callback = callback
+
+    def match(self, tag, attrs):
+        assert 0, 'To be implemented in subclasses'
+
+    def transform(self, tag, attrs):
+        assert 0, 'To be implemented in subclasses'
+
+
+## -----------------------------------------------------------------------------
+
+
+class ScriptDeferRule(HTMLElementTransformRule):
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    def match(self, tag, attrs):
+        return tag == 'script' and (attrs is not None and len(attrs) > 0)
+
+    def transform(self, tag, attrs):
+        tmpHints, tmpAttrs = HTMLUtility.distinguish_hints_and_attrs(attrs)
+
+        tmpHints = set(tmpHints)
+        tmpHints.add('defer')
+
+        return (list(tmpHints), tmpAttrs)
+
+
+## -----------------------------------------------------------------------------
+
+
+class StylesheetPreloadRule(HTMLElementTransformRule):
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    def match(self, tag, attrs):
+        return HTMLUtility.is_stylesheet_link(tag, attrs)
+
+    def transform(self, tag, attrs):
+        tmpHints, tmpAttrs = HTMLUtility.distinguish_hints_and_attrs(attrs)
+
+        curHints = tmpHints
+        curAttrs = []
+
+        for (k, v) in tmpAttrs:
+            if k == 'rel' and v == "stylesheet":
+                curAttrs.append((k, "preload"))
+            elif k == 'type' and v == 'text/css':
+                pass
+            elif k == 'href' and v.endswith('.css'):
+                curAttrs.append((k, v))
+            else:
+                curAttrs.append((k, v))
+
+        curAttrs.append(("as", "style"))
+
+        if self._callback:
+            self._callback(tag, attrs)
+
+        return (list(curHints), curAttrs)
+
+
+## -----------------------------------------------------------------------------
+
+
+class NopRule(HTMLElementTransformRule):
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    def match(self, tag, attrs):
+        return True
+
+    def transform(self, tag, attrs):
+        tmpHints, tmpAttrs = HTMLUtility.distinguish_hints_and_attrs(attrs)
+
+        return (list(tmpHints), tmpAttrs)
+
+
+## -----------------------------------------------------------------------------
+
+
+class HTMLRewritterBase(HTMLParser):
+
+    def __init__(self, opts):
+        super().__init__(convert_charrefs=opts.convert_charrefs)
+        self._opts = opts
+
+        self._rules = []
+
+        if self._opts.defer_scripts:
+            self._rules.append(ScriptDeferRule())
+
+        if self._opts.preload_stylesheets:
+            self._rules.append(StylesheetPreloadRule(callback=self._add_processed_stylesheet_link))
+
+        self._rules.append(NopRule())
+
+
+## -----------------------------------------------------------------------------
+
+
+class HTMLRewriterV1(HTMLRewritterBase):
+
+    def __init__(self, opts):
+        super().__init__(opts=opts)
         self.html = ''
         self._curTag = ''
         self._curAttrs = []
@@ -97,35 +259,12 @@ class HTMLRewriter(HTMLParser):
 
         hints = []
 
-        if tag == 'script' and (attrs is not None and len(attrs) > 0):
-            hints.append('defer')
-
-        if self._is_stylesheet_link(tag, attrs):
-            for i in range(len(attrs)):
-                kv = attrs[i]
-                k = kv[0]
-                v = kv[1]
-                if k == 'rel' and unquote(v) == "stylesheet":
-                    self._curAttrs.append((k, "preload"))
-                elif k == 'type' and unquote(v) == 'text/css':
-                    pass
-                elif k == 'href' and unquote(v).endswith('.css'):
-                    self._curAttrs.append((k, v))
-                else:
-                    self._curAttrs.append((k, v))
-
-            self._curAttrs.append(("as", "style"))
-
-            self._add_processed_stylesheet_link(tag, attrs)
-        else:
-            for i in range(len(attrs)):
-                kv = attrs[i]
-                k = kv[0]
-                v = kv[1]
-                if v is not None:
-                    self._curAttrs.append((k, v))
-                else:
-                    hints.append(k)
+        for rule in self._rules:
+            if rule.match(tag, attrs):
+                tmpHints, tmpAttrs = rule.transform(tag, attrs)
+                hints = tmpHints
+                self._curAttrs = tmpAttrs
+                break
 
         self.html += '<{tag}'.format(tag=tag)
         if hints:
@@ -160,43 +299,11 @@ class HTMLRewriter(HTMLParser):
             fd.write(self.html)
         self.close()
 
-    def _is_stylesheet_link(self, tag, attrs):
-        if tag != 'link':
-            return False
-
-        has_rel_stylesheet = False
-        has_type_text_css = False
-        has_href_with_css_ext = False
-
-        for i in range(len(attrs)):
-            kv = attrs[i]
-            k = kv[0]
-            v = kv[1]
-            if k == 'rel' and unquote(v) == "stylesheet":
-                has_rel_stylesheet = True
-            elif k == 'type' and unquote(v) == 'text/css':
-                has_type_text_css = True
-            elif k == 'href' and unquote(v).endswith('.css'):
-                has_href_with_css_ext = True
-
-        return all((
-            has_rel_stylesheet,
-            has_href_with_css_ext,
-            # has_type_text_css,
-        ))
-
     def _add_processed_stylesheet_link(self, tag, attrs):
         tmpHints = []
         tmpAttrs = []
 
-        for i in range(len(attrs)):
-            kv = attrs[i]
-            k = kv[0]
-            v = kv[1]
-            if v is not None:
-                tmpAttrs.append((k, v))
-            else:
-                tmpHints.append(k)
+        tmpHints, tmpAttrs = HTMLUtility.distinguish_hints_and_attrs(attrs)
 
         tmpHtml = '<{tag}'.format(tag=tag)
 
@@ -210,6 +317,275 @@ class HTMLRewriter(HTMLParser):
         tmpHtml += '/>'
 
         self._headTags.append(tmpHtml)
+
+
+## -----------------------------------------------------------------------------
+
+
+class HTMLElementType(Enum):
+
+    ROOT        =   1
+    REGULAR     =   2
+    DECL        =   3
+    DATA        =   4
+    ENTITY_REF  =   5
+    COMMENT     =   6
+
+
+## -----------------------------------------------------------------------------
+
+
+class HTMLElement(object):
+
+    def __init__(self, elementType):
+        self._elementType = elementType
+
+    def add_child(self, child):
+        assert False, 'Not implemented in base class'
+
+
+## -----------------------------------------------------------------------------
+
+
+class HTMLRootElement(HTMLElement):
+
+    ELEMENT_TYPE = HTMLElementType.ROOT
+
+    def __init__(self):
+        super().__init__(elementType=self.ELEMENT_TYPE)
+        self._children = []
+
+    def add_child(self, child):
+        self._children.append(child)
+
+    def serialize(self):
+        return ''.join((child.serialize() for child in self._children))
+
+
+## -----------------------------------------------------------------------------
+
+
+class HTMLDeclElement(HTMLElement):
+
+    ELEMENT_TYPE = HTMLElementType.DECL
+
+    def __init__(self, name):
+        super().__init__(elementType=self.ELEMENT_TYPE)
+        self._name = str(name)
+
+    def serialize(self):
+        return '<!{decl}>'.format(decl=self._name)
+
+
+## -----------------------------------------------------------------------------
+
+
+class HTMLDataElement(HTMLElement):
+
+    ELEMENT_TYPE = HTMLElementType.DATA
+
+    def __init__(self, data):
+        super().__init__(elementType=self.ELEMENT_TYPE)
+        self._data = str(data)
+
+    def serialize(self):
+        return str(self._data)
+
+
+## -----------------------------------------------------------------------------
+
+
+class HTMLEntityRefElement(HTMLElement):
+
+    ELEMENT_TYPE = HTMLElementType.ENTITY_REF
+
+    def __init__(self, name):
+        super().__init__(elementType=self.ELEMENT_TYPE)
+        self._name = str(name)
+
+    def serialize(self):
+        return '&{name};'.format(name=self._name)
+
+
+## -----------------------------------------------------------------------------
+
+
+class HTMLCommentElement(HTMLElement):
+
+    ELEMENT_TYPE = HTMLElementType.COMMENT
+
+    def __init__(self, data):
+        super().__init__(elementType=self.ELEMENT_TYPE)
+        self._data = str(data)
+
+    def serialize(self):
+        return '<!--{data}-->'.format(data=self._data)
+
+
+## -----------------------------------------------------------------------------
+
+
+class HTMLRegularElement(HTMLElement):
+
+    ELEMENT_TYPE = HTMLElementType.REGULAR
+
+    __self_terminating_tags = (
+        'meta',
+        'link',
+    )
+
+    __container_like_tags = (
+        'body',
+        'div',
+        'p',
+        'a',
+    )
+
+    def __init__(self, tag, hints=[], attrs=[], children=[]):
+        super().__init__(elementType=self.ELEMENT_TYPE)
+        self._tag = str(tag)
+        self._hints = list(hints)
+        self._attrs = list(attrs)
+        self._children = list(children)
+
+    def add_child(self, child):
+        self._children.append(child)
+
+    def serialize(self):
+        html = '<{tag}'.format(tag=self._tag)
+
+        if self._hints:
+            html += ' '
+            html += ' '.join(self._hints)
+
+        if self._attrs:
+            html += ' '
+            html += ' '.join(('{k}=\"{v}\"'.format(k=k, v=v) for (k, v) in list(self._attrs)))
+
+        if self.is_self_terminating():
+            assert not self._children
+
+        if self._children or self._tag in self.__container_like_tags:
+            html += '>'
+            html += ''.join((child.serialize() for child in self._children))
+            html += '</{tag}>'.format(tag=self._tag)
+        else:
+            if self._tag not in ('meta'):
+                html += '/'
+            html += '>'
+
+        return html
+
+    def is_self_terminating(self):
+        return self._is_self_terminating_tag(self._tag)
+
+    def _is_self_terminating_tag(self, tag):
+        return tag in self.__self_terminating_tags
+
+
+## -----------------------------------------------------------------------------
+
+
+class HTMLRewriterV2(HTMLRewritterBase):
+    """Version 2 of the HTML rewriter implementation (EXPERIMENTAL).
+
+    NOTE:
+    Currently this implementation has problems when running on the build
+    output of this project. At the moment this is highly EXPERIMENTAL.
+
+    TODO: Make this work.
+    """
+
+    def __init__(self, opts):
+        super().__init__(opts=opts)
+        self._opts = opts
+        self._root = HTMLRootElement()
+        self._stack = [self._root]
+        self._headElements = []
+
+    def handle_decl(self, decl):
+        self._stack[-1].add_child(HTMLDeclElement(decl))
+
+    def handle_data(self, data):
+        if data and self._stack:
+            if isinstance(data, str) and data.isspace():
+                return
+            self._stack[-1].add_child(HTMLDataElement(data))
+
+    def handle_entityref(self, name):
+        self._stack[-1].add_child(HTMLEntityRefElement(name))
+
+    def handle_comment(self, data):
+        self._stack[-1].add_child(HTMLCommentElement(data))
+
+    def handle_starttag(self, tag, attrs):
+        curAttrs = []
+
+        hints = []
+
+        for rule in self._rules:
+            if rule.match(tag, attrs):
+                tmpHints, tmpAttrs = rule.transform(tag, attrs)
+                hints = tmpHints
+                curAttrs = tmpAttrs
+                break
+
+        element = HTMLRegularElement(tag=tag, hints=hints, attrs=curAttrs)
+
+        if len(self._stack) > 1:
+            if self._prevStartTagEnded:
+                self._stack.pop()
+
+        self._prevStartTagEnded = False
+
+        self._stack[-1].add_child(element)
+
+        if self._opts.enable_logging:
+            print('Encountering starting tag <{tag}>'.format(tag=tag))
+
+        if not element.is_self_terminating():
+            if self._opts.enable_logging:
+                print('Pushing tag <{tag}> onto stack'.format(tag=tag))
+            self._stack.append(element)
+
+    def handle_endtag(self, tag):
+        if tag == 'head' and self._headElements:
+            for element in self._headElements:
+                self._stack[-1].add_child(element)
+            self._headElements = []
+
+        if len(self._stack) > 1 and isinstance(self._stack[-1], HTMLRegularElement) and self._stack[-1]._tag == tag:
+            if self._opts.enable_logging:
+                print('Popping tag with end tag <{tag}> off stack'.format(tag=tag))
+            self._stack.pop()
+
+    def serialize(self):
+        return self._root.serialize()
+
+    def save(self, output_filepath):
+        with open(output_filepath, 'w') as fd:
+            fd.write(self.serialize())
+        self.close()
+
+    def _add_processed_stylesheet_link(self, tag, attrs):
+        tmpHints, tmpAttrs = HTMLUtility.distinguish_hints_and_attrs(attrs)
+
+        element = HTMLRegularElement(tag=tag, hints=tmpHints, attrs=tmpAttrs)
+
+        self._headElements.append(element)
+
+
+## -----------------------------------------------------------------------------
+
+
+"""
+NOTE:
+As stated above, `HTMLRewriterV2` is highly EXPERIMENTAL
+at this point and has problems when running on the build
+output of this project. DO NOT USE until it is proven
+to work correctly.
+"""
+HTMLRewriter = HTMLRewriterV1
 
 
 ## -----------------------------------------------------------------------------
@@ -245,7 +621,12 @@ class Runner(object):
 
         self.logger.info('Temporary file path: {tmp_filepath}'.format(tmp_filepath=tmp_filepath))
 
-        htmlRewriter = HTMLRewriter()
+        opts = HTMLRewritterOptions(defer_scripts=self.args.defer_scripts,
+                                    preload_stylesheets=self.args.preload_stylesheets)
+
+        htmlRewriter = HTMLRewriter(opts)
+
+        self.logger.info('Using instance of {}'.format(type(htmlRewriter)))
 
         with open(filepath, 'r') as fd:
             html = fd.read()
@@ -309,7 +690,8 @@ def main():
     parser.add_argument('--tmp-filepath', dest='tmp_filepath', action='store', type=str, help='Specify a temporary file path used for postprocessed files.')
     parser.add_argument('--override', dest='override', action='store_true', default=False, help='INTRUSIVE: Copy over original files with processed temp files.')
     parser.add_argument('--nop', dest='nop', action='store_true', default=False, help='Make the invocation a no-op, effectively immediately exit the process right after invocation.')
-
+    parser.add_argument('--defer-scripts', dest='defer_scripts', action='store_true', default=False, help='Generate a "defer" attribute for all <link> elements that refer to script assets.')
+    parser.add_argument('--preload-stylesheets', dest='preload_stylesheets', action='store_true', default=False, help='Generate a <link rel=preload ...> element for each stylesheet asset under the top-level <head> element.')
     args = parser.parse_args()
 
     sys.exit(driver(args))
