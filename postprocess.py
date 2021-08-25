@@ -103,11 +103,11 @@ class HTMLUtility(object):
         has_href_with_css_ext = False
 
         for (k, v) in attrs:
-            if k == 'rel' and unquote(v) == "stylesheet":
+            if k == 'rel' and v == 'stylesheet':
                 has_rel_stylesheet = True
-            elif k == 'type' and unquote(v) == 'text/css':
+            elif k == 'type' and v == 'text/css':
                 has_type_text_css = True
-            elif k == 'href' and unquote(v).endswith('.css'):
+            elif k == 'href' and v.endswith('.css'):
                 has_href_with_css_ext = True
 
         return all((
@@ -183,11 +183,11 @@ class StylesheetPreloadRule(HTMLElementTransformRule):
         curAttrs = []
 
         for (k, v) in tmpAttrs:
-            if k == 'rel' and unquote(v) == "stylesheet":
+            if k == 'rel' and v == "stylesheet":
                 curAttrs.append((k, "preload"))
-            elif k == 'type' and unquote(v) == 'text/css':
+            elif k == 'type' and v == 'text/css':
                 pass
-            elif k == 'href' and unquote(v).endswith('.css'):
+            elif k == 'href' and v.endswith('.css'):
                 curAttrs.append((k, v))
             else:
                 curAttrs.append((k, v))
@@ -606,8 +606,8 @@ class Runner(object):
 
         self.logger.info('Temporary file path: {tmp_filepath}'.format(tmp_filepath=tmp_filepath))
 
-        opts = HTMLRewritterOptions(defer_scripts=args.defer_scripts,
-                                    preload_stylesheets=args.preload_stylesheets)
+        opts = HTMLRewritterOptions(defer_scripts=self.args.defer_scripts,
+                                    preload_stylesheets=self.args.preload_stylesheets)
 
         htmlRewriter = HTMLRewriter(opts)
 
