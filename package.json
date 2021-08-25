@@ -44,7 +44,7 @@
   "scripts": {
     "build": "react-scripts build && node ./addPreloadWoff.js",
     "eject": "react-scripts eject",
-    "postbuild": "react-snap && python3 postprocess.py --override",
+    "postbuild": "react-snap && python3 postprocess.py --defer-scripts --override",
     "start": "react-scripts start",
     "test": "react-scripts test --runInBand"
   },
