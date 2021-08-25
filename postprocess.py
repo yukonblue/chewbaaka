@@ -74,10 +74,10 @@ class Config(object):
 
 class HTMLRewritterOptions(object):
 
-    def __init__(self, convert_charrefs=False, defer_scripts=True, preload_assets=True, enable_logging=False):
+    def __init__(self, convert_charrefs=False, defer_scripts=True, preload_stylesheets=True, enable_logging=False):
         self.convert_charrefs = convert_charrefs
         self.defer_scripts = defer_scripts
-        self.preload_assets = preload_assets
+        self.preload_stylesheets = preload_stylesheets
         self.enable_logging = enable_logging
 
 
@@ -91,11 +91,7 @@ def unquote(s):
 ## -----------------------------------------------------------------------------
 
 
-class HTMLRewritterBase(HTMLParser):
-
-    def __init__(self, opts):
-        super().__init__(convert_charrefs=opts.convert_charrefs)
-        self._opts = opts
+class HTMLUtility(object):
 
     @classmethod
     def is_stylesheet_link(self, tag, attrs):
@@ -137,6 +133,91 @@ class HTMLRewritterBase(HTMLParser):
 ## -----------------------------------------------------------------------------
 
 
+class HTMLElementTransformRule(object):
+
+    def __init__(self, callback=None):
+        self._callback = callback
+
+    def match(self, tag, attrs):
+        assert 0, 'To be implemented in subclasses'
+
+    def transform(self, tag, attrs):
+        assert 0, 'To be implemented in subclasses'
+
+
+## -----------------------------------------------------------------------------
+
+
+class ScriptDeferRule(HTMLElementTransformRule):
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    def match(self, tag, attrs):
+        return tag == 'script' and (attrs is not None and len(attrs) > 0)
+
+    def transform(self, tag, attrs):
+        tmpHints, tmpAttrs = HTMLUtility.distinguish_hints_and_attrs(attrs)
+
+        tmpHints = set(tmpHints)
+        tmpHints.add('defer')
+
+        return (list(tmpHints), tmpAttrs)
+
+
+## -----------------------------------------------------------------------------
+
+
+class StylesheetPreloadRule(HTMLElementTransformRule):
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    def match(self, tag, attrs):
+        return HTMLUtility.is_stylesheet_link(tag, attrs)
+
+    def transform(self, tag, attrs):
+        tmpHints, tmpAttrs = HTMLUtility.distinguish_hints_and_attrs(attrs)
+
+        curHints = tmpHints
+        curAttrs = []
+
+        for (k, v) in tmpAttrs:
+            if k == 'rel' and unquote(v) == "stylesheet":
+                curAttrs.append((k, "preload"))
+            elif k == 'type' and unquote(v) == 'text/css':
+                pass
+            elif k == 'href' and unquote(v).endswith('.css'):
+                curAttrs.append((k, v))
+            else:
+                curAttrs.append((k, v))
+
+        curAttrs.append(("as", "style"))
+
+        return (list(curHints), curAttrs)
+
+
+## -----------------------------------------------------------------------------
+
+
+class HTMLRewritterBase(HTMLParser):
+
+    def __init__(self, opts):
+        super().__init__(convert_charrefs=opts.convert_charrefs)
+        self._opts = opts
+
+        self._rules = []
+
+        if self._opts.defer_scripts:
+            self._rules.append(ScriptDeferRule())
+
+        if self._opts.preload_stylesheets:
+            self._rules.append(StylesheetPreloadRule(callback=self._add_processed_stylesheet_link))
+
+
+## -----------------------------------------------------------------------------
+
+
 class HTMLRewriterV1(HTMLRewritterBase):
 
     def __init__(self, opts):
@@ -159,7 +240,7 @@ class HTMLRewriterV1(HTMLRewritterBase):
         if self._opts.defer_scripts and tag == 'script' and (attrs is not None and len(attrs) > 0):
             hints.append('defer')
 
-        if self._opts.preload_assets and self.is_stylesheet_link(tag, attrs):
+        if self._opts.preload_stylesheets and HTMLUtility.is_stylesheet_link(tag, attrs):
             for i in range(len(attrs)):
                 kv = attrs[i]
                 k = kv[0]
@@ -223,7 +304,7 @@ class HTMLRewriterV1(HTMLRewritterBase):
         tmpHints = []
         tmpAttrs = []
 
-        tmpHints, tmpAttrs = self.distinguish_hints_and_attrs(attrs)
+        tmpHints, tmpAttrs = HTMLUtility.distinguish_hints_and_attrs(attrs)
 
         tmpHtml = '<{tag}'.format(tag=tag)
 
@@ -438,7 +519,7 @@ class HTMLRewriterV2(HTMLRewritterBase):
         if self._opts.defer_scripts and tag == 'script' and (attrs is not None and len(attrs) > 0):
             hints.append('defer')
 
-        if self._opts.preload_assets and self.is_stylesheet_link(tag, attrs):
+        if self._opts.preload_stylesheets and HTMLUtility.is_stylesheet_link(tag, attrs):
             for i in range(len(attrs)):
                 kv = attrs[i]
                 k = kv[0]
@@ -503,7 +584,7 @@ class HTMLRewriterV2(HTMLRewritterBase):
         self.close()
 
     def _add_processed_stylesheet_link(self, tag, attrs):
-        tmpHints, tmpAttrs = self.distinguish_hints_and_attrs(attrs)
+        tmpHints, tmpAttrs = HTMLUtility.distinguish_hints_and_attrs(attrs)
 
         element = HTMLRegularElement(tag=tag, hints=tmpHints, attrs=tmpAttrs)
 
@@ -549,7 +630,8 @@ class Runner(object):
 
         self.logger.info('Temporary file path: {tmp_filepath}'.format(tmp_filepath=tmp_filepath))
 
-        opts = HTMLRewritterOptions(preload_assets=args.preload_assets)
+        opts = HTMLRewritterOptions(defer_scripts=args.defer_scripts,
+                                    preload_stylesheets=args.preload_stylesheets)
 
         htmlRewriter = HTMLRewriter(opts)
 
@@ -618,7 +700,7 @@ def main():
     parser.add_argument('--override', dest='override', action='store_true', default=False, help='INTRUSIVE: Copy over original files with processed temp files.')
     parser.add_argument('--nop', dest='nop', action='store_true', default=False, help='Make the invocation a no-op, effectively immediately exit the process right after invocation.')
     parser.add_argument('--defer-scripts', dest='defer_scripts', action='store_true', default=True, help='Generate a "defer" attribute for all <link> elements that refer to script assets.')
-    parser.add_argument('--preload-assets', dest='preload_assets', action='store_true', default=True, help='Generate a <link rel=preload ...> element for each style/font static asset under the top-level <head> element.')
+    parser.add_argument('--preload-stylesheets', dest='preload_stylesheets', action='store_true', default=True, help='Generate a <link rel=preload ...> element for each stylesheet asset under the top-level <head> element.')
     args = parser.parse_args()
 
     sys.exit(driver(args))

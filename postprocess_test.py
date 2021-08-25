@@ -10,14 +10,15 @@ import unittest
 
 from postprocess import HTMLDeclElement, HTMLDataElement, HTMLEntityRefElement,\
                         HTMLCommentElement, HTMLRegularElement,\
-                        HTMLRewritterOptions, HTMLRewritterBase,\
+                        HTMLRewritterOptions, HTMLUtility,\
+                        ScriptDeferRule, StylesheetPreloadRule,\
                         HTMLRewriterV1, HTMLRewriterV2
 
 
 ## -----------------------------------------------------------------------------
 
 
-class TestHTMLRewriterBase(unittest.TestCase):
+class TestHTMLUtility(unittest.TestCase):
 
     def testIsStyleSheetLink(self):
         tag = 'link'
@@ -27,7 +28,7 @@ class TestHTMLRewriterBase(unittest.TestCase):
             ('href', './style.css'),
         )
 
-        self.assertTrue(HTMLRewritterBase.is_stylesheet_link(tag, attrs))
+        self.assertTrue(HTMLUtility.is_stylesheet_link(tag, attrs))
 
         tag = 'link'
         attrs = (
@@ -35,7 +36,7 @@ class TestHTMLRewriterBase(unittest.TestCase):
             ('href', './style.css'),
         )
 
-        self.assertTrue(HTMLRewritterBase.is_stylesheet_link(tag, attrs))
+        self.assertTrue(HTMLUtility.is_stylesheet_link(tag, attrs))
 
         attrs = (
             ('rel', 'stylesheet'),
@@ -43,14 +44,14 @@ class TestHTMLRewriterBase(unittest.TestCase):
             ('href', './script.js'),
         )
 
-        self.assertFalse(HTMLRewritterBase.is_stylesheet_link(tag, attrs))
+        self.assertFalse(HTMLUtility.is_stylesheet_link(tag, attrs))
 
         attrs = (
             ('rel', 'stylesheet'),
             ('type', 'text/css'),
         )
 
-        self.assertFalse(HTMLRewritterBase.is_stylesheet_link(tag, attrs))
+        self.assertFalse(HTMLUtility.is_stylesheet_link(tag, attrs))
 
     def testDistinguishHintsAndAttrs(self):
         attrs = (
@@ -61,7 +62,7 @@ class TestHTMLRewriterBase(unittest.TestCase):
             ('preload', None),
         )
 
-        tmpHints, tmpAttrs = HTMLRewritterBase.distinguish_hints_and_attrs(attrs)
+        tmpHints, tmpAttrs = HTMLUtility.distinguish_hints_and_attrs(attrs)
 
         self.assertEqual(set(['preload', 'defer']), set(tmpHints))
         self.assertEqual([
@@ -70,6 +71,123 @@ class TestHTMLRewriterBase(unittest.TestCase):
                             ('href', './style.css')
                         ],
                         tmpAttrs)
+
+
+## -----------------------------------------------------------------------------
+
+
+class TestScriptDeferRule(unittest.TestCase):
+
+    def testRuleWithMatchingCase(self):
+        tag = 'script'
+        attrs = [('href', './script.js')]
+
+        rule = ScriptDeferRule()
+
+        self.assertTrue(rule.match(tag, attrs))
+
+        tmpHints, tmpAttrs = rule.transform(tag, attrs)
+
+        self.assertEqual(set(['defer']), set(tmpHints))
+        self.assertEqual([
+                            ('href', './script.js')
+                        ],
+                        tmpAttrs)
+
+    def testRuleWithMatchingCase2(self):
+        tag = 'script'
+        attrs = [('type', 'script/js')]
+
+        rule = ScriptDeferRule()
+
+        self.assertTrue(rule.match(tag, attrs))
+
+        tmpHints, tmpAttrs = rule.transform(tag, attrs)
+
+        self.assertEqual(set(['defer']), set(tmpHints))
+        self.assertEqual([
+                            ('type', 'script/js')
+                        ],
+                        tmpAttrs)
+
+    def testRuleWithNonMatchingCase(self):
+        tag = 'script'
+        attrs = []
+
+        rule = ScriptDeferRule()
+
+        self.assertFalse(rule.match(tag, attrs))
+
+
+## -----------------------------------------------------------------------------
+
+
+class TestStylesheetPreloadRule(unittest.TestCase):
+
+    def testRuleWithMatchingCase(self):
+        tag = 'link'
+        attrs = (
+            ('rel', 'stylesheet'),
+            ('href', './style.css'),
+        )
+
+        rule = StylesheetPreloadRule()
+
+        self.assertTrue(rule.match(tag, attrs))
+
+        tmpHints, tmpAttrs = rule.transform(tag, attrs)
+
+        self.assertEqual(set([]), set(tmpHints))
+        self.assertEqual([
+                            ('rel', 'preload'),
+                            ('href', './style.css'),
+                            ('as', 'style')
+                        ],
+                        tmpAttrs)
+
+    def testRuleWithMatchingCase2(self):
+        tag = 'link'
+        attrs = (
+            ('rel', 'stylesheet'),
+            ('href', './style.css'),
+            ('type', 'text/css'),
+        )
+
+        rule = StylesheetPreloadRule()
+
+        self.assertTrue(rule.match(tag, attrs))
+
+        tmpHints, tmpAttrs = rule.transform(tag, attrs)
+
+        self.assertEqual(set([]), set(tmpHints))
+        self.assertEqual([
+                            ('rel', 'preload'),
+                            ('href', './style.css'),
+                            ('as', 'style')
+                        ],
+                        tmpAttrs)
+
+    def testRuleWithNonMatchingCase(self):
+        tag = 'link'
+        attrs = (
+            ('rel', 'script'),
+            ('href', './style.css'),
+        )
+
+        rule = ScriptDeferRule()
+
+        self.assertFalse(rule.match(tag, attrs))
+
+    def testRuleWithNonMatchingCase2(self):
+        tag = 'link'
+        attrs = (
+            ('rel', 'stylesheet'),
+            ('href', './script.js'),
+        )
+
+        rule = ScriptDeferRule()
+
+        self.assertFalse(rule.match(tag, attrs))
 
 
 ## -----------------------------------------------------------------------------
@@ -490,7 +608,7 @@ class TestHTMLRewriterV1(unittest.TestCase):
         self._check(html, expectedHtml)
 
     def _check(self, html, expectedHtml):
-        opts = HTMLRewritterOptions(defer_scripts=True, preload_assets=True)
+        opts = HTMLRewritterOptions(defer_scripts=True, preload_stylesheets=True)
 
         rewriter = HTMLRewriterV1(opts)
 
@@ -1118,7 +1236,7 @@ class TestHTMLRewriterV2(unittest.TestCase):
         self._check(html, expectedHtml)
 
     def _check(self, html, expectedHtml):
-        opts = HTMLRewritterOptions(defer_scripts=True, preload_assets=True)
+        opts = HTMLRewritterOptions(defer_scripts=True, preload_stylesheets=True)
 
         rewriter = HTMLRewriterV2(opts)
 
