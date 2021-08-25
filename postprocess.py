@@ -74,7 +74,8 @@ class Config(object):
 
 class HTMLRewritterOptions(object):
 
-    def __init__(self, preload_assets=True, enable_logging=False):
+    def __init__(self, convert_charrefs=False, preload_assets=True, enable_logging=False):
+        self.convert_charrefs = convert_charrefs
         self.preload_assets = preload_assets
         self.enable_logging = enable_logging
 
@@ -89,11 +90,20 @@ def unquote(s):
 ## -----------------------------------------------------------------------------
 
 
-class HTMLRewriterV1(HTMLParser):
+class HTMLRewritterBase(HTMLParser):
 
     def __init__(self, opts):
-        super().__init__(convert_charrefs=False)
+        super().__init__(convert_charrefs=opts.convert_charrefs)
         self._opts = opts
+
+
+## -----------------------------------------------------------------------------
+
+
+class HTMLRewriterV1(HTMLRewritterBase):
+
+    def __init__(self, opts):
+        super().__init__(opts=opts)
         self.html = ''
         self._curTag = ''
         self._curAttrs = []
@@ -391,10 +401,10 @@ class HTMLRegularElement(HTMLElement):
 ## -----------------------------------------------------------------------------
 
 
-class HTMLRewriterV2(HTMLParser):
+class HTMLRewriterV2(HTMLRewritterBase):
 
     def __init__(self, opts):
-        super().__init__(convert_charrefs=False)
+        super().__init__(opts=opts)
         self._opts = opts
         self._root = HTMLRootElement()
         self._stack = [self._root]
