@@ -194,7 +194,27 @@ class StylesheetPreloadRule(HTMLElementTransformRule):
 
         curAttrs.append(("as", "style"))
 
+        if self._callback:
+            self._callback(tag, attrs)
+
         return (list(curHints), curAttrs)
+
+
+## -----------------------------------------------------------------------------
+
+
+class NopRule(HTMLElementTransformRule):
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    def match(self, tag, attrs):
+        return True
+
+    def transform(self, tag, attrs):
+        tmpHints, tmpAttrs = HTMLUtility.distinguish_hints_and_attrs(attrs)
+
+        return (list(tmpHints), tmpAttrs)
 
 
 ## -----------------------------------------------------------------------------
@@ -213,6 +233,8 @@ class HTMLRewritterBase(HTMLParser):
 
         if self._opts.preload_stylesheets:
             self._rules.append(StylesheetPreloadRule(callback=self._add_processed_stylesheet_link))
+
+        self._rules.append(NopRule())
 
 
 ## -----------------------------------------------------------------------------
@@ -237,35 +259,12 @@ class HTMLRewriterV1(HTMLRewritterBase):
 
         hints = []
 
-        if self._opts.defer_scripts and tag == 'script' and (attrs is not None and len(attrs) > 0):
-            hints.append('defer')
-
-        if self._opts.preload_stylesheets and HTMLUtility.is_stylesheet_link(tag, attrs):
-            for i in range(len(attrs)):
-                kv = attrs[i]
-                k = kv[0]
-                v = kv[1]
-                if k == 'rel' and unquote(v) == "stylesheet":
-                    self._curAttrs.append((k, "preload"))
-                elif k == 'type' and unquote(v) == 'text/css':
-                    pass
-                elif k == 'href' and unquote(v).endswith('.css'):
-                    self._curAttrs.append((k, v))
-                else:
-                    self._curAttrs.append((k, v))
-
-            self._curAttrs.append(("as", "style"))
-
-            self._add_processed_stylesheet_link(tag, attrs)
-        else:
-            for i in range(len(attrs)):
-                kv = attrs[i]
-                k = kv[0]
-                v = kv[1]
-                if v is not None:
-                    self._curAttrs.append((k, v))
-                else:
-                    hints.append(k)
+        for rule in self._rules:
+            if rule.match(tag, attrs):
+                tmpHints, tmpAttrs = rule.transform(tag, attrs)
+                hints = tmpHints
+                self._curAttrs = tmpAttrs
+                break
 
         self.html += '<{tag}'.format(tag=tag)
         if hints:
@@ -516,35 +515,12 @@ class HTMLRewriterV2(HTMLRewritterBase):
 
         hints = []
 
-        if self._opts.defer_scripts and tag == 'script' and (attrs is not None and len(attrs) > 0):
-            hints.append('defer')
-
-        if self._opts.preload_stylesheets and HTMLUtility.is_stylesheet_link(tag, attrs):
-            for i in range(len(attrs)):
-                kv = attrs[i]
-                k = kv[0]
-                v = kv[1]
-                if k == 'rel' and unquote(v) == "stylesheet":
-                    curAttrs.append((k, "preload"))
-                elif k == 'type' and unquote(v) == 'text/css':
-                    pass
-                elif k == 'href' and unquote(v).endswith('.css'):
-                    curAttrs.append((k, v))
-                else:
-                    curAttrs.append((k, v))
-
-            curAttrs.append(("as", "style"))
-
-            self._add_processed_stylesheet_link(tag, attrs)
-        else:
-            for i in range(len(attrs)):
-                kv = attrs[i]
-                k = kv[0]
-                v = kv[1]
-                if v is not None:
-                    curAttrs.append((k, v))
-                else:
-                    hints.append(k)
+        for rule in self._rules:
+            if rule.match(tag, attrs):
+                tmpHints, tmpAttrs = rule.transform(tag, attrs)
+                hints = tmpHints
+                curAttrs = tmpAttrs
+                break
 
         element = HTMLRegularElement(tag=tag, hints=hints, attrs=curAttrs)
 
