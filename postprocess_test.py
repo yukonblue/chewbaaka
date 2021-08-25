@@ -490,7 +490,7 @@ class TestHTMLRewriterV1(unittest.TestCase):
         self._check(html, expectedHtml)
 
     def _check(self, html, expectedHtml):
-        opts = HTMLRewritterOptions(preload_assets=True)
+        opts = HTMLRewritterOptions(defer_scripts=True, preload_assets=True)
 
         rewriter = HTMLRewriterV1(opts)
 
@@ -1118,7 +1118,7 @@ class TestHTMLRewriterV2(unittest.TestCase):
         self._check(html, expectedHtml)
 
     def _check(self, html, expectedHtml):
-        opts = HTMLRewritterOptions(preload_assets=True)
+        opts = HTMLRewritterOptions(defer_scripts=True, preload_assets=True)
 
         rewriter = HTMLRewriterV2(opts)
 
