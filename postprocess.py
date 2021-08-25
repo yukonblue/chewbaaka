@@ -3,7 +3,7 @@ postprocess.py (Python 3)
 
 Author   : Tomiko
 Created  : Aug 15, 2021
-Updated  : Aug 24, 2021
+Updated  : Aug 25, 2021
 """
 
 """
@@ -96,6 +96,42 @@ class HTMLRewritterBase(HTMLParser):
         super().__init__(convert_charrefs=opts.convert_charrefs)
         self._opts = opts
 
+    @classmethod
+    def is_stylesheet_link(self, tag, attrs):
+        if tag != 'link':
+            return False
+
+        has_rel_stylesheet = False
+        has_type_text_css = False
+        has_href_with_css_ext = False
+
+        for (k, v) in attrs:
+            if k == 'rel' and unquote(v) == "stylesheet":
+                has_rel_stylesheet = True
+            elif k == 'type' and unquote(v) == 'text/css':
+                has_type_text_css = True
+            elif k == 'href' and unquote(v).endswith('.css'):
+                has_href_with_css_ext = True
+
+        return all((
+            has_rel_stylesheet,
+            has_href_with_css_ext,
+            # has_type_text_css,
+        ))
+
+    @classmethod
+    def distinguish_hints_and_attrs(self, attrs):
+        tmpHints = set([])
+        tmpAttrs = []
+
+        for (k, v) in attrs:
+            if v is not None:
+                tmpAttrs.append((k, v))
+            else:
+                tmpHints.add(k)
+
+        return (list(tmpHints), tmpAttrs)
+
 
 ## -----------------------------------------------------------------------------
 
@@ -122,7 +158,7 @@ class HTMLRewriterV1(HTMLRewritterBase):
         if tag == 'script' and (attrs is not None and len(attrs) > 0):
             hints.append('defer')
 
-        if self._opts.preload_assets and self._is_stylesheet_link(tag, attrs):
+        if self._opts.preload_assets and self.is_stylesheet_link(tag, attrs):
             for i in range(len(attrs)):
                 kv = attrs[i]
                 k = kv[0]
@@ -182,43 +218,11 @@ class HTMLRewriterV1(HTMLRewritterBase):
             fd.write(self.html)
         self.close()
 
-    def _is_stylesheet_link(self, tag, attrs):
-        if tag != 'link':
-            return False
-
-        has_rel_stylesheet = False
-        has_type_text_css = False
-        has_href_with_css_ext = False
-
-        for i in range(len(attrs)):
-            kv = attrs[i]
-            k = kv[0]
-            v = kv[1]
-            if k == 'rel' and unquote(v) == "stylesheet":
-                has_rel_stylesheet = True
-            elif k == 'type' and unquote(v) == 'text/css':
-                has_type_text_css = True
-            elif k == 'href' and unquote(v).endswith('.css'):
-                has_href_with_css_ext = True
-
-        return all((
-            has_rel_stylesheet,
-            has_href_with_css_ext,
-            # has_type_text_css,
-        ))
-
     def _add_processed_stylesheet_link(self, tag, attrs):
         tmpHints = []
         tmpAttrs = []
 
-        for i in range(len(attrs)):
-            kv = attrs[i]
-            k = kv[0]
-            v = kv[1]
-            if v is not None:
-                tmpAttrs.append((k, v))
-            else:
-                tmpHints.append(k)
+        tmpHints, tmpAttrs = self.distinguish_hints_and_attrs(attrs)
 
         tmpHtml = '<{tag}'.format(tag=tag)
 
@@ -239,12 +243,12 @@ class HTMLRewriterV1(HTMLRewritterBase):
 
 class HTMLElementType(Enum):
 
-    ROOT        = 1
-    REGULAR     = 2
-    DECL        = 3
-    DATA        = 4
-    ENTITY_REF  = 5
-    COMMENT     = 6
+    ROOT        =   1
+    REGULAR     =   2
+    DECL        =   3
+    DATA        =   4
+    ENTITY_REF  =   5
+    COMMENT     =   6
 
 
 ## -----------------------------------------------------------------------------
@@ -433,7 +437,7 @@ class HTMLRewriterV2(HTMLRewritterBase):
         if tag == 'script' and (attrs is not None and len(attrs) > 0):
             hints.append('defer')
 
-        if self._opts.preload_assets and self._is_stylesheet_link(tag, attrs):
+        if self._opts.preload_assets and self.is_stylesheet_link(tag, attrs):
             for i in range(len(attrs)):
                 kv = attrs[i]
                 k = kv[0]
@@ -497,43 +501,8 @@ class HTMLRewriterV2(HTMLRewritterBase):
             fd.write(self.serialize())
         self.close()
 
-    def _is_stylesheet_link(self, tag, attrs):
-        if tag != 'link':
-            return False
-
-        has_rel_stylesheet = False
-        has_type_text_css = False
-        has_href_with_css_ext = False
-
-        for i in range(len(attrs)):
-            kv = attrs[i]
-            k = kv[0]
-            v = kv[1]
-            if k == 'rel' and unquote(v) == "stylesheet":
-                has_rel_stylesheet = True
-            elif k == 'type' and unquote(v) == 'text/css':
-                has_type_text_css = True
-            elif k == 'href' and unquote(v).endswith('.css'):
-                has_href_with_css_ext = True
-
-        return all((
-            has_rel_stylesheet,
-            has_href_with_css_ext,
-            # has_type_text_css,
-        ))
-
     def _add_processed_stylesheet_link(self, tag, attrs):
-        tmpHints = []
-        tmpAttrs = []
-
-        for i in range(len(attrs)):
-            kv = attrs[i]
-            k = kv[0]
-            v = kv[1]
-            if v is not None:
-                tmpAttrs.append((k, v))
-            else:
-                tmpHints.append(k)
+        tmpHints, tmpAttrs = self.distinguish_hints_and_attrs(attrs)
 
         element = HTMLRegularElement(tag=tag, hints=tmpHints, attrs=tmpAttrs)
 

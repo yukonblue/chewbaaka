@@ -3,14 +3,73 @@ postprocess_test.py
 
 Author   : Tomiko
 Created  : Aug 15, 2021
-Updated  : Aug 24, 2021
+Updated  : Aug 25, 2021
 """
 
 import unittest
 
 from postprocess import HTMLDeclElement, HTMLDataElement, HTMLEntityRefElement,\
                         HTMLCommentElement, HTMLRegularElement,\
-                        HTMLRewritterOptions, HTMLRewriterV1, HTMLRewriterV2
+                        HTMLRewritterOptions, HTMLRewritterBase,\
+                        HTMLRewriterV1, HTMLRewriterV2
+
+
+## -----------------------------------------------------------------------------
+
+
+class TestHTMLRewriterBase(unittest.TestCase):
+
+    def testIsStyleSheetLink(self):
+        tag = 'link'
+        attrs = (
+            ('rel', 'stylesheet'),
+            ('type', 'text/css'),
+            ('href', './style.css'),
+        )
+
+        self.assertTrue(HTMLRewritterBase.is_stylesheet_link(tag, attrs))
+
+        tag = 'link'
+        attrs = (
+            ('rel', 'stylesheet'),
+            ('href', './style.css'),
+        )
+
+        self.assertTrue(HTMLRewritterBase.is_stylesheet_link(tag, attrs))
+
+        attrs = (
+            ('rel', 'stylesheet'),
+            ('type', 'text/css'),
+            ('href', './script.js'),
+        )
+
+        self.assertFalse(HTMLRewritterBase.is_stylesheet_link(tag, attrs))
+
+        attrs = (
+            ('rel', 'stylesheet'),
+            ('type', 'text/css'),
+        )
+
+        self.assertFalse(HTMLRewritterBase.is_stylesheet_link(tag, attrs))
+
+    def testDistinguishHintsAndAttrs(self):
+        attrs = (
+            ('rel', 'stylesheet'),
+            ('type', 'text/css'),
+            ('href', './style.css'),
+            ('defer', None),
+            ('preload', None),
+        )
+
+        tmpHints, tmpAttrs = HTMLRewritterBase.distinguish_hints_and_attrs(attrs)
+
+        self.assertEqual(set(['preload', 'defer']), set(tmpHints))
+        self.assertEqual([
+                            ('rel', 'stylesheet'),
+                            ('type', 'text/css'),
+                            ('href', './style.css')
+                        ],
+                        tmpAttrs)
 
 
 ## -----------------------------------------------------------------------------
