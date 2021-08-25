@@ -487,6 +487,14 @@ class HTMLRegularElement(HTMLElement):
 
 
 class HTMLRewriterV2(HTMLRewritterBase):
+    """Version 2 of the HTML rewriter implementation (EXPERIMENTAL).
+
+    NOTE:
+    Currently this implementation has problems when running on the build
+    output of this project. At the moment this is highly EXPERIMENTAL.
+
+    TODO: Make this work.
+    """
 
     def __init__(self, opts):
         super().__init__(opts=opts)
@@ -570,7 +578,14 @@ class HTMLRewriterV2(HTMLRewritterBase):
 ## -----------------------------------------------------------------------------
 
 
-HTMLRewriter = HTMLRewriterV2
+"""
+NOTE:
+As stated above, `HTMLRewriterV2` is highly EXPERIMENTAL
+at this point and has problems when running on the build
+output of this project. DO NOT USE until it is proven
+to work correctly.
+"""
+HTMLRewriter = HTMLRewriterV1
 
 
 ## -----------------------------------------------------------------------------
