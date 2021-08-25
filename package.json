@@ -42,7 +42,7 @@
     ]
   },
   "scripts": {
-    "build": "react-scripts build && node ./addPreloadWoff.js",
+    "build": "react-scripts build && node ./addPreloadWoff.js && node ./addPreloadLinks.js",
     "eject": "react-scripts eject",
     "postbuild": "react-snap && python3 postprocess.py --defer-scripts --override",
     "start": "react-scripts start",
