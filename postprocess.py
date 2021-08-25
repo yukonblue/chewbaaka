@@ -74,7 +74,7 @@ class Config(object):
 
 class HTMLRewritterOptions(object):
 
-    def __init__(self, convert_charrefs=False, defer_scripts=True, preload_stylesheets=True, enable_logging=False):
+    def __init__(self, convert_charrefs=False, defer_scripts=False, preload_stylesheets=False, enable_logging=False):
         self.convert_charrefs = convert_charrefs
         self.defer_scripts = defer_scripts
         self.preload_stylesheets = preload_stylesheets
@@ -675,8 +675,8 @@ def main():
     parser.add_argument('--tmp-filepath', dest='tmp_filepath', action='store', type=str, help='Specify a temporary file path used for postprocessed files.')
     parser.add_argument('--override', dest='override', action='store_true', default=False, help='INTRUSIVE: Copy over original files with processed temp files.')
     parser.add_argument('--nop', dest='nop', action='store_true', default=False, help='Make the invocation a no-op, effectively immediately exit the process right after invocation.')
-    parser.add_argument('--defer-scripts', dest='defer_scripts', action='store_true', default=True, help='Generate a "defer" attribute for all <link> elements that refer to script assets.')
-    parser.add_argument('--preload-stylesheets', dest='preload_stylesheets', action='store_true', default=True, help='Generate a <link rel=preload ...> element for each stylesheet asset under the top-level <head> element.')
+    parser.add_argument('--defer-scripts', dest='defer_scripts', action='store_true', default=False, help='Generate a "defer" attribute for all <link> elements that refer to script assets.')
+    parser.add_argument('--preload-stylesheets', dest='preload_stylesheets', action='store_true', default=False, help='Generate a <link rel=preload ...> element for each stylesheet asset under the top-level <head> element.')
     args = parser.parse_args()
 
     sys.exit(driver(args))
