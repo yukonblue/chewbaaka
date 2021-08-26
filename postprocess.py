@@ -3,7 +3,7 @@ postprocess.py (Python 3)
 
 Author   : Tomiko
 Created  : Aug 15, 2021
-Updated  : Aug 25, 2021
+Updated  : Aug 26, 2021
 """
 
 """
@@ -591,6 +591,106 @@ HTMLRewriter = HTMLRewriterV1
 ## -----------------------------------------------------------------------------
 
 
+class HTMLValidator(HTMLParser):
+
+    class ValidationError(Exception):
+        pass
+
+    def __init__(self, convert_charrefs=False):
+        super().__init__(convert_charrefs=convert_charrefs)
+
+    def handle_starttag(self, tag, attrs):
+        if tag == 'link':
+            self._validate_link_tag(tag, attrs)
+        elif tag == 'script':
+            self._validate_script_tag(tag, attrs)
+
+    @classmethod
+    def validate_link_tag(cls, tag, attrs):
+        assert tag == 'link', 'Expects <link> tag, but got <{tag}>'.format(tag=tag)
+
+        href_value = None
+        as_value = None
+        type_value = None
+        rel_value = None
+
+        for (k, v) in attrs:
+            if k == 'href':
+                assert v, 'Expects a non-empty value for attribute \"href\" within <link> element'
+                href_value = str(v)
+            elif k == 'as':
+                assert v, 'Expects a non-empty value for attribute \"as\" within <link> element'
+                as_value = str(v)
+            elif k == 'type':
+                assert v, 'Expects a non-empty value for attribute \"type\" within <link> element'
+                type_value = str(v)
+            elif k == 'rel':
+                assert v, 'Expects a non-empty value for attribute \"rel\" within <link> element'
+                rel_value = str(v)
+
+        if not href_value:
+            raise cls.ValidationError('Missing valid \"href\" attribute key-value pair in <link> element.')
+
+        if as_value:
+            if as_value == 'style':
+                if not href_value.endswith('.css'):
+                    raise cls.ValidationError('Value of \"href\" attribute within <link> element with as=\"style\" attribute is not a .css file')
+            elif as_value == 'font':
+                if not href_value.endswith('.woff2'):
+                    raise cls.ValidationError('Value of \"href\" attribute within <link> element with as=\"font\" attribute is not a .woff2 file')
+            elif as_value == 'script':
+                if not href_value.endswith('.js'):
+                    raise cls.ValidationError('Value of \"href\" attribute within <link> element with as=\"script\" attribute is not a .js file')
+
+        if type_value:
+            if type_value == 'text/css':
+                if not href_value.endswith('.css'):
+                    raise cls.ValidationError('Value of \"href\" attribute within <link> element with type=\"text/css\" attribute is not a .css file')
+            elif type_value == 'font/woff2':
+                if not href_value.endswith('.woff2'):
+                    raise cls.ValidationError('Value of \"href\" attribute within <link> element type=\"font/woff2\" is not a .woff2 file')
+            elif type_value == 'application/javascript':
+                if not href_value.endswith('.js'):
+                    raise cls.ValidationError('Value of \"href\" attribute within <link> element type=\"application/javascript\" is not a .js file')
+
+        if rel_value:
+            if rel_value == 'stylesheet':
+                if not href_value.endswith('.css'):
+                    raise cls.ValidationError('Value of \"href\" attribute within <link> element with rel=\"stylesheet\" attribute is not a .css file')
+            elif rel_value == 'icon':
+                if not href_value.endswith('.ico'):
+                    raise cls.ValidationError('Value of \"href\" attribute within <link> element with rel=\"icon\" attribute is not a .ico file')
+            elif rel_value == 'manifest':
+                if not href_value.endswith('.json'):
+                    raise cls.ValidationError('Value of \"href\" attribute within <link> element with rel=\"manifest\" attribute is not a .json file')
+
+    def _validate_link_tag(self, tag, attrs):
+        self.validate_link_tag(tag, attrs)
+
+    @classmethod
+    def validate_script_tag(cls, tag, attrs):
+        assert tag == 'script', 'Expects <script> tag, but got <{script}>'.format(tag=tag)
+
+        src_val = None
+
+        for (k, v) in attrs:
+            if k == 'src':
+                assert v, 'Expects a non-empty value for attribute \"src\" within <script> element'
+                src_val = str(v)
+
+        # if not src_val:
+        #     raise cls.ValidationError('Missing valid \"src\" attribute key-value pair in <script> element.')
+
+        if src_val and not src_val.endswith('.js'):
+            raise cls.ValidationError('Value of \"src\" attribute within <script> element is not a .js file')
+
+    def _validate_script_tag(self, tag, attrs):
+        self.validate_script_tag(tag, attrs)
+
+
+## -----------------------------------------------------------------------------
+
+
 class Runner(object):
 
     def __init__(self, args, config, logger):
@@ -635,6 +735,12 @@ class Runner(object):
         htmlRewriter.save(tmp_filepath)
 
         self.logger.info('Successfully written to temp file path: {tmp_filepath}'.format(tmp_filepath=tmp_filepath))
+
+        with open(tmp_filepath, 'r') as fd:
+            htmlValidator = HTMLValidator()
+            htmlValidator.feed(fd.read())
+
+        self.logger.info('Successfully validated output at temp file path: {tmp_filepath}'.format(tmp_filepath=tmp_filepath))
 
         if self.args.override:
             shutil.copyfile(tmp_filepath, filepath)

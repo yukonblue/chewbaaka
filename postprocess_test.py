@@ -3,7 +3,7 @@ postprocess_test.py
 
 Author   : Tomiko
 Created  : Aug 15, 2021
-Updated  : Aug 25, 2021
+Updated  : Aug 26, 2021
 """
 
 import unittest
@@ -12,7 +12,8 @@ from postprocess import HTMLDeclElement, HTMLDataElement, HTMLEntityRefElement,\
                         HTMLCommentElement, HTMLRegularElement,\
                         HTMLRewritterOptions, HTMLUtility,\
                         ScriptDeferRule, StylesheetPreloadRule,\
-                        HTMLRewriterV1, HTMLRewriterV2
+                        HTMLRewriterV1, HTMLRewriterV2,\
+                        HTMLValidator
 
 
 ## -----------------------------------------------------------------------------
@@ -1252,6 +1253,116 @@ class TestHTMLRewriterV2(unittest.TestCase):
             print(rewrittenHTML)
 
         self.assertEqual(expectedHtml, rewrittenHTML)
+
+
+## -----------------------------------------------------------------------------
+
+
+class TestHTMLValidator(unittest.TestCase):
+
+    def testLinkWithNoHrefAttribute(self):
+        html = '<link></link>'
+
+        message = 'Missing valid "href" attribute key-value pair in <link> element.'
+
+        self._checkExceptionRaised(html, message)
+
+    def testLinkWithInvalidHrefValueForAsAttribute(self):
+        as_values_and_hrefs = [
+            ('style', 'script.js'),
+            ('font', 'style.css'),
+            ('script', 'font.woff2'),
+        ]
+
+        for (as_val, href_val) in as_values_and_hrefs:
+            html = '<link as=\"{as_val}\" href=\"{href_val}\" />'.format(as_val=as_val, href_val=href_val)
+
+            message = 'Value of \"href\" attribute within <link> element'
+
+            self._checkExceptionRaised(html, message)
+
+    def testLinkWithValidHrefValueForAsAttribute(self):
+        as_values_and_hrefs = [
+            ('style', 'style.css'),
+            ('font', 'font.woff2'),
+            ('script', 'script.js'),
+        ]
+
+        for (as_val, href_val) in as_values_and_hrefs:
+            html = '<link as=\"{as_val}\" href=\"{href_val}\" />'.format(as_val=as_val, href_val=href_val)
+
+            self._checkSuccessfulValidation(html)
+
+    def testLinkWithInvalidHrefValueForTypeAttribute(self):
+        type_values_and_hrefs = [
+            ('text/css', 'script.js'),
+            ('font/woff2', 'style.css'),
+            ('application/javascript', 'font.woff2'),
+        ]
+
+        for (type_val, href_val) in type_values_and_hrefs:
+            html = '<link type=\"{type_val}\" href=\"{href_val}\" />'.format(type_val=type_val, href_val=href_val)
+
+            message = 'Value of \"href\" attribute within <link> element'
+
+            self._checkExceptionRaised(html, message)
+
+    def testLinkWithValidHrefValueForTypeAttribute(self):
+        type_values_and_hrefs = [
+            ('text/css', 'style.css'),
+            ('font/woff2', 'font.woff2'),
+            ('application/javascript', 'script.js'),
+        ]
+
+        for (type_val, href_val) in type_values_and_hrefs:
+            html = '<link type=\"{type_val}\" href=\"{href_val}\" />'.format(type_val=type_val, href_val=href_val)
+
+            self._checkSuccessfulValidation(html)
+
+    def testLinkWithInvalidHrefValueForRelAttribute(self):
+        rel_values_and_hrefs = [
+            ('stylesheet', 'script.js'),
+            ('icon', 'style.css'),
+            ('manifest', 'font.woff2'),
+        ]
+
+        for (rel_val, href_val) in rel_values_and_hrefs:
+            html = '<link rel=\"{rel_val}\" href=\"{href_val}\" />'.format(rel_val=rel_val, href_val=href_val)
+
+            message = 'Value of \"href\" attribute within <link> element'
+
+            self._checkExceptionRaised(html, message)
+
+    def testLinkWithValidHrefValueForRelAttribute(self):
+        rel_values_and_hrefs = [
+            ('stylesheet', 'style.css'),
+            ('icon', 'favicon.ico'),
+            ('manifest', 'manifest.json'),
+        ]
+
+        for (rel_val, href_val) in rel_values_and_hrefs:
+            html = '<link rel=\"{rel_val}\" href=\"{href_val}\" />'.format(rel_val=rel_val, href_val=href_val)
+
+            self._checkSuccessfulValidation(html)
+
+    def testScriptElementWithInvaidAttribute(self):
+        html = '<script src=\"stylesheet.css\"/>'
+
+        message = 'Value of \"src\" attribute within <script> element is not a .js file'
+
+        self._checkExceptionRaised(html, message)
+
+    def _checkExceptionRaised(self, html, message):
+        htmlValidator = HTMLValidator()
+
+        with self.assertRaises(HTMLValidator.ValidationError) as ctx:
+            htmlValidator.feed(html)
+
+        self.assertTrue(message in str(ctx.exception))
+
+    def _checkSuccessfulValidation(self, html):
+        htmlValidator = HTMLValidator()
+        htmlValidator.feed(html)
 
 
 ## -----------------------------------------------------------------------------
