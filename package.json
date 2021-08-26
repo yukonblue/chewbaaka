@@ -48,5 +48,5 @@
     "start": "react-scripts start",
     "test": "react-scripts test --runInBand"
   },
-  "version": "0.5.3-alpha.9+08.25.21-1800"
+  "version": "0.5.3-alpha.10+08.26.21-0815"
 }
