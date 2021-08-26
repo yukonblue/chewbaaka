@@ -50,7 +50,7 @@ exports[`ContentPageSkeleton snapshot 1`] = `
                   className=""
                 >
                   <a
-                    href="/history"
+                    href="/history/"
                     onClick={[Function]}
                   >
                     History
@@ -60,7 +60,7 @@ exports[`ContentPageSkeleton snapshot 1`] = `
                   className=""
                 >
                   <a
-                    href="/biology"
+                    href="/biology/"
                     onClick={[Function]}
                   >
                     Biology
@@ -70,7 +70,7 @@ exports[`ContentPageSkeleton snapshot 1`] = `
                   className=""
                 >
                   <a
-                    href="/ecology"
+                    href="/ecology/"
                     onClick={[Function]}
                   >
                     Ecology
@@ -80,7 +80,7 @@ exports[`ContentPageSkeleton snapshot 1`] = `
                   className=""
                 >
                   <a
-                    href="/future"
+                    href="/future/"
                     onClick={[Function]}
                   >
                     Future

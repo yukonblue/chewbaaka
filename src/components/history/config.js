@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 22, 2021
+ * Updated  : Aug 25, 2021
  */
 
 export const config = {
@@ -44,7 +44,7 @@ export const config = {
       },
       nextPage: {
         label: "Biology",
-        href: "/biology"
+        href: "/biology/"
       }
     }
   },

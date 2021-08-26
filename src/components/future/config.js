@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Aug 22, 2021
+ * Updated  : Aug 25, 2021
  */
 
 export const config = {
@@ -39,7 +39,7 @@ export const config = {
     pageTailNavMenu: {
       prevPage: {
         label: "Ecology",
-        href: "/ecology"
+        href: "/ecology/"
       }
     }
   },
