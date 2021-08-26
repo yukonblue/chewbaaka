@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 22, 2020
+ * Updated  : Aug 25, 2021
  */
 
 import React from 'react'
@@ -61,7 +61,7 @@ export default class ContentPageTopNavMenuBar extends React.Component {
           key={idx}
           className={this.props.pageTitle === val ? "ActiveItem" : ""}
         >
-          <Link to={"/" + (val.toLowerCase() === "home" ? "" : val.toLowerCase())} key={idx}>
+          <Link to={"/" + (val.toLowerCase() === "home" ? "" : val.toLowerCase() + "/")} key={idx}>
             {val}
           </Link>
         </li>
