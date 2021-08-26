@@ -1345,6 +1345,23 @@ class TestHTMLValidator(unittest.TestCase):
 
             self._checkSuccessfulValidation(html)
 
+    def testLinKWithRelAttributeNotWithoutAsAttribute(self):
+        html = '<link href=\"stylesheet.css\" rel=\"preload\"/>'
+
+        message = 'Missing \"as\" attribute pair within <link> element with rel=\"preload\" attribute'
+
+        self._checkExceptionRaised(html, message)
+
+    def testLinKWithRelAttributeNotWitAsAttribute(self):
+        valid_htmls = [
+            '<link href=\"stylesheet.css\" rel=\"preload\" as=\"style\"/>',
+            '<link href=\"script.js\" rel=\"preload\" as=\"script\"/>',
+            '<link href=\"font.woff2\" rel=\"preload\" as=\"font\"/>',
+        ]
+
+        for html in valid_htmls:
+            self._checkSuccessfulValidation(html)
+
     def testScriptElementWithInvaidAttribute(self):
         html = '<script src=\"stylesheet.css\"/>'
 

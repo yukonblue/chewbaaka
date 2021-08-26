@@ -663,6 +663,9 @@ class HTMLValidator(HTMLParser):
             elif rel_value == 'manifest':
                 if not href_value.endswith('.json'):
                     raise cls.ValidationError('Value of \"href\" attribute within <link> element with rel=\"manifest\" attribute is not a .json file')
+            elif rel_value == 'preload':
+                if not as_value:
+                    raise cls.ValidationError('Missing \"as\" attribute pair within <link> element with rel=\"preload\" attribute')
 
     def _validate_link_tag(self, tag, attrs):
         self.validate_link_tag(tag, attrs)
