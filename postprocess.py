@@ -616,16 +616,16 @@ class HTMLValidator(HTMLParser):
 
         for (k, v) in attrs:
             if k == 'href':
-                assert v, 'Expects a non-empty value for attribute \"href\" within <link> tag'
+                assert v, 'Expects a non-empty value for attribute \"href\" within <link> element'
                 href_value = str(v)
             elif k == 'as':
-                assert v, 'Expects a non-empty value for attribute \"as\" within <link> tag'
+                assert v, 'Expects a non-empty value for attribute \"as\" within <link> element'
                 as_value = str(v)
             elif k == 'type':
-                assert v, 'Expects a non-empty value for attribute \"type\" within <link> tag'
+                assert v, 'Expects a non-empty value for attribute \"type\" within <link> element'
                 type_value = str(v)
             elif k == 'rel':
-                assert v, 'Expects a non-empty value for attribute \"rel\" within <link> tag'
+                assert v, 'Expects a non-empty value for attribute \"rel\" within <link> element'
                 rel_value = str(v)
 
         if not href_value:
@@ -675,7 +675,7 @@ class HTMLValidator(HTMLParser):
 
         for (k, v) in attrs:
             if k == 'src':
-                assert v, 'Expects a non-empty value for attribute \"src\" within <script> tag'
+                assert v, 'Expects a non-empty value for attribute \"src\" within <script> element'
                 src_val = str(v)
 
         # if not src_val:
