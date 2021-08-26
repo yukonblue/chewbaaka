@@ -41,7 +41,7 @@ const fileWithPreload = [
 console.log('Adding preload links for the following static files in index.html head:');
 for (const link of assets) {
   console.log(link);
-  fileWithPreload.push(`<link rel="preload" href="/${link}" as="font" crossorigin>`);
+  fileWithPreload.push(`<link rel="preload" href="${link}" as="font" crossorigin>`);
 }
 
 fileWithPreload.push(parts[1]);
