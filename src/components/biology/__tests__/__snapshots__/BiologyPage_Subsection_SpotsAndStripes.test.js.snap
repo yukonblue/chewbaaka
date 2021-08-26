@@ -244,7 +244,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                               >
                                 <img
                                   alt="Tiger"
-                                  height={200}
+                                  height={160}
                                   src="cat_thumbnail_tiger-min.jpg"
                                   width={200}
                                 />
@@ -311,7 +311,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                               >
                                 <img
                                   alt="Jaguar"
-                                  height={200}
+                                  height={160}
                                   src="cat_thumbnail_jaguar-min.jpg"
                                   width={200}
                                 />
@@ -378,7 +378,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                               >
                                 <img
                                   alt="Cheetah"
-                                  height={200}
+                                  height={160}
                                   src="cat_thumbnail_cheetah-min.jpg"
                                   width={200}
                                 />
@@ -445,7 +445,7 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
                               >
                                 <img
                                   alt="Leopard"
-                                  height={200}
+                                  height={160}
                                   src="cat_thumbnail_leopard-min.jpg"
                                   width={200}
                                 />

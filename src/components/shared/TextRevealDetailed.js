@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 18, 2020
- * Updated  : Aug 23, 2021
+ * Updated  : Aug 26, 2021
  */
 
 /**
@@ -20,7 +20,7 @@
  *  - `coverImage`: The cover image.
  *
  *  - `contentImage`: The image shown on the revealed side.
- * 
+ *
  *  - `caption`: The caption text.
  */
 
@@ -59,7 +59,7 @@ export default class TextRevealDetailed extends React.Component {
           </Reveal.Content>
           <Reveal.Content hidden>
             <div className="TextRevealDetailedContentContainer" style={componentContentDivStyles}>
-              <img src={this.props.contentImage} alt={this.props.caption} width={200} height={200} />
+              <img src={this.props.contentImage} alt={this.props.caption} width={200} height={160} />
               <p className="TextRevealDetailedCaptionText">
                 {this.props.caption}
               </p>
