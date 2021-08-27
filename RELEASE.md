@@ -1,8 +1,21 @@
 # Release Note
 
+## Version 0.5.3
+
+* Date: August 27, 2021
+* Changelog:
+  * `a2d4b0e` - Workaround for `require.context`.
+  * Optimize CLS (Content Layout Shift) across all pages.
+  * `66f5506` - Optimize anchor hrefs that link to content pages.
+  * `bc32f08` - Refactor `postprocess.py`.
+  * `c495b3b`, `d487bce` - Postprocess validation.
+  * `d7e6ced` - Refine cache policy of static assets.
+
 ## Version 0.5.2
 
 * Date: August 20, 2021
+* Commit: `fe5cb5d`
+* Tag: `0.5.2`
 * Changelog:
   * `84c44ca` Optimize assets for Biology Page (#246)
   * `14aebb8` Optimize assets for Future Page (#245)
