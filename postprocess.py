@@ -21,6 +21,7 @@ import tempfile
 
 from enum import Enum
 from html.parser import HTMLParser
+from typing import List, Tuple
 
 
 ## -----------------------------------------------------------------------------
@@ -84,8 +85,27 @@ class HTMLRewritterOptions(object):
 ## -----------------------------------------------------------------------------
 
 
-def unquote(s):
+def unquote(s) -> str:
     return s.replace('"', '').replace("'", '')
+
+
+## -----------------------------------------------------------------------------
+
+
+"""
+Represents a HTML attribute key-value pair.
+"""
+Attribute = Tuple[str, str]
+
+
+## -----------------------------------------------------------------------------
+
+
+"""
+Represents a tuple of a list of HTML attribute hints and
+a list of attribute key-value pairs.
+"""
+HintsAndAttributes = Tuple[List[str], List[Attribute]]
 
 
 ## -----------------------------------------------------------------------------
@@ -94,7 +114,7 @@ def unquote(s):
 class HTMLUtility(object):
 
     @classmethod
-    def is_stylesheet_link(self, tag, attrs):
+    def is_stylesheet_link(self, tag: str, attrs: List[Attribute]) -> bool:
         if tag != 'link':
             return False
 
@@ -117,7 +137,7 @@ class HTMLUtility(object):
         ))
 
     @classmethod
-    def distinguish_hints_and_attrs(self, attrs):
+    def distinguish_hints_and_attrs(self, attrs: List[Attribute]) -> HintsAndAttributes:
         tmpHints = set([])
         tmpAttrs = []
 
@@ -138,10 +158,10 @@ class HTMLElementTransformRule(object):
     def __init__(self, callback=None):
         self._callback = callback
 
-    def match(self, tag, attrs):
+    def match(self, tag: str, attrs: List[Attribute]) -> bool:
         assert 0, 'To be implemented in subclasses'
 
-    def transform(self, tag, attrs):
+    def transform(self, tag: str, attrs: List[Attribute]) -> HintsAndAttributes:
         assert 0, 'To be implemented in subclasses'
 
 
@@ -153,10 +173,10 @@ class ScriptDeferRule(HTMLElementTransformRule):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
-    def match(self, tag, attrs):
+    def match(self, tag: str, attrs: List[Attribute]) -> bool:
         return tag == 'script' and (attrs is not None and len(attrs) > 0)
 
-    def transform(self, tag, attrs):
+    def transform(self, tag: str, attrs: List[Attribute]) -> HintsAndAttributes:
         tmpHints, tmpAttrs = HTMLUtility.distinguish_hints_and_attrs(attrs)
 
         tmpHints = set(tmpHints)
@@ -173,10 +193,10 @@ class StylesheetPreloadRule(HTMLElementTransformRule):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
-    def match(self, tag, attrs):
+    def match(self, tag: str, attrs: List[Attribute]) -> bool:
         return HTMLUtility.is_stylesheet_link(tag, attrs)
 
-    def transform(self, tag, attrs):
+    def transform(self, tag: str, attrs: List[Attribute]) -> HintsAndAttributes:
         tmpHints, tmpAttrs = HTMLUtility.distinguish_hints_and_attrs(attrs)
 
         curHints = tmpHints
@@ -208,10 +228,10 @@ class NopRule(HTMLElementTransformRule):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
-    def match(self, tag, attrs):
+    def match(self, tag: str, attrs: List[Attribute]) -> bool:
         return True
 
-    def transform(self, tag, attrs):
+    def transform(self, tag: str, attrs: List[Attribute]) -> HintsAndAttributes:
         tmpHints, tmpAttrs = HTMLUtility.distinguish_hints_and_attrs(attrs)
 
         return (list(tmpHints), tmpAttrs)
@@ -294,12 +314,12 @@ class HTMLRewriterV1(HTMLRewritterBase):
     def handle_comment(self, data):
         self.html += '<!--{data}-->'.format(data=data)
 
-    def save(self, output_filepath):
+    def save(self, output_filepath: str):
         with open(output_filepath, 'w') as fd:
             fd.write(self.html)
         self.close()
 
-    def _add_processed_stylesheet_link(self, tag, attrs):
+    def _add_processed_stylesheet_link(self, tag: str, attrs: List[Attribute]):
         tmpHints = []
         tmpAttrs = []
 
@@ -358,7 +378,7 @@ class HTMLRootElement(HTMLElement):
     def add_child(self, child):
         self._children.append(child)
 
-    def serialize(self):
+    def serialize(self) -> str:
         return ''.join((child.serialize() for child in self._children))
 
 
@@ -373,7 +393,7 @@ class HTMLDeclElement(HTMLElement):
         super().__init__(elementType=self.ELEMENT_TYPE)
         self._name = str(name)
 
-    def serialize(self):
+    def serialize(self) -> str:
         return '<!{decl}>'.format(decl=self._name)
 
 
@@ -388,7 +408,7 @@ class HTMLDataElement(HTMLElement):
         super().__init__(elementType=self.ELEMENT_TYPE)
         self._data = str(data)
 
-    def serialize(self):
+    def serialize(self) -> str:
         return str(self._data)
 
 
@@ -403,7 +423,7 @@ class HTMLEntityRefElement(HTMLElement):
         super().__init__(elementType=self.ELEMENT_TYPE)
         self._name = str(name)
 
-    def serialize(self):
+    def serialize(self) -> str:
         return '&{name};'.format(name=self._name)
 
 
@@ -418,7 +438,7 @@ class HTMLCommentElement(HTMLElement):
         super().__init__(elementType=self.ELEMENT_TYPE)
         self._data = str(data)
 
-    def serialize(self):
+    def serialize(self) -> str:
         return '<!--{data}-->'.format(data=self._data)
 
 
@@ -451,7 +471,7 @@ class HTMLRegularElement(HTMLElement):
     def add_child(self, child):
         self._children.append(child)
 
-    def serialize(self):
+    def serialize(self) -> str:
         html = '<{tag}'.format(tag=self._tag)
 
         if self._hints:
@@ -476,10 +496,10 @@ class HTMLRegularElement(HTMLElement):
 
         return html
 
-    def is_self_terminating(self):
+    def is_self_terminating(self) -> bool:
         return self._is_self_terminating_tag(self._tag)
 
-    def _is_self_terminating_tag(self, tag):
+    def _is_self_terminating_tag(self, tag: str) -> bool:
         return tag in self.__self_terminating_tags
 
 
@@ -559,15 +579,15 @@ class HTMLRewriterV2(HTMLRewritterBase):
                 print('Popping tag with end tag <{tag}> off stack'.format(tag=tag))
             self._stack.pop()
 
-    def serialize(self):
+    def serialize(self) -> str:
         return self._root.serialize()
 
-    def save(self, output_filepath):
+    def save(self, output_filepath: str):
         with open(output_filepath, 'w') as fd:
             fd.write(self.serialize())
         self.close()
 
-    def _add_processed_stylesheet_link(self, tag, attrs):
+    def _add_processed_stylesheet_link(self, tag: str, attrs: List[Attribute]):
         tmpHints, tmpAttrs = HTMLUtility.distinguish_hints_and_attrs(attrs)
 
         element = HTMLRegularElement(tag=tag, hints=tmpHints, attrs=tmpAttrs)
@@ -606,7 +626,7 @@ class HTMLValidator(HTMLParser):
             self._validate_script_tag(tag, attrs)
 
     @classmethod
-    def validate_link_tag(cls, tag, attrs):
+    def validate_link_tag(cls, tag: str, attrs: List[Attribute]):
         assert tag == 'link', 'Expects <link> tag, but got <{tag}>'.format(tag=tag)
 
         href_value = None
@@ -667,11 +687,11 @@ class HTMLValidator(HTMLParser):
                 if not as_value:
                     raise cls.ValidationError('Missing \"as\" attribute pair within <link> element with rel=\"preload\" attribute')
 
-    def _validate_link_tag(self, tag, attrs):
+    def _validate_link_tag(self, tag: str, attrs: List[Attribute]):
         self.validate_link_tag(tag, attrs)
 
     @classmethod
-    def validate_script_tag(cls, tag, attrs):
+    def validate_script_tag(cls, tag: str, attrs: List[Attribute]):
         assert tag == 'script', 'Expects <script> tag, but got <{script}>'.format(tag=tag)
 
         src_val = None
@@ -687,7 +707,7 @@ class HTMLValidator(HTMLParser):
         if src_val and not src_val.endswith('.js'):
             raise cls.ValidationError('Value of \"src\" attribute within <script> element is not a .js file')
 
-    def _validate_script_tag(self, tag, attrs):
+    def _validate_script_tag(self, tag: str, attrs: List[Attribute]):
         self.validate_script_tag(tag, attrs)
 
 
@@ -714,7 +734,7 @@ class Runner(object):
 
         return EXIT_SUCCESS
 
-    def process(self, filepath):
+    def process(self, filepath: str):
         self.logger.info('>>> Starting process file {filepath}'.format(filepath=filepath))
 
         if not os.path.exists(filepath) or not os.path.isfile(filepath):

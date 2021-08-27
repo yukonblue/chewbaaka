@@ -3,7 +3,7 @@ versionutil.py
 
 Author   : Tomiko
 Created  : Jul 29, 2020
-Updated  : Aug 17, 2021
+Updated  : Aug 26, 2021
 """
 
 """
@@ -16,6 +16,8 @@ import json
 import logging
 import os
 import sys
+
+from typing import List, Tuple
 
 
 ## -----------------------------------------------------------------------------
@@ -39,7 +41,7 @@ EXIT_SUCCESS = 0
 ## -----------------------------------------------------------------------------
 
 
-def toInt(s):
+def toInt(s) -> int:
     try:
         return int(s)
     except:
@@ -49,7 +51,7 @@ def toInt(s):
 ## -----------------------------------------------------------------------------
 
 
-def bumpStr(s):
+def bumpStr(s) -> str:
     i = toInt(s)
     return (str(i+1))
 
@@ -57,7 +59,7 @@ def bumpStr(s):
 ## -----------------------------------------------------------------------------
 
 
-def bumpVersionStr(versionStr, args):
+def bumpVersionStr(versionStr, args) -> str:
     pieces = versionStr.split('.')
     majorStr = pieces[0] if pieces else '0'
     minorStr = pieces[1] if len(pieces) >= 1 else '0'
@@ -90,7 +92,7 @@ def bumpVersionStr(versionStr, args):
 ## -----------------------------------------------------------------------------
 
 
-def process_impl(args, filepath, logger):
+def process_impl(args, filepath, logger) -> int:
     newd = None
     with open(filepath, 'r') as fd:
         d = json.load(fd)
@@ -111,7 +113,7 @@ def process_impl(args, filepath, logger):
 ## -----------------------------------------------------------------------------
 
 
-def process(args, filepath, logger):
+def process(args, filepath, logger) -> int:
     try:
         return process_impl(args, filepath, logger)
     except Exception as ex:
@@ -136,7 +138,7 @@ def getLogger():
 ## -----------------------------------------------------------------------------
 
 
-def validateSemverPrerelease(s):
+def validateSemverPrerelease(s) -> bool:
     """
     https://semver.org/#spec-item-9
 
@@ -165,7 +167,7 @@ def validateSemverPrerelease(s):
 ## -----------------------------------------------------------------------------
 
 
-def validateSemverBuild(s):
+def validateSemverBuild(s) -> bool:
     """
     https://semver.org/#spec-item-10
 
@@ -187,7 +189,7 @@ def validateSemverBuild(s):
 ## -----------------------------------------------------------------------------
 
 
-def driver(args):
+def driver(args) -> int:
     logger = getLogger()
 
     if not any((args.bump_patch, args.bump_minor, args.bump_major, args.prerelease, args.build)):
