@@ -42,7 +42,20 @@ frontend:
     #
     # More info on Cache-Control:
     # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control
+    #
+    # max-age of 2592000 is 30 days (one month)
+    #                               = (60 * 60 * 24) * 30
+    # max-age of 31536000 is 365 days (one year)
+    #                               = (60 * 60 * 24) * 365
     - pattern: '/static/**/*'
       headers:
       - key: 'Cache-Control'
-        value: 'public, max-age=604800, immutable'
+        value: 'public, max-age=2592000, immutable'
+    - pattern: '*.ico'
+      headers:
+      - key: 'Cache-Control'
+        value: 'public, max-age=31536000, immutable'
+    - pattern: 'manifest.json'
+      headers:
+      - key: 'Cache-Control'
+        value: 'public, max-age=31536000, immutable'
