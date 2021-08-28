@@ -3,6 +3,9 @@
 ## Version 0.5.3
 
 * Date: August 27, 2021
+* Commit: `7e2d6a1`
+* Tag: `0.5.3`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/0.5.3)
 * Changelog:
   * `a2d4b0e` - Workaround for `require.context`.
   * Optimize CLS (Content Layout Shift) across all pages.
@@ -16,6 +19,7 @@
 * Date: August 20, 2021
 * Commit: `fe5cb5d`
 * Tag: `0.5.2`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/0.5.2)
 * Changelog:
   * `84c44ca` Optimize assets for Biology Page (#246)
   * `14aebb8` Optimize assets for Future Page (#245)
@@ -27,6 +31,7 @@
 * Date: August 18, 2021
 * Commit: `d19ea2e`
 * Tag: `0.5.1`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/0.5.1)
 * Changelog:
   * Optimize home page and content page assets
     * `7653d90`, `0d27151`, `b7f75ec`
