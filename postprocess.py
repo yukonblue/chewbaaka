@@ -3,7 +3,7 @@ postprocess.py (Python 3)
 
 Author   : Tomiko
 Created  : Aug 15, 2021
-Updated  : Aug 26, 2021
+Updated  : Aug 28, 2021
 """
 
 """
@@ -678,8 +678,8 @@ class HTMLValidator(HTMLParser):
                 if not href_value.endswith('.css'):
                     raise cls.ValidationError('Value of \"href\" attribute within <link> element with rel=\"stylesheet\" attribute is not a .css file')
             elif rel_value == 'icon':
-                if not href_value.endswith('.ico'):
-                    raise cls.ValidationError('Value of \"href\" attribute within <link> element with rel=\"icon\" attribute is not a .ico file')
+                if not (href_value.endswith('.ico') or href_value.endswith('.png')):
+                    raise cls.ValidationError('Value of \"href\" attribute within <link> element with rel=\"icon\" attribute is not a .ico or .png file')
             elif rel_value == 'manifest':
                 if not href_value.endswith('.json'):
                     raise cls.ValidationError('Value of \"href\" attribute within <link> element with rel=\"manifest\" attribute is not a .json file')
