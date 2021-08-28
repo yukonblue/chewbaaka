@@ -1,5 +1,11 @@
 # Release Note
 
+## Version 0.5.5
+
+* Date: August 28, 2021
+* Changelog:
+  * `9b5236c` Update sitemap.xml (#270)
+
 ## Version 0.5.4
 
 * Date: August 28, 2021
