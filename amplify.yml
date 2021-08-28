@@ -51,6 +51,10 @@ frontend:
       headers:
       - key: 'Cache-Control'
         value: 'public, max-age=2592000, immutable'
+    - pattern: '**/*.html'
+      headers:
+      - key: 'Cache-Control'
+        value: 'public, max-age=2592000, immutable'
     - pattern: '/*.ico'
       headers:
       - key: 'Cache-Control'
