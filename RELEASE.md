@@ -3,6 +3,9 @@
 ## Version 0.5.4
 
 * Date: August 28, 2021
+* Commit: `e94e7e4`
+* Tag: `0.5.4`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/0.5.4)
 * Changelog:
   * `6f3f3f4` Refine favicon experience (#265)
   * `e194087` Refine HTTP Cache-Control of static resources (#268)
