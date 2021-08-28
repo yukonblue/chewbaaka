@@ -223,6 +223,55 @@ class StylesheetPreloadRule(HTMLElementTransformRule):
 ## -----------------------------------------------------------------------------
 
 
+class ResourceLinkRule(HTMLElementTransformRule):
+
+    def __init__(self, *args, target_link_as=None, target_href_ext=None, **kwargs):
+        super().__init__(*args, **kwargs)
+        assert target_link_as
+        assert target_href_ext
+        self.target_link_as = target_link_as
+        self.target_href_ext = target_href_ext
+
+    def match(self, tag: str, attrs: List[Attribute]) -> bool:
+        if tag != 'link':
+            return False
+
+        has_rel_preload = False
+        has_target_as_attr = False
+        has_href_with_target_ext = False
+
+        for (k, v) in attrs:
+            if k == 'rel' and v == 'preload':
+                has_rel_preload = True
+            elif k == 'as' and v == self.target_link_as:
+                has_target_as_attr = True
+            elif k == 'href' and v.endswith(self.target_href_ext):
+                has_href_with_target_ext = True
+
+        return all((
+            has_rel_preload,
+            has_href_with_target_ext,
+            has_target_as_attr,
+        ))
+
+    def transform(self, tag: str, attrs: List[Attribute]) -> HintsAndAttributes:
+        tmpHints, tmpAttrs = HTMLUtility.distinguish_hints_and_attrs(attrs)
+
+        curHints = tmpHints
+        curAttrs = []
+
+        for k, v in tmpAttrs:
+            if k == 'href' and v and (v.endswith(self.target_href_ext)) and (not v.startswith('/')):
+                curAttrs.append((k, '/' + v))
+            else:
+                curAttrs.append((k, v))
+
+        return (list(curHints), curAttrs)
+
+
+## -----------------------------------------------------------------------------
+
+
 class NopRule(HTMLElementTransformRule):
 
     def __init__(self, *args, **kwargs):
@@ -285,6 +334,17 @@ class HTMLRewriterV1(HTMLRewritterBase):
                 hints = tmpHints
                 self._curAttrs = tmpAttrs
                 break
+
+        ### NOTE:
+        ## Special case
+        ## If the link is to a local .woff2 font resource and does not
+        ## have a forward slash prefix, we need to add one to it to
+        ## turn it into an absolute URL.
+        font_link_rule = ResourceLinkRule(target_link_as='font', target_href_ext='.woff2')
+
+        if font_link_rule.match(tag, attrs):
+            _, tmpAttrs = font_link_rule.transform(tag, self._curAttrs)
+            self._curAttrs = tmpAttrs
 
         self.html += '<{tag}'.format(tag=tag)
         if hints:
@@ -686,6 +746,10 @@ class HTMLValidator(HTMLParser):
             elif rel_value == 'preload':
                 if not as_value:
                     raise cls.ValidationError('Missing \"as\" attribute pair within <link> element with rel=\"preload\" attribute')
+
+        if as_value in ('style', 'script', 'font') and (rel_value == 'preload'):
+            if not href_value.startswith('/'):
+                raise cls.ValidationError('Value of \"href\" attribute within <link> element does not start with \"/\" as expected')
 
     def _validate_link_tag(self, tag: str, attrs: List[Attribute]):
         self.validate_link_tag(tag, attrs)

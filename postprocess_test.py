@@ -3,7 +3,7 @@ postprocess_test.py
 
 Author   : Tomiko
 Created  : Aug 15, 2021
-Updated  : Aug 26, 2021
+Updated  : Aug 28, 2021
 """
 
 import unittest
@@ -11,7 +11,7 @@ import unittest
 from postprocess import HTMLDeclElement, HTMLDataElement, HTMLEntityRefElement,\
                         HTMLCommentElement, HTMLRegularElement,\
                         HTMLRewritterOptions, HTMLUtility,\
-                        ScriptDeferRule, StylesheetPreloadRule,\
+                        ScriptDeferRule, StylesheetPreloadRule, ResourceLinkRule,\
                         HTMLRewriterV1, HTMLRewriterV2,\
                         HTMLValidator
 
@@ -187,6 +187,75 @@ class TestStylesheetPreloadRule(unittest.TestCase):
         )
 
         rule = ScriptDeferRule()
+
+        self.assertFalse(rule.match(tag, attrs))
+
+
+## -----------------------------------------------------------------------------
+
+
+class TestResourceLinkRule(unittest.TestCase):
+
+    def testRuleWithMatchingCase(self):
+        tag = 'link'
+        attrs = (
+            ('rel', 'preload'),
+            ('as', 'font'),
+            ('href', 'font.woff2'),
+        )
+
+        rule = ResourceLinkRule(target_link_as='font', target_href_ext='.woff2')
+
+        self.assertTrue(rule.match(tag, attrs))
+
+        tmpHints, tmpAttrs = rule.transform(tag, attrs)
+
+        self.assertEqual(set([]), set(tmpHints))
+        self.assertEqual([
+                            ('rel', 'preload'),
+                            ('as', 'font'),
+                            ('href', '/font.woff2'),
+                        ],
+                        tmpAttrs)
+
+    def testRuleWithNonMatchingCase(self):
+        """Attribute list does not have rel=preload pair.
+        """
+        tag = 'link'
+        attrs = (
+            ('as', 'font'),
+            ('href', 'font.woff2'),
+        )
+
+        rule = ResourceLinkRule(target_link_as='font', target_href_ext='.woff2')
+
+        self.assertFalse(rule.match(tag, attrs))
+
+    def testRuleWithNonMatchingCase2(self):
+        """Value of 'as' attribute does not match.
+        """
+        tag = 'link'
+        attrs = (
+            ('rel', 'preload'),
+            ('as', 'font'),
+            ('href', 'font.woff2'),
+        )
+
+        rule = ResourceLinkRule(target_link_as='script', target_href_ext='.woff2')
+
+        self.assertFalse(rule.match(tag, attrs))
+
+    def testRuleWithNonMatchingCase3(self):
+        """Extension of 'href' attribute value does not match.
+        """
+        tag = 'link'
+        attrs = (
+            ('rel', 'preload'),
+            ('as', 'font'),
+            ('href', 'font.woff2'),
+        )
+
+        rule = ResourceLinkRule(target_link_as='font', target_href_ext='.woff')
 
         self.assertFalse(rule.match(tag, attrs))
 
@@ -602,6 +671,37 @@ class TestHTMLRewriterV1(unittest.TestCase):
                     <div>
                         <h1>Hello, world!</h1>
                     </div>
+                </body>
+            </html>
+        """
+
+        self._check(html, expectedHtml)
+
+    def testRewriteWithNonAbsoluteWoff2Link(self):
+        html = """
+            <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <link href="static/media/brand-icons.e8c322de.woff2" rel="preload" as="font" crossorigin="">
+                </head>
+                <body>
+                    <div>
+                        <p>&lt; Hello, world!</p>
+                    <div>
+                </body>
+            </html>
+        """
+
+        expectedHtml = """
+            <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <link href="/static/media/brand-icons.e8c322de.woff2" rel="preload" as="font" crossorigin="">
+                </head>
+                <body>
+                    <div>
+                        <p>&lt; Hello, world!</p>
+                    <div>
                 </body>
             </html>
         """
@@ -1345,18 +1445,18 @@ class TestHTMLValidator(unittest.TestCase):
 
             self._checkSuccessfulValidation(html)
 
-    def testLinKWithRelAttributeNotWithoutAsAttribute(self):
+    def testLinkWithRelAttributeNotWithoutAsAttribute(self):
         html = '<link href=\"stylesheet.css\" rel=\"preload\"/>'
 
         message = 'Missing \"as\" attribute pair within <link> element with rel=\"preload\" attribute'
 
         self._checkExceptionRaised(html, message)
 
-    def testLinKWithRelAttributeNotWitAsAttribute(self):
+    def testLinkWithRelAttributeAndAsAttribute(self):
         valid_htmls = [
-            '<link href=\"stylesheet.css\" rel=\"preload\" as=\"style\"/>',
-            '<link href=\"script.js\" rel=\"preload\" as=\"script\"/>',
-            '<link href=\"font.woff2\" rel=\"preload\" as=\"font\"/>',
+            '<link href=\"/stylesheet.css\" rel=\"preload\" as=\"style\"/>',
+            '<link href=\"/script.js\" rel=\"preload\" as=\"script\"/>',
+            '<link href=\"/font.woff2\" rel=\"preload\" as=\"font\"/>',
         ]
 
         for html in valid_htmls:
@@ -1366,6 +1466,13 @@ class TestHTMLValidator(unittest.TestCase):
         html = '<script src=\"stylesheet.css\"/>'
 
         message = 'Value of \"src\" attribute within <script> element is not a .js file'
+
+        self._checkExceptionRaised(html, message)
+
+    def testLinkToWoff2ResouceWithoutForwardSlashPrefix(self):
+        html = '<link href=\"font.woff2\" rel=\"preload\" as=\"font\"/>'
+
+        message = 'Value of "href" attribute within <link> element does not start with \"/\" as expected'
 
         self._checkExceptionRaised(html, message)
 
