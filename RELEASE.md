@@ -1,5 +1,14 @@
 # Release Note
 
+## Version 0.5.4
+
+* Date: August 28, 2021
+* Changelog:
+  * `6f3f3f4` Refine favicon experience (#265)
+  * `e194087` Refine HTTP Cache-Control of static resources (#268)
+  * `14dfa66` Fix woff2 resource redirect issue (#267)
+  * `145d6ad` Update public/sitemap.xml (#266)
+
 ## Version 0.5.3
 
 * Date: August 27, 2021
