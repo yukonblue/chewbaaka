@@ -51,11 +51,19 @@ frontend:
       headers:
       - key: 'Cache-Control'
         value: 'public, max-age=2592000, immutable'
-    - pattern: '*.ico'
+    - pattern: '**/*.html'
+      headers:
+      - key: 'Cache-Control'
+        value: 'public, max-age=2592000, immutable'
+    - pattern: '/*.ico'
       headers:
       - key: 'Cache-Control'
         value: 'public, max-age=31536000, immutable'
-    - pattern: 'manifest.json'
+    - pattern: '/*.png'
+      headers:
+      - key: 'Cache-Control'
+        value: 'public, max-age=31536000, immutable'
+    - pattern: '/manifest.json'
       headers:
       - key: 'Cache-Control'
         value: 'public, max-age=31536000, immutable'
