@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Aug 25, 2021
+ * Updated  : Jun 05, 2022
  */
 
 export const config = {
@@ -169,7 +169,8 @@ export const config = {
                   "Without farmer support, CCF wouldn't be able to release " +
                   "cheetahs back into the wild. By helping people live alongside " +
                   "predators CCF is helping save the cheetah and its ecosystem."
-              }
+              },
+              card_content: "Chewbaaka was a parnter of Dr. Laurie Marker and together they have worked to educate and inspire tens of thousands of children and farmers across Namibia. Chewbaaka was a living demonstration that wildlife and people can coexist together peacefully and harmoniously."
             },
             part_Mekondyo: {
               content: {
@@ -180,7 +181,8 @@ export const config = {
                   "beautiful. I can see the Waterberg Plateau far away. " +
                   "I am 5 years old now and I will tell you my story as you " +
                   "explore this museum."
-              }
+              },
+              card_content: 'Mekondyo means "struggle" in the Oshiwambo language.'
             } 
           }
         },

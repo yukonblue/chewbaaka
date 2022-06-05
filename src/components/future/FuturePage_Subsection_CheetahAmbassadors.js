@@ -72,7 +72,7 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
 
         <ContentPageSubsectionTwoColumnContentTemplate
           lhsColumn={{content: this.renderLhsContentChewbaaka(part)}}
-          rhsColumn={{content: this.renderRhsContentChewbaaka()}}
+          rhsColumn={{content: this.renderRhsContentChewbaaka(part)}}
         />
       </ContentPageSubsectionPart>
     );
@@ -85,7 +85,7 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
           Mekondyo
         </ContentPageSubsectionSubtitle>
         <ContentPageSubsectionTwoColumnContentTemplate
-          lhsColumn={{content: this.renderLhsContentMekondyo()}}
+          lhsColumn={{content: this.renderLhsContentMekondyo(part)}}
           rhsColumn={{content: this.renderRhsContentMekondyo(part)}}
         />
       </ContentPageSubsectionPart>
@@ -106,24 +106,24 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
     );
   }
 
-  renderRhsContentChewbaaka() {
+  renderRhsContentChewbaaka(part) {
     return (
       <AmbassadorCard
         image={image_Chewbaaka}
         name="Chewbaaka"
         date="1996"
-        description="Chewbaaka was a parnter of Dr. Laurie Marker and together they have worked to educate and inspire tens of thousands of children and farmers across Namibia. Chewbaaka was a living demonstration that wildlife and people can coexist together peacefully and harmoniously."
+        description={part.card_content}
       />
     );
   }
 
-  renderLhsContentMekondyo() {
+  renderLhsContentMekondyo(part) {
     return (
       <AmbassadorCard
         image={image_Mekondyo}
         name="Mekondyo"
         date="1998"
-        description='Mekondyo means "struggle" in the Oshiwambo language.'
+        description={part.card_content}
       />
     );
   }
