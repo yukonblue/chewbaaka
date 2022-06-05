@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 23, 2021
+ * Updated  : Jun 05, 2022
  */
 
 import React from 'react'
@@ -20,7 +20,7 @@ import {
 
 import '../shared/ContentPageSharedStyles.css'
 
-import CircularImage from '../shared/CircularImage'
+import AmbassadorCard from './AmbassadorCard'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
@@ -72,7 +72,7 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
 
         <ContentPageSubsectionTwoColumnContentTemplate
           lhsColumn={{content: this.renderLhsContentChewbaaka(part)}}
-          rhsColumn={{content: this.renderRhsContentChewbaaka()}}
+          rhsColumn={{content: this.renderRhsContentChewbaaka(part)}}
         />
       </ContentPageSubsectionPart>
     );
@@ -85,7 +85,7 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
           Mekondyo
         </ContentPageSubsectionSubtitle>
         <ContentPageSubsectionTwoColumnContentTemplate
-          lhsColumn={{content: this.renderLhsContentMekondyo()}}
+          lhsColumn={{content: this.renderLhsContentMekondyo(part)}}
           rhsColumn={{content: this.renderRhsContentMekondyo(part)}}
         />
       </ContentPageSubsectionPart>
@@ -106,26 +106,24 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
     );
   }
 
-  renderRhsContentChewbaaka() {
+  renderRhsContentChewbaaka(part) {
     return (
-      <CircularImage
+      <AmbassadorCard
         image={image_Chewbaaka}
-        title="Chewbaaka"
-        // Aspect ratio
-        width={400}
-        height={400}
+        name="Chewbaaka"
+        date="1996"
+        description={part.card_content}
       />
     );
   }
 
-  renderLhsContentMekondyo() {
+  renderLhsContentMekondyo(part) {
     return (
-      <CircularImage
+      <AmbassadorCard
         image={image_Mekondyo}
-        title="Mekondyo"
-        // Aspect ratio
-        width={385}
-        height={385}
+        name="Mekondyo"
+        date="1998"
+        description={part.card_content}
       />
     );
   }

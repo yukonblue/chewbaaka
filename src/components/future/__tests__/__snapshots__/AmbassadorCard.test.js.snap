@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AmbassadorCard component snapshot 1`] = `
+<div
+  className="ui card"
+  onClick={[Function]}
+>
+  <img
+    className="ui image"
+    src="https://sotinpc.files.wordpress.com/2013/04/day-of-rememberance.jpg"
+  />
+  <div
+    className="content"
+  >
+    <div
+      className="header"
+    >
+      Chewbaaka
+    </div>
+    <div
+      className="meta"
+    >
+      <span>
+        Joined Cheetah Conservation Fund in 
+        2022
+      </span>
+    </div>
+    <div
+      className="description"
+    >
+      Hello I am Chewbaaka
+    </div>
+  </div>
+</div>
+`;
