@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 23, 2021
+ * Updated  : Jun 05, 2022
  */
 
 import React from 'react'
@@ -20,7 +20,7 @@ import {
 
 import '../shared/ContentPageSharedStyles.css'
 
-import CircularImage from '../shared/CircularImage'
+import AmbassadorCard from './AmbassadorCard'
 
 import MediaLinkButton from '../shared/MediaLinkButton'
 
@@ -108,24 +108,22 @@ export default class FuturePageSubsectionCheetahAmbassadors extends React.Compon
 
   renderRhsContentChewbaaka() {
     return (
-      <CircularImage
+      <AmbassadorCard
         image={image_Chewbaaka}
-        title="Chewbaaka"
-        // Aspect ratio
-        width={400}
-        height={400}
+        name="Chewbaaka"
+        date="1996"
+        description="Chewbaaka was a parnter of Dr. Laurie Marker and together they have worked to educate and inspire tens of thousands of children and farmers across Namibia. Chewbaaka was a living demonstration that wildlife and people can coexist together peacefully and harmoniously."
       />
     );
   }
 
   renderLhsContentMekondyo() {
     return (
-      <CircularImage
+      <AmbassadorCard
         image={image_Mekondyo}
-        title="Mekondyo"
-        // Aspect ratio
-        width={385}
-        height={385}
+        name="Mekondyo"
+        date="1998"
+        description='Mekondyo means "struggle" in the Oshiwambo language.'
       />
     );
   }

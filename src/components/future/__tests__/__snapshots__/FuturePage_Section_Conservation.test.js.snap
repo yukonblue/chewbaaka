@@ -508,20 +508,35 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
               className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
             >
               <div
-                className="CircularImageOuterContainer"
+                className="ui card"
+                onClick={[Function]}
               >
                 <img
-                  alt="Chewbaaka"
-                  className="CircularImageImg"
-                  height={400}
+                  className="ui image"
                   src="Chewbaaka-min.jpg"
-                  width={400}
                 />
-                <p
-                  className="CircularImageTitle"
+                <div
+                  className="content"
                 >
-                  Chewbaaka
-                </p>
+                  <div
+                    className="header"
+                  >
+                    Chewbaaka
+                  </div>
+                  <div
+                    className="meta"
+                  >
+                    <span>
+                      Joined Cheetah Conservation Fund in 
+                      1996
+                    </span>
+                  </div>
+                  <div
+                    className="description"
+                  >
+                    Chewbaaka was a parnter of Dr. Laurie Marker and together they have worked to educate and inspire tens of thousands of children and farmers across Namibia. Chewbaaka was a living demonstration that wildlife and people can coexist together peacefully and harmoniously.
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -545,20 +560,35 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
               className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
             >
               <div
-                className="CircularImageOuterContainer"
+                className="ui card"
+                onClick={[Function]}
               >
                 <img
-                  alt="Mekondyo"
-                  className="CircularImageImg"
-                  height={385}
+                  className="ui image"
                   src="Mekondyo-min.jpg"
-                  width={385}
                 />
-                <p
-                  className="CircularImageTitle"
+                <div
+                  className="content"
                 >
-                  Mekondyo
-                </p>
+                  <div
+                    className="header"
+                  >
+                    Mekondyo
+                  </div>
+                  <div
+                    className="meta"
+                  >
+                    <span>
+                      Joined Cheetah Conservation Fund in 
+                      1998
+                    </span>
+                  </div>
+                  <div
+                    className="description"
+                  >
+                    Mekondyo means "struggle" in the Oshiwambo language.
+                  </div>
+                </div>
               </div>
             </div>
             <div
