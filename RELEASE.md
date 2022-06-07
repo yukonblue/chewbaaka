@@ -1,8 +1,23 @@
 # Release Note
 
+## Version 0.5.6
+
+* Date: June 06, 2022
+* Tag: `0.5.6`
+* Changelog:
+  * Package updates:
+    * Bump `eventsource` from `1.1.0` to `1.1.1`
+    * Bump packages - mainly update `react`, `react-dom`, and `react-test-renderer` to `^17.0.2` (#279)
+    * Bump `semantic-ui-react` to `~2.1.3` (#280)
+  * UI refinements:
+    * Refine cheetah ambassador card UI (#281)
+    * Refine two column layout (#282)
+
 ## Version 0.5.5
 
 * Date: August 28, 2021
+* Tag: `0.5.5`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/0.5.5)
 * Changelog:
   * `9b5236c` Update sitemap.xml (#270)
 
