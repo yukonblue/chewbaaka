@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 18, 2020
+ * Updated  : Jun 06, 2022
  */
 
 div.ContentPageSubsectionTwoColumnContentTemplateOuterContainer {
@@ -17,14 +17,12 @@ div.ContentPageSubsectionTwoColumnContentTemplateInnerContainer {
   box-sizing: content-box;
 }
 
-div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs {
-  padding-right: 1rem;
-  flex: 1;
-}
-
-div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs {
+div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer {
+  flex: 1;  /* for parent container */
+  display: flex; /* for horizontally centering children */
+  justify-content: center; /* for horizontally centering children */
   padding-left: 1rem;
-  flex: 1;
+  padding-right: 1rem;
 }
 
 @media (max-width: 1023px) {
@@ -33,11 +31,7 @@ div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs {
     flex-wrap: nowrap;
   }
 
-  div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs {
-    padding: 20px 0;
-  }
-  
-  div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs {
+  div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer {
     padding: 20px 0;
   }
 }

@@ -106,112 +106,116 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
           className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
         >
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
           >
-            <div
-              className="ImageViewOuterContainer"
-              style={
-                Object {
-                  "maxWidth": 640,
-                }
-              }
-            >
+            <div>
               <div
-                className="ImageViewInnerContainer"
+                className="ImageViewOuterContainer"
+                style={
+                  Object {
+                    "maxWidth": 640,
+                  }
+                }
               >
                 <div
-                  className="ImageViewImgContainer"
-                >
-                  <img
-                    alt="Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest."
-                    className="ImageViewImg"
-                    height={360}
-                    src="cheetah_coalition_hunting-min.jpg"
-                    width={640}
-                  />
-                </div>
-                <div
-                  className="ImageViewCaptionContainer"
+                  className="ImageViewInnerContainer"
                 >
                   <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "maxWidth": 640,
-                      }
-                    }
+                    className="ImageViewImgContainer"
+                  >
+                    <img
+                      alt="Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest."
+                      className="ImageViewImg"
+                      height={360}
+                      src="cheetah_coalition_hunting-min.jpg"
+                      width={640}
+                    />
+                  </div>
+                  <div
+                    className="ImageViewCaptionContainer"
                   >
                     <div
-                      className="IconContainer"
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 640,
+                        }
+                      }
                     >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
+                      <div
+                        className="IconContainer"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
+                      </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest.
+                      </p>
                     </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest.
-                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
           >
-            <div
-              className="ImageViewOuterContainer"
-              style={
-                Object {
-                  "maxWidth": 640,
-                }
-              }
-            >
+            <div>
               <div
-                className="ImageViewInnerContainer"
+                className="ImageViewOuterContainer"
+                style={
+                  Object {
+                    "maxWidth": 640,
+                  }
+                }
               >
                 <div
-                  className="ImageViewImgContainer"
-                >
-                  <img
-                    alt="One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch."
-                    className="ImageViewImg"
-                    height={360}
-                    src="cheetah_go_after_gazelle-min.jpg"
-                    width={640}
-                  />
-                </div>
-                <div
-                  className="ImageViewCaptionContainer"
+                  className="ImageViewInnerContainer"
                 >
                   <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "maxWidth": 640,
-                      }
-                    }
+                    className="ImageViewImgContainer"
+                  >
+                    <img
+                      alt="One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch."
+                      className="ImageViewImg"
+                      height={360}
+                      src="cheetah_go_after_gazelle-min.jpg"
+                      width={640}
+                    />
+                  </div>
+                  <div
+                    className="ImageViewCaptionContainer"
                   >
                     <div
-                      className="IconContainer"
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 640,
+                        }
+                      }
                     >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
+                      <div
+                        className="IconContainer"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
+                      </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch.
+                      </p>
                     </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch.
-                    </p>
                   </div>
                 </div>
               </div>

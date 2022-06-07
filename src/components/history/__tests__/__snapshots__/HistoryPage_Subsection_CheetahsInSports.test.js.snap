@@ -16,116 +16,120 @@ exports[`HistoryPageSubsectionCheetahsInSports component snapshot 1`] = `
       className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
     >
       <div
-        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
       >
-        <div
-          className="ImageSlidingGalleryOuterContainer"
-          style={
-            Object {
-              "maxWidth": 540,
-            }
-          }
-        >
+        <div>
           <div
-            className="ImageSlidingGalleryCoreContainer"
+            className="ImageSlidingGalleryOuterContainer"
+            style={
+              Object {
+                "maxWidth": 540,
+              }
+            }
           >
-            <img
-              alt="A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799."
-              className="ImageSlidingGalleryImgPart"
-              height={317}
-              src="cheetah_with_two_indian_servants-min.jpg"
-              width={480}
-            />
             <div
-              className="ImageSlidingGalleryButtonContainer"
+              className="ImageSlidingGalleryCoreContainer"
             >
+              <img
+                alt="A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799."
+                className="ImageSlidingGalleryImgPart"
+                height={317}
+                src="cheetah_with_two_indian_servants-min.jpg"
+                width={480}
+              />
               <div
-                aria-label="Previous slide"
-                className="ui blue huge icon left attached disabled button"
-                onClick={[Function]}
-                role="button"
-                tabIndex={-1}
+                className="ImageSlidingGalleryButtonContainer"
               >
-                <i
-                  aria-hidden="true"
-                  className="arrow alternate circle left outline icon"
+                <div
+                  aria-label="Previous slide"
+                  className="ui blue huge icon left attached disabled button"
                   onClick={[Function]}
-                />
-              </div>
-              <div
-                aria-label="Next slide"
-                className="ui blue huge icon right attached button"
-                onClick={[Function]}
-                role="button"
-                tabIndex={0}
-              >
-                <i
-                  aria-hidden="true"
-                  className="arrow alternate circle right outline icon"
+                  role="button"
+                  tabIndex={-1}
+                >
+                  <i
+                    aria-hidden="true"
+                    className="arrow alternate circle left outline icon"
+                    onClick={[Function]}
+                  />
+                </div>
+                <div
+                  aria-label="Next slide"
+                  className="ui blue huge icon right attached button"
                   onClick={[Function]}
-                />
+                  role="button"
+                  tabIndex={0}
+                >
+                  <i
+                    aria-hidden="true"
+                    className="arrow alternate circle right outline icon"
+                    onClick={[Function]}
+                  />
+                </div>
               </div>
             </div>
-          </div>
-          <div
-            className="ImageSlidingGalleryCaptionPart"
-            data-testid="ImageSlidingGalleryCaptionPart"
-          >
             <div
-              className="CaptionContainer"
-              data-testid="CaptionComponentTestId"
-              style={
-                Object {
-                  "maxWidth": undefined,
-                }
-              }
+              className="ImageSlidingGalleryCaptionPart"
+              data-testid="ImageSlidingGalleryCaptionPart"
             >
               <div
-                className="IconContainer"
+                className="CaptionContainer"
+                data-testid="CaptionComponentTestId"
+                style={
+                  Object {
+                    "maxWidth": undefined,
+                  }
+                }
               >
-                <i
-                  aria-hidden="true"
-                  className="image icon"
-                  onClick={[Function]}
-                />
+                <div
+                  className="IconContainer"
+                >
+                  <i
+                    aria-hidden="true"
+                    className="image icon"
+                    onClick={[Function]}
+                  />
+                </div>
+                <p
+                  className="ContentPageCaptionTextSize CaptionText"
+                >
+                  A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799.
+                </p>
               </div>
-              <p
-                className="ContentPageCaptionTextSize CaptionText"
-              >
-                A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799.
-              </p>
             </div>
           </div>
         </div>
       </div>
       <div
-        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
       >
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          In c1700 BC, the Egyptians were the first to tame cheetahs. They admired the cheetah for its speed, hunting ability and beauty. They honored cheetahs as symbols of royalty and prestige.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          The swiftest animal on earth became a cherished hunting companion of Pharaohs and royalty throughout Europe, Asia and India. Until the early 1900s, ownership of cheetahs was as important to these nobles as their love for gold. Cheetahs hunt by sight so they excelled in the sport known as "coursing". Hunts organized by royalty and nobles were for the challenge of sport, not for food. Hunts represented power and prestige.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          By the 1500s the popularity of the cheetah as a hunting companion rivaled that of the dog. Cheetahs, the most easily tamed of the big cats, were caught, tamed and trained. Adults were used because cubs had not learned how to hunt. Tamed cheetahs formed a strong bond with their keepers.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          Each cheetah rode to the hunt by horseback or on a cart. Its eyes were coved with a hood and uncovered when prey were sighted. The cat was released to chase down the prey then rewarded with meat fed from a wooden spoon.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          Although cherished, pampered cheetahs were loved to near extinction and taken from the wild in great numbers. By the early 1900s, India and Iran were importing African cheetahs for the sport of "coursing", as their own wild population became too small.
-        </p>
+        <div>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            In c1700 BC, the Egyptians were the first to tame cheetahs. They admired the cheetah for its speed, hunting ability and beauty. They honored cheetahs as symbols of royalty and prestige.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            The swiftest animal on earth became a cherished hunting companion of Pharaohs and royalty throughout Europe, Asia and India. Until the early 1900s, ownership of cheetahs was as important to these nobles as their love for gold. Cheetahs hunt by sight so they excelled in the sport known as "coursing". Hunts organized by royalty and nobles were for the challenge of sport, not for food. Hunts represented power and prestige.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            By the 1500s the popularity of the cheetah as a hunting companion rivaled that of the dog. Cheetahs, the most easily tamed of the big cats, were caught, tamed and trained. Adults were used because cubs had not learned how to hunt. Tamed cheetahs formed a strong bond with their keepers.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Each cheetah rode to the hunt by horseback or on a cart. Its eyes were coved with a hood and uncovered when prey were sighted. The cat was released to chase down the prey then rewarded with meat fed from a wooden spoon.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Although cherished, pampered cheetahs were loved to near extinction and taken from the wild in great numbers. By the early 1900s, India and Iran were importing African cheetahs for the sport of "coursing", as their own wild population became too small.
+          </p>
+        </div>
       </div>
     </div>
   </div>

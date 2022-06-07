@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Aug 07, 2020
- * Updated  : Aug 07, 2020
+ * Updated  : Jun 06, 2022
  */
 
 div.ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor {
@@ -12,13 +12,7 @@ div.ContentPageSubsectionTwoColumnContentTemplateOuterContainer_DebugColor {
 }
 
 div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer_DebugColor {
-  background-color: lightyellow;
-}
-
-div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs_DebugColor {
-  background-color: yellow;
-}
-
-div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs_DebugColor {
-  background-color: orange;
+  background-color: gray;
+  border: 2px solid;
+  border-color: red;
 }

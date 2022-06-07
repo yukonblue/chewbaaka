@@ -16,88 +16,92 @@ exports[`HistoryPageSubsectionCheetahsInArt component snapshot 1`] = `
       className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
     >
       <div
-        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
       >
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          Sumerians (Iraqi ancestors) were the first to use cheetahs in art.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          The cheetah and leopard have often been mistaken for each other. Cheetahs in early art were frequently called "panther" or "hunting leopard". Early artists called the true leopard "pardus" and described it as a cross between a cheetah (panther), and the lion (leo).
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          Middle Age and Renaissance artists began drawing cheetahs and other animals more life-like. During this time of scientific exploration, detailed descriptions of animals provided incentive for reality in art. Artists included cheetahs more often in their paintings as the trade in live animals increased.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          Artists always pictured cheetahs as animals of speed and royalty.
-        </p>
+        <div>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Sumerians (Iraqi ancestors) were the first to use cheetahs in art.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            The cheetah and leopard have often been mistaken for each other. Cheetahs in early art were frequently called "panther" or "hunting leopard". Early artists called the true leopard "pardus" and described it as a cross between a cheetah (panther), and the lion (leo).
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Middle Age and Renaissance artists began drawing cheetahs and other animals more life-like. During this time of scientific exploration, detailed descriptions of animals provided incentive for reality in art. Artists included cheetahs more often in their paintings as the trade in live animals increased.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Artists always pictured cheetahs as animals of speed and royalty.
+          </p>
+        </div>
       </div>
       <div
-        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
       >
-        <div
-          className="Centered FullWidth"
-          style={
-            Object {
-              "width": 451,
-            }
-          }
-        >
+        <div>
           <div
-            className="ImageViewOuterContainer"
+            className="Centered FullWidth"
             style={
               Object {
-                "maxWidth": 451,
+                "width": 451,
               }
             }
           >
             <div
-              className="ImageViewInnerContainer"
+              className="ImageViewOuterContainer"
+              style={
+                Object {
+                  "maxWidth": 451,
+                }
+              }
             >
               <div
-                className="ImageViewImgContainer"
-              >
-                <img
-                  alt="Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli."
-                  className="ImageViewImg"
-                  height={600}
-                  src="cheetah_painting_Renaissance-min.jpg"
-                  width={451}
-                />
-              </div>
-              <div
-                className="ImageViewCaptionContainer"
+                className="ImageViewInnerContainer"
               >
                 <div
-                  className="CaptionContainer"
-                  data-testid="CaptionComponentTestId"
-                  style={
-                    Object {
-                      "maxWidth": 451,
-                    }
-                  }
+                  className="ImageViewImgContainer"
+                >
+                  <img
+                    alt="Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli."
+                    className="ImageViewImg"
+                    height={600}
+                    src="cheetah_painting_Renaissance-min.jpg"
+                    width={451}
+                  />
+                </div>
+                <div
+                  className="ImageViewCaptionContainer"
                 >
                   <div
-                    className="IconContainer"
+                    className="CaptionContainer"
+                    data-testid="CaptionComponentTestId"
+                    style={
+                      Object {
+                        "maxWidth": 451,
+                      }
+                    }
                   >
-                    <i
-                      aria-hidden="true"
-                      className="image icon"
-                      onClick={[Function]}
-                    />
+                    <div
+                      className="IconContainer"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
+                    </div>
+                    <p
+                      className="ContentPageCaptionTextSize CaptionText"
+                    >
+                      Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli.
+                    </p>
                   </div>
-                  <p
-                    className="ContentPageCaptionTextSize CaptionText"
-                  >
-                    Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli.
-                  </p>
                 </div>
               </div>
             </div>

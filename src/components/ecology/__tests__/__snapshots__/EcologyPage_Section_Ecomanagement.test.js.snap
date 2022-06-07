@@ -860,112 +860,116 @@ exports[`EcologyPageSectionEcomanagement component snapshot 1`] = `
             className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
           >
             <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
             >
-              <div
-                className="ImageViewOuterContainer"
-                style={
-                  Object {
-                    "maxWidth": 640,
-                  }
-                }
-              >
+              <div>
                 <div
-                  className="ImageViewInnerContainer"
+                  className="ImageViewOuterContainer"
+                  style={
+                    Object {
+                      "maxWidth": 640,
+                    }
+                  }
                 >
                   <div
-                    className="ImageViewImgContainer"
-                  >
-                    <img
-                      alt="Bushblok is produced at CCF from the waste product of habitat restoration."
-                      className="ImageViewImg"
-                      height={360}
-                      src="CCF_Bushblok_01-min.jpg"
-                      width={640}
-                    />
-                  </div>
-                  <div
-                    className="ImageViewCaptionContainer"
+                    className="ImageViewInnerContainer"
                   >
                     <div
-                      className="CaptionContainer"
-                      data-testid="CaptionComponentTestId"
-                      style={
-                        Object {
-                          "maxWidth": 640,
-                        }
-                      }
+                      className="ImageViewImgContainer"
+                    >
+                      <img
+                        alt="Bushblok is produced at CCF from the waste product of habitat restoration."
+                        className="ImageViewImg"
+                        height={360}
+                        src="CCF_Bushblok_01-min.jpg"
+                        width={640}
+                      />
+                    </div>
+                    <div
+                      className="ImageViewCaptionContainer"
                     >
                       <div
-                        className="IconContainer"
+                        className="CaptionContainer"
+                        data-testid="CaptionComponentTestId"
+                        style={
+                          Object {
+                            "maxWidth": 640,
+                          }
+                        }
                       >
-                        <i
-                          aria-hidden="true"
-                          className="image icon"
-                          onClick={[Function]}
-                        />
+                        <div
+                          className="IconContainer"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
+                        </div>
+                        <p
+                          className="ContentPageCaptionTextSize CaptionText"
+                        >
+                          Bushblok is produced at CCF from the waste product of habitat restoration. (Image credit: Cheetah Conservation Fund)
+                        </p>
                       </div>
-                      <p
-                        className="ContentPageCaptionTextSize CaptionText"
-                      >
-                        Bushblok is produced at CCF from the waste product of habitat restoration. (Image credit: Cheetah Conservation Fund)
-                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
             >
-              <div
-                className="ImageViewOuterContainer"
-                style={
-                  Object {
-                    "maxWidth": 640,
-                  }
-                }
-              >
+              <div>
                 <div
-                  className="ImageViewInnerContainer"
+                  className="ImageViewOuterContainer"
+                  style={
+                    Object {
+                      "maxWidth": 640,
+                    }
+                  }
                 >
                   <div
-                    className="ImageViewImgContainer"
-                  >
-                    <img
-                      alt="Bushblok packaging for different markets."
-                      className="ImageViewImg"
-                      height={360}
-                      src="CCF_Bushblok_02-min.jpg"
-                      width={640}
-                    />
-                  </div>
-                  <div
-                    className="ImageViewCaptionContainer"
+                    className="ImageViewInnerContainer"
                   >
                     <div
-                      className="CaptionContainer"
-                      data-testid="CaptionComponentTestId"
-                      style={
-                        Object {
-                          "maxWidth": 640,
-                        }
-                      }
+                      className="ImageViewImgContainer"
+                    >
+                      <img
+                        alt="Bushblok packaging for different markets."
+                        className="ImageViewImg"
+                        height={360}
+                        src="CCF_Bushblok_02-min.jpg"
+                        width={640}
+                      />
+                    </div>
+                    <div
+                      className="ImageViewCaptionContainer"
                     >
                       <div
-                        className="IconContainer"
+                        className="CaptionContainer"
+                        data-testid="CaptionComponentTestId"
+                        style={
+                          Object {
+                            "maxWidth": 640,
+                          }
+                        }
                       >
-                        <i
-                          aria-hidden="true"
-                          className="image icon"
-                          onClick={[Function]}
-                        />
+                        <div
+                          className="IconContainer"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
+                        </div>
+                        <p
+                          className="ContentPageCaptionTextSize CaptionText"
+                        >
+                          Bushblok packaging for different markets. (Image credit: Cheetah Conservation Fund)
+                        </p>
                       </div>
-                      <p
-                        className="ContentPageCaptionTextSize CaptionText"
-                      >
-                        Bushblok packaging for different markets. (Image credit: Cheetah Conservation Fund)
-                      </p>
                     </div>
                   </div>
                 </div>

@@ -30,78 +30,82 @@ exports[`FuturePageSubsectionCheetahAmbassadors component snapshot 1`] = `
           className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
         >
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
           >
-            <div
-              className="FuturePageCheetahAndManImageSubsectionContentTextContainer"
-            >
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            <div>
+              <div
+                className="FuturePageCheetahAndManImageSubsectionContentTextContainer"
               >
-                Hi there, my name is Chewbaaka. I was named after an animal in a movie. I have lived at CCF since I was 3 weeks old. I am their cheetah ambassador and I get to meet many people. The staff at CCF tell everyone about me and all the wild cheetahs. I have a special place where I can run like the wind.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                Chewbaaka played a big part in CCF’s rewilding program by helping farmers understand more about how special cheetahs are and that their survival is in the farmers’ hands. He brought a calming presence to the Namibian farmers he met when they visited CCF. During Chewbaaka’s 16 years, he met thousands of farmers and school learners.
-              </p>
-              <p
-                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-              >
-                Without farmer support, CCF wouldn't be able to release cheetahs back into the wild. By helping people live alongside predators CCF is helping save the cheetah and its ecosystem.
-              </p>
-              <div>
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                >
+                  Hi there, my name is Chewbaaka. I was named after an animal in a movie. I have lived at CCF since I was 3 weeks old. I am their cheetah ambassador and I get to meet many people. The staff at CCF tell everyone about me and all the wild cheetahs. I have a special place where I can run like the wind.
+                </p>
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                >
+                  Chewbaaka played a big part in CCF’s rewilding program by helping farmers understand more about how special cheetahs are and that their survival is in the farmers’ hands. He brought a calming presence to the Namibian farmers he met when they visited CCF. During Chewbaaka’s 16 years, he met thousands of farmers and school learners.
+                </p>
+                <p
+                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+                >
+                  Without farmer support, CCF wouldn't be able to release cheetahs back into the wild. By helping people live alongside predators CCF is helping save the cheetah and its ecosystem.
+                </p>
                 <div>
-                  <a
-                    href="https://www.youtube.com/watch?v=WYjeEG06cjc"
-                  >
-                    <button
-                      className="ui blue icon button"
-                      onClick={[Function]}
+                  <div>
+                    <a
+                      href="https://www.youtube.com/watch?v=WYjeEG06cjc"
                     >
-                      Watch "Walking with Chewbaaka" on YouTube
-                      <i
-                        aria-hidden="true"
-                        className="file video icon"
+                      <button
+                        className="ui blue icon button"
                         onClick={[Function]}
-                      />
-                    </button>
-                  </a>
+                      >
+                        Watch "Walking with Chewbaaka" on YouTube
+                        <i
+                          aria-hidden="true"
+                          className="file video icon"
+                          onClick={[Function]}
+                        />
+                      </button>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
           >
-            <div
-              className="ui card"
-              onClick={[Function]}
-            >
-              <img
-                className="ui image"
-                src="Chewbaaka-min.jpg"
-              />
+            <div>
               <div
-                className="content"
+                className="ui card"
+                onClick={[Function]}
               >
+                <img
+                  className="ui image"
+                  src="Chewbaaka-min.jpg"
+                />
                 <div
-                  className="header"
+                  className="content"
                 >
-                  Chewbaaka
-                </div>
-                <div
-                  className="meta"
-                >
-                  <span>
-                    Joined Cheetah Conservation Fund in 
-                    1996
-                  </span>
-                </div>
-                <div
-                  className="description"
-                >
-                  Chewbaaka was a parnter of Dr. Laurie Marker and together they have worked to educate and inspire tens of thousands of children and farmers across Namibia. Chewbaaka was a living demonstration that wildlife and people can coexist together peacefully and harmoniously.
+                  <div
+                    className="header"
+                  >
+                    Chewbaaka
+                  </div>
+                  <div
+                    className="meta"
+                  >
+                    <span>
+                      Joined Cheetah Conservation Fund in 
+                      1996
+                    </span>
+                  </div>
+                  <div
+                    className="description"
+                  >
+                    Chewbaaka was a parnter of Dr. Laurie Marker and together they have worked to educate and inspire tens of thousands of children and farmers across Namibia. Chewbaaka was a living demonstration that wildlife and people can coexist together peacefully and harmoniously.
+                  </div>
                 </div>
               </div>
             </div>
@@ -124,48 +128,52 @@ exports[`FuturePageSubsectionCheetahAmbassadors component snapshot 1`] = `
           className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
         >
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
           >
-            <div
-              className="ui card"
-              onClick={[Function]}
-            >
-              <img
-                className="ui image"
-                src="Mekondyo-min.jpg"
-              />
+            <div>
               <div
-                className="content"
+                className="ui card"
+                onClick={[Function]}
               >
+                <img
+                  className="ui image"
+                  src="Mekondyo-min.jpg"
+                />
                 <div
-                  className="header"
+                  className="content"
                 >
-                  Mekondyo
-                </div>
-                <div
-                  className="meta"
-                >
-                  <span>
-                    Joined Cheetah Conservation Fund in 
-                    1998
-                  </span>
-                </div>
-                <div
-                  className="description"
-                >
-                  Mekondyo means "struggle" in the Oshiwambo language.
+                  <div
+                    className="header"
+                  >
+                    Mekondyo
+                  </div>
+                  <div
+                    className="meta"
+                  >
+                    <span>
+                      Joined Cheetah Conservation Fund in 
+                      1998
+                    </span>
+                  </div>
+                  <div
+                    className="description"
+                  >
+                    Mekondyo means "struggle" in the Oshiwambo language.
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
           >
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Hello, my name is Mekondyo. Mekondyo means "struggle" in the Oshiwambo language. I was born on a farm north of Otjiwarongo but I now live on farmland west of Otjiwarongo. It is very beautiful. I can see the Waterberg Plateau far away. I am 5 years old now and I will tell you my story as you explore this museum.
-            </p>
+            <div>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                Hello, my name is Mekondyo. Mekondyo means "struggle" in the Oshiwambo language. I was born on a farm north of Otjiwarongo but I now live on farmland west of Otjiwarongo. It is very beautiful. I can see the Waterberg Plateau far away. I am 5 years old now and I will tell you my story as you explore this museum.
+              </p>
+            </div>
           </div>
         </div>
       </div>

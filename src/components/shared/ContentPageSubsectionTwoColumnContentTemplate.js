@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 18, 2020
+ * Updated  : Jun 06, 2022
  */
 
 import React from 'react'
@@ -29,19 +29,19 @@ export default class ContentPageSubsectionTwoColumnContentTemplate extends React
     return (
       <div className={getElementStyleClassName("ContentPageSubsectionTwoColumnContentTemplateOuterContainer")}>
         <div className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer">
-          <div className={getElementStyleClassNames(["ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer",
-                                                    "ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"])}
+          <div className={getElementStyleClassName("ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer")}
           >
-            {this.renderOptionalColumnSubtitlePart(this.props.lhsColumn.title)}
-
-            {this.props.lhsColumn.content}
+            <div>
+              {this.renderOptionalColumnSubtitlePart(this.props.lhsColumn.title)}
+              {this.props.lhsColumn.content}
+            </div>
           </div>
-          <div className={getElementStyleClassNames(["ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer",
-                                                    "ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"])}
+          <div className={getElementStyleClassName("ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer")}
           >
-            {this.renderOptionalColumnSubtitlePart(this.props.rhsColumn.title)}
-
-            {this.props.rhsColumn.content}
+            <div>
+              {this.renderOptionalColumnSubtitlePart(this.props.rhsColumn.title)}
+              {this.props.rhsColumn.content}
+            </div>
           </div>
         </div>
       </div>
