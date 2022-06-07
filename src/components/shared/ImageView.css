@@ -4,14 +4,15 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 09, 2020
+ * Updated  : Jun 06, 2022
  */
 
-div.ImageViewOuterContainer {
-}
-
-div.ImageViewImgContainer {
-  filter: drop-shadow(1px 1px 1px #222);
+div.ImageViewInnerContainer {
+  border-radius: 15px 15px 15px 15px;
+  background-color: white;
+  filter: drop-shadow(2px 3px 7px #222);
+  background: rgb(249,248,248);
+  background: linear-gradient(0deg, rgba(249,248,248,1) 0%, rgba(255,255,251,1) 19%, rgba(255,253,247,1) 100%); 
 }
 
 img.ImageViewImg {
@@ -19,8 +20,9 @@ img.ImageViewImg {
   object-fit: contain;
   max-width: 100%;
   height: auto;
+  border-radius: 15px 15px 0px 0px;
 }
 
 div.ImageViewCaptionContainer {
-  margin-top: 5px;
+  padding: 10px; 
 }
