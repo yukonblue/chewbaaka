@@ -122,57 +122,61 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
           className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
         >
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
           >
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Namibia is a country with rich biodiversity, as its land spans over five distinct types of biomes.
-            </p>
+            <div>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                Namibia is a country with rich biodiversity, as its land spans over five distinct types of biomes.
+              </p>
+            </div>
           </div>
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
           >
-            <div
-              className="ImageSlideModalCoverTriggerOuterContainer"
-              onBlur={[Function]}
-              onClick={[Function]}
-              onFocus={[Function]}
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
-              style={
-                Object {
-                  "width": 480,
-                }
-              }
-            >
+            <div>
               <div
-                className="ImageSlideModalCoverTriggerInnerContainer"
-                data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
+                className="ImageSlideModalCoverTriggerOuterContainer"
+                onBlur={[Function]}
                 onClick={[Function]}
+                onFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
                 style={
                   Object {
-                    "backgroundImage": "url(biome_savanna-min.jpg)",
-                    "height": 320,
                     "width": 480,
                   }
                 }
               >
                 <div
-                  className="ImageSlideModalCoverTriggerImageIconInnerContainer"
+                  className="ImageSlideModalCoverTriggerInnerContainer"
+                  data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "backgroundImage": "url(biome_savanna-min.jpg)",
+                      "height": 320,
+                      "width": 480,
+                    }
+                  }
                 >
-                  <i
-                    aria-hidden="true"
-                    className="blue images outline huge icon"
-                    onClick={[Function]}
-                  />
+                  <div
+                    className="ImageSlideModalCoverTriggerImageIconInnerContainer"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="blue images outline huge icon"
+                      onClick={[Function]}
+                    />
+                  </div>
                 </div>
+                <p
+                  className="ContentPageCaptionTextSize"
+                >
+                  Click to learn more about the biomes of Namibia.
+                </p>
               </div>
-              <p
-                className="ContentPageCaptionTextSize"
-              >
-                Click to learn more about the biomes of Namibia.
-              </p>
             </div>
           </div>
         </div>

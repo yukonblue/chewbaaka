@@ -29,80 +29,84 @@ exports[`FuturePageSubsectionStoppingIllegalWildlifeTrades component snapshot 1`
           className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
         >
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
           >
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Since 2005, CCF has been actively involved with issues involving the illegal trade of live cheetah cubs. Staff monitor cheetah trafficking activities and organizes confiscations through proper authorities when possible.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              Cheetahs are listed as an Appendix I species under the Convention on International Trade in Endangered Species (CITES). They are poached from the wild for the pet trade and their body parts, which get sold on the markets. Illegal wildlife trafficking is one of the top five transnational crimes, generating an estimated U.S. $50-150 million in illegal revenues annually.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              CCF is taking a leadership role in addressing the illegal pet trade. CCF trains wildlife officers involved in the front lines of trafficking in the Horn of Africa as well as in the Middle East, teaching them proper care for confiscated animals.
-            </p>
-            <p
-              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-            >
-              CCF has built the most extensive database on cheetah trafficking, recording hundreds of trafficking cases going through the Horn of Africa to the Middle East.
-            </p>
+            <div>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                Since 2005, CCF has been actively involved with issues involving the illegal trade of live cheetah cubs. Staff monitor cheetah trafficking activities and organizes confiscations through proper authorities when possible.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                Cheetahs are listed as an Appendix I species under the Convention on International Trade in Endangered Species (CITES). They are poached from the wild for the pet trade and their body parts, which get sold on the markets. Illegal wildlife trafficking is one of the top five transnational crimes, generating an estimated U.S. $50-150 million in illegal revenues annually.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                CCF is taking a leadership role in addressing the illegal pet trade. CCF trains wildlife officers involved in the front lines of trafficking in the Horn of Africa as well as in the Middle East, teaching them proper care for confiscated animals.
+              </p>
+              <p
+                className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+              >
+                CCF has built the most extensive database on cheetah trafficking, recording hundreds of trafficking cases going through the Horn of Africa to the Middle East.
+              </p>
+            </div>
           </div>
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+            className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
           >
-            <div
-              className="ImageViewOuterContainer"
-              style={
-                Object {
-                  "maxWidth": 640,
-                }
-              }
-            >
+            <div>
               <div
-                className="ImageViewInnerContainer"
+                className="ImageViewOuterContainer"
+                style={
+                  Object {
+                    "maxWidth": 640,
+                  }
+                }
               >
                 <div
-                  className="ImageViewImgContainer"
-                >
-                  <img
-                    alt="The heaviest trafficking of cheetahs have been observed from Central and Southern Africa into the Middle East."
-                    className="ImageViewImg"
-                    height={360}
-                    src="cheetah_trafficking_map-min.png"
-                    width={640}
-                  />
-                </div>
-                <div
-                  className="ImageViewCaptionContainer"
+                  className="ImageViewInnerContainer"
                 >
                   <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "maxWidth": 640,
-                      }
-                    }
+                    className="ImageViewImgContainer"
+                  >
+                    <img
+                      alt="The heaviest trafficking of cheetahs have been observed from Central and Southern Africa into the Middle East."
+                      className="ImageViewImg"
+                      height={360}
+                      src="cheetah_trafficking_map-min.png"
+                      width={640}
+                    />
+                  </div>
+                  <div
+                    className="ImageViewCaptionContainer"
                   >
                     <div
-                      className="IconContainer"
+                      className="CaptionContainer"
+                      data-testid="CaptionComponentTestId"
+                      style={
+                        Object {
+                          "maxWidth": 640,
+                        }
+                      }
                     >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
+                      <div
+                        className="IconContainer"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="image icon"
+                          onClick={[Function]}
+                        />
+                      </div>
+                      <p
+                        className="ContentPageCaptionTextSize CaptionText"
+                      >
+                        The heaviest trafficking of cheetahs have been observed from Central and Southern Africa into the Middle East. (Image credit: BBC)
+                      </p>
                     </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      The heaviest trafficking of cheetahs have been observed from Central and Southern Africa into the Middle East. (Image credit: BBC)
-                    </p>
                   </div>
                 </div>
               </div>

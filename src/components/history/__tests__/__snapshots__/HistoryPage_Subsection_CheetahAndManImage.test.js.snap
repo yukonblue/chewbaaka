@@ -16,108 +16,112 @@ exports[`HistoryPageSubsectionCheetahAndManImage component snapshot 1`] = `
       className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
     >
       <div
-        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerLhs"
+        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
       >
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          Traditional African healers and witchdoctors used cheetah foot bones in spiritualistic rituals to symbolize fleet-footedness and speed. They used bones from a wide variety of animals and techniques varied from tribe to tribe. Objects represented a person, a thing or mood from the past, present or future, and are known as Divinatory sets.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          During the time of the Egyptian pharaohs, the cheetah was considered a goddess named "Mafdet". Pharaohs kept cheetahs as close companions, symbolic of Mafdet's protection of the royal throne.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          The San of Southern Africa ate cheetah meat as a symbol for speed, but it was not a main food in their diet.
-        </p>
-        <p
-          className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-        >
-          Kings wore cheetah skins for dignity. Trade in cheetah skin only started after European explorers began requesting them.
-        </p>
+        <div>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Traditional African healers and witchdoctors used cheetah foot bones in spiritualistic rituals to symbolize fleet-footedness and speed. They used bones from a wide variety of animals and techniques varied from tribe to tribe. Objects represented a person, a thing or mood from the past, present or future, and are known as Divinatory sets.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            During the time of the Egyptian pharaohs, the cheetah was considered a goddess named "Mafdet". Pharaohs kept cheetahs as close companions, symbolic of Mafdet's protection of the royal throne.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            The San of Southern Africa ate cheetah meat as a symbol for speed, but it was not a main food in their diet.
+          </p>
+          <p
+            className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+          >
+            Kings wore cheetah skins for dignity. Trade in cheetah skin only started after European explorers began requesting them.
+          </p>
+        </div>
       </div>
       <div
-        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainerRhs"
+        className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
       >
-        <div
-          className="ImageSlidingGalleryOuterContainer"
-          style={
-            Object {
-              "maxWidth": undefined,
-            }
-          }
-        >
+        <div>
           <div
-            className="ImageSlidingGalleryCoreContainer"
+            className="ImageSlidingGalleryOuterContainer"
+            style={
+              Object {
+                "maxWidth": undefined,
+              }
+            }
           >
-            <img
-              alt="Mafdet’s head on the bed where the mummy is placed."
-              className="ImageSlidingGalleryImgPart"
-              height={320}
-              src="image_Mafdet-min.jpg"
-              width={480}
-            />
             <div
-              className="ImageSlidingGalleryButtonContainer"
+              className="ImageSlidingGalleryCoreContainer"
             >
+              <img
+                alt="Mafdet’s head on the bed where the mummy is placed."
+                className="ImageSlidingGalleryImgPart"
+                height={320}
+                src="image_Mafdet-min.jpg"
+                width={480}
+              />
               <div
-                aria-label="Previous slide"
-                className="ui blue huge icon left attached disabled button"
-                onClick={[Function]}
-                role="button"
-                tabIndex={-1}
+                className="ImageSlidingGalleryButtonContainer"
               >
-                <i
-                  aria-hidden="true"
-                  className="arrow alternate circle left outline icon"
+                <div
+                  aria-label="Previous slide"
+                  className="ui blue huge icon left attached disabled button"
                   onClick={[Function]}
-                />
-              </div>
-              <div
-                aria-label="Next slide"
-                className="ui blue huge icon right attached button"
-                onClick={[Function]}
-                role="button"
-                tabIndex={0}
-              >
-                <i
-                  aria-hidden="true"
-                  className="arrow alternate circle right outline icon"
+                  role="button"
+                  tabIndex={-1}
+                >
+                  <i
+                    aria-hidden="true"
+                    className="arrow alternate circle left outline icon"
+                    onClick={[Function]}
+                  />
+                </div>
+                <div
+                  aria-label="Next slide"
+                  className="ui blue huge icon right attached button"
                   onClick={[Function]}
-                />
+                  role="button"
+                  tabIndex={0}
+                >
+                  <i
+                    aria-hidden="true"
+                    className="arrow alternate circle right outline icon"
+                    onClick={[Function]}
+                  />
+                </div>
               </div>
             </div>
-          </div>
-          <div
-            className="ImageSlidingGalleryCaptionPart"
-            data-testid="ImageSlidingGalleryCaptionPart"
-          >
             <div
-              className="CaptionContainer"
-              data-testid="CaptionComponentTestId"
-              style={
-                Object {
-                  "maxWidth": undefined,
-                }
-              }
+              className="ImageSlidingGalleryCaptionPart"
+              data-testid="ImageSlidingGalleryCaptionPart"
             >
               <div
-                className="IconContainer"
+                className="CaptionContainer"
+                data-testid="CaptionComponentTestId"
+                style={
+                  Object {
+                    "maxWidth": undefined,
+                  }
+                }
               >
-                <i
-                  aria-hidden="true"
-                  className="image icon"
-                  onClick={[Function]}
-                />
+                <div
+                  className="IconContainer"
+                >
+                  <i
+                    aria-hidden="true"
+                    className="image icon"
+                    onClick={[Function]}
+                  />
+                </div>
+                <p
+                  className="ContentPageCaptionTextSize CaptionText"
+                >
+                  Mafdet’s head on the bed where the mummy is placed.
+                </p>
               </div>
-              <p
-                className="ContentPageCaptionTextSize CaptionText"
-              >
-                Mafdet’s head on the bed where the mummy is placed.
-              </p>
             </div>
           </div>
         </div>
