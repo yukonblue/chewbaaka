@@ -21,6 +21,8 @@ div.ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer {
   flex: 1;  /* for parent container */
   display: flex; /* for horizontally centering children */
   justify-content: center; /* for horizontally centering children */
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 @media (max-width: 1023px) {
