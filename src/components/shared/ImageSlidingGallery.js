@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 23, 2021
+ * Updated  : Jun 07, 2022
  */
 
 /**
@@ -39,6 +39,8 @@ import Caption from './Caption'
 import { getFormattedImageCaptionStringWithCredit } from './ImageCaptionUtils'
 
 import './ImageSlidingGallery.css'
+
+import './Design2.css'
 
 if ( process.env.NODE_ENV === 'development' )
   require('./ImageSlidingGallery-debug.css')
@@ -82,23 +84,24 @@ export default class ImageSlidingGallery extends React.Component {
         className={getElementStyleClassName("ImageSlidingGalleryOuterContainer")}
         style={componentOuterContainerDimension}
       >
-        <div className={getElementStyleClassName("ImageSlidingGalleryCoreContainer")}>
-          <img
-            className="ImageSlidingGalleryImgPart"
-            src={activeSlide.image}
-            alt={caption}
-            width={aspectRatio.width}
-            height={aspectRatio.height}
-          />
-          {this.renderPrevNextButtonGroup()}
-        </div>
-        <div
-            className="ImageSlidingGalleryCaptionPart"
-            data-testid="ImageSlidingGalleryCaptionPart"
-          >
-            <Caption
-              caption={caption}
+        <div className="ImageSlidingGalleryCoreContainer">
+          <div className="ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles">
+            <img
+              className="ImageSlidingGalleryImgPart ImageViewFamilyImgBorderStyles"
+              src={activeSlide.image}
+              alt={caption}
+              width={aspectRatio.width}
+              height={aspectRatio.height}
             />
+            <div className="ImageViewFamilyCaptionContainerStyles"
+              data-testid="ImageSlidingGalleryCaptionPart"
+            >
+              <Caption
+                caption={caption}
+              />
+            </div>
+          </div>
+          {this.renderPrevNextButtonGroup()}
         </div>
       </div>
     );

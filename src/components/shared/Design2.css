@@ -1,0 +1,38 @@
+/**
+ * Design2.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jun 07, 2022
+ * Updated  : Jun 07, 2022
+ */
+
+/*******************************************************************************
+
+Shared styles for Image View like views
+including as `ImageView`, `ImageSlidingGallery`, and `ImageSlidingGalleryDiscrete`
+
+*******************************************************************************/
+
+div.ImageViewFamilyContainerBorderStyles {
+  border-radius: 15px 15px 15px 15px;
+  filter: drop-shadow(2px 3px 7px #222);
+}
+
+div.ImageViewFamilyContainerBackgroundStyles {
+  background-color: white;
+  background: rgb(249,248,248);
+  background: linear-gradient(0deg, rgba(249,248,248,1) 0%, rgba(255,255,251,1) 19%, rgba(255,253,247,1) 100%); 
+}
+
+div.ImageViewFamilyContainerShadowStyles {
+  filter: drop-shadow(2px 3px 7px #222);
+}
+
+div.ImageViewFamilyCaptionContainerStyles {
+  padding: 10px;
+}
+
+img.ImageViewFamilyImgBorderStyles {
+  border-radius: 15px 15px 0px 0px;
+}

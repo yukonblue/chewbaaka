@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 23, 2020
+ * Updated  : Jun 07, 2022
  */
 
 /**
@@ -44,6 +44,8 @@ import { getFormattedImageCaptionStringWithCredit}  from './ImageCaptionUtils'
 
 import './ImageView.css'
 
+import './Design2.css'
+
 if ( process.env.NODE_ENV === 'development' )
   require('./ImageView-debug.css')
 
@@ -65,10 +67,10 @@ export default function ImageView({ image, caption, credit, width, height }) {
       className={getElementStyleClassName("ImageViewOuterContainer")}
       style={componentOuterContainerDimension}
     >
-      <div className="ImageViewInnerContainer">
+      <div className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles">
         <div className="ImageViewImgContainer">
           <img
-            className="ImageViewImg"
+            className="ImageViewImg ImageViewFamilyImgBorderStyles"
             src={image}
             alt={caption}
             // Specify the aspect ratio
@@ -76,7 +78,7 @@ export default function ImageView({ image, caption, credit, width, height }) {
             height={aspectRatio.height}
           />
         </div>
-        <div className="ImageViewCaptionContainer">
+        <div className="ImageViewCaptionContainer ImageViewFamilyCaptionContainerStyles">
           <Caption
             caption={formattedCaption}
             width={width}

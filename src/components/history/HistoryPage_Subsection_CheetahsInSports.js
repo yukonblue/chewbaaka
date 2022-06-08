@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Aug 23, 2020
+ * Updated  : Jun 07, 2022
  */
 
 import React from 'react'
@@ -60,7 +60,7 @@ export default class HistoryPageSubsectionCheetahsInSports extends React.Compone
             image: image_cheetah_with_two_indian_servants,
             caption: "A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799.",
             aspectRatio: {
-              width: 480,
+              width: 485,
               height: 317
             }
           },
