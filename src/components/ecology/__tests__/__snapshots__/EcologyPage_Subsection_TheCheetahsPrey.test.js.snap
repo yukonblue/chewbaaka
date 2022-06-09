@@ -118,21 +118,21 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
                 }
               >
                 <div
-                  className="ImageViewInnerContainer"
+                  className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
                 >
                   <div
                     className="ImageViewImgContainer"
                   >
                     <img
                       alt="Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest."
-                      className="ImageViewImg"
+                      className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                       height={360}
                       src="cheetah_coalition_hunting-min.jpg"
                       width={640}
                     />
                   </div>
                   <div
-                    className="ImageViewCaptionContainer"
+                    className="ImageViewFamilyCaptionContainerStyles"
                   >
                     <div
                       className="CaptionContainer"
@@ -176,21 +176,21 @@ exports[`EcologyPageSubsectionTheCheetahsPrey component snapshot 1`] = `
                 }
               >
                 <div
-                  className="ImageViewInnerContainer"
+                  className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
                 >
                   <div
                     className="ImageViewImgContainer"
                   >
                     <img
                       alt="One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch."
-                      className="ImageViewImg"
+                      className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                       height={360}
                       src="cheetah_go_after_gazelle-min.jpg"
                       width={640}
                     />
                   </div>
                   <div
-                    className="ImageViewCaptionContainer"
+                    className="ImageViewFamilyCaptionContainerStyles"
                   >
                     <div
                       className="CaptionContainer"

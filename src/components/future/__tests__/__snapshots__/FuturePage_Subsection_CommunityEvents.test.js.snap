@@ -25,21 +25,21 @@ exports[`FuturePageSubsectionCommunityEvents component snapshot 1`] = `
           }
         >
           <div
-            className="ImageViewInnerContainer"
+            className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
           >
             <div
               className="ImageViewImgContainer"
             >
               <img
                 alt="CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program."
-                className="ImageViewImg"
+                className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                 height={577}
                 src="CCF_Livelihood_Development_L-min.jpg"
                 width={960}
               />
             </div>
             <div
-              className="ImageViewCaptionContainer"
+              className="ImageViewFamilyCaptionContainerStyles"
             >
               <div
                 className="CaptionContainer"

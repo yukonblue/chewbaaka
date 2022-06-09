@@ -24,21 +24,21 @@ exports[`BiologyPageSubsectionLearningToHunt component snapshot 1`] = `
         }
       >
         <div
-          className="ImageViewInnerContainer"
+          className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
         >
           <div
             className="ImageViewImgContainer"
           >
             <img
               alt="Cheetah cubs learning how to hunt."
-              className="ImageViewImg"
+              className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
               height={320}
               src="cheetah_cubs_learning_hunting-min.jpg"
               width={480}
             />
           </div>
           <div
-            className="ImageViewCaptionContainer"
+            className="ImageViewFamilyCaptionContainerStyles"
           >
             <div
               className="CaptionContainer"

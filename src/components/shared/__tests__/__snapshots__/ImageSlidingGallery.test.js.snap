@@ -12,13 +12,46 @@ exports[`ImageSlidingGallery component snapshot 1`] = `
   <div
     className="ImageSlidingGalleryCoreContainer"
   >
-    <img
-      alt="Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words"
-      className="ImageSlidingGalleryImgPart"
-      height={900}
-      src=""
-      width={1600}
-    />
+    <div
+      className="ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
+    >
+      <img
+        alt="Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words"
+        className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
+        height={900}
+        src=""
+        width={1600}
+      />
+      <div
+        className="ImageViewFamilyCaptionContainerStyles"
+        data-testid="ImageSlidingGalleryCaptionPart"
+      >
+        <div
+          className="CaptionContainer"
+          data-testid="CaptionComponentTestId"
+          style={
+            Object {
+              "maxWidth": undefined,
+            }
+          }
+        >
+          <div
+            className="IconContainer"
+          >
+            <i
+              aria-hidden="true"
+              className="image icon"
+              onClick={[Function]}
+            />
+          </div>
+          <p
+            className="ContentPageCaptionTextSize CaptionText"
+          >
+            Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words
+          </p>
+        </div>
+      </div>
+    </div>
     <div
       className="ImageSlidingGalleryButtonContainer"
     >
@@ -48,35 +81,6 @@ exports[`ImageSlidingGallery component snapshot 1`] = `
           onClick={[Function]}
         />
       </div>
-    </div>
-  </div>
-  <div
-    className="ImageSlidingGalleryCaptionPart"
-    data-testid="ImageSlidingGalleryCaptionPart"
-  >
-    <div
-      className="CaptionContainer"
-      data-testid="CaptionComponentTestId"
-      style={
-        Object {
-          "maxWidth": undefined,
-        }
-      }
-    >
-      <div
-        className="IconContainer"
-      >
-        <i
-          aria-hidden="true"
-          className="image icon"
-          onClick={[Function]}
-        />
-      </div>
-      <p
-        className="ContentPageCaptionTextSize CaptionText"
-      >
-        Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words
-      </p>
     </div>
   </div>
 </div>

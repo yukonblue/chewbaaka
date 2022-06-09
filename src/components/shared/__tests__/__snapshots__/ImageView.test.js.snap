@@ -10,21 +10,21 @@ exports[`ImageView component snapshot 1`] = `
   }
 >
   <div
-    className="ImageViewInnerContainer"
+    className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
   >
     <div
       className="ImageViewImgContainer"
     >
       <img
         alt="This is a caption"
-        className="ImageViewImg"
+        className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
         height={640}
         src="somesite.com/image.png"
         width={640}
       />
     </div>
     <div
-      className="ImageViewCaptionContainer"
+      className="ImageViewFamilyCaptionContainerStyles"
     >
       <div
         className="CaptionContainer"
@@ -65,21 +65,21 @@ exports[`ImageView component with image credit string snapshot 1`] = `
   }
 >
   <div
-    className="ImageViewInnerContainer"
+    className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
   >
     <div
       className="ImageViewImgContainer"
     >
       <img
         alt="This is a caption"
-        className="ImageViewImg"
+        className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
         height={640}
         src="somesite.com/image.png"
         width={640}
       />
     </div>
     <div
-      className="ImageViewCaptionContainer"
+      className="ImageViewFamilyCaptionContainerStyles"
     >
       <div
         className="CaptionContainer"

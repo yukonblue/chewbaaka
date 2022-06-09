@@ -24,21 +24,21 @@ exports[`BiologyPageSubsectionLifecycleStage1 component snapshot 1`] = `
         }
       >
         <div
-          className="ImageViewInnerContainer"
+          className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
         >
           <div
             className="ImageViewImgContainer"
           >
             <img
               alt="Cheetah cubs are born blind, so they need their mother's care."
-              className="ImageViewImg"
+              className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
               height={480}
               src="cheetah_mom_carry_cub-min.jpg"
               width={320}
             />
           </div>
           <div
-            className="ImageViewCaptionContainer"
+            className="ImageViewFamilyCaptionContainerStyles"
           >
             <div
               className="CaptionContainer"

@@ -30,13 +30,46 @@ exports[`HistoryPageSubsectionCheetahsInSports component snapshot 1`] = `
             <div
               className="ImageSlidingGalleryCoreContainer"
             >
-              <img
-                alt="A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799."
-                className="ImageSlidingGalleryImgPart"
-                height={317}
-                src="cheetah_with_two_indian_servants-min.jpg"
-                width={480}
-              />
+              <div
+                className="ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
+              >
+                <img
+                  alt="A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799."
+                  className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
+                  height={317}
+                  src="cheetah_with_two_indian_servants-min.jpg"
+                  width={485}
+                />
+                <div
+                  className="ImageViewFamilyCaptionContainerStyles"
+                  data-testid="ImageSlidingGalleryCaptionPart"
+                >
+                  <div
+                    className="CaptionContainer"
+                    data-testid="CaptionComponentTestId"
+                    style={
+                      Object {
+                        "maxWidth": undefined,
+                      }
+                    }
+                  >
+                    <div
+                      className="IconContainer"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
+                    </div>
+                    <p
+                      className="ContentPageCaptionTextSize CaptionText"
+                    >
+                      A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799.
+                    </p>
+                  </div>
+                </div>
+              </div>
               <div
                 className="ImageSlidingGalleryButtonContainer"
               >
@@ -66,35 +99,6 @@ exports[`HistoryPageSubsectionCheetahsInSports component snapshot 1`] = `
                     onClick={[Function]}
                   />
                 </div>
-              </div>
-            </div>
-            <div
-              className="ImageSlidingGalleryCaptionPart"
-              data-testid="ImageSlidingGalleryCaptionPart"
-            >
-              <div
-                className="CaptionContainer"
-                data-testid="CaptionComponentTestId"
-                style={
-                  Object {
-                    "maxWidth": undefined,
-                  }
-                }
-              >
-                <div
-                  className="IconContainer"
-                >
-                  <i
-                    aria-hidden="true"
-                    className="image icon"
-                    onClick={[Function]}
-                  />
-                </div>
-                <p
-                  className="ContentPageCaptionTextSize CaptionText"
-                >
-                  A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799.
-                </p>
               </div>
             </div>
           </div>

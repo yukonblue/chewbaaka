@@ -197,21 +197,21 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
                   }
                 >
                   <div
-                    className="ImageViewInnerContainer"
+                    className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
                   >
                     <div
                       className="ImageViewImgContainer"
                     >
                       <img
                         alt="The heaviest trafficking of cheetahs have been observed from Central and Southern Africa into the Middle East."
-                        className="ImageViewImg"
+                        className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                         height={360}
                         src="cheetah_trafficking_map-min.png"
                         width={640}
                       />
                     </div>
                     <div
-                      className="ImageViewCaptionContainer"
+                      className="ImageViewFamilyCaptionContainerStyles"
                     >
                       <div
                         className="CaptionContainer"
@@ -286,7 +286,7 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
             }
           >
             <div
-              className="ImageSlidingGalleryDiscreteInnerContainer"
+              className="ImageSlidingGalleryDiscreteInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
               style={
                 Object {
                   "width": 960,
@@ -298,7 +298,7 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
               >
                 <img
                   alt="Most cheetah cubs trafficked and sold end up as buyers' pets. The cubs consequently suffer from shock, malnourishment, and unsuitable living conditions."
-                  className="ImageSlidingGalleryDiscreteImgPart"
+                  className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                   height={576}
                   src="cheetah_rescue_01-min.jpg"
                   width={960}
@@ -337,7 +337,7 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
                 </div>
               </div>
               <div
-                className="ImageSlidingGalleryDiscreteCaptionPart"
+                className="ImageViewFamilyCaptionContainerStyles"
                 data-testid="ImageSlidingGalleryDiscreteCaptionPart"
               >
                 <div
@@ -365,37 +365,37 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
                   </p>
                 </div>
               </div>
+            </div>
+            <div
+              className="ImageSlidingGalleryDiscreteButtonGroupContainer"
+            >
               <div
-                className="ImageSlidingGalleryDiscreteButtonGroupContainer"
+                className="ui buttons"
               >
-                <div
-                  className="ui buttons"
+                <button
+                  className="ui yellow huge button"
+                  onClick={[Function]}
                 >
-                  <button
-                    className="ui yellow huge button"
-                    onClick={[Function]}
-                  >
-                    1
-                  </button>
-                  <button
-                    className="ui blue huge button"
-                    onClick={[Function]}
-                  >
-                    2
-                  </button>
-                  <button
-                    className="ui blue huge button"
-                    onClick={[Function]}
-                  >
-                    3
-                  </button>
-                  <button
-                    className="ui blue huge button"
-                    onClick={[Function]}
-                  >
-                    4
-                  </button>
-                </div>
+                  1
+                </button>
+                <button
+                  className="ui blue huge button"
+                  onClick={[Function]}
+                >
+                  2
+                </button>
+                <button
+                  className="ui blue huge button"
+                  onClick={[Function]}
+                >
+                  3
+                </button>
+                <button
+                  className="ui blue huge button"
+                  onClick={[Function]}
+                >
+                  4
+                </button>
               </div>
             </div>
           </div>

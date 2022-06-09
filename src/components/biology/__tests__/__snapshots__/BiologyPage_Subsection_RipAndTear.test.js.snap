@@ -24,21 +24,21 @@ exports[`BiologyPage_Subsection_RipAndTear component snapshot 1`] = `
         }
       >
         <div
-          className="ImageViewInnerContainer"
+          className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
         >
           <div
             className="ImageViewImgContainer"
           >
             <img
               alt="The three types of teeth of the cheetah: the incisors, canines, and carnassial."
-              className="ImageViewImg"
+              className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
               height={505}
               src="cheetah_teeth-min.jpg"
               width={640}
             />
           </div>
           <div
-            className="ImageViewCaptionContainer"
+            className="ImageViewFamilyCaptionContainerStyles"
           >
             <div
               className="CaptionContainer"

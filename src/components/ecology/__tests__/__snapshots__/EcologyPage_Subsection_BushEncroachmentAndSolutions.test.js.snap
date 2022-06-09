@@ -34,21 +34,21 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
               }
             >
               <div
-                className="ImageViewInnerContainer"
+                className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
               >
                 <div
                   className="ImageViewImgContainer"
                 >
                   <img
                     alt="Thickened thorn bush degrades entire habitat and poses problems for all species of animals in that habitat."
-                    className="ImageViewImg"
+                    className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                     height={450}
                     src="bush_encroachment-min.jpg"
                     width={600}
                   />
                 </div>
                 <div
-                  className="ImageViewCaptionContainer"
+                  className="ImageViewFamilyCaptionContainerStyles"
                 >
                   <div
                     className="CaptionContainer"
@@ -147,21 +147,21 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
               }
             >
               <div
-                className="ImageViewInnerContainer"
+                className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
               >
                 <div
                   className="ImageViewImgContainer"
                 >
                   <img
                     alt="Cheetahs face even more hardship in bush encroached territories. They have to adapt in every aspect of their life, such as hunting."
-                    className="ImageViewImg"
+                    className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                     height={423}
                     src="Cheetah_Battle_Bush_Encroachment-min.jpg"
                     width={640}
                   />
                 </div>
                 <div
-                  className="ImageViewCaptionContainer"
+                  className="ImageViewFamilyCaptionContainerStyles"
                 >
                   <div
                     className="CaptionContainer"
@@ -331,21 +331,21 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
                 }
               >
                 <div
-                  className="ImageViewInnerContainer"
+                  className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
                 >
                   <div
                     className="ImageViewImgContainer"
                   >
                     <img
                       alt="Bushblok is produced at CCF from the waste product of habitat restoration."
-                      className="ImageViewImg"
+                      className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                       height={360}
                       src="CCF_Bushblok_01-min.jpg"
                       width={640}
                     />
                   </div>
                   <div
-                    className="ImageViewCaptionContainer"
+                    className="ImageViewFamilyCaptionContainerStyles"
                   >
                     <div
                       className="CaptionContainer"
@@ -389,21 +389,21 @@ exports[`EcologyPageSubsectionBushEncroachmentAndSolutions component snapshot 1`
                 }
               >
                 <div
-                  className="ImageViewInnerContainer"
+                  className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
                 >
                   <div
                     className="ImageViewImgContainer"
                   >
                     <img
                       alt="Bushblok packaging for different markets."
-                      className="ImageViewImg"
+                      className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                       height={360}
                       src="CCF_Bushblok_02-min.jpg"
                       width={640}
                     />
                   </div>
                   <div
-                    className="ImageViewCaptionContainer"
+                    className="ImageViewFamilyCaptionContainerStyles"
                   >
                     <div
                       className="CaptionContainer"

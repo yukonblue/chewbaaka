@@ -77,21 +77,21 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
             }
           >
             <div
-              className="ImageViewInnerContainer"
+              className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
             >
               <div
                 className="ImageViewImgContainer"
               >
                 <img
                   alt="Anatolian Shepherd puppies live alongside with the herd."
-                  className="ImageViewImg"
+                  className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                   height={480}
                   src="CCF_anatolian_shepherd_puppies-min.jpg"
                   width={720}
                 />
               </div>
               <div
-                className="ImageViewCaptionContainer"
+                className="ImageViewFamilyCaptionContainerStyles"
               >
                 <div
                   className="CaptionContainer"
@@ -152,21 +152,21 @@ exports[`FuturePageSubsectionLivestockGuardingDogs component snapshot 1`] = `
           }
         >
           <div
-            className="ImageViewInnerContainer"
+            className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
           >
             <div
               className="ImageViewImgContainer"
             >
               <img
                 alt="Established in 1994, 2019 marked the 25th anniversary of CCF's Livestock Guarding Dog program."
-                className="ImageViewImg"
+                className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                 height={299}
                 src="CCF_Year_of_the_LGD-min.jpg"
                 width={1000}
               />
             </div>
             <div
-              className="ImageViewCaptionContainer"
+              className="ImageViewFamilyCaptionContainerStyles"
             >
               <div
                 className="CaptionContainer"

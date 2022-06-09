@@ -24,21 +24,21 @@ exports[`BiologyPageSubsectionFindingMate component snapshot 1`] = `
         }
       >
         <div
-          className="ImageViewInnerContainer"
+          className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
         >
           <div
             className="ImageViewImgContainer"
           >
             <img
               alt="Cheetahs often mark their scent on tree trunks with their urine. This behavior is common among cats."
-              className="ImageViewImg"
+              className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
               height={480}
               src="cheetah_scent_marking-min.jpg"
               width={720}
             />
           </div>
           <div
-            className="ImageViewCaptionContainer"
+            className="ImageViewFamilyCaptionContainerStyles"
           >
             <div
               className="CaptionContainer"

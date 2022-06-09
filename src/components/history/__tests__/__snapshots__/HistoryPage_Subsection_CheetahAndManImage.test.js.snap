@@ -56,13 +56,46 @@ exports[`HistoryPageSubsectionCheetahAndManImage component snapshot 1`] = `
             <div
               className="ImageSlidingGalleryCoreContainer"
             >
-              <img
-                alt="Mafdet’s head on the bed where the mummy is placed."
-                className="ImageSlidingGalleryImgPart"
-                height={320}
-                src="image_Mafdet-min.jpg"
-                width={480}
-              />
+              <div
+                className="ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
+              >
+                <img
+                  alt="Mafdet’s head on the bed where the mummy is placed."
+                  className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
+                  height={320}
+                  src="image_Mafdet-min.jpg"
+                  width={480}
+                />
+                <div
+                  className="ImageViewFamilyCaptionContainerStyles"
+                  data-testid="ImageSlidingGalleryCaptionPart"
+                >
+                  <div
+                    className="CaptionContainer"
+                    data-testid="CaptionComponentTestId"
+                    style={
+                      Object {
+                        "maxWidth": undefined,
+                      }
+                    }
+                  >
+                    <div
+                      className="IconContainer"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="image icon"
+                        onClick={[Function]}
+                      />
+                    </div>
+                    <p
+                      className="ContentPageCaptionTextSize CaptionText"
+                    >
+                      Mafdet’s head on the bed where the mummy is placed.
+                    </p>
+                  </div>
+                </div>
+              </div>
               <div
                 className="ImageSlidingGalleryButtonContainer"
               >
@@ -92,35 +125,6 @@ exports[`HistoryPageSubsectionCheetahAndManImage component snapshot 1`] = `
                     onClick={[Function]}
                   />
                 </div>
-              </div>
-            </div>
-            <div
-              className="ImageSlidingGalleryCaptionPart"
-              data-testid="ImageSlidingGalleryCaptionPart"
-            >
-              <div
-                className="CaptionContainer"
-                data-testid="CaptionComponentTestId"
-                style={
-                  Object {
-                    "maxWidth": undefined,
-                  }
-                }
-              >
-                <div
-                  className="IconContainer"
-                >
-                  <i
-                    aria-hidden="true"
-                    className="image icon"
-                    onClick={[Function]}
-                  />
-                </div>
-                <p
-                  className="ContentPageCaptionTextSize CaptionText"
-                >
-                  Mafdet’s head on the bed where the mummy is placed.
-                </p>
               </div>
             </div>
           </div>

@@ -61,21 +61,21 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
           }
         >
           <div
-            className="ImageViewInnerContainer"
+            className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
           >
             <div
               className="ImageViewImgContainer"
             >
               <img
                 alt="Mantle on cheetah cub's back provides a form of camouflage that's critical to its survival."
-                className="ImageViewImg"
+                className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                 height={360}
                 src="Cheetah_Mantle-min.jpg"
                 width={360}
               />
             </div>
             <div
-              className="ImageViewCaptionContainer"
+              className="ImageViewFamilyCaptionContainerStyles"
             >
               <div
                 className="CaptionContainer"
@@ -125,21 +125,21 @@ exports[`BiologyPageSubsectionSpotsAndStripes component snapshot 1`] = `
             }
           >
             <div
-              className="ImageViewInnerContainer"
+              className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
             >
               <div
                 className="ImageViewImgContainer"
               >
                 <img
                   alt="The cheetah's mantle also provides a form of “mimicry” that it can use to deter predators."
-                  className="ImageViewImg"
+                  className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                   height={360}
                   src="cheetah_and_honey_badger_L-min.jpg"
                   width={720}
                 />
               </div>
               <div
-                className="ImageViewCaptionContainer"
+                className="ImageViewFamilyCaptionContainerStyles"
               >
                 <div
                   className="CaptionContainer"

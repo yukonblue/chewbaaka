@@ -10,7 +10,7 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
   }
 >
   <div
-    className="ImageSlidingGalleryDiscreteInnerContainer"
+    className="ImageSlidingGalleryDiscreteInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
     style={
       Object {
         "width": 100,
@@ -22,7 +22,7 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
     >
       <img
         alt="Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words"
-        className="ImageSlidingGalleryDiscreteImgPart"
+        className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
         height={100}
         src=""
         width={100}
@@ -61,7 +61,7 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
       </div>
     </div>
     <div
-      className="ImageSlidingGalleryDiscreteCaptionPart"
+      className="ImageViewFamilyCaptionContainerStyles"
       data-testid="ImageSlidingGalleryDiscreteCaptionPart"
     >
       <div
@@ -89,25 +89,25 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
         </p>
       </div>
     </div>
+  </div>
+  <div
+    className="ImageSlidingGalleryDiscreteButtonGroupContainer"
+  >
     <div
-      className="ImageSlidingGalleryDiscreteButtonGroupContainer"
+      className="ui buttons"
     >
-      <div
-        className="ui buttons"
+      <button
+        className="ui yellow huge button"
+        onClick={[Function]}
       >
-        <button
-          className="ui yellow huge button"
-          onClick={[Function]}
-        >
-          1
-        </button>
-        <button
-          className="ui blue huge button"
-          onClick={[Function]}
-        >
-          2
-        </button>
-      </div>
+        1
+      </button>
+      <button
+        className="ui blue huge button"
+        onClick={[Function]}
+      >
+        2
+      </button>
     </div>
   </div>
 </div>
