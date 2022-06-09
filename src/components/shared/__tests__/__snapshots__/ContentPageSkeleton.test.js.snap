@@ -91,7 +91,7 @@ exports[`ContentPageSkeleton snapshot 1`] = `
           </div>
         </div>
         <div
-          className="ContentPageSkeletonContentContainerDimension ContentPageBannerContainer"
+          className="ContentPageSkeletonContentContainerDimension ContentPageBannerContainer CommonRoundedBorderRadiusStyle"
           data-testid="ContentPageBannerComponentTestId"
           id="ContentPageBanner"
           style={

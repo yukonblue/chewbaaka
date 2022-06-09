@@ -9,6 +9,16 @@
 
 /*******************************************************************************
 
+Shared styles for all components
+
+*******************************************************************************/
+
+.CommonRoundedBorderRadiusStyle {
+  border-radius: 15px;
+}
+
+/*******************************************************************************
+
 Shared styles for Image View like views
 including as `ImageView`, `ImageSlidingGallery`, and `ImageSlidingGalleryDiscrete`
 

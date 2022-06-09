@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 20, 2021
+ * Updated  : Jun 09, 2022
  */
 
 import React from 'react'
@@ -12,6 +12,12 @@ import React from 'react'
 import Media from 'react-media'
 
 import { getElementStyleClassNames } from '../../styling/styling'
+
+import {
+  Design2CommonRoundedBorderRadiusStyle
+} from './Design2_CommonUtils'
+
+import { combineStyles } from './Utils'
 
 import { GetImagePath } from '../shared/Path'
 
@@ -53,8 +59,8 @@ export default class ContentPageBanner extends React.Component {
 
     return (
       <div
-        className={getElementStyleClassNames(["ContentPageSkeletonContentContainerDimension",
-                                              "ContentPageBannerContainer"])}
+        className={combineStyles(getElementStyleClassNames(["ContentPageSkeletonContentContainerDimension",
+                                                            "ContentPageBannerContainer"]), Design2CommonRoundedBorderRadiusStyle)}
         style={contentPageBannerContainerStyles}
         data-testid="ContentPageBannerComponentTestId"
         id="ContentPageBanner"
