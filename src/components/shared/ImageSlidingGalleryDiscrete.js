@@ -125,10 +125,10 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
           </div>
         </div>
         <div className={getElementStyleClassName("ImageSlidingGalleryDiscreteButtonGroupContainer")}>
-            <Button.Group>
-              {buttonItems}
-            </Button.Group>
-          </div>
+          <Button.Group>
+            {buttonItems}
+          </Button.Group>
+        </div>
       </div>
     );
   }
