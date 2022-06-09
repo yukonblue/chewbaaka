@@ -45,9 +45,10 @@ import { getFormattedImageCaptionStringWithCredit}  from './ImageCaptionUtils'
 import {
   Design2ImageViewFamilyImgStyles,
   Design2ImageViewFamilyContainerStyles,
-  Design2ImageViewFamilyCaptionContainerStyles,
-  combineStyles
+  Design2ImageViewFamilyCaptionContainerStyles
 } from './Design2_ImageViewFamilyUtils'
+
+import { combineStyles } from './Utils'
 
 import './ImageView.css'
 
