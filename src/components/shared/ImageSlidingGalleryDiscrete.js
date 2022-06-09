@@ -101,7 +101,7 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
           style={componentDimensionStyle}
         >
           <div className={getElementStyleClassName("ImageSlidingGalleryDiscreteCoreContainer")}>
-            <img className="ImageSlidingGalleryDiscreteImgPart ImageViewFamilyImgBorderStyles ImageViewFamilyContainerShadowStyles"
+            <img className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
               src={activeSlide.image}
               alt={caption}
               // Specify the aspect ratio

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jun 07, 2022
+ * Updated  : Jun 09, 2022
  */
 
 /**
@@ -87,7 +87,7 @@ export default class ImageSlidingGallery extends React.Component {
         <div className="ImageSlidingGalleryCoreContainer">
           <div className="ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles">
             <img
-              className="ImageSlidingGalleryImgPart ImageViewFamilyImgBorderStyles"
+              className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
               src={activeSlide.image}
               alt={caption}
               width={aspectRatio.width}

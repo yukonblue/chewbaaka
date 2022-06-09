@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jun 07, 2022
+ * Updated  : Jun 09, 2022
  */
 
 /**
@@ -70,7 +70,7 @@ export default function ImageView({ image, caption, credit, width, height }) {
       <div className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles">
         <div className="ImageViewImgContainer">
           <img
-            className="ImageViewImg ImageViewFamilyImgBorderStyles"
+            className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
             src={image}
             alt={caption}
             // Specify the aspect ratio

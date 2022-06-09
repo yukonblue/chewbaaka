@@ -27,11 +27,6 @@ div.ImageSlidingGalleryDiscreteCoreContainer {
   align-items: center;
 }
 
-img.ImageSlidingGalleryDiscreteImgPart {
-  max-width: 100%;
-  height: auto;
-}
-
 div.ImageSlidingGalleryDiscreteButtonGroupContainer {
   display: inline-block;
   margin: 20px auto;

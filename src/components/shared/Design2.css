@@ -36,3 +36,9 @@ div.ImageViewFamilyCaptionContainerStyles {
 img.ImageViewFamilyImgBorderStyles {
   border-radius: 15px 15px 0px 0px;
 }
+
+img.ImageViewFamilyImgLayoutStyles {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}

@@ -4,19 +4,12 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jun 07, 2022
+ * Updated  : Jun 09, 2022
  */
 
 div.ImageSlidingGalleryCoreContainer {
   position: relative;
   padding-left: 55px;
-}
-
-img.ImageSlidingGalleryImgPart {
-  max-width: 100%;
-  height: auto;
-  object-fit: contain;
-  text-align: left;
 }
 
 div.ImageSlidingGalleryButtonContainer {

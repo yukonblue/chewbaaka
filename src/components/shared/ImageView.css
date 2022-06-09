@@ -4,15 +4,8 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jun 07, 2022
+ * Updated  : Jun 09, 2022
  */
-
-img.ImageViewImg {
-  display: block;
-  object-fit: contain;
-  max-width: 100%;
-  height: auto;
-}
 
 div.ImageViewCaptionContainer {
   padding: 10px; 
