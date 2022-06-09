@@ -33,21 +33,21 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
             }
           >
             <div
-              className="ImageViewInnerContainer"
+              className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
             >
               <div
                 className="ImageViewImgContainer"
               >
                 <img
                   alt="A simplified illustration of the food web of a savanna ecosystem."
-                  className="ImageViewImg"
+                  className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                   height={552}
                   src="savanna_food_web-min.jpg"
                   width={640}
                 />
               </div>
               <div
-                className="ImageViewCaptionContainer"
+                className="ImageViewFamilyCaptionContainerStyles"
               >
                 <div
                   className="CaptionContainer"
@@ -130,21 +130,21 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
                 }
               >
                 <div
-                  className="ImageViewInnerContainer"
+                  className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
                 >
                   <div
                     className="ImageViewImgContainer"
                   >
                     <img
                       alt="Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains."
-                      className="ImageViewImg"
+                      className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                       height={269}
                       src="cheetah_hyena_competition-min.jpg"
                       width={483}
                     />
                   </div>
                   <div
-                    className="ImageViewCaptionContainer"
+                    className="ImageViewFamilyCaptionContainerStyles"
                   >
                     <div
                       className="CaptionContainer"
@@ -188,21 +188,21 @@ exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] 
                 }
               >
                 <div
-                  className="ImageViewInnerContainer"
+                  className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
                 >
                   <div
                     className="ImageViewImgContainer"
                   >
                     <img
                       alt="Lions will often take over the cheetah's prey easily as they are superior in strength."
-                      className="ImageViewImg"
+                      className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                       height={360}
                       src="cheetah_lion_competition-min.jpg"
                       width={480}
                     />
                   </div>
                   <div
-                    className="ImageViewCaptionContainer"
+                    className="ImageViewFamilyCaptionContainerStyles"
                   >
                     <div
                       className="CaptionContainer"

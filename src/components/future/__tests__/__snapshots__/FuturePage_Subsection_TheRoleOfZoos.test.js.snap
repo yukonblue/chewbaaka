@@ -47,21 +47,21 @@ exports[`FuturePageSubsectionTheRoleOfZoos component snapshot 1`] = `
             }
           >
             <div
-              className="ImageViewInnerContainer"
+              className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
             >
               <div
                 className="ImageViewImgContainer"
               >
                 <img
                   alt="In 2009, Cincinnati Zoo's cheetah Sarah set the record of the world's fastest cheetah, as she sprant 100m in just 6.13 seconds. The best record for 100m by humans was from Usain Bolt, finishing in 9.58 seconds."
-                  className="ImageViewImg"
+                  className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                   height={406}
                   src="cincinnati_zoo_cheetah_sarah-min.jpg"
                   width={720}
                 />
               </div>
               <div
-                className="ImageViewCaptionContainer"
+                className="ImageViewFamilyCaptionContainerStyles"
               >
                 <div
                   className="CaptionContainer"

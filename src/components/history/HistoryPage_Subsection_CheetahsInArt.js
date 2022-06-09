@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Aug 10, 2020
+ * Updated  : Jun 09, 2022
  */
 
 import React from 'react'
@@ -17,8 +17,6 @@ import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPage
 import {
   ContentPageSubsectionParagraphsContentBinder
 } from '../shared/ContentPageSubsectionContentBinder'
-
-import CenteredFullWidthContainer from '../shared/CenteredFullWidthContainer'
 
 import ImageView from '../shared/ImageView'
 
@@ -61,14 +59,12 @@ export default class HistoryPageSubsectionCheetahsInArt extends React.Component 
 
   renderRhsContent() {
     return (
-      <CenteredFullWidthContainer width={451}>
-        <ImageView
-          image={image_cheetah_painting_Renaissance}
-          caption="Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli."
-          width={451}
-          height={600}
-        />
-      </CenteredFullWidthContainer>
+      <ImageView
+        image={image_cheetah_painting_Renaissance}
+        caption="Giuliano de’ Medici depicted with a cheetah behind him on horseback. Painting by Benozzo Gozzoli."
+        width={451}
+        height={600}
+      />
     );
   }
 }

@@ -47,21 +47,21 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
               }
             >
               <div
-                className="ImageViewInnerContainer"
+                className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
               >
                 <div
                   className="ImageViewImgContainer"
                 >
                   <img
                     alt="African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlife."
-                    className="ImageViewImg"
+                    className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                     height={343}
                     src="savanna-min.jpg"
                     width={598}
                   />
                 </div>
                 <div
-                  className="ImageViewCaptionContainer"
+                  className="ImageViewFamilyCaptionContainerStyles"
                 >
                   <div
                     className="CaptionContainer"
@@ -215,21 +215,21 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
               }
             >
               <div
-                className="ImageViewInnerContainer"
+                className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
               >
                 <div
                   className="ImageViewImgContainer"
                 >
                   <img
                     alt="Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on."
-                    className="ImageViewImg"
+                    className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                     height={720}
                     src="Namibia_Biomes_and_Cheetah_Ranges_Map-min.jpg"
                     width={1200}
                   />
                 </div>
                 <div
-                  className="ImageViewCaptionContainer"
+                  className="ImageViewFamilyCaptionContainerStyles"
                 >
                   <div
                     className="CaptionContainer"
@@ -500,21 +500,21 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                   }
                 >
                   <div
-                    className="ImageViewInnerContainer"
+                    className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
                   >
                     <div
                       className="ImageViewImgContainer"
                     >
                       <img
                         alt="Cheetahs in a coalition need to work together as a team to bring down larger and stronger prey, such as this wildebeest."
-                        className="ImageViewImg"
+                        className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                         height={360}
                         src="cheetah_coalition_hunting-min.jpg"
                         width={640}
                       />
                     </div>
                     <div
-                      className="ImageViewCaptionContainer"
+                      className="ImageViewFamilyCaptionContainerStyles"
                     >
                       <div
                         className="CaptionContainer"
@@ -558,21 +558,21 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                   }
                 >
                   <div
-                    className="ImageViewInnerContainer"
+                    className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
                   >
                     <div
                       className="ImageViewImgContainer"
                     >
                       <img
                         alt="One of cheetahs' favorite type of prey are the gazelles, although they are very vigilant, fast and agile, thus are hard to catch."
-                        className="ImageViewImg"
+                        className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                         height={360}
                         src="cheetah_go_after_gazelle-min.jpg"
                         width={640}
                       />
                     </div>
                     <div
-                      className="ImageViewCaptionContainer"
+                      className="ImageViewFamilyCaptionContainerStyles"
                     >
                       <div
                         className="CaptionContainer"
@@ -640,21 +640,21 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
               }
             >
               <div
-                className="ImageViewInnerContainer"
+                className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
               >
                 <div
                   className="ImageViewImgContainer"
                 >
                   <img
                     alt="A simplified illustration of the food web of a savanna ecosystem."
-                    className="ImageViewImg"
+                    className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                     height={552}
                     src="savanna_food_web-min.jpg"
                     width={640}
                   />
                 </div>
                 <div
-                  className="ImageViewCaptionContainer"
+                  className="ImageViewFamilyCaptionContainerStyles"
                 >
                   <div
                     className="CaptionContainer"
@@ -737,21 +737,21 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                   }
                 >
                   <div
-                    className="ImageViewInnerContainer"
+                    className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
                   >
                     <div
                       className="ImageViewImgContainer"
                     >
                       <img
                         alt="Hyenas often try to either steal cheetahs' killed preys or scavenge on the remains."
-                        className="ImageViewImg"
+                        className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                         height={269}
                         src="cheetah_hyena_competition-min.jpg"
                         width={483}
                       />
                     </div>
                     <div
-                      className="ImageViewCaptionContainer"
+                      className="ImageViewFamilyCaptionContainerStyles"
                     >
                       <div
                         className="CaptionContainer"
@@ -795,21 +795,21 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
                   }
                 >
                   <div
-                    className="ImageViewInnerContainer"
+                    className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
                   >
                     <div
                       className="ImageViewImgContainer"
                     >
                       <img
                         alt="Lions will often take over the cheetah's prey easily as they are superior in strength."
-                        className="ImageViewImg"
+                        className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                         height={360}
                         src="cheetah_lion_competition-min.jpg"
                         width={480}
                       />
                     </div>
                     <div
-                      className="ImageViewCaptionContainer"
+                      className="ImageViewFamilyCaptionContainerStyles"
                     >
                       <div
                         className="CaptionContainer"

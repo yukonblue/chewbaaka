@@ -294,21 +294,21 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
               }
             >
               <div
-                className="ImageViewInnerContainer"
+                className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
               >
                 <div
                   className="ImageViewImgContainer"
                 >
                   <img
                     alt="In 2009, Cincinnati Zoo's cheetah Sarah set the record of the world's fastest cheetah, as she sprant 100m in just 6.13 seconds. The best record for 100m by humans was from Usain Bolt, finishing in 9.58 seconds."
-                    className="ImageViewImg"
+                    className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                     height={406}
                     src="cincinnati_zoo_cheetah_sarah-min.jpg"
                     width={720}
                   />
                 </div>
                 <div
-                  className="ImageViewCaptionContainer"
+                  className="ImageViewFamilyCaptionContainerStyles"
                 >
                   <div
                     className="CaptionContainer"
@@ -441,13 +441,46 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                 <div
                   className="ImageSlidingGalleryCoreContainer"
                 >
-                  <img
-                    alt="CCF's Predator Preyground."
-                    className="ImageSlidingGalleryImgPart"
-                    height={320}
-                    src="CCF_Predator_Preyground-min.jpg"
-                    width={533}
-                  />
+                  <div
+                    className="ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
+                  >
+                    <img
+                      alt="CCF's Predator Preyground."
+                      className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
+                      height={320}
+                      src="CCF_Predator_Preyground-min.jpg"
+                      width={533}
+                    />
+                    <div
+                      className="ImageViewFamilyCaptionContainerStyles"
+                      data-testid="ImageSlidingGalleryCaptionPart"
+                    >
+                      <div
+                        className="CaptionContainer"
+                        data-testid="CaptionComponentTestId"
+                        style={
+                          Object {
+                            "maxWidth": undefined,
+                          }
+                        }
+                      >
+                        <div
+                          className="IconContainer"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="image icon"
+                            onClick={[Function]}
+                          />
+                        </div>
+                        <p
+                          className="ContentPageCaptionTextSize CaptionText"
+                        >
+                          CCF's Predator Preyground.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                   <div
                     className="ImageSlidingGalleryButtonContainer"
                   >
@@ -477,35 +510,6 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                         onClick={[Function]}
                       />
                     </div>
-                  </div>
-                </div>
-                <div
-                  className="ImageSlidingGalleryCaptionPart"
-                  data-testid="ImageSlidingGalleryCaptionPart"
-                >
-                  <div
-                    className="CaptionContainer"
-                    data-testid="CaptionComponentTestId"
-                    style={
-                      Object {
-                        "maxWidth": undefined,
-                      }
-                    }
-                  >
-                    <div
-                      className="IconContainer"
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="image icon"
-                        onClick={[Function]}
-                      />
-                    </div>
-                    <p
-                      className="ContentPageCaptionTextSize CaptionText"
-                    >
-                      CCF's Predator Preyground.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -539,21 +543,21 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
             }
           >
             <div
-              className="ImageViewInnerContainer"
+              className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
             >
               <div
                 className="ImageViewImgContainer"
               >
                 <img
                   alt="CCF helps Namibian artists and artisans to market and sell their work with the Livelihood Development Program."
-                  className="ImageViewImg"
+                  className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                   height={577}
                   src="CCF_Livelihood_Development_L-min.jpg"
                   width={960}
                 />
               </div>
               <div
-                className="ImageViewCaptionContainer"
+                className="ImageViewFamilyCaptionContainerStyles"
               >
                 <div
                   className="CaptionContainer"

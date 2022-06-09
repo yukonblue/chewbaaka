@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 23, 2020
- * Updated  : Aug 23, 2021
+ * Updated  : Jun 09, 2022
  */
 
 /**
@@ -30,6 +30,13 @@ import { Button } from "semantic-ui-react"
 import { getFormattedImageCaptionStringWithCredit } from './ImageCaptionUtils'
 
 import {
+  Design2ImageViewFamilyImgStyles,
+  Design2ImageViewFamilyContainerStyles,
+  Design2ImageViewFamilyCaptionContainerStyles,
+  combineStyles
+} from './Design2_ImageViewFamilyUtils'
+
+import {
   getElementStyleClassName,
   getElementStyleClassNames
 } from '../../styling/styling'
@@ -39,6 +46,8 @@ import Caption from './Caption'
 import 'semantic-ui-css/semantic.min.css'
 
 import './ImageSlidingGalleryDiscrete.css'
+
+import './Design2.css'
 
 if ( process.env.NODE_ENV === 'development' )
   require('./ImageSlidingGalleryDiscrete-debug.css')
@@ -95,11 +104,11 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
         style={componentDimensionStyle}
       >
         <div
-          className={getElementStyleClassName("ImageSlidingGalleryDiscreteInnerContainer")}
+          className={combineStyles("ImageSlidingGalleryDiscreteInnerContainer", Design2ImageViewFamilyContainerStyles)}
           style={componentDimensionStyle}
         >
           <div className={getElementStyleClassName("ImageSlidingGalleryDiscreteCoreContainer")}>
-            <img className="ImageSlidingGalleryDiscreteImgPart"
+            <img className={Design2ImageViewFamilyImgStyles}
               src={activeSlide.image}
               alt={caption}
               // Specify the aspect ratio
@@ -109,16 +118,16 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
             {this.renderPrevNextButtonGroup()}
           </div>
           <div
-            className="ImageSlidingGalleryDiscreteCaptionPart"
+            className={Design2ImageViewFamilyCaptionContainerStyles}
             data-testid="ImageSlidingGalleryDiscreteCaptionPart"
           >
             <Caption caption={caption} />
           </div>
-          <div className={getElementStyleClassName("ImageSlidingGalleryDiscreteButtonGroupContainer")}>
-            <Button.Group>
-              {buttonItems}
-            </Button.Group>
-          </div>
+        </div>
+        <div className={getElementStyleClassName("ImageSlidingGalleryDiscreteButtonGroupContainer")}>
+          <Button.Group>
+            {buttonItems}
+          </Button.Group>
         </div>
       </div>
     );

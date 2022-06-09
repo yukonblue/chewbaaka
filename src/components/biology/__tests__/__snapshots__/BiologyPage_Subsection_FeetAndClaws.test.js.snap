@@ -28,21 +28,21 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
             }
           >
             <div
-              className="ImageViewInnerContainer"
+              className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
             >
               <div
                 className="ImageViewImgContainer"
               >
                 <img
                   alt="The paws of the cheetah have a distinct shape compared to some of the other carnivores."
-                  className="ImageViewImg"
+                  className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                   height={480}
                   src="cheetah_paw-min.jpg"
                   width={403}
                 />
               </div>
               <div
-                className="ImageViewCaptionContainer"
+                className="ImageViewFamilyCaptionContainerStyles"
               >
                 <div
                   className="CaptionContainer"
@@ -187,21 +187,21 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
             }
           >
             <div
-              className="ImageViewInnerContainer"
+              className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
             >
               <div
                 className="ImageViewImgContainer"
               >
                 <img
                   alt="Compare the cheetah's claws to that of the dogs and other cats, it's somewhere in between in terms of retractability."
-                  className="ImageViewImg"
+                  className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                   height={300}
                   src="Cheetah_Cat_Dog_Claws_Comparison_Inverted_L-min.png"
                   width={480}
                 />
               </div>
               <div
-                className="ImageViewCaptionContainer"
+                className="ImageViewFamilyCaptionContainerStyles"
               >
                 <div
                   className="CaptionContainer"
@@ -251,21 +251,21 @@ exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
             }
           >
             <div
-              className="ImageViewInnerContainer"
+              className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
             >
               <div
                 className="ImageViewImgContainer"
               >
                 <img
                   alt="Cheetah dewclaw."
-                  className="ImageViewImg"
+                  className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                   height={214}
                   src="cheetah_dewclaw-min.jpg"
                   width={480}
                 />
               </div>
               <div
-                className="ImageViewCaptionContainer"
+                className="ImageViewFamilyCaptionContainerStyles"
               >
                 <div
                   className="CaptionContainer"

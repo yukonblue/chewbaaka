@@ -75,21 +75,21 @@ exports[`FuturePageSubsectionFutureFarmersOfAfrica component snapshot 1`] = `
             }
           >
             <div
-              className="ImageViewInnerContainer"
+              className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
             >
               <div
                 className="ImageViewImgContainer"
               >
                 <img
                   alt="Farmers participate in FFA training courses."
-                  className="ImageViewImg"
+                  className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                   height={370}
                   src="CCF_FFA_01-min.jpg"
                   width={742}
                 />
               </div>
               <div
-                className="ImageViewCaptionContainer"
+                className="ImageViewFamilyCaptionContainerStyles"
               >
                 <div
                   className="CaptionContainer"

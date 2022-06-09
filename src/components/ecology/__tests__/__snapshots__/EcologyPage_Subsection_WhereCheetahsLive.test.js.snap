@@ -33,21 +33,21 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
             }
           >
             <div
-              className="ImageViewInnerContainer"
+              className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
             >
               <div
                 className="ImageViewImgContainer"
               >
                 <img
                   alt="African savannas have rich fauna biodiversity and house the habitats of a wide range of wildlife."
-                  className="ImageViewImg"
+                  className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                   height={343}
                   src="savanna-min.jpg"
                   width={598}
                 />
               </div>
               <div
-                className="ImageViewCaptionContainer"
+                className="ImageViewFamilyCaptionContainerStyles"
               >
                 <div
                   className="CaptionContainer"
@@ -201,21 +201,21 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
             }
           >
             <div
-              className="ImageViewInnerContainer"
+              className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
             >
               <div
                 className="ImageViewImgContainer"
               >
                 <img
                   alt="Map of Namibian biomes and cheetah ranges in Namibia. Cheetahs prefer the savanna biome which supports the animals they prey on."
-                  className="ImageViewImg"
+                  className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                   height={720}
                   src="Namibia_Biomes_and_Cheetah_Ranges_Map-min.jpg"
                   width={1200}
                 />
               </div>
               <div
-                className="ImageViewCaptionContainer"
+                className="ImageViewFamilyCaptionContainerStyles"
               >
                 <div
                   className="CaptionContainer"

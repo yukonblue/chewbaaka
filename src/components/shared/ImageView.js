@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 23, 2020
+ * Updated  : Jun 09, 2022
  */
 
 /**
@@ -42,7 +42,16 @@ import { getElementStyleClassName } from '../../styling/styling'
 
 import { getFormattedImageCaptionStringWithCredit}  from './ImageCaptionUtils'
 
+import {
+  Design2ImageViewFamilyImgStyles,
+  Design2ImageViewFamilyContainerStyles,
+  Design2ImageViewFamilyCaptionContainerStyles,
+  combineStyles
+} from './Design2_ImageViewFamilyUtils'
+
 import './ImageView.css'
+
+import './Design2.css'
 
 if ( process.env.NODE_ENV === 'development' )
   require('./ImageView-debug.css')
@@ -65,10 +74,10 @@ export default function ImageView({ image, caption, credit, width, height }) {
       className={getElementStyleClassName("ImageViewOuterContainer")}
       style={componentOuterContainerDimension}
     >
-      <div className="ImageViewInnerContainer">
+      <div className={combineStyles("ImageViewInnerContainer", Design2ImageViewFamilyContainerStyles)}>
         <div className="ImageViewImgContainer">
           <img
-            className="ImageViewImg"
+            className={Design2ImageViewFamilyImgStyles}
             src={image}
             alt={caption}
             // Specify the aspect ratio
@@ -76,7 +85,7 @@ export default function ImageView({ image, caption, credit, width, height }) {
             height={aspectRatio.height}
           />
         </div>
-        <div className="ImageViewCaptionContainer">
+        <div className={Design2ImageViewFamilyCaptionContainerStyles}>
           <Caption
             caption={formattedCaption}
             width={width}

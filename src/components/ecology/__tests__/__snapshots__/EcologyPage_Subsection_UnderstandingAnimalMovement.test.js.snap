@@ -144,7 +144,7 @@ exports[`EcologyPageSubsectionUnderstandingAnimalMovement component snapshot 1`]
             }
           >
             <div
-              className="ImageSlidingGalleryDiscreteInnerContainer"
+              className="ImageSlidingGalleryDiscreteInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
               style={
                 Object {
                   "width": 720,
@@ -156,7 +156,7 @@ exports[`EcologyPageSubsectionUnderstandingAnimalMovement component snapshot 1`]
               >
                 <img
                   alt="Cheetah movement study with camera traps in the Greater Waterberg Conservancy. (Image credit: Cheetah Conservation Fund)"
-                  className="ImageSlidingGalleryDiscreteImgPart"
+                  className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                   height={432}
                   src="camera_trap_locations_in_Waterberg_Conservancy-min.jpg"
                   width={720}
@@ -195,7 +195,7 @@ exports[`EcologyPageSubsectionUnderstandingAnimalMovement component snapshot 1`]
                 </div>
               </div>
               <div
-                className="ImageSlidingGalleryDiscreteCaptionPart"
+                className="ImageViewFamilyCaptionContainerStyles"
                 data-testid="ImageSlidingGalleryDiscreteCaptionPart"
               >
                 <div
@@ -223,31 +223,31 @@ exports[`EcologyPageSubsectionUnderstandingAnimalMovement component snapshot 1`]
                   </p>
                 </div>
               </div>
+            </div>
+            <div
+              className="ImageSlidingGalleryDiscreteButtonGroupContainer"
+            >
               <div
-                className="ImageSlidingGalleryDiscreteButtonGroupContainer"
+                className="ui buttons"
               >
-                <div
-                  className="ui buttons"
+                <button
+                  className="ui yellow huge button"
+                  onClick={[Function]}
                 >
-                  <button
-                    className="ui yellow huge button"
-                    onClick={[Function]}
-                  >
-                    1
-                  </button>
-                  <button
-                    className="ui blue huge button"
-                    onClick={[Function]}
-                  >
-                    2
-                  </button>
-                  <button
-                    className="ui blue huge button"
-                    onClick={[Function]}
-                  >
-                    3
-                  </button>
-                </div>
+                  1
+                </button>
+                <button
+                  className="ui blue huge button"
+                  onClick={[Function]}
+                >
+                  2
+                </button>
+                <button
+                  className="ui blue huge button"
+                  onClick={[Function]}
+                >
+                  3
+                </button>
               </div>
             </div>
           </div>

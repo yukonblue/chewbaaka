@@ -238,21 +238,21 @@ exports[`BiologyPageSectionGenetics component snapshot 1`] = `
                   }
                 >
                   <div
-                    className="ImageViewInnerContainer"
+                    className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
                   >
                     <div
                       className="ImageViewImgContainer"
                     >
                       <img
                         alt="Kinked tail."
-                        className="ImageViewImg"
+                        className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                         height={427}
                         src="cheetah_kinked_tail-min.jpg"
                         width={640}
                       />
                     </div>
                     <div
-                      className="ImageViewCaptionContainer"
+                      className="ImageViewFamilyCaptionContainerStyles"
                     >
                       <div
                         className="CaptionContainer"

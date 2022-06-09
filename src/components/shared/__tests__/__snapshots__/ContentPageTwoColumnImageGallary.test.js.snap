@@ -20,21 +20,21 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
           }
         >
           <div
-            className="ImageViewInnerContainer"
+            className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
           >
             <div
               className="ImageViewImgContainer"
             >
               <img
                 alt="This is image 1."
-                className="ImageViewImg"
+                className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                 height={480}
                 src="some image 1"
                 width={720}
               />
             </div>
             <div
-              className="ImageViewCaptionContainer"
+              className="ImageViewFamilyCaptionContainerStyles"
             >
               <div
                 className="CaptionContainer"
@@ -78,21 +78,21 @@ exports[`ContentPageTwoColumnImageGallary component snapshot 1`] = `
           }
         >
           <div
-            className="ImageViewInnerContainer"
+            className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
           >
             <div
               className="ImageViewImgContainer"
             >
               <img
                 alt="This is image 2."
-                className="ImageViewImg"
+                className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
                 height={720}
                 src="some image 2"
                 width={1080}
               />
             </div>
             <div
-              className="ImageViewCaptionContainer"
+              className="ImageViewFamilyCaptionContainerStyles"
             >
               <div
                 className="CaptionContainer"
