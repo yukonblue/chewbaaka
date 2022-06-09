@@ -42,6 +42,12 @@ import { getElementStyleClassName } from '../../styling/styling'
 
 import { getFormattedImageCaptionStringWithCredit}  from './ImageCaptionUtils'
 
+import {
+  Design2ImageViewFamilyImgStyles,
+  Design2ImageViewFamilyContainerStyles,
+  combineStyles
+} from './Design2_ImageViewFamilyUtils'
+
 import './ImageView.css'
 
 import './Design2.css'
@@ -67,10 +73,10 @@ export default function ImageView({ image, caption, credit, width, height }) {
       className={getElementStyleClassName("ImageViewOuterContainer")}
       style={componentOuterContainerDimension}
     >
-      <div className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles">
+      <div className={combineStyles("ImageViewInnerContainer", Design2ImageViewFamilyContainerStyles)}>
         <div className="ImageViewImgContainer">
           <img
-            className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
+            className={Design2ImageViewFamilyImgStyles}
             src={image}
             alt={caption}
             // Specify the aspect ratio

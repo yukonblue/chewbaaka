@@ -38,6 +38,11 @@ import Caption from './Caption'
 
 import { getFormattedImageCaptionStringWithCredit } from './ImageCaptionUtils'
 
+import {
+  Design2ImageViewFamilyImgStyles,
+  Design2ImageViewFamilyContainerStyles
+} from './Design2_ImageViewFamilyUtils'
+
 import './ImageSlidingGallery.css'
 
 import './Design2.css'
@@ -85,9 +90,9 @@ export default class ImageSlidingGallery extends React.Component {
         style={componentOuterContainerDimension}
       >
         <div className="ImageSlidingGalleryCoreContainer">
-          <div className="ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles">
+          <div className={Design2ImageViewFamilyContainerStyles}>
             <img
-              className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
+              className={Design2ImageViewFamilyImgStyles}
               src={activeSlide.image}
               alt={caption}
               width={aspectRatio.width}

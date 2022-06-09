@@ -30,6 +30,12 @@ import { Button } from "semantic-ui-react"
 import { getFormattedImageCaptionStringWithCredit } from './ImageCaptionUtils'
 
 import {
+  Design2ImageViewFamilyImgStyles,
+  Design2ImageViewFamilyContainerStyles,
+  combineStyles
+} from './Design2_ImageViewFamilyUtils'
+
+import {
   getElementStyleClassName,
   getElementStyleClassNames
 } from '../../styling/styling'
@@ -97,11 +103,11 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
         style={componentDimensionStyle}
       >
         <div
-          className="ImageSlidingGalleryDiscreteInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerBackgroundStyles"
+          className={combineStyles("ImageSlidingGalleryDiscreteInnerContainer", Design2ImageViewFamilyContainerStyles)}
           style={componentDimensionStyle}
         >
           <div className={getElementStyleClassName("ImageSlidingGalleryDiscreteCoreContainer")}>
-            <img className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
+            <img className={Design2ImageViewFamilyImgStyles}
               src={activeSlide.image}
               alt={caption}
               // Specify the aspect ratio
