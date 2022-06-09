@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 23, 2020
- * Updated  : Aug 23, 2021
+ * Updated  : Jun 09, 2022
  */
 
 div.ImageSlidingGalleryDiscreteOuterContainer {
@@ -27,15 +27,14 @@ div.ImageSlidingGalleryDiscreteCoreContainer {
   align-items: center;
 }
 
-div.ImageSlidingGalleryDiscreteButtonGroupContainer {
-  display: inline-block;
-  margin: 20px auto;
-}
-
 img.ImageSlidingGalleryDiscreteImgPart {
   max-width: 100%;
   height: auto;
-  filter: drop-shadow(1px 1px 1px #222);
+}
+
+div.ImageSlidingGalleryDiscreteButtonGroupContainer {
+  display: inline-block;
+  margin: 20px auto;
 }
 
 div.ImageSlidingGalleryDiscreteButtonContainer {

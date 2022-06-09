@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 23, 2020
- * Updated  : Aug 23, 2021
+ * Updated  : Jun 09, 2022
  */
 
 /**
@@ -39,6 +39,8 @@ import Caption from './Caption'
 import 'semantic-ui-css/semantic.min.css'
 
 import './ImageSlidingGalleryDiscrete.css'
+
+import './Design2.css'
 
 if ( process.env.NODE_ENV === 'development' )
   require('./ImageSlidingGalleryDiscrete-debug.css')
@@ -95,11 +97,11 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
         style={componentDimensionStyle}
       >
         <div
-          className={getElementStyleClassName("ImageSlidingGalleryDiscreteInnerContainer")}
+          className="ImageSlidingGalleryDiscreteInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerBackgroundStyles"
           style={componentDimensionStyle}
         >
           <div className={getElementStyleClassName("ImageSlidingGalleryDiscreteCoreContainer")}>
-            <img className="ImageSlidingGalleryDiscreteImgPart"
+            <img className="ImageSlidingGalleryDiscreteImgPart ImageViewFamilyImgBorderStyles ImageViewFamilyContainerShadowStyles"
               src={activeSlide.image}
               alt={caption}
               // Specify the aspect ratio
@@ -109,17 +111,17 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
             {this.renderPrevNextButtonGroup()}
           </div>
           <div
-            className="ImageSlidingGalleryDiscreteCaptionPart"
+            className="ImageViewFamilyCaptionContainerStyles"
             data-testid="ImageSlidingGalleryDiscreteCaptionPart"
           >
             <Caption caption={caption} />
           </div>
-          <div className={getElementStyleClassName("ImageSlidingGalleryDiscreteButtonGroupContainer")}>
+        </div>
+        <div className={getElementStyleClassName("ImageSlidingGalleryDiscreteButtonGroupContainer")}>
             <Button.Group>
               {buttonItems}
             </Button.Group>
           </div>
-        </div>
       </div>
     );
   }
