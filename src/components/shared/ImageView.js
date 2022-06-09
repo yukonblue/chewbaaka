@@ -45,6 +45,7 @@ import { getFormattedImageCaptionStringWithCredit}  from './ImageCaptionUtils'
 import {
   Design2ImageViewFamilyImgStyles,
   Design2ImageViewFamilyContainerStyles,
+  Design2ImageViewFamilyCaptionContainerStyles,
   combineStyles
 } from './Design2_ImageViewFamilyUtils'
 
@@ -84,7 +85,7 @@ export default function ImageView({ image, caption, credit, width, height }) {
             height={aspectRatio.height}
           />
         </div>
-        <div className="ImageViewCaptionContainer ImageViewFamilyCaptionContainerStyles">
+        <div className={Design2ImageViewFamilyCaptionContainerStyles}>
           <Caption
             caption={formattedCaption}
             width={width}

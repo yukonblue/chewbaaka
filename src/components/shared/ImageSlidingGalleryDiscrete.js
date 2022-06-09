@@ -32,6 +32,7 @@ import { getFormattedImageCaptionStringWithCredit } from './ImageCaptionUtils'
 import {
   Design2ImageViewFamilyImgStyles,
   Design2ImageViewFamilyContainerStyles,
+  Design2ImageViewFamilyCaptionContainerStyles,
   combineStyles
 } from './Design2_ImageViewFamilyUtils'
 
@@ -117,7 +118,7 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
             {this.renderPrevNextButtonGroup()}
           </div>
           <div
-            className="ImageViewFamilyCaptionContainerStyles"
+            className={Design2ImageViewFamilyCaptionContainerStyles}
             data-testid="ImageSlidingGalleryDiscreteCaptionPart"
           >
             <Caption caption={caption} />
