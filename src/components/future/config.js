@@ -198,7 +198,7 @@ export const config = {
                 "Any human development can be turned to be sustainable by employing the best practices of land, livestock, and wildlife management " +
                 "techniques that have proven to be effective and successful."
       },
-      bgColor: "#F4EBDB",
+      bgColor: "#F1F0FF",
       subsections: {
         subsection_MissionPossible: {
           title: "Mission Possible",
@@ -347,7 +347,7 @@ export const config = {
                 "CCF educates farmers, teachers, students, and the public about methods to conserve biodiversity, " +
                 "as well as champion the idea that everybody can be a custodian of nature and has something to contribute."
       },
-      bgColor: "#F4EBDB",
+      bgColor: "#CDFFFF",
       subsections: {
         subsection_FieldResearch: {
           title: "Field Research",
