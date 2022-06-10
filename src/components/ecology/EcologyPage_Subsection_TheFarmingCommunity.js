@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 21, 2021
+ * Updated  : Jun 10, 2022
  */
 
 import React from 'react'
@@ -40,7 +40,8 @@ export default class EcologyPageSubsectionTheFarmingCommunity extends React.Comp
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionTheFarmingCommunity._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionTheFarmingCommunity._SUBSECTION_NAME_],
+      accentColor: props.sectionConfig.accentColor
     };
   }
 
@@ -48,6 +49,7 @@ export default class EcologyPageSubsectionTheFarmingCommunity extends React.Comp
     return (
       <ContentPageSubsectionTemplate
         title={this.state.subsectionConfig.title}
+        accentColor={this.state.accentColor}
         content={this.renderContent()}
       />
     )

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 23, 2021
+ * Updated  : Jun 10, 2022
  */
 
 import React, { Suspense } from 'react'
@@ -52,7 +52,8 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[HistoryPageSubsectionFelidaeFamilyTree._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[HistoryPageSubsectionFelidaeFamilyTree._SUBSECTION_NAME_],
+      accentColor: props.sectionConfig.accentColor
     };
   }
 
@@ -61,6 +62,7 @@ export default class HistoryPageSubsectionFelidaeFamilyTree extends React.Compon
       <div className={getElementStyleClassName("HistoryPageSubsectionFelidaeFamilyTreeOuterContainer")}>
         <ContentPageSubsectionTemplate
           title={this.state.subsectionConfig.title}
+          accentColor={this.state.accentColor}
           content={this.renderContent()}
         />
       </div>

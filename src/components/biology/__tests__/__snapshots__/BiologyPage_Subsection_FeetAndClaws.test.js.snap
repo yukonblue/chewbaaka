@@ -2,7 +2,12 @@
 
 exports[`BiologyPageSubsectionFeetAndClaws component snapshot 1`] = `
 <section
-  className="ContentPageSubsectionTemplateOuterContainer"
+  className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+  style={
+    Object {
+      "backgroundColor": "#98DBC6",
+    }
+  }
 >
   <h3
     className="ContentPageSubsectionTitle"

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 23, 2021
+ * Updated  : Jun 10, 2022
  */
 
 import React from 'react'
@@ -33,7 +33,8 @@ export default class FuturePageSubsectionWhatIsConservation extends React.Compon
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[FuturePageSubsectionWhatIsConservation._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[FuturePageSubsectionWhatIsConservation._SUBSECTION_NAME_],
+      accentColor: props.sectionConfig.accentColor
     };
   }
 
@@ -41,6 +42,7 @@ export default class FuturePageSubsectionWhatIsConservation extends React.Compon
     return (
       <ContentPageSubsectionTemplate
         title={this.state.subsectionConfig.title}
+        accentColor={this.state.accentColor}
         content={this.renderContent()}
       />
     )

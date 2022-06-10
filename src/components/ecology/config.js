@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 19, 2020
- * Updated  : Aug 25, 2021
+ * Updated  : Jun 10, 2022
  */
 
 export const config = {
@@ -74,6 +74,7 @@ export const config = {
                 "“what animals do cheetahs prey on and eat” and “what are its roles in its habitat and " +
                 "relationships with other species of animals”."
       },
+      accentColor: "rgb(228, 246, 212)",
       subsections: {
         subsection_WhereCheetahsLive: {
           title: "Where Cheetahs Live",
@@ -198,6 +199,7 @@ export const config = {
                 "Conservancies empower farmers with more well-managed ownership of lands, and can generate income through other " +
                 "revenues such as eco-tourism."
       },
+      accentColor: "#C4DFE6",
       subsections: {
         subsection_HuntingAndPredatorControl: {
           title: "Hunting and Predator Control",
@@ -529,6 +531,7 @@ export const config = {
                 "in cheetah movement, diet, and behavioral patterns in various part of Namibia. These researches help CCF and other conservationists " +
                 "draw crucial decisions on conservation efforts and sustainable developments that benefit both Namibians, livestocks, wildlife, and the land."
       },
+      accentColor: "rgb(240, 240, 240)",
       subsections: {
         subsection_UnderstandingAnimalMovement: {
           title: "Understanding Animal Movement",

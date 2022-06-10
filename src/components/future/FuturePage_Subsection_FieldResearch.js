@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Jul 31, 2020
+ * Updated  : Jun 10, 2022
  */
 
 import React from 'react'
@@ -29,7 +29,8 @@ export default class FuturePageSubsectionFieldResearch extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[FuturePageSubsectionFieldResearch._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[FuturePageSubsectionFieldResearch._SUBSECTION_NAME_],
+      accentColor: props.sectionConfig.accentColor
     };
   }
 
@@ -37,6 +38,7 @@ export default class FuturePageSubsectionFieldResearch extends React.Component {
     return (
       <ContentPageSubsectionTemplate
         title={this.state.subsectionConfig.title}
+        accentColor={this.state.accentColor}
         content={this.renderContent()}
       />
     )

@@ -2,7 +2,12 @@
 
 exports[`FuturePageSubsectionTheRoleOfZoos component snapshot 1`] = `
 <section
-  className="ContentPageSubsectionTemplateOuterContainer"
+  className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+  style={
+    Object {
+      "backgroundColor": "#CDFFFF",
+    }
+  }
 >
   <h3
     className="ContentPageSubsectionTitle"

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Aug 13, 2020
+ * Updated  : Jun 10, 2022
  */
 
 import React from 'react'
@@ -36,7 +36,8 @@ export default class EcologyPageSubsectionUnderstandingAnimalMovement extends Re
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionUnderstandingAnimalMovement._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionUnderstandingAnimalMovement._SUBSECTION_NAME_],
+      accentColor: props.sectionConfig.accentColor
     };
   }
 
@@ -44,6 +45,7 @@ export default class EcologyPageSubsectionUnderstandingAnimalMovement extends Re
     return (
       <ContentPageSubsectionTemplate
         title={this.state.subsectionConfig.title}
+        accentColor={this.state.accentColor}
         content={this.renderContent()}
       />
     )

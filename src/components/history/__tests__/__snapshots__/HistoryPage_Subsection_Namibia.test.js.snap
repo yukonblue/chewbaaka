@@ -2,7 +2,12 @@
 
 exports[`HistoryPageSubsectionNamibia component snapshot 1`] = `
 <section
-  className="ContentPageSubsectionTemplateOuterContainer"
+  className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+  style={
+    Object {
+      "backgroundColor": "rgb(216, 216, 216)",
+    }
+  }
 >
   <h3
     className="ContentPageSubsectionTitle"

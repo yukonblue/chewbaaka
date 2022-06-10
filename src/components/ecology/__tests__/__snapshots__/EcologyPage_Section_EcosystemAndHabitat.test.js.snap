@@ -16,7 +16,12 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
     Understanding the relationships and interactions of elements in the ecosystem and habitat where cheetahs live is crucial for any conservation and management efforts. Understanding of subjects in this area can help answer questions such as “what animals do cheetahs prey on and eat” and “what are its roles in its habitat and relationships with other species of animals”.
   </p>
   <section
-    className="ContentPageSubsectionTemplateOuterContainer"
+    className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+    style={
+      Object {
+        "backgroundColor": "rgb(228, 246, 212)",
+      }
+    }
   >
     <h3
       className="ContentPageSubsectionTitle"
@@ -384,7 +389,12 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
     </div>
   </section>
   <section
-    className="ContentPageSubsectionTemplateOuterContainer"
+    className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+    style={
+      Object {
+        "backgroundColor": "rgb(228, 246, 212)",
+      }
+    }
   >
     <h3
       className="ContentPageSubsectionTitle"
@@ -609,7 +619,12 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
     </div>
   </section>
   <section
-    className="ContentPageSubsectionTemplateOuterContainer"
+    className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+    style={
+      Object {
+        "backgroundColor": "rgb(228, 246, 212)",
+      }
+    }
   >
     <h3
       className="ContentPageSubsectionTitle"

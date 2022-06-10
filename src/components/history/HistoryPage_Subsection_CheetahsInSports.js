@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 10, 2020
- * Updated  : Jun 07, 2022
+ * Updated  : Jun 10, 2022
  */
 
 import React from 'react'
@@ -30,7 +30,8 @@ export default class HistoryPageSubsectionCheetahsInSports extends React.Compone
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[HistoryPageSubsectionCheetahsInSports._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[HistoryPageSubsectionCheetahsInSports._SUBSECTION_NAME_],
+      accentColor: props.sectionConfig.accentColor
     };
   }
 
@@ -38,6 +39,7 @@ export default class HistoryPageSubsectionCheetahsInSports extends React.Compone
     return (
       <ContentPageSubsectionTemplate
         title={this.state.subsectionConfig.title}
+        accentColor={this.state.accentColor}
         content={this.renderContent()}
       />
     );

@@ -5,7 +5,12 @@ exports[`HistoryPageSubsectionFelidaeFamilyTree component snapshot 1`] = `
   className="HistoryPageSubsectionFelidaeFamilyTreeOuterContainer"
 >
   <section
-    className="ContentPageSubsectionTemplateOuterContainer"
+    className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+    style={
+      Object {
+        "backgroundColor": "#rgb(230, 230, 230)",
+      }
+    }
   >
     <h3
       className="ContentPageSubsectionTitle"

@@ -16,7 +16,12 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
     The history of cheetah-human relationship goes back in millennia, and archeological artifacts uncovered throughout the world suggest that human interactions with the species goes hand in hand with its migration and evolution. The relationship between cheetahs and us have been both profound and complex, as the species have been revered, utilized, displayed, and exploited throughout human history.
   </p>
   <section
-    className="ContentPageSubsectionTemplateOuterContainer"
+    className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+    style={
+      Object {
+        "backgroundColor": "#FFF8DC",
+      }
+    }
   >
     <h3
       className="ContentPageSubsectionTitle"
@@ -148,7 +153,12 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
     </div>
   </section>
   <section
-    className="ContentPageSubsectionTemplateOuterContainer"
+    className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+    style={
+      Object {
+        "backgroundColor": "#FFF8DC",
+      }
+    }
   >
     <h3
       className="ContentPageSubsectionTitle"
@@ -285,7 +295,12 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
     </div>
   </section>
   <section
-    className="ContentPageSubsectionTemplateOuterContainer"
+    className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+    style={
+      Object {
+        "backgroundColor": "#FFF8DC",
+      }
+    }
   >
     <h3
       className="ContentPageSubsectionTitle"

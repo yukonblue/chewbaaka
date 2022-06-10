@@ -4,11 +4,11 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Aug 11, 2021
+ * Updated  : Jun 09, 2022
  */
 
 .ContentPageSkeletonOuterContainer {
-  background-color: rgb(239, 239, 239);
+  background-color: rgb(255, 255, 255);
 }
 
 div.ContentPageSkeletonPreContentContainer {
@@ -33,7 +33,7 @@ div.ContentPageSkeletonPreContentContainer {
       the nav bar (e.g. without this the nav bar would appear on top of `ContentPageTableOfContentMenuTemplateCompact`
       on mobile, and since the nav bar has a translucent bg color, it isn't ideal.
   */
-  background-color: rgb(239, 239, 239);
+  background-color: rgb(255, 255, 255);
 }
 
 div.ContentPageSkeletonContentContainer {

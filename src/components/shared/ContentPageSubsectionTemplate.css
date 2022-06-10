@@ -4,14 +4,17 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 18, 2020
+ * Updated  : Jun 09, 2022
  */
 
 .ContentPageSubsectionTemplateOuterContainer {
   margin: 100px auto;
+  background-color: rgb(245, 245, 245);
+  padding: 36px;
 }
 
 h3.ContentPageSubsectionTitle {
+  margin-bottom: 36px; /* NOTE: For asthetics this value matches the padding of `ContentPageSubsectionTemplateOuterContainer` defined above. */
   line-height: 1.4;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 32px;

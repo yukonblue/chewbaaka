@@ -61,7 +61,12 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
     />
   </div>
   <section
-    className="ContentPageSubsectionTemplateOuterContainer"
+    className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+    style={
+      Object {
+        "backgroundColor": "#FFBB00",
+      }
+    }
   >
     <h3
       className="ContentPageSubsectionTitle"
@@ -164,7 +169,12 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
     </div>
   </section>
   <section
-    className="ContentPageSubsectionTemplateOuterContainer"
+    className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+    style={
+      Object {
+        "backgroundColor": "#FFBB00",
+      }
+    }
   >
     <h3
       className="ContentPageSubsectionTitle"
@@ -222,7 +232,12 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
     </div>
   </section>
   <section
-    className="ContentPageSubsectionTemplateOuterContainer"
+    className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+    style={
+      Object {
+        "backgroundColor": "#FFBB00",
+      }
+    }
   >
     <h3
       className="ContentPageSubsectionTitle"
@@ -339,7 +354,12 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
     </div>
   </section>
   <section
-    className="ContentPageSubsectionTemplateOuterContainer"
+    className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+    style={
+      Object {
+        "backgroundColor": "#FFBB00",
+      }
+    }
   >
     <h3
       className="ContentPageSubsectionTitle"
@@ -384,7 +404,12 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
     </div>
   </section>
   <section
-    className="ContentPageSubsectionTemplateOuterContainer"
+    className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+    style={
+      Object {
+        "backgroundColor": "#FFBB00",
+      }
+    }
   >
     <h3
       className="ContentPageSubsectionTitle"
@@ -410,7 +435,12 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
     </div>
   </section>
   <section
-    className="ContentPageSubsectionTemplateOuterContainer"
+    className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+    style={
+      Object {
+        "backgroundColor": "#FFBB00",
+      }
+    }
   >
     <h3
       className="ContentPageSubsectionTitle"
@@ -513,7 +543,12 @@ exports[`BiologyPageSectionLifecyle component snapshot 1`] = `
     </div>
   </section>
   <section
-    className="ContentPageSubsectionTemplateOuterContainer"
+    className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+    style={
+      Object {
+        "backgroundColor": "#FFBB00",
+      }
+    }
   >
     <h3
       className="ContentPageSubsectionTitle"
