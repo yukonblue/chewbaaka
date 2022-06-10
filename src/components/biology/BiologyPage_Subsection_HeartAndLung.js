@@ -37,7 +37,7 @@ export default class BiologyPageSubsectionHearAndLung extends React.Component {
     super(props);
     this.state = {
       subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionHearAndLung._SUBSECTION_NAME_],
-      bgColor: props.sectionConfig.bgColor
+      accentColor: props.sectionConfig.accentColor
     };
   }
 
@@ -45,7 +45,7 @@ export default class BiologyPageSubsectionHearAndLung extends React.Component {
     return (
       <ContentPageSubsectionTemplate
         title={this.state.subsectionConfig.title}
-        bgColor={this.state.bgColor}
+        accentColor={this.state.accentColor}
         content={this.renderContent()}
       />
     );

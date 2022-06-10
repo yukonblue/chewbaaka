@@ -76,7 +76,7 @@ export const config = {
         "Cheetahs were common throughout Asia, Africa, Europe and North America until the end of the last " +
         "Ice Age, about 10,000 years ago, when massive climatic changes caused large numbers of mammals to disappear."
       },
-      bgColor: "#rgb(230, 230, 230)",
+      accentColor: "#rgb(230, 230, 230)",
       subsections: {
         subsection_EvolutionOfCats: {
           title: "Evolution of Cats"
@@ -95,7 +95,7 @@ export const config = {
         "The relationship between cheetahs and us have been both profound and complex, " +
         "as the species have been revered, utilized, displayed, and exploited throughout human history."
       },
-      bgColor: "#FFF8DC",
+      accentColor: "#FFF8DC",
       subsections: {
         subsection_RelationshipsWithMan: {
           title: "Relationships with Man",
@@ -180,7 +180,7 @@ export const config = {
                 "southern Africa, spanning over Namibia and Botswana, which together " +
                 "holds two thirds of the species' population."
       },
-      bgColor: "rgb(216, 216, 216)",
+      accentColor: "rgb(216, 216, 216)",
       subsections: {
         subsection_Namibia: {
           title: "Namibia - Cheetah Capital of the World",

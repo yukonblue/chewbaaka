@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jun 09, 2022
+ * Updated  : Jun 10, 2022
  */
 
 /**
@@ -35,7 +35,7 @@ if ( process.env.NODE_ENV === 'development' )
 export default function ContentPageSubsectionTemplate(props) {
 
   const styles = {
-    backgroundColor: props.bgColor
+    backgroundColor: props.accentColor
   }
 
   return (

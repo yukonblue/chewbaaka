@@ -30,7 +30,7 @@ export default class BiologyPageSubsectionFindingMate extends React.Component {
     super(props);
     this.state = {
       subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionFindingMate._SUBSECTION_NAME_],
-      bgColor: props.sectionConfig.bgColor
+      accentColor: props.sectionConfig.accentColor
     };
   }
 
@@ -38,7 +38,7 @@ export default class BiologyPageSubsectionFindingMate extends React.Component {
     return (
       <ContentPageSubsectionTemplate
         title={this.state.subsectionConfig.title}
-        bgColor={this.state.bgColor}
+        accentColor={this.state.accentColor}
         content={this.renderContent()}
       />
     )

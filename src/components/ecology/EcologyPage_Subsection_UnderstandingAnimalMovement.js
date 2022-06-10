@@ -37,7 +37,7 @@ export default class EcologyPageSubsectionUnderstandingAnimalMovement extends Re
     super(props);
     this.state = {
       subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionUnderstandingAnimalMovement._SUBSECTION_NAME_],
-      bgColor: props.sectionConfig.bgColor
+      accentColor: props.sectionConfig.accentColor
     };
   }
 
@@ -45,7 +45,7 @@ export default class EcologyPageSubsectionUnderstandingAnimalMovement extends Re
     return (
       <ContentPageSubsectionTemplate
         title={this.state.subsectionConfig.title}
-        bgColor={this.state.bgColor}
+        accentColor={this.state.accentColor}
         content={this.renderContent()}
       />
     )

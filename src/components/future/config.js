@@ -71,7 +71,7 @@ export const config = {
                 "conservation strategies to ensure that best practices of wildlife and farm management are employed to benefit the " +
                 "cheetahs and their habitats, as well as Namibians who share the same land and resources."
       },
-      bgColor: "#F4EBDB",
+      accentColor: "#F4EBDB",
       subsections: {
         subsection_WhatIsConservation: {
           title: "What is Conservation?",
@@ -198,7 +198,7 @@ export const config = {
                 "Any human development can be turned to be sustainable by employing the best practices of land, livestock, and wildlife management " +
                 "techniques that have proven to be effective and successful."
       },
-      bgColor: "#F1F0FF",
+      accentColor: "#F1F0FF",
       subsections: {
         subsection_MissionPossible: {
           title: "Mission Possible",
@@ -347,7 +347,7 @@ export const config = {
                 "CCF educates farmers, teachers, students, and the public about methods to conserve biodiversity, " +
                 "as well as champion the idea that everybody can be a custodian of nature and has something to contribute."
       },
-      bgColor: "#CDFFFF",
+      accentColor: "#CDFFFF",
       subsections: {
         subsection_FieldResearch: {
           title: "Field Research",

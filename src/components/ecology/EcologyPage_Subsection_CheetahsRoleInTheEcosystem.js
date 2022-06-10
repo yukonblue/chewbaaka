@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jun 09, 2022
+ * Updated  : Jun 10, 2022
  */
 
 import React from 'react'
@@ -36,7 +36,7 @@ export default class EcologyPageSubsectionCheetahsRoleInTheEcosystem extends Rea
     super(props);
     this.state = {
       subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionCheetahsRoleInTheEcosystem._SUBSECTION_NAME_],
-      bgColor: props.sectionConfig.bgColor
+      accentColor: props.sectionConfig.accentColor
     };
   }
 
@@ -44,7 +44,7 @@ export default class EcologyPageSubsectionCheetahsRoleInTheEcosystem extends Rea
     return (
       <ContentPageSubsectionTemplate
         title={this.state.subsectionConfig.title}
-        bgColor={this.state.bgColor}
+        accentColor={this.state.accentColor}
         content={this.renderContent()}
       />
     )

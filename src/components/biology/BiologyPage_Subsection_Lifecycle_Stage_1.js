@@ -30,7 +30,7 @@ export default class BiologyPageSubsectionLifecycleStage1 extends React.Componen
     super(props);
     this.state = {
       subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionLifecycleStage1._SUBSECTION_NAME_],
-      bgColor: props.sectionConfig.bgColor
+      accentColor: props.sectionConfig.accentColor
     };
   }
 
@@ -38,7 +38,7 @@ export default class BiologyPageSubsectionLifecycleStage1 extends React.Componen
     return (
       <ContentPageSubsectionTemplate
         title={this.state.subsectionConfig.title}
-        bgColor={this.state.bgColor}
+        accentColor={this.state.accentColor}
         content={this.renderContent()}
       />
     )

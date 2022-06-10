@@ -28,7 +28,7 @@ export default class BiologyPageSubsectionGeneticConfusion extends React.Compone
     super(props);
     this.state = {
       subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionGeneticConfusion._SUBSECTION_NAME_],
-      bgColor: props.sectionConfig.bgColor
+      accentColor: props.sectionConfig.accentColor
     };
   }
 
@@ -36,7 +36,7 @@ export default class BiologyPageSubsectionGeneticConfusion extends React.Compone
     return (
       <ContentPageSubsectionTemplate
         title={this.state.subsectionConfig.title}
-        bgColor={this.state.bgColor}
+        accentColor={this.state.accentColor}
         content={this.renderContent()}
       />
     )
