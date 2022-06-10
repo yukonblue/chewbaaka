@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 11, 2020
- * Updated  : Aug 22, 2020
+ * Updated  : Jun 09, 2022
  */
 
 import React, { Suspense } from 'react'
@@ -32,7 +32,8 @@ export default class HistoryPageSubsectionCheetahEvolution extends React.Compone
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[HistoryPageSubsectionCheetahEvolution._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[HistoryPageSubsectionCheetahEvolution._SUBSECTION_NAME_],
+      bgColor: props.sectionConfig.bgColor
     };
   }
 
@@ -40,6 +41,7 @@ export default class HistoryPageSubsectionCheetahEvolution extends React.Compone
     return (
       <ContentPageSubsectionTemplate
         title={this.state.subsectionConfig.title}
+        bgColor={this.state.bgColor}
         content={this.renderContent()}
       />
     );
