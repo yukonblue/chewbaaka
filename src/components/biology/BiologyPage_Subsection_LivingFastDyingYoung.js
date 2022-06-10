@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 17, 2020
- * Updated  : Aug 23, 2021
+ * Updated  : Jun 10, 2022
  */
 
 import React from 'react'
@@ -31,7 +31,8 @@ export default class BiologyPageSubsectionLivingFastDyingYoung extends React.Com
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionLivingFastDyingYoung._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionLivingFastDyingYoung._SUBSECTION_NAME_],
+      bgColor: props.sectionConfig.bgColor
     };
   }
 
@@ -39,6 +40,7 @@ export default class BiologyPageSubsectionLivingFastDyingYoung extends React.Com
     return (
       <ContentPageSubsectionTemplate
         title={this.state.subsectionConfig.title}
+        bgColor={this.state.bgColor}
         content={this.renderContent()}
       />
     )

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 18, 2020
- * Updated  : Aug 09, 2020
+ * Updated  : Jun 10, 2022
  */
 
 import React from 'react'
@@ -31,7 +31,8 @@ export default class BiologyPageSubsectionLearningToHunt extends React.Component
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionLearningToHunt._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionLearningToHunt._SUBSECTION_NAME_],
+      bgColor: props.sectionConfig.bgColor
     };
   }
 
@@ -39,6 +40,7 @@ export default class BiologyPageSubsectionLearningToHunt extends React.Component
     return (
       <ContentPageSubsectionTemplate
         title={this.state.subsectionConfig.title}
+        bgColor={this.state.bgColor}
         content={this.renderContent()}
       />
     )

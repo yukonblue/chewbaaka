@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 18, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Jun 10, 2022
  */
 
 import React from 'react'
@@ -27,7 +27,8 @@ export default class BiologyPageSubsectionGeneticConfusion extends React.Compone
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionGeneticConfusion._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionGeneticConfusion._SUBSECTION_NAME_],
+      bgColor: props.sectionConfig.bgColor
     };
   }
 
@@ -35,6 +36,7 @@ export default class BiologyPageSubsectionGeneticConfusion extends React.Compone
     return (
       <ContentPageSubsectionTemplate
         title={this.state.subsectionConfig.title}
+        bgColor={this.state.bgColor}
         content={this.renderContent()}
       />
     )

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Aug 05, 2020
+ * Updated  : Jun 10, 2022
  */
 
 import React from 'react'
@@ -29,7 +29,8 @@ export default class BiologyPageSubsectionLifecycleStage1 extends React.Componen
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionLifecycleStage1._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionLifecycleStage1._SUBSECTION_NAME_],
+      bgColor: props.sectionConfig.bgColor
     };
   }
 
@@ -37,6 +38,7 @@ export default class BiologyPageSubsectionLifecycleStage1 extends React.Componen
     return (
       <ContentPageSubsectionTemplate
         title={this.state.subsectionConfig.title}
+        bgColor={this.state.bgColor}
         content={this.renderContent()}
       />
     )

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Aug 25, 2021
+ * Updated  : Jun 10, 2022
  */
 
 export const config = {
@@ -77,6 +77,7 @@ export const config = {
                 "land animal on the planet, nothing speaks more about the incredible adaptations that allow them " +
                 "to survive and thrive in the challenging environments where they live."
       },
+      bgColor: "#FFBB00",
       subsections: {
         subsection_Lifecycle_Stage_1: {
           title: "Stage 1",
@@ -233,6 +234,7 @@ export const config = {
                 "it needs while pursuing a prey. Read on to discover all the fascinating points about the species' " +
                 "anatomy and physiology."
       },
+      bgColor: "#98DBC6",
       subsections: {
         subsection_Anatomy: {
           title: "Anatomy",
@@ -483,6 +485,7 @@ export const config = {
                 "with the most recent one being only about 10,000 years ago. Therefore, understanding the " +
                 "genetics of the species is crucial in both saving individuals as well as larger populations."
       },
+      bgColor: "rgb(240, 240, 240)",
       subsections: {
         subsection_Genetic_Confusion: {
           title: "Genetic Confusion",

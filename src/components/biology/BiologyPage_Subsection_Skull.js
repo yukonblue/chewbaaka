@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 16, 2020
- * Updated  : Aug 22, 2020
+ * Updated  : Jun 10, 2022
  */
 
 import React, { Suspense } from 'react'
@@ -32,7 +32,8 @@ export default class BiologyPageSubsectionSkull extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionSkull._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[BiologyPageSubsectionSkull._SUBSECTION_NAME_],
+      bgColor: props.sectionConfig.bgColor
     };
   }
 
@@ -40,6 +41,7 @@ export default class BiologyPageSubsectionSkull extends React.Component {
     return (
       <ContentPageSubsectionTemplate
         title={this.state.subsectionConfig.title}
+        bgColor={this.state.bgColor}
         content={this.renderContent()}
       />
     )
