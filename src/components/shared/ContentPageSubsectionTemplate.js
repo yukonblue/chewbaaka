@@ -33,8 +33,13 @@ if ( process.env.NODE_ENV === 'development' )
   require('./ContentPageSubsectionTemplate-debug.css')
 
 export default function ContentPageSubsectionTemplate(props) {
+
+  const styles = {
+    backgroundColor: props.bgColor
+  }
+
   return (
-    <section className={combineStyles(getElementStyleClassName("ContentPageSubsectionTemplateOuterContainer"), Design2CommonRoundedBorderRadiusStyle)}>
+    <section className={combineStyles(getElementStyleClassName("ContentPageSubsectionTemplateOuterContainer"), Design2CommonRoundedBorderRadiusStyle)} style={styles}>
       <h3 className={getElementStyleClassName("ContentPageSubsectionTitle")}>
         {props.title}
       </h3>

@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 21, 2020
- * Updated  : Aug 23, 2021
+ * Updated  : Jun 09, 2022
  */
 
 import React from 'react'
@@ -32,7 +32,8 @@ export default class EcologyPageSubsectionCheetahFriendlyFarming extends React.C
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionCheetahFriendlyFarming._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[EcologyPageSubsectionCheetahFriendlyFarming._SUBSECTION_NAME_],
+      bgColor: props.sectionConfig.bgColor
     };
   }
 
@@ -40,6 +41,7 @@ export default class EcologyPageSubsectionCheetahFriendlyFarming extends React.C
     return (
       <ContentPageSubsectionTemplate
         title={this.state.subsectionConfig.title}
+        bgColor={this.state.bgColor}
         content={this.renderContent()}
       />
     )
