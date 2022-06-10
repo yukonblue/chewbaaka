@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 22, 2020
- * Updated  : Aug 23, 2021
+ * Updated  : Jun 10, 2022
  */
 
 import React from 'react'
@@ -30,7 +30,8 @@ export default class FuturePageSubsectionMissionPossible extends React.Component
   constructor(props) {
     super(props);
     this.state = {
-      subsectionConfig: props.sectionConfig.subsections[FuturePageSubsectionMissionPossible._SUBSECTION_NAME_]
+      subsectionConfig: props.sectionConfig.subsections[FuturePageSubsectionMissionPossible._SUBSECTION_NAME_],
+      bgColor: props.sectionConfig.bgColor
     };
   }
 
@@ -38,6 +39,7 @@ export default class FuturePageSubsectionMissionPossible extends React.Component
     return (
       <ContentPageSubsectionTemplate
         title={this.state.subsectionConfig.title}
+        bgColor={this.state.bgColor}
         content={this.renderContent()}
       />
     )
