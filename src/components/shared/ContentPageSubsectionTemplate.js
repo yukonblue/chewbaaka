@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Aug 18, 2020
+ * Updated  : Jun 09, 2022
  */
 
 /**
@@ -21,6 +21,10 @@ import {
   getElementStyleClassName
 } from '../../styling/styling'
 
+import { Design2CommonRoundedBorderRadiusStyle } from '../shared/Design2_CommonUtils'
+
+import { combineStyles } from './Utils'
+
 import './ContentPageSharedStyles.css'
 
 import './ContentPageSubsectionTemplate.css'
@@ -30,7 +34,7 @@ if ( process.env.NODE_ENV === 'development' )
 
 export default function ContentPageSubsectionTemplate(props) {
   return (
-    <section className={getElementStyleClassName("ContentPageSubsectionTemplateOuterContainer")}>
+    <section className={combineStyles(getElementStyleClassName("ContentPageSubsectionTemplateOuterContainer"), Design2CommonRoundedBorderRadiusStyle)}>
       <h3 className={getElementStyleClassName("ContentPageSubsectionTitle")}>
         {props.title}
       </h3>
