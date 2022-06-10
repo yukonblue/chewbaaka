@@ -2,7 +2,12 @@
 
 exports[`BiologyPageSubsectionAbnormalities component snapshot 1`] = `
 <section
-  className="ContentPageSubsectionTemplateOuterContainer"
+  className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+  style={
+    Object {
+      "backgroundColor": "rgb(240, 240, 240)",
+    }
+  }
 >
   <h3
     className="ContentPageSubsectionTitle"

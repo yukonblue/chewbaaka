@@ -2,7 +2,12 @@
 
 exports[`EcologyPageSubsectionCheetahsRoleInTheEcosystem component snapshot 1`] = `
 <section
-  className="ContentPageSubsectionTemplateOuterContainer"
+  className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+  style={
+    Object {
+      "backgroundColor": "rgb(228, 246, 212)",
+    }
+  }
 >
   <h3
     className="ContentPageSubsectionTitle"

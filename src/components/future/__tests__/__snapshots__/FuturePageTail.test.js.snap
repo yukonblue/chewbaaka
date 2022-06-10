@@ -2,7 +2,12 @@
 
 exports[`FuturePageTail component snapshot 1`] = `
 <section
-  className="ContentPageSubsectionTemplateOuterContainer"
+  className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+  style={
+    Object {
+      "backgroundColor": undefined,
+    }
+  }
 >
   <h3
     className="ContentPageSubsectionTitle"

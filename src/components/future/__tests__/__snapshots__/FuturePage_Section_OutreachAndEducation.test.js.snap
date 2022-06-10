@@ -16,7 +16,12 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
     Public education is a vital component of any successful conservation strategies. Environmental and management education are critical in areas where people coexist intimately with the land and wildlife. Cheetah Conservation Fund believes public education and outreach will help ensure a future for the species in the wild. CCF educates farmers, teachers, students, and the public about methods to conserve biodiversity, as well as champion the idea that everybody can be a custodian of nature and has something to contribute.
   </p>
   <section
-    className="ContentPageSubsectionTemplateOuterContainer"
+    className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+    style={
+      Object {
+        "backgroundColor": "#CDFFFF",
+      }
+    }
   >
     <h3
       className="ContentPageSubsectionTitle"
@@ -112,7 +117,12 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
     </div>
   </section>
   <section
-    className="ContentPageSubsectionTemplateOuterContainer"
+    className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+    style={
+      Object {
+        "backgroundColor": "#CDFFFF",
+      }
+    }
   >
     <h3
       className="ContentPageSubsectionTitle"
@@ -249,7 +259,12 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
     </div>
   </section>
   <section
-    className="ContentPageSubsectionTemplateOuterContainer"
+    className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+    style={
+      Object {
+        "backgroundColor": "#CDFFFF",
+      }
+    }
   >
     <h3
       className="ContentPageSubsectionTitle"
@@ -381,7 +396,12 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
     </div>
   </section>
   <section
-    className="ContentPageSubsectionTemplateOuterContainer"
+    className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+    style={
+      Object {
+        "backgroundColor": "#CDFFFF",
+      }
+    }
   >
     <h3
       className="ContentPageSubsectionTitle"
@@ -521,7 +541,12 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
   </section>
   <div>
     <section
-      className="ContentPageSubsectionTemplateOuterContainer"
+      className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+      style={
+        Object {
+          "backgroundColor": "#CDFFFF",
+        }
+      }
     >
       <h3
         className="ContentPageSubsectionTitle"

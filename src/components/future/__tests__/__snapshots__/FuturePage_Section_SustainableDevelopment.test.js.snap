@@ -16,7 +16,12 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
     Sustainable development is key to ensure long term utilizations of natural resources without compromising the integrity of the ecosystem and the sharing of resources by other species. Part of sustainable development involves taking part of the revenue generated from any human development and contribute that to the nurturing and protection of the entire ecosystem. Any human development can be turned to be sustainable by employing the best practices of land, livestock, and wildlife management techniques that have proven to be effective and successful.
   </p>
   <section
-    className="ContentPageSubsectionTemplateOuterContainer"
+    className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+    style={
+      Object {
+        "backgroundColor": "#F1F0FF",
+      }
+    }
   >
     <h3
       className="ContentPageSubsectionTitle"
@@ -130,7 +135,12 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
     </div>
   </section>
   <section
-    className="ContentPageSubsectionTemplateOuterContainer"
+    className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+    style={
+      Object {
+        "backgroundColor": "#F1F0FF",
+      }
+    }
   >
     <h3
       className="ContentPageSubsectionTitle"
@@ -308,7 +318,12 @@ exports[`FuturePageSectionSustainableDevelopment component snapshot 1`] = `
     </div>
   </section>
   <section
-    className="ContentPageSubsectionTemplateOuterContainer"
+    className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+    style={
+      Object {
+        "backgroundColor": "#F1F0FF",
+      }
+    }
   >
     <h3
       className="ContentPageSubsectionTitle"

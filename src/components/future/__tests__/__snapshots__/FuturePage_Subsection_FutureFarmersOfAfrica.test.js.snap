@@ -2,7 +2,12 @@
 
 exports[`FuturePageSubsectionFutureFarmersOfAfrica component snapshot 1`] = `
 <section
-  className="ContentPageSubsectionTemplateOuterContainer"
+  className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+  style={
+    Object {
+      "backgroundColor": "#F1F0FF",
+    }
+  }
 >
   <h3
     className="ContentPageSubsectionTitle"

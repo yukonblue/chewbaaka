@@ -3,7 +3,12 @@
 exports[`FuturePageSubsectionCommunityEvents component snapshot 1`] = `
 <div>
   <section
-    className="ContentPageSubsectionTemplateOuterContainer"
+    className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
+    style={
+      Object {
+        "backgroundColor": "#CDFFFF",
+      }
+    }
   >
     <h3
       className="ContentPageSubsectionTitle"
