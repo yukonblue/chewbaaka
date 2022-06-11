@@ -10,7 +10,7 @@ exports[`ImageSlidingGalleryDiscrete component snapshot 1`] = `
   }
 >
   <div
-    className="ImageSlidingGalleryDiscreteInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
+    className="ImageSlidingGalleryDiscreteInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadowStyles ImageViewFamilyContainerBackgroundStyles"
     style={
       Object {
         "width": 100,

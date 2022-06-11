@@ -38,7 +38,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
             }
           >
             <div
-              className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
+              className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadowStyles ImageViewFamilyContainerBackgroundStyles"
             >
               <div
                 className="ImageViewImgContainer"
@@ -142,7 +142,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
           >
             <div>
               <div
-                className="ImageSlideModalCoverTriggerOuterContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
+                className="ImageSlideModalCoverTriggerOuterContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadowStyles ImageViewFamilyContainerBackgroundStyles"
                 onBlur={[Function]}
                 onClick={[Function]}
                 onFocus={[Function]}
@@ -171,7 +171,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                   >
                     <i
                       aria-hidden="true"
-                      className="blue images outline large icon"
+                      className="blue images outline big icon"
                       onClick={[Function]}
                     />
                   </div>
@@ -213,7 +213,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
             }
           >
             <div
-              className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
+              className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadowStyles ImageViewFamilyContainerBackgroundStyles"
             >
               <div
                 className="ImageViewImgContainer"
