@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 20, 2020
- * Updated  : Jun 10, 2022
+ * Updated  : Jun 11, 2022
  */
 
 import React from 'react'
@@ -14,11 +14,12 @@ import Media from 'react-media'
 import '../shared/ContentPageSharedStyles.css'
 
 import ContentPageSubsectionTemplate from '../shared/ContentPageSubsectionTemplate'
-import ContentPageSubsectionTwoColumnContentTemplate from '../shared/ContentPageSubsectionTwoColumnContentTemplate'
 import ContentPageSubsectionPart from '../shared/ContentPageSubsectionPart'
 import ContentPageParagraph from '../shared/ContentPageParagraph'
 import ContentPageSubsectionSubtitle from '../shared/ContentPageSubsectionSubtitle'
 import ContentPageSideFloatFluidContainer from '../shared/ContentPageSideFloatFluidContainer'
+
+import FluidTwoColumnContainer from '../shared/FluidTwoColumnContainer'
 
 import {
   ContentPageSubsectionParagraphsContentBinder
@@ -182,9 +183,9 @@ export default class EcologyPageSubsectionWhereCheetahsLive extends React.Compon
           {part.title}
         </ContentPageSubsectionSubtitle>
 
-        <ContentPageSubsectionTwoColumnContentTemplate
-          lhsColumn={{content: this.renderPartNamibianBiomesLhs(part)}}
-          rhsColumn={{content: this.renderPartNamibianBiomesRhs(part)}}
+        <FluidTwoColumnContainer
+          lhsColumn={this.renderPartNamibianBiomesLhs(part)}
+          rhsColumn={this.renderPartNamibianBiomesRhs(part)}
         />
 
         <div className="VerticalCushionPaddingTopLarge">
