@@ -135,74 +135,66 @@ exports[`EcologyPageSectionEcosystemAndHabitat component snapshot 1`] = `
           Namibian Biomes
         </h4>
         <div
-          className="ContentPageSubsectionTwoColumnContentTemplateOuterContainer"
+          className="FluidTwoColumnContainerOuterContainer"
         >
           <div
-            className="ContentPageSubsectionTwoColumnContentTemplateInnerContainer"
+            className="FluidTwoColumnContainerColumnContainer FluidTwoColumnLhsContainerColumnContainer"
+          >
+            <p
+              className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
+            >
+              Namibia is a country with rich biodiversity, as its land spans over five distinct types of biomes.
+            </p>
+          </div>
+          <div
+            className="FluidTwoColumnContainerColumnContainer FluidTwoColumnRhsContainerColumnContainer"
           >
             <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
+              className="ImageSlideModalCoverTriggerOuterContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadowStyles ImageViewFamilyContainerBackgroundStyles"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "width": 480,
+                }
+              }
             >
-              <div>
-                <p
-                  className="ContentPageRegularTextSize ContentPageRegularTextLineHeight ContentPageContentParagraphText"
-                >
-                  Namibia is a country with rich biodiversity, as its land spans over five distinct types of biomes.
-                </p>
-              </div>
-            </div>
-            <div
-              className="ContentPageSubsectionTwoColumnContentTemplateColumnInnerContainer"
-            >
-              <div>
-                <div
-                  className="ImageSlideModalCoverTriggerOuterContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadowStyles ImageViewFamilyContainerBackgroundStyles"
-                  onBlur={[Function]}
-                  onClick={[Function]}
-                  onFocus={[Function]}
-                  onMouseEnter={[Function]}
-                  onMouseLeave={[Function]}
-                  style={
-                    Object {
-                      "width": 480,
-                    }
+              <div
+                className="ImageSlideModalCoverTriggerInnerContainer ImageViewFamilyContainerBorderStyles"
+                data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "backgroundImage": "url(biome_savanna-min.jpg)",
+                    "height": 320,
+                    "width": 480,
                   }
+                }
+              >
+                <div
+                  className="ImageSlideModalCoverTriggerImageIconInnerContainer"
                 >
-                  <div
-                    className="ImageSlideModalCoverTriggerInnerContainer ImageViewFamilyContainerBorderStyles"
-                    data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
+                  <i
+                    aria-hidden="true"
+                    className="blue images outline big icon"
                     onClick={[Function]}
-                    style={
-                      Object {
-                        "backgroundImage": "url(biome_savanna-min.jpg)",
-                        "height": 320,
-                        "width": 480,
-                      }
-                    }
-                  >
-                    <div
-                      className="ImageSlideModalCoverTriggerImageIconInnerContainer"
-                    >
-                      <i
-                        aria-hidden="true"
-                        className="blue images outline big icon"
-                        onClick={[Function]}
-                      />
-                    </div>
-                  </div>
-                  <div
-                    className="ImageViewFamilyCaptionContainerStyles"
-                  >
-                    <span>
-                      <i
-                        aria-hidden="true"
-                        className="hand point up outline icon"
-                        onClick={[Function]}
-                      />
-                      Click to learn more about the biomes of Namibia.
-                    </span>
-                  </div>
+                  />
                 </div>
+              </div>
+              <div
+                className="ImageViewFamilyCaptionContainerStyles"
+              >
+                <span>
+                  <i
+                    aria-hidden="true"
+                    className="hand point up outline icon"
+                    onClick={[Function]}
+                  />
+                  Click to learn more about the biomes of Namibia.
+                </span>
               </div>
             </div>
           </div>
