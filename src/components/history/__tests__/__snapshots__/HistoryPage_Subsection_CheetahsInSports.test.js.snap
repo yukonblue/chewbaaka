@@ -36,7 +36,7 @@ exports[`HistoryPageSubsectionCheetahsInSports component snapshot 1`] = `
               className="ImageSlidingGalleryCoreContainer"
             >
               <div
-                className="ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
+                className="ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadowStyles ImageViewFamilyContainerBackgroundStyles"
               >
                 <img
                   alt="A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799."

@@ -30,7 +30,6 @@ including as `ImageView`, `ImageSlidingGallery`, and `ImageSlidingGalleryDiscret
 
 div.ImageViewFamilyContainerBorderStyles {
   border-radius: 15px 15px 15px 15px;
-  filter: drop-shadow(2px 3px 7px #222);
 }
 
 div.ImageViewFamilyContainerBackgroundStyles {

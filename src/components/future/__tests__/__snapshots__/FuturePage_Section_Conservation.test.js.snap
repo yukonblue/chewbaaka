@@ -207,7 +207,7 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
                   }
                 >
                   <div
-                    className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
+                    className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadowStyles ImageViewFamilyContainerBackgroundStyles"
                   >
                     <div
                       className="ImageViewImgContainer"
@@ -295,7 +295,7 @@ exports[`FuturePageSectionConservation component snapshot 1`] = `
             }
           >
             <div
-              className="ImageSlidingGalleryDiscreteInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
+              className="ImageSlidingGalleryDiscreteInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadowStyles ImageViewFamilyContainerBackgroundStyles"
               style={
                 Object {
                   "width": 960,

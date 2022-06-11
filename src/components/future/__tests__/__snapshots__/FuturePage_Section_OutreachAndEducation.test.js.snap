@@ -307,7 +307,7 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
               }
             >
               <div
-                className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
+                className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadowStyles ImageViewFamilyContainerBackgroundStyles"
               >
                 <div
                   className="ImageViewImgContainer"
@@ -460,7 +460,7 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
                   className="ImageSlidingGalleryCoreContainer"
                 >
                   <div
-                    className="ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
+                    className="ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadowStyles ImageViewFamilyContainerBackgroundStyles"
                   >
                     <img
                       alt="CCF's Predator Preyground."
@@ -566,7 +566,7 @@ exports[`FuturePageSectionOutreachAndEducation component snapshot 1`] = `
             }
           >
             <div
-              className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
+              className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadowStyles ImageViewFamilyContainerBackgroundStyles"
             >
               <div
                 className="ImageViewImgContainer"

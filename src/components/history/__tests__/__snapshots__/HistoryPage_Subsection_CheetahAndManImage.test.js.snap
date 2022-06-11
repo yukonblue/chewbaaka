@@ -62,7 +62,7 @@ exports[`HistoryPageSubsectionCheetahAndManImage component snapshot 1`] = `
               className="ImageSlidingGalleryCoreContainer"
             >
               <div
-                className="ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
+                className="ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadowStyles ImageViewFamilyContainerBackgroundStyles"
               >
                 <img
                   alt="Mafdet’s head on the bed where the mummy is placed."

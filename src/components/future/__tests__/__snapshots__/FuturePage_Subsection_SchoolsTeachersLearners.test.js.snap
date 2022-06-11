@@ -68,7 +68,7 @@ exports[`FuturePageSubsectionSchoolsTeachersLearners component snapshot 1`] = `
                 className="ImageSlidingGalleryCoreContainer"
               >
                 <div
-                  className="ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
+                  className="ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadowStyles ImageViewFamilyContainerBackgroundStyles"
                 >
                   <img
                     alt="CCF's Predator Preyground."

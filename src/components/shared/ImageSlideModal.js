@@ -115,7 +115,7 @@ export default class ImageSlideModal extends React.Component {
                 <Icon
                   name="images outline"
                   color="blue"
-                  size="large"
+                  size="big"
                   onClick={this.handleOpen}
                 />
               </div>

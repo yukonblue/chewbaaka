@@ -13,7 +13,7 @@ exports[`ImageSlidingGallery component snapshot 1`] = `
     className="ImageSlidingGalleryCoreContainer"
   >
     <div
-      className="ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
+      className="ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadowStyles ImageViewFamilyContainerBackgroundStyles"
     >
       <img
         alt="Researchers used the Tuxtla Statuette to decipher the epi-Olmec writing system, which represents both syllables and words"

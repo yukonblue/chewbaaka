@@ -29,7 +29,7 @@ exports[`BiologyPageSubsectionFindingMate component snapshot 1`] = `
         }
       >
         <div
-          className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
+          className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadowStyles ImageViewFamilyContainerBackgroundStyles"
         >
           <div
             className="ImageViewImgContainer"

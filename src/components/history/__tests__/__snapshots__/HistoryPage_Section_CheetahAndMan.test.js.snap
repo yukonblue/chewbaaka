@@ -76,7 +76,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                 className="ImageSlidingGalleryCoreContainer"
               >
                 <div
-                  className="ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
+                  className="ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadowStyles ImageViewFamilyContainerBackgroundStyles"
                 >
                   <img
                     alt="Mafdet’s head on the bed where the mummy is placed."
@@ -187,7 +187,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
                 className="ImageSlidingGalleryCoreContainer"
               >
                 <div
-                  className="ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
+                  className="ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadowStyles ImageViewFamilyContainerBackgroundStyles"
                 >
                   <img
                     alt="A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799."
@@ -352,7 +352,7 @@ exports[`HistoryPageSectionCheetahAndMan component snapshot 1`] = `
               }
             >
               <div
-                className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
+                className="ImageViewInnerContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadowStyles ImageViewFamilyContainerBackgroundStyles"
               >
                 <div
                   className="ImageViewImgContainer"
