@@ -142,7 +142,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
           >
             <div>
               <div
-                className="ImageSlideModalCoverTriggerOuterContainer"
+                className="ImageSlideModalCoverTriggerOuterContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
                 onBlur={[Function]}
                 onClick={[Function]}
                 onFocus={[Function]}
@@ -155,7 +155,7 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                 }
               >
                 <div
-                  className="ImageSlideModalCoverTriggerInnerContainer"
+                  className="ImageSlideModalCoverTriggerInnerContainer ImageViewFamilyContainerBorderStyles"
                   data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
                   onClick={[Function]}
                   style={
@@ -171,16 +171,23 @@ exports[`EcologyPageSubsectionWhereCheetahsLive component snapshot 1`] = `
                   >
                     <i
                       aria-hidden="true"
-                      className="blue images outline huge icon"
+                      className="blue images outline large icon"
                       onClick={[Function]}
                     />
                   </div>
                 </div>
-                <p
-                  className="ContentPageCaptionTextSize"
+                <div
+                  className="ImageViewFamilyCaptionContainerStyles"
                 >
-                  Click to learn more about the biomes of Namibia.
-                </p>
+                  <span>
+                    <i
+                      aria-hidden="true"
+                      className="hand point up outline icon"
+                      onClick={[Function]}
+                    />
+                    Click to learn more about the biomes of Namibia.
+                  </span>
+                </div>
               </div>
             </div>
           </div>

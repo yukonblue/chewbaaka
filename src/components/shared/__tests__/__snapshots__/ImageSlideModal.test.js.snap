@@ -2,7 +2,7 @@
 
 exports[`ImageSlideModal component snapshot 1`] = `
 <div
-  className="ImageSlideModalCoverTriggerOuterContainer"
+  className="ImageSlideModalCoverTriggerOuterContainer ImageViewFamilyContainerBorderStyles ImageViewFamilyContainerShadow ImageViewFamilyContainerBackgroundStyles"
   onBlur={[Function]}
   onClick={[Function]}
   onFocus={[Function]}
@@ -15,7 +15,7 @@ exports[`ImageSlideModal component snapshot 1`] = `
   }
 >
   <div
-    className="ImageSlideModalCoverTriggerInnerContainer"
+    className="ImageSlideModalCoverTriggerInnerContainer ImageViewFamilyContainerBorderStyles"
     data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
     onClick={[Function]}
     style={
@@ -31,10 +31,13 @@ exports[`ImageSlideModal component snapshot 1`] = `
     >
       <i
         aria-hidden="true"
-        className="blue images outline huge icon"
+        className="blue images outline large icon"
         onClick={[Function]}
       />
     </div>
   </div>
+  <div
+    className="ImageViewFamilyCaptionContainerStyles"
+  />
 </div>
 `;

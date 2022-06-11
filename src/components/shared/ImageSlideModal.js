@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 05, 2020
- * Updated  : Aug 08, 2020
+ * Updated  : Jun 11, 2022
  */
 
 import React from 'react'
@@ -18,6 +18,13 @@ import { getElementStyleClassName } from '../../styling/styling'
 import 'semantic-ui-css/semantic.min.css'
 
 import "./ImageSlideModal.css"
+
+import {
+  Design2ImageViewFamilyContainerStyles,
+  Design2ImageViewFamilyCaptionContainerStyles
+} from '../shared/Design2_ImageViewFamilyUtils'
+
+import { combineStyles } from './Utils'
 
 if ( process.env.NODE_ENV === 'development' )
   require('./ImageSlideModal-debug.css')
@@ -83,9 +90,10 @@ export default class ImageSlideModal extends React.Component {
     const renderCaption = () => {
       if ( this.props.caption ) {
         return (
-          <ContentPageCaptionLabel>
+          <span>
+            <Icon name='hand point up outline'/>
             {this.props.caption}
-          </ContentPageCaptionLabel>
+          </span>
         );
       } else return null;
     };
@@ -94,11 +102,11 @@ export default class ImageSlideModal extends React.Component {
       <Modal
         trigger={
           <div
-            className={getElementStyleClassName("ImageSlideModalCoverTriggerOuterContainer")}
+            className={combineStyles("ImageSlideModalCoverTriggerOuterContainer", Design2ImageViewFamilyContainerStyles)}
             style={modalCoverContainerDimensionStyle}
           >
             <div
-              className="ImageSlideModalCoverTriggerInnerContainer"
+              className={combineStyles("ImageSlideModalCoverTriggerInnerContainer", "ImageViewFamilyContainerBorderStyles")}
               style={modalCoverTriggerContainerStyle}
               onClick={this.handleOpen}
               data-testid="ImageSlideModalComponentCoverImageContainerDivTestId"
@@ -107,12 +115,15 @@ export default class ImageSlideModal extends React.Component {
                 <Icon
                   name="images outline"
                   color="blue"
-                  size="huge"
+                  size="large"
                   onClick={this.handleOpen}
                 />
               </div>
             </div>
-            {renderCaption()}
+
+            <div className={Design2ImageViewFamilyCaptionContainerStyles}>
+              {renderCaption()}
+            </div>
           </div>
         }
         open={this.state.isModalOpen}
