@@ -42,21 +42,20 @@ exports[`BiologyPageSubsectionLifecycleStage2 component snapshot 1`] = `
         <div
           className="ContentPageSubsectionPartContainer"
         >
-          <div>
+          <div
+            className="MediaLinkButton CommonButtonRoundedBorderRadiusStyle"
+          >
             <a
               href="https://www.youtube.com/embed/Wjtb7XMZlgY"
             >
-              <button
-                className="ui blue icon button"
-                onClick={[Function]}
-              >
+              <span>
                 Cheetah Mom Teaches Cubs to Hunt 
-                <i
-                  aria-hidden="true"
-                  className="youtube icon"
-                  onClick={[Function]}
-                />
-              </button>
+              </span>
+              <i
+                aria-hidden="true"
+                className="youtube icon"
+                onClick={[Function]}
+              />
             </a>
           </div>
         </div>

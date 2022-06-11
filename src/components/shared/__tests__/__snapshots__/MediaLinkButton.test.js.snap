@@ -1,21 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`MediaLinkButton component snapshot 1`] = `
-<div>
+<div
+  className="MediaLinkButton CommonButtonRoundedBorderRadiusStyle"
+>
   <a
     href="https://www.youtube.com/watch?v=WYjeEG06cjc"
   >
-    <button
-      className="ui blue icon button"
-      onClick={[Function]}
-    >
+    <span>
       Watch "Walking with Chewbaaka" on YouTube
-      <i
-        aria-hidden="true"
-        className="file video icon"
-        onClick={[Function]}
-      />
-    </button>
+    </span>
+    <i
+      aria-hidden="true"
+      className="file video icon"
+      onClick={[Function]}
+    />
   </a>
 </div>
 `;

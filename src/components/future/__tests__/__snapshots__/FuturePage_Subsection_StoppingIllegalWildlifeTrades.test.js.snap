@@ -122,21 +122,20 @@ exports[`FuturePageSubsectionStoppingIllegalWildlifeTrades component snapshot 1`
       <div
         className="VerticalCushionPadding"
       >
-        <div>
+        <div
+          className="MediaLinkButton CommonButtonRoundedBorderRadiusStyle"
+        >
           <a
             href="https://cheetah.org/press-releases/cheetah-conservation-fund-receives-emaciated-cubs-intercepted-from-wildlife-traffickers-by-somaliland-government-in-record-breaking-seizure/"
           >
-            <button
-              className="ui blue icon button"
-              onClick={[Function]}
-            >
+            <span>
               Read on CCF’s collaboration with the Somaliland government on intercepting cheetah trafficking
-              <i
-                aria-hidden="true"
-                className="file alternate outline icon"
-                onClick={[Function]}
-              />
-            </button>
+            </span>
+            <i
+              aria-hidden="true"
+              className="file alternate outline icon"
+              onClick={[Function]}
+            />
           </a>
         </div>
       </div>

@@ -25,21 +25,20 @@ exports[`BiologyPageSubsectionLifecycleStage3 component snapshot 1`] = `
     >
       Cheetahs are diurnal, hunting mornings and early evenings. They rely on their sight to find prey. They spend most of the day resting under shady trees or on termite mounds. Night hunting is only done during a bright moon.
     </p>
-    <div>
+    <div
+      className="MediaLinkButton CommonButtonRoundedBorderRadiusStyle"
+    >
       <a
         href="https://www.nationalgeographic.co.uk/animals/2017/12/stunning-pictures-cheetahs-action"
       >
-        <button
-          className="ui blue icon button"
-          onClick={[Function]}
-        >
+        <span>
           Stunning Pictures of Cheetahs in Action | National Geographic
-          <i
-            aria-hidden="true"
-            className="file image icon"
-            onClick={[Function]}
-          />
-        </button>
+        </span>
+        <i
+          aria-hidden="true"
+          className="file image icon"
+          onClick={[Function]}
+        />
       </a>
     </div>
     <img

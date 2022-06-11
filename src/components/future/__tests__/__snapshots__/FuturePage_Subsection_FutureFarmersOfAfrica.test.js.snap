@@ -163,21 +163,20 @@ exports[`FuturePageSubsectionFutureFarmersOfAfrica component snapshot 1`] = `
       <div
         className="VerticalCushionPadding"
       >
-        <div>
+        <div
+          className="MediaLinkButton CommonButtonRoundedBorderRadiusStyle"
+        >
           <a
             href="https://cheetah.org/canada/about-us/what-we-support/future-farmers-of-africa/"
           >
-            <button
-              className="ui blue icon button"
-              onClick={[Function]}
-            >
+            <span>
               Read on CCF's blog on Future Farmers of Africa
-              <i
-                aria-hidden="true"
-                className="file alternate outline icon"
-                onClick={[Function]}
-              />
-            </button>
+            </span>
+            <i
+              aria-hidden="true"
+              className="file alternate outline icon"
+              onClick={[Function]}
+            />
           </a>
         </div>
       </div>

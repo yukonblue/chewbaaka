@@ -1,0 +1,20 @@
+/**
+ * MediaLinkButton.css
+ * Chewbaaka
+ *
+ * Author   : Tomiko
+ * Created  : Jun 11, 2022
+ * Updated  : Jun 11, 2022
+ */
+
+div.MediaLinkButton {
+  display: inline-block;
+  font-weight: bold;
+  padding: 12px;
+  border: 2px solid;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+div.MediaLinkButton a:hover {
+  color: rgb(255,149,0);
+}

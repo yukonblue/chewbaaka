@@ -193,21 +193,20 @@ exports[`HistoryPageSubsectionNamibia component snapshot 1`] = `
     </div>
     <br />
     <br />
-    <div>
+    <div
+      className="MediaLinkButton CommonButtonRoundedBorderRadiusStyle"
+    >
       <a
         href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5729830/"
       >
-        <button
-          className="ui blue icon button"
-          onClick={[Function]}
-        >
+        <span>
           The distribution and numbers of cheetah (Acinonyx jubatus) in southern Africa
-          <i
-            aria-hidden="true"
-            className="file alternate outline icon"
-            onClick={[Function]}
-          />
-        </button>
+        </span>
+        <i
+          aria-hidden="true"
+          className="file alternate outline icon"
+          onClick={[Function]}
+        />
       </a>
     </div>
   </div>

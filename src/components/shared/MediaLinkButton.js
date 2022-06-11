@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jul 29, 2020
+ * Updated  : Jun 11, 2022
  */
 
 /**
@@ -27,16 +27,20 @@
 
 import React from 'react'
 
-import { Button, Icon } from 'semantic-ui-react'
+import { Icon } from 'semantic-ui-react'
+ 
+import { Design2CommonButtonRoundedBorderRadiusStyle } from './Design2_CommonUtils';
+
+import { combineStyles } from './Utils';
+
+import './MediaLinkButton.css'
 
 export default function MediaLinkButton(props) {
   return (
-    <div>
+    <div className={combineStyles("MediaLinkButton", Design2CommonButtonRoundedBorderRadiusStyle)}>
       <a href={props.href}>
-        <Button icon color="blue">
-          {props.title}
-          <Icon name={props.icon ? props.icon : "file video"} />
-        </Button>
+        <span>{props.title}</span>
+        <Icon name={props.icon ? props.icon : "file video"} />
       </a>
     </div>
   );
