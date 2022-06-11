@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jun 09, 2022
- * Updated  : Jun 09, 2022
+ * Updated  : Jun 11, 2022
  */
 
 import { join } from './Utils'
@@ -16,7 +16,7 @@ const __Design2ImageViewFamilyImgStyles = [
 
 const __Design2ImageViewFamilyContainerStyles = [
   "ImageViewFamilyContainerBorderStyles",
-  "ImageViewFamilyContainerShadow",
+  "ImageViewFamilyContainerShadowStyles",
   "ImageViewFamilyContainerBackgroundStyles"
 ]
 
