@@ -82,21 +82,20 @@ exports[`FuturePageSubsectionFieldResearch component snapshot 1`] = `
     <div
       className="VerticalCushionPadding"
     >
-      <div>
+      <div
+        className="MediaLinkButton CommonButtonRoundedBorderRadiusStyle"
+      >
         <a
           href="https://cheetah.org/about/what-we-do/research/"
         >
-          <button
-            className="ui blue icon button"
-            onClick={[Function]}
-          >
+          <span>
             Learn more about CCF's research work
-            <i
-              aria-hidden="true"
-              className="file alternate outline icon"
-              onClick={[Function]}
-            />
-          </button>
+          </span>
+          <i
+            aria-hidden="true"
+            className="file alternate outline icon"
+            onClick={[Function]}
+          />
         </a>
       </div>
     </div>

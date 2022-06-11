@@ -2377,21 +2377,20 @@ exports[`HistoryPageSubsectionFelidaeFamilyTree component snapshot 1`] = `
             </div>
           </div>
         </div>
-        <div>
+        <div
+          className="MediaLinkButton CommonButtonRoundedBorderRadiusStyle"
+        >
           <a
             href="https://www.wildcatfamily.com/felidae-evolution/"
           >
-            <button
-              className="ui blue icon button"
-              onClick={[Function]}
-            >
+            <span>
               Learn more about Felidae Evolution
-              <i
-                aria-hidden="true"
-                className="file alternate outline icon"
-                onClick={[Function]}
-              />
-            </button>
+            </span>
+            <i
+              aria-hidden="true"
+              className="file alternate outline icon"
+              onClick={[Function]}
+            />
           </a>
         </div>
       </div>

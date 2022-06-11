@@ -144,21 +144,20 @@ exports[`BiologyPageSubsectionCommunication component snapshot 1`] = `
       <div
         className="VerticalCushionPadding"
       >
-        <div>
+        <div
+          className="MediaLinkButton CommonButtonRoundedBorderRadiusStyle"
+        >
           <a
             href="https://www.youtube.com/watch?v=3kFl_TY3iUg"
           >
-            <button
-              className="ui blue icon button"
-              onClick={[Function]}
-            >
+            <span>
               Cheetah Awareness Day - Vocalizations 
-              <i
-                aria-hidden="true"
-                className="youtube icon"
-                onClick={[Function]}
-              />
-            </button>
+            </span>
+            <i
+              aria-hidden="true"
+              className="youtube icon"
+              onClick={[Function]}
+            />
           </a>
         </div>
       </div>

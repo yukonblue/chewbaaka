@@ -57,21 +57,20 @@ exports[`FuturePageSubsectionCheetahAmbassadors component snapshot 1`] = `
                   Without farmer support, CCF wouldn't be able to release cheetahs back into the wild. By helping people live alongside predators CCF is helping save the cheetah and its ecosystem.
                 </p>
                 <div>
-                  <div>
+                  <div
+                    className="MediaLinkButton CommonButtonRoundedBorderRadiusStyle"
+                  >
                     <a
                       href="https://www.youtube.com/watch?v=WYjeEG06cjc"
                     >
-                      <button
-                        className="ui blue icon button"
-                        onClick={[Function]}
-                      >
+                      <span>
                         Watch "Walking with Chewbaaka" on YouTube
-                        <i
-                          aria-hidden="true"
-                          className="file video icon"
-                          onClick={[Function]}
-                        />
-                      </button>
+                      </span>
+                      <i
+                        aria-hidden="true"
+                        className="file video icon"
+                        onClick={[Function]}
+                      />
                     </a>
                   </div>
                 </div>

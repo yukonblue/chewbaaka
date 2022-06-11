@@ -123,21 +123,20 @@ exports[`FuturePageSubsectionInternshipsAndVolunteering component snapshot 1`] =
     <div
       className="ContentPageSubsectionPartContainer"
     >
-      <div>
+      <div
+        className="MediaLinkButton CommonButtonRoundedBorderRadiusStyle"
+      >
         <a
           href="https://cheetah.org/get-involved/volunteer/"
         >
-          <button
-            className="ui blue icon button"
-            onClick={[Function]}
-          >
+          <span>
             Learn more about CCF's Volunteer Program
-            <i
-              aria-hidden="true"
-              className="file alternate outline icon"
-              onClick={[Function]}
-            />
-          </button>
+          </span>
+          <i
+            aria-hidden="true"
+            className="file alternate outline icon"
+            onClick={[Function]}
+          />
         </a>
       </div>
     </div>
