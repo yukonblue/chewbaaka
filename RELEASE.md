@@ -1,9 +1,26 @@
 # Release Note
 
+## Version 0.6.0
+
+* Date: June 11, 2022
+* Tag: `0.6.0`
+* Changelog:
+  * Introduces Design 2 for select components 🎨 🎉 🚀
+    * Minor fix in Design 2 style (#290)
+    * Introduce Design 2 styles for `ImageSlideModal` component (#289)
+    * Introduce Design 2 styles for `MediaLinkButton` (#288)
+    * Design 2 - general refinement (#287)
+    * Introduce `Design2CommonRoundedBorderRadiusStyle` and apply to `ContentPageBanner` component (#286)
+    * Consolidate image view like component styles into Design 2 (#285)
+    * Redesign styles for `ImageView` (#284)
+  * Fixes:
+    * Fix image sliding modal instance dimension overflow issue under Ecology page (#291)
+
 ## Version 0.5.6
 
 * Date: June 06, 2022
 * Tag: `0.5.6`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/0.5.6)
 * Changelog:
   * Package updates:
     * Bump `eventsource` from `1.1.0` to `1.1.1`
