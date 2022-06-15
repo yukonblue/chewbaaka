@@ -5,7 +5,7 @@ exports[`FuturePageSubsectionSchoolsTeachersLearners component snapshot 1`] = `
   className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
   style={
     Object {
-      "backgroundColor": "#CDFFFF",
+      "backgroundColor": "#ADD8E6",
     }
   }
 >
