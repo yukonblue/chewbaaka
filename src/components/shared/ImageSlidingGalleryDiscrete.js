@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 23, 2020
- * Updated  : Jun 09, 2022
+ * Updated  : Jun 15, 2022
  */
 
 /**
@@ -25,7 +25,9 @@
 
 import React, { Fragment } from 'react'
 
-import { Button } from "semantic-ui-react"
+import { Button, Transition } from "semantic-ui-react"
+
+import uniqid from 'uniqid'
 
 import { getFormattedImageCaptionStringWithCredit } from './ImageCaptionUtils'
 
@@ -109,13 +111,15 @@ export default class ImageSlidingGalleryDiscrete extends React.Component {
           style={componentDimensionStyle}
         >
           <div className={getElementStyleClassName("ImageSlidingGalleryDiscreteCoreContainer")}>
-            <img className={Design2ImageViewFamilyImgStyles}
-              src={activeSlide.image}
-              alt={caption}
-              // Specify the aspect ratio
-              width={aspectRatio.width}
-              height={aspectRatio.height}
-            />
+            <Transition key={uniqid()} transitionOnMount={true} visible={true} duration={500} animation="browse">
+              <img className={Design2ImageViewFamilyImgStyles}
+                src={activeSlide.image}
+                alt={caption}
+                // Specify the aspect ratio
+                width={aspectRatio.width}
+                height={aspectRatio.height}
+              />
+            </Transition>
             {this.renderPrevNextButtonGroup()}
           </div>
           <div

@@ -175,9 +175,14 @@ exports[`EcologyPageSectionResearch component snapshot 1`] = `
                 >
                   <img
                     alt="Cheetah movement study with camera traps in the Greater Waterberg Conservancy. (Image credit: Cheetah Conservation Fund)"
-                    className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
+                    className="browse ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles animating in visible transition"
                     height={432}
                     src="camera_trap_locations_in_Waterberg_Conservancy-min.jpg"
+                    style={
+                      Object {
+                        "animationDuration": "500ms",
+                      }
+                    }
                     width={720}
                   />
                   <div

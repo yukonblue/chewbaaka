@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jun 09, 2022
+ * Updated  : Jun 15, 2022
  */
 
 /**
@@ -28,7 +28,9 @@
 
 import React from 'react'
 
-import { Button } from "semantic-ui-react"
+import { Button, Transition } from "semantic-ui-react"
+
+import uniqid from 'uniqid'
 
 import 'semantic-ui-css/semantic.min.css'
 
@@ -92,13 +94,15 @@ export default class ImageSlidingGallery extends React.Component {
       >
         <div className="ImageSlidingGalleryCoreContainer">
           <div className={Design2ImageViewFamilyContainerStyles}>
-            <img
-              className={Design2ImageViewFamilyImgStyles}
-              src={activeSlide.image}
-              alt={caption}
-              width={aspectRatio.width}
-              height={aspectRatio.height}
-            />
+            <Transition key={uniqid()} transitionOnMount={true} visible={true} duration={500} animation="fade right">
+              <img
+                className={Design2ImageViewFamilyImgStyles}
+                src={activeSlide.image}
+                alt={caption}
+                width={aspectRatio.width}
+                height={aspectRatio.height}
+              />
+            </Transition>
             <div className={Design2ImageViewFamilyCaptionContainerStyles}
               data-testid="ImageSlidingGalleryCaptionPart"
             >
