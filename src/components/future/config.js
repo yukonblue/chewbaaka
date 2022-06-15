@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 14, 2020
- * Updated  : Jun 10, 2022
+ * Updated  : Jun 14, 2022
  */
 
 export const config = {
@@ -347,7 +347,7 @@ export const config = {
                 "CCF educates farmers, teachers, students, and the public about methods to conserve biodiversity, " +
                 "as well as champion the idea that everybody can be a custodian of nature and has something to contribute."
       },
-      accentColor: "#CDFFFF",
+      accentColor: "#ADD8E6",
       subsections: {
         subsection_FieldResearch: {
           title: "Field Research",
