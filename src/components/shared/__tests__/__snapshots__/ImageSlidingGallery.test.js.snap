@@ -5,7 +5,7 @@ exports[`ImageSlidingGallery component snapshot 1`] = `
   className="ImageSlidingGalleryOuterContainer"
   style={
     Object {
-      "maxWidth": undefined,
+      "maxWidth": 1600,
     }
   }
 >
@@ -36,7 +36,7 @@ exports[`ImageSlidingGallery component snapshot 1`] = `
           data-testid="CaptionComponentTestId"
           style={
             Object {
-              "maxWidth": undefined,
+              "maxWidth": 1600,
             }
           }
         >

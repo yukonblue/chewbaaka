@@ -60,7 +60,7 @@ exports[`FuturePageSubsectionSchoolsTeachersLearners component snapshot 1`] = `
               className="ImageSlidingGalleryOuterContainer"
               style={
                 Object {
-                  "maxWidth": undefined,
+                  "maxWidth": 533,
                 }
               }
             >
@@ -91,7 +91,7 @@ exports[`FuturePageSubsectionSchoolsTeachersLearners component snapshot 1`] = `
                       data-testid="CaptionComponentTestId"
                       style={
                         Object {
-                          "maxWidth": undefined,
+                          "maxWidth": 533,
                         }
                       }
                     >
