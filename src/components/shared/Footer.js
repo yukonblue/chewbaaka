@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 02, 2020
- * Updated  : Aug 22, 2020
+ * Updated  : Jun 14, 2022
  */
 
 import React from 'react'
@@ -29,7 +29,7 @@ export default function Footer(props) {
   const renderOptionalAuthorName = () => (
     props.appConfig && props.appConfig.author ? (
       <p>
-        Crafted with <span role="img" aria-label="heart">&#10084;&#65039;</span> by {props.appConfig.author}
+        Crafted with <span role="img" aria-label="heart">&#10084;&#65039;</span> by {props.appConfig.author} &#127464;&#127462;
       </p>
     ) : null
   );
