@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 15, 2020
- * Updated  : Jun 10, 2022
+ * Updated  : Jun 14, 2022
  */
 
 export const config = {
@@ -77,7 +77,7 @@ export const config = {
                 "land animal on the planet, nothing speaks more about the incredible adaptations that allow them " +
                 "to survive and thrive in the challenging environments where they live."
       },
-      accentColor: "#FFBB00",
+      accentColor: "#e3ffe7",
       subsections: {
         subsection_Lifecycle_Stage_1: {
           title: "Stage 1",

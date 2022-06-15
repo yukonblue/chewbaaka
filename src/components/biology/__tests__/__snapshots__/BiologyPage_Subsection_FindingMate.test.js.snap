@@ -5,7 +5,7 @@ exports[`BiologyPageSubsectionFindingMate component snapshot 1`] = `
   className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
   style={
     Object {
-      "backgroundColor": "#FFBB00",
+      "backgroundColor": "#e3ffe7",
     }
   }
 >

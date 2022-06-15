@@ -5,7 +5,7 @@ exports[`HistoryPageSubsectionCheetahsInArt component snapshot 1`] = `
   className="ContentPageSubsectionTemplateOuterContainer CommonRoundedBorderRadiusStyle"
   style={
     Object {
-      "backgroundColor": "#FFF8DC",
+      "backgroundColor": "#d9e7ff",
     }
   }
 >

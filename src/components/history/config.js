@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jun 10, 2022
+ * Updated  : Jun 14, 2022
  */
 
 export const config = {
@@ -95,7 +95,7 @@ export const config = {
         "The relationship between cheetahs and us have been both profound and complex, " +
         "as the species have been revered, utilized, displayed, and exploited throughout human history."
       },
-      accentColor: "#FFF8DC",
+      accentColor: "#d9e7ff",
       subsections: {
         subsection_RelationshipsWithMan: {
           title: "Relationships with Man",
