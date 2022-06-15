@@ -72,9 +72,14 @@ exports[`FuturePageSubsectionSchoolsTeachersLearners component snapshot 1`] = `
                 >
                   <img
                     alt="CCF's Predator Preyground."
-                    className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
+                    className="fade right ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles animating in visible transition"
                     height={320}
                     src="CCF_Predator_Preyground-min.jpg"
+                    style={
+                      Object {
+                        "animationDuration": "500ms",
+                      }
+                    }
                     width={533}
                   />
                   <div

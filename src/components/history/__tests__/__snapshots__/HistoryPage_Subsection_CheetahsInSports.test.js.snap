@@ -40,9 +40,14 @@ exports[`HistoryPageSubsectionCheetahsInSports component snapshot 1`] = `
               >
                 <img
                   alt="A painting depicting a cheetah gifted to the English King George III by the Tippoo Sultan in 1799."
-                  className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
+                  className="fade right ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles animating in visible transition"
                   height={317}
                   src="cheetah_with_two_indian_servants-min.jpg"
+                  style={
+                    Object {
+                      "animationDuration": "500ms",
+                    }
+                  }
                   width={485}
                 />
                 <div

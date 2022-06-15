@@ -172,9 +172,14 @@ exports[`FuturePageSubsectionStoppingIllegalWildlifeTrades component snapshot 1`
             >
               <img
                 alt="Most cheetah cubs trafficked and sold end up as buyers' pets. The cubs consequently suffer from shock, malnourishment, and unsuitable living conditions."
-                className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
+                className="browse ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles animating in visible transition"
                 height={576}
                 src="cheetah_rescue_01-min.jpg"
+                style={
+                  Object {
+                    "animationDuration": "500ms",
+                  }
+                }
                 width={960}
               />
               <div

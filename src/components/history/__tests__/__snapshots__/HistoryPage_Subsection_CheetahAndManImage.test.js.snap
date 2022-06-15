@@ -66,9 +66,14 @@ exports[`HistoryPageSubsectionCheetahAndManImage component snapshot 1`] = `
               >
                 <img
                   alt="Mafdet’s head on the bed where the mummy is placed."
-                  className="ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles"
+                  className="fade right ImageViewFamilyImgLayoutStyles ImageViewFamilyImgBorderStyles animating in visible transition"
                   height={320}
                   src="image_Mafdet-min.jpg"
+                  style={
+                    Object {
+                      "animationDuration": "500ms",
+                    }
+                  }
                   width={480}
                 />
                 <div
