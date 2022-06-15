@@ -2,57 +2,56 @@
 
 exports[`ContentPageSideNavMenu component snapshot 1`] = `
 <div
-  className="ContentPageSideNavMenuOuterContainer"
+  className="ContentPageSideNavMenuOuterContainer CommonRoundedBorderRadiusStyle"
   data-testid="ContentPageSideNavMenuComponentTestId"
 >
   <div
     className="ui text vertical ContentPageSideNavMenuInnerMenu menu"
   >
-    <div
-      className="header item"
+    <a
+      className="active item"
+      href="/history/"
       onClick={[Function]}
     >
       <span
-        className="ContentPageSideNavMenuHeader"
+        className="ContentPageSideNavMenuTopItem"
       >
-        Menu Title
+        History
       </span>
-    </div>
-    <nav>
-      <a
-        className="active item"
-        href="#menuitem1"
-        onClick={[Function]}
+    </a>
+    <a
+      className="active item"
+      href="/biology/"
+      onClick={[Function]}
+    >
+      <span
+        className="ContentPageSideNavMenuTopItem"
       >
-        <span
-          className="ContentPageSideNavMenuItem"
-        >
-          MenuItem1
-        </span>
-      </a>
-      <a
-        className="item"
-        href="#menuitem2"
-        onClick={[Function]}
+        Biology
+      </span>
+    </a>
+    <a
+      className="active item"
+      href="/ecology/"
+      onClick={[Function]}
+    >
+      <span
+        className="ContentPageSideNavMenuTopItem"
       >
-        <span
-          className="ContentPageSideNavMenuItem"
-        >
-          MenuItem2
-        </span>
-      </a>
-      <a
-        className="item"
-        href="#menuitem3"
-        onClick={[Function]}
+        Ecology
+      </span>
+    </a>
+    <a
+      className="active item"
+      href="/future/"
+      onClick={[Function]}
+    >
+      <span
+        className="ContentPageSideNavMenuTopItem"
       >
-        <span
-          className="ContentPageSideNavMenuItem"
-        >
-          MenuItem3
-        </span>
-      </a>
-    </nav>
+        Future
+      </span>
+    </a>
   </div>
 </div>
 `;
