@@ -631,46 +631,56 @@ exports[`ContentPageSkeleton snapshot 1`] = `
             hidden={true}
           >
             <div
-              className="ContentPageSideNavMenuOuterContainer"
+              className="ContentPageSideNavMenuOuterContainer CommonRoundedBorderRadiusStyle"
               data-testid="ContentPageSideNavMenuComponentTestId"
             >
               <div
                 className="ui text vertical ContentPageSideNavMenuInnerMenu menu"
               >
-                <div
-                  className="header item"
+                <a
+                  className="active item"
+                  href="/history/"
                   onClick={[Function]}
                 >
                   <span
-                    className="ContentPageSideNavMenuHeader"
+                    className="ContentPageSideNavMenuTopItem"
                   >
-                    Title
+                    History
                   </span>
-                </div>
-                <nav>
-                  <a
-                    className="active item"
-                    href="#menu-item-1"
-                    onClick={[Function]}
+                </a>
+                <a
+                  className="active item"
+                  href="/biology/"
+                  onClick={[Function]}
+                >
+                  <span
+                    className="ContentPageSideNavMenuTopItem"
                   >
-                    <span
-                      className="ContentPageSideNavMenuItem"
-                    >
-                      Menu Item 1
-                    </span>
-                  </a>
-                  <a
-                    className="item"
-                    href="#menu-item-2"
-                    onClick={[Function]}
+                    Biology
+                  </span>
+                </a>
+                <a
+                  className="active item"
+                  href="/ecology/"
+                  onClick={[Function]}
+                >
+                  <span
+                    className="ContentPageSideNavMenuTopItem"
                   >
-                    <span
-                      className="ContentPageSideNavMenuItem"
-                    >
-                      Menu Item 2
-                    </span>
-                  </a>
-                </nav>
+                    Ecology
+                  </span>
+                </a>
+                <a
+                  className="active item"
+                  href="/future/"
+                  onClick={[Function]}
+                >
+                  <span
+                    className="ContentPageSideNavMenuTopItem"
+                  >
+                    Future
+                  </span>
+                </a>
               </div>
             </div>
           </div>
