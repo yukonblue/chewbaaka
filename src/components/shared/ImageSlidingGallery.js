@@ -77,15 +77,15 @@ export default class ImageSlidingGallery extends React.Component {
   }
 
   render() {
-    const componentOuterContainerDimension = {
-      maxWidth: this.props.width
-    };
-
     const activeSlide = this.props.slides[this.state.activeIndex];
 
     const caption = getFormattedImageCaptionStringWithCredit(activeSlide.caption, activeSlide.credit);
 
     const aspectRatio = activeSlide.aspectRatio;
+
+    const componentOuterContainerDimension = {
+      maxWidth: this.props.width || aspectRatio.width
+    };
 
     return (
       <div
@@ -108,6 +108,7 @@ export default class ImageSlidingGallery extends React.Component {
             >
               <Caption
                 caption={caption}
+                width={componentOuterContainerDimension.maxWidth}
               />
             </div>
           </div>

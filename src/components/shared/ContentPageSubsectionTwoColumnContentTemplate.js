@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 07, 2020
- * Updated  : Jun 06, 2022
+ * Updated  : Jun 15, 2022
  */
 
 import React from 'react'
@@ -14,8 +14,7 @@ import "semantic-ui-css/semantic.min.css"
 import ContentPageSubsectionSubtitle from './ContentPageSubsectionSubtitle'
 
 import {
-  getElementStyleClassName,
-  getElementStyleClassNames
+  getElementStyleClassName
 } from '../../styling/styling'
 
 import './ContentPageSubsectionTwoColumnContentTemplate.css'
