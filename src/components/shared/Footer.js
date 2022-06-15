@@ -29,7 +29,7 @@ export default function Footer(props) {
   const renderOptionalAuthorName = () => (
     props.appConfig && props.appConfig.author ? (
       <p>
-        Crafted with <span role="img" aria-label="heart">&#10084;&#65039;</span> by {props.appConfig.author} from &#127464;&#127462;
+        Crafted with <span role="img" aria-label="heart">&#10084;&#65039;</span> by {props.appConfig.author} &#127464;&#127462;
       </p>
     ) : null
   );
