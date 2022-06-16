@@ -1,9 +1,23 @@
 # Release Note
 
+## Version 0.6.1
+
+* Date: June 15, 2022
+* Tag: `0.6.1`
+* Changelog:
+  * Refinements:
+    * Introduce Design 2 styles to `ContentPageSideNavMenu` component (#293)
+    * Refine accent colors (#294)
+    * Show country flag in authorship note in footer 🇨🇦 (#295)
+    * Apply transition effect to image sliding gallery views (#296)
+  * Fixes:
+    * Fix - Issue #297 (#298)
+
 ## Version 0.6.0
 
 * Date: June 11, 2022
 * Tag: `0.6.0`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/0.6.0)
 * Changelog:
   * Introduces Design 2 for select components 🎨 🎉 🚀
     * Minor fix in Design 2 style (#290)
