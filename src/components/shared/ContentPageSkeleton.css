@@ -4,7 +4,7 @@
  *
  * Author   : Tomiko
  * Created  : Jul 06, 2020
- * Updated  : Jun 09, 2022
+ * Updated  : Jun 17, 2022
  */
 
 .ContentPageSkeletonOuterContainer {
@@ -34,6 +34,16 @@ div.ContentPageSkeletonPreContentContainer {
       on mobile, and since the nav bar has a translucent bg color, it isn't ideal.
   */
   background-color: rgb(255, 255, 255);
+}
+
+div.ui.left.internal.rail.ContentPageSkeletonSideRail {
+  /** Specifies the z-index for the side rail nav bar */
+  z-index: 1000;      /** NOTE: Make sure this has a higher value than the z-index value of
+                          `div.ContentPageSkeletonPreContentContainer` defined above.
+
+                          Issue 300 - Content page side nav bar can be clipped by content page banner
+                          https://github.com/tetrachrome/chewbaaka/issues/300
+                      */
 }
 
 div.ContentPageSkeletonContentContainer {
