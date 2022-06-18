@@ -1,9 +1,18 @@
 # Release Note
 
+## Version 0.6.2
+
+* Date: June 17, 2022
+* Tag: `0.6.1`
+* Changelog:
+  * Fixes:
+    * Fix for Issue #300 (#301)
+
 ## Version 0.6.1
 
 * Date: June 15, 2022
 * Tag: `0.6.1`
+* Archive: [archive](https://github.com/tetrachrome/chewbaaka/releases/tag/0.6.1)
 * Changelog:
   * Refinements:
     * Introduce Design 2 styles to `ContentPageSideNavMenu` component (#293)
