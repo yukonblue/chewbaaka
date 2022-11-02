@@ -5,8 +5,6 @@ at [https://hope4cheetahs.org](https://hope4cheetahs.org).
 
 [![CircleCI](https://circleci.com/gh/tetrachrome/chewbaaka.svg?style=svg&circle-token=3ff42881c6c3f2a44809d10947587a4c566fd574)](https://circleci.com/gh/tetrachrome/chewbaaka)
 [![Actions Status](https://github.com/tetrachrome/chewbaaka/workflows/Node.js%20CI/badge.svg)](https://github.com/tetrachrome/chewbaaka/actions)
-[![platform-linux](https://img.shields.io/badge/platform-linux-orange)](#)
-[![platform-osx](https://img.shields.io/badge/platform-OSX-blue)](#)
 
 [![Help Stop Illegal Cheetah Trafficking](https://img.shields.io/static/v1?label=HELP&message=Stop%20Illegal%20Cheetah%20Trafficking&color=red&style=for-the-badge)](https://cheetah.org/learn/illegal-pet-trade/)
 [![Support Cheetah Conservation Fund](https://img.shields.io/static/v1?label=SUPPORT&message=Cheetah%20Conservation%20Fund&color=yellow&style=for-the-badge)](https://cheetah.org)
@@ -18,7 +16,7 @@ at [https://hope4cheetahs.org](https://hope4cheetahs.org).
 ![logo](./Resources/Chewbaaka_Logo_256x256.png)
 
 
-## Project Objectives
+## Project Objective
 
 Named after the iconic cheetah ambassador *Chewbaaka*, this project is
 dedicated to [Cheetah Conservation Fund](https://cheetah.org)
